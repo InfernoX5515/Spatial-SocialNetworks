@@ -1,3 +1,5 @@
+import numpy as np
+
 from Config import Config
 from PyQt5 import QtGui
 import pyqtgraph as pg
@@ -26,6 +28,7 @@ class Gui(QtWidgets.QMainWindow):
         self.config = Config()
         # Enable antialiasing for prettier plots
         pg.setConfigOptions(antialias=True)
+        pg.setConfigOption('background', 'white')
         # A dictionary of windows, each window has it's on id
         self.__windows = {}
         # TODO: Empty
@@ -46,9 +49,11 @@ class Gui(QtWidgets.QMainWindow):
         self.setGeometry(200, 200, 1000, 600)
         self.setWindowTitle("Spatial-Social Networks")
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
-        self.roadNetworkGraphWidget = pg.PlotWidget()
-        self.setCentralWidget(self.roadNetworkGraphWidget)
-        self.roadNetworkGraphWidget.setBackground('w')
+        self.win = pg.GraphicsLayoutWidget(show=True)
+        self.setCentralWidget(self.win)
+        self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1)
+        self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0)
+        #self.roadNetworkGraphWidget.setBackground('w')
         self.show()
 
     def __menuBar(self):
