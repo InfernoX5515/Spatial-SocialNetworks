@@ -66,6 +66,7 @@ class SocialNetwork:
     #       [lat_pos, lon_pos]
     #    ]
     # }
+    # noinspection SpellCheckingInspection,PyShadowingBuiltins
     def loadLoc(self, path=None):
         if path is not None:
             dict = {}
@@ -109,17 +110,18 @@ class SocialNetwork:
         # TODO: Include weight
         lat = []
         lon = []
+        relList = list(self.__rel)
         for x in range(start, end):
-            y = list(self.__rel)[x]
+            y = relList[x]
             rels = self.__rel[y]
             locs = self.__loc[y]
-            for z in range(0, len(locs)):
-                startLat = float(locs[z][0])
-                startLon = float(locs[z][1])
-                for a in range(0, len(rels)):
-                    for b in range(0, len(self.__loc[rels[a][0]])):
-                        endLat = float(self.__loc[rels[a][0]][b][0])
-                        endLon = float(self.__loc[rels[a][0]][b][1])
+            for z in locs:
+                startLat = float(z[0])
+                startLon = float(z[1])
+                for a in rels:
+                    for b in range(0, len(self.__loc[a[0]])):
+                        endLat = float(self.__loc[a[0]][b][0])
+                        endLon = float(self.__loc[a[0]][b][1])
                         lat = lat + [startLat, endLat]
                         lon = lon + [startLon, endLon]
         self.__normalizedData[0] = self.__normalizedData[0] + lat

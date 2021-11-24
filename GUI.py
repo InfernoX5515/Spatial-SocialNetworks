@@ -42,6 +42,9 @@ class Gui(QtWidgets.QMainWindow):
         # Used for storing file hierarchy data
         self.__objects = {}
         self.roadNetworkGraphWidget = None
+        self.roadSummaryGraphWidget = None
+        self.socialNetworkGraphWidget = None
+        self.socialSummaryGraphWidget = None
         self.__menuBar()
         self.__mainWindow()
 
@@ -68,17 +71,10 @@ class Gui(QtWidgets.QMainWindow):
         addFileMenu.addAction(addFileAction)
         # Add View menu option
         addViewMenu = mainMenu.addMenu("View")
-        # Add Real Network option
-        addRNMenu = mainMenu.addMenu("Real Network")
-        # Loads all road networks available
-        # TODO: Look into toggle buttons for menu
-        rNetworks = self.getCompleteRoadNetworks()
-        rActions = {}
-        for x in rNetworks:
-            rActions[x] = QtWidgets.QAction(x, self)
-            rActions[x].setStatusTip(f"Switch to view road network {x}")
-            rActions[x].triggered.connect(lambda junk, a=x: self.displayRoadNetwork(a))
-            addRNMenu.addAction(rActions[x])
+        viewSummaryAction = QtWidgets.QAction("Summary", self)
+        viewSummaryAction.setStatusTip("View summary graphs")
+        viewSummaryAction.triggered.connect(self.viewSummary)
+        addViewMenu.addAction(viewSummaryAction)
         # Add Social Network option
         addSNMenu = mainMenu.addMenu("Social Network")
         # Loads all social networks available
@@ -90,6 +86,22 @@ class Gui(QtWidgets.QMainWindow):
             sActions[x].setStatusTip(f"Switch to view social network {x}")
             sActions[x].triggered.connect(lambda junk, a=x: self.displaySocialNetwork(a))
             addSNMenu.addAction(sActions[x])
+        # Add Real Network option
+        addRNMenu = mainMenu.addMenu("Real Network")
+        # Loads all road networks available
+        # TODO: Look into toggle buttons for menu
+        rNetworks = self.getCompleteRoadNetworks()
+        rActions = {}
+        for x in rNetworks:
+            rActions[x] = QtWidgets.QAction(x, self)
+            rActions[x].setStatusTip(f"Switch to view road network {x}")
+            rActions[x].triggered.connect(lambda junk, a=x: self.displayRoadNetwork(a))
+            addRNMenu.addAction(rActions[x])
+
+    def viewSummary(self):
+        # TODO: Implement summary view
+        self.win.removeItem(self.roadNetworkGraphWidget)
+        self.win.removeItem(self.socialNetworkGraphWidget)
 
     def viewFiles(self):
         self.__objects = {

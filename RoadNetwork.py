@@ -1,7 +1,7 @@
 import csv
 import math
 import threading
-import pyqtgraph as pg
+
 
 # =====================================================================================================================
 #
@@ -15,7 +15,7 @@ import pyqtgraph as pg
 # =====================================================================================================================
 
 
-# TODO: Add stopwatch
+# TODO: Customize time messages more
 class RoadNetwork:
     # TODO: Add protection against loading file that does not exist
     def __init__(self, name=None, edges=None, nodes=None):
@@ -36,8 +36,8 @@ class RoadNetwork:
     # dict = {
     #    "edge_id": [start_id, end_id, weight],
     # }
+    # noinspection PyShadowingBuiltins
     def loadEdges(self, path=None):
-        print(path)
         if path is not None:
             dict = {}
             with open(path, 'r') as csvfile:
@@ -64,9 +64,11 @@ class RoadNetwork:
     #       [lat, lon]
     #    ]
     # }
+    # noinspection PyShadowingBuiltins
     def loadNodes(self, path=None):
         if path is not None:
             dict = {}
+            # noinspection SpellCheckingInspection
             with open(path, 'r') as csvfile:
                 reader = csv.reader(csvfile, delimiter=',', quotechar='|')
                 next(reader)
@@ -98,15 +100,16 @@ class RoadNetwork:
                 start = end * x
             for thread in threads:
                 thread.start()
-            #for thread in threads:
-            #    thread.join()
+            for thread in threads:
+                thread.join()
 
     # Parses a single chunk of data and adds it to the master list
     def parseDataChunk(self, start, end):
         lat = []
         lon = []
+        edgeList = list(self.__edges)
         for x in range(start, end):
-            y = list(self.__edges)[x]
+            y = edgeList[x]
             node = self.__edges[y][0]
             edge = self.__edges[y][1]
             startLat = float(self.__nodes[node][0])
@@ -120,12 +123,4 @@ class RoadNetwork:
 
     # Visualize the data
     def visualize(self, inst):
-        #self = pyqt.plot(self.__nodes['lat_pos'], self.__nodes['lon_pos'])
-        #for index, row in self.__edges.iterrows():
-            #print("H")
-        #    query = self.__nodes.query(f'node_id == {row["start_id"]} | node_id == {row["end_id"]}')
-            #print(query)
         inst.plot(self.__normalizedData[0], self.__normalizedData[1], connect='pairs', pen='black')
-        print("Ye")
-        #print(self.__nodes[['lat_pos', 'lon_pos']])
-        #self.__visual = pyqt.GraphicsWindow()  # Automatically generates grids with multiple items
