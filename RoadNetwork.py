@@ -17,13 +17,14 @@ import pyqtgraph as pg
 
 # TODO: Add stopwatch
 class RoadNetwork:
+    # TODO: Add protection against loading file that does not exist
     def __init__(self, name=None, edges=None, nodes=None):
         self.__name = name
         self.__edges = {}
         self.__nodes = {}
         self.__normalizedData = [[], []]
-        threads = [threading.Thread(target=lambda: self.loadEdges(self, path=edges)),
-                   threading.Thread(target=lambda: self.loadNodes(self, path=nodes))]
+        threads = [threading.Thread(target=lambda: self.loadEdges(path=edges)),
+                   threading.Thread(target=lambda: self.loadNodes(path=nodes))]
         for thread in threads:
             thread.start()
         for thread in threads:
@@ -35,7 +36,6 @@ class RoadNetwork:
     # dict = {
     #    "edge_id": [start_id, end_id, weight],
     # }
-    @staticmethod
     def loadEdges(self, path=None):
         print(path)
         if path is not None:
@@ -64,7 +64,6 @@ class RoadNetwork:
     #       [lat, lon]
     #    ]
     # }
-    @staticmethod
     def loadNodes(self, path=None):
         if path is not None:
             dict = {}

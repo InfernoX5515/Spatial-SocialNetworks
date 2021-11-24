@@ -1,4 +1,7 @@
-import pandas as pa
+import csv
+import math
+import threading
+
 
 # =====================================================================================================================
 #
@@ -13,14 +16,115 @@ import pandas as pa
 
 
 class SocialNetwork:
-    def __init__(self):
-        self.__loc = None
-        self.__rel = None
+    # TODO: Add protection against loading file that does not exist
+    def __init__(self, name=None, rel=None, loc=None):
+        self.__name = name
+        self.__rel = {}
+        self.__loc = {}
+        self.__normalizedData = [[], []]
+        threads = [threading.Thread(target=lambda: self.loadLoc(path=loc)),
+                   threading.Thread(target=lambda: self.loadRel(path=rel))]
+        for thread in threads:
+            thread.start()
+        for thread in threads:
+            thread.join()
+        self.normalizeData()
+        self.__visual = None
 
-    # Reads loc file from path
-    def loadLoc(self, path):
-        self.__loc = pa.read_csv(path, header=1)
+    # Reads rel file from path. This is super awful but it's the fastest way to do things. This is what it returns:
+    # dict = {
+    #    "user_id":
+    #    [
+    #       [rel_user_id, weight],
+    #       [rel_user_id, weight]
+    #    ]
+    # }
+    # noinspection PyShadowingBuiltins
+    def loadRel(self, path=None):
+        if path is not None:
+            dict = {}
+            with open(path, 'r') as csvfile:
+                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                next(reader)
+                for row in reader:
+                    user_id = row[0]
+                    rel_user_id = row[1]
+                    weight = row[2]
+                    if user_id in dict:
+                        dict[user_id] = dict[user_id] + [[rel_user_id, weight]]
+                    else:
+                        dict[user_id] = [[rel_user_id, weight]]
+            self.__rel = dict
+        else:
+            self.__rel = None
 
-    # Reads rel file from path
-    def loadRel(self, path):
-        self.__rel = pa.read_csv(path, header=1)
+    # Reads loc file from path.
+    # dict = {
+    #    "user_id":
+    #    [
+    #       [lat_pos, lon_pos],
+    #       [lat_pos, lon_pos]
+    #    ]
+    # }
+    def loadLoc(self, path=None):
+        if path is not None:
+            dict = {}
+            with open(path, 'r') as csvfile:
+                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                next(reader)
+                for row in reader:
+                    user_id = row[0]
+                    lat_pos = row[1]
+                    lon_pos = row[2]
+                    if user_id in dict:
+                        dict[user_id] = dict[user_id] + [lat_pos, lon_pos]
+                    else:
+                        dict[user_id] = [[lat_pos, lon_pos]]
+            self.__loc = dict
+        else:
+            self.__loc = None
+
+    # Parses the data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
+    # This also chunks the data for faster processing and dedicates x number of threads to storing that data
+    def normalizeData(self):
+        if self.__rel is not None and self.__loc is not None:
+            threads = []
+            total = len(self.__rel)
+            threadCount = 10
+            start = 0
+            end = math.floor(total / threadCount)
+            for x in range(1, threadCount + 1):
+                if x == threadCount + 1:
+                    end = total
+                threads.append(threading.Thread(target=lambda s=start, e=end, y=x: self.parseDataChunk(s, e * y)))
+                start = end * x
+            for thread in threads:
+                thread.start()
+            # for thread in threads:
+            #    thread.join()
+
+    # Parses a single chunk of data and adds it to the master list
+    # noinspection SpellCheckingInspection
+    def parseDataChunk(self, start, end):
+        # TODO: Include weight
+        lat = []
+        lon = []
+        for x in range(start, end):
+            y = list(self.__rel)[x]
+            rels = self.__rel[y]
+            locs = self.__loc[y]
+            for z in range(0, len(locs)):
+                startLat = float(locs[z][0])
+                startLon = float(locs[z][1])
+                for a in range(0, len(rels)):
+                    for b in range(0, len(self.__loc[rels[a][0]])):
+                        endLat = float(self.__loc[rels[a][0]][b][0])
+                        endLon = float(self.__loc[rels[a][0]][b][1])
+                        lat = lat + [startLat, endLat]
+                        lon = lon + [startLon, endLon]
+        self.__normalizedData[0] = self.__normalizedData[0] + lat
+        self.__normalizedData[1] = self.__normalizedData[1] + lon
+
+    # Visualize the data
+    def visualize(self, inst):
+        inst.plot(self.__normalizedData[0], self.__normalizedData[1], connect='pairs', pen='black')

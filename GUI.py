@@ -1,10 +1,10 @@
-import numpy as np
-
 from Config import Config
 from PyQt5 import QtGui
 import pyqtgraph as pg
 import PyQt5.QtWidgets as QtWidgets
 import os
+from RoadNetwork import RoadNetwork
+from SocialNetwork import SocialNetwork
 
 
 # =====================================================================================================================
@@ -18,7 +18,6 @@ import os
 #    to display data.
 #
 # =====================================================================================================================
-from RoadNetwork import RoadNetwork
 
 
 class Gui(QtWidgets.QMainWindow):
@@ -38,6 +37,8 @@ class Gui(QtWidgets.QMainWindow):
         self.getRoadNetworkInstances()
         # Used for storing all social network info
         self.__socialNetworks = self.config.settings["Social Networks"]
+        self.__socialNetworkObjs = {}
+        self.getSocialNetworkInstances()
         # Used for storing file hierarchy data
         self.__objects = {}
         self.roadNetworkGraphWidget = None
@@ -78,6 +79,17 @@ class Gui(QtWidgets.QMainWindow):
             rActions[x].setStatusTip(f"Switch to view road network {x}")
             rActions[x].triggered.connect(lambda junk, a=x: self.displayRoadNetwork(a))
             addRNMenu.addAction(rActions[x])
+        # Add Social Network option
+        addSNMenu = mainMenu.addMenu("Social Network")
+        # Loads all social networks available
+        # TODO: Look into toggle buttons for menu
+        sNetworks = self.getCompleteSocialNetworks()
+        sActions = {}
+        for x in sNetworks:
+            sActions[x] = QtWidgets.QAction(x, self)
+            sActions[x].setStatusTip(f"Switch to view social network {x}")
+            sActions[x].triggered.connect(lambda junk, a=x: self.displaySocialNetwork(a))
+            addSNMenu.addAction(sActions[x])
 
     def viewFiles(self):
         self.__objects = {
@@ -249,8 +261,20 @@ class Gui(QtWidgets.QMainWindow):
                 networks.append(x)
         return networks
 
+    def getCompleteSocialNetworks(self):
+        networks = []
+        for x in self.__socialNetworks:
+            if self.__socialNetworks[x]["Rel File"] != "[Rel File]" and \
+                    self.__socialNetworks[x]["Loc File"] != "[Loc File]":
+                networks.append(x)
+        return networks
+
     def displayRoadNetwork(self, network):
         self.__roadNetworkObjs[network].visualize(self.roadNetworkGraphWidget)
+        # self.show()
+
+    def displaySocialNetwork(self, network):
+        self.__socialNetworkObjs[network].visualize(self.socialNetworkGraphWidget)
         # self.show()
 
     def getRoadNetworkInstances(self):
@@ -263,5 +287,17 @@ class Gui(QtWidgets.QMainWindow):
                 nodes = self.__roadNetworks[x]["Node File"]
             self.__roadNetworkObjs[x] = RoadNetwork(x, edges, nodes)
 
+    # noinspection SpellCheckingInspection
+    def getSocialNetworkInstances(self):
+        for x in self.__socialNetworks:
+            rels = None
+            locs = None
+            if self.__socialNetworks[x]["Rel File"] != "[Rel File]":
+                rels = self.__socialNetworks[x]["Rel File"]
+            if self.__socialNetworks[x]["Loc File"] != "[Loc File]":
+                locs = self.__socialNetworks[x]["Loc File"]
+            self.__socialNetworkObjs[x] = SocialNetwork(x, rels, locs)
+
     def closeEvent(self, a0: QtGui.QCloseEvent) -> None:
         print("Closed")
+        exit(0)
