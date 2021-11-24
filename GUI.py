@@ -51,9 +51,8 @@ class Gui(QtWidgets.QMainWindow):
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
         self.win = pg.GraphicsLayoutWidget(show=True)
         self.setCentralWidget(self.win)
-        self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1)
-        self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0)
-        #self.roadNetworkGraphWidget.setBackground('w')
+        self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+        self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
         self.show()
 
     def __menuBar(self):
@@ -68,15 +67,17 @@ class Gui(QtWidgets.QMainWindow):
         addFileMenu.addAction(addFileAction)
         # Add View menu option
         addViewMenu = mainMenu.addMenu("View")
-        addRoadNetwork = addViewMenu.addMenu("Road Network")
+        # Add Real Network option
+        addRNMenu = mainMenu.addMenu("Real Network")
         # Loads all road networks available
+        # TODO: Look into toggle buttons for menu
         rNetworks = self.getCompleteRoadNetworks()
         rActions = {}
         for x in rNetworks:
             rActions[x] = QtWidgets.QAction(x, self)
             rActions[x].setStatusTip(f"Switch to view road network {x}")
             rActions[x].triggered.connect(lambda junk, a=x: self.displayRoadNetwork(a))
-            addRoadNetwork.addAction(rActions[x])
+            addRNMenu.addAction(rActions[x])
 
     def viewFiles(self):
         self.__objects = {
@@ -124,6 +125,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.__windows[0].setItemWidget(self.__objects[f"0.{i}.{j}"], 1, cFile[j])
         # Adds all sub-objects to socialNetworks
         i = 0
+        cFileS = {}
         for x in self.__socialNetworks:
             i += 1
             self.__objects[f"1.{i}"] = QtWidgets.QTreeWidgetItem([x])
@@ -138,10 +140,10 @@ class Gui(QtWidgets.QMainWindow):
                     iName = iNameArr[len(iNameArr) - 1]
                 self.__objects[f"1.{i}.{j}"] = QtWidgets.QTreeWidgetItem([iName])
                 self.__objects[f"1.{i}"].addChild(self.__objects[f"1.{i}.{j}"])
-                cFile[f"{j}.{j}"] = QtWidgets.QPushButton("Choose File")
-                cFile[f"{j}.{j}"].clicked.connect(
-                    lambda junk, a=i, b=x, c=y: self.chooseFile(f"0.{a}.{a}", "Social Network", b, c))
-                self.__windows[0].setItemWidget(self.__objects[f"1.{i}.{j}"], 1, cFile[f"{j}.{j}"])
+                cFileS[f"{j}.{j}"] = QtWidgets.QPushButton("Choose File")
+                cFileS[f"{j}.{j}"].clicked.connect(
+                    lambda junk, a=i, b=j, c=x, d=y: self.chooseFile(f"1.{a}.{b}", "Social Network", c, d))
+                self.__windows[0].setItemWidget(self.__objects[f"1.{i}.{j}"], 1, cFileS[f"{j}.{j}"])
 
     def newRoadNetwork(self):
         # TODO: Add exceptions, add error messages
