@@ -87,6 +87,7 @@ class SocialNetwork:
 
     # Parses the data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data
+    # TODO: Fix user ids that don't exist from erroring
     def normalizeData(self):
         if self.__rel is not None and self.__loc is not None:
             threads = []
