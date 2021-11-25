@@ -87,7 +87,6 @@ class SocialNetwork:
 
     # Parses the data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data
-    # TODO: Fix user ids that don't exist from erroring
     def normalizeData(self):
         if self.__rel is not None and self.__loc is not None:
             threads = []
@@ -115,16 +114,18 @@ class SocialNetwork:
         for x in range(start, end):
             y = relList[x]
             rels = self.__rel[y]
-            locs = self.__loc[y]
-            for z in locs:
-                startLat = float(z[0])
-                startLon = float(z[1])
-                for a in rels:
-                    for b in range(0, len(self.__loc[a[0]])):
-                        endLat = float(self.__loc[a[0]][b][0])
-                        endLon = float(self.__loc[a[0]][b][1])
-                        lat = lat + [startLat, endLat]
-                        lon = lon + [startLon, endLon]
+            if y in self.__loc:
+                locs = self.__loc[y]
+                for z in locs:
+                    startLat = float(z[0])
+                    startLon = float(z[1])
+                    for a in rels:
+                        if a[0] in self.__loc:
+                            for b in range(0, len(self.__loc[a[0]])):
+                                endLat = float(self.__loc[a[0]][b][0])
+                                endLon = float(self.__loc[a[0]][b][1])
+                                lat = lat + [startLat, endLat]
+                                lon = lon + [startLon, endLon]
         self.__normalizedData[0] = self.__normalizedData[0] + lat
         self.__normalizedData[1] = self.__normalizedData[1] + lon
 

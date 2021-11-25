@@ -1,1 +1,1 @@
-- Code optimization for SocialNetwork.py and RoadNetwork.py
+- Added protection for users in SocialNetwork rel that don't exist in loc
