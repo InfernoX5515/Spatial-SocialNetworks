@@ -1,1 +1,2 @@
-- Added protection for users in SocialNetwork rel that don't exist in loc
+- Added check to make sure files exist in SocialNetwork and RoadNetwork
+- Changed some menus in the menu bar to toggles

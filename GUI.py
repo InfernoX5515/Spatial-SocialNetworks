@@ -71,7 +71,7 @@ class Gui(QtWidgets.QMainWindow):
         addFileMenu.addAction(addFileAction)
         # Add View menu option
         addViewMenu = mainMenu.addMenu("View")
-        viewSummaryAction = QtWidgets.QAction("Summary", self)
+        viewSummaryAction = QtWidgets.QAction("Summary", self, checkable=True)
         viewSummaryAction.setStatusTip("View summary graphs")
         viewSummaryAction.triggered.connect(self.viewSummary)
         addViewMenu.addAction(viewSummaryAction)
@@ -82,9 +82,9 @@ class Gui(QtWidgets.QMainWindow):
         sNetworks = self.getCompleteSocialNetworks()
         sActions = {}
         for x in sNetworks:
-            sActions[x] = QtWidgets.QAction(x, self)
+            sActions[x] = QtWidgets.QAction(x, self, checkable=True)
             sActions[x].setStatusTip(f"Switch to view social network {x}")
-            sActions[x].triggered.connect(lambda junk, a=x: self.displaySocialNetwork(a))
+            sActions[x].triggered.connect(lambda junk, a=x: self.displaySocialNetwork(a, sActions[a].isChecked()))
             addSNMenu.addAction(sActions[x])
         # Add Real Network option
         addRNMenu = mainMenu.addMenu("Real Network")
@@ -93,9 +93,9 @@ class Gui(QtWidgets.QMainWindow):
         rNetworks = self.getCompleteRoadNetworks()
         rActions = {}
         for x in rNetworks:
-            rActions[x] = QtWidgets.QAction(x, self)
+            rActions[x] = QtWidgets.QAction(x, self, checkable=True)
             rActions[x].setStatusTip(f"Switch to view road network {x}")
-            rActions[x].triggered.connect(lambda junk, a=x: self.displayRoadNetwork(a))
+            rActions[x].triggered.connect(lambda junk, a=x: self.displayRoadNetwork(a, rActions[a].isChecked()))
             addRNMenu.addAction(rActions[x])
 
     def viewSummary(self):
@@ -281,13 +281,19 @@ class Gui(QtWidgets.QMainWindow):
                 networks.append(x)
         return networks
 
-    def displayRoadNetwork(self, network):
-        self.__roadNetworkObjs[network].visualize(self.roadNetworkGraphWidget)
-        # self.show()
+    def displayRoadNetwork(self, network, checked=None):
+        if checked:
+            self.__roadNetworkObjs[network].visualize(self.roadNetworkGraphWidget)
+        else:
+            self.win.removeItem(self.roadNetworkGraphWidget)
+            self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
 
-    def displaySocialNetwork(self, network):
-        self.__socialNetworkObjs[network].visualize(self.socialNetworkGraphWidget)
-        # self.show()
+    def displaySocialNetwork(self, network, checked=None):
+        if checked:
+            self.__socialNetworkObjs[network].visualize(self.socialNetworkGraphWidget)
+        else:
+            self.win.removeItem(self.socialNetworkGraphWidget)
+            self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
 
     def getRoadNetworkInstances(self):
         for x in self.__roadNetworks:

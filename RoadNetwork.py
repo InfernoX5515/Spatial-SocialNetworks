@@ -1,6 +1,7 @@
 import csv
 import math
 import threading
+from os.path import exists
 
 
 # =====================================================================================================================
@@ -23,8 +24,11 @@ class RoadNetwork:
         self.__edges = {}
         self.__nodes = {}
         self.__normalizedData = [[], []]
-        threads = [threading.Thread(target=lambda: self.loadEdges(path=edges)),
-                   threading.Thread(target=lambda: self.loadNodes(path=nodes))]
+        threads = []
+        if exists(edges):
+            threads.append(threading.Thread(target=lambda: self.loadEdges(path=edges)))
+        if exists(nodes):
+            threads.append(threading.Thread(target=lambda: self.loadNodes(path=nodes)))
         for thread in threads:
             thread.start()
         for thread in threads:
@@ -123,4 +127,4 @@ class RoadNetwork:
 
     # Visualize the data
     def visualize(self, inst):
-        inst.plot(self.__normalizedData[0], self.__normalizedData[1], connect='pairs', pen='black')
+        self.__visual = inst.plot(self.__normalizedData[0], self.__normalizedData[1], connect='pairs', pen='black')

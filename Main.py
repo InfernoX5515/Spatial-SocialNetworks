@@ -22,6 +22,7 @@ from GUI import Gui
 
 
 def main():
+    # noinspection PyUnresolvedReferences
     app = QtGui.QApplication(sys.argv)
     gui = Gui()
     sys.exit(app.exec_())

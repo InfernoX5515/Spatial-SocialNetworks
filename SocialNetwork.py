@@ -1,6 +1,7 @@
 import csv
 import math
 import threading
+from os.path import exists
 
 
 # =====================================================================================================================
@@ -16,14 +17,16 @@ import threading
 
 
 class SocialNetwork:
-    # TODO: Add protection against loading file that does not exist
     def __init__(self, name=None, rel=None, loc=None):
         self.__name = name
         self.__rel = {}
         self.__loc = {}
         self.__normalizedData = [[], []]
-        threads = [threading.Thread(target=lambda: self.loadLoc(path=loc)),
-                   threading.Thread(target=lambda: self.loadRel(path=rel))]
+        threads = []
+        if exists(rel):
+            threads.append(threading.Thread(target=lambda: self.loadRel(path=rel)))
+        if exists(loc):
+            threads.append(threading.Thread(target=lambda: self.loadLoc(path=loc)))
         for thread in threads:
             thread.start()
         for thread in threads:
