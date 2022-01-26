@@ -21,6 +21,7 @@ from GUI import Gui
 # =====================================================================================================================
 
 
+# TODO: Figure out why the heck this won't actually close when the GUI is closed
 def main():
     # noinspection PyUnresolvedReferences
     app = QtGui.QApplication(sys.argv)

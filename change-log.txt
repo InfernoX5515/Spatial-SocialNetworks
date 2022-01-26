@@ -1,2 +1,2 @@
-- Added check to make sure files exist in SocialNetwork and RoadNetwork
-- Changed some menus in the menu bar to toggles
+- Fixed bug where when making a new road network, choosing an edge file would override the node file.
+- Added todos to the code

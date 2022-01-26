@@ -134,4 +134,4 @@ class SocialNetwork:
 
     # Visualize the data
     def visualize(self, inst):
-        inst.plot(self.__normalizedData[0], self.__normalizedData[1], connect='pairs', pen='black')
+        inst.plot(self.__normalizedData[0], self.__normalizedData[1], connect='pairs', pen=(50, 50, 200, 25))

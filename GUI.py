@@ -1,5 +1,7 @@
+import ctypes
+
 from Config import Config
-from PyQt5 import QtGui
+from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
 import PyQt5.QtWidgets as QtWidgets
 import os
@@ -28,9 +30,9 @@ class Gui(QtWidgets.QMainWindow):
         # Enable antialiasing for prettier plots
         pg.setConfigOptions(antialias=True)
         pg.setConfigOption('background', 'white')
+        #self.setWindowModality(QtCore.Qt.ApplicationModal)
         # A dictionary of windows, each window has it's on id
         self.__windows = {}
-        # TODO: Empty
         # Used for storing all road network info
         self.__roadNetworks = self.config.settings["Road Networks"]
         self.__roadNetworkObjs = {}
@@ -49,8 +51,8 @@ class Gui(QtWidgets.QMainWindow):
         self.__mainWindow()
 
     def __mainWindow(self):
-        # TODO: Make x and y pos to center of screen dynamic
-        self.setGeometry(200, 200, 1000, 600)
+        screensize = ctypes.windll.user32.GetSystemMetrics(0), ctypes.windll.user32.GetSystemMetrics(1)
+        self.setGeometry((screensize[0] / 2) - 500, (screensize[1] / 2) - 300, 1000, 600)
         self.setWindowTitle("Spatial-Social Networks")
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
         self.win = pg.GraphicsLayoutWidget(show=True)
@@ -60,6 +62,7 @@ class Gui(QtWidgets.QMainWindow):
         self.show()
 
     def __menuBar(self):
+        # TODO: Make check boxes only clear graph not entire plot
         self.statusBar()
         mainMenu = self.menuBar()
         # Add File menu option
@@ -109,6 +112,9 @@ class Gui(QtWidgets.QMainWindow):
             '1': QtWidgets.QTreeWidgetItem(["Social Networks"])
         }
         # TODO: Prevent drag-drop
+        # TODO: Scale window better
+        # TODO: Have window open on top
+        # TODO: Fix issue with social network choosing rel file overrides loc file
         self.__windows[0] = pg.TreeWidget()
         self.__windows[0].header().setStretchLastSection(False)
         self.__windows[0].header().setSectionResizeMode(QtWidgets.QHeaderView.ResizeToContents)
@@ -197,7 +203,7 @@ class Gui(QtWidgets.QMainWindow):
             self.__objects[f'0.{len(self.__roadNetworks.keys()) + 1}'].addChild(
                 self.__objects[f"0.{len(self.__roadNetworks.keys()) + 1}.2"])
             addE = QtWidgets.QPushButton("Choose File")
-            addE.clicked.connect(lambda: self.chooseFile(f"0.{len(self.__roadNetworks.keys()) + 1}.1", "Road Network", str(text),
+            addE.clicked.connect(lambda: self.chooseFile(f"0.{len(self.__roadNetworks.keys()) + 1}.2", "Road Network", str(text),
                                         "Edge File"))
             self.__windows[0].setItemWidget(self.__objects[f"0.{len(self.__roadNetworks.keys()) + 1}.2"], 1, addE)
             # Update config
@@ -264,6 +270,7 @@ class Gui(QtWidgets.QMainWindow):
             fileNameArr = path.split("/")
             fileName = fileNameArr[len(fileNameArr) - 1]
             self.__objects[obj].setText(0, fileName)
+            print(f"OJB: {obj} T: {T} NETWORK: {network} SUB: {sub}")
 
     def getCompleteRoadNetworks(self):
         networks = []
@@ -289,6 +296,7 @@ class Gui(QtWidgets.QMainWindow):
             self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
 
     def displaySocialNetwork(self, network, checked=None):
+        # TODO: Add user nodes to road network map
         if checked:
             self.__socialNetworkObjs[network].visualize(self.socialNetworkGraphWidget)
         else:
