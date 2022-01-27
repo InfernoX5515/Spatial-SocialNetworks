@@ -57,7 +57,7 @@ class Gui(QtWidgets.QMainWindow):
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
         self.win = pg.GraphicsLayoutWidget(show=True)
         self.setCentralWidget(self.win)
-        self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+        self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
         self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
         self.show()
 
@@ -90,7 +90,7 @@ class Gui(QtWidgets.QMainWindow):
             sActions[x].triggered.connect(lambda junk, a=x: self.displaySocialNetwork(a, sActions[a].isChecked()))
             addSNMenu.addAction(sActions[x])
         # Add Real Network option
-        addRNMenu = mainMenu.addMenu("Real Network")
+        addRNMenu = mainMenu.addMenu("Road Network")
         # Loads all road networks available
         # TODO: Look into toggle buttons for menu
         rNetworks = self.getCompleteRoadNetworks()
@@ -292,7 +292,7 @@ class Gui(QtWidgets.QMainWindow):
             self.__roadNetworkObjs[network].visualize(self.roadNetworkGraphWidget)
         else:
             self.win.removeItem(self.roadNetworkGraphWidget)
-            self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+            self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
 
     def displaySocialNetwork(self, network, checked=None):
         # TODO: When unchecked, remove points on road network also
@@ -302,7 +302,7 @@ class Gui(QtWidgets.QMainWindow):
             self.win.removeItem(self.socialNetworkGraphWidget)
             self.win.removeItem(self.roadNetworkGraphWidget)
             self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-            self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+            self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
 
     def getRoadNetworkInstances(self):
         for x in self.__roadNetworks:
