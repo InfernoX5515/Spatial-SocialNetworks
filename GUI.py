@@ -114,7 +114,6 @@ class Gui(QtWidgets.QMainWindow):
         # TODO: Prevent drag-drop
         # TODO: Scale window better
         # TODO: Have window open on top
-        # TODO: Fix issue with social network choosing rel file overrides loc file
         self.__windows[0] = pg.TreeWidget()
         self.__windows[0].header().setStretchLastSection(False)
         self.__windows[0].header().setSectionResizeMode(QtWidgets.QHeaderView.ResizeToContents)
@@ -211,6 +210,7 @@ class Gui(QtWidgets.QMainWindow):
 
     def newSocialNetwork(self):
         # TODO: Add exceptions, add error messages
+        # TODO: When new social network/road network is created, refresh menus
         self.__windows[1] = QtWidgets.QInputDialog()
         text, ok = self.__windows[1].getText(self, 'New Social Network', "Enter your social network name:")
         if ok and str(text) not in self.__socialNetworks.keys() and str(text) != "":
@@ -239,7 +239,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}.2"])
             addR = QtWidgets.QPushButton("Choose File")
             addR.clicked.connect(
-                lambda: self.chooseFile(f"1.{len(self.__socialNetworks.keys()) + 1}.1", "Social Network", str(text),
+                lambda: self.chooseFile(f"1.{len(self.__socialNetworks.keys()) + 1}.2", "Social Network", str(text),
                                         "Rel File"))
             self.__windows[0].setItemWidget(self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}.2"], 1, addR)
             # Adds new social network's key file
@@ -270,7 +270,6 @@ class Gui(QtWidgets.QMainWindow):
             fileNameArr = path.split("/")
             fileName = fileNameArr[len(fileNameArr) - 1]
             self.__objects[obj].setText(0, fileName)
-            print(f"OJB: {obj} T: {T} NETWORK: {network} SUB: {sub}")
 
     def getCompleteRoadNetworks(self):
         networks = []
@@ -296,12 +295,14 @@ class Gui(QtWidgets.QMainWindow):
             self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
 
     def displaySocialNetwork(self, network, checked=None):
-        # TODO: Add user nodes to road network map
+        # TODO: When unchecked, remove points on road network also
         if checked:
-            self.__socialNetworkObjs[network].visualize(self.socialNetworkGraphWidget)
+            self.__socialNetworkObjs[network].visualize(self.socialNetworkGraphWidget, self.roadNetworkGraphWidget)
         else:
             self.win.removeItem(self.socialNetworkGraphWidget)
+            self.win.removeItem(self.roadNetworkGraphWidget)
             self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+            self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
 
     def getRoadNetworkInstances(self):
         for x in self.__roadNetworks:

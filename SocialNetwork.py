@@ -2,6 +2,7 @@ import csv
 import math
 import threading
 from os.path import exists
+import numpy as np
 
 
 # =====================================================================================================================
@@ -21,7 +22,8 @@ class SocialNetwork:
         self.__name = name
         self.__rel = {}
         self.__loc = {}
-        self.__normalizedData = [[], []]
+        self.__normalizedRelData = [[], []]
+        self.__normalizedLocData = [[], []]
         threads = []
         if exists(rel):
             threads.append(threading.Thread(target=lambda: self.loadRel(path=rel)))
@@ -31,7 +33,8 @@ class SocialNetwork:
             thread.start()
         for thread in threads:
             thread.join()
-        self.normalizeData()
+        self.normalizeRelData()
+        self.normalizeLocData()
         self.__visual = None
 
     # Reads rel file from path. This is super awful but it's the fastest way to do things. This is what it returns:
@@ -88,9 +91,9 @@ class SocialNetwork:
         else:
             self.__loc = None
 
-    # Parses the data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
-    # This also chunks the data for faster processing and dedicates x number of threads to storing that data
-    def normalizeData(self):
+    # Parses the rel data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
+    # This also chunks the data for faster processing and dedicates x number of threads to storing that data.
+    def normalizeRelData(self):
         if self.__rel is not None and self.__loc is not None:
             threads = []
             total = len(self.__rel)
@@ -100,7 +103,7 @@ class SocialNetwork:
             for x in range(1, threadCount + 1):
                 if x == threadCount + 1:
                     end = total
-                threads.append(threading.Thread(target=lambda s=start, e=end, y=x: self.parseDataChunk(s, e * y)))
+                threads.append(threading.Thread(target=lambda s=start, e=end, y=x: self.parseRelDataChunk(s, e * y)))
                 start = end * x
             for thread in threads:
                 thread.start()
@@ -109,7 +112,7 @@ class SocialNetwork:
 
     # Parses a single chunk of data and adds it to the master list
     # noinspection SpellCheckingInspection
-    def parseDataChunk(self, start, end):
+    def parseRelDataChunk(self, start, end):
         # TODO: Include weight
         lat = []
         lon = []
@@ -129,9 +132,46 @@ class SocialNetwork:
                                 endLon = float(self.__loc[a[0]][b][1])
                                 lat = lat + [startLat, endLat]
                                 lon = lon + [startLon, endLon]
-        self.__normalizedData[0] = self.__normalizedData[0] + lat
-        self.__normalizedData[1] = self.__normalizedData[1] + lon
+        self.__normalizedRelData[0] = self.__normalizedRelData[0] + lat
+        self.__normalizedRelData[1] = self.__normalizedRelData[1] + lon
+
+    # Parses the loc data into instantly plottable lists. For example, lat is [lat, lon, lat, lon...]
+    # This also chunks the data for faster processing and dedicates x number of threads to storing that data.
+    def normalizeLocData(self):
+        if self.__loc is not None:
+            threads = []
+            total = len(self.__loc)
+            threadCount = 10
+            start = 0
+            end = math.floor(total / threadCount)
+            for x in range(1, threadCount + 1):
+                if x == threadCount + 1:
+                    end = total
+                threads.append(
+                    threading.Thread(target=lambda s=start, e=end, y=x: self.parseLocDataChunk(s, e * y)))
+                start = end * x
+            for thread in threads:
+                thread.start()
+            # for thread in threads:
+            #    thread.join()
+
+    # Parses a single chunk of data and adds it to the master list
+    # noinspection SpellCheckingInspection
+    def parseLocDataChunk(self, start, end):
+        lat = []
+        lon = []
+        locList = list(self.__loc)
+        for x in range(start, end):
+            y = locList[x]
+            locs = self.__loc[y]
+            for z in range(0, len(locs)):
+                lat = lat + [float(locs[z][0])]
+                lon = lon + [float(locs[z][1])]
+        self.__normalizedLocData[0] = self.__normalizedLocData[0] + lat
+        self.__normalizedLocData[1] = self.__normalizedLocData[1] + lon
 
     # Visualize the data
-    def visualize(self, inst):
-        inst.plot(self.__normalizedData[0], self.__normalizedData[1], connect='pairs', pen=(50, 50, 200, 25))
+    def visualize(self, snInst, rnInst):
+        snInst.plot(self.__normalizedRelData[0], self.__normalizedRelData[1], connect='pairs', pen=(50, 50, 200, 10))
+        rnInst.plot(self.__normalizedLocData[0], self.__normalizedLocData[1], pen=None, symbol='o', symbolSize=1,
+                    symbolPen=(50, 50, 200, 25))

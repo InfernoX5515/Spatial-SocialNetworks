@@ -1,2 +1,2 @@
-- Fixed bug where when making a new road network, choosing an edge file would override the node file.
-- Added todos to the code
+- Fixed bug where when making a new social network, choosing a rel file would override the loc file.
+- Added points to road network when social network is selected
