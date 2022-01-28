@@ -1,5 +1,9 @@
 import ctypes
 
+
+from PyQt5.QtCore import QSize, Qt
+from PyQt5.QtGui import QIcon, QCursor
+
 from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
@@ -30,6 +34,7 @@ class Gui(QtWidgets.QMainWindow):
         # Enable antialiasing for prettier plots
         pg.setConfigOptions(antialias=True)
         pg.setConfigOption('background', 'white')
+
         #self.setWindowModality(QtCore.Qt.ApplicationModal)
         # A dictionary of windows, each window has it's on id
         self.__windows = {}
@@ -48,6 +53,7 @@ class Gui(QtWidgets.QMainWindow):
         self.socialNetworkGraphWidget = None
         self.socialSummaryGraphWidget = None
         self.__menuBar()
+        self.__toolbar()
         self.__mainWindow()
 
     def __mainWindow(self):
@@ -60,6 +66,45 @@ class Gui(QtWidgets.QMainWindow):
         self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
         self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
         self.show()
+
+    def cursorTool(self):
+        self.roadNetworkGraphWidget.setMouseEnabled(x=True, y=True)
+
+    def zoomOutTool(self):
+        self.roadNetworkGraphWidget.setMouseEnabled(x=False, y=False)
+
+
+    def zoomInTool(self):
+        self.roadNetworkGraphWidget.setMouseEnabled(x=False, y=False)
+
+    def moveTool(self):
+        self.roadNetworkGraphWidget.setMouseEnabled(x=False, y=False)
+
+    def __toolbar(self):
+        toolbar = QtWidgets.QToolBar("My main toolbar")
+        toolbar.setIconSize(QSize(24, 24))
+        self.addToolBar(toolbar)
+
+
+        cursor = QtWidgets.QAction(QIcon('Assets/cursor.png'), "Cursor", self)
+        cursor.triggered.connect(self.cursorTool)
+        toolbar.addAction(cursor)
+
+        zoom_in = QtWidgets.QAction(QIcon('Assets/zoom-in.png'), "Zoom In", self)
+        zoom_in.triggered.connect(self.zoomInTool)
+        toolbar.addAction(zoom_in)
+
+        zoom_out = QtWidgets.QAction(QIcon('Assets/zoom-out.png'), "Zoom Out", self)
+        zoom_out.triggered.connect(self.zoomOutTool)
+        toolbar.addAction(zoom_out)
+
+        move = QtWidgets.QAction(QIcon('Assets/move.png'), "Move", self)
+        move.triggered.connect(self.moveTool)
+        toolbar.addAction(move)
+
+
+
+
 
     def __menuBar(self):
         # TODO: Make check boxes only clear graph not entire plot
