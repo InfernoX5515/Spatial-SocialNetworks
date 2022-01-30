@@ -75,6 +75,11 @@ class Gui(QtWidgets.QMainWindow):
 
 
     def zoomInTool(self):
+        
+        self.roadNetworkGraphWidget.viewRange =  [[-124.8716955920008 + (-124.8716955920008 * .5), -113.81190540799919 - (-113.81190540799919 * 0.5)], [32.08680962346822 + (32.08680962346822 * 0.5), 42.47730737653178 - (42.47730737653178 * .5)]]
+        #self.roadNetworkGraphWidget.setXRange((self.roadNetworkGraphWidget.viewRange[0][0] * 1.75) +  self.roadNetworkGraphWidget.viewRange[0][0],  self.roadNetworkGraphWidget.viewRange[0][1] - (self.roadNetworkGraphWidget.viewRange[0][1] * 1.75))
+        print(self.roadNetworkGraphWidget.getViewBox().state)
+        print(self.roadNetworkGraphWidget.getViewBox().state.viewRange)
         self.roadNetworkGraphWidget.setMouseEnabled(x=False, y=False)
 
     def moveTool(self):
