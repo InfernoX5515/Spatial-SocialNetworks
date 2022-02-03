@@ -71,16 +71,21 @@ class Gui(QtWidgets.QMainWindow):
         self.roadNetworkGraphWidget.setMouseEnabled(x=True, y=True)
 
     def zoomOutTool(self):
-        self.roadNetworkGraphWidget.setMouseEnabled(x=False, y=False)
+        #self.roadNetworkGraphWidget.setMouseEnabled(x=False, y=False)
+        xRanges = self.roadNetworkGraphWidget.getAxis('bottom').range
+        yRanges = self.roadNetworkGraphWidget.getAxis('left').range
+        self.roadNetworkGraphWidget.setXRange(xRanges[0] - 0.5, xRanges[1] + 0.5)
+        self.roadNetworkGraphWidget.setYRange(yRanges[0] - 0.5, yRanges[1] + 0.5)
 
 
     def zoomInTool(self):
         
-        self.roadNetworkGraphWidget.viewRange =  [[-124.8716955920008 + (-124.8716955920008 * .5), -113.81190540799919 - (-113.81190540799919 * 0.5)], [32.08680962346822 + (32.08680962346822 * 0.5), 42.47730737653178 - (42.47730737653178 * .5)]]
+        #self.roadNetworkGraphWidget.viewRange =  [[-124.8716955920008 + (-124.8716955920008 * .5), -113.81190540799919 - (-113.81190540799919 * 0.5)], [32.08680962346822 + (32.08680962346822 * 0.5), 42.47730737653178 - (42.47730737653178 * .5)]]
         #self.roadNetworkGraphWidget.setXRange((self.roadNetworkGraphWidget.viewRange[0][0] * 1.75) +  self.roadNetworkGraphWidget.viewRange[0][0],  self.roadNetworkGraphWidget.viewRange[0][1] - (self.roadNetworkGraphWidget.viewRange[0][1] * 1.75))
-        print(self.roadNetworkGraphWidget.getViewBox().state)
-        print(self.roadNetworkGraphWidget.getViewBox().state.viewRange)
-        self.roadNetworkGraphWidget.setMouseEnabled(x=False, y=False)
+        xRanges = self.roadNetworkGraphWidget.getAxis('bottom').range
+        yRanges = self.roadNetworkGraphWidget.getAxis('left').range
+        self.roadNetworkGraphWidget.setXRange(xRanges[0] + 0.5, xRanges[1] - 0.5)
+        self.roadNetworkGraphWidget.setYRange(yRanges[0] + 0.5, yRanges[1] - 0.5)
 
     def moveTool(self):
         self.roadNetworkGraphWidget.setMouseEnabled(x=False, y=False)
@@ -91,9 +96,9 @@ class Gui(QtWidgets.QMainWindow):
         self.addToolBar(toolbar)
 
 
-        cursor = QtWidgets.QAction(QtGui.QIcon('Assets/cursor.png'), "Cursor", self)
-        cursor.triggered.connect(self.cursorTool)
-        toolbar.addAction(cursor)
+        #cursor = QtWidgets.QAction(QtGui.QIcon('Assets/cursor.png'), "Cursor", self)
+        #cursor.triggered.connect(self.cursorTool)
+        #toolbar.addAction(cursor)
 
         zoom_in = QtWidgets.QAction(QtGui.QIcon('Assets/zoom-in.png'), "Zoom In", self)
         zoom_in.triggered.connect(self.zoomInTool)
@@ -103,9 +108,10 @@ class Gui(QtWidgets.QMainWindow):
         zoom_out.triggered.connect(self.zoomOutTool)
         toolbar.addAction(zoom_out)
 
-        move = QtWidgets.QAction(QtGui.QIcon('Assets/move.png'), "Move", self)
-        move.triggered.connect(self.moveTool)
-        toolbar.addAction(move)
+        #move = QtWidgets.QAction(QtGui.QIcon('Assets/move.png'), "Move", self)
+        #move.triggered.connect(self.moveTool)
+        #toolbar.addAction(move)
+
 
 
 
