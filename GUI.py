@@ -1,9 +1,6 @@
 import ctypes
 import platform
 from collections import Counter
-
-import pyqtgraph
-
 from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
@@ -35,6 +32,7 @@ class Gui(QtWidgets.QMainWindow):
         # Enable antialiasing for prettier plots
         pg.setConfigOptions(antialias=True)
         pg.setConfigOption('background', 'white')
+
         #self.setWindowModality(QtCore.Qt.ApplicationModal)
         # A dictionary of windows, each window has it's on id
         self.__windows = {}
@@ -54,6 +52,7 @@ class Gui(QtWidgets.QMainWindow):
         self.selectedRealNetwork = None
         self.selectedSocialNetwork = None
         self.__menuBar()
+        self.__toolbar()
         self.__mainWindow()
 
     def __mainWindow(self):
@@ -64,9 +63,53 @@ class Gui(QtWidgets.QMainWindow):
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
         self.win = pg.GraphicsLayoutWidget(show=True)
         self.setCentralWidget(self.win)
-        self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+        self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
         self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
         self.show()
+
+    def cursorTool(self):
+        self.roadNetworkGraphWidget.setMouseEnabled(x=True, y=True)
+
+    def zoomOutTool(self):
+        self.roadNetworkGraphWidget.setMouseEnabled(x=False, y=False)
+
+
+    def zoomInTool(self):
+        
+        self.roadNetworkGraphWidget.viewRange =  [[-124.8716955920008 + (-124.8716955920008 * .5), -113.81190540799919 - (-113.81190540799919 * 0.5)], [32.08680962346822 + (32.08680962346822 * 0.5), 42.47730737653178 - (42.47730737653178 * .5)]]
+        #self.roadNetworkGraphWidget.setXRange((self.roadNetworkGraphWidget.viewRange[0][0] * 1.75) +  self.roadNetworkGraphWidget.viewRange[0][0],  self.roadNetworkGraphWidget.viewRange[0][1] - (self.roadNetworkGraphWidget.viewRange[0][1] * 1.75))
+        print(self.roadNetworkGraphWidget.getViewBox().state)
+        print(self.roadNetworkGraphWidget.getViewBox().state.viewRange)
+        self.roadNetworkGraphWidget.setMouseEnabled(x=False, y=False)
+
+    def moveTool(self):
+        self.roadNetworkGraphWidget.setMouseEnabled(x=False, y=False)
+
+    def __toolbar(self):
+        toolbar = QtWidgets.QToolBar("My main toolbar")
+        toolbar.setIconSize(QtCore.QSize(24, 24))
+        self.addToolBar(toolbar)
+
+
+        cursor = QtWidgets.QAction(QtGui.QIcon('Assets/cursor.png'), "Cursor", self)
+        cursor.triggered.connect(self.cursorTool)
+        toolbar.addAction(cursor)
+
+        zoom_in = QtWidgets.QAction(QtGui.QIcon('Assets/zoom-in.png'), "Zoom In", self)
+        zoom_in.triggered.connect(self.zoomInTool)
+        toolbar.addAction(zoom_in)
+
+        zoom_out = QtWidgets.QAction(QtGui.QIcon('Assets/zoom-out.png'), "Zoom Out", self)
+        zoom_out.triggered.connect(self.zoomOutTool)
+        toolbar.addAction(zoom_out)
+
+        move = QtWidgets.QAction(QtGui.QIcon('Assets/move.png'), "Move", self)
+        move.triggered.connect(self.moveTool)
+        toolbar.addAction(move)
+
+
+
+
 
     def __menuBar(self):
         # TODO: Make check boxes only clear graph not entire plot
@@ -97,7 +140,7 @@ class Gui(QtWidgets.QMainWindow):
             sActions[x].triggered.connect(lambda junk, a=x: self.displaySocialNetwork(a, sActions[a].isChecked()))
             addSNMenu.addAction(sActions[x])
         # Add Real Network option
-        addRNMenu = mainMenu.addMenu("Real Network")
+        addRNMenu = mainMenu.addMenu("Road Network")
         # Loads all road networks available
         # TODO: Look into toggle buttons for menu
         rNetworks = self.getCompleteRoadNetworks()
@@ -322,8 +365,11 @@ class Gui(QtWidgets.QMainWindow):
             self.selectedRealNetwork = self.__roadNetworkObjs[network]
         else:
             self.win.removeItem(self.roadNetworkGraphWidget)
+            self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
+
             self.selectedRealNetwork = None
-            self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+            #self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+
 
     def displaySocialNetwork(self, network, checked=None):
         # TODO: When unchecked, remove points on road network also
@@ -336,7 +382,7 @@ class Gui(QtWidgets.QMainWindow):
             self.win.removeItem(self.roadNetworkGraphWidget)
             self.selectedSocialNetwork = None
             self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-            self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+            self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
 
     def getRoadNetworkInstances(self):
         for x in self.__roadNetworks:
