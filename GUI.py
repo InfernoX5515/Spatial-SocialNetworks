@@ -1,10 +1,6 @@
 import ctypes
+import platform
 from collections import Counter
-
-
-from PyQt5.QtCore import QSize, Qt
-from PyQt5.QtGui import QIcon, QCursor
-
 from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
@@ -13,7 +9,6 @@ import os
 from RoadNetwork import RoadNetwork
 from SocialNetwork import SocialNetwork
 from sklearn.cluster import KMeans
-import numpy as np
 
 
 # =====================================================================================================================
@@ -61,7 +56,8 @@ class Gui(QtWidgets.QMainWindow):
         self.__mainWindow()
 
     def __mainWindow(self):
-        screensize = ctypes.windll.user32.GetSystemMetrics(0), ctypes.windll.user32.GetSystemMetrics(1)
+        # screensize = ctypes.windll.user32.GetSystemMetrics(0), ctypes.windll.user32.GetSystemMetrics(1)
+        screensize = self.screen().availableSize().width(), self.screen().availableSize().height()
         self.setGeometry((screensize[0] / 2) - 500, (screensize[1] / 2) - 300, 1000, 600)
         self.setWindowTitle("Spatial-Social Networks")
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
@@ -91,23 +87,23 @@ class Gui(QtWidgets.QMainWindow):
 
     def __toolbar(self):
         toolbar = QtWidgets.QToolBar("My main toolbar")
-        toolbar.setIconSize(QSize(24, 24))
+        toolbar.setIconSize(QtCore.QSize(24, 24))
         self.addToolBar(toolbar)
 
 
-        cursor = QtWidgets.QAction(QIcon('Assets/cursor.png'), "Cursor", self)
+        cursor = QtWidgets.QAction(QtGui.QIcon('Assets/cursor.png'), "Cursor", self)
         cursor.triggered.connect(self.cursorTool)
         toolbar.addAction(cursor)
 
-        zoom_in = QtWidgets.QAction(QIcon('Assets/zoom-in.png'), "Zoom In", self)
+        zoom_in = QtWidgets.QAction(QtGui.QIcon('Assets/zoom-in.png'), "Zoom In", self)
         zoom_in.triggered.connect(self.zoomInTool)
         toolbar.addAction(zoom_in)
 
-        zoom_out = QtWidgets.QAction(QIcon('Assets/zoom-out.png'), "Zoom Out", self)
+        zoom_out = QtWidgets.QAction(QtGui.QIcon('Assets/zoom-out.png'), "Zoom Out", self)
         zoom_out.triggered.connect(self.zoomOutTool)
         toolbar.addAction(zoom_out)
 
-        move = QtWidgets.QAction(QIcon('Assets/move.png'), "Move", self)
+        move = QtWidgets.QAction(QtGui.QIcon('Assets/move.png'), "Move", self)
         move.triggered.connect(self.moveTool)
         toolbar.addAction(move)
 

@@ -1,1 +1,1 @@
-- Added summary view with nodes
+- Changed method for getting the screen size to PyQt to expand OS support. Previously only worked on Windows
