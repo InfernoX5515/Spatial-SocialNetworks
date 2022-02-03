@@ -1,5 +1,8 @@
 import ctypes
+import platform
 from collections import Counter
+
+import pyqtgraph
 
 from Config import Config
 from PyQt5 import QtGui, QtCore
@@ -9,7 +12,6 @@ import os
 from RoadNetwork import RoadNetwork
 from SocialNetwork import SocialNetwork
 from sklearn.cluster import KMeans
-import numpy as np
 
 
 # =====================================================================================================================
@@ -55,7 +57,8 @@ class Gui(QtWidgets.QMainWindow):
         self.__mainWindow()
 
     def __mainWindow(self):
-        screensize = ctypes.windll.user32.GetSystemMetrics(0), ctypes.windll.user32.GetSystemMetrics(1)
+        # screensize = ctypes.windll.user32.GetSystemMetrics(0), ctypes.windll.user32.GetSystemMetrics(1)
+        screensize = self.screen().availableSize().width(), self.screen().availableSize().height()
         self.setGeometry((screensize[0] / 2) - 500, (screensize[1] / 2) - 300, 1000, 600)
         self.setWindowTitle("Spatial-Social Networks")
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
