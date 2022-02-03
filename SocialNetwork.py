@@ -24,6 +24,7 @@ class SocialNetwork:
         self.__loc = {}
         self.__normalizedRelData = [[], []]
         self.__normalizedLocData = [[], []]
+        self.__chunkedLocData = []
         threads = []
         if exists(rel):
             threads.append(threading.Thread(target=lambda: self.loadRel(path=rel)))
@@ -35,6 +36,7 @@ class SocialNetwork:
             thread.join()
         self.normalizeRelData()
         self.normalizeLocData()
+        self.chunkLocData()
         self.__visual = None
 
     # Reads rel file from path. This is super awful but it's the fastest way to do things. This is what it returns:
@@ -170,8 +172,45 @@ class SocialNetwork:
         self.__normalizedLocData[0] = self.__normalizedLocData[0] + lat
         self.__normalizedLocData[1] = self.__normalizedLocData[1] + lon
 
+    # Chunks coords from [[lat, lat, lat...],[lon, lon, lon...]] to [[lat, lon], [lat lon]...]
+    def chunkLocData(self):
+        if self.__loc is not None:
+            threads = []
+            total = len(self.__loc)
+            threadCount = 10
+            start = 0
+            end = math.floor(total / threadCount)
+            for x in range(1, threadCount + 1):
+                if x == threadCount + 1:
+                    end = total
+                threads.append(
+                    threading.Thread(target=lambda s=start, e=end, y=x: self.parseChunkLocChunk(s, e * y)))
+                start = end * x
+            for thread in threads:
+                thread.start()
+            # for thread in threads:
+            #    thread.join()
+
+    # Parses a single chunk of data and adds it to the master list
+    # noinspection SpellCheckingInspection
+    def parseChunkLocChunk(self, start, end):
+        coords = []
+        locList = list(self.__loc)
+        for x in range(start, end):
+            y = locList[x]
+            locs = self.__loc[y]
+            for z in range(0, len(locs)):
+                coords = coords + [[float(locs[z][0]), float(locs[z][1])]]
+        self.__chunkedLocData = self.__chunkedLocData + coords
+
+    def getNormalizedLocData(self):
+        return self.__normalizedLocData
+
+    def getChunkedLocData(self):
+        return self.__chunkedLocData
+
     # Visualize the data
     def visualize(self, snInst, rnInst):
-        snInst.plot(self.__normalizedRelData[0], self.__normalizedRelData[1], connect='pairs', pen=(50, 50, 200, 10))
-        rnInst.plot(self.__normalizedLocData[0], self.__normalizedLocData[1], pen=None, symbol='o', symbolSize=1,
-                    symbolPen=(50, 50, 200, 25))
+        snInst.plot(self.__normalizedRelData[0], self.__normalizedRelData[1], connect='pairs', pen=(50, 50, 200, 10), brush=(50, 50, 200, 100))
+        rnInst.plot(self.__normalizedLocData[0], self.__normalizedLocData[1], pen=None, symbol='o', symbolSize=2,
+                    symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
