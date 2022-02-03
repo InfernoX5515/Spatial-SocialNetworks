@@ -1,4 +1,5 @@
 import ctypes
+from collections import Counter
 
 from Config import Config
 from PyQt5 import QtGui, QtCore
@@ -7,6 +8,8 @@ import PyQt5.QtWidgets as QtWidgets
 import os
 from RoadNetwork import RoadNetwork
 from SocialNetwork import SocialNetwork
+from sklearn.cluster import KMeans
+import numpy as np
 
 
 # =====================================================================================================================
@@ -44,9 +47,10 @@ class Gui(QtWidgets.QMainWindow):
         # Used for storing file hierarchy data
         self.__objects = {}
         self.roadNetworkGraphWidget = None
-        self.roadSummaryGraphWidget = None
         self.socialNetworkGraphWidget = None
-        self.socialSummaryGraphWidget = None
+        self.summaryGraphWidget = None
+        self.selectedRealNetwork = None
+        self.selectedSocialNetwork = None
         self.__menuBar()
         self.__mainWindow()
 
@@ -103,8 +107,30 @@ class Gui(QtWidgets.QMainWindow):
 
     def viewSummary(self):
         # TODO: Implement summary view
+        # TODO: error handling when none
+        # TODO: add user defined value for kmeans
         self.win.removeItem(self.roadNetworkGraphWidget)
         self.win.removeItem(self.socialNetworkGraphWidget)
+        self.summaryGraphWidget = self.win.addPlot(row=0, col=1, title="Summary")
+        self.selectedRealNetwork.visualize(self.summaryGraphWidget)
+        # Draws summary nodes on graph. n_clusters is th number of nodes to plot
+        # TODO: Add user-defined n_cluster amount
+        kmeans = KMeans(n_clusters=int(10))
+        kmeans.fit(self.selectedSocialNetwork.getChunkedLocData())
+        # Scales the nodes according to population
+        centers = kmeans.cluster_centers_
+        ref = list(Counter(kmeans.labels_).values())
+        refSorted = list(Counter(kmeans.labels_).values())
+        refSorted.sort()
+        # TODO: Make a better size sorting algorithm
+        '''sizes = [0] * len(centers[:, 1])
+        for z in range(0, len(refSorted)):
+            for q in range(0, len(ref)):
+                if int(ref[q]) == int(refSorted[z]):
+                    sizes[q] = refSorted[z] / 5'''
+        # Note: For some reason, the alpha value is from 0-255 not 0-100
+        self.summaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=30,
+                                     symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
 
     def viewFiles(self):
         self.__objects = {
@@ -290,17 +316,22 @@ class Gui(QtWidgets.QMainWindow):
     def displayRoadNetwork(self, network, checked=None):
         if checked:
             self.__roadNetworkObjs[network].visualize(self.roadNetworkGraphWidget)
+            self.selectedRealNetwork = self.__roadNetworkObjs[network]
         else:
             self.win.removeItem(self.roadNetworkGraphWidget)
+            self.selectedRealNetwork = None
             self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
 
     def displaySocialNetwork(self, network, checked=None):
         # TODO: When unchecked, remove points on road network also
+        # TODO: add selected variable
         if checked:
             self.__socialNetworkObjs[network].visualize(self.socialNetworkGraphWidget, self.roadNetworkGraphWidget)
+            self.selectedSocialNetwork = self.__socialNetworkObjs[network]
         else:
             self.win.removeItem(self.socialNetworkGraphWidget)
             self.win.removeItem(self.roadNetworkGraphWidget)
+            self.selectedSocialNetwork = None
             self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
             self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
 
