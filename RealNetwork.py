@@ -11,13 +11,13 @@ from os.path import exists
 #   Project: Spatial-Social Networks
 #
 #   Purpose:
-#       RoadNetwork.py is the class object for road networks.
+#       RealNetwork.py is the class object for real networks.
 #
 # =====================================================================================================================
 
 
 # TODO: Customize time messages more
-class RoadNetwork:
+class RealNetwork:
     # TODO: Add protection against loading file that does not exist
     def __init__(self, name=None, edges=None, nodes=None):
         self.__name = name
