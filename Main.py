@@ -13,7 +13,7 @@ from GUI import Gui
 #
 #   Location-based social networks have grown in size and popularity in the past two decades due to their real-world
 #   versatility. In such networks, it is important to create a spatial-social network that not only looks into
-#   personal relationships among users but also their geographical closeness on road networks. In this project,
+#   personal relationships among users but also their geographical closeness on real networks. In this project,
 #   we look into how to efficiently and effectively manage as well as analyze these types of networks. To do this, we
 #   design and build a system for managing, querying, and visualizing spatial-social networks. We will test and
 #   evaluate the efficiency and effectiveness of this system by processing real-world and synthetic data sets.
