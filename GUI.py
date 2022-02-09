@@ -1,5 +1,3 @@
-import ctypes
-import platform
 from collections import Counter
 from Config import Config
 from PyQt5 import QtGui, QtCore
@@ -48,11 +46,13 @@ class Gui(QtWidgets.QMainWindow):
         self.__objects = {}
         self.realNetworkGraphWidget = None
         self.socialNetworkGraphWidget = None
-        self.summaryGraphWidget = None
+        self.realSummaryGraphWidget = None
+        self.socialSummaryGraphWidget = None
         self.selectedRealNetwork = None
         self.selectedSocialNetwork = None
         self.__menuBar()
         self.__toolbar()
+        self.__coordLabel()
         self.__mainWindow()
 
     def __mainWindow(self):
@@ -77,7 +77,6 @@ class Gui(QtWidgets.QMainWindow):
         self.realNetworkGraphWidget.setXRange(xRanges[0] - 0.5, xRanges[1] + 0.5)
         self.realNetworkGraphWidget.setYRange(yRanges[0] - 0.5, yRanges[1] + 0.5)
 
-
     def zoomInTool(self):
         #self.realNetworkGraphWidget.viewRange =  [[-124.8716955920008 + (-124.8716955920008 * .5), -113.81190540799919 - (-113.81190540799919 * 0.5)], [32.08680962346822 + (32.08680962346822 * 0.5), 42.47730737653178 - (42.47730737653178 * .5)]]
         #self.realNetworkGraphWidget.setXRange((self.realNetworkGraphWidget.viewRange[0][0] * 1.75) +  self.realNetworkGraphWidget.viewRange[0][0],  self.realNetworkGraphWidget.viewRange[0][1] - (self.realNetworkGraphWidget.viewRange[0][1] * 1.75))
@@ -93,7 +92,6 @@ class Gui(QtWidgets.QMainWindow):
         toolbar = QtWidgets.QToolBar("My main toolbar")
         toolbar.setIconSize(QtCore.QSize(24, 24))
         self.addToolBar(toolbar)
-
 
         #cursor = QtWidgets.QAction(QtGui.QIcon('Assets/cursor.png'), "Cursor", self)
         #cursor.triggered.connect(self.cursorTool)
@@ -111,14 +109,17 @@ class Gui(QtWidgets.QMainWindow):
         #move.triggered.connect(self.moveTool)
         #toolbar.addAction(move)
 
-
-
-
-
+    def __coordLabel(self):
+        coordLabel = QtWidgets.QToolBar("CoordLabel")
+        coordLabel.setIconSize(QtCore.QSize(24, 24))
+        self.addToolBar(coordLabel)
+        xLabel = QtWidgets.QLabel(text="x=")
+        yLabel = QtWidgets.QLabel(text="y=")
+        coordLabel.addWidget(xLabel)
+        coordLabel.addWidget(yLabel)
 
     def __menuBar(self):
-        # TODO: Make check boxes only clear graph not entire plot
-        self.statusBar()
+        #self.statusBar()
         mainMenu = self.menuBar()
         # Add File menu option
         addFileMenu = mainMenu.addMenu("File")
@@ -157,31 +158,50 @@ class Gui(QtWidgets.QMainWindow):
             addRNMenu.addAction(rActions[x])
 
     def viewSummary(self):
-        # TODO: Implement summary view
-        # TODO: error handling when none
-        # TODO: add user defined value for kmeans
-        self.win.removeItem(self.realNetworkGraphWidget)
-        self.win.removeItem(self.socialNetworkGraphWidget)
-        self.summaryGraphWidget = self.win.addPlot(row=0, col=1, title="Summary")
-        self.selectedRealNetwork.visualize(self.summaryGraphWidget)
-        # Draws summary nodes on graph. n_clusters is th number of nodes to plot
-        # TODO: Add user-defined n_cluster amount
-        kmeans = KMeans(n_clusters=int(10))
-        kmeans.fit(self.selectedSocialNetwork.getChunkedLocData())
-        # Scales the nodes according to population
-        centers = kmeans.cluster_centers_
-        ref = list(Counter(kmeans.labels_).values())
-        refSorted = list(Counter(kmeans.labels_).values())
-        refSorted.sort()
-        # TODO: Make a better size sorting algorithm
-        '''sizes = [0] * len(centers[:, 1])
-        for z in range(0, len(refSorted)):
-            for q in range(0, len(ref)):
-                if int(ref[q]) == int(refSorted[z]):
-                    sizes[q] = refSorted[z] / 5'''
-        # Note: For some reason, the alpha value is from 0-255 not 0-100
-        self.summaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=30,
-                                     symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+        # If not viewing summary already, view it, otherwise, display main view again
+        if self.realSummaryGraphWidget is None and self.socialSummaryGraphWidget is None:
+            # TODO: Add plots for social network summary
+            # Clears last view
+            self.win.removeItem(self.realNetworkGraphWidget)
+            self.win.removeItem(self.socialNetworkGraphWidget)
+            # Displays summary plots
+            self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
+            self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network Summary")
+            # If both a real network is selected, display info
+            if self.selectedRealNetwork is not None:
+                self.selectedRealNetwork.visualize(self.realSummaryGraphWidget)
+                # TODO: Add user-defined n_cluster amount
+                # If social network is selected, display clusters
+                if self.selectedSocialNetwork is not None:
+                    # Draws summary nodes on graph. n_clusters is th number of nodes to plot
+                    kmeans = KMeans(n_clusters=int(10))
+                    kmeans.fit(self.selectedSocialNetwork.getChunkedLocData())
+                    # Scales the nodes according to population
+                    centers = kmeans.cluster_centers_
+                    ref = list(Counter(kmeans.labels_).values())
+                    refSorted = list(Counter(kmeans.labels_).values())
+                    refSorted.sort()
+                    # TODO: Make a better size sorting algorithm
+                    '''sizes = [0] * len(centers[:, 1])
+                    for z in range(0, len(refSorted)):
+                        for q in range(0, len(ref)):
+                            if int(ref[q]) == int(refSorted[z]):
+                                sizes[q] = refSorted[z] / 5'''
+                    # Note: For some reason, the alpha value is from 0-255 not 0-100
+                    self.realSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=30,
+                                                 symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+        else:
+            self.win.removeItem(self.realSummaryGraphWidget)
+            self.win.removeItem(self.socialSummaryGraphWidget)
+            self.realSummaryGraphWidget = None
+            self.socialSummaryGraphWidget = None
+            self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+            self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+            # Re-visualize selected networks
+            if self.selectedRealNetwork is not None:
+                self.selectedRealNetwork.visualize(self.realNetworkGraphWidget)
+            if self.selectedSocialNetwork is not None:
+                self.selectedSocialNetwork.visualize(self.socialNetworkGraphWidget, self.realNetworkGraphWidget)
 
     def viewFiles(self):
         self.__objects = {
@@ -331,6 +351,8 @@ class Gui(QtWidgets.QMainWindow):
             self.__windows[0].setItemWidget(self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}.3"], 1, addR)
             # Update config
             self.config.update("Social Networks", self.__socialNetworks)
+            self.menuBar().clear()
+            self.__menuBar()
 
     def chooseFile(self, obj, T, network, sub):
         self.__windows[2] = QtWidgets.QFileDialog()
@@ -366,28 +388,42 @@ class Gui(QtWidgets.QMainWindow):
 
     def displayRealNetwork(self, network, checked=None):
         if checked:
+            # If there is a social network selected, remove and re-add to make sure nodes stay above the plot
+            if self.selectedSocialNetwork is not None:
+                self.win.removeItem(self.realNetworkGraphWidget)
+                self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+                self.win.removeItem(self.socialNetworkGraphWidget)
+                self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+                self.selectedSocialNetwork.visualize(self.socialNetworkGraphWidget, self.realNetworkGraphWidget)
+            # Visualizes the graph that is being selected
             self.__realNetworkObjs[network].visualize(self.realNetworkGraphWidget)
             self.selectedRealNetwork = self.__realNetworkObjs[network]
         else:
+            # Removes the widget and re-adds it to be blank
             self.win.removeItem(self.realNetworkGraphWidget)
             self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
-
             self.selectedRealNetwork = None
-            #self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
-
+            # Removes the social network and re-adds it to keep the graph there
+            if self.selectedSocialNetwork is not None:
+                self.win.removeItem(self.socialNetworkGraphWidget)
+                self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+                self.selectedSocialNetwork.visualize(self.socialNetworkGraphWidget, self.realNetworkGraphWidget)
 
     def displaySocialNetwork(self, network, checked=None):
-        # TODO: When unchecked, remove points on real network also
-        # TODO: add selected variable
         if checked:
+            # Visualizes social network
             self.__socialNetworkObjs[network].visualize(self.socialNetworkGraphWidget, self.realNetworkGraphWidget)
             self.selectedSocialNetwork = self.__socialNetworkObjs[network]
         else:
+            # Removes both graphs to clear them then re-adds them
             self.win.removeItem(self.socialNetworkGraphWidget)
             self.win.removeItem(self.realNetworkGraphWidget)
             self.selectedSocialNetwork = None
             self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
             self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+            # Re-visualizes the real network if it is selected
+            if self.selectedRealNetwork:
+                self.selectedRealNetwork.visualize(self.realNetworkGraphWidget)
 
     def getRealNetworkInstances(self):
         for x in self.__realNetworks:

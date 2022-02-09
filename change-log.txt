@@ -1,1 +1,3 @@
-- Changed Road Network to Real network
+- Fixed issue with config not renamed
+- Added error handling for when viewing summary but no network is selected
+- Added error handling for when switching from summary back to main and vice versa
