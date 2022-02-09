@@ -58,13 +58,30 @@ class Gui(QtWidgets.QMainWindow):
     def __mainWindow(self):
         # screensize = ctypes.windll.user32.GetSystemMetrics(0), ctypes.windll.user32.GetSystemMetrics(1)
         screensize = self.screen().availableSize().width(), self.screen().availableSize().height()
-        self.setGeometry((screensize[0] / 2) - 500, (screensize[1] / 2) - 300, 1000, 600)
+        self.setGeometry(int((screensize[0] / 2) - 500), int((screensize[1] / 2) - 300), 1000, 600)
         self.setWindowTitle("Spatial-Social Networks")
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
         self.win = pg.GraphicsLayoutWidget(show=True)
         self.setCentralWidget(self.win)
+        # Create and set up real network graph widget
         self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+        # Adds a vertical and horizontal cross for a crosshair
+        self.realNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+        self.realNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+        self.realNetworkGraphWidget.addItem(self.realNetworkGraphWidget.vCrossLine, ignoreBounds=True)
+        self.realNetworkGraphWidget.addItem(self.realNetworkGraphWidget.hCrossLine, ignoreBounds=True)
+        # Adds event listener
+        self.realNetworkGraphWidget.scene().sigMouseMoved.connect(self.mouseMoved)
+        # Create and set up the social network graph widget
         self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+        self.socialNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+        self.socialNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+        self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.vCrossLine, ignoreBounds=True)
+        self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.hCrossLine, ignoreBounds=True)
+        # Links the x and y axis on both graphs
+        self.socialNetworkGraphWidget.setXLink(self.realNetworkGraphWidget)
+        self.socialNetworkGraphWidget.setYLink(self.realNetworkGraphWidget)
+        # Show window
         self.show()
 
     def cursorTool(self):
@@ -445,6 +462,27 @@ class Gui(QtWidgets.QMainWindow):
             if self.__socialNetworks[x]["Loc File"] != "[Loc File]":
                 locs = self.__socialNetworks[x]["Loc File"]
             self.__socialNetworkObjs[x] = SocialNetwork(x, rels, locs)
+
+    def mouseMoved(self, evt):
+        # Sets the mousePoint to whichever graph the pointer is over
+        if self.realNetworkGraphWidget.sceneBoundingRect().contains(evt.x(), evt.y()):
+            mousePoint = self.realNetworkGraphWidget.vb.mapSceneToView(evt)
+        else:
+            mousePoint = self.socialNetworkGraphWidget.vb.mapSceneToView(evt)
+        # TODO: Implement x, y coords to show
+        # Changes text for position
+        '''index = int(mousePoint.x())
+        if index > 0 and index < len(data1):
+           label.setText(
+                "<span style='font-size: 12pt'>x=%0.1f,   <span style='color: red'>y1=%0.1f</span>,   <span style='color: green'>y2=%0.1f</span>" % (
+                mousePoint.x(), data1[index], data2[index]))'''
+        if mousePoint is not None:
+            # Moves the real network crosshair
+            self.realNetworkGraphWidget.vCrossLine.setPos(mousePoint.x())
+            self.realNetworkGraphWidget.hCrossLine.setPos(mousePoint.y())
+            # Moves the social network crosshair
+            self.socialNetworkGraphWidget.vCrossLine.setPos(mousePoint.x())
+            self.socialNetworkGraphWidget.hCrossLine.setPos(mousePoint.y())
 
     def closeEvent(self, a0: QtGui.QCloseEvent) -> None:
         print("Closed")

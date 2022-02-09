@@ -25,9 +25,9 @@ class RealNetwork:
         self.__nodes = {}
         self.__normalizedData = [[], []]
         threads = []
-        if exists(edges):
+        if edges is not None and exists(edges):
             threads.append(threading.Thread(target=lambda: self.loadEdges(path=edges)))
-        if exists(nodes):
+        if nodes is not None and exists(nodes):
             threads.append(threading.Thread(target=lambda: self.loadNodes(path=nodes)))
         for thread in threads:
             thread.start()
