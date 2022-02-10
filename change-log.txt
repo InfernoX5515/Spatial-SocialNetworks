@@ -1,1 +1,5 @@
-- Changed Road Network to Real network
+- Added window focus
+- Fixed error where closing choose file dialog sent an error
+- Prevented drag and drop in QTreeWidget
+- Added auto-scaling in QTreeWidget
+- Added menu refresh when networks are added

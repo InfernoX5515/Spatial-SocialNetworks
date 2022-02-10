@@ -22,6 +22,7 @@ from GUI import Gui
 
 
 # TODO: Figure out why the heck this won't actually close when the GUI is closed
+# TODO: Something is slowing down start time. Find this, fix it. Look at SocialNetwork chunking maybe?
 def main():
     # noinspection PyUnresolvedReferences
     app = QtGui.QApplication(sys.argv)
