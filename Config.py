@@ -3,7 +3,7 @@ from os.path import exists
 
 # =====================================================================================================================
 #
-#   Author: Halie Eckert
+#   Authors: Halie Eckert, Gavin Hulvey, Sydney Zuelzke
 #   Date: 11/9/2021
 #   Project: Spatial-Social Networks
 #
