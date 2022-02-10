@@ -7,7 +7,7 @@ import numpy as np
 
 # =====================================================================================================================
 #
-#   Author: Halie Eckert
+#   Authors: Halie Eckert, Gavin Hulvey, Sydney Zuelzke
 #   Date: 11/3/2021
 #   Project: Spatial-Social Networks
 #
