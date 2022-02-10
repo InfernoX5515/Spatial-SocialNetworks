@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d581def2-5ae4-4c98-98c5-32430090919e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealNetwork.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/california_edge.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/california_node.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foursquare_loc.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foursquare_rel.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gowalla_loc-.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gowalla_rel.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/change-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/change-log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +44,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\macar\Stuff\Development\Python\Spatial-SocialNetworks\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
@@ -102,5 +96,8 @@
       <updated>1644427599546</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

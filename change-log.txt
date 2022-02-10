@@ -1,3 +1,5 @@
-- Fixed issue with config not renamed
-- Added error handling for when viewing summary but no network is selected
-- Added error handling for when switching from summary back to main and vice versa
+- Added window focus
+- Fixed error where closing choose file dialog sent an error
+- Prevented drag and drop in QTreeWidget
+- Added auto-scaling in QTreeWidget
+- Added menu refresh when networks are added

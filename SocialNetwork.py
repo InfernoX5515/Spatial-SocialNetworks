@@ -26,9 +26,9 @@ class SocialNetwork:
         self.__normalizedLocData = [[], []]
         self.__chunkedLocData = []
         threads = []
-        if exists(rel):
+        if rel is not None and exists(rel):
             threads.append(threading.Thread(target=lambda: self.loadRel(path=rel)))
-        if exists(loc):
+        if loc is not None and exists(loc):
             threads.append(threading.Thread(target=lambda: self.loadLoc(path=loc)))
         for thread in threads:
             thread.start()

@@ -23,40 +23,44 @@ from sklearn.cluster import KMeans
 
 
 class Gui(QtWidgets.QMainWindow):
-    # TODO: Prevent clicking off sub-windows
     def __init__(self):
         super(Gui, self).__init__()
         self.config = Config()
         # Enable antialiasing for prettier plots
         pg.setConfigOptions(antialias=True)
+        # Sets styling
         pg.setConfigOption('background', 'white')
-
-        #self.setWindowModality(QtCore.Qt.ApplicationModal)
         # A dictionary of windows, each window has it's on id
         self.__windows = {}
-        # Used for storing all real network info
+        # Stores all real network info
         self.__realNetworks = self.config.settings["Real Networks"]
+        # Stores real network objects
         self.__realNetworkObjs = {}
+        # Gets instances of finished real networks
         self.getRealNetworkInstances()
-        # Used for storing all social network info
+        # Stores all social network info
         self.__socialNetworks = self.config.settings["Social Networks"]
+        # Stores social network objects
         self.__socialNetworkObjs = {}
+        # Gets instances of finished social networks
         self.getSocialNetworkInstances()
-        # Used for storing file hierarchy data
+        # Stores file hierarchy data
         self.__objects = {}
+        # Stores widget instances
         self.realNetworkGraphWidget = None
         self.socialNetworkGraphWidget = None
         self.realSummaryGraphWidget = None
         self.socialSummaryGraphWidget = None
+        # Stores selected network instances
         self.selectedRealNetwork = None
         self.selectedSocialNetwork = None
+        # Initializes menus
         self.__menuBar()
         self.__toolbar()
         self.__coordLabel()
         self.__mainWindow()
 
     def __mainWindow(self):
-        # screensize = ctypes.windll.user32.GetSystemMetrics(0), ctypes.windll.user32.GetSystemMetrics(1)
         screensize = self.screen().availableSize().width(), self.screen().availableSize().height()
         self.setGeometry(int((screensize[0] / 2) - 500), int((screensize[1] / 2) - 300), 1000, 600)
         self.setWindowTitle("Spatial-Social Networks")
@@ -65,22 +69,22 @@ class Gui(QtWidgets.QMainWindow):
         self.setCentralWidget(self.win)
         # Create and set up real network graph widget
         self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
-        # Adds a vertical and horizontal cross for a crosshair
+        # Create and set up the social network graph widget
+        self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+        # Links the x and y axis on both graphs
+        self.socialNetworkGraphWidget.setXLink(self.realNetworkGraphWidget)
+        self.socialNetworkGraphWidget.setYLink(self.realNetworkGraphWidget)
+        # Draw crosshairs on graph
+        self.socialNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+        self.socialNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+        self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.vCrossLine, ignoreBounds=True)
+        self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.hCrossLine, ignoreBounds=True)
         self.realNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
         self.realNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
         self.realNetworkGraphWidget.addItem(self.realNetworkGraphWidget.vCrossLine, ignoreBounds=True)
         self.realNetworkGraphWidget.addItem(self.realNetworkGraphWidget.hCrossLine, ignoreBounds=True)
         # Adds event listener
         self.realNetworkGraphWidget.scene().sigMouseMoved.connect(self.mouseMoved)
-        # Create and set up the social network graph widget
-        self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-        self.socialNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
-        self.socialNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
-        self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.vCrossLine, ignoreBounds=True)
-        self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.hCrossLine, ignoreBounds=True)
-        # Links the x and y axis on both graphs
-        self.socialNetworkGraphWidget.setXLink(self.realNetworkGraphWidget)
-        self.socialNetworkGraphWidget.setYLink(self.realNetworkGraphWidget)
         # Show window
         self.show()
 
@@ -95,8 +99,12 @@ class Gui(QtWidgets.QMainWindow):
         self.realNetworkGraphWidget.setYRange(yRanges[0] - 0.5, yRanges[1] + 0.5)
 
     def zoomInTool(self):
-        #self.realNetworkGraphWidget.viewRange =  [[-124.8716955920008 + (-124.8716955920008 * .5), -113.81190540799919 - (-113.81190540799919 * 0.5)], [32.08680962346822 + (32.08680962346822 * 0.5), 42.47730737653178 - (42.47730737653178 * .5)]]
-        #self.realNetworkGraphWidget.setXRange((self.realNetworkGraphWidget.viewRange[0][0] * 1.75) +  self.realNetworkGraphWidget.viewRange[0][0],  self.realNetworkGraphWidget.viewRange[0][1] - (self.realNetworkGraphWidget.viewRange[0][1] * 1.75))
+        #self.realNetworkGraphWidget.viewRange =  [
+        # [-124.8716955920008 + (-124.8716955920008 * .5), -113.81190540799919 - (-113.81190540799919 * 0.5)],
+        # [32.08680962346822 + (32.08680962346822 * 0.5), 42.47730737653178 - (42.47730737653178 * .5)]]
+        #self.realNetworkGraphWidget.setXRange((
+        # self.realNetworkGraphWidget.viewRange[0][0] * 1.75) +  self.realNetworkGraphWidget.viewRange[0][0],
+        # self.realNetworkGraphWidget.viewRange[0][1] - (self.realNetworkGraphWidget.viewRange[0][1] * 1.75))
         xRanges = self.realNetworkGraphWidget.getAxis('bottom').range
         yRanges = self.realNetworkGraphWidget.getAxis('left').range
         self.realNetworkGraphWidget.setXRange(xRanges[0] + 0.5, xRanges[1] - 0.5)
@@ -109,19 +117,15 @@ class Gui(QtWidgets.QMainWindow):
         toolbar = QtWidgets.QToolBar("My main toolbar")
         toolbar.setIconSize(QtCore.QSize(24, 24))
         self.addToolBar(toolbar)
-
         #cursor = QtWidgets.QAction(QtGui.QIcon('Assets/cursor.png'), "Cursor", self)
         #cursor.triggered.connect(self.cursorTool)
         #toolbar.addAction(cursor)
-
         zoom_in = QtWidgets.QAction(QtGui.QIcon('Assets/zoom-in.png'), "Zoom In", self)
         zoom_in.triggered.connect(self.zoomInTool)
         toolbar.addAction(zoom_in)
-
         zoom_out = QtWidgets.QAction(QtGui.QIcon('Assets/zoom-out.png'), "Zoom Out", self)
         zoom_out.triggered.connect(self.zoomOutTool)
         toolbar.addAction(zoom_out)
-
         #move = QtWidgets.QAction(QtGui.QIcon('Assets/move.png'), "Move", self)
         #move.triggered.connect(self.moveTool)
         #toolbar.addAction(move)
@@ -136,7 +140,6 @@ class Gui(QtWidgets.QMainWindow):
         coordLabel.addWidget(yLabel)
 
     def __menuBar(self):
-        #self.statusBar()
         mainMenu = self.menuBar()
         # Add File menu option
         addFileMenu = mainMenu.addMenu("File")
@@ -165,7 +168,6 @@ class Gui(QtWidgets.QMainWindow):
         # Add Real Network option
         addRNMenu = mainMenu.addMenu("Real Network")
         # Loads all real networks available
-        # TODO: Look into toggle buttons for menu
         rNetworks = self.getCompleteRealNetworks()
         rActions = {}
         for x in rNetworks:
@@ -184,6 +186,20 @@ class Gui(QtWidgets.QMainWindow):
             # Displays summary plots
             self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
             self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network Summary")
+            # Draw crosshairs on graph
+            self.socialSummaryGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+            self.socialSummaryGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+            self.socialSummaryGraphWidget.addItem(self.socialSummaryGraphWidget.vCrossLine, ignoreBounds=True)
+            self.socialSummaryGraphWidget.addItem(self.socialSummaryGraphWidget.hCrossLine, ignoreBounds=True)
+            self.realSummaryGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+            self.realSummaryGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+            self.realSummaryGraphWidget.addItem(self.realSummaryGraphWidget.vCrossLine, ignoreBounds=True)
+            self.realSummaryGraphWidget.addItem(self.realSummaryGraphWidget.hCrossLine, ignoreBounds=True)
+            # Adds event listener
+            self.realSummaryGraphWidget.scene().sigMouseMoved.connect(self.mouseMoved)
+            # Links the x and y axis on both graphs
+            self.socialSummaryGraphWidget.setXLink(self.realSummaryGraphWidget)
+            self.socialSummaryGraphWidget.setYLink(self.realSummaryGraphWidget)
             # If both a real network is selected, display info
             if self.selectedRealNetwork is not None:
                 self.selectedRealNetwork.visualize(self.realSummaryGraphWidget)
@@ -225,14 +241,17 @@ class Gui(QtWidgets.QMainWindow):
             '0': QtWidgets.QTreeWidgetItem(["Real Networks"]),
             '1': QtWidgets.QTreeWidgetItem(["Social Networks"])
         }
-        # TODO: Prevent drag-drop
-        # TODO: Scale window better
-        # TODO: Have window open on top
         self.__windows[0] = pg.TreeWidget()
+        # Settings for TreeWidget
+        self.__windows[0].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[0].setDragEnabled(False)
+        self.__windows[0].header().setSectionsMovable(False)
         self.__windows[0].header().setStretchLastSection(False)
         self.__windows[0].header().setSectionResizeMode(QtWidgets.QHeaderView.ResizeToContents)
         self.__windows[0].setWindowTitle('Files')
         self.__windows[0].setColumnCount(2)
+        self.__windows[0].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        # Show TreeWidget
         self.__windows[0].show()
         # Add Real Networks and Social Networks to hierarchy
         self.__windows[0].addTopLevelItem(self.__objects['0'])
@@ -289,7 +308,6 @@ class Gui(QtWidgets.QMainWindow):
                 self.__windows[0].setItemWidget(self.__objects[f"1.{i}.{j}"], 1, cFileS[f"{j}.{j}"])
 
     def newRealNetwork(self):
-        # TODO: Add exceptions, add error messages
         self.__windows[1] = QtWidgets.QInputDialog()
         text, ok = self.__windows[1].getText(self, 'New Real Network', "Enter your real network name:")
         if ok and str(text) not in self.__realNetworks.keys() and str(text) != "":
@@ -323,8 +341,6 @@ class Gui(QtWidgets.QMainWindow):
             self.config.update("Real Networks", self.__realNetworks)
 
     def newSocialNetwork(self):
-        # TODO: Add exceptions, add error messages
-        # TODO: When new social network/real network is created, refresh menus
         self.__windows[1] = QtWidgets.QInputDialog()
         text, ok = self.__windows[1].getText(self, 'New Social Network', "Enter your social network name:")
         if ok and str(text) not in self.__socialNetworks.keys() and str(text) != "":
@@ -374,7 +390,7 @@ class Gui(QtWidgets.QMainWindow):
     def chooseFile(self, obj, T, network, sub):
         self.__windows[2] = QtWidgets.QFileDialog()
         pathArr = self.__windows[2].getOpenFileNames(None, 'Select File', os.getenv('HOME'), "csv(*.csv)")[0]
-        if pathArr is not []:
+        if len(pathArr) is not 0:
             path = pathArr[0]
             if T == "Real Network":
                 self.__realNetworks[network][sub] = path
@@ -386,6 +402,8 @@ class Gui(QtWidgets.QMainWindow):
             fileNameArr = path.split("/")
             fileName = fileNameArr[len(fileNameArr) - 1]
             self.__objects[obj].setText(0, fileName)
+        self.menuBar().clear()
+        self.__menuBar()
 
     def getCompleteRealNetworks(self):
         networks = []
@@ -404,43 +422,186 @@ class Gui(QtWidgets.QMainWindow):
         return networks
 
     def displayRealNetwork(self, network, checked=None):
-        if checked:
-            # If there is a social network selected, remove and re-add to make sure nodes stay above the plot
-            if self.selectedSocialNetwork is not None:
+        if self.realSummaryGraphWidget is None:
+            if checked:
+                self.win.removeItem(self.socialNetworkGraphWidget)
+                self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
                 self.win.removeItem(self.realNetworkGraphWidget)
                 self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+                # If there is a social network selected, remove and re-add to make sure nodes stay above the plot
+                if self.selectedSocialNetwork is not None:
+                    # Visualize
+                    self.selectedSocialNetwork.visualize(self.socialNetworkGraphWidget, self.realNetworkGraphWidget)
+                # Visualizes the graph that is being selected
+                self.__realNetworkObjs[network].visualize(self.realNetworkGraphWidget)
+                self.selectedRealNetwork = self.__realNetworkObjs[network]
+            else:
+                # Removes the widget and re-adds it to be blank
+                self.win.removeItem(self.realNetworkGraphWidget)
+                self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+                self.selectedRealNetwork = None
                 self.win.removeItem(self.socialNetworkGraphWidget)
                 self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-                self.selectedSocialNetwork.visualize(self.socialNetworkGraphWidget, self.realNetworkGraphWidget)
-            # Visualizes the graph that is being selected
-            self.__realNetworkObjs[network].visualize(self.realNetworkGraphWidget)
-            self.selectedRealNetwork = self.__realNetworkObjs[network]
+                # Removes the social network and re-adds it to keep the graph there
+                if self.selectedSocialNetwork is not None:
+                    self.selectedSocialNetwork.visualize(self.socialNetworkGraphWidget, self.realNetworkGraphWidget)
+            # Draw crosshairs on graph
+            self.realNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+            self.realNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+            self.socialNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+            self.socialNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+            self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.vCrossLine, ignoreBounds=True)
+            self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.hCrossLine, ignoreBounds=True)
+            self.realNetworkGraphWidget.addItem(self.realNetworkGraphWidget.vCrossLine, ignoreBounds=True)
+            self.realNetworkGraphWidget.addItem(self.realNetworkGraphWidget.hCrossLine, ignoreBounds=True)
+            # Links the x and y axis on both graphs
+            self.socialNetworkGraphWidget.setXLink(self.realNetworkGraphWidget)
+            self.socialNetworkGraphWidget.setYLink(self.realNetworkGraphWidget)
         else:
-            # Removes the widget and re-adds it to be blank
-            self.win.removeItem(self.realNetworkGraphWidget)
-            self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
-            self.selectedRealNetwork = None
-            # Removes the social network and re-adds it to keep the graph there
-            if self.selectedSocialNetwork is not None:
-                self.win.removeItem(self.socialNetworkGraphWidget)
-                self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-                self.selectedSocialNetwork.visualize(self.socialNetworkGraphWidget, self.realNetworkGraphWidget)
+            if checked:
+                self.win.removeItem(self.socialSummaryGraphWidget)
+                self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
+                self.win.removeItem(self.realSummaryGraphWidget)
+                self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network Summary")
+                self.selectedRealNetwork = self.__realNetworkObjs[network]
+                self.selectedRealNetwork.visualize(self.realSummaryGraphWidget)
+                # If there is a social network selected, remove and re-add to make sure nodes stay above the plot
+                if self.selectedSocialNetwork is not None:
+                    # Draws summary nodes on graph. n_clusters is th number of nodes to plot
+                    kmeans = KMeans(n_clusters=int(10))
+                    kmeans.fit(self.selectedSocialNetwork.getChunkedLocData())
+                    # Scales the nodes according to population
+                    centers = kmeans.cluster_centers_
+                    ref = list(Counter(kmeans.labels_).values())
+                    refSorted = list(Counter(kmeans.labels_).values())
+                    refSorted.sort()
+                    # TODO: Make a better size sorting algorithm
+                    '''sizes = [0] * len(centers[:, 1])
+                    for z in range(0, len(refSorted)):
+                        for q in range(0, len(ref)):
+                            if int(ref[q]) == int(refSorted[z]):
+                                sizes[q] = refSorted[z] / 5'''
+                    # Note: For some reason, the alpha value is from 0-255 not 0-100
+                    self.realSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=30,
+                                                     symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+                self.socialSummaryGraphWidget.setXLink(self.realSummaryGraphWidget)
+                self.socialSummaryGraphWidget.setYLink(self.realSummaryGraphWidget)
+                # Draw crosshairs on graph
+                self.socialSummaryGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+                self.socialSummaryGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+                self.socialSummaryGraphWidget.addItem(self.socialSummaryGraphWidget.vCrossLine, ignoreBounds=True)
+                self.socialSummaryGraphWidget.addItem(self.socialSummaryGraphWidget.hCrossLine, ignoreBounds=True)
+                self.realSummaryGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+                self.realSummaryGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+                self.realSummaryGraphWidget.addItem(self.realSummaryGraphWidget.vCrossLine, ignoreBounds=True)
+                self.realSummaryGraphWidget.addItem(self.realSummaryGraphWidget.hCrossLine, ignoreBounds=True)
+            else:
+                # Removes the widget and re-adds it to be blank
+                self.win.removeItem(self.realSummaryGraphWidget)
+                self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network Summary")
+                self.selectedRealNetwork = None
+                self.win.removeItem(self.socialSummaryGraphWidget)
+                self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
+                # Removes the social network and re-adds it to keep the graph there
+                if self.selectedSocialNetwork is not None:
+                    self.selectedSocialNetwork.visualize(self.socialSummaryGraphWidget, self.realSummaryGraphWidget)
+            # Draw crosshairs on graph
+            self.realSummaryGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+            self.realSummaryGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+            self.socialSummaryGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+            self.socialSummaryGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+            self.socialSummaryGraphWidget.addItem(self.socialSummaryGraphWidget.vCrossLine, ignoreBounds=True)
+            self.socialSummaryGraphWidget.addItem(self.socialSummaryGraphWidget.hCrossLine, ignoreBounds=True)
+            self.realSummaryGraphWidget.addItem(self.realSummaryGraphWidget.vCrossLine, ignoreBounds=True)
+            self.realSummaryGraphWidget.addItem(self.realSummaryGraphWidget.hCrossLine, ignoreBounds=True)
+            # Links the x and y axis on both graphs
+            self.socialSummaryGraphWidget.setXLink(self.realSummaryGraphWidget)
+            self.socialSummaryGraphWidget.setYLink(self.realSummaryGraphWidget)
 
     def displaySocialNetwork(self, network, checked=None):
-        if checked:
-            # Visualizes social network
-            self.__socialNetworkObjs[network].visualize(self.socialNetworkGraphWidget, self.realNetworkGraphWidget)
-            self.selectedSocialNetwork = self.__socialNetworkObjs[network]
+        # TODO: Fix issue where unchecking road network in summary switches back to normal view
+        if self.socialSummaryGraphWidget is None:
+            if checked:
+                # Visualizes social network
+                self.__socialNetworkObjs[network].visualize(self.socialNetworkGraphWidget, self.realNetworkGraphWidget)
+                self.selectedSocialNetwork = self.__socialNetworkObjs[network]
+            else:
+                # Removes both graphs to clear them then re-adds them
+                self.win.removeItem(self.socialNetworkGraphWidget)
+                self.win.removeItem(self.realNetworkGraphWidget)
+                self.selectedSocialNetwork = None
+                self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+                self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+                # Re-visualizes the real network if it is selected
+                if self.selectedRealNetwork:
+                    self.selectedRealNetwork.visualize(self.realNetworkGraphWidget)
+                # Draw crosshairs on graph
+                self.realNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+                self.realNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+                self.socialNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+                self.socialNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+                self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.vCrossLine, ignoreBounds=True)
+                self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.hCrossLine, ignoreBounds=True)
+                self.realNetworkGraphWidget.addItem(self.realNetworkGraphWidget.vCrossLine, ignoreBounds=True)
+                self.realNetworkGraphWidget.addItem(self.realNetworkGraphWidget.hCrossLine, ignoreBounds=True)
         else:
-            # Removes both graphs to clear them then re-adds them
-            self.win.removeItem(self.socialNetworkGraphWidget)
-            self.win.removeItem(self.realNetworkGraphWidget)
-            self.selectedSocialNetwork = None
-            self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-            self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
-            # Re-visualizes the real network if it is selected
-            if self.selectedRealNetwork:
-                self.selectedRealNetwork.visualize(self.realNetworkGraphWidget)
+            if checked:
+                self.selectedSocialNetwork = self.__socialNetworkObjs[network]
+                self.win.removeItem(self.socialSummaryGraphWidget)
+                self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
+                self.win.removeItem(self.realSummaryGraphWidget)
+                self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network Summary")
+                if self.selectedRealNetwork is not None:
+                    self.selectedRealNetwork.visualize(self.realSummaryGraphWidget)
+                # Draws summary nodes on graph. n_clusters is th number of nodes to plot
+                kmeans = KMeans(n_clusters=int(10))
+                kmeans.fit(self.selectedSocialNetwork.getChunkedLocData())
+                # Scales the nodes according to population
+                centers = kmeans.cluster_centers_
+                ref = list(Counter(kmeans.labels_).values())
+                refSorted = list(Counter(kmeans.labels_).values())
+                refSorted.sort()
+                # TODO: Make a better size sorting algorithm
+                '''sizes = [0] * len(centers[:, 1])
+                for z in range(0, len(refSorted)):
+                    for q in range(0, len(ref)):
+                        if int(ref[q]) == int(refSorted[z]):
+                            sizes[q] = refSorted[z] / 5'''
+                # Note: For some reason, the alpha value is from 0-255 not 0-100
+                self.realSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=30,
+                                                 symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+                self.socialSummaryGraphWidget.setXLink(self.realSummaryGraphWidget)
+                self.socialSummaryGraphWidget.setYLink(self.realSummaryGraphWidget)
+                # Draw crosshairs on graph
+                self.socialSummaryGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+                self.socialSummaryGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+                self.socialSummaryGraphWidget.addItem(self.socialSummaryGraphWidget.vCrossLine, ignoreBounds=True)
+                self.socialSummaryGraphWidget.addItem(self.socialSummaryGraphWidget.hCrossLine, ignoreBounds=True)
+                self.realSummaryGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+                self.realSummaryGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+                self.realSummaryGraphWidget.addItem(self.realSummaryGraphWidget.vCrossLine, ignoreBounds=True)
+                self.realSummaryGraphWidget.addItem(self.realSummaryGraphWidget.hCrossLine, ignoreBounds=True)
+            else:
+                # TODO: Implement
+                print("")
+                # Removes both graphs to clear them then re-adds them
+                '''self.win.removeItem(self.socialNetworkGraphWidget)
+                self.win.removeItem(self.realNetworkGraphWidget)
+                self.selectedSocialNetwork = None
+                self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+                self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+                # Re-visualizes the real network if it is selected
+                if self.selectedRealNetwork:
+                    self.selectedRealNetwork.visualize(self.realNetworkGraphWidget)
+                # Draw crosshairs on graph
+                self.realNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+                self.realNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+                self.socialNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False)
+                self.socialNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False)
+                self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.vCrossLine, ignoreBounds=True)
+                self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.hCrossLine, ignoreBounds=True)
+                self.realNetworkGraphWidget.addItem(self.realNetworkGraphWidget.vCrossLine, ignoreBounds=True)
+                self.realNetworkGraphWidget.addItem(self.realNetworkGraphWidget.hCrossLine, ignoreBounds=True)'''
 
     def getRealNetworkInstances(self):
         for x in self.__realNetworks:
@@ -464,11 +625,18 @@ class Gui(QtWidgets.QMainWindow):
             self.__socialNetworkObjs[x] = SocialNetwork(x, rels, locs)
 
     def mouseMoved(self, evt):
+        mousePoint = None
         # Sets the mousePoint to whichever graph the pointer is over
         if self.realNetworkGraphWidget.sceneBoundingRect().contains(evt.x(), evt.y()):
             mousePoint = self.realNetworkGraphWidget.vb.mapSceneToView(evt)
         else:
-            mousePoint = self.socialNetworkGraphWidget.vb.mapSceneToView(evt)
+            if self.realSummaryGraphWidget is not None:
+                if self.socialSummaryGraphWidget.sceneBoundingRect().contains(evt.x(), evt.y()):
+                    mousePoint = self.socialSummaryGraphWidget.vb.mapSceneToView(evt)
+                else:
+                    mousePoint = self.realSummaryGraphWidget.vb.mapSceneToView(evt)
+            else:
+                mousePoint = self.socialNetworkGraphWidget.vb.mapSceneToView(evt)
         # TODO: Implement x, y coords to show
         # Changes text for position
         '''index = int(mousePoint.x())
@@ -477,12 +645,20 @@ class Gui(QtWidgets.QMainWindow):
                 "<span style='font-size: 12pt'>x=%0.1f,   <span style='color: red'>y1=%0.1f</span>,   <span style='color: green'>y2=%0.1f</span>" % (
                 mousePoint.x(), data1[index], data2[index]))'''
         if mousePoint is not None:
-            # Moves the real network crosshair
-            self.realNetworkGraphWidget.vCrossLine.setPos(mousePoint.x())
-            self.realNetworkGraphWidget.hCrossLine.setPos(mousePoint.y())
-            # Moves the social network crosshair
-            self.socialNetworkGraphWidget.vCrossLine.setPos(mousePoint.x())
-            self.socialNetworkGraphWidget.hCrossLine.setPos(mousePoint.y())
+            if self.realSummaryGraphWidget is None:
+                # Moves the real network crosshair
+                self.realNetworkGraphWidget.vCrossLine.setPos(mousePoint.x())
+                self.realNetworkGraphWidget.hCrossLine.setPos(mousePoint.y())
+                # Moves the social network crosshair
+                self.socialNetworkGraphWidget.vCrossLine.setPos(mousePoint.x())
+                self.socialNetworkGraphWidget.hCrossLine.setPos(mousePoint.y())
+            else:
+                # Moves the real network crosshair
+                self.realSummaryGraphWidget.vCrossLine.setPos(mousePoint.x())
+                self.realSummaryGraphWidget.hCrossLine.setPos(mousePoint.y())
+                # Moves the social network crosshair
+                self.socialSummaryGraphWidget.vCrossLine.setPos(mousePoint.x())
+                self.socialSummaryGraphWidget.hCrossLine.setPos(mousePoint.y())
 
     def closeEvent(self, a0: QtGui.QCloseEvent) -> None:
         print("Closed")
