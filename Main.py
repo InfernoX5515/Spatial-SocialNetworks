@@ -4,7 +4,7 @@ from GUI import Gui
 
 # =====================================================================================================================
 #
-#   Author: Halie Eckert
+#   Authors: Halie Eckert, Gavin Hulvey, Sydney Zuelzke
 #   Mentor: Dr. Xiang Lain
 #   Date: 11/3/2021
 #   SPATIAL-SOCIAL NETWORKS
