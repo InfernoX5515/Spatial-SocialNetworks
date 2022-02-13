@@ -8,7 +8,7 @@ from RealNetwork import RealNetwork
 from SocialNetwork import SocialNetwork
 from sklearn.cluster import KMeans
 
-#testing
+
 # =====================================================================================================================
 #
 #   Authors: Halie Eckert, Gavin Hulvey, Sydney Zuelzke
