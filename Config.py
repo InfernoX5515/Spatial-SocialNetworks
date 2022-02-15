@@ -26,7 +26,7 @@ class Config:
     @staticmethod
     def defSettings():
         settings = {
-            "Real Networks": {},
+            "Road Networks": {},
             "Social Networks": {}
         }
         return settings

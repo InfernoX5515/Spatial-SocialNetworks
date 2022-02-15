@@ -69,7 +69,7 @@ class Gui(QtWidgets.QMainWindow):
         self.win = pg.GraphicsLayoutWidget(show=True)
         self.setCentralWidget(self.win)
         # Create and set up real network graph widget
-        self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+        self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
         # Create and set up the social network graph widget
         self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
         # Links the x and y axis on both graphs
@@ -152,13 +152,13 @@ class Gui(QtWidgets.QMainWindow):
             sActions[x].triggered.connect(lambda junk, a=x: self.displaySocialNetwork(a, sActions[a].isChecked()))
             addSNMenu.addAction(sActions[x])
         # Add Real Network option
-        addRNMenu = mainMenu.addMenu("Real Network")
+        addRNMenu = mainMenu.addMenu("Road Network")
         # Loads all real networks available
         rNetworks = self.getCompleteRealNetworks()
         rActions = {}
         for x in rNetworks:
             rActions[x] = QtWidgets.QAction(x, self, checkable=True)
-            rActions[x].setStatusTip(f"Switch to view real network {x}")
+            rActions[x].setStatusTip(f"Switch to view road network {x}")
             rActions[x].triggered.connect(lambda junk, a=x: self.displayRealNetwork(a, rActions[a].isChecked()))
             addRNMenu.addAction(rActions[x])
 
@@ -172,7 +172,7 @@ class Gui(QtWidgets.QMainWindow):
             self.win.removeItem(self.socialNetworkGraphWidget)
             # Displays summary plots
             self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
-            self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network Summary")
+            self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
             # Draw crosshairs on graph
             self.drawRoadSummaryCrosshair()
             self.drawSocialSummaryCrosshair()
@@ -199,7 +199,7 @@ class Gui(QtWidgets.QMainWindow):
             self.win.removeItem(self.socialSummaryGraphWidget)
             self.realSummaryGraphWidget = None
             self.socialSummaryGraphWidget = None
-            self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+            self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
             self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
             # Re-visualize selected networks
             if self.selectedRealNetwork is not None:
@@ -249,7 +249,7 @@ class Gui(QtWidgets.QMainWindow):
 
     def viewFiles(self):
         self.__objects = {
-            '0': QtWidgets.QTreeWidgetItem(["Real Networks"]),
+            '0': QtWidgets.QTreeWidgetItem(["Road Networks"]),
             '1': QtWidgets.QTreeWidgetItem(["Social Networks"])
         }
         self.__windows[0] = pg.TreeWidget()
@@ -268,7 +268,7 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[0].addTopLevelItem(self.__objects['0'])
         self.__windows[0].addTopLevelItem(self.__objects['1'])
         # Add button to add a new Real Network
-        nrn = QtWidgets.QPushButton("New Real Network")
+        nrn = QtWidgets.QPushButton("New Road Network")
         nrn.clicked.connect(self.newRealNetwork)
         self.__windows[0].setItemWidget(self.__objects['0'], 1, nrn)
         # Add button to add a new Social Network
@@ -294,7 +294,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.__objects[f"0.{i}"].addChild(self.__objects[f"0.{i}.{j}"])
                 cFile[j] = QtWidgets.QPushButton("Choose File")
                 cFile[j].clicked.connect(
-                    lambda junk, a=i, d=j, b=x, c=y: self.chooseFile(f"0.{a}.{d}", "Real Network", b, c))
+                    lambda junk, a=i, d=j, b=x, c=y: self.chooseFile(f"0.{a}.{d}", "Road Network", b, c))
                 self.__windows[0].setItemWidget(self.__objects[f"0.{i}.{j}"], 1, cFile[j])
         # Adds all sub-objects to socialNetworks
         i = 0
@@ -320,7 +320,7 @@ class Gui(QtWidgets.QMainWindow):
 
     def newRealNetwork(self):
         self.__windows[1] = QtWidgets.QInputDialog()
-        text, ok = self.__windows[1].getText(self, 'New Real Network', "Enter your real network name:")
+        text, ok = self.__windows[1].getText(self, 'New Road Network', "Enter your road network name:")
         if ok and str(text) not in self.__realNetworks.keys() and str(text) != "":
             self.__realNetworks[str(text)] = {
                 "Node File": "[Node File]",
@@ -336,7 +336,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.__objects[f"0.{len(self.__realNetworks.keys()) + 1}.1"])
             addN = QtWidgets.QPushButton("Choose File")
             addN.clicked.connect(
-                lambda: self.chooseFile(f"0.{len(self.__realNetworks.keys()) + 1}.1", "Real Network", str(text),
+                lambda: self.chooseFile(f"0.{len(self.__realNetworks.keys()) + 1}.1", "Road Network", str(text),
                                         "Node File"))
             self.__windows[0].setItemWidget(self.__objects[f"0.{len(self.__realNetworks.keys()) + 1}.1"], 1, addN)
             # Adds new real network's edge file
@@ -345,11 +345,11 @@ class Gui(QtWidgets.QMainWindow):
             self.__objects[f'0.{len(self.__realNetworks.keys()) + 1}'].addChild(
                 self.__objects[f"0.{len(self.__realNetworks.keys()) + 1}.2"])
             addE = QtWidgets.QPushButton("Choose File")
-            addE.clicked.connect(lambda: self.chooseFile(f"0.{len(self.__realNetworks.keys()) + 1}.2", "Real Network", str(text),
+            addE.clicked.connect(lambda: self.chooseFile(f"0.{len(self.__realNetworks.keys()) + 1}.2", "Road Network", str(text),
                                         "Edge File"))
             self.__windows[0].setItemWidget(self.__objects[f"0.{len(self.__realNetworks.keys()) + 1}.2"], 1, addE)
             # Update config
-            self.config.update("Real Networks", self.__realNetworks)
+            self.config.update("Road Networks", self.__realNetworks)
 
     def newSocialNetwork(self):
         self.__windows[1] = QtWidgets.QInputDialog()
@@ -403,9 +403,9 @@ class Gui(QtWidgets.QMainWindow):
         pathArr = self.__windows[2].getOpenFileNames(None, 'Select File', os.getenv('HOME'), "csv(*.csv)")[0]
         if len(pathArr) is not 0:
             path = pathArr[0]
-            if T == "Real Network":
+            if T == "Road Network":
                 self.__realNetworks[network][sub] = path
-                self.config.update("Real Networks", self.__realNetworks)
+                self.config.update("Road Networks", self.__realNetworks)
             elif T == "Social Network":
                 self.__socialNetworks[network][sub] = path
                 self.config.update("Social Networks", self.__socialNetworks)
@@ -438,7 +438,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.win.removeItem(self.socialNetworkGraphWidget)
                 self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
                 self.win.removeItem(self.realNetworkGraphWidget)
-                self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+                self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
                 # If there is a social network selected, remove and re-add to make sure nodes stay above the plot
                 if self.selectedSocialNetwork is not None:
                     # Visualize
@@ -449,7 +449,7 @@ class Gui(QtWidgets.QMainWindow):
             else:
                 # Removes the widget and re-adds it to be blank
                 self.win.removeItem(self.realNetworkGraphWidget)
-                self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+                self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
                 self.selectedRealNetwork = None
                 self.win.removeItem(self.socialNetworkGraphWidget)
                 self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
@@ -464,7 +464,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.win.removeItem(self.socialSummaryGraphWidget)
                 self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
                 self.win.removeItem(self.realSummaryGraphWidget)
-                self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network Summary")
+                self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
                 self.selectedRealNetwork = self.__realNetworkObjs[network]
                 self.selectedRealNetwork.visualize(self.realSummaryGraphWidget)
                 # If there is a social network selected, remove and re-add to make sure nodes stay above the plot
@@ -480,7 +480,7 @@ class Gui(QtWidgets.QMainWindow):
             else:
                 # Removes the widget and re-adds it to be blank
                 self.win.removeItem(self.realSummaryGraphWidget)
-                self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network Summary")
+                self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
                 self.selectedRealNetwork = None
                 self.win.removeItem(self.socialSummaryGraphWidget)
                 self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
@@ -509,7 +509,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.win.removeItem(self.realNetworkGraphWidget)
                 self.selectedSocialNetwork = None
                 self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-                self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+                self.realNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
                 # Re-visualizes the real network if it is selected
                 if self.selectedRealNetwork:
                     self.selectedRealNetwork.visualize(self.realNetworkGraphWidget)
@@ -524,7 +524,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.win.removeItem(self.socialSummaryGraphWidget)
                 self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
                 self.win.removeItem(self.realSummaryGraphWidget)
-                self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network Summary")
+                self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
                 if self.selectedRealNetwork is not None:
                     self.selectedRealNetwork.visualize(self.realSummaryGraphWidget)
                 centers = self.getSummaryClusters(self.clusterInput.textBox.text())
@@ -541,7 +541,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.win.removeItem(self.realSummaryGraphWidget)
                 self.selectedSocialNetwork = None
                 self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-                self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Real Network")
+                self.realSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
                 # Re-visualizes the real network if it is selected
                 if self.selectedRealNetwork:
                     self.selectedRealNetwork.visualize(self.realSummaryGraphWidget)
