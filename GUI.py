@@ -89,8 +89,9 @@ class Gui(QtWidgets.QMainWindow):
         #self.realNetworkGraphWidget.setMouseEnabled(x=False, y=False)
         xRanges = self.realNetworkGraphWidget.getAxis('bottom').range
         yRanges = self.realNetworkGraphWidget.getAxis('left').range
-        self.realNetworkGraphWidget.setXRange(xRanges[0] - 0.5, xRanges[1] + 0.5)
-        self.realNetworkGraphWidget.setYRange(yRanges[0] - 0.5, yRanges[1] + 0.5)
+        scale = (((abs(yRanges[0]) - abs(yRanges[1])) - (abs(yRanges[0]) - abs(yRanges[1])) * 1.25)) / 2
+        self.realNetworkGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
+        self.realNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
 
     def zoomInTool(self):
         #self.realNetworkGraphWidget.viewRange =  [
@@ -101,8 +102,9 @@ class Gui(QtWidgets.QMainWindow):
         # self.realNetworkGraphWidget.viewRange[0][1] - (self.realNetworkGraphWidget.viewRange[0][1] * 1.75))
         xRanges = self.realNetworkGraphWidget.getAxis('bottom').range
         yRanges = self.realNetworkGraphWidget.getAxis('left').range
-        self.realNetworkGraphWidget.setXRange(xRanges[0] + 0.5, xRanges[1] - 0.5)
-        self.realNetworkGraphWidget.setYRange(yRanges[0] + 0.5, yRanges[1] - 0.5)
+        scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
+        self.realNetworkGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
+        self.realNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
 
     def moveTool(self):
         self.realNetworkGraphWidget.setMouseEnabled(x=False, y=False)
