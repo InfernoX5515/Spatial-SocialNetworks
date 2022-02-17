@@ -3,10 +3,15 @@ from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
 import PyQt5.QtWidgets as QtWidgets
+from PyQt5.QtWebEngineWidgets import QWebEngineView
 import os
 from RealNetwork import RealNetwork
 from SocialNetwork import SocialNetwork
 from sklearn.cluster import KMeans
+import pyvis
+from pyvis.network import Network
+import networkx as nx  # importing networkx package
+import matplotlib.pyplot as plt # importing matplotlib package and pyplot is for displaying the graph on canvas
 
 
 # =====================================================================================================================
@@ -20,6 +25,44 @@ from sklearn.cluster import KMeans
 #    to display data.
 #
 # =====================================================================================================================
+
+class NetworkGraphWindow(QtWidgets.QWidget):
+
+    #
+    # Proof of Concept
+    #
+
+    def __init__(self):
+        super().__init__()
+        layout = QtWidgets.QVBoxLayout()
+        screensize = self.screen().availableSize().width(), self.screen().availableSize().height()
+        self.setGeometry(int((screensize[0] / 2) - 500), int((screensize[1] / 2) - 300), 1000, 600)
+        self.setWindowTitle("Spatial-Social Network Graph")
+        self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
+        self.graphView = QWebEngineView()
+        network = nx.Graph()
+        network.add_node(0)
+        network.add_node(1)
+        network.add_node(2)
+        network.add_node(3)
+        network.add_node(4)
+        network.add_node(5)
+        network.add_edge(0, 1)
+        network.add_edge(0, 2)
+        network.add_edge(0, 3)
+        network.add_edge(4, 1)
+        network.add_edge(5, 1)
+        network.add_edge(5, 2)
+
+        nt = Network('500px', '500px')
+
+        nt.from_nx(network)
+        nt.show('nx.html')
+        with open('nx.html', 'r') as f:
+            html = f.read()
+            self.graphView.setHtml(html)
+        layout.addWidget(self.graphView)
+        self.setLayout(layout)
 
 
 class Gui(QtWidgets.QMainWindow):
@@ -82,11 +125,7 @@ class Gui(QtWidgets.QMainWindow):
         # Show window
         self.show()
 
-    def cursorTool(self):
-        self.realNetworkGraphWidget.setMouseEnabled(x=True, y=True)
-
     def zoomOutTool(self):
-        #self.realNetworkGraphWidget.setMouseEnabled(x=False, y=False)
         xRanges = self.realNetworkGraphWidget.getAxis('bottom').range
         yRanges = self.realNetworkGraphWidget.getAxis('left').range
         scale = (((abs(yRanges[0]) - abs(yRanges[1])) - (abs(yRanges[0]) - abs(yRanges[1])) * 1.25)) / 2
@@ -94,37 +133,56 @@ class Gui(QtWidgets.QMainWindow):
         self.realNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
 
     def zoomInTool(self):
-        #self.realNetworkGraphWidget.viewRange =  [
-        # [-124.8716955920008 + (-124.8716955920008 * .5), -113.81190540799919 - (-113.81190540799919 * 0.5)],
-        # [32.08680962346822 + (32.08680962346822 * 0.5), 42.47730737653178 - (42.47730737653178 * .5)]]
-        #self.realNetworkGraphWidget.setXRange((
-        # self.realNetworkGraphWidget.viewRange[0][0] * 1.75) +  self.realNetworkGraphWidget.viewRange[0][0],
-        # self.realNetworkGraphWidget.viewRange[0][1] - (self.realNetworkGraphWidget.viewRange[0][1] * 1.75))
         xRanges = self.realNetworkGraphWidget.getAxis('bottom').range
         yRanges = self.realNetworkGraphWidget.getAxis('left').range
         scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
         self.realNetworkGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
         self.realNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
 
-    def moveTool(self):
-        self.realNetworkGraphWidget.setMouseEnabled(x=False, y=False)
+    def jogLeftTool(self):
+        xRanges = self.realNetworkGraphWidget.getAxis('bottom').range
+        scale = ((abs(xRanges[0]) - abs(xRanges[1]) - ((abs(xRanges[0]) - abs(xRanges[1]))) * 0.75)) / 2
+        self.realNetworkGraphWidget.setXRange(xRanges[0] + scale, xRanges[1] + scale)
+    def jogRightTool(self):
+        xRanges = self.realNetworkGraphWidget.getAxis('bottom').range
+        scale = ((abs(xRanges[0]) - abs(xRanges[1]) - ((abs(xRanges[0]) - abs(xRanges[1]))) * 0.75)) / 2
+        self.realNetworkGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] - scale)
+    def jogUpTool(self):
+        yRanges = self.realNetworkGraphWidget.getAxis('left').range
+        scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
+        self.realNetworkGraphWidget.setYRange(yRanges[0] + scale, yRanges[1] + scale)
+    def jogDownTool(self):
+        yRanges = self.realNetworkGraphWidget.getAxis('left').range
+        scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
+        self.realNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] - scale)
 
     def __toolbar(self):
         toolbar = QtWidgets.QToolBar("My main toolbar")
         toolbar.setIconSize(QtCore.QSize(24, 24))
         self.addToolBar(toolbar)
-        #cursor = QtWidgets.QAction(QtGui.QIcon('Assets/cursor.png'), "Cursor", self)
-        #cursor.triggered.connect(self.cursorTool)
-        #toolbar.addAction(cursor)
-        zoom_in = QtWidgets.QAction(QtGui.QIcon('Assets/zoom-in.png'), "Zoom In", self)
+        zoom_in = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-plus-solid.svg'), "Zoom In", self)
         zoom_in.triggered.connect(self.zoomInTool)
         toolbar.addAction(zoom_in)
-        zoom_out = QtWidgets.QAction(QtGui.QIcon('Assets/zoom-out.png'), "Zoom Out", self)
+        zoom_out = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-minus-solid.svg'), "Zoom Out", self)
         zoom_out.triggered.connect(self.zoomOutTool)
         toolbar.addAction(zoom_out)
-        #move = QtWidgets.QAction(QtGui.QIcon('Assets/move.png'), "Move", self)
-        #move.triggered.connect(self.moveTool)
-        #toolbar.addAction(move)
+
+        jogLeft = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-left-solid.svg'), "Jog Left", self)
+        jogLeft.triggered.connect(self.jogLeftTool)
+        toolbar.addAction(jogLeft)
+
+        jogRight = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-right-solid.svg'), "Jog Right", self)
+        jogRight.triggered.connect(self.jogRightTool)
+        toolbar.addAction(jogRight)
+
+        jogUp = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-up-solid.svg'), "Jog Up", self)
+        jogUp.triggered.connect(self.jogUpTool)
+        toolbar.addAction(jogUp)
+
+        jogDown = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-down-solid.svg'), "Jog Down", self)
+        jogDown.triggered.connect(self.jogDownTool)
+        toolbar.addAction(jogDown)
+
 
     # Adds on menu bar
     def __menuBar(self):
@@ -142,6 +200,12 @@ class Gui(QtWidgets.QMainWindow):
         viewSummaryAction.setStatusTip("View summary graphs")
         viewSummaryAction.triggered.connect(self.viewSummary)
         addViewMenu.addAction(viewSummaryAction)
+        #
+        viewInterNetworkAction = QtWidgets.QAction("Interactive Network", self, checkable=True)
+        viewInterNetworkAction.setStatusTip("Launch interactive network interface")
+        viewInterNetworkAction.triggered.connect(self.viewInterNetwork)
+        addViewMenu.addAction(viewInterNetworkAction)
+
         # Add Social Network option
         addSNMenu = mainMenu.addMenu("Social Network")
         # Loads all social networks available
@@ -163,6 +227,11 @@ class Gui(QtWidgets.QMainWindow):
             rActions[x].setStatusTip(f"Switch to view road network {x}")
             rActions[x].triggered.connect(lambda junk, a=x: self.displayRealNetwork(a, rActions[a].isChecked()))
             addRNMenu.addAction(rActions[x])
+
+    def viewInterNetwork(self, checked):
+        self.netgwin = NetworkGraphWindow()
+        self.netgwin.show()
+ 
 
     # Handles summary view
     def viewSummary(self):
