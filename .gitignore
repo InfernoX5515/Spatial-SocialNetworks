@@ -1,3 +1,5 @@
 /Test.py
 /config.json
-.idea/
+/.idea/
+.idea/workspace.xml
+/__pycache__/
