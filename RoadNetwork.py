@@ -16,9 +16,7 @@ from os.path import exists
 # =====================================================================================================================
 
 
-# TODO: Customize time messages more
 class RoadNetwork:
-    # TODO: Add protection against loading file that does not exist
     def __init__(self, name=None, edges=None, nodes=None):
         self.__name = name
         self.__edges = {}
