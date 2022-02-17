@@ -57,7 +57,6 @@ class Gui(QtWidgets.QMainWindow):
         # Initializes menus
         self.__menuBar()
         self.__toolbar()
-        self.__coordLabel()
         self.__mainWindow()
 
     def __mainWindow(self):
@@ -129,15 +128,6 @@ class Gui(QtWidgets.QMainWindow):
         #move = QtWidgets.QAction(QtGui.QIcon('Assets/move.png'), "Move", self)
         #move.triggered.connect(self.moveTool)
         #toolbar.addAction(move)
-
-    def __coordLabel(self):
-        coordLabel = QtWidgets.QToolBar("CoordLabel")
-        coordLabel.setIconSize(QtCore.QSize(24, 24))
-        self.addToolBar(coordLabel)
-        xLabel = QtWidgets.QLabel(text="x=")
-        yLabel = QtWidgets.QLabel(text="y=")
-        coordLabel.addWidget(xLabel)
-        coordLabel.addWidget(yLabel)
 
     def __menuBar(self):
         mainMenu = self.menuBar()
