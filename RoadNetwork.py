@@ -42,7 +42,7 @@ class RoadNetwork:
     # }
     # noinspection PyShadowingBuiltins
     def loadEdges(self, path=None):
-        if path is not None:
+        if path is not None and exists(path):
             dict = {}
             with open(path, 'r') as csvfile:
                 reader = csv.reader(csvfile, delimiter=',', quotechar='|')
@@ -70,7 +70,7 @@ class RoadNetwork:
     # }
     # noinspection PyShadowingBuiltins
     def loadNodes(self, path=None):
-        if path is not None:
+        if path is not None and exists(path):
             dict = {}
             # noinspection SpellCheckingInspection
             with open(path, 'r') as csvfile:

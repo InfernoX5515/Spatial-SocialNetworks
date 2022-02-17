@@ -1,4 +1,6 @@
 from collections import Counter
+from os.path import exists
+
 from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
@@ -395,19 +397,25 @@ class Gui(QtWidgets.QMainWindow):
         self.menuBar().clear()
         self.__menuBar()
 
+    # Return road networks that have all files and those files exist
     def getCompleteRoadNetworks(self):
         networks = []
         for x in self.__roadNetworks:
             if self.__roadNetworks[x]["Edge File"] != "[Edge File]" and \
-                    self.__roadNetworks[x]["Node File"] != "[Node File]":
+                    exists(self.__roadNetworks[x]["Edge File"]) and \
+                    self.__roadNetworks[x]["Node File"] != "[Node File]" and \
+                    exists(self.__roadNetworks[x]["Node File"]):
                 networks.append(x)
         return networks
 
+    # Return social networks that have all files and those files exist
     def getCompleteSocialNetworks(self):
         networks = []
         for x in self.__socialNetworks:
             if self.__socialNetworks[x]["Rel File"] != "[Rel File]" and \
-                    self.__socialNetworks[x]["Loc File"] != "[Loc File]":
+                    exists(self.__socialNetworks[x]["Rel File"]) and \
+                    self.__socialNetworks[x]["Loc File"] != "[Loc File]" and \
+                    exists(self.__socialNetworks[x]["Loc File"]):
                 networks.append(x)
         return networks
 

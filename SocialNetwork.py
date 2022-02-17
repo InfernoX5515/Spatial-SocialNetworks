@@ -49,7 +49,7 @@ class SocialNetwork:
     # }
     # noinspection PyShadowingBuiltins
     def loadRel(self, path=None):
-        if path is not None:
+        if path is not None and exists(path):
             dict = {}
             with open(path, 'r') as csvfile:
                 reader = csv.reader(csvfile, delimiter=',', quotechar='|')
@@ -76,7 +76,7 @@ class SocialNetwork:
     # }
     # noinspection SpellCheckingInspection,PyShadowingBuiltins
     def loadLoc(self, path=None):
-        if path is not None:
+        if path is not None and exists(path):
             dict = {}
             with open(path, 'r') as csvfile:
                 reader = csv.reader(csvfile, delimiter=',', quotechar='|')
