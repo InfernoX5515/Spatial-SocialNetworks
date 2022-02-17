@@ -113,7 +113,7 @@ class Gui(QtWidgets.QMainWindow):
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
         self.win = pg.GraphicsLayoutWidget(show=True)
         self.setCentralWidget(self.win)
-        # Create and set up real network graph widget
+        # Create and set up road network graph widget
         self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
         # Create and set up the social network graph widget
         self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
@@ -142,21 +142,21 @@ class Gui(QtWidgets.QMainWindow):
         self.roadNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
 
     def jogLeftTool(self):
-        xRanges = self.realNetworkGraphWidget.getAxis('bottom').range
+        xRanges = self.roadNetworkGraphWidget.getAxis('bottom').range
         scale = ((abs(xRanges[0]) - abs(xRanges[1]) - ((abs(xRanges[0]) - abs(xRanges[1]))) * 0.75)) / 2
-        self.realNetworkGraphWidget.setXRange(xRanges[0] + scale, xRanges[1] + scale)
+        self.roadNetworkGraphWidget.setXRange(xRanges[0] + scale, xRanges[1] + scale)
     def jogRightTool(self):
-        xRanges = self.realNetworkGraphWidget.getAxis('bottom').range
+        xRanges = self.roadNetworkGraphWidget.getAxis('bottom').range
         scale = ((abs(xRanges[0]) - abs(xRanges[1]) - ((abs(xRanges[0]) - abs(xRanges[1]))) * 0.75)) / 2
-        self.realNetworkGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] - scale)
+        self.roadNetworkGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] - scale)
     def jogUpTool(self):
-        yRanges = self.realNetworkGraphWidget.getAxis('left').range
+        yRanges = self.roadNetworkGraphWidget.getAxis('left').range
         scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
-        self.realNetworkGraphWidget.setYRange(yRanges[0] + scale, yRanges[1] + scale)
+        self.roadNetworkGraphWidget.setYRange(yRanges[0] + scale, yRanges[1] + scale)
     def jogDownTool(self):
-        yRanges = self.realNetworkGraphWidget.getAxis('left').range
+        yRanges = self.roadNetworkGraphWidget.getAxis('left').range
         scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
-        self.realNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] - scale)
+        self.roadNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] - scale)
 
     def __toolbar(self):
         toolbar = QtWidgets.QToolBar("My main toolbar")
@@ -218,9 +218,9 @@ class Gui(QtWidgets.QMainWindow):
             sActions[x].triggered.connect(lambda junk, a=x: self.displaySocialNetwork(a, sActions[a].isChecked()))
             addSNMenu.addAction(sActions[x])
 
-        # Add Real Network option
+        # Add Road Network option
         addRNMenu = mainMenu.addMenu("Road Network")
-        # Loads all real networks available
+        # Loads all road networks available
         rNetworks = self.getCompleteRoadNetworks()
         rActions = {}
         for x in rNetworks:
@@ -254,7 +254,7 @@ class Gui(QtWidgets.QMainWindow):
             self.__clusterInput()
             # Adds event listener
             self.roadSummaryGraphWidget.scene().sigMouseMoved.connect(self.mouseMoved)
-            # If a real network is selected, display info
+            # If a road network is selected, display info
             if self.selectedRoadNetwork is not None:
                 self.selectedRoadNetwork.visualize(self.roadSummaryGraphWidget)
                 # TODO: Add user-defined n_cluster amount
@@ -313,7 +313,7 @@ class Gui(QtWidgets.QMainWindow):
         self.clusterInput.textBox.setValidator(QtGui.QIntValidator(0, 99))
         self.clusterInput.textBox.setText("10")
         button = QtWidgets.QPushButton("Ok")
-        #lambda junk, a=i, d=j, b=x, c=y: self.chooseFile(f"0.{a}.{d}", "Real Network", b, c)
+        #lambda junk, a=i, d=j, b=x, c=y: self.chooseFile(f"0.{a}.{d}", "Road Network", b, c)
         button.clicked.connect(lambda junk, n=self.clusterInput.textBox.text(): self.getSummaryClusters(n))
         self.clusterInput.addWidget(label)
         self.clusterInput.addWidget(self.clusterInput.textBox)
@@ -588,9 +588,9 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedSocialNetwork = None
                 self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
                 self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
-                # Re-visualizes the real network if it is selected
+                # Re-visualizes the road network if it is selected
                 if self.selectedRoadNetwork:
-                    self.selectedRoadNetwork.visualize(self.realNetworkGraphWidget)
+                    self.selectedRoadNetwork.visualize(self.roadNetworkGraphWidget)
                 # Draw crosshairs on graph
                 self.drawSocialCrosshair()
                 self.drawRoadCrosshair()
@@ -620,7 +620,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedSocialNetwork = None
                 self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
                 self.roadSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
-                # Re-visualizes the real network if it is selected
+                # Re-visualizes the road network if it is selected
                 if self.selectedRoadNetwork:
                     self.selectedRoadNetwork.visualize(self.roadSummaryGraphWidget)
                 # Draw crosshairs on graph
@@ -658,10 +658,10 @@ class Gui(QtWidgets.QMainWindow):
 
     def drawRoadCrosshair(self):
         # Draw crosshairs on graph
-        self.realNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
-        self.realNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
-        self.realNetworkGraphWidget.addItem(self.realNetworkGraphWidget.vCrossLine, ignoreBounds=True)
-        self.realNetworkGraphWidget.addItem(self.realNetworkGraphWidget.hCrossLine, ignoreBounds=True)
+        self.roadNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
+        self.roadNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
+        self.roadNetworkGraphWidget.addItem(self.roadNetworkGraphWidget.vCrossLine, ignoreBounds=True)
+        self.roadNetworkGraphWidget.addItem(self.roadNetworkGraphWidget.hCrossLine, ignoreBounds=True)
 
     def drawSocialSummaryCrosshair(self):
         # Draw crosshairs on graph
@@ -672,20 +672,20 @@ class Gui(QtWidgets.QMainWindow):
 
     def drawRoadSummaryCrosshair(self):
         # Draw crosshairs on graph
-        self.realSummaryGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
-        self.realSummaryGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
-        self.realSummaryGraphWidget.addItem(self.realSummaryGraphWidget.vCrossLine, ignoreBounds=True)
-        self.realSummaryGraphWidget.addItem(self.realSummaryGraphWidget.hCrossLine, ignoreBounds=True)
+        self.roadSummaryGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
+        self.roadSummaryGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
+        self.roadSummaryGraphWidget.addItem(self.roadSummaryGraphWidget.vCrossLine, ignoreBounds=True)
+        self.roadSummaryGraphWidget.addItem(self.roadSummaryGraphWidget.hCrossLine, ignoreBounds=True)
 
     # Links X and Y axis on summary social network and main network graphs
     def linkSummaryGraphs(self):
-        self.socialSummaryGraphWidget.setXLink(self.realSummaryGraphWidget)
-        self.socialSummaryGraphWidget.setYLink(self.realSummaryGraphWidget)
+        self.socialSummaryGraphWidget.setXLink(self.roadSummaryGraphWidget)
+        self.socialSummaryGraphWidget.setYLink(self.roadSummaryGraphWidget)
 
     # Links X and Y axis on main social network and road network graphs
     def linkGraphs(self):
-        self.socialNetworkGraphWidget.setXLink(self.realNetworkGraphWidget)
-        self.socialNetworkGraphWidget.setYLink(self.realNetworkGraphWidget)
+        self.socialNetworkGraphWidget.setXLink(self.roadNetworkGraphWidget)
+        self.socialNetworkGraphWidget.setYLink(self.roadNetworkGraphWidget)
 
     # OnMouseMoved event
     def mouseMoved(self, evt):
@@ -698,7 +698,7 @@ class Gui(QtWidgets.QMainWindow):
                 # socialSummaryGraphWidget
                 if self.socialSummaryGraphWidget.sceneBoundingRect().contains(evt.x(), evt.y()):
                     mousePoint = self.socialSummaryGraphWidget.vb.mapSceneToView(evt)
-                # realSummaryGraphWidget
+                # roadSummaryGraphWidget
                 else:
                     mousePoint = self.roadSummaryGraphWidget.vb.mapSceneToView(evt)
             # socialNetworkGraphWidget
