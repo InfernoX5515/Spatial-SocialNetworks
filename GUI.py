@@ -285,6 +285,7 @@ class Gui(QtWidgets.QMainWindow):
     # Generates clusters from the social network
     def getSummaryClusters(self, n):
         # TODO: Fix issue with n not being gotten when change to summary view with social network selected
+        print(n)
         n = int(n)
         if n < 1:
             n = 10
@@ -314,7 +315,8 @@ class Gui(QtWidgets.QMainWindow):
         self.clusterInput.textBox.setText("10")
         button = QtWidgets.QPushButton("Ok")
         #lambda junk, a=i, d=j, b=x, c=y: self.chooseFile(f"0.{a}.{d}", "Road Network", b, c)
-        button.clicked.connect(lambda junk, n=self.clusterInput.textBox.text(): self.getSummaryClusters(n))
+        n_cluster = self.clusterInput.textBox.text()
+        button.clicked.connect(lambda junk, n=n_cluster: self.getSummaryClusters(n))
         self.clusterInput.addWidget(label)
         self.clusterInput.addWidget(self.clusterInput.textBox)
         self.clusterInput.addWidget(button)
