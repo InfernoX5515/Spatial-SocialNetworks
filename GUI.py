@@ -232,38 +232,19 @@ class Gui(QtWidgets.QMainWindow):
     def viewInterNetwork(self, checked):
         self.netgwin = NetworkGraphWindow()
         self.netgwin.show()
- 
 
     # Handles summary view
     def viewSummary(self):
         # Switch view to summary
         if self.roadSummaryGraphWidget is None and self.socialSummaryGraphWidget is None:
-            # TODO: Add plots for social network summary
             # Clears last view
             self.win.removeItem(self.roadNetworkGraphWidget)
             self.win.removeItem(self.socialNetworkGraphWidget)
             # Displays summary plots
             self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
             self.roadSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
-            # Draw crosshairs on graph
-            self.drawRoadSummaryCrosshair()
-            self.drawSocialSummaryCrosshair()
-            # Links the x and y axis on both graphs
-            self.linkSummaryGraphs()
-            # Add cluster input
             self.__clusterInput()
-            # Adds event listener
-            self.roadSummaryGraphWidget.scene().sigMouseMoved.connect(self.mouseMoved)
-            # If a road network is selected, display info
-            if self.selectedRoadNetwork is not None:
-                self.selectedRoadNetwork.visualize(self.roadSummaryGraphWidget)
-                # TODO: Add user-defined n_cluster amount
-                # If social network is selected, display clusters
-                if self.selectedSocialNetwork is not None:
-                    centers = self.getSummaryClusters(self.clusterInput.textBox.text())
-                    # Note: For some reason, the alpha value is from 0-255 not 0-100
-                    self.roadSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=30,
-                                                 symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+            self.updateSummaryGraph()
         # Switch view to main
         else:
             self.clusterInput.close()
@@ -282,10 +263,33 @@ class Gui(QtWidgets.QMainWindow):
             self.drawSocialCrosshair()
             self.linkGraphs()
 
-    # Generates clusters from the social network
+    def updateSummaryGraph(self):
+        # Clears last view
+        if self.roadSummaryGraphWidget is not None and self.socialSummaryGraphWidget is not None:
+            self.win.removeItem(self.roadSummaryGraphWidget)
+            self.win.removeItem(self.socialSummaryGraphWidget)
+        # Displays summary plots
+        self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
+        self.roadSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
+        # Draw crosshairs on graph
+        self.drawRoadSummaryCrosshair()
+        self.drawSocialSummaryCrosshair()
+        # Links the x and y axis on both graphs
+        self.linkSummaryGraphs()
+        # Adds event listener
+        self.roadSummaryGraphWidget.scene().sigMouseMoved.connect(self.mouseMoved)
+        # If a road network is selected, display info
+        if self.selectedRoadNetwork is not None:
+            self.selectedRoadNetwork.visualize(self.roadSummaryGraphWidget)
+        # If social network is selected, display clusters
+        if self.selectedSocialNetwork is not None:
+            centers, sizes = self.getSummaryClusters(self.clusterInput.textBox.text())
+            # Note: For some reason, the alpha value is from 0-255 not 0-100
+            self.roadSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
+                                                 symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+
+    # Generate clusters from the social network
     def getSummaryClusters(self, n):
-        # TODO: Fix issue with n not being gotten when change to summary view with social network selected
-        print(n)
         n = int(n)
         if n < 1:
             n = 10
@@ -295,28 +299,30 @@ class Gui(QtWidgets.QMainWindow):
         # Scales the nodes according to population
         centers = kmeans.cluster_centers_
         ref = list(Counter(kmeans.labels_).values())
-        refSorted = list(Counter(kmeans.labels_).values())
-        refSorted.sort()
-        # TODO: Make a better size sorting algorithm
-        '''sizes = [0] * len(centers[:, 1])
-        for z in range(0, len(refSorted)):
-            for q in range(0, len(ref)):
-                if int(ref[q]) == int(refSorted[z]):
-                    sizes[q] = refSorted[z] / 5'''
-        return centers
+        sizes = self.sizeSort(ref)
+        return centers, sizes
 
+    # Returns size for cluster icons so that clusters that contain fewer nodes are smaller
+    @staticmethod
+    def sizeSort(refs):
+        sizes = []
+        refsSorted = refs.copy()
+        refsSorted.sort()
+        for x in refs:
+            sizes.append((refsSorted.index(x) + 1) * (75 / len(refsSorted)))
+        return sizes
+
+    # Creates the cluster toolbar for input
     def __clusterInput(self):
         self.clusterInput = QtWidgets.QToolBar("clusterInput")
         self.clusterInput.setIconSize(QtCore.QSize(24, 24))
         self.addToolBar(self.clusterInput)
         label = QtWidgets.QLabel(text="n-clusters: ")
         self.clusterInput.textBox = QtWidgets.QLineEdit()
-        self.clusterInput.textBox.setValidator(QtGui.QIntValidator(0, 99))
+        self.clusterInput.textBox.setValidator(QtGui.QIntValidator(0, 9999))
         self.clusterInput.textBox.setText("10")
         button = QtWidgets.QPushButton("Ok")
-        #lambda junk, a=i, d=j, b=x, c=y: self.chooseFile(f"0.{a}.{d}", "Road Network", b, c)
-        n_cluster = self.clusterInput.textBox.text()
-        button.clicked.connect(lambda junk, n=n_cluster: self.getSummaryClusters(n))
+        button.clicked.connect(lambda: self.updateSummaryGraph())
         self.clusterInput.addWidget(label)
         self.clusterInput.addWidget(self.clusterInput.textBox)
         self.clusterInput.addWidget(button)
@@ -549,9 +555,9 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedRoadNetwork.visualize(self.roadSummaryGraphWidget)
                 # If there is a social network selected, remove and re-add to make sure nodes stay above the plot
                 if self.selectedSocialNetwork is not None:
-                    centers = self.getSummaryClusters(self.clusterInput.textBox.text())
+                    centers, sizes = self.getSummaryClusters(self.clusterInput.textBox.text())
                     # Note: For some reason, the alpha value is from 0-255 not 0-100
-                    self.roadSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=30,
+                    self.roadSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                                      symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
                 self.linkSummaryGraphs()
                 # Draw crosshairs on graph
@@ -566,9 +572,9 @@ class Gui(QtWidgets.QMainWindow):
                 self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
                 # Removes the social network and re-adds it to keep the graph there
                 if self.selectedSocialNetwork is not None:
-                    centers = self.getSummaryClusters(self.clusterInput.textBox.text())
+                    centers, sizes = self.getSummaryClusters(self.clusterInput.textBox.text())
                     # Note: For some reason, the alpha value is from 0-255 not 0-100
-                    self.roadSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=30,
+                    self.roadSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                                      symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
             # Draw crosshairs on graph
             self.drawRoadSummaryCrosshair()
@@ -607,9 +613,9 @@ class Gui(QtWidgets.QMainWindow):
                 self.roadSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
                 if self.selectedRoadNetwork is not None:
                     self.selectedRoadNetwork.visualize(self.roadSummaryGraphWidget)
-                centers = self.getSummaryClusters(self.clusterInput.textBox.text())
+                centers, sizes = self.getSummaryClusters(self.clusterInput.textBox.text())
                 # Note: For some reason, the alpha value is from 0-255 not 0-100
-                self.roadSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=30,
+                self.roadSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                                  symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
                 self.linkSummaryGraphs()
                 # Draw crosshairs on graph
