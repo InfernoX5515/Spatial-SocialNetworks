@@ -1,19 +1,19 @@
 from collections import Counter
-import time
+#import time
 from os.path import exists
+from os import getenv
 from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
 import PyQt5.QtWidgets as QtWidgets
 from PyQt5.QtWebEngineWidgets import QWebEngineView
-import os
 from RoadNetwork import RoadNetwork
 from SocialNetwork import SocialNetwork
 from sklearn.cluster import KMeans
-import pyvis
+#import pyvis
 from pyvis.network import Network
 import networkx as nx  # importing networkx package
-import matplotlib.pyplot as plt # importing matplotlib package and pyplot is for displaying the graph on canvas
+#import matplotlib.pyplot as plt # importing matplotlib package and pyplot is for displaying the graph on canvas
 
 
 # =====================================================================================================================
@@ -70,19 +70,18 @@ class NetworkGraphWindow(QtWidgets.QWidget):
 class Gui(QtWidgets.QMainWindow):
     def __init__(self):
         super(Gui, self).__init__()
+        # Creates config
         self.config = Config()
-        # Enable antialiasing for prettier plots
+        # Plot options
         pg.setConfigOptions(antialias=True)
-        # Sets styling
         pg.setConfigOption('background', 'white')
         # A dictionary of windows, each window has it's on id
         self.__windows = {}
-        # Stores all road network info
+        # Stores all road network info in dict format {"NetworkName: {"Data": "Value", ...}, ..."}
         self.__roadNetworks = self.config.settings["Road Networks"]
         # Stores road network objects
-        self.__roadNetworkObjs = {}
-        # Gets instances of finished road networks
-        self.getRoadNetworkInstances()
+        self.__roadNetworkObjs = self.createRoadNetworkInstances(self.__roadNetworks)
+        # Get instances of finished road networks
         # Stores all social network info
         self.__socialNetworks = self.config.settings["Social Networks"]
         # Stores social network objects
@@ -413,25 +412,25 @@ class Gui(QtWidgets.QMainWindow):
         text, ok = self.__windows[1].getText(self, 'New Road Network', "Enter your road network name:")
         if ok and str(text) not in self.__roadNetworks.keys() and str(text) != "":
             self.__roadNetworks[str(text)] = {
-                "Node File": "[Node File]",
-                "Edge File": "[Edge File]"
+                "nodeFile": "[nodeFile]",
+                "edgeFile": "[edgeFile]"
             }
             # Adds new road network to tree
             self.__objects[f"0.{len(self.__roadNetworks.keys()) + 1}"] = QtWidgets.QTreeWidgetItem([str(text)])
             self.__objects['0'].addChild(self.__objects[f"0.{len(self.__roadNetworks.keys()) + 1}"])
             # Adds new road network's node file
             self.__objects[f"0.{len(self.__roadNetworks.keys()) + 1}.1"] = \
-                QtWidgets.QTreeWidgetItem([self.__roadNetworks[str(text)]["Node File"]])
+                QtWidgets.QTreeWidgetItem([self.__roadNetworks[str(text)]["nodeFile"]])
             self.__objects[f'0.{len(self.__roadNetworks.keys()) + 1}'].addChild(
                 self.__objects[f"0.{len(self.__roadNetworks.keys()) + 1}.1"])
             addN = QtWidgets.QPushButton("Choose File")
             addN.clicked.connect(
                 lambda: self.chooseFile(f"0.{len(self.__roadNetworks.keys()) + 1}.1", "Road Network", str(text),
-                                        "Node File"))
+                                        "nodeFile"))
             self.__windows[0].setItemWidget(self.__objects[f"0.{len(self.__roadNetworks.keys()) + 1}.1"], 1, addN)
             # Adds new road network's edge file
             self.__objects[f"0.{len(self.__roadNetworks.keys()) + 1}.2"] = \
-                QtWidgets.QTreeWidgetItem([self.__roadNetworks[str(text)]["Edge File"]])
+                QtWidgets.QTreeWidgetItem([self.__roadNetworks[str(text)]["edgeFile"]])
             self.__objects[f'0.{len(self.__roadNetworks.keys()) + 1}'].addChild(
                 self.__objects[f"0.{len(self.__roadNetworks.keys()) + 1}.2"])
             addE = QtWidgets.QPushButton("Choose File")
@@ -446,16 +445,16 @@ class Gui(QtWidgets.QMainWindow):
         text, ok = self.__windows[1].getText(self, 'New Social Network', "Enter your social network name:")
         if ok and str(text) not in self.__socialNetworks.keys() and str(text) != "":
             self.__socialNetworks[str(text)] = {
-                "Loc File": "[Loc File]",
-                "Rel File": "[Rel File]",
-                "Key File": "[Key File]"
+                "locFile": "[locFile]",
+                "relFile": "[relFile]",
+                "keyFile": "[keyFile]"
             }
             # Adds new social network to tree
             self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}"] = QtWidgets.QTreeWidgetItem([str(text)])
             self.__objects['1'].addChild(self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}"])
             # Adds new social network's loc file
             self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}.1"] = \
-                QtWidgets.QTreeWidgetItem([self.__socialNetworks[str(text)]["Loc File"]])
+                QtWidgets.QTreeWidgetItem([self.__socialNetworks[str(text)]["locFile"]])
             self.__objects[f'1.{len(self.__socialNetworks.keys()) + 1}'].addChild(
                 self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}.1"])
             addL = QtWidgets.QPushButton("Choose File")
@@ -465,7 +464,7 @@ class Gui(QtWidgets.QMainWindow):
             self.__windows[0].setItemWidget(self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}.1"], 1, addL)
             # Adds new social network's rel file
             self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}.2"] = \
-                QtWidgets.QTreeWidgetItem([self.__socialNetworks[str(text)]["Rel File"]])
+                QtWidgets.QTreeWidgetItem([self.__socialNetworks[str(text)]["relFile"]])
             self.__objects[f'1.{len(self.__socialNetworks.keys()) + 1}'].addChild(
                 self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}.2"])
             addR = QtWidgets.QPushButton("Choose File")
@@ -475,7 +474,7 @@ class Gui(QtWidgets.QMainWindow):
             self.__windows[0].setItemWidget(self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}.2"], 1, addR)
             # Adds new social network's key file
             self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}.3"] = \
-                QtWidgets.QTreeWidgetItem([self.__socialNetworks[str(text)]["Key File"]])
+                QtWidgets.QTreeWidgetItem([self.__socialNetworks[str(text)]["keyFile"]])
             self.__objects[f'1.{len(self.__socialNetworks.keys()) + 1}'].addChild(
                 self.__objects[f"1.{len(self.__socialNetworks.keys()) + 1}.3"])
             addR = QtWidgets.QPushButton("Choose File")
@@ -490,7 +489,7 @@ class Gui(QtWidgets.QMainWindow):
 
     def chooseFile(self, obj, T, network, sub):
         self.__windows[2] = QtWidgets.QFileDialog()
-        pathArr = self.__windows[2].getOpenFileNames(None, 'Select File', os.getenv('HOME'), "csv(*.csv)")[0]
+        pathArr = self.__windows[2].getOpenFileNames(None, 'Select File', getenv('HOME'), "csv(*.csv)")[0]
         if len(pathArr) != 0:
             path = pathArr[0]
             if T == "Road Network":
@@ -510,10 +509,10 @@ class Gui(QtWidgets.QMainWindow):
     def getCompleteRoadNetworks(self):
         networks = []
         for x in self.__roadNetworks:
-            if self.__roadNetworks[x]["Edge File"] != "[Edge File]" and \
-                    exists(self.__roadNetworks[x]["Edge File"]) and \
-                    self.__roadNetworks[x]["Node File"] != "[Node File]" and \
-                    exists(self.__roadNetworks[x]["Node File"]):
+            if self.__roadNetworks[x]["edgeFile"] != "[Edge File]" and \
+                    exists(self.__roadNetworks[x]["edgeFile"]) and \
+                    self.__roadNetworks[x]["nodeFile"] != "[nodeFile]" and \
+                    exists(self.__roadNetworks[x]["nodeFile"]):
                 networks.append(x)
         return networks
 
@@ -521,10 +520,10 @@ class Gui(QtWidgets.QMainWindow):
     def getCompleteSocialNetworks(self):
         networks = []
         for x in self.__socialNetworks:
-            if self.__socialNetworks[x]["Rel File"] != "[Rel File]" and \
-                    exists(self.__socialNetworks[x]["Rel File"]) and \
-                    self.__socialNetworks[x]["Loc File"] != "[Loc File]" and \
-                    exists(self.__socialNetworks[x]["Loc File"]):
+            if self.__socialNetworks[x]["relFile"] != "[relFile]" and \
+                    exists(self.__socialNetworks[x]["relFile"]) and \
+                    self.__socialNetworks[x]["locFile"] != "[locFile]" and \
+                    exists(self.__socialNetworks[x]["locFile"]):
                 networks.append(x)
         return networks
 
@@ -646,25 +645,32 @@ class Gui(QtWidgets.QMainWindow):
                 self.drawSocialSummaryCrosshair()
                 self.linkSummaryGraphs()
 
-    def getRoadNetworkInstances(self):
-        for x in self.__roadNetworks:
-            edges = None
-            nodes = None
-            if self.__roadNetworks[x]["Edge File"] != "[Edge File]":
-                edges = self.__roadNetworks[x]["Edge File"]
-            if self.__roadNetworks[x]["Node File"] != "[Node File]":
-                nodes = self.__roadNetworks[x]["Node File"]
-            self.__roadNetworkObjs[x] = RoadNetwork(x, edges, nodes)
+    # Creates road network instances based on text data dictionary of {"NetworkName": {"Data":"Value", ...}
+    # If the value is not set, square brackets denote that it is not set, written as "[Value]"
+    @staticmethod
+    def createRoadNetworkInstances(data):
+        instances = {}
+        # Loops through all networks
+        for network in data:
+            kwargs = {}
+            # Loops through all data in each network
+            for dataKey in data[network]:
+                dataValue = data[network][dataKey]
+                # If the value is set, use it to create the instance
+                if dataValue != f"[{dataKey}]":
+                    kwargs[dataKey] = dataValue
+            instances[network] = RoadNetwork(network, **kwargs)
+        return instances
 
     # noinspection SpellCheckingInspection
     def getSocialNetworkInstances(self):
         for x in self.__socialNetworks:
             rels = None
             locs = None
-            if self.__socialNetworks[x]["Rel File"] != "[Rel File]":
-                rels = self.__socialNetworks[x]["Rel File"]
-            if self.__socialNetworks[x]["Loc File"] != "[Loc File]":
-                locs = self.__socialNetworks[x]["Loc File"]
+            if self.__socialNetworks[x]["relFile"] != "[relFile]":
+                rels = self.__socialNetworks[x]["relFile"]
+            if self.__socialNetworks[x]["locFile"] != "[locFile]":
+                locs = self.__socialNetworks[x]["locFile"]
             self.__socialNetworkObjs[x] = SocialNetwork(x, rels, locs)
 
     def drawSocialCrosshair(self):
