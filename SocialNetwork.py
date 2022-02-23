@@ -1,6 +1,7 @@
 import csv
 import math
 import threading
+import time
 from os.path import exists
 import numpy as np
 
@@ -19,6 +20,7 @@ import numpy as np
 
 class SocialNetwork:
     def __init__(self, name=None, rel=None, loc=None):
+        start = time.time()
         self.__name = name
         self.__rel = {}
         self.__loc = {}

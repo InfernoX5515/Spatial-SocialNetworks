@@ -1,6 +1,6 @@
 from collections import Counter
+import time
 from os.path import exists
-
 from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
@@ -127,6 +127,7 @@ class Gui(QtWidgets.QMainWindow):
         # Show window
         self.show()
 
+    # TODO: Fix issue where graph is squished
     def zoomOutTool(self):
         xRanges = self.roadNetworkGraphWidget.getAxis('bottom').range
         yRanges = self.roadNetworkGraphWidget.getAxis('left').range
@@ -134,6 +135,7 @@ class Gui(QtWidgets.QMainWindow):
         self.roadNetworkGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
         self.roadNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
 
+    # TODO: Fix issue where graph is squished
     def zoomInTool(self):
         xRanges = self.roadNetworkGraphWidget.getAxis('bottom').range
         yRanges = self.roadNetworkGraphWidget.getAxis('left').range
@@ -141,18 +143,25 @@ class Gui(QtWidgets.QMainWindow):
         self.roadNetworkGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
         self.roadNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
 
+    # TODO: Fix issue where graph is squished
     def jogLeftTool(self):
         xRanges = self.roadNetworkGraphWidget.getAxis('bottom').range
         scale = ((abs(xRanges[0]) - abs(xRanges[1]) - ((abs(xRanges[0]) - abs(xRanges[1]))) * 0.75)) / 2
         self.roadNetworkGraphWidget.setXRange(xRanges[0] + scale, xRanges[1] + scale)
+
+    # TODO: Fix issue where graph is squished
     def jogRightTool(self):
         xRanges = self.roadNetworkGraphWidget.getAxis('bottom').range
         scale = ((abs(xRanges[0]) - abs(xRanges[1]) - ((abs(xRanges[0]) - abs(xRanges[1]))) * 0.75)) / 2
         self.roadNetworkGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] - scale)
+
+    # TODO: Fix issue where graph is squished
     def jogUpTool(self):
         yRanges = self.roadNetworkGraphWidget.getAxis('left').range
         scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
         self.roadNetworkGraphWidget.setYRange(yRanges[0] + scale, yRanges[1] + scale)
+
+    # TODO: Fix issue where graph is squished
     def jogDownTool(self):
         yRanges = self.roadNetworkGraphWidget.getAxis('left').range
         scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
@@ -235,6 +244,7 @@ class Gui(QtWidgets.QMainWindow):
 
     # Handles summary view
     def viewSummary(self):
+        # TODO: Implement summary graph
         # Switch view to summary
         if self.roadSummaryGraphWidget is None and self.socialSummaryGraphWidget is None:
             # Clears last view
@@ -481,7 +491,7 @@ class Gui(QtWidgets.QMainWindow):
     def chooseFile(self, obj, T, network, sub):
         self.__windows[2] = QtWidgets.QFileDialog()
         pathArr = self.__windows[2].getOpenFileNames(None, 'Select File', os.getenv('HOME'), "csv(*.csv)")[0]
-        if len(pathArr) is not 0:
+        if len(pathArr) != 0:
             path = pathArr[0]
             if T == "Road Network":
                 self.__roadNetworks[network][sub] = path
