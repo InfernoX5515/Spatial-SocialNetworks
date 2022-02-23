@@ -77,17 +77,12 @@ class Gui(QtWidgets.QMainWindow):
         pg.setConfigOption('background', 'white')
         # A dictionary of windows, each window has it's on id
         self.__windows = {}
-        # Stores all road network info in dict format {"NetworkName: {"Data": "Value", ...}, ..."}
+        # Store all network info in dict format {"NetworkName: {"Data": "Value", ...}, ..."}
         self.__roadNetworks = self.config.settings["Road Networks"]
-        # Stores road network objects
-        self.__roadNetworkObjs = self.createRoadNetworkInstances(self.__roadNetworks)
-        # Get instances of finished road networks
-        # Stores all social network info
         self.__socialNetworks = self.config.settings["Social Networks"]
-        # Stores social network objects
-        self.__socialNetworkObjs = {}
-        # Gets instances of finished social networks
-        self.getSocialNetworkInstances()
+        # Store network objects
+        self.__roadNetworkObjs = self.createNetworkInstances(self.__roadNetworks, RoadNetwork)
+        self.__socialNetworkObjs = self.createNetworkInstances(self.__socialNetworks, SocialNetwork)
         # Stores file hierarchy data
         self.__objects = {}
         # Stores widget instances
@@ -645,10 +640,10 @@ class Gui(QtWidgets.QMainWindow):
                 self.drawSocialSummaryCrosshair()
                 self.linkSummaryGraphs()
 
-    # Creates road network instances based on text data dictionary of {"NetworkName": {"Data":"Value", ...}
+    # Creates network instances based on text data dictionary of {"NetworkName": {"Data":"Value", ...}
     # If the value is not set, square brackets denote that it is not set, written as "[Value]"
     @staticmethod
-    def createRoadNetworkInstances(data):
+    def createNetworkInstances(data, type):
         instances = {}
         # Loops through all networks
         for network in data:
@@ -659,19 +654,8 @@ class Gui(QtWidgets.QMainWindow):
                 # If the value is set, use it to create the instance
                 if dataValue != f"[{dataKey}]":
                     kwargs[dataKey] = dataValue
-            instances[network] = RoadNetwork(network, **kwargs)
+            instances[network] = type(network, **kwargs)
         return instances
-
-    # noinspection SpellCheckingInspection
-    def getSocialNetworkInstances(self):
-        for x in self.__socialNetworks:
-            rels = None
-            locs = None
-            if self.__socialNetworks[x]["relFile"] != "[relFile]":
-                rels = self.__socialNetworks[x]["relFile"]
-            if self.__socialNetworks[x]["locFile"] != "[locFile]":
-                locs = self.__socialNetworks[x]["locFile"]
-            self.__socialNetworkObjs[x] = SocialNetwork(x, rels, locs)
 
     def drawSocialCrosshair(self):
         # Draw crosshairs on graph
