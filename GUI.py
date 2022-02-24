@@ -67,7 +67,6 @@ class NetworkGraphWindow(QtWidgets.QWidget):
         self.setLayout(layout)
 
 
-# TODO: Remove self.roadSummaryGraphWidget and such and use self.roadNetworkGraphWidget
 class Gui(QtWidgets.QMainWindow):
     def __init__(self):
         super(Gui, self).__init__()
@@ -81,10 +80,9 @@ class Gui(QtWidgets.QMainWindow):
         # Stores file hierarchy data
         self.__fileTreeObjects = {}
         # Stores widget instances
-        self.roadNetworkGraphWidget = None
-        self.socialNetworkGraphWidget = None
-        self.roadSummaryGraphWidget = None
-        self.socialSummaryGraphWidget = None
+        self.roadGraphWidget = None
+        self.socialGraphWidget = None
+        self.summarySelected = False
         # Stores selected network instances
         self.selectedRoadNetwork = None
         self.selectedSocialNetwork = None
@@ -109,58 +107,58 @@ class Gui(QtWidgets.QMainWindow):
         self.win = pg.GraphicsLayoutWidget(show=True)
         self.setCentralWidget(self.win)
         # Create and set up road network graph widget
-        self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
+        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
         # Create and set up the social network graph widget
-        self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+        self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
         # Links the x and y axis on both graphs
         self.linkGraphs()
         # Draw crosshairs on graph
         self.drawSocialCrosshair()
         self.drawRoadCrosshair()
         # Adds event listener
-        self.roadNetworkGraphWidget.scene().sigMouseMoved.connect(self.mouseMoved)
+        self.roadGraphWidget.scene().sigMouseMoved.connect(self.mouseMoved)
         # Show window
         self.show()
 
     # TODO: Fix issue where graph is squished
     def zoomOutTool(self):
-        xRanges = self.roadNetworkGraphWidget.getAxis('bottom').range
-        yRanges = self.roadNetworkGraphWidget.getAxis('left').range
+        xRanges = self.roadGraphWidget.getAxis('bottom').range
+        yRanges = self.roadGraphWidget.getAxis('left').range
         scale = (((abs(yRanges[0]) - abs(yRanges[1])) - (abs(yRanges[0]) - abs(yRanges[1])) * 1.25)) / 2
-        self.roadNetworkGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
-        self.roadNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
+        self.roadGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
+        self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
 
     # TODO: Fix issue where graph is squished
     def zoomInTool(self):
-        xRanges = self.roadNetworkGraphWidget.getAxis('bottom').range
-        yRanges = self.roadNetworkGraphWidget.getAxis('left').range
+        xRanges = self.roadGraphWidget.getAxis('bottom').range
+        yRanges = self.roadGraphWidget.getAxis('left').range
         scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
-        self.roadNetworkGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
-        self.roadNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
+        self.roadGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
+        self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
 
     # TODO: Fix issue where graph is squished
     def jogLeftTool(self):
-        xRanges = self.roadNetworkGraphWidget.getAxis('bottom').range
+        xRanges = self.roadGraphWidget.getAxis('bottom').range
         scale = ((abs(xRanges[0]) - abs(xRanges[1]) - ((abs(xRanges[0]) - abs(xRanges[1]))) * 0.75)) / 2
-        self.roadNetworkGraphWidget.setXRange(xRanges[0] + scale, xRanges[1] + scale)
+        self.roadGraphWidget.setXRange(xRanges[0] + scale, xRanges[1] + scale)
 
     # TODO: Fix issue where graph is squished
     def jogRightTool(self):
-        xRanges = self.roadNetworkGraphWidget.getAxis('bottom').range
+        xRanges = self.roadGraphWidget.getAxis('bottom').range
         scale = ((abs(xRanges[0]) - abs(xRanges[1]) - ((abs(xRanges[0]) - abs(xRanges[1]))) * 0.75)) / 2
-        self.roadNetworkGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] - scale)
+        self.roadGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] - scale)
 
     # TODO: Fix issue where graph is squished
     def jogUpTool(self):
-        yRanges = self.roadNetworkGraphWidget.getAxis('left').range
+        yRanges = self.roadGraphWidget.getAxis('left').range
         scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
-        self.roadNetworkGraphWidget.setYRange(yRanges[0] + scale, yRanges[1] + scale)
+        self.roadGraphWidget.setYRange(yRanges[0] + scale, yRanges[1] + scale)
 
     # TODO: Fix issue where graph is squished
     def jogDownTool(self):
-        yRanges = self.roadNetworkGraphWidget.getAxis('left').range
+        yRanges = self.roadGraphWidget.getAxis('left').range
         scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
-        self.roadNetworkGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] - scale)
+        self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] - scale)
 
     def __toolbar(self):
         toolbar = QtWidgets.QToolBar("My main toolbar")
@@ -241,56 +239,58 @@ class Gui(QtWidgets.QMainWindow):
     def viewSummary(self):
         # TODO: Implement summary graph
         # Switch view to summary
-        if self.roadSummaryGraphWidget is None and self.socialSummaryGraphWidget is None:
+        if not self.summarySelected:
+            self.summarySelected = True
             # Clears last view
-            self.win.removeItem(self.roadNetworkGraphWidget)
-            self.win.removeItem(self.socialNetworkGraphWidget)
+            self.win.removeItem(self.roadGraphWidget)
+            self.win.removeItem(self.socialGraphWidget)
             # Displays summary plots
-            self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
-            self.roadSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
+            self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
+            self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
             self.__clusterInput()
             self.updateSummaryGraph()
         # Switch view to main
         else:
+            self.summarySelected = False
             self.clusterInput.close()
-            self.win.removeItem(self.roadSummaryGraphWidget)
-            self.win.removeItem(self.socialSummaryGraphWidget)
-            self.roadSummaryGraphWidget = None
-            self.socialSummaryGraphWidget = None
-            self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
-            self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+            self.win.removeItem(self.roadGraphWidget)
+            self.win.removeItem(self.socialGraphWidget)
+            self.roadGraphWidget = None
+            self.socialGraphWidget = None
+            self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
+            self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
             # Re-visualize selected networks
             if self.selectedRoadNetwork is not None:
-                self.selectedRoadNetwork.visualize(self.roadNetworkGraphWidget)
+                self.selectedRoadNetwork.visualize(self.roadGraphWidget)
             if self.selectedSocialNetwork is not None:
-                self.selectedSocialNetwork.visualize(self.socialNetworkGraphWidget, self.roadNetworkGraphWidget)
+                self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
             self.drawRoadCrosshair()
             self.drawSocialCrosshair()
             self.linkGraphs()
 
     def updateSummaryGraph(self):
         # Clears last view
-        if self.roadSummaryGraphWidget is not None and self.socialSummaryGraphWidget is not None:
-            self.win.removeItem(self.roadSummaryGraphWidget)
-            self.win.removeItem(self.socialSummaryGraphWidget)
+        if self.summarySelected:
+            self.win.removeItem(self.roadGraphWidget)
+            self.win.removeItem(self.socialGraphWidget)
         # Displays summary plots
-        self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
-        self.roadSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
+        self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
+        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
         # Draw crosshairs on graph
         self.drawRoadSummaryCrosshair()
         self.drawSocialSummaryCrosshair()
         # Links the x and y axis on both graphs
         self.linkSummaryGraphs()
         # Adds event listener
-        self.roadSummaryGraphWidget.scene().sigMouseMoved.connect(self.mouseMoved)
+        self.roadGraphWidget.scene().sigMouseMoved.connect(self.mouseMoved)
         # If a road network is selected, display info
         if self.selectedRoadNetwork is not None:
-            self.selectedRoadNetwork.visualize(self.roadSummaryGraphWidget)
+            self.selectedRoadNetwork.visualize(self.roadGraphWidget)
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
             centers, sizes = self.getSummaryClusters(self.clusterInput.textBox.text())
             # Note: For some reason, the alpha value is from 0-255 not 0-100
-            self.roadSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
+            self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                                  symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
 
     # Generate clusters from the social network
@@ -524,45 +524,45 @@ class Gui(QtWidgets.QMainWindow):
         return networks
 
     def displayRoadNetwork(self, network, checked=None):
-        if self.roadSummaryGraphWidget is None:
+        if not self.summarySelected:
             if checked:
-                self.win.removeItem(self.socialNetworkGraphWidget)
-                self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-                self.win.removeItem(self.roadNetworkGraphWidget)
-                self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
+                self.win.removeItem(self.socialGraphWidget)
+                self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+                self.win.removeItem(self.roadGraphWidget)
+                self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
                 # If there is a social network selected, remove and re-add to make sure nodes stay above the plot
                 if self.selectedSocialNetwork is not None:
                     # Visualize
-                    self.selectedSocialNetwork.visualize(self.socialNetworkGraphWidget, self.roadNetworkGraphWidget)
+                    self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
                 # Visualizes the graph that is being selected
-                self.__roadNetworkObjs[network].visualize(self.roadNetworkGraphWidget)
+                self.__roadNetworkObjs[network].visualize(self.roadGraphWidget)
                 self.selectedRoadNetwork = self.__roadNetworkObjs[network]
             else:
                 # Removes the widget and re-adds it to be blank
-                self.win.removeItem(self.roadNetworkGraphWidget)
-                self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
+                self.win.removeItem(self.roadGraphWidget)
+                self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
                 self.selectedRoadNetwork = None
-                self.win.removeItem(self.socialNetworkGraphWidget)
-                self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+                self.win.removeItem(self.socialGraphWidget)
+                self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
                 # Removes the social network and re-adds it to keep the graph there
                 if self.selectedSocialNetwork is not None:
-                    self.selectedSocialNetwork.visualize(self.socialNetworkGraphWidget, self.roadNetworkGraphWidget)
+                    self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
             self.drawSocialCrosshair()
             self.drawRoadCrosshair()
             self.linkGraphs()
         else:
             if checked:
-                self.win.removeItem(self.socialSummaryGraphWidget)
-                self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
-                self.win.removeItem(self.roadSummaryGraphWidget)
-                self.roadSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
+                self.win.removeItem(self.socialGraphWidget)
+                self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
+                self.win.removeItem(self.roadGraphWidget)
+                self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
                 self.selectedRoadNetwork = self.__roadNetworkObjs[network]
-                self.selectedRoadNetwork.visualize(self.roadSummaryGraphWidget)
+                self.selectedRoadNetwork.visualize(self.roadGraphWidget)
                 # If there is a social network selected, remove and re-add to make sure nodes stay above the plot
                 if self.selectedSocialNetwork is not None:
                     centers, sizes = self.getSummaryClusters(self.clusterInput.textBox.text())
                     # Note: For some reason, the alpha value is from 0-255 not 0-100
-                    self.roadSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
+                    self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                                      symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
                 self.linkSummaryGraphs()
                 # Draw crosshairs on graph
@@ -570,72 +570,74 @@ class Gui(QtWidgets.QMainWindow):
                 self.drawSocialSummaryCrosshair()
             else:
                 # Removes the widget and re-adds it to be blank
-                self.win.removeItem(self.roadSummaryGraphWidget)
-                self.roadSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
+                self.win.removeItem(self.roadGraphWidget)
+                self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
                 self.selectedRoadNetwork = None
-                self.win.removeItem(self.socialSummaryGraphWidget)
-                self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
+                self.win.removeItem(self.socialGraphWidget)
+                self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
                 # Removes the social network and re-adds it to keep the graph there
                 if self.selectedSocialNetwork is not None:
                     centers, sizes = self.getSummaryClusters(self.clusterInput.textBox.text())
                     # Note: For some reason, the alpha value is from 0-255 not 0-100
-                    self.roadSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
+                    self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                                      symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
             # Draw crosshairs on graph
             self.drawRoadSummaryCrosshair()
             self.drawSocialSummaryCrosshair()
             # Links the x and y axis on both graphs
-            self.socialSummaryGraphWidget.setXLink(self.roadSummaryGraphWidget)
-            self.socialSummaryGraphWidget.setYLink(self.roadSummaryGraphWidget)
+            self.socialGraphWidget.setXLink(self.roadGraphWidget)
+            self.socialGraphWidget.setYLink(self.roadGraphWidget)
 
     def displaySocialNetwork(self, network, checked=None):
-        if self.socialSummaryGraphWidget is None:
+        # If main view
+        if not self.summarySelected:
             if checked:
                 # Visualizes social network
-                self.__socialNetworkObjs[network].visualize(self.socialNetworkGraphWidget, self.roadNetworkGraphWidget)
+                self.__socialNetworkObjs[network].visualize(self.socialGraphWidget, self.roadGraphWidget)
                 self.selectedSocialNetwork = self.__socialNetworkObjs[network]
             else:
                 # Removes both graphs to clear them then re-adds them
-                self.win.removeItem(self.socialNetworkGraphWidget)
-                self.win.removeItem(self.roadNetworkGraphWidget)
+                self.win.removeItem(self.socialGraphWidget)
+                self.win.removeItem(self.roadGraphWidget)
                 self.selectedSocialNetwork = None
-                self.socialNetworkGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-                self.roadNetworkGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
+                self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+                self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
                 # Re-visualizes the road network if it is selected
                 if self.selectedRoadNetwork:
-                    self.selectedRoadNetwork.visualize(self.roadNetworkGraphWidget)
+                    self.selectedRoadNetwork.visualize(self.roadGraphWidget)
                 # Draw crosshairs on graph
                 self.drawSocialCrosshair()
                 self.drawRoadCrosshair()
-                self.socialNetworkGraphWidget.setXLink(self.roadNetworkGraphWidget)
-                self.socialNetworkGraphWidget.setYLink(self.roadNetworkGraphWidget)
+                self.socialGraphWidget.setXLink(self.roadGraphWidget)
+                self.socialGraphWidget.setYLink(self.roadGraphWidget)
+        # If summary view
         else:
             if checked:
                 self.selectedSocialNetwork = self.__socialNetworkObjs[network]
-                self.win.removeItem(self.socialSummaryGraphWidget)
-                self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
-                self.win.removeItem(self.roadSummaryGraphWidget)
-                self.roadSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
+                self.win.removeItem(self.socialGraphWidget)
+                self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
+                self.win.removeItem(self.roadGraphWidget)
+                self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
                 if self.selectedRoadNetwork is not None:
-                    self.selectedRoadNetwork.visualize(self.roadSummaryGraphWidget)
+                    self.selectedRoadNetwork.visualize(self.roadGraphWidget)
                 centers, sizes = self.getSummaryClusters(self.clusterInput.textBox.text())
                 # Note: For some reason, the alpha value is from 0-255 not 0-100
-                self.roadSummaryGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
-                                                 symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+                self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
+                                          symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
                 self.linkSummaryGraphs()
                 # Draw crosshairs on graph
                 self.drawRoadSummaryCrosshair()
                 self.drawSocialSummaryCrosshair()
             else:
                 # Removes both graphs to clear them then re-adds them
-                self.win.removeItem(self.socialSummaryGraphWidget)
-                self.win.removeItem(self.roadSummaryGraphWidget)
+                self.win.removeItem(self.socialGraphWidget)
+                self.win.removeItem(self.roadGraphWidget)
                 self.selectedSocialNetwork = None
-                self.socialSummaryGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-                self.roadSummaryGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
+                self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+                self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
                 # Re-visualizes the road network if it is selected
                 if self.selectedRoadNetwork:
-                    self.selectedRoadNetwork.visualize(self.roadSummaryGraphWidget)
+                    self.selectedRoadNetwork.visualize(self.roadGraphWidget)
                 # Draw crosshairs on graph
                 self.drawRoadSummaryCrosshair()
                 self.drawSocialSummaryCrosshair()
@@ -660,74 +662,74 @@ class Gui(QtWidgets.QMainWindow):
 
     def drawSocialCrosshair(self):
         # Draw crosshairs on graph
-        self.socialNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
-        self.socialNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
-        self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.vCrossLine, ignoreBounds=True)
-        self.socialNetworkGraphWidget.addItem(self.socialNetworkGraphWidget.hCrossLine, ignoreBounds=True)
+        self.socialGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
+        self.socialGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
+        self.socialGraphWidget.addItem(self.socialGraphWidget.vCrossLine, ignoreBounds=True)
+        self.socialGraphWidget.addItem(self.socialGraphWidget.hCrossLine, ignoreBounds=True)
 
     def drawRoadCrosshair(self):
         # Draw crosshairs on graph
-        self.roadNetworkGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
-        self.roadNetworkGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
-        self.roadNetworkGraphWidget.addItem(self.roadNetworkGraphWidget.vCrossLine, ignoreBounds=True)
-        self.roadNetworkGraphWidget.addItem(self.roadNetworkGraphWidget.hCrossLine, ignoreBounds=True)
+        self.roadGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
+        self.roadGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
+        self.roadGraphWidget.addItem(self.roadGraphWidget.vCrossLine, ignoreBounds=True)
+        self.roadGraphWidget.addItem(self.roadGraphWidget.hCrossLine, ignoreBounds=True)
 
     def drawSocialSummaryCrosshair(self):
         # Draw crosshairs on graph
-        self.socialSummaryGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
-        self.socialSummaryGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
-        self.socialSummaryGraphWidget.addItem(self.socialSummaryGraphWidget.vCrossLine, ignoreBounds=True)
-        self.socialSummaryGraphWidget.addItem(self.socialSummaryGraphWidget.hCrossLine, ignoreBounds=True)
+        self.socialGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
+        self.socialGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
+        self.socialGraphWidget.addItem(self.socialGraphWidget.vCrossLine, ignoreBounds=True)
+        self.socialGraphWidget.addItem(self.socialGraphWidget.hCrossLine, ignoreBounds=True)
 
     def drawRoadSummaryCrosshair(self):
         # Draw crosshairs on graph
-        self.roadSummaryGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
-        self.roadSummaryGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
-        self.roadSummaryGraphWidget.addItem(self.roadSummaryGraphWidget.vCrossLine, ignoreBounds=True)
-        self.roadSummaryGraphWidget.addItem(self.roadSummaryGraphWidget.hCrossLine, ignoreBounds=True)
+        self.roadGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
+        self.roadGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
+        self.roadGraphWidget.addItem(self.roadGraphWidget.vCrossLine, ignoreBounds=True)
+        self.roadGraphWidget.addItem(self.roadGraphWidget.hCrossLine, ignoreBounds=True)
 
     # Links X and Y axis on summary social network and main network graphs
     def linkSummaryGraphs(self):
-        self.socialSummaryGraphWidget.setXLink(self.roadSummaryGraphWidget)
-        self.socialSummaryGraphWidget.setYLink(self.roadSummaryGraphWidget)
+        self.socialGraphWidget.setXLink(self.roadGraphWidget)
+        self.socialGraphWidget.setYLink(self.roadGraphWidget)
 
     # Links X and Y axis on main social network and road network graphs
     def linkGraphs(self):
-        self.socialNetworkGraphWidget.setXLink(self.roadNetworkGraphWidget)
-        self.socialNetworkGraphWidget.setYLink(self.roadNetworkGraphWidget)
+        self.socialGraphWidget.setXLink(self.roadGraphWidget)
+        self.socialGraphWidget.setYLink(self.roadGraphWidget)
 
     # OnMouseMoved event
     def mouseMoved(self, evt):
         # Sets the mousePoint to whichever graph the pointer is over
-        # roadNetworkGraphWidget
-        if self.roadNetworkGraphWidget.sceneBoundingRect().contains(evt.x(), evt.y()):
-            mousePoint = self.roadNetworkGraphWidget.vb.mapSceneToView(evt)
+        # roadGraphWidget
+        if self.roadGraphWidget.sceneBoundingRect().contains(evt.x(), evt.y()):
+            mousePoint = self.roadGraphWidget.vb.mapSceneToView(evt)
         else:
-            if self.roadSummaryGraphWidget is not None:
-                # socialSummaryGraphWidget
-                if self.socialSummaryGraphWidget.sceneBoundingRect().contains(evt.x(), evt.y()):
-                    mousePoint = self.socialSummaryGraphWidget.vb.mapSceneToView(evt)
-                # roadSummaryGraphWidget
+            if self.roadGraphWidget is not None:
+                # socialGraphWidget
+                if self.socialGraphWidget.sceneBoundingRect().contains(evt.x(), evt.y()):
+                    mousePoint = self.socialGraphWidget.vb.mapSceneToView(evt)
+                # roadGraphWidget
                 else:
-                    mousePoint = self.roadSummaryGraphWidget.vb.mapSceneToView(evt)
-            # socialNetworkGraphWidget
+                    mousePoint = self.roadGraphWidget.vb.mapSceneToView(evt)
+            # socialGraphWidget
             else:
-                mousePoint = self.socialNetworkGraphWidget.vb.mapSceneToView(evt)
+                mousePoint = self.socialGraphWidget.vb.mapSceneToView(evt)
         if mousePoint is not None:
-            if self.roadSummaryGraphWidget is None:
+            if self.roadGraphWidget is None:
                 # Moves the road network crosshair
-                self.roadNetworkGraphWidget.vCrossLine.setPos(mousePoint.x())
-                self.roadNetworkGraphWidget.hCrossLine.setPos(mousePoint.y())
+                self.roadGraphWidget.vCrossLine.setPos(mousePoint.x())
+                self.roadGraphWidget.hCrossLine.setPos(mousePoint.y())
                 # Moves the social network crosshair
-                self.socialNetworkGraphWidget.vCrossLine.setPos(mousePoint.x())
-                self.socialNetworkGraphWidget.hCrossLine.setPos(mousePoint.y())
+                self.socialGraphWidget.vCrossLine.setPos(mousePoint.x())
+                self.socialGraphWidget.hCrossLine.setPos(mousePoint.y())
             else:
                 # Moves the road network crosshair
-                self.roadSummaryGraphWidget.vCrossLine.setPos(mousePoint.x())
-                self.roadSummaryGraphWidget.hCrossLine.setPos(mousePoint.y())
+                self.roadGraphWidget.vCrossLine.setPos(mousePoint.x())
+                self.roadGraphWidget.hCrossLine.setPos(mousePoint.y())
                 # Moves the social network crosshair
-                self.socialSummaryGraphWidget.vCrossLine.setPos(mousePoint.x())
-                self.socialSummaryGraphWidget.hCrossLine.setPos(mousePoint.y())
+                self.socialGraphWidget.vCrossLine.setPos(mousePoint.x())
+                self.socialGraphWidget.hCrossLine.setPos(mousePoint.y())
 
     def closeEvent(self, a0: QtGui.QCloseEvent) -> None:
         print("Closed")
