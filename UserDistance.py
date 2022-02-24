@@ -1,14 +1,9 @@
 import csv
-from RoadNetwork import RoadNetwork
 import csv
-import math
-import threading
 from os.path import exists
-# FIND A BETER REPLACEMENT
-from dijkstar import Graph, find_path
-import networkx as nx  # importing networkx package
-
+import networkx as nx
 from functools import partial
+
 
 def find_nearest(points, coord):
     dist = lambda s, key: (s[0] - points[key][0]) ** 2 + \
@@ -20,20 +15,25 @@ class UserDistance:
     def __init__(self):
         self.network = nx.Graph()
         self.__nodes = {}
-        self.__rel = {}
         self.__loc = {}
+        self.relRemoved = 0
+
+        #
+        # INSTRUCTIONS:
+        # Update below path names then run
+        #
         self.loadRoadEdges(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/RoadNetworks/california_edge.csv")
         self.loadRoadNodes(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/RoadNetworks/california_node.csv")
         self.loadSocialLoc(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/SocialNetworks/gowalla_loc.csv")
-        self.loadSocialRel(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/SocialNetworks/gowalla_rel.csv")
-
-        #print(self.__loc['58257.0'][0][0])
-
-        #4227
-        usrA = find_nearest(self.__nodes, (-122.430635, 37.774158))
-        #32993
-        usrB = find_nearest(self.__nodes, (-122.416664, 37.761966))
-        #print(nx.dijkstra_path_length(self.network, source=float(0.0), target=float(99.0)))
+        self.loadSocialRel(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/SocialNetworks/gowalla_rel.csv", name="gowalla_rel.csv")
+        print(str(self.relRemoved) + ' relationships were removed as user(s) could not be found in location dataset')
+        self.relRemoved = 0
+        print('GOWALLA DONE')
+        self.loadSocialLoc(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/SocialNetworks/foursquare_loc.csv")
+        self.loadSocialRel(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/SocialNetworks/foursquare_rel.csv", name="foursquare_rel.csv")
+        print(str(self.relRemoved) + ' relationships were removed as user(s) could not be found in location dataset')
+        self.relRemoved = 0
+        print('FOURSQUARE DONE')
 
     # Reads edge file from path.
     # dict = {
@@ -95,27 +95,34 @@ class UserDistance:
     #    ]
     # }
     # noinspection PyShadowingBuiltins
-    def loadSocialRel(self, path=None):
+    def loadSocialRel(self, path=None, name='out.csv'):
         if 1 == 1:
             dict = {}
-            with open(path, 'r') as csvfile:
-                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+            with open(path, 'r') as readObj, \
+                    open(name, 'w', newline='') as writeObj:
+                reader = csv.reader(readObj, delimiter=',', quotechar='|')
+                writer = csv.writer(writeObj)
+                
+                # Add header to output file
+                writer.writerow(['user_id','rel_user_id','weight','distance'])
                 next(reader)
                 for row in reader:
                     user_id = row[0]
                     rel_user_id = row[1]
                     weight = row[2]
+
+                    # Ensure users are in loc datasets
+                    if(self.__loc.get(user_id, 0) == 0):
+                        self.relRemoved = self.relRemoved + 1
+                        continue
+                    if(self.__loc.get(rel_user_id, 0) == 0):
+                        self.relRemoved = self.relRemoved + 1
+                        continue
+
                     usrA = find_nearest(self.__nodes, (float(self.__loc[user_id][0][0]), float(self.__loc[user_id][0][1])))
                     usrB = find_nearest(self.__nodes, (float(self.__loc[rel_user_id][0][0]), float(self.__loc[rel_user_id][0][1])))
-                    print(nx.dijkstra_path_length(self.network, source=float(usrA), target=float(usrB)))
-
-                    if user_id in dict:
-                        dict[user_id] = dict[user_id] + [[rel_user_id, weight]]
-                    else:
-                        dict[user_id] = [[rel_user_id, weight]]
-            self.__rel = dict
-        else:
-            self.__rel = None
+                    row.append(nx.dijkstra_path_length(self.network, source=float(usrA), target=float(usrB)))
+                    writer.writerow(row)
 
     # Reads loc file from path.
     # dict = {
@@ -145,4 +152,8 @@ class UserDistance:
             self.__loc = None
 
 
+def main():
+    test = UserDistance()
 
+if __name__ == '__main__':
+    main()
