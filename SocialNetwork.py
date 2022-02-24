@@ -16,7 +16,6 @@ from os.path import exists
 # =====================================================================================================================
 
 
-# TODO: Update code to match RoadNetwork
 class SocialNetwork:
     def __init__(self, name, relFile=None, locFile=None, **kwargs):
         self.__name = name
@@ -37,9 +36,8 @@ class SocialNetwork:
         self.flattenRelData()
         self.flattenLocData()
         self.chunkLocData()
-        self.__visual = None
 
-    # Reads rel file from path. This is super awful but it's the fastest way to do things. This is what it returns:
+    # Reads rel file from path. This is super awful, but it's the fastest way to do things. This is what it returns:
     # dict = {
     #    "user_id":
     #    [
@@ -154,8 +152,6 @@ class SocialNetwork:
                 start = end * x
             for thread in threads:
                 thread.start()
-            # for thread in threads:
-            #    thread.join()
 
     # Parses a single chunk of data and adds it to the master list
     # noinspection SpellCheckingInspection
@@ -210,7 +206,10 @@ class SocialNetwork:
         return self.__chunkedLocData
 
     # Visualize the data
-    def visualize(self, snInst, rnInst):
-        snInst.plot(self.__flattenedRelData[0], self.__flattenedRelData[1], connect='pairs', pen=(50, 50, 200, 10), brush=(50, 50, 200, 100))
-        rnInst.plot(self.__flattenedLocData[0], self.__flattenedLocData[1], pen=None, symbol='o', symbolSize=2,
-                    symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
+    def visualize(self, snInst=None, rnInst=None):
+        if snInst is not None:
+            snInst.plot(self.__flattenedRelData[0], self.__flattenedRelData[1], connect='pairs', pen=(50, 50, 200, 10),
+                        brush=(50, 50, 200, 100))
+        if rnInst is not None:
+            rnInst.plot(self.__flattenedLocData[0], self.__flattenedLocData[1], pen=None, symbol='o', symbolSize=2,
+                        symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
