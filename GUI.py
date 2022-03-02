@@ -1,5 +1,4 @@
 from collections import Counter
-#import time
 from os.path import exists
 from os import getenv
 from Config import Config
@@ -10,10 +9,11 @@ from PyQt5.QtWebEngineWidgets import QWebEngineView
 from RoadNetwork import RoadNetwork
 from SocialNetwork import SocialNetwork
 from sklearn.cluster import KMeans
-#import pyvis
 from pyvis.network import Network
-import networkx as nx  # importing networkx package
-#import matplotlib.pyplot as plt # importing matplotlib package and pyplot is for displaying the graph on canvas
+import networkx as nx
+# import pyvis
+# import time
+# import matplotlib.pyplot as plt # importing matplotlib package and pyplot is for displaying the graph on canvas
 
 
 # =====================================================================================================================
@@ -106,13 +106,12 @@ class Gui(QtWidgets.QMainWindow):
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
         self.win = pg.GraphicsLayoutWidget(show=True)
         self.setCentralWidget(self.win)
-        # Create and set up road network graph widget
+        # Create and set up graph widget
         self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
-        # Create and set up the social network graph widget
         self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-        # Links the x and y axis on both graphs
+        # Links the x and y-axis on both graphs
         self.linkGraphs()
-        # Draw crosshairs on graph
+        # Draw cross-hairs on graph
         self.drawSocialCrosshair()
         self.drawRoadCrosshair()
         # Adds event listener
@@ -124,7 +123,7 @@ class Gui(QtWidgets.QMainWindow):
     def zoomOutTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
         yRanges = self.roadGraphWidget.getAxis('left').range
-        scale = (((abs(yRanges[0]) - abs(yRanges[1])) - (abs(yRanges[0]) - abs(yRanges[1])) * 1.25)) / 2
+        scale = ((abs(yRanges[0]) - abs(yRanges[1])) - (abs(yRanges[0]) - abs(yRanges[1])) * 1.25) / 2
         self.roadGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
         self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
 
@@ -132,14 +131,14 @@ class Gui(QtWidgets.QMainWindow):
     def zoomInTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
         yRanges = self.roadGraphWidget.getAxis('left').range
-        scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
+        scale = ((abs(yRanges[0]) - abs(yRanges[1])) - (abs(yRanges[0]) - abs(yRanges[1])) * 0.75) / 2
         self.roadGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
         self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
 
     # TODO: Fix issue where graph is squished
     def jogLeftTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
-        scale = ((abs(xRanges[0]) - abs(xRanges[1]) - ((abs(xRanges[0]) - abs(xRanges[1]))) * 0.75)) / 2
+        scale = ((abs(xRanges[0]) - abs(xRanges[1])) - (abs(xRanges[0]) - abs(xRanges[1])) * 0.75) / 2
         self.roadGraphWidget.setXRange(xRanges[0] + scale, xRanges[1] + scale)
 
     # TODO: Fix issue where graph is squished
