@@ -291,6 +291,8 @@ class Gui(QtWidgets.QMainWindow):
             # Note: For some reason, the alpha value is from 0-255 not 0-100
             self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                                  symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+            self.socialGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=20,
+                                      symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
 
     # Generate clusters from the social network
     def getSummaryClusters(self, n):
@@ -299,9 +301,23 @@ class Gui(QtWidgets.QMainWindow):
             n = 10
         # n_clusters is th number of nodes to plot
         kmeans = KMeans(n_clusters=int(n))
-        kmeans.fit(self.selectedSocialNetwork.getChunkedLocData())
+        chunkedData = self.selectedSocialNetwork.getChunkedLocData()
+        kmeans.fit(chunkedData)
         # Scales the nodes according to population
         centers = kmeans.cluster_centers_
+        # Get items in clusters and put it into dictionary {'clusterid': [userid, userid...], ...}
+        clusterItems = {}
+        for i in range(0, len(chunkedData)):
+            label = kmeans.labels_[i]
+            userid = self.selectedSocialNetwork.getIDByLoc(chunkedData[i][0], chunkedData[i][1])
+            if label in clusterItems:
+                clusterItems[label].append(userid)
+            else:
+                clusterItems[label] = [userid]
+        for clusterStart in clusterItems:
+            for clusterEnd in clusterItems:
+                for user in clusterItems[clusterStart]:
+                    print(user)
         ref = list(Counter(kmeans.labels_).values())
         sizes = self.sizeSort(ref)
         return centers, sizes

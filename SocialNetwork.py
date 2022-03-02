@@ -33,6 +33,7 @@ class SocialNetwork:
             thread.start()
         for thread in threads:
             thread.join()
+        self.IDByLoc = self.IDByLoc()
         self.flattenRelData()
         self.flattenLocData()
         self.chunkLocData()
@@ -204,6 +205,16 @@ class SocialNetwork:
 
     def getChunkedLocData(self):
         return self.__chunkedLocData
+
+    def IDByLoc(self):
+        temp = {}
+        for id in self.__loc:
+            for loc in self.__loc[id]:
+                temp[f'{loc}'] = id
+        return temp
+
+    def getIDByLoc(self, lat, lon):
+        return self.IDByLoc[f"['{lat}', '{lon}']"]
 
     # Visualize the data
     def visualize(self, snInst=None, rnInst=None):
