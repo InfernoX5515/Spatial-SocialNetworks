@@ -119,21 +119,28 @@ class Gui(QtWidgets.QMainWindow):
         # Show window
         self.show()
 
-    # TODO: Fix issue where graph is squished
+    def getZoomScale(self, xRanges, yRanges):
+        # Percent to zoom
+        percent = .25
+        xLen = abs(xRanges[1] - xRanges[0])
+        yLen = abs(yRanges[1] - yRanges[0])
+        xScale = (xLen * percent) / 2
+        yScale = (yLen * percent) / 2
+        return xScale, yScale
+
     def zoomOutTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
         yRanges = self.roadGraphWidget.getAxis('left').range
-        scale = ((abs(yRanges[0]) - abs(yRanges[1])) - (abs(yRanges[0]) - abs(yRanges[1])) * 1.25) / 2
-        self.roadGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
-        self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
+        xScale, yScale = self.getZoomScale(xRanges, yRanges)
+        self.roadGraphWidget.setXRange(xRanges[0] - xScale, xRanges[1] + xScale)
+        self.roadGraphWidget.setYRange(yRanges[0] - yScale, yRanges[1] + yScale)
 
-    # TODO: Fix issue where graph is squished
     def zoomInTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
         yRanges = self.roadGraphWidget.getAxis('left').range
-        scale = ((abs(yRanges[0]) - abs(yRanges[1])) - (abs(yRanges[0]) - abs(yRanges[1])) * 0.75) / 2
-        self.roadGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] + scale)
-        self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] + scale)
+        xScale, yScale = self.getZoomScale(xRanges, yRanges)
+        self.roadGraphWidget.setXRange(xRanges[0] + xScale, xRanges[1] - xScale)
+        self.roadGraphWidget.setYRange(yRanges[0] + yScale, yRanges[1] - yScale)
 
     # TODO: Fix issue where graph is squished
     def jogLeftTool(self):
