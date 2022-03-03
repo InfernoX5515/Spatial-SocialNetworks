@@ -287,12 +287,14 @@ class Gui(QtWidgets.QMainWindow):
             self.selectedRoadNetwork.visualize(self.roadGraphWidget)
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
-            centers, sizes = self.getSummaryClusters(self.clusterInput.textBox.text())
+            centers, sizes, relations = self.getSummaryClusters(self.clusterInput.textBox.text())
             # Note: For some reason, the alpha value is from 0-255 not 0-100
             self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                                  symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
             self.socialGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=20,
                                       symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+            self.socialGraphWidget.plot(relations[0], relations[1], connect='pairs', pen=(50, 50, 200, 200),
+                        brush=(50, 50, 200, 256))
 
     # Generate clusters from the social network
     def getSummaryClusters(self, n):
@@ -314,13 +316,23 @@ class Gui(QtWidgets.QMainWindow):
                 clusterItems[label].append(userid)
             else:
                 clusterItems[label] = [userid]
-        for clusterStart in clusterItems:
-            for clusterEnd in clusterItems:
-                for user in clusterItems[clusterStart]:
-                    print(user)
+        clusterStart = list(clusterItems.keys())
+        relations = [[],[]]
+        while len(clusterStart) != 1:
+            start = clusterStart[0]
+            for item in clusterStart:
+                if clusterStart[0] is not item:
+                    relations[0].append(centers[start][0])
+                    relations[0].append(centers[item][0])
+                    relations[1].append(centers[start][1])
+                    relations[1].append(centers[item][1])
+                    # for user in clusterItems[start]:
+                    #    for user2 in clusterItems[start]:
+                    #        print(f"    {user}")
+            clusterStart.pop(0)
         ref = list(Counter(kmeans.labels_).values())
         sizes = self.sizeSort(ref)
-        return centers, sizes
+        return centers, sizes, relations
 
     # Returns size for cluster icons so that clusters that contain fewer nodes are smaller
     @staticmethod
@@ -575,10 +587,14 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
                 # If there is a social network selected, remove and re-add to make sure nodes stay above the plot
                 if self.selectedSocialNetwork is not None:
-                    centers, sizes = self.getSummaryClusters(self.clusterInput.textBox.text())
+                    centers, sizes, relations = self.getSummaryClusters(self.clusterInput.textBox.text())
                     # Note: For some reason, the alpha value is from 0-255 not 0-100
                     self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                                      symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+                    self.socialGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=20,
+                                                symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+                    self.socialGraphWidget.plot(relations[0], relations[1], connect='pairs', pen=(50, 50, 200, 200),
+                                                brush=(50, 50, 200, 256))
                 self.linkSummaryGraphs()
                 # Draw crosshairs on graph
                 self.drawRoadSummaryCrosshair()
@@ -592,10 +608,14 @@ class Gui(QtWidgets.QMainWindow):
                 self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
                 # Removes the social network and re-adds it to keep the graph there
                 if self.selectedSocialNetwork is not None:
-                    centers, sizes = self.getSummaryClusters(self.clusterInput.textBox.text())
+                    centers, sizes, relations = self.getSummaryClusters(self.clusterInput.textBox.text())
                     # Note: For some reason, the alpha value is from 0-255 not 0-100
                     self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                                      symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+                    self.socialGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=20,
+                                                symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+                    self.socialGraphWidget.plot(relations[0], relations[1], connect='pairs', pen=(50, 50, 200, 200),
+                                                brush=(50, 50, 200, 256))
             # Draw crosshairs on graph
             self.drawRoadSummaryCrosshair()
             self.drawSocialSummaryCrosshair()
@@ -635,10 +655,14 @@ class Gui(QtWidgets.QMainWindow):
                 self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
                 if self.selectedRoadNetwork is not None:
                     self.selectedRoadNetwork.visualize(self.roadGraphWidget)
-                centers, sizes = self.getSummaryClusters(self.clusterInput.textBox.text())
+                centers, sizes, relations = self.getSummaryClusters(self.clusterInput.textBox.text())
                 # Note: For some reason, the alpha value is from 0-255 not 0-100
                 self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                           symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+                self.socialGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=20,
+                                            symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+                self.socialGraphWidget.plot(relations[0], relations[1], connect='pairs', pen=(50, 50, 200, 200),
+                                            brush=(50, 50, 200, 256))
                 self.linkSummaryGraphs()
                 # Draw crosshairs on graph
                 self.drawRoadSummaryCrosshair()
