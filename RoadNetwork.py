@@ -17,22 +17,20 @@ from os.path import exists
 
 
 class RoadNetwork:
-    def __init__(self, name=None, edges=None, nodes=None):
+    def __init__(self, name, edgeFile=None, nodeFile=None, **kwargs):
         self.__name = name
         self.__edges = {}
         self.__nodes = {}
-        self.__normalizedData = [[], []]
-        threads = []
-        if edges is not None and exists(edges):
-            threads.append(threading.Thread(target=lambda: self.loadEdges(path=edges)))
-        if nodes is not None and exists(nodes):
-            threads.append(threading.Thread(target=lambda: self.loadNodes(path=nodes)))
+        self.__flattenedData = [[], []]
+        self.__plotInstance = None
+        # Create threads for loading files asynchronously
+        threads = [threading.Thread(target=lambda: self.loadEdges(edgeFile)),
+                   threading.Thread(target=lambda: self.loadNodes(nodeFile))]
         for thread in threads:
             thread.start()
         for thread in threads:
             thread.join()
-        self.normalizeData()
-        self.__visual = None
+        self.flattenData()
 
     # Reads edge file from path.
     # dict = {
@@ -41,20 +39,18 @@ class RoadNetwork:
     # noinspection PyShadowingBuiltins
     def loadEdges(self, path=None):
         if path is not None and exists(path):
-            dict = {}
-            with open(path, 'r') as csvfile:
-                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+            with open(path, 'r') as csvFile:
+                reader = csv.reader(csvFile, delimiter=',', quotechar='|')
                 next(reader)
                 for row in reader:
                     edge_id = row[0]
                     start_id = row[1]
                     end_id = row[2]
                     weight = row[3]
-                    if edge_id in dict:
+                    if edge_id in self.__edges:
                         raise Exception(f"Error: Duplicate value in {path}")
                     else:
-                        dict[edge_id] = [start_id, end_id, weight]
-            self.__edges = dict
+                        self.__edges[edge_id] = [start_id, end_id, weight]
         else:
             self.__edges = None
 
@@ -69,30 +65,28 @@ class RoadNetwork:
     # noinspection PyShadowingBuiltins
     def loadNodes(self, path=None):
         if path is not None and exists(path):
-            dict = {}
-            # noinspection SpellCheckingInspection
-            with open(path, 'r') as csvfile:
-                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+            with open(path, 'r') as csvFile:
+                reader = csv.reader(csvFile, delimiter=',', quotechar='|')
                 next(reader)
                 for row in reader:
                     node_id = row[0]
                     lat = row[1]
                     lon = row[2]
-                    if node_id in dict:
+                    if node_id in self.__nodes:
                         raise Exception(f"Error: Duplicate value in {path}")
                     else:
-                        dict[node_id] = [lat, lon]
-            self.__nodes = dict
+                        self.__nodes[node_id] = [lat, lon]
         else:
             self.__nodes = None
 
     # Parses the edge data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data
-    def normalizeData(self):
+    def flattenData(self):
         if self.__edges is not None and self.__nodes is not None:
             threads = []
-            total = len(self.__edges)
+            # Used to calculate amount of data in a chunk/thread
             threadCount = 10
+            total = len(self.__edges)
             start = 0
             end = math.floor(total / threadCount)
             for x in range(1, threadCount + 1):
@@ -120,9 +114,9 @@ class RoadNetwork:
             endLon = float(self.__nodes[edge][1])
             lat = lat + [startLat, endLat]
             lon = lon + [startLon, endLon]
-        self.__normalizedData[0] = self.__normalizedData[0] + lat
-        self.__normalizedData[1] = self.__normalizedData[1] + lon
+        self.__flattenedData[0] = self.__flattenedData[0] + lat
+        self.__flattenedData[1] = self.__flattenedData[1] + lon
 
     # Visualize the data
     def visualize(self, inst):
-        self.__visual = inst.plot(self.__normalizedData[0], self.__normalizedData[1], connect='pairs', pen='black')
+        self.__plotInstance = inst.plot(self.__flattenedData[0], self.__flattenedData[1], connect='pairs', pen='black')

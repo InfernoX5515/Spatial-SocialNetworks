@@ -8,21 +8,18 @@ from os.path import exists
 #   Project: Spatial-Social Networks
 #
 #   Purpose:
-#       Config.py is the class object for the project config.
+#       Config.py is the class object for the project config. It currently handles storing road networks and file
+#       locations
 #
 # =====================================================================================================================
 
 
 class Config:
     def __init__(self):
-        if exists("config.json"):
-            self.loadSettings()
-        else:
-            self.settings = self.defSettings()
-            f = open("config.json", 'w')
-            f.write(json.dumps(self.settings, indent=4, sort_keys=True))
-            f.close()
+        self.settings = self.defSettings()
+        self.loadSettings()
 
+    # Defines the base config settings
     @staticmethod
     def defSettings():
         settings = {
@@ -31,16 +28,21 @@ class Config:
         }
         return settings
 
+    # Updates a setting to a value
     def update(self, setting, value):
         self.settings[setting] = value
-        f = open("config.json", 'w')
-        f.write(json.dumps(self.settings, indent=4, sort_keys=True))
-        f.close()
+        with open("config.json", 'w') as f:
+            f.write(json.dumps(self.settings, indent=4, sort_keys=True))
 
+    # Loads the settings if the file exists and if not, create it
     def loadSettings(self):
-        f = open("config.json", 'r')
-        self.settings = json.load(f)
-        f.close()
+        if exists("config.json"):
+            with open("config.json", 'r') as f:
+                self.settings = json.load(f)
+        else:
+            with open("config.json", 'w') as f:
+                f.write(json.dumps(self.settings, indent=4, sort_keys=True))
 
+    # Returns the loaded settings
     def getSetting(self, setting):
         return self.settings[setting]

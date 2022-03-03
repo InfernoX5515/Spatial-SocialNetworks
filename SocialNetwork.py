@@ -2,7 +2,6 @@ import csv
 import math
 import threading
 from os.path import exists
-import numpy as np
 
 
 # =====================================================================================================================
@@ -18,28 +17,28 @@ import numpy as np
 
 
 class SocialNetwork:
-    def __init__(self, name=None, rel=None, loc=None):
+    def __init__(self, name, relFile=None, locFile=None, **kwargs):
         self.__name = name
         self.__rel = {}
         self.__loc = {}
-        self.__normalizedRelData = [[], []]
-        self.__normalizedLocData = [[], []]
+        self.__flattenedRelData = [[], []]
+        self.__flattenedLocData = [[], []]
         self.__chunkedLocData = []
         threads = []
-        if rel is not None and exists(rel):
-            threads.append(threading.Thread(target=lambda: self.loadRel(path=rel)))
-        if loc is not None and exists(loc):
-            threads.append(threading.Thread(target=lambda: self.loadLoc(path=loc)))
+        if relFile is not None and exists(relFile):
+            threads.append(threading.Thread(target=lambda: self.loadRel(path=relFile)))
+        if locFile is not None and exists(locFile):
+            threads.append(threading.Thread(target=lambda: self.loadLoc(path=locFile)))
         for thread in threads:
             thread.start()
         for thread in threads:
             thread.join()
-        self.normalizeRelData()
-        self.normalizeLocData()
+        self.IDByLoc = self.IDByLoc()
+        self.flattenRelData()
+        self.flattenLocData()
         self.chunkLocData()
-        self.__visual = None
 
-    # Reads rel file from path. This is super awful but it's the fastest way to do things. This is what it returns:
+    # Reads rel file from path. This is super awful, but it's the fastest way to do things. This is what it returns:
     # dict = {
     #    "user_id":
     #    [
@@ -95,7 +94,7 @@ class SocialNetwork:
 
     # Parses the rel data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data.
-    def normalizeRelData(self):
+    def flattenRelData(self):
         if self.__rel is not None and self.__loc is not None:
             threads = []
             total = len(self.__rel)
@@ -134,12 +133,12 @@ class SocialNetwork:
                                 endLon = float(self.__loc[a[0]][b][1])
                                 lat = lat + [startLat, endLat]
                                 lon = lon + [startLon, endLon]
-        self.__normalizedRelData[0] = self.__normalizedRelData[0] + lat
-        self.__normalizedRelData[1] = self.__normalizedRelData[1] + lon
+        self.__flattenedRelData[0] = self.__flattenedRelData[0] + lat
+        self.__flattenedRelData[1] = self.__flattenedRelData[1] + lon
 
     # Parses the loc data into instantly plottable lists. For example, lat is [lat, lon, lat, lon...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data.
-    def normalizeLocData(self):
+    def flattenLocData(self):
         if self.__loc is not None:
             threads = []
             total = len(self.__loc)
@@ -154,8 +153,6 @@ class SocialNetwork:
                 start = end * x
             for thread in threads:
                 thread.start()
-            # for thread in threads:
-            #    thread.join()
 
     # Parses a single chunk of data and adds it to the master list
     # noinspection SpellCheckingInspection
@@ -169,8 +166,8 @@ class SocialNetwork:
             for z in range(0, len(locs)):
                 lat = lat + [float(locs[z][0])]
                 lon = lon + [float(locs[z][1])]
-        self.__normalizedLocData[0] = self.__normalizedLocData[0] + lat
-        self.__normalizedLocData[1] = self.__normalizedLocData[1] + lon
+        self.__flattenedLocData[0] = self.__flattenedLocData[0] + lat
+        self.__flattenedLocData[1] = self.__flattenedLocData[1] + lon
 
     # Chunks coords from [[lat, lat, lat...],[lon, lon, lon...]] to [[lat, lon], [lat lon]...]
     def chunkLocData(self):
@@ -203,14 +200,27 @@ class SocialNetwork:
                 coords = coords + [[float(locs[z][0]), float(locs[z][1])]]
         self.__chunkedLocData = self.__chunkedLocData + coords
 
-    def getNormalizedLocData(self):
-        return self.__normalizedLocData
+    def getFlattenedLocData(self):
+        return self.__flattenedLocData
 
     def getChunkedLocData(self):
         return self.__chunkedLocData
 
+    def IDByLoc(self):
+        temp = {}
+        for id in self.__loc:
+            for loc in self.__loc[id]:
+                temp[f'{loc}'] = id
+        return temp
+
+    def getIDByLoc(self, lat, lon):
+        return self.IDByLoc[f"['{lat}', '{lon}']"]
+
     # Visualize the data
-    def visualize(self, snInst, rnInst):
-        snInst.plot(self.__normalizedRelData[0], self.__normalizedRelData[1], connect='pairs', pen=(50, 50, 200, 10), brush=(50, 50, 200, 100))
-        rnInst.plot(self.__normalizedLocData[0], self.__normalizedLocData[1], pen=None, symbol='o', symbolSize=2,
-                    symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
+    def visualize(self, snInst=None, rnInst=None):
+        if snInst is not None:
+            snInst.plot(self.__flattenedRelData[0], self.__flattenedRelData[1], connect='pairs', pen=(50, 50, 200, 10),
+                        brush=(50, 50, 200, 100))
+        if rnInst is not None:
+            rnInst.plot(self.__flattenedLocData[0], self.__flattenedLocData[1], pen=None, symbol='o', symbolSize=2,
+                        symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))

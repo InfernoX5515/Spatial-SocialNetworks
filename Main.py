@@ -1,11 +1,11 @@
-import sys
-from pyqtgraph.Qt import QtGui
+from sys import argv, exit
+from pyqtgraph.Qt.QtGui import QApplication
 from GUI import Gui
 
 # =====================================================================================================================
 #
 #   Authors: Halie Eckert, Gavin Hulvey, Sydney Zuelzke
-#   Mentor: Dr. Xiang Lain
+#   Mentor: Dr. Xiang Lian
 #   Date: 11/3/2021
 #   SPATIAL-SOCIAL NETWORKS
 #
@@ -21,13 +21,13 @@ from GUI import Gui
 # =====================================================================================================================
 
 
-# TODO: Figure out why the heck this won't actually close when the GUI is closed
 # TODO: Something is slowing down start time. Find this, fix it. Look at SocialNetwork chunking maybe?
 def main():
     # noinspection PyUnresolvedReferences
-    app = QtGui.QApplication(sys.argv)
+    app = QApplication(argv)
     gui = Gui()
-    sys.exit(app.exec_())
+    app.quit()
+    exit(app.exec_())
 
 
 # Start Qt event loop unless running in interactive mode or using pyside.
