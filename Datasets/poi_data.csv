@@ -1,4 +1,4 @@
-﻿id,category,latitude,longitude
+poi_id,poi_category,lat_pos,lon_pos
 1,airport,-114.18639,34.30806
 2,airport,-114.43083,34.5275
 3,airport,-114.52667,33.86944

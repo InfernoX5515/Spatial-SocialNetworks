@@ -167,7 +167,7 @@ class Gui(QtWidgets.QMainWindow):
         self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] - scale)
 
     def __toolbar(self):
-        toolbar = QtWidgets.QToolBar("My main toolbar")
+        toolbar = QtWidgets.QToolBar("Navigation Toolbar")
         toolbar.setIconSize(QtCore.QSize(24, 24))
         self.addToolBar(toolbar)
         zoom_in = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-plus-solid.svg'), "Zoom In", self)
@@ -176,19 +176,19 @@ class Gui(QtWidgets.QMainWindow):
         zoom_out = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-minus-solid.svg'), "Zoom Out", self)
         zoom_out.triggered.connect(self.zoomOutTool)
         toolbar.addAction(zoom_out)
-
+        # Jog left
         jogLeft = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-left-solid.svg'), "Jog Left", self)
         jogLeft.triggered.connect(self.jogLeftTool)
         toolbar.addAction(jogLeft)
-
+        # Jog right
         jogRight = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-right-solid.svg'), "Jog Right", self)
         jogRight.triggered.connect(self.jogRightTool)
         toolbar.addAction(jogRight)
-
+        # Jog up
         jogUp = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-up-solid.svg'), "Jog Up", self)
         jogUp.triggered.connect(self.jogUpTool)
         toolbar.addAction(jogUp)
-
+        # Jog down
         jogDown = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-down-solid.svg'), "Jog Down", self)
         jogDown.triggered.connect(self.jogDownTool)
         toolbar.addAction(jogDown)
@@ -208,12 +208,16 @@ class Gui(QtWidgets.QMainWindow):
         viewSummaryAction.setStatusTip("View summary graphs")
         viewSummaryAction.triggered.connect(self.viewSummary)
         addViewMenu.addAction(viewSummaryAction)
-        #
+        # Interactive network button
         viewInterNetworkAction = QtWidgets.QAction("Interactive Network", self, checkable=True)
         viewInterNetworkAction.setStatusTip("Launch interactive network interface")
         viewInterNetworkAction.triggered.connect(self.viewInterNetwork)
         addViewMenu.addAction(viewInterNetworkAction)
-
+        # Hide POIs button
+        hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True)
+        hidePOIs.setStatusTip("Hide POIs on the graph")
+        hidePOIs.triggered.connect(self.hidePOIs)
+        addViewMenu.addAction(hidePOIs)
         # Add Social Network option
         addSNMenu = mainMenu.addMenu("Social Network")
         # Loads all social networks available
@@ -446,30 +450,42 @@ class Gui(QtWidgets.QMainWindow):
         if ok and str(text) not in self.__roadNetworks.keys() and str(text) != "":
             self.__roadNetworks[str(text)] = {
                 "nodeFile": "[nodeFile]",
-                "edgeFile": "[edgeFile]"
+                "edgeFile": "[edgeFile]",
+                "POIFile": "[POIFile]"
             }
             # Adds new road network to tree
-            self.__fileTreeObjects[f"0.{len(self.__roadNetworks.keys()) + 1}"] = QtWidgets.QTreeWidgetItem([str(text)])
-            self.__fileTreeObjects['0'].addChild(self.__fileTreeObjects[f"0.{len(self.__roadNetworks.keys()) + 1}"])
+            keys = self.__roadNetworks.keys()
+            self.__fileTreeObjects[f"0.{len(keys) + 1}"] = QtWidgets.QTreeWidgetItem([str(text)])
+            self.__fileTreeObjects['0'].addChild(self.__fileTreeObjects[f"0.{len(keys) + 1}"])
             # Adds new road network's node file
-            self.__fileTreeObjects[f"0.{len(self.__roadNetworks.keys()) + 1}.1"] = \
+            self.__fileTreeObjects[f"0.{len(keys) + 1}.1"] = \
                 QtWidgets.QTreeWidgetItem([self.__roadNetworks[str(text)]["nodeFile"]])
-            self.__fileTreeObjects[f'0.{len(self.__roadNetworks.keys()) + 1}'].addChild(
-                self.__fileTreeObjects[f"0.{len(self.__roadNetworks.keys()) + 1}.1"])
+            self.__fileTreeObjects[f'0.{len(keys) + 1}'].addChild(
+                self.__fileTreeObjects[f"0.{len(keys) + 1}.1"])
             addN = QtWidgets.QPushButton("Choose File")
             addN.clicked.connect(
-                lambda: self.chooseFile(f"0.{len(self.__roadNetworks.keys()) + 1}.1", "Road Network", str(text),
+                lambda: self.chooseFile(f"0.{len(keys) + 1}.1", "Road Network", str(text),
                                         "nodeFile"))
-            self.__windows[0].setItemWidget(self.__fileTreeObjects[f"0.{len(self.__roadNetworks.keys()) + 1}.1"], 1, addN)
+            self.__windows[0].setItemWidget(self.__fileTreeObjects[f"0.{len(keys) + 1}.1"], 1, addN)
             # Adds new road network's edge file
-            self.__fileTreeObjects[f"0.{len(self.__roadNetworks.keys()) + 1}.2"] = \
+            self.__fileTreeObjects[f"0.{len(keys) + 1}.2"] = \
                 QtWidgets.QTreeWidgetItem([self.__roadNetworks[str(text)]["edgeFile"]])
-            self.__fileTreeObjects[f'0.{len(self.__roadNetworks.keys()) + 1}'].addChild(
-                self.__fileTreeObjects[f"0.{len(self.__roadNetworks.keys()) + 1}.2"])
+            self.__fileTreeObjects[f'0.{len(keys) + 1}'].addChild(
+                self.__fileTreeObjects[f"0.{len(keys) + 1}.2"])
             addE = QtWidgets.QPushButton("Choose File")
-            addE.clicked.connect(lambda: self.chooseFile(f"0.{len(self.__roadNetworks.keys()) + 1}.2", "Road Network", str(text),
+            addE.clicked.connect(lambda: self.chooseFile(f"0.{len(keys) + 1}.2", "Road Network", str(text),
                                         "Edge File"))
-            self.__windows[0].setItemWidget(self.__fileTreeObjects[f"0.{len(self.__roadNetworks.keys()) + 1}.2"], 1, addE)
+            self.__windows[0].setItemWidget(self.__fileTreeObjects[f"0.{len(keys) + 1}.2"], 1, addE)
+            # Adds new road network's POI file
+            self.__fileTreeObjects[f"0.{len(keys) + 1}.3"] = \
+                QtWidgets.QTreeWidgetItem([self.__roadNetworks[str(text)]["POIFile"]])
+            self.__fileTreeObjects[f'0.{len(keys) + 1}'].addChild(
+                self.__fileTreeObjects[f"0.{len(keys) + 1}.3"])
+            addP = QtWidgets.QPushButton("Choose File")
+            addP.clicked.connect(
+                lambda: self.chooseFile(f"0.{len(keys) + 1}.3", "Road Network", str(text),
+                                        "POIFile"))
+            self.__windows[0].setItemWidget(self.__fileTreeObjects[f"0.{len(keys) + 1}.3"], 1, addP)
             # Update config
             self.config.update("Road Networks", self.__roadNetworks)
 
@@ -519,6 +535,9 @@ class Gui(QtWidgets.QMainWindow):
             self.config.update("Social Networks", self.__socialNetworks)
             self.menuBar().clear()
             self.__menuBar()
+
+    def hidePOIs(self):
+        print("test")
 
     def chooseFile(self, obj, T, network, sub):
         self.__windows[2] = QtWidgets.QFileDialog()

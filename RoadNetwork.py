@@ -17,15 +17,17 @@ from os.path import exists
 
 
 class RoadNetwork:
-    def __init__(self, name, edgeFile=None, nodeFile=None, **kwargs):
+    def __init__(self, name, edgeFile=None, nodeFile=None, POIFile=None, **kwargs):
         self.__name = name
         self.__edges = {}
         self.__nodes = {}
+        self.__POIs = {}
         self.__flattenedData = [[], []]
         self.__plotInstance = None
         # Create threads for loading files asynchronously
         threads = [threading.Thread(target=lambda: self.loadEdges(edgeFile)),
-                   threading.Thread(target=lambda: self.loadNodes(nodeFile))]
+                   threading.Thread(target=lambda: self.loadNodes(nodeFile)),
+                   threading.Thread(target=lambda: self.loadPOIs(POIFile))]
         for thread in threads:
             thread.start()
         for thread in threads:
@@ -78,6 +80,28 @@ class RoadNetwork:
                         self.__nodes[node_id] = [lat, lon]
         else:
             self.__nodes = None
+
+    # Reads POI file from path.
+    # dict = {
+    #    "poi_id": [poi_category, lat_pos, lon_pos],
+    # }
+    # noinspection PyShadowingBuiltins
+    def loadPOIs(self, path=None):
+        if path is not None and exists(path):
+            with open(path, 'r') as csvFile:
+                reader = csv.reader(csvFile, delimiter=',', quotechar='|')
+                next(reader)
+                for row in reader:
+                    poi_id = row[0]
+                    poi_category = row[1]
+                    lat_pos = row[2]
+                    lon_pos = row[3]
+                    if poi_id in self.__POIs:
+                        raise Exception(f"Error: Duplicate value in {path}")
+                    else:
+                        self.__POIs[poi_id] = [poi_category, lat_pos, lon_pos]
+        else:
+            self.__POIs = None
 
     # Parses the edge data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data
