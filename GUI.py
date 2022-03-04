@@ -69,6 +69,7 @@ class NetworkGraphWindow(QtWidgets.QWidget):
 
 class Gui(QtWidgets.QMainWindow):
     def __init__(self):
+        print("test")
         super(Gui, self).__init__()
         # Creates config
         self.config = Config()
@@ -83,6 +84,7 @@ class Gui(QtWidgets.QMainWindow):
         self.roadGraphWidget = None
         self.socialGraphWidget = None
         self.summarySelected = False
+        self.hidePOIsSelected = False
         # Stores selected network instances
         self.selectedRoadNetwork = None
         self.selectedSocialNetwork = None
@@ -91,11 +93,18 @@ class Gui(QtWidgets.QMainWindow):
         self.__socialNetworks = self.config.settings["Social Networks"]
         # Store network objects
         self.__roadNetworkObjs = self.createNetworkInstances(self.__roadNetworks, RoadNetwork)
+        print("test")
         self.__socialNetworkObjs = self.createNetworkInstances(self.__socialNetworks, SocialNetwork)
+        print("test")
         # Initializes menus
         self.__menuBar()
-        self.__toolbar()
+        self.__navToolbar()
         self.__mainWindow()
+
+    # Creates the plot widgets. suffix is used when a summary graph is created, for example
+    def createPlots(self, suffix=None):
+        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
+        self.socialGraphWidget = self.win.addPlot(row=0, col=0, title=f"Social Network {suffix}")
 
     # Displays main window
     def __mainWindow(self):
@@ -107,8 +116,7 @@ class Gui(QtWidgets.QMainWindow):
         self.win = pg.GraphicsLayoutWidget(show=True)
         self.setCentralWidget(self.win)
         # Create and set up graph widget
-        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
-        self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+        self.createPlots()
         # Links the x and y-axis on both graphs
         self.linkGraphs()
         # Draw cross-hairs on graph
@@ -119,7 +127,8 @@ class Gui(QtWidgets.QMainWindow):
         # Show window
         self.show()
 
-    def getZoomScale(self, xRanges, yRanges):
+    @staticmethod
+    def getZoomScale(xRanges, yRanges):
         # Percent to zoom
         percent = .25
         xLen = abs(xRanges[1] - xRanges[0])
@@ -166,13 +175,16 @@ class Gui(QtWidgets.QMainWindow):
         scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
         self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] - scale)
 
-    def __toolbar(self):
+    # Creates the navigation toolbar
+    def __navToolbar(self):
         toolbar = QtWidgets.QToolBar("Navigation Toolbar")
         toolbar.setIconSize(QtCore.QSize(24, 24))
         self.addToolBar(toolbar)
+        # Zoom in
         zoom_in = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-plus-solid.svg'), "Zoom In", self)
         zoom_in.triggered.connect(self.zoomInTool)
         toolbar.addAction(zoom_in)
+        # Zoom out
         zoom_out = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-minus-solid.svg'), "Zoom Out", self)
         zoom_out.triggered.connect(self.zoomOutTool)
         toolbar.addAction(zoom_out)
@@ -221,25 +233,33 @@ class Gui(QtWidgets.QMainWindow):
         # Add Social Network option
         addSNMenu = mainMenu.addMenu("Social Network")
         # Loads all social networks available
-        # TODO: Look into toggle buttons for menu
         sNetworks = self.getCompleteSocialNetworks()
+        socialGroup = QtWidgets.QActionGroup(self)
+        socialGroup.setExclusive(True)
         sActions = {}
+        # Adds all actions
         for x in sNetworks:
             sActions[x] = QtWidgets.QAction(x, self, checkable=True)
             sActions[x].setStatusTip(f"Switch to view social network {x}")
             sActions[x].triggered.connect(lambda junk, a=x: self.displaySocialNetwork(a, sActions[a].isChecked()))
-            addSNMenu.addAction(sActions[x])
-
+            socialGroup.addAction(sActions[x])
+        # Put actions in group and on menu
+        addSNMenu.addActions(sActions.values())
         # Add Road Network option
         addRNMenu = mainMenu.addMenu("Road Network")
         # Loads all road networks available
         rNetworks = self.getCompleteRoadNetworks()
+        roadGroup = QtWidgets.QActionGroup(self)
+        roadGroup.setExclusive(True)
         rActions = {}
+        # Adds all actions
         for x in rNetworks:
             rActions[x] = QtWidgets.QAction(x, self, checkable=True)
             rActions[x].setStatusTip(f"Switch to view road network {x}")
             rActions[x].triggered.connect(lambda junk, a=x: self.displayRoadNetwork(a, rActions[a].isChecked()))
-            addRNMenu.addAction(rActions[x])
+            roadGroup.addAction(rActions[x])
+        # Put actions in group and on menu
+        addRNMenu.addActions(rActions.values())
 
     def viewInterNetwork(self, checked):
         self.netgwin = NetworkGraphWindow()
@@ -255,8 +275,7 @@ class Gui(QtWidgets.QMainWindow):
             self.win.removeItem(self.roadGraphWidget)
             self.win.removeItem(self.socialGraphWidget)
             # Displays summary plots
-            self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
-            self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
+            self.createPlots("Summary")
             self.__clusterInput()
             self.updateSummaryGraph()
         # Switch view to main
@@ -267,8 +286,7 @@ class Gui(QtWidgets.QMainWindow):
             self.win.removeItem(self.socialGraphWidget)
             self.roadGraphWidget = None
             self.socialGraphWidget = None
-            self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
-            self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
+            self.createPlots()
             # Re-visualize selected networks
             if self.selectedRoadNetwork is not None:
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
@@ -293,8 +311,7 @@ class Gui(QtWidgets.QMainWindow):
             self.win.removeItem(self.roadGraphWidget)
             self.win.removeItem(self.socialGraphWidget)
         # Displays summary plots
-        self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
-        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
+        self.createPlots("Summary")
         # Draw crosshairs on graph
         self.drawRoadSummaryCrosshair()
         self.drawSocialSummaryCrosshair()
@@ -509,7 +526,7 @@ class Gui(QtWidgets.QMainWindow):
             addL = QtWidgets.QPushButton("Choose File")
             addL.clicked.connect(
                 lambda: self.chooseFile(f"1.{len(self.__socialNetworks.keys()) + 1}.1", "Social Network", str(text),
-                                        "Loc File"))
+                                        "LocFile"))
             self.__windows[0].setItemWidget(self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.1"], 1, addL)
             # Adds new social network's rel file
             self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.2"] = \
@@ -519,7 +536,7 @@ class Gui(QtWidgets.QMainWindow):
             addR = QtWidgets.QPushButton("Choose File")
             addR.clicked.connect(
                 lambda: self.chooseFile(f"1.{len(self.__socialNetworks.keys()) + 1}.2", "Social Network", str(text),
-                                        "Rel File"))
+                                        "RelFile"))
             self.__windows[0].setItemWidget(self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.2"], 1, addR)
             # Adds new social network's key file
             self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.3"] = \
@@ -529,7 +546,7 @@ class Gui(QtWidgets.QMainWindow):
             addR = QtWidgets.QPushButton("Choose File")
             addR.clicked.connect(
                 lambda: self.chooseFile(f"1.{len(self.__socialNetworks.keys()) + 1}.1", "Social Network", str(text),
-                                        "Key File"))
+                                        "KeyFile"))
             self.__windows[0].setItemWidget(self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.3"], 1, addR)
             # Update config
             self.config.update("Social Networks", self.__socialNetworks)
@@ -652,8 +669,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.win.removeItem(self.socialGraphWidget)
                 self.win.removeItem(self.roadGraphWidget)
                 self.selectedSocialNetwork = None
-                self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-                self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
+                self.createPlots()
                 # Re-visualizes the road network if it is selected
                 if self.selectedRoadNetwork:
                     self.selectedRoadNetwork.visualize(self.roadGraphWidget)
