@@ -69,7 +69,6 @@ class NetworkGraphWindow(QtWidgets.QWidget):
 
 class Gui(QtWidgets.QMainWindow):
     def __init__(self):
-        print("test")
         super(Gui, self).__init__()
         # Creates config
         self.config = Config()
@@ -93,9 +92,7 @@ class Gui(QtWidgets.QMainWindow):
         self.__socialNetworks = self.config.settings["Social Networks"]
         # Store network objects
         self.__roadNetworkObjs = self.createNetworkInstances(self.__roadNetworks, RoadNetwork)
-        print("test")
         self.__socialNetworkObjs = self.createNetworkInstances(self.__socialNetworks, SocialNetwork)
-        print("test")
         # Initializes menus
         self.__menuBar()
         self.__navToolbar()
@@ -154,8 +151,12 @@ class Gui(QtWidgets.QMainWindow):
     # TODO: Fix issue where graph is squished
     def jogLeftTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
-        scale = ((abs(xRanges[0]) - abs(xRanges[1])) - (abs(xRanges[0]) - abs(xRanges[1])) * 0.75) / 2
-        self.roadGraphWidget.setXRange(xRanges[0] + scale, xRanges[1] + scale)
+        yRanges = self.roadGraphWidget.getAxis('left').range
+        #xScale, yScale = self.getZoomScale(xRanges, yRanges)
+        xScale = (abs(xRanges[1] - xRanges[0]) * .25) / 2
+
+        self.roadGraphWidget.setXRange(xRanges[0] - xScale, xRanges[1] - xScale)
+
 
     # TODO: Fix issue where graph is squished
     def jogRightTool(self):
@@ -237,6 +238,10 @@ class Gui(QtWidgets.QMainWindow):
         socialGroup = QtWidgets.QActionGroup(self)
         socialGroup.setExclusive(True)
         sActions = {}
+        sActions["None"] = QtWidgets.QAction("None", self, checkable=True)
+        sActions["None"].setStatusTip(f"Display no social network")
+        sActions["None"].triggered.connect(lambda junk: self.displaySocialNetwork(None, sActions["None"].isChecked()))
+
         # Adds all actions
         for x in sNetworks:
             sActions[x] = QtWidgets.QAction(x, self, checkable=True)
