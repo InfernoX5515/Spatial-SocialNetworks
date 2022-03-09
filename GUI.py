@@ -1,6 +1,8 @@
 from collections import Counter
 from os.path import exists
 from os import getenv
+
+from matplotlib import interactive
 from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
@@ -86,6 +88,8 @@ class Gui(QtWidgets.QMainWindow):
         # Stores selected network instances
         self.selectedRoadNetwork = None
         self.selectedSocialNetwork = None
+        # Store data for interactive network
+        self.interactiveNetwork = nx.Graph()
         # Store all network info in dict format {"NetworkName: {"Data": "Value", ...}, ..."}
         self.__roadNetworks = self.config.settings["Road Networks"]
         self.__socialNetworks = self.config.settings["Social Networks"]
@@ -192,6 +196,11 @@ class Gui(QtWidgets.QMainWindow):
         jogDown = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-down-solid.svg'), "Jog Down", self)
         jogDown.triggered.connect(self.jogDownTool)
         toolbar.addAction(jogDown)
+
+
+        interactiveNet = QtWidgets.QAction(QtGui.QIcon('Assets/diagram-project-solid'), "Interactive Graph", self)
+        interactiveNet.triggered.connect(self.viewInterNetwork)
+        toolbar.addAction(interactiveNet)
 
     def __menuBar(self):
         mainMenu = self.menuBar()
