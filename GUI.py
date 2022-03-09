@@ -228,10 +228,11 @@ class Gui(QtWidgets.QMainWindow):
         hidePOIs.setStatusTip("Hide POIs on the graph")
         hidePOIs.triggered.connect(self.hidePOIs)
         addViewMenu.addAction(hidePOIs)
+        networks = self.getCompleteNetworks()
         # Add Social Network option
         addSNMenu = mainMenu.addMenu("Social Network")
         # Loads all social networks available
-        sNetworks = self.getCompleteSocialNetworks()
+        sNetworks = networks["Social Networks"]
         socialGroup = QtWidgets.QActionGroup(self)
         socialGroup.setExclusive(True)
         sActions = {"None": QtWidgets.QAction("None", self, checkable=True)}
@@ -249,7 +250,8 @@ class Gui(QtWidgets.QMainWindow):
         # Add Road Network option
         addRNMenu = mainMenu.addMenu("Road Network")
         # Loads all road networks available
-        rNetworks = self.getCompleteRoadNetworks()
+        rNetworks = networks["Road Networks"]
+        print(rNetworks)
         roadGroup = QtWidgets.QActionGroup(self)
         roadGroup.setExclusive(True)
         rActions = {"None": QtWidgets.QAction("None", self, checkable=True)}
@@ -390,19 +392,21 @@ class Gui(QtWidgets.QMainWindow):
         self.clusterInput.addWidget(self.clusterInput.textBox)
         self.clusterInput.addWidget(button)
 
+    # Display for loading networks
     def viewFiles(self):
+        # Set up hierarchy base
         self.__fileTreeObjects = {
             '0': QtWidgets.QTreeWidgetItem(["Road Networks"]),
             '1': QtWidgets.QTreeWidgetItem(["Social Networks"])
         }
+        # Set up tree widget
         self.__windows[0] = pg.TreeWidget()
-        # Settings for TreeWidget
         self.__windows[0].setWindowModality(QtCore.Qt.ApplicationModal)
         self.__windows[0].setDragEnabled(False)
         self.__windows[0].header().setSectionsMovable(False)
         self.__windows[0].header().setStretchLastSection(False)
         self.__windows[0].header().setSectionResizeMode(QtWidgets.QHeaderView.ResizeToContents)
-        self.__windows[0].setWindowTitle('Files')
+        self.__windows[0].setWindowTitle('Network Files')
         self.__windows[0].setColumnCount(2)
         self.__windows[0].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
         # Show TreeWidget
@@ -412,13 +416,14 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[0].addTopLevelItem(self.__fileTreeObjects['1'])
         # Add button to add a new Road Network
         nrn = QtWidgets.QPushButton("New Road Network")
-        nrn.clicked.connect(self.newRoadNetwork)
+        nrn.clicked.connect(lambda: self.newNetwork("road"))
         self.__windows[0].setItemWidget(self.__fileTreeObjects['0'], 1, nrn)
         # Add button to add a new Social Network
         nsn = QtWidgets.QPushButton("New Social Network")
-        nsn.clicked.connect(self.newSocialNetwork)
+        nsn.clicked.connect(lambda: self.newNetwork("social"))
         self.__windows[0].setItemWidget(self.__fileTreeObjects['1'], 1, nsn)
-        # Adds all sub-objects to roadNetworks
+        # Adds all sub-objects to roadNetworks. Each element is given a number in order for the hierarchy. For example,
+        # 1.3 is the fourth child of the second element
         i = 0
         for x in self.__roadNetworks:
             i += 1
@@ -430,8 +435,8 @@ class Gui(QtWidgets.QMainWindow):
             for y in self.__roadNetworks[x]:
                 j += 1
                 iName = self.__roadNetworks[x][y]
-                if self.__roadNetworks[x][y] != f"[{self.__roadNetworks[x][y]}]":
-                    iNameArr = self.__roadNetworks[x][y].split("/")
+                if iName != f"[{iName}]":
+                    iNameArr = iName.split("/")
                     iName = iNameArr[len(iNameArr) - 1]
                 self.__fileTreeObjects[f"0.{i}.{j}"] = QtWidgets.QTreeWidgetItem([iName])
                 self.__fileTreeObjects[f"0.{i}"].addChild(self.__fileTreeObjects[f"0.{i}.{j}"])
@@ -439,7 +444,8 @@ class Gui(QtWidgets.QMainWindow):
                 cFile[j].clicked.connect(
                     lambda junk, a=i, d=j, b=x, c=y: self.chooseFile(f"0.{a}.{d}", "Road Network", b, c))
                 self.__windows[0].setItemWidget(self.__fileTreeObjects[f"0.{i}.{j}"], 1, cFile[j])
-        # Adds all sub-objects to socialNetworks
+        # Adds all sub-objects to socialNetworks. Each element is given a number in order for the hierarchy. For
+        # example, 1.3 is the fourth child of the second element
         i = 0
         cFileS = {}
         for x in self.__socialNetworks:
@@ -451,8 +457,8 @@ class Gui(QtWidgets.QMainWindow):
             for y in self.__socialNetworks[x]:
                 j += 1
                 iName = self.__socialNetworks[x][y]
-                if self.__socialNetworks[x][y] != f"[{self.__socialNetworks[x][y]}]":
-                    iNameArr = self.__socialNetworks[x][y].split("/")
+                if iName != f"[{iName}]":
+                    iNameArr = iName.split("/")
                     iName = iNameArr[len(iNameArr) - 1]
                 self.__fileTreeObjects[f"1.{i}.{j}"] = QtWidgets.QTreeWidgetItem([iName])
                 self.__fileTreeObjects[f"1.{i}"].addChild(self.__fileTreeObjects[f"1.{i}.{j}"])
@@ -461,104 +467,63 @@ class Gui(QtWidgets.QMainWindow):
                     lambda junk, a=i, b=j, c=x, d=y: self.chooseFile(f"1.{a}.{b}", "Social Network", c, d))
                 self.__windows[0].setItemWidget(self.__fileTreeObjects[f"1.{i}.{j}"], 1, cFileS[f"{j}.{j}"])
 
-    def newRoadNetwork(self):
+    # Creates a new Road network
+    def newNetwork(self, type):
+        if type != "road" and type != "social":
+            print("ERROR: newNetwork() must have type road or social")
+            exit(0)
+        title = ""
+        network = None
+        num = -1
+        if type == "road":
+            title = "Road Network"
+            network = self.__roadNetworks
+            num = 0
+        elif type == "social":
+            title = "Social Network"
+            num = 1
+            network = self.__socialNetworks
         self.__windows[1] = QtWidgets.QInputDialog()
-        text, ok = self.__windows[1].getText(self, 'New Road Network', "Enter your road network name:")
-        if ok and str(text) not in self.__roadNetworks.keys() and str(text) != "":
-            self.__roadNetworks[str(text)] = {
-                "nodeFile": "[nodeFile]",
-                "edgeFile": "[edgeFile]",
-                "POIFile": "[POIFile]"
-            }
+        text, ok = self.__windows[1].getText(self, f'New {title}', f"Enter your {title.lower()} name:")
+        text = str(text)
+        # If the road network does not exist already, add it to the config
+        if ok and text not in network.keys() and text != "":
+            if type == "road":
+                network[text] = {
+                    "nodeFile": "[nodeFile]",
+                    "edgeFile": "[edgeFile]",
+                    "POIFile": "[POIFile]"
+                }
+            elif type == "social":
+                network[text] = {
+                    "locFile": "[locFile]",
+                    "relFile": "[relFile]",
+                    "keyFile": "[keyFile]"
+                }
             # Adds new road network to tree
-            keys = self.__roadNetworks.keys()
-            self.__fileTreeObjects[f"0.{len(keys) + 1}"] = QtWidgets.QTreeWidgetItem([str(text)])
-            self.__fileTreeObjects['0'].addChild(self.__fileTreeObjects[f"0.{len(keys) + 1}"])
-            # Adds new road network's node file
-            self.__fileTreeObjects[f"0.{len(keys) + 1}.1"] = \
-                QtWidgets.QTreeWidgetItem([self.__roadNetworks[str(text)]["nodeFile"]])
-            self.__fileTreeObjects[f'0.{len(keys) + 1}'].addChild(
-                self.__fileTreeObjects[f"0.{len(keys) + 1}.1"])
-            addN = QtWidgets.QPushButton("Choose File")
-            addN.clicked.connect(
-                lambda: self.chooseFile(f"0.{len(keys) + 1}.1", "Road Network", str(text),
-                                        "nodeFile"))
-            self.__windows[0].setItemWidget(self.__fileTreeObjects[f"0.{len(keys) + 1}.1"], 1, addN)
-            # Adds new road network's edge file
-            self.__fileTreeObjects[f"0.{len(keys) + 1}.2"] = \
-                QtWidgets.QTreeWidgetItem([self.__roadNetworks[str(text)]["edgeFile"]])
-            self.__fileTreeObjects[f'0.{len(keys) + 1}'].addChild(
-                self.__fileTreeObjects[f"0.{len(keys) + 1}.2"])
-            addE = QtWidgets.QPushButton("Choose File")
-            addE.clicked.connect(lambda: self.chooseFile(f"0.{len(keys) + 1}.2", "Road Network", str(text),
-                                        "Edge File"))
-            self.__windows[0].setItemWidget(self.__fileTreeObjects[f"0.{len(keys) + 1}.2"], 1, addE)
-            # Adds new road network's POI file
-            self.__fileTreeObjects[f"0.{len(keys) + 1}.3"] = \
-                QtWidgets.QTreeWidgetItem([self.__roadNetworks[str(text)]["POIFile"]])
-            self.__fileTreeObjects[f'0.{len(keys) + 1}'].addChild(
-                self.__fileTreeObjects[f"0.{len(keys) + 1}.3"])
-            addP = QtWidgets.QPushButton("Choose File")
-            addP.clicked.connect(
-                lambda: self.chooseFile(f"0.{len(keys) + 1}.3", "Road Network", str(text),
-                                        "POIFile"))
-            self.__windows[0].setItemWidget(self.__fileTreeObjects[f"0.{len(keys) + 1}.3"], 1, addP)
+            keys = list(network.keys())
+            currItem = len(keys) + 1
+            # Add new road network to hierarchy
+            self.__fileTreeObjects[f"{num}.{currItem}"] = QtWidgets.QTreeWidgetItem([text])
+            self.__fileTreeObjects[f'{num}'].addChild(self.__fileTreeObjects[f"{num}.{currItem}"])
+            for i in range(1, len(network[text]) + 1):
+                self.__fileTreeObjects[f"{num}.{currItem}.{i}"] = \
+                    QtWidgets.QTreeWidgetItem([network[text]
+                                               [f"{list(network[text].keys())[i - 1]}"]])
+                self.__fileTreeObjects[f'{num}.{currItem}'].addChild(self.__fileTreeObjects[f"{num}.{currItem}.{i}"])
+                addN = QtWidgets.QPushButton("Choose File")
+                addN.clicked.connect(lambda: self.chooseFile(f"{num}.{currItem}.{i}", f"{title}", text,
+                                                             f"{keys[i - 1]}"))
+                self.__windows[0].setItemWidget(self.__fileTreeObjects[f"{num}.{currItem}.{i}"], 1, addN)
             # Update config
-            self.config.update("Road Networks", self.__roadNetworks)
-
-    def newSocialNetwork(self):
-        self.__windows[1] = QtWidgets.QInputDialog()
-        text, ok = self.__windows[1].getText(self, 'New Social Network', "Enter your social network name:")
-        if ok and str(text) not in self.__socialNetworks.keys() and str(text) != "":
-            self.__socialNetworks[str(text)] = {
-                "locFile": "[locFile]",
-                "relFile": "[relFile]",
-                "keyFile": "[keyFile]"
-            }
-            # Adds new social network to tree
-            self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}"] = QtWidgets.QTreeWidgetItem([str(text)])
-            self.__fileTreeObjects['1'].addChild(self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}"])
-            # Adds new social network's loc file
-            self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.1"] = \
-                QtWidgets.QTreeWidgetItem([self.__socialNetworks[str(text)]["locFile"]])
-            self.__fileTreeObjects[f'1.{len(self.__socialNetworks.keys()) + 1}'].addChild(
-                self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.1"])
-            addL = QtWidgets.QPushButton("Choose File")
-            addL.clicked.connect(
-                lambda: self.chooseFile(f"1.{len(self.__socialNetworks.keys()) + 1}.1", "Social Network", str(text),
-                                        "LocFile"))
-            self.__windows[0].setItemWidget(self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.1"], 1, addL)
-            # Adds new social network's rel file
-            self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.2"] = \
-                QtWidgets.QTreeWidgetItem([self.__socialNetworks[str(text)]["relFile"]])
-            self.__fileTreeObjects[f'1.{len(self.__socialNetworks.keys()) + 1}'].addChild(
-                self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.2"])
-            addR = QtWidgets.QPushButton("Choose File")
-            addR.clicked.connect(
-                lambda: self.chooseFile(f"1.{len(self.__socialNetworks.keys()) + 1}.2", "Social Network", str(text),
-                                        "RelFile"))
-            self.__windows[0].setItemWidget(self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.2"], 1, addR)
-            # Adds new social network's key file
-            self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.3"] = \
-                QtWidgets.QTreeWidgetItem([self.__socialNetworks[str(text)]["keyFile"]])
-            self.__fileTreeObjects[f'1.{len(self.__socialNetworks.keys()) + 1}'].addChild(
-                self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.3"])
-            addR = QtWidgets.QPushButton("Choose File")
-            addR.clicked.connect(
-                lambda: self.chooseFile(f"1.{len(self.__socialNetworks.keys()) + 1}.1", "Social Network", str(text),
-                                        "KeyFile"))
-            self.__windows[0].setItemWidget(self.__fileTreeObjects[f"1.{len(self.__socialNetworks.keys()) + 1}.3"], 1, addR)
-            # Update config
-            self.config.update("Social Networks", self.__socialNetworks)
-            self.menuBar().clear()
-            self.__menuBar()
+            self.config.update(f"{title}", network)
 
     def hidePOIs(self):
         print("test")
 
     def chooseFile(self, obj, T, network, sub):
         self.__windows[2] = QtWidgets.QFileDialog()
-        pathArr = self.__windows[2].getOpenFileNames(None, 'Select File', getenv('HOME'), "csv(*.csv)")[0]
+        pathArr = self.__windows[2].getOpenFileNames(None, f'Select {sub}', getenv('HOME'), "csv(*.csv)")[0]
         if len(pathArr) != 0:
             path = pathArr[0]
             if T == "Road Network":
@@ -575,25 +540,27 @@ class Gui(QtWidgets.QMainWindow):
         self.__menuBar()
 
     # Return road networks that have all files and those files exist
-    def getCompleteRoadNetworks(self):
-        networks = []
-        for x in self.__roadNetworks:
-            if self.__roadNetworks[x]["edgeFile"] != "[Edge File]" and \
-                    exists(self.__roadNetworks[x]["edgeFile"]) and \
-                    self.__roadNetworks[x]["nodeFile"] != "[nodeFile]" and \
-                    exists(self.__roadNetworks[x]["nodeFile"]):
-                networks.append(x)
-        return networks
-
-    # Return social networks that have all files and those files exist
-    def getCompleteSocialNetworks(self):
-        networks = []
-        for x in self.__socialNetworks:
-            if self.__socialNetworks[x]["relFile"] != "[relFile]" and \
-                    exists(self.__socialNetworks[x]["relFile"]) and \
-                    self.__socialNetworks[x]["locFile"] != "[locFile]" and \
-                    exists(self.__socialNetworks[x]["locFile"]):
-                networks.append(x)
+    def getCompleteNetworks(self):
+        networks = {"Social Networks": [],
+                    "Road Networks": []}
+        keys = self.__roadNetworks.keys()
+        # Road networks
+        for i in keys:
+            passed = True
+            for j in self.__roadNetworks[i]:
+                if passed and (self.__roadNetworks[i][j] == f"[{j}]" or not exists(self.__roadNetworks[i][j])):
+                    passed = False
+            if passed:
+                networks["Road Networks"].append(i)
+        # Social networks
+        keys = self.__socialNetworks.keys()
+        for k in keys:
+            passed = True
+            for l in self.__socialNetworks[k]:
+                if passed and (self.__socialNetworks[k][l] == f"[{l}]" or not exists(self.__socialNetworks[k][l])):
+                    passed = False
+            if passed:
+                networks["Social Networks"].append(k)
         return networks
 
     def displayRoadNetwork(self, network):
