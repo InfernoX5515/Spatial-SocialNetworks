@@ -31,11 +31,6 @@ import networkx as nx
 # =====================================================================================================================
 
 class NetworkGraphWindow(QtWidgets.QWidget):
-
-    #
-    # Proof of Concept
-    #
-
     def __init__(self):
         super().__init__()
         layout = QtWidgets.QVBoxLayout()
@@ -44,24 +39,7 @@ class NetworkGraphWindow(QtWidgets.QWidget):
         self.setWindowTitle("Spatial-Social Network Graph")
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
         self.graphView = QWebEngineView()
-        network = nx.Graph()
-        network.add_node(0)
-        network.add_node(1)
-        network.add_node(2)
-        network.add_node(3)
-        network.add_node(4)
-        network.add_node(5)
-        network.add_edge(0, 1)
-        network.add_edge(0, 2)
-        network.add_edge(0, 3)
-        network.add_edge(4, 1)
-        network.add_edge(5, 1)
-        network.add_edge(5, 2)
 
-        nt = Network('500px', '500px')
-
-        nt.from_nx(network)
-        nt.show('nx.html')
         with open('nx.html', 'r') as f:
             html = f.read()
             self.graphView.setHtml(html)
@@ -169,6 +147,7 @@ class Gui(QtWidgets.QMainWindow):
         yRanges = self.roadGraphWidget.getAxis('left').range
         scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
         self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] - scale)
+        print(self.selectedSocialNetwork)
 
     def __toolbar(self):
         toolbar = QtWidgets.QToolBar("My main toolbar")
@@ -197,11 +176,6 @@ class Gui(QtWidgets.QMainWindow):
         jogDown.triggered.connect(self.jogDownTool)
         toolbar.addAction(jogDown)
 
-
-        interactiveNet = QtWidgets.QAction(QtGui.QIcon('Assets/diagram-project-solid'), "Interactive Graph", self)
-        interactiveNet.triggered.connect(self.viewInterNetwork)
-        toolbar.addAction(interactiveNet)
-
     def __menuBar(self):
         mainMenu = self.menuBar()
         # Add File menu option
@@ -217,11 +191,6 @@ class Gui(QtWidgets.QMainWindow):
         viewSummaryAction.setStatusTip("View summary graphs")
         viewSummaryAction.triggered.connect(self.viewSummary)
         addViewMenu.addAction(viewSummaryAction)
-        #
-        viewInterNetworkAction = QtWidgets.QAction("Interactive Network", self, checkable=True)
-        viewInterNetworkAction.setStatusTip("Launch interactive network interface")
-        viewInterNetworkAction.triggered.connect(self.viewInterNetwork)
-        addViewMenu.addAction(viewInterNetworkAction)
 
         # Add Social Network option
         addSNMenu = mainMenu.addMenu("Social Network")
@@ -262,12 +231,14 @@ class Gui(QtWidgets.QMainWindow):
             # Displays summary plots
             self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
             self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
+            self.__interactivePlotInput()
             self.__clusterInput()
             self.updateSummaryGraph()
         # Switch view to main
         else:
             self.summarySelected = False
             self.clusterInput.close()
+            self.interactivePlotInput.close()
             self.win.removeItem(self.roadGraphWidget)
             self.win.removeItem(self.socialGraphWidget)
             self.roadGraphWidget = None
@@ -304,6 +275,15 @@ class Gui(QtWidgets.QMainWindow):
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
             centers, sizes, relations = self.getSummaryClusters(self.clusterInput.textBox.text())
+            # Create Interactive Graph HTML File
+            network = nx.Graph()
+            for i in range(0, len(centers)):
+                network.add_node(str(centers[i][0]) + str(centers[i][1]), physics=False)
+            for i in range(1, len(relations[0])):
+                network.add_edge(str(relations[0][i]) + str(relations[1][i]), str(relations[0][i-1]) +str(relations[1][i-1]))
+            nt = Network('100%', '100%')
+            nt.from_nx(network)
+            nt.save_graph('nx.html')
             # Note: For some reason, the alpha value is from 0-255 not 0-100
             self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                                  symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
@@ -359,6 +339,14 @@ class Gui(QtWidgets.QMainWindow):
         for x in refs:
             sizes.append((refsSorted.index(x) + 1) * (75 / len(refsSorted)))
         return sizes
+
+    def __interactivePlotInput(self):
+        self.interactivePlotInput = QtWidgets.QToolBar("interactivePlotInput")
+        self.interactivePlotInput.setIconSize(QtCore.QSize(24, 24))
+        self.addToolBar(self.interactivePlotInput)
+        interactiveNet = QtWidgets.QAction(QtGui.QIcon('Assets/diagram-project-solid'), "Interactive Graph", self)
+        interactiveNet.triggered.connect(self.viewInterNetwork)
+        self.interactivePlotInput.addAction(interactiveNet)
 
     # Creates the cluster toolbar for input
     def __clusterInput(self):
