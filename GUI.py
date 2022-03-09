@@ -251,7 +251,6 @@ class Gui(QtWidgets.QMainWindow):
         addRNMenu = mainMenu.addMenu("Road Network")
         # Loads all road networks available
         rNetworks = networks["Road Networks"]
-        print(rNetworks)
         roadGroup = QtWidgets.QActionGroup(self)
         roadGroup.setExclusive(True)
         rActions = {"None": QtWidgets.QAction("None", self, checkable=True)}
@@ -512,11 +511,11 @@ class Gui(QtWidgets.QMainWindow):
                                                [f"{list(network[text].keys())[i - 1]}"]])
                 self.__fileTreeObjects[f'{num}.{currItem}'].addChild(self.__fileTreeObjects[f"{num}.{currItem}.{i}"])
                 addN = QtWidgets.QPushButton("Choose File")
-                addN.clicked.connect(lambda: self.chooseFile(f"{num}.{currItem}.{i}", f"{title}", text,
-                                                             f"{keys[i - 1]}"))
+                addN.clicked.connect(lambda junk, a=num, b=i, c=currItem, d=title, e=text: self.chooseFile(
+                    f"{a}.{c}.{b}", f"{d}", e, f"{list(network[e].keys())[b - 1]}"))
                 self.__windows[0].setItemWidget(self.__fileTreeObjects[f"{num}.{currItem}.{i}"], 1, addN)
             # Update config
-            self.config.update(f"{title}", network)
+            self.config.update(f"{title}s", network)
 
     def hidePOIs(self):
         print("test")

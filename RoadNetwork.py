@@ -14,6 +14,8 @@ from os.path import exists
 #       RoadNetwork.py is the class object for road networks.
 #
 # =====================================================================================================================
+from PyQt5 import QtGui
+from PyQt5.QtGui import QFont
 
 
 class RoadNetwork:
@@ -23,6 +25,7 @@ class RoadNetwork:
         self.__nodes = {}
         self.__POIs = {}
         self.__flattenedData = [[], []]
+        self.__flattenedPOIs = [[], [], []]
         self.__plotInstance = None
         # Create threads for loading files asynchronously
         threads = [threading.Thread(target=lambda: self.loadEdges(edgeFile)),
@@ -33,6 +36,7 @@ class RoadNetwork:
         for thread in threads:
             thread.join()
         self.flattenData()
+        self.flattenPOIs()
 
     # Reads edge file from path.
     # dict = {
@@ -103,6 +107,12 @@ class RoadNetwork:
         else:
             self.__POIs = None
 
+    def flattenPOIs(self):
+        if self.__POIs is not None:
+            self.__flattenedPOIs[0] = [f"{i[0]}.png" for i in list(self.__POIs.values())]
+            self.__flattenedPOIs[1] = [float(i[1]) for i in list(self.__POIs.values())]
+            self.__flattenedPOIs[2] = [float(i[2]) for i in list(self.__POIs.values())]
+
     # Parses the edge data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data
     def flattenData(self):
@@ -143,4 +153,7 @@ class RoadNetwork:
 
     # Visualize the data
     def visualize(self, inst):
+        # TODO: Figure out something about symbols for different places
         self.__plotInstance = inst.plot(self.__flattenedData[0], self.__flattenedData[1], connect='pairs', pen='black')
+        inst.plot(self.__flattenedPOIs[1], self.__flattenedPOIs[2], pen=None, symbol='x',
+                  symbolSize=2, symbolPen=(171, 145, 0, 20), symbolBrush=(171, 145, 0, 50))
