@@ -564,93 +564,66 @@ class Gui(QtWidgets.QMainWindow):
         return networks
 
     def displayRoadNetwork(self, network):
+        # If the summary is not selected
         if not self.summarySelected:
             self.clearView()
-            self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
             self.selectedRoadNetwork = None
-            self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-            # Removes the social network and re-adds it to keep the graph there
-            if self.selectedSocialNetwork is not None:
-                self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
+            self.createPlots()
+            # Display road network
             if network is not None:
-                self.win.removeItem(self.socialGraphWidget)
-                self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-                self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
-                # If there is a social network selected, remove and re-add to make sure nodes stay above the plot
-                if self.selectedSocialNetwork is not None:
-                    # Visualize
-                    self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
                 # Visualizes the graph that is being selected
                 self.__roadNetworkObjs[network].visualize(self.roadGraphWidget)
                 self.selectedRoadNetwork = self.__roadNetworkObjs[network]
+            # Display social network
+            if self.selectedSocialNetwork is not None:
+                self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
             self.drawCrosshairs()
+        # If the summary is selected
         else:
-            # Removes the widget and re-adds it to be blank
             self.clearView()
-            self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
             self.selectedRoadNetwork = None
-            self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
-            # Removes the social network and re-adds it to keep the graph there
+            self.createPlots("Summary")
+            # Display road network
+            if network is not None:
+                self.selectedRoadNetwork = self.__roadNetworkObjs[network]
+                self.selectedRoadNetwork.visualize(self.roadGraphWidget)
+            # Draw social network
             if self.selectedSocialNetwork is not None:
                 centers, sizes, relations = self.getSummaryClusters(self.clusterInput.textBox.text())
                 self.visualizeSummaryData(centers, sizes, relations)
-            if network is not None:
-                self.win.removeItem(self.socialGraphWidget)
-                self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
-                self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
-                self.selectedRoadNetwork = self.__roadNetworkObjs[network]
-                self.selectedRoadNetwork.visualize(self.roadGraphWidget)
-                # If there is a social network selected, remove and re-add to make sure nodes stay above the plot
-                if self.selectedSocialNetwork is not None:
-                    centers, sizes, relations = self.getSummaryClusters(self.clusterInput.textBox.text())
-                    self.visualizeSummaryData(centers, sizes, relations)
-                # Draw crosshairs on graph
-                self.drawCrosshairs()
-            # Draw crosshairs on graph
             self.drawCrosshairs()
-            # Links the x and y axis on both graphs
-            self.socialGraphWidget.setXLink(self.roadGraphWidget)
-            self.socialGraphWidget.setYLink(self.roadGraphWidget)
+            self.linkGraphAxis()
 
     def displaySocialNetwork(self, network):
         # If main view
         if not self.summarySelected:
-            # Removes both graphs to clear them then re-adds them
             self.clearView()
             self.selectedSocialNetwork = None
             self.createPlots()
             # Re-visualizes the road network if it is selected
             if self.selectedRoadNetwork:
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
-            self.drawCrosshairs()
-            self.socialGraphWidget.setXLink(self.roadGraphWidget)
-            self.socialGraphWidget.setYLink(self.roadGraphWidget)
+            # Visualizes social network
             if network is not None:
-                # Visualizes social network
                 self.__socialNetworkObjs[network].visualize(self.socialGraphWidget, self.roadGraphWidget)
                 self.selectedSocialNetwork = self.__socialNetworkObjs[network]
+            self.drawCrosshairs()
+            self.linkGraphAxis()
         # If summary view
         else:
             # Removes both graphs to clear them then re-adds them
             self.clearView()
             self.selectedSocialNetwork = None
-            self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network")
-            self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network")
+            self.createPlots("Summary")
             # Re-visualizes the road network if it is selected
             if self.selectedRoadNetwork:
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
-            # Draw crosshairs on graph
-            self.drawCrosshairs()
+            # Draw cross-hairs on graph
             if network is not None:
                 self.selectedSocialNetwork = self.__socialNetworkObjs[network]
-                self.win.removeItem(self.socialGraphWidget)
-                self.socialGraphWidget = self.win.addPlot(row=0, col=0, title="Social Network Summary")
-                self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Road Network Summary")
-                if self.selectedRoadNetwork is not None:
-                    self.selectedRoadNetwork.visualize(self.roadGraphWidget)
                 centers, sizes, relations = self.getSummaryClusters(self.clusterInput.textBox.text())
                 self.visualizeSummaryData(centers, sizes, relations)
-                self.drawCrosshairs()
+            self.drawCrosshairs()
 
     # Creates network instances based on text data dictionary of {"NetworkName": {"Data":"Value", ...}
     # If the value is not set, square brackets denote that it is not set, written as "[Value]"
