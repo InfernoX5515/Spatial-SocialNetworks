@@ -226,7 +226,7 @@ class Gui(QtWidgets.QMainWindow):
         # Hide POIs button
         hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True)
         hidePOIs.setStatusTip("Hide POIs on the graph")
-        hidePOIs.triggered.connect(self.hidePOIs)
+        hidePOIs.triggered.connect(lambda: self.hidePOIs(hidePOIs.isChecked()))
         addViewMenu.addAction(hidePOIs)
         networks = self.getCompleteNetworks()
         # Add Social Network option
@@ -517,8 +517,10 @@ class Gui(QtWidgets.QMainWindow):
             # Update config
             self.config.update(f"{title}s", network)
 
-    def hidePOIs(self):
-        print("test")
+    def hidePOIs(self, checked):
+        if checked:
+            self.selectedRoadNetwork.visualize(None, self.roadGraphWidget)
+        #self.clearView()
 
     def chooseFile(self, obj, T, network, sub):
         self.__windows[2] = QtWidgets.QFileDialog()

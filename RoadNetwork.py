@@ -26,7 +26,8 @@ class RoadNetwork:
         self.__POIs = {}
         self.__flattenedData = [[], []]
         self.__flattenedPOIs = [[], [], []]
-        self.__plotInstance = None
+        self.edgeInst = None
+        self.POIInst = None
         # Create threads for loading files asynchronously
         threads = [threading.Thread(target=lambda: self.loadEdges(edgeFile)),
                    threading.Thread(target=lambda: self.loadNodes(nodeFile)),
@@ -152,8 +153,10 @@ class RoadNetwork:
         self.__flattenedData[1] = self.__flattenedData[1] + lon
 
     # Visualize the data
-    def visualize(self, inst):
+    def visualize(self, edgeInst=None, POIInst=None):
         # TODO: Figure out something about symbols for different places
-        self.__plotInstance = inst.plot(self.__flattenedData[0], self.__flattenedData[1], connect='pairs', pen='black')
-        inst.plot(self.__flattenedPOIs[1], self.__flattenedPOIs[2], pen=None, symbol='x',
-                  symbolSize=2, symbolPen=(171, 145, 0, 20), symbolBrush=(171, 145, 0, 50))
+        if edgeInst is not None:
+            self.edgeInst = edgeInst.plot(self.__flattenedData[0], self.__flattenedData[1], connect='pairs', pen='black')
+        if POIInst is not None:
+            self.POIInst = POIInst.plot(self.__flattenedPOIs[1], self.__flattenedPOIs[2], pen=None, symbol='x',
+                                        symbolSize=2, symbolPen=(171, 145, 0, 20), symbolBrush=(171, 145, 0, 50))
