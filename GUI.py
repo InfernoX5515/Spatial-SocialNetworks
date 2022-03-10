@@ -1,6 +1,8 @@
 from collections import Counter
 from os.path import exists
 from os import getenv
+
+from matplotlib import interactive
 from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
@@ -29,11 +31,6 @@ import networkx as nx
 # =====================================================================================================================
 
 class NetworkGraphWindow(QtWidgets.QWidget):
-
-    #
-    # Proof of Concept
-    #
-
     def __init__(self):
         super().__init__()
         layout = QtWidgets.QVBoxLayout()
@@ -42,24 +39,7 @@ class NetworkGraphWindow(QtWidgets.QWidget):
         self.setWindowTitle("Spatial-Social Network Graph")
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
         self.graphView = QWebEngineView()
-        network = nx.Graph()
-        network.add_node(0)
-        network.add_node(1)
-        network.add_node(2)
-        network.add_node(3)
-        network.add_node(4)
-        network.add_node(5)
-        network.add_edge(0, 1)
-        network.add_edge(0, 2)
-        network.add_edge(0, 3)
-        network.add_edge(4, 1)
-        network.add_edge(5, 1)
-        network.add_edge(5, 2)
 
-        nt = Network('500px', '500px')
-
-        nt.from_nx(network)
-        nt.show('nx.html')
         with open('nx.html', 'r') as f:
             html = f.read()
             self.graphView.setHtml(html)
@@ -87,6 +67,8 @@ class Gui(QtWidgets.QMainWindow):
         # Stores selected network instances
         self.selectedRoadNetwork = None
         self.selectedSocialNetwork = None
+        # Store data for interactive network
+        self.interactiveNetwork = nx.Graph()
         # Store all network info in dict format {"NetworkName: {"Data": "Value", ...}, ..."}
         self.__roadNetworks = self.config.settings["Road Networks"]
         self.__socialNetworks = self.config.settings["Social Networks"]
@@ -172,6 +154,7 @@ class Gui(QtWidgets.QMainWindow):
         yRanges = self.roadGraphWidget.getAxis('left').range
         scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
         self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] - scale)
+        print(self.selectedSocialNetwork)
 
     # Creates the navigation toolbar
     def __navToolbar(self):
@@ -284,6 +267,7 @@ class Gui(QtWidgets.QMainWindow):
             self.clearView()
             # Displays summary plots
             self.createPlots("Summary")
+            self.__interactivePlotInput()
             self.__clusterInput()
             self.updateSummaryGraph()
         # Switch view to main
@@ -292,6 +276,7 @@ class Gui(QtWidgets.QMainWindow):
             self.clusterInput.close()
             self.clearView()
             self.createPlots()
+            self.interactivePlotInput.close()
             # Re-visualize selected networks
             if self.selectedRoadNetwork is not None:
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
@@ -323,6 +308,15 @@ class Gui(QtWidgets.QMainWindow):
             centers, sizes, relations = self.getSummaryClusters(self.clusterInput.textBox.text())
             self.visualizeSummaryData(centers, sizes, relations)
         self.drawCrosshairs()
+            # Create Interactive Graph HTML File
+            network = nx.Graph()
+            for i in range(0, len(centers)):
+                network.add_node(str(centers[i][0]) + str(centers[i][1]), physics=False)
+            for i in range(1, len(relations[0])):
+                network.add_edge(str(relations[0][i]) + str(relations[1][i]), str(relations[0][i-1]) +str(relations[1][i-1]))
+            nt = Network('100%', '100%')
+            nt.from_nx(network)
+            nt.save_graph('nx.html')
 
     # Generate clusters from the social network
     def getSummaryClusters(self, n):
@@ -369,6 +363,14 @@ class Gui(QtWidgets.QMainWindow):
         for x in refs:
             sizes += [((refsSorted.index(x) + 1) * (75 / len(refsSorted)))]
         return sizes
+
+    def __interactivePlotInput(self):
+        self.interactivePlotInput = QtWidgets.QToolBar("interactivePlotInput")
+        self.interactivePlotInput.setIconSize(QtCore.QSize(24, 24))
+        self.addToolBar(self.interactivePlotInput)
+        interactiveNet = QtWidgets.QAction(QtGui.QIcon('Assets/diagram-project-solid'), "Interactive Graph", self)
+        interactiveNet.triggered.connect(self.viewInterNetwork)
+        self.interactivePlotInput.addAction(interactiveNet)
 
     # Creates the cluster toolbar for input
     def __clusterInput(self):
