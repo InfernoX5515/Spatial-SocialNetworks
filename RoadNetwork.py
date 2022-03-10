@@ -14,23 +14,30 @@ from os.path import exists
 #       RoadNetwork.py is the class object for road networks.
 #
 # =====================================================================================================================
+from PyQt5 import QtGui
+from PyQt5.QtGui import QFont
 
 
 class RoadNetwork:
-    def __init__(self, name, edgeFile=None, nodeFile=None, **kwargs):
+    def __init__(self, name, edgeFile=None, nodeFile=None, POIFile=None, **kwargs):
         self.__name = name
         self.__edges = {}
         self.__nodes = {}
+        self.__POIs = {}
         self.__flattenedData = [[], []]
-        self.__plotInstance = None
+        self.__flattenedPOIs = [[], [], []]
+        self.edgeInst = None
+        self.POIInst = None
         # Create threads for loading files asynchronously
         threads = [threading.Thread(target=lambda: self.loadEdges(edgeFile)),
-                   threading.Thread(target=lambda: self.loadNodes(nodeFile))]
+                   threading.Thread(target=lambda: self.loadNodes(nodeFile)),
+                   threading.Thread(target=lambda: self.loadPOIs(POIFile))]
         for thread in threads:
             thread.start()
         for thread in threads:
             thread.join()
         self.flattenData()
+        self.flattenPOIs()
 
     # Reads edge file from path.
     # dict = {
@@ -79,6 +86,34 @@ class RoadNetwork:
         else:
             self.__nodes = None
 
+    # Reads POI file from path.
+    # dict = {
+    #    "poi_id": [poi_category, lat_pos, lon_pos],
+    # }
+    # noinspection PyShadowingBuiltins
+    def loadPOIs(self, path=None):
+        if path is not None and exists(path):
+            with open(path, 'r') as csvFile:
+                reader = csv.reader(csvFile, delimiter=',', quotechar='|')
+                next(reader)
+                for row in reader:
+                    poi_id = row[0]
+                    poi_category = row[1]
+                    lat_pos = row[2]
+                    lon_pos = row[3]
+                    if poi_id in self.__POIs:
+                        raise Exception(f"Error: Duplicate value in {path}")
+                    else:
+                        self.__POIs[poi_id] = [poi_category, lat_pos, lon_pos]
+        else:
+            self.__POIs = None
+
+    def flattenPOIs(self):
+        if self.__POIs is not None:
+            self.__flattenedPOIs[0] = [f"{i[0]}.png" for i in list(self.__POIs.values())]
+            self.__flattenedPOIs[1] = [float(i[1]) for i in list(self.__POIs.values())]
+            self.__flattenedPOIs[2] = [float(i[2]) for i in list(self.__POIs.values())]
+
     # Parses the edge data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data
     def flattenData(self):
@@ -118,5 +153,10 @@ class RoadNetwork:
         self.__flattenedData[1] = self.__flattenedData[1] + lon
 
     # Visualize the data
-    def visualize(self, inst):
-        self.__plotInstance = inst.plot(self.__flattenedData[0], self.__flattenedData[1], connect='pairs', pen='black')
+    def visualize(self, edgeInst=None, POIInst=None):
+        # TODO: Figure out something about symbols for different places
+        if edgeInst is not None:
+            self.edgeInst = edgeInst.plot(self.__flattenedData[0], self.__flattenedData[1], connect='pairs', pen='black')
+        if POIInst is not None:
+            self.POIInst = POIInst.plot(self.__flattenedPOIs[1], self.__flattenedPOIs[2], pen=None, symbol='x',
+                                        symbolSize=2, symbolPen=(171, 145, 0, 20), symbolBrush=(171, 145, 0, 50))

@@ -92,6 +92,7 @@ class SocialNetwork:
         else:
             self.__loc = None
 
+
     # Parses the rel data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data.
     def flattenRelData(self):
