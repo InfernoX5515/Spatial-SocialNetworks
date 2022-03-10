@@ -224,7 +224,7 @@ class Gui(QtWidgets.QMainWindow):
         viewInterNetworkAction.triggered.connect(self.viewInterNetwork)
         addViewMenu.addAction(viewInterNetworkAction)
         # Hide POIs button
-        hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True)
+        hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True, checked=True)
         hidePOIs.setStatusTip("Hide POIs on the graph")
         hidePOIs.triggered.connect(lambda: self.hidePOIs(hidePOIs.isChecked()))
         addViewMenu.addAction(hidePOIs)
@@ -517,10 +517,27 @@ class Gui(QtWidgets.QMainWindow):
             # Update config
             self.config.update(f"{title}s", network)
 
+    # TODO: Implement for summary graph
     def hidePOIs(self, checked):
         if checked:
+            self.clearView()
+            self.createPlots()
+            if self.selectedRoadNetwork is not None:
+                self.selectedRoadNetwork.visualize(self.roadGraphWidget)
+            if self.selectedSocialNetwork is not None:
+                self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
+            self.drawCrosshairs()
+            self.linkGraphAxis()
+        else:
+            self.clearView()
+            self.createPlots()
+            if self.selectedRoadNetwork is not None:
+                self.selectedRoadNetwork.visualize(self.roadGraphWidget)
             self.selectedRoadNetwork.visualize(None, self.roadGraphWidget)
-        #self.clearView()
+            if self.selectedSocialNetwork is not None:
+                self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
+            self.drawCrosshairs()
+            self.linkGraphAxis()
 
     def chooseFile(self, obj, T, network, sub):
         self.__windows[2] = QtWidgets.QFileDialog()
