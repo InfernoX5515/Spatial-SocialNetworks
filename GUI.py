@@ -269,6 +269,7 @@ class Gui(QtWidgets.QMainWindow):
             self.createPlots("Summary")
             self.__interactivePlotInput()
             self.__clusterInput()
+            self.__queryInput()
             self.updateSummaryGraph()
         # Switch view to main
         else:
@@ -393,6 +394,42 @@ class Gui(QtWidgets.QMainWindow):
         self.clusterInput.addWidget(label)
         self.clusterInput.addWidget(self.clusterInput.textBox)
         self.clusterInput.addWidget(button)
+
+    def __queryInput(self):
+        # Set up input toolbar
+        self.queryInput = QtWidgets.QToolBar("queryInput")
+        self.queryInput.setIconSize(QtCore.QSize(24, 24))
+        self.addToolBar(self.queryInput)
+        # Create label
+        kLabel = QtWidgets.QLabel(text="  k: ")
+        dLabel = QtWidgets.QLabel(text="  d: ")
+        eLabel = QtWidgets.QLabel(text="  η: ")
+        # Create button
+        button = QtWidgets.QPushButton("Get Query")
+        button.clicked.connect(lambda: self.updateSummaryGraph())
+        # Create k text box
+        self.queryInput.kTextBox = QtWidgets.QLineEdit()
+        self.queryInput.kTextBox.setValidator(QtGui.QIntValidator(0, 9999))
+        self.queryInput.kTextBox.setText("10")
+        self.queryInput.kTextBox.returnPressed.connect(button.click)
+        # Create d text box
+        self.queryInput.dTextBox = QtWidgets.QLineEdit()
+        self.queryInput.dTextBox.setValidator(QtGui.QIntValidator(0, 9999))
+        self.queryInput.dTextBox.setText("10")
+        self.queryInput.dTextBox.returnPressed.connect(button.click)
+        # Create e text box
+        self.queryInput.eTextBox = QtWidgets.QLineEdit()
+        self.queryInput.eTextBox.setValidator(QtGui.QIntValidator(0, 9999))
+        self.queryInput.eTextBox.setText("10")
+        self.queryInput.eTextBox.returnPressed.connect(button.click)
+        # Add widgets to window
+        self.queryInput.addWidget(kLabel)
+        self.queryInput.addWidget(self.queryInput.kTextBox)
+        self.queryInput.addWidget(dLabel)
+        self.queryInput.addWidget(self.queryInput.dTextBox)
+        self.queryInput.addWidget(eLabel)
+        self.queryInput.addWidget(self.queryInput.eTextBox)
+        self.queryInput.addWidget(button)
 
     # Display for loading networks
     def viewFiles(self):
