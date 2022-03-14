@@ -78,6 +78,7 @@ class Gui(QtWidgets.QMainWindow):
         # Initializes menus
         self.__menuBar()
         self.__navToolbar()
+        self.__queryUserButton()
         self.__mainWindow()
 
     # Creates the plot widgets. suffix is used when a summary graph is created, for example
@@ -373,6 +374,24 @@ class Gui(QtWidgets.QMainWindow):
         interactiveNet = QtWidgets.QAction(QtGui.QIcon('Assets/diagram-project-solid'), "Interactive Graph", self)
         interactiveNet.triggered.connect(self.viewInterNetwork)
         self.interactivePlotInput.addAction(interactiveNet)
+
+    def __queryUserButton(self):
+        # Set up input toolbar
+        self.queryUserToolbar = QtWidgets.QToolBar("queryUser")
+        self.addToolBar(self.queryUserToolbar)
+        # Create button
+        button = QtWidgets.QPushButton("Select Query User")
+        button.clicked.connect(lambda: self.chooseKeywordsMenu())
+        # Add widgets to window
+        self.queryUserToolbar.addWidget(button)
+
+    def chooseKeywordsMenu(self):
+        self.__windows[0] = QtWidgets.QCheckBox()
+        self.__windows[0].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[0].setWindowTitle('Choose Keywords')
+        self.__windows[0].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        # Show TreeWidget
+        self.__windows[0].show()
 
     # Creates the cluster toolbar for input
     def __clusterInput(self):
