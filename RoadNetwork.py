@@ -1,5 +1,6 @@
 import csv
 import math
+import random
 import threading
 from os.path import exists
 
@@ -25,7 +26,7 @@ class RoadNetwork:
         self.__nodes = {}
         self.__POIs = {}
         self.__flattenedData = [[], []]
-        self.__flattenedPOIs = [[], [], []]
+        self.__flattenedPOIs = {}
         self.edgeInst = None
         self.POIInst = None
         # Create threads for loading files asynchronously
@@ -110,9 +111,14 @@ class RoadNetwork:
 
     def flattenPOIs(self):
         if self.__POIs is not None:
-            self.__flattenedPOIs[0] = [f"{i[0]}.png" for i in list(self.__POIs.values())]
-            self.__flattenedPOIs[1] = [float(i[1]) for i in list(self.__POIs.values())]
-            self.__flattenedPOIs[2] = [float(i[2]) for i in list(self.__POIs.values())]
+            for poi in list(self.__POIs.keys()):
+                index = self.__POIs[poi]
+                if index[0] not in list(self.__flattenedPOIs.keys()):
+                    self.__flattenedPOIs[index[0]] = [[float(index[1])], [float(index[2])]]
+                else:
+                    self.__flattenedPOIs[index[0]][0] += [float(index[1])]
+                    self.__flattenedPOIs[index[0]][1] += [float(index[2])]
+        print(self.__flattenedPOIs["airport"])
 
     # Parses the edge data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data
@@ -158,5 +164,12 @@ class RoadNetwork:
         if edgeInst is not None:
             self.edgeInst = edgeInst.plot(self.__flattenedData[0], self.__flattenedData[1], connect='pairs', pen='black')
         if POIInst is not None:
-            self.POIInst = POIInst.plot(self.__flattenedPOIs[1], self.__flattenedPOIs[2], pen=None, symbol='x',
-                                        symbolSize=2, symbolPen=(171, 145, 0, 20), symbolBrush=(171, 145, 0, 50))
+            random.seed()
+            for category in self.__flattenedPOIs:
+                r = random.randrange(0, 256)
+                g = random.randrange(0, 256)
+                b = random.randrange(0, 256)
+                print(self.__flattenedPOIs[category][0])
+                self.POIInst = POIInst.plot(self.__flattenedPOIs[category][0], self.__flattenedPOIs[category][1],
+                                            pen=None, symbol='x', symbolSize=2, symbolPen=(r, g, b, 20),
+                                            symbolBrush=(r, g, b, 50))

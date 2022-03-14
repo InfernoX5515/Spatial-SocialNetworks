@@ -207,10 +207,10 @@ class Gui(QtWidgets.QMainWindow):
         viewInterNetworkAction.triggered.connect(self.viewInterNetwork)
         addViewMenu.addAction(viewInterNetworkAction)
         # Hide POIs button
-        hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True, checked=True)
-        hidePOIs.setStatusTip("Hide POIs on the graph")
-        hidePOIs.triggered.connect(lambda: self.hidePOIs(hidePOIs.isChecked()))
-        addViewMenu.addAction(hidePOIs)
+        # hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True, checked=True)
+        # hidePOIs.setStatusTip("Hide POIs on the graph")
+        # hidePOIs.triggered.connect(lambda: self.hidePOIs(hidePOIs.isChecked()))
+        # addViewMenu.addAction(hidePOIs)
         networks = self.getCompleteNetworks()
         # Add Social Network option
         addSNMenu = mainMenu.addMenu("Social Network")
