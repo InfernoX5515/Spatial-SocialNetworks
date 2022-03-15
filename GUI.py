@@ -33,7 +33,7 @@ import networkx as nx
 class NetworkGraphWindow(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
-        layout = QtWidgets.QVBoxLayout()
+        self.layout = QtWidgets.QHBoxLayout()
         screensize = self.screen().availableSize().width(), self.screen().availableSize().height()
         self.setGeometry(int((screensize[0] / 2) - 500), int((screensize[1] / 2) - 300), 1000, 600)
         self.setWindowTitle("Spatial-Social Network Graph")
@@ -43,8 +43,8 @@ class NetworkGraphWindow(QtWidgets.QWidget):
         with open('nx.html', 'r') as f:
             html = f.read()
             self.graphView.setHtml(html)
-        layout.addWidget(self.graphView)
-        self.setLayout(layout)
+        self.layout.addWidget(self.graphView)
+        self.setLayout(self.layout)
 
 
 class Gui(QtWidgets.QMainWindow):
@@ -62,6 +62,7 @@ class Gui(QtWidgets.QMainWindow):
         # Stores widget instances
         self.roadGraphWidget = None
         self.socialGraphWidget = None
+        self.socialNetWidget = QWebEngineView()
         self.summarySelected = False
         self.hidePOIsSelected = False
         # Stores selected network instances
@@ -75,6 +76,10 @@ class Gui(QtWidgets.QMainWindow):
         # Store network objects
         self.__roadNetworkObjs = self.createNetworkInstances(self.__roadNetworks, RoadNetwork)
         self.__socialNetworkObjs = self.createNetworkInstances(self.__socialNetworks, SocialNetwork)
+        # Set up layout
+        self.layout = QtWidgets.QHBoxLayout(self)
+        self.sumLayout = QtWidgets.QHBoxLayout(self)
+        self.view = QtWidgets.QWidget()
         # Initializes menus
         self.__menuBar()
         self.__navToolbar()
@@ -86,6 +91,9 @@ class Gui(QtWidgets.QMainWindow):
         self.socialGraphWidget = self.win.addPlot(row=0, col=0, title=f"Social Network {suffix}")
         self.linkGraphAxis()
 
+    def createSumPlot(self, suffix=None):
+        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
+
     # Displays main window
     def __mainWindow(self):
         # Set up window
@@ -93,8 +101,18 @@ class Gui(QtWidgets.QMainWindow):
         self.setGeometry(int((screensize[0] / 2) - 500), int((screensize[1] / 2) - 300), 1000, 600)
         self.setWindowTitle("Spatial-Social Networks")
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
-        self.win = pg.GraphicsLayoutWidget(show=True)
-        self.setCentralWidget(self.win)
+        self.win = pg.GraphicsLayoutWidget()
+        self.sum = pg.GraphicsLayoutWidget()
+        with open('nx.html', 'r') as f:
+            html = f.read()
+            self.socialNetWidget.setHtml(html)
+        #self.layout.addWidget(self.socialNetWidget)
+        self.layout.addWidget(self.win)
+        self.view.setLayout(self.layout)
+        self.setCentralWidget(self.view)
+        self.sumLayout.addWidget(self.socialNetWidget)
+        self.sumLayout.addWidget(self.win)
+        
         # Create and set up graph widget
         self.createPlots()
         # Draw cross-hairs on graph
@@ -255,7 +273,8 @@ class Gui(QtWidgets.QMainWindow):
 
     def clearView(self):
         self.win.removeItem(self.roadGraphWidget)
-        self.win.removeItem(self.socialGraphWidget)
+        if self.socialGraphWidget:
+            self.win.removeItem(self.socialGraphWidget)
         self.roadGraphWidget = None
         self.socialGraphWidget = None
 
@@ -266,7 +285,17 @@ class Gui(QtWidgets.QMainWindow):
             self.summarySelected = True
             self.clearView()
             # Displays summary plots
-            self.createPlots("Summary")
+            self.createSumPlot("Summary")
+            self.socialNetWidget = QWebEngineView()
+            with open('nx.html', 'r') as f:
+                html = f.read()
+                self.socialNetWidget.setHtml(html)
+            #self.layout.addWidget(self.socialNetWidget)
+            #self.layout.addWidget(self.win)
+            #self.socialNetWidget.show()
+            widget = QtWidgets.QWidget()
+            widget.setLayout(self.sumLayout)
+            self.setCentralWidget(widget)
             self.__interactivePlotInput()
             self.__clusterInput()
             self.updateSummaryGraph()
@@ -297,7 +326,7 @@ class Gui(QtWidgets.QMainWindow):
         # Clears last view
         if self.summarySelected:
             self.clearView()
-        self.createPlots("Summary")
+        self.createSumPlot("Summary")
         # Adds event listener
         self.roadGraphWidget.scene().sigMouseMoved.connect(self.mouseMoved)
         # If a road network is selected, display info
@@ -603,7 +632,7 @@ class Gui(QtWidgets.QMainWindow):
         else:
             self.clearView()
             self.selectedRoadNetwork = None
-            self.createPlots("Summary")
+            self.createSumPlot("Summary")
             # Display road network
             if network is not None:
                 self.selectedRoadNetwork = self.__roadNetworkObjs[network]
@@ -635,10 +664,10 @@ class Gui(QtWidgets.QMainWindow):
             # Removes both graphs to clear them then re-adds them
             self.clearView()
             self.selectedSocialNetwork = None
-            self.createPlots("Summary")
+            #self.createPlots("Summary")
             # Re-visualizes the road network if it is selected
-            if self.selectedRoadNetwork:
-                self.selectedRoadNetwork.visualize(self.roadGraphWidget)
+            #if self.selectedRoadNetwork:
+            #    self.selectedRoadNetwork.visualize(self.roadGraphWidget)
             # Draw cross-hairs on graph
             if network is not None:
                 self.selectedSocialNetwork = self.__socialNetworkObjs[network]
