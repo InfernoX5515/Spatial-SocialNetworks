@@ -17,18 +17,19 @@ from os.path import exists
 
 
 class SocialNetwork:
-    def __init__(self, name, relFile=None, locFile=None, **kwargs):
+    def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, **kwargs):
         self.__name = name
         self.__rel = {}
         self.__loc = {}
+        self.__keywordMap = {}
+        self.__keywords = {}
         self.__flattenedRelData = [[], []]
         self.__flattenedLocData = [[], []]
         self.__chunkedLocData = []
-        threads = []
-        if relFile is not None and exists(relFile):
-            threads.append(threading.Thread(target=lambda: self.loadRel(path=relFile)))
-        if locFile is not None and exists(locFile):
-            threads.append(threading.Thread(target=lambda: self.loadLoc(path=locFile)))
+        threads = [threading.Thread(target=lambda: self.loadRel(path=relFile)),
+                   threading.Thread(target=lambda: self.loadLoc(path=locFile)),
+                   threading.Thread(target=lambda: self.loadKey(kPath=keyFile, mPath=keyMapFile))]
+
         for thread in threads:
             thread.start()
         for thread in threads:
@@ -92,6 +93,48 @@ class SocialNetwork:
         else:
             self.__loc = None
 
+    # Reads keyword files from path.
+    # keywordMap = {
+    #    "keyword_id": "keyword",
+    #    "keyword_id": "keyword"
+    # }
+    #
+    # keywords = {
+    #     "user_id": [keyword_id, keyword_id],
+    #     "user_id": [keyword_id]
+    # }
+    # noinspection SpellCheckingInspection,PyShadowingBuiltins
+    def loadKey(self, kPath=None, mPath=None):
+        if kPath is not None and mPath is not None and exists(kPath) and exists(mPath):
+            keywords = {}
+            userKeywords = {}
+            # Gets key map
+            with open(mPath, 'r') as csvfile:
+                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                next(reader)
+                for row in reader:
+                    keyword_id = row[0]
+                    keyword = row[1]
+                    if keyword_id in keywords:
+                        raise Exception(f"Error: Duplicate value in {mPath}")
+                    else:
+                        keywords[keyword_id] = keyword
+            # Gets user keywords
+            with open(kPath, 'r') as kfile:
+                reader = csv.reader(kfile, delimiter=',', quotechar='|')
+                next(reader)
+                for row in reader:
+                    user_id = row[0]
+                    keyword_id = row[1]
+                    if user_id in list(userKeywords.keys()):
+                        userKeywords[user_id].append(keyword_id)
+                    else:
+                        userKeywords[user_id] = [keyword_id]
+            self.__keywordMap = keywords
+            self.__keywords = userKeywords
+        else:
+            self.__keywordMap = None
+            self.__keywords = None
 
     # Parses the rel data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data.

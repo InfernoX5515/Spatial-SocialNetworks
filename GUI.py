@@ -525,6 +525,7 @@ class Gui(QtWidgets.QMainWindow):
                     lambda junk, a=i, b=j, c=x, d=y: self.chooseFile(f"1.{a}.{b}", "Social Network", c, d))
                 self.__windows[0].setItemWidget(self.__fileTreeObjects[f"1.{i}.{j}"], 1, cFileS[f"{j}.{j}"])
 
+    # TODO: Fix issue where networks aren't loaded after they are created -- program requires restart
     # Creates a new Road network
     def newNetwork(self, type):
         if type != "road" and type != "social":
@@ -550,13 +551,16 @@ class Gui(QtWidgets.QMainWindow):
                 network[text] = {
                     "nodeFile": "[nodeFile]",
                     "edgeFile": "[edgeFile]",
-                    "POIFile": "[POIFile]"
+                    "POIFile": "[POIFile]",
+                    "keyFile": "[keyFile]",
+                    "keyMapFile": "[keyMapFile]"
                 }
             elif type == "social":
                 network[text] = {
                     "locFile": "[locFile]",
                     "relFile": "[relFile]",
-                    "keyFile": "[keyFile]"
+                    "keyFile": "[keyFile]",
+                    "keyMapFile": "[keyMapFile]"
                 }
             # Adds new road network to tree
             keys = list(network.keys())

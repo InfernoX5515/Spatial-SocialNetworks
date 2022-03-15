@@ -20,11 +20,13 @@ from PyQt5.QtGui import QFont
 
 
 class RoadNetwork:
-    def __init__(self, name, edgeFile=None, nodeFile=None, POIFile=None, **kwargs):
+    def __init__(self, name, edgeFile=None, nodeFile=None, POIFile=None, POIKeyFile=None, POIKeyMapFile=None, **kwargs):
         self.__name = name
         self.__edges = {}
         self.__nodes = {}
         self.__POIs = {}
+        self.__keywordMap = {}
+        self.__keywords = {}
         self.__flattenedData = [[], []]
         self.__flattenedPOIs = {}
         self.edgeInst = None
@@ -32,7 +34,8 @@ class RoadNetwork:
         # Create threads for loading files asynchronously
         threads = [threading.Thread(target=lambda: self.loadEdges(edgeFile)),
                    threading.Thread(target=lambda: self.loadNodes(nodeFile)),
-                   threading.Thread(target=lambda: self.loadPOIs(POIFile))]
+                   threading.Thread(target=lambda: self.loadPOIs(POIFile)),
+                   threading.Thread(target=lambda: self.loadKeys(POIKeyFile, POIKeyMapFile))]
         for thread in threads:
             thread.start()
         for thread in threads:
@@ -108,6 +111,49 @@ class RoadNetwork:
                         self.__POIs[poi_id] = [poi_category, lat_pos, lon_pos]
         else:
             self.__POIs = None
+
+    # Reads keyword files from path.
+    # keywordMap = {
+    #    "keyword_id": "keyword",
+    #    "keyword_id": "keyword"
+    # }
+    #
+    # keywords = {
+    #     "user_id": [keyword_id, keyword_id],
+    #     "user_id": [keyword_id]
+    # }
+    # noinspection SpellCheckingInspection,PyShadowingBuiltins
+    def loadKeys(self, kPath=None, mPath=None):
+        if kPath is not None and mPath is not None and exists(kPath) and exists(mPath):
+            keywords = {}
+            poiKeywords = {}
+            # Gets key map
+            with open(mPath, 'r') as csvfile:
+                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                next(reader)
+                for row in reader:
+                    keyword_id = row[0]
+                    keyword = row[1]
+                    if keyword_id in keywords:
+                        raise Exception(f"Error: Duplicate value in {mPath}")
+                    else:
+                        keywords[keyword_id] = keyword
+            # Gets user keywords
+            with open(kPath, 'r') as kfile:
+                reader = csv.reader(kfile, delimiter=',', quotechar='|')
+                next(reader)
+                for row in reader:
+                    user_id = row[0]
+                    keyword_id = row[1]
+                    if user_id in list(poiKeywords.keys()):
+                        poiKeywords[user_id].append(keyword_id)
+                    else:
+                        poiKeywords[user_id] = [keyword_id]
+            self.__keywordMap = keywords
+            self.__keywords = poiKeywords
+        else:
+            self.__keywordMap = None
+            self.__keywords = None
 
     def flattenPOIs(self):
         if self.__POIs is not None:
