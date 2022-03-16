@@ -324,7 +324,7 @@ class Gui(QtWidgets.QMainWindow):
         # Create Interactive Graph HTML File
         network = nx.Graph()
         for i in range(0, len(centers)):
-            network.add_node(str(centers[i][0]) + str(centers[i][1]), physics=False)
+            network.add_node(str(centers[i][0]) + str(centers[i][1]), physics=False, label=popSize[i])
         for i in range(1, len(relations[0])):
             network.add_edge(str(relations[0][i]) + str(relations[1][i]),
                             str(relations[0][i - 1]) + str(relations[1][i - 1]))
