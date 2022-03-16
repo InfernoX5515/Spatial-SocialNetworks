@@ -67,6 +67,7 @@ class Gui(QtWidgets.QMainWindow):
         # Stores selected network instances
         self.selectedRoadNetwork = None
         self.selectedSocialNetwork = None
+        self.queryUser = None
         # Store data for interactive network
         self.interactiveNetwork = nx.Graph()
         # Store all network info in dict format {"NetworkName: {"Data": "Value", ...}, ..."}
@@ -381,32 +382,72 @@ class Gui(QtWidgets.QMainWindow):
         # Create button
         button = QtWidgets.QPushButton("Select Query User")
         button.clicked.connect(lambda: self.chooseKeywordsMenu())
+        # Create label
+        label = QtWidgets.QLabel("  Query User: ")
+        if self.queryUser is not None:
+            self.queryUserToolbar.userLabel = QtWidgets.QLabel(list(self.queryUser.keys())[0])
+        else:
+            self.queryUserToolbar.userLabel = QtWidgets.QLabel("None")
+
         # Add widgets to window
         self.queryUserToolbar.addWidget(button)
+        self.queryUserToolbar.addWidget(label)
+        self.queryUserToolbar.addWidget(self.queryUserToolbar.userLabel)
 
     def chooseKeywordsMenu(self):
         # Window setup
-        self.__windows[0] = QtWidgets.QWidget()
-        self.__windows[0].setWindowModality(QtCore.Qt.ApplicationModal)
-        self.__windows[0].setWindowTitle('Choose Keywords')
-        self.__windows[0].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        self.__windows[3] = QtWidgets.QWidget()
+        self.__windows[3].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[3].setWindowTitle('Choose Keywords')
+        self.__windows[3].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
         layout = QtWidgets.QGridLayout()
+        self.__windows[3].checkboxes = []
         # Checkboxes
         row = 0
         column = 0
         if self.selectedSocialNetwork is not None:
             for keyword in self.selectedSocialNetwork.getKeywords():
-                layout.addWidget(QtWidgets.QCheckBox(keyword), row, column)
+                widget = QtWidgets.QCheckBox(keyword)
+                self.__windows[3].checkboxes.append(widget)
+                layout.addWidget(widget, row, column)
                 column += 1
                 if column == 20:
                     column = 0
                     row += 1
         button = QtWidgets.QPushButton("Ok")
-        button.clicked.connect(lambda: self.updateSummaryGraph())
+        button.clicked.connect(lambda: self.showUsersWithKeywords())
         layout.addWidget(button, row + 2, 19)
         # Show QWidget
-        self.__windows[0].setLayout(layout)
-        self.__windows[0].show()
+        self.__windows[3].setLayout(layout)
+        self.__windows[3].show()
+        self.__windows[3].move(self.geometry().center() - self.__windows[3].rect().center())
+
+    def showUsersWithKeywords(self):
+        checkboxes = self.__windows[3].checkboxes
+        self.__windows[3].close()
+        self.__windows[4] = QtWidgets.QWidget()
+        self.__windows[4].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[4].setWindowTitle('Choose a Query User')
+        self.__windows[4].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        layout = QtWidgets.QGridLayout()
+        keywords = []
+        for checkbox in checkboxes:
+            if checkbox.isChecked():
+                keywords.append(checkbox.text())
+        users = self.selectedSocialNetwork.getUsersWithKeywords(keywords)
+        row = 0
+        column = 0
+        for user in users:
+            widget = QtWidgets.QPushButton(user)
+            widget.clicked.connect(lambda junk, u=user: self.setQueryUser(u))
+            layout.addWidget(widget, row, column)
+            column += 1
+            if column == 10:
+                column = 0
+                row += 1
+        self.__windows[4].setLayout(layout)
+        self.__windows[4].show()
+        self.__windows[4].move(self.geometry().center() - self.__windows[4].rect().center())
 
     # Creates the cluster toolbar for input
     def __clusterInput(self):
@@ -428,6 +469,11 @@ class Gui(QtWidgets.QMainWindow):
         self.clusterInput.addWidget(label)
         self.clusterInput.addWidget(self.clusterInput.textBox)
         self.clusterInput.addWidget(button)
+
+    def setQueryUser(self, user):
+        self.queryUser = self.selectedSocialNetwork.getUser(user)
+        self.queryUserToolbar.userLabel.setText(list(self.queryUser.keys())[0])
+        self.__windows[4].close()
 
     def __queryInput(self):
         # Set up input toolbar
@@ -691,6 +737,8 @@ class Gui(QtWidgets.QMainWindow):
             self.linkGraphAxis()
 
     def displaySocialNetwork(self, network):
+        self.queryUser = None
+        self.queryUserToolbar.userLabel.setText("None")
         # If main view
         if not self.summarySelected:
             self.clearView()

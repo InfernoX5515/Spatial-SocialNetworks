@@ -124,7 +124,7 @@ class SocialNetwork:
                 reader = csv.reader(kfile, delimiter=',', quotechar='|')
                 next(reader)
                 for row in reader:
-                    user_id = row[0]
+                    user_id = str(float(row[0]))
                     keyword_id = row[1]
                     if user_id in list(userKeywords.keys()):
                         userKeywords[user_id].append(keyword_id)
@@ -264,6 +264,26 @@ class SocialNetwork:
     # Returns all keywords
     def getKeywords(self):
         return list(self.__keywordMap.keys())
+
+    def getUsersWithKeywords(self, keywords):
+        matches = []
+        for user in list(self.__loc.keys()):
+            if keywords:
+                match = True
+                for keyword in keywords:
+                    if user not in self.__keywords or keyword not in self.__keywords[user]:
+                        match = False
+                        break
+                if not match:
+                    continue
+                matches.append(user)
+            else:
+                if user not in self.__keywords:
+                    matches.append(int(float(user)))
+        return matches
+
+    def getUser(self, userID):
+        return {userID: self.__loc[userID]}
 
     # Visualize the data
     def visualize(self, snInst=None, rnInst=None):
