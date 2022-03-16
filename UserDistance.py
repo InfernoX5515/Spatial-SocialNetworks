@@ -16,25 +16,21 @@ class UserDistance:
         self.network = nx.Graph()
         self.__nodes = {}
         self.__loc = {}
-        self.__keywords = {}
         self.relRemoved = 0
 
         #
         # INSTRUCTIONS:
         # Update below path names then run
         #
-        self.loadRoadEdges(path="./Datasets/RoadNetworks/california_edge.csv")
-        self.loadRoadNodes(path="./Datasets/RoadNetworks/california_node.csv")
-        
-        self.loadSocialLoc(path="./Datasets/SocialNetworks/gowalla_loc.csv")
-        self.loadSocialKeywords(path="./Datasets/SocialNetworks/gowalla_keywords.csv")
-        self.loadSocialRel(path="./Datasets/SocialNetworks/gowalla_rel.csv", name="./Datasets/SocialNetworks/gowalla_n_rel.csv")
+        self.loadRoadEdges(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/RoadNetworks/california_edge.csv")
+        self.loadRoadNodes(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/RoadNetworks/california_node.csv")
+        self.loadSocialLoc(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/SocialNetworks/gowalla_loc.csv")
+        self.loadSocialRel(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/SocialNetworks/gowalla_rel.csv", name="gowalla_rel.csv")
         print(str(self.relRemoved) + ' relationships were removed as user(s) could not be found in location dataset')
         self.relRemoved = 0
         print('GOWALLA DONE')
-        self.loadSocialLoc(path="./Datasets/SocialNetworks/foursquare_loc.csv")
-        self.loadSocialKeywords(path="./Datasets/SocialNetworks/foursquare_keywords.csv")
-        self.loadSocialRel(path="./Datasets/SocialNetworks/foursquare_rel.csv", name="./Datasets/SocialNetworks/foursquare_n_rel.csv")
+        self.loadSocialLoc(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/SocialNetworks/foursquare_loc.csv")
+        self.loadSocialRel(path="/Users/gavinhulvey/Documents/GitHub/Spatial-SocialNetworks/Datasets/SocialNetworks/foursquare_rel.csv", name="foursquare_rel.csv")
         print(str(self.relRemoved) + ' relationships were removed as user(s) could not be found in location dataset')
         self.relRemoved = 0
         print('FOURSQUARE DONE')
@@ -108,7 +104,7 @@ class UserDistance:
                 writer = csv.writer(writeObj)
                 
                 # Add header to output file
-                writer.writerow(['user_id','rel_user_id','weight','distance','keywords'])
+                writer.writerow(['user_id','rel_user_id','weight','distance'])
                 next(reader)
                 for row in reader:
                     user_id = row[0]
@@ -125,9 +121,7 @@ class UserDistance:
 
                     usrA = find_nearest(self.__nodes, (float(self.__loc[user_id][0][0]), float(self.__loc[user_id][0][1])))
                     usrB = find_nearest(self.__nodes, (float(self.__loc[rel_user_id][0][0]), float(self.__loc[rel_user_id][0][1])))
-                    commonKeywords= len(set(self.__keywords[user_id]) & set(self.__keywords[rel_user_id]))
                     row.append(nx.dijkstra_path_length(self.network, source=float(usrA), target=float(usrB)))
-                    row.append(commonKeywords)
                     writer.writerow(row)
 
     # Reads loc file from path.
@@ -156,23 +150,6 @@ class UserDistance:
             self.__loc = dict
         else:
             self.__loc = None
-
-    def loadSocialKeywords(self, path=None):
-        if 1 == 1:
-            dict = {}
-            with open(path, 'r') as csvfile:
-                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                next(reader)
-                for row in reader:
-                    user_id = row[0]
-                    keyword = row[1]
-                    if user_id in dict:
-                        dict[user_id] = dict[user_id] + [keyword]
-                    else:
-                        dict[user_id] = [keyword]
-            self.__keywords = dict
-        else:
-            self.__keywords = None
 
 
 def main():
