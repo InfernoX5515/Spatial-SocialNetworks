@@ -260,6 +260,11 @@ class SocialNetwork:
     def getIDByLoc(self, lat, lon):
         return self.IDByLoc[f"['{lat}', '{lon}']"]
 
+    # TODO: Change this to return keyword not keyword_id when keyword is generated
+    # Returns all keywords
+    def getKeywords(self):
+        return list(self.__keywordMap.keys())
+
     # Visualize the data
     def visualize(self, snInst=None, rnInst=None):
         if snInst is not None:

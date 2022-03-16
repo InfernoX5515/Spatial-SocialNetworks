@@ -155,7 +155,6 @@ class Gui(QtWidgets.QMainWindow):
         yRanges = self.roadGraphWidget.getAxis('left').range
         scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
         self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] - scale)
-        print(self.selectedSocialNetwork)
 
     # Creates the navigation toolbar
     def __navToolbar(self):
@@ -386,11 +385,27 @@ class Gui(QtWidgets.QMainWindow):
         self.queryUserToolbar.addWidget(button)
 
     def chooseKeywordsMenu(self):
-        self.__windows[0] = QtWidgets.QCheckBox()
+        # Window setup
+        self.__windows[0] = QtWidgets.QWidget()
         self.__windows[0].setWindowModality(QtCore.Qt.ApplicationModal)
         self.__windows[0].setWindowTitle('Choose Keywords')
         self.__windows[0].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
-        # Show TreeWidget
+        layout = QtWidgets.QGridLayout()
+        # Checkboxes
+        row = 0
+        column = 0
+        if self.selectedSocialNetwork is not None:
+            for keyword in self.selectedSocialNetwork.getKeywords():
+                layout.addWidget(QtWidgets.QCheckBox(keyword), row, column)
+                column += 1
+                if column == 20:
+                    column = 0
+                    row += 1
+        button = QtWidgets.QPushButton("Ok")
+        button.clicked.connect(lambda: self.updateSummaryGraph())
+        layout.addWidget(button, row + 2, 19)
+        # Show QWidget
+        self.__windows[0].setLayout(layout)
         self.__windows[0].show()
 
     # Creates the cluster toolbar for input

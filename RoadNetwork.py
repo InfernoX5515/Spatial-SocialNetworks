@@ -164,7 +164,6 @@ class RoadNetwork:
                 else:
                     self.__flattenedPOIs[index[0]][0] += [float(index[1])]
                     self.__flattenedPOIs[index[0]][1] += [float(index[2])]
-        print(self.__flattenedPOIs["airport"])
 
     # Parses the edge data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data
@@ -215,7 +214,6 @@ class RoadNetwork:
                 r = random.randrange(0, 256)
                 g = random.randrange(0, 256)
                 b = random.randrange(0, 256)
-                print(self.__flattenedPOIs[category][0])
                 self.POIInst = POIInst.plot(self.__flattenedPOIs[category][0], self.__flattenedPOIs[category][1],
                                             pen=None, symbol='x', symbolSize=2, symbolPen=(r, g, b, 20),
                                             symbolBrush=(r, g, b, 50))
