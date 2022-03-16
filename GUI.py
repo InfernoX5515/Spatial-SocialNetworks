@@ -414,9 +414,14 @@ class Gui(QtWidgets.QMainWindow):
                 if column == 20:
                     column = 0
                     row += 1
-        button = QtWidgets.QPushButton("Ok")
-        button.clicked.connect(lambda: self.showUsersWithKeywords())
-        layout.addWidget(button, row + 2, 19)
+            button = QtWidgets.QPushButton("Ok")
+            button.clicked.connect(lambda: self.showUsersWithKeywords())
+            layout.addWidget(button, row + 2, 19)
+        else:
+            button = QtWidgets.QPushButton("Cancel")
+            button.clicked.connect(lambda: self.__windows[3].close())
+            layout.addWidget(QtWidgets.QLabel("No Social Network Selected"), 0, 0)
+            layout.addWidget(button, 1, 0)
         # Show QWidget
         self.__windows[3].setLayout(layout)
         self.__windows[3].show()
