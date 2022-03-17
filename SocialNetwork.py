@@ -279,7 +279,7 @@ class SocialNetwork:
                 matches.append(user)
             else:
                 if user not in self.__keywords:
-                    matches.append(int(float(user)))
+                    matches.append(user)
         return matches
 
     def getUser(self, userID):

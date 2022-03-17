@@ -89,7 +89,7 @@ class Gui(QtWidgets.QMainWindow):
         self.__mainWindow()
 
     # Creates the plot widgets. suffix is used when a summary graph is created, for example
-    def createPlots(self, suffix=None):
+    def createPlots(self, suffix=""):
         self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
         self.socialGraphWidget = self.win.addPlot(row=0, col=0, title=f"Social Network {suffix}")
         self.linkGraphAxis()
@@ -218,11 +218,6 @@ class Gui(QtWidgets.QMainWindow):
         viewSummaryAction.setStatusTip("View summary graphs")
         viewSummaryAction.triggered.connect(self.viewSummary)
         addViewMenu.addAction(viewSummaryAction)
-        # Interactive network button
-        viewInterNetworkAction = QtWidgets.QAction("Interactive Network", self, checkable=True)
-        viewInterNetworkAction.setStatusTip("Launch interactive network interface")
-        viewInterNetworkAction.triggered.connect(self.viewInterNetwork)
-        addViewMenu.addAction(viewInterNetworkAction)
         # Hide POIs button
         # hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True, checked=True)
         # hidePOIs.setStatusTip("Hide POIs on the graph")
@@ -345,6 +340,7 @@ class Gui(QtWidgets.QMainWindow):
             self.summarySelected = False
             self.clusterInput.close()
             self.clearView()
+            self.queryInput.close()
             self.createPlots()
             self.interactivePlotInput.close()
             # Re-visualize selected networks
@@ -463,7 +459,7 @@ class Gui(QtWidgets.QMainWindow):
         # Create label
         label = QtWidgets.QLabel("  Query User: ")
         if self.queryUser is not None:
-            self.queryUserToolbar.userLabel = QtWidgets.QLabel(list(self.queryUser.keys())[0])
+            self.queryUserToolbar.userLabel = QtWidgets.QLabel(list(self.queryUser.keys())[0].removesuffix(".0"))
         else:
             self.queryUserToolbar.userLabel = QtWidgets.QLabel("None")
 
@@ -521,7 +517,7 @@ class Gui(QtWidgets.QMainWindow):
         row = 0
         column = 0
         for user in users:
-            widget = QtWidgets.QPushButton(user)
+            widget = QtWidgets.QPushButton(user.removesuffix(".0"))
             widget.clicked.connect(lambda junk, u=user: self.setQueryUser(u))
             layout.addWidget(widget, row, column)
             column += 1
@@ -573,7 +569,7 @@ class Gui(QtWidgets.QMainWindow):
 
     def setQueryUser(self, user):
         self.queryUser = self.selectedSocialNetwork.getUser(user)
-        self.queryUserToolbar.userLabel.setText(list(self.queryUser.keys())[0])
+        self.queryUserToolbar.userLabel.setText(user.removesuffix(".0"))
         self.usersCommonKeyword()
         self.__windows[4].close()
 
