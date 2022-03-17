@@ -283,7 +283,7 @@ class SocialNetwork:
         return matches
 
     def getUser(self, userID):
-        return {userID: self.__loc[userID]}
+        return [userID, self.__loc[userID]]
 
     def getUserKeywords(self, userID):
         if userID in self.__keywords:

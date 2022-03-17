@@ -69,7 +69,9 @@ class Gui(QtWidgets.QMainWindow):
         # Stores selected network instances
         self.selectedRoadNetwork = None
         self.selectedSocialNetwork = None
+        # Query user information
         self.queryUser = None
+        self.queryUserPlots = []
         # Store data for interactive network
         self.interactiveNetwork = nx.Graph()
         # Store all network info in dict format {"NetworkName: {"Data": "Value", ...}, ..."}
@@ -275,12 +277,11 @@ class Gui(QtWidgets.QMainWindow):
     # Returns users with at least one keyword in common
     def usersCommonKeyword(self):
         users = self.selectedSocialNetwork.getUsers()
-        queryUser = list(self.queryUser.keys())[0]
         commonUsers = []
         for user in users:
-            if user is not queryUser:
+            if user is not self.queryUser[0]:
                 common = list(set(self.selectedSocialNetwork.getUserKeywords(user)).intersection(
-                    self.selectedSocialNetwork.getUserKeywords(queryUser)))
+                    self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])))
                 if len(common) > 0:
                     commonUsers.append(user)
         return commonUsers
@@ -459,7 +460,7 @@ class Gui(QtWidgets.QMainWindow):
         # Create label
         label = QtWidgets.QLabel("  Query User: ")
         if self.queryUser is not None:
-            self.queryUserToolbar.userLabel = QtWidgets.QLabel(list(self.queryUser.keys())[0].removesuffix(".0"))
+            self.queryUserToolbar.userLabel = QtWidgets.QLabel(self.queryUser[0].removesuffix(".0"))
         else:
             self.queryUserToolbar.userLabel = QtWidgets.QLabel("None")
 
@@ -569,7 +570,14 @@ class Gui(QtWidgets.QMainWindow):
 
     def setQueryUser(self, user):
         self.queryUser = self.selectedSocialNetwork.getUser(user)
+        [a.clear() for a in self.queryUserPlots]
         self.queryUserToolbar.userLabel.setText(user.removesuffix(".0"))
+        self.queryUserPlots = []
+        for loc in self.queryUser[1]:
+            print(loc)
+            self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
+                                                                 symbol='star', symbolSize=30, symbolPen=(255, 0, 0),
+                                                                 symbolBrush=(255, 0, 0, 200)))
         self.usersCommonKeyword()
         self.__windows[4].close()
 
@@ -841,6 +849,8 @@ class Gui(QtWidgets.QMainWindow):
 
     def displaySocialNetwork(self, network):
         self.queryUser = None
+        [a.clear() for a in self.queryUserPlots]
+        self.queryUserPlots = []
         self.queryUserToolbar.userLabel.setText("None")
         # If main view
         if not self.summarySelected:
