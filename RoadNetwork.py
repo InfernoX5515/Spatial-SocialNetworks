@@ -15,6 +15,7 @@ from os.path import exists
 #       RoadNetwork.py is the class object for road networks.
 #
 # =====================================================================================================================
+import numpy as np
 from PyQt5 import QtGui
 from PyQt5.QtGui import QFont
 
@@ -202,6 +203,14 @@ class RoadNetwork:
             lon = lon + [startLon, endLon]
         self.__flattenedData[0] = self.__flattenedData[0] + lat
         self.__flattenedData[1] = self.__flattenedData[1] + lon
+
+    def nodeCount(self):
+        return len(list(self.__nodes.keys()))
+
+    '''def closestNode(self, lat, long):
+        array = np.asarray(self.)
+        idx = (np.abs(array - value)).argmin()
+        return array[idx]'''
 
     # Visualize the data
     def visualize(self, edgeInst=None, POIInst=None):
