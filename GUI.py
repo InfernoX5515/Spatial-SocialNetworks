@@ -594,16 +594,21 @@ class Gui(QtWidgets.QMainWindow):
         self.queryInput.kTextBox.setValidator(QtGui.QIntValidator(0, 9999))
         self.queryInput.kTextBox.setText("10")
         self.queryInput.kTextBox.returnPressed.connect(button.click)
+        self.queryInput.kTextBox.setToolTip("k is used to control the community's structural cohesiveness. Larger k "
+                                            "means higher structural cohesiveness")
         # Create d text box
         self.queryInput.dTextBox = QtWidgets.QLineEdit()
         self.queryInput.dTextBox.setValidator(QtGui.QIntValidator(0, 9999))
         self.queryInput.dTextBox.setText("10")
         self.queryInput.dTextBox.returnPressed.connect(button.click)
+        self.queryInput.dTextBox.setToolTip("d controls the maximum number of hops between users")
         # Create e text box
         self.queryInput.eTextBox = QtWidgets.QLineEdit()
         self.queryInput.eTextBox.setValidator(QtGui.QIntValidator(0, 9999))
         self.queryInput.eTextBox.setText("10")
         self.queryInput.eTextBox.returnPressed.connect(button.click)
+        self.queryInput.eTextBox.setToolTip("η controls the minimum degree of similarity between users")
+
         # Add widgets to window
         self.queryInput.addWidget(kLabel)
         self.queryInput.addWidget(self.queryInput.kTextBox)
