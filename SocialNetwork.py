@@ -285,6 +285,15 @@ class SocialNetwork:
     def getUser(self, userID):
         return {userID: self.__loc[userID]}
 
+    def getUserKeywords(self, userID):
+        if userID in self.__keywords:
+            return self.__keywords[userID]
+        else:
+            return []
+
+    def getUsers(self):
+        return list(self.__loc.keys())
+
     # Visualize the data
     def visualize(self, snInst=None, rnInst=None):
         if snInst is not None:

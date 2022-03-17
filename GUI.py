@@ -276,6 +276,19 @@ class Gui(QtWidgets.QMainWindow):
         self.roadGraphWidget = None
         self.socialGraphWidget = None
 
+    # Returns users with at least one keyword in common
+    def usersCommonKeyword(self):
+        users = self.selectedSocialNetwork.getUsers()
+        queryUser = list(self.queryUser.keys())[0]
+        commonUsers = []
+        for user in users:
+            if user is not queryUser:
+                common = list(set(self.selectedSocialNetwork.getUserKeywords(user)).intersection(
+                    self.selectedSocialNetwork.getUserKeywords(queryUser)))
+                if len(common) > 0:
+                    commonUsers.append(user)
+        return commonUsers
+
     # Handles summary view
     def viewSummary(self):
         # Switch view to summary
@@ -539,6 +552,7 @@ class Gui(QtWidgets.QMainWindow):
     def setQueryUser(self, user):
         self.queryUser = self.selectedSocialNetwork.getUser(user)
         self.queryUserToolbar.userLabel.setText(list(self.queryUser.keys())[0])
+        self.usersCommonKeyword()
         self.__windows[4].close()
 
     def __queryInput(self):
