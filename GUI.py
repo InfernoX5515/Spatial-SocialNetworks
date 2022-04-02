@@ -4,6 +4,7 @@ from os import getenv
 from queue import PriorityQueue
 
 from matplotlib import interactive
+from matplotlib.pyplot import title
 from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
@@ -423,6 +424,31 @@ class Gui(QtWidgets.QMainWindow):
             self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
                                                                  symbol='star', symbolSize=15, symbolPen=(255, 0, 0),
                                                                  symbolBrush=(255, 0, 0, 200)))
+        # Create Interactive Graph HTML File Using pyvis
+        network = nx.Graph()
+        # Add query user
+        queryKeys = self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
+        titleTemp = '<p>Keywords:</p><ol>'
+        for key in queryKeys:
+            titleTemp+= '<li>' + str(key) + '</li>'
+        titleTemp+='</ol>'
+        network.add_node(self.queryUser[0], physics=False, label=str('Query: ') + self.queryUser[0], color='red',title=titleTemp)
+        # Add common users
+        for user in users:
+            queryLoc = self.selectedSocialNetwork.userLoc(user)
+            commonLoc = self.selectedSocialNetwork.userLoc(self.queryUser[0])
+            dist = self.selectedRoadNetwork.realUserDistance(queryLoc, commonLoc)
+            hops = self.selectedSocialNetwork.numberOfHops(self.queryUser[0],user)
+            keys = list(set(self.selectedSocialNetwork.getUserKeywords(user)).intersection(
+                    self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])))
+            temp = '<p>Number of hops: ' + str(hops) + '</p><p>Distance: ' + str(dist) + '</p><p>Common Keywords:</p><ol>'
+            for key in keys:
+                temp+= '<li>' + str(key) + '</li>'
+            temp+='</ol>'
+            network.add_node(user, physics=False, label=user,color='blue',title=temp)
+        nt = Network('100%', '100%')
+        nt.from_nx(network)
+        nt.save_graph('nx.html')
     
     def updateKdSummaryGraph(self):
         # Clears last view
