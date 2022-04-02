@@ -3,7 +3,11 @@ import math
 import random
 import threading
 from os.path import exists
-
+import numpy as np
+from PyQt5 import QtGui
+from PyQt5.QtGui import QFont
+import networkx as nx
+from functools import partial
 
 # =====================================================================================================================
 #
@@ -15,14 +19,17 @@ from os.path import exists
 #       RoadNetwork.py is the class object for road networks.
 #
 # =====================================================================================================================
-import numpy as np
-from PyQt5 import QtGui
-from PyQt5.QtGui import QFont
+
+def find_nearest(points, coord):
+    dist = lambda s, key: (float(s[0]) - float(points[key][0])) ** 2 + \
+                            (float(s[1]) - float(points[key][1])) ** 2
+    return min(points, key=partial(dist, coord))
 
 
 class RoadNetwork:
     def __init__(self, name, edgeFile=None, nodeFile=None, POIFile=None, POIKeyFile=None, POIKeyMapFile=None, **kwargs):
         self.__name = name
+        self.networkX = nx.Graph()
         self.__edges = {}
         self.__nodes = {}
         self.__POIs = {}
@@ -63,6 +70,7 @@ class RoadNetwork:
                         raise Exception(f"Error: Duplicate value in {path}")
                     else:
                         self.__edges[edge_id] = [start_id, end_id, weight]
+                        self.networkX.add_edge(float(start_id), float(end_id), weight=float(weight))
         else:
             self.__edges = None
 
@@ -88,6 +96,7 @@ class RoadNetwork:
                         raise Exception(f"Error: Duplicate value in {path}")
                     else:
                         self.__nodes[node_id] = [lat, lon]
+                        self.networkX.add_node(float(node_id))
         else:
             self.__nodes = None
 
@@ -211,6 +220,13 @@ class RoadNetwork:
         array = np.asarray(self.)
         idx = (np.abs(array - value)).argmin()
         return array[idx]'''
+    
+
+
+    def realUserDistance(self, queryUser, commonUser):
+        usrA = find_nearest(self.__nodes, (float(queryUser[0][0]), float(queryUser[0][1])))
+        usrB = find_nearest(self.__nodes, (float(commonUser[0][0]), float(commonUser[0][1])))
+        return nx.dijkstra_path_length(self.networkX, source=float(usrA), target=float(usrB))
 
     # Visualize the data
     def visualize(self, edgeInst=None, POIInst=None):
