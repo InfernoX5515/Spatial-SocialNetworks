@@ -287,12 +287,15 @@ class Gui(QtWidgets.QMainWindow):
                     commonUsers.append(user)
         return commonUsers
 
-    def usersWithinHops(self, users, h=3):
+    def usersWithinHops(self, users, h=0):
         withinHops = []
         for user in users:
             hops = self.selectedSocialNetwork.numberOfHops(self.queryUser[0],user)
-            if hops <= h:
+            if h == 0:
                 withinHops.append(user)
+            else:
+                if hops <= h and hops != -1:
+                    withinHops.append(user)
         return withinHops
 
     # Returns users within d distance
