@@ -416,19 +416,11 @@ class Gui(QtWidgets.QMainWindow):
         self.drawCrosshairs()
     
     def visualizeKdData(self, users):
-        for user in users:
-            temp = self.selectedSocialNetwork.userLoc(user)
-            self.roadGraphWidget.plot([float(temp[0][0])], [float(temp[0][1])], pen=None, symbol='o', symbolSize=10,
-                        symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
-        for loc in self.queryUser[1]:
-            self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
-                                                                 symbol='star', symbolSize=15, symbolPen=(255, 0, 0),
-                                                                 symbolBrush=(255, 0, 0, 200)))
         # Create Interactive Graph HTML File Using pyvis
         network = nx.Graph()
+        titleTemp = '<p>Keywords:</p><ol>'
         # Add query user
         queryKeys = self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
-        titleTemp = '<p>Keywords:</p><ol>'
         for key in queryKeys:
             titleTemp+= '<li>' + str(key) + '</li>'
         titleTemp+='</ol>'
@@ -446,6 +438,19 @@ class Gui(QtWidgets.QMainWindow):
                 temp+= '<li>' + str(key) + '</li>'
             temp+='</ol>'
             network.add_node(user, physics=False, label=user,color='blue',title=temp)
+            rels = self.selectedSocialNetwork.commonRelations(user,users)
+            for rel in rels:
+                network.add_edge(rel, user, color='blue')
+        for user in users:
+            temp = self.selectedSocialNetwork.userLoc(user)
+            self.roadGraphWidget.plot([float(temp[0][0])], [float(temp[0][1])], pen=None, symbol='o', symbolSize=10,
+                        symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
+            network.add_edge(self.queryUser[0], user, color='red')
+        for loc in self.queryUser[1]:
+            self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
+                                                                 symbol='star', symbolSize=15, symbolPen=(255, 0, 0),
+                                                                 symbolBrush=(255, 0, 0, 200)))
+
         nt = Network('100%', '100%')
         nt.from_nx(network)
         nt.save_graph('nx.html')

@@ -309,6 +309,13 @@ class SocialNetwork:
         #return self.networkX.number_of_edges(float(start), float(end))
         return hops
 
+    def commonRelations(self, target, users):
+        result = []
+        for user in users:
+            if self.networkX.has_edge(user,target):
+                result.append(user)
+        return result
+
     # Visualize the data
     def visualize(self, snInst=None, rnInst=None):
         if snInst is not None:
