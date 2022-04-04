@@ -286,26 +286,29 @@ class Gui(QtWidgets.QMainWindow):
                     commonUsers.append(user)
         return commonUsers
 
-    '''def dijkstra(self, queryUser):
-        D = {v: float('inf') for v in range(self.roadGraphWidget.nodeCount())}
-        queryUser = list(self.queryUser.keys())[0]
-        startVertex = self.roadGraphWidget.closestNode(queryUser[1], queryUser[2])
-        D[startVertex] = 0
-        pq = PriorityQueue()
-        pq.put((0, startVertex))
-        while not pq.empty():
-            (dist, current_vertex) = pq.get()
-            graph.visited.append(current_vertex)
-            for neighbor in range(graph.v):
-                if graph.edges[current_vertex][neighbor] != -1:
-                    distance = graph.edges[current_vertex][neighbor]
-                    if neighbor not in graph.visited:
-                        old_cost = D[neighbor]
-                        new_cost = D[current_vertex] + distance
-                        if new_cost < old_cost:
-                            pq.put((new_cost, neighbor))
-                            D[neighbor] = new_cost
-        return D'''
+    def dijkstra(self, queryUser):
+        if self.selectedRoadNetwork is not None:
+            visited = []
+            numOfV = self.selectedRoadNetwork.nodeCount()
+            D = {v: float('inf') for v in range(numOfV)}
+            startVertex = self.selectedRoadNetwork.closestNode(queryUser[1][0][0], queryUser[1][0][1])
+            D[startVertex] = 0
+            pq = PriorityQueue()
+            pq.put((0, startVertex))
+            while not pq.empty():
+                (dist, current_vertex) = pq.get()
+                visited.append(current_vertex)
+                for neighbor in range(current_vertex - 200, current_vertex + 200):
+                    edge = self.selectedRoadNetwork.isAnEdge(str(float(current_vertex)), str(float(neighbor)))
+                    if edge is not None:
+                        distance = self.selectedRoadNetwork.getEdgeDistance(str(edge))
+                        if neighbor not in visited:
+                            old_cost = D[neighbor]
+                            new_cost = D[current_vertex] + float(distance)
+                            if new_cost < old_cost:
+                                pq.put((new_cost, neighbor))
+                                D[neighbor] = new_cost
+            print(D)
 
     # Handles summary view
     def viewSummary(self):
@@ -542,7 +545,7 @@ class Gui(QtWidgets.QMainWindow):
         # Create labels
         nLabel = QtWidgets.QLabel(text="n-clusters: ")
         kLabel = QtWidgets.QLabel(text="keywords: ")
-        dLabel = QtWidgets.QLabel(text="distance: ")
+        dLabel = QtWidgets.QLabel(text="t: ")
         # Create buttons
         button = QtWidgets.QPushButton("Ok")
         button.clicked.connect(lambda: self.updateSummaryGraph())
@@ -568,8 +571,10 @@ class Gui(QtWidgets.QMainWindow):
         self.clusterInput.addWidget(self.distanceInput.textBox)
         self.clusterInput.addWidget(button)
 
+    # Returns query user in form [id, [[lat, lon], [lat, lon]]]
     def setQueryUser(self, user):
         self.queryUser = self.selectedSocialNetwork.getUser(user)
+        print(self.queryUser)
         [a.clear() for a in self.queryUserPlots]
         self.queryUserToolbar.userLabel.setText(user.removesuffix(".0"))
         self.queryUserPlots = []
@@ -580,6 +585,7 @@ class Gui(QtWidgets.QMainWindow):
                                                                  symbolBrush=(255, 0, 0, 200)))
         self.usersCommonKeyword()
         self.__windows[4].close()
+        self.dijkstra(self.queryUser)
 
     def __queryInput(self):
         # Set up input toolbar

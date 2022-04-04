@@ -18,6 +18,7 @@ from os.path import exists
 import numpy as np
 from PyQt5 import QtGui
 from PyQt5.QtGui import QFont
+from scipy import spatial
 
 
 class RoadNetwork:
@@ -68,11 +69,7 @@ class RoadNetwork:
 
     # Reads node file from path. This is super awful but it's the fastest way to do things. This is what it returns:
     # dict = {
-    #    "node_id":
-    #    [
-    #       [lat, lon],
-    #       [lat, lon]
-    #    ]
+    #    "node_id": [lat, lon]
     # }
     # noinspection PyShadowingBuiltins
     def loadNodes(self, path=None):
@@ -207,14 +204,26 @@ class RoadNetwork:
     def nodeCount(self):
         return len(list(self.__nodes.keys()))
 
-    '''def closestNode(self, lat, long):
-        array = np.asarray(self.)
-        idx = (np.abs(array - value)).argmin()
-        return array[idx]'''
+    def closestNode(self, lat, long):
+        tree = spatial.KDTree(list(self.__nodes.values()))
+        i = tree.query([lat, long])[1]
+        # id = list(self.__nodes.keys())[i]
+        return i
+
+    def isAnEdge(self, startId, endId):
+        arr = np.array(list(self.__edges.values()))
+        coords = arr[:, 0:2].tolist()
+        if [startId, endId] in coords:
+            return float(coords.index([startId, endId]))
+        if [endId, startId] in coords:
+            return float(coords.index([endId, startId]))
+        return None
+
+    def getEdgeDistance(self, edgeId):
+        return self.__edges[edgeId][2]
 
     # Visualize the data
     def visualize(self, edgeInst=None, POIInst=None):
-        # TODO: Figure out something about symbols for different places
         if edgeInst is not None:
             self.edgeInst = edgeInst.plot(self.__flattenedData[0], self.__flattenedData[1], connect='pairs', pen='black')
         if POIInst is not None:
