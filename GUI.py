@@ -71,6 +71,7 @@ class Gui(QtWidgets.QMainWindow):
         self.selectedSocialNetwork = None
         # Query user information
         self.queryUser = None
+        self.queryKeyword = None
         self.queryUserPlots = []
         # Store data for interactive network
         self.interactiveNetwork = nx.Graph()
@@ -287,7 +288,7 @@ class Gui(QtWidgets.QMainWindow):
         return commonUsers
 
     def dijkstra(self, queryUser):
-        if self.selectedRoadNetwork is not None:
+        '''if self.selectedRoadNetwork is not None:
             visited = []
             numOfV = self.selectedRoadNetwork.nodeCount()
             D = {v: float('inf') for v in range(numOfV)}
@@ -308,7 +309,7 @@ class Gui(QtWidgets.QMainWindow):
                             if new_cost < old_cost:
                                 pq.put((new_cost, neighbor))
                                 D[neighbor] = new_cost
-            print(D)
+            print(D)'''
 
     # Handles summary view
     def viewSummary(self):
@@ -329,7 +330,6 @@ class Gui(QtWidgets.QMainWindow):
             self.sumLayout.addWidget(self.win,50)
             self.view.setLayout(self.sumLayout)
             self.setCentralWidget(self.view)
-            self.__interactivePlotInput()
             self.__clusterInput()
             self.__queryInput()
             self.updateSummaryGraph()
@@ -445,14 +445,6 @@ class Gui(QtWidgets.QMainWindow):
             sizes += [((refsSorted.index(x) + 1) * (75 / len(refsSorted)))]
         return sizes
 
-    def __interactivePlotInput(self):
-        self.interactivePlotInput = QtWidgets.QToolBar("interactivePlotInput")
-        self.interactivePlotInput.setIconSize(QtCore.QSize(24, 24))
-        self.addToolBar(self.interactivePlotInput)
-        interactiveNet = QtWidgets.QAction(QtGui.QIcon('Assets/diagram-project-solid'), "Interactive Graph", self)
-        interactiveNet.triggered.connect(self.viewInterNetwork)
-        self.interactivePlotInput.addAction(interactiveNet)
-
     def __queryUserButton(self):
         # Set up input toolbar
         self.queryUserToolbar = QtWidgets.QToolBar("queryUser")
@@ -460,17 +452,27 @@ class Gui(QtWidgets.QMainWindow):
         # Create button
         button = QtWidgets.QPushButton("Select Query User")
         button.clicked.connect(lambda: self.chooseKeywordsMenu())
+        button2 = QtWidgets.QPushButton("Select Query Keyword")
+        button2.clicked.connect(lambda: self.chooseQueryKeywordMenu())
         # Create label
         label = QtWidgets.QLabel("  Query User: ")
+        label2 = QtWidgets.QLabel("  Query Keyword: ")
         if self.queryUser is not None:
-            self.queryUserToolbar.userLabel = QtWidgets.QLabel(self.queryUser[0].removesuffix(".0"))
+            self.queryUserToolbar.userLabel = QtWidgets.QLabel(self.queryUser[0].split(".0")[0])
         else:
             self.queryUserToolbar.userLabel = QtWidgets.QLabel("None")
-
+        if self.queryKeyword is not None:
+            self.queryUserToolbar.keywordLabel = QtWidgets.QLabel(self.queryKeyword)
+        else:
+            self.queryUserToolbar.keywordLabel = QtWidgets.QLabel("None")
         # Add widgets to window
         self.queryUserToolbar.addWidget(button)
         self.queryUserToolbar.addWidget(label)
         self.queryUserToolbar.addWidget(self.queryUserToolbar.userLabel)
+        self.queryUserToolbar.addWidget(QtWidgets.QLabel("          "))
+        self.queryUserToolbar.addWidget(button2)
+        self.queryUserToolbar.addWidget(label2)
+        self.queryUserToolbar.addWidget(self.queryUserToolbar.keywordLabel)
 
     def chooseKeywordsMenu(self):
         # Window setup
@@ -505,6 +507,37 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[3].show()
         self.__windows[3].move(self.geometry().center() - self.__windows[3].rect().center())
 
+    def chooseQueryKeywordMenu(self):
+        # Window setup
+        self.__windows[5] = QtWidgets.QWidget()
+        self.__windows[5].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[5].setWindowTitle('Choose Query Keyword')
+        self.__windows[5].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        layout = QtWidgets.QGridLayout()
+        self.__windows[5].buttons = []
+        # Buttons
+        row = 0
+        column = 0
+        if self.queryUser is not None:
+            for keyword in self.selectedSocialNetwork.getUserKeywords(self.queryUser[0]):
+                widget = QtWidgets.QPushButton(keyword)
+                widget.clicked.connect(lambda junk, k=keyword: self.setQueryKeyword(k))
+                self.__windows[5].buttons.append(widget)
+                layout.addWidget(widget, row, column)
+                column += 1
+                if column == 20:
+                    column = 0
+                    row += 1
+        else:
+            button = QtWidgets.QPushButton("Cancel")
+            button.clicked.connect(lambda: self.__windows[5].close())
+            layout.addWidget(QtWidgets.QLabel("No Query User Selected"), 0, 0)
+            layout.addWidget(button, 1, 0)
+        # Show QWidget
+        self.__windows[5].setLayout(layout)
+        self.__windows[5].show()
+        self.__windows[5].move(self.geometry().center() - self.__windows[5].rect().center())
+
     def showUsersWithKeywords(self):
         checkboxes = self.__windows[3].checkboxes
         self.__windows[3].close()
@@ -521,7 +554,7 @@ class Gui(QtWidgets.QMainWindow):
         row = 0
         column = 0
         for user in users:
-            widget = QtWidgets.QPushButton(user.removesuffix(".0"))
+            widget = QtWidgets.QPushButton(user.split(".0")[0])
             widget.clicked.connect(lambda junk, u=user: self.setQueryUser(u))
             layout.addWidget(widget, row, column)
             column += 1
@@ -576,7 +609,7 @@ class Gui(QtWidgets.QMainWindow):
         self.queryUser = self.selectedSocialNetwork.getUser(user)
         print(self.queryUser)
         [a.clear() for a in self.queryUserPlots]
-        self.queryUserToolbar.userLabel.setText(user.removesuffix(".0"))
+        self.queryUserToolbar.userLabel.setText(user.split(".0")[0])
         self.queryUserPlots = []
         for loc in self.queryUser[1]:
             print(loc)
@@ -586,6 +619,11 @@ class Gui(QtWidgets.QMainWindow):
         self.usersCommonKeyword()
         self.__windows[4].close()
         self.dijkstra(self.queryUser)
+
+    def setQueryKeyword(self, keyword):
+        self.queryKeyword = keyword
+        self.queryUserToolbar.keywordLabel.setText(keyword)
+        self.__windows[5].close()
 
     def __queryInput(self):
         # Set up input toolbar
@@ -618,7 +656,6 @@ class Gui(QtWidgets.QMainWindow):
         self.queryInput.eTextBox.setText("10")
         self.queryInput.eTextBox.returnPressed.connect(button.click)
         self.queryInput.eTextBox.setToolTip("η controls the minimum degree of similarity between users")
-
         # Add widgets to window
         self.queryInput.addWidget(kLabel)
         self.queryInput.addWidget(self.queryInput.kTextBox)
@@ -906,7 +943,7 @@ class Gui(QtWidgets.QMainWindow):
         return instances
 
     def drawCrosshairs(self):
-        if self.summarySelected == False:
+        if not self.summarySelected:
             # Draw social network cross-hairs
             self.socialGraphWidget.vCrossLine = pg.InfiniteLine(angle=90, movable=False, pen=(140, 130, 10, 50))
             self.socialGraphWidget.hCrossLine = pg.InfiniteLine(angle=0, movable=False, pen=(140, 130, 10, 50))
@@ -931,7 +968,7 @@ class Gui(QtWidgets.QMainWindow):
 
     # OnMouseMoved event
     def mouseMoved(self, evt):
-        if self.summarySelected == False:
+        if not self.summarySelected:
             # Sets the mousePoint to whichever graph the pointer is over
             # roadGraphWidget
             if self.roadGraphWidget.sceneBoundingRect().contains(evt.x(), evt.y()):
@@ -979,7 +1016,6 @@ class Gui(QtWidgets.QMainWindow):
                     # Moves the road network crosshair
                     self.roadGraphWidget.vCrossLine.setPos(mousePoint.x())
                     self.roadGraphWidget.hCrossLine.setPos(mousePoint.y())
-
 
     def closeEvent(self, a0: QtGui.QCloseEvent) -> None:
         print("Closed")
