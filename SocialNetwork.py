@@ -19,7 +19,7 @@ import networkx as nx
 class SocialNetwork:
     def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, **kwargs):
         self.__name = name
-        self.networkX = nx.Graph()
+        self.networkX = nx.MultiGraph()
         self.__rel = {}
         self.__loc = {}
         self.__keywordMap = {}
@@ -303,7 +303,7 @@ class SocialNetwork:
     def numberOfHops(self, start, end):
         hops = 0
         try:
-            hops = nx.dijkstra_path_length(self.networkX,float(start),float(end))
+            hops = nx.dijkstra_path_length(self.networkX, float(start), float(end))
         except (nx.NetworkXNoPath, nx.NodeNotFound) as e:
             hops = -1
         #return self.networkX.number_of_edges(float(start), float(end))

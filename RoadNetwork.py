@@ -235,7 +235,6 @@ class RoadNetwork:
         return find_nearest(self.__nodes, (float(user[0][0]), float(user[0][1])))
 
     def realUserDistance(self, usrA, usrB):
-        print(f"A: {usrA} | B: {usrB}")
         return nx.dijkstra_path_length(self.networkX, source=float(usrA), target=float(usrB))
 
     # Visualize the data
