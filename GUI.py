@@ -684,6 +684,9 @@ class Gui(QtWidgets.QMainWindow):
 
     # Returns query user in form [id, [[lat, lon], [lat, lon]]]
     def setQueryUser(self, user):
+        if self.queryUser is not None:
+            [a.clear() for a in self.queryUserPlots]
+            self.queryUserPlots = []
         self.queryUser = self.selectedSocialNetwork.getUser(user)
         self.plotQueryUser()
         self.queryUserToolbar.userLabel.setText(user.split(".0")[0])
