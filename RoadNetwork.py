@@ -8,7 +8,7 @@ from PyQt5 import QtGui
 from PyQt5.QtGui import QFont
 import networkx as nx
 from functools import partial
-
+import scipy
 
 # =====================================================================================================================
 #
@@ -214,7 +214,7 @@ class RoadNetwork:
         return len(list(self.__nodes.keys()))
 
     def closestNode(self, lat, long):
-        tree = spatial.KDTree(list(self.__nodes.values()))
+        tree = scipy.spatial.KDTree(list(self.__nodes.values()))
         i = tree.query([lat, long])[1]
         # id = list(self.__nodes.keys())[i]
         return i
