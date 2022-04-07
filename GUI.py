@@ -4,6 +4,7 @@ from os import getenv
 from queue import PriorityQueue
 
 from matplotlib import interactive
+from matplotlib.pyplot import title
 from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
@@ -253,15 +254,15 @@ class Gui(QtWidgets.QMainWindow):
         self.roadGraphWidget = None
         self.socialGraphWidget = None
 
-    # Returns users with at least one keyword in common
-    def usersCommonKeyword(self):
+    # Returns users with at least k keywords in common (default to 1)
+    def usersCommonKeyword(self, k=1):
         users = self.selectedSocialNetwork.getUsers()
         commonUsers = []
         for user in users:
             if user is not self.queryUser[0]:
                 common = list(set(self.selectedSocialNetwork.getUserKeywords(user)).intersection(
                     self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])))
-                if len(common) > 0:
+                if len(common) > (k-1):
                     commonUsers.append(user)
         return commonUsers
 
@@ -288,6 +289,28 @@ class Gui(QtWidgets.QMainWindow):
                                 pq.put((new_cost, neighbor))
                                 D[neighbor] = new_cost
             print(D)'''
+
+    def usersWithinHops(self, users, h=0):
+        withinHops = []
+        for user in users:
+            hops = self.selectedSocialNetwork.numberOfHops(self.queryUser[0],user)
+            if h == 0:
+                withinHops.append(user)
+            else:
+                if hops <= h and hops != -1:
+                    withinHops.append(user)
+        return withinHops
+
+    # Returns users within d distance
+    def usersWithinDistance(self, users, d=7):
+        withinDistance = []
+        for user in users:
+            queryLoc = self.selectedSocialNetwork.userLoc(user)
+            commonLoc = self.selectedSocialNetwork.userLoc(self.queryUser[0])
+            dist = self.selectedRoadNetwork.realUserDistance(queryLoc, commonLoc)
+            if(dist <= d):
+                withinDistance.append(user) 
+        return withinDistance
 
     # Handles summary view
     def viewSummary(self):
@@ -335,6 +358,10 @@ class Gui(QtWidgets.QMainWindow):
         # Note: For some reason, the alpha value is from 0-255 not 0-100
         self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                   symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
+        for loc in self.queryUser[1]:
+            self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
+                                                                 symbol='star', symbolSize=15, symbolPen=(0, 255, 0),
+                                                                 symbolBrush=(0, 255, 0, 200)))
         # Create Interactive Graph HTML File Using pyvis
         network = nx.Graph()
         for i in range(0, len(centers)):
@@ -368,6 +395,77 @@ class Gui(QtWidgets.QMainWindow):
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
         self.plotQueryUser()
+
+    
+    def visualizeKdData(self, users):
+        # Create Interactive Graph HTML File Using pyvis
+        network = nx.Graph()
+        titleTemp = '<p>Keywords:</p><ol>'
+        # Add query user
+        queryKeys = self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
+        for key in queryKeys:
+            titleTemp+= '<li>' + str(key) + '</li>'
+        titleTemp+='</ol>'
+        network.add_node(self.queryUser[0], physics=False, label=str('Query: ') + self.queryUser[0], color='red',title=titleTemp)
+        # Add common users
+        for user in users:
+            queryLoc = self.selectedSocialNetwork.userLoc(user)
+            commonLoc = self.selectedSocialNetwork.userLoc(self.queryUser[0])
+            dist = self.selectedRoadNetwork.realUserDistance(queryLoc, commonLoc)
+            hops = self.selectedSocialNetwork.numberOfHops(self.queryUser[0],user)
+            keys = list(set(self.selectedSocialNetwork.getUserKeywords(user)).intersection(
+                    self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])))
+            temp = '<p>Number of hops: ' + str(hops) + '</p><p>Distance: ' + str(dist) + '</p><p>Common Keywords:</p><ol>'
+            for key in keys:
+                temp+= '<li>' + str(key) + '</li>'
+            temp+='</ol>'
+            network.add_node(user, physics=False, label=user,color='blue',title=temp)
+            rels = self.selectedSocialNetwork.commonRelations(user,users)
+            for rel in rels:
+                network.add_edge(rel, user, color='blue')
+        for user in users:
+            temp = self.selectedSocialNetwork.userLoc(user)
+            self.roadGraphWidget.plot([float(temp[0][0])], [float(temp[0][1])], pen=None, symbol='o', symbolSize=10,
+                        symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
+            network.add_edge(self.queryUser[0], user, color='red')
+        for loc in self.queryUser[1]:
+            self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
+                                                                 symbol='star', symbolSize=15, symbolPen=(255, 0, 0),
+                                                                 symbolBrush=(255, 0, 0, 200)))
+
+        nt = Network('100%', '100%')
+        nt.from_nx(network)
+        nt.save_graph('nx.html')
+    
+    def updateKdSummaryGraph(self):
+        # Clears last view
+        if self.summarySelected:
+            self.clearView()
+        self.createSumPlot("Summary")
+        self.socialNetWidget.reload()
+        # Adds event listener
+        self.roadGraphWidget.scene().sigMouseMoved.connect(self.mouseMoved)
+        # If a road network is selected, display info
+        if self.selectedRoadNetwork is not None:
+            self.selectedRoadNetwork.visualize(self.roadGraphWidget)
+        # If social network is selected, display clusters
+        if self.selectedSocialNetwork is not None:
+            kd = self.getKDTrust(self.queryInput.kTextBox.text(),self.queryInput.dTextBox.text(),self.queryInput.eTextBox.text())
+            self.visualizeKdData(kd)
+            with open('nx.html', 'r') as f:
+                html = f.read()
+                self.socialNetWidget.setHtml(html)
+        self.drawCrosshairs()
+
+    #Generate kdtrust from input
+    def getKDTrust(self,keywords,hops,distance):
+        # Users with common keywords
+        common = self.usersCommonKeyword(k=float(keywords))
+        # Narrow query down to users within hops
+        common = self.usersWithinHops(common, h=float(hops))
+        # Narrow down with degree of similarity distance (longest compute time)
+        common = self.usersWithinDistance(common, d=float(distance))
+        return common
 
     # Generate clusters from the social network
     def getSummaryClusters(self, n):
@@ -548,15 +646,15 @@ class Gui(QtWidgets.QMainWindow):
         # Set up input toolbar
         self.clusterInput = QtWidgets.QToolBar("clusterInput")
         self.clusterInput.setIconSize(QtCore.QSize(24, 24))
-        self.keywordInput = QtWidgets.QToolBar("keyowrdInput")
-        self.keywordInput.setIconSize(QtCore.QSize(24, 24))
-        self.distanceInput = QtWidgets.QToolBar("distanceInput")
-        self.distanceInput.setIconSize(QtCore.QSize(24, 24))
+        #self.keywordInput = QtWidgets.QToolBar("keyowrdInput")
+        #self.keywordInput.setIconSize(QtCore.QSize(24, 24))
+        #self.distanceInput = QtWidgets.QToolBar("distanceInput")
+        #self.distanceInput.setIconSize(QtCore.QSize(24, 24))
         self.addToolBar(self.clusterInput)
         # Create labels
         nLabel = QtWidgets.QLabel(text="n-clusters: ")
-        kLabel = QtWidgets.QLabel(text="keywords: ")
-        dLabel = QtWidgets.QLabel(text="t: ")
+        #kLabel = QtWidgets.QLabel(text="keywords: ")
+        #dLabel = QtWidgets.QLabel(text="distance: ")
         # Create buttons
         button = QtWidgets.QPushButton("Ok")
         button.clicked.connect(lambda: self.updateSummaryGraph())
@@ -565,21 +663,21 @@ class Gui(QtWidgets.QMainWindow):
         self.clusterInput.textBox.setValidator(QtGui.QIntValidator(0, 9999))
         self.clusterInput.textBox.setText("10")
         self.clusterInput.textBox.returnPressed.connect(button.click)
-        self.keywordInput.textBox = QtWidgets.QLineEdit()
-        self.keywordInput.textBox.setValidator(QtGui.QIntValidator(0, 9999))
-        self.keywordInput.textBox.setText("0")
-        self.keywordInput.textBox.returnPressed.connect(button.click)
-        self.distanceInput.textBox = QtWidgets.QLineEdit()
-        self.distanceInput.textBox.setValidator(QtGui.QIntValidator(0, 9999))
-        self.distanceInput.textBox.setText("0")
-        self.distanceInput.textBox.returnPressed.connect(button.click)
+        #self.keywordInput.textBox = QtWidgets.QLineEdit()
+        #self.keywordInput.textBox.setValidator(QtGui.QIntValidator(0, 9999))
+        #self.keywordInput.textBox.setText("0")
+        #self.keywordInput.textBox.returnPressed.connect(button.click)
+        #self.distanceInput.textBox = QtWidgets.QLineEdit()
+        #self.distanceInput.textBox.setValidator(QtGui.QIntValidator(0, 9999))
+        #self.distanceInput.textBox.setText("0")
+        #self.distanceInput.textBox.returnPressed.connect(button.click)
         # Add widgets to window
         self.clusterInput.addWidget(nLabel)
         self.clusterInput.addWidget(self.clusterInput.textBox)
-        self.clusterInput.addWidget(kLabel)
-        self.clusterInput.addWidget(self.keywordInput.textBox)
-        self.clusterInput.addWidget(dLabel)
-        self.clusterInput.addWidget(self.distanceInput.textBox)
+        #self.clusterInput.addWidget(kLabel)
+        #self.clusterInput.addWidget(self.keywordInput.textBox)
+        #self.clusterInput.addWidget(dLabel)
+        #self.clusterInput.addWidget(self.distanceInput.textBox)
         self.clusterInput.addWidget(button)
 
     # Returns query user in form [id, [[lat, lon], [lat, lon]]]
@@ -621,7 +719,7 @@ class Gui(QtWidgets.QMainWindow):
         eLabel = QtWidgets.QLabel(text="  η: ")
         # Create button
         button = QtWidgets.QPushButton("Get Query")
-        button.clicked.connect(lambda: self.updateSummaryGraph())
+        button.clicked.connect(lambda: self.updateKdSummaryGraph())
         # Create k text box
         self.queryInput.kTextBox = QtWidgets.QLineEdit()
         self.queryInput.kTextBox.setValidator(QtGui.QIntValidator(0, 9999))

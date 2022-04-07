@@ -2,7 +2,7 @@ import csv
 import math
 import threading
 from os.path import exists
-
+import networkx as nx
 
 # =====================================================================================================================
 #
@@ -19,6 +19,7 @@ from os.path import exists
 class SocialNetwork:
     def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, **kwargs):
         self.__name = name
+        self.networkX = nx.Graph()
         self.__rel = {}
         self.__loc = {}
         self.__keywordMap = {}
@@ -62,6 +63,7 @@ class SocialNetwork:
                         dict[user_id] = dict[user_id] + [[rel_user_id, weight]]
                     else:
                         dict[user_id] = [[rel_user_id, weight]]
+                    self.networkX.add_edge(float(user_id), float(rel_user_id), weight=1)
             self.__rel = dict
         else:
             self.__rel = None
@@ -89,6 +91,7 @@ class SocialNetwork:
                         dict[user_id] = dict[user_id] + [lat_pos, lon_pos]
                     else:
                         dict[user_id] = [[lat_pos, lon_pos]]
+                    self.networkX.add_node(float(user_id))
             self.__loc = dict
         else:
             self.__loc = None
@@ -293,6 +296,25 @@ class SocialNetwork:
 
     def getUsers(self):
         return list(self.__loc.keys())
+
+    def userLoc(self,userID):
+        return self.__loc[userID]
+
+    def numberOfHops(self, start, end):
+        hops = 0
+        try:
+            hops = nx.dijkstra_path_length(self.networkX,float(start),float(end))
+        except (nx.NetworkXNoPath, nx.NodeNotFound) as e:
+            hops = -1
+        #return self.networkX.number_of_edges(float(start), float(end))
+        return hops
+
+    def commonRelations(self, target, users):
+        result = []
+        for user in users:
+            if self.networkX.has_edge(user,target):
+                result.append(user)
+        return result
 
     # Visualize the data
     def visualize(self, snInst=None, rnInst=None):
