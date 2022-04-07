@@ -420,6 +420,8 @@ class Gui(QtWidgets.QMainWindow):
                 query = self.selectedSocialNetwork.userLoc(user)
                 d = dists[user]
                 h = hops[user]
+                if h == -1:
+                    h = 1
                 k = keys[user]
                 temp = '<p>Number of hops: ' + str(h) + '</p><p>Distance: ' + str(d) + '</p><p>Common Keywords:</p><ol>'
                 for key in k:
