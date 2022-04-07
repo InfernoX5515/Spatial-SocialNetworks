@@ -303,17 +303,14 @@ class Gui(QtWidgets.QMainWindow):
     # Returns users within d distance
     def usersWithinDistance(self, users, d=7):
         withinDistance = []
-        print(len(users))
         common = self.selectedSocialNetwork.userLoc(self.queryUser[0])
         commonLoc = self.selectedRoadNetwork.findNearest(common)
         for user in users:
-            s = time.time()
             query = self.selectedSocialNetwork.userLoc(user)
             queryLoc = self.selectedRoadNetwork.findNearest(query)
             dist = self.selectedRoadNetwork.realUserDistance(queryLoc, commonLoc)
             if dist <= d:
                 withinDistance.append(user)
-            print(time.time() - s)
         return withinDistance
 
     # Handles summary view
@@ -410,10 +407,11 @@ class Gui(QtWidgets.QMainWindow):
             network.add_node(self.queryUser[0], physics=False, label=str('Query: ') + self.queryUser[0], color='red',
                              title=titleTemp)
             # Add common users
+            common = self.selectedSocialNetwork.userLoc(self.queryUser[0])
+            commonLoc = self.selectedRoadNetwork.findNearest(common)
             for user in users:
-                queryLoc = self.selectedSocialNetwork.userLoc(user)
-                print(queryLoc)
-                commonLoc = self.selectedSocialNetwork.userLoc(self.queryUser[0])
+                query = self.selectedSocialNetwork.userLoc(user)
+                queryLoc = self.selectedRoadNetwork.findNearest(query)
                 dist = self.selectedRoadNetwork.realUserDistance(queryLoc, commonLoc)
                 hops = self.selectedSocialNetwork.numberOfHops(self.queryUser[0], user)
                 keys = list(set(self.selectedSocialNetwork.getUserKeywords(user)).intersection(
@@ -442,7 +440,6 @@ class Gui(QtWidgets.QMainWindow):
         if self.selectedSocialNetwork is not None:
             kd = self.getKDTrust(self.queryInput.kTextBox.text(), self.queryInput.dTextBox.text(),
                                  self.queryInput.eTextBox.text())
-            print(f"kd: {kd}")
             self.visualizeKdData(kd)
             with open('nx.html', 'r') as f:
                 html = f.read()
@@ -450,14 +447,15 @@ class Gui(QtWidgets.QMainWindow):
 
     #Generate kdtrust from input
     def getKDTrust(self, keywords, hops, distance):
-        # Users with common keywords
-        common = self.usersCommonKeyword(k=float(keywords))
-        # Narrow query down to users within hops
-        common = self.usersWithinHops(common, h=float(hops))
-        print(f"common: {common}")
-        # Narrow down with degree of similarity distance (longest compute time)
-        common = self.usersWithinDistance(common, d=float(distance))
-        return common
+        if self.queryUser is not None:
+            # Users with common keywords
+            common = self.usersCommonKeyword(k=float(keywords))
+            # Narrow query down to users within hops
+            common = self.usersWithinHops(common, h=float(hops))
+            # Narrow down with degree of similarity distance (longest compute time)
+            common = self.usersWithinDistance(common, d=float(distance))
+            print(common)
+            return common
 
     # Generate clusters from the social network
     def getSummaryClusters(self, n):
