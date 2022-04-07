@@ -411,8 +411,8 @@ class Gui(QtWidgets.QMainWindow):
             for key in queryKeys:
                 titleTemp += '<li>' + str(key) + '</li>'
             titleTemp += '</ol>'
-            network.add_node(self.queryUser[0], physics=False, label=str('Query: ') + self.queryUser[0], color='red',
-                             title=titleTemp)
+            network.add_node(self.queryUser[0], physics=False, label=str('Query: ') + str(int(float(self.queryUser[0]))),
+                             color='red', title=titleTemp)
             # Add common users
             common = self.selectedSocialNetwork.userLoc(self.queryUser[0])
             commonLoc = self.selectedRoadNetwork.findNearest(common)
@@ -425,7 +425,7 @@ class Gui(QtWidgets.QMainWindow):
                 for key in k:
                     temp += '<li>' + str(key) + '</li>'
                 temp += '</ol>'
-                network.add_node(user, physics=False, label=user, color='blue', title=temp)
+                network.add_node(user, physics=False, label=str(int(float(user))), color='blue', title=temp)
                 rels = self.selectedSocialNetwork.commonRelations(user, users)
                 for rel in rels:
                     network.add_edge(rel, user, color='blue')
