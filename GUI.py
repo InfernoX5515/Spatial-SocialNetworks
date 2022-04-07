@@ -728,14 +728,14 @@ class Gui(QtWidgets.QMainWindow):
         # Create k text box
         self.queryInput.kTextBox = QtWidgets.QLineEdit()
         self.queryInput.kTextBox.setValidator(QtGui.QIntValidator(0, 9999))
-        self.queryInput.kTextBox.setText("1")
+        self.queryInput.kTextBox.setText("5")
         self.queryInput.kTextBox.returnPressed.connect(button.click)
         self.queryInput.kTextBox.setToolTip("k is used to control the community's structural cohesiveness. Larger k "
                                             "means higher structural cohesiveness")
         # Create d text box
         self.queryInput.dTextBox = QtWidgets.QLineEdit()
         self.queryInput.dTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
-        self.queryInput.dTextBox.setText("2")
+        self.queryInput.dTextBox.setText("1")
         self.queryInput.dTextBox.returnPressed.connect(button.click)
         self.queryInput.dTextBox.setToolTip("d controls the maximum number of hops between users")
         # Create e text box
