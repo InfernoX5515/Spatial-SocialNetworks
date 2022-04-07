@@ -133,8 +133,6 @@ class Gui(QtWidgets.QMainWindow):
     # TODO: Fix issue where graph is squished
     def jogLeftTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
-        yRanges = self.roadGraphWidget.getAxis('left').range
-        #xScale, yScale = self.getZoomScale(xRanges, yRanges)
         xScale = (abs(xRanges[1] - xRanges[0]) * .25) / 2
 
         self.roadGraphWidget.setXRange(xRanges[0] + xScale, xRanges[1] + xScale)
@@ -142,19 +140,19 @@ class Gui(QtWidgets.QMainWindow):
     # TODO: Fix issue where graph is squished
     def jogRightTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
-        scale = ((abs(xRanges[0]) - abs(xRanges[1]) - ((abs(xRanges[0]) - abs(xRanges[1]))) * 0.75)) / 2
+        scale = (abs(xRanges[0]) - abs(xRanges[1]) - (abs(xRanges[0]) - abs(xRanges[1])) * 0.75) / 2
         self.roadGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] - scale)
 
     # TODO: Fix issue where graph is squished
     def jogUpTool(self):
         yRanges = self.roadGraphWidget.getAxis('left').range
-        scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
+        scale = (abs(yRanges[0]) - abs(yRanges[1]) - (abs(yRanges[0]) - abs(yRanges[1])) * 0.75) / 2
         self.roadGraphWidget.setYRange(yRanges[0] + scale, yRanges[1] + scale)
 
     # TODO: Fix issue where graph is squished
     def jogDownTool(self):
         yRanges = self.roadGraphWidget.getAxis('left').range
-        scale = ((abs(yRanges[0]) - abs(yRanges[1]) - ((abs(yRanges[0]) - abs(yRanges[1]))) * 0.75)) / 2
+        scale = (abs(yRanges[0]) - abs(yRanges[1]) - (abs(yRanges[0]) - abs(yRanges[1])) * 0.75) / 2
         self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] - scale)
 
     # Creates the navigation toolbar
@@ -293,7 +291,7 @@ class Gui(QtWidgets.QMainWindow):
     def usersWithinHops(self, users, h=0):
         withinHops = []
         for user in users:
-            hops = self.selectedSocialNetwork.numberOfHops(self.queryUser[0],user)
+            hops = self.selectedSocialNetwork.numberOfHops(self.queryUser[0], user)
             if h == 0:
                 withinHops.append(user)
             else:
@@ -308,7 +306,7 @@ class Gui(QtWidgets.QMainWindow):
             queryLoc = self.selectedSocialNetwork.userLoc(user)
             commonLoc = self.selectedSocialNetwork.userLoc(self.queryUser[0])
             dist = self.selectedRoadNetwork.realUserDistance(queryLoc, commonLoc)
-            if(dist <= d):
+            if dist <= d:
                 withinDistance.append(user) 
         return withinDistance
 
@@ -368,7 +366,7 @@ class Gui(QtWidgets.QMainWindow):
             network.add_node(str(centers[i][0]) + str(centers[i][1]), physics=False, label=popSize[i])
         for i in range(1, len(relations[0])):
             network.add_edge(str(relations[0][i]) + str(relations[1][i]),
-                            str(relations[0][i - 1]) + str(relations[1][i - 1]))
+                             str(relations[0][i - 1]) + str(relations[1][i - 1]))
         nt = Network('100%', '100%')
         nt.from_nx(network)
         nt.save_graph('nx.html')
@@ -396,7 +394,6 @@ class Gui(QtWidgets.QMainWindow):
                 self.socialNetWidget.setHtml(html)
         self.plotQueryUser()
 
-    
     def visualizeKdData(self, users):
         # Create Interactive Graph HTML File Using pyvis
         network = nx.Graph()
@@ -404,29 +401,31 @@ class Gui(QtWidgets.QMainWindow):
         # Add query user
         queryKeys = self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
         for key in queryKeys:
-            titleTemp+= '<li>' + str(key) + '</li>'
-        titleTemp+='</ol>'
-        network.add_node(self.queryUser[0], physics=False, label=str('Query: ') + self.queryUser[0], color='red',title=titleTemp)
+            titleTemp += '<li>' + str(key) + '</li>'
+        titleTemp += '</ol>'
+        network.add_node(self.queryUser[0], physics=False, label=str('Query: ') + self.queryUser[0], color='red',
+                         title=titleTemp)
         # Add common users
         for user in users:
             queryLoc = self.selectedSocialNetwork.userLoc(user)
             commonLoc = self.selectedSocialNetwork.userLoc(self.queryUser[0])
             dist = self.selectedRoadNetwork.realUserDistance(queryLoc, commonLoc)
-            hops = self.selectedSocialNetwork.numberOfHops(self.queryUser[0],user)
+            hops = self.selectedSocialNetwork.numberOfHops(self.queryUser[0], user)
             keys = list(set(self.selectedSocialNetwork.getUserKeywords(user)).intersection(
                     self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])))
-            temp = '<p>Number of hops: ' + str(hops) + '</p><p>Distance: ' + str(dist) + '</p><p>Common Keywords:</p><ol>'
+            temp = '<p>Number of hops: ' + str(hops) + '</p><p>Distance: ' + str(dist) + \
+                   '</p><p>Common Keywords:</p><ol>'
             for key in keys:
-                temp+= '<li>' + str(key) + '</li>'
-            temp+='</ol>'
-            network.add_node(user, physics=False, label=user,color='blue',title=temp)
-            rels = self.selectedSocialNetwork.commonRelations(user,users)
+                temp += '<li>' + str(key) + '</li>'
+            temp += '</ol>'
+            network.add_node(user, physics=False, label=user, color='blue', title=temp)
+            rels = self.selectedSocialNetwork.commonRelations(user, users)
             for rel in rels:
                 network.add_edge(rel, user, color='blue')
         for user in users:
             temp = self.selectedSocialNetwork.userLoc(user)
             self.roadGraphWidget.plot([float(temp[0][0])], [float(temp[0][1])], pen=None, symbol='o', symbolSize=10,
-                        symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
+                                      symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
             network.add_edge(self.queryUser[0], user, color='red')
         for loc in self.queryUser[1]:
             self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
@@ -450,7 +449,8 @@ class Gui(QtWidgets.QMainWindow):
             self.selectedRoadNetwork.visualize(self.roadGraphWidget)
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
-            kd = self.getKDTrust(self.queryInput.kTextBox.text(),self.queryInput.dTextBox.text(),self.queryInput.eTextBox.text())
+            kd = self.getKDTrust(self.queryInput.kTextBox.text(), self.queryInput.dTextBox.text(),
+                                 self.queryInput.eTextBox.text())
             self.visualizeKdData(kd)
             with open('nx.html', 'r') as f:
                 html = f.read()
@@ -458,7 +458,7 @@ class Gui(QtWidgets.QMainWindow):
         self.drawCrosshairs()
 
     #Generate kdtrust from input
-    def getKDTrust(self,keywords,hops,distance):
+    def getKDTrust(self, keywords, hops, distance):
         # Users with common keywords
         common = self.usersCommonKeyword(k=float(keywords))
         # Narrow query down to users within hops
@@ -491,7 +491,7 @@ class Gui(QtWidgets.QMainWindow):
         popSize = []
         for x in clusterItems:
             if isinstance(clusterItems[x], list):
-               popSize.append(len(clusterItems[x]))
+                popSize.append(len(clusterItems[x]))
 
         relations = [[], []]
         while len(clusterStart) != 1:
@@ -700,8 +700,8 @@ class Gui(QtWidgets.QMainWindow):
                 color = (255, 0, 0)
             for loc in self.queryUser[1]:
                 self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
-                                                                 symbol='star', symbolSize=30, symbolPen=color,
-                                                                 symbolBrush=color))
+                                                                     symbol='star', symbolSize=30, symbolPen=color,
+                                                                     symbolBrush=color))
 
     def setQueryKeyword(self, keyword):
         self.queryKeyword = keyword

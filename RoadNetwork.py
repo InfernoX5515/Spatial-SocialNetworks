@@ -20,10 +20,12 @@ from functools import partial
 #
 # =====================================================================================================================
 
+
 def find_nearest(points, coord):
     dist = lambda s, key: (float(s[0]) - float(points[key][0])) ** 2 + \
                             (float(s[1]) - float(points[key][1])) ** 2
     return min(points, key=partial(dist, coord))
+
 
 class RoadNetwork:
     def __init__(self, name, edgeFile=None, nodeFile=None, POIFile=None, POIKeyFile=None, POIKeyMapFile=None, **kwargs):
@@ -237,7 +239,8 @@ class RoadNetwork:
     # Visualize the data
     def visualize(self, edgeInst=None, POIInst=None):
         if edgeInst is not None:
-            self.edgeInst = edgeInst.plot(self.__flattenedData[0], self.__flattenedData[1], connect='pairs', pen='black')
+            self.edgeInst = edgeInst.plot(self.__flattenedData[0], self.__flattenedData[1], connect='pairs',
+                                          pen='black')
         if POIInst is not None:
             random.seed()
             for category in self.__flattenedPOIs:
