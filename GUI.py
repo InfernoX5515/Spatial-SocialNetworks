@@ -329,6 +329,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
             if self.selectedSocialNetwork is not None:
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
+            self.plotQueryUser()
 
     def visualizeSummaryData(self, centers, sizes, relations, popSize):
         # Note: For some reason, the alpha value is from 0-255 not 0-100
@@ -366,6 +367,7 @@ class Gui(QtWidgets.QMainWindow):
             with open('nx.html', 'r') as f:
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
+        self.plotQueryUser()
 
     # Generate clusters from the social network
     def getSummaryClusters(self, n):
@@ -594,10 +596,14 @@ class Gui(QtWidgets.QMainWindow):
             if not self.queryUserPlots:
                 [a.clear() for a in self.queryUserPlots]
             self.queryUserPlots = []
+            if self.summarySelected:
+                color = (0, 255, 0)
+            else:
+                color = (255, 0, 0)
             for loc in self.queryUser[1]:
                 self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
-                                                                 symbol='star', symbolSize=30, symbolPen=(255, 0, 0),
-                                                                 symbolBrush=(255, 0, 0, 200)))
+                                                                 symbol='star', symbolSize=30, symbolPen=color,
+                                                                 symbolBrush=color))
 
     def setQueryKeyword(self, keyword):
         self.queryKeyword = keyword
@@ -865,6 +871,7 @@ class Gui(QtWidgets.QMainWindow):
             if self.selectedSocialNetwork is not None:
                 centers, sizes, relations, popSize = self.getSummaryClusters(self.clusterInput.textBox.text())
                 self.visualizeSummaryData(centers, sizes, relations, popSize)
+            self.plotQueryUser()
             #self.linkGraphAxis()
 
     def displaySocialNetwork(self, network):
