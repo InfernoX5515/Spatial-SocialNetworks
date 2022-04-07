@@ -409,7 +409,7 @@ class Gui(QtWidgets.QMainWindow):
             # Add query user
             queryKeys = self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
             for key in queryKeys:
-                titleTemp += '<li>' + str(key) + '</li>'
+                titleTemp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
             titleTemp += '</ol>'
             network.add_node(self.queryUser[0], physics=False, label=str('Query: ') + str(int(float(self.queryUser[0]))),
                              color='red', title=titleTemp)
@@ -423,7 +423,7 @@ class Gui(QtWidgets.QMainWindow):
                 k = keys[user]
                 temp = '<p>Number of hops: ' + str(h) + '</p><p>Distance: ' + str(d) + '</p><p>Common Keywords:</p><ol>'
                 for key in k:
-                    temp += '<li>' + str(key) + '</li>'
+                    temp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
                 temp += '</ol>'
                 network.add_node(user, physics=False, label=str(int(float(user))), color='blue', title=temp)
                 rels = self.selectedSocialNetwork.commonRelations(user, users)
@@ -566,12 +566,12 @@ class Gui(QtWidgets.QMainWindow):
                 self.__windows[3].checkboxes.append(widget)
                 layout.addWidget(widget, row, column)
                 column += 1
-                if column == 20:
+                if column == 10:
                     column = 0
                     row += 1
             button = QtWidgets.QPushButton("Ok")
             button.clicked.connect(lambda: self.showUsersWithKeywords())
-            layout.addWidget(button, row + 2, 19)
+            layout.addWidget(button, row + 2, 8)
         else:
             button = QtWidgets.QPushButton("Cancel")
             button.clicked.connect(lambda: self.__windows[3].close())
@@ -595,7 +595,7 @@ class Gui(QtWidgets.QMainWindow):
         column = 0
         if self.queryUser is not None:
             for keyword in self.selectedSocialNetwork.getUserKeywords(self.queryUser[0]):
-                widget = QtWidgets.QPushButton(keyword)
+                widget = QtWidgets.QPushButton(self.selectedSocialNetwork.getKeywordByID(keyword))
                 widget.clicked.connect(lambda junk, k=keyword: self.setQueryKeyword(k))
                 self.__windows[5].buttons.append(widget)
                 layout.addWidget(widget, row, column)
@@ -624,7 +624,7 @@ class Gui(QtWidgets.QMainWindow):
         keywords = []
         for checkbox in checkboxes:
             if checkbox.isChecked():
-                keywords.append(checkbox.text())
+                keywords.append(self.selectedSocialNetwork.getIDByKeyword(checkbox.text()))
         if len(keywords) == 0:
             self.__windows[4].close()
         else:
@@ -633,7 +633,10 @@ class Gui(QtWidgets.QMainWindow):
             column = 0
             for user in users:
                 widget = QtWidgets.QPushButton(user.split(".0")[0])
-                widget.setToolTip(f"Keywords: {', '.join(self.selectedSocialNetwork.getUserKeywords(user))}")
+                keywordsStr = []
+                for id in self.selectedSocialNetwork.getUserKeywords(user):
+                    keywordsStr.append(self.selectedSocialNetwork.getKeywordByID(id))
+                widget.setToolTip(f"Keywords: \n{chr(10).join(keywordsStr)}")
                 widget.clicked.connect(lambda junk, u=user: self.setQueryUser(u))
                 layout.addWidget(widget, row, column)
                 column += 1
@@ -711,7 +714,7 @@ class Gui(QtWidgets.QMainWindow):
 
     def setQueryKeyword(self, keyword):
         self.queryKeyword = keyword
-        self.queryUserToolbar.keywordLabel.setText(keyword)
+        self.queryUserToolbar.keywordLabel.setText(self.selectedSocialNetwork.getKeywordByID(keyword))
         self.__windows[5].close()
 
     def __queryInput(self):

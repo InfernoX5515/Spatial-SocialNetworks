@@ -23,6 +23,7 @@ class SocialNetwork:
         self.__rel = {}
         self.__loc = {}
         self.__keywordMap = {}
+        self.__keywordMapReverse = {}
         self.__keywords = {}
         self.__flattenedRelData = [[], []]
         self.__flattenedLocData = [[], []]
@@ -110,6 +111,7 @@ class SocialNetwork:
     def loadKey(self, kPath=None, mPath=None):
         if kPath is not None and mPath is not None and exists(kPath) and exists(mPath):
             keywords = {}
+            keywordsReverse = {}
             userKeywords = {}
             # Gets key map
             with open(mPath, 'r') as csvfile:
@@ -122,6 +124,7 @@ class SocialNetwork:
                         raise Exception(f"Error: Duplicate value in {mPath}")
                     else:
                         keywords[keyword_id] = keyword
+                        keywordsReverse[keyword] = keyword_id
             # Gets user keywords
             with open(kPath, 'r') as kfile:
                 reader = csv.reader(kfile, delimiter=',', quotechar='|')
@@ -134,9 +137,11 @@ class SocialNetwork:
                     else:
                         userKeywords[user_id] = [keyword_id]
             self.__keywordMap = keywords
+            self.__keywordMapReverse = keywordsReverse
             self.__keywords = userKeywords
         else:
             self.__keywordMap = None
+            self.__keywordMapReverse = None
             self.__keywords = None
 
     # Parses the rel data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
@@ -263,10 +268,15 @@ class SocialNetwork:
     def getIDByLoc(self, lat, lon):
         return self.IDByLoc[f"['{lat}', '{lon}']"]
 
-    # TODO: Change this to return keyword not keyword_id when keyword is generated
     # Returns all keywords
     def getKeywords(self):
-        return list(self.__keywordMap.keys())
+        return list(self.__keywordMap.values())
+
+    def getIDByKeyword(self, keyword):
+        return str(self.__keywordMapReverse[keyword])
+
+    def getKeywordByID(self, id):
+        return str(self.__keywordMap[id])
 
     def getUsersWithKeywords(self, keywords):
         matches = []
