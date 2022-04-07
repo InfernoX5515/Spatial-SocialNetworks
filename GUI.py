@@ -633,6 +633,7 @@ class Gui(QtWidgets.QMainWindow):
             column = 0
             for user in users:
                 widget = QtWidgets.QPushButton(user.split(".0")[0])
+                widget.setToolTip(f"Keywords: {', '.join(self.selectedSocialNetwork.getUserKeywords(user))}")
                 widget.clicked.connect(lambda junk, u=user: self.setQueryUser(u))
                 layout.addWidget(widget, row, column)
                 column += 1
