@@ -297,7 +297,7 @@ class SocialNetwork:
     def getUsers(self):
         return list(self.__loc.keys())
 
-    def userLoc(self,userID):
+    def userLoc(self, userID):
         return self.__loc[userID]
 
     def numberOfHops(self, start, end):

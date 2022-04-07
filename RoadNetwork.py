@@ -9,6 +9,7 @@ from PyQt5.QtGui import QFont
 import networkx as nx
 from functools import partial
 
+
 # =====================================================================================================================
 #
 #   Authors: Halie Eckert, Gavin Hulvey, Sydney Zuelzke
@@ -22,8 +23,7 @@ from functools import partial
 
 
 def find_nearest(points, coord):
-    dist = lambda s, key: (float(s[0]) - float(points[key][0])) ** 2 + \
-                            (float(s[1]) - float(points[key][1])) ** 2
+    dist = lambda s, key: (float(s[0]) - float(points[key][0])) ** 2 + (float(s[1]) - float(points[key][1])) ** 2
     return min(points, key=partial(dist, coord))
 
 
@@ -229,11 +229,12 @@ class RoadNetwork:
         return None
 
     def getEdgeDistance(self, edgeId):
-        return self.__edges[edgeId][2] 
+        return self.__edges[edgeId][2]
 
-    def realUserDistance(self, queryUser, commonUser):
-        usrA = find_nearest(self.__nodes, (float(queryUser[0][0]), float(queryUser[0][1])))
-        usrB = find_nearest(self.__nodes, (float(commonUser[0][0]), float(commonUser[0][1])))
+    def findNearest(self, user):
+        return find_nearest(self.__nodes, (float(user[0][0]), float(user[0][1])))
+
+    def realUserDistance(self, usrA, usrB):
         return nx.dijkstra_path_length(self.networkX, source=float(usrA), target=float(usrB))
 
     # Visualize the data
