@@ -621,8 +621,15 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[4] = QtWidgets.QWidget()
         self.__windows[4].setWindowModality(QtCore.Qt.ApplicationModal)
         self.__windows[4].setWindowTitle('Choose a Query User')
-        self.__windows[4].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        self.__windows[4].resize(int(self.frameGeometry().width()), int(self.frameGeometry().height()))
+        mainLayout = QtWidgets.QVBoxLayout(self)
+        scroll = QtWidgets.QScrollArea(self)
+        self.__windows[4].setLayout(mainLayout)
+        mainLayout.addWidget(scroll)
+        scroll.setWidgetResizable(True)
+        scrollContent = QtWidgets.QWidget(scroll)
         layout = QtWidgets.QGridLayout()
+        scrollContent.setLayout(layout)
         keywords = []
         for checkbox in checkboxes:
             if checkbox.isChecked():
@@ -642,10 +649,10 @@ class Gui(QtWidgets.QMainWindow):
                 widget.clicked.connect(lambda junk, u=user: self.setQueryUser(u))
                 layout.addWidget(widget, row, column)
                 column += 1
-                if column == 10:
+                if column == 9:
                     column = 0
                     row += 1
-            self.__windows[4].setLayout(layout)
+            scroll.setWidget(scrollContent)
             self.__windows[4].show()
             self.__windows[4].move(self.geometry().center() - self.__windows[4].rect().center())
 
