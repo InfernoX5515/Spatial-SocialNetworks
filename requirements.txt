@@ -1,5 +1,6 @@
 pyqtgraph~=0.12.3
 PyQt5~=5.15.6
+PyQt5.QtWebEngineWidgets
 networkx~=2.6.3
 matplotlib~=3.5.1
 scikit-learn~=1.0.2
