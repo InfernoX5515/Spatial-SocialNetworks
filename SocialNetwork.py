@@ -1,7 +1,9 @@
+from ast import keyword
 import csv
 import math
 import threading
 from os.path import exists
+from unittest import result
 from aem import con
 import networkx as nx
 import sqlite3
@@ -19,14 +21,14 @@ import sqlite3
 
 
 class SocialNetwork:
-    def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, **kwargs):
+    def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, id=1, **kwargs):
         self.__name = name
+        self.id = id
         self.networkX = nx.MultiGraph()
+        self.connection = sqlite3.connect("dataset.db")
+        self.cursor = self.connection.cursor()
         self.__rel = {}
         self.__loc = {}
-        self.__keywordMap = {}
-        self.__keywordMapReverse = {}
-        self.__keywords = {}
         self.__flattenedRelData = [[], []]
         self.__flattenedLocData = [[], []]
         self.__chunkedLocData = []
@@ -99,53 +101,7 @@ class SocialNetwork:
         else:
             self.__loc = None
 
-    # Reads keyword files from path.
-    # keywordMap = {
-    #    "keyword_id": "keyword",
-    #    "keyword_id": "keyword"
-    # }
-    #
-    # keywords = {
-    #     "user_id": [keyword_id, keyword_id],
-    #     "user_id": [keyword_id]
-    # }
-    # noinspection SpellCheckingInspection,PyShadowingBuiltins
-    def loadKey(self, kPath=None, mPath=None):
-        if kPath is not None and mPath is not None and exists(kPath) and exists(mPath):
-            keywords = {}
-            keywordsReverse = {}
-            userKeywords = {}
-            # Gets key map
-            with open(mPath, 'r') as csvfile:
-                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                next(reader)
-                for row in reader:
-                    keyword_id = row[0]
-                    keyword = row[1]
-                    if keyword_id in keywords:
-                        raise Exception(f"Error: Duplicate value in {mPath}")
-                    else:
-                        keywords[keyword_id] = keyword
-                        keywordsReverse[keyword] = keyword_id
-            # Gets user keywords
-            with open(kPath, 'r') as kfile:
-                reader = csv.reader(kfile, delimiter=',', quotechar='|')
-                next(reader)
-                for row in reader:
-                    user_id = str(float(row[0]))
-                    keyword_id = row[1]
-                    if user_id in list(userKeywords.keys()):
-                        userKeywords[user_id].append(keyword_id)
-                    else:
-                        userKeywords[user_id] = [keyword_id]
-            self.__keywordMap = keywords
-            self.__keywordMapReverse = keywordsReverse
-            self.__keywords = userKeywords
-        else:
-            self.__keywordMap = None
-            self.__keywordMapReverse = None
-            self.__keywords = None
-
+    
     # Parses the rel data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data.
     def flattenRelData(self):
@@ -272,55 +228,88 @@ class SocialNetwork:
 
     # Returns all keywords
     def getKeywords(self):
-        connection = sqlite3.connect("dataset.db")
-        cursor = connection.cursor()
-        cursor.execute("SELECT Keyword FROM Keywords")
-        rows = cursor.fetchall()
+        self.cursor.execute("SELECT Keyword FROM Keywords")
+        rows = self.cursor.fetchall()
         data = []
         for row in rows:
             data.append(row[0])
-        print(data)
-        connection.close()
         return data
-        # return list(self.__keywordMap.values())
 
     def getIDByKeyword(self, keyword):
-        return str(self.__keywordMapReverse[keyword])
+        self.cursor.execute("SELECT ID FROM Keywords WHERE Keyword=?",(keyword,))
+        rows = self.cursor.fetchall()
+        return rows[0][0]
 
     def getKeywordByID(self, id):
-        return str(self.__keywordMap[id])
+        self.cursor.execute("SELECT Keyword FROM Keywords WHERE ID=?",(id,))
+        rows = self.cursor.fetchall()
+        return rows[0][0]
 
     def getUsersWithKeywords(self, keywords):
+        sql = ""
+        for keyword in keywords:
+            if sql != "":
+                sql += " INTERSECT "
+            sql += f"SELECT KeywordMap.UserID FROM KeywordMap JOIN UserLocations UL ON KeywordMap.UserID = UL.UserID WHERE KeywordID ={keyword} AND UL.SocialNetwork={self.id}"
+        self.cursor.execute(sql)
+        rows = self.cursor.fetchall()
         matches = []
-        for user in list(self.__loc.keys()):
-            if keywords:
-                match = True
-                for keyword in keywords:
-                    if user not in self.__keywords or keyword not in self.__keywords[user]:
-                        match = False
-                        break
-                if not match:
-                    continue
-                matches.append(user)
-            else:
-                if user not in self.__keywords:
-                    matches.append(user)
+        for row in rows:
+            matches.append(row[0])
+        return matches
+
+    def getUsersWithKeyword(self, keyword):
+        self.cursor.execute("SELECT KeywordMap.UserID FROM KeywordMap JOIN UserLocations UL ON KeywordMap.UserID = UL.UserID WHERE KeywordMap.KeywordID =? AND UL.SocialNetwork=?",(int(keyword),self.id))
+        rows = self.cursor.fetchall()
+        matches = []
+        for row in rows:
+            matches.append(row[0])
         return matches
 
     def getUser(self, userID):
-        return [userID, self.__loc[userID]]
+        self.cursor.execute("SELECT Latitude, Longitude FROM UserLocations WHERE SocialNetwork=? AND UserID=?",(self.id,userID))
+        rows = self.cursor.fetchall()
+        result = []
+        for row in rows:
+            result.append(row)
+        return [userID, result]
 
     def getUserKeywords(self, userID):
-        if userID in self.__keywords:
-            return self.__keywords[userID]
-        else:
-            return []
+        self.cursor.execute("SELECT KeywordID FROM KeywordMap WHERE UserID=?",(userID,))
+        rows = self.cursor.fetchall()
+        result = []
+        for row in rows:
+            result.append(row[0])
+        return result
+
+    def usersCommonKeywords(self,query,k=1):
+        queryKeys = self.getUserKeywords(query)
+        results = {}
+        for key in queryKeys:
+            users = self.getUsersWithKeyword(key)
+            for user in users:
+                if user in results:
+                    results[user] = results[user] + 1
+                else:
+                    results[user] = 1
+        detalied = {}
+        for key in results:
+            if results[key] >= k:
+                detalied[key] = results[key]
+        return [key for (key, value) in results.items() if value >= k], detalied
 
     def getUsers(self):
-        return list(self.__loc.keys())
+        self.cursor.execute("SELECT UserID FROM UserLocations WHERE SocialNetwork=?",(self.id,))
+        rows = self.cursor.fetchall()
+        result = []
+        for row in rows:
+            result.append(row[0])
+        return result
 
     def userLoc(self, userID):
-        return self.__loc[userID]
+        self.cursor.execute("SELECT Latitude, Longitude FROM UserLocations WHERE UserID=? AND SocialNetwork=?",(userID, self.id))
+        rows = self.cursor.fetchall()
+        return rows
 
     def numberOfHops(self, start, end):
         hops = 0

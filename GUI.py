@@ -256,15 +256,15 @@ class Gui(QtWidgets.QMainWindow):
     def usersCommonKeyword(self, k=1):
         commonUsers = []
         commonDetails = {}
-        if self.queryUser is not None:
-            users = self.selectedSocialNetwork.getUsers()
-            for user in users:
-                if user is not self.queryUser[0]:
-                    common = list(set(self.selectedSocialNetwork.getUserKeywords(user)).intersection(
-                        self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])))
-                    if len(common) > (k-1):
-                        commonDetails[user] = common
-                        commonUsers.append(user)
+        #if self.queryUser is not None:
+        #    users = self.selectedSocialNetwork.getUsers()
+        #    for user in users:
+        #        if user is not self.queryUser[0]:
+        #            common = list(set(self.selectedSocialNetwork.getUserKeywords(user)).intersection(
+        #                self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])))
+        #            if len(common) > (k-1):
+        #                commonDetails[user] = common
+        #                commonUsers.append(user)
         return commonUsers, commonDetails
 
     def dijkstra(self, queryUser):
@@ -310,6 +310,7 @@ class Gui(QtWidgets.QMainWindow):
         withinDistance = []
         distDetails = {}
         common = self.selectedSocialNetwork.userLoc(self.queryUser[0])
+        print(common)
         commonLoc = self.selectedRoadNetwork.findNearest(common)
         for user in users:
             query = self.selectedSocialNetwork.userLoc(user)
@@ -422,10 +423,10 @@ class Gui(QtWidgets.QMainWindow):
                 h = hops[user]
                 if h == -1:
                     h = 1
-                k = keys[user]
+                #k = keys[user]
                 temp = '<p>Number of hops: ' + str(h) + '</p><p>Distance: ' + str(d) + '</p><p>Common Keywords:</p><ol>'
-                for key in k:
-                    temp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
+                #for key in queryKeys:
+                #    temp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
                 temp += '</ol>'
                 network.add_node(user, physics=False, label=str(int(float(user))), color='blue', title=temp)
                 rels = self.selectedSocialNetwork.commonRelations(user, users)
@@ -464,7 +465,7 @@ class Gui(QtWidgets.QMainWindow):
     def getKDTrust(self, keywords, distance, hops):
         if self.queryUser is not None:
             # Users with common keywords
-            common, keys = self.usersCommonKeyword(k=float(keywords))
+            common, keys = self.selectedSocialNetwork.usersCommonKeywords(self.queryUser[0], k=float(keywords))
             # Narrow query down to users within hops
             common, hops = self.usersWithinHops(common, h=float(hops))
             # Narrow down with degree of similarity distance (longest compute time)
@@ -641,7 +642,7 @@ class Gui(QtWidgets.QMainWindow):
             row = 0
             column = 0
             for user in users:
-                widget = QtWidgets.QPushButton(user.split(".0")[0])
+                widget = QtWidgets.QPushButton(str(user))
                 keywordsStr = []
                 for id in self.selectedSocialNetwork.getUserKeywords(user):
                     keywordsStr.append(self.selectedSocialNetwork.getKeywordByID(id))
@@ -702,8 +703,9 @@ class Gui(QtWidgets.QMainWindow):
             self.queryUserPlots = []
         self.queryUser = self.selectedSocialNetwork.getUser(user)
         self.plotQueryUser()
-        self.queryUserToolbar.userLabel.setText(user.split(".0")[0])
-        self.usersCommonKeyword()
+        self.queryUserToolbar.userLabel.setText(str(user))
+        #self.usersCommonKeyword()
+        self.selectedSocialNetwork.usersCommonKeywords(self.queryUser[0])
         self.__windows[4].close()
         self.dijkstra(self.queryUser)
 
