@@ -2,7 +2,9 @@ import csv
 import math
 import threading
 from os.path import exists
+from aem import con
 import networkx as nx
+import sqlite3
 
 # =====================================================================================================================
 #
@@ -270,7 +272,17 @@ class SocialNetwork:
 
     # Returns all keywords
     def getKeywords(self):
-        return list(self.__keywordMap.values())
+        connection = sqlite3.connect("dataset.db")
+        cursor = connection.cursor()
+        cursor.execute("SELECT Keyword FROM Keywords")
+        rows = cursor.fetchall()
+        data = []
+        for row in rows:
+            data.append(row[0])
+        print(data)
+        connection.close()
+        return data
+        # return list(self.__keywordMap.values())
 
     def getIDByKeyword(self, keyword):
         return str(self.__keywordMapReverse[keyword])
