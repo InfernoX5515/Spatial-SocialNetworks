@@ -5,9 +5,11 @@ import threading
 from os.path import exists
 from tkinter.tix import Select
 from unittest import result
-from aem import con
+#from aem import con
+from sklearn.cluster import KMeans
 import networkx as nx
 import sqlite3
+from collections import Counter
 
 # =====================================================================================================================
 #
@@ -228,7 +230,6 @@ class SocialNetwork:
             temp.append(row[0])
             temp.append(row[1])
             chunked.append(temp)
-        print(chunked)
 
         return chunked
 
@@ -242,9 +243,59 @@ class SocialNetwork:
     def getIDByLoc(self, lat, lon):
         self.cursor.execute("SELECT UserID FROM UserLocations WHERE SocialNetwork=? AND Latitude=? AND Longitude=?",(self.id,lat,lon))
         result = self.cursor.fetchone()
-        print(result)
+        #print(result)
         return result[0]
         #return self.IDByLoc[f"['{lat}', '{lon}']"]
+
+    # Returns size for cluster icons so that clusters that contain fewer nodes are smaller
+    @staticmethod
+    def sizeSort(refs):
+        sizes = []
+        refsSorted = refs.copy()
+        refsSorted.sort()
+        for x in refs:
+            sizes += [((refsSorted.index(x) + 1) * (75 / len(refsSorted)))]
+        return sizes
+
+    def getSummaryClusters(self, n):
+        n = int(n)
+        if n < 1:
+            n = 10
+        # n_clusters is th number of nodes to plot
+        kmeans = KMeans(n_clusters=int(n))
+        chunkedData = self.getChunkedLocData()
+        users = self.getUsers()
+        kmeans.fit(chunkedData)
+        # Scales the nodes according to population
+        centers = kmeans.cluster_centers_
+        # Get items in clusters and put it into dictionary {'clusterid': [userid, userid...], ...}
+        clusterItems = {}
+        for i in range(0, len(chunkedData)):
+            label = kmeans.labels_[i]
+            userid = users[i]
+            if label in clusterItems:
+                clusterItems[label].append(userid)
+            else:
+                clusterItems[label] = [userid]
+        clusterStart = list(clusterItems.keys())
+        popSize = []
+        for x in clusterItems:
+            if isinstance(clusterItems[x], list):
+                popSize.append(len(clusterItems[x]))
+        relations = [[], []]
+        while len(clusterStart) != 1:
+            start = clusterStart[0]
+            for item in clusterStart:
+                if clusterStart[0] is not item:
+                    relations[0] += [centers[start][0], centers[item][0]]
+                    relations[1] += [centers[start][1], centers[item][1]]
+                    # for user in clusterItems[start]:
+                    #    for user2 in clusterItems[start]:
+                    #        print(f"    {user}")
+            clusterStart.pop(0)
+        ref = list(Counter(kmeans.labels_).values())
+        sizes = self.sizeSort(ref)
+        return centers, sizes, relations, popSize
 
     # Returns all keywords
     def getKeywords(self):
