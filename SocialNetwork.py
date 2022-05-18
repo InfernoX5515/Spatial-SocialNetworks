@@ -3,6 +3,7 @@ import csv
 import math
 import threading
 from os.path import exists
+from tkinter.tix import Select
 from unittest import result
 from aem import con
 import networkx as nx
@@ -33,9 +34,8 @@ class SocialNetwork:
         self.__flattenedLocData = [[], []]
         self.__chunkedLocData = []
         threads = [threading.Thread(target=lambda: self.loadRel(path=relFile)),
-                   threading.Thread(target=lambda: self.loadLoc(path=locFile)),
-                   threading.Thread(target=lambda: self.loadKey(kPath=keyFile, mPath=keyMapFile))]
-
+                   threading.Thread(target=lambda: self.loadLoc(path=locFile))]
+    
         for thread in threads:
             thread.start()
         for thread in threads:
@@ -211,10 +211,26 @@ class SocialNetwork:
         self.__chunkedLocData = self.__chunkedLocData + coords
 
     def getFlattenedLocData(self):
-        return self.__flattenedLocData
+        self.cursor.execute("SELECT Latitude, Longitude FROM UserLocations WHERE SocialNetwork=?",(self.id,))
+        rows = self.cursor.fetchall()
+        flat = [[],[]]
+        for d in rows:
+            flat[0].append(d[0])
+            flat[1].append(d[1])
+        return flat
 
     def getChunkedLocData(self):
-        return self.__chunkedLocData
+        self.cursor.execute("SELECT Latitude, Longitude, UserID FROM UserLocations WHERE SocialNetwork=?",(self.id,))
+        rows = self.cursor.fetchall()
+        chunked = []
+        for row in rows:
+            temp = []
+            temp.append(row[0])
+            temp.append(row[1])
+            chunked.append(temp)
+        print(chunked)
+
+        return chunked
 
     def IDByLoc(self):
         temp = {}
@@ -224,7 +240,11 @@ class SocialNetwork:
         return temp
 
     def getIDByLoc(self, lat, lon):
-        return self.IDByLoc[f"['{lat}', '{lon}']"]
+        self.cursor.execute("SELECT UserID FROM UserLocations WHERE SocialNetwork=? AND Latitude=? AND Longitude=?",(self.id,lat,lon))
+        result = self.cursor.fetchone()
+        print(result)
+        return result[0]
+        #return self.IDByLoc[f"['{lat}', '{lon}']"]
 
     # Returns all keywords
     def getKeywords(self):
@@ -330,8 +350,17 @@ class SocialNetwork:
     # Visualize the data
     def visualize(self, snInst=None, rnInst=None):
         if snInst is not None:
-            snInst.plot(self.__flattenedRelData[0], self.__flattenedRelData[1], connect='pairs', pen=(50, 50, 200, 10),
+            self.cursor.execute("SELECT UT.Latitude, UT.Longitude, UD.Latitude, UD.Longitude FROM UserRelationships JOIN UserLocations UT ON UserRelationships.TargetUser = UT.UserID JOIN UserLocations UD ON UserRelationships.DestinationUser = UD.UserID WHERE UD.SocialNetwork=? AND UT.SocialNetwork=?",(self.id, self.id))
+            rows = self.cursor.fetchall()
+            flat = [[],[]]
+            for row in rows:
+                flat[0].append(row[0])
+                flat[1].append(row[1])
+                flat[0].append(row[2])
+                flat[1].append(row[3])
+            snInst.plot(flat[0], flat[1], connect='pairs', pen=(50, 50, 200, 10),
                         brush=(50, 50, 200, 100))
         if rnInst is not None:
-            rnInst.plot(self.__flattenedLocData[0], self.__flattenedLocData[1], pen=None, symbol='o', symbolSize=2,
+            flat = self.getFlattenedLocData()
+            rnInst.plot(flat[0], flat[1], pen=None, symbol='o', symbolSize=2,
                         symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
