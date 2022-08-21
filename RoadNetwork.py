@@ -8,6 +8,7 @@ from PyQt5 import QtGui
 from PyQt5.QtGui import QFont
 import networkx as nx
 from functools import partial
+import sqlite3
 import scipy
 
 # =====================================================================================================================
@@ -31,6 +32,9 @@ class RoadNetwork:
     def __init__(self, name, edgeFile=None, nodeFile=None, POIFile=None, POIKeyFile=None, POIKeyMapFile=None, **kwargs):
         self.__name = name
         self.networkX = nx.Graph()
+        self.connection = sqlite3.connect("dataset.db")
+        self.cursor = self.connection.cursor()
+        self.id = 1
         self.__edges = {}
         self.__nodes = {}
         self.__POIs = {}
@@ -211,7 +215,8 @@ class RoadNetwork:
         self.__flattenedData[1] = self.__flattenedData[1] + lon
 
     def nodeCount(self):
-        return len(list(self.__nodes.keys()))
+        self.cursor.execute('''SELECT COUNT(ID) FROM Nodes WHERE RoadNetwork = ?''',(self.id,))
+        return self.cursor.fetchone()[0]
 
     def closestNode(self, lat, long):
         tree = scipy.spatial.KDTree(list(self.__nodes.values()))
@@ -222,14 +227,15 @@ class RoadNetwork:
     def isAnEdge(self, startId, endId):
         arr = np.array(list(self.__edges.values()))
         coords = arr[:, 0:2].tolist()
-        if [startId, endId] in coords:
+        if [startId, endId] in coords: 
             return float(coords.index([startId, endId]))
         if [endId, startId] in coords:
             return float(coords.index([endId, startId]))
         return None
 
     def getEdgeDistance(self, edgeId):
-        return self.__edges[edgeId][2]
+        self.cursor.execute('''SELECT Distance FROM Edges WHERE RoadNetwork = ? AND ID = ?''',(self.id,edgeId))
+        return self.cursor.fetchone()[0]
 
     def findNearest(self, user):
         return find_nearest(self.__nodes, (float(user[0][0]), float(user[0][1])))
@@ -240,6 +246,17 @@ class RoadNetwork:
     # Visualize the data
     def visualize(self, edgeInst=None, POIInst=None):
         if edgeInst is not None:
+            self.cursor.execute('''SELECT SN.Latitude, SN.Longitude, EN.Latitude, EN.Longitude FROM Edges 
+                                    JOIN Nodes SN ON Edges.StartNode = SN.ID
+                                    JOIN Nodes EN ON Edges.EndNode = EN.ID 
+                                    WHERE SN.RoadNetwork=? AND EN.RoadNetwork=?''',(self.id, self.id))
+            rows = self.cursor.fetchall()
+            flat = [[],[]]
+            for row in rows:
+                flat[0].append(row[0])
+                flat[1].append(row[1])
+                flat[0].append(row[2])
+                flat[1].append(row[3])
             self.edgeInst = edgeInst.plot(self.__flattenedData[0], self.__flattenedData[1], connect='pairs',
                                           pen='black')
         if POIInst is not None:
