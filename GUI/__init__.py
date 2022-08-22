@@ -2,7 +2,7 @@ from collections import Counter
 from os.path import exists
 from os import getenv
 from queue import PriorityQueue
-
+import sqlite3
 from matplotlib import interactive
 from matplotlib.pyplot import title
 from Config import Config
@@ -36,11 +36,15 @@ import time
 
 
 class Gui(QtWidgets.QMainWindow):
+
+    from ._statusBar import statusBar
+
     def __init__(self):
+        begin = time.time()
         super(Gui, self).__init__()
-        pixmap = QPixmap("splash.png")
-        self.splash = QSplashScreen(pixmap)
-        self.splash.show()
+        self.connection = sqlite3.connect("dataset.db")
+        self.cursor = self.connection.cursor()
+
         # Creates config
         self.config = Config()
         # Plot options
@@ -79,7 +83,11 @@ class Gui(QtWidgets.QMainWindow):
         self.__menuBar()
         self.__navToolbar()
         self.__queryUserButton()
+        self.statusBar()
         self.__mainWindow()
+
+        end = time.time()
+        self.loadingTime.setText(f"Loading time: {end - begin} seconds")
 
     # Creates the plot widgets. suffix is used when a summary graph is created, for example
     def createPlots(self, suffix=""):
@@ -299,6 +307,7 @@ class Gui(QtWidgets.QMainWindow):
 
     # Handles summary view
     def viewSummary(self):
+        begin = time.time()
         # Switch view to summary
         if not self.summarySelected:
             self.summarySelected = True
@@ -338,6 +347,8 @@ class Gui(QtWidgets.QMainWindow):
             if self.selectedSocialNetwork is not None:
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
             self.plotQueryUser()
+        end = time.time()
+        self.loadingTime.setText(f"Loading time: {end - begin} seconds")
 
     def visualizeSummaryData(self, centers, sizes, relations, popSize):
         # Note: For some reason, the alpha value is from 0-255 not 0-100
@@ -886,6 +897,7 @@ class Gui(QtWidgets.QMainWindow):
         return networks
 
     def displayRoadNetwork(self, network):
+        begin = time.time()
         # If the summary is not selected
         if not self.summarySelected:
             self.clearView()
@@ -916,8 +928,11 @@ class Gui(QtWidgets.QMainWindow):
                 self.visualizeSummaryData(centers, sizes, relations, popSize)
             self.plotQueryUser()
             #self.linkGraphAxis()
+        end = time.time()
+        self.loadingTime.setText(f"Loading time: {end - begin} seconds")
 
     def displaySocialNetwork(self, network):
+        begin = time.time()
         self.queryUser = None
         [a.clear() for a in self.queryUserPlots]
         self.queryUserPlots = []
@@ -952,6 +967,8 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedSocialNetwork = self.__socialNetworkObjs[network]
                 centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
                 self.visualizeSummaryData(centers, sizes, relations, popSize)
+        end = time.time()
+        self.loadingTime.setText(f"Loading time: {end - begin} seconds")
 
     # Creates network instances based on text data dictionary of {"NetworkName": {"Data":"Value", ...}
     # If the value is not set, square brackets denote that it is not set, written as "[Value]"
@@ -967,7 +984,7 @@ class Gui(QtWidgets.QMainWindow):
                 # If the value is set, use it to create the instance
                 if dataValue != f"[{dataKey}]":
                     kwargs[dataKey] = dataValue
-            instances[network] = type(network, **kwargs)
+            instances[network] = type(network,**kwargs)
         return instances
 
     # Links X and Y axis on main social network and road network graphs

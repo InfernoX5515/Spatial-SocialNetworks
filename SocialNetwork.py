@@ -227,17 +227,7 @@ class SocialNetwork:
     # Visualize the data
     def visualize(self, snInst=None, rnInst=None):
         if snInst is not None:
-            self.cursor.execute('''SELECT UT.Latitude, UT.Longitude, UD.Latitude, UD.Longitude FROM UserRelationships 
-                                    JOIN UserLocations UT ON UserRelationships.TargetUser = UT.UserID 
-                                    JOIN UserLocations UD ON UserRelationships.DestinationUser = UD.UserID 
-                                    WHERE UD.SocialNetwork=? AND UT.SocialNetwork=?''',(self.id, self.id))
-            rows = self.cursor.fetchall()
-            flat = [[],[]]
-            for row in rows:
-                flat[0].append(row[0])
-                flat[1].append(row[1])
-                flat[0].append(row[2])
-                flat[1].append(row[3])
+            flat = self.getFlattenedLocData()
             snInst.plot(flat[0], flat[1], connect='pairs', pen=(50, 50, 200, 10),
                         brush=(50, 50, 200, 100))
         if rnInst is not None:
