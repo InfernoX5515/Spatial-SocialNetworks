@@ -66,12 +66,40 @@ class WindowManager:
             return ids[len(ids) + 1]
 
 
-# GUI Object
+# Main GUI object
 class Gui(QtWidgets.QMainWindow):
     def __init__(self):
         super(Gui, self).__init__()
+
+        # Set window settings
+        self.setGeometry(*self.getScreenSize())
+        self.setWindowTitle("Spatial-Social Networks")
+        self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
+
+        # Set up main container inside window
+        self.containerWidget = QtWidgets.QWidget()
+
+        # Display window and contents
+        self.show()
+
+    # Get screen size
+    def getScreenSize(self):
+        # Get screen dimensions
+        screenWidth = self.screen().availableSize().width()
+        screenHeight = self.screen().availableSize().height()
+
+        # Calculate window dimensions based on a percentage of the screen
+        windowWidth = int(screenWidth * (2/3))
+        windowHeight = int(screenHeight * (2/3))
+
+        # Calculate where to place window so that it is centered
+        x = int((screenWidth / 2) - (windowWidth / 2))
+        y = int((screenHeight / 2) - (windowHeight / 2))
+
+        return x, y, windowWidth, windowHeight
+
         # Config and window manager
-        self.__config = Config()
+        '''self.__config = Config()
         self.__winMan = WindowManager()
         # Plot options
         pg.setConfigOptions(antialias=True)
@@ -102,7 +130,7 @@ class Gui(QtWidgets.QMainWindow):
         # Set up layout
         self.layout = QtWidgets.QHBoxLayout(self)
         self.sumLayout = QtWidgets.QHBoxLayout(self)
-        self.view = QtWidgets.QWidget()
+        
         # Initializes menus
         self.__menuBar()
         self.__navToolbar()
@@ -114,10 +142,6 @@ class Gui(QtWidgets.QMainWindow):
     # Displays main window
     def __dispMainWindow(self):
         # Set up window
-        screensize = self.screen().availableSize().width(), self.screen().availableSize().height()
-        self.setGeometry(int((screensize[0] / 2) - 500), int((screensize[1] / 2) - 300), 1000, 600)
-        self.setWindowTitle("Spatial-Social Networks")
-        self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
         self.win = pg.GraphicsLayoutWidget()
         self.sum = pg.GraphicsLayoutWidget()
         with open('nx.html', 'r') as f:
@@ -125,8 +149,8 @@ class Gui(QtWidgets.QMainWindow):
             self.socialNetWidget.setHtml(html)
         # Define default layout
         self.layout.addWidget(self.win)
-        self.view.setLayout(self.layout)
-        self.setCentralWidget(self.view)
+        self.containerWidget.setLayout(self.layout)
+        self.setCentralWidget(self.containerWidget)
         # Create and set up graph widget
         self.createPlots()
         # Show window
@@ -261,13 +285,13 @@ class Gui(QtWidgets.QMainWindow):
         addFileAction = QtWidgets.QAction("Files", self)
         addFileAction.setShortcut("Ctrl+f")
         addFileAction.setStatusTip("View files")
-        addFileAction.triggered.connect(self.viewFiles)
+        addFileAction.triggered.connect(self.containerWidgetFiles)
         addFileMenu.addAction(addFileAction)
         # Add View menu option
         addViewMenu = mainMenu.addMenu("View")
         viewSummaryAction = QtWidgets.QAction("Summary", self, checkable=True)
         viewSummaryAction.setStatusTip("View summary graphs")
-        viewSummaryAction.triggered.connect(self.viewSummary)
+        viewSummaryAction.triggered.connect(self.containerWidgetSummary)
         addViewMenu.addAction(viewSummaryAction)
         # Hide POIs button
         # hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True, checked=True)
@@ -336,7 +360,7 @@ class Gui(QtWidgets.QMainWindow):
                         commonUsers.append(user)
         return commonUsers, commonDetails
 
-    def dijkstra(self, queryUser):
+    def dijkstra(self, queryUser):''' # HERE
         '''if self.selectedRoadNetwork is not None:
             visited = []
             numOfV = self.selectedRoadNetwork.nodeCount()
@@ -359,8 +383,8 @@ class Gui(QtWidgets.QMainWindow):
                                 pq.put((new_cost, neighbor))
                                 D[neighbor] = new_cost
             print(D)'''
-
-    def usersWithinHops(self, users, h=0):
+#HERE
+    '''def usersWithinHops(self, users, h=0):
         withinHops = []
         hopsDetails = {}
         for user in users:
@@ -402,23 +426,23 @@ class Gui(QtWidgets.QMainWindow):
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
             # Setup summary view
-            self.view = QtWidgets.QWidget()
+            self.containerWidget = QtWidgets.QWidget()
             self.sumLayout = QtWidgets.QHBoxLayout()
             self.sumLayout.addWidget(self.socialNetWidget, 50)
             self.sumLayout.addWidget(self.win, 50)
-            self.view.setLayout(self.sumLayout)
-            self.setCentralWidget(self.view)
+            self.containerWidget.setLayout(self.sumLayout)
+            self.setCentralWidget(self.containerWidget)
             self.__clusterInput()
             self.__queryInput()
             self.updateSummaryGraph()
         # Switch view to main
         else:
             # Setup default view
-            self.view = QtWidgets.QWidget()
+            self.containerWidget = QtWidgets.QWidget()
             self.layout = QtWidgets.QHBoxLayout()
             self.layout.addWidget(self.win)
-            self.view.setLayout(self.layout)
-            self.setCentralWidget(self.view)
+            self.containerWidget.setLayout(self.layout)
+            self.setCentralWidget(self.containerWidget)
             self.summarySelected = False
             self.clusterInput.close()
             self.clearView()
@@ -1087,3 +1111,4 @@ class Gui(QtWidgets.QMainWindow):
     def closeEvent(self, a0: QtGui.QCloseEvent) -> None:
         print("Closed")
         exit(0)
+'''
