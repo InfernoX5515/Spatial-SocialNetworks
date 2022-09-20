@@ -79,6 +79,7 @@ class Gui(QtWidgets.QMainWindow):
         # Stores file hierarchy data
         self.__fileTreeObjects = {}
         # Stores widget instances
+        self.__windows = {}
         self.roadGraphWidget = None
         self.socialGraphWidget = None
         self.socialNetWidget = QWebEngineView()
