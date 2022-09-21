@@ -47,8 +47,10 @@ class SocialNetwork:
     # Read in user attributes from the given path
     # "USER ID" {
     #   "username": value,
-    #   "email": value
-    #   "birthdate": value"
+    #   "name": value,
+    #   "email": value,
+    #   "birthdate": value,
+    #   "phone": value
     # }
     def loadUser(self, path=None):
         if path is not None and exists(path):
@@ -66,11 +68,10 @@ class SocialNetwork:
                     user_dict["phone"] = row[5]
                     dict[user_id] = user_dict
             self.__userData = dict
-            print(self.__userData)
         else:
             self.__userData = None
 
-    def getUserInfo(self, user_id):
+    def getUserAttributes(self, user_id):
         return self.__userData[user_id]
 
     # Reads rel file from path. This is super awful, but it's the fastest way to do things. This is what it returns:
