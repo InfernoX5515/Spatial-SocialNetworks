@@ -876,7 +876,8 @@ class Gui(QtWidgets.QMainWindow):
                     "locFile": "[locFile]",
                     "relFile": "[relFile]",
                     "keyFile": "[keyFile]",
-                    "keyMapFile": "[keyMapFile]"
+                    "keyMapFile": "[keyMapFile]",
+                    "userDataFile": "[userDataFile]"
                 }
             # Adds new road network to tree
             keys = list(network.keys())
