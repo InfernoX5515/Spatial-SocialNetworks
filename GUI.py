@@ -715,7 +715,7 @@ class Gui(QtWidgets.QMainWindow):
             if self.summarySelected:
                 color = (0, 255, 0)
             else:
-                color = (255, 0, 0)
+                color = (0, 255, 0)
             for loc in self.queryUser[1]:
                 self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
                                                                      symbol='star', symbolSize=30, symbolPen=color,
