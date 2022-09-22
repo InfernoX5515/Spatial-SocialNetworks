@@ -622,9 +622,7 @@ class Gui(QtWidgets.QMainWindow):
         birthdate.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text())["birthdate"])
         email.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text())["email"])
         phone.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text())["phone"])
-        print(float(listWidget.currentItem().text()))
         for id in self.selectedSocialNetwork.getUserKeywords(listWidget.currentItem().text()):
-            print(self.selectedSocialNetwork.getKeywordByID(id))
             keywordList.addItem(self.selectedSocialNetwork.getKeywordByID(id))
 
     def showUsersWithKeywords(self):
@@ -652,13 +650,27 @@ class Gui(QtWidgets.QMainWindow):
             users = self.selectedSocialNetwork.getUsersWithKeywords(keywords)
             row = 0
             column = 0
+            headingFont=QtGui.QFont()
+            headingFont.setBold(True)
+            headingFont.setPointSize(16)
             listWidget = QtWidgets.QListWidget()
             keywordList = QtWidgets.QListWidget()
+            userHeading = QtWidgets.QLabel("Users")
+            userHeading.setFont(headingFont)
+            userHeading.setAlignment(QtCore.Qt.AlignCenter)
+            detailHeading = QtWidgets.QLabel("User Details")
+            detailHeading.setFont(headingFont)
+            detailHeading.setAlignment(QtCore.Qt.AlignCenter)
+            keywordHeading = QtWidgets.QLabel("User Keywords")
+            keywordHeading.setFont(headingFont)
+            keywordHeading.setAlignment(QtCore.Qt.AlignCenter)
             name = QtWidgets.QLabel("John Smith")
             username = QtWidgets.QLabel("jsmity")
             birthdate = QtWidgets.QLabel("1/2/1990")
             email = QtWidgets.QLabel("email@example.com")
             phone = QtWidgets.QLabel("123-456-7890")
+            setQueryUsr = QtWidgets.QPushButton("Set as Query User")
+            setQueryUsr.clicked.connect(lambda: self.setQueryUser(listWidget.currentItem().text()))
             for user in users:
                 listWidget.addItem(user)
                 #widget = QtWidgets.QPushButton(user.split(".0")[0])
@@ -672,14 +684,20 @@ class Gui(QtWidgets.QMainWindow):
                 #if column == 9:
                 #    column = 0
                 #    row += 1
-            listWidget.itemClicked.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList))
-            layout.addWidget(listWidget, 0, 0)
-            layout.addWidget(name, 0, 1)
-            layout.addWidget(username, 1, 1)
-            layout.addWidget(birthdate, 2, 1)
-            layout.addWidget(email, 3, 1)
-            layout.addWidget(phone, 4, 1)
-            layout.addWidget(keywordList, 5, 1)
+            #listWidget.itemClicked.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList))
+            listWidget.sele
+            listWidget.itemSelectionChanged.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList))
+            layout.addWidget(userHeading, 0, 0)
+            layout.addWidget(detailHeading, 0, 1)
+            layout.addWidget(listWidget, 1, 0, 7, 1)
+            layout.addWidget(name, 1, 1)
+            layout.addWidget(username, 2, 1)
+            layout.addWidget(birthdate, 3, 1)
+            layout.addWidget(email, 4, 1)
+            layout.addWidget(phone, 5, 1)
+            layout.addWidget(keywordHeading, 6, 1)
+            layout.addWidget(keywordList, 7, 1)
+            layout.addWidget(setQueryUsr, 8, 0, 1, 2)
             scroll.setWidget(scrollContent)
             self.__windows[4].show()
             self.__windows[4].move(self.geometry().center() - self.__windows[4].rect().center())
