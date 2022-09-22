@@ -66,6 +66,51 @@ class WindowManager:
             return ids[len(ids) + 1]
 
 
+def mainWindow():
+    layout = QtWidgets.QHBoxLayout()
+
+    win = pg.GraphicsLayoutWidget()
+    win.addPlot(row=0, col=1, title=f"Road Network")
+    win.addPlot(row=0, col=0, title=f"Social Network")
+
+    sum = pg.GraphicsLayoutWidget()
+    #with open('nx.html', 'r') as f:
+    #    html = f.read()
+    #    self.socialNetWidget.setHtml(html)
+    # Define default layout
+    layout.addWidget(win)
+    #layout.addWidget(sum)
+    return layout
+
+    # Create and set up graph widget
+    #self.createPlots()
+    # Show window
+    #self.show()
+
+
+
+# Creates the plot widgets. suffix is used when a summary graph is created, for example
+#def createPlots(suffix=""):
+#    roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
+#    socialGraphWidget = self.win.addPlot(row=0, col=0, title=f"Social Network {suffix}")
+#    self.linkGraphAxis()
+
+
+class WindowMenuBar:
+    def __init__(self, menu):
+        self.menu = menu
+        self.heir = {}
+
+    def addParent(self, nodeName, name):
+        self.menu.addMenu(name) # Remove
+        self.heir[nodeName] = {}
+
+    def addChild(self, parent, nodeName, name):
+        child = QtWidgets.QAction(name)
+        if self.heir[parent]:
+            self.heir[parent].addAction(child)
+            self.heir[nodeName] +=
+
 # Main GUI object
 class Gui(QtWidgets.QMainWindow):
     def __init__(self):
@@ -78,6 +123,14 @@ class Gui(QtWidgets.QMainWindow):
 
         # Set up main container inside window
         self.containerWidget = QtWidgets.QWidget()
+        self.setCentralWidget(self.containerWidget)
+
+        # Set plot options
+        pg.setConfigOptions(antialias=True)
+        pg.setConfigOption('background', 'white')
+
+        # Add menu bar
+        self.menu = WindowMenuBar(self.menuBar())
 
         # Display window and contents
         self.show()
@@ -98,12 +151,74 @@ class Gui(QtWidgets.QMainWindow):
 
         return x, y, windowWidth, windowHeight
 
+    def setContent(self, layout):
+        self.containerWidget.setLayout(layout)
+
+    def setMenuBar(self):
+        self.menu.addParent("File")
+
+        # Add File menu option
+        #fileDropdown = menu.addMenu("File")
+        #addFileAction = QtWidgets.QAction("Files", self)
+        #fileDropdown.addAction(addFileAction)
+        '''addFileAction.setShortcut("Ctrl+f")
+        addFileAction.setStatusTip("View files")
+        addFileAction.triggered.connect(self.containerWidgetFiles)
+        
+        # Add View menu option
+        addViewMenu = menu.addMenu("View")
+        viewSummaryAction = QtWidgets.QAction("Summary", self, checkable=True)
+        viewSummaryAction.setStatusTip("View summary graphs")
+        viewSummaryAction.triggered.connect(self.containerWidgetSummary)
+        addViewMenu.addAction(viewSummaryAction)
+        # Hide POIs button
+        # hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True, checked=True)
+        # hidePOIs.setStatusTip("Hide POIs on the graph")
+        # hidePOIs.triggered.connect(lambda: self.hidePOIs(hidePOIs.isChecked()))
+        # addViewMenu.addAction(hidePOIs)
+        networks = self.getCompleteNetworks()
+        # Add Social Network option
+        addSNMenu = menu.addMenu("Social Network")
+        # Loads all social networks available
+        sNetworks = networks["Social Networks"]
+        socialGroup = QtWidgets.QActionGroup(self)
+        socialGroup.setExclusive(True)
+        sActions = {"None": QtWidgets.QAction("None", self, checkable=True)}
+        sActions["None"].setStatusTip(f"Display no social network")
+        sActions["None"].triggered.connect(lambda junk: self.displaySocialNetwork(None))
+        socialGroup.addAction(sActions["None"])
+        # Adds all actions
+        for x in sNetworks:
+            sActions[x] = QtWidgets.QAction(x, self, checkable=True)
+            sActions[x].setStatusTip(f"Switch to view social network {x}")
+            sActions[x].triggered.connect(lambda junk, a=x: self.displaySocialNetwork(a))
+            socialGroup.addAction(sActions[x])
+        # Put actions in group and on menu
+        addSNMenu.addActions(sActions.values())
+        # Add Road Network option
+        addRNMenu = menu.addMenu("Road Network")
+        # Loads all road networks available
+        rNetworks = networks["Road Networks"]
+        roadGroup = QtWidgets.QActionGroup(self)
+        roadGroup.setExclusive(True)
+        rActions = {"None": QtWidgets.QAction("None", self, checkable=True)}
+        rActions["None"].setStatusTip(f"Display no road network")
+        rActions["None"].triggered.connect(lambda junk: self.displayRoadNetwork(None))
+        roadGroup.addAction(rActions["None"])
+        # Adds all actions
+        for x in rNetworks:
+            rActions[x] = QtWidgets.QAction(x, self, checkable=True)
+            rActions[x].setStatusTip(f"Switch to view road network {x}")
+            rActions[x].triggered.connect(lambda junk, a=x: self.displayRoadNetwork(a))
+            roadGroup.addAction(rActions[x])
+        # Put actions in group and on menu
+        addRNMenu.addActions(rActions.values())'''
+
         # Config and window manager
         '''self.__config = Config()
         self.__winMan = WindowManager()
         # Plot options
-        pg.setConfigOptions(antialias=True)
-        pg.setConfigOption('background', 'white')
+        
         # Stores file hierarchy data
         self.__fileTreeObjects = {}
         # Stores widget instances
@@ -139,23 +254,6 @@ class Gui(QtWidgets.QMainWindow):
 
     # =======[ Windows ]=======
 
-    # Displays main window
-    def __dispMainWindow(self):
-        # Set up window
-        self.win = pg.GraphicsLayoutWidget()
-        self.sum = pg.GraphicsLayoutWidget()
-        with open('nx.html', 'r') as f:
-            html = f.read()
-            self.socialNetWidget.setHtml(html)
-        # Define default layout
-        self.layout.addWidget(self.win)
-        self.containerWidget.setLayout(self.layout)
-        self.setCentralWidget(self.containerWidget)
-        # Create and set up graph widget
-        self.createPlots()
-        # Show window
-        self.show()
-
     # Open window to choose keywords for the query user
     def __dispQUChooseKeysMenu(self):
         # Window setup
@@ -189,12 +287,6 @@ class Gui(QtWidgets.QMainWindow):
         window.setLayout(layout)
         window.show()
         window.move(self.geometry().center() - window.rect().center())
-
-    # Creates the plot widgets. suffix is used when a summary graph is created, for example
-    def createPlots(self, suffix=""):
-        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
-        self.socialGraphWidget = self.win.addPlot(row=0, col=0, title=f"Social Network {suffix}")
-        self.linkGraphAxis()
 
     def createSumPlot(self, suffix=None):
         self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
@@ -277,64 +369,6 @@ class Gui(QtWidgets.QMainWindow):
         jogDown = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-down-solid.svg'), "Jog Down", self)
         jogDown.triggered.connect(self.jogDownTool)
         toolbar.addAction(jogDown)
-
-    def __menuBar(self):
-        mainMenu = self.menuBar()
-        # Add File menu option
-        addFileMenu = mainMenu.addMenu("File")
-        addFileAction = QtWidgets.QAction("Files", self)
-        addFileAction.setShortcut("Ctrl+f")
-        addFileAction.setStatusTip("View files")
-        addFileAction.triggered.connect(self.containerWidgetFiles)
-        addFileMenu.addAction(addFileAction)
-        # Add View menu option
-        addViewMenu = mainMenu.addMenu("View")
-        viewSummaryAction = QtWidgets.QAction("Summary", self, checkable=True)
-        viewSummaryAction.setStatusTip("View summary graphs")
-        viewSummaryAction.triggered.connect(self.containerWidgetSummary)
-        addViewMenu.addAction(viewSummaryAction)
-        # Hide POIs button
-        # hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True, checked=True)
-        # hidePOIs.setStatusTip("Hide POIs on the graph")
-        # hidePOIs.triggered.connect(lambda: self.hidePOIs(hidePOIs.isChecked()))
-        # addViewMenu.addAction(hidePOIs)
-        networks = self.getCompleteNetworks()
-        # Add Social Network option
-        addSNMenu = mainMenu.addMenu("Social Network")
-        # Loads all social networks available
-        sNetworks = networks["Social Networks"]
-        socialGroup = QtWidgets.QActionGroup(self)
-        socialGroup.setExclusive(True)
-        sActions = {"None": QtWidgets.QAction("None", self, checkable=True)}
-        sActions["None"].setStatusTip(f"Display no social network")
-        sActions["None"].triggered.connect(lambda junk: self.displaySocialNetwork(None))
-        socialGroup.addAction(sActions["None"])
-        # Adds all actions
-        for x in sNetworks:
-            sActions[x] = QtWidgets.QAction(x, self, checkable=True)
-            sActions[x].setStatusTip(f"Switch to view social network {x}")
-            sActions[x].triggered.connect(lambda junk, a=x: self.displaySocialNetwork(a))
-            socialGroup.addAction(sActions[x])
-        # Put actions in group and on menu
-        addSNMenu.addActions(sActions.values())
-        # Add Road Network option
-        addRNMenu = mainMenu.addMenu("Road Network")
-        # Loads all road networks available
-        rNetworks = networks["Road Networks"]
-        roadGroup = QtWidgets.QActionGroup(self)
-        roadGroup.setExclusive(True)
-        rActions = {"None": QtWidgets.QAction("None", self, checkable=True)}
-        rActions["None"].setStatusTip(f"Display no road network")
-        rActions["None"].triggered.connect(lambda junk: self.displayRoadNetwork(None))
-        roadGroup.addAction(rActions["None"])
-        # Adds all actions
-        for x in rNetworks:
-            rActions[x] = QtWidgets.QAction(x, self, checkable=True)
-            rActions[x].setStatusTip(f"Switch to view road network {x}")
-            rActions[x].triggered.connect(lambda junk, a=x: self.displayRoadNetwork(a))
-            roadGroup.addAction(rActions[x])
-        # Put actions in group and on menu
-        addRNMenu.addActions(rActions.values())
 
     def clearView(self):
         self.win.removeItem(self.roadGraphWidget)

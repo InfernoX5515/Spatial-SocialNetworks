@@ -1,6 +1,6 @@
 from sys import argv, exit
 from pyqtgraph.Qt.QtGui import QApplication
-from GUI import Gui
+from GUI import *
 
 # =====================================================================================================================
 #
@@ -26,6 +26,7 @@ def main():
     # noinspection PyUnresolvedReferences
     app = QApplication(argv)
     gui = Gui()
+    gui.setContent(mainWindow())
     app.quit()
     exit(app.exec_())
 
