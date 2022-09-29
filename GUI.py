@@ -1,4 +1,4 @@
-from collections import Counter
+from collections import Counter, UserList
 from os.path import exists
 from os import getenv
 from queue import PriorityQueue
@@ -615,6 +615,16 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[5].show()
         self.__windows[5].move(self.geometry().center() - self.__windows[5].rect().center())
 
+    def __showUserInfo(self, listWidget, name, username, birthdate, email, phone, keywordList):
+        keywordList.clear()
+        name.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text() + ".0")["name"])
+        username.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["username"])
+        birthdate.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["birthdate"])
+        email.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["email"])
+        phone.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["phone"])
+        for id in self.selectedSocialNetwork.getUserKeywords(listWidget.currentItem().text()+ ".0"):
+            keywordList.addItem(self.selectedSocialNetwork.getKeywordByID(id))
+
     def showUsersWithKeywords(self):
         checkboxes = self.__windows[3].checkboxes
         self.__windows[3].close()
@@ -640,18 +650,64 @@ class Gui(QtWidgets.QMainWindow):
             users = self.selectedSocialNetwork.getUsersWithKeywords(keywords)
             row = 0
             column = 0
+            headingFont=QtGui.QFont()
+            headingFont.setBold(True)
+            headingFont.setPointSize(16)
+            listWidget = QtWidgets.QListWidget()
+            keywordList = QtWidgets.QListWidget()
+            userHeading = QtWidgets.QLabel("Users")
+            userHeading.setFont(headingFont)
+            userHeading.setAlignment(QtCore.Qt.AlignCenter)
+            detailHeading = QtWidgets.QLabel("User Details")
+            detailHeading.setFont(headingFont)
+            detailHeading.setAlignment(QtCore.Qt.AlignCenter)
+            keywordHeading = QtWidgets.QLabel("User Keywords")
+            keywordHeading.setFont(headingFont)
+            keywordHeading.setAlignment(QtCore.Qt.AlignCenter)
+            nameLabel = QtWidgets.QLabel("Name: ")
+            name = QtWidgets.QLabel("John Smith")
+            usernameLabel = QtWidgets.QLabel("Username: ")
+            username = QtWidgets.QLabel("jsmity")
+            birthdateLabel = QtWidgets.QLabel("Birthdate: ")
+            birthdate = QtWidgets.QLabel("1/2/1990")
+            emailLabel = QtWidgets.QLabel("Email: ")
+            email = QtWidgets.QLabel("email@example.com")
+            phoneLabel = QtWidgets.QLabel("Phone: ")
+            phone = QtWidgets.QLabel("123-456-7890")
+            setQueryUsr = QtWidgets.QPushButton("Set as Query User")
+            setQueryUsr.clicked.connect(lambda: self.setQueryUser(listWidget.currentItem().text() + ".0"))
             for user in users:
-                widget = QtWidgets.QPushButton(user.split(".0")[0])
-                keywordsStr = []
-                for id in self.selectedSocialNetwork.getUserKeywords(user):
-                    keywordsStr.append(self.selectedSocialNetwork.getKeywordByID(id))
-                widget.setToolTip(f"Keywords: \n{chr(10).join(keywordsStr)}")
-                widget.clicked.connect(lambda junk, u=user: self.setQueryUser(u))
-                layout.addWidget(widget, row, column)
-                column += 1
-                if column == 9:
-                    column = 0
-                    row += 1
+                listWidget.addItem(user.split(".0")[0])
+                #widget = QtWidgets.QPushButton(user.split(".0")[0])
+                #keywordsStr = []
+                #for id in self.selectedSocialNetwork.getUserKeywords(user):
+                #    keywordsStr.append(self.selectedSocialNetwork.getKeywordByID(id))
+                #widget.setToolTip(f"Keywords: \n{chr(10).join(keywordsStr)}")
+                #widget.clicked.connect(lambda junk, u=user: self.setQueryUser(u))
+                #layout.addWidget(widget, row, column)
+                #column += 1
+                #if column == 9:
+                #    column = 0
+                #    row += 1
+            #listWidget.itemClicked.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList))
+
+            listWidget.itemSelectionChanged.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList))
+            layout.addWidget(userHeading, 0, 0)
+            layout.addWidget(detailHeading, 0, 1, 1, 2)
+            layout.addWidget(listWidget, 1, 0, 7, 1)
+            layout.addWidget(nameLabel, 1, 1)
+            layout.addWidget(name, 1, 2)
+            layout.addWidget(usernameLabel, 2, 1)
+            layout.addWidget(username, 2, 2)
+            layout.addWidget(birthdateLabel, 3, 1)
+            layout.addWidget(birthdate, 3, 2)
+            layout.addWidget(emailLabel, 4, 1)
+            layout.addWidget(email, 4, 2)
+            layout.addWidget(phoneLabel, 5, 1)
+            layout.addWidget(phone, 5, 2)
+            layout.addWidget(keywordHeading, 6, 1, 1, 2)
+            layout.addWidget(keywordList, 7, 1, 1, 2)
+            layout.addWidget(setQueryUsr, 8, 0, 1, 3)
             scroll.setWidget(scrollContent)
             self.__windows[4].show()
             self.__windows[4].move(self.geometry().center() - self.__windows[4].rect().center())
@@ -876,7 +932,8 @@ class Gui(QtWidgets.QMainWindow):
                     "locFile": "[locFile]",
                     "relFile": "[relFile]",
                     "keyFile": "[keyFile]",
-                    "keyMapFile": "[keyMapFile]"
+                    "keyMapFile": "[keyMapFile]",
+                    "userDataFile": "[userDataFile]"
                 }
             # Adds new road network to tree
             keys = list(network.keys())

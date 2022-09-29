@@ -17,11 +17,12 @@ import networkx as nx
 
 
 class SocialNetwork:
-    def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, **kwargs):
+    def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, userDataFile=None, **kwargs):
         self.__name = name
         self.networkX = nx.MultiGraph()
         self.__rel = {}
         self.__loc = {}
+        self.__userData = {}
         self.__keywordMap = {}
         self.__keywordMapReverse = {}
         self.__keywords = {}
@@ -30,6 +31,7 @@ class SocialNetwork:
         self.__chunkedLocData = []
         threads = [threading.Thread(target=lambda: self.loadRel(path=relFile)),
                    threading.Thread(target=lambda: self.loadLoc(path=locFile)),
+                   threading.Thread(target=lambda: self.loadUser(path=userDataFile)),
                    threading.Thread(target=lambda: self.loadKey(kPath=keyFile, mPath=keyMapFile))]
 
         for thread in threads:
@@ -40,6 +42,38 @@ class SocialNetwork:
         self.flattenRelData()
         self.flattenLocData()
         self.chunkLocData()
+
+
+    # Read in user attributes from the given path
+    # "USER ID" {
+    #   "username": value,
+    #   "name": value,
+    #   "email": value,
+    #   "birthdate": value,
+    #   "phone": value
+    # }
+    def loadUser(self, path=None):
+        if path is not None and exists(path):
+            dict = {}
+            with open(path, 'r') as csvfile:
+                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                next(reader)
+                for row in reader:
+                    user_id = row[0]
+                    user_dict = {}
+                    user_dict["username"] = row[1]
+                    user_dict["name"] = row[2]
+                    user_dict["email"] = row[3]
+                    user_dict["birthdate"] = row[4]
+                    user_dict["phone"] = row[5]
+                    dict[user_id] = user_dict
+            self.__userData = dict
+        else:
+            self.__userData = None
+
+    def getUserAttributes(self, user_id):
+
+        return self.__userData[user_id]
 
     # Reads rel file from path. This is super awful, but it's the fastest way to do things. This is what it returns:
     # dict = {
