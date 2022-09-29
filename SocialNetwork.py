@@ -72,6 +72,7 @@ class SocialNetwork:
             self.__userData = None
 
     def getUserAttributes(self, user_id):
+
         return self.__userData[user_id]
 
     # Reads rel file from path. This is super awful, but it's the fastest way to do things. This is what it returns:

@@ -1,4 +1,4 @@
-from collections import Counter
+from collections import Counter, UserList
 from os.path import exists
 from os import getenv
 from queue import PriorityQueue
@@ -617,12 +617,12 @@ class Gui(QtWidgets.QMainWindow):
 
     def __showUserInfo(self, listWidget, name, username, birthdate, email, phone, keywordList):
         keywordList.clear()
-        name.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text())["name"])
-        username.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text())["username"])
-        birthdate.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text())["birthdate"])
-        email.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text())["email"])
-        phone.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text())["phone"])
-        for id in self.selectedSocialNetwork.getUserKeywords(listWidget.currentItem().text()):
+        name.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text() + ".0")["name"])
+        username.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["username"])
+        birthdate.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["birthdate"])
+        email.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["email"])
+        phone.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["phone"])
+        for id in self.selectedSocialNetwork.getUserKeywords(listWidget.currentItem().text()+ ".0"):
             keywordList.addItem(self.selectedSocialNetwork.getKeywordByID(id))
 
     def showUsersWithKeywords(self):
@@ -664,15 +664,20 @@ class Gui(QtWidgets.QMainWindow):
             keywordHeading = QtWidgets.QLabel("User Keywords")
             keywordHeading.setFont(headingFont)
             keywordHeading.setAlignment(QtCore.Qt.AlignCenter)
+            nameLabel = QtWidgets.QLabel("Name: ")
             name = QtWidgets.QLabel("John Smith")
+            usernameLabel = QtWidgets.QLabel("Username: ")
             username = QtWidgets.QLabel("jsmity")
+            birthdateLabel = QtWidgets.QLabel("Birthdate: ")
             birthdate = QtWidgets.QLabel("1/2/1990")
+            emailLabel = QtWidgets.QLabel("Email: ")
             email = QtWidgets.QLabel("email@example.com")
+            phoneLabel = QtWidgets.QLabel("Phone: ")
             phone = QtWidgets.QLabel("123-456-7890")
             setQueryUsr = QtWidgets.QPushButton("Set as Query User")
-            setQueryUsr.clicked.connect(lambda: self.setQueryUser(listWidget.currentItem().text()))
+            setQueryUsr.clicked.connect(lambda: self.setQueryUser(listWidget.currentItem().text() + ".0"))
             for user in users:
-                listWidget.addItem(user)
+                listWidget.addItem(user.split(".0")[0])
                 #widget = QtWidgets.QPushButton(user.split(".0")[0])
                 #keywordsStr = []
                 #for id in self.selectedSocialNetwork.getUserKeywords(user):
@@ -685,19 +690,24 @@ class Gui(QtWidgets.QMainWindow):
                 #    column = 0
                 #    row += 1
             #listWidget.itemClicked.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList))
-            listWidget.sele
+
             listWidget.itemSelectionChanged.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList))
             layout.addWidget(userHeading, 0, 0)
-            layout.addWidget(detailHeading, 0, 1)
+            layout.addWidget(detailHeading, 0, 1, 1, 2)
             layout.addWidget(listWidget, 1, 0, 7, 1)
-            layout.addWidget(name, 1, 1)
-            layout.addWidget(username, 2, 1)
-            layout.addWidget(birthdate, 3, 1)
-            layout.addWidget(email, 4, 1)
-            layout.addWidget(phone, 5, 1)
-            layout.addWidget(keywordHeading, 6, 1)
-            layout.addWidget(keywordList, 7, 1)
-            layout.addWidget(setQueryUsr, 8, 0, 1, 2)
+            layout.addWidget(nameLabel, 1, 1)
+            layout.addWidget(name, 1, 2)
+            layout.addWidget(usernameLabel, 2, 1)
+            layout.addWidget(username, 2, 2)
+            layout.addWidget(birthdateLabel, 3, 1)
+            layout.addWidget(birthdate, 3, 2)
+            layout.addWidget(emailLabel, 4, 1)
+            layout.addWidget(email, 4, 2)
+            layout.addWidget(phoneLabel, 5, 1)
+            layout.addWidget(phone, 5, 2)
+            layout.addWidget(keywordHeading, 6, 1, 1, 2)
+            layout.addWidget(keywordList, 7, 1, 1, 2)
+            layout.addWidget(setQueryUsr, 8, 0, 1, 3)
             scroll.setWidget(scrollContent)
             self.__windows[4].show()
             self.__windows[4].move(self.geometry().center() - self.__windows[4].rect().center())
