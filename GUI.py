@@ -412,7 +412,7 @@ class Gui(QtWidgets.QMainWindow):
                 titleTemp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
             titleTemp += '</ol>'
             network.add_node(self.queryUser[0], physics=False, label=str('Query: ') + str(int(float(self.queryUser[0]))),
-                             color='red', title=titleTemp)
+                             color='green', size=15, shape='star', title=titleTemp)
             # Add common users
             common = self.selectedSocialNetwork.userLoc(self.queryUser[0])
             commonLoc = self.selectedRoadNetwork.findNearest(common)
@@ -768,10 +768,7 @@ class Gui(QtWidgets.QMainWindow):
             if not self.queryUserPlots:
                 [a.clear() for a in self.queryUserPlots]
             self.queryUserPlots = []
-            if self.summarySelected:
-                color = (0, 255, 0)
-            else:
-                color = (0, 255, 0)
+            color = 'green'
             for loc in self.queryUser[1]:
                 self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
                                                                      symbol='star', symbolSize=30, symbolPen=color,
