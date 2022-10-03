@@ -427,7 +427,8 @@ class Gui(QtWidgets.QMainWindow):
                 for key in k:
                     temp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
                 temp += '</ol>'
-                network.add_node(user, physics=False, label=str(int(float(user))), color='blue', title=temp)
+                if user != self.queryUser[0]:
+                    network.add_node(user, physics=False, label=str(int(float(user))), color='blue', title=temp)
                 rels = self.selectedSocialNetwork.commonRelations(user, users)
                 for rel in rels:
                     network.add_edge(rel, user, color='blue')
