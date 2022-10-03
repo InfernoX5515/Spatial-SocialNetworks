@@ -793,10 +793,9 @@ class Gui(QtWidgets.QMainWindow):
         button = QtWidgets.QPushButton("Get Query")
         button.clicked.connect(lambda: self.updateKdSummaryGraph())
         # Create k text box
-        self.queryInput.kTextBox = QtWidgets.QLineEdit()
-        self.queryInput.kTextBox.setValidator(QtGui.QIntValidator(0, 9999))
-        self.queryInput.kTextBox.setText("5")
-        self.queryInput.kTextBox.returnPressed.connect(button.click)
+        self.queryInput.kTextBox = QtWidgets.QSpinBox()
+        self.queryInput.kTextBox.setRange(3, 9999)
+        self.queryInput.kTextBox.setValue(5)
         self.queryInput.kTextBox.setToolTip("k is used to control the community's structural cohesiveness. Larger k "
                                             "means higher structural cohesiveness")
         # Create d text box
