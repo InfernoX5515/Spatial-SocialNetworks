@@ -1,10 +1,7 @@
-from collections import Counter, UserList
+from collections import Counter
 from os.path import exists
 from os import getenv
-from queue import PriorityQueue
-from anytree import Node, RenderTree, findall_by_attr, find, find_by_attr
-from matplotlib import interactive
-from matplotlib.pyplot import title
+from anytree import Node, RenderTree, find_by_attr
 from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
@@ -15,25 +12,11 @@ from SocialNetwork import SocialNetwork
 from sklearn.cluster import KMeans
 from pyvis.network import Network
 import networkx as nx
-# import pyvis
 import time
-# import matplotlib.pyplot as plt # importing matplotlib package and pyplot is for displaying the graph on canvas
 
-
-# =====================================================================================================================
-#
-#   Authors: Halie Eckert, Gavin Hulvey, Sydney Zuelzke
-#   Date: 11/3/2021
-#   Project: Spatial-Social Networks
-#
-#   Purpose:
-#       GUI.py is the main class for the GUI. This class handles all guis, sub guis, variables, and object needed
-#    to display data.
-#
-# =====================================================================================================================
 
 # Menu bar class for more simple management
-class menuBar:
+class MenuBar:
     def __init__(self, menuBar):
         self.menu = menuBar
         self.menuTree = Node('root')
@@ -43,8 +26,9 @@ class menuBar:
         menu = self.menu.addMenu(name)
         Node(name, obj=menu, parent=self.menuTree)
 
-    def addChild(self, name, parent, shortcut=None, tooltip=None, action=None, group=None):
+    def addChild(self, name, parent, shortcut=None, tooltip=None, action=None, group=None, checked=False):
         child = QtWidgets.QAction(name, self.menu)
+
         if shortcut is not None:
             child.setShortcut(shortcut)
         if tooltip is not None:
@@ -55,6 +39,9 @@ class menuBar:
             if group not in self.__menuGroups:
                 raise Exception(f"Group '{group}' does not exist.")
             self.__menuGroups[group].addAction(child)
+            child.setCheckable(True)
+            child.setChecked(checked)
+
         parentNode = find_by_attr(self.menuTree, parent)
         if parentNode is None:
             raise Exception(f"Menu item '{parent}' was not found.")
@@ -223,71 +210,38 @@ class Gui(QtWidgets.QMainWindow):
         toolbar.addAction(jogDown)
 
     def __menuBar(self):
-        menu = menuBar(self.menuBar())
+        menu = MenuBar(self.menuBar())
 
         menu.addMenu("File")
         menu.addChild("Files", "File", shortcut="Ctrl+f", tooltip="View files", action=self.viewFiles)
+
         menu.addMenu("View")
         menu.createGroup("ViewGroup", self)
-        menu.addChild("Summary View", "View", group="ViewGroup")
-        menu.addChild("Full View", "View", group="ViewGroup")
+        menu.addChild("Summary View", "View", group="ViewGroup", tooltip="View summary graphs", action=self.viewSummary)
+        menu.addChild("Full View", "View", group="ViewGroup", tooltip="View full graphs", action=self.viewSummary,
+                      checked=True)
 
-        '''mainMenu = self.menuBar()
-        # Add File menu option
-        addFileMenu = mainMenu.addMenu("File")
-        addFileAction = QtWidgets.QAction("Files", self)
-        addFileAction.setShortcut("Ctrl+f")
-        addFileAction.setStatusTip("View files")
-        addFileAction.triggered.connect(self.viewFiles)
-        addFileMenu.addAction(addFileAction)
-        # Add View menu option
-        addViewMenu = mainMenu.addMenu("View")
-        viewSummaryAction = QtWidgets.QAction("Summary", self, checkable=True)
-        viewSummaryAction.setStatusTip("View summary graphs")
-        viewSummaryAction.triggered.connect(self.viewSummary)
-        addViewMenu.addAction(viewSummaryAction)
-        # Hide POIs button
-        # hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True, checked=True)
-        # hidePOIs.setStatusTip("Hide POIs on the graph")
-        # hidePOIs.triggered.connect(lambda: self.hidePOIs(hidePOIs.isChecked()))
-        # addViewMenu.addAction(hidePOIs)
         networks = self.getCompleteNetworks()
-        # Add Social Network option
-        addSNMenu = mainMenu.addMenu("Social Network")
-        # Loads all social networks available
         sNetworks = networks["Social Networks"]
-        socialGroup = QtWidgets.QActionGroup(self)
-        socialGroup.setExclusive(True)
-        sActions = {"None": QtWidgets.QAction("None", self, checkable=True)}
-        sActions["None"].setStatusTip(f"Display no social network")
-        sActions["None"].triggered.connect(lambda junk: self.displaySocialNetwork(None))
-        socialGroup.addAction(sActions["None"])
-        # Adds all actions
-        for x in sNetworks:
-            sActions[x] = QtWidgets.QAction(x, self, checkable=True)
-            sActions[x].setStatusTip(f"Switch to view social network {x}")
-            sActions[x].triggered.connect(lambda junk, a=x: self.displaySocialNetwork(a))
-            socialGroup.addAction(sActions[x])
-        # Put actions in group and on menu
-        addSNMenu.addActions(sActions.values())
-        # Add Road Network option
-        addRNMenu = mainMenu.addMenu("Road Network")
-        # Loads all road networks available
         rNetworks = networks["Road Networks"]
-        roadGroup = QtWidgets.QActionGroup(self)
-        roadGroup.setExclusive(True)
-        rActions = {"None": QtWidgets.QAction("None", self, checkable=True)}
-        rActions["None"].setStatusTip(f"Display no road network")
-        rActions["None"].triggered.connect(lambda junk: self.displayRoadNetwork(None))
-        roadGroup.addAction(rActions["None"])
-        # Adds all actions
+
+        menu.addMenu("Social Networks")
+        menu.createGroup("SocialNetworkGroup", self)
+        menu.addChild("None", "Social Networks", group="SocialNetworkGroup", tooltip="Display no social network",
+                      action=lambda j: self.displaySocialNetwork(None), checked=True)
+        for x in sNetworks:
+            menu.addChild(x, "Social Networks", group="SocialNetworkGroup",
+                          tooltip=f"Switch to view social network {x}",
+                          action=lambda j, a=x: self.displaySocialNetwork(a))
+
+        menu.addMenu("Road Networks")
+        menu.createGroup("RoadNetworkGroup", self)
+        menu.addChild("None", "Road Networks", group="RoadNetworkGroup", tooltip="Display no road network",
+                      action=lambda j: self.displayRoadNetwork(None), checked=True)
         for x in rNetworks:
-            rActions[x] = QtWidgets.QAction(x, self, checkable=True)
-            rActions[x].setStatusTip(f"Switch to view road network {x}")
-            rActions[x].triggered.connect(lambda junk, a=x: self.displayRoadNetwork(a))
-            roadGroup.addAction(rActions[x])
-        # Put actions in group and on menu
-        addRNMenu.addActions(rActions.values())'''
+            menu.addChild(x, "Road Networks", group="RoadNetworkGroup",
+                          tooltip=f"Switch to view road network {x}",
+                          action=lambda j, a=x: self.displayRoadNetwork(a))
 
     def clearView(self):
         self.win.removeItem(self.roadGraphWidget)
