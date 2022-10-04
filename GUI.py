@@ -2,7 +2,7 @@ from collections import Counter, UserList
 from os.path import exists
 from os import getenv
 from queue import PriorityQueue
-
+from anytree import Node, RenderTree, findall_by_attr, find, find_by_attr
 from matplotlib import interactive
 from matplotlib.pyplot import title
 from Config import Config
@@ -31,6 +31,43 @@ import time
 #    to display data.
 #
 # =====================================================================================================================
+
+# Menu bar class for more simple management
+class menuBar:
+    def __init__(self, menuBar):
+        self.menu = menuBar
+        self.menuTree = Node('root')
+        self.__menuGroups = {}
+
+    def addMenu(self, name):
+        menu = self.menu.addMenu(name)
+        Node(name, obj=menu, parent=self.menuTree)
+
+    def addChild(self, name, parent, shortcut=None, tooltip=None, action=None, group=None):
+        child = QtWidgets.QAction(name, self.menu)
+        if shortcut is not None:
+            child.setShortcut(shortcut)
+        if tooltip is not None:
+            child.setStatusTip(tooltip)
+        if action is not None:
+            child.triggered.connect(action)
+        if group is not None:
+            if group not in self.__menuGroups:
+                raise Exception(f"Group '{group}' does not exist.")
+            self.__menuGroups[group].addAction(child)
+        parentNode = find_by_attr(self.menuTree, parent)
+        if parentNode is None:
+            raise Exception(f"Menu item '{parent}' was not found.")
+        parentNode.obj.addAction(child)
+        Node(name, obj=child, parent=parentNode)
+
+    def createGroup(self, name, appRoot):
+        if name in self.__menuGroups:
+            raise Exception(f"Group '{name}' already exists.")
+        self.__menuGroups[name] = QtWidgets.QActionGroup(appRoot)
+
+    def printTree(self):
+        print(RenderTree(self.menuTree))
 
 
 class Gui(QtWidgets.QMainWindow):
@@ -186,7 +223,16 @@ class Gui(QtWidgets.QMainWindow):
         toolbar.addAction(jogDown)
 
     def __menuBar(self):
-        mainMenu = self.menuBar()
+        menu = menuBar(self.menuBar())
+
+        menu.addMenu("File")
+        menu.addChild("Files", "File", shortcut="Ctrl+f", tooltip="View files", action=self.viewFiles)
+        menu.addMenu("View")
+        menu.createGroup("ViewGroup", self)
+        menu.addChild("Summary View", "View", group="ViewGroup")
+        menu.addChild("Full View", "View", group="ViewGroup")
+
+        '''mainMenu = self.menuBar()
         # Add File menu option
         addFileMenu = mainMenu.addMenu("File")
         addFileAction = QtWidgets.QAction("Files", self)
@@ -241,7 +287,7 @@ class Gui(QtWidgets.QMainWindow):
             rActions[x].triggered.connect(lambda junk, a=x: self.displayRoadNetwork(a))
             roadGroup.addAction(rActions[x])
         # Put actions in group and on menu
-        addRNMenu.addActions(rActions.values())
+        addRNMenu.addActions(rActions.values())'''
 
     def clearView(self):
         self.win.removeItem(self.roadGraphWidget)
