@@ -18,7 +18,8 @@ import networkx as nx
 
 
 class SNUser:
-    def __init__(self, id, loginLocs=None, keywords=None, username=None, name=None, email=None, birthday=None, phone=None):
+    def __init__(self, id, loginLocs=None, keywords=None, relations=None, username=None, name=None, email=None,
+                 birthday=None, phone=None):
         self.id = id
         self.username = username
         self.name = name
@@ -33,6 +34,10 @@ class SNUser:
             self.keywords = []
         else:
             self.keywords = loginLocs
+        if relations is None:
+            self.relations = []
+        else:
+            self.relations = loginLocs
 
     def addLoginLoc(self, lat, lon):
         if (lat, lon) not in self.loginLocs:
@@ -40,6 +45,20 @@ class SNUser:
 
     def removeLoginLoc(self, lat, lon):
         self.loginLocs.remove((lat, lon))
+
+    def addKeyword(self, keywordID):
+        if keywordID not in self.keywords:
+            self.keywords += keywordID
+
+    def removeKeyword(self, keywordID):
+        self.keywords.remove(keywordID)
+
+    def addRelation(self, userID):
+        if userID not in self.relations:
+            self.relations += userID
+
+    def removeRelation(self, userID):
+        self.relations.remove(userID)
 
 
 class SocialNetwork:
