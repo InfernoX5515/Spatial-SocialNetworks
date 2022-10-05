@@ -1,6 +1,7 @@
 import csv
 import datetime
 import math
+import os.path
 import threading
 from os.path import exists
 import networkx as nx
@@ -62,8 +63,77 @@ class SNUser:
 
 
 class SocialNetwork:
+    def __init__(self, name, dir=None):
+        self.name = name
+        self.dir = dir
+        if not os.path.exists(self.dir):
+            os.mkdir(self.dir)
+
+        self.keywordDict = None
+
+        threads = [threading.Thread(target=self.loadKeywords)]
+
+    # Reads keyword files for given social network
+    def loadKeywords(self):
+        keywordFile = f"{self.dir}/keywords.csv"
+        keywords = {}
+
+        if os.path.exists(keywordFile):
+            with open(keywordFile, 'r') as f:
+                reader = csv.reader(f, delimiter=',', quotechar='|')
+                next(reader)
+
+                for row in reader:
+                    keywordID = row[0]
+                    keyword = row[1]
+                    if keywordID not in keywords:
+                        keywords[keywordID] = keyword
+
+        else:
+            f = open(keywordFile, "x")
+            f.close()
+
+            self.keywordDict = {}
+        '''if kPath is not None and mPath is not None and exists(kPath) and exists(mPath):
+            keywords = {}
+            keywordsReverse = {}
+            userKeywords = {}
+            # Gets key map
+            with open(mPath, 'r') as csvfile:
+                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                next(reader)
+                for row in reader:
+                    keyword_id = row[0]
+                    keyword = row[1]
+                    if keyword_id in keywords:
+                        raise Exception(f"Error: Duplicate value in {mPath}")
+                    else:
+                        keywords[keyword_id] = keyword
+                        keywordsReverse[keyword] = keyword_id
+            # Gets user keywords
+            with open(kPath, 'r') as kfile:
+                reader = csv.reader(kfile, delimiter=',', quotechar='|')
+                next(reader)
+                for row in reader:
+                    user_id = str(float(row[0]))
+                    keyword_id = row[1]
+                    if user_id in list(userKeywords.keys()):
+                        userKeywords[user_id].append(keyword_id)
+                    else:
+                        userKeywords[user_id] = [keyword_id]
+            self.__keywordMap = keywords
+            self.__keywordMapReverse = keywordsReverse
+            self.__keywords = userKeywords
+        else:
+            self.__keywordMap = None
+            self.__keywordMapReverse = None
+            self.__keywords = None'''
+
+
+
+'''class SocialNetwork:
     def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, userDataFile=None, **kwargs):
-        self.__name = name
+        ~~self.__name = name
         self.networkX = nx.MultiGraph()
         self.__rel = {}
         self.__loc = {}
@@ -413,3 +483,4 @@ class SocialNetwork:
         if rnInst is not None:
             rnInst.plot(self.__flattenedLocData[0], self.__flattenedLocData[1], pen=None, symbol='o', symbolSize=2,
                         symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
+'''
