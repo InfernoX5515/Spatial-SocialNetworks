@@ -1,4 +1,5 @@
 import csv
+import datetime
 import math
 import threading
 from os.path import exists
@@ -14,6 +15,31 @@ import networkx as nx
 #       SocialNetwork.py is the class object for social networks.
 #
 # =====================================================================================================================
+
+
+class SNUser:
+    def __init__(self, id, loginLocs=None, keywords=None, username=None, name=None, email=None, birthday=None, phone=None):
+        self.id = id
+        self.username = username
+        self.name = name
+        self.email = email
+        self.birthday = birthday
+        self.phone = phone
+        if loginLocs is None:
+            self.loginLocs = []
+        else:
+            self.loginLocs = loginLocs
+        if keywords is None:
+            self.keywords = []
+        else:
+            self.keywords = loginLocs
+
+    def addLoginLoc(self, lat, lon):
+        if (lat, lon) not in self.loginLocs:
+            self.loginLocs += (lat, lon)
+
+    def removeLoginLoc(self, lat, lon):
+        self.loginLocs.remove((lat, lon))
 
 
 class SocialNetwork:
