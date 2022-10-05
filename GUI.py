@@ -154,30 +154,25 @@ class Gui(QtWidgets.QMainWindow):
         self.roadGraphWidget.setXRange(xRanges[0] + xScale, xRanges[1] - xScale)
         self.roadGraphWidget.setYRange(yRanges[0] + yScale, yRanges[1] - yScale)
 
-    # TODO: Fix issue where graph is squished
     def jogLeftTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
         xScale = (abs(xRanges[1] - xRanges[0]) * .25) / 2
+        self.roadGraphWidget.setXRange(xRanges[0] - xScale, xRanges[1] - xScale, padding=0)
 
-        self.roadGraphWidget.setXRange(xRanges[0] + xScale, xRanges[1] + xScale)
-
-    # TODO: Fix issue where graph is squished
     def jogRightTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
-        scale = (abs(xRanges[0]) - abs(xRanges[1]) - (abs(xRanges[0]) - abs(xRanges[1])) * 0.75) / 2
-        self.roadGraphWidget.setXRange(xRanges[0] - scale, xRanges[1] - scale)
+        xScale = (abs(xRanges[1] - xRanges[0]) * .25) / 2
+        self.roadGraphWidget.setXRange(xRanges[0] + xScale, xRanges[1] + xScale, padding=0)
 
-    # TODO: Fix issue where graph is squished
     def jogUpTool(self):
         yRanges = self.roadGraphWidget.getAxis('left').range
-        scale = (abs(yRanges[0]) - abs(yRanges[1]) - (abs(yRanges[0]) - abs(yRanges[1])) * 0.75) / 2
-        self.roadGraphWidget.setYRange(yRanges[0] + scale, yRanges[1] + scale)
+        yScale = (abs(yRanges[1] - yRanges[0]) * .25) / 2
+        self.roadGraphWidget.setYRange(yRanges[0] + yScale, yRanges[1] + yScale, padding=0)
 
-    # TODO: Fix issue where graph is squished
     def jogDownTool(self):
         yRanges = self.roadGraphWidget.getAxis('left').range
-        scale = (abs(yRanges[0]) - abs(yRanges[1]) - (abs(yRanges[0]) - abs(yRanges[1])) * 0.75) / 2
-        self.roadGraphWidget.setYRange(yRanges[0] - scale, yRanges[1] - scale)
+        yScale = (abs(yRanges[1] - yRanges[0]) * .25) / 2
+        self.roadGraphWidget.setYRange(yRanges[0] - yScale, yRanges[1] - yScale, padding=0)
 
     # Creates the navigation toolbar
     def __navToolbar(self):
