@@ -1,5 +1,6 @@
 import csv
 import datetime
+import json
 import math
 import os.path
 import threading
@@ -18,14 +19,15 @@ import networkx as nx
 # =====================================================================================================================
 
 
+# Stores social network user information
 class SNUser:
     def __init__(self, id, loginLocs=None, keywords=None, relations=None, username=None, name=None, email=None,
-                 birthday=None, phone=None):
+                 birthdate=None, phone=None):
         self.id = id
         self.username = username
         self.name = name
         self.email = email
-        self.birthday = birthday
+        self.birthdate = birthdate
         self.phone = phone
         if loginLocs is None:
             self.loginLocs = []
@@ -70,8 +72,15 @@ class SocialNetwork:
             os.mkdir(self.dir)
 
         self.keywordDict = None
+        self.users = None
 
-        threads = [threading.Thread(target=self.loadKeywords)]
+        threads = [threading.Thread(target=self.loadKeywords),
+                   threading.Thread(target=self.loadUsers)]
+
+        for thread in threads:
+            thread.start()
+        for thread in threads:
+            thread.join()
 
     # Reads keyword files for given social network
     def loadKeywords(self):
@@ -91,44 +100,66 @@ class SocialNetwork:
 
         else:
             f = open(keywordFile, "x")
+            writer = csv.writer(f, delimiter=',')
+            writer.writerow(["keyword_id", "keyword"])
             f.close()
 
             self.keywordDict = {}
-        '''if kPath is not None and mPath is not None and exists(kPath) and exists(mPath):
-            keywords = {}
-            keywordsReverse = {}
-            userKeywords = {}
-            # Gets key map
-            with open(mPath, 'r') as csvfile:
-                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                next(reader)
-                for row in reader:
-                    keyword_id = row[0]
-                    keyword = row[1]
-                    if keyword_id in keywords:
-                        raise Exception(f"Error: Duplicate value in {mPath}")
-                    else:
-                        keywords[keyword_id] = keyword
-                        keywordsReverse[keyword] = keyword_id
-            # Gets user keywords
-            with open(kPath, 'r') as kfile:
-                reader = csv.reader(kfile, delimiter=',', quotechar='|')
-                next(reader)
-                for row in reader:
-                    user_id = str(float(row[0]))
-                    keyword_id = row[1]
-                    if user_id in list(userKeywords.keys()):
-                        userKeywords[user_id].append(keyword_id)
-                    else:
-                        userKeywords[user_id] = [keyword_id]
-            self.__keywordMap = keywords
-            self.__keywordMapReverse = keywordsReverse
-            self.__keywords = userKeywords
-        else:
-            self.__keywordMap = None
-            self.__keywordMapReverse = None
-            self.__keywords = None'''
 
+        self.keywordDict = keywords
+
+    def loadUsers(self):
+        userDir = f"{self.dir}/Users"
+        users = {}
+
+        if os.path.exists(userDir):
+            files = os.listdir(userDir)
+
+            for file in files:
+                with open(f"{userDir}/{file}", "r") as f:
+                    data = json.load(f)
+
+                    if data['id'] not in users:
+                        indexKey = f"~{data['id']}~ll:{data['login locations']}~kw:{data['keywords']}"
+                        users[indexKey] = SNUser(data['id'], loginLocs=data['login locations'],
+                                                 keywords=data['keywords'], relations=data['relationships'],
+                                                 username=data['username'], name=data['name'], email=data['email'],
+                                                 birthdate=data['birthdate'], phone=data['phone'])
+
+        else:
+            os.mkdir(userDir)
+            self.users = {}
+
+        self.users = users
+
+        '''
+        # Read in user attributes from the given path
+        # "USER ID" {
+        #   "username": value,
+        #   "name": value,
+        #   "email": value,
+        #   "birthdate": value,
+        #   "phone": value
+        # }
+        def loadUser(self, path=None):
+            if path is not None and exists(path):
+                dict = {}
+                with open(path, 'r') as csvfile:
+                    reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                    next(reader)
+                    for row in reader:
+                        user_id = row[0]
+                        user_dict = {}
+                        user_dict["username"] = row[1]
+                        user_dict["name"] = row[2]
+                        user_dict["email"] = row[3]
+                        user_dict["birthdate"] = row[4]
+                        user_dict["phone"] = row[5]
+                        dict[user_id] = user_dict
+                self.__userData = dict
+            else:
+                self.__userData = None
+            '''
 
 
 '''class SocialNetwork:
@@ -138,21 +169,21 @@ class SocialNetwork:
         self.__rel = {}
         self.__loc = {}
         self.__userData = {}
-        self.__keywordMap = {}
-        self.__keywordMapReverse = {}
-        self.__keywords = {}
+        ~~self.__keywordMap = {}
+        ~~self.__keywordMapReverse = {}
+        ~~self.__keywords = {}
         self.__flattenedRelData = [[], []]
         self.__flattenedLocData = [[], []]
         self.__chunkedLocData = []
         threads = [threading.Thread(target=lambda: self.loadRel(path=relFile)),
                    threading.Thread(target=lambda: self.loadLoc(path=locFile)),
-                   threading.Thread(target=lambda: self.loadUser(path=userDataFile)),
-                   threading.Thread(target=lambda: self.loadKey(kPath=keyFile, mPath=keyMapFile))]
+                   ~~threading.Thread(target=lambda: self.loadUser(path=userDataFile)),
+                   ~~threading.Thread(target=lambda: self.loadKey(kPath=keyFile, mPath=keyMapFile))]
 
-        for thread in threads:
-            thread.start()
-        for thread in threads:
-            thread.join()
+        ~for thread in threads:
+            ~thread.start()
+        ~for thread in threads:
+            ~thread.join()
         self.IDByLoc = self.IDByLoc()
         self.flattenRelData()
         self.flattenLocData()
@@ -257,41 +288,41 @@ class SocialNetwork:
     #     "user_id": [keyword_id]
     # }
     # noinspection SpellCheckingInspection,PyShadowingBuiltins
-    def loadKey(self, kPath=None, mPath=None):
-        if kPath is not None and mPath is not None and exists(kPath) and exists(mPath):
-            keywords = {}
-            keywordsReverse = {}
-            userKeywords = {}
+    ~~def loadKey(self, kPath=None, mPath=None):
+        ~~if kPath is not None and mPath is not None and exists(kPath) and exists(mPath):
+            ~~keywords = {}
+            ~~keywordsReverse = {}
+            ~~userKeywords = {}
             # Gets key map
-            with open(mPath, 'r') as csvfile:
-                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                next(reader)
-                for row in reader:
-                    keyword_id = row[0]
-                    keyword = row[1]
-                    if keyword_id in keywords:
-                        raise Exception(f"Error: Duplicate value in {mPath}")
-                    else:
-                        keywords[keyword_id] = keyword
-                        keywordsReverse[keyword] = keyword_id
+            ~~with open(mPath, 'r') as csvfile:
+                ~~reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                ~~next(reader)
+                ~~for row in reader:
+                    ~~keyword_id = row[0]
+                    ~~keyword = row[1]
+                    ~~if keyword_id in keywords:
+                        ~~raise Exception(f"Error: Duplicate value in {mPath}")
+                    ~~else:
+                        ~~keywords[keyword_id] = keyword
+                        ~~keywordsReverse[keyword] = keyword_id
             # Gets user keywords
-            with open(kPath, 'r') as kfile:
-                reader = csv.reader(kfile, delimiter=',', quotechar='|')
-                next(reader)
-                for row in reader:
-                    user_id = str(float(row[0]))
-                    keyword_id = row[1]
-                    if user_id in list(userKeywords.keys()):
-                        userKeywords[user_id].append(keyword_id)
-                    else:
-                        userKeywords[user_id] = [keyword_id]
-            self.__keywordMap = keywords
-            self.__keywordMapReverse = keywordsReverse
-            self.__keywords = userKeywords
-        else:
-            self.__keywordMap = None
-            self.__keywordMapReverse = None
-            self.__keywords = None
+            ~~with open(kPath, 'r') as kfile:
+                ~~reader = csv.reader(kfile, delimiter=',', quotechar='|')
+                ~~next(reader)
+                ~~for row in reader:
+                    ~~user_id = str(float(row[0]))
+                    ~~keyword_id = row[1]
+                    ~~if user_id in list(userKeywords.keys()):
+                        ~~userKeywords[user_id].append(keyword_id)
+                    ~~else:
+                        ~~userKeywords[user_id] = [keyword_id]
+            ~~self.__keywordMap = keywords
+            ~~self.__keywordMapReverse = keywordsReverse
+            ~~self.__keywords = userKeywords
+        ~~else:
+            ~~self.__keywordMap = None
+            ~~self.__keywordMapReverse = None
+            ~~self.__keywords = None
 
     # Parses the rel data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data.
