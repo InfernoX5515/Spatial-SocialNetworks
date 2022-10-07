@@ -611,14 +611,14 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[5].show()
         self.__windows[5].move(self.geometry().center() - self.__windows[5].rect().center())
 
-    def __showUserInfo(self, listWidget, name, username, birthdate, email, phone, keywordList):
+    def __showUserInfo(self, listWidget, name, username, birthdate, email, phone, keywordList, userList):
         keywordList.clear()
-        name.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text() + ".0")["name"])
-        username.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["username"])
-        birthdate.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["birthdate"])
-        email.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["email"])
-        phone.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["phone"])
-        for id in self.selectedSocialNetwork.getUserKeywords(listWidget.currentItem().text()+ ".0"):
+        name.setText(self.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["name"])
+        username.setText(self.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["username"])
+        birthdate.setText(self.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["birthdate"])
+        email.setText(self.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["email"])
+        phone.setText(self.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["phone"])
+        for id in self.selectedSocialNetwork.getUserKeywords(userList[listWidget.currentRow()]):
             keywordList.addItem(self.selectedSocialNetwork.getKeywordByID(id))
 
     def showUsersWithKeywords(self):
@@ -649,6 +649,8 @@ class Gui(QtWidgets.QMainWindow):
             headingFont=QtGui.QFont()
             headingFont.setBold(True)
             headingFont.setPointSize(16)
+            BoldLabel=QtGui.QFont()
+            BoldLabel.setBold(True)
             listWidget = QtWidgets.QListWidget()
             keywordList = QtWidgets.QListWidget()
             userHeading = QtWidgets.QLabel("Users")
@@ -661,33 +663,29 @@ class Gui(QtWidgets.QMainWindow):
             keywordHeading.setFont(headingFont)
             keywordHeading.setAlignment(QtCore.Qt.AlignCenter)
             nameLabel = QtWidgets.QLabel("Name: ")
+            nameLabel.setFont(BoldLabel)
             name = QtWidgets.QLabel("John Smith")
             usernameLabel = QtWidgets.QLabel("Username: ")
+            usernameLabel.setFont(BoldLabel)
             username = QtWidgets.QLabel("jsmity")
             birthdateLabel = QtWidgets.QLabel("Birthdate: ")
+            birthdateLabel.setFont(BoldLabel)
             birthdate = QtWidgets.QLabel("1/2/1990")
             emailLabel = QtWidgets.QLabel("Email: ")
+            emailLabel.setFont(BoldLabel)
             email = QtWidgets.QLabel("email@example.com")
             phoneLabel = QtWidgets.QLabel("Phone: ")
+            phoneLabel.setFont(BoldLabel)
             phone = QtWidgets.QLabel("123-456-7890")
             setQueryUsr = QtWidgets.QPushButton("Set as Query User")
             setQueryUsr.clicked.connect(lambda: self.setQueryUser(listWidget.currentItem().text() + ".0"))
+            userList = []
             for user in users:
-                listWidget.addItem(user.split(".0")[0])
-                #widget = QtWidgets.QPushButton(user.split(".0")[0])
-                #keywordsStr = []
-                #for id in self.selectedSocialNetwork.getUserKeywords(user):
-                #    keywordsStr.append(self.selectedSocialNetwork.getKeywordByID(id))
-                #widget.setToolTip(f"Keywords: \n{chr(10).join(keywordsStr)}")
-                #widget.clicked.connect(lambda junk, u=user: self.setQueryUser(u))
-                #layout.addWidget(widget, row, column)
-                #column += 1
-                #if column == 9:
-                #    column = 0
-                #    row += 1
-            #listWidget.itemClicked.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList))
+                userList.append(user)
+                listWidget.addItem(self.selectedSocialNetwork.getUserAttributes(user)["name"] + " (" + user.split(".0")[0] + ")")
+                
 
-            listWidget.itemSelectionChanged.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList))
+            listWidget.itemSelectionChanged.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList, userList))
             layout.addWidget(userHeading, 0, 0)
             layout.addWidget(detailHeading, 0, 1, 1, 2)
             layout.addWidget(listWidget, 1, 0, 7, 1)
