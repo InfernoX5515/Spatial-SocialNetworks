@@ -676,7 +676,7 @@ class Gui(QtWidgets.QMainWindow):
             phoneLabel.setFont(BoldLabel)
             phone = QtWidgets.QLabel("123-456-7890")
             setQueryUsr = QtWidgets.QPushButton("Set as Query User")
-            setQueryUsr.clicked.connect(lambda: self.setQueryUser(listWidget.currentItem().text() + ".0"))
+            setQueryUsr.clicked.connect(lambda: self.setQueryUser(userList[listWidget.currentRow()]))
             userList = []
             for user in users:
                 userList.append(user)
