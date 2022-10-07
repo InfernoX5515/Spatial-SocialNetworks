@@ -671,7 +671,9 @@ class Gui(QtWidgets.QMainWindow):
             phoneLabel = QtWidgets.QLabel("Phone: ")
             phone = QtWidgets.QLabel("123-456-7890")
             setQueryUsr = QtWidgets.QPushButton("Set as Query User")
-            setQueryUsr.clicked.connect(lambda: self.setQueryUser(listWidget.currentItem().text() + ".0"))
+            setQueryUsr.clicked.connect(lambda: self.setQueryUser(userList[listWidget.currentRow()]))
+            userList = []
+            
             for user in users:
                 listWidget.addItem(user.split(".0")[0])
                 #widget = QtWidgets.QPushButton(user.split(".0")[0])
