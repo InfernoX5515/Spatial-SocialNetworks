@@ -5,7 +5,39 @@
     "email": "ericmyers@hotmail.com",
     "birthdate": "2008-12-23",
     "phone": "(817)654-0941",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        4,
+        44,
+        16,
+        30,
+        71,
+        28,
+        33,
+        74,
+        53,
+        50,
+        31,
+        34,
+        40,
+        55
+    ],
+    "login locations": [
+        [
+            -122.315447,
+            37.782187
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2352,
+                0.0228571428571
+            ],
+            [
+                8705,
+                0.0152941176471
+            ]
+        ]
+    ]
 }

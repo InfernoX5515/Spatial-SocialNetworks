@@ -5,7 +5,12 @@
     "email": "yvonnechandler@hotmail.com",
     "birthdate": "1931-05-18",
     "phone": "(183)059-3012x995",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.228245,
+            32.816146
+        ]
+    ],
+    "relationships": []
 }

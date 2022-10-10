@@ -5,7 +5,27 @@
     "email": "murraylaura@hotmail.com",
     "birthdate": "1965-08-14",
     "phone": "145.984.1356x1944",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        32,
+        68,
+        12,
+        53,
+        26,
+        10,
+        12,
+        20,
+        40,
+        21,
+        74,
+        59,
+        4
+    ],
+    "login locations": [
+        [
+            -121.990172,
+            37.36881
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "rriley@yahoo.com",
     "birthdate": "1941-09-25",
     "phone": "581.423.5873",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        51,
+        26
+    ],
+    "login locations": [
+        [
+            -118.437314,
+            34.030261
+        ]
+    ],
+    "relationships": []
 }

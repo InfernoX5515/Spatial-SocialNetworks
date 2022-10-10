@@ -5,7 +5,27 @@
     "email": "daisy66@gmail.com",
     "birthdate": "1923-01-20",
     "phone": "165.730.3613x539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        10,
+        63,
+        62,
+        16,
+        32,
+        32,
+        8,
+        21,
+        46,
+        39,
+        23,
+        50,
+        25
+    ],
+    "login locations": [
+        [
+            -122.206085,
+            37.459463
+        ]
+    ],
+    "relationships": []
 }

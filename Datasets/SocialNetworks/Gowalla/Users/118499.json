@@ -5,7 +5,27 @@
     "email": "ronaldvalenzuela@hotmail.com",
     "birthdate": "1917-09-24",
     "phone": "(190)212-2599x98680",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        24,
+        24,
+        70,
+        72,
+        60,
+        62,
+        14,
+        44,
+        11,
+        11,
+        66,
+        18,
+        17
+    ],
+    "login locations": [
+        [
+            -118.399416,
+            34.063996
+        ]
+    ],
+    "relationships": []
 }

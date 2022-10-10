@@ -5,7 +5,26 @@
     "email": "ireed@hotmail.com",
     "birthdate": "1943-07-01",
     "phone": "+1-818-219-8726x6220",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        12,
+        64,
+        33,
+        53,
+        50,
+        73,
+        47,
+        20,
+        36,
+        1,
+        8,
+        40
+    ],
+    "login locations": [
+        [
+            -118.076231,
+            33.840263
+        ]
+    ],
+    "relationships": []
 }

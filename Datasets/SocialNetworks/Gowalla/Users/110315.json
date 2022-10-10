@@ -5,7 +5,17 @@
     "email": "shelia33@yahoo.com",
     "birthdate": "2001-07-20",
     "phone": "684-397-9182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        48,
+        25,
+        46
+    ],
+    "login locations": [
+        [
+            -117.801142,
+            33.66861
+        ]
+    ],
+    "relationships": []
 }

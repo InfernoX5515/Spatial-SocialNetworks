@@ -5,7 +5,21 @@
     "email": "jacobsluke@gmail.com",
     "birthdate": "1916-03-13",
     "phone": "+1-998-321-7167x25345",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        33,
+        59,
+        44,
+        50,
+        43,
+        43,
+        18
+    ],
+    "login locations": [
+        [
+            -122.405572,
+            37.765871
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "garciajoseph@gmail.com",
     "birthdate": "2018-11-23",
     "phone": "365-001-1391",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        0,
+        14,
+        31,
+        24,
+        1
+    ],
+    "login locations": [
+        [
+            -122.408581,
+            37.763669
+        ]
+    ],
+    "relationships": []
 }

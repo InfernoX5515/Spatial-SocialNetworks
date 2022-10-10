@@ -5,7 +5,23 @@
     "email": "fullerkathleen@yahoo.com",
     "birthdate": "2007-10-09",
     "phone": "9913209323",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        32,
+        51,
+        63,
+        37,
+        34,
+        67,
+        4,
+        52,
+        20
+    ],
+    "login locations": [
+        [
+            -119.768197,
+            36.812559
+        ]
+    ],
+    "relationships": []
 }

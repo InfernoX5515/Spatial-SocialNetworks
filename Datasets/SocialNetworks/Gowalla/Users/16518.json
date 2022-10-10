@@ -5,7 +5,20 @@
     "email": "greenecrystal@yahoo.com",
     "birthdate": "1912-05-24",
     "phone": "(661)891-4818",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        12,
+        52,
+        19,
+        22,
+        70,
+        54
+    ],
+    "login locations": [
+        [
+            -122.269069,
+            37.539359
+        ]
+    ],
+    "relationships": []
 }

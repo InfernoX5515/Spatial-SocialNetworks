@@ -5,7 +5,19 @@
     "email": "robin01@gmail.com",
     "birthdate": "1951-06-20",
     "phone": "001-032-580-0290x167",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        17,
+        67,
+        0,
+        9,
+        23
+    ],
+    "login locations": [
+        [
+            -122.386679,
+            37.712624
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "todddanny@hotmail.com",
     "birthdate": "1997-07-22",
     "phone": "(456)896-2608",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        48,
+        36,
+        69,
+        72,
+        2
+    ],
+    "login locations": [
+        [
+            -121.590414,
+            38.693281
+        ]
+    ],
+    "relationships": []
 }

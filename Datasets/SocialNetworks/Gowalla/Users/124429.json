@@ -5,7 +5,28 @@
     "email": "christopher54@yahoo.com",
     "birthdate": "1914-11-29",
     "phone": "121-291-5896x08472",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        75,
+        24,
+        3,
+        32,
+        54,
+        31,
+        37,
+        10,
+        39,
+        20,
+        31,
+        61,
+        17,
+        29
+    ],
+    "login locations": [
+        [
+            -121.501229,
+            38.640775
+        ]
+    ],
+    "relationships": []
 }

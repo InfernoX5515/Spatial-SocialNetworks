@@ -5,7 +5,20 @@
     "email": "michelle34@yahoo.com",
     "birthdate": "1948-07-12",
     "phone": "+1-320-697-0117x928",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        69,
+        69,
+        74,
+        27,
+        24,
+        25
+    ],
+    "login locations": [
+        [
+            -117.96571,
+            33.83791
+        ]
+    ],
+    "relationships": []
 }

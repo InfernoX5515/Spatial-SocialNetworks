@@ -5,7 +5,27 @@
     "email": "taylorfrank@yahoo.com",
     "birthdate": "2009-11-04",
     "phone": "602-470-5368",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        44,
+        66,
+        1,
+        19,
+        0,
+        29,
+        26,
+        34,
+        53,
+        64,
+        7,
+        9,
+        72
+    ],
+    "login locations": [
+        [
+            -122.148106,
+            37.425828
+        ]
+    ],
+    "relationships": []
 }

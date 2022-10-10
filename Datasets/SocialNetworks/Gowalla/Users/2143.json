@@ -5,7 +5,37 @@
     "email": "murrayjackson@hotmail.com",
     "birthdate": "1969-05-31",
     "phone": "929-515-8120x53479",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        47,
+        6,
+        9,
+        29,
+        0,
+        32,
+        22,
+        47,
+        71,
+        30,
+        14,
+        25
+    ],
+    "login locations": [
+        [
+            -120.395542,
+            34.88127
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                126,
+                0.01
+            ],
+            [
+                593,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,19 @@
     "email": "baileyjennifer@gmail.com",
     "birthdate": "1924-07-18",
     "phone": "+1-130-382-2952x2547",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        70,
+        19,
+        55,
+        8,
+        66
+    ],
+    "login locations": [
+        [
+            -122.418083,
+            37.783493
+        ]
+    ],
+    "relationships": []
 }

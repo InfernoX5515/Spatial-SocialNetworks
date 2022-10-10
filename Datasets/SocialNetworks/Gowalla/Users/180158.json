@@ -5,7 +5,18 @@
     "email": "jberger@gmail.com",
     "birthdate": "1969-01-28",
     "phone": "(907)286-2772x303",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        38,
+        16,
+        3,
+        73
+    ],
+    "login locations": [
+        [
+            -117.892144,
+            33.756188
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,31 @@
     "email": "silvadavid@hotmail.com",
     "birthdate": "2007-04-24",
     "phone": "050-102-9670x515",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        1,
+        7,
+        37,
+        9,
+        11,
+        32
+    ],
+    "login locations": [
+        [
+            -122.402033,
+            37.784678
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6314,
+                0.0656934306569
+            ],
+            [
+                6314,
+                0.0656934306569
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,20 @@
     "email": "morgandiane@hotmail.com",
     "birthdate": "2005-11-11",
     "phone": "+1-730-909-0700x330",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        3,
+        32,
+        43,
+        16,
+        16,
+        59
+    ],
+    "login locations": [
+        [
+            -117.204106,
+            32.825754
+        ]
+    ],
+    "relationships": []
 }

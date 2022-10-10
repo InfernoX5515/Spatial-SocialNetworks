@@ -5,7 +5,14 @@
     "email": "uheath@gmail.com",
     "birthdate": "1949-10-14",
     "phone": "(302)928-4262x693",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10
+    ],
+    "login locations": [
+        [
+            -118.914902,
+            34.234308
+        ]
+    ],
+    "relationships": []
 }

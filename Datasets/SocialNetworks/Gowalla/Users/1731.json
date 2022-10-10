@@ -5,7 +5,36 @@
     "email": "brianna89@yahoo.com",
     "birthdate": "1957-05-30",
     "phone": "944-660-9551",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        12,
+        47,
+        55,
+        42,
+        9,
+        66,
+        57,
+        70,
+        25,
+        54,
+        6
+    ],
+    "login locations": [
+        [
+            -122.048337,
+            37.371686
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49350,
+                0.01
+            ],
+            [
+                49350,
+                0.01
+            ]
+        ]
+    ]
 }

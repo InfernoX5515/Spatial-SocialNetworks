@@ -5,7 +5,24 @@
     "email": "fisherkimberly@yahoo.com",
     "birthdate": "1980-05-20",
     "phone": "001-865-759-9378x39507",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        68,
+        48,
+        67,
+        3,
+        2,
+        19,
+        37,
+        68,
+        65,
+        52
+    ],
+    "login locations": [
+        [
+            -121.940462,
+            37.324986
+        ]
+    ],
+    "relationships": []
 }

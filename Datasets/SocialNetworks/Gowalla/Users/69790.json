@@ -5,7 +5,17 @@
     "email": "brucekline@yahoo.com",
     "birthdate": "1975-09-19",
     "phone": "569.071.5069x0290",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        57,
+        52,
+        43
+    ],
+    "login locations": [
+        [
+            -117.635787,
+            33.627912
+        ]
+    ],
+    "relationships": []
 }

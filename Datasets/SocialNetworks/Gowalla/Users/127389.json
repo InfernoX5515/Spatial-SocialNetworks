@@ -5,7 +5,28 @@
     "email": "micheal91@yahoo.com",
     "birthdate": "1932-02-20",
     "phone": "001-037-116-8468x25847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        18,
+        70,
+        15,
+        12,
+        10,
+        53,
+        43,
+        35,
+        39,
+        47,
+        75,
+        45,
+        46,
+        25
+    ],
+    "login locations": [
+        [
+            -122.152958,
+            37.444215
+        ]
+    ],
+    "relationships": []
 }

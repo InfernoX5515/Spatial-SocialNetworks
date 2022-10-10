@@ -5,7 +5,12 @@
     "email": "dcollier@gmail.com",
     "birthdate": "1972-03-28",
     "phone": "+1-438-901-6019x1159",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.405988,
+            37.77207
+        ]
+    ],
+    "relationships": []
 }

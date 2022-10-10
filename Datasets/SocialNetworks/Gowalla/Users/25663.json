@@ -5,7 +5,22 @@
     "email": "anaholmes@yahoo.com",
     "birthdate": "1954-04-30",
     "phone": "305-413-5858x0802",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        75,
+        0,
+        15,
+        20,
+        40,
+        64,
+        10,
+        30
+    ],
+    "login locations": [
+        [
+            -122.35234,
+            37.775854
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,39 @@
     "email": "rodneyrose@gmail.com",
     "birthdate": "2009-09-15",
     "phone": "(167)424-4962x6033",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        45,
+        21,
+        52,
+        36,
+        48,
+        58,
+        75,
+        70,
+        6,
+        62,
+        9,
+        25,
+        9,
+        61
+    ],
+    "login locations": [
+        [
+            -118.280921,
+            34.02123
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                832,
+                0.01
+            ],
+            [
+                39463,
+                0.0212765957447
+            ]
+        ]
+    ]
 }

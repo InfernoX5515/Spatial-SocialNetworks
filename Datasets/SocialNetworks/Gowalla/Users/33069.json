@@ -5,7 +5,22 @@
     "email": "weaverjanet@hotmail.com",
     "birthdate": "1941-02-14",
     "phone": "493-353-7961x1191",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        8,
+        72,
+        1,
+        9,
+        16,
+        20,
+        53,
+        42
+    ],
+    "login locations": [
+        [
+            -118.384582,
+            34.038687
+        ]
+    ],
+    "relationships": []
 }

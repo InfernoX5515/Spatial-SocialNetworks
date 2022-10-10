@@ -5,7 +5,15 @@
     "email": "charles56@gmail.com",
     "birthdate": "1986-03-03",
     "phone": "001-340-209-6970",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        71
+    ],
+    "login locations": [
+        [
+            -122.106476,
+            37.38563
+        ]
+    ],
+    "relationships": []
 }

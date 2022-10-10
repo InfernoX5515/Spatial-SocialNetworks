@@ -5,7 +5,27 @@
     "email": "chris36@gmail.com",
     "birthdate": "1946-10-27",
     "phone": "+1-212-132-4336x94739",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        46,
+        60
+    ],
+    "login locations": [
+        [
+            -122.082653,
+            37.42154
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5074,
+                0.0909090909091
+            ],
+            [
+                5074,
+                0.0909090909091
+            ]
+        ]
+    ]
 }

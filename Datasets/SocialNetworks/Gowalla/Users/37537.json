@@ -5,7 +5,15 @@
     "email": "briannolan@hotmail.com",
     "birthdate": "1993-04-22",
     "phone": "(158)997-1576",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        68
+    ],
+    "login locations": [
+        [
+            -121.980875,
+            37.298989
+        ]
+    ],
+    "relationships": []
 }

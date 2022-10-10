@@ -5,7 +5,24 @@
     "email": "jonathanpalmer@gmail.com",
     "birthdate": "1975-09-29",
     "phone": "287-885-8435x40240",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        13,
+        14,
+        25,
+        66,
+        53,
+        52,
+        71,
+        55,
+        27,
+        71
+    ],
+    "login locations": [
+        [
+            -119.517174,
+            34.394758
+        ]
+    ],
+    "relationships": []
 }

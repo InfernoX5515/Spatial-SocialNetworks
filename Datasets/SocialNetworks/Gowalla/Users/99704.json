@@ -5,7 +5,28 @@
     "email": "makayla52@hotmail.com",
     "birthdate": "1912-10-04",
     "phone": "(417)996-8203",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        21,
+        70,
+        67,
+        63,
+        40,
+        19,
+        0,
+        65,
+        40,
+        18,
+        73,
+        8,
+        50,
+        8
+    ],
+    "login locations": [
+        [
+            -121.934091,
+            37.288558
+        ]
+    ],
+    "relationships": []
 }

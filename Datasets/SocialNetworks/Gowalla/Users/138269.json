@@ -5,7 +5,15 @@
     "email": "brianmoody@gmail.com",
     "birthdate": "1960-10-12",
     "phone": "(778)167-2399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        6
+    ],
+    "login locations": [
+        [
+            -118.166107,
+            34.67721
+        ]
+    ],
+    "relationships": []
 }

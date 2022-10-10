@@ -5,7 +5,27 @@
     "email": "dunlaprobert@gmail.com",
     "birthdate": "1943-05-06",
     "phone": "001-719-996-0587x73915",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        28,
+        5,
+        2,
+        36,
+        56,
+        58,
+        60,
+        65,
+        64,
+        28,
+        25,
+        19,
+        46
+    ],
+    "login locations": [
+        [
+            -118.316093,
+            33.925795
+        ]
+    ],
+    "relationships": []
 }

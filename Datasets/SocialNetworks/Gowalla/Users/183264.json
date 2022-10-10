@@ -5,7 +5,26 @@
     "email": "kaitlinrice@hotmail.com",
     "birthdate": "1913-05-22",
     "phone": "262.556.0026",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        70,
+        41,
+        65,
+        20,
+        34,
+        10,
+        0,
+        36,
+        63,
+        61,
+        51,
+        66
+    ],
+    "login locations": [
+        [
+            -118.125213,
+            34.07837
+        ]
+    ],
+    "relationships": []
 }

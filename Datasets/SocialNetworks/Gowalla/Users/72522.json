@@ -5,7 +5,12 @@
     "email": "trodriguez@yahoo.com",
     "birthdate": "1949-01-10",
     "phone": "572.002.9184",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.399906,
+            37.75003
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "dawn83@gmail.com",
     "birthdate": "1964-07-01",
     "phone": "(446)739-2918x26527",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.029665,
+            37.727655
+        ]
+    ],
+    "relationships": []
 }

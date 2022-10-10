@@ -5,7 +5,21 @@
     "email": "proberts@yahoo.com",
     "birthdate": "1949-01-17",
     "phone": "001-097-222-9817x414",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        41,
+        67,
+        0,
+        63,
+        8,
+        25,
+        23
+    ],
+    "login locations": [
+        [
+            -122.403251,
+            37.740359
+        ]
+    ],
+    "relationships": []
 }

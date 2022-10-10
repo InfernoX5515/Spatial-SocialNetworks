@@ -5,7 +5,36 @@
     "email": "lauraarmstrong@gmail.com",
     "birthdate": "1971-10-01",
     "phone": "402.850.9171",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        48,
+        71,
+        43,
+        17,
+        68,
+        67,
+        13,
+        42,
+        41,
+        40,
+        53
+    ],
+    "login locations": [
+        [
+            -117.912943,
+            33.995286
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                100414,
+                0.130434782609
+            ],
+            [
+                100415,
+                0.0769230769231
+            ]
+        ]
+    ]
 }

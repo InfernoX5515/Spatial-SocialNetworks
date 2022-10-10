@@ -5,7 +5,19 @@
     "email": "zwilcox@yahoo.com",
     "birthdate": "1985-06-05",
     "phone": "144.198.4637",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        48,
+        24,
+        14,
+        6,
+        58
+    ],
+    "login locations": [
+        [
+            -117.387604,
+            33.973163
+        ]
+    ],
+    "relationships": []
 }

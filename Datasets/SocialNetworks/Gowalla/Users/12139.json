@@ -5,7 +5,26 @@
     "email": "timothy90@yahoo.com",
     "birthdate": "1987-02-19",
     "phone": "(294)597-2152x07742",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        2,
+        2,
+        56,
+        52,
+        56,
+        27,
+        75,
+        30,
+        20,
+        72,
+        70,
+        40
+    ],
+    "login locations": [
+        [
+            -117.849998,
+            33.633817
+        ]
+    ],
+    "relationships": []
 }

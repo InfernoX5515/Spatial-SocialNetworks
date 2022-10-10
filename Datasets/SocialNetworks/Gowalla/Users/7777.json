@@ -5,7 +5,22 @@
     "email": "adamsjohn@hotmail.com",
     "birthdate": "1964-04-11",
     "phone": "063-960-9529x21377",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        55,
+        31,
+        39,
+        44,
+        31,
+        26,
+        27,
+        53
+    ],
+    "login locations": [
+        [
+            -122.390982,
+            37.779213
+        ]
+    ],
+    "relationships": []
 }

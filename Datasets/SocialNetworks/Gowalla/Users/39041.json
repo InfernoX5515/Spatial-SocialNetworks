@@ -5,7 +5,28 @@
     "email": "rgarcia@gmail.com",
     "birthdate": "1936-05-26",
     "phone": "+1-071-718-2479x6174",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        38,
+        33,
+        46,
+        6,
+        16,
+        53,
+        51,
+        1,
+        23,
+        33,
+        74,
+        47,
+        15,
+        6
+    ],
+    "login locations": [
+        [
+            -122.388951,
+            37.672468
+        ]
+    ],
+    "relationships": []
 }

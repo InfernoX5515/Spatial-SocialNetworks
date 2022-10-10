@@ -5,7 +5,18 @@
     "email": "madison93@hotmail.com",
     "birthdate": "1972-06-08",
     "phone": "693-421-3328x18391",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        42,
+        39,
+        39,
+        5
+    ],
+    "login locations": [
+        [
+            -118.37724,
+            34.091708
+        ]
+    ],
+    "relationships": []
 }

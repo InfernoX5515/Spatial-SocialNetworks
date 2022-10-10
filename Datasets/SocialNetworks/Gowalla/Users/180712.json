@@ -5,7 +5,20 @@
     "email": "wilsonbethany@hotmail.com",
     "birthdate": "1985-03-30",
     "phone": "+1-974-578-7028",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        75,
+        41,
+        37,
+        70,
+        19,
+        41
+    ],
+    "login locations": [
+        [
+            -118.407168,
+            33.943538
+        ]
+    ],
+    "relationships": []
 }

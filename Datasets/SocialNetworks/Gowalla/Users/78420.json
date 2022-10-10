@@ -5,7 +5,28 @@
     "email": "marydavis@yahoo.com",
     "birthdate": "2018-06-25",
     "phone": "001-710-312-8122x0370",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        56,
+        72,
+        37,
+        62,
+        35,
+        52,
+        61,
+        11,
+        5,
+        59,
+        63,
+        38,
+        67,
+        50
+    ],
+    "login locations": [
+        [
+            -122.052523,
+            37.39533
+        ]
+    ],
+    "relationships": []
 }

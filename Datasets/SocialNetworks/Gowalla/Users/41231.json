@@ -5,7 +5,33 @@
     "email": "katherine91@yahoo.com",
     "birthdate": "1922-07-22",
     "phone": "601.020.4916x27545",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        33,
+        13,
+        53,
+        71,
+        6,
+        14,
+        26,
+        42
+    ],
+    "login locations": [
+        [
+            -122.402547,
+            37.729585
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                831,
+                0.01
+            ],
+            [
+                1121,
+                0.01
+            ]
+        ]
+    ]
 }

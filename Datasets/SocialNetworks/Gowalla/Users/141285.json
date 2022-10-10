@@ -5,7 +5,15 @@
     "email": "mark85@hotmail.com",
     "birthdate": "2009-06-20",
     "phone": "(518)393-1731",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        60
+    ],
+    "login locations": [
+        [
+            -117.991528,
+            33.650968
+        ]
+    ],
+    "relationships": []
 }

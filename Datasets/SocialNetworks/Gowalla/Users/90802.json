@@ -5,7 +5,25 @@
     "email": "christopher24@yahoo.com",
     "birthdate": "1993-04-26",
     "phone": "454-856-5269x611",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58
+    ],
+    "login locations": [
+        [
+            -118.27818,
+            33.828893
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                90803,
+                0.0295358649789
+            ],
+            [
+                90804,
+                0.0392156862745
+            ]
+        ]
+    ]
 }

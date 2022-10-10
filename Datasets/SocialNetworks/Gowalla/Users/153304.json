@@ -5,7 +5,28 @@
     "email": "hintonjared@hotmail.com",
     "birthdate": "1999-07-08",
     "phone": "001-075-713-2266",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        5,
+        54,
+        48
+    ],
+    "login locations": [
+        [
+            -121.411521,
+            38.581448
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                153305,
+                0.0625
+            ],
+            [
+                153308,
+                0.2
+            ]
+        ]
+    ]
 }

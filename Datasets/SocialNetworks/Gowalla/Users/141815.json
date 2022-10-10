@@ -5,7 +5,20 @@
     "email": "shaun51@hotmail.com",
     "birthdate": "1996-03-30",
     "phone": "848-326-9186x8635",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        66,
+        47,
+        30,
+        60,
+        12,
+        29
+    ],
+    "login locations": [
+        [
+            -122.389401,
+            37.778356
+        ]
+    ],
+    "relationships": []
 }

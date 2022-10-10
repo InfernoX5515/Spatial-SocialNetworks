@@ -5,7 +5,38 @@
     "email": "gjohnson@hotmail.com",
     "birthdate": "2011-07-19",
     "phone": "+1-886-994-9045x381",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        45,
+        25,
+        26,
+        16,
+        42,
+        15,
+        20,
+        56,
+        52,
+        71,
+        5,
+        49,
+        72
+    ],
+    "login locations": [
+        [
+            -122.446984,
+            37.748353
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3854,
+                0.0972222222222
+            ],
+            [
+                3854,
+                0.0972222222222
+            ]
+        ]
+    ]
 }

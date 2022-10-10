@@ -5,7 +5,22 @@
     "email": "shoffman@gmail.com",
     "birthdate": "1986-05-08",
     "phone": "(815)010-1674",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        14,
+        54,
+        10,
+        19,
+        22,
+        6,
+        46,
+        56
+    ],
+    "login locations": [
+        [
+            -122.33919,
+            37.844128
+        ]
+    ],
+    "relationships": []
 }

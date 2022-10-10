@@ -5,7 +5,21 @@
     "email": "jonathanmendez@yahoo.com",
     "birthdate": "1975-07-11",
     "phone": "901.853.6410x7619",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        69,
+        53,
+        55,
+        39,
+        6,
+        1,
+        55
+    ],
+    "login locations": [
+        [
+            -118.282581,
+            34.072905
+        ]
+    ],
+    "relationships": []
 }

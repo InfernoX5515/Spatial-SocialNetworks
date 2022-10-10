@@ -5,7 +5,15 @@
     "email": "morganstephen@gmail.com",
     "birthdate": "1961-07-21",
     "phone": "+1-318-440-3852x690",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        8
+    ],
+    "login locations": [
+        [
+            -117.890889,
+            33.806118
+        ]
+    ],
+    "relationships": []
 }

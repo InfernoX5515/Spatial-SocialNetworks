@@ -5,7 +5,28 @@
     "email": "larajessica@yahoo.com",
     "birthdate": "1948-04-10",
     "phone": "(426)462-4679x7967",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        20,
+        14,
+        16,
+        3,
+        64,
+        55,
+        71,
+        47,
+        29,
+        13,
+        5,
+        33,
+        61,
+        38
+    ],
+    "login locations": [
+        [
+            -119.797513,
+            36.832235
+        ]
+    ],
+    "relationships": []
 }

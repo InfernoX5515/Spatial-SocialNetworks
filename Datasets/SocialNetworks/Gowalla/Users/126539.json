@@ -5,7 +5,30 @@
     "email": "morgansavage@gmail.com",
     "birthdate": "2009-10-07",
     "phone": "+1-311-606-6561",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        38,
+        75,
+        61,
+        16,
+        55
+    ],
+    "login locations": [
+        [
+            -122.011085,
+            37.313464
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33916,
+                0.384
+            ],
+            [
+                33916,
+                0.384
+            ]
+        ]
+    ]
 }

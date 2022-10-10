@@ -5,7 +5,12 @@
     "email": "zcox@yahoo.com",
     "birthdate": "1999-05-18",
     "phone": "+1-414-253-2296x296",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.055201,
+            37.396655
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "cheyenne37@yahoo.com",
     "birthdate": "1942-05-26",
     "phone": "+1-829-352-4933",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        5,
+        15,
+        10,
+        33,
+        44,
+        3,
+        60,
+        21,
+        17,
+        62,
+        70,
+        16
+    ],
+    "login locations": [
+        [
+            -121.838613,
+            37.2756
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,37 @@
     "email": "collinsjustin@yahoo.com",
     "birthdate": "1931-04-24",
     "phone": "3650511285",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        2,
+        42,
+        12,
+        20,
+        16,
+        66,
+        56,
+        31,
+        23,
+        25,
+        18,
+        51
+    ],
+    "login locations": [
+        [
+            -121.946301,
+            37.354922
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                78491,
+                0.04
+            ],
+            [
+                151688,
+                0.1
+            ]
+        ]
+    ]
 }

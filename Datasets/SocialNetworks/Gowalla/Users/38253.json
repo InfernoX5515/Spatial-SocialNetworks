@@ -5,7 +5,26 @@
     "email": "emilybanks@yahoo.com",
     "birthdate": "1915-12-08",
     "phone": "905.141.6569",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        44,
+        54,
+        45,
+        70,
+        5,
+        63,
+        45,
+        22,
+        61,
+        48,
+        58,
+        14
+    ],
+    "login locations": [
+        [
+            -118.301963,
+            33.891798
+        ]
+    ],
+    "relationships": []
 }

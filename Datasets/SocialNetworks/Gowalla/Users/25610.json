@@ -5,7 +5,14 @@
     "email": "susan16@gmail.com",
     "birthdate": "1996-01-12",
     "phone": "001-404-778-3133x9574",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53
+    ],
+    "login locations": [
+        [
+            -122.36197,
+            38.318058
+        ]
+    ],
+    "relationships": []
 }

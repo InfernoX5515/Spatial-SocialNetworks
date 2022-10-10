@@ -5,7 +5,16 @@
     "email": "palmerjose@yahoo.com",
     "birthdate": "1908-12-26",
     "phone": "(045)540-9721x03093",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        64,
+        41
+    ],
+    "login locations": [
+        [
+            -122.166272,
+            37.429347
+        ]
+    ],
+    "relationships": []
 }

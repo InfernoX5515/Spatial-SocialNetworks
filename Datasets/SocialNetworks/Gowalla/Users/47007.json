@@ -5,7 +5,15 @@
     "email": "johnmorrison@gmail.com",
     "birthdate": "2017-08-11",
     "phone": "437-947-8929x1293",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        6
+    ],
+    "login locations": [
+        [
+            -122.436537,
+            37.772279
+        ]
+    ],
+    "relationships": []
 }

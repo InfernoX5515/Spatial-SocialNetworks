@@ -5,7 +5,26 @@
     "email": "phillip44@gmail.com",
     "birthdate": "1943-08-15",
     "phone": "+1-433-906-1432x394",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        55
+    ],
+    "login locations": [
+        [
+            -121.982767,
+            37.290696
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3970,
+                0.01
+            ],
+            [
+                4118,
+                0.265789473684
+            ]
+        ]
+    ]
 }

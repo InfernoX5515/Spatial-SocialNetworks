@@ -5,7 +5,27 @@
     "email": "frederickshaffer@hotmail.com",
     "birthdate": "1983-07-05",
     "phone": "001-726-650-9087x619",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        18,
+        30
+    ],
+    "login locations": [
+        [
+            -121.373208,
+            38.69536
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2746,
+                0.01
+            ],
+            [
+                2746,
+                0.01
+            ]
+        ]
+    ]
 }

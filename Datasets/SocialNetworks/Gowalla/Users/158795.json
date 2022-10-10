@@ -5,7 +5,27 @@
     "email": "talvarez@hotmail.com",
     "birthdate": "1932-04-15",
     "phone": "(778)254-2954x7626",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        18,
+        67,
+        59,
+        10,
+        63,
+        66,
+        7,
+        40,
+        31,
+        32,
+        67,
+        62,
+        22
+    ],
+    "login locations": [
+        [
+            -122.399712,
+            37.785818
+        ]
+    ],
+    "relationships": []
 }

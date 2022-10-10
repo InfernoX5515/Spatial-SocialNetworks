@@ -5,7 +5,21 @@
     "email": "joshuadavis@hotmail.com",
     "birthdate": "1934-03-26",
     "phone": "451-445-0424x73332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        44,
+        44,
+        63,
+        68,
+        0,
+        47,
+        72
+    ],
+    "login locations": [
+        [
+            -117.102448,
+            33.124435
+        ]
+    ],
+    "relationships": []
 }

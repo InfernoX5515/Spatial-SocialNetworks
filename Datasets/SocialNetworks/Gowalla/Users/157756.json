@@ -5,7 +5,16 @@
     "email": "tbean@hotmail.com",
     "birthdate": "1973-07-22",
     "phone": "(975)784-3201x65189",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        16,
+        37
+    ],
+    "login locations": [
+        [
+            -122.431191,
+            37.788913
+        ]
+    ],
+    "relationships": []
 }

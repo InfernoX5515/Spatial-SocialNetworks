@@ -5,7 +5,28 @@
     "email": "knappgrant@yahoo.com",
     "birthdate": "1975-04-23",
     "phone": "644-415-7610",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        11,
+        34,
+        47,
+        69,
+        14,
+        36,
+        33,
+        28,
+        74,
+        32,
+        51,
+        30,
+        26,
+        52
+    ],
+    "login locations": [
+        [
+            -122.355922,
+            37.666182
+        ]
+    ],
+    "relationships": []
 }

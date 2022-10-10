@@ -5,7 +5,28 @@
     "email": "nancybrown@hotmail.com",
     "birthdate": "1950-01-21",
     "phone": "544-289-9835x687",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        50,
+        22,
+        17,
+        0,
+        23,
+        41,
+        51,
+        21,
+        7,
+        5,
+        32,
+        16,
+        36,
+        68
+    ],
+    "login locations": [
+        [
+            -118.341422,
+            34.069433
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "rebecca27@hotmail.com",
     "birthdate": "2019-03-19",
     "phone": "(665)871-5376",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        62,
+        25,
+        48
+    ],
+    "login locations": [
+        [
+            -122.397986,
+            37.761487
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.01
+            ],
+            [
+                268,
+                0.01
+            ]
+        ]
+    ]
 }

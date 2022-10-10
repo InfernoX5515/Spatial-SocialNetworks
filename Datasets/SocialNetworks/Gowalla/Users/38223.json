@@ -5,7 +5,36 @@
     "email": "thomasdavis@gmail.com",
     "birthdate": "1989-10-17",
     "phone": "5654234726",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        71,
+        27,
+        21,
+        50,
+        26,
+        20,
+        7,
+        19,
+        0,
+        17,
+        24
+    ],
+    "login locations": [
+        [
+            -121.401865,
+            38.596701
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                130089,
+                0.0408163265306
+            ],
+            [
+                130090,
+                0.04
+            ]
+        ]
+    ]
 }

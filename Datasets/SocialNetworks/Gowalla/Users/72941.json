@@ -5,7 +5,26 @@
     "email": "kim63@gmail.com",
     "birthdate": "1943-06-05",
     "phone": "+1-006-001-3650",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        63,
+        28,
+        61,
+        29,
+        40,
+        55,
+        30,
+        57,
+        36,
+        10,
+        61,
+        27
+    ],
+    "login locations": [
+        [
+            -122.394266,
+            37.780631
+        ]
+    ],
+    "relationships": []
 }

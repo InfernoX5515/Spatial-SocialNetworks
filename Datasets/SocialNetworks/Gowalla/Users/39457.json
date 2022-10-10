@@ -5,7 +5,34 @@
     "email": "campbelljasmine@hotmail.com",
     "birthdate": "1937-07-07",
     "phone": "+1-739-332-3058x977",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        39,
+        54,
+        69,
+        60,
+        11,
+        17,
+        31,
+        30,
+        61
+    ],
+    "login locations": [
+        [
+            -119.227118,
+            34.266054
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11880,
+                0.166666666667
+            ],
+            [
+                11880,
+                0.166666666667
+            ]
+        ]
+    ]
 }

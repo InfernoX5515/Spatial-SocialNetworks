@@ -5,7 +5,15 @@
     "email": "alisonwhite@yahoo.com",
     "birthdate": "1923-04-26",
     "phone": "(478)148-0883x4295",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        19
+    ],
+    "login locations": [
+        [
+            -117.268563,
+            33.880651
+        ]
+    ],
+    "relationships": []
 }

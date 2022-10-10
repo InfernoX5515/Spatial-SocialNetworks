@@ -5,7 +5,24 @@
     "email": "nunezcasey@gmail.com",
     "birthdate": "2000-09-17",
     "phone": "420-621-2941",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        30,
+        16,
+        32,
+        20,
+        45,
+        30,
+        30,
+        42,
+        8,
+        12
+    ],
+    "login locations": [
+        [
+            -118.274647,
+            34.063516
+        ]
+    ],
+    "relationships": []
 }

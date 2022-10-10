@@ -5,7 +5,22 @@
     "email": "hernandezcaitlyn@yahoo.com",
     "birthdate": "1943-12-20",
     "phone": "001-908-493-0779x6493",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        8,
+        40,
+        30,
+        8,
+        23,
+        14,
+        22,
+        50
+    ],
+    "login locations": [
+        [
+            -122.009016,
+            37.331221
+        ]
+    ],
+    "relationships": []
 }

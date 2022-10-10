@@ -5,7 +5,26 @@
     "email": "joycecarol@hotmail.com",
     "birthdate": "2014-06-11",
     "phone": "+1-707-348-3871x625",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        42
+    ],
+    "login locations": [
+        [
+            -121.937667,
+            37.303606
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22422,
+                0.08
+            ],
+            [
+                22423,
+                0.6
+            ]
+        ]
+    ]
 }

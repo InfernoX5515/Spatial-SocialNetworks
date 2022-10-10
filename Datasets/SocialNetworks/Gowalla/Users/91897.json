@@ -5,7 +5,14 @@
     "email": "callahanmike@hotmail.com",
     "birthdate": "2008-07-25",
     "phone": "767-584-0017x411",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27
+    ],
+    "login locations": [
+        [
+            -117.242541,
+            32.950087
+        ]
+    ],
+    "relationships": []
 }

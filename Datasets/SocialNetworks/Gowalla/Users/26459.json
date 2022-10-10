@@ -5,7 +5,22 @@
     "email": "bpatterson@gmail.com",
     "birthdate": "1929-04-17",
     "phone": "+1-770-777-6009",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        30,
+        7,
+        4,
+        64,
+        43,
+        42,
+        35,
+        19
+    ],
+    "login locations": [
+        [
+            -118.467143,
+            34.154716
+        ]
+    ],
+    "relationships": []
 }

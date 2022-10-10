@@ -5,7 +5,17 @@
     "email": "rebeccamiranda@yahoo.com",
     "birthdate": "2008-03-10",
     "phone": "232.373.5422x893",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        1,
+        38,
+        70
+    ],
+    "login locations": [
+        [
+            -122.208543,
+            37.656804
+        ]
+    ],
+    "relationships": []
 }

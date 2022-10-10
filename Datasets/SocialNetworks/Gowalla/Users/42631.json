@@ -5,7 +5,15 @@
     "email": "eschneider@gmail.com",
     "birthdate": "2021-04-23",
     "phone": "824.202.5622x984",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        36
+    ],
+    "login locations": [
+        [
+            -121.466953,
+            38.568855
+        ]
+    ],
+    "relationships": []
 }

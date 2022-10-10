@@ -5,7 +5,16 @@
     "email": "zhall@gmail.com",
     "birthdate": "1953-07-28",
     "phone": "712-322-3847x764",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        60,
+        68
+    ],
+    "login locations": [
+        [
+            -122.157325,
+            37.414506
+        ]
+    ],
+    "relationships": []
 }

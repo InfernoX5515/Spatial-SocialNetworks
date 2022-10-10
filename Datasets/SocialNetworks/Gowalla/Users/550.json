@@ -5,7 +5,16 @@
     "email": "baxterkelly@yahoo.com",
     "birthdate": "2022-07-08",
     "phone": "001-419-586-0652x866",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        26,
+        60
+    ],
+    "login locations": [
+        [
+            -122.418364,
+            37.790158
+        ]
+    ],
+    "relationships": []
 }

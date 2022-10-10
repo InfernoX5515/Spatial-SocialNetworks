@@ -5,7 +5,21 @@
     "email": "parsonsmegan@gmail.com",
     "birthdate": "2014-01-14",
     "phone": "1894285285",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        17,
+        45,
+        22,
+        61,
+        51,
+        70,
+        49
+    ],
+    "login locations": [
+        [
+            -122.396999,
+            37.846064
+        ]
+    ],
+    "relationships": []
 }

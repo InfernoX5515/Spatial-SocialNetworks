@@ -5,7 +5,28 @@
     "email": "darrellgoodwin@gmail.com",
     "birthdate": "1980-08-16",
     "phone": "+1-163-346-2288x811",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        18,
+        58,
+        56,
+        4,
+        46,
+        50,
+        26,
+        73,
+        53,
+        35,
+        14,
+        24,
+        21,
+        59
+    ],
+    "login locations": [
+        [
+            -121.964859,
+            37.380148
+        ]
+    ],
+    "relationships": []
 }

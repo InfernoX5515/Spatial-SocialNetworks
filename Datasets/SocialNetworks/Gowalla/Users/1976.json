@@ -5,7 +5,28 @@
     "email": "keyrichard@gmail.com",
     "birthdate": "2018-04-20",
     "phone": "677.806.9379x55281",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        7,
+        55,
+        27,
+        15,
+        44,
+        63,
+        68,
+        48,
+        66,
+        21,
+        46,
+        66,
+        42,
+        55
+    ],
+    "login locations": [
+        [
+            -121.995288,
+            37.334184
+        ]
+    ],
+    "relationships": []
 }

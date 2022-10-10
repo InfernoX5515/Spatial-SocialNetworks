@@ -5,7 +5,21 @@
     "email": "zhangcharles@gmail.com",
     "birthdate": "1939-01-19",
     "phone": "+1-337-824-5514x83254",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        56,
+        49,
+        32,
+        43,
+        40,
+        32,
+        70
+    ],
+    "login locations": [
+        [
+            -118.233008,
+            34.151947
+        ]
+    ],
+    "relationships": []
 }

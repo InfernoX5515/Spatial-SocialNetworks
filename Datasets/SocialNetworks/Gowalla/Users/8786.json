@@ -5,7 +5,31 @@
     "email": "rachelclark@yahoo.com",
     "birthdate": "1916-02-04",
     "phone": "(331)065-5750x018",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        25,
+        25,
+        46,
+        67,
+        16,
+        53
+    ],
+    "login locations": [
+        [
+            -123.180567,
+            39.137922
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                484,
+                0.01
+            ],
+            [
+                484,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "atkinsmary@yahoo.com",
     "birthdate": "1913-12-29",
     "phone": "(549)839-7893x208",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        44,
+        24,
+        39,
+        44,
+        20,
+        63,
+        71,
+        54,
+        34,
+        68
+    ],
+    "login locations": [
+        [
+            -118.16211,
+            34.695367
+        ]
+    ],
+    "relationships": []
 }

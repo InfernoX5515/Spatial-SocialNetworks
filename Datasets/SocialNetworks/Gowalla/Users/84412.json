@@ -5,7 +5,23 @@
     "email": "anna93@gmail.com",
     "birthdate": "1979-01-01",
     "phone": "(798)309-7404x51555",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        35,
+        15,
+        44,
+        8,
+        45,
+        46,
+        63,
+        69,
+        53
+    ],
+    "login locations": [
+        [
+            -122.178273,
+            37.447353
+        ]
+    ],
+    "relationships": []
 }

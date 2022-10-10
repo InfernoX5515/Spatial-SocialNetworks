@@ -5,7 +5,18 @@
     "email": "kevin98@yahoo.com",
     "birthdate": "1929-06-22",
     "phone": "842-316-0007",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        18,
+        46,
+        58,
+        60
+    ],
+    "login locations": [
+        [
+            -117.910985,
+            33.985369
+        ]
+    ],
+    "relationships": []
 }

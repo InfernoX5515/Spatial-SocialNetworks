@@ -5,7 +5,23 @@
     "email": "phillipsjames@yahoo.com",
     "birthdate": "1958-10-28",
     "phone": "(920)591-6106",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.926876,
+            33.731718
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3632,
+                0.183833116037
+            ],
+            [
+                3632,
+                0.183833116037
+            ]
+        ]
+    ]
 }

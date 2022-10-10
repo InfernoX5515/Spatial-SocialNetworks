@@ -5,7 +5,22 @@
     "email": "bakermichael@hotmail.com",
     "birthdate": "1994-04-16",
     "phone": "147-008-3049x6715",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        72,
+        72,
+        73,
+        61,
+        4,
+        1,
+        44,
+        72
+    ],
+    "login locations": [
+        [
+            -117.111669,
+            33.383301
+        ]
+    ],
+    "relationships": []
 }

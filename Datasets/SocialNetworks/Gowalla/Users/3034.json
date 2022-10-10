@@ -5,7 +5,16 @@
     "email": "ryantaylor@gmail.com",
     "birthdate": "1921-11-17",
     "phone": "+1-852-064-9148x02969",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        27,
+        21
+    ],
+    "login locations": [
+        [
+            -117.13852,
+            32.978596
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "richardstark@yahoo.com",
     "birthdate": "1988-05-14",
     "phone": "001-402-113-2514",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        5,
+        57,
+        14,
+        5,
+        52,
+        11
+    ],
+    "login locations": [
+        [
+            -121.063431,
+            38.698331
+        ]
+    ],
+    "relationships": []
 }

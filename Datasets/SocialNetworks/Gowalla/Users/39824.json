@@ -5,7 +5,23 @@
     "email": "cobbtara@gmail.com",
     "birthdate": "1934-01-25",
     "phone": "(172)974-3074x7336",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.40697,
+            37.784457
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39812,
+                1.0
+            ],
+            [
+                39813,
+                0.12
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,20 @@
     "email": "omiller@gmail.com",
     "birthdate": "1971-05-03",
     "phone": "7757859381",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        29,
+        5,
+        16,
+        30,
+        38,
+        17
+    ],
+    "login locations": [
+        [
+            -122.401882,
+            37.7855
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "asandoval@hotmail.com",
     "birthdate": "1923-05-30",
     "phone": "(280)147-4300",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        71,
+        30,
+        31,
+        51
+    ],
+    "login locations": [
+        [
+            -122.419009,
+            37.769795
+        ]
+    ],
+    "relationships": []
 }

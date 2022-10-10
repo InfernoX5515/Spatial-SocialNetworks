@@ -5,7 +5,15 @@
     "email": "tina34@gmail.com",
     "birthdate": "1973-12-16",
     "phone": "751.788.1569x4562",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        33
+    ],
+    "login locations": [
+        [
+            -117.23361,
+            32.771498
+        ]
+    ],
+    "relationships": []
 }

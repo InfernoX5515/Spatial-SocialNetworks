@@ -5,7 +5,39 @@
     "email": "walkeredward@yahoo.com",
     "birthdate": "1930-04-22",
     "phone": "184.530.2157x2319",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        65,
+        40,
+        75,
+        55,
+        14,
+        54,
+        51,
+        5,
+        65,
+        70,
+        46,
+        23,
+        15,
+        44
+    ],
+    "login locations": [
+        [
+            -122.406569,
+            37.773909
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5563,
+                0.123076923077
+            ],
+            [
+                5563,
+                0.123076923077
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,36 @@
     "email": "sholmes@hotmail.com",
     "birthdate": "1941-12-18",
     "phone": "067.391.8611x045",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        62,
+        65,
+        56,
+        47,
+        63,
+        44,
+        45,
+        60,
+        67,
+        59,
+        58
+    ],
+    "login locations": [
+        [
+            -122.165081,
+            37.759194
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5838,
+                0.01
+            ],
+            [
+                5838,
+                0.01
+            ]
+        ]
+    ]
 }

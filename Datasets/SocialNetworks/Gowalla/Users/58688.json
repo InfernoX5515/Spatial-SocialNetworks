@@ -5,7 +5,28 @@
     "email": "andrew74@hotmail.com",
     "birthdate": "1949-12-03",
     "phone": "0021456583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        71,
+        27,
+        51,
+        73,
+        45,
+        25,
+        23,
+        31,
+        60,
+        75,
+        51,
+        21,
+        12,
+        21
+    ],
+    "login locations": [
+        [
+            -122.430943,
+            37.776761
+        ]
+    ],
+    "relationships": []
 }

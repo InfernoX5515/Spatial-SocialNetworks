@@ -5,7 +5,18 @@
     "email": "carterkristin@yahoo.com",
     "birthdate": "1997-03-02",
     "phone": "001-983-495-3371x1448",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        15,
+        15,
+        28,
+        39
+    ],
+    "login locations": [
+        [
+            -122.409744,
+            37.799495
+        ]
+    ],
+    "relationships": []
 }

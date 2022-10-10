@@ -5,7 +5,27 @@
     "email": "wmills@hotmail.com",
     "birthdate": "1942-06-12",
     "phone": "(918)592-7985x347",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        22,
+        36,
+        63,
+        28,
+        2,
+        0,
+        63,
+        5,
+        67,
+        16,
+        35,
+        53,
+        19
+    ],
+    "login locations": [
+        [
+            -117.828469,
+            33.679205
+        ]
+    ],
+    "relationships": []
 }

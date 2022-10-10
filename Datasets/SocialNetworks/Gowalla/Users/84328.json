@@ -5,7 +5,33 @@
     "email": "nealjasmine@hotmail.com",
     "birthdate": "1950-04-07",
     "phone": "861.109.0658",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        32,
+        11,
+        29,
+        37,
+        30,
+        28,
+        13,
+        35
+    ],
+    "login locations": [
+        [
+            -122.014218,
+            37.384618
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8582,
+                0.01
+            ],
+            [
+                8582,
+                0.01
+            ]
+        ]
+    ]
 }

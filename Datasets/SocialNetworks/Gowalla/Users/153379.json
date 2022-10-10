@@ -5,7 +5,19 @@
     "email": "hannahdavis@hotmail.com",
     "birthdate": "1957-12-31",
     "phone": "001-084-061-4173x9726",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        73,
+        28,
+        47,
+        24,
+        59
+    ],
+    "login locations": [
+        [
+            -122.038974,
+            37.593819
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "glasspatrick@yahoo.com",
     "birthdate": "1964-01-30",
     "phone": "(636)215-4841",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        68,
+        26,
+        14,
+        15,
+        20,
+        72,
+        61,
+        22
+    ],
+    "login locations": [
+        [
+            -117.129935,
+            32.797935
+        ]
+    ],
+    "relationships": []
 }

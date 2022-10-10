@@ -5,7 +5,30 @@
     "email": "andrea81@yahoo.com",
     "birthdate": "1929-10-02",
     "phone": "143-842-0196",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        70,
+        51,
+        11,
+        65,
+        65
+    ],
+    "login locations": [
+        [
+            -122.411324,
+            37.776748
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                24,
+                0.08
+            ],
+            [
+                1558,
+                0.0145454545455
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,16 @@
     "email": "butleranna@yahoo.com",
     "birthdate": "1999-02-27",
     "phone": "001-604-953-4068x93058",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        12,
+        69
+    ],
+    "login locations": [
+        [
+            -117.298987,
+            34.039883
+        ]
+    ],
+    "relationships": []
 }

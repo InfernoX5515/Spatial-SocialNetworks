@@ -5,7 +5,17 @@
     "email": "bjackson@yahoo.com",
     "birthdate": "1973-03-19",
     "phone": "(896)682-4952x5877",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        28,
+        40,
+        67
+    ],
+    "login locations": [
+        [
+            -122.321152,
+            37.63384
+        ]
+    ],
+    "relationships": []
 }

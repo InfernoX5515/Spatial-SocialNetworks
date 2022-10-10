@@ -5,7 +5,20 @@
     "email": "chavezhannah@hotmail.com",
     "birthdate": "2013-01-21",
     "phone": "198.064.1597",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        18,
+        60,
+        9,
+        68,
+        16,
+        33
+    ],
+    "login locations": [
+        [
+            -119.782145,
+            36.784146
+        ]
+    ],
+    "relationships": []
 }

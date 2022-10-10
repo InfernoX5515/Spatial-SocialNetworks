@@ -5,7 +5,15 @@
     "email": "cjacobs@hotmail.com",
     "birthdate": "2014-08-07",
     "phone": "3542924941",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        55
+    ],
+    "login locations": [
+        [
+            -122.420913,
+            37.753875
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "david74@hotmail.com",
     "birthdate": "1908-10-27",
     "phone": "(860)486-4897x17205",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        47,
+        73,
+        73,
+        24
+    ],
+    "login locations": [
+        [
+            -117.839268,
+            33.959683
+        ]
+    ],
+    "relationships": []
 }

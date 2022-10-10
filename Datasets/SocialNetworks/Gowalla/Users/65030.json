@@ -5,7 +5,28 @@
     "email": "garciajerome@gmail.com",
     "birthdate": "1992-09-10",
     "phone": "001-709-541-8532x1973",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        27,
+        34,
+        13,
+        20,
+        42,
+        73,
+        65,
+        17,
+        0,
+        70,
+        13,
+        27,
+        53,
+        23
+    ],
+    "login locations": [
+        [
+            -122.42274,
+            37.759159
+        ]
+    ],
+    "relationships": []
 }

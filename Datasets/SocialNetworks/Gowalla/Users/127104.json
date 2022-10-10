@@ -5,7 +5,18 @@
     "email": "taraford@hotmail.com",
     "birthdate": "2001-01-16",
     "phone": "(124)955-5001x2589",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        32,
+        74,
+        61,
+        69
+    ],
+    "login locations": [
+        [
+            -118.109246,
+            34.093084
+        ]
+    ],
+    "relationships": []
 }

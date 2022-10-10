@@ -5,7 +5,27 @@
     "email": "thompsonkelly@hotmail.com",
     "birthdate": "1995-05-20",
     "phone": "140.781.7368",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        24,
+        33,
+        68,
+        1,
+        53,
+        72,
+        20,
+        50,
+        23,
+        43,
+        58,
+        45,
+        14
+    ],
+    "login locations": [
+        [
+            -118.081874,
+            33.80583
+        ]
+    ],
+    "relationships": []
 }

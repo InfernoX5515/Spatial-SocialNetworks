@@ -5,7 +5,20 @@
     "email": "jeanette89@hotmail.com",
     "birthdate": "2002-10-01",
     "phone": "001-815-963-8109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        72,
+        71,
+        69,
+        18,
+        70,
+        2
+    ],
+    "login locations": [
+        [
+            -122.467194,
+            37.812876
+        ]
+    ],
+    "relationships": []
 }

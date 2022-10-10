@@ -5,7 +5,20 @@
     "email": "johnsonsamantha@hotmail.com",
     "birthdate": "1951-10-29",
     "phone": "001-908-511-6393",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        68,
+        12,
+        26,
+        75,
+        4,
+        17
+    ],
+    "login locations": [
+        [
+            -117.041961,
+            32.79092
+        ]
+    ],
+    "relationships": []
 }

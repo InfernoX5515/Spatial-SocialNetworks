@@ -5,7 +5,25 @@
     "email": "josewatson@yahoo.com",
     "birthdate": "1933-09-23",
     "phone": "472-279-4578x40257",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        4,
+        21,
+        37,
+        11,
+        69,
+        54,
+        10,
+        20,
+        42,
+        37,
+        52
+    ],
+    "login locations": [
+        [
+            -118.152823,
+            34.10392
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "mariah14@yahoo.com",
     "birthdate": "1944-02-14",
     "phone": "(983)829-8733x663",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59
+    ],
+    "login locations": [
+        [
+            -122.347428,
+            37.803507
+        ]
+    ],
+    "relationships": []
 }

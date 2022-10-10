@@ -5,7 +5,36 @@
     "email": "thomas61@gmail.com",
     "birthdate": "1974-02-21",
     "phone": "001-233-006-1200x167",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        60,
+        24,
+        40,
+        24,
+        26,
+        21,
+        24,
+        27,
+        30,
+        30,
+        54
+    ],
+    "login locations": [
+        [
+            -122.389555,
+            37.727208
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7712,
+                0.08
+            ],
+            [
+                4259,
+                0.01
+            ]
+        ]
+    ]
 }

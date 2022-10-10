@@ -5,7 +5,22 @@
     "email": "georgebarker@yahoo.com",
     "birthdate": "1975-05-15",
     "phone": "+1-780-944-3220x65156",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        40,
+        62,
+        74,
+        39,
+        26,
+        32,
+        11,
+        23
+    ],
+    "login locations": [
+        [
+            -118.303577,
+            34.032731
+        ]
+    ],
+    "relationships": []
 }

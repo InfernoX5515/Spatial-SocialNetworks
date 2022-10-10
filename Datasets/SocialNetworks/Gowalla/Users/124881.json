@@ -5,7 +5,33 @@
     "email": "james62@hotmail.com",
     "birthdate": "1943-01-01",
     "phone": "9175772523",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        49,
+        46,
+        45,
+        22,
+        51,
+        57,
+        35,
+        24
+    ],
+    "login locations": [
+        [
+            -118.432464,
+            33.973599
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82708,
+                0.06
+            ],
+            [
+                124882,
+                0.25
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,33 @@
     "email": "rodney43@yahoo.com",
     "birthdate": "2001-02-18",
     "phone": "907.181.7181",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        18,
+        23,
+        46,
+        50,
+        47,
+        25,
+        43,
+        35
+    ],
+    "login locations": [
+        [
+            -122.191809,
+            37.695941
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8302,
+                0.0521739130435
+            ],
+            [
+                8302,
+                0.0521739130435
+            ]
+        ]
+    ]
 }

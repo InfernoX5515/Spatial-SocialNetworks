@@ -5,7 +5,27 @@
     "email": "lbrown@yahoo.com",
     "birthdate": "1970-10-10",
     "phone": "450-303-0429",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        29,
+        74,
+        33,
+        71,
+        58,
+        72,
+        44,
+        72,
+        9,
+        33,
+        43,
+        41,
+        28
+    ],
+    "login locations": [
+        [
+            -118.098047,
+            33.804297
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "ptaylor@yahoo.com",
     "birthdate": "2009-02-08",
     "phone": "+1-828-913-7212x4402",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        11,
+        16,
+        46,
+        11,
+        4,
+        70
+    ],
+    "login locations": [
+        [
+            -122.003211,
+            38.217554
+        ]
+    ],
+    "relationships": []
 }

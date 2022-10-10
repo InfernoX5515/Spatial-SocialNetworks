@@ -5,7 +5,28 @@
     "email": "yjohnson@yahoo.com",
     "birthdate": "1920-01-29",
     "phone": "582.631.5489x619",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        57,
+        9,
+        3,
+        15,
+        12,
+        64,
+        57,
+        62,
+        49,
+        51,
+        55,
+        3,
+        13,
+        3
+    ],
+    "login locations": [
+        [
+            -121.251121,
+            37.936213
+        ]
+    ],
+    "relationships": []
 }

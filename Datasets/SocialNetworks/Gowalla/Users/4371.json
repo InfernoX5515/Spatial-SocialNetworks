@@ -5,7 +5,29 @@
     "email": "katelyn44@hotmail.com",
     "birthdate": "1982-09-21",
     "phone": "001-104-011-8609x6922",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        37,
+        54,
+        60,
+        6
+    ],
+    "login locations": [
+        [
+            -122.394548,
+            37.784079
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                249,
+                0.01
+            ],
+            [
+                276,
+                0.189873417722
+            ]
+        ]
+    ]
 }

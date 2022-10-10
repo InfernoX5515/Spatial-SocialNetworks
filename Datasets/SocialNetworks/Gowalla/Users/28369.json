@@ -5,7 +5,25 @@
     "email": "robertdoyle@hotmail.com",
     "birthdate": "1970-10-17",
     "phone": "+1-382-138-4148x9987",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        31,
+        40,
+        3,
+        51,
+        44,
+        13,
+        24,
+        29,
+        44,
+        15,
+        74
+    ],
+    "login locations": [
+        [
+            -118.128333,
+            33.856168
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "barbara16@gmail.com",
     "birthdate": "1913-07-06",
     "phone": "443-973-5519x27792",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        16,
+        43,
+        1,
+        66,
+        75,
+        21,
+        52
+    ],
+    "login locations": [
+        [
+            -117.935023,
+            33.694196
+        ]
+    ],
+    "relationships": []
 }

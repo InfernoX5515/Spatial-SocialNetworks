@@ -5,7 +5,26 @@
     "email": "tracy24@hotmail.com",
     "birthdate": "1995-12-01",
     "phone": "(668)236-5607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        13,
+        24,
+        47,
+        13,
+        18,
+        52,
+        38,
+        59,
+        62,
+        22,
+        22,
+        42
+    ],
+    "login locations": [
+        [
+            -121.322923,
+            38.562804
+        ]
+    ],
+    "relationships": []
 }

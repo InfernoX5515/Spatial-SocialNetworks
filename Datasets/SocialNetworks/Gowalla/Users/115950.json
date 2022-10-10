@@ -5,7 +5,15 @@
     "email": "martinezashley@gmail.com",
     "birthdate": "1936-04-18",
     "phone": "(891)553-2595x56467",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        20
+    ],
+    "login locations": [
+        [
+            -122.404894,
+            37.792698
+        ]
+    ],
+    "relationships": []
 }

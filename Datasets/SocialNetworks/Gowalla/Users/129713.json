@@ -5,7 +5,25 @@
     "email": "cmosley@yahoo.com",
     "birthdate": "1914-07-30",
     "phone": "001-919-906-1704x9979",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2
+    ],
+    "login locations": [
+        [
+            -118.116142,
+            33.831896
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                37857,
+                0.01
+            ],
+            [
+                37857,
+                0.01
+            ]
+        ]
+    ]
 }

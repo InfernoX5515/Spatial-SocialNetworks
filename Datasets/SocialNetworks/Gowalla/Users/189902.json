@@ -5,7 +5,12 @@
     "email": "garycook@yahoo.com",
     "birthdate": "2019-03-20",
     "phone": "(989)617-8042",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.905543,
+            37.246637
+        ]
+    ],
+    "relationships": []
 }

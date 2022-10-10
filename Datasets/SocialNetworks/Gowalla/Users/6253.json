@@ -5,7 +5,20 @@
     "email": "norrisdavid@hotmail.com",
     "birthdate": "1931-09-05",
     "phone": "001.909.5117x803",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        12,
+        34,
+        41,
+        27,
+        50,
+        53
+    ],
+    "login locations": [
+        [
+            -122.60383,
+            38.159341
+        ]
+    ],
+    "relationships": []
 }

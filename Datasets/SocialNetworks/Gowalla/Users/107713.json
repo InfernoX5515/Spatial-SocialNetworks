@@ -5,7 +5,19 @@
     "email": "smithandrea@hotmail.com",
     "birthdate": "1914-05-15",
     "phone": "1578797981",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        64,
+        40,
+        32,
+        55,
+        23
+    ],
+    "login locations": [
+        [
+            -122.719892,
+            38.443505
+        ]
+    ],
+    "relationships": []
 }

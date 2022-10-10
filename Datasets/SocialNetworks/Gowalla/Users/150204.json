@@ -5,7 +5,14 @@
     "email": "kristenrobinson@gmail.com",
     "birthdate": "1916-07-20",
     "phone": "+1-822-236-4562x837",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11
+    ],
+    "login locations": [
+        [
+            -117.942964,
+            33.809558
+        ]
+    ],
+    "relationships": []
 }

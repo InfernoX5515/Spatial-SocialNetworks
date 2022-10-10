@@ -5,7 +5,27 @@
     "email": "katherine95@yahoo.com",
     "birthdate": "1984-04-13",
     "phone": "605-176-7678x110",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        29,
+        54,
+        20,
+        27,
+        49,
+        11,
+        5,
+        28,
+        29,
+        50,
+        9,
+        60,
+        57
+    ],
+    "login locations": [
+        [
+            -117.616207,
+            34.132049
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "justinbrown@gmail.com",
     "birthdate": "1930-12-25",
     "phone": "399-908-3326",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        64,
+        62,
+        2,
+        46,
+        54,
+        66,
+        17,
+        43,
+        14
+    ],
+    "login locations": [
+        [
+            -117.119676,
+            32.783089
+        ]
+    ],
+    "relationships": []
 }

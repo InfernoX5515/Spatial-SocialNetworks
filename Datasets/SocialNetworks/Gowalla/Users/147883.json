@@ -5,7 +5,27 @@
     "email": "lharris@gmail.com",
     "birthdate": "1941-09-01",
     "phone": "001-894-994-6330x17175",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        7,
+        17,
+        71,
+        35,
+        2,
+        29,
+        54,
+        10,
+        75,
+        10,
+        61,
+        51,
+        15
+    ],
+    "login locations": [
+        [
+            -117.855622,
+            33.790389
+        ]
+    ],
+    "relationships": []
 }

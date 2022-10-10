@@ -5,7 +5,26 @@
     "email": "aaronanderson@hotmail.com",
     "birthdate": "1949-10-19",
     "phone": "+1-154-321-0068x26839",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        53,
+        21,
+        43,
+        60,
+        55,
+        35,
+        31,
+        51,
+        54,
+        12,
+        10,
+        42
+    ],
+    "login locations": [
+        [
+            -122.323336,
+            37.569679
+        ]
+    ],
+    "relationships": []
 }

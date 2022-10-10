@@ -5,7 +5,28 @@
     "email": "michaela66@yahoo.com",
     "birthdate": "1953-02-04",
     "phone": "001-833-729-3236x00685",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        19,
+        39,
+        17,
+        54,
+        12,
+        12,
+        28,
+        65,
+        58,
+        61,
+        50,
+        6,
+        19,
+        44
+    ],
+    "login locations": [
+        [
+            -118.497296,
+            34.015448
+        ]
+    ],
+    "relationships": []
 }

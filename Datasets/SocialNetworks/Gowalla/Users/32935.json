@@ -5,7 +5,12 @@
     "email": "tiffany66@yahoo.com",
     "birthdate": "1916-11-30",
     "phone": "947-759-3770x591",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.443895,
+            37.752063
+        ]
+    ],
+    "relationships": []
 }

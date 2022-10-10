@@ -5,7 +5,25 @@
     "email": "thompsonkylie@hotmail.com",
     "birthdate": "1927-10-23",
     "phone": "+1-978-177-1419x514",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        23,
+        41,
+        14,
+        52,
+        8,
+        8,
+        37,
+        59,
+        37,
+        57,
+        19
+    ],
+    "login locations": [
+        [
+            -121.419545,
+            38.617262
+        ]
+    ],
+    "relationships": []
 }

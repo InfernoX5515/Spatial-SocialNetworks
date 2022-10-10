@@ -5,7 +5,37 @@
     "email": "allenkristina@yahoo.com",
     "birthdate": "1919-08-21",
     "phone": "389-654-0151x14401",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        46,
+        22,
+        27,
+        58,
+        44,
+        57,
+        33,
+        36,
+        61,
+        46,
+        24,
+        74
+    ],
+    "login locations": [
+        [
+            -118.409052,
+            34.040565
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32367,
+                0.35593220339
+            ],
+            [
+                32367,
+                0.35593220339
+            ]
+        ]
+    ]
 }

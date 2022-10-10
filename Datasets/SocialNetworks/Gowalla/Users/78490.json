@@ -5,7 +5,26 @@
     "email": "shirleygarza@yahoo.com",
     "birthdate": "2004-10-06",
     "phone": "001-813-279-3492x69346",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        49,
+        40,
+        46,
+        19,
+        55,
+        44,
+        53,
+        40,
+        48,
+        63,
+        70,
+        12
+    ],
+    "login locations": [
+        [
+            -121.877312,
+            37.249349
+        ]
+    ],
+    "relationships": []
 }

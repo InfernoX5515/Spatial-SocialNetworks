@@ -5,7 +5,32 @@
     "email": "williamhinton@gmail.com",
     "birthdate": "1977-10-20",
     "phone": "(635)423-1590x069",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        71,
+        75,
+        68,
+        61,
+        67,
+        17,
+        53
+    ],
+    "login locations": [
+        [
+            -118.311022,
+            34.034365
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                523,
+                0.01
+            ],
+            [
+                10852,
+                0.0202898550725
+            ]
+        ]
+    ]
 }

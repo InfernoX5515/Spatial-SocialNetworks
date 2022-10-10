@@ -5,7 +5,21 @@
     "email": "moonchelsea@hotmail.com",
     "birthdate": "1949-10-24",
     "phone": "001-244-112-6120x7528",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        16,
+        46,
+        35,
+        40,
+        0,
+        43,
+        48
+    ],
+    "login locations": [
+        [
+            -122.422024,
+            37.796931
+        ]
+    ],
+    "relationships": []
 }

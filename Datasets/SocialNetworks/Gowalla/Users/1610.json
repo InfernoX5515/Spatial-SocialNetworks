@@ -5,7 +5,25 @@
     "email": "fcook@hotmail.com",
     "birthdate": "1938-07-20",
     "phone": "434.683.4833",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        56,
+        51,
+        10,
+        33,
+        29,
+        41,
+        22,
+        46,
+        57,
+        43,
+        70
+    ],
+    "login locations": [
+        [
+            -118.204302,
+            34.114413
+        ]
+    ],
+    "relationships": []
 }

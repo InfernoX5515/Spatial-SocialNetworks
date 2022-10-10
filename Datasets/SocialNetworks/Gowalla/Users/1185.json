@@ -5,7 +5,16 @@
     "email": "bochoa@yahoo.com",
     "birthdate": "2001-08-28",
     "phone": "+1-185-049-4841x7179",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        72,
+        7
+    ],
+    "login locations": [
+        [
+            -120.168279,
+            39.349247
+        ]
+    ],
+    "relationships": []
 }

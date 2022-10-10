@@ -5,7 +5,24 @@
     "email": "edwinfrench@gmail.com",
     "birthdate": "1953-04-28",
     "phone": "494.129.0111x98629",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        8,
+        7,
+        19,
+        63,
+        11,
+        33,
+        37,
+        40,
+        49,
+        34
+    ],
+    "login locations": [
+        [
+            -122.08713,
+            37.397681
+        ]
+    ],
+    "relationships": []
 }

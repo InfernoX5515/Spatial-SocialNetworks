@@ -5,7 +5,26 @@
     "email": "kara24@yahoo.com",
     "birthdate": "1952-06-07",
     "phone": "8313092090",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        10,
+        45,
+        19,
+        60,
+        47,
+        72,
+        69,
+        31,
+        6,
+        34,
+        38,
+        7
+    ],
+    "login locations": [
+        [
+            -118.764979,
+            34.164627
+        ]
+    ],
+    "relationships": []
 }

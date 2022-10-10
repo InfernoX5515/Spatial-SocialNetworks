@@ -5,7 +5,39 @@
     "email": "willistracy@yahoo.com",
     "birthdate": "1937-07-09",
     "phone": "+1-485-561-5994x22468",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        65,
+        29,
+        48,
+        51,
+        21,
+        72,
+        66,
+        28,
+        1,
+        8,
+        47,
+        20,
+        54,
+        26
+    ],
+    "login locations": [
+        [
+            -117.750896,
+            34.074561
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                141201,
+                0.324742268041
+            ],
+            [
+                141201,
+                0.324742268041
+            ]
+        ]
+    ]
 }

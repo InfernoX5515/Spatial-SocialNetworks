@@ -5,7 +5,18 @@
     "email": "cynthiamoreno@yahoo.com",
     "birthdate": "2012-06-29",
     "phone": "850.664.7892",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        45,
+        68,
+        42,
+        42
+    ],
+    "login locations": [
+        [
+            -117.927774,
+            33.719625
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "carramy@gmail.com",
     "birthdate": "1956-12-19",
     "phone": "+1-582-709-2741x7394",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        65,
+        18,
+        11,
+        14,
+        8,
+        55,
+        2,
+        9
+    ],
+    "login locations": [
+        [
+            -122.363104,
+            37.780996
+        ]
+    ],
+    "relationships": []
 }

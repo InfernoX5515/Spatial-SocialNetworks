@@ -5,7 +5,16 @@
     "email": "lrodgers@hotmail.com",
     "birthdate": "1993-12-29",
     "phone": "070-369-1023",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        73,
+        69
+    ],
+    "login locations": [
+        [
+            -118.312322,
+            34.101606
+        ]
+    ],
+    "relationships": []
 }

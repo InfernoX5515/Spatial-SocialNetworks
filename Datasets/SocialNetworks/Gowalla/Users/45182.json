@@ -5,7 +5,24 @@
     "email": "katrina88@gmail.com",
     "birthdate": "1922-11-16",
     "phone": "001-228-416-9819x662",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        67,
+        64,
+        53,
+        45,
+        19,
+        42,
+        63,
+        62,
+        20,
+        51
+    ],
+    "login locations": [
+        [
+            -119.716246,
+            34.42994
+        ]
+    ],
+    "relationships": []
 }

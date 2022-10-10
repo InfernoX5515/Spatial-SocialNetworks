@@ -5,7 +5,23 @@
     "email": "andrea50@gmail.com",
     "birthdate": "1970-10-13",
     "phone": "209-524-3884x20220",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        56,
+        32,
+        27,
+        39,
+        33,
+        26,
+        25,
+        72,
+        62
+    ],
+    "login locations": [
+        [
+            -118.207789,
+            34.07666
+        ]
+    ],
+    "relationships": []
 }

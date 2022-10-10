@@ -5,7 +5,21 @@
     "email": "stonetracey@yahoo.com",
     "birthdate": "2000-01-06",
     "phone": "+1-075-348-3489x205",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        73,
+        60,
+        35,
+        39,
+        58,
+        33,
+        75
+    ],
+    "login locations": [
+        [
+            -118.389374,
+            34.031339
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "mark63@gmail.com",
     "birthdate": "1989-05-13",
     "phone": "3217699985",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        67,
+        73
+    ],
+    "login locations": [
+        [
+            -118.268144,
+            34.128802
+        ]
+    ],
+    "relationships": []
 }

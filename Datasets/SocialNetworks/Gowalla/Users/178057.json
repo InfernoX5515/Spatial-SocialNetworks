@@ -5,7 +5,24 @@
     "email": "xbaker@hotmail.com",
     "birthdate": "2013-04-24",
     "phone": "8130785022",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        42,
+        25,
+        37,
+        68,
+        65,
+        63,
+        39,
+        21,
+        62,
+        39
+    ],
+    "login locations": [
+        [
+            -122.130827,
+            37.660028
+        ]
+    ],
+    "relationships": []
 }

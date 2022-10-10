@@ -5,7 +5,15 @@
     "email": "beltranjennifer@gmail.com",
     "birthdate": "1909-12-10",
     "phone": "(863)162-1468x7014",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        5
+    ],
+    "login locations": [
+        [
+            -117.791982,
+            33.63544
+        ]
+    ],
+    "relationships": []
 }

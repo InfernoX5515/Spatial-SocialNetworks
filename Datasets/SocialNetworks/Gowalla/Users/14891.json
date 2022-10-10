@@ -5,7 +5,16 @@
     "email": "webbhailey@yahoo.com",
     "birthdate": "1930-02-05",
     "phone": "420-514-6429x7217",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        27,
+        9
+    ],
+    "login locations": [
+        [
+            -122.372087,
+            37.802868
+        ]
+    ],
+    "relationships": []
 }

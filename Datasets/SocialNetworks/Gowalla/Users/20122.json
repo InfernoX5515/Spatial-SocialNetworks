@@ -5,7 +5,25 @@
     "email": "yblackwell@gmail.com",
     "birthdate": "1913-02-09",
     "phone": "057-100-4883x78127",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        22,
+        54,
+        21,
+        66,
+        3,
+        57,
+        57,
+        15,
+        3,
+        44,
+        61
+    ],
+    "login locations": [
+        [
+            -119.223495,
+            34.261055
+        ]
+    ],
+    "relationships": []
 }

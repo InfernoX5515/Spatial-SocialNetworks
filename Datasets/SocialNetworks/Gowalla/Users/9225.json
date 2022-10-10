@@ -5,7 +5,38 @@
     "email": "fosterandrew@gmail.com",
     "birthdate": "1980-12-07",
     "phone": "+1-398-118-7547x329",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        34,
+        35,
+        58,
+        54,
+        17,
+        19,
+        26,
+        62,
+        48,
+        29,
+        38,
+        11,
+        27
+    ],
+    "login locations": [
+        [
+            -122.435433,
+            37.799749
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                600,
+                0.01
+            ],
+            [
+                600,
+                0.01
+            ]
+        ]
+    ]
 }

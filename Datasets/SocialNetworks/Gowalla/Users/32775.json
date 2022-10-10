@@ -5,7 +5,16 @@
     "email": "shaungarrett@gmail.com",
     "birthdate": "1979-01-19",
     "phone": "166-393-3560x5588",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        63,
+        31
+    ],
+    "login locations": [
+        [
+            -117.746914,
+            33.757212
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "perryalexander@hotmail.com",
     "birthdate": "1956-08-24",
     "phone": "+1-517-428-7976x15746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        14,
+        27,
+        9
+    ],
+    "login locations": [
+        [
+            -120.674374,
+            35.248629
+        ]
+    ],
+    "relationships": []
 }

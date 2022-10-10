@@ -5,7 +5,25 @@
     "email": "jamesdonaldson@gmail.com",
     "birthdate": "1941-09-05",
     "phone": "427-306-7494x75792",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40
+    ],
+    "login locations": [
+        [
+            -121.258847,
+            37.843848
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1756,
+                0.01
+            ],
+            [
+                148347,
+                0.32
+            ]
+        ]
+    ]
 }

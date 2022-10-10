@@ -5,7 +5,34 @@
     "email": "shepherdjenna@gmail.com",
     "birthdate": "1914-11-05",
     "phone": "422-170-0148x0877",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        20,
+        16,
+        75,
+        50,
+        20,
+        32,
+        44,
+        34,
+        9
+    ],
+    "login locations": [
+        [
+            -122.026969,
+            37.406183
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4906,
+                0.0703125
+            ],
+            [
+                4906,
+                0.0703125
+            ]
+        ]
+    ]
 }

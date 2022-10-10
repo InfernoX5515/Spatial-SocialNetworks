@@ -5,7 +5,36 @@
     "email": "patrickgoodman@hotmail.com",
     "birthdate": "2001-10-29",
     "phone": "6626285288",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        67,
+        39,
+        14,
+        24,
+        47,
+        12,
+        37,
+        63,
+        26,
+        38,
+        65
+    ],
+    "login locations": [
+        [
+            -121.932707,
+            37.29976
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                26803,
+                0.056
+            ],
+            [
+                26803,
+                0.056
+            ]
+        ]
+    ]
 }

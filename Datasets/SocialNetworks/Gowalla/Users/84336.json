@@ -5,7 +5,29 @@
     "email": "wrightmark@yahoo.com",
     "birthdate": "1962-10-08",
     "phone": "(462)684-9883x465",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        17,
+        59,
+        63,
+        11
+    ],
+    "login locations": [
+        [
+            -121.917303,
+            37.368137
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39037,
+                0.0369230769231
+            ],
+            [
+                39037,
+                0.0369230769231
+            ]
+        ]
+    ]
 }

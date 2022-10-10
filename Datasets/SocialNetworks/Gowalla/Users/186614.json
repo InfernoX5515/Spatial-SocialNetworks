@@ -5,7 +5,18 @@
     "email": "kristicampbell@hotmail.com",
     "birthdate": "1916-08-07",
     "phone": "001-222-618-9214x17861",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        2,
+        29,
+        64,
+        34
+    ],
+    "login locations": [
+        [
+            -118.271579,
+            34.096791
+        ]
+    ],
+    "relationships": []
 }

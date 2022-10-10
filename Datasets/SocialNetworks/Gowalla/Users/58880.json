@@ -5,7 +5,12 @@
     "email": "william54@hotmail.com",
     "birthdate": "1999-10-27",
     "phone": "000-061-5211x043",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.345013,
+            34.148842
+        ]
+    ],
+    "relationships": []
 }

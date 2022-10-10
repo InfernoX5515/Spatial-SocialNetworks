@@ -5,7 +5,33 @@
     "email": "caldwelljennifer@yahoo.com",
     "birthdate": "1963-10-08",
     "phone": "001-039-763-5323x2265",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        3,
+        60,
+        46,
+        11,
+        39,
+        31,
+        19,
+        40
+    ],
+    "login locations": [
+        [
+            -122.07805,
+            37.707498
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3752,
+                0.0159362549801
+            ],
+            [
+                29245,
+                0.025974025974
+            ]
+        ]
+    ]
 }

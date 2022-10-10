@@ -5,7 +5,22 @@
     "email": "jasmine52@gmail.com",
     "birthdate": "1942-07-04",
     "phone": "001-665-901-8806x1324",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        34,
+        22,
+        69,
+        66,
+        64,
+        41,
+        69,
+        18
+    ],
+    "login locations": [
+        [
+            -118.34631,
+            34.049987
+        ]
+    ],
+    "relationships": []
 }

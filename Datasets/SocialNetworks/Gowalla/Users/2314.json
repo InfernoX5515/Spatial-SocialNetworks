@@ -5,7 +5,27 @@
     "email": "ayu@gmail.com",
     "birthdate": "1991-06-06",
     "phone": "(928)728-5522",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        74,
+        36
+    ],
+    "login locations": [
+        [
+            -117.77699,
+            33.655396
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1569,
+                0.0329896907216
+            ],
+            [
+                1897,
+                0.01
+            ]
+        ]
+    ]
 }

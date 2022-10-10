@@ -5,7 +5,16 @@
     "email": "charlesmyers@gmail.com",
     "birthdate": "1945-09-18",
     "phone": "001-385-291-6528x58177",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        4,
+        72
+    ],
+    "login locations": [
+        [
+            -122.302327,
+            37.602503
+        ]
+    ],
+    "relationships": []
 }

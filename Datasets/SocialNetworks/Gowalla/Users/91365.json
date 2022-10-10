@@ -5,7 +5,22 @@
     "email": "youngelizabeth@hotmail.com",
     "birthdate": "1962-09-14",
     "phone": "001-522-765-2009",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        63,
+        22,
+        20,
+        54,
+        60,
+        21,
+        12,
+        72
+    ],
+    "login locations": [
+        [
+            -122.032448,
+            37.331166
+        ]
+    ],
+    "relationships": []
 }

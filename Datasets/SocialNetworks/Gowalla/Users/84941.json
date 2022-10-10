@@ -5,7 +5,12 @@
     "email": "carol47@hotmail.com",
     "birthdate": "1933-09-02",
     "phone": "001-082-015-7156x353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.162529,
+            37.444897
+        ]
+    ],
+    "relationships": []
 }

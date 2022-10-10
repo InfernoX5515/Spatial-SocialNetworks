@@ -5,7 +5,25 @@
     "email": "bsmith@yahoo.com",
     "birthdate": "2005-07-13",
     "phone": "108.805.4670x6287",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        30,
+        18,
+        30,
+        36,
+        52,
+        65,
+        70,
+        7,
+        41,
+        33,
+        62
+    ],
+    "login locations": [
+        [
+            -117.176636,
+            32.679747
+        ]
+    ],
+    "relationships": []
 }

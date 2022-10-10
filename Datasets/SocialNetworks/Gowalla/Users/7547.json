@@ -5,7 +5,35 @@
     "email": "kyle23@hotmail.com",
     "birthdate": "2010-07-09",
     "phone": "126.555.9247",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        18,
+        52,
+        54,
+        23,
+        52,
+        4,
+        59,
+        65,
+        1,
+        53
+    ],
+    "login locations": [
+        [
+            -122.058866,
+            37.891595
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                28712,
+                0.04
+            ],
+            [
+                28712,
+                0.030303030303
+            ]
+        ]
+    ]
 }

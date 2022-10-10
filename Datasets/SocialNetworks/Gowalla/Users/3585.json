@@ -5,7 +5,32 @@
     "email": "alexandria81@gmail.com",
     "birthdate": "1975-11-04",
     "phone": "542.594.3773x682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        42,
+        39,
+        0,
+        59,
+        68,
+        51,
+        44
+    ],
+    "login locations": [
+        [
+            -118.590532,
+            34.170316
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                84,
+                0.06
+            ],
+            [
+                157,
+                0.0218181818182
+            ]
+        ]
+    ]
 }

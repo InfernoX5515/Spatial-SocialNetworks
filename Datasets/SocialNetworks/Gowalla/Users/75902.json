@@ -5,7 +5,20 @@
     "email": "debbiehernandez@hotmail.com",
     "birthdate": "1945-04-02",
     "phone": "001-392-016-8143x2580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        12,
+        17,
+        42,
+        43,
+        44,
+        29
+    ],
+    "login locations": [
+        [
+            -121.932321,
+            37.294614
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "chenmelissa@hotmail.com",
     "birthdate": "1979-04-18",
     "phone": "983.468.0867x30736",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72
+    ],
+    "login locations": [
+        [
+            -121.888397,
+            37.330422
+        ]
+    ],
+    "relationships": []
 }

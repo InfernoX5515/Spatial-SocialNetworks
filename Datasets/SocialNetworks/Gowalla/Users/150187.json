@@ -5,7 +5,39 @@
     "email": "phillipsmatthew@yahoo.com",
     "birthdate": "1986-11-26",
     "phone": "0484887489",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        43,
+        67,
+        30,
+        30,
+        55,
+        8,
+        38,
+        50,
+        5,
+        66,
+        31,
+        43,
+        34,
+        63
+    ],
+    "login locations": [
+        [
+            -119.092307,
+            35.365026
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                150188,
+                0.0196078431373
+            ],
+            [
+                150188,
+                0.0196078431373
+            ]
+        ]
+    ]
 }

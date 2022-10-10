@@ -5,7 +5,21 @@
     "email": "marychung@gmail.com",
     "birthdate": "1994-08-16",
     "phone": "8738788195",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        42,
+        58,
+        62,
+        27,
+        30,
+        60,
+        48
+    ],
+    "login locations": [
+        [
+            -121.958946,
+            37.306274
+        ]
+    ],
+    "relationships": []
 }

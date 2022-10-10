@@ -5,7 +5,29 @@
     "email": "wrightrebecca@hotmail.com",
     "birthdate": "1978-04-15",
     "phone": "747-228-0875",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        54,
+        8,
+        69,
+        62
+    ],
+    "login locations": [
+        [
+            -117.913641,
+            33.809316
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.01
+            ],
+            [
+                268,
+                0.01
+            ]
+        ]
+    ]
 }

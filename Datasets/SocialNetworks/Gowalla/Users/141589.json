@@ -5,7 +5,15 @@
     "email": "daltonrobert@gmail.com",
     "birthdate": "1909-01-09",
     "phone": "6896787378",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        46
+    ],
+    "login locations": [
+        [
+            -122.071012,
+            37.39219
+        ]
+    ],
+    "relationships": []
 }

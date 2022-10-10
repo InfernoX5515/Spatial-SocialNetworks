@@ -5,7 +5,18 @@
     "email": "emilyjohnson@yahoo.com",
     "birthdate": "1943-09-05",
     "phone": "+1-629-197-7578x64719",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        37,
+        54,
+        26,
+        61
+    ],
+    "login locations": [
+        [
+            -122.271969,
+            37.804002
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "ejohnson@gmail.com",
     "birthdate": "1941-12-12",
     "phone": "545-033-0241x71974",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        14
+    ],
+    "login locations": [
+        [
+            -122.4039,
+            37.75848
+        ]
+    ],
+    "relationships": []
 }

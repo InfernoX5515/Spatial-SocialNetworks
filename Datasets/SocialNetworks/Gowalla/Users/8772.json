@@ -5,7 +5,14 @@
     "email": "katherine78@gmail.com",
     "birthdate": "2017-04-25",
     "phone": "811.594.8202",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59
+    ],
+    "login locations": [
+        [
+            -118.38704,
+            34.066348
+        ]
+    ],
+    "relationships": []
 }

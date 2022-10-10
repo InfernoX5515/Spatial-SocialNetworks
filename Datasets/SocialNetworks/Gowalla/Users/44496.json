@@ -5,7 +5,12 @@
     "email": "gutierrezpaul@hotmail.com",
     "birthdate": "1923-10-11",
     "phone": "+1-443-471-5130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.907676,
+            33.746522
+        ]
+    ],
+    "relationships": []
 }

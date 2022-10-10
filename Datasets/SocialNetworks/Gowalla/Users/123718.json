@@ -5,7 +5,27 @@
     "email": "kingjacob@hotmail.com",
     "birthdate": "1953-09-13",
     "phone": "673-431-3259",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        31,
+        55,
+        47,
+        37,
+        26,
+        18,
+        55,
+        66,
+        62,
+        51,
+        64,
+        26,
+        75
+    ],
+    "login locations": [
+        [
+            -122.072386,
+            37.400261
+        ]
+    ],
+    "relationships": []
 }

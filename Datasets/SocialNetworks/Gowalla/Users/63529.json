@@ -5,7 +5,21 @@
     "email": "xharris@yahoo.com",
     "birthdate": "1960-03-26",
     "phone": "214.534.0479x5684",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        62,
+        64,
+        11,
+        36,
+        22,
+        52,
+        29
+    ],
+    "login locations": [
+        [
+            -122.268662,
+            37.774467
+        ]
+    ],
+    "relationships": []
 }

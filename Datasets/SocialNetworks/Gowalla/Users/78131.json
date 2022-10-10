@@ -5,7 +5,20 @@
     "email": "lsanchez@yahoo.com",
     "birthdate": "1965-08-18",
     "phone": "+1-831-726-8139",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        42,
+        24,
+        23,
+        65,
+        63,
+        32
+    ],
+    "login locations": [
+        [
+            -122.683085,
+            38.370214
+        ]
+    ],
+    "relationships": []
 }

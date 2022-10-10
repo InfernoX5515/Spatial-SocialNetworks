@@ -5,7 +5,24 @@
     "email": "nwells@hotmail.com",
     "birthdate": "2000-08-01",
     "phone": "+1-458-068-8913x9271",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        60,
+        39,
+        17,
+        71,
+        1,
+        42,
+        18,
+        4,
+        61,
+        16
+    ],
+    "login locations": [
+        [
+            -118.312637,
+            34.010204
+        ]
+    ],
+    "relationships": []
 }

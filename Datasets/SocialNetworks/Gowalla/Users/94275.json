@@ -5,7 +5,15 @@
     "email": "waltonjoshua@yahoo.com",
     "birthdate": "2002-05-07",
     "phone": "317.160.5597x818",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        53
+    ],
+    "login locations": [
+        [
+            -122.021319,
+            37.380354
+        ]
+    ],
+    "relationships": []
 }

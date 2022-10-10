@@ -5,7 +5,30 @@
     "email": "corey81@hotmail.com",
     "birthdate": "1996-01-02",
     "phone": "001-907-320-4311x95045",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        54,
+        47,
+        37,
+        61,
+        6
+    ],
+    "login locations": [
+        [
+            -121.905101,
+            37.409619
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                21,
+                0.04
+            ],
+            [
+                487,
+                0.01
+            ]
+        ]
+    ]
 }

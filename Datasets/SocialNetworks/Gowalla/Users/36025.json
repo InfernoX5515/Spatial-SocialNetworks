@@ -5,7 +5,28 @@
     "email": "cardenasstephanie@gmail.com",
     "birthdate": "1971-11-08",
     "phone": "(158)202-5625",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        41,
+        44,
+        6,
+        0,
+        70,
+        6,
+        70,
+        42,
+        53,
+        59,
+        16,
+        7,
+        24,
+        51
+    ],
+    "login locations": [
+        [
+            -122.35217,
+            37.818384
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,37 @@
     "email": "brownconnor@gmail.com",
     "birthdate": "1951-07-08",
     "phone": "352-792-3397",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        22,
+        1,
+        57,
+        5,
+        17,
+        36,
+        56,
+        32,
+        48,
+        19,
+        42,
+        69
+    ],
+    "login locations": [
+        [
+            -118.655058,
+            34.377612
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                24775,
+                0.02
+            ],
+            [
+                24775,
+                0.02
+            ]
+        ]
+    ]
 }

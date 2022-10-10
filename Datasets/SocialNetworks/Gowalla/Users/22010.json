@@ -5,7 +5,25 @@
     "email": "seanguzman@hotmail.com",
     "birthdate": "1977-12-20",
     "phone": "(947)089-0845",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        59,
+        61,
+        42,
+        13,
+        11,
+        35,
+        75,
+        1,
+        66,
+        51,
+        42
+    ],
+    "login locations": [
+        [
+            -122.415063,
+            37.764935
+        ]
+    ],
+    "relationships": []
 }

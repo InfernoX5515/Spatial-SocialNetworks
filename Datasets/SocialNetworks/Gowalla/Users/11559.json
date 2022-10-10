@@ -5,7 +5,22 @@
     "email": "leslieguerrero@yahoo.com",
     "birthdate": "1996-11-07",
     "phone": "+1-364-058-4263x50312",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        35,
+        55,
+        27,
+        55,
+        67,
+        37,
+        60,
+        6
+    ],
+    "login locations": [
+        [
+            -119.161228,
+            34.227117
+        ]
+    ],
+    "relationships": []
 }

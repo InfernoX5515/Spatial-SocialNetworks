@@ -5,7 +5,25 @@
     "email": "jhoffman@hotmail.com",
     "birthdate": "2019-09-19",
     "phone": "(696)313-6912",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        18,
+        9,
+        64,
+        52,
+        54,
+        54,
+        20,
+        20,
+        31,
+        4,
+        56
+    ],
+    "login locations": [
+        [
+            -122.406861,
+            37.778938
+        ]
+    ],
+    "relationships": []
 }

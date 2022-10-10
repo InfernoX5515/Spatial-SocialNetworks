@@ -5,7 +5,33 @@
     "email": "jameslori@hotmail.com",
     "birthdate": "1980-10-16",
     "phone": "(845)866-5685x51108",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        42,
+        9,
+        67,
+        38,
+        15,
+        41,
+        24,
+        64
+    ],
+    "login locations": [
+        [
+            -122.392528,
+            37.834643
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8148,
+                0.25
+            ],
+            [
+                8159,
+                0.24
+            ]
+        ]
+    ]
 }

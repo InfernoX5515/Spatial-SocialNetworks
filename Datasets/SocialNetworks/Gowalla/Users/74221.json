@@ -5,7 +5,15 @@
     "email": "michael74@gmail.com",
     "birthdate": "1974-08-24",
     "phone": "669-984-3627",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        45
+    ],
+    "login locations": [
+        [
+            -122.211292,
+            37.840739
+        ]
+    ],
+    "relationships": []
 }

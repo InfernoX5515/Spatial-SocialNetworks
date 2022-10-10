@@ -5,7 +5,14 @@
     "email": "benjaminsanchez@yahoo.com",
     "birthdate": "1991-04-09",
     "phone": "871-512-9162x6022",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68
+    ],
+    "login locations": [
+        [
+            -122.401555,
+            37.780308
+        ]
+    ],
+    "relationships": []
 }

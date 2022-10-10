@@ -5,7 +5,17 @@
     "email": "christinescott@yahoo.com",
     "birthdate": "1951-04-17",
     "phone": "(949)915-3351x652",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        70,
+        72,
+        13
+    ],
+    "login locations": [
+        [
+            -117.924434,
+            33.762186
+        ]
+    ],
+    "relationships": []
 }

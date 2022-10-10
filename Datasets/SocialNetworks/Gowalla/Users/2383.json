@@ -5,7 +5,28 @@
     "email": "amercado@gmail.com",
     "birthdate": "1920-01-14",
     "phone": "509.144.1418x5694",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        68,
+        8,
+        21
+    ],
+    "login locations": [
+        [
+            -118.241023,
+            34.098442
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1567,
+                0.111111111111
+            ],
+            [
+                1567,
+                0.111111111111
+            ]
+        ]
+    ]
 }

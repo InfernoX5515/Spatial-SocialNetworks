@@ -5,7 +5,37 @@
     "email": "thompsonjocelyn@yahoo.com",
     "birthdate": "1992-07-16",
     "phone": "122.774.7793x551",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        19,
+        5,
+        73,
+        4,
+        68,
+        59,
+        9,
+        46,
+        60,
+        63,
+        50,
+        5
+    ],
+    "login locations": [
+        [
+            -117.736873,
+            33.609223
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                128228,
+                0.0661157024793
+            ],
+            [
+                128228,
+                0.0661157024793
+            ]
+        ]
+    ]
 }

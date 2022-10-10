@@ -5,7 +5,36 @@
     "email": "erica91@yahoo.com",
     "birthdate": "1933-05-31",
     "phone": "(328)061-6195",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        58,
+        62,
+        74,
+        30,
+        3,
+        2,
+        33,
+        71,
+        47,
+        73,
+        3
+    ],
+    "login locations": [
+        [
+            -121.942875,
+            37.26815
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                135,
+                0.16
+            ],
+            [
+                135,
+                0.16
+            ]
+        ]
+    ]
 }

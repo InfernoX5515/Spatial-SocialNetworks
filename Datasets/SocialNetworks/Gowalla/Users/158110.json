@@ -5,7 +5,19 @@
     "email": "melissa77@hotmail.com",
     "birthdate": "1976-11-02",
     "phone": "001-125-689-9338",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        51,
+        63,
+        66,
+        58,
+        50
+    ],
+    "login locations": [
+        [
+            -118.371281,
+            34.002939
+        ]
+    ],
+    "relationships": []
 }

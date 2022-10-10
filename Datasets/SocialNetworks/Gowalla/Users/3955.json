@@ -5,7 +5,32 @@
     "email": "jeremy71@gmail.com",
     "birthdate": "2021-01-20",
     "phone": "737-595-8991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        31,
+        43,
+        11,
+        32,
+        1,
+        27,
+        8
+    ],
+    "login locations": [
+        [
+            -118.32189,
+            34.037699
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                69701,
+                0.0555555555556
+            ],
+            [
+                69701,
+                0.0555555555556
+            ]
+        ]
+    ]
 }

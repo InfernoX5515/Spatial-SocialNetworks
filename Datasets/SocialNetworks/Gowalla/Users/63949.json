@@ -5,7 +5,23 @@
     "email": "hgreen@gmail.com",
     "birthdate": "1921-08-25",
     "phone": "+1-944-797-7928x62022",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        7,
+        34,
+        50,
+        11,
+        12,
+        4,
+        4,
+        18,
+        37
+    ],
+    "login locations": [
+        [
+            -117.736176,
+            34.108005
+        ]
+    ],
+    "relationships": []
 }

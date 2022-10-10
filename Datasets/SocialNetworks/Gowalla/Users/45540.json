@@ -5,7 +5,14 @@
     "email": "hernandezkimberly@gmail.com",
     "birthdate": "2006-09-29",
     "phone": "+1-957-263-4711",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0
+    ],
+    "login locations": [
+        [
+            -117.19948,
+            32.894626
+        ]
+    ],
+    "relationships": []
 }

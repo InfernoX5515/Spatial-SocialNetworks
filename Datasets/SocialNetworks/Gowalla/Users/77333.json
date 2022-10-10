@@ -5,7 +5,26 @@
     "email": "myersronald@yahoo.com",
     "birthdate": "2001-08-12",
     "phone": "(585)055-9975",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        75,
+        59,
+        19,
+        4,
+        52,
+        73,
+        71,
+        61,
+        50,
+        5,
+        23,
+        25
+    ],
+    "login locations": [
+        [
+            -122.391091,
+            37.777766
+        ]
+    ],
+    "relationships": []
 }

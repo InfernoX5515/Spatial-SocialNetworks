@@ -5,7 +5,27 @@
     "email": "dmcdonald@hotmail.com",
     "birthdate": "1967-07-12",
     "phone": "001-843-126-2025x474",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        58,
+        12,
+        67,
+        23,
+        2,
+        60,
+        13,
+        25,
+        60,
+        7,
+        46,
+        4,
+        12
+    ],
+    "login locations": [
+        [
+            -122.281546,
+            37.833465
+        ]
+    ],
+    "relationships": []
 }

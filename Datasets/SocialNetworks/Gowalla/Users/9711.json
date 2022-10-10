@@ -5,7 +5,18 @@
     "email": "robertsonmichael@hotmail.com",
     "birthdate": "1964-04-19",
     "phone": "758.202.7704x323",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        24,
+        58,
+        35,
+        71
+    ],
+    "login locations": [
+        [
+            -118.006294,
+            33.778856
+        ]
+    ],
+    "relationships": []
 }

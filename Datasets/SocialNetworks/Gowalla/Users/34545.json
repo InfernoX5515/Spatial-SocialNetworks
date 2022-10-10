@@ -5,7 +5,15 @@
     "email": "trevor86@yahoo.com",
     "birthdate": "1923-12-01",
     "phone": "(969)336-9045",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        35
+    ],
+    "login locations": [
+        [
+            -122.40882,
+            37.775699
+        ]
+    ],
+    "relationships": []
 }

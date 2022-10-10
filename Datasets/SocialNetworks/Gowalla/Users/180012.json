@@ -5,7 +5,23 @@
     "email": "jordan29@hotmail.com",
     "birthdate": "1948-10-29",
     "phone": "(290)454-1790x053",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        17,
+        53,
+        50,
+        32,
+        6,
+        30,
+        27,
+        9,
+        13
+    ],
+    "login locations": [
+        [
+            -121.430622,
+            38.569462
+        ]
+    ],
+    "relationships": []
 }

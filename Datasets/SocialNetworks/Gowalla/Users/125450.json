@@ -5,7 +5,27 @@
     "email": "karajohnson@gmail.com",
     "birthdate": "1981-03-21",
     "phone": "(576)260-9059x10667",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        68,
+        38
+    ],
+    "login locations": [
+        [
+            -117.773465,
+            34.070354
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33017,
+                0.0971428571429
+            ],
+            [
+                33017,
+                0.0971428571429
+            ]
+        ]
+    ]
 }

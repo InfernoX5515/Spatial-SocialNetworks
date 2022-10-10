@@ -5,7 +5,16 @@
     "email": "robertgeorge@hotmail.com",
     "birthdate": "1930-10-11",
     "phone": "+1-059-049-6322",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        46,
+        67
+    ],
+    "login locations": [
+        [
+            -122.345797,
+            37.622445
+        ]
+    ],
+    "relationships": []
 }

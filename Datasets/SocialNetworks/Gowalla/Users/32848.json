@@ -5,7 +5,15 @@
     "email": "jacobwilliams@gmail.com",
     "birthdate": "2007-06-14",
     "phone": "380.930.8209x8058",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        21
+    ],
+    "login locations": [
+        [
+            -122.072242,
+            37.34797
+        ]
+    ],
+    "relationships": []
 }

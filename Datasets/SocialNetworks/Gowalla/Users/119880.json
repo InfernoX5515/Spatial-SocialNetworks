@@ -5,7 +5,17 @@
     "email": "llee@hotmail.com",
     "birthdate": "1983-09-11",
     "phone": "+1-963-095-0737x794",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        16,
+        66,
+        46
+    ],
+    "login locations": [
+        [
+            -119.762452,
+            36.830147
+        ]
+    ],
+    "relationships": []
 }

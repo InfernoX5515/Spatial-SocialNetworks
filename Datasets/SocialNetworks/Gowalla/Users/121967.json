@@ -5,7 +5,27 @@
     "email": "wigginscesar@gmail.com",
     "birthdate": "1984-06-30",
     "phone": "458-997-7575",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        31,
+        44
+    ],
+    "login locations": [
+        [
+            -118.415482,
+            34.05181
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                91374,
+                0.571428571429
+            ],
+            [
+                91374,
+                0.571428571429
+            ]
+        ]
+    ]
 }

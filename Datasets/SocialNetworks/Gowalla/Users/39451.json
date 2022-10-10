@@ -5,7 +5,28 @@
     "email": "heatherfrye@gmail.com",
     "birthdate": "2012-08-09",
     "phone": "424-887-6155x4910",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        52,
+        37,
+        60,
+        6,
+        34,
+        66,
+        13,
+        47,
+        30,
+        22,
+        0,
+        10,
+        24,
+        40
+    ],
+    "login locations": [
+        [
+            -117.871112,
+            33.892004
+        ]
+    ],
+    "relationships": []
 }

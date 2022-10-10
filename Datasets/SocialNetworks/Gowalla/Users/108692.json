@@ -5,7 +5,36 @@
     "email": "martinezaudrey@yahoo.com",
     "birthdate": "2015-06-02",
     "phone": "138.206.6474",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        72,
+        24,
+        68,
+        18,
+        39,
+        71,
+        1,
+        52,
+        75,
+        27,
+        60
+    ],
+    "login locations": [
+        [
+            -121.478934,
+            38.570263
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                19372,
+                0.0359712230216
+            ],
+            [
+                19372,
+                0.0359712230216
+            ]
+        ]
+    ]
 }

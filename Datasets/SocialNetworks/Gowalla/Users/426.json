@@ -5,7 +5,30 @@
     "email": "john95@hotmail.com",
     "birthdate": "1951-12-28",
     "phone": "488.527.7691",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        75,
+        18,
+        59,
+        52,
+        44
+    ],
+    "login locations": [
+        [
+            -122.147547,
+            37.408571
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                191,
+                0.0113085621971
+            ],
+            [
+                398,
+                0.16
+            ]
+        ]
+    ]
 }

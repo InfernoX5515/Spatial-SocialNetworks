@@ -5,7 +5,27 @@
     "email": "andrew20@gmail.com",
     "birthdate": "1943-07-20",
     "phone": "001-364-596-4533",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        47,
+        38,
+        75,
+        50,
+        68,
+        23,
+        19,
+        36,
+        54,
+        30,
+        24,
+        33,
+        71
+    ],
+    "login locations": [
+        [
+            -117.051438,
+            32.813585
+        ]
+    ],
+    "relationships": []
 }

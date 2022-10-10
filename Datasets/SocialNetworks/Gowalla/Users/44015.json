@@ -5,7 +5,26 @@
     "email": "grahamkathryn@gmail.com",
     "birthdate": "2014-09-28",
     "phone": "9598968438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        15,
+        44,
+        21,
+        22,
+        47,
+        68,
+        56,
+        58,
+        24,
+        52,
+        44,
+        46
+    ],
+    "login locations": [
+        [
+            -122.166497,
+            37.426051
+        ]
+    ],
+    "relationships": []
 }

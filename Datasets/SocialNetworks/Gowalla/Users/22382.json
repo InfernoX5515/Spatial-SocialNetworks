@@ -5,7 +5,18 @@
     "email": "sarah57@gmail.com",
     "birthdate": "1943-05-22",
     "phone": "001-613-422-9426x225",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        54,
+        13,
+        49,
+        56
+    ],
+    "login locations": [
+        [
+            -122.425741,
+            37.905842
+        ]
+    ],
+    "relationships": []
 }

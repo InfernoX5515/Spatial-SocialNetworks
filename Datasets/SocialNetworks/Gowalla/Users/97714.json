@@ -5,7 +5,17 @@
     "email": "mriley@gmail.com",
     "birthdate": "1910-09-26",
     "phone": "119-857-8297",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        55,
+        45,
+        53
+    ],
+    "login locations": [
+        [
+            -121.302194,
+            38.621894
+        ]
+    ],
+    "relationships": []
 }

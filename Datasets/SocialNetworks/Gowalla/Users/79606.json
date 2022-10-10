@@ -5,7 +5,12 @@
     "email": "bonnieray@hotmail.com",
     "birthdate": "1967-12-30",
     "phone": "020-325-1684x966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.902409,
+            37.329918
+        ]
+    ],
+    "relationships": []
 }

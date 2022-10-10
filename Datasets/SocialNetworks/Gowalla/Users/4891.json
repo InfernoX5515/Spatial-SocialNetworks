@@ -5,7 +5,35 @@
     "email": "matthewwood@yahoo.com",
     "birthdate": "1921-01-30",
     "phone": "+1-641-304-7050x006",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        9,
+        27,
+        27,
+        30,
+        59,
+        12,
+        54,
+        30,
+        48,
+        2
+    ],
+    "login locations": [
+        [
+            -122.397639,
+            37.787517
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11876,
+                0.02
+            ],
+            [
+                11876,
+                0.02
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,29 @@
     "email": "lisahill@hotmail.com",
     "birthdate": "1957-05-12",
     "phone": "(452)253-8592x50312",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        29,
+        44,
+        43,
+        3
+    ],
+    "login locations": [
+        [
+            -117.283129,
+            33.920752
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                177,
+                0.01
+            ],
+            [
+                10991,
+                0.0797101449275
+            ]
+        ]
+    ]
 }

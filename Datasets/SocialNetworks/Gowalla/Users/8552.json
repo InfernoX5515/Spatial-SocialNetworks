@@ -5,7 +5,28 @@
     "email": "scottjoseph@hotmail.com",
     "birthdate": "1960-03-09",
     "phone": "(930)718-1742x66557",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        6,
+        19,
+        73,
+        60,
+        72,
+        60,
+        61,
+        4,
+        20,
+        66,
+        66,
+        63,
+        58,
+        26
+    ],
+    "login locations": [
+        [
+            -118.155334,
+            34.035478
+        ]
+    ],
+    "relationships": []
 }

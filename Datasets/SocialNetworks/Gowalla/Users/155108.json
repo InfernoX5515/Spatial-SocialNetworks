@@ -5,7 +5,20 @@
     "email": "katherine94@hotmail.com",
     "birthdate": "2011-03-05",
     "phone": "(362)353-0056x17420",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        8,
+        53,
+        62,
+        73,
+        12,
+        55
+    ],
+    "login locations": [
+        [
+            -116.364818,
+            33.734913
+        ]
+    ],
+    "relationships": []
 }

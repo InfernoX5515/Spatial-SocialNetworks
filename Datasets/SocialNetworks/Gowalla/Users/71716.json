@@ -5,7 +5,12 @@
     "email": "villanuevamaxwell@hotmail.com",
     "birthdate": "1998-01-05",
     "phone": "+1-953-389-4126x522",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.394422,
+            37.778828
+        ]
+    ],
+    "relationships": []
 }

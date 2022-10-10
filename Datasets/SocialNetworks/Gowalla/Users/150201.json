@@ -5,7 +5,28 @@
     "email": "stephenbryant@yahoo.com",
     "birthdate": "1958-08-18",
     "phone": "+1-878-919-3214",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        59,
+        21,
+        24,
+        29,
+        16,
+        3,
+        25,
+        45,
+        47,
+        42,
+        28,
+        7,
+        1,
+        38
+    ],
+    "login locations": [
+        [
+            -118.27359,
+            34.124533
+        ]
+    ],
+    "relationships": []
 }

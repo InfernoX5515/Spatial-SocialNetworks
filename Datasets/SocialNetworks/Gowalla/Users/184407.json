@@ -5,7 +5,18 @@
     "email": "christina60@hotmail.com",
     "birthdate": "1975-09-11",
     "phone": "797-223-9085x35920",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        68,
+        14,
+        73,
+        3
+    ],
+    "login locations": [
+        [
+            -117.867335,
+            33.781702
+        ]
+    ],
+    "relationships": []
 }

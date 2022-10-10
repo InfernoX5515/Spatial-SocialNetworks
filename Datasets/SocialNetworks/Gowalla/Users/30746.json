@@ -5,7 +5,27 @@
     "email": "mooreshelia@gmail.com",
     "birthdate": "1974-10-10",
     "phone": "2846568396",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        45,
+        75,
+        67,
+        63,
+        54,
+        74,
+        33,
+        72,
+        8,
+        54,
+        75,
+        48,
+        8
+    ],
+    "login locations": [
+        [
+            -118.426891,
+            34.041971
+        ]
+    ],
+    "relationships": []
 }

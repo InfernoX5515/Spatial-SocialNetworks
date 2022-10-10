@@ -5,7 +5,19 @@
     "email": "matthewbullock@gmail.com",
     "birthdate": "2000-11-17",
     "phone": "(794)310-0582",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        72,
+        63,
+        13,
+        66,
+        65
+    ],
+    "login locations": [
+        [
+            -122.417862,
+            37.770611
+        ]
+    ],
+    "relationships": []
 }

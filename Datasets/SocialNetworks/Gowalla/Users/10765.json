@@ -5,7 +5,38 @@
     "email": "gwilliams@gmail.com",
     "birthdate": "2007-04-07",
     "phone": "(015)789-1363x7866",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        53,
+        53,
+        8,
+        18,
+        50,
+        25,
+        43,
+        39,
+        5,
+        65,
+        55,
+        6,
+        14
+    ],
+    "login locations": [
+        [
+            -122.011165,
+            37.347276
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                44054,
+                0.0546875
+            ],
+            [
+                44054,
+                0.0546875
+            ]
+        ]
+    ]
 }

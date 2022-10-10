@@ -5,7 +5,19 @@
     "email": "brittanystewart@yahoo.com",
     "birthdate": "1911-08-11",
     "phone": "001-725-038-8162x68460",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        46,
+        39,
+        28,
+        53,
+        35
+    ],
+    "login locations": [
+        [
+            -122.452812,
+            37.831315
+        ]
+    ],
+    "relationships": []
 }

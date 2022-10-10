@@ -5,7 +5,20 @@
     "email": "newtonstephen@yahoo.com",
     "birthdate": "2012-07-28",
     "phone": "(396)048-5131x855",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        45,
+        73,
+        2,
+        59,
+        14,
+        68
+    ],
+    "login locations": [
+        [
+            -118.075159,
+            33.831264
+        ]
+    ],
+    "relationships": []
 }

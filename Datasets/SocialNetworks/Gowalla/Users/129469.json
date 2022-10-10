@@ -5,7 +5,14 @@
     "email": "jessicaadams@gmail.com",
     "birthdate": "1992-06-13",
     "phone": "941.469.8278x230",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64
+    ],
+    "login locations": [
+        [
+            -121.53409,
+            38.564516
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "stephanie05@hotmail.com",
     "birthdate": "2015-07-03",
     "phone": "+1-436-102-7086x991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        10,
+        70,
+        50,
+        15,
+        16,
+        72,
+        62,
+        66,
+        33,
+        6,
+        35,
+        58,
+        73,
+        37
+    ],
+    "login locations": [
+        [
+            -117.354249,
+            33.186337
+        ]
+    ],
+    "relationships": []
 }

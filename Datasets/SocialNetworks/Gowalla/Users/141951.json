@@ -5,7 +5,27 @@
     "email": "joshualewis@hotmail.com",
     "birthdate": "1929-09-03",
     "phone": "554-662-8098",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        2,
+        67,
+        5,
+        25,
+        68,
+        57,
+        51,
+        38,
+        34,
+        75,
+        48,
+        51,
+        37
+    ],
+    "login locations": [
+        [
+            -117.87594,
+            33.75241
+        ]
+    ],
+    "relationships": []
 }

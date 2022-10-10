@@ -5,7 +5,16 @@
     "email": "lori46@yahoo.com",
     "birthdate": "1931-05-30",
     "phone": "(642)804-5149x76636",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        0,
+        73
+    ],
+    "login locations": [
+        [
+            -118.030846,
+            33.838864
+        ]
+    ],
+    "relationships": []
 }

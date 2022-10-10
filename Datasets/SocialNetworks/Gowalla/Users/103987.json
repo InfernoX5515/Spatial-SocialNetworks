@@ -5,7 +5,24 @@
     "email": "lauren49@gmail.com",
     "birthdate": "1954-09-11",
     "phone": "950.358.6049x9141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        7,
+        52,
+        15,
+        55,
+        62,
+        32,
+        71,
+        49,
+        2,
+        37
+    ],
+    "login locations": [
+        [
+            -122.419306,
+            37.783973
+        ]
+    ],
+    "relationships": []
 }

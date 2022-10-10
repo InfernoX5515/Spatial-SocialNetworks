@@ -5,7 +5,28 @@
     "email": "lwright@yahoo.com",
     "birthdate": "1988-12-07",
     "phone": "737-210-3764",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        45,
+        50,
+        59
+    ],
+    "login locations": [
+        [
+            -122.368496,
+            37.678888
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10446,
+                0.0116455696203
+            ],
+            [
+                10446,
+                0.0116455696203
+            ]
+        ]
+    ]
 }

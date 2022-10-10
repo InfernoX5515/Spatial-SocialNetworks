@@ -5,7 +5,31 @@
     "email": "sabrina65@gmail.com",
     "birthdate": "1994-06-20",
     "phone": "+1-224-759-6428x77682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        58,
+        75,
+        9,
+        64,
+        5,
+        67
+    ],
+    "login locations": [
+        [
+            -122.416343,
+            37.772419
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11007,
+                0.0252707581227
+            ],
+            [
+                11007,
+                0.0252707581227
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "robertsmark@yahoo.com",
     "birthdate": "1995-07-18",
     "phone": "581.636.1721x743",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        8,
+        4,
+        62,
+        69,
+        35,
+        33,
+        72,
+        15,
+        38,
+        53,
+        23,
+        38,
+        70
+    ],
+    "login locations": [
+        [
+            -122.404365,
+            37.786715
+        ]
+    ],
+    "relationships": []
 }

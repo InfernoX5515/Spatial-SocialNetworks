@@ -5,7 +5,20 @@
     "email": "ewalker@gmail.com",
     "birthdate": "2018-11-27",
     "phone": "(187)339-4460",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        6,
+        33,
+        12,
+        50,
+        72,
+        65
+    ],
+    "login locations": [
+        [
+            -117.71511,
+            34.077034
+        ]
+    ],
+    "relationships": []
 }

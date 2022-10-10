@@ -5,7 +5,23 @@
     "email": "nicole48@hotmail.com",
     "birthdate": "1949-01-11",
     "phone": "546.876.0881",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        7,
+        71,
+        62,
+        11,
+        39,
+        39,
+        39,
+        72,
+        56
+    ],
+    "login locations": [
+        [
+            -122.014249,
+            37.342701
+        ]
+    ],
+    "relationships": []
 }

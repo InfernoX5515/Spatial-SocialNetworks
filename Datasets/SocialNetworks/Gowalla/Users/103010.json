@@ -5,7 +5,27 @@
     "email": "billysmith@yahoo.com",
     "birthdate": "1991-04-28",
     "phone": "0755514578",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        9,
+        19,
+        29,
+        2,
+        26,
+        22,
+        31,
+        22,
+        58,
+        8,
+        16,
+        26,
+        11
+    ],
+    "login locations": [
+        [
+            -117.174206,
+            34.050776
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,35 @@
     "email": "leeshannon@gmail.com",
     "birthdate": "1992-03-14",
     "phone": "001-587-173-9916",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        23,
+        9,
+        60,
+        39,
+        8,
+        61,
+        22,
+        39,
+        52,
+        19
+    ],
+    "login locations": [
+        [
+            -118.264292,
+            34.042187
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                399,
+                0.0754716981132
+            ],
+            [
+                399,
+                0.0754716981132
+            ]
+        ]
+    ]
 }

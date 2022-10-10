@@ -5,7 +5,28 @@
     "email": "john88@hotmail.com",
     "birthdate": "1997-10-10",
     "phone": "471-919-2384x5795",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        42,
+        48,
+        28,
+        39,
+        73,
+        62,
+        18,
+        30,
+        42,
+        35,
+        35,
+        67,
+        49,
+        46
+    ],
+    "login locations": [
+        [
+            -118.339102,
+            34.083368
+        ]
+    ],
+    "relationships": []
 }

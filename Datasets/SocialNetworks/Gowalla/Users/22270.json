@@ -5,7 +5,25 @@
     "email": "kevinhamilton@hotmail.com",
     "birthdate": "1924-03-02",
     "phone": "(106)903-8076",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1
+    ],
+    "login locations": [
+        [
+            -117.205179,
+            33.562033
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                245,
+                0.01
+            ],
+            [
+                245,
+                0.01
+            ]
+        ]
+    ]
 }

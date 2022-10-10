@@ -5,7 +5,18 @@
     "email": "carolewing@hotmail.com",
     "birthdate": "1919-08-12",
     "phone": "+1-205-606-3006x39994",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        2,
+        48,
+        30,
+        22
+    ],
+    "login locations": [
+        [
+            -117.91926,
+            33.992449
+        ]
+    ],
+    "relationships": []
 }

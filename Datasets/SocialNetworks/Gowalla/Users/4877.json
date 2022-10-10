@@ -5,7 +5,19 @@
     "email": "allison98@yahoo.com",
     "birthdate": "2022-06-07",
     "phone": "001-860-415-3422x8175",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        50,
+        66,
+        53,
+        40,
+        34
+    ],
+    "login locations": [
+        [
+            -117.788853,
+            33.674132
+        ]
+    ],
+    "relationships": []
 }

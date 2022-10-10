@@ -5,7 +5,23 @@
     "email": "mbenitez@yahoo.com",
     "birthdate": "1942-03-30",
     "phone": "+1-919-527-3558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.388515,
+            33.906359
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4436,
+                0.01
+            ],
+            [
+                4436,
+                0.01
+            ]
+        ]
+    ]
 }

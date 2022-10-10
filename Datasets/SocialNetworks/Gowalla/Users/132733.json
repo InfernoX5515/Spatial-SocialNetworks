@@ -5,7 +5,19 @@
     "email": "rachel47@hotmail.com",
     "birthdate": "1946-11-08",
     "phone": "+1-592-716-0429x6633",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        72,
+        59,
+        66,
+        5,
+        65
+    ],
+    "login locations": [
+        [
+            -117.673025,
+            33.636192
+        ]
+    ],
+    "relationships": []
 }

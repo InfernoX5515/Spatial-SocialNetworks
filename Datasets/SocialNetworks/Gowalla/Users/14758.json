@@ -5,7 +5,26 @@
     "email": "grichardson@gmail.com",
     "birthdate": "1983-11-22",
     "phone": "4484979532",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        29,
+        42,
+        5,
+        24,
+        3,
+        29,
+        39,
+        66,
+        1,
+        50,
+        1,
+        48
+    ],
+    "login locations": [
+        [
+            -117.971625,
+            34.134698
+        ]
+    ],
+    "relationships": []
 }

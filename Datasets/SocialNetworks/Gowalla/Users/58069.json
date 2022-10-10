@@ -5,7 +5,36 @@
     "email": "rhardy@hotmail.com",
     "birthdate": "2015-01-16",
     "phone": "835.707.3637x4824",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        66,
+        51,
+        42,
+        15,
+        20,
+        1,
+        48,
+        2,
+        24,
+        55,
+        6
+    ],
+    "login locations": [
+        [
+            -122.132469,
+            37.422786
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1897,
+                0.04
+            ],
+            [
+                49616,
+                0.0228571428571
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,34 @@
     "email": "frostjacob@hotmail.com",
     "birthdate": "1920-07-11",
     "phone": "823-610-7819x79296",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        72,
+        38,
+        53,
+        42,
+        57,
+        15,
+        63,
+        64,
+        31
+    ],
+    "login locations": [
+        [
+            -118.420737,
+            34.021106
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                245,
+                0.01
+            ],
+            [
+                245,
+                0.01
+            ]
+        ]
+    ]
 }

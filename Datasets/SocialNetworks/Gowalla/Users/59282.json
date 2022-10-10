@@ -5,7 +5,22 @@
     "email": "stevensandrew@hotmail.com",
     "birthdate": "1983-11-11",
     "phone": "+1-569-465-2333x663",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        15,
+        29,
+        36,
+        45,
+        13,
+        26,
+        19,
+        2
+    ],
+    "login locations": [
+        [
+            -118.465279,
+            34.045847
+        ]
+    ],
+    "relationships": []
 }

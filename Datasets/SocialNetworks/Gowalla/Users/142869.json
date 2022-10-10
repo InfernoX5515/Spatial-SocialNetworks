@@ -5,7 +5,12 @@
     "email": "websterjessica@hotmail.com",
     "birthdate": "2010-08-26",
     "phone": "+1-719-579-5730x6275",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.153396,
+            32.74318
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "susanlopez@yahoo.com",
     "birthdate": "1926-04-01",
     "phone": "314.206.3591",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        68,
+        46,
+        8,
+        65,
+        57,
+        42,
+        47,
+        14,
+        14,
+        18,
+        21,
+        41,
+        0
+    ],
+    "login locations": [
+        [
+            -122.460368,
+            37.765877
+        ]
+    ],
+    "relationships": []
 }

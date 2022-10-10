@@ -5,7 +5,29 @@
     "email": "jacobsteresa@gmail.com",
     "birthdate": "2006-09-21",
     "phone": "603-686-3051x715",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        62,
+        11,
+        23,
+        56
+    ],
+    "login locations": [
+        [
+            -122.411278,
+            37.77923
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5846,
+                0.01
+            ],
+            [
+                5846,
+                0.01
+            ]
+        ]
+    ]
 }

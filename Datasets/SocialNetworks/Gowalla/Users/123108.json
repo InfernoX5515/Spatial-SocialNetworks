@@ -5,7 +5,24 @@
     "email": "svaldez@yahoo.com",
     "birthdate": "1937-11-11",
     "phone": "001-969-545-7002x5487",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        11,
+        2,
+        5,
+        20,
+        45,
+        48,
+        59,
+        68,
+        3,
+        50
+    ],
+    "login locations": [
+        [
+            -122.409427,
+            37.775861
+        ]
+    ],
+    "relationships": []
 }

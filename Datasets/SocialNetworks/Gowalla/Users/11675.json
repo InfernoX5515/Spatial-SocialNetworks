@@ -5,7 +5,26 @@
     "email": "aorr@hotmail.com",
     "birthdate": "1921-07-26",
     "phone": "528.837.2360x69262",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        66,
+        53,
+        32,
+        24,
+        66,
+        57,
+        46,
+        27,
+        13,
+        65,
+        75,
+        73
+    ],
+    "login locations": [
+        [
+            -122.421837,
+            37.752984
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "smithmichael@hotmail.com",
     "birthdate": "1986-08-11",
     "phone": "2438839357",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        43,
+        30,
+        65,
+        70
+    ],
+    "login locations": [
+        [
+            -122.446107,
+            37.769037
+        ]
+    ],
+    "relationships": []
 }

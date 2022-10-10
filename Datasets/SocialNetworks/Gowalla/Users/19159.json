@@ -5,7 +5,28 @@
     "email": "haleytracy@yahoo.com",
     "birthdate": "1992-11-03",
     "phone": "920-994-0662x1565",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        75,
+        62,
+        53,
+        13,
+        21,
+        44,
+        11,
+        62,
+        23,
+        7,
+        40,
+        74,
+        37,
+        44
+    ],
+    "login locations": [
+        [
+            -122.035446,
+            37.401534
+        ]
+    ],
+    "relationships": []
 }

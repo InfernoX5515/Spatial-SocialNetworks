@@ -5,7 +5,14 @@
     "email": "robertwatts@hotmail.com",
     "birthdate": "2011-10-08",
     "phone": "0258670740",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73
+    ],
+    "login locations": [
+        [
+            -121.898665,
+            37.694033
+        ]
+    ],
+    "relationships": []
 }

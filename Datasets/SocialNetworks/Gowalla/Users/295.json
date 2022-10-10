@@ -5,7 +5,25 @@
     "email": "cherylwillis@gmail.com",
     "birthdate": "1938-05-03",
     "phone": "994.220.8450x1332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18
+    ],
+    "login locations": [
+        [
+            -122.419428,
+            37.765377
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4223,
+                0.0140845070423
+            ],
+            [
+                4223,
+                0.0140845070423
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,16 @@
     "email": "alexisvega@hotmail.com",
     "birthdate": "1924-03-03",
     "phone": "(308)387-3510",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        56,
+        8
+    ],
+    "login locations": [
+        [
+            -118.35531,
+            34.015037
+        ]
+    ],
+    "relationships": []
 }

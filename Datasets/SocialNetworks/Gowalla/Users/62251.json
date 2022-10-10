@@ -5,7 +5,15 @@
     "email": "handerson@gmail.com",
     "birthdate": "1959-09-12",
     "phone": "(563)900-5658x963",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        61
+    ],
+    "login locations": [
+        [
+            -117.599195,
+            34.099768
+        ]
+    ],
+    "relationships": []
 }

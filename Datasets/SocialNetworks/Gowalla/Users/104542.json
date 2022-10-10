@@ -5,7 +5,24 @@
     "email": "karen92@hotmail.com",
     "birthdate": "1948-10-10",
     "phone": "(940)789-8523",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        66,
+        27,
+        4,
+        44,
+        48,
+        27,
+        27,
+        31,
+        4,
+        64
+    ],
+    "login locations": [
+        [
+            -122.407883,
+            37.789877
+        ]
+    ],
+    "relationships": []
 }

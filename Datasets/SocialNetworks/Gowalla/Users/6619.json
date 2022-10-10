@@ -5,7 +5,28 @@
     "email": "phyllis22@yahoo.com",
     "birthdate": "2001-01-01",
     "phone": "+1-187-109-6988x4678",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        59,
+        17,
+        72,
+        34,
+        54,
+        67,
+        45,
+        11,
+        24,
+        13,
+        22,
+        15,
+        69,
+        38
+    ],
+    "login locations": [
+        [
+            -122.403342,
+            37.774944
+        ]
+    ],
+    "relationships": []
 }

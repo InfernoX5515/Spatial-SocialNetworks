@@ -5,7 +5,26 @@
     "email": "griffithroy@gmail.com",
     "birthdate": "1989-06-04",
     "phone": "(018)341-6140",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        52,
+        72,
+        22,
+        51,
+        67,
+        42,
+        36,
+        2,
+        15,
+        40,
+        15,
+        46
+    ],
+    "login locations": [
+        [
+            -122.404878,
+            37.76472
+        ]
+    ],
+    "relationships": []
 }

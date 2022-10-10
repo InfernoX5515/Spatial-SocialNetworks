@@ -5,7 +5,28 @@
     "email": "cheyenne70@yahoo.com",
     "birthdate": "1992-01-24",
     "phone": "(019)061-8044x1966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        9,
+        36,
+        68,
+        43,
+        1,
+        64,
+        9,
+        1,
+        22,
+        14,
+        3,
+        62,
+        10,
+        51
+    ],
+    "login locations": [
+        [
+            -118.312654,
+            34.099215
+        ]
+    ],
+    "relationships": []
 }

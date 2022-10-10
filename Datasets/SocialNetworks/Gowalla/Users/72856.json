@@ -5,7 +5,26 @@
     "email": "huntjennifer@yahoo.com",
     "birthdate": "2021-10-06",
     "phone": "269.763.3266",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        41,
+        67,
+        1,
+        29,
+        59,
+        38,
+        57,
+        58,
+        75,
+        6,
+        33,
+        0
+    ],
+    "login locations": [
+        [
+            -121.886358,
+            37.329983
+        ]
+    ],
+    "relationships": []
 }

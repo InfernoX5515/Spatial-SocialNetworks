@@ -5,7 +5,37 @@
     "email": "abigail53@yahoo.com",
     "birthdate": "1980-09-02",
     "phone": "2096596181",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        39,
+        54,
+        64,
+        42,
+        33,
+        3,
+        62,
+        71,
+        56,
+        59,
+        63,
+        30
+    ],
+    "login locations": [
+        [
+            -122.346852,
+            37.855838
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                426,
+                0.0266990291262
+            ],
+            [
+                4260,
+                0.0298507462687
+            ]
+        ]
+    ]
 }

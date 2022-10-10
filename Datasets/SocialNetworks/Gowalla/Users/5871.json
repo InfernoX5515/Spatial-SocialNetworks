@@ -5,7 +5,34 @@
     "email": "jpena@gmail.com",
     "birthdate": "1962-03-24",
     "phone": "153-775-2363x813",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        32,
+        17,
+        27,
+        50,
+        28,
+        25,
+        44,
+        27,
+        15
+    ],
+    "login locations": [
+        [
+            -117.767043,
+            33.622232
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5895,
+                0.01
+            ],
+            [
+                5895,
+                0.01
+            ]
+        ]
+    ]
 }

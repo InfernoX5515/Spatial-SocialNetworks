@@ -5,7 +5,17 @@
     "email": "penajonathan@gmail.com",
     "birthdate": "1994-12-31",
     "phone": "483-869-9015",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        59,
+        14,
+        31
+    ],
+    "login locations": [
+        [
+            -120.2257,
+            39.240281
+        ]
+    ],
+    "relationships": []
 }

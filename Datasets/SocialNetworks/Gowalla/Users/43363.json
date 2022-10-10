@@ -5,7 +5,22 @@
     "email": "jbeasley@gmail.com",
     "birthdate": "1952-10-28",
     "phone": "435.864.1217x00664",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        14,
+        27,
+        25,
+        1,
+        67,
+        29,
+        42,
+        13
+    ],
+    "login locations": [
+        [
+            -120.181975,
+            39.334646
+        ]
+    ],
+    "relationships": []
 }

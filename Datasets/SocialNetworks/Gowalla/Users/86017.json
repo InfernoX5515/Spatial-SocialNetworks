@@ -5,7 +5,18 @@
     "email": "fishermikayla@hotmail.com",
     "birthdate": "1908-06-18",
     "phone": "(230)081-9583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        19,
+        73,
+        45,
+        15
+    ],
+    "login locations": [
+        [
+            -120.970959,
+            37.676208
+        ]
+    ],
+    "relationships": []
 }

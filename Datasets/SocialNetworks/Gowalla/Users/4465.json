@@ -5,7 +5,27 @@
     "email": "manningmichelle@gmail.com",
     "birthdate": "2013-01-14",
     "phone": "001-479-426-1038x06372",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        33,
+        36,
+        31,
+        34,
+        7,
+        56,
+        65,
+        31,
+        17,
+        64,
+        43,
+        57,
+        48
+    ],
+    "login locations": [
+        [
+            -118.314994,
+            34.056421
+        ]
+    ],
+    "relationships": []
 }

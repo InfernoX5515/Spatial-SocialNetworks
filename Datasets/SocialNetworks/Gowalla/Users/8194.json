@@ -5,7 +5,20 @@
     "email": "amy26@yahoo.com",
     "birthdate": "1972-10-29",
     "phone": "+1-386-477-1185x735",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        60,
+        67,
+        2,
+        21,
+        64,
+        30
+    ],
+    "login locations": [
+        [
+            -122.416745,
+            37.790241
+        ]
+    ],
+    "relationships": []
 }

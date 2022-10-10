@@ -5,7 +5,12 @@
     "email": "lori18@yahoo.com",
     "birthdate": "2020-08-06",
     "phone": "+1-297-132-7986",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.412039,
+            34.154915
+        ]
+    ],
+    "relationships": []
 }

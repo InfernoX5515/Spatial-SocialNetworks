@@ -5,7 +5,27 @@
     "email": "chaseaustin@hotmail.com",
     "birthdate": "1992-04-28",
     "phone": "+1-796-754-9644x334",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        50,
+        9
+    ],
+    "login locations": [
+        [
+            -118.98544,
+            35.387987
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                100413,
+                0.148148148148
+            ],
+            [
+                100414,
+                0.202898550725
+            ]
+        ]
+    ]
 }

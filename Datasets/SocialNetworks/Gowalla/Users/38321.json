@@ -5,7 +5,39 @@
     "email": "audreywilliamson@gmail.com",
     "birthdate": "1956-11-15",
     "phone": "001-454-197-3106x61071",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        34,
+        45,
+        71,
+        56,
+        68,
+        70,
+        33,
+        34,
+        66,
+        40,
+        14,
+        2,
+        21,
+        62
+    ],
+    "login locations": [
+        [
+            -118.350983,
+            34.027553
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38315,
+                0.683333333333
+            ],
+            [
+                38315,
+                0.683333333333
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,37 @@
     "email": "alexanderfernando@yahoo.com",
     "birthdate": "1935-01-22",
     "phone": "8800597854",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        46,
+        44,
+        22,
+        19,
+        1,
+        75,
+        48,
+        7,
+        54,
+        3,
+        57,
+        30
+    ],
+    "login locations": [
+        [
+            -122.262092,
+            37.852549
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.01
+            ],
+            [
+                600,
+                0.0254545454545
+            ]
+        ]
+    ]
 }

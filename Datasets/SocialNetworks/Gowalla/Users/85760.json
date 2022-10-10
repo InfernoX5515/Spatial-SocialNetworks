@@ -5,7 +5,20 @@
     "email": "collinsmarc@gmail.com",
     "birthdate": "2002-10-24",
     "phone": "990-792-8007",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        28,
+        55,
+        41,
+        4,
+        30,
+        20
+    ],
+    "login locations": [
+        [
+            -122.326979,
+            37.948693
+        ]
+    ],
+    "relationships": []
 }

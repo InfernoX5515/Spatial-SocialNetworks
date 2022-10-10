@@ -5,7 +5,31 @@
     "email": "astephens@yahoo.com",
     "birthdate": "1976-04-18",
     "phone": "794-992-8725x6752",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        60,
+        48,
+        10,
+        27,
+        31,
+        70
+    ],
+    "login locations": [
+        [
+            -122.338816,
+            37.573678
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                129002,
+                0.0126582278481
+            ],
+            [
+                129002,
+                0.3125
+            ]
+        ]
+    ]
 }

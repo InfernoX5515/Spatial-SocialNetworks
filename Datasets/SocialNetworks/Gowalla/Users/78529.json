@@ -5,7 +5,20 @@
     "email": "alyssa82@gmail.com",
     "birthdate": "2022-07-20",
     "phone": "+1-865-317-9010x72501",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        47,
+        56,
+        64,
+        12,
+        73,
+        56
+    ],
+    "login locations": [
+        [
+            -122.395339,
+            37.784955
+        ]
+    ],
+    "relationships": []
 }

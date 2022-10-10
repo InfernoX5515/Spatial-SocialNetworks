@@ -5,7 +5,20 @@
     "email": "rossdouglas@yahoo.com",
     "birthdate": "2010-05-30",
     "phone": "(768)549-0813",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        42,
+        1,
+        59,
+        64,
+        65,
+        42
+    ],
+    "login locations": [
+        [
+            -118.447496,
+            34.038251
+        ]
+    ],
+    "relationships": []
 }

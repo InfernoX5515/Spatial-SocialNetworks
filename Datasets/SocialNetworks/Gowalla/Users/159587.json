@@ -5,7 +5,26 @@
     "email": "hicksmelissa@gmail.com",
     "birthdate": "2012-11-12",
     "phone": "0725960859",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        41,
+        22,
+        58,
+        57,
+        49,
+        46,
+        69,
+        38,
+        64,
+        5,
+        21,
+        42
+    ],
+    "login locations": [
+        [
+            -121.081326,
+            37.764479
+        ]
+    ],
+    "relationships": []
 }

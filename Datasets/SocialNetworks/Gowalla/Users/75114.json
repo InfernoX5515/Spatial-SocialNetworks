@@ -5,7 +5,12 @@
     "email": "cmiller@gmail.com",
     "birthdate": "1938-09-28",
     "phone": "+1-220-541-3716x16713",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.510562,
+            37.769451
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "aarontaylor@hotmail.com",
     "birthdate": "1966-05-19",
     "phone": "+1-238-160-1845",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41
+    ],
+    "login locations": [
+        [
+            -117.932323,
+            33.716484
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39813,
+                0.2
+            ],
+            [
+                56456,
+                0.445
+            ]
+        ]
+    ]
 }

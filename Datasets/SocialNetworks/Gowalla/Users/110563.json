@@ -5,7 +5,26 @@
     "email": "brownlisa@hotmail.com",
     "birthdate": "2010-06-23",
     "phone": "+1-184-257-1728x64536",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        74
+    ],
+    "login locations": [
+        [
+            -121.971887,
+            37.683411
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                40289,
+                0.32
+            ],
+            [
+                72053,
+                0.01
+            ]
+        ]
+    ]
 }

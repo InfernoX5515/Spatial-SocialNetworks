@@ -5,7 +5,23 @@
     "email": "hkim@yahoo.com",
     "birthdate": "1951-11-15",
     "phone": "001-582-452-7165x8299",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        16,
+        71,
+        2,
+        29,
+        2,
+        18,
+        63,
+        26,
+        73
+    ],
+    "login locations": [
+        [
+            -122.133423,
+            37.436278
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "kevin39@hotmail.com",
     "birthdate": "2001-07-08",
     "phone": "961-563-6338",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        63,
+        14,
+        67
+    ],
+    "login locations": [
+        [
+            -117.159453,
+            32.713737
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "ucline@yahoo.com",
     "birthdate": "1999-09-27",
     "phone": "+1-314-203-8377x8022",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        59,
+        71,
+        69,
+        39,
+        71,
+        44,
+        49,
+        72,
+        3,
+        63,
+        33,
+        41,
+        10
+    ],
+    "login locations": [
+        [
+            -118.136185,
+            34.146365
+        ]
+    ],
+    "relationships": []
 }

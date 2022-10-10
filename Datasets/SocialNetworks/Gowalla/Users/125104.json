@@ -5,7 +5,15 @@
     "email": "catherinemclean@hotmail.com",
     "birthdate": "2014-07-04",
     "phone": "692-991-7151x2218",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        31
+    ],
+    "login locations": [
+        [
+            -121.87022,
+            37.373177
+        ]
+    ],
+    "relationships": []
 }

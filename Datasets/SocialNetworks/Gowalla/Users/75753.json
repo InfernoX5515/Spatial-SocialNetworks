@@ -5,7 +5,23 @@
     "email": "beverlyclayton@hotmail.com",
     "birthdate": "2019-12-28",
     "phone": "098.278.7580x82240",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        39,
+        0,
+        48,
+        66,
+        9,
+        6,
+        51,
+        0,
+        56
+    ],
+    "login locations": [
+        [
+            -122.411429,
+            37.79551
+        ]
+    ],
+    "relationships": []
 }

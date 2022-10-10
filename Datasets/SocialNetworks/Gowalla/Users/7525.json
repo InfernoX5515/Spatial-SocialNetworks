@@ -5,7 +5,16 @@
     "email": "stuartaaron@gmail.com",
     "birthdate": "1947-01-22",
     "phone": "782.459.8686x7130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        23,
+        28
+    ],
+    "login locations": [
+        [
+            -122.404357,
+            37.72681
+        ]
+    ],
+    "relationships": []
 }

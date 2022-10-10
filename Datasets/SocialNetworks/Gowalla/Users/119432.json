@@ -5,7 +5,24 @@
     "email": "karaelliott@yahoo.com",
     "birthdate": "1948-06-17",
     "phone": "595.100.0040x33752",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        21,
+        61,
+        37,
+        33,
+        66,
+        59,
+        72,
+        46,
+        46,
+        33
+    ],
+    "login locations": [
+        [
+            -118.072678,
+            34.106775
+        ]
+    ],
+    "relationships": []
 }

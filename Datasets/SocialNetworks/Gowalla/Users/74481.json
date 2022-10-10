@@ -5,7 +5,22 @@
     "email": "xcruz@yahoo.com",
     "birthdate": "1971-05-11",
     "phone": "+1-529-781-0550x7868",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        60,
+        58,
+        54,
+        64,
+        33,
+        43,
+        41,
+        62
+    ],
+    "login locations": [
+        [
+            -118.350805,
+            34.098028
+        ]
+    ],
+    "relationships": []
 }

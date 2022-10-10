@@ -5,7 +5,17 @@
     "email": "ddean@yahoo.com",
     "birthdate": "1990-05-23",
     "phone": "109-671-1017",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        60,
+        12,
+        47
+    ],
+    "login locations": [
+        [
+            -118.395701,
+            33.991645
+        ]
+    ],
+    "relationships": []
 }

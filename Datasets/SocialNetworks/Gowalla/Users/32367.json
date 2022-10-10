@@ -5,7 +5,26 @@
     "email": "roberta02@yahoo.com",
     "birthdate": "1913-03-10",
     "phone": "105.019.3389x004",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        70
+    ],
+    "login locations": [
+        [
+            -118.054451,
+            33.820202
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                120091,
+                0.173553719008
+            ],
+            [
+                120091,
+                0.173553719008
+            ]
+        ]
+    ]
 }

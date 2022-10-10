@@ -5,7 +5,20 @@
     "email": "mathistroy@gmail.com",
     "birthdate": "1935-07-16",
     "phone": "449.863.8635",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        33,
+        37,
+        0,
+        41,
+        21,
+        7
+    ],
+    "login locations": [
+        [
+            -118.310526,
+            33.989719
+        ]
+    ],
+    "relationships": []
 }

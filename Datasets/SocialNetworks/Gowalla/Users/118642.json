@@ -5,7 +5,26 @@
     "email": "qgibson@hotmail.com",
     "birthdate": "1989-09-01",
     "phone": "+1-407-412-2437x8688",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        47
+    ],
+    "login locations": [
+        [
+            -117.187648,
+            32.761351
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118645,
+                0.01
+            ],
+            [
+                118645,
+                0.01
+            ]
+        ]
+    ]
 }

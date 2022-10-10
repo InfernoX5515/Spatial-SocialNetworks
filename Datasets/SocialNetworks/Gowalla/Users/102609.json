@@ -5,7 +5,22 @@
     "email": "erin27@gmail.com",
     "birthdate": "2009-11-05",
     "phone": "502-604-4786x1921",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        39,
+        39,
+        71,
+        60,
+        38,
+        28,
+        74,
+        14
+    ],
+    "login locations": [
+        [
+            -118.408374,
+            34.061587
+        ]
+    ],
+    "relationships": []
 }

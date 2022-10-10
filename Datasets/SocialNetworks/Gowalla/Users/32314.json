@@ -5,7 +5,22 @@
     "email": "smithchristine@yahoo.com",
     "birthdate": "1943-09-26",
     "phone": "001-094-945-9251x43009",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        14,
+        10,
+        26,
+        57,
+        35,
+        35,
+        26,
+        74
+    ],
+    "login locations": [
+        [
+            -122.091569,
+            37.402711
+        ]
+    ],
+    "relationships": []
 }

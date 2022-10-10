@@ -5,7 +5,26 @@
     "email": "charlescrawford@hotmail.com",
     "birthdate": "1973-11-21",
     "phone": "522-877-9268x054",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        32,
+        60,
+        34,
+        69,
+        24,
+        64,
+        23,
+        62,
+        28,
+        18,
+        25,
+        21
+    ],
+    "login locations": [
+        [
+            -118.255976,
+            33.837197
+        ]
+    ],
+    "relationships": []
 }

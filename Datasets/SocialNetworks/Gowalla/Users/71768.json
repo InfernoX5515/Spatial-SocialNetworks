@@ -5,7 +5,19 @@
     "email": "qcoleman@gmail.com",
     "birthdate": "1986-10-01",
     "phone": "6637367341",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        26,
+        43,
+        13,
+        66,
+        22
+    ],
+    "login locations": [
+        [
+            -122.403792,
+            37.79753
+        ]
+    ],
+    "relationships": []
 }

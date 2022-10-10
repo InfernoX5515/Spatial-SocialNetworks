@@ -5,7 +5,19 @@
     "email": "nguyencindy@hotmail.com",
     "birthdate": "1927-01-20",
     "phone": "765.435.4719x7107",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        74,
+        57,
+        64,
+        75,
+        32
+    ],
+    "login locations": [
+        [
+            -118.410161,
+            34.043994
+        ]
+    ],
+    "relationships": []
 }

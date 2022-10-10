@@ -5,7 +5,15 @@
     "email": "levinechristopher@gmail.com",
     "birthdate": "1969-02-23",
     "phone": "001-014-436-8443x7417",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        29
+    ],
+    "login locations": [
+        [
+            -122.41846,
+            37.797867
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "mezacynthia@hotmail.com",
     "birthdate": "1961-01-10",
     "phone": "651.611.9275",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        35,
+        7,
+        50,
+        19,
+        21,
+        8,
+        60
+    ],
+    "login locations": [
+        [
+            -117.125898,
+            32.689026
+        ]
+    ],
+    "relationships": []
 }

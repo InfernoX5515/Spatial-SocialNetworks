@@ -5,7 +5,39 @@
     "email": "danielrowe@gmail.com",
     "birthdate": "1993-06-30",
     "phone": "875-457-1077x1975",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        69,
+        45,
+        11,
+        20,
+        50,
+        22,
+        7,
+        2,
+        3,
+        2,
+        24,
+        37,
+        33,
+        36
+    ],
+    "login locations": [
+        [
+            -118.349934,
+            34.077435
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                470,
+                0.01
+            ],
+            [
+                4680,
+                0.02
+            ]
+        ]
+    ]
 }

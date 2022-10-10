@@ -5,7 +5,30 @@
     "email": "donaldfox@yahoo.com",
     "birthdate": "1908-03-22",
     "phone": "816.830.1898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        19,
+        25,
+        70,
+        75,
+        12
+    ],
+    "login locations": [
+        [
+            -122.403507,
+            37.776045
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2292,
+                0.01
+            ],
+            [
+                4407,
+                0.0338983050847
+            ]
+        ]
+    ]
 }

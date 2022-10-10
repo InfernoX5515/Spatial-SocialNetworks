@@ -5,7 +5,25 @@
     "email": "travis17@gmail.com",
     "birthdate": "1939-05-16",
     "phone": "232-091-4885x223",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        27,
+        11,
+        41,
+        19,
+        61,
+        26,
+        21,
+        39,
+        35,
+        72,
+        8
+    ],
+    "login locations": [
+        [
+            -122.159971,
+            37.447607
+        ]
+    ],
+    "relationships": []
 }

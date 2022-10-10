@@ -5,7 +5,23 @@
     "email": "burkedavid@gmail.com",
     "birthdate": "1995-01-02",
     "phone": "001-673-452-9838x3812",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        39,
+        59,
+        13,
+        72,
+        50,
+        4,
+        49,
+        5,
+        48
+    ],
+    "login locations": [
+        [
+            -117.175118,
+            32.903609
+        ]
+    ],
+    "relationships": []
 }

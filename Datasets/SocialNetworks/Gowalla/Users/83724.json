@@ -5,7 +5,20 @@
     "email": "charlesgilmore@gmail.com",
     "birthdate": "1999-08-24",
     "phone": "558.490.2155",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        34,
+        42,
+        52,
+        29,
+        4,
+        19
+    ],
+    "login locations": [
+        [
+            -121.359659,
+            38.601784
+        ]
+    ],
+    "relationships": []
 }

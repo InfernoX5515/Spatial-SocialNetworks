@@ -5,7 +5,27 @@
     "email": "marvin84@yahoo.com",
     "birthdate": "1934-09-20",
     "phone": "135.904.2699",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        40,
+        46,
+        16,
+        12,
+        37,
+        56,
+        46,
+        62,
+        69,
+        70,
+        63,
+        62,
+        28
+    ],
+    "login locations": [
+        [
+            -116.395254,
+            33.723661
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "qjackson@yahoo.com",
     "birthdate": "2021-12-20",
     "phone": "161.333.7438x279",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        38,
+        37,
+        50,
+        61,
+        35,
+        1,
+        23,
+        18,
+        59,
+        63,
+        71
+    ],
+    "login locations": [
+        [
+            -122.23423,
+            38.13762
+        ]
+    ],
+    "relationships": []
 }

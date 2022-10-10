@@ -5,7 +5,17 @@
     "email": "ostokes@yahoo.com",
     "birthdate": "2017-10-17",
     "phone": "001-607-130-5445x6819",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        21,
+        62,
+        43
+    ],
+    "login locations": [
+        [
+            -121.932707,
+            37.319028
+        ]
+    ],
+    "relationships": []
 }

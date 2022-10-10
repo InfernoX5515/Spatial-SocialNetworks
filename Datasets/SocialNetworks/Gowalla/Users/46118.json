@@ -5,7 +5,24 @@
     "email": "garybell@gmail.com",
     "birthdate": "1908-12-20",
     "phone": "(860)839-3665x53194",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        42,
+        40,
+        52,
+        60,
+        59,
+        52,
+        42,
+        17,
+        49,
+        72
+    ],
+    "login locations": [
+        [
+            -119.294169,
+            34.278717
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "jenniferduke@yahoo.com",
     "birthdate": "1912-03-04",
     "phone": "(915)879-1816x353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        58,
+        34,
+        62,
+        35,
+        13,
+        47,
+        72,
+        24
+    ],
+    "login locations": [
+        [
+            -118.540389,
+            34.235627
+        ]
+    ],
+    "relationships": []
 }

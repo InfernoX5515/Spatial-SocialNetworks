@@ -5,7 +5,12 @@
     "email": "changleah@yahoo.com",
     "birthdate": "2006-02-26",
     "phone": "310.961.3223x424",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.299374,
+            37.812936
+        ]
+    ],
+    "relationships": []
 }

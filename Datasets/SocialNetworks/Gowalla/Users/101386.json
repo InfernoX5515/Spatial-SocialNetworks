@@ -5,7 +5,21 @@
     "email": "james36@gmail.com",
     "birthdate": "1918-12-11",
     "phone": "001-277-813-9441",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        9,
+        69,
+        26,
+        0,
+        60,
+        54,
+        70
+    ],
+    "login locations": [
+        [
+            -122.424574,
+            37.789362
+        ]
+    ],
+    "relationships": []
 }

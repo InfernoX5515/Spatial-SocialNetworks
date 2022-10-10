@@ -5,7 +5,21 @@
     "email": "pcarter@hotmail.com",
     "birthdate": "1973-07-15",
     "phone": "(613)849-3370x66101",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        72,
+        8,
+        28,
+        58,
+        53,
+        8,
+        40
+    ],
+    "login locations": [
+        [
+            -122.335314,
+            37.796526
+        ]
+    ],
+    "relationships": []
 }

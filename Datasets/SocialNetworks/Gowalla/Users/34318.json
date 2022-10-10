@@ -5,7 +5,34 @@
     "email": "guerreromeghan@hotmail.com",
     "birthdate": "1921-03-01",
     "phone": "(552)645-1929x37353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        16,
+        73,
+        15,
+        22,
+        44,
+        57,
+        62,
+        63,
+        71
+    ],
+    "login locations": [
+        [
+            -118.254316,
+            34.065264
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                25774,
+                0.130434782609
+            ],
+            [
+                25774,
+                0.130434782609
+            ]
+        ]
+    ]
 }

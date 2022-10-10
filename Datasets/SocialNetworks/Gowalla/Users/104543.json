@@ -5,7 +5,38 @@
     "email": "greenmichael@gmail.com",
     "birthdate": "1968-09-18",
     "phone": "(019)193-8926x62480",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        49,
+        59,
+        44,
+        8,
+        18,
+        68,
+        38,
+        39,
+        22,
+        73,
+        16,
+        43,
+        44
+    ],
+    "login locations": [
+        [
+            -122.410191,
+            37.763554
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                31418,
+                0.209677419355
+            ],
+            [
+                31418,
+                0.209677419355
+            ]
+        ]
+    ]
 }

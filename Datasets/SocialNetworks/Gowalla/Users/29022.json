@@ -5,7 +5,15 @@
     "email": "michael73@yahoo.com",
     "birthdate": "1969-08-24",
     "phone": "097-384-5273x249",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        22
+    ],
+    "login locations": [
+        [
+            -117.792639,
+            33.66406
+        ]
+    ],
+    "relationships": []
 }

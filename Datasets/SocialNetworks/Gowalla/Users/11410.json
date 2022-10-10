@@ -5,7 +5,33 @@
     "email": "woodsgarrett@yahoo.com",
     "birthdate": "1955-03-19",
     "phone": "4331830180",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        41,
+        70,
+        23,
+        20,
+        61,
+        16,
+        63,
+        17
+    ],
+    "login locations": [
+        [
+            -122.410284,
+            37.760736
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11377,
+                0.01
+            ],
+            [
+                22059,
+                0.027027027027
+            ]
+        ]
+    ]
 }

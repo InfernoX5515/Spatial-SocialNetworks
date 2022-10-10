@@ -5,7 +5,12 @@
     "email": "codysmith@yahoo.com",
     "birthdate": "1928-06-21",
     "phone": "001-048-496-0105",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.014365,
+            37.081639
+        ]
+    ],
+    "relationships": []
 }

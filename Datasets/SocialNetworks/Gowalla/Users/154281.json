@@ -5,7 +5,27 @@
     "email": "udaniels@yahoo.com",
     "birthdate": "1937-02-15",
     "phone": "308.205.9771x34541",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        54,
+        44,
+        59,
+        67,
+        65,
+        38,
+        74,
+        59,
+        19,
+        12,
+        12,
+        48,
+        44
+    ],
+    "login locations": [
+        [
+            -122.308039,
+            37.839902
+        ]
+    ],
+    "relationships": []
 }

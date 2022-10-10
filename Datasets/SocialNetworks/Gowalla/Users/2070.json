@@ -5,7 +5,32 @@
     "email": "aprilwallace@yahoo.com",
     "birthdate": "1991-05-08",
     "phone": "(753)160-1411x034",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        60,
+        20,
+        65,
+        23,
+        27,
+        46,
+        49
+    ],
+    "login locations": [
+        [
+            -122.406676,
+            37.723175
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                338,
+                0.01
+            ],
+            [
+                363,
+                0.0135869565217
+            ]
+        ]
+    ]
 }

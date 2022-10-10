@@ -5,7 +5,25 @@
     "email": "deborahgarrett@gmail.com",
     "birthdate": "1992-06-17",
     "phone": "(004)127-4403x629",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        54,
+        5,
+        22,
+        39,
+        33,
+        26,
+        66,
+        39,
+        15,
+        21,
+        59
+    ],
+    "login locations": [
+        [
+            -122.153124,
+            37.437271
+        ]
+    ],
+    "relationships": []
 }

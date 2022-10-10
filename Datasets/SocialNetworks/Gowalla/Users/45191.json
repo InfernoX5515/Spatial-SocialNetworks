@@ -5,7 +5,12 @@
     "email": "schroederjamie@hotmail.com",
     "birthdate": "1937-08-01",
     "phone": "(881)383-2547",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.361303,
+            34.023247
+        ]
+    ],
+    "relationships": []
 }

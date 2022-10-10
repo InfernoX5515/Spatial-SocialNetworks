@@ -5,7 +5,15 @@
     "email": "amandacharles@yahoo.com",
     "birthdate": "1995-05-20",
     "phone": "+1-998-937-9587x17828",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        13
+    ],
+    "login locations": [
+        [
+            -122.420881,
+            37.766134
+        ]
+    ],
+    "relationships": []
 }

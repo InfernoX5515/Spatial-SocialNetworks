@@ -5,7 +5,15 @@
     "email": "rhonda28@gmail.com",
     "birthdate": "1986-07-15",
     "phone": "622.489.6898x025",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        56
+    ],
+    "login locations": [
+        [
+            -122.405397,
+            37.755286
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "kelsey21@yahoo.com",
     "birthdate": "1929-11-28",
     "phone": "+1-505-781-4067x5081",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        26,
+        1
+    ],
+    "login locations": [
+        [
+            -118.751755,
+            34.255795
+        ]
+    ],
+    "relationships": []
 }

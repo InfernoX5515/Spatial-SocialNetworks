@@ -5,7 +5,19 @@
     "email": "leesarah@gmail.com",
     "birthdate": "1951-04-27",
     "phone": "(504)585-0085x771",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        51,
+        2,
+        16,
+        17,
+        16
+    ],
+    "login locations": [
+        [
+            -122.249751,
+            37.770582
+        ]
+    ],
+    "relationships": []
 }

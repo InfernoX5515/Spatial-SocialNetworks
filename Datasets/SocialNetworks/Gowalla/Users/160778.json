@@ -5,7 +5,20 @@
     "email": "lukejenkins@gmail.com",
     "birthdate": "2011-05-07",
     "phone": "+1-153-107-8809x7865",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        70,
+        66,
+        30,
+        70,
+        22,
+        61
+    ],
+    "login locations": [
+        [
+            -118.33972,
+            34.104038
+        ]
+    ],
+    "relationships": []
 }

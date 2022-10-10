@@ -5,7 +5,21 @@
     "email": "georgemeyers@hotmail.com",
     "birthdate": "1937-07-19",
     "phone": "686.371.3295",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        30,
+        18,
+        1,
+        10,
+        8,
+        66,
+        2
+    ],
+    "login locations": [
+        [
+            -121.60979,
+            37.077251
+        ]
+    ],
+    "relationships": []
 }

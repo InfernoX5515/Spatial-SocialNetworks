@@ -5,7 +5,27 @@
     "email": "perezjeffrey@hotmail.com",
     "birthdate": "1917-10-27",
     "phone": "644-466-4164",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        30,
+        45
+    ],
+    "login locations": [
+        [
+            -121.988625,
+            37.35125
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1624,
+                0.012987012987
+            ],
+            [
+                39348,
+                0.2
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "breid@hotmail.com",
     "birthdate": "1937-03-14",
     "phone": "001-869-113-8683x647",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        50,
+        41,
+        4,
+        16,
+        13,
+        13,
+        58,
+        72,
+        75,
+        40
+    ],
+    "login locations": [
+        [
+            -122.312496,
+            37.84335
+        ]
+    ],
+    "relationships": []
 }

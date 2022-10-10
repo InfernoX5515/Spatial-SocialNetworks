@@ -5,7 +5,25 @@
     "email": "vferguson@hotmail.com",
     "birthdate": "1961-04-08",
     "phone": "001-362-721-8249x697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        42,
+        17,
+        46,
+        49,
+        41,
+        56,
+        28,
+        42,
+        22,
+        40,
+        1
+    ],
+    "login locations": [
+        [
+            -119.137148,
+            34.231094
+        ]
+    ],
+    "relationships": []
 }

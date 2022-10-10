@@ -5,7 +5,27 @@
     "email": "hlopez@gmail.com",
     "birthdate": "1957-09-14",
     "phone": "001-465-216-3946x3721",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        8,
+        25,
+        64,
+        74,
+        21,
+        61,
+        6,
+        27,
+        4,
+        73,
+        15,
+        70,
+        55
+    ],
+    "login locations": [
+        [
+            -122.373914,
+            37.723581
+        ]
+    ],
+    "relationships": []
 }

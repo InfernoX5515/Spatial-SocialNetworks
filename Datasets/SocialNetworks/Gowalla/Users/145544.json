@@ -5,7 +5,15 @@
     "email": "kwalker@hotmail.com",
     "birthdate": "2009-06-10",
     "phone": "(143)214-2437x47326",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        49
+    ],
+    "login locations": [
+        [
+            -122.418863,
+            37.775252
+        ]
+    ],
+    "relationships": []
 }

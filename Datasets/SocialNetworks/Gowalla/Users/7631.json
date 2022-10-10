@@ -5,7 +5,27 @@
     "email": "robert36@hotmail.com",
     "birthdate": "1964-01-04",
     "phone": "+1-040-234-5239x64005",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        23,
+        61,
+        50,
+        46,
+        39,
+        39,
+        29,
+        66,
+        18,
+        34,
+        33,
+        9,
+        44
+    ],
+    "login locations": [
+        [
+            -122.006305,
+            37.277716
+        ]
+    ],
+    "relationships": []
 }

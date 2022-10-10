@@ -5,7 +5,39 @@
     "email": "danielarcher@yahoo.com",
     "birthdate": "1976-04-08",
     "phone": "862.183.5591x025",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        53,
+        32,
+        12,
+        34,
+        54,
+        55,
+        51,
+        48,
+        26,
+        75,
+        18,
+        70,
+        33,
+        40
+    ],
+    "login locations": [
+        [
+            -117.022459,
+            32.866219
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                48124,
+                0.0785714285714
+            ],
+            [
+                48124,
+                0.0785714285714
+            ]
+        ]
+    ]
 }

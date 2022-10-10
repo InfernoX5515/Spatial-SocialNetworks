@@ -5,7 +5,23 @@
     "email": "fbrooks@hotmail.com",
     "birthdate": "1993-10-10",
     "phone": "180.252.9945",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        12,
+        8,
+        48,
+        46,
+        19,
+        49,
+        18,
+        12,
+        60
+    ],
+    "login locations": [
+        [
+            -117.961227,
+            33.808661
+        ]
+    ],
+    "relationships": []
 }

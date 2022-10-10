@@ -5,7 +5,18 @@
     "email": "sarahcarlson@hotmail.com",
     "birthdate": "2006-09-22",
     "phone": "746-026-6781x808",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        67,
+        61,
+        12,
+        29
+    ],
+    "login locations": [
+        [
+            -121.941649,
+            37.348828
+        ]
+    ],
+    "relationships": []
 }

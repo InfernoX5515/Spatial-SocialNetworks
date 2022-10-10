@@ -5,7 +5,22 @@
     "email": "juliandickson@hotmail.com",
     "birthdate": "1990-10-18",
     "phone": "(977)517-5928x3608",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        36,
+        44,
+        72,
+        0,
+        37,
+        48,
+        74,
+        31
+    ],
+    "login locations": [
+        [
+            -117.80446,
+            33.632466
+        ]
+    ],
+    "relationships": []
 }

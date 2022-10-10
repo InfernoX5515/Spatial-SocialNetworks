@@ -5,7 +5,32 @@
     "email": "moraleszachary@hotmail.com",
     "birthdate": "1934-08-22",
     "phone": "206-408-5741x404",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        21,
+        23,
+        0,
+        62,
+        27,
+        36,
+        53
+    ],
+    "login locations": [
+        [
+            -117.208689,
+            34.046607
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1345,
+                0.0280898876404
+            ],
+            [
+                1345,
+                0.0280898876404
+            ]
+        ]
+    ]
 }

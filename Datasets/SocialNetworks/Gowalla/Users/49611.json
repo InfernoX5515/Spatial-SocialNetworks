@@ -5,7 +5,14 @@
     "email": "stewartmadeline@yahoo.com",
     "birthdate": "1931-10-11",
     "phone": "813-870-7109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14
+    ],
+    "login locations": [
+        [
+            -122.336253,
+            37.82882
+        ]
+    ],
+    "relationships": []
 }

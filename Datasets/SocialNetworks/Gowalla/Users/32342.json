@@ -5,7 +5,26 @@
     "email": "cwilliams@gmail.com",
     "birthdate": "1909-10-01",
     "phone": "+1-492-369-0005x0703",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        64,
+        13,
+        38,
+        11,
+        0,
+        33,
+        38,
+        74,
+        69,
+        73,
+        51,
+        11
+    ],
+    "login locations": [
+        [
+            -122.396742,
+            37.758859
+        ]
+    ],
+    "relationships": []
 }

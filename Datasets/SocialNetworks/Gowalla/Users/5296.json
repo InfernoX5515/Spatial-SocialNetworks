@@ -5,7 +5,23 @@
     "email": "vdavis@gmail.com",
     "birthdate": "1967-06-29",
     "phone": "+1-613-907-3734",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        34,
+        36,
+        16,
+        39,
+        27,
+        75,
+        11,
+        11,
+        27
+    ],
+    "login locations": [
+        [
+            -122.407057,
+            37.774808
+        ]
+    ],
+    "relationships": []
 }

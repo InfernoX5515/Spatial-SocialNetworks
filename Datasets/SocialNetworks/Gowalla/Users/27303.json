@@ -5,7 +5,20 @@
     "email": "fdouglas@gmail.com",
     "birthdate": "1947-03-24",
     "phone": "457-105-6241x058",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        30,
+        69,
+        15,
+        63,
+        62,
+        58
+    ],
+    "login locations": [
+        [
+            -118.16283,
+            33.798112
+        ]
+    ],
+    "relationships": []
 }

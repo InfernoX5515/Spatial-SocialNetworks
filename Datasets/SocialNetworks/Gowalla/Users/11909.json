@@ -5,7 +5,24 @@
     "email": "vwilliams@yahoo.com",
     "birthdate": "1995-05-03",
     "phone": "727-973-8624x695",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        7,
+        5,
+        33,
+        58,
+        4,
+        20,
+        55,
+        46,
+        10,
+        5
+    ],
+    "login locations": [
+        [
+            -118.27959,
+            34.061083
+        ]
+    ],
+    "relationships": []
 }

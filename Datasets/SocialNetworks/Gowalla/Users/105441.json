@@ -5,7 +5,29 @@
     "email": "youngjeffrey@gmail.com",
     "birthdate": "1966-07-16",
     "phone": "+1-661-424-4665x31583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        35,
+        40,
+        62,
+        21
+    ],
+    "login locations": [
+        [
+            -122.180641,
+            37.45751
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                17728,
+                0.04
+            ],
+            [
+                17728,
+                0.04
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,20 @@
     "email": "davisryan@yahoo.com",
     "birthdate": "1975-11-25",
     "phone": "(634)812-3693x29077",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        10,
+        60,
+        28,
+        17,
+        21,
+        18
+    ],
+    "login locations": [
+        [
+            -117.241425,
+            34.047699
+        ]
+    ],
+    "relationships": []
 }

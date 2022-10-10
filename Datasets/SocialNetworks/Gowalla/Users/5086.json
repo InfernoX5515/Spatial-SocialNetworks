@@ -5,7 +5,24 @@
     "email": "steven05@hotmail.com",
     "birthdate": "1954-03-21",
     "phone": "001-013-449-1029x68079",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        39,
+        59,
+        52,
+        42,
+        34,
+        45,
+        26,
+        15,
+        6,
+        39
+    ],
+    "login locations": [
+        [
+            -122.130845,
+            37.419509
+        ]
+    ],
+    "relationships": []
 }

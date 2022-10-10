@@ -5,7 +5,23 @@
     "email": "lmartinez@gmail.com",
     "birthdate": "1979-08-28",
     "phone": "+1-750-904-8368x722",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.15155,
+            37.479541
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125983,
+                0.0142857142857
+            ],
+            [
+                125983,
+                0.0142857142857
+            ]
+        ]
+    ]
 }

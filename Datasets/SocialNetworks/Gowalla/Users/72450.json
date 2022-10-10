@@ -5,7 +5,25 @@
     "email": "umueller@gmail.com",
     "birthdate": "1987-01-12",
     "phone": "(409)237-7191x12945",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        58,
+        21,
+        44,
+        55,
+        53,
+        26,
+        6,
+        42,
+        66,
+        14,
+        27
+    ],
+    "login locations": [
+        [
+            -117.776813,
+            33.857843
+        ]
+    ],
+    "relationships": []
 }

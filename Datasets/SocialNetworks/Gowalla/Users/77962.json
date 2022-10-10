@@ -5,7 +5,37 @@
     "email": "hwoods@hotmail.com",
     "birthdate": "1914-08-06",
     "phone": "9363551842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        72,
+        35,
+        32,
+        65,
+        2,
+        63,
+        8,
+        23,
+        9,
+        6,
+        33,
+        15
+    ],
+    "login locations": [
+        [
+            -122.398362,
+            37.775227
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6183,
+                0.01
+            ],
+            [
+                11377,
+                0.024
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,16 @@
     "email": "melindaescobar@yahoo.com",
     "birthdate": "1979-06-07",
     "phone": "001-716-836-1740x4441",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        32,
+        6
+    ],
+    "login locations": [
+        [
+            -122.409617,
+            37.796339
+        ]
+    ],
+    "relationships": []
 }

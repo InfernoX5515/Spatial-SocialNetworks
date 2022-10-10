@@ -5,7 +5,20 @@
     "email": "djohnson@gmail.com",
     "birthdate": "1957-09-09",
     "phone": "3972675068",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        12,
+        32,
+        63,
+        41,
+        63,
+        53
+    ],
+    "login locations": [
+        [
+            -118.274604,
+            34.055016
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "alexandrawalker@gmail.com",
     "birthdate": "1964-07-20",
     "phone": "+1-074-615-9627x14257",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        9,
+        53,
+        2,
+        69,
+        71,
+        43,
+        31,
+        51,
+        28,
+        48,
+        53,
+        51
+    ],
+    "login locations": [
+        [
+            -122.093016,
+            37.405422
+        ]
+    ],
+    "relationships": []
 }

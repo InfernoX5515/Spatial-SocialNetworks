@@ -5,7 +5,15 @@
     "email": "kimberlyjohnson@hotmail.com",
     "birthdate": "2004-11-02",
     "phone": "805-116-9988",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        74
+    ],
+    "login locations": [
+        [
+            -122.137407,
+            37.442233
+        ]
+    ],
+    "relationships": []
 }

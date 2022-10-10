@@ -5,7 +5,33 @@
     "email": "jason18@yahoo.com",
     "birthdate": "1984-01-10",
     "phone": "954.238.5430",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        58,
+        20,
+        17,
+        70,
+        13,
+        11,
+        49,
+        62
+    ],
+    "login locations": [
+        [
+            -119.686838,
+            36.737446
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                102172,
+                0.12
+            ],
+            [
+                102172,
+                0.12
+            ]
+        ]
+    ]
 }

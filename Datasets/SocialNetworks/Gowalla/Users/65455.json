@@ -5,7 +5,18 @@
     "email": "hodgeanthony@hotmail.com",
     "birthdate": "2022-06-12",
     "phone": "+1-521-726-7583x7830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        6,
+        3,
+        28,
+        52
+    ],
+    "login locations": [
+        [
+            -121.454159,
+            38.586568
+        ]
+    ],
+    "relationships": []
 }

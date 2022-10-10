@@ -5,7 +5,28 @@
     "email": "xbowers@hotmail.com",
     "birthdate": "1933-03-23",
     "phone": "001-490-150-9797x2651",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        57,
+        30,
+        74
+    ],
+    "login locations": [
+        [
+            -117.251014,
+            34.071691
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1785,
+                0.018779342723
+            ],
+            [
+                5643,
+                0.205128205128
+            ]
+        ]
+    ]
 }

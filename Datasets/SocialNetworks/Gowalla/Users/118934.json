@@ -5,7 +5,21 @@
     "email": "lutzmatthew@gmail.com",
     "birthdate": "1922-07-24",
     "phone": "840-445-9636x89904",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        63,
+        72,
+        64,
+        34,
+        25,
+        52,
+        40
+    ],
+    "login locations": [
+        [
+            -117.984277,
+            33.777861
+        ]
+    ],
+    "relationships": []
 }

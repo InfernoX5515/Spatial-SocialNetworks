@@ -5,7 +5,20 @@
     "email": "meltonandrew@hotmail.com",
     "birthdate": "1943-05-02",
     "phone": "(500)968-7474x23201",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        28,
+        16,
+        4,
+        25,
+        46,
+        29
+    ],
+    "login locations": [
+        [
+            -119.018076,
+            35.37711
+        ]
+    ],
+    "relationships": []
 }

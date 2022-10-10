@@ -5,7 +5,15 @@
     "email": "rmcdowell@hotmail.com",
     "birthdate": "1983-01-06",
     "phone": "001-850-824-7626",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        23
+    ],
+    "login locations": [
+        [
+            -121.976711,
+            37.391409
+        ]
+    ],
+    "relationships": []
 }

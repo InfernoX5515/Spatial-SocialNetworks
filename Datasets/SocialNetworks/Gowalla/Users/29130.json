@@ -5,7 +5,26 @@
     "email": "odudley@yahoo.com",
     "birthdate": "1958-03-03",
     "phone": "917.678.9965x757",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        10,
+        49,
+        66,
+        45,
+        53,
+        28,
+        35,
+        58,
+        75,
+        58,
+        19,
+        16
+    ],
+    "login locations": [
+        [
+            -117.293661,
+            33.13661
+        ]
+    ],
+    "relationships": []
 }

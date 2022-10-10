@@ -5,7 +5,24 @@
     "email": "astafford@gmail.com",
     "birthdate": "1983-07-16",
     "phone": "(172)471-5845x06991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        13,
+        63,
+        25,
+        50,
+        29,
+        33,
+        42,
+        59,
+        33,
+        34
+    ],
+    "login locations": [
+        [
+            -122.020697,
+            37.395688
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "tiffany77@yahoo.com",
     "birthdate": "1940-03-09",
     "phone": "(815)513-9367x192",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        73,
+        20,
+        45,
+        22,
+        5,
+        47,
+        71,
+        52,
+        56,
+        64,
+        68,
+        7,
+        4,
+        24
+    ],
+    "login locations": [
+        [
+            -122.395606,
+            37.782114
+        ]
+    ],
+    "relationships": []
 }

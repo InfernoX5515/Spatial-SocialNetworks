@@ -5,7 +5,28 @@
     "email": "leslieryan@hotmail.com",
     "birthdate": "1952-09-16",
     "phone": "001-344-022-2264x86752",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        40,
+        48,
+        50,
+        65,
+        54,
+        2,
+        30,
+        58,
+        43,
+        15,
+        13,
+        45,
+        62,
+        45
+    ],
+    "login locations": [
+        [
+            -121.515115,
+            38.549404
+        ]
+    ],
+    "relationships": []
 }

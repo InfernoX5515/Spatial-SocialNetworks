@@ -5,7 +5,14 @@
     "email": "kaylaochoa@gmail.com",
     "birthdate": "1927-03-05",
     "phone": "323.669.5929x610",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52
+    ],
+    "login locations": [
+        [
+            -122.427738,
+            37.757537
+        ]
+    ],
+    "relationships": []
 }

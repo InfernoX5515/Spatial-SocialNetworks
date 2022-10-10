@@ -5,7 +5,23 @@
     "email": "deanna05@hotmail.com",
     "birthdate": "2015-03-26",
     "phone": "001-756-215-1629x65334",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        15,
+        37,
+        30,
+        50,
+        22,
+        65,
+        38,
+        38,
+        12
+    ],
+    "login locations": [
+        [
+            -118.433803,
+            34.044147
+        ]
+    ],
+    "relationships": []
 }

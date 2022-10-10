@@ -5,7 +5,21 @@
     "email": "qolson@gmail.com",
     "birthdate": "1949-03-06",
     "phone": "701-141-9021x8700",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        9,
+        70,
+        66,
+        49,
+        71,
+        30,
+        3
+    ],
+    "login locations": [
+        [
+            -117.174023,
+            32.757458
+        ]
+    ],
+    "relationships": []
 }

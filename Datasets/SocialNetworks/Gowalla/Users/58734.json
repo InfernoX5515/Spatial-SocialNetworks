@@ -5,7 +5,15 @@
     "email": "cunninghamamy@yahoo.com",
     "birthdate": "1937-08-26",
     "phone": "001-288-467-9948x001",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        67
+    ],
+    "login locations": [
+        [
+            -118.273328,
+            34.079878
+        ]
+    ],
+    "relationships": []
 }

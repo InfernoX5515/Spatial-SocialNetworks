@@ -5,7 +5,27 @@
     "email": "benjamin14@gmail.com",
     "birthdate": "1966-03-14",
     "phone": "845-232-1447",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        36,
+        52,
+        6,
+        31,
+        64,
+        74,
+        66,
+        24,
+        13,
+        33,
+        38,
+        18,
+        23
+    ],
+    "login locations": [
+        [
+            -117.127922,
+            33.292993
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,36 @@
     "email": "zcalderon@hotmail.com",
     "birthdate": "2017-02-11",
     "phone": "001-947-977-6765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        24,
+        57,
+        74,
+        56,
+        53,
+        70,
+        40,
+        34,
+        75,
+        0,
+        53
+    ],
+    "login locations": [
+        [
+            -122.09974,
+            37.365398
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.021897810219
+            ],
+            [
+                478,
+                0.01
+            ]
+        ]
+    ]
 }

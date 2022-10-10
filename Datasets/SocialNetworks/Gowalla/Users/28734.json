@@ -5,7 +5,34 @@
     "email": "amanda38@yahoo.com",
     "birthdate": "1970-05-09",
     "phone": "560-736-5430x27692",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        39,
+        7,
+        22,
+        14,
+        25,
+        16,
+        4,
+        15,
+        51
+    ],
+    "login locations": [
+        [
+            -122.418475,
+            37.786219
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                121184,
+                1.0
+            ],
+            [
+                121184,
+                1.0
+            ]
+        ]
+    ]
 }

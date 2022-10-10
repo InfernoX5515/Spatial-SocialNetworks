@@ -5,7 +5,16 @@
     "email": "jonathan80@yahoo.com",
     "birthdate": "2007-05-05",
     "phone": "+1-581-748-0701x00486",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        11,
+        11
+    ],
+    "login locations": [
+        [
+            -122.422359,
+            37.956608
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "lynn30@hotmail.com",
     "birthdate": "1979-11-06",
     "phone": "557.825.8487x346",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.814625,
+            37.326267
+        ]
+    ],
+    "relationships": []
 }

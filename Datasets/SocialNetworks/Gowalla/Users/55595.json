@@ -5,7 +5,12 @@
     "email": "mary74@gmail.com",
     "birthdate": "2004-04-23",
     "phone": "4561671539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.405386,
+            38.566586
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "geraldmyers@hotmail.com",
     "birthdate": "2022-02-05",
     "phone": "203-917-9227x3291",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        7,
+        64,
+        0,
+        13,
+        14,
+        49,
+        68,
+        59,
+        3,
+        39,
+        45,
+        73,
+        40,
+        27
+    ],
+    "login locations": [
+        [
+            -122.401979,
+            37.774173
+        ]
+    ],
+    "relationships": []
 }

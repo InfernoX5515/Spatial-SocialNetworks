@@ -5,7 +5,20 @@
     "email": "tony52@hotmail.com",
     "birthdate": "1929-01-21",
     "phone": "(509)641-5312",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        6,
+        72,
+        22,
+        4,
+        35,
+        60
+    ],
+    "login locations": [
+        [
+            -118.126,
+            34.148001
+        ]
+    ],
+    "relationships": []
 }

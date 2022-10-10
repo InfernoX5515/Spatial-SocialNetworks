@@ -5,7 +5,23 @@
     "email": "stephaniebrown@yahoo.com",
     "birthdate": "1926-01-27",
     "phone": "595.682.8342",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        34,
+        56,
+        66,
+        45,
+        56,
+        33,
+        9,
+        20,
+        24
+    ],
+    "login locations": [
+        [
+            -120.658628,
+            35.330602
+        ]
+    ],
+    "relationships": []
 }

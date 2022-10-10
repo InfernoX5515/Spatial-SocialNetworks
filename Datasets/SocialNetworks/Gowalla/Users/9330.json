@@ -5,7 +5,28 @@
     "email": "john53@yahoo.com",
     "birthdate": "1960-01-13",
     "phone": "138.485.7435",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        59,
+        1,
+        12
+    ],
+    "login locations": [
+        [
+            -122.433688,
+            37.611278
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                129,
+                0.01
+            ],
+            [
+                129,
+                0.01
+            ]
+        ]
+    ]
 }

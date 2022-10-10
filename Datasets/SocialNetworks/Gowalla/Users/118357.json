@@ -5,7 +5,24 @@
     "email": "judithking@hotmail.com",
     "birthdate": "1910-09-13",
     "phone": "001-261-563-4047x9378",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        29,
+        56,
+        75,
+        8,
+        29,
+        47,
+        3,
+        34,
+        62,
+        59
+    ],
+    "login locations": [
+        [
+            -122.205608,
+            38.110687
+        ]
+    ],
+    "relationships": []
 }

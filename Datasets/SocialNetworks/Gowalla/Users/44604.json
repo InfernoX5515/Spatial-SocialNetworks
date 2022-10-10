@@ -5,7 +5,18 @@
     "email": "eatondavid@gmail.com",
     "birthdate": "1991-07-30",
     "phone": "986-654-4858",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        53,
+        60,
+        10,
+        61
+    ],
+    "login locations": [
+        [
+            -122.489926,
+            37.757131
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "zthompson@gmail.com",
     "birthdate": "1958-03-12",
     "phone": "001-035-593-4136x3162",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11
+    ],
+    "login locations": [
+        [
+            -122.10219,
+            37.356435
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6063,
+                0.0149700598802
+            ],
+            [
+                6063,
+                0.0149700598802
+            ]
+        ]
+    ]
 }

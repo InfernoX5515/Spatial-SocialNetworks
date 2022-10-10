@@ -5,7 +5,20 @@
     "email": "patrickschmitt@gmail.com",
     "birthdate": "2018-02-28",
     "phone": "(739)982-0068x711",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        16,
+        56,
+        20,
+        7,
+        1,
+        66
+    ],
+    "login locations": [
+        [
+            -117.9352,
+            33.689162
+        ]
+    ],
+    "relationships": []
 }

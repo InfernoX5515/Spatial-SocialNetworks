@@ -5,7 +5,12 @@
     "email": "willismichael@hotmail.com",
     "birthdate": "1947-11-18",
     "phone": "439-019-6349x120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.435916,
+            37.76088
+        ]
+    ],
+    "relationships": []
 }

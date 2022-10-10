@@ -5,7 +5,20 @@
     "email": "barreracesar@hotmail.com",
     "birthdate": "1926-06-16",
     "phone": "9159413925",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        3,
+        24,
+        9,
+        2,
+        14,
+        66
+    ],
+    "login locations": [
+        [
+            -117.191555,
+            32.805966
+        ]
+    ],
+    "relationships": []
 }

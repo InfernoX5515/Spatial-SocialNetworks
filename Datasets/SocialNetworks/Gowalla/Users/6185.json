@@ -5,7 +5,37 @@
     "email": "bjones@gmail.com",
     "birthdate": "1941-02-16",
     "phone": "001-527-285-3579x7900",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        14,
+        52,
+        46,
+        27,
+        22,
+        58,
+        63,
+        5,
+        27,
+        40,
+        23,
+        50
+    ],
+    "login locations": [
+        [
+            -122.484281,
+            37.75203
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                2263,
+                0.01
+            ]
+        ]
+    ]
 }

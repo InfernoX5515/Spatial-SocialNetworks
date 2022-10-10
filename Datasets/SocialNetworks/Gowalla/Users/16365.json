@@ -5,7 +5,20 @@
     "email": "daniel20@gmail.com",
     "birthdate": "2009-08-04",
     "phone": "(807)368-0871x2243",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        9,
+        68,
+        37,
+        45,
+        63,
+        33
+    ],
+    "login locations": [
+        [
+            -118.228535,
+            33.933153
+        ]
+    ],
+    "relationships": []
 }

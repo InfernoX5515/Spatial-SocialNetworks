@@ -5,7 +5,16 @@
     "email": "olivia79@hotmail.com",
     "birthdate": "1994-09-01",
     "phone": "(409)110-8564",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        33,
+        66
+    ],
+    "login locations": [
+        [
+            -117.983676,
+            33.803022
+        ]
+    ],
+    "relationships": []
 }

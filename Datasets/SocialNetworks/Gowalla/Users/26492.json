@@ -5,7 +5,27 @@
     "email": "wpark@gmail.com",
     "birthdate": "1984-02-24",
     "phone": "001-585-606-0589x9009",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        52,
+        68,
+        30,
+        6,
+        34,
+        29,
+        61,
+        40,
+        42,
+        59,
+        53,
+        26,
+        20
+    ],
+    "login locations": [
+        [
+            -118.319298,
+            33.941702
+        ]
+    ],
+    "relationships": []
 }

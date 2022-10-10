@@ -5,7 +5,24 @@
     "email": "vbryan@hotmail.com",
     "birthdate": "2012-04-18",
     "phone": "240.166.4677",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        26,
+        27,
+        74,
+        17,
+        26,
+        61,
+        36,
+        53,
+        14,
+        50
+    ],
+    "login locations": [
+        [
+            -122.284968,
+            37.708192
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "marquezjose@gmail.com",
     "birthdate": "1921-12-03",
     "phone": "036.688.8957",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        22,
+        54,
+        64,
+        64,
+        67,
+        36,
+        24,
+        34,
+        19,
+        27,
+        24,
+        61,
+        1,
+        70
+    ],
+    "login locations": [
+        [
+            -117.878561,
+            33.735391
+        ]
+    ],
+    "relationships": []
 }

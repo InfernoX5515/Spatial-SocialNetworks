@@ -5,7 +5,28 @@
     "email": "david61@gmail.com",
     "birthdate": "1992-11-14",
     "phone": "(150)402-6336",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        8,
+        11,
+        47,
+        15,
+        8,
+        75,
+        34,
+        37,
+        38,
+        56,
+        12,
+        51,
+        7,
+        58
+    ],
+    "login locations": [
+        [
+            -121.983958,
+            37.318372
+        ]
+    ],
+    "relationships": []
 }

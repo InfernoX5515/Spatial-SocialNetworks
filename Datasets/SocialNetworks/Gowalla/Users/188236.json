@@ -5,7 +5,14 @@
     "email": "dawn50@hotmail.com",
     "birthdate": "1969-05-24",
     "phone": "804.007.5043",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16
+    ],
+    "login locations": [
+        [
+            -117.922253,
+            33.810104
+        ]
+    ],
+    "relationships": []
 }

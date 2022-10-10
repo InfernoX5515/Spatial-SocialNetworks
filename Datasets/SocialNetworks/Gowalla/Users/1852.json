@@ -5,7 +5,22 @@
     "email": "rebeccarogers@yahoo.com",
     "birthdate": "1963-05-24",
     "phone": "(337)911-4291x5612",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        69,
+        47,
+        28,
+        47,
+        34,
+        67,
+        56,
+        36
+    ],
+    "login locations": [
+        [
+            -122.120745,
+            37.438001
+        ]
+    ],
+    "relationships": []
 }

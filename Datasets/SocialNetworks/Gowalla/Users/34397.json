@@ -5,7 +5,20 @@
     "email": "stephaniewinters@yahoo.com",
     "birthdate": "1976-12-29",
     "phone": "001-078-302-7989x52367",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        4,
+        22,
+        53,
+        11,
+        48,
+        65
+    ],
+    "login locations": [
+        [
+            -122.416252,
+            37.705922
+        ]
+    ],
+    "relationships": []
 }

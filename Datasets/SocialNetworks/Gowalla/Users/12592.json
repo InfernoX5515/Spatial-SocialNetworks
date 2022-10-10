@@ -5,7 +5,38 @@
     "email": "gardnerjoshua@hotmail.com",
     "birthdate": "1940-04-20",
     "phone": "001-852-064-3460",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        4,
+        20,
+        20,
+        42,
+        39,
+        61,
+        6,
+        26,
+        54,
+        29,
+        42,
+        42,
+        5
+    ],
+    "login locations": [
+        [
+            -117.862138,
+            33.72857
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4391,
+                0.01
+            ],
+            [
+                4391,
+                0.01
+            ]
+        ]
+    ]
 }

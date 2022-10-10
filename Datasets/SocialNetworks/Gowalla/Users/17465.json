@@ -5,7 +5,25 @@
     "email": "sanderskenneth@hotmail.com",
     "birthdate": "1909-06-25",
     "phone": "+1-383-017-6204x777",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        70,
+        0,
+        49,
+        64,
+        56,
+        12,
+        23,
+        25,
+        25,
+        50,
+        74
+    ],
+    "login locations": [
+        [
+            -118.374981,
+            34.063887
+        ]
+    ],
+    "relationships": []
 }

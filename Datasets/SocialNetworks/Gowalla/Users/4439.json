@@ -5,7 +5,25 @@
     "email": "ewoodard@hotmail.com",
     "birthdate": "1932-06-20",
     "phone": "001-117-017-3903x317",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        3,
+        61,
+        65,
+        59,
+        58,
+        64,
+        65,
+        21,
+        25,
+        29,
+        51
+    ],
+    "login locations": [
+        [
+            -122.424784,
+            37.755569
+        ]
+    ],
+    "relationships": []
 }

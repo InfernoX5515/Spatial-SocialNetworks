@@ -5,7 +5,22 @@
     "email": "mmiranda@yahoo.com",
     "birthdate": "2001-03-31",
     "phone": "001-238-112-3498x84340",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        20,
+        35,
+        13,
+        56,
+        61,
+        43,
+        24,
+        15
+    ],
+    "login locations": [
+        [
+            -118.061201,
+            33.982285
+        ]
+    ],
+    "relationships": []
 }

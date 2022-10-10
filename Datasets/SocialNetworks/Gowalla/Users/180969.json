@@ -5,7 +5,18 @@
     "email": "louisstone@hotmail.com",
     "birthdate": "1909-03-14",
     "phone": "+1-779-933-5329x48608",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        30,
+        58,
+        26,
+        9
+    ],
+    "login locations": [
+        [
+            -121.864042,
+            37.282556
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "hardymichael@gmail.com",
     "birthdate": "1947-03-29",
     "phone": "(425)727-4137x54331",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        64
+    ],
+    "login locations": [
+        [
+            -118.160284,
+            34.010397
+        ]
+    ],
+    "relationships": []
 }

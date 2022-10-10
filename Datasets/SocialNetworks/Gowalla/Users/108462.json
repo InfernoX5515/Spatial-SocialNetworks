@@ -5,7 +5,22 @@
     "email": "thomas19@gmail.com",
     "birthdate": "1935-09-11",
     "phone": "+1-177-742-1345",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        40,
+        17,
+        54,
+        9,
+        34,
+        49,
+        11,
+        10
+    ],
+    "login locations": [
+        [
+            -122.187481,
+            37.456203
+        ]
+    ],
+    "relationships": []
 }

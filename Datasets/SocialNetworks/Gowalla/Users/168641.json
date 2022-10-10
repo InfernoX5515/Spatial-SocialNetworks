@@ -5,7 +5,27 @@
     "email": "baileyadam@gmail.com",
     "birthdate": "1979-07-03",
     "phone": "+1-539-382-3344x88418",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        45,
+        51,
+        41,
+        73,
+        60,
+        15,
+        68,
+        67,
+        22,
+        44,
+        17,
+        1,
+        72
+    ],
+    "login locations": [
+        [
+            -117.196028,
+            34.116278
+        ]
+    ],
+    "relationships": []
 }

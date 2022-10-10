@@ -5,7 +5,27 @@
     "email": "tylerhowell@gmail.com",
     "birthdate": "1923-09-23",
     "phone": "369-924-2042x51759",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        1,
+        60,
+        62,
+        63,
+        3,
+        5,
+        18,
+        4,
+        33,
+        36,
+        16,
+        36,
+        29
+    ],
+    "login locations": [
+        [
+            -118.412865,
+            34.040035
+        ]
+    ],
+    "relationships": []
 }

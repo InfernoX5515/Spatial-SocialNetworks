@@ -5,7 +5,32 @@
     "email": "parksdavid@yahoo.com",
     "birthdate": "1948-06-26",
     "phone": "583-689-5719x60607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        45,
+        50,
+        50,
+        14,
+        29,
+        5,
+        45
+    ],
+    "login locations": [
+        [
+            -118.240217,
+            34.073413
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                221,
+                0.1
+            ],
+            [
+                221,
+                0.1
+            ]
+        ]
+    ]
 }

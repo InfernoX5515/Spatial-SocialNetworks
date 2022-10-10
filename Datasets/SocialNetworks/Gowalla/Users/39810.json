@@ -5,7 +5,37 @@
     "email": "cookjesse@gmail.com",
     "birthdate": "1986-02-15",
     "phone": "(319)062-8075x6365",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        4,
+        10,
+        7,
+        37,
+        34,
+        54,
+        48,
+        68,
+        24,
+        14,
+        22,
+        44
+    ],
+    "login locations": [
+        [
+            -122.473644,
+            37.792328
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                715,
+                0.0210526315789
+            ],
+            [
+                715,
+                0.0210526315789
+            ]
+        ]
+    ]
 }

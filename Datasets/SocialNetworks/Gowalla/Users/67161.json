@@ -5,7 +5,24 @@
     "email": "kelly62@hotmail.com",
     "birthdate": "1909-08-17",
     "phone": "290.561.7632",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        44,
+        63,
+        72,
+        17,
+        43,
+        50,
+        51,
+        20,
+        73,
+        74
+    ],
+    "login locations": [
+        [
+            -118.298905,
+            34.081759
+        ]
+    ],
+    "relationships": []
 }

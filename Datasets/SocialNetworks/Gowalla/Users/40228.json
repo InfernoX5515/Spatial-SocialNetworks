@@ -5,7 +5,25 @@
     "email": "oneillchristopher@yahoo.com",
     "birthdate": "1922-09-26",
     "phone": "001-460-352-0282",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        25,
+        45,
+        62,
+        38,
+        74,
+        63,
+        4,
+        33,
+        19,
+        23,
+        39
+    ],
+    "login locations": [
+        [
+            -117.215757,
+            33.046542
+        ]
+    ],
+    "relationships": []
 }

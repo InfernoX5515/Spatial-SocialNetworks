@@ -5,7 +5,14 @@
     "email": "samanthathomas@hotmail.com",
     "birthdate": "2005-10-12",
     "phone": "+1-405-526-6549x066",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49
+    ],
+    "login locations": [
+        [
+            -118.39376,
+            34.122424
+        ]
+    ],
+    "relationships": []
 }

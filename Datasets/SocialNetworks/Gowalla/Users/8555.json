@@ -5,7 +5,30 @@
     "email": "davidrodriguez@gmail.com",
     "birthdate": "2014-02-08",
     "phone": "+1-290-169-2589",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        55,
+        59,
+        7,
+        63,
+        8
+    ],
+    "login locations": [
+        [
+            -122.350906,
+            37.823297
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                427,
+                0.0666666666667
+            ],
+            [
+                2170,
+                0.0196078431373
+            ]
+        ]
+    ]
 }

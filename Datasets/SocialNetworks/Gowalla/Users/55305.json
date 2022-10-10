@@ -5,7 +5,19 @@
     "email": "shari59@gmail.com",
     "birthdate": "1908-10-15",
     "phone": "098.988.5656x5347",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        18,
+        28,
+        3,
+        46,
+        56
+    ],
+    "login locations": [
+        [
+            -117.939675,
+            33.985004
+        ]
+    ],
+    "relationships": []
 }

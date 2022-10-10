@@ -5,7 +5,15 @@
     "email": "greenchristopher@yahoo.com",
     "birthdate": "1965-09-28",
     "phone": "(515)977-9831",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        67
+    ],
+    "login locations": [
+        [
+            -122.023545,
+            37.305395
+        ]
+    ],
+    "relationships": []
 }

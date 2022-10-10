@@ -5,7 +5,18 @@
     "email": "ipetty@yahoo.com",
     "birthdate": "1963-03-18",
     "phone": "001-462-309-1655x7141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        49,
+        53,
+        22,
+        3
+    ],
+    "login locations": [
+        [
+            -118.426181,
+            34.016291
+        ]
+    ],
+    "relationships": []
 }

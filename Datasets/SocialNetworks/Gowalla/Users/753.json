@@ -5,7 +5,23 @@
     "email": "derek77@hotmail.com",
     "birthdate": "1981-05-25",
     "phone": "(326)711-6122x5856",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        38,
+        73,
+        19,
+        36,
+        37,
+        13,
+        58,
+        36,
+        46
+    ],
+    "login locations": [
+        [
+            -122.247597,
+            37.725281
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,35 @@
     "email": "gravesmariah@hotmail.com",
     "birthdate": "2000-07-11",
     "phone": "420.968.1343x632",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        19,
+        63,
+        49,
+        27,
+        33,
+        31,
+        46,
+        36,
+        66,
+        38
+    ],
+    "login locations": [
+        [
+            -122.43349,
+            37.658694
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                782,
+                0.056
+            ],
+            [
+                40601,
+                0.01
+            ]
+        ]
+    ]
 }

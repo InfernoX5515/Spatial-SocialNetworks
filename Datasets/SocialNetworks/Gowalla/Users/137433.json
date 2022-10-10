@@ -5,7 +5,18 @@
     "email": "noah07@hotmail.com",
     "birthdate": "1946-07-28",
     "phone": "001-035-627-0951x994",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        49,
+        55,
+        0,
+        62
+    ],
+    "login locations": [
+        [
+            -118.235743,
+            34.055806
+        ]
+    ],
+    "relationships": []
 }

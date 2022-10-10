@@ -5,7 +5,28 @@
     "email": "reidkristina@yahoo.com",
     "birthdate": "2022-01-30",
     "phone": "+1-184-974-4779x480",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        17,
+        31,
+        54
+    ],
+    "login locations": [
+        [
+            -118.397275,
+            34.054778
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38996,
+                0.101449275362
+            ],
+            [
+                38996,
+                0.101449275362
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,35 @@
     "email": "nixonmelissa@yahoo.com",
     "birthdate": "1951-07-13",
     "phone": "+1-680-552-6925x69898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        34,
+        67,
+        24,
+        7,
+        33,
+        57,
+        15,
+        45,
+        4,
+        45
+    ],
+    "login locations": [
+        [
+            -122.331236,
+            37.827147
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                31492,
+                0.0114285714286
+            ],
+            [
+                75242,
+                0.015873015873
+            ]
+        ]
+    ]
 }

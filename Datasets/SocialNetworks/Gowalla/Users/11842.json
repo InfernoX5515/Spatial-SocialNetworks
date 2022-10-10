@@ -5,7 +5,28 @@
     "email": "greendaniel@hotmail.com",
     "birthdate": "1988-04-16",
     "phone": "001-419-610-3848",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        38,
+        17,
+        22,
+        53,
+        22,
+        67,
+        65,
+        62,
+        64,
+        52,
+        50,
+        68,
+        64,
+        25
+    ],
+    "login locations": [
+        [
+            -121.694245,
+            37.123816
+        ]
+    ],
+    "relationships": []
 }

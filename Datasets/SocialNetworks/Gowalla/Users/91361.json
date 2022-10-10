@@ -5,7 +5,28 @@
     "email": "bdavis@yahoo.com",
     "birthdate": "1954-04-11",
     "phone": "(057)520-9746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        57,
+        75,
+        9,
+        0,
+        40,
+        60,
+        38,
+        74,
+        24,
+        75,
+        24,
+        14,
+        53,
+        8
+    ],
+    "login locations": [
+        [
+            -117.90321,
+            33.681234
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "fernandezsara@yahoo.com",
     "birthdate": "1918-05-23",
     "phone": "255-525-5896x044",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.891598,
+            33.650106
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                28427,
+                0.182692307692
+            ],
+            [
+                28427,
+                0.182692307692
+            ]
+        ]
+    ]
 }

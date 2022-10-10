@@ -5,7 +5,21 @@
     "email": "peter12@gmail.com",
     "birthdate": "1984-09-18",
     "phone": "202-161-9113x080",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        5,
+        58,
+        5,
+        71,
+        60,
+        6,
+        39
+    ],
+    "login locations": [
+        [
+            -118.263969,
+            34.046345
+        ]
+    ],
+    "relationships": []
 }

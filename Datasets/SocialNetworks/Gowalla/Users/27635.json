@@ -5,7 +5,18 @@
     "email": "johnsonstacey@hotmail.com",
     "birthdate": "1991-08-29",
     "phone": "334-815-8218x5775",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        21,
+        23,
+        52,
+        15
+    ],
+    "login locations": [
+        [
+            -117.849738,
+            33.946302
+        ]
+    ],
+    "relationships": []
 }

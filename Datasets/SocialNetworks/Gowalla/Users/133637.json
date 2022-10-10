@@ -5,7 +5,15 @@
     "email": "brittanymorgan@gmail.com",
     "birthdate": "1979-03-29",
     "phone": "(617)844-3822x034",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        47
+    ],
+    "login locations": [
+        [
+            -118.092131,
+            34.091943
+        ]
+    ],
+    "relationships": []
 }

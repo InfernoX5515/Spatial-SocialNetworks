@@ -5,7 +5,23 @@
     "email": "wandalee@gmail.com",
     "birthdate": "1932-05-15",
     "phone": "196-910-3240",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        47,
+        71,
+        73,
+        55,
+        51,
+        66,
+        33,
+        19,
+        53
+    ],
+    "login locations": [
+        [
+            -118.084295,
+            33.943808
+        ]
+    ],
+    "relationships": []
 }

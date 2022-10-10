@@ -5,7 +5,32 @@
     "email": "diane95@gmail.com",
     "birthdate": "2001-11-16",
     "phone": "001-803-024-4041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        38,
+        15,
+        45,
+        75,
+        49,
+        49,
+        23
+    ],
+    "login locations": [
+        [
+            -118.136935,
+            33.862904
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                108994,
+                0.6
+            ],
+            [
+                108994,
+                0.6
+            ]
+        ]
+    ]
 }

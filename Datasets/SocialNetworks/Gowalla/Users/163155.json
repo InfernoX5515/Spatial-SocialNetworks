@@ -5,7 +5,14 @@
     "email": "davidjenkins@gmail.com",
     "birthdate": "1943-11-03",
     "phone": "397-922-7637x8338",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64
+    ],
+    "login locations": [
+        [
+            -122.096908,
+            37.394223
+        ]
+    ],
+    "relationships": []
 }

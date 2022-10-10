@@ -5,7 +5,25 @@
     "email": "jessicaarcher@gmail.com",
     "birthdate": "1978-03-14",
     "phone": "163-630-0904",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        70,
+        22,
+        28,
+        22,
+        20,
+        28,
+        55,
+        59,
+        12,
+        13,
+        62
+    ],
+    "login locations": [
+        [
+            -117.067514,
+            32.820159
+        ]
+    ],
+    "relationships": []
 }

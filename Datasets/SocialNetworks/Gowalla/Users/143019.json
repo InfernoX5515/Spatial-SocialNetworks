@@ -5,7 +5,26 @@
     "email": "yatesjasmine@gmail.com",
     "birthdate": "1967-03-28",
     "phone": "+1-704-712-1411x8550",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        68,
+        12,
+        67,
+        9,
+        46,
+        47,
+        19,
+        72,
+        35,
+        29,
+        15,
+        11
+    ],
+    "login locations": [
+        [
+            -122.063943,
+            37.386586
+        ]
+    ],
+    "relationships": []
 }

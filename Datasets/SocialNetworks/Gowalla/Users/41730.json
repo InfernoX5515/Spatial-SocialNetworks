@@ -5,7 +5,19 @@
     "email": "johnallen@hotmail.com",
     "birthdate": "2021-01-16",
     "phone": "327.869.1794",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        22,
+        19,
+        49,
+        50,
+        5
+    ],
+    "login locations": [
+        [
+            -117.335144,
+            33.122847
+        ]
+    ],
+    "relationships": []
 }

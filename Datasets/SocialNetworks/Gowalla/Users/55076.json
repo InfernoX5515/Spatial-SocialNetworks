@@ -5,7 +5,22 @@
     "email": "jonathan85@hotmail.com",
     "birthdate": "1990-03-15",
     "phone": "478-589-2535",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        1,
+        23,
+        42,
+        61,
+        57,
+        16,
+        24,
+        55
+    ],
+    "login locations": [
+        [
+            -118.379299,
+            33.953255
+        ]
+    ],
+    "relationships": []
 }

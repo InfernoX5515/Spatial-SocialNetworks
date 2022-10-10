@@ -5,7 +5,25 @@
     "email": "kennethmanning@yahoo.com",
     "birthdate": "1998-03-16",
     "phone": "266-403-8601x5772",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        12,
+        27,
+        63,
+        27,
+        69,
+        70,
+        15,
+        70,
+        55,
+        62,
+        8
+    ],
+    "login locations": [
+        [
+            -122.077318,
+            38.263145
+        ]
+    ],
+    "relationships": []
 }

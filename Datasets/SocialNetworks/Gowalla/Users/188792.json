@@ -5,7 +5,22 @@
     "email": "jamie19@gmail.com",
     "birthdate": "1949-10-21",
     "phone": "+1-122-890-3970x5909",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        60,
+        31,
+        23,
+        68,
+        2,
+        53,
+        35,
+        72
+    ],
+    "login locations": [
+        [
+            -122.404584,
+            37.794194
+        ]
+    ],
+    "relationships": []
 }

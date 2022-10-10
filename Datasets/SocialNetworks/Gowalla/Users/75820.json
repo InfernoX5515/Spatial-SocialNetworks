@@ -5,7 +5,17 @@
     "email": "eshepherd@yahoo.com",
     "birthdate": "1931-11-20",
     "phone": "(463)228-0856",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        6,
+        4,
+        38
+    ],
+    "login locations": [
+        [
+            -122.384048,
+            37.612634
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "cshaw@yahoo.com",
     "birthdate": "1962-05-26",
     "phone": "+1-188-789-1194x5711",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.867422,
+            37.69255
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8679,
+                0.0171428571429
+            ],
+            [
+                8679,
+                0.0171428571429
+            ]
+        ]
+    ]
 }

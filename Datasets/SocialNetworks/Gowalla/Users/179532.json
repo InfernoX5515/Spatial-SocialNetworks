@@ -5,7 +5,24 @@
     "email": "adamssara@yahoo.com",
     "birthdate": "1992-06-30",
     "phone": "062.327.7819x7268",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        66,
+        19,
+        4,
+        52,
+        4,
+        41,
+        44,
+        43,
+        2,
+        22
+    ],
+    "login locations": [
+        [
+            -122.002802,
+            37.378919
+        ]
+    ],
+    "relationships": []
 }

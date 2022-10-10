@@ -5,7 +5,19 @@
     "email": "linda60@gmail.com",
     "birthdate": "1995-05-02",
     "phone": "+1-854-480-9099x578",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        1,
+        68,
+        33,
+        44,
+        34
+    ],
+    "login locations": [
+        [
+            -121.002048,
+            37.648531
+        ]
+    ],
+    "relationships": []
 }

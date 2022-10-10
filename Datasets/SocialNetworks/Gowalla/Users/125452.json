@@ -5,7 +5,33 @@
     "email": "emily03@hotmail.com",
     "birthdate": "1999-10-20",
     "phone": "7022706407",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        23,
+        4,
+        31,
+        2,
+        5,
+        53,
+        42,
+        30
+    ],
+    "login locations": [
+        [
+            -117.908685,
+            34.064155
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33017,
+                0.0114285714286
+            ],
+            [
+                125451,
+                0.3
+            ]
+        ]
+    ]
 }

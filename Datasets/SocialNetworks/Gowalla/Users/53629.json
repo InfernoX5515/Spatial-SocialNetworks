@@ -5,7 +5,17 @@
     "email": "susan30@hotmail.com",
     "birthdate": "2013-08-05",
     "phone": "234-149-2897x732",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        2,
+        48,
+        21
+    ],
+    "login locations": [
+        [
+            -122.414074,
+            37.775875
+        ]
+    ],
+    "relationships": []
 }

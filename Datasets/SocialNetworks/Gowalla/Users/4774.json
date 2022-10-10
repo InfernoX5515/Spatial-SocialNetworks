@@ -5,7 +5,18 @@
     "email": "jennifersmith@yahoo.com",
     "birthdate": "1966-06-09",
     "phone": "(749)702-9753x5850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        15,
+        51,
+        33,
+        12
+    ],
+    "login locations": [
+        [
+            -122.371267,
+            37.780619
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "iphillips@yahoo.com",
     "birthdate": "2008-10-16",
     "phone": "(311)824-4922x9876",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        73,
+        17,
+        63,
+        48,
+        38,
+        56,
+        65,
+        21,
+        24
+    ],
+    "login locations": [
+        [
+            -121.483964,
+            38.495423
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "melissa73@gmail.com",
     "birthdate": "1939-04-29",
     "phone": "+1-618-414-6853",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        49,
+        33,
+        60
+    ],
+    "login locations": [
+        [
+            -122.402229,
+            37.785986
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4466,
+                0.0381679389313
+            ],
+            [
+                4466,
+                0.0381679389313
+            ]
+        ]
+    ]
 }

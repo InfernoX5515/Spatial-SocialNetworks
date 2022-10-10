@@ -5,7 +5,16 @@
     "email": "joelbriggs@hotmail.com",
     "birthdate": "1996-05-01",
     "phone": "+1-407-046-3665x307",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        31,
+        52
+    ],
+    "login locations": [
+        [
+            -122.412003,
+            37.761337
+        ]
+    ],
+    "relationships": []
 }

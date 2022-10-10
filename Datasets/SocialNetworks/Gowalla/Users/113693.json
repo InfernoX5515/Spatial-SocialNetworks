@@ -5,7 +5,27 @@
     "email": "hernandezgina@hotmail.com",
     "birthdate": "2019-07-11",
     "phone": "5764032417",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        32,
+        67,
+        18,
+        75,
+        62,
+        11,
+        38,
+        18,
+        39,
+        60,
+        73,
+        18,
+        10
+    ],
+    "login locations": [
+        [
+            -122.404966,
+            37.781053
+        ]
+    ],
+    "relationships": []
 }

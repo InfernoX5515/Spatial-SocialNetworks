@@ -5,7 +5,15 @@
     "email": "fgarcia@gmail.com",
     "birthdate": "1969-03-04",
     "phone": "7946901638",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        19
+    ],
+    "login locations": [
+        [
+            -122.429819,
+            37.778267
+        ]
+    ],
+    "relationships": []
 }

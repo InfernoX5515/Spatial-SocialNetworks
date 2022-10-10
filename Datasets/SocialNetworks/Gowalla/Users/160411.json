@@ -5,7 +5,25 @@
     "email": "echung@hotmail.com",
     "birthdate": "1941-06-09",
     "phone": "575.842.8730x7215",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        64,
+        27,
+        37,
+        40,
+        13,
+        61,
+        18,
+        2,
+        41,
+        17,
+        6
+    ],
+    "login locations": [
+        [
+            -118.354485,
+            34.07473
+        ]
+    ],
+    "relationships": []
 }

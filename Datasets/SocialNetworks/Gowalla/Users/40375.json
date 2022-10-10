@@ -5,7 +5,15 @@
     "email": "ashleywilliams@hotmail.com",
     "birthdate": "2022-03-01",
     "phone": "+1-278-035-8507x733",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        6
+    ],
+    "login locations": [
+        [
+            -117.167128,
+            33.538408
+        ]
+    ],
+    "relationships": []
 }

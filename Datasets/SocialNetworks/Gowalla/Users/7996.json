@@ -5,7 +5,39 @@
     "email": "crystalmcbride@gmail.com",
     "birthdate": "1942-07-31",
     "phone": "001-505-263-4794x87587",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        12,
+        58,
+        2,
+        25,
+        43,
+        58,
+        10,
+        52,
+        41,
+        74,
+        37,
+        43,
+        48,
+        67
+    ],
+    "login locations": [
+        [
+            -122.158716,
+            37.447483
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                87,
+                0.0355555555556
+            ],
+            [
+                87,
+                0.0355555555556
+            ]
+        ]
+    ]
 }

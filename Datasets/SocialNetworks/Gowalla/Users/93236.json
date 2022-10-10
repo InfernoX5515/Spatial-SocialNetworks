@@ -5,7 +5,12 @@
     "email": "brooksbryan@gmail.com",
     "birthdate": "1987-11-06",
     "phone": "+1-557-983-4742x144",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.414556,
+            37.73572
+        ]
+    ],
+    "relationships": []
 }

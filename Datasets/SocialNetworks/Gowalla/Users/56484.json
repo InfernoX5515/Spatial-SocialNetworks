@@ -5,7 +5,12 @@
     "email": "nwatkins@hotmail.com",
     "birthdate": "1999-03-11",
     "phone": "444.699.2896",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.453981,
+            37.77321
+        ]
+    ],
+    "relationships": []
 }

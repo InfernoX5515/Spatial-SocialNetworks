@@ -5,7 +5,27 @@
     "email": "traci73@gmail.com",
     "birthdate": "1975-11-20",
     "phone": "055-944-4000",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        57,
+        19,
+        66,
+        9,
+        48,
+        41,
+        58,
+        1,
+        64,
+        10,
+        63,
+        3,
+        40
+    ],
+    "login locations": [
+        [
+            -122.408953,
+            37.76978
+        ]
+    ],
+    "relationships": []
 }

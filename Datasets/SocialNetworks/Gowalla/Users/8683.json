@@ -5,7 +5,38 @@
     "email": "zmurray@yahoo.com",
     "birthdate": "2012-09-13",
     "phone": "537.735.0462",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        31,
+        53,
+        66,
+        39,
+        11,
+        58,
+        48,
+        63,
+        20,
+        48,
+        58,
+        27,
+        41
+    ],
+    "login locations": [
+        [
+            -122.431867,
+            37.775761
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11232,
+                0.01
+            ],
+            [
+                11232,
+                0.01
+            ]
+        ]
+    ]
 }

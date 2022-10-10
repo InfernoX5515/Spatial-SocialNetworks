@@ -5,7 +5,12 @@
     "email": "espinozadaniel@gmail.com",
     "birthdate": "1994-07-02",
     "phone": "509-870-7365x8602",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.871894,
+            33.904528
+        ]
+    ],
+    "relationships": []
 }

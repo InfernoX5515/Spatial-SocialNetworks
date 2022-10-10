@@ -5,7 +5,22 @@
     "email": "daniel99@yahoo.com",
     "birthdate": "2016-04-11",
     "phone": "934-556-0195",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        50,
+        36,
+        63,
+        44,
+        51,
+        59,
+        12,
+        8
+    ],
+    "login locations": [
+        [
+            -122.390383,
+            37.674363
+        ]
+    ],
+    "relationships": []
 }

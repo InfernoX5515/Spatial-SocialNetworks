@@ -5,7 +5,19 @@
     "email": "usmith@yahoo.com",
     "birthdate": "2016-02-03",
     "phone": "907-864-1620",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        28,
+        73,
+        74,
+        55,
+        74
+    ],
+    "login locations": [
+        [
+            -122.416955,
+            37.742379
+        ]
+    ],
+    "relationships": []
 }

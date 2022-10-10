@@ -5,7 +5,20 @@
     "email": "gravesandrew@yahoo.com",
     "birthdate": "1960-05-12",
     "phone": "517-644-8274",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        66,
+        23,
+        16,
+        1,
+        52,
+        71
+    ],
+    "login locations": [
+        [
+            -118.40407,
+            34.232533
+        ]
+    ],
+    "relationships": []
 }

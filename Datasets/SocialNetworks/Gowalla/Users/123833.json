@@ -5,7 +5,27 @@
     "email": "whuber@gmail.com",
     "birthdate": "1996-03-14",
     "phone": "(729)235-7663x91062",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        74,
+        26,
+        21,
+        51,
+        63,
+        14,
+        72,
+        46,
+        57,
+        12,
+        43,
+        56,
+        25
+    ],
+    "login locations": [
+        [
+            -118.825314,
+            34.160335
+        ]
+    ],
+    "relationships": []
 }

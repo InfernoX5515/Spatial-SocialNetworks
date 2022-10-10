@@ -5,7 +5,27 @@
     "email": "rpeters@gmail.com",
     "birthdate": "1999-08-31",
     "phone": "115.881.5185x90382",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        62,
+        67,
+        17,
+        57,
+        45,
+        23,
+        42,
+        30,
+        37,
+        41,
+        11,
+        20,
+        67
+    ],
+    "login locations": [
+        [
+            -117.884873,
+            33.803438
+        ]
+    ],
+    "relationships": []
 }

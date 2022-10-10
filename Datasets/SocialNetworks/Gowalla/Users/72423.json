@@ -5,7 +5,15 @@
     "email": "xdiaz@gmail.com",
     "birthdate": "1993-03-16",
     "phone": "578-350-3322",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        59
+    ],
+    "login locations": [
+        [
+            -122.535601,
+            37.916653
+        ]
+    ],
+    "relationships": []
 }

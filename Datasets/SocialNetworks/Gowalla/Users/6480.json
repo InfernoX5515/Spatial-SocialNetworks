@@ -5,7 +5,28 @@
     "email": "stephenrogers@yahoo.com",
     "birthdate": "1918-01-05",
     "phone": "496.634.6535x1144",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        71,
+        43,
+        1
+    ],
+    "login locations": [
+        [
+            -122.3732,
+            37.743428
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1779,
+                0.16
+            ],
+            [
+                1779,
+                0.16
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "jacob75@yahoo.com",
     "birthdate": "1990-10-31",
     "phone": "369.051.6273",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        62,
+        45,
+        65,
+        33,
+        28,
+        13,
+        12,
+        4,
+        17,
+        53,
+        3
+    ],
+    "login locations": [
+        [
+            -117.332187,
+            34.07521
+        ]
+    ],
+    "relationships": []
 }

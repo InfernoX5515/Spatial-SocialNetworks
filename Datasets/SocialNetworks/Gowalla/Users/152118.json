@@ -5,7 +5,14 @@
     "email": "robinschultz@gmail.com",
     "birthdate": "1954-09-10",
     "phone": "386-402-8788",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67
+    ],
+    "login locations": [
+        [
+            -122.424307,
+            37.786854
+        ]
+    ],
+    "relationships": []
 }

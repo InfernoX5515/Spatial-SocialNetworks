@@ -5,7 +5,28 @@
     "email": "scott23@hotmail.com",
     "birthdate": "1991-01-05",
     "phone": "(017)004-2226x791",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        47,
+        5,
+        20,
+        25,
+        75,
+        66,
+        46,
+        22,
+        61,
+        10,
+        9,
+        66,
+        43,
+        31
+    ],
+    "login locations": [
+        [
+            -121.538508,
+            38.61735
+        ]
+    ],
+    "relationships": []
 }

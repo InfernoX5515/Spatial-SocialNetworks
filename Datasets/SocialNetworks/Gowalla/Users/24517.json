@@ -5,7 +5,16 @@
     "email": "sarahwhite@yahoo.com",
     "birthdate": "1956-10-30",
     "phone": "8988198011",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        30,
+        28
+    ],
+    "login locations": [
+        [
+            -122.403905,
+            37.765236
+        ]
+    ],
+    "relationships": []
 }

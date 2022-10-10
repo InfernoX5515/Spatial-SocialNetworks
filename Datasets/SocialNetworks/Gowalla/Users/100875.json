@@ -5,7 +5,25 @@
     "email": "summersalan@yahoo.com",
     "birthdate": "1997-11-02",
     "phone": "+1-871-893-7628x56842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        30,
+        74,
+        71,
+        22,
+        7,
+        75,
+        14,
+        20,
+        65,
+        59,
+        74
+    ],
+    "login locations": [
+        [
+            -117.919789,
+            33.810019
+        ]
+    ],
+    "relationships": []
 }

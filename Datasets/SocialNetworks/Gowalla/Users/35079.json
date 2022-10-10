@@ -5,7 +5,19 @@
     "email": "aanderson@hotmail.com",
     "birthdate": "1946-09-08",
     "phone": "001-078-576-9243x893",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        0,
+        16,
+        22,
+        15,
+        58
+    ],
+    "login locations": [
+        [
+            -121.275407,
+            38.741555
+        ]
+    ],
+    "relationships": []
 }

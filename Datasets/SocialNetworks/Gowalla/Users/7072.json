@@ -5,7 +5,37 @@
     "email": "tchavez@hotmail.com",
     "birthdate": "1981-12-23",
     "phone": "341-646-5714x523",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        54,
+        32,
+        8,
+        12,
+        62,
+        51,
+        28,
+        41,
+        31,
+        38,
+        29,
+        17
+    ],
+    "login locations": [
+        [
+            -122.061665,
+            37.313657
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                29158,
+                0.0144927536232
+            ],
+            [
+                29158,
+                0.0144927536232
+            ]
+        ]
+    ]
 }

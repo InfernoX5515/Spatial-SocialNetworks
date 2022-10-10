@@ -5,7 +5,34 @@
     "email": "woodskayla@yahoo.com",
     "birthdate": "1967-12-13",
     "phone": "207-317-1229",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        25,
+        7,
+        67,
+        38,
+        3,
+        43,
+        0,
+        60,
+        19
+    ],
+    "login locations": [
+        [
+            -117.104901,
+            33.098016
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                101675,
+                0.272727272727
+            ],
+            [
+                101675,
+                0.272727272727
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "mitchelledward@hotmail.com",
     "birthdate": "1923-10-16",
     "phone": "001-072-813-6400x7782",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        4,
+        14,
+        10,
+        48,
+        1,
+        0,
+        31,
+        15,
+        51,
+        1,
+        31,
+        19,
+        61
+    ],
+    "login locations": [
+        [
+            -120.31498,
+            39.312306
+        ]
+    ],
+    "relationships": []
 }

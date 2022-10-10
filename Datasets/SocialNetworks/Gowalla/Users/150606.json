@@ -5,7 +5,27 @@
     "email": "alandunn@yahoo.com",
     "birthdate": "1918-10-14",
     "phone": "(566)795-1041x9556",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        38,
+        17,
+        39,
+        36,
+        67,
+        45,
+        73,
+        41,
+        4,
+        12,
+        1,
+        38,
+        33
+    ],
+    "login locations": [
+        [
+            -119.733845,
+            34.440677
+        ]
+    ],
+    "relationships": []
 }

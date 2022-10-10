@@ -5,7 +5,20 @@
     "email": "goldenalan@gmail.com",
     "birthdate": "1988-02-21",
     "phone": "093-419-3835",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        38,
+        20,
+        22,
+        16,
+        68,
+        49
+    ],
+    "login locations": [
+        [
+            -122.249953,
+            37.828107
+        ]
+    ],
+    "relationships": []
 }

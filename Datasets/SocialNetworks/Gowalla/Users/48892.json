@@ -5,7 +5,17 @@
     "email": "ashley18@hotmail.com",
     "birthdate": "1926-09-26",
     "phone": "881-523-3538",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        35,
+        47,
+        66
+    ],
+    "login locations": [
+        [
+            -122.292434,
+            37.849017
+        ]
+    ],
+    "relationships": []
 }

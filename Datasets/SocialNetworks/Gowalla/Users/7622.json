@@ -5,7 +5,12 @@
     "email": "douglasteresa@yahoo.com",
     "birthdate": "1945-01-17",
     "phone": "8051816649",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.42533,
+            37.761348
+        ]
+    ],
+    "relationships": []
 }

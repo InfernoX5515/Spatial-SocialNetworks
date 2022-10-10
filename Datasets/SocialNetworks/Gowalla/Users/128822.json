@@ -5,7 +5,14 @@
     "email": "eparker@gmail.com",
     "birthdate": "1919-01-05",
     "phone": "247-783-0179",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51
+    ],
+    "login locations": [
+        [
+            -121.977687,
+            37.888074
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "jessicacontreras@hotmail.com",
     "birthdate": "2003-10-21",
     "phone": "999-157-8773x7540",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        74,
+        57,
+        71,
+        71,
+        26,
+        42,
+        26,
+        53,
+        49,
+        0
+    ],
+    "login locations": [
+        [
+            -122.406664,
+            37.782787
+        ]
+    ],
+    "relationships": []
 }

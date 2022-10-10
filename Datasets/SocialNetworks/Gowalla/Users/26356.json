@@ -5,7 +5,16 @@
     "email": "jwebb@yahoo.com",
     "birthdate": "1961-03-15",
     "phone": "(063)685-4605",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        31,
+        28
+    ],
+    "login locations": [
+        [
+            -118.422676,
+            34.04522
+        ]
+    ],
+    "relationships": []
 }

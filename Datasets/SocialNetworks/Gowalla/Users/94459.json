@@ -5,7 +5,17 @@
     "email": "zlogan@yahoo.com",
     "birthdate": "1929-04-27",
     "phone": "(215)193-1576x065",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        69,
+        7,
+        62
+    ],
+    "login locations": [
+        [
+            -117.158018,
+            32.748264
+        ]
+    ],
+    "relationships": []
 }

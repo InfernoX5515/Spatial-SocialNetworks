@@ -5,7 +5,15 @@
     "email": "thomasjoshua@hotmail.com",
     "birthdate": "2010-11-13",
     "phone": "025-448-2210",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        73
+    ],
+    "login locations": [
+        [
+            -118.584751,
+            34.186049
+        ]
+    ],
+    "relationships": []
 }

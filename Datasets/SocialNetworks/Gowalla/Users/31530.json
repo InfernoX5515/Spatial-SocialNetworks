@@ -5,7 +5,16 @@
     "email": "dennisanne@yahoo.com",
     "birthdate": "1967-04-16",
     "phone": "024.698.8122",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        6,
+        0
+    ],
+    "login locations": [
+        [
+            -121.886501,
+            36.861114
+        ]
+    ],
+    "relationships": []
 }

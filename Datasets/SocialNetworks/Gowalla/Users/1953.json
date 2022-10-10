@@ -5,7 +5,15 @@
     "email": "jordanemily@hotmail.com",
     "birthdate": "1988-03-09",
     "phone": "336.787.9652",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        51
+    ],
+    "login locations": [
+        [
+            -121.14142,
+            37.762874
+        ]
+    ],
+    "relationships": []
 }

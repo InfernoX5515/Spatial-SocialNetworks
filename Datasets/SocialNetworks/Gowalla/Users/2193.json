@@ -5,7 +5,17 @@
     "email": "bmonroe@hotmail.com",
     "birthdate": "1969-02-04",
     "phone": "536-406-3700x35340",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        74,
+        50,
+        47
+    ],
+    "login locations": [
+        [
+            -122.051246,
+            37.387367
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,37 @@
     "email": "sarahmiller@yahoo.com",
     "birthdate": "1922-05-20",
     "phone": "153.910.0842x88868",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        68,
+        12,
+        17,
+        70,
+        38,
+        57,
+        59,
+        22,
+        23,
+        35,
+        64,
+        57
+    ],
+    "login locations": [
+        [
+            -122.359793,
+            37.579558
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4371,
+                0.01
+            ],
+            [
+                4371,
+                0.01
+            ]
+        ]
+    ]
 }

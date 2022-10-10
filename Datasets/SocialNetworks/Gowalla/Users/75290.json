@@ -5,7 +5,18 @@
     "email": "baxterjames@gmail.com",
     "birthdate": "1917-12-03",
     "phone": "(151)964-7803x51033",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        11,
+        73,
+        50,
+        7
+    ],
+    "login locations": [
+        [
+            -118.214993,
+            34.083047
+        ]
+    ],
+    "relationships": []
 }

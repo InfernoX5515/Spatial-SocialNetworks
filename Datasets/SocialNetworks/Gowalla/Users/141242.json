@@ -5,7 +5,12 @@
     "email": "xjohnson@gmail.com",
     "birthdate": "1923-09-16",
     "phone": "+1-676-462-6863x27506",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -116.998627,
+            32.637018
+        ]
+    ],
+    "relationships": []
 }

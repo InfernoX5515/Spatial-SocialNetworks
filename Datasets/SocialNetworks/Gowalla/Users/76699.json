@@ -5,7 +5,28 @@
     "email": "zibarra@hotmail.com",
     "birthdate": "1960-11-19",
     "phone": "001-739-521-7302x580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        8,
+        11,
+        51,
+        12,
+        33,
+        68,
+        33,
+        70,
+        67,
+        23,
+        37,
+        37,
+        46,
+        75
+    ],
+    "login locations": [
+        [
+            -122.07379,
+            37.306845
+        ]
+    ],
+    "relationships": []
 }

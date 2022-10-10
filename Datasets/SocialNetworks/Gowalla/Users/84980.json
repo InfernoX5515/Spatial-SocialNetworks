@@ -5,7 +5,28 @@
     "email": "john03@yahoo.com",
     "birthdate": "1915-08-28",
     "phone": "001-970-239-7640x29573",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        75,
+        48,
+        17,
+        39,
+        73,
+        55,
+        24,
+        9,
+        4,
+        26,
+        51,
+        64,
+        43,
+        45
+    ],
+    "login locations": [
+        [
+            -122.430983,
+            37.767137
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "flewis@hotmail.com",
     "birthdate": "1962-03-29",
     "phone": "147-937-7853",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.98905,
+            37.332154
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6059,
+                0.0157480314961
+            ],
+            [
+                8492,
+                0.01
+            ]
+        ]
+    ]
 }

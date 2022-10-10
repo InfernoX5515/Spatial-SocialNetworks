@@ -5,7 +5,25 @@
     "email": "vjohnson@hotmail.com",
     "birthdate": "1998-07-24",
     "phone": "613-369-1921x19377",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6
+    ],
+    "login locations": [
+        [
+            -118.407769,
+            34.036352
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2364,
+                0.0275
+            ],
+            [
+                2364,
+                0.0275
+            ]
+        ]
+    ]
 }

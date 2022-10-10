@@ -5,7 +5,18 @@
     "email": "patrickmiles@gmail.com",
     "birthdate": "1971-12-07",
     "phone": "344-836-8244",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        10,
+        63,
+        38,
+        37
+    ],
+    "login locations": [
+        [
+            -122.417918,
+            37.778471
+        ]
+    ],
+    "relationships": []
 }

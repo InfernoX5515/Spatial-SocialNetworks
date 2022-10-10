@@ -5,7 +5,21 @@
     "email": "williamjohnson@hotmail.com",
     "birthdate": "2011-05-27",
     "phone": "732-393-4359",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        22,
+        75,
+        31,
+        31,
+        66,
+        29,
+        61
+    ],
+    "login locations": [
+        [
+            -121.697256,
+            36.682895
+        ]
+    ],
+    "relationships": []
 }

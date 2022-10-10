@@ -5,7 +5,17 @@
     "email": "campossamantha@hotmail.com",
     "birthdate": "1949-03-18",
     "phone": "001-231-505-1056",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        7,
+        30,
+        5
+    ],
+    "login locations": [
+        [
+            -122.086392,
+            37.358921
+        ]
+    ],
+    "relationships": []
 }

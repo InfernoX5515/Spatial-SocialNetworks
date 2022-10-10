@@ -5,7 +5,28 @@
     "email": "jeremywalls@hotmail.com",
     "birthdate": "2001-05-28",
     "phone": "+1-717-538-5137x5085",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        2,
+        15,
+        61,
+        54,
+        8,
+        1,
+        30,
+        3,
+        36,
+        51,
+        48,
+        53,
+        69,
+        35
+    ],
+    "login locations": [
+        [
+            -117.137894,
+            32.896408
+        ]
+    ],
+    "relationships": []
 }

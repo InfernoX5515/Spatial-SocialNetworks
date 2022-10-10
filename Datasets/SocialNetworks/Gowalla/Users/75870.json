@@ -5,7 +5,37 @@
     "email": "ashleyheather@hotmail.com",
     "birthdate": "2009-10-24",
     "phone": "4078334946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        27,
+        6,
+        43,
+        50,
+        9,
+        73,
+        11,
+        40,
+        64,
+        58,
+        59,
+        64
+    ],
+    "login locations": [
+        [
+            -122.403477,
+            37.741145
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5485,
+                0.142857142857
+            ],
+            [
+                5485,
+                0.142857142857
+            ]
+        ]
+    ]
 }

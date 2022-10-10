@@ -5,7 +5,16 @@
     "email": "colsen@gmail.com",
     "birthdate": "1922-01-11",
     "phone": "568.411.1159x5905",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        74,
+        0
+    ],
+    "login locations": [
+        [
+            -118.40109,
+            34.102268
+        ]
+    ],
+    "relationships": []
 }

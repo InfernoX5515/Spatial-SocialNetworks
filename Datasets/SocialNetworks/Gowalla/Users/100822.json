@@ -5,7 +5,22 @@
     "email": "catherineayers@yahoo.com",
     "birthdate": "1960-05-09",
     "phone": "677-026-6859x2158",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        9,
+        60,
+        38,
+        1,
+        21,
+        35,
+        36,
+        73
+    ],
+    "login locations": [
+        [
+            -117.158044,
+            32.80946
+        ]
+    ],
+    "relationships": []
 }

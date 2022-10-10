@@ -5,7 +5,30 @@
     "email": "younggregory@gmail.com",
     "birthdate": "1981-03-08",
     "phone": "319-422-0292x42996",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        63,
+        71,
+        52,
+        55,
+        42
+    ],
+    "login locations": [
+        [
+            -122.438096,
+            37.787573
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5339,
+                0.0195227765727
+            ],
+            [
+                31446,
+                0.0330578512397
+            ]
+        ]
+    ]
 }

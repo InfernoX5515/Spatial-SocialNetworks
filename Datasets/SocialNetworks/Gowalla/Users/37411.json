@@ -5,7 +5,20 @@
     "email": "johnsonmary@yahoo.com",
     "birthdate": "1920-05-21",
     "phone": "807-479-2329x25836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        12,
+        5,
+        24,
+        69,
+        36,
+        20
+    ],
+    "login locations": [
+        [
+            -122.230637,
+            37.486435
+        ]
+    ],
+    "relationships": []
 }

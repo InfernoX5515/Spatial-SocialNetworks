@@ -5,7 +5,16 @@
     "email": "michelleguerrero@hotmail.com",
     "birthdate": "1966-06-05",
     "phone": "+1-727-727-9482x49422",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        65,
+        42
+    ],
+    "login locations": [
+        [
+            -117.883799,
+            34.072212
+        ]
+    ],
+    "relationships": []
 }

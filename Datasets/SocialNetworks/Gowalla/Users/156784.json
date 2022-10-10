@@ -5,7 +5,18 @@
     "email": "joshuadixon@yahoo.com",
     "birthdate": "1955-02-10",
     "phone": "001-028-325-5773x54706",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        32,
+        26,
+        3,
+        12
+    ],
+    "login locations": [
+        [
+            -120.73898,
+            38.382206
+        ]
+    ],
+    "relationships": []
 }

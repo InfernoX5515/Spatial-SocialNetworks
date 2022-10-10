@@ -5,7 +5,19 @@
     "email": "james56@yahoo.com",
     "birthdate": "1943-01-27",
     "phone": "(284)555-0705",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        24,
+        40,
+        34,
+        59,
+        16
+    ],
+    "login locations": [
+        [
+            -117.202682,
+            32.829832
+        ]
+    ],
+    "relationships": []
 }

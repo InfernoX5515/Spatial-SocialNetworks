@@ -5,7 +5,26 @@
     "email": "kevin10@yahoo.com",
     "birthdate": "1998-03-31",
     "phone": "364-350-7649",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        12,
+        14,
+        36,
+        14,
+        15,
+        21,
+        31,
+        54,
+        41,
+        27,
+        72,
+        25
+    ],
+    "login locations": [
+        [
+            -122.104221,
+            37.402338
+        ]
+    ],
+    "relationships": []
 }

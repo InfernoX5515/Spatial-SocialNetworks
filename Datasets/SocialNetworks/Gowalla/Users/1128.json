@@ -5,7 +5,19 @@
     "email": "marvinprice@hotmail.com",
     "birthdate": "1976-05-10",
     "phone": "228.078.2484",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        9,
+        65,
+        64,
+        41,
+        50
+    ],
+    "login locations": [
+        [
+            -121.995266,
+            37.375109
+        ]
+    ],
+    "relationships": []
 }

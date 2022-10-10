@@ -5,7 +5,23 @@
     "email": "sarah89@yahoo.com",
     "birthdate": "2016-02-20",
     "phone": "9826455011",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        66,
+        41,
+        3,
+        2,
+        54,
+        37,
+        35,
+        14,
+        35
+    ],
+    "login locations": [
+        [
+            -122.250237,
+            37.827904
+        ]
+    ],
+    "relationships": []
 }

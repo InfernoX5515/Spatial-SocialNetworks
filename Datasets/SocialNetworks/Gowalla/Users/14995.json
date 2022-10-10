@@ -5,7 +5,27 @@
     "email": "xkane@gmail.com",
     "birthdate": "1993-04-05",
     "phone": "542-658-9073x970",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        4,
+        46,
+        26,
+        16,
+        64,
+        17,
+        25,
+        50,
+        59,
+        65,
+        10,
+        67,
+        29
+    ],
+    "login locations": [
+        [
+            -122.338717,
+            37.586847
+        ]
+    ],
+    "relationships": []
 }

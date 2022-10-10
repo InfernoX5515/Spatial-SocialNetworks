@@ -5,7 +5,12 @@
     "email": "rodriguezjoshua@gmail.com",
     "birthdate": "1973-02-19",
     "phone": "1410562621",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.354279,
+            33.990804
+        ]
+    ],
+    "relationships": []
 }

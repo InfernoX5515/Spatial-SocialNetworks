@@ -5,7 +5,20 @@
     "email": "conradjerome@gmail.com",
     "birthdate": "1971-09-25",
     "phone": "(267)649-9169x110",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        46,
+        32,
+        64,
+        38,
+        0,
+        51
+    ],
+    "login locations": [
+        [
+            -117.153351,
+            32.882454
+        ]
+    ],
+    "relationships": []
 }

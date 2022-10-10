@@ -5,7 +5,26 @@
     "email": "williamsautumn@yahoo.com",
     "birthdate": "1908-11-01",
     "phone": "100.895.6309",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        35,
+        10,
+        7,
+        6,
+        71,
+        63,
+        17,
+        69,
+        70,
+        18,
+        46,
+        68
+    ],
+    "login locations": [
+        [
+            -118.146195,
+            34.150586
+        ]
+    ],
+    "relationships": []
 }

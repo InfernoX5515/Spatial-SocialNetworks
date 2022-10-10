@@ -5,7 +5,23 @@
     "email": "sanchezjoshua@gmail.com",
     "birthdate": "1998-02-10",
     "phone": "0608783634",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        14,
+        58,
+        23,
+        7,
+        29,
+        50,
+        36,
+        48,
+        47
+    ],
+    "login locations": [
+        [
+            -122.405812,
+            37.787844
+        ]
+    ],
+    "relationships": []
 }

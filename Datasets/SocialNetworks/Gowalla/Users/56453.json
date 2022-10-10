@@ -5,7 +5,27 @@
     "email": "cunninghamryan@gmail.com",
     "birthdate": "1909-05-14",
     "phone": "+1-651-161-5756x911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        42,
+        1,
+        69,
+        8,
+        7,
+        21,
+        22,
+        3,
+        72,
+        18,
+        61,
+        31,
+        46
+    ],
+    "login locations": [
+        [
+            -117.95876,
+            33.779917
+        ]
+    ],
+    "relationships": []
 }

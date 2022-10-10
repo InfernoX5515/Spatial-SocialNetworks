@@ -5,7 +5,20 @@
     "email": "benjaminrebecca@hotmail.com",
     "birthdate": "1996-02-23",
     "phone": "7610172930",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        22,
+        45,
+        13,
+        13,
+        32,
+        34
+    ],
+    "login locations": [
+        [
+            -117.106881,
+            32.793454
+        ]
+    ],
+    "relationships": []
 }

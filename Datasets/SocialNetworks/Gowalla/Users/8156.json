@@ -5,7 +5,18 @@
     "email": "denisesimmons@hotmail.com",
     "birthdate": "1952-05-10",
     "phone": "+1-131-091-9832x6047",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        30,
+        6,
+        70,
+        31
+    ],
+    "login locations": [
+        [
+            -118.476599,
+            33.995795
+        ]
+    ],
+    "relationships": []
 }

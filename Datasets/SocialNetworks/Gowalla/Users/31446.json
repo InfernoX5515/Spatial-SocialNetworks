@@ -5,7 +5,39 @@
     "email": "butlermelissa@gmail.com",
     "birthdate": "1941-11-18",
     "phone": "001-568-126-1549",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        15,
+        62,
+        42,
+        26,
+        57,
+        13,
+        75,
+        54,
+        49,
+        8,
+        62,
+        71,
+        4,
+        50
+    ],
+    "login locations": [
+        [
+            -122.400075,
+            37.750683
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5101,
+                0.0243902439024
+            ],
+            [
+                5102,
+                0.263157894737
+            ]
+        ]
+    ]
 }

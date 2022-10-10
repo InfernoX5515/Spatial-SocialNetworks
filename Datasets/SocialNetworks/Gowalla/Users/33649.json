@@ -5,7 +5,20 @@
     "email": "rlutz@gmail.com",
     "birthdate": "2003-10-07",
     "phone": "643.509.0499x3386",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        8,
+        51,
+        50,
+        63,
+        29,
+        15
+    ],
+    "login locations": [
+        [
+            -116.869846,
+            33.727126
+        ]
+    ],
+    "relationships": []
 }

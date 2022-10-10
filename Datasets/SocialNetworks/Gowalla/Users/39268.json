@@ -5,7 +5,16 @@
     "email": "jedwards@hotmail.com",
     "birthdate": "1952-05-28",
     "phone": "407.848.5245x2626",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        8,
+        12
+    ],
+    "login locations": [
+        [
+            -122.390877,
+            37.794786
+        ]
+    ],
+    "relationships": []
 }

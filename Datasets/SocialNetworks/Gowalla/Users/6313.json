@@ -5,7 +5,28 @@
     "email": "johnwood@gmail.com",
     "birthdate": "1995-02-08",
     "phone": "+1-089-750-5059x26167",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        5,
+        45,
+        41,
+        35,
+        60,
+        36,
+        6,
+        54,
+        32,
+        75,
+        28,
+        43,
+        71,
+        0
+    ],
+    "login locations": [
+        [
+            -122.127834,
+            37.429383
+        ]
+    ],
+    "relationships": []
 }

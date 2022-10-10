@@ -5,7 +5,28 @@
     "email": "oschwartz@gmail.com",
     "birthdate": "1932-07-13",
     "phone": "(974)935-7022x60641",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        42,
+        29,
+        28
+    ],
+    "login locations": [
+        [
+            -122.384852,
+            37.768007
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                593,
+                0.01
+            ]
+        ]
+    ]
 }

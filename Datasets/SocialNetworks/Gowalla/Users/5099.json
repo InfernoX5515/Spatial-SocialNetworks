@@ -5,7 +5,27 @@
     "email": "denise01@hotmail.com",
     "birthdate": "1962-08-31",
     "phone": "(156)285-6069x906",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        26,
+        11
+    ],
+    "login locations": [
+        [
+            -122.073726,
+            37.355832
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.01
+            ],
+            [
+                246,
+                0.025974025974
+            ]
+        ]
+    ]
 }

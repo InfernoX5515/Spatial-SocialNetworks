@@ -5,7 +5,15 @@
     "email": "kstrickland@gmail.com",
     "birthdate": "1964-12-09",
     "phone": "481-645-5131x37651",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        49
+    ],
+    "login locations": [
+        [
+            -118.163047,
+            33.869183
+        ]
+    ],
+    "relationships": []
 }

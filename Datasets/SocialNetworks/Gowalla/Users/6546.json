@@ -5,7 +5,24 @@
     "email": "psmith@hotmail.com",
     "birthdate": "1950-01-15",
     "phone": "(883)132-3325",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        40,
+        60,
+        54,
+        23,
+        46,
+        55,
+        49,
+        50,
+        21,
+        40
+    ],
+    "login locations": [
+        [
+            -122.304652,
+            37.774328
+        ]
+    ],
+    "relationships": []
 }

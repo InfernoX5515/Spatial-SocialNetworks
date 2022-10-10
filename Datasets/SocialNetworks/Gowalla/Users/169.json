@@ -5,7 +5,27 @@
     "email": "allisondixon@gmail.com",
     "birthdate": "1941-03-09",
     "phone": "330.189.2697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        3,
+        27,
+        5,
+        66,
+        37,
+        29,
+        49,
+        6,
+        37,
+        60,
+        67,
+        20,
+        68
+    ],
+    "login locations": [
+        [
+            -117.82328,
+            33.660956
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,32 @@
     "email": "johnharris@yahoo.com",
     "birthdate": "1906-09-23",
     "phone": "(575)111-4136",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        68,
+        69,
+        21,
+        56,
+        46,
+        14,
+        53
+    ],
+    "login locations": [
+        [
+            -122.43664,
+            37.773411
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                76656,
+                0.0133333333333
+            ],
+            [
+                76656,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

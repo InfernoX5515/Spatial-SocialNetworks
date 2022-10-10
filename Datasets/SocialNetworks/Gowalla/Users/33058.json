@@ -5,7 +5,23 @@
     "email": "brian92@yahoo.com",
     "birthdate": "1987-07-15",
     "phone": "779.501.1942x8146",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        52,
+        59,
+        59,
+        58,
+        34,
+        58,
+        3,
+        55,
+        73
+    ],
+    "login locations": [
+        [
+            -122.374907,
+            37.648776
+        ]
+    ],
+    "relationships": []
 }

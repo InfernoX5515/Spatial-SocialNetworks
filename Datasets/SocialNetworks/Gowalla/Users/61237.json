@@ -5,7 +5,28 @@
     "email": "miguelbaker@gmail.com",
     "birthdate": "1978-12-12",
     "phone": "(107)937-1269x0756",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        24,
+        20,
+        62,
+        41,
+        69,
+        41,
+        64,
+        8,
+        73,
+        10,
+        32,
+        64,
+        36,
+        24
+    ],
+    "login locations": [
+        [
+            -119.707978,
+            34.419372
+        ]
+    ],
+    "relationships": []
 }

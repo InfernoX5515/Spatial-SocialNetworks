@@ -5,7 +5,21 @@
     "email": "tylerleblanc@yahoo.com",
     "birthdate": "1964-11-13",
     "phone": "001-342-493-6393x664",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        61,
+        41,
+        64,
+        12,
+        20,
+        14,
+        29
+    ],
+    "login locations": [
+        [
+            -121.465724,
+            38.574645
+        ]
+    ],
+    "relationships": []
 }

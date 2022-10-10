@@ -5,7 +5,27 @@
     "email": "christopherbrown@hotmail.com",
     "birthdate": "1959-05-15",
     "phone": "066-720-0844x74735",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        12,
+        34,
+        54,
+        67,
+        6,
+        35,
+        55,
+        64,
+        12,
+        26,
+        56,
+        54,
+        50
+    ],
+    "login locations": [
+        [
+            -121.980345,
+            37.229672
+        ]
+    ],
+    "relationships": []
 }

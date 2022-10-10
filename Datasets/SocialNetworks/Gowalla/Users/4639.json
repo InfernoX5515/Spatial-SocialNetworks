@@ -5,7 +5,34 @@
     "email": "carlconley@hotmail.com",
     "birthdate": "1915-01-13",
     "phone": "(257)013-0917",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        70,
+        51,
+        40,
+        32,
+        60,
+        7,
+        27,
+        72,
+        6
+    ],
+    "login locations": [
+        [
+            -118.376235,
+            34.036737
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                21,
+                0.04
+            ],
+            [
+                3934,
+                0.01
+            ]
+        ]
+    ]
 }

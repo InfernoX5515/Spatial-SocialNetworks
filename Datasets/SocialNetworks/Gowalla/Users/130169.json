@@ -5,7 +5,20 @@
     "email": "patriciamitchell@hotmail.com",
     "birthdate": "2013-04-01",
     "phone": "(395)401-8396x91879",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        40,
+        39,
+        1,
+        50,
+        41,
+        56
+    ],
+    "login locations": [
+        [
+            -114.744584,
+            32.465688
+        ]
+    ],
+    "relationships": []
 }

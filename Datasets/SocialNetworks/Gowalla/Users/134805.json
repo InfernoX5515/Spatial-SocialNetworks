@@ -5,7 +5,25 @@
     "email": "qgilbert@gmail.com",
     "birthdate": "1990-05-05",
     "phone": "657.780.6672x87716",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        7,
+        62,
+        50,
+        25,
+        42,
+        70,
+        22,
+        14,
+        1,
+        67,
+        20
+    ],
+    "login locations": [
+        [
+            -122.489606,
+            37.64016
+        ]
+    ],
+    "relationships": []
 }

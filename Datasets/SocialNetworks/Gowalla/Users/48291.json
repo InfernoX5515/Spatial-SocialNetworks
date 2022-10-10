@@ -5,7 +5,28 @@
     "email": "jacob09@gmail.com",
     "birthdate": "1909-12-16",
     "phone": "+1-205-531-6330x65408",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        21,
+        58,
+        10,
+        21,
+        42,
+        55,
+        75,
+        30,
+        6,
+        51,
+        16,
+        6,
+        28,
+        40
+    ],
+    "login locations": [
+        [
+            -117.163469,
+            32.714257
+        ]
+    ],
+    "relationships": []
 }

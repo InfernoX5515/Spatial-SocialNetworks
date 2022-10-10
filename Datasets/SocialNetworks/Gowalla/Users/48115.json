@@ -5,7 +5,16 @@
     "email": "swolfe@yahoo.com",
     "birthdate": "1975-06-20",
     "phone": "001-279-306-8071x3673",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        43,
+        25
+    ],
+    "login locations": [
+        [
+            -122.028706,
+            37.887006
+        ]
+    ],
+    "relationships": []
 }

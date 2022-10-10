@@ -5,7 +5,28 @@
     "email": "george98@yahoo.com",
     "birthdate": "1952-01-22",
     "phone": "660.744.1021",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        46,
+        48,
+        0
+    ],
+    "login locations": [
+        [
+            -120.938144,
+            37.582009
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.01
+            ],
+            [
+                268,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "katherinenelson@gmail.com",
     "birthdate": "1978-12-06",
     "phone": "855.075.1628x73033",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        8,
+        17,
+        60,
+        47,
+        23,
+        59,
+        61,
+        36,
+        69,
+        60,
+        2
+    ],
+    "login locations": [
+        [
+            -117.154605,
+            32.725238
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "dguerrero@gmail.com",
     "birthdate": "1951-03-26",
     "phone": "(285)647-8405",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        39,
+        6,
+        37,
+        63,
+        2
+    ],
+    "login locations": [
+        [
+            -118.274018,
+            34.03833
+        ]
+    ],
+    "relationships": []
 }

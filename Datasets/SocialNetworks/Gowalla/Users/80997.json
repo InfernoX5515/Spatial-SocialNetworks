@@ -5,7 +5,26 @@
     "email": "kpowell@hotmail.com",
     "birthdate": "2020-06-26",
     "phone": "(158)754-2364",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        62,
+        28,
+        48,
+        23,
+        56,
+        2,
+        70,
+        11,
+        17,
+        4,
+        16,
+        20
+    ],
+    "login locations": [
+        [
+            -122.395077,
+            37.746767
+        ]
+    ],
+    "relationships": []
 }

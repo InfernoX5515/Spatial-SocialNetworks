@@ -5,7 +5,17 @@
     "email": "deborah36@yahoo.com",
     "birthdate": "1989-02-16",
     "phone": "333-042-2089x93605",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        4,
+        71,
+        34
+    ],
+    "login locations": [
+        [
+            -122.70519,
+            38.414744
+        ]
+    ],
+    "relationships": []
 }

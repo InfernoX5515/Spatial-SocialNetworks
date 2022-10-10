@@ -5,7 +5,28 @@
     "email": "rodriguezpatrick@hotmail.com",
     "birthdate": "1942-09-24",
     "phone": "001-179-056-3775x057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        48,
+        20,
+        22
+    ],
+    "login locations": [
+        [
+            -122.019023,
+            37.369415
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                35848,
+                0.0261437908497
+            ],
+            [
+                35848,
+                0.0261437908497
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,17 @@
     "email": "walterjones@hotmail.com",
     "birthdate": "2021-06-28",
     "phone": "599-941-3997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        46,
+        42,
+        47
+    ],
+    "login locations": [
+        [
+            -117.167365,
+            32.755293
+        ]
+    ],
+    "relationships": []
 }

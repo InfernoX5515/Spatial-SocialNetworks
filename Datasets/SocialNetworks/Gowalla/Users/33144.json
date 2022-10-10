@@ -5,7 +5,18 @@
     "email": "nperry@yahoo.com",
     "birthdate": "1940-02-19",
     "phone": "001-435-217-0052x48524",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        51,
+        32,
+        9,
+        23
+    ],
+    "login locations": [
+        [
+            -122.28377,
+            37.81835
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,31 @@
     "email": "conleyjoseph@yahoo.com",
     "birthdate": "1952-05-09",
     "phone": "+1-089-454-5364x6156",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        44,
+        30,
+        27,
+        46,
+        15,
+        17
+    ],
+    "login locations": [
+        [
+            -122.128564,
+            37.431898
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6582,
+                0.0135593220339
+            ],
+            [
+                7939,
+                0.01
+            ]
+        ]
+    ]
 }

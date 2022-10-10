@@ -5,7 +5,23 @@
     "email": "pcantu@hotmail.com",
     "birthdate": "2009-04-12",
     "phone": "(337)083-5981",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        16,
+        44,
+        55,
+        38,
+        37,
+        48,
+        60,
+        21,
+        13
+    ],
+    "login locations": [
+        [
+            -118.461151,
+            34.213535
+        ]
+    ],
+    "relationships": []
 }

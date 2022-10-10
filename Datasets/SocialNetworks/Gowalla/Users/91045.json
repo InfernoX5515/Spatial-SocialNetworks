@@ -5,7 +5,25 @@
     "email": "hernandezbetty@hotmail.com",
     "birthdate": "1983-02-02",
     "phone": "(848)672-7371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        52,
+        44,
+        53,
+        31,
+        29,
+        52,
+        54,
+        35,
+        30,
+        72,
+        42
+    ],
+    "login locations": [
+        [
+            -117.863227,
+            33.704324
+        ]
+    ],
+    "relationships": []
 }

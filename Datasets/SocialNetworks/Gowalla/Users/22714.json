@@ -5,7 +5,36 @@
     "email": "amandagomez@yahoo.com",
     "birthdate": "1942-11-29",
     "phone": "+1-530-795-8696x260",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        10,
+        34,
+        43,
+        72,
+        44,
+        19,
+        73,
+        9,
+        12,
+        12,
+        54
+    ],
+    "login locations": [
+        [
+            -122.415332,
+            37.788583
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                338,
+                0.01
+            ],
+            [
+                487,
+                0.01
+            ]
+        ]
+    ]
 }

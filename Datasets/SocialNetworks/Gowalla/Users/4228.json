@@ -5,7 +5,39 @@
     "email": "jordanthomas@hotmail.com",
     "birthdate": "1952-06-25",
     "phone": "+1-910-881-7919",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        42,
+        62,
+        20,
+        62,
+        61,
+        41,
+        41,
+        68,
+        31,
+        33,
+        4,
+        68,
+        55,
+        27
+    ],
+    "login locations": [
+        [
+            -118.446458,
+            34.155246
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22413,
+                0.01
+            ],
+            [
+                22413,
+                0.01
+            ]
+        ]
+    ]
 }

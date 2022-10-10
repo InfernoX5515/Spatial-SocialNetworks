@@ -5,7 +5,14 @@
     "email": "jhudson@hotmail.com",
     "birthdate": "2011-03-09",
     "phone": "968.127.7607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33
+    ],
+    "login locations": [
+        [
+            -121.607584,
+            37.024435
+        ]
+    ],
+    "relationships": []
 }

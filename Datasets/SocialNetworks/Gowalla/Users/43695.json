@@ -5,7 +5,28 @@
     "email": "fschmidt@hotmail.com",
     "birthdate": "2017-11-22",
     "phone": "610-973-1995",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        67,
+        68,
+        1,
+        30,
+        67,
+        49,
+        56,
+        42,
+        71,
+        66,
+        2,
+        15,
+        68,
+        53
+    ],
+    "login locations": [
+        [
+            -117.232886,
+            33.592948
+        ]
+    ],
+    "relationships": []
 }

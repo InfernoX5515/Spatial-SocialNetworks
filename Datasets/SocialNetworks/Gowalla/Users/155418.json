@@ -5,7 +5,21 @@
     "email": "mary43@hotmail.com",
     "birthdate": "1917-08-25",
     "phone": "(647)384-9285",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        6,
+        70,
+        46,
+        29,
+        38,
+        71,
+        19
+    ],
+    "login locations": [
+        [
+            -117.256017,
+            32.85396
+        ]
+    ],
+    "relationships": []
 }

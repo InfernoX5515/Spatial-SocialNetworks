@@ -5,7 +5,31 @@
     "email": "gjohnson@gmail.com",
     "birthdate": "2014-07-02",
     "phone": "+1-173-850-7734",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        71,
+        28,
+        35,
+        30,
+        10,
+        65
+    ],
+    "login locations": [
+        [
+            -122.424736,
+            37.761507
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4252,
+                0.010582010582
+            ],
+            [
+                44537,
+                0.04
+            ]
+        ]
+    ]
 }

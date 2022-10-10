@@ -5,7 +5,19 @@
     "email": "christopherhester@hotmail.com",
     "birthdate": "1961-05-31",
     "phone": "2382538470",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        61,
+        24,
+        33,
+        1,
+        28
+    ],
+    "login locations": [
+        [
+            -121.89477,
+            37.348998
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "nelsondavid@hotmail.com",
     "birthdate": "1955-12-28",
     "phone": "233-585-5797x6612",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        36,
+        35,
+        41,
+        23,
+        0,
+        71,
+        0,
+        27,
+        31
+    ],
+    "login locations": [
+        [
+            -122.574713,
+            38.043693
+        ]
+    ],
+    "relationships": []
 }

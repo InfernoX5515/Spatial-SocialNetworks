@@ -5,7 +5,12 @@
     "email": "agarcia@hotmail.com",
     "birthdate": "2009-02-07",
     "phone": "075-488-3403",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -119.700216,
+            37.17031
+        ]
+    ],
+    "relationships": []
 }

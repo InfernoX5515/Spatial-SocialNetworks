@@ -5,7 +5,26 @@
     "email": "travisboyer@yahoo.com",
     "birthdate": "1919-03-03",
     "phone": "1554520190",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        2,
+        64,
+        53,
+        28,
+        43,
+        44,
+        69,
+        22,
+        3,
+        46,
+        45,
+        72
+    ],
+    "login locations": [
+        [
+            -122.410049,
+            37.790428
+        ]
+    ],
+    "relationships": []
 }

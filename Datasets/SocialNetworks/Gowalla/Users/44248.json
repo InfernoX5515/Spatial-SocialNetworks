@@ -5,7 +5,23 @@
     "email": "hoffmanjessica@gmail.com",
     "birthdate": "1916-04-16",
     "phone": "+1-505-177-4321x1386",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        31,
+        74,
+        63,
+        17,
+        8,
+        60,
+        57,
+        23,
+        2
+    ],
+    "login locations": [
+        [
+            -122.032844,
+            37.393133
+        ]
+    ],
+    "relationships": []
 }

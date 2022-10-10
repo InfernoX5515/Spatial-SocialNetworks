@@ -5,7 +5,18 @@
     "email": "garciaangela@yahoo.com",
     "birthdate": "1966-05-04",
     "phone": "6755751840",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        27,
+        66,
+        24,
+        10
+    ],
+    "login locations": [
+        [
+            -122.412436,
+            37.797403
+        ]
+    ],
+    "relationships": []
 }

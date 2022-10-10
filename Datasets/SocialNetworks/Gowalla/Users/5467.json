@@ -5,7 +5,26 @@
     "email": "tmeadows@hotmail.com",
     "birthdate": "1932-02-07",
     "phone": "(291)143-4423x417",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        60,
+        43,
+        45,
+        30,
+        57,
+        23,
+        60,
+        68,
+        9,
+        32,
+        1,
+        69
+    ],
+    "login locations": [
+        [
+            -122.396717,
+            37.743444
+        ]
+    ],
+    "relationships": []
 }

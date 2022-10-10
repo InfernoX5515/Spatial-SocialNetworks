@@ -5,7 +5,18 @@
     "email": "james78@hotmail.com",
     "birthdate": "1975-09-18",
     "phone": "9198202282",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        1,
+        35,
+        5,
+        66
+    ],
+    "login locations": [
+        [
+            -122.031467,
+            37.094323
+        ]
+    ],
+    "relationships": []
 }

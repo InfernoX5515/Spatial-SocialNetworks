@@ -5,7 +5,27 @@
     "email": "baileykristina@hotmail.com",
     "birthdate": "1975-01-22",
     "phone": "(273)199-9513",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        62,
+        4,
+        28,
+        39,
+        41,
+        9,
+        30,
+        1,
+        9,
+        51,
+        73,
+        36,
+        68
+    ],
+    "login locations": [
+        [
+            -118.301736,
+            34.062389
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "rwhite@yahoo.com",
     "birthdate": "2009-07-20",
     "phone": "567-241-0341x210",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        57
+    ],
+    "login locations": [
+        [
+            -122.343411,
+            37.61463
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "jenkinscristina@yahoo.com",
     "birthdate": "1926-03-30",
     "phone": "412.733.7351x7141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        33,
+        0,
+        53
+    ],
+    "login locations": [
+        [
+            -122.096542,
+            37.585696
+        ]
+    ],
+    "relationships": []
 }

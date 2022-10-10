@@ -5,7 +5,28 @@
     "email": "jessica97@gmail.com",
     "birthdate": "2007-10-09",
     "phone": "397.845.8459x53604",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        30,
+        42,
+        60
+    ],
+    "login locations": [
+        [
+            -117.599841,
+            34.100205
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1622,
+                0.705882352941
+            ],
+            [
+                2324,
+                0.0266666666667
+            ]
+        ]
+    ]
 }

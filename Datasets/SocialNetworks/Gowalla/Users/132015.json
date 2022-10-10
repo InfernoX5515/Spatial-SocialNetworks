@@ -5,7 +5,16 @@
     "email": "heatherchang@yahoo.com",
     "birthdate": "2003-12-14",
     "phone": "154-833-5109x390",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        61,
+        68
+    ],
+    "login locations": [
+        [
+            -117.107449,
+            32.710639
+        ]
+    ],
+    "relationships": []
 }

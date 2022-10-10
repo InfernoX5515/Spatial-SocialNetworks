@@ -5,7 +5,20 @@
     "email": "vcollins@hotmail.com",
     "birthdate": "1943-01-23",
     "phone": "(029)760-6840",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        21,
+        73,
+        41,
+        63,
+        50,
+        4
+    ],
+    "login locations": [
+        [
+            -122.268717,
+            37.642362
+        ]
+    ],
+    "relationships": []
 }

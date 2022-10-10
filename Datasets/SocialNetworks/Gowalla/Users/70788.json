@@ -5,7 +5,25 @@
     "email": "hillelizabeth@gmail.com",
     "birthdate": "1924-02-27",
     "phone": "(945)960-6278",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25
+    ],
+    "login locations": [
+        [
+            -122.374735,
+            37.662059
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4244,
+                0.0769230769231
+            ],
+            [
+                127067,
+                0.0384615384615
+            ]
+        ]
+    ]
 }

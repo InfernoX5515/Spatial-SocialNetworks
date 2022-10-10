@@ -5,7 +5,28 @@
     "email": "joyceberg@hotmail.com",
     "birthdate": "1908-11-21",
     "phone": "001-399-535-2803x5671",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        29,
+        72,
+        10,
+        74,
+        25,
+        1,
+        53,
+        56,
+        62,
+        33,
+        48,
+        2,
+        38,
+        46
+    ],
+    "login locations": [
+        [
+            -121.452634,
+            38.596313
+        ]
+    ],
+    "relationships": []
 }

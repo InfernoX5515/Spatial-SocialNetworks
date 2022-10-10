@@ -5,7 +5,38 @@
     "email": "luissimmons@gmail.com",
     "birthdate": "1942-03-19",
     "phone": "033-429-3166x00362",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        2,
+        39,
+        0,
+        71,
+        50,
+        30,
+        50,
+        74,
+        30,
+        42,
+        5,
+        9,
+        6
+    ],
+    "login locations": [
+        [
+            -121.909617,
+            37.325265
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                1466,
+                0.02
+            ]
+        ]
+    ]
 }

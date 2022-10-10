@@ -5,7 +5,14 @@
     "email": "emiller@hotmail.com",
     "birthdate": "1943-05-13",
     "phone": "001-595-059-3985x7628",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60
+    ],
+    "login locations": [
+        [
+            -121.817521,
+            37.274252
+        ]
+    ],
+    "relationships": []
 }

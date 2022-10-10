@@ -5,7 +5,22 @@
     "email": "richardwilliams@gmail.com",
     "birthdate": "1922-05-20",
     "phone": "(495)886-8709",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        23,
+        69,
+        69,
+        4,
+        4,
+        40,
+        34,
+        60
+    ],
+    "login locations": [
+        [
+            -118.381368,
+            33.940163
+        ]
+    ],
+    "relationships": []
 }

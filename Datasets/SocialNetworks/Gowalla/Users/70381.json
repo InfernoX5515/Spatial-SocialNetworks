@@ -5,7 +5,14 @@
     "email": "ynguyen@gmail.com",
     "birthdate": "1925-01-11",
     "phone": "001-292-395-5085x693",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29
+    ],
+    "login locations": [
+        [
+            -121.857534,
+            37.708056
+        ]
+    ],
+    "relationships": []
 }

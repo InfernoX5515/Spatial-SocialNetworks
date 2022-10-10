@@ -5,7 +5,20 @@
     "email": "reyesanthony@yahoo.com",
     "birthdate": "1918-01-14",
     "phone": "(609)169-6288x51485",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        71,
+        7,
+        53,
+        39,
+        38,
+        25
+    ],
+    "login locations": [
+        [
+            -118.278031,
+            34.076464
+        ]
+    ],
+    "relationships": []
 }

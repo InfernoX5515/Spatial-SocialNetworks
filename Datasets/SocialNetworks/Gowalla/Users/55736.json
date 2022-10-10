@@ -5,7 +5,22 @@
     "email": "barbarawiggins@hotmail.com",
     "birthdate": "1987-03-09",
     "phone": "2852570347",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        22,
+        8,
+        64,
+        53,
+        8,
+        59,
+        31,
+        65
+    ],
+    "login locations": [
+        [
+            -118.152939,
+            34.053608
+        ]
+    ],
+    "relationships": []
 }

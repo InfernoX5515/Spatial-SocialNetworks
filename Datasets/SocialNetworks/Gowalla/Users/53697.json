@@ -5,7 +5,23 @@
     "email": "williamsdarlene@gmail.com",
     "birthdate": "1998-10-07",
     "phone": "001-320-505-4075x231",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        14,
+        6,
+        47,
+        17,
+        49,
+        14,
+        42,
+        53,
+        15
+    ],
+    "login locations": [
+        [
+            -118.355071,
+            34.076806
+        ]
+    ],
+    "relationships": []
 }

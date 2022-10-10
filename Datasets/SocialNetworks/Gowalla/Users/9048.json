@@ -5,7 +5,18 @@
     "email": "danielelizabeth@hotmail.com",
     "birthdate": "1966-10-23",
     "phone": "001-760-111-7703x4249",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        71,
+        52,
+        7,
+        61
+    ],
+    "login locations": [
+        [
+            -117.936228,
+            33.794888
+        ]
+    ],
+    "relationships": []
 }

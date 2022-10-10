@@ -5,7 +5,14 @@
     "email": "lindseythompson@yahoo.com",
     "birthdate": "1975-02-13",
     "phone": "524.562.1350",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24
+    ],
+    "login locations": [
+        [
+            -118.117709,
+            33.780391
+        ]
+    ],
+    "relationships": []
 }

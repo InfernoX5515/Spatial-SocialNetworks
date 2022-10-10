@@ -5,7 +5,22 @@
     "email": "cortezjohn@yahoo.com",
     "birthdate": "1953-03-29",
     "phone": "001-826-627-8921x3731",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        69,
+        21,
+        67,
+        70,
+        50,
+        12,
+        28,
+        18
+    ],
+    "login locations": [
+        [
+            -122.345601,
+            38.098406
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "anthonyday@gmail.com",
     "birthdate": "2020-02-09",
     "phone": "159-161-4008x49237",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        73,
+        46,
+        20,
+        57,
+        55,
+        44,
+        44,
+        73,
+        68,
+        11,
+        9,
+        35
+    ],
+    "login locations": [
+        [
+            -120.972469,
+            38.658552
+        ]
+    ],
+    "relationships": []
 }

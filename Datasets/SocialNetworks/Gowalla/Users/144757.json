@@ -5,7 +5,17 @@
     "email": "rhonda38@yahoo.com",
     "birthdate": "1916-04-16",
     "phone": "+1-114-295-5300x69618",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        66,
+        58,
+        61
+    ],
+    "login locations": [
+        [
+            -118.976471,
+            34.171722
+        ]
+    ],
+    "relationships": []
 }

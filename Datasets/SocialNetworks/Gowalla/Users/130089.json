@@ -5,7 +5,27 @@
     "email": "karencastillo@yahoo.com",
     "birthdate": "1927-07-09",
     "phone": "001-387-438-8690x485",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        65,
+        69
+    ],
+    "login locations": [
+        [
+            -121.69377,
+            38.557533
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38223,
+                0.0123456790123
+            ],
+            [
+                38223,
+                0.0123456790123
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,26 @@
     "email": "vmcintosh@yahoo.com",
     "birthdate": "2000-12-04",
     "phone": "+1-774-283-3521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        30,
+        26,
+        34,
+        75,
+        35,
+        71,
+        25,
+        59,
+        67,
+        22,
+        12,
+        9
+    ],
+    "login locations": [
+        [
+            -118.164182,
+            33.856447
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "carlosmunoz@gmail.com",
     "birthdate": "1907-08-25",
     "phone": "(127)901-2248x27580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        9,
+        24,
+        64,
+        6,
+        1,
+        55,
+        0,
+        11,
+        70,
+        13,
+        69,
+        31,
+        22,
+        16
+    ],
+    "login locations": [
+        [
+            -121.261689,
+            38.77186
+        ]
+    ],
+    "relationships": []
 }

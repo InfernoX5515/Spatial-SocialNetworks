@@ -5,7 +5,20 @@
     "email": "laguirre@gmail.com",
     "birthdate": "1934-10-28",
     "phone": "676-820-9543",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        65,
+        57,
+        10,
+        44,
+        11,
+        51
+    ],
+    "login locations": [
+        [
+            -118.399972,
+            33.885753
+        ]
+    ],
+    "relationships": []
 }

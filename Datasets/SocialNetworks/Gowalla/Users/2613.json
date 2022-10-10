@@ -5,7 +5,30 @@
     "email": "garciadonna@gmail.com",
     "birthdate": "1989-11-20",
     "phone": "217-811-1797x535",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        10,
+        61,
+        22,
+        59,
+        28
+    ],
+    "login locations": [
+        [
+            -122.399474,
+            37.766467
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                126,
+                0.0873287671233
+            ],
+            [
+                11168,
+                0.03
+            ]
+        ]
+    ]
 }

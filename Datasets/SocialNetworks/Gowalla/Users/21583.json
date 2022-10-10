@@ -5,7 +5,27 @@
     "email": "campbelljulie@yahoo.com",
     "birthdate": "2011-10-16",
     "phone": "+1-938-606-4214x494",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        30,
+        71,
+        47,
+        37,
+        21,
+        61,
+        26,
+        43,
+        22,
+        49,
+        2,
+        40,
+        15
+    ],
+    "login locations": [
+        [
+            -118.328241,
+            34.074898
+        ]
+    ],
+    "relationships": []
 }

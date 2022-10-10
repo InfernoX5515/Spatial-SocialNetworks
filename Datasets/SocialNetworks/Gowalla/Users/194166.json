@@ -5,7 +5,18 @@
     "email": "robertlozano@gmail.com",
     "birthdate": "2000-09-12",
     "phone": "445.200.8781",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        29,
+        1,
+        3,
+        33
+    ],
+    "login locations": [
+        [
+            -118.371622,
+            34.076045
+        ]
+    ],
+    "relationships": []
 }

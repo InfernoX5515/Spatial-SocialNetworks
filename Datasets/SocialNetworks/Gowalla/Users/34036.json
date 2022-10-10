@@ -5,7 +5,16 @@
     "email": "carol30@hotmail.com",
     "birthdate": "1960-04-26",
     "phone": "001-218-816-3091x4927",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        50,
+        50
+    ],
+    "login locations": [
+        [
+            -119.218934,
+            36.311261
+        ]
+    ],
+    "relationships": []
 }

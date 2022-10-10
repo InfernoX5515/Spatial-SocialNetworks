@@ -5,7 +5,12 @@
     "email": "laurenlopez@yahoo.com",
     "birthdate": "1926-12-05",
     "phone": "(297)296-9252",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.16664,
+            34.097282
+        ]
+    ],
+    "relationships": []
 }

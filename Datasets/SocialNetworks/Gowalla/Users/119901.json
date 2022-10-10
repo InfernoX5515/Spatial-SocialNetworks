@@ -5,7 +5,21 @@
     "email": "smithedward@yahoo.com",
     "birthdate": "2006-07-30",
     "phone": "971-499-7632x074",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        49,
+        0,
+        27,
+        2,
+        34,
+        25,
+        33
+    ],
+    "login locations": [
+        [
+            -122.364307,
+            37.787409
+        ]
+    ],
+    "relationships": []
 }

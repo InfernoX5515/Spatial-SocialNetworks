@@ -5,7 +5,28 @@
     "email": "uvillanueva@yahoo.com",
     "birthdate": "2015-12-20",
     "phone": "+1-061-935-4138x7531",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        68,
+        33,
+        32,
+        62,
+        52,
+        38,
+        16,
+        40,
+        27,
+        32,
+        34,
+        32,
+        36,
+        4
+    ],
+    "login locations": [
+        [
+            -118.119836,
+            34.032591
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "buckblake@gmail.com",
     "birthdate": "1914-11-25",
     "phone": "9750033451",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        20,
+        11,
+        51,
+        11,
+        11
+    ],
+    "login locations": [
+        [
+            -119.874664,
+            36.874035
+        ]
+    ],
+    "relationships": []
 }

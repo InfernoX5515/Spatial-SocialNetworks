@@ -5,7 +5,12 @@
     "email": "melissa83@yahoo.com",
     "birthdate": "1909-10-18",
     "phone": "143-677-9390",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.420196,
+            37.777513
+        ]
+    ],
+    "relationships": []
 }

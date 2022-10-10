@@ -5,7 +5,12 @@
     "email": "christopher90@gmail.com",
     "birthdate": "1937-10-04",
     "phone": "632-133-7362x9130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.132585,
+            33.585721
+        ]
+    ],
+    "relationships": []
 }

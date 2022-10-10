@@ -5,7 +5,25 @@
     "email": "colincrawford@gmail.com",
     "birthdate": "2019-07-26",
     "phone": "342.493.8367x0767",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        52,
+        24,
+        51,
+        65,
+        71,
+        59,
+        34,
+        53,
+        5,
+        9,
+        70
+    ],
+    "login locations": [
+        [
+            -121.754452,
+            37.942143
+        ]
+    ],
+    "relationships": []
 }

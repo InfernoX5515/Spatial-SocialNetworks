@@ -5,7 +5,19 @@
     "email": "tylercurtis@gmail.com",
     "birthdate": "2000-08-25",
     "phone": "167.920.8832x558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        62,
+        34,
+        57,
+        21,
+        59
+    ],
+    "login locations": [
+        [
+            -118.331513,
+            34.093797
+        ]
+    ],
+    "relationships": []
 }

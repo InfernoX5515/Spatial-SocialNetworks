@@ -5,7 +5,24 @@
     "email": "blewis@yahoo.com",
     "birthdate": "1939-07-27",
     "phone": "(540)278-6282x807",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        68,
+        75,
+        45,
+        26,
+        71,
+        66,
+        71,
+        38,
+        60,
+        70
+    ],
+    "login locations": [
+        [
+            -122.337349,
+            37.596748
+        ]
+    ],
+    "relationships": []
 }

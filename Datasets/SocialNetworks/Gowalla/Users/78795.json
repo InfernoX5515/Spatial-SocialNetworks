@@ -5,7 +5,39 @@
     "email": "mollydixon@hotmail.com",
     "birthdate": "1956-11-21",
     "phone": "5416844278",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        24,
+        19,
+        64,
+        51,
+        56,
+        51,
+        49,
+        23,
+        15,
+        36,
+        74,
+        10,
+        11,
+        20
+    ],
+    "login locations": [
+        [
+            -122.370458,
+            37.788029
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8597,
+                0.125
+            ],
+            [
+                8597,
+                0.125
+            ]
+        ]
+    ]
 }

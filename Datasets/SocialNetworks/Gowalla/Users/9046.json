@@ -5,7 +5,17 @@
     "email": "carlsondeborah@gmail.com",
     "birthdate": "1911-10-11",
     "phone": "334-127-0231x6958",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        38,
+        33,
+        24
+    ],
+    "login locations": [
+        [
+            -117.909855,
+            33.768687
+        ]
+    ],
+    "relationships": []
 }

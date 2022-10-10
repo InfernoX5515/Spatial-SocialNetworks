@@ -5,7 +5,20 @@
     "email": "cpruitt@yahoo.com",
     "birthdate": "1949-07-17",
     "phone": "(016)876-6574x5847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        21,
+        33,
+        40,
+        41,
+        59,
+        17
+    ],
+    "login locations": [
+        [
+            -122.09335,
+            37.415936
+        ]
+    ],
+    "relationships": []
 }

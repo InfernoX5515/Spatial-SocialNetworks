@@ -5,7 +5,18 @@
     "email": "joelramirez@gmail.com",
     "birthdate": "1925-07-10",
     "phone": "251.101.0617x28285",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        55,
+        23,
+        66,
+        63
+    ],
+    "login locations": [
+        [
+            -121.121111,
+            37.865488
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "alex05@hotmail.com",
     "birthdate": "1985-01-25",
     "phone": "+1-412-728-2510",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63
+    ],
+    "login locations": [
+        [
+            -121.368013,
+            38.641248
+        ]
+    ],
+    "relationships": []
 }

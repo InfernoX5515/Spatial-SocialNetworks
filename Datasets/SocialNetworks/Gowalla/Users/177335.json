@@ -5,7 +5,12 @@
     "email": "rebecca34@gmail.com",
     "birthdate": "1964-08-05",
     "phone": "8497054785",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.162789,
+            32.817991
+        ]
+    ],
+    "relationships": []
 }

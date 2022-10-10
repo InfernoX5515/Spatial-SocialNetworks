@@ -5,7 +5,23 @@
     "email": "murraychristina@gmail.com",
     "birthdate": "1996-06-02",
     "phone": "001-308-725-5563x57102",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.153235,
+            33.933041
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.0151515151515
+            ],
+            [
+                43,
+                0.0151515151515
+            ]
+        ]
+    ]
 }

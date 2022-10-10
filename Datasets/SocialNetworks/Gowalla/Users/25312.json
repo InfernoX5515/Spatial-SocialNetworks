@@ -5,7 +5,17 @@
     "email": "wellsaustin@yahoo.com",
     "birthdate": "1913-03-26",
     "phone": "360.549.1850x964",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        33,
+        50,
+        75
+    ],
+    "login locations": [
+        [
+            -118.185963,
+            34.078267
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "washingtonmichael@hotmail.com",
     "birthdate": "1917-07-28",
     "phone": "091-902-5484",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        0,
+        61,
+        59,
+        55
+    ],
+    "login locations": [
+        [
+            -118.359636,
+            34.090591
+        ]
+    ],
+    "relationships": []
 }

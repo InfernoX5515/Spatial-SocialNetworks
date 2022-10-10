@@ -5,7 +5,25 @@
     "email": "randolphkirk@gmail.com",
     "birthdate": "1937-03-29",
     "phone": "013-336-4965x94023",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        2,
+        29,
+        45,
+        54,
+        26,
+        51,
+        9,
+        8,
+        65,
+        37,
+        24
+    ],
+    "login locations": [
+        [
+            -122.392502,
+            37.745189
+        ]
+    ],
+    "relationships": []
 }

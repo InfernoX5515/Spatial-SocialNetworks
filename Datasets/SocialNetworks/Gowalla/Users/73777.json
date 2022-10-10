@@ -5,7 +5,24 @@
     "email": "courtneywood@hotmail.com",
     "birthdate": "1995-07-30",
     "phone": "860-783-8715",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        43,
+        10,
+        31,
+        65,
+        41,
+        75,
+        71,
+        38,
+        47,
+        50
+    ],
+    "login locations": [
+        [
+            -122.317074,
+            37.795489
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "christinaroberts@yahoo.com",
     "birthdate": "2009-01-23",
     "phone": "+1-772-126-3620x45681",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        33,
+        1,
+        36,
+        19,
+        5,
+        49,
+        72
+    ],
+    "login locations": [
+        [
+            -118.330453,
+            34.089884
+        ]
+    ],
+    "relationships": []
 }

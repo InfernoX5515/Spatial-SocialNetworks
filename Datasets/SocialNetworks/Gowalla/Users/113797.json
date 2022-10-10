@@ -5,7 +5,22 @@
     "email": "jennifercummings@gmail.com",
     "birthdate": "2018-12-25",
     "phone": "820.053.9585x562",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        70,
+        41,
+        58,
+        69,
+        4,
+        1,
+        72,
+        34
+    ],
+    "login locations": [
+        [
+            -121.992814,
+            37.385161
+        ]
+    ],
+    "relationships": []
 }

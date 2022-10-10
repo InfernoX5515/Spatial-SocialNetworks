@@ -5,7 +5,22 @@
     "email": "lindaguerrero@yahoo.com",
     "birthdate": "1989-11-09",
     "phone": "964.982.5544x449",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        45,
+        72,
+        55,
+        15,
+        75,
+        22,
+        62,
+        42
+    ],
+    "login locations": [
+        [
+            -122.009896,
+            37.344151
+        ]
+    ],
+    "relationships": []
 }

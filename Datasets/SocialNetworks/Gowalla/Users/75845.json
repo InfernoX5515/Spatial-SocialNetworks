@@ -5,7 +5,28 @@
     "email": "esnyder@gmail.com",
     "birthdate": "2014-06-13",
     "phone": "539-687-0893x4402",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        64,
+        75,
+        57,
+        54,
+        74,
+        11,
+        42,
+        63,
+        11,
+        41,
+        30,
+        74,
+        71,
+        32
+    ],
+    "login locations": [
+        [
+            -122.10656,
+            37.416374
+        ]
+    ],
+    "relationships": []
 }

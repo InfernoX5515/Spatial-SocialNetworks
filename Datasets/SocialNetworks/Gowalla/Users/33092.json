@@ -5,7 +5,26 @@
     "email": "steven66@yahoo.com",
     "birthdate": "2018-11-17",
     "phone": "001-448-510-5466x619",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        5,
+        37,
+        24,
+        46,
+        8,
+        20,
+        7,
+        56,
+        11,
+        48,
+        6,
+        31
+    ],
+    "login locations": [
+        [
+            -122.270996,
+            37.832318
+        ]
+    ],
+    "relationships": []
 }

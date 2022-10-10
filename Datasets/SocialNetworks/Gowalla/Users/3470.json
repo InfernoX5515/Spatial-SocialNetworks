@@ -5,7 +5,26 @@
     "email": "john25@yahoo.com",
     "birthdate": "1943-01-11",
     "phone": "001-398-019-8534x319",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        37
+    ],
+    "login locations": [
+        [
+            -118.172102,
+            34.110011
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2735,
+                0.0406504065041
+            ],
+            [
+                3585,
+                0.135922330097
+            ]
+        ]
+    ]
 }

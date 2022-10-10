@@ -5,7 +5,28 @@
     "email": "monicaowens@yahoo.com",
     "birthdate": "1953-11-22",
     "phone": "(947)230-3632x516",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        27,
+        9,
+        32,
+        34,
+        37,
+        54,
+        39,
+        3,
+        49,
+        32,
+        49,
+        4,
+        7,
+        43
+    ],
+    "login locations": [
+        [
+            -122.089547,
+            37.685408
+        ]
+    ],
+    "relationships": []
 }

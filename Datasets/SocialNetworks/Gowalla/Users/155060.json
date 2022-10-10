@@ -5,7 +5,26 @@
     "email": "brownjill@gmail.com",
     "birthdate": "1975-10-29",
     "phone": "060-351-7132x82695",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        5,
+        10,
+        35,
+        11,
+        75,
+        15,
+        21,
+        69,
+        59,
+        48,
+        61,
+        33
+    ],
+    "login locations": [
+        [
+            -122.264389,
+            37.85227
+        ]
+    ],
+    "relationships": []
 }

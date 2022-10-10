@@ -5,7 +5,23 @@
     "email": "lisasullivan@yahoo.com",
     "birthdate": "1997-09-04",
     "phone": "166-359-8795x21643",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        32,
+        4,
+        41,
+        52,
+        1,
+        30,
+        52,
+        2,
+        53
+    ],
+    "login locations": [
+        [
+            -122.412045,
+            37.773464
+        ]
+    ],
+    "relationships": []
 }

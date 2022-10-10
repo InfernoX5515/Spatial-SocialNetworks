@@ -5,7 +5,21 @@
     "email": "veronica32@hotmail.com",
     "birthdate": "1987-11-23",
     "phone": "100.919.3623x04525",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        34,
+        24,
+        46,
+        29,
+        32,
+        52,
+        63
+    ],
+    "login locations": [
+        [
+            -119.051404,
+            35.35841
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "brandon22@gmail.com",
     "birthdate": "1952-05-23",
     "phone": "(571)815-0284x29934",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        66
+    ],
+    "login locations": [
+        [
+            -122.534863,
+            37.908611
+        ]
+    ],
+    "relationships": []
 }

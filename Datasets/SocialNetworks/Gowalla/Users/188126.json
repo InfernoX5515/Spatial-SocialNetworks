@@ -5,7 +5,22 @@
     "email": "alec67@yahoo.com",
     "birthdate": "2005-05-14",
     "phone": "098.111.2354",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        1,
+        59,
+        34,
+        70,
+        8,
+        50,
+        58,
+        66
+    ],
+    "login locations": [
+        [
+            -117.100857,
+            33.481152
+        ]
+    ],
+    "relationships": []
 }

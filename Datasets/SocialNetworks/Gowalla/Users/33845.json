@@ -5,7 +5,17 @@
     "email": "hillmichael@yahoo.com",
     "birthdate": "2011-04-25",
     "phone": "+1-364-681-6887x443",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        66,
+        3,
+        59
+    ],
+    "login locations": [
+        [
+            -122.080601,
+            37.395905
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "jnelson@hotmail.com",
     "birthdate": "1972-11-26",
     "phone": "(656)067-9391x029",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        69,
+        20,
+        34
+    ],
+    "login locations": [
+        [
+            -117.203565,
+            32.895664
+        ]
+    ],
+    "relationships": []
 }

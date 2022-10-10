@@ -5,7 +5,26 @@
     "email": "ibell@hotmail.com",
     "birthdate": "2003-02-20",
     "phone": "155-400-2934",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        44,
+        43,
+        68,
+        33,
+        44,
+        40,
+        40,
+        24,
+        60,
+        34,
+        12,
+        68
+    ],
+    "login locations": [
+        [
+            -118.354243,
+            33.988117
+        ]
+    ],
+    "relationships": []
 }

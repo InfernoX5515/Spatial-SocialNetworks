@@ -5,7 +5,19 @@
     "email": "david55@gmail.com",
     "birthdate": "1980-09-25",
     "phone": "687-197-9470x6783",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        50,
+        17,
+        14,
+        40,
+        67
+    ],
+    "login locations": [
+        [
+            -121.954745,
+            37.32997
+        ]
+    ],
+    "relationships": []
 }

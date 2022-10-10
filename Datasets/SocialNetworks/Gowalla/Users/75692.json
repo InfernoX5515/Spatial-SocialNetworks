@@ -5,7 +5,16 @@
     "email": "jeremynichols@hotmail.com",
     "birthdate": "1929-09-04",
     "phone": "(462)833-6859",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        49,
+        44
+    ],
+    "login locations": [
+        [
+            -122.426432,
+            37.776738
+        ]
+    ],
+    "relationships": []
 }

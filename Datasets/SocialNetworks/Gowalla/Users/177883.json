@@ -5,7 +5,28 @@
     "email": "jeansteele@yahoo.com",
     "birthdate": "1918-02-02",
     "phone": "001-546-206-7668x43101",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        10,
+        44,
+        2,
+        64,
+        11,
+        10,
+        37,
+        62,
+        1,
+        66,
+        30,
+        61,
+        0,
+        9
+    ],
+    "login locations": [
+        [
+            -118.152866,
+            33.805483
+        ]
+    ],
+    "relationships": []
 }

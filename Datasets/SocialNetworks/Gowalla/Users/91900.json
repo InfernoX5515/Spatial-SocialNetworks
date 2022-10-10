@@ -5,7 +5,22 @@
     "email": "yvang@gmail.com",
     "birthdate": "1912-10-18",
     "phone": "097.648.0936x42646",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        1,
+        60,
+        50,
+        68,
+        9,
+        36,
+        41,
+        49
+    ],
+    "login locations": [
+        [
+            -118.294135,
+            34.080939
+        ]
+    ],
+    "relationships": []
 }

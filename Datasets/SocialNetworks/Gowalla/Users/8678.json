@@ -5,7 +5,26 @@
     "email": "burgessdavid@yahoo.com",
     "birthdate": "2001-11-07",
     "phone": "319.913.7081x8585",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        33,
+        51,
+        10,
+        56,
+        38,
+        66,
+        75,
+        21,
+        4,
+        52,
+        13,
+        37
+    ],
+    "login locations": [
+        [
+            -122.253861,
+            37.79239
+        ]
+    ],
+    "relationships": []
 }

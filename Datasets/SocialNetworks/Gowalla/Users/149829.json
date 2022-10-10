@@ -5,7 +5,18 @@
     "email": "george16@hotmail.com",
     "birthdate": "1958-05-11",
     "phone": "(057)226-9992x0941",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        45,
+        12,
+        56,
+        46
+    ],
+    "login locations": [
+        [
+            -117.142475,
+            32.810658
+        ]
+    ],
+    "relationships": []
 }

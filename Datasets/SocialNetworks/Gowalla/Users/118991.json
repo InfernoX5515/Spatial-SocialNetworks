@@ -5,7 +5,28 @@
     "email": "kathrynguerra@hotmail.com",
     "birthdate": "1985-03-05",
     "phone": "+1-233-922-9624x337",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        65,
+        6,
+        53,
+        27,
+        53,
+        28,
+        50,
+        2,
+        30,
+        37,
+        5,
+        68,
+        2,
+        28
+    ],
+    "login locations": [
+        [
+            -118.311985,
+            34.183086
+        ]
+    ],
+    "relationships": []
 }

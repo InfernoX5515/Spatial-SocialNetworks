@@ -5,7 +5,22 @@
     "email": "galvanjeremy@yahoo.com",
     "birthdate": "1978-04-21",
     "phone": "(268)330-8836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        22,
+        50,
+        40,
+        56,
+        24,
+        70,
+        1,
+        40
+    ],
+    "login locations": [
+        [
+            -118.124657,
+            34.125153
+        ]
+    ],
+    "relationships": []
 }

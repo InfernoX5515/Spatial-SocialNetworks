@@ -5,7 +5,16 @@
     "email": "smithbrendan@yahoo.com",
     "birthdate": "1918-01-20",
     "phone": "001-313-878-8711x35107",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        18,
+        30
+    ],
+    "login locations": [
+        [
+            -122.079058,
+            37.583946
+        ]
+    ],
+    "relationships": []
 }

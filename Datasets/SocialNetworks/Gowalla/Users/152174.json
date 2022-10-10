@@ -5,7 +5,15 @@
     "email": "christopherharper@hotmail.com",
     "birthdate": "1955-05-17",
     "phone": "949.781.0253x516",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        62
+    ],
+    "login locations": [
+        [
+            -122.442657,
+            37.77654
+        ]
+    ],
+    "relationships": []
 }

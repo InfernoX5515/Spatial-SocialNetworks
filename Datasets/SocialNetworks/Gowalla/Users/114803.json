@@ -5,7 +5,19 @@
     "email": "brooksheather@hotmail.com",
     "birthdate": "1966-07-03",
     "phone": "(223)085-0005x2481",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        38,
+        16,
+        2,
+        31,
+        1
+    ],
+    "login locations": [
+        [
+            -122.192743,
+            37.459782
+        ]
+    ],
+    "relationships": []
 }

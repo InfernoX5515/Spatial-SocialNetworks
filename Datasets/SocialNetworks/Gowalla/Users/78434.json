@@ -5,7 +5,32 @@
     "email": "rhonda00@yahoo.com",
     "birthdate": "1941-03-18",
     "phone": "(604)262-7013",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        25,
+        59,
+        37,
+        42,
+        52,
+        23,
+        49
+    ],
+    "login locations": [
+        [
+            -118.374762,
+            34.08841
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8644,
+                0.025
+            ],
+            [
+                8644,
+                0.025
+            ]
+        ]
+    ]
 }

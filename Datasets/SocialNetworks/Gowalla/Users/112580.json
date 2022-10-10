@@ -5,7 +5,19 @@
     "email": "james77@gmail.com",
     "birthdate": "1957-02-14",
     "phone": "(382)208-7439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        71,
+        0,
+        56,
+        9,
+        42
+    ],
+    "login locations": [
+        [
+            -121.459672,
+            38.580883
+        ]
+    ],
+    "relationships": []
 }

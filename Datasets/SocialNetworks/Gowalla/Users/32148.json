@@ -5,7 +5,34 @@
     "email": "william05@yahoo.com",
     "birthdate": "2009-03-26",
     "phone": "001-669-436-7080",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        21,
+        6,
+        15,
+        61,
+        5,
+        66,
+        35,
+        63,
+        9
+    ],
+    "login locations": [
+        [
+            -117.187614,
+            32.699306
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                123331,
+                0.30612244898
+            ],
+            [
+                123331,
+                0.30612244898
+            ]
+        ]
+    ]
 }

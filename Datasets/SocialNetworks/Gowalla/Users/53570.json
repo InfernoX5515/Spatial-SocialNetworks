@@ -5,7 +5,26 @@
     "email": "baileychristopher@hotmail.com",
     "birthdate": "1965-11-04",
     "phone": "(422)047-7041x6601",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        8,
+        31,
+        46,
+        21,
+        60,
+        61,
+        65,
+        14,
+        42,
+        24,
+        41,
+        53
+    ],
+    "login locations": [
+        [
+            -118.357177,
+            34.002455
+        ]
+    ],
+    "relationships": []
 }

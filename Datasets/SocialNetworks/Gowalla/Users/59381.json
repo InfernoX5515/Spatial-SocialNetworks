@@ -5,7 +5,16 @@
     "email": "yyoung@yahoo.com",
     "birthdate": "1928-08-24",
     "phone": "593.364.7745",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        39,
+        5
+    ],
+    "login locations": [
+        [
+            -117.239144,
+            32.857317
+        ]
+    ],
+    "relationships": []
 }

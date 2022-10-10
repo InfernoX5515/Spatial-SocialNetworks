@@ -5,7 +5,20 @@
     "email": "cbentley@gmail.com",
     "birthdate": "1912-06-10",
     "phone": "+1-595-280-2312x4661",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        70,
+        36,
+        70,
+        28,
+        57,
+        56
+    ],
+    "login locations": [
+        [
+            -117.131489,
+            32.741087
+        ]
+    ],
+    "relationships": []
 }

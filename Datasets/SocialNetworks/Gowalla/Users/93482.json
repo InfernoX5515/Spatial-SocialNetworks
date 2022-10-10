@@ -5,7 +5,17 @@
     "email": "ugibson@gmail.com",
     "birthdate": "1922-12-05",
     "phone": "001-127-809-7357",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        62,
+        40,
+        70
+    ],
+    "login locations": [
+        [
+            -117.7205,
+            33.67623
+        ]
+    ],
+    "relationships": []
 }

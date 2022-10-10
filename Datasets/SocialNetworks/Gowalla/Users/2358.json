@@ -5,7 +5,37 @@
     "email": "robertorobbins@yahoo.com",
     "birthdate": "1943-08-15",
     "phone": "075.352.7201x5689",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        9,
+        8,
+        43,
+        20,
+        62,
+        35,
+        62,
+        27,
+        47,
+        42,
+        40,
+        56
+    ],
+    "login locations": [
+        [
+            -122.24708,
+            37.813199
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                777,
+                0.01
+            ],
+            [
+                1454,
+                0.0933333333333
+            ]
+        ]
+    ]
 }

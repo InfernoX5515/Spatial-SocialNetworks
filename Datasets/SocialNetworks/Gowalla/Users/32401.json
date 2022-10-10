@@ -5,7 +5,28 @@
     "email": "christopher36@hotmail.com",
     "birthdate": "2002-11-12",
     "phone": "(330)286-2842x45907",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        36,
+        24,
+        51
+    ],
+    "login locations": [
+        [
+            -117.861505,
+            33.678814
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                31767,
+                0.01
+            ],
+            [
+                39823,
+                0.024
+            ]
+        ]
+    ]
 }

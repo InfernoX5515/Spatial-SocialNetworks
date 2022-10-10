@@ -5,7 +5,20 @@
     "email": "mullinsmercedes@gmail.com",
     "birthdate": "1916-08-07",
     "phone": "+1-988-358-1679x64256",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        73,
+        45,
+        49,
+        12,
+        60,
+        51
+    ],
+    "login locations": [
+        [
+            -118.285315,
+            33.960069
+        ]
+    ],
+    "relationships": []
 }

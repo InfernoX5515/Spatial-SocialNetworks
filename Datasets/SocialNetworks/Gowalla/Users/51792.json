@@ -5,7 +5,16 @@
     "email": "vcooper@gmail.com",
     "birthdate": "1957-08-30",
     "phone": "(425)408-8372",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        55,
+        43
+    ],
+    "login locations": [
+        [
+            -122.40673,
+            37.751126
+        ]
+    ],
+    "relationships": []
 }

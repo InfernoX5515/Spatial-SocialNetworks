@@ -5,7 +5,21 @@
     "email": "smithapril@gmail.com",
     "birthdate": "1969-05-22",
     "phone": "001-314-723-6406x58527",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        0,
+        38,
+        4,
+        51,
+        17,
+        57,
+        21
+    ],
+    "login locations": [
+        [
+            -118.111342,
+            34.035442
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "christopher17@gmail.com",
     "birthdate": "1955-07-22",
     "phone": "+1-899-582-5591",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        60,
+        47,
+        69,
+        75,
+        34,
+        74,
+        5,
+        7
+    ],
+    "login locations": [
+        [
+            -122.347527,
+            37.816283
+        ]
+    ],
+    "relationships": []
 }

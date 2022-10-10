@@ -5,7 +5,12 @@
     "email": "madelinerich@hotmail.com",
     "birthdate": "2004-05-08",
     "phone": "+1-668-242-4158",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.40273,
+            37.783034
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "fbarrett@gmail.com",
     "birthdate": "1962-07-28",
     "phone": "4718804532",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        50,
+        55,
+        28,
+        14
+    ],
+    "login locations": [
+        [
+            -122.171403,
+            37.672041
+        ]
+    ],
+    "relationships": []
 }

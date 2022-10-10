@@ -5,7 +5,17 @@
     "email": "maciasjuan@yahoo.com",
     "birthdate": "1919-02-15",
     "phone": "215-650-0908",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        33,
+        72,
+        49
+    ],
+    "login locations": [
+        [
+            -122.414861,
+            37.775635
+        ]
+    ],
+    "relationships": []
 }

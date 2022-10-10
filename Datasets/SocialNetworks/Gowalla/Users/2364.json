@@ -5,7 +5,33 @@
     "email": "mallory18@hotmail.com",
     "birthdate": "1945-05-21",
     "phone": "(304)727-8930",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        19,
+        64,
+        67,
+        9,
+        62,
+        27,
+        16,
+        25
+    ],
+    "login locations": [
+        [
+            -121.940599,
+            37.282576
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.01
+            ],
+            [
+                285,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,19 @@
     "email": "fjohnson@yahoo.com",
     "birthdate": "2014-06-26",
     "phone": "528.341.0134",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        39,
+        40,
+        21,
+        39,
+        15
+    ],
+    "login locations": [
+        [
+            -122.063647,
+            37.387092
+        ]
+    ],
+    "relationships": []
 }

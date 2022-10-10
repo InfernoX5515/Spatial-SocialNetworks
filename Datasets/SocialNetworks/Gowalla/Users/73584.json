@@ -5,7 +5,25 @@
     "email": "emclaughlin@yahoo.com",
     "birthdate": "1997-01-27",
     "phone": "5868153826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        28,
+        15,
+        66,
+        64,
+        55,
+        59,
+        60,
+        2,
+        49,
+        23,
+        37
+    ],
+    "login locations": [
+        [
+            -118.389554,
+            33.989819
+        ]
+    ],
+    "relationships": []
 }

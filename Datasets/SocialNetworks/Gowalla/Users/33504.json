@@ -5,7 +5,12 @@
     "email": "heatherjones@hotmail.com",
     "birthdate": "1963-03-18",
     "phone": "639-406-1682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.117198,
+            32.93814
+        ]
+    ],
+    "relationships": []
 }

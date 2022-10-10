@@ -5,7 +5,16 @@
     "email": "jasonkelly@hotmail.com",
     "birthdate": "1932-12-16",
     "phone": "236-210-4812x5256",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        13,
+        49
+    ],
+    "login locations": [
+        [
+            -122.212901,
+            37.729953
+        ]
+    ],
+    "relationships": []
 }

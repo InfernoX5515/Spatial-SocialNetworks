@@ -5,7 +5,12 @@
     "email": "ukelley@yahoo.com",
     "birthdate": "1957-08-08",
     "phone": "+1-849-996-5089",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.37779,
+            33.937531
+        ]
+    ],
+    "relationships": []
 }

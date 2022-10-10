@@ -5,7 +5,24 @@
     "email": "eugeneperez@hotmail.com",
     "birthdate": "1938-01-21",
     "phone": "001-116-715-5596",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        75,
+        47,
+        38,
+        22,
+        23,
+        74,
+        69,
+        11,
+        57,
+        60
+    ],
+    "login locations": [
+        [
+            -122.215516,
+            37.843612
+        ]
+    ],
+    "relationships": []
 }

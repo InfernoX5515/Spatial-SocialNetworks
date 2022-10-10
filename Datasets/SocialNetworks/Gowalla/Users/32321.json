@@ -5,7 +5,32 @@
     "email": "lwilliams@hotmail.com",
     "birthdate": "1982-08-21",
     "phone": "(104)606-7176",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        20,
+        44,
+        34,
+        40,
+        33,
+        29,
+        29
+    ],
+    "login locations": [
+        [
+            -121.981283,
+            37.670698
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                124614,
+                0.0833333333333
+            ],
+            [
+                124614,
+                0.0833333333333
+            ]
+        ]
+    ]
 }

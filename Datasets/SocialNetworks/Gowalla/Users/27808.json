@@ -5,7 +5,19 @@
     "email": "wwilliams@yahoo.com",
     "birthdate": "1955-06-10",
     "phone": "4750178307",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        26,
+        42,
+        22,
+        50,
+        35
+    ],
+    "login locations": [
+        [
+            -121.786563,
+            39.710186
+        ]
+    ],
+    "relationships": []
 }

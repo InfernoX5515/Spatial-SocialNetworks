@@ -5,7 +5,19 @@
     "email": "johnpaul@hotmail.com",
     "birthdate": "2005-01-20",
     "phone": "449.100.3521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        15,
+        7,
+        3,
+        34,
+        48
+    ],
+    "login locations": [
+        [
+            -122.258504,
+            37.758926
+        ]
+    ],
+    "relationships": []
 }

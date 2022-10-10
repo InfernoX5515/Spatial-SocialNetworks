@@ -5,7 +5,27 @@
     "email": "aguilarjames@gmail.com",
     "birthdate": "1918-07-30",
     "phone": "804-127-5046",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        44,
+        38,
+        1,
+        48,
+        51,
+        5,
+        73,
+        36,
+        31,
+        55,
+        27,
+        68,
+        31
+    ],
+    "login locations": [
+        [
+            -117.242584,
+            34.054894
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "janebartlett@hotmail.com",
     "birthdate": "1984-07-04",
     "phone": "(328)245-8943",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        31,
+        16,
+        23,
+        9
+    ],
+    "login locations": [
+        [
+            -122.079966,
+            37.604432
+        ]
+    ],
+    "relationships": []
 }

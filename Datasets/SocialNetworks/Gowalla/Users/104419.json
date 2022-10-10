@@ -5,7 +5,25 @@
     "email": "umoore@yahoo.com",
     "birthdate": "1919-12-08",
     "phone": "698-871-1568x8085",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16
+    ],
+    "login locations": [
+        [
+            -122.300709,
+            37.545923
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                28633,
+                0.0413223140496
+            ],
+            [
+                28633,
+                0.0413223140496
+            ]
+        ]
+    ]
 }

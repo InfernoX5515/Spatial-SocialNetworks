@@ -5,7 +5,37 @@
     "email": "darrelljenkins@gmail.com",
     "birthdate": "1939-11-24",
     "phone": "+1-416-249-2618",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        56,
+        33,
+        68,
+        30,
+        67,
+        40,
+        59,
+        17,
+        51,
+        14,
+        51,
+        35
+    ],
+    "login locations": [
+        [
+            -122.14862,
+            37.645122
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1315,
+                0.258620689655
+            ],
+            [
+                44529,
+                0.02
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,21 @@
     "email": "shannonalexandra@yahoo.com",
     "birthdate": "2008-02-03",
     "phone": "776.318.8479",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        22,
+        56,
+        9,
+        7,
+        7,
+        25,
+        47
+    ],
+    "login locations": [
+        [
+            -118.4146,
+            33.983086
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "joshua02@gmail.com",
     "birthdate": "1975-12-23",
     "phone": "123-526-1647",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        3,
+        41,
+        43
+    ],
+    "login locations": [
+        [
+            -122.413057,
+            37.773002
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.01
+            ],
+            [
+                333,
+                0.01
+            ]
+        ]
+    ]
 }

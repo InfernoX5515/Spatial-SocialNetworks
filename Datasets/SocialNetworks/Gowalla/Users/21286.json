@@ -5,7 +5,25 @@
     "email": "katherine08@hotmail.com",
     "birthdate": "1984-12-17",
     "phone": "246.719.9702",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        23,
+        25,
+        57,
+        33,
+        58,
+        74,
+        48,
+        6,
+        42,
+        52,
+        68
+    ],
+    "login locations": [
+        [
+            -122.060902,
+            37.387184
+        ]
+    ],
+    "relationships": []
 }

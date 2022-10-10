@@ -5,7 +5,22 @@
     "email": "samanthapalmer@gmail.com",
     "birthdate": "2013-08-10",
     "phone": "+1-613-072-8627x60370",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        10,
+        69,
+        47,
+        55,
+        34,
+        9,
+        33,
+        58
+    ],
+    "login locations": [
+        [
+            -122.401288,
+            37.7839
+        ]
+    ],
+    "relationships": []
 }

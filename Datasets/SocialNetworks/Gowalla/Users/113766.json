@@ -5,7 +5,26 @@
     "email": "clarkekimberly@gmail.com",
     "birthdate": "1965-06-02",
     "phone": "763-641-2946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        14,
+        38,
+        41,
+        51,
+        45,
+        39,
+        74,
+        7,
+        48,
+        42,
+        26,
+        7
+    ],
+    "login locations": [
+        [
+            -117.232005,
+            33.595677
+        ]
+    ],
+    "relationships": []
 }

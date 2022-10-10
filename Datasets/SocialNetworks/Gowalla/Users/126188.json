@@ -5,7 +5,17 @@
     "email": "matthew07@yahoo.com",
     "birthdate": "1966-09-22",
     "phone": "159-499-1874x02748",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        4,
+        57,
+        36
+    ],
+    "login locations": [
+        [
+            -121.931149,
+            37.346476
+        ]
+    ],
+    "relationships": []
 }

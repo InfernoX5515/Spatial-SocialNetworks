@@ -5,7 +5,26 @@
     "email": "dale84@gmail.com",
     "birthdate": "1969-08-13",
     "phone": "638-827-8020",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        55,
+        22,
+        24,
+        7,
+        39,
+        45,
+        18,
+        5,
+        14,
+        40,
+        51,
+        68
+    ],
+    "login locations": [
+        [
+            -118.212728,
+            34.136749
+        ]
+    ],
+    "relationships": []
 }

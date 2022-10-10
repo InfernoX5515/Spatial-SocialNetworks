@@ -5,7 +5,25 @@
     "email": "montoyaricardo@yahoo.com",
     "birthdate": "1974-11-28",
     "phone": "493.016.6871x928",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71
+    ],
+    "login locations": [
+        [
+            -118.35902,
+            34.141155
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                129474,
+                0.142857142857
+            ],
+            [
+                129474,
+                0.142857142857
+            ]
+        ]
+    ]
 }

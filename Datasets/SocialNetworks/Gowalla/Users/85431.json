@@ -5,7 +5,19 @@
     "email": "gina16@yahoo.com",
     "birthdate": "1990-04-01",
     "phone": "(465)337-9905x908",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        58,
+        37,
+        30,
+        32,
+        9
+    ],
+    "login locations": [
+        [
+            -118.400287,
+            33.926729
+        ]
+    ],
+    "relationships": []
 }

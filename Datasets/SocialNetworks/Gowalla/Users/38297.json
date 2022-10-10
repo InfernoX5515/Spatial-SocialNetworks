@@ -5,7 +5,28 @@
     "email": "agallagher@yahoo.com",
     "birthdate": "1928-12-16",
     "phone": "+1-639-774-9484",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        42,
+        0,
+        7,
+        66,
+        23,
+        65,
+        2,
+        48,
+        38,
+        72,
+        28,
+        56,
+        39,
+        6
+    ],
+    "login locations": [
+        [
+            -117.161218,
+            32.707781
+        ]
+    ],
+    "relationships": []
 }

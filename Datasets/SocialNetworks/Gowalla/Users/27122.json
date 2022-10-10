@@ -5,7 +5,17 @@
     "email": "wmorgan@yahoo.com",
     "birthdate": "2002-10-19",
     "phone": "157.688.9068x0523",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        69,
+        17,
+        45
+    ],
+    "login locations": [
+        [
+            -121.977835,
+            37.252772
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "carterjames@hotmail.com",
     "birthdate": "1972-10-15",
     "phone": "946.311.6464x72763",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        14,
+        14,
+        37,
+        13
+    ],
+    "login locations": [
+        [
+            -120.401192,
+            34.89555
+        ]
+    ],
+    "relationships": []
 }

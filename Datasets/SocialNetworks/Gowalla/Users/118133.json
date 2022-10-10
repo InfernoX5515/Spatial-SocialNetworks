@@ -5,7 +5,12 @@
     "email": "nroy@hotmail.com",
     "birthdate": "1970-07-29",
     "phone": "001-637-626-8906x6747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -116.388062,
+            33.735087
+        ]
+    ],
+    "relationships": []
 }

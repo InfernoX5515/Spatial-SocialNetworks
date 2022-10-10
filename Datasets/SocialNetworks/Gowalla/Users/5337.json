@@ -5,7 +5,16 @@
     "email": "daniel56@hotmail.com",
     "birthdate": "1940-04-23",
     "phone": "431-057-6724x95696",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        52,
+        42
+    ],
+    "login locations": [
+        [
+            -122.449869,
+            37.82355
+        ]
+    ],
+    "relationships": []
 }

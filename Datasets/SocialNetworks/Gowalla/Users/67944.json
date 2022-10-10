@@ -5,7 +5,14 @@
     "email": "mark33@yahoo.com",
     "birthdate": "2016-09-12",
     "phone": "+1-424-087-7553x152",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71
+    ],
+    "login locations": [
+        [
+            -118.72532,
+            34.113961
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "molinaelizabeth@hotmail.com",
     "birthdate": "1974-12-20",
     "phone": "9386714945",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        56,
+        10,
+        63,
+        70,
+        8
+    ],
+    "login locations": [
+        [
+            -117.911321,
+            33.873077
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "ibrown@yahoo.com",
     "birthdate": "1964-05-21",
     "phone": "1130497068",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        64,
+        67,
+        19,
+        22,
+        11,
+        27,
+        9,
+        7
+    ],
+    "login locations": [
+        [
+            -117.150196,
+            32.798221
+        ]
+    ],
+    "relationships": []
 }

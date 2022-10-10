@@ -5,7 +5,34 @@
     "email": "powellpatrick@gmail.com",
     "birthdate": "1991-07-11",
     "phone": "306-785-0217x93910",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        3,
+        43,
+        29,
+        45,
+        28,
+        24,
+        62,
+        13,
+        0
+    ],
+    "login locations": [
+        [
+            -122.417865,
+            37.810001
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38623,
+                0.0161290322581
+            ],
+            [
+                38623,
+                0.0161290322581
+            ]
+        ]
+    ]
 }

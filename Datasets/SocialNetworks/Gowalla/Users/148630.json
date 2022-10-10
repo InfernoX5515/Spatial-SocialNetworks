@@ -5,7 +5,24 @@
     "email": "simmonsdiana@yahoo.com",
     "birthdate": "1970-10-20",
     "phone": "001-571-317-1246x49661",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        40,
+        61,
+        61,
+        27,
+        34,
+        10,
+        36,
+        53,
+        74,
+        21
+    ],
+    "login locations": [
+        [
+            -117.895847,
+            33.673946
+        ]
+    ],
+    "relationships": []
 }

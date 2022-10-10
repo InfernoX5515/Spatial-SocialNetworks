@@ -5,7 +5,23 @@
     "email": "barbaramiller@hotmail.com",
     "birthdate": "2014-11-17",
     "phone": "611-973-5354x77786",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        70,
+        63,
+        32,
+        23,
+        51,
+        58,
+        19,
+        24,
+        59
+    ],
+    "login locations": [
+        [
+            -122.061823,
+            37.387496
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "houseleslie@hotmail.com",
     "birthdate": "1943-07-24",
     "phone": "001-077-910-4276x564",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        44,
+        58,
+        52,
+        51,
+        35,
+        56,
+        19,
+        18,
+        23,
+        72,
+        73,
+        66
+    ],
+    "login locations": [
+        [
+            -122.323926,
+            37.808422
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "ronaldrobinson@yahoo.com",
     "birthdate": "1950-05-18",
     "phone": "+1-526-739-4450",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        61,
+        55
+    ],
+    "login locations": [
+        [
+            -118.373203,
+            33.880434
+        ]
+    ],
+    "relationships": []
 }

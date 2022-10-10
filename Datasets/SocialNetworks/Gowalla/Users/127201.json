@@ -5,7 +5,18 @@
     "email": "bsparks@yahoo.com",
     "birthdate": "1957-02-02",
     "phone": "+1-295-452-6769x0914",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        40,
+        9,
+        64,
+        36
+    ],
+    "login locations": [
+        [
+            -122.08375,
+            37.419809
+        ]
+    ],
+    "relationships": []
 }

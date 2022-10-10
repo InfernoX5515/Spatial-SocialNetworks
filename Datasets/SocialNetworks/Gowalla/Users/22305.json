@@ -5,7 +5,33 @@
     "email": "kristin40@gmail.com",
     "birthdate": "1974-12-01",
     "phone": "491.653.0188x2337",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        63,
+        23,
+        49,
+        9,
+        14,
+        60,
+        26,
+        11
+    ],
+    "login locations": [
+        [
+            -122.435041,
+            37.763411
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                246,
+                0.012987012987
+            ],
+            [
+                246,
+                0.012987012987
+            ]
+        ]
+    ]
 }

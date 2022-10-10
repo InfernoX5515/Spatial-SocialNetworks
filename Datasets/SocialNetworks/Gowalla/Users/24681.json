@@ -5,7 +5,22 @@
     "email": "brooke75@hotmail.com",
     "birthdate": "1929-02-15",
     "phone": "(401)754-1037",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        54,
+        40,
+        9,
+        75,
+        47,
+        41,
+        17,
+        32
+    ],
+    "login locations": [
+        [
+            -122.404122,
+            37.787008
+        ]
+    ],
+    "relationships": []
 }

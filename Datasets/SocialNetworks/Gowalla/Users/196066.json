@@ -5,7 +5,18 @@
     "email": "sharpchristopher@hotmail.com",
     "birthdate": "1979-06-28",
     "phone": "064-953-6250x9928",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        33,
+        70,
+        43,
+        51
+    ],
+    "login locations": [
+        [
+            -122.409642,
+            37.847542
+        ]
+    ],
+    "relationships": []
 }

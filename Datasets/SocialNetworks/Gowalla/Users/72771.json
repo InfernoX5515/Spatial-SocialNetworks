@@ -5,7 +5,17 @@
     "email": "taylorjeffrey@yahoo.com",
     "birthdate": "1980-02-26",
     "phone": "001-727-676-7901x412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        58,
+        39,
+        19
+    ],
+    "login locations": [
+        [
+            -117.331625,
+            33.948774
+        ]
+    ],
+    "relationships": []
 }

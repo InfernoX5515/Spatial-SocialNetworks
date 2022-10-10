@@ -5,7 +5,26 @@
     "email": "freyterri@gmail.com",
     "birthdate": "1941-01-02",
     "phone": "+1-414-872-8090x4686",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        28,
+        57,
+        26,
+        27,
+        32,
+        12,
+        59,
+        49,
+        50,
+        55,
+        64,
+        22
+    ],
+    "login locations": [
+        [
+            -122.511954,
+            37.891633
+        ]
+    ],
+    "relationships": []
 }

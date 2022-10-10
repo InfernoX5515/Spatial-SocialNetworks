@@ -5,7 +5,15 @@
     "email": "hamiltonbrenda@yahoo.com",
     "birthdate": "2003-11-28",
     "phone": "967.298.4832",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        10
+    ],
+    "login locations": [
+        [
+            -122.116365,
+            37.365483
+        ]
+    ],
+    "relationships": []
 }

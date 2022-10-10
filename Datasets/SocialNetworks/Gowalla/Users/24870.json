@@ -5,7 +5,39 @@
     "email": "marcmeyers@hotmail.com",
     "birthdate": "2020-08-18",
     "phone": "971-677-3869",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        0,
+        68,
+        18,
+        60,
+        29,
+        40,
+        18,
+        64,
+        41,
+        43,
+        53,
+        5,
+        11,
+        1
+    ],
+    "login locations": [
+        [
+            -122.410201,
+            37.776049
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4391,
+                0.0348071495767
+            ],
+            [
+                6221,
+                0.01
+            ]
+        ]
+    ]
 }

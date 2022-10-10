@@ -5,7 +5,15 @@
     "email": "patriciacollins@hotmail.com",
     "birthdate": "2018-02-18",
     "phone": "(352)649-5057x42712",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        1
+    ],
+    "login locations": [
+        [
+            -117.61891,
+            33.849499
+        ]
+    ],
+    "relationships": []
 }

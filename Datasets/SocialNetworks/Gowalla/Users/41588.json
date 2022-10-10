@@ -5,7 +5,30 @@
     "email": "ashley69@gmail.com",
     "birthdate": "1982-05-27",
     "phone": "7725888017",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        73,
+        45,
+        59,
+        59,
+        75
+    ],
+    "login locations": [
+        [
+            -118.137336,
+            33.878179
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                36424,
+                0.0294117647059
+            ],
+            [
+                67250,
+                0.166666666667
+            ]
+        ]
+    ]
 }

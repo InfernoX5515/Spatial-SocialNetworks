@@ -5,7 +5,22 @@
     "email": "cory78@yahoo.com",
     "birthdate": "2017-06-13",
     "phone": "790-906-5453",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        48,
+        14,
+        1,
+        12,
+        59,
+        58,
+        66,
+        59
+    ],
+    "login locations": [
+        [
+            -122.376407,
+            37.72131
+        ]
+    ],
+    "relationships": []
 }

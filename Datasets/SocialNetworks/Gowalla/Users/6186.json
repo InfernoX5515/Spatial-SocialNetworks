@@ -5,7 +5,26 @@
     "email": "richardsonkayla@yahoo.com",
     "birthdate": "1978-12-03",
     "phone": "+1-382-148-4661x30710",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        42,
+        62,
+        16,
+        3,
+        45,
+        20,
+        75,
+        56,
+        29,
+        50,
+        69,
+        14
+    ],
+    "login locations": [
+        [
+            -122.013798,
+            37.679033
+        ]
+    ],
+    "relationships": []
 }

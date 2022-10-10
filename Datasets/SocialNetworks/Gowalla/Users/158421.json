@@ -5,7 +5,17 @@
     "email": "johnsonstephanie@hotmail.com",
     "birthdate": "1956-11-15",
     "phone": "304-600-3042",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        1,
+        44,
+        9
+    ],
+    "login locations": [
+        [
+            -121.651361,
+            37.113988
+        ]
+    ],
+    "relationships": []
 }

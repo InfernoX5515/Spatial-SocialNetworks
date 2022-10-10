@@ -5,7 +5,17 @@
     "email": "lori46@hotmail.com",
     "birthdate": "1959-11-21",
     "phone": "452-865-8688x703",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        15,
+        46,
+        27
+    ],
+    "login locations": [
+        [
+            -122.29877,
+            37.590625
+        ]
+    ],
+    "relationships": []
 }

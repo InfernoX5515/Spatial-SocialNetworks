@@ -5,7 +5,19 @@
     "email": "dgarcia@hotmail.com",
     "birthdate": "1991-07-16",
     "phone": "+1-708-135-4910x4224",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        51,
+        47,
+        4,
+        56,
+        69
+    ],
+    "login locations": [
+        [
+            -122.368639,
+            37.84176
+        ]
+    ],
+    "relationships": []
 }

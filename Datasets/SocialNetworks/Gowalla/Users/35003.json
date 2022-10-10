@@ -5,7 +5,28 @@
     "email": "gina44@hotmail.com",
     "birthdate": "1923-03-08",
     "phone": "389-508-5246x155",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        68,
+        65,
+        43,
+        35,
+        19,
+        60,
+        23,
+        12,
+        34,
+        22,
+        54,
+        20,
+        6,
+        53
+    ],
+    "login locations": [
+        [
+            -117.390583,
+            33.9352
+        ]
+    ],
+    "relationships": []
 }

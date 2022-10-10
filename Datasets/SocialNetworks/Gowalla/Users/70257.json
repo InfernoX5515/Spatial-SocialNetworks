@@ -5,7 +5,16 @@
     "email": "hannah29@hotmail.com",
     "birthdate": "1951-11-26",
     "phone": "(592)672-8800",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        20,
+        13
+    ],
+    "login locations": [
+        [
+            -122.400536,
+            37.76608
+        ]
+    ],
+    "relationships": []
 }

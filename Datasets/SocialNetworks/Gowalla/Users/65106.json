@@ -5,7 +5,17 @@
     "email": "brandi99@yahoo.com",
     "birthdate": "1933-07-05",
     "phone": "958.016.7793x65236",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        68,
+        4,
+        64
+    ],
+    "login locations": [
+        [
+            -122.412727,
+            37.759441
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "patrickmarcus@gmail.com",
     "birthdate": "1944-09-30",
     "phone": "043-751-3328x882",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.63382,
+            34.104795
+        ]
+    ],
+    "relationships": []
 }

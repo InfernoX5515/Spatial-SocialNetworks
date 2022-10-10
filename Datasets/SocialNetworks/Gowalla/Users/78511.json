@@ -5,7 +5,38 @@
     "email": "isaacjones@gmail.com",
     "birthdate": "1929-09-15",
     "phone": "001-086-260-4980",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        0,
+        67,
+        70,
+        22,
+        65,
+        36,
+        45,
+        4,
+        64,
+        54,
+        21,
+        20,
+        7
+    ],
+    "login locations": [
+        [
+            -122.416221,
+            37.759286
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6398,
+                0.02
+            ],
+            [
+                6398,
+                0.02
+            ]
+        ]
+    ]
 }

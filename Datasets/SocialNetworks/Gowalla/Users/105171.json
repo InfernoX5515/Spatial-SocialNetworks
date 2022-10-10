@@ -5,7 +5,25 @@
     "email": "morrowalexandra@gmail.com",
     "birthdate": "1941-12-15",
     "phone": "+1-654-502-6430x8662",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        17,
+        34,
+        60,
+        24,
+        6,
+        50,
+        70,
+        16,
+        53,
+        6,
+        35
+    ],
+    "login locations": [
+        [
+            -122.358011,
+            38.036296
+        ]
+    ],
+    "relationships": []
 }

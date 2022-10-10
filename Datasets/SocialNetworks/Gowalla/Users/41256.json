@@ -5,7 +5,18 @@
     "email": "richardarnold@hotmail.com",
     "birthdate": "1957-08-27",
     "phone": "626-424-3153",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        23,
+        51,
+        45,
+        67
+    ],
+    "login locations": [
+        [
+            -122.367479,
+            37.738018
+        ]
+    ],
+    "relationships": []
 }

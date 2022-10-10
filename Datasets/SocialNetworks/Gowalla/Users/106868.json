@@ -5,7 +5,28 @@
     "email": "brownbrian@yahoo.com",
     "birthdate": "1932-12-10",
     "phone": "1578911271",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        7,
+        67,
+        27,
+        73,
+        30,
+        22,
+        46,
+        61,
+        12,
+        8,
+        74,
+        54,
+        55,
+        75
+    ],
+    "login locations": [
+        [
+            -118.267157,
+            34.043023
+        ]
+    ],
+    "relationships": []
 }

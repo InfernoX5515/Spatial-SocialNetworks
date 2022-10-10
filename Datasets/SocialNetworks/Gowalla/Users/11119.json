@@ -5,7 +5,39 @@
     "email": "martinezpamela@yahoo.com",
     "birthdate": "1917-08-18",
     "phone": "(047)053-4263x249",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        30,
+        63,
+        36,
+        40,
+        13,
+        11,
+        6,
+        35,
+        50,
+        31,
+        6,
+        65,
+        42,
+        16
+    ],
+    "login locations": [
+        [
+            -118.121866,
+            33.838543
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5844,
+                0.01
+            ],
+            [
+                5844,
+                0.01
+            ]
+        ]
+    ]
 }

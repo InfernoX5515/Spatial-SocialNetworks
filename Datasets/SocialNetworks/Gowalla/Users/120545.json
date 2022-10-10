@@ -5,7 +5,14 @@
     "email": "jamiebooth@gmail.com",
     "birthdate": "1958-02-19",
     "phone": "524-372-6762",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49
+    ],
+    "login locations": [
+        [
+            -117.598774,
+            33.461347
+        ]
+    ],
+    "relationships": []
 }

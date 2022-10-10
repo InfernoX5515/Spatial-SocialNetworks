@@ -5,7 +5,20 @@
     "email": "williamslauren@gmail.com",
     "birthdate": "1966-10-29",
     "phone": "(292)054-6710x1412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        8,
+        35,
+        3,
+        42,
+        72,
+        36
+    ],
+    "login locations": [
+        [
+            -118.431353,
+            34.056177
+        ]
+    ],
+    "relationships": []
 }

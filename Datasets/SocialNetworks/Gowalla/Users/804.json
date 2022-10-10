@@ -5,7 +5,28 @@
     "email": "amy72@yahoo.com",
     "birthdate": "2017-01-25",
     "phone": "001-987-229-3339x510",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        69,
+        26,
+        35,
+        32,
+        9,
+        65,
+        59,
+        59,
+        64,
+        43,
+        14,
+        53,
+        22,
+        39
+    ],
+    "login locations": [
+        [
+            -122.179529,
+            37.791222
+        ]
+    ],
+    "relationships": []
 }

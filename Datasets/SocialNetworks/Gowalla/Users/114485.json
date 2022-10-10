@@ -5,7 +5,14 @@
     "email": "angiejones@hotmail.com",
     "birthdate": "1975-07-12",
     "phone": "+1-182-973-0696",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2
+    ],
+    "login locations": [
+        [
+            -121.877791,
+            37.81035
+        ]
+    ],
+    "relationships": []
 }

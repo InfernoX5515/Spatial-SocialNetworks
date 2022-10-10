@@ -5,7 +5,34 @@
     "email": "xdavis@yahoo.com",
     "birthdate": "1974-06-27",
     "phone": "(233)211-7782x7145",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        63,
+        16,
+        30,
+        26,
+        18,
+        46,
+        24,
+        47,
+        33
+    ],
+    "login locations": [
+        [
+            -119.650748,
+            34.423612
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                103021,
+                0.0716845878136
+            ],
+            [
+                103021,
+                0.0716845878136
+            ]
+        ]
+    ]
 }

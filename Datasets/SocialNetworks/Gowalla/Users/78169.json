@@ -5,7 +5,19 @@
     "email": "michael66@hotmail.com",
     "birthdate": "2006-08-01",
     "phone": "(134)585-3088x13932",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        58,
+        55,
+        48,
+        2,
+        51
+    ],
+    "login locations": [
+        [
+            -118.289402,
+            33.831788
+        ]
+    ],
+    "relationships": []
 }

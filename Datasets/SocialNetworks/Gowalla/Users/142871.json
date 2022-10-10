@@ -5,7 +5,16 @@
     "email": "roachsteven@yahoo.com",
     "birthdate": "1907-08-07",
     "phone": "+1-969-052-3740x42787",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        69,
+        63
+    ],
+    "login locations": [
+        [
+            -117.154012,
+            32.749644
+        ]
+    ],
+    "relationships": []
 }

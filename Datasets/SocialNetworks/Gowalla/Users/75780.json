@@ -5,7 +5,19 @@
     "email": "johnsonmarc@yahoo.com",
     "birthdate": "1970-06-04",
     "phone": "9245043992",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        14,
+        0,
+        12,
+        53,
+        10
+    ],
+    "login locations": [
+        [
+            -118.488632,
+            34.016811
+        ]
+    ],
+    "relationships": []
 }

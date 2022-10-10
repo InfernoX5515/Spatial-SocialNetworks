@@ -5,7 +5,25 @@
     "email": "kerriolsen@hotmail.com",
     "birthdate": "1952-02-08",
     "phone": "001-305-057-5399x05804",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        72,
+        30,
+        21,
+        9,
+        49,
+        68,
+        62,
+        9,
+        8,
+        15,
+        73
+    ],
+    "login locations": [
+        [
+            -122.414773,
+            37.757197
+        ]
+    ],
+    "relationships": []
 }

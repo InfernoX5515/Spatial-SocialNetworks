@@ -5,7 +5,24 @@
     "email": "millerlarry@yahoo.com",
     "birthdate": "1922-03-06",
     "phone": "381.889.3966x4997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        59,
+        11,
+        63,
+        59,
+        10,
+        32,
+        41,
+        6,
+        38,
+        44
+    ],
+    "login locations": [
+        [
+            -118.622405,
+            34.159457
+        ]
+    ],
+    "relationships": []
 }

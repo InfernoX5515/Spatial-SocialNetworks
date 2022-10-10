@@ -5,7 +5,15 @@
     "email": "antonio69@gmail.com",
     "birthdate": "1993-05-18",
     "phone": "001-505-277-1207x78199",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        48
+    ],
+    "login locations": [
+        [
+            -118.399215,
+            33.94092
+        ]
+    ],
+    "relationships": []
 }

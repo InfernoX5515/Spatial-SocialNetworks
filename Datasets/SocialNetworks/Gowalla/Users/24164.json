@@ -5,7 +5,16 @@
     "email": "ugonzalez@yahoo.com",
     "birthdate": "2002-06-06",
     "phone": "8211589259",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        58,
+        18
+    ],
+    "login locations": [
+        [
+            -122.396221,
+            37.735605
+        ]
+    ],
+    "relationships": []
 }

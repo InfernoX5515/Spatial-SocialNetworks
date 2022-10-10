@@ -5,7 +5,14 @@
     "email": "richard79@yahoo.com",
     "birthdate": "1912-07-10",
     "phone": "083-203-7423",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72
+    ],
+    "login locations": [
+        [
+            -122.380777,
+            37.790118
+        ]
+    ],
+    "relationships": []
 }

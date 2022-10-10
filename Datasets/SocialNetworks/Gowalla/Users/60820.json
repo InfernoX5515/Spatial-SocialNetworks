@@ -5,7 +5,35 @@
     "email": "douglasharris@yahoo.com",
     "birthdate": "1951-04-15",
     "phone": "001-634-024-3927",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        67,
+        30,
+        72,
+        43,
+        15,
+        46,
+        11,
+        39,
+        41,
+        72
+    ],
+    "login locations": [
+        [
+            -118.032333,
+            34.000522
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2124,
+                0.032
+            ],
+            [
+                2124,
+                0.032
+            ]
+        ]
+    ]
 }

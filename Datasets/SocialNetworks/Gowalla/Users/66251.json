@@ -5,7 +5,21 @@
     "email": "qcox@gmail.com",
     "birthdate": "1933-12-20",
     "phone": "(257)231-9748x0242",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        66,
+        20,
+        28,
+        70,
+        53,
+        73,
+        13
+    ],
+    "login locations": [
+        [
+            -122.147847,
+            37.724271
+        ]
+    ],
+    "relationships": []
 }

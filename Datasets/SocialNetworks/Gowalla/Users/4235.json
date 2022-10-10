@@ -5,7 +5,39 @@
     "email": "hernandezmelissa@yahoo.com",
     "birthdate": "1914-10-06",
     "phone": "228.116.7767x31577",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        75,
+        37,
+        48,
+        56,
+        18,
+        46,
+        23,
+        2,
+        63,
+        27,
+        61,
+        14,
+        47,
+        30
+    ],
+    "login locations": [
+        [
+            -122.436802,
+            37.773157
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4253,
+                0.758620689655
+            ],
+            [
+                4256,
+                0.586206896552
+            ]
+        ]
+    ]
 }

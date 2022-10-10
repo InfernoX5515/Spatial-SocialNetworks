@@ -5,7 +5,20 @@
     "email": "susan26@gmail.com",
     "birthdate": "1942-06-02",
     "phone": "820.959.6476",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        8,
+        28,
+        2,
+        71,
+        71,
+        4
+    ],
+    "login locations": [
+        [
+            -118.30922,
+            34.002115
+        ]
+    ],
+    "relationships": []
 }

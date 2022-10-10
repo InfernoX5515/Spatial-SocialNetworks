@@ -5,7 +5,17 @@
     "email": "david48@hotmail.com",
     "birthdate": "1991-04-25",
     "phone": "001-068-221-1889",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        55,
+        2,
+        69
+    ],
+    "login locations": [
+        [
+            -119.783477,
+            36.812403
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,35 @@
     "email": "thomaswillis@hotmail.com",
     "birthdate": "1938-12-12",
     "phone": "7378715108",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        56,
+        44,
+        64,
+        61,
+        64,
+        71,
+        54,
+        17,
+        15,
+        9
+    ],
+    "login locations": [
+        [
+            -119.067186,
+            35.376713
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                100417,
+                0.177777777778
+            ],
+            [
+                100414,
+                0.31884057971
+            ]
+        ]
+    ]
 }

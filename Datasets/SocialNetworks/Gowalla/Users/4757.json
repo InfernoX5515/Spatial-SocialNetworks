@@ -5,7 +5,39 @@
     "email": "hendersonanthony@gmail.com",
     "birthdate": "1987-07-10",
     "phone": "355.638.8498x5248",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        58,
+        23,
+        36,
+        67,
+        30,
+        47,
+        34,
+        63,
+        9,
+        45,
+        41,
+        3,
+        9,
+        54
+    ],
+    "login locations": [
+        [
+            -117.167664,
+            33.682941
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                324,
+                0.0107692307692
+            ],
+            [
+                484,
+                0.0292397660819
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,29 @@
     "email": "christine05@hotmail.com",
     "birthdate": "2007-10-10",
     "phone": "+1-021-262-3293x11448",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        20,
+        10,
+        20,
+        31
+    ],
+    "login locations": [
+        [
+            -115.436326,
+            32.627101
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                130165,
+                0.0625
+            ],
+            [
+                130165,
+                0.0625
+            ]
+        ]
+    ]
 }

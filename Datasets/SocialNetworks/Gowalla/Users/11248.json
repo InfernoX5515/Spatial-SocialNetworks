@@ -5,7 +5,18 @@
     "email": "mosleyjohnny@gmail.com",
     "birthdate": "1990-01-21",
     "phone": "635.866.8830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        17,
+        73,
+        29,
+        15
+    ],
+    "login locations": [
+        [
+            -117.923702,
+            33.844267
+        ]
+    ],
+    "relationships": []
 }

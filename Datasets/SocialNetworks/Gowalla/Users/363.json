@@ -5,7 +5,37 @@
     "email": "katkins@yahoo.com",
     "birthdate": "2017-11-28",
     "phone": "(321)812-5004",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        51,
+        7,
+        48,
+        62,
+        32,
+        17,
+        45,
+        11,
+        50,
+        54,
+        34,
+        47
+    ],
+    "login locations": [
+        [
+            -122.412541,
+            37.768006
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                338,
+                0.0280519480519
+            ],
+            [
+                2070,
+                0.05
+            ]
+        ]
+    ]
 }

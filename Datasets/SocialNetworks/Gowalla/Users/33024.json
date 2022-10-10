@@ -5,7 +5,25 @@
     "email": "clementsrobert@hotmail.com",
     "birthdate": "1911-02-26",
     "phone": "(132)166-4528",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        61,
+        46,
+        7,
+        16,
+        73,
+        7,
+        42,
+        21,
+        5,
+        69,
+        18
+    ],
+    "login locations": [
+        [
+            -122.297518,
+            37.853976
+        ]
+    ],
+    "relationships": []
 }

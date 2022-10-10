@@ -5,7 +5,24 @@
     "email": "wroberts@yahoo.com",
     "birthdate": "1989-10-20",
     "phone": "8480235871",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        32,
+        23,
+        69,
+        25,
+        54,
+        53,
+        71,
+        59,
+        63,
+        46
+    ],
+    "login locations": [
+        [
+            -122.139989,
+            37.414341
+        ]
+    ],
+    "relationships": []
 }

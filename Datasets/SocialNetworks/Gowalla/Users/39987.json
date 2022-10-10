@@ -5,7 +5,16 @@
     "email": "whitemargaret@hotmail.com",
     "birthdate": "2017-05-13",
     "phone": "748-175-2911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        30,
+        67
+    ],
+    "login locations": [
+        [
+            -122.406815,
+            37.790544
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "pherrera@gmail.com",
     "birthdate": "1920-07-16",
     "phone": "161.180.5410",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        12,
+        51
+    ],
+    "login locations": [
+        [
+            -117.021361,
+            32.750374
+        ]
+    ],
+    "relationships": []
 }

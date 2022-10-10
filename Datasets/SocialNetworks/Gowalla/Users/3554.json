@@ -5,7 +5,34 @@
     "email": "carrie40@yahoo.com",
     "birthdate": "1966-12-18",
     "phone": "001-044-575-8492x203",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        69,
+        40,
+        73,
+        38,
+        20,
+        41,
+        54,
+        67,
+        28
+    ],
+    "login locations": [
+        [
+            -118.315504,
+            34.037473
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.030303030303
+            ],
+            [
+                276,
+                0.0126582278481
+            ]
+        ]
+    ]
 }

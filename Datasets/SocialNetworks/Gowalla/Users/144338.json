@@ -5,7 +5,24 @@
     "email": "brian34@hotmail.com",
     "birthdate": "2010-06-04",
     "phone": "935-983-2394x9786",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        18,
+        27,
+        32,
+        15,
+        36,
+        51,
+        8,
+        30,
+        34,
+        1
+    ],
+    "login locations": [
+        [
+            -117.165745,
+            32.768241
+        ]
+    ],
+    "relationships": []
 }

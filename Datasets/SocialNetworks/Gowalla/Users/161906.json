@@ -5,7 +5,12 @@
     "email": "wilsonbrittany@gmail.com",
     "birthdate": "1988-05-05",
     "phone": "845.086.5819x96586",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.295985,
+            34.106785
+        ]
+    ],
+    "relationships": []
 }

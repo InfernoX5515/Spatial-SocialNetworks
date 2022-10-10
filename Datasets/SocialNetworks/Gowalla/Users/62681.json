@@ -5,7 +5,24 @@
     "email": "williamssean@gmail.com",
     "birthdate": "2016-06-18",
     "phone": "530.626.8043x8113",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        71,
+        11,
+        65,
+        56,
+        68,
+        20,
+        38,
+        44,
+        59,
+        3
+    ],
+    "login locations": [
+        [
+            -117.915682,
+            33.816836
+        ]
+    ],
+    "relationships": []
 }

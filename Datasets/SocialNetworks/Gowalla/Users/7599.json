@@ -5,7 +5,24 @@
     "email": "tara30@gmail.com",
     "birthdate": "1995-12-06",
     "phone": "106-359-4599",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        50,
+        17,
+        32,
+        28,
+        72,
+        31,
+        74,
+        69,
+        2,
+        24
+    ],
+    "login locations": [
+        [
+            -122.145177,
+            37.424803
+        ]
+    ],
+    "relationships": []
 }

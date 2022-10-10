@@ -5,7 +5,24 @@
     "email": "michaelboyd@gmail.com",
     "birthdate": "1975-08-31",
     "phone": "+1-960-289-9409x0707",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        5,
+        36,
+        18,
+        12,
+        23,
+        48,
+        23,
+        12,
+        60,
+        64
+    ],
+    "login locations": [
+        [
+            -122.26397,
+            37.706371
+        ]
+    ],
+    "relationships": []
 }

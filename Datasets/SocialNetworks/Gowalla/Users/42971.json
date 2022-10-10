@@ -5,7 +5,23 @@
     "email": "elizabeth80@gmail.com",
     "birthdate": "1961-03-08",
     "phone": "520.258.4310",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        36,
+        71,
+        7,
+        68,
+        31,
+        73,
+        66,
+        57,
+        48
+    ],
+    "login locations": [
+        [
+            -117.396685,
+            33.945258
+        ]
+    ],
+    "relationships": []
 }

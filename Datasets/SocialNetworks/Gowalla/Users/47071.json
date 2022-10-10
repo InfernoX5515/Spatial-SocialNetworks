@@ -5,7 +5,23 @@
     "email": "jordan10@gmail.com",
     "birthdate": "1999-01-20",
     "phone": "448-325-8998x5024",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        67,
+        47,
+        52,
+        27,
+        27,
+        65,
+        6,
+        6,
+        3
+    ],
+    "login locations": [
+        [
+            -122.141985,
+            37.286133
+        ]
+    ],
+    "relationships": []
 }

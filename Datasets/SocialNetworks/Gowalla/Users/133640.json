@@ -5,7 +5,25 @@
     "email": "qmurphy@hotmail.com",
     "birthdate": "1935-12-23",
     "phone": "(805)517-0603x27891",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55
+    ],
+    "login locations": [
+        [
+            -118.295076,
+            34.107854
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                40558,
+                0.0133333333333
+            ],
+            [
+                40558,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

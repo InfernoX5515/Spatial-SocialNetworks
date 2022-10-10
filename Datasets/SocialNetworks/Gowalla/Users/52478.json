@@ -5,7 +5,18 @@
     "email": "samanthataylor@hotmail.com",
     "birthdate": "2021-04-24",
     "phone": "0843201296",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        1,
+        70,
+        58,
+        44
+    ],
+    "login locations": [
+        [
+            -122.381235,
+            37.828718
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "bgonzalez@yahoo.com",
     "birthdate": "1936-07-02",
     "phone": "500-661-6072x797",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        2,
+        56,
+        75,
+        14,
+        34,
+        0,
+        9,
+        61,
+        22,
+        16,
+        69,
+        61
+    ],
+    "login locations": [
+        [
+            -122.404879,
+            37.694689
+        ]
+    ],
+    "relationships": []
 }

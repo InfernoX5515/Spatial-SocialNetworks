@@ -5,7 +5,23 @@
     "email": "kpeterson@hotmail.com",
     "birthdate": "2000-09-09",
     "phone": "2046292268",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.349335,
+            38.060406
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.04
+            ],
+            [
+                158,
+                0.0281690140845
+            ]
+        ]
+    ]
 }

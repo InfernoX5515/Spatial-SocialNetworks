@@ -5,7 +5,39 @@
     "email": "joseph51@yahoo.com",
     "birthdate": "1964-10-30",
     "phone": "621.852.8335",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        26,
+        18,
+        22,
+        49,
+        11,
+        37,
+        26,
+        22,
+        37,
+        12,
+        16,
+        60,
+        65,
+        10
+    ],
+    "login locations": [
+        [
+            -121.054372,
+            37.687952
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39279,
+                0.0677966101695
+            ],
+            [
+                39281,
+                0.4
+            ]
+        ]
+    ]
 }

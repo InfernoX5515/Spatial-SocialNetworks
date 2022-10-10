@@ -5,7 +5,23 @@
     "email": "jeremywilson@gmail.com",
     "birthdate": "1931-12-01",
     "phone": "001-887-427-5966x61739",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        44,
+        36,
+        24,
+        3,
+        15,
+        2,
+        33,
+        31,
+        65
+    ],
+    "login locations": [
+        [
+            -119.054856,
+            34.220434
+        ]
+    ],
+    "relationships": []
 }

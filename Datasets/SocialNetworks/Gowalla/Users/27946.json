@@ -5,7 +5,12 @@
     "email": "thomaslong@yahoo.com",
     "birthdate": "1978-04-12",
     "phone": "(319)164-8287",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -116.976607,
+            32.748535
+        ]
+    ],
+    "relationships": []
 }

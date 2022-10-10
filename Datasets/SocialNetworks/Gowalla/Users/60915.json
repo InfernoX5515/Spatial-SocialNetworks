@@ -5,7 +5,19 @@
     "email": "danielsanders@yahoo.com",
     "birthdate": "2010-07-08",
     "phone": "104.273.4917",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        51,
+        62,
+        9,
+        48,
+        47
+    ],
+    "login locations": [
+        [
+            -118.80455,
+            34.151967
+        ]
+    ],
+    "relationships": []
 }

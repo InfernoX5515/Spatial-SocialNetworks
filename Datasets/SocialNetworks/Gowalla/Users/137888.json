@@ -5,7 +5,18 @@
     "email": "karen73@gmail.com",
     "birthdate": "1922-01-09",
     "phone": "(674)737-9156x740",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        40,
+        20,
+        18,
+        64
+    ],
+    "login locations": [
+        [
+            -122.3801,
+            38.068948
+        ]
+    ],
+    "relationships": []
 }

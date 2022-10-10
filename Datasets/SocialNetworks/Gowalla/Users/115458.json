@@ -5,7 +5,14 @@
     "email": "morganlisa@yahoo.com",
     "birthdate": "1937-04-20",
     "phone": "384.991.8640",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26
+    ],
+    "login locations": [
+        [
+            -119.119064,
+            34.239876
+        ]
+    ],
+    "relationships": []
 }

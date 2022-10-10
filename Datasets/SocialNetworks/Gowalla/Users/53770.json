@@ -5,7 +5,25 @@
     "email": "bakermargaret@yahoo.com",
     "birthdate": "1954-08-10",
     "phone": "001-851-283-9783x057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        73,
+        5,
+        15,
+        57,
+        72,
+        1,
+        32,
+        73,
+        48,
+        28,
+        16
+    ],
+    "login locations": [
+        [
+            -118.450072,
+            34.063014
+        ]
+    ],
+    "relationships": []
 }

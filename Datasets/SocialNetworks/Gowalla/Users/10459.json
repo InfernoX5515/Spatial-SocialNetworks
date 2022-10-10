@@ -5,7 +5,39 @@
     "email": "alyssa74@yahoo.com",
     "birthdate": "1910-06-10",
     "phone": "773-223-7840x43049",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        24,
+        4,
+        72,
+        32,
+        13,
+        36,
+        44,
+        39,
+        8,
+        61,
+        24,
+        60,
+        55,
+        58
+    ],
+    "login locations": [
+        [
+            -122.404558,
+            37.766786
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                473,
+                0.025
+            ],
+            [
+                10468,
+                0.017008797654
+            ]
+        ]
+    ]
 }

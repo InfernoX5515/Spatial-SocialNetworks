@@ -5,7 +5,30 @@
     "email": "edwardgray@yahoo.com",
     "birthdate": "1936-03-30",
     "phone": "588-605-4422",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        24,
+        44,
+        44,
+        73,
+        39
+    ],
+    "login locations": [
+        [
+            -121.971669,
+            37.342699
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                21,
+                0.08
+            ],
+            [
+                221,
+                0.1
+            ]
+        ]
+    ]
 }

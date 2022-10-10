@@ -5,7 +5,26 @@
     "email": "barbara56@gmail.com",
     "birthdate": "1911-03-20",
     "phone": "518.208.2378x940",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        9,
+        25,
+        66,
+        64,
+        36,
+        70,
+        4,
+        25,
+        25,
+        65,
+        65,
+        26
+    ],
+    "login locations": [
+        [
+            -117.975125,
+            33.795024
+        ]
+    ],
+    "relationships": []
 }

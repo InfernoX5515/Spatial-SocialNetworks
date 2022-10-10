@@ -5,7 +5,17 @@
     "email": "rlong@gmail.com",
     "birthdate": "1931-06-08",
     "phone": "+1-506-445-1945",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        49,
+        42,
+        50
+    ],
+    "login locations": [
+        [
+            -122.529281,
+            37.939441
+        ]
+    ],
+    "relationships": []
 }

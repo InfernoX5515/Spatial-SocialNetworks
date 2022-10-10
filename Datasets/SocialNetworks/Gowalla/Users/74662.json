@@ -5,7 +5,14 @@
     "email": "bryce62@yahoo.com",
     "birthdate": "2004-11-22",
     "phone": "372-227-9191x402",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56
+    ],
+    "login locations": [
+        [
+            -122.420574,
+            37.760861
+        ]
+    ],
+    "relationships": []
 }

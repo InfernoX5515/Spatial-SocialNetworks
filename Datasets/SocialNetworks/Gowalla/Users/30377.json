@@ -5,7 +5,18 @@
     "email": "markjones@hotmail.com",
     "birthdate": "1967-10-07",
     "phone": "341.654.3211x03400",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        36,
+        74,
+        31,
+        4
+    ],
+    "login locations": [
+        [
+            -122.027655,
+            37.32448
+        ]
+    ],
+    "relationships": []
 }

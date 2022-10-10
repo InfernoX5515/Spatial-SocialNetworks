@@ -5,7 +5,21 @@
     "email": "owheeler@yahoo.com",
     "birthdate": "2018-03-19",
     "phone": "820.390.1317x293",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        12,
+        69,
+        11,
+        33,
+        20,
+        33,
+        35
+    ],
+    "login locations": [
+        [
+            -122.091533,
+            37.422259
+        ]
+    ],
+    "relationships": []
 }

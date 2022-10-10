@@ -5,7 +5,25 @@
     "email": "kimberlyquinn@gmail.com",
     "birthdate": "2019-12-18",
     "phone": "+1-034-452-1482x7686",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        28,
+        13,
+        70,
+        33,
+        72,
+        25,
+        59,
+        10,
+        15,
+        62,
+        65
+    ],
+    "login locations": [
+        [
+            -121.931857,
+            37.306128
+        ]
+    ],
+    "relationships": []
 }

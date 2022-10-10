@@ -5,7 +5,14 @@
     "email": "tylersolis@hotmail.com",
     "birthdate": "1908-10-10",
     "phone": "+1-958-364-0641x2207",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15
+    ],
+    "login locations": [
+        [
+            -118.445126,
+            34.059898
+        ]
+    ],
+    "relationships": []
 }

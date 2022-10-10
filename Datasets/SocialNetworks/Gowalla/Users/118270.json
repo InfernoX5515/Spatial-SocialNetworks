@@ -5,7 +5,27 @@
     "email": "patriciamorris@gmail.com",
     "birthdate": "2010-10-26",
     "phone": "001-652-546-1289x3846",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        56,
+        47,
+        2,
+        54,
+        39,
+        31,
+        53,
+        60,
+        45,
+        11,
+        18,
+        24,
+        56
+    ],
+    "login locations": [
+        [
+            -117.263003,
+            33.053615
+        ]
+    ],
+    "relationships": []
 }

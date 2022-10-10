@@ -5,7 +5,18 @@
     "email": "connie68@yahoo.com",
     "birthdate": "1934-07-20",
     "phone": "7217351469",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        16,
+        64,
+        1,
+        11
+    ],
+    "login locations": [
+        [
+            -122.423,
+            38.058464
+        ]
+    ],
+    "relationships": []
 }

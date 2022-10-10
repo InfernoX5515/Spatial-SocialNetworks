@@ -5,7 +5,27 @@
     "email": "riddleryan@hotmail.com",
     "birthdate": "2014-10-17",
     "phone": "001-280-169-6392x000",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        49,
+        20,
+        56,
+        0,
+        14,
+        73,
+        45,
+        16,
+        61,
+        38,
+        59,
+        74,
+        62
+    ],
+    "login locations": [
+        [
+            -121.361566,
+            38.023899
+        ]
+    ],
+    "relationships": []
 }

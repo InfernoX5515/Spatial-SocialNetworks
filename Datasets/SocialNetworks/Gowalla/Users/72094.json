@@ -5,7 +5,26 @@
     "email": "david59@gmail.com",
     "birthdate": "1918-08-10",
     "phone": "097-862-6470",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        53,
+        1,
+        9,
+        50,
+        52,
+        20,
+        44,
+        62,
+        28,
+        32,
+        43,
+        7
+    ],
+    "login locations": [
+        [
+            -118.310136,
+            34.073003
+        ]
+    ],
+    "relationships": []
 }

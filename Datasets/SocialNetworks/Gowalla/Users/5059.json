@@ -5,7 +5,19 @@
     "email": "ohunt@gmail.com",
     "birthdate": "1999-08-29",
     "phone": "943.071.1909x80050",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        40,
+        37,
+        42,
+        20,
+        10
+    ],
+    "login locations": [
+        [
+            -121.983034,
+            37.329113
+        ]
+    ],
+    "relationships": []
 }

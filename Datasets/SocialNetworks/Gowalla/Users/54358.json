@@ -5,7 +5,23 @@
     "email": "carrheather@yahoo.com",
     "birthdate": "1921-05-21",
     "phone": "562-318-3775x3793",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        26,
+        62,
+        40,
+        5,
+        22,
+        60,
+        69,
+        40,
+        71
+    ],
+    "login locations": [
+        [
+            -117.754214,
+            33.945005
+        ]
+    ],
+    "relationships": []
 }

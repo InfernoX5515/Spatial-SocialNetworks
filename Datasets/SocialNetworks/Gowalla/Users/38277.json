@@ -5,7 +5,18 @@
     "email": "roberthahn@hotmail.com",
     "birthdate": "2005-06-20",
     "phone": "421-719-8930",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        13,
+        27,
+        75,
+        1
+    ],
+    "login locations": [
+        [
+            -118.357618,
+            34.076887
+        ]
+    ],
+    "relationships": []
 }

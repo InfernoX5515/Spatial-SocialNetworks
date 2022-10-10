@@ -5,7 +5,26 @@
     "email": "jameschurch@hotmail.com",
     "birthdate": "2011-05-17",
     "phone": "001-800-733-1044x9646",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        71
+    ],
+    "login locations": [
+        [
+            -122.388465,
+            37.750027
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                599,
+                0.01
+            ],
+            [
+                6632,
+                0.173913043478
+            ]
+        ]
+    ]
 }

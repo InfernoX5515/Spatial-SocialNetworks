@@ -5,7 +5,17 @@
     "email": "matthew96@yahoo.com",
     "birthdate": "1969-03-29",
     "phone": "(296)037-7561x925",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        57,
+        59,
+        14
+    ],
+    "login locations": [
+        [
+            -116.273995,
+            33.714245
+        ]
+    ],
+    "relationships": []
 }

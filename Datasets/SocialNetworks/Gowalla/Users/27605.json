@@ -5,7 +5,22 @@
     "email": "scott53@hotmail.com",
     "birthdate": "1920-06-13",
     "phone": "6686885657",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        18,
+        62,
+        55,
+        12,
+        35,
+        17,
+        53,
+        17
+    ],
+    "login locations": [
+        [
+            -119.1766,
+            36.166801
+        ]
+    ],
+    "relationships": []
 }

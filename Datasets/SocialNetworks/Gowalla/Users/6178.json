@@ -5,7 +5,23 @@
     "email": "vnorton@gmail.com",
     "birthdate": "1967-07-30",
     "phone": "001-406-253-0407",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.434333,
+            37.738685
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6381,
+                0.111111111111
+            ],
+            [
+                6381,
+                0.111111111111
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,35 @@
     "email": "fbullock@gmail.com",
     "birthdate": "2021-07-07",
     "phone": "+1-964-929-8885x874",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        68,
+        23,
+        40,
+        72,
+        35,
+        69,
+        55,
+        17,
+        34,
+        27
+    ],
+    "login locations": [
+        [
+            -121.786333,
+            37.274109
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8707,
+                0.0441988950276
+            ],
+            [
+                39047,
+                0.0526315789474
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,19 @@
     "email": "erika47@yahoo.com",
     "birthdate": "1921-01-06",
     "phone": "(323)532-7158x703",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        55,
+        47,
+        6,
+        0,
+        18
+    ],
+    "login locations": [
+        [
+            -117.188622,
+            32.732992
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "dwalls@yahoo.com",
     "birthdate": "1974-09-06",
     "phone": "828-307-6826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        34,
+        69,
+        39,
+        69,
+        53,
+        72,
+        7,
+        15,
+        65,
+        75,
+        58
+    ],
+    "login locations": [
+        [
+            -117.857067,
+            33.681047
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "smitheric@gmail.com",
     "birthdate": "1922-05-09",
     "phone": "676.958.1678",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        2,
+        56,
+        71,
+        7,
+        70,
+        19,
+        75,
+        44,
+        50,
+        40,
+        53,
+        66
+    ],
+    "login locations": [
+        [
+            -122.413695,
+            37.803347
+        ]
+    ],
+    "relationships": []
 }

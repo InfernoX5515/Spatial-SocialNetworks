@@ -5,7 +5,26 @@
     "email": "katherinemaynard@hotmail.com",
     "birthdate": "1936-07-04",
     "phone": "+1-239-372-8811x325",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        64,
+        69,
+        50,
+        61,
+        63,
+        20,
+        48,
+        34,
+        71,
+        6,
+        57,
+        4
+    ],
+    "login locations": [
+        [
+            -121.365713,
+            38.594981
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "thoffman@yahoo.com",
     "birthdate": "1926-04-11",
     "phone": "+1-990-743-4930",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        61,
+        72,
+        54
+    ],
+    "login locations": [
+        [
+            -118.270215,
+            34.091444
+        ]
+    ],
+    "relationships": []
 }

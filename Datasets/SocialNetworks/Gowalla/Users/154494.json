@@ -5,7 +5,21 @@
     "email": "catherine34@yahoo.com",
     "birthdate": "1945-06-15",
     "phone": "637-086-8333x9857",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        75,
+        24,
+        13,
+        23,
+        51,
+        23,
+        12
+    ],
+    "login locations": [
+        [
+            -121.285205,
+            38.744471
+        ]
+    ],
+    "relationships": []
 }

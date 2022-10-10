@@ -5,7 +5,23 @@
     "email": "penningtonjames@yahoo.com",
     "birthdate": "1965-05-28",
     "phone": "406.933.4359x6075",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        73,
+        17,
+        14,
+        49,
+        29,
+        25,
+        51,
+        25,
+        61
+    ],
+    "login locations": [
+        [
+            -121.960909,
+            37.363448
+        ]
+    ],
+    "relationships": []
 }

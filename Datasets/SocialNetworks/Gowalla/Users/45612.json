@@ -5,7 +5,12 @@
     "email": "evansbeth@hotmail.com",
     "birthdate": "1926-12-29",
     "phone": "274-263-0360",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.394629,
+            34.082114
+        ]
+    ],
+    "relationships": []
 }

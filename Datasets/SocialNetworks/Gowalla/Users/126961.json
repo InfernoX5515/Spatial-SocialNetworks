@@ -5,7 +5,22 @@
     "email": "ralph88@hotmail.com",
     "birthdate": "1996-05-20",
     "phone": "141.412.9646",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        50,
+        21,
+        75,
+        32,
+        9,
+        14,
+        68,
+        67
+    ],
+    "login locations": [
+        [
+            -122.430265,
+            37.765082
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "vargaselizabeth@gmail.com",
     "birthdate": "1915-03-07",
     "phone": "034-048-2720x182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        62,
+        6,
+        40,
+        10,
+        33,
+        58,
+        49,
+        14,
+        3,
+        2,
+        2,
+        42
+    ],
+    "login locations": [
+        [
+            -121.514089,
+            38.580127
+        ]
+    ],
+    "relationships": []
 }

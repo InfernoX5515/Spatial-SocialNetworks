@@ -5,7 +5,24 @@
     "email": "roberta50@hotmail.com",
     "birthdate": "1994-10-13",
     "phone": "283-853-1625x87649",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        73,
+        28,
+        44,
+        49,
+        19,
+        65,
+        73,
+        55,
+        56,
+        63
+    ],
+    "login locations": [
+        [
+            -122.410066,
+            37.794132
+        ]
+    ],
+    "relationships": []
 }

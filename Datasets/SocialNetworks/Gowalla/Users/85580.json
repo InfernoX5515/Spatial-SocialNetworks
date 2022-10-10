@@ -5,7 +5,23 @@
     "email": "mccoylarry@gmail.com",
     "birthdate": "1975-02-03",
     "phone": "+1-623-985-9217x962",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        38,
+        63,
+        22,
+        64,
+        53,
+        71,
+        61,
+        73,
+        2
+    ],
+    "login locations": [
+        [
+            -122.078713,
+            37.394177
+        ]
+    ],
+    "relationships": []
 }

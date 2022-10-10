@@ -5,7 +5,16 @@
     "email": "gravesjacqueline@gmail.com",
     "birthdate": "1965-04-16",
     "phone": "+1-823-352-8349x48042",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        65,
+        69
+    ],
+    "login locations": [
+        [
+            -121.926104,
+            37.407216
+        ]
+    ],
+    "relationships": []
 }

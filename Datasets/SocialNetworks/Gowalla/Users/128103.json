@@ -5,7 +5,23 @@
     "email": "lmonroe@hotmail.com",
     "birthdate": "1910-11-21",
     "phone": "(766)820-7240x560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        32,
+        75,
+        48,
+        8,
+        20,
+        26,
+        52,
+        37,
+        15
+    ],
+    "login locations": [
+        [
+            -118.603544,
+            34.173717
+        ]
+    ],
+    "relationships": []
 }

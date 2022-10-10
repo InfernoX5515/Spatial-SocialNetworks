@@ -5,7 +5,29 @@
     "email": "ggross@hotmail.com",
     "birthdate": "1920-04-08",
     "phone": "001-540-280-9886",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        15,
+        58,
+        39,
+        54
+    ],
+    "login locations": [
+        [
+            -118.224536,
+            34.127354
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3006,
+                0.01
+            ],
+            [
+                3006,
+                0.01
+            ]
+        ]
+    ]
 }

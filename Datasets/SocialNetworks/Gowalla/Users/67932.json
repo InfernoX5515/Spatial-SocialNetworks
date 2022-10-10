@@ -5,7 +5,27 @@
     "email": "joshua08@gmail.com",
     "birthdate": "2006-05-18",
     "phone": "636-785-3369x371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        22,
+        60,
+        10,
+        53,
+        0,
+        37,
+        73,
+        51,
+        8,
+        45,
+        20,
+        64,
+        49
+    ],
+    "login locations": [
+        [
+            -118.25567,
+            34.058179
+        ]
+    ],
+    "relationships": []
 }

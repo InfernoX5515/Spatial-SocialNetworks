@@ -5,7 +5,12 @@
     "email": "ofriedman@yahoo.com",
     "birthdate": "1988-07-06",
     "phone": "(201)775-6839",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.993581,
+            33.757988
+        ]
+    ],
+    "relationships": []
 }

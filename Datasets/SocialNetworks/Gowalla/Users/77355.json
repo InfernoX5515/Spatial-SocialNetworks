@@ -5,7 +5,12 @@
     "email": "petermaddox@yahoo.com",
     "birthdate": "1962-08-19",
     "phone": "(238)707-4640",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.882915,
+            33.80011
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "mgonzalez@yahoo.com",
     "birthdate": "1995-09-07",
     "phone": "001-134-743-3116x6495",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        45,
+        56,
+        7,
+        54,
+        70,
+        50,
+        46,
+        3,
+        7,
+        0,
+        73,
+        0,
+        12
+    ],
+    "login locations": [
+        [
+            -117.793895,
+            33.670669
+        ]
+    ],
+    "relationships": []
 }

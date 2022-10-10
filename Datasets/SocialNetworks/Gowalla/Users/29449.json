@@ -5,7 +5,25 @@
     "email": "kristen48@gmail.com",
     "birthdate": "2004-06-08",
     "phone": "296.440.3907",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        61,
+        27,
+        58,
+        75,
+        32,
+        3,
+        10,
+        23,
+        37,
+        1,
+        50
+    ],
+    "login locations": [
+        [
+            -122.41012,
+            37.80092
+        ]
+    ],
+    "relationships": []
 }

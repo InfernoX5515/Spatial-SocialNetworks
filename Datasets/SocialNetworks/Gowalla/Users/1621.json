@@ -5,7 +5,31 @@
     "email": "nbarron@gmail.com",
     "birthdate": "1966-07-07",
     "phone": "553.476.3007",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        25,
+        32,
+        19,
+        44,
+        60,
+        55
+    ],
+    "login locations": [
+        [
+            -118.768898,
+            34.164321
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                54347,
+                0.0133333333333
+            ],
+            [
+                54347,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,16 @@
     "email": "aherman@yahoo.com",
     "birthdate": "1943-12-29",
     "phone": "+1-923-875-7391x7765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        39,
+        20
+    ],
+    "login locations": [
+        [
+            -120.96225,
+            37.609541
+        ]
+    ],
+    "relationships": []
 }

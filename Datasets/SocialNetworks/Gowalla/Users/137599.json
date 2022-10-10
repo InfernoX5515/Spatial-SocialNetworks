@@ -5,7 +5,18 @@
     "email": "ricardoarroyo@gmail.com",
     "birthdate": "1954-08-12",
     "phone": "001-618-028-1425x168",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        70,
+        65,
+        73,
+        27
+    ],
+    "login locations": [
+        [
+            -121.839518,
+            36.73921
+        ]
+    ],
+    "relationships": []
 }

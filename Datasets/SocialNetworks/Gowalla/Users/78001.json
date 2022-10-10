@@ -5,7 +5,22 @@
     "email": "janekramer@gmail.com",
     "birthdate": "1995-05-24",
     "phone": "(243)704-5887x07412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        16,
+        3,
+        9,
+        13,
+        30,
+        12,
+        41,
+        3
+    ],
+    "login locations": [
+        [
+            -122.423722,
+            37.767652
+        ]
+    ],
+    "relationships": []
 }

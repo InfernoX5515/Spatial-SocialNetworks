@@ -5,7 +5,27 @@
     "email": "kristinanguyen@gmail.com",
     "birthdate": "1968-12-17",
     "phone": "517.415.9301x692",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        41,
+        16,
+        10,
+        2,
+        33,
+        8,
+        14,
+        34,
+        31,
+        4,
+        23,
+        53,
+        59
+    ],
+    "login locations": [
+        [
+            -118.444708,
+            34.036813
+        ]
+    ],
+    "relationships": []
 }

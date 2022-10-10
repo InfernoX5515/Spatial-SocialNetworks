@@ -5,7 +5,22 @@
     "email": "wilcoxangela@gmail.com",
     "birthdate": "1962-05-19",
     "phone": "8936764871",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        43,
+        21,
+        8,
+        61,
+        44,
+        74,
+        8,
+        15
+    ],
+    "login locations": [
+        [
+            -118.198511,
+            33.992968
+        ]
+    ],
+    "relationships": []
 }

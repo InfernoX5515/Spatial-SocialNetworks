@@ -5,7 +5,27 @@
     "email": "fowlerstanley@gmail.com",
     "birthdate": "2007-12-05",
     "phone": "001-790-558-6823x972",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        29,
+        46,
+        63,
+        44,
+        22,
+        41,
+        73,
+        11,
+        65,
+        35,
+        58,
+        48,
+        29
+    ],
+    "login locations": [
+        [
+            -118.324521,
+            34.099478
+        ]
+    ],
+    "relationships": []
 }

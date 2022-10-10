@@ -5,7 +5,15 @@
     "email": "crystalgarcia@gmail.com",
     "birthdate": "1998-04-30",
     "phone": "5629242650",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        26
+    ],
+    "login locations": [
+        [
+            -122.030296,
+            37.376225
+        ]
+    ],
+    "relationships": []
 }

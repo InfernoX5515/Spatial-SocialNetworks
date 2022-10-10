@@ -5,7 +5,25 @@
     "email": "danielle41@gmail.com",
     "birthdate": "2007-03-16",
     "phone": "(795)404-3552x627",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        69,
+        33,
+        17,
+        45,
+        31,
+        3,
+        11,
+        16,
+        58,
+        24,
+        45
+    ],
+    "login locations": [
+        [
+            -118.418491,
+            34.025158
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "bishoptheodore@hotmail.com",
     "birthdate": "1908-06-15",
     "phone": "759-814-9295",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.218095,
+            34.042929
+        ]
+    ],
+    "relationships": []
 }

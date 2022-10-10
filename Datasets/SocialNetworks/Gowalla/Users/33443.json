@@ -5,7 +5,19 @@
     "email": "duartesherry@gmail.com",
     "birthdate": "2009-12-24",
     "phone": "(059)349-3961x8156",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        57,
+        36,
+        72,
+        13,
+        57
+    ],
+    "login locations": [
+        [
+            -121.84136,
+            37.694429
+        ]
+    ],
+    "relationships": []
 }

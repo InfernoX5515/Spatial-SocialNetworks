@@ -5,7 +5,18 @@
     "email": "bhall@yahoo.com",
     "birthdate": "1957-08-15",
     "phone": "(917)585-1871x290",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        53,
+        50,
+        60,
+        45
+    ],
+    "login locations": [
+        [
+            -122.441503,
+            37.75468
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "steventanner@yahoo.com",
     "birthdate": "1956-04-04",
     "phone": "584.870.9936x188",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        57,
+        65,
+        36,
+        14,
+        29,
+        13,
+        12,
+        18,
+        51,
+        66
+    ],
+    "login locations": [
+        [
+            -118.358213,
+            34.045896
+        ]
+    ],
+    "relationships": []
 }

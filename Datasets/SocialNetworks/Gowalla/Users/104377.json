@@ -5,7 +5,20 @@
     "email": "dunlapcasey@gmail.com",
     "birthdate": "2014-03-01",
     "phone": "436-360-9275",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        5,
+        48,
+        74,
+        70,
+        71,
+        63
+    ],
+    "login locations": [
+        [
+            -121.992287,
+            37.318561
+        ]
+    ],
+    "relationships": []
 }

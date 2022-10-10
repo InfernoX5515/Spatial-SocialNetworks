@@ -5,7 +5,39 @@
     "email": "ufrazier@hotmail.com",
     "birthdate": "1940-05-30",
     "phone": "+1-084-804-0894",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        46,
+        8,
+        21,
+        49,
+        49,
+        36,
+        17,
+        25,
+        9,
+        26,
+        48,
+        62,
+        64,
+        27
+    ],
+    "login locations": [
+        [
+            -122.018926,
+            37.356783
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.01
+            ],
+            [
+                338,
+                0.0306493506494
+            ]
+        ]
+    ]
 }

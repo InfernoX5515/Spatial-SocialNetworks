@@ -5,7 +5,17 @@
     "email": "xmaldonado@gmail.com",
     "birthdate": "1961-10-19",
     "phone": "282.973.4457",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        31,
+        36,
+        46
+    ],
+    "login locations": [
+        [
+            -122.401359,
+            37.773142
+        ]
+    ],
+    "relationships": []
 }

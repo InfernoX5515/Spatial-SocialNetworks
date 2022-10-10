@@ -5,7 +5,22 @@
     "email": "michael46@hotmail.com",
     "birthdate": "1943-01-02",
     "phone": "368.386.9235x92626",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        37,
+        3,
+        12,
+        46,
+        6,
+        61,
+        21,
+        48
+    ],
+    "login locations": [
+        [
+            -122.413946,
+            37.771646
+        ]
+    ],
+    "relationships": []
 }

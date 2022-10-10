@@ -5,7 +5,20 @@
     "email": "jamiemorton@yahoo.com",
     "birthdate": "1975-09-14",
     "phone": "+1-713-624-6272x35431",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        13,
+        3,
+        21,
+        51,
+        0,
+        21
+    ],
+    "login locations": [
+        [
+            -117.156934,
+            33.544658
+        ]
+    ],
+    "relationships": []
 }

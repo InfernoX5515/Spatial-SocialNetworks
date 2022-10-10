@@ -5,7 +5,24 @@
     "email": "henryvirginia@hotmail.com",
     "birthdate": "1918-03-14",
     "phone": "072.851.8237",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        60,
+        64,
+        14,
+        49,
+        1,
+        3,
+        55,
+        38,
+        52,
+        63
+    ],
+    "login locations": [
+        [
+            -118.060897,
+            33.762039
+        ]
+    ],
+    "relationships": []
 }

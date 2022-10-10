@@ -5,7 +5,20 @@
     "email": "jennifer29@yahoo.com",
     "birthdate": "1973-11-23",
     "phone": "+1-207-599-7705x60513",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        69,
+        55,
+        56,
+        38,
+        70,
+        41
+    ],
+    "login locations": [
+        [
+            -122.38615,
+            37.616356
+        ]
+    ],
+    "relationships": []
 }

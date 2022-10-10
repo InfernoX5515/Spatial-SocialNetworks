@@ -5,7 +5,25 @@
     "email": "kathyweber@hotmail.com",
     "birthdate": "1976-02-25",
     "phone": "651-671-2109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        68,
+        17,
+        57,
+        1,
+        41,
+        68,
+        24,
+        27,
+        62,
+        45,
+        58
+    ],
+    "login locations": [
+        [
+            -117.887007,
+            33.707614
+        ]
+    ],
+    "relationships": []
 }

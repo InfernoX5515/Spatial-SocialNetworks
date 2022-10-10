@@ -5,7 +5,36 @@
     "email": "charles90@yahoo.com",
     "birthdate": "1973-09-11",
     "phone": "(768)295-8950x8234",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        61,
+        22,
+        69,
+        67,
+        62,
+        21,
+        11,
+        32,
+        12,
+        40,
+        39
+    ],
+    "login locations": [
+        [
+            -122.407243,
+            37.797326
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                599,
+                0.01
+            ],
+            [
+                831,
+                0.01
+            ]
+        ]
+    ]
 }

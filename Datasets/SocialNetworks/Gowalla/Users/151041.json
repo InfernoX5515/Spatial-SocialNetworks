@@ -5,7 +5,18 @@
     "email": "mpeters@hotmail.com",
     "birthdate": "2013-03-27",
     "phone": "977.993.4055x88382",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        48,
+        52,
+        46,
+        51
+    ],
+    "login locations": [
+        [
+            -118.344339,
+            34.064353
+        ]
+    ],
+    "relationships": []
 }

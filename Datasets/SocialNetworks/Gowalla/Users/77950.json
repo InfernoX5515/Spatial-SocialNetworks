@@ -5,7 +5,19 @@
     "email": "melissamiller@hotmail.com",
     "birthdate": "1948-03-27",
     "phone": "8869342114",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        72,
+        33,
+        13,
+        60,
+        54
+    ],
+    "login locations": [
+        [
+            -121.949627,
+            37.340349
+        ]
+    ],
+    "relationships": []
 }

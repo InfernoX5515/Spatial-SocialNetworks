@@ -5,7 +5,27 @@
     "email": "vfarrell@yahoo.com",
     "birthdate": "1942-08-29",
     "phone": "171-357-8356x14555",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        38,
+        47,
+        8,
+        8,
+        13,
+        32,
+        42,
+        62,
+        20,
+        73,
+        29,
+        50,
+        64
+    ],
+    "login locations": [
+        [
+            -118.789768,
+            34.23773
+        ]
+    ],
+    "relationships": []
 }

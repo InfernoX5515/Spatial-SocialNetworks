@@ -5,7 +5,14 @@
     "email": "sperry@hotmail.com",
     "birthdate": "1912-11-28",
     "phone": "+1-941-826-9410",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55
+    ],
+    "login locations": [
+        [
+            -118.241346,
+            34.049963
+        ]
+    ],
+    "relationships": []
 }

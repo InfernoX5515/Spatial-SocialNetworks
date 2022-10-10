@@ -5,7 +5,24 @@
     "email": "cbeasley@yahoo.com",
     "birthdate": "1949-03-12",
     "phone": "588-769-5969x1291",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        25,
+        44,
+        60,
+        47,
+        35,
+        64,
+        23,
+        32,
+        75,
+        32
+    ],
+    "login locations": [
+        [
+            -121.968255,
+            37.697359
+        ]
+    ],
+    "relationships": []
 }

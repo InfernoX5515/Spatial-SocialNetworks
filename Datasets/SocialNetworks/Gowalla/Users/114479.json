@@ -5,7 +5,19 @@
     "email": "shawn28@yahoo.com",
     "birthdate": "1984-05-05",
     "phone": "630.579.1415x07003",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        13,
+        70,
+        5,
+        6,
+        34
+    ],
+    "login locations": [
+        [
+            -120.871601,
+            38.340899
+        ]
+    ],
+    "relationships": []
 }

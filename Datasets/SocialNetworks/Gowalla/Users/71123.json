@@ -5,7 +5,22 @@
     "email": "bjordan@gmail.com",
     "birthdate": "1978-03-28",
     "phone": "503-000-3047x263",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        6,
+        56,
+        4,
+        27,
+        7,
+        28,
+        53,
+        58
+    ],
+    "login locations": [
+        [
+            -122.401987,
+            37.772172
+        ]
+    ],
+    "relationships": []
 }

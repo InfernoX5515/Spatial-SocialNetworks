@@ -5,7 +5,24 @@
     "email": "michaeledwards@hotmail.com",
     "birthdate": "1938-02-25",
     "phone": "984.665.1314x312",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        38,
+        64,
+        44,
+        67,
+        60,
+        37,
+        23,
+        29,
+        4,
+        6
+    ],
+    "login locations": [
+        [
+            -121.909786,
+            37.41685
+        ]
+    ],
+    "relationships": []
 }

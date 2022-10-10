@@ -5,7 +5,24 @@
     "email": "heidicaldwell@hotmail.com",
     "birthdate": "1958-03-03",
     "phone": "141.423.6409",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        7,
+        58,
+        70,
+        67,
+        70,
+        70,
+        14,
+        12,
+        63,
+        22
+    ],
+    "login locations": [
+        [
+            -122.408122,
+            37.741147
+        ]
+    ],
+    "relationships": []
 }

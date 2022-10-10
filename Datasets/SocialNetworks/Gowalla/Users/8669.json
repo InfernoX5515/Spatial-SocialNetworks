@@ -5,7 +5,16 @@
     "email": "dgonzales@gmail.com",
     "birthdate": "1973-06-27",
     "phone": "001-603-997-3652x4624",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        20,
+        52
+    ],
+    "login locations": [
+        [
+            -122.086151,
+            37.917973
+        ]
+    ],
+    "relationships": []
 }

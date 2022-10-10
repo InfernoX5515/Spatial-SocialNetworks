@@ -5,7 +5,23 @@
     "email": "hoodrichard@hotmail.com",
     "birthdate": "2005-11-16",
     "phone": "(282)738-8097",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.295416,
+            37.826637
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                324,
+                0.0184615384615
+            ],
+            [
+                484,
+                0.046783625731
+            ]
+        ]
+    ]
 }

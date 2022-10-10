@@ -5,7 +5,16 @@
     "email": "fclark@yahoo.com",
     "birthdate": "1927-01-25",
     "phone": "409-706-7316",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        51,
+        68
+    ],
+    "login locations": [
+        [
+            -122.005523,
+            37.062678
+        ]
+    ],
+    "relationships": []
 }

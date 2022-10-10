@@ -5,7 +5,24 @@
     "email": "staceystanley@gmail.com",
     "birthdate": "1946-09-06",
     "phone": "653-373-5721",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        66,
+        23,
+        26,
+        48,
+        31,
+        22,
+        38,
+        41,
+        71,
+        69
+    ],
+    "login locations": [
+        [
+            -118.267244,
+            34.046611
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "mcdonaldemily@yahoo.com",
     "birthdate": "1991-07-22",
     "phone": "767-181-2881x10831",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.97239,
+            33.833554
+        ]
+    ],
+    "relationships": []
 }

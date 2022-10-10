@@ -5,7 +5,24 @@
     "email": "heidiramirez@hotmail.com",
     "birthdate": "2010-12-22",
     "phone": "(753)422-2369",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        10,
+        27,
+        47,
+        56,
+        72,
+        24,
+        73,
+        21,
+        19,
+        37
+    ],
+    "login locations": [
+        [
+            -117.440691,
+            34.099708
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "kempmary@gmail.com",
     "birthdate": "1966-08-11",
     "phone": "(427)265-8937x6765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        12,
+        56,
+        60,
+        38,
+        0,
+        4,
+        37,
+        21,
+        52,
+        43,
+        35
+    ],
+    "login locations": [
+        [
+            -122.421182,
+            37.791934
+        ]
+    ],
+    "relationships": []
 }

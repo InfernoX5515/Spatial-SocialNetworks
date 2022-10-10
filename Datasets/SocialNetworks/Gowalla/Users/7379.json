@@ -5,7 +5,25 @@
     "email": "burnettbrandon@gmail.com",
     "birthdate": "2020-03-16",
     "phone": "772.945.3221",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        6,
+        38,
+        73,
+        18,
+        28,
+        8,
+        8,
+        49,
+        53,
+        17,
+        23
+    ],
+    "login locations": [
+        [
+            -118.695252,
+            34.172454
+        ]
+    ],
+    "relationships": []
 }

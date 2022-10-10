@@ -5,7 +5,27 @@
     "email": "garrett37@yahoo.com",
     "birthdate": "1962-06-13",
     "phone": "001-253-177-9008x64407",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        69,
+        31
+    ],
+    "login locations": [
+        [
+            -122.406977,
+            37.838677
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6194,
+                0.01
+            ],
+            [
+                6194,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,19 @@
     "email": "gillandrew@yahoo.com",
     "birthdate": "1962-07-07",
     "phone": "007.788.7341x67282",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        36,
+        40,
+        32,
+        15,
+        38
+    ],
+    "login locations": [
+        [
+            -118.336734,
+            34.101379
+        ]
+    ],
+    "relationships": []
 }

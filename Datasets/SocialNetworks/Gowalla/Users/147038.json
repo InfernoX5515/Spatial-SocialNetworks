@@ -5,7 +5,24 @@
     "email": "jessica05@yahoo.com",
     "birthdate": "1917-09-18",
     "phone": "001-925-583-9195x949",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        33,
+        35,
+        75,
+        7,
+        8,
+        37,
+        9,
+        8,
+        74,
+        43
+    ],
+    "login locations": [
+        [
+            -121.979965,
+            37.345879
+        ]
+    ],
+    "relationships": []
 }

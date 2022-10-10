@@ -5,7 +5,12 @@
     "email": "mark21@hotmail.com",
     "birthdate": "1925-06-13",
     "phone": "001-029-794-1510x503",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.338917,
+            34.095143
+        ]
+    ],
+    "relationships": []
 }

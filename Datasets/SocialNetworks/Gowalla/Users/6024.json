@@ -5,7 +5,14 @@
     "email": "derrickjohnson@hotmail.com",
     "birthdate": "1944-01-10",
     "phone": "013-158-2385x317",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63
+    ],
+    "login locations": [
+        [
+            -122.395671,
+            37.745902
+        ]
+    ],
+    "relationships": []
 }

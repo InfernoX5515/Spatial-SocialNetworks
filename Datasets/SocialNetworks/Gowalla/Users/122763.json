@@ -5,7 +5,25 @@
     "email": "qclarke@yahoo.com",
     "birthdate": "1941-06-20",
     "phone": "001-161-267-3250",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        72,
+        7,
+        62,
+        74,
+        59,
+        49,
+        54,
+        70,
+        1,
+        19,
+        22
+    ],
+    "login locations": [
+        [
+            -121.840296,
+            37.284475
+        ]
+    ],
+    "relationships": []
 }

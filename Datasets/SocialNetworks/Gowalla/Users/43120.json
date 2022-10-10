@@ -5,7 +5,23 @@
     "email": "willisallison@yahoo.com",
     "birthdate": "1931-07-19",
     "phone": "893.315.0963",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        47,
+        24,
+        46,
+        16,
+        7,
+        64,
+        69,
+        68,
+        15
+    ],
+    "login locations": [
+        [
+            -117.845924,
+            33.747925
+        ]
+    ],
+    "relationships": []
 }

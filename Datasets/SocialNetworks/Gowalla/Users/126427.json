@@ -5,7 +5,12 @@
     "email": "lberger@yahoo.com",
     "birthdate": "1970-02-18",
     "phone": "(495)577-0133x21169",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.400923,
+            34.071984
+        ]
+    ],
+    "relationships": []
 }

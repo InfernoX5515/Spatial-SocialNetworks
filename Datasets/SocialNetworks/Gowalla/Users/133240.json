@@ -5,7 +5,12 @@
     "email": "nathan68@gmail.com",
     "birthdate": "1954-07-30",
     "phone": "3393225002",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.027215,
+            37.676111
+        ]
+    ],
+    "relationships": []
 }

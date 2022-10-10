@@ -5,7 +5,27 @@
     "email": "spearsrichard@hotmail.com",
     "birthdate": "1926-10-31",
     "phone": "234-055-2705",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        35,
+        21,
+        10,
+        2,
+        64,
+        32,
+        47,
+        18,
+        18,
+        18,
+        29,
+        56,
+        66
+    ],
+    "login locations": [
+        [
+            -122.370565,
+            37.713292
+        ]
+    ],
+    "relationships": []
 }

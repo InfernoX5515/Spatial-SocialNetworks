@@ -5,7 +5,27 @@
     "email": "gsuarez@yahoo.com",
     "birthdate": "1958-04-08",
     "phone": "001-094-229-1564x23437",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        57,
+        36,
+        70,
+        0,
+        20,
+        19,
+        21,
+        28,
+        74,
+        64,
+        7,
+        33,
+        74
+    ],
+    "login locations": [
+        [
+            -118.346514,
+            34.065491
+        ]
+    ],
+    "relationships": []
 }

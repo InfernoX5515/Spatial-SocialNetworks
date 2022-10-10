@@ -5,7 +5,25 @@
     "email": "kellymonica@yahoo.com",
     "birthdate": "1921-09-11",
     "phone": "+1-643-927-1257x585",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        62,
+        9,
+        13,
+        31,
+        2,
+        7,
+        2,
+        38,
+        64,
+        9,
+        42
+    ],
+    "login locations": [
+        [
+            -121.974295,
+            37.305157
+        ]
+    ],
+    "relationships": []
 }

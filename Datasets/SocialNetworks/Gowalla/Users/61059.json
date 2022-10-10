@@ -5,7 +5,28 @@
     "email": "awilliams@yahoo.com",
     "birthdate": "1912-11-14",
     "phone": "001-373-275-3404x537",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        26,
+        29,
+        12,
+        20,
+        14,
+        38,
+        31,
+        9,
+        47,
+        50,
+        50,
+        50,
+        49,
+        30
+    ],
+    "login locations": [
+        [
+            -122.393188,
+            37.768094
+        ]
+    ],
+    "relationships": []
 }

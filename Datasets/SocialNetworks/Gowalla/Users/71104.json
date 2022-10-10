@@ -5,7 +5,18 @@
     "email": "mirandacoleman@yahoo.com",
     "birthdate": "1989-05-18",
     "phone": "151-798-6765x712",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        47,
+        25,
+        1,
+        45
+    ],
+    "login locations": [
+        [
+            -121.91988,
+            37.322349
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "chavezadrian@gmail.com",
     "birthdate": "1972-07-21",
     "phone": "619-348-3144",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        75,
+        43,
+        52,
+        57,
+        41,
+        54,
+        0,
+        56
+    ],
+    "login locations": [
+        [
+            -118.070586,
+            33.971601
+        ]
+    ],
+    "relationships": []
 }

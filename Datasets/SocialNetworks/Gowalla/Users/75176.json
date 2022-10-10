@@ -5,7 +5,14 @@
     "email": "walkeramy@gmail.com",
     "birthdate": "1960-10-21",
     "phone": "370-313-6208",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75
+    ],
+    "login locations": [
+        [
+            -121.94071,
+            37.353731
+        ]
+    ],
+    "relationships": []
 }

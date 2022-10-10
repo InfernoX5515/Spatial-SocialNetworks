@@ -5,7 +5,20 @@
     "email": "wsantana@hotmail.com",
     "birthdate": "1932-07-08",
     "phone": "+1-474-531-8145x3594",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        23,
+        74,
+        62,
+        36,
+        50,
+        68
+    ],
+    "login locations": [
+        [
+            -117.156667,
+            32.821075
+        ]
+    ],
+    "relationships": []
 }

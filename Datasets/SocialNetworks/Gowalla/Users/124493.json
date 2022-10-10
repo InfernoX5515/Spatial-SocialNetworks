@@ -5,7 +5,22 @@
     "email": "brownrebecca@hotmail.com",
     "birthdate": "1945-02-17",
     "phone": "+1-840-323-2832",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        45,
+        24,
+        56,
+        46,
+        63,
+        45,
+        47,
+        52
+    ],
+    "login locations": [
+        [
+            -122.019616,
+            37.587663
+        ]
+    ],
+    "relationships": []
 }

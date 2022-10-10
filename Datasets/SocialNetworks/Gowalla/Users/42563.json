@@ -5,7 +5,35 @@
     "email": "shannoncook@gmail.com",
     "birthdate": "1958-05-18",
     "phone": "+1-762-511-8705x208",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        8,
+        3,
+        2,
+        65,
+        50,
+        48,
+        5,
+        33,
+        41,
+        16
+    ],
+    "login locations": [
+        [
+            -122.301221,
+            37.556197
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3641,
+                0.0104166666667
+            ],
+            [
+                3641,
+                0.0104166666667
+            ]
+        ]
+    ]
 }

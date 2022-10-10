@@ -5,7 +5,27 @@
     "email": "woodraymond@gmail.com",
     "birthdate": "1956-06-15",
     "phone": "2427444475",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        17,
+        44,
+        75,
+        58,
+        11,
+        6,
+        75,
+        23,
+        4,
+        17,
+        34,
+        26,
+        8
+    ],
+    "login locations": [
+        [
+            -122.417817,
+            37.763188
+        ]
+    ],
+    "relationships": []
 }

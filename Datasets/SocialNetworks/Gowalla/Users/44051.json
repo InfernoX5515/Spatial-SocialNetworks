@@ -5,7 +5,18 @@
     "email": "elizabeth28@hotmail.com",
     "birthdate": "1953-12-04",
     "phone": "221-640-8065",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        41,
+        7,
+        16,
+        35
+    ],
+    "login locations": [
+        [
+            -122.425308,
+            37.762828
+        ]
+    ],
+    "relationships": []
 }

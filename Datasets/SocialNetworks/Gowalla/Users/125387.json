@@ -5,7 +5,17 @@
     "email": "smithsarah@yahoo.com",
     "birthdate": "1991-05-20",
     "phone": "(952)231-2587",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        13,
+        8,
+        61
+    ],
+    "login locations": [
+        [
+            -122.376547,
+            37.74057
+        ]
+    ],
+    "relationships": []
 }

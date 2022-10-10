@@ -5,7 +5,27 @@
     "email": "underwooddavid@gmail.com",
     "birthdate": "1989-06-01",
     "phone": "001-329-945-9502x592",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        61,
+        70,
+        50,
+        56,
+        29,
+        71,
+        1,
+        5,
+        61,
+        73,
+        63,
+        69,
+        37
+    ],
+    "login locations": [
+        [
+            -118.163946,
+            34.086835
+        ]
+    ],
+    "relationships": []
 }

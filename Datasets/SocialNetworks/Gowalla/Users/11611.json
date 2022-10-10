@@ -5,7 +5,22 @@
     "email": "orangel@hotmail.com",
     "birthdate": "1965-08-21",
     "phone": "(076)349-7594",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        26,
+        19,
+        16,
+        68,
+        55,
+        31,
+        55,
+        24
+    ],
+    "login locations": [
+        [
+            -118.398437,
+            34.057312
+        ]
+    ],
+    "relationships": []
 }

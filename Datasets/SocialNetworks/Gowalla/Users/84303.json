@@ -5,7 +5,26 @@
     "email": "johnsonamy@gmail.com",
     "birthdate": "1981-03-08",
     "phone": "2271513206",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        18,
+        27,
+        29,
+        75,
+        13,
+        40,
+        65,
+        10,
+        38,
+        53,
+        26,
+        37
+    ],
+    "login locations": [
+        [
+            -122.378206,
+            37.813669
+        ]
+    ],
+    "relationships": []
 }

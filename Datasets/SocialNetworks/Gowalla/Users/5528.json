@@ -5,7 +5,36 @@
     "email": "ronald45@gmail.com",
     "birthdate": "1960-03-14",
     "phone": "001-049-533-6723x18614",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        44,
+        56,
+        37,
+        10,
+        73,
+        68,
+        53,
+        30,
+        19,
+        71,
+        18
+    ],
+    "login locations": [
+        [
+            -122.463799,
+            37.765739
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.0151515151515
+            ],
+            [
+                4399,
+                0.01
+            ]
+        ]
+    ]
 }

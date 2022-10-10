@@ -5,7 +5,30 @@
     "email": "nelsonmatthew@yahoo.com",
     "birthdate": "1908-01-24",
     "phone": "001-410-694-5414",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        4,
+        71,
+        74,
+        6,
+        27
+    ],
+    "login locations": [
+        [
+            -121.983696,
+            37.297961
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                85,
+                0.11
+            ],
+            [
+                7298,
+                0.0833333333333
+            ]
+        ]
+    ]
 }

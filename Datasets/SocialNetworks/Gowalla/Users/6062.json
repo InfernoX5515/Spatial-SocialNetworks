@@ -5,7 +5,12 @@
     "email": "michael62@gmail.com",
     "birthdate": "1926-07-21",
     "phone": "673-517-0102",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.408621,
+            37.780938
+        ]
+    ],
+    "relationships": []
 }

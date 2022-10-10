@@ -5,7 +5,38 @@
     "email": "amanda71@yahoo.com",
     "birthdate": "1936-06-20",
     "phone": "+1-145-278-3602x77074",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        60,
+        72,
+        3,
+        73,
+        0,
+        74,
+        5,
+        46,
+        22,
+        14,
+        47,
+        17,
+        52
+    ],
+    "login locations": [
+        [
+            -117.976774,
+            34.059701
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                132907,
+                0.5
+            ],
+            [
+                132907,
+                0.5
+            ]
+        ]
+    ]
 }

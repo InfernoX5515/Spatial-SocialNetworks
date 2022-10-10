@@ -5,7 +5,24 @@
     "email": "pagemeagan@hotmail.com",
     "birthdate": "1976-02-18",
     "phone": "+1-843-911-0893",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        58,
+        37,
+        68,
+        4,
+        54,
+        57,
+        73,
+        11,
+        38,
+        2
+    ],
+    "login locations": [
+        [
+            -122.428889,
+            37.766762
+        ]
+    ],
+    "relationships": []
 }

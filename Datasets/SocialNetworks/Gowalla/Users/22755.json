@@ -5,7 +5,24 @@
     "email": "johnnydrake@yahoo.com",
     "birthdate": "1961-02-10",
     "phone": "+1-767-013-1938x8707",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        66,
+        45,
+        74,
+        16,
+        70,
+        12,
+        38,
+        74,
+        14,
+        67
+    ],
+    "login locations": [
+        [
+            -118.313106,
+            34.065996
+        ]
+    ],
+    "relationships": []
 }

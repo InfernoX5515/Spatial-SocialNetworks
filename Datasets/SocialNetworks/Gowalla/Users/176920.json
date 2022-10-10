@@ -5,7 +5,17 @@
     "email": "william82@hotmail.com",
     "birthdate": "1994-03-17",
     "phone": "001-940-539-0506x1367",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        13,
+        66,
+        68
+    ],
+    "login locations": [
+        [
+            -122.474046,
+            37.834536
+        ]
+    ],
+    "relationships": []
 }

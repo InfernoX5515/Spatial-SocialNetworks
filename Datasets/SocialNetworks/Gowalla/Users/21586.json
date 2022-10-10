@@ -5,7 +5,14 @@
     "email": "caleb18@yahoo.com",
     "birthdate": "1985-11-11",
     "phone": "445.037.1222",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70
+    ],
+    "login locations": [
+        [
+            -118.351901,
+            34.169043
+        ]
+    ],
+    "relationships": []
 }

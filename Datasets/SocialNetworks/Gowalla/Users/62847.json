@@ -5,7 +5,23 @@
     "email": "danielmartinez@gmail.com",
     "birthdate": "1924-11-12",
     "phone": "924.881.2302x4019",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        14,
+        13,
+        65,
+        0,
+        43,
+        57,
+        14,
+        32,
+        73
+    ],
+    "login locations": [
+        [
+            -117.856598,
+            33.602706
+        ]
+    ],
+    "relationships": []
 }

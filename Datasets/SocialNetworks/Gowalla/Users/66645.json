@@ -5,7 +5,18 @@
     "email": "dharris@gmail.com",
     "birthdate": "1929-03-17",
     "phone": "(283)299-9471",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        58,
+        49,
+        39,
+        7
+    ],
+    "login locations": [
+        [
+            -122.417244,
+            37.792846
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "david34@yahoo.com",
     "birthdate": "1908-10-19",
     "phone": "266.464.5791",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        26,
+        12,
+        38,
+        2
+    ],
+    "login locations": [
+        [
+            -116.718817,
+            33.740806
+        ]
+    ],
+    "relationships": []
 }

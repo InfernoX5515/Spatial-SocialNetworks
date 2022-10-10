@@ -5,7 +5,24 @@
     "email": "clarkalex@yahoo.com",
     "birthdate": "1960-06-25",
     "phone": "+1-982-231-6643x446",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        33,
+        20,
+        75,
+        11,
+        69,
+        33,
+        7,
+        18,
+        69,
+        59
+    ],
+    "login locations": [
+        [
+            -122.391423,
+            37.783622
+        ]
+    ],
+    "relationships": []
 }

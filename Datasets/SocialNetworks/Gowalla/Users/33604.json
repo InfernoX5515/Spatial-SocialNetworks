@@ -5,7 +5,12 @@
     "email": "rachel03@yahoo.com",
     "birthdate": "1923-01-12",
     "phone": "999-531-4004x62705",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.442683,
+            38.605859
+        ]
+    ],
+    "relationships": []
 }

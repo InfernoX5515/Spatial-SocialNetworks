@@ -5,7 +5,27 @@
     "email": "laurascott@hotmail.com",
     "birthdate": "2002-01-09",
     "phone": "(690)970-0240x30903",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        61,
+        15,
+        27,
+        44,
+        65,
+        13,
+        5,
+        46,
+        52,
+        11,
+        64,
+        52,
+        47
+    ],
+    "login locations": [
+        [
+            -118.353954,
+            34.080868
+        ]
+    ],
+    "relationships": []
 }

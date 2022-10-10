@@ -5,7 +5,20 @@
     "email": "hickspaula@gmail.com",
     "birthdate": "1942-12-05",
     "phone": "(784)767-4089x6130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        5,
+        68,
+        42,
+        7,
+        15,
+        57
+    ],
+    "login locations": [
+        [
+            -117.156615,
+            32.784646
+        ]
+    ],
+    "relationships": []
 }

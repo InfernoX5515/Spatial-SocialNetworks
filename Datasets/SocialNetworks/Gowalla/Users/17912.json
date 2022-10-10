@@ -5,7 +5,27 @@
     "email": "harrismonica@yahoo.com",
     "birthdate": "1990-05-01",
     "phone": "0001840282",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        72,
+        51,
+        51,
+        49,
+        38,
+        18,
+        29,
+        44,
+        35,
+        52,
+        49,
+        36,
+        26
+    ],
+    "login locations": [
+        [
+            -118.747811,
+            34.277544
+        ]
+    ],
+    "relationships": []
 }

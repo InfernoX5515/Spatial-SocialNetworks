@@ -5,7 +5,21 @@
     "email": "jason89@hotmail.com",
     "birthdate": "1908-11-29",
     "phone": "009.749.3099x372",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        60,
+        50,
+        35,
+        35,
+        2,
+        34,
+        34
+    ],
+    "login locations": [
+        [
+            -122.409661,
+            37.789424
+        ]
+    ],
+    "relationships": []
 }

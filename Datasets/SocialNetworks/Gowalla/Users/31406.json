@@ -5,7 +5,25 @@
     "email": "lindseyparker@hotmail.com",
     "birthdate": "1928-03-07",
     "phone": "777.882.9873",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39
+    ],
+    "login locations": [
+        [
+            -122.044,
+            37.368663
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                470,
+                0.01
+            ],
+            [
+                470,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,21 @@
     "email": "adrian32@yahoo.com",
     "birthdate": "1980-11-24",
     "phone": "(810)915-0868x490",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        38,
+        48,
+        74,
+        64,
+        62,
+        19,
+        38
+    ],
+    "login locations": [
+        [
+            -122.395063,
+            37.886428
+        ]
+    ],
+    "relationships": []
 }

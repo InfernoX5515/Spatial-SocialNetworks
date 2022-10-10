@@ -5,7 +5,23 @@
     "email": "loganchristina@hotmail.com",
     "birthdate": "1992-03-11",
     "phone": "001-583-759-9326",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        6,
+        42,
+        64,
+        3,
+        7,
+        18,
+        44,
+        0,
+        23
+    ],
+    "login locations": [
+        [
+            -121.899908,
+            37.338059
+        ]
+    ],
+    "relationships": []
 }

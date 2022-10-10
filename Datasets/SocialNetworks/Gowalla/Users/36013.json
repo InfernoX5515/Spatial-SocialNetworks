@@ -5,7 +5,25 @@
     "email": "kathynorman@hotmail.com",
     "birthdate": "2020-05-01",
     "phone": "001-897-964-5043x1843",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        42,
+        18,
+        33,
+        63,
+        60,
+        63,
+        6,
+        53,
+        15,
+        45,
+        31
+    ],
+    "login locations": [
+        [
+            -121.92996,
+            36.766247
+        ]
+    ],
+    "relationships": []
 }

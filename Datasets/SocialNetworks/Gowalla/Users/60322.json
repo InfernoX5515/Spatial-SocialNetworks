@@ -5,7 +5,37 @@
     "email": "longderek@yahoo.com",
     "birthdate": "1933-11-22",
     "phone": "+1-160-548-6673x0971",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        20,
+        50,
+        28,
+        29,
+        13,
+        21,
+        65,
+        63,
+        57,
+        72,
+        74,
+        29
+    ],
+    "login locations": [
+        [
+            -122.40529,
+            37.767321
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2090,
+                0.02
+            ],
+            [
+                2090,
+                0.02
+            ]
+        ]
+    ]
 }

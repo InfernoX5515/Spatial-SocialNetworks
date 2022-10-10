@@ -5,7 +5,24 @@
     "email": "williamanderson@gmail.com",
     "birthdate": "1935-07-20",
     "phone": "+1-749-775-0019x6093",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        24,
+        3,
+        38,
+        37,
+        34,
+        17,
+        34,
+        45,
+        21,
+        34
+    ],
+    "login locations": [
+        [
+            -117.151649,
+            32.874042
+        ]
+    ],
+    "relationships": []
 }

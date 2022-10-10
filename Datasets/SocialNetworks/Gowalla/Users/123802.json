@@ -5,7 +5,27 @@
     "email": "brandondunn@yahoo.com",
     "birthdate": "1919-02-22",
     "phone": "804-407-5441x6762",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        59,
+        51,
+        41,
+        42,
+        22,
+        29,
+        50,
+        71,
+        59,
+        7,
+        19,
+        40,
+        37
+    ],
+    "login locations": [
+        [
+            -122.366047,
+            37.811853
+        ]
+    ],
+    "relationships": []
 }

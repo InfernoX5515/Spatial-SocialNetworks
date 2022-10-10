@@ -5,7 +5,18 @@
     "email": "wconway@yahoo.com",
     "birthdate": "2013-03-15",
     "phone": "(877)975-4182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        42,
+        59,
+        53,
+        73
+    ],
+    "login locations": [
+        [
+            -117.116167,
+            32.841388
+        ]
+    ],
+    "relationships": []
 }

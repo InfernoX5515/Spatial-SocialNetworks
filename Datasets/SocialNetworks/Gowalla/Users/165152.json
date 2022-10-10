@@ -5,7 +5,24 @@
     "email": "bhill@hotmail.com",
     "birthdate": "2008-08-05",
     "phone": "276-575-8106x23503",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        72,
+        35,
+        14,
+        19,
+        44,
+        71,
+        15,
+        21,
+        38,
+        55
+    ],
+    "login locations": [
+        [
+            -117.208693,
+            34.051919
+        ]
+    ],
+    "relationships": []
 }

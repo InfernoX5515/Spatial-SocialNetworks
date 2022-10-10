@@ -5,7 +5,37 @@
     "email": "erin97@hotmail.com",
     "birthdate": "1940-03-20",
     "phone": "376.461.7007",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        56,
+        9,
+        47,
+        21,
+        46,
+        75,
+        53,
+        3,
+        28,
+        9,
+        51,
+        71
+    ],
+    "login locations": [
+        [
+            -122.116514,
+            37.403531
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3641,
+                0.0625
+            ],
+            [
+                4514,
+                0.01
+            ]
+        ]
+    ]
 }

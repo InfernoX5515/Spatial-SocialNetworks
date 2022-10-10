@@ -5,7 +5,14 @@
     "email": "erin36@hotmail.com",
     "birthdate": "1979-02-05",
     "phone": "001-883-440-4884",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32
+    ],
+    "login locations": [
+        [
+            -122.059609,
+            37.373589
+        ]
+    ],
+    "relationships": []
 }

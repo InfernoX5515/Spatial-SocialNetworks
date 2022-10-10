@@ -5,7 +5,18 @@
     "email": "tammyfernandez@gmail.com",
     "birthdate": "1929-10-19",
     "phone": "458.306.7334x145",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        60,
+        50,
+        38,
+        4
+    ],
+    "login locations": [
+        [
+            -119.753959,
+            36.789726
+        ]
+    ],
+    "relationships": []
 }

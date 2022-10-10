@@ -5,7 +5,28 @@
     "email": "jamiemartin@hotmail.com",
     "birthdate": "2004-04-09",
     "phone": "(885)819-4107x25594",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        27,
+        17,
+        16,
+        62,
+        1,
+        71,
+        19,
+        8,
+        74,
+        23,
+        75,
+        45,
+        35,
+        59
+    ],
+    "login locations": [
+        [
+            -122.282168,
+            38.301013
+        ]
+    ],
+    "relationships": []
 }

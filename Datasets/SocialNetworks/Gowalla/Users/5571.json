@@ -5,7 +5,35 @@
     "email": "sullivansabrina@yahoo.com",
     "birthdate": "1961-12-07",
     "phone": "(798)215-8289x13057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        31,
+        64,
+        29,
+        42,
+        29,
+        13,
+        21,
+        53,
+        69,
+        58
+    ],
+    "login locations": [
+        [
+            -122.090559,
+            37.591149
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                25326,
+                0.0434782608696
+            ],
+            [
+                76151,
+                0.0526315789474
+            ]
+        ]
+    ]
 }

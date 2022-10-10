@@ -5,7 +5,26 @@
     "email": "teresakelley@gmail.com",
     "birthdate": "1969-10-16",
     "phone": "704-138-9918",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        69
+    ],
+    "login locations": [
+        [
+            -118.785372,
+            34.27866
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                105939,
+                0.103448275862
+            ],
+            [
+                105939,
+                0.103448275862
+            ]
+        ]
+    ]
 }

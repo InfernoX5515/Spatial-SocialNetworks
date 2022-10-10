@@ -5,7 +5,31 @@
     "email": "qmiller@hotmail.com",
     "birthdate": "2002-04-22",
     "phone": "001-961-068-8255x0450",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        66,
+        69,
+        57,
+        24,
+        30,
+        51
+    ],
+    "login locations": [
+        [
+            -122.026106,
+            36.975396
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82172,
+                0.833333333333
+            ],
+            [
+                82173,
+                0.225806451613
+            ]
+        ]
+    ]
 }

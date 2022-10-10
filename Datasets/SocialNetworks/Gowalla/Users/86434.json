@@ -5,7 +5,20 @@
     "email": "zacharywright@yahoo.com",
     "birthdate": "1968-04-16",
     "phone": "001-991-380-9919",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        65,
+        61,
+        33,
+        35,
+        13,
+        49
+    ],
+    "login locations": [
+        [
+            -116.305419,
+            33.709887
+        ]
+    ],
+    "relationships": []
 }

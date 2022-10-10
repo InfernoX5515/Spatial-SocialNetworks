@@ -5,7 +5,30 @@
     "email": "megan73@hotmail.com",
     "birthdate": "2008-05-02",
     "phone": "850-579-5738",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        1,
+        59,
+        1,
+        58,
+        15
+    ],
+    "login locations": [
+        [
+            -122.117336,
+            37.377155
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4906,
+                0.01
+            ],
+            [
+                2415,
+                0.025641025641
+            ]
+        ]
+    ]
 }

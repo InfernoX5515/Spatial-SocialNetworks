@@ -5,7 +5,26 @@
     "email": "myersdana@yahoo.com",
     "birthdate": "2022-02-10",
     "phone": "635.290.2545",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        66
+    ],
+    "login locations": [
+        [
+            -121.913279,
+            37.35795
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                48893,
+                0.01
+            ],
+            [
+                48893,
+                0.01
+            ]
+        ]
+    ]
 }

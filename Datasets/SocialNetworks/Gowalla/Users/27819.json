@@ -5,7 +5,28 @@
     "email": "iperkins@yahoo.com",
     "birthdate": "1959-02-19",
     "phone": "539.153.2026x322",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        68,
+        37,
+        44,
+        50,
+        10,
+        48,
+        43,
+        66,
+        26,
+        65,
+        71,
+        40,
+        21,
+        45
+    ],
+    "login locations": [
+        [
+            -118.201715,
+            34.080407
+        ]
+    ],
+    "relationships": []
 }

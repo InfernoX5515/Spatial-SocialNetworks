@@ -5,7 +5,20 @@
     "email": "jason04@gmail.com",
     "birthdate": "1931-01-02",
     "phone": "459-240-6433x3562",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        6,
+        48,
+        5,
+        75,
+        37,
+        31
+    ],
+    "login locations": [
+        [
+            -122.411779,
+            37.772945
+        ]
+    ],
+    "relationships": []
 }

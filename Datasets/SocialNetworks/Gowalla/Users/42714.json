@@ -5,7 +5,37 @@
     "email": "stevenanderson@yahoo.com",
     "birthdate": "2018-01-29",
     "phone": "0776013707",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        13,
+        59,
+        8,
+        30,
+        21,
+        37,
+        3,
+        66,
+        11,
+        32,
+        14,
+        53
+    ],
+    "login locations": [
+        [
+            -117.920136,
+            33.734716
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1654,
+                0.04
+            ],
+            [
+                1654,
+                0.04
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "andreagonzalez@yahoo.com",
     "birthdate": "1953-11-11",
     "phone": "+1-378-134-1038x251",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        49,
+        6,
+        9,
+        9,
+        53,
+        54,
+        65,
+        2,
+        52,
+        59,
+        34,
+        51,
+        69,
+        0
+    ],
+    "login locations": [
+        [
+            -118.447067,
+            34.020776
+        ]
+    ],
+    "relationships": []
 }

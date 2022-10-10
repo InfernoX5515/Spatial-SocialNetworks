@@ -5,7 +5,25 @@
     "email": "gene42@yahoo.com",
     "birthdate": "1971-08-16",
     "phone": "486.216.2230x41972",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41
+    ],
+    "login locations": [
+        [
+            -118.356945,
+            34.112617
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                117859,
+                0.333333333333
+            ],
+            [
+                117859,
+                0.333333333333
+            ]
+        ]
+    ]
 }

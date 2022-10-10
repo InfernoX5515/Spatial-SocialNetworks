@@ -5,7 +5,26 @@
     "email": "donaldgriffin@yahoo.com",
     "birthdate": "1960-02-12",
     "phone": "(148)924-5184x6415",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        3,
+        0,
+        3,
+        49,
+        36,
+        72,
+        40,
+        20,
+        62,
+        6,
+        69,
+        36
+    ],
+    "login locations": [
+        [
+            -119.176564,
+            34.223618
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "wjames@hotmail.com",
     "birthdate": "1934-04-17",
     "phone": "688-333-6972x770",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        13,
+        11
+    ],
+    "login locations": [
+        [
+            -121.661065,
+            36.680552
+        ]
+    ],
+    "relationships": []
 }

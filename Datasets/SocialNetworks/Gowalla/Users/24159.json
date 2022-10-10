@@ -5,7 +5,15 @@
     "email": "jeffrey69@hotmail.com",
     "birthdate": "1982-08-26",
     "phone": "001-634-357-1899x75272",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        44
+    ],
+    "login locations": [
+        [
+            -122.192013,
+            37.442129
+        ]
+    ],
+    "relationships": []
 }

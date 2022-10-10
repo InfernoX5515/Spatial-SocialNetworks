@@ -5,7 +5,15 @@
     "email": "taylorbarbara@gmail.com",
     "birthdate": "1980-07-30",
     "phone": "(197)788-0573",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        59
+    ],
+    "login locations": [
+        [
+            -122.403746,
+            37.783231
+        ]
+    ],
+    "relationships": []
 }

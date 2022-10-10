@@ -5,7 +5,23 @@
     "email": "pattersonamy@hotmail.com",
     "birthdate": "1995-11-20",
     "phone": "001-639-267-9858",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.182378,
+            37.453517
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4362,
+                0.0114942528736
+            ],
+            [
+                4362,
+                0.0114942528736
+            ]
+        ]
+    ]
 }

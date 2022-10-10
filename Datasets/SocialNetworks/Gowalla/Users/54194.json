@@ -5,7 +5,20 @@
     "email": "cabrerajack@gmail.com",
     "birthdate": "2021-01-03",
     "phone": "(341)965-0525x365",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        35,
+        74,
+        64,
+        66,
+        1,
+        35
+    ],
+    "login locations": [
+        [
+            -117.072204,
+            32.745803
+        ]
+    ],
+    "relationships": []
 }

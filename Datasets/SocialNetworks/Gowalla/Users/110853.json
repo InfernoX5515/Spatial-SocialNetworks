@@ -5,7 +5,28 @@
     "email": "ccoleman@yahoo.com",
     "birthdate": "1940-11-22",
     "phone": "529-329-7510x27388",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        70,
+        49,
+        9,
+        9,
+        14,
+        64,
+        66,
+        29,
+        7,
+        24,
+        27,
+        52,
+        69,
+        28
+    ],
+    "login locations": [
+        [
+            -117.079789,
+            32.867638
+        ]
+    ],
+    "relationships": []
 }

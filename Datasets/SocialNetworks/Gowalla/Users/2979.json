@@ -5,7 +5,24 @@
     "email": "robert83@yahoo.com",
     "birthdate": "2022-03-10",
     "phone": "(630)484-4295x2321",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        65,
+        31,
+        20,
+        50,
+        32,
+        0,
+        1,
+        68,
+        37,
+        23
+    ],
+    "login locations": [
+        [
+            -118.572123,
+            34.404601
+        ]
+    ],
+    "relationships": []
 }

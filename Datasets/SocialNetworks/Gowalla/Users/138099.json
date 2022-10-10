@@ -5,7 +5,18 @@
     "email": "mbailey@gmail.com",
     "birthdate": "1971-01-29",
     "phone": "520.378.0955x76057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        20,
+        58,
+        42,
+        15
+    ],
+    "login locations": [
+        [
+            -118.294951,
+            34.009596
+        ]
+    ],
+    "relationships": []
 }

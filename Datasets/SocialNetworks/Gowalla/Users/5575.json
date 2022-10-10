@@ -5,7 +5,27 @@
     "email": "ysweeney@hotmail.com",
     "birthdate": "1920-01-21",
     "phone": "001-910-941-5344x70430",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        36,
+        34,
+        16,
+        36,
+        0,
+        15,
+        62,
+        27,
+        36,
+        71,
+        47,
+        62,
+        10
+    ],
+    "login locations": [
+        [
+            -121.307403,
+            38.742302
+        ]
+    ],
+    "relationships": []
 }

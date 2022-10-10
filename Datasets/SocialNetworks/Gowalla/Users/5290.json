@@ -5,7 +5,23 @@
     "email": "hbarber@yahoo.com",
     "birthdate": "1975-05-15",
     "phone": "+1-093-603-6385x1583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.403541,
+            37.785551
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8540,
+                0.0754716981132
+            ],
+            [
+                8540,
+                0.010989010989
+            ]
+        ]
+    ]
 }

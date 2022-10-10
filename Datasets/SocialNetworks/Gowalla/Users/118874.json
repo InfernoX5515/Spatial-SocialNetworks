@@ -5,7 +5,25 @@
     "email": "schultzmichael@yahoo.com",
     "birthdate": "1963-09-16",
     "phone": "082-749-9534x6215",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27
+    ],
+    "login locations": [
+        [
+            -121.975108,
+            37.296785
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                78408,
+                0.16
+            ],
+            [
+                118881,
+                0.07343412527
+            ]
+        ]
+    ]
 }

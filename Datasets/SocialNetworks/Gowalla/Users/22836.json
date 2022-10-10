@@ -5,7 +5,17 @@
     "email": "martin45@gmail.com",
     "birthdate": "1950-04-24",
     "phone": "592.833.2725x68072",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        69,
+        75,
+        64
+    ],
+    "login locations": [
+        [
+            -118.276854,
+            34.150292
+        ]
+    ],
+    "relationships": []
 }

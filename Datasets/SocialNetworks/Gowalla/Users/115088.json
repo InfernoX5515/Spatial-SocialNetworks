@@ -5,7 +5,35 @@
     "email": "riverastephen@hotmail.com",
     "birthdate": "2000-01-13",
     "phone": "203-052-9318",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        42,
+        60,
+        16,
+        52,
+        51,
+        36,
+        31,
+        74,
+        26,
+        5
+    ],
+    "login locations": [
+        [
+            -118.375954,
+            34.013452
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                23440,
+                0.04
+            ],
+            [
+                115087,
+                0.617647058824
+            ]
+        ]
+    ]
 }

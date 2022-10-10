@@ -5,7 +5,38 @@
     "email": "kwalls@gmail.com",
     "birthdate": "1960-10-09",
     "phone": "001-362-593-0543x134",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        26,
+        43,
+        13,
+        9,
+        69,
+        61,
+        67,
+        18,
+        66,
+        14,
+        72,
+        59,
+        65
+    ],
+    "login locations": [
+        [
+            -122.421982,
+            37.769308
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                600,
+                0.01
+            ],
+            [
+                4353,
+                0.01
+            ]
+        ]
+    ]
 }

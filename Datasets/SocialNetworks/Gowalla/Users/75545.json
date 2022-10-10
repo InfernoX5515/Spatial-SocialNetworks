@@ -5,7 +5,19 @@
     "email": "hollymurphy@hotmail.com",
     "birthdate": "2016-10-25",
     "phone": "(676)277-1637x658",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        52,
+        10,
+        64,
+        19,
+        61
+    ],
+    "login locations": [
+        [
+            -118.381787,
+            34.107163
+        ]
+    ],
+    "relationships": []
 }

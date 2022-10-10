@@ -5,7 +5,15 @@
     "email": "churchkristen@yahoo.com",
     "birthdate": "2002-06-04",
     "phone": "+1-056-149-9638",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        58
+    ],
+    "login locations": [
+        [
+            -122.45344,
+            37.738438
+        ]
+    ],
+    "relationships": []
 }

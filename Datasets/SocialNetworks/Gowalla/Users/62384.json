@@ -5,7 +5,17 @@
     "email": "uflores@yahoo.com",
     "birthdate": "2015-05-03",
     "phone": "+1-380-520-5190x3767",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        26,
+        62,
+        68
+    ],
+    "login locations": [
+        [
+            -117.829371,
+            34.011298
+        ]
+    ],
+    "relationships": []
 }

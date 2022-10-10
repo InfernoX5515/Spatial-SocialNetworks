@@ -5,7 +5,31 @@
     "email": "shawkelly@gmail.com",
     "birthdate": "1988-08-27",
     "phone": "649-338-9997x062",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        16,
+        29,
+        43,
+        48,
+        11,
+        40
+    ],
+    "login locations": [
+        [
+            -122.398513,
+            37.781969
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4891,
+                0.01
+            ],
+            [
+                4891,
+                0.01
+            ]
+        ]
+    ]
 }

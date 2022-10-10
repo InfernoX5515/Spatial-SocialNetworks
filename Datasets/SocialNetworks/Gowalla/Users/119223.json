@@ -5,7 +5,19 @@
     "email": "edavis@yahoo.com",
     "birthdate": "2010-01-08",
     "phone": "001-862-165-6505",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        40,
+        75,
+        8,
+        37,
+        18
+    ],
+    "login locations": [
+        [
+            -121.643444,
+            39.144515
+        ]
+    ],
+    "relationships": []
 }

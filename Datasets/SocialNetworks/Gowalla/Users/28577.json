@@ -5,7 +5,16 @@
     "email": "hparks@gmail.com",
     "birthdate": "1976-01-27",
     "phone": "(218)749-8050x15058",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        7,
+        65
+    ],
+    "login locations": [
+        [
+            -118.123766,
+            33.781952
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "amandameyer@hotmail.com",
     "birthdate": "1939-03-10",
     "phone": "943-307-4129",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        34,
+        61
+    ],
+    "login locations": [
+        [
+            -122.417958,
+            37.765483
+        ]
+    ],
+    "relationships": []
 }

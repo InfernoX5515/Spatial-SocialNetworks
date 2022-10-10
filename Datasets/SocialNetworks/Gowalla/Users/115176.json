@@ -5,7 +5,23 @@
     "email": "cindy88@hotmail.com",
     "birthdate": "1968-05-25",
     "phone": "(942)207-6278x594",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        44,
+        6,
+        35,
+        29,
+        34,
+        36,
+        27,
+        7,
+        56
+    ],
+    "login locations": [
+        [
+            -117.893097,
+            33.693987
+        ]
+    ],
+    "relationships": []
 }

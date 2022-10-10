@@ -5,7 +5,26 @@
     "email": "michael21@gmail.com",
     "birthdate": "1995-08-03",
     "phone": "152.592.5321x0286",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        23,
+        53,
+        59,
+        75,
+        12,
+        68,
+        71,
+        1,
+        50,
+        47,
+        45,
+        65
+    ],
+    "login locations": [
+        [
+            -118.000069,
+            33.792472
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "torresshannon@gmail.com",
     "birthdate": "1996-12-10",
     "phone": "001-672-176-9522x28439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        57,
+        27,
+        44,
+        60,
+        71,
+        39,
+        27,
+        22,
+        27,
+        30,
+        67,
+        57
+    ],
+    "login locations": [
+        [
+            -119.05889,
+            34.217056
+        ]
+    ],
+    "relationships": []
 }

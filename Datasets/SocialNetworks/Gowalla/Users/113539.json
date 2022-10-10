@@ -5,7 +5,18 @@
     "email": "richardsonalexander@gmail.com",
     "birthdate": "1974-05-20",
     "phone": "001-220-360-1222x0149",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        46,
+        64,
+        18,
+        66
+    ],
+    "login locations": [
+        [
+            -122.377386,
+            37.770688
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "amyfleming@gmail.com",
     "birthdate": "1926-08-31",
     "phone": "+1-066-106-2164x0521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.264477,
+            37.833545
+        ]
+    ],
+    "relationships": []
 }

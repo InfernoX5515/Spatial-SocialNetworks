@@ -5,7 +5,16 @@
     "email": "plee@yahoo.com",
     "birthdate": "1955-11-23",
     "phone": "+1-229-775-2788x900",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        16,
+        53
+    ],
+    "login locations": [
+        [
+            -122.442674,
+            37.751025
+        ]
+    ],
+    "relationships": []
 }

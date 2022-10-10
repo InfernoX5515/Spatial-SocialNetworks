@@ -5,7 +5,31 @@
     "email": "williamsshannon@yahoo.com",
     "birthdate": "1963-09-22",
     "phone": "(581)023-8648",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        24,
+        12,
+        36,
+        75,
+        24,
+        75
+    ],
+    "login locations": [
+        [
+            -119.719622,
+            36.808684
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8583,
+                0.0253164556962
+            ],
+            [
+                62703,
+                0.111111111111
+            ]
+        ]
+    ]
 }

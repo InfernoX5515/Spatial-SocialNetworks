@@ -5,7 +5,20 @@
     "email": "dawn38@yahoo.com",
     "birthdate": "1988-08-22",
     "phone": "9987474272",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        53,
+        27,
+        63,
+        21,
+        22,
+        37
+    ],
+    "login locations": [
+        [
+            -118.170137,
+            33.951311
+        ]
+    ],
+    "relationships": []
 }

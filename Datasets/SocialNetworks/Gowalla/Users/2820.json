@@ -5,7 +5,20 @@
     "email": "kwells@yahoo.com",
     "birthdate": "2016-06-15",
     "phone": "001-077-143-7733x84898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        39,
+        21,
+        25,
+        4,
+        50,
+        32
+    ],
+    "login locations": [
+        [
+            -117.983055,
+            33.940445
+        ]
+    ],
+    "relationships": []
 }

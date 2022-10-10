@@ -5,7 +5,15 @@
     "email": "ograham@hotmail.com",
     "birthdate": "1962-06-09",
     "phone": "8153648954",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        23
+    ],
+    "login locations": [
+        [
+            -121.922976,
+            37.304575
+        ]
+    ],
+    "relationships": []
 }

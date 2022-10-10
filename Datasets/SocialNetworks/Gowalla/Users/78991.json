@@ -5,7 +5,23 @@
     "email": "fernandezrickey@gmail.com",
     "birthdate": "1989-03-25",
     "phone": "819.929.0003x780",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        43,
+        65,
+        11,
+        1,
+        51,
+        18,
+        13,
+        61,
+        7
+    ],
+    "login locations": [
+        [
+            -121.06891,
+            38.646302
+        ]
+    ],
+    "relationships": []
 }

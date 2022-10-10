@@ -5,7 +5,31 @@
     "email": "scott31@hotmail.com",
     "birthdate": "2009-02-02",
     "phone": "(109)706-6528x39991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        38,
+        41,
+        63,
+        57,
+        61,
+        35
+    ],
+    "login locations": [
+        [
+            -122.098255,
+            37.411138
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5092,
+                0.0434782608696
+            ],
+            [
+                5100,
+                0.024
+            ]
+        ]
+    ]
 }

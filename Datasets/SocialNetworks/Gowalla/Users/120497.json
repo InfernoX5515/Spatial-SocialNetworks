@@ -5,7 +5,23 @@
     "email": "jennifer71@gmail.com",
     "birthdate": "1967-08-21",
     "phone": "536.770.9996",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        27,
+        50,
+        22,
+        55,
+        8,
+        31,
+        23,
+        50,
+        28
+    ],
+    "login locations": [
+        [
+            -118.196979,
+            33.813244
+        ]
+    ],
+    "relationships": []
 }

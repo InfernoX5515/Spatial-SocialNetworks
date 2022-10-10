@@ -5,7 +5,32 @@
     "email": "colton08@yahoo.com",
     "birthdate": "2006-09-24",
     "phone": "+1-580-767-9172x258",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        34,
+        71,
+        11,
+        56,
+        64,
+        73,
+        5
+    ],
+    "login locations": [
+        [
+            -122.419011,
+            37.751901
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33648,
+                0.02
+            ],
+            [
+                33648,
+                0.02
+            ]
+        ]
+    ]
 }

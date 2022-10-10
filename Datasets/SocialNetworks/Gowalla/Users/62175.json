@@ -5,7 +5,20 @@
     "email": "juanbaxter@gmail.com",
     "birthdate": "1954-10-22",
     "phone": "001-860-322-1068x38689",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        67,
+        54,
+        5,
+        31,
+        65,
+        15
+    ],
+    "login locations": [
+        [
+            -117.414883,
+            33.946358
+        ]
+    ],
+    "relationships": []
 }

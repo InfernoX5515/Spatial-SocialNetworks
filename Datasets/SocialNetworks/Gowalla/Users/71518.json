@@ -5,7 +5,28 @@
     "email": "jean77@yahoo.com",
     "birthdate": "1964-02-17",
     "phone": "964-537-1374x414",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        16,
+        48,
+        50,
+        39,
+        39,
+        41,
+        38,
+        50,
+        13,
+        40,
+        58,
+        12,
+        14,
+        57
+    ],
+    "login locations": [
+        [
+            -122.411961,
+            37.758698
+        ]
+    ],
+    "relationships": []
 }

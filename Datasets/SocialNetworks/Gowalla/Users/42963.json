@@ -5,7 +5,22 @@
     "email": "lewisryan@yahoo.com",
     "birthdate": "1935-03-31",
     "phone": "+1-556-734-7089x4481",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        61,
+        45,
+        24,
+        51,
+        24,
+        10,
+        48,
+        20
+    ],
+    "login locations": [
+        [
+            -121.295239,
+            38.738951
+        ]
+    ],
+    "relationships": []
 }

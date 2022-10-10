@@ -5,7 +5,39 @@
     "email": "moonmichael@yahoo.com",
     "birthdate": "1987-08-14",
     "phone": "5956648934",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        26,
+        54,
+        20,
+        75,
+        7,
+        64,
+        42,
+        43,
+        44,
+        44,
+        70,
+        64,
+        28,
+        5
+    ],
+    "login locations": [
+        [
+            -119.283703,
+            36.274586
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                108591,
+                0.291666666667
+            ],
+            [
+                108591,
+                0.291666666667
+            ]
+        ]
+    ]
 }

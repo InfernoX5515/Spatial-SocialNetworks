@@ -5,7 +5,17 @@
     "email": "mendozajulia@hotmail.com",
     "birthdate": "1994-09-22",
     "phone": "304.888.6491x9906",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        42,
+        59,
+        16
+    ],
+    "login locations": [
+        [
+            -122.44139,
+            37.801525
+        ]
+    ],
+    "relationships": []
 }

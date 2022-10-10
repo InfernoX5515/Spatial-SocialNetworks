@@ -5,7 +5,28 @@
     "email": "christophermarshall@gmail.com",
     "birthdate": "1939-07-13",
     "phone": "921.795.3360",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        34,
+        7,
+        51,
+        1,
+        20,
+        12,
+        39,
+        11,
+        11,
+        2,
+        41,
+        64,
+        67,
+        21
+    ],
+    "login locations": [
+        [
+            -121.407267,
+            38.424569
+        ]
+    ],
+    "relationships": []
 }

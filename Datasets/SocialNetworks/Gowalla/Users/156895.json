@@ -5,7 +5,17 @@
     "email": "jeremyboyd@hotmail.com",
     "birthdate": "1980-08-17",
     "phone": "332.588.6401",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        0,
+        2,
+        43
+    ],
+    "login locations": [
+        [
+            -117.2297,
+            32.804215
+        ]
+    ],
+    "relationships": []
 }

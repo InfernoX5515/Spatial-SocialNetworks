@@ -5,7 +5,29 @@
     "email": "sanchezsteven@gmail.com",
     "birthdate": "1976-06-03",
     "phone": "+1-705-735-3243x0410",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        51,
+        23,
+        52,
+        11
+    ],
+    "login locations": [
+        [
+            -122.321278,
+            37.852467
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                124099,
+                0.037037037037
+            ],
+            [
+                124099,
+                0.037037037037
+            ]
+        ]
+    ]
 }

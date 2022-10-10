@@ -5,7 +5,14 @@
     "email": "benjamin20@gmail.com",
     "birthdate": "1949-11-01",
     "phone": "(511)215-4304",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67
+    ],
+    "login locations": [
+        [
+            -122.390442,
+            37.81887
+        ]
+    ],
+    "relationships": []
 }

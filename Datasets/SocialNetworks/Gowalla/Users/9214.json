@@ -5,7 +5,20 @@
     "email": "morganangela@hotmail.com",
     "birthdate": "2004-06-08",
     "phone": "(701)704-0471x670",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        51,
+        36,
+        39,
+        32,
+        60,
+        50
+    ],
+    "login locations": [
+        [
+            -122.050983,
+            37.373034
+        ]
+    ],
+    "relationships": []
 }

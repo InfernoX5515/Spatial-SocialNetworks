@@ -5,7 +5,24 @@
     "email": "jessicasanchez@hotmail.com",
     "birthdate": "1920-04-10",
     "phone": "(233)807-7721x67343",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        68,
+        17,
+        43,
+        65,
+        71,
+        62,
+        38,
+        71,
+        11,
+        0
+    ],
+    "login locations": [
+        [
+            -122.269205,
+            37.865451
+        ]
+    ],
+    "relationships": []
 }

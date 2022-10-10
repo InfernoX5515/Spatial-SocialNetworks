@@ -5,7 +5,12 @@
     "email": "hernandezbrian@gmail.com",
     "birthdate": "2021-08-23",
     "phone": "(039)534-2333x913",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.768128,
+            33.684621
+        ]
+    ],
+    "relationships": []
 }

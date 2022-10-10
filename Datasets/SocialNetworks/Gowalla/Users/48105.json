@@ -5,7 +5,28 @@
     "email": "smitherica@yahoo.com",
     "birthdate": "1937-05-20",
     "phone": "+1-679-863-6069x36947",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        47,
+        56,
+        54,
+        57,
+        37,
+        50,
+        49,
+        33,
+        36,
+        16,
+        0,
+        12,
+        64,
+        60
+    ],
+    "login locations": [
+        [
+            -117.62743,
+            34.08049
+        ]
+    ],
+    "relationships": []
 }

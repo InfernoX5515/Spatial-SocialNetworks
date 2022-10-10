@@ -5,7 +5,16 @@
     "email": "jonesdavid@yahoo.com",
     "birthdate": "2000-04-21",
     "phone": "6549246233",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        25,
+        53
+    ],
+    "login locations": [
+        [
+            -121.348551,
+            38.024116
+        ]
+    ],
+    "relationships": []
 }

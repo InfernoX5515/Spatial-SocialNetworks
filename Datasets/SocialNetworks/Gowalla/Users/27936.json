@@ -5,7 +5,24 @@
     "email": "aaron11@yahoo.com",
     "birthdate": "1907-12-01",
     "phone": "7698220621",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        34,
+        34,
+        38,
+        26,
+        49,
+        8,
+        51,
+        67,
+        48,
+        42
+    ],
+    "login locations": [
+        [
+            -122.413703,
+            37.776911
+        ]
+    ],
+    "relationships": []
 }

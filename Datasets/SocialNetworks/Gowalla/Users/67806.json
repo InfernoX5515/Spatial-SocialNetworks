@@ -5,7 +5,20 @@
     "email": "matthew00@hotmail.com",
     "birthdate": "1999-10-12",
     "phone": "852.216.9105",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        53,
+        35,
+        7,
+        9,
+        14,
+        60
+    ],
+    "login locations": [
+        [
+            -117.153306,
+            32.757325
+        ]
+    ],
+    "relationships": []
 }

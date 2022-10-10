@@ -5,7 +5,17 @@
     "email": "alice95@gmail.com",
     "birthdate": "1969-02-14",
     "phone": "(717)780-7929x6785",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        23,
+        26,
+        13
+    ],
+    "login locations": [
+        [
+            -118.72255,
+            34.233992
+        ]
+    ],
+    "relationships": []
 }

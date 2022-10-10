@@ -5,7 +5,38 @@
     "email": "kimdaniels@gmail.com",
     "birthdate": "1958-02-26",
     "phone": "513.084.7604x34656",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        4,
+        10,
+        66,
+        74,
+        45,
+        1,
+        8,
+        47,
+        30,
+        6,
+        3,
+        75,
+        4
+    ],
+    "login locations": [
+        [
+            -117.844213,
+            33.741291
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5305,
+                0.0277777777778
+            ],
+            [
+                10446,
+                0.01
+            ]
+        ]
+    ]
 }

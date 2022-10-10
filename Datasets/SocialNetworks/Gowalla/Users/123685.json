@@ -5,7 +5,25 @@
     "email": "dlee@hotmail.com",
     "birthdate": "1990-12-15",
     "phone": "+1-837-857-4681x751",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        61,
+        31,
+        4,
+        4,
+        67,
+        37,
+        67,
+        31,
+        17,
+        13,
+        36
+    ],
+    "login locations": [
+        [
+            -122.376114,
+            37.687159
+        ]
+    ],
+    "relationships": []
 }

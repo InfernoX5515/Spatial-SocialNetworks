@@ -5,7 +5,37 @@
     "email": "elizabeth18@yahoo.com",
     "birthdate": "1949-02-25",
     "phone": "256.463.7069",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        14,
+        15,
+        25,
+        60,
+        7,
+        55,
+        9,
+        52,
+        24,
+        11,
+        23,
+        63
+    ],
+    "login locations": [
+        [
+            -121.281752,
+            38.782312
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                46300,
+                0.0731707317073
+            ],
+            [
+                46300,
+                0.0731707317073
+            ]
+        ]
+    ]
 }

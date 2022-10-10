@@ -5,7 +5,18 @@
     "email": "cory14@gmail.com",
     "birthdate": "1915-01-10",
     "phone": "243.176.4958x3918",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        74,
+        73,
+        43,
+        12
+    ],
+    "login locations": [
+        [
+            -117.795257,
+            34.074214
+        ]
+    ],
+    "relationships": []
 }

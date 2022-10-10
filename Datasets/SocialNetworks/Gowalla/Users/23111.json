@@ -5,7 +5,28 @@
     "email": "richardsonstephanie@hotmail.com",
     "birthdate": "1985-06-03",
     "phone": "545.279.8745x039",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        49,
+        15,
+        1
+    ],
+    "login locations": [
+        [
+            -122.406071,
+            37.764006
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                470,
+                0.018701870187
+            ],
+            [
+                4680,
+                0.0183333333333
+            ]
+        ]
+    ]
 }

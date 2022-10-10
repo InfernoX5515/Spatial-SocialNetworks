@@ -5,7 +5,15 @@
     "email": "wellsjesse@hotmail.com",
     "birthdate": "1910-09-25",
     "phone": "+1-504-608-3977x36521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        69
+    ],
+    "login locations": [
+        [
+            -118.121548,
+            34.142494
+        ]
+    ],
+    "relationships": []
 }

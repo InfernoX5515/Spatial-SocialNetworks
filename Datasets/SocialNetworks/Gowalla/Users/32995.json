@@ -5,7 +5,27 @@
     "email": "jsmith@gmail.com",
     "birthdate": "2008-06-07",
     "phone": "324-121-6262x826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        63,
+        36,
+        52,
+        10,
+        57,
+        44,
+        68,
+        75,
+        36,
+        1,
+        60,
+        17,
+        23
+    ],
+    "login locations": [
+        [
+            -121.487813,
+            38.582643
+        ]
+    ],
+    "relationships": []
 }

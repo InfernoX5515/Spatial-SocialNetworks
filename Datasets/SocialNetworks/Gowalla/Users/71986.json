@@ -5,7 +5,20 @@
     "email": "pruitttravis@gmail.com",
     "birthdate": "1944-03-25",
     "phone": "980.953.4054x78131",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        74,
+        24,
+        5,
+        34,
+        26,
+        65
+    ],
+    "login locations": [
+        [
+            -118.315673,
+            34.062617
+        ]
+    ],
+    "relationships": []
 }

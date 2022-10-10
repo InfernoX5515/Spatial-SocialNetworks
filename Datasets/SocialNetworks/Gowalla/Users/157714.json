@@ -5,7 +5,14 @@
     "email": "gibsonjose@hotmail.com",
     "birthdate": "1917-02-18",
     "phone": "+1-458-416-8844x55847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25
+    ],
+    "login locations": [
+        [
+            -118.109045,
+            34.678841
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "dianamoore@yahoo.com",
     "birthdate": "1962-11-09",
     "phone": "432-446-6237x2987",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        25,
+        44,
+        1,
+        73,
+        30,
+        30,
+        67,
+        25,
+        49,
+        72,
+        40,
+        19
+    ],
+    "login locations": [
+        [
+            -118.36363,
+            34.122558
+        ]
+    ],
+    "relationships": []
 }

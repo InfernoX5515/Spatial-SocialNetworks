@@ -5,7 +5,24 @@
     "email": "hsimmons@yahoo.com",
     "birthdate": "2003-01-25",
     "phone": "+1-671-649-7645x75399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        46,
+        73,
+        15,
+        46,
+        37,
+        43,
+        2,
+        60,
+        31,
+        68
+    ],
+    "login locations": [
+        [
+            -118.451514,
+            34.010562
+        ]
+    ],
+    "relationships": []
 }

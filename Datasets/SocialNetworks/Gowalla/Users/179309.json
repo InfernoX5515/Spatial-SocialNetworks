@@ -5,7 +5,35 @@
     "email": "gardnermaria@hotmail.com",
     "birthdate": "2006-10-08",
     "phone": "001-039-872-3355x50346",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        1,
+        28,
+        28,
+        31,
+        47,
+        29,
+        33,
+        19,
+        50,
+        20
+    ],
+    "login locations": [
+        [
+            -119.765428,
+            36.818385
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118446,
+                0.512195121951
+            ],
+            [
+                118446,
+                0.512195121951
+            ]
+        ]
+    ]
 }

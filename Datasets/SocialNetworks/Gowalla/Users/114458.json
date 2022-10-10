@@ -5,7 +5,34 @@
     "email": "mooremichael@yahoo.com",
     "birthdate": "1977-09-01",
     "phone": "+1-106-577-7438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        33,
+        71,
+        58,
+        46,
+        70,
+        74,
+        62,
+        75,
+        59
+    ],
+    "login locations": [
+        [
+            -121.948746,
+            37.328874
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                114426,
+                0.0333333333333
+            ],
+            [
+                114426,
+                0.0333333333333
+            ]
+        ]
+    ]
 }

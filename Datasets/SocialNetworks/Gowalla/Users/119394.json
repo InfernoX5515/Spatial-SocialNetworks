@@ -5,7 +5,28 @@
     "email": "dwilson@yahoo.com",
     "birthdate": "1954-07-18",
     "phone": "(530)309-6333x30272",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        43,
+        14,
+        68,
+        55,
+        0,
+        59,
+        47,
+        11,
+        16,
+        31,
+        31,
+        30,
+        35,
+        27
+    ],
+    "login locations": [
+        [
+            -122.307977,
+            37.674608
+        ]
+    ],
+    "relationships": []
 }

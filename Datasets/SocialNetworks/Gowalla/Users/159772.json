@@ -5,7 +5,23 @@
     "email": "drew35@hotmail.com",
     "birthdate": "2012-07-25",
     "phone": "165.690.3361x92779",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        6,
+        75,
+        66,
+        38,
+        38,
+        20,
+        61,
+        37,
+        5
+    ],
+    "login locations": [
+        [
+            -122.402394,
+            37.783994
+        ]
+    ],
+    "relationships": []
 }

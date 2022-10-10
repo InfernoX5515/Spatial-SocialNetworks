@@ -5,7 +5,23 @@
     "email": "sarah83@hotmail.com",
     "birthdate": "1964-01-31",
     "phone": "001-195-184-3063x423",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        54,
+        23,
+        55,
+        72,
+        65,
+        29,
+        75,
+        49,
+        63
+    ],
+    "login locations": [
+        [
+            -118.429823,
+            34.02317
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "cobbjennifer@gmail.com",
     "birthdate": "1964-08-16",
     "phone": "463-884-7117x85819",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        24,
+        25,
+        70,
+        24,
+        50,
+        55
+    ],
+    "login locations": [
+        [
+            -122.381008,
+            37.799796
+        ]
+    ],
+    "relationships": []
 }

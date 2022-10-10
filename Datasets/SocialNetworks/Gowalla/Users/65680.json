@@ -5,7 +5,18 @@
     "email": "wanderson@hotmail.com",
     "birthdate": "1977-05-04",
     "phone": "(580)702-4791x2384",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        26,
+        29,
+        67,
+        57
+    ],
+    "login locations": [
+        [
+            -122.418041,
+            37.775815
+        ]
+    ],
+    "relationships": []
 }

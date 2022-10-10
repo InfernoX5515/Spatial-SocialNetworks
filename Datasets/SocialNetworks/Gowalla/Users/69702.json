@@ -5,7 +5,22 @@
     "email": "cherylserrano@gmail.com",
     "birthdate": "1928-06-08",
     "phone": "001-098-427-3179",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        54,
+        49,
+        56,
+        35,
+        70,
+        22,
+        49,
+        62
+    ],
+    "login locations": [
+        [
+            -118.305193,
+            34.020748
+        ]
+    ],
+    "relationships": []
 }

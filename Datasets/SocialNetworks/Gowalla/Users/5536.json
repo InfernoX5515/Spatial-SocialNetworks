@@ -5,7 +5,18 @@
     "email": "timothyhughes@yahoo.com",
     "birthdate": "2013-02-09",
     "phone": "086-786-5816x2207",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        47,
+        0,
+        15,
+        71
+    ],
+    "login locations": [
+        [
+            -118.370973,
+            34.153703
+        ]
+    ],
+    "relationships": []
 }

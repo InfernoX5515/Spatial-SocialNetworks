@@ -5,7 +5,17 @@
     "email": "marshalljacob@hotmail.com",
     "birthdate": "2010-03-26",
     "phone": "691-578-4206",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        0,
+        60,
+        21
+    ],
+    "login locations": [
+        [
+            -118.260204,
+            34.135476
+        ]
+    ],
+    "relationships": []
 }

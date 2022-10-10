@@ -5,7 +5,15 @@
     "email": "shannonperez@gmail.com",
     "birthdate": "1998-10-29",
     "phone": "+1-021-182-1854x360",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        64
+    ],
+    "login locations": [
+        [
+            -122.111305,
+            37.432713
+        ]
+    ],
+    "relationships": []
 }

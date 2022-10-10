@@ -5,7 +5,25 @@
     "email": "charles97@yahoo.com",
     "birthdate": "1949-08-07",
     "phone": "384-956-8259x7154",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -118.673861,
+            34.250482
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                126539,
+                0.32
+            ],
+            [
+                126539,
+                0.32
+            ]
+        ]
+    ]
 }

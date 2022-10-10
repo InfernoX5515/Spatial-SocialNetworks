@@ -5,7 +5,14 @@
     "email": "andersonbradley@gmail.com",
     "birthdate": "1984-04-24",
     "phone": "+1-251-920-8871x297",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67
+    ],
+    "login locations": [
+        [
+            -122.400821,
+            37.780954
+        ]
+    ],
+    "relationships": []
 }

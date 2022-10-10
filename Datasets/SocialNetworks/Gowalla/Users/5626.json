@@ -5,7 +5,15 @@
     "email": "wporter@yahoo.com",
     "birthdate": "1929-12-29",
     "phone": "001-956-678-8025",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        21
+    ],
+    "login locations": [
+        [
+            -122.416119,
+            37.734276
+        ]
+    ],
+    "relationships": []
 }

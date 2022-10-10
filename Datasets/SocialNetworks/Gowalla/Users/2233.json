@@ -5,7 +5,29 @@
     "email": "johnbridges@hotmail.com",
     "birthdate": "1910-07-18",
     "phone": "674-165-1395",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        0,
+        69,
+        66,
+        57
+    ],
+    "login locations": [
+        [
+            -118.456016,
+            34.005376
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                17834,
+                0.0342857142857
+            ],
+            [
+                17834,
+                0.0342857142857
+            ]
+        ]
+    ]
 }

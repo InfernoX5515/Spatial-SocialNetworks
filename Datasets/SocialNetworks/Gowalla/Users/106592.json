@@ -5,7 +5,28 @@
     "email": "smithcassandra@hotmail.com",
     "birthdate": "2016-06-06",
     "phone": "626.666.2114",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        43,
+        2,
+        52,
+        55,
+        57,
+        41,
+        50,
+        47,
+        2,
+        57,
+        40,
+        26,
+        25,
+        71
+    ],
+    "login locations": [
+        [
+            -118.153791,
+            34.13759
+        ]
+    ],
+    "relationships": []
 }

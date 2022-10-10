@@ -5,7 +5,18 @@
     "email": "mariagoodman@gmail.com",
     "birthdate": "1926-09-09",
     "phone": "308-442-0413x582",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        27,
+        68,
+        2,
+        57
+    ],
+    "login locations": [
+        [
+            -122.411137,
+            37.798511
+        ]
+    ],
+    "relationships": []
 }

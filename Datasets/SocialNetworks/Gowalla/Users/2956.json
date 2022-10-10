@@ -5,7 +5,14 @@
     "email": "adavis@yahoo.com",
     "birthdate": "1944-04-16",
     "phone": "001-555-231-9883",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68
+    ],
+    "login locations": [
+        [
+            -116.301044,
+            33.721101
+        ]
+    ],
+    "relationships": []
 }

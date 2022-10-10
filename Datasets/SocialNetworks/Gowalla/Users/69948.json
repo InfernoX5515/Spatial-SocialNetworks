@@ -5,7 +5,16 @@
     "email": "ule@yahoo.com",
     "birthdate": "1976-01-28",
     "phone": "(094)636-8799x260",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        0,
+        60
+    ],
+    "login locations": [
+        [
+            -118.419353,
+            33.902748
+        ]
+    ],
+    "relationships": []
 }

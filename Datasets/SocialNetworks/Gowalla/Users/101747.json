@@ -5,7 +5,18 @@
     "email": "martinezscott@hotmail.com",
     "birthdate": "1989-09-15",
     "phone": "1234109992",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        21,
+        18,
+        65,
+        35
+    ],
+    "login locations": [
+        [
+            -118.224486,
+            33.863791
+        ]
+    ],
+    "relationships": []
 }

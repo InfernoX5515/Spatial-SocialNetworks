@@ -5,7 +5,24 @@
     "email": "wscott@hotmail.com",
     "birthdate": "1964-11-18",
     "phone": "285-416-2606x29736",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        4,
+        32,
+        58,
+        33,
+        73,
+        59,
+        46,
+        41,
+        3,
+        70
+    ],
+    "login locations": [
+        [
+            -119.76009,
+            36.780587
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "patrick17@gmail.com",
     "birthdate": "1908-03-20",
     "phone": "762.757.7550x97928",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        66,
+        0,
+        13,
+        17,
+        22,
+        45
+    ],
+    "login locations": [
+        [
+            -118.376284,
+            34.056727
+        ]
+    ],
+    "relationships": []
 }

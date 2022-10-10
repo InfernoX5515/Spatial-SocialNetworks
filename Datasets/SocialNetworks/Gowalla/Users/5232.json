@@ -5,7 +5,35 @@
     "email": "steven36@gmail.com",
     "birthdate": "1924-11-22",
     "phone": "(105)626-0788x1528",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        38,
+        33,
+        59,
+        49,
+        30,
+        32,
+        34,
+        59,
+        5,
+        58
+    ],
+    "login locations": [
+        [
+            -121.962984,
+            37.305349
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                234,
+                0.0213333333333
+            ],
+            [
+                457,
+                0.0516605166052
+            ]
+        ]
+    ]
 }

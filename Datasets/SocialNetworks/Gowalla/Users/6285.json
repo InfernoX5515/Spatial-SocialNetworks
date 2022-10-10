@@ -5,7 +5,22 @@
     "email": "ghenry@gmail.com",
     "birthdate": "1955-12-16",
     "phone": "398.641.9064x79771",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        62,
+        3,
+        58,
+        8,
+        20,
+        38,
+        5,
+        63
+    ],
+    "login locations": [
+        [
+            -117.159021,
+            32.762659
+        ]
+    ],
+    "relationships": []
 }

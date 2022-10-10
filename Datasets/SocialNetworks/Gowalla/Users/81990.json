@@ -5,7 +5,15 @@
     "email": "wskinner@hotmail.com",
     "birthdate": "1977-06-19",
     "phone": "153-512-3547x678",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        64
+    ],
+    "login locations": [
+        [
+            -122.418311,
+            37.832584
+        ]
+    ],
+    "relationships": []
 }

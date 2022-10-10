@@ -5,7 +5,21 @@
     "email": "alan53@hotmail.com",
     "birthdate": "1920-04-16",
     "phone": "+1-259-165-2604",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        22,
+        9,
+        54,
+        8,
+        69,
+        22,
+        75
+    ],
+    "login locations": [
+        [
+            -117.930059,
+            33.810514
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "despinoza@hotmail.com",
     "birthdate": "1993-09-10",
     "phone": "001-768-100-3102x84945",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        49,
+        1,
+        58,
+        74,
+        7,
+        40,
+        47
+    ],
+    "login locations": [
+        [
+            -122.35003,
+            38.054087
+        ]
+    ],
+    "relationships": []
 }

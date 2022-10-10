@@ -5,7 +5,27 @@
     "email": "joeprince@hotmail.com",
     "birthdate": "1995-04-27",
     "phone": "+1-991-084-7771x41967",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        6,
+        71,
+        64,
+        12,
+        60,
+        62,
+        31,
+        68,
+        61,
+        21,
+        67,
+        38,
+        17
+    ],
+    "login locations": [
+        [
+            -118.69631,
+            34.166128
+        ]
+    ],
+    "relationships": []
 }

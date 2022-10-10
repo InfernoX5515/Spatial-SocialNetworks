@@ -5,7 +5,28 @@
     "email": "scott11@yahoo.com",
     "birthdate": "1951-06-08",
     "phone": "429.203.6715x9461",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        13,
+        50,
+        61,
+        61,
+        64,
+        15,
+        27,
+        14,
+        59,
+        13,
+        35,
+        16,
+        32,
+        69
+    ],
+    "login locations": [
+        [
+            -122.403165,
+            37.788949
+        ]
+    ],
+    "relationships": []
 }

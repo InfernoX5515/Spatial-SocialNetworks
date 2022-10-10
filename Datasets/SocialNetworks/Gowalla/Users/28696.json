@@ -5,7 +5,28 @@
     "email": "bishopjulia@yahoo.com",
     "birthdate": "2000-03-06",
     "phone": "+1-385-720-3129x5076",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        54,
+        70,
+        47,
+        55,
+        11,
+        28,
+        70,
+        58,
+        59,
+        14,
+        45,
+        69,
+        17,
+        60
+    ],
+    "login locations": [
+        [
+            -122.416521,
+            37.794126
+        ]
+    ],
+    "relationships": []
 }

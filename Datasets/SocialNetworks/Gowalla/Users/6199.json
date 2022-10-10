@@ -5,7 +5,33 @@
     "email": "cwilson@hotmail.com",
     "birthdate": "1958-12-09",
     "phone": "(213)959-4217",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        75,
+        40,
+        56,
+        26,
+        20,
+        58,
+        57,
+        31
+    ],
+    "login locations": [
+        [
+            -121.997306,
+            37.358581
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.0115942028986
+            ],
+            [
+                4829,
+                0.0377358490566
+            ]
+        ]
+    ]
 }

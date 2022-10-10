@@ -5,7 +5,25 @@
     "email": "eric94@hotmail.com",
     "birthdate": "1911-03-18",
     "phone": "679.136.7986x567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        49,
+        61,
+        5,
+        10,
+        46,
+        32,
+        10,
+        2,
+        64,
+        37,
+        66
+    ],
+    "login locations": [
+        [
+            -122.389605,
+            37.780654
+        ]
+    ],
+    "relationships": []
 }

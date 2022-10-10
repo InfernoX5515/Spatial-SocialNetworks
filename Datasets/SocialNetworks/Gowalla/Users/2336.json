@@ -5,7 +5,23 @@
     "email": "taraharris@gmail.com",
     "birthdate": "1966-02-14",
     "phone": "(938)799-8766",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        13,
+        67,
+        0,
+        2,
+        69,
+        35,
+        36,
+        73,
+        14
+    ],
+    "login locations": [
+        [
+            -118.464595,
+            33.988027
+        ]
+    ],
+    "relationships": []
 }

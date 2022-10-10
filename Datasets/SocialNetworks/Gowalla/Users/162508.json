@@ -5,7 +5,16 @@
     "email": "brendan32@yahoo.com",
     "birthdate": "1993-12-20",
     "phone": "(326)046-9704x89603",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        7,
+        1
+    ],
+    "login locations": [
+        [
+            -122.125265,
+            37.684536
+        ]
+    ],
+    "relationships": []
 }

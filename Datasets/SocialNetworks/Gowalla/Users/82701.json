@@ -5,7 +5,24 @@
     "email": "kimberlyrodriguez@yahoo.com",
     "birthdate": "2011-06-07",
     "phone": "(146)144-5869x1174",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        42,
+        20,
+        2,
+        60,
+        68,
+        53,
+        35,
+        52,
+        34,
+        32
+    ],
+    "login locations": [
+        [
+            -122.146156,
+            37.420065
+        ]
+    ],
+    "relationships": []
 }

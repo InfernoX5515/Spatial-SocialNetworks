@@ -5,7 +5,34 @@
     "email": "tgriffin@gmail.com",
     "birthdate": "1951-07-17",
     "phone": "790-035-5986x02019",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        69,
+        2,
+        72,
+        49,
+        19,
+        39,
+        39,
+        52,
+        49
+    ],
+    "login locations": [
+        [
+            -122.035024,
+            37.973402
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53,
+                0.01
+            ],
+            [
+                201,
+                0.04
+            ]
+        ]
+    ]
 }

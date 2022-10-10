@@ -5,7 +5,24 @@
     "email": "jessegarcia@hotmail.com",
     "birthdate": "1936-10-26",
     "phone": "+1-311-363-1048x688",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        9,
+        64,
+        66,
+        20,
+        43,
+        7,
+        27,
+        71,
+        0,
+        4
+    ],
+    "login locations": [
+        [
+            -118.253293,
+            34.104857
+        ]
+    ],
+    "relationships": []
 }

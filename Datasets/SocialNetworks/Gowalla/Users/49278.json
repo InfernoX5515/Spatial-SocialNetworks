@@ -5,7 +5,20 @@
     "email": "ljones@yahoo.com",
     "birthdate": "1929-04-18",
     "phone": "654.961.9028x4301",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        16,
+        26,
+        18,
+        45,
+        15,
+        73
+    ],
+    "login locations": [
+        [
+            -117.832509,
+            33.709435
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,38 @@
     "email": "maria82@hotmail.com",
     "birthdate": "1952-01-06",
     "phone": "001-355-376-3034x50626",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        22,
+        32,
+        2,
+        12,
+        72,
+        45,
+        37,
+        26,
+        18,
+        65,
+        70,
+        50,
+        16
+    ],
+    "login locations": [
+        [
+            -121.810937,
+            37.714388
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                78264,
+                0.04
+            ],
+            [
+                78264,
+                0.04
+            ]
+        ]
+    ]
 }

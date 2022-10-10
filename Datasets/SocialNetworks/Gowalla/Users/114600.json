@@ -5,7 +5,19 @@
     "email": "lsmith@hotmail.com",
     "birthdate": "1938-04-16",
     "phone": "001-160-463-4902x615",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        65,
+        5,
+        56,
+        34,
+        5
+    ],
+    "login locations": [
+        [
+            -117.757835,
+            33.683422
+        ]
+    ],
+    "relationships": []
 }

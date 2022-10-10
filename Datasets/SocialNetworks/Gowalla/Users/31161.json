@@ -5,7 +5,15 @@
     "email": "michael02@yahoo.com",
     "birthdate": "1972-02-10",
     "phone": "001-776-324-0154",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        73
+    ],
+    "login locations": [
+        [
+            -121.914063,
+            37.259587
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "jessica29@hotmail.com",
     "birthdate": "1956-03-05",
     "phone": "(492)976-6298x9882",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        65,
+        62,
+        45,
+        20,
+        33,
+        57,
+        40,
+        37,
+        60,
+        13,
+        61,
+        73
+    ],
+    "login locations": [
+        [
+            -118.286453,
+            34.058716
+        ]
+    ],
+    "relationships": []
 }

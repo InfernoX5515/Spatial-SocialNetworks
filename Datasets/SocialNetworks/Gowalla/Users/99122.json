@@ -5,7 +5,24 @@
     "email": "fergusonmargaret@gmail.com",
     "birthdate": "1925-12-24",
     "phone": "001-065-640-3598x197",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        43,
+        72,
+        10,
+        27,
+        38,
+        38,
+        5,
+        44,
+        42,
+        61
+    ],
+    "login locations": [
+        [
+            -122.472301,
+            37.843366
+        ]
+    ],
+    "relationships": []
 }

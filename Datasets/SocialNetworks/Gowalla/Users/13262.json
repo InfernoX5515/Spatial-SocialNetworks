@@ -5,7 +5,39 @@
     "email": "amy91@gmail.com",
     "birthdate": "1924-10-14",
     "phone": "(189)039-1238",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        0,
+        5,
+        73,
+        9,
+        61,
+        0,
+        74,
+        30,
+        57,
+        67,
+        31,
+        6,
+        59,
+        35
+    ],
+    "login locations": [
+        [
+            -122.417853,
+            37.802144
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                324,
+                0.01
+            ],
+            [
+                484,
+                0.0116959064327
+            ]
+        ]
+    ]
 }

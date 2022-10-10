@@ -5,7 +5,22 @@
     "email": "eugenefernandez@gmail.com",
     "birthdate": "1923-06-16",
     "phone": "900-802-6109x96963",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        65,
+        72,
+        75,
+        56,
+        0,
+        45,
+        43,
+        71
+    ],
+    "login locations": [
+        [
+            -117.147942,
+            32.770889
+        ]
+    ],
+    "relationships": []
 }

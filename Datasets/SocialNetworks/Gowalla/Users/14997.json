@@ -5,7 +5,22 @@
     "email": "staceychandler@yahoo.com",
     "birthdate": "1993-04-23",
     "phone": "578-493-4747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        52,
+        49,
+        23,
+        46,
+        21,
+        7,
+        28,
+        43
+    ],
+    "login locations": [
+        [
+            -121.94449,
+            37.339211
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "vvilla@gmail.com",
     "birthdate": "2016-03-03",
     "phone": "169.372.6448",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        30,
+        38,
+        27,
+        69,
+        18,
+        56,
+        36,
+        2,
+        45,
+        15,
+        60,
+        45,
+        69
+    ],
+    "login locations": [
+        [
+            -122.065505,
+            37.379585
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "tortiz@hotmail.com",
     "birthdate": "1979-04-23",
     "phone": "472-008-7245x091",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        31,
+        16,
+        20
+    ],
+    "login locations": [
+        [
+            -122.018977,
+            37.365569
+        ]
+    ],
+    "relationships": []
 }

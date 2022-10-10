@@ -5,7 +5,23 @@
     "email": "smithchristian@hotmail.com",
     "birthdate": "1966-12-21",
     "phone": "(650)550-9649x9505",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.31015,
+            34.074369
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11322,
+                0.01
+            ],
+            [
+                11322,
+                0.01
+            ]
+        ]
+    ]
 }

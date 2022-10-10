@@ -5,7 +5,17 @@
     "email": "lisa36@gmail.com",
     "birthdate": "2005-08-15",
     "phone": "001-850-144-8031x45306",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        72,
+        42,
+        56
+    ],
+    "login locations": [
+        [
+            -122.421746,
+            37.799307
+        ]
+    ],
+    "relationships": []
 }

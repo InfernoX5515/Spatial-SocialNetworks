@@ -5,7 +5,33 @@
     "email": "victoria70@gmail.com",
     "birthdate": "1998-12-07",
     "phone": "001-836-350-6836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        45,
+        46,
+        42,
+        48,
+        66,
+        3,
+        70,
+        4
+    ],
+    "login locations": [
+        [
+            -122.418342,
+            37.795385
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118157,
+                0.028901734104
+            ],
+            [
+                118157,
+                0.028901734104
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "martinezjoanna@gmail.com",
     "birthdate": "1985-06-18",
     "phone": "001-798-622-6698x2468",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        70,
+        28,
+        26,
+        52,
+        42,
+        73,
+        33,
+        32,
+        35,
+        67,
+        41
+    ],
+    "login locations": [
+        [
+            -119.529811,
+            34.404664
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "jamesrusso@yahoo.com",
     "birthdate": "2008-07-12",
     "phone": "(488)306-1168x13758",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        64,
+        23,
+        10,
+        11,
+        4,
+        30,
+        24,
+        21
+    ],
+    "login locations": [
+        [
+            -122.410109,
+            37.800583
+        ]
+    ],
+    "relationships": []
 }

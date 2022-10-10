@@ -5,7 +5,12 @@
     "email": "danielle74@gmail.com",
     "birthdate": "1913-10-09",
     "phone": "586.126.8636",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.980069,
+            36.984185
+        ]
+    ],
+    "relationships": []
 }

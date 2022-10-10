@@ -5,7 +5,20 @@
     "email": "chelsea57@gmail.com",
     "birthdate": "1948-01-19",
     "phone": "381.295.7135x50834",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        0,
+        37,
+        47,
+        9,
+        7,
+        42
+    ],
+    "login locations": [
+        [
+            -121.737476,
+            37.181486
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,32 @@
     "email": "gabriel27@yahoo.com",
     "birthdate": "2019-04-02",
     "phone": "(037)933-5148x3525",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        22,
+        10,
+        70,
+        26,
+        52,
+        39,
+        39
+    ],
+    "login locations": [
+        [
+            -118.401674,
+            34.046011
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                21,
+                0.04
+            ],
+            [
+                21,
+                0.04
+            ]
+        ]
+    ]
 }

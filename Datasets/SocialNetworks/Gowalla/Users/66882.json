@@ -5,7 +5,14 @@
     "email": "stephanie33@gmail.com",
     "birthdate": "1963-10-15",
     "phone": "782.733.4495",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -118.828621,
+            34.181188
+        ]
+    ],
+    "relationships": []
 }

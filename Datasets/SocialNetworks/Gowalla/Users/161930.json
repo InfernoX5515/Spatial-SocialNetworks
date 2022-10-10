@@ -5,7 +5,23 @@
     "email": "fernandezjeffrey@gmail.com",
     "birthdate": "1930-01-26",
     "phone": "001-365-280-6153x4822",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        41,
+        39,
+        28,
+        59,
+        25,
+        25,
+        35,
+        3,
+        24
+    ],
+    "login locations": [
+        [
+            -122.398321,
+            37.759368
+        ]
+    ],
+    "relationships": []
 }

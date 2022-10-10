@@ -5,7 +5,27 @@
     "email": "fosterlacey@hotmail.com",
     "birthdate": "2013-04-07",
     "phone": "(764)900-4868x5122",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        50,
+        4,
+        70,
+        51,
+        44,
+        48,
+        60,
+        41,
+        6,
+        62,
+        16,
+        68,
+        13
+    ],
+    "login locations": [
+        [
+            -122.665939,
+            38.392938
+        ]
+    ],
+    "relationships": []
 }

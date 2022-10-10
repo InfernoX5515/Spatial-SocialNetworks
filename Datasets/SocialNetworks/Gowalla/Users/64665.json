@@ -5,7 +5,23 @@
     "email": "weaverjennifer@gmail.com",
     "birthdate": "1998-11-05",
     "phone": "001-502-531-5342x517",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.920736,
+            33.809421
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                23111,
+                0.04
+            ],
+            [
+                23111,
+                0.04
+            ]
+        ]
+    ]
 }

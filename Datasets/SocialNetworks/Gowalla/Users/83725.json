@@ -5,7 +5,33 @@
     "email": "bryan30@yahoo.com",
     "birthdate": "1986-11-26",
     "phone": "001-737-082-4370",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        57,
+        5,
+        60,
+        51,
+        4,
+        52,
+        72,
+        26
+    ],
+    "login locations": [
+        [
+            -121.36563,
+            38.634226
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8320,
+                0.146666666667
+            ],
+            [
+                8320,
+                0.146666666667
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "wendy48@gmail.com",
     "birthdate": "2019-12-04",
     "phone": "(429)305-9156x1253",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        7,
+        28,
+        9,
+        31,
+        54,
+        11,
+        48,
+        24,
+        57
+    ],
+    "login locations": [
+        [
+            -122.138222,
+            37.422133
+        ]
+    ],
+    "relationships": []
 }

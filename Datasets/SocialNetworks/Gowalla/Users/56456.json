@@ -5,7 +5,31 @@
     "email": "dianaanderson@hotmail.com",
     "birthdate": "1959-06-17",
     "phone": "+1-092-964-6886x5159",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        44,
+        65,
+        74,
+        66,
+        28,
+        54
+    ],
+    "login locations": [
+        [
+            -117.874968,
+            33.69786
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39813,
+                0.173333333333
+            ],
+            [
+                39824,
+                0.16
+            ]
+        ]
+    ]
 }

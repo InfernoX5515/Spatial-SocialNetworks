@@ -5,7 +5,20 @@
     "email": "james06@hotmail.com",
     "birthdate": "1997-04-16",
     "phone": "242.436.1521x587",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        31,
+        12,
+        18,
+        32,
+        72,
+        48
+    ],
+    "login locations": [
+        [
+            -118.363287,
+            34.18147
+        ]
+    ],
+    "relationships": []
 }

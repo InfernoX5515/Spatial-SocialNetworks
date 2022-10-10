@@ -5,7 +5,21 @@
     "email": "jeremy10@gmail.com",
     "birthdate": "1961-08-23",
     "phone": "932-334-9851x0872",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        27,
+        60,
+        0,
+        66,
+        49,
+        74,
+        38
+    ],
+    "login locations": [
+        [
+            -118.36553,
+            34.065884
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "nchambers@gmail.com",
     "birthdate": "1978-09-17",
     "phone": "894.270.8609x09917",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        37,
+        55,
+        59,
+        36,
+        41,
+        11,
+        8,
+        8,
+        34,
+        54,
+        36
+    ],
+    "login locations": [
+        [
+            -122.347434,
+            37.5784
+        ]
+    ],
+    "relationships": []
 }

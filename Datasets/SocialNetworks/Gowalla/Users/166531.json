@@ -5,7 +5,26 @@
     "email": "phillip51@hotmail.com",
     "birthdate": "1969-05-04",
     "phone": "(245)505-0156",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        59,
+        17,
+        7,
+        4,
+        10,
+        31,
+        2,
+        53,
+        3,
+        40,
+        2,
+        33
+    ],
+    "login locations": [
+        [
+            -121.334905,
+            37.600963
+        ]
+    ],
+    "relationships": []
 }

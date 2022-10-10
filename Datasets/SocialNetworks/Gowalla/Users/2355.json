@@ -5,7 +5,18 @@
     "email": "jonathanrogers@hotmail.com",
     "birthdate": "1927-12-27",
     "phone": "264-573-3789",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        7,
+        54,
+        41,
+        38
+    ],
+    "login locations": [
+        [
+            -117.156702,
+            32.720716
+        ]
+    ],
+    "relationships": []
 }

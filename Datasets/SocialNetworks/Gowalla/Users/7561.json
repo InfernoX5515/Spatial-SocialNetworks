@@ -5,7 +5,17 @@
     "email": "lisa94@hotmail.com",
     "birthdate": "1944-03-28",
     "phone": "136-896-6719x99446",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        26,
+        72,
+        29
+    ],
+    "login locations": [
+        [
+            -118.309869,
+            34.033426
+        ]
+    ],
+    "relationships": []
 }

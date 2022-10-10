@@ -5,7 +5,24 @@
     "email": "sanderson@hotmail.com",
     "birthdate": "2006-10-15",
     "phone": "641.180.9402x9489",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        7,
+        70,
+        69,
+        61,
+        2,
+        58,
+        65,
+        60,
+        26,
+        45
+    ],
+    "login locations": [
+        [
+            -121.930113,
+            37.308794
+        ]
+    ],
+    "relationships": []
 }

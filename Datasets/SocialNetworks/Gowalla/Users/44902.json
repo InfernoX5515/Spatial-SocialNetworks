@@ -5,7 +5,15 @@
     "email": "perrycourtney@gmail.com",
     "birthdate": "1958-03-14",
     "phone": "995.793.8335x8990",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        53
+    ],
+    "login locations": [
+        [
+            -122.413282,
+            37.75794
+        ]
+    ],
+    "relationships": []
 }

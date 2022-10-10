@@ -5,7 +5,28 @@
     "email": "wdavis@hotmail.com",
     "birthdate": "2000-06-07",
     "phone": "980-060-1271x78727",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        28,
+        41,
+        3,
+        40,
+        11,
+        10,
+        63,
+        70,
+        49,
+        5,
+        38,
+        57,
+        38,
+        34
+    ],
+    "login locations": [
+        [
+            -122.401898,
+            37.790231
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "murphynoah@gmail.com",
     "birthdate": "1944-01-08",
     "phone": "(340)523-0387x3356",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19
+    ],
+    "login locations": [
+        [
+            -121.974652,
+            37.087602
+        ]
+    ],
+    "relationships": []
 }

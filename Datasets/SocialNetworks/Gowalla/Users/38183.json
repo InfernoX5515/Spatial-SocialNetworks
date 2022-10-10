@@ -5,7 +5,21 @@
     "email": "mckenzie46@gmail.com",
     "birthdate": "1962-06-29",
     "phone": "382.450.5432x5256",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        37,
+        58,
+        29,
+        3,
+        19,
+        36,
+        10
+    ],
+    "login locations": [
+        [
+            -122.26168,
+            37.845464
+        ]
+    ],
+    "relationships": []
 }

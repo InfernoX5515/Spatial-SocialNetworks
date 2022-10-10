@@ -5,7 +5,25 @@
     "email": "michele64@yahoo.com",
     "birthdate": "2003-02-24",
     "phone": "(111)739-6061x20997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        16,
+        44,
+        69,
+        7,
+        2,
+        63,
+        64,
+        11,
+        36,
+        37,
+        67
+    ],
+    "login locations": [
+        [
+            -121.802731,
+            37.659322
+        ]
+    ],
+    "relationships": []
 }

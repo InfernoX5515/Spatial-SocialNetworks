@@ -5,7 +5,27 @@
     "email": "whitejames@yahoo.com",
     "birthdate": "1966-05-09",
     "phone": "(234)156-0854",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        11,
+        25,
+        9,
+        28,
+        8,
+        67,
+        51,
+        39,
+        29,
+        59,
+        55,
+        16,
+        34
+    ],
+    "login locations": [
+        [
+            -122.350088,
+            37.703631
+        ]
+    ],
+    "relationships": []
 }

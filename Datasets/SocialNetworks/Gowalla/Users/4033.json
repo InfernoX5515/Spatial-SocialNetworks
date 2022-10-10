@@ -5,7 +5,14 @@
     "email": "harrisraymond@yahoo.com",
     "birthdate": "2013-11-16",
     "phone": "+1-373-363-8558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61
+    ],
+    "login locations": [
+        [
+            -122.236053,
+            37.626013
+        ]
+    ],
+    "relationships": []
 }

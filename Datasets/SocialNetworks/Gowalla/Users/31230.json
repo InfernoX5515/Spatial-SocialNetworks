@@ -5,7 +5,37 @@
     "email": "jeffrey71@hotmail.com",
     "birthdate": "2003-03-26",
     "phone": "221-389-1423",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        16,
+        53,
+        29,
+        71,
+        67,
+        74,
+        64,
+        11,
+        68,
+        50,
+        29,
+        59
+    ],
+    "login locations": [
+        [
+            -118.45819,
+            34.037841
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1454,
+                0.01
+            ],
+            [
+                5286,
+                0.153846153846
+            ]
+        ]
+    ]
 }

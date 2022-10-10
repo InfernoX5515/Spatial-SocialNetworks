@@ -5,7 +5,27 @@
     "email": "rogersashley@gmail.com",
     "birthdate": "1930-01-10",
     "phone": "050.087.8062",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        30,
+        23,
+        19,
+        67,
+        22,
+        37,
+        6,
+        57,
+        73,
+        64,
+        63,
+        41,
+        7
+    ],
+    "login locations": [
+        [
+            -122.416356,
+            37.773827
+        ]
+    ],
+    "relationships": []
 }

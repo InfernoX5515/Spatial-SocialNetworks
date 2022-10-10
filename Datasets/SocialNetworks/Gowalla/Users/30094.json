@@ -5,7 +5,27 @@
     "email": "smithtammy@gmail.com",
     "birthdate": "1942-01-18",
     "phone": "145-618-2527x707",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        3,
+        68,
+        17,
+        48,
+        48,
+        64,
+        7,
+        70,
+        9,
+        58,
+        65,
+        24,
+        39
+    ],
+    "login locations": [
+        [
+            -122.414227,
+            37.769573
+        ]
+    ],
+    "relationships": []
 }

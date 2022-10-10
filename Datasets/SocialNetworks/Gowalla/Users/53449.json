@@ -5,7 +5,23 @@
     "email": "christopherbarber@yahoo.com",
     "birthdate": "1938-11-11",
     "phone": "(150)866-2992x2702",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        55,
+        51,
+        12,
+        45,
+        75,
+        27,
+        15,
+        12,
+        53
+    ],
+    "login locations": [
+        [
+            -118.419056,
+            34.055741
+        ]
+    ],
+    "relationships": []
 }

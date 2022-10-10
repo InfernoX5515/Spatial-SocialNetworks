@@ -5,7 +5,25 @@
     "email": "kathrynbrown@gmail.com",
     "birthdate": "1958-04-20",
     "phone": "+1-972-942-2680x291",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25
+    ],
+    "login locations": [
+        [
+            -122.417664,
+            37.747318
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2383,
+                0.272727272727
+            ],
+            [
+                2383,
+                0.272727272727
+            ]
+        ]
+    ]
 }

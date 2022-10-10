@@ -5,7 +5,17 @@
     "email": "mrose@hotmail.com",
     "birthdate": "1926-04-06",
     "phone": "7443235322",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        1,
+        25,
+        21
+    ],
+    "login locations": [
+        [
+            -122.046411,
+            37.373539
+        ]
+    ],
+    "relationships": []
 }

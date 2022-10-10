@@ -5,7 +5,32 @@
     "email": "mccoysara@yahoo.com",
     "birthdate": "1941-01-12",
     "phone": "8953928888",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        50,
+        26,
+        33,
+        0,
+        20,
+        58,
+        57
+    ],
+    "login locations": [
+        [
+            -121.704087,
+            38.560589
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                41259,
+                0.0212765957447
+            ],
+            [
+                41259,
+                0.0212765957447
+            ]
+        ]
+    ]
 }

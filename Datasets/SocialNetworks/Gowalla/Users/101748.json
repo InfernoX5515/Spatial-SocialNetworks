@@ -5,7 +5,15 @@
     "email": "danielchavez@hotmail.com",
     "birthdate": "1932-07-11",
     "phone": "(316)606-9281",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        31
+    ],
+    "login locations": [
+        [
+            -118.315336,
+            33.834666
+        ]
+    ],
+    "relationships": []
 }

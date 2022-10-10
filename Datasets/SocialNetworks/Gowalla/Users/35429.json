@@ -5,7 +5,26 @@
     "email": "jmejia@hotmail.com",
     "birthdate": "1980-06-01",
     "phone": "+1-475-608-2075x4509",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        33,
+        35,
+        68,
+        55,
+        40,
+        10,
+        37,
+        36,
+        49,
+        25,
+        72,
+        55
+    ],
+    "login locations": [
+        [
+            -118.337311,
+            34.024288
+        ]
+    ],
+    "relationships": []
 }

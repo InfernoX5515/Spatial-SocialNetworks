@@ -5,7 +5,33 @@
     "email": "tanya37@yahoo.com",
     "birthdate": "1974-07-25",
     "phone": "(735)939-5159x54599",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        14,
+        2,
+        43,
+        47,
+        58,
+        18,
+        59,
+        30
+    ],
+    "login locations": [
+        [
+            -116.570066,
+            33.831275
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                179,
+                0.01
+            ],
+            [
+                179,
+                0.01
+            ]
+        ]
+    ]
 }

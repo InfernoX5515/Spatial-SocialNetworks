@@ -5,7 +5,17 @@
     "email": "jason73@gmail.com",
     "birthdate": "1944-02-23",
     "phone": "001-077-262-1384x8950",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        68,
+        60,
+        41
+    ],
+    "login locations": [
+        [
+            -118.34324,
+            34.057951
+        ]
+    ],
+    "relationships": []
 }

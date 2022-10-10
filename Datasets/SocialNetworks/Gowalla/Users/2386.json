@@ -5,7 +5,27 @@
     "email": "steven48@yahoo.com",
     "birthdate": "1946-04-05",
     "phone": "001-270-030-6163x596",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        70,
+        38
+    ],
+    "login locations": [
+        [
+            -118.260365,
+            34.037187
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1454,
+                0.01
+            ],
+            [
+                5286,
+                0.0384615384615
+            ]
+        ]
+    ]
 }

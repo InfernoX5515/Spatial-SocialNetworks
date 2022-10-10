@@ -5,7 +5,27 @@
     "email": "jessica16@gmail.com",
     "birthdate": "1926-12-12",
     "phone": "265.411.8431x4104",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        36,
+        43
+    ],
+    "login locations": [
+        [
+            -117.962099,
+            33.847549
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                124846,
+                0.0111111111111
+            ],
+            [
+                124846,
+                0.0111111111111
+            ]
+        ]
+    ]
 }

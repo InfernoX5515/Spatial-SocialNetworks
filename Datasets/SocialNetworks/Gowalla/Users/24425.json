@@ -5,7 +5,23 @@
     "email": "tiffany79@hotmail.com",
     "birthdate": "1922-09-16",
     "phone": "698.963.2276x532",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        73,
+        63,
+        7,
+        70,
+        10,
+        73,
+        37,
+        4,
+        0
+    ],
+    "login locations": [
+        [
+            -122.051792,
+            37.361665
+        ]
+    ],
+    "relationships": []
 }

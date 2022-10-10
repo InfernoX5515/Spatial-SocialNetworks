@@ -5,7 +5,25 @@
     "email": "davidbailey@gmail.com",
     "birthdate": "1913-12-27",
     "phone": "+1-762-372-1892x03734",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        53,
+        40,
+        74,
+        63,
+        41,
+        56,
+        29,
+        5,
+        45,
+        35,
+        45
+    ],
+    "login locations": [
+        [
+            -119.748658,
+            36.814273
+        ]
+    ],
+    "relationships": []
 }

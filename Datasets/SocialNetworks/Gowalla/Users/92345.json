@@ -5,7 +5,15 @@
     "email": "ashleyle@yahoo.com",
     "birthdate": "1943-05-17",
     "phone": "543-875-9620",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        14
+    ],
+    "login locations": [
+        [
+            -122.429536,
+            37.759512
+        ]
+    ],
+    "relationships": []
 }

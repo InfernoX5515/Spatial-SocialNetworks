@@ -5,7 +5,14 @@
     "email": "gutierrezjose@hotmail.com",
     "birthdate": "1957-11-18",
     "phone": "013.808.2416",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28
+    ],
+    "login locations": [
+        [
+            -119.06791,
+            34.223017
+        ]
+    ],
+    "relationships": []
 }

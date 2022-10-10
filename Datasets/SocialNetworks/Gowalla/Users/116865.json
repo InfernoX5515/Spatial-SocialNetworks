@@ -5,7 +5,12 @@
     "email": "adamscott@hotmail.com",
     "birthdate": "1978-12-02",
     "phone": "(563)743-3244x719",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.448984,
+            34.020344
+        ]
+    ],
+    "relationships": []
 }

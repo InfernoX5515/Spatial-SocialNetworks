@@ -5,7 +5,15 @@
     "email": "dennis87@yahoo.com",
     "birthdate": "1929-05-03",
     "phone": "+1-206-529-3626x350",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        33
+    ],
+    "login locations": [
+        [
+            -118.293111,
+            34.102482
+        ]
+    ],
+    "relationships": []
 }

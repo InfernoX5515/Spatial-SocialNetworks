@@ -5,7 +5,26 @@
     "email": "ashleyspears@yahoo.com",
     "birthdate": "1970-03-25",
     "phone": "248.527.2604",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        40,
+        71,
+        18,
+        10,
+        38,
+        15,
+        41,
+        30,
+        6,
+        44,
+        49,
+        22
+    ],
+    "login locations": [
+        [
+            -122.001468,
+            37.394435
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "danielle04@yahoo.com",
     "birthdate": "1955-05-13",
     "phone": "+1-421-887-5648x682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        32,
+        52,
+        1
+    ],
+    "login locations": [
+        [
+            -118.413152,
+            34.043099
+        ]
+    ],
+    "relationships": []
 }

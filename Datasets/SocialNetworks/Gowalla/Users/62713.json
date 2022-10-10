@@ -5,7 +5,20 @@
     "email": "maria28@yahoo.com",
     "birthdate": "1983-07-28",
     "phone": "001-711-173-7551x69565",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        74,
+        72,
+        35,
+        20,
+        26,
+        43
+    ],
+    "login locations": [
+        [
+            -122.448,
+            37.736172
+        ]
+    ],
+    "relationships": []
 }

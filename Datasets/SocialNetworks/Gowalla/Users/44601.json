@@ -5,7 +5,23 @@
     "email": "jessicawood@yahoo.com",
     "birthdate": "1964-10-13",
     "phone": "(353)927-1016x853",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        27,
+        42,
+        72,
+        22,
+        73,
+        70,
+        25,
+        43,
+        59
+    ],
+    "login locations": [
+        [
+            -121.741039,
+            38.543484
+        ]
+    ],
+    "relationships": []
 }

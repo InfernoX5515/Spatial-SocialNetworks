@@ -5,7 +5,31 @@
     "email": "coopercurtis@yahoo.com",
     "birthdate": "1917-12-12",
     "phone": "(920)104-3150",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        70,
+        75,
+        75,
+        75,
+        49,
+        33
+    ],
+    "login locations": [
+        [
+            -122.419895,
+            37.760606
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                3641,
+                0.0833333333333
+            ]
+        ]
+    ]
 }

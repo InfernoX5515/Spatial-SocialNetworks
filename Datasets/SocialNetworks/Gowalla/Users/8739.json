@@ -5,7 +5,28 @@
     "email": "lijason@hotmail.com",
     "birthdate": "1966-04-29",
     "phone": "+1-277-983-3160x69113",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        54,
+        13,
+        33
+    ],
+    "login locations": [
+        [
+            -122.403016,
+            37.776276
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49594,
+                0.6
+            ],
+            [
+                49594,
+                0.6
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "terry20@gmail.com",
     "birthdate": "1997-12-14",
     "phone": "(824)627-3718x67571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        74,
+        20,
+        58,
+        63,
+        45,
+        37,
+        50,
+        52,
+        18,
+        69,
+        21,
+        46,
+        65,
+        68
+    ],
+    "login locations": [
+        [
+            -121.930672,
+            37.350002
+        ]
+    ],
+    "relationships": []
 }

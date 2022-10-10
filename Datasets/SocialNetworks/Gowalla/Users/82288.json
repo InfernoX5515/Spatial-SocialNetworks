@@ -5,7 +5,14 @@
     "email": "mckenzie08@hotmail.com",
     "birthdate": "2020-03-17",
     "phone": "661-416-6388",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32
+    ],
+    "login locations": [
+        [
+            -122.414303,
+            37.79235
+        ]
+    ],
+    "relationships": []
 }

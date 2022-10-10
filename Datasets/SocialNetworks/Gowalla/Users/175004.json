@@ -5,7 +5,18 @@
     "email": "mccarthyallen@yahoo.com",
     "birthdate": "1942-03-12",
     "phone": "+1-820-614-4944x3918",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        72,
+        54,
+        54,
+        10
+    ],
+    "login locations": [
+        [
+            -121.805891,
+            37.95747
+        ]
+    ],
+    "relationships": []
 }

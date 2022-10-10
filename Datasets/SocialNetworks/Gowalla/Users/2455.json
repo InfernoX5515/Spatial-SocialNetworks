@@ -5,7 +5,20 @@
     "email": "karenmathis@gmail.com",
     "birthdate": "1913-02-24",
     "phone": "+1-675-579-5106x058",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        2,
+        69,
+        49,
+        46,
+        30,
+        41
+    ],
+    "login locations": [
+        [
+            -118.09081,
+            34.107349
+        ]
+    ],
+    "relationships": []
 }

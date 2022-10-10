@@ -5,7 +5,35 @@
     "email": "elizabeth62@gmail.com",
     "birthdate": "1955-01-20",
     "phone": "(251)953-0663",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        1,
+        67,
+        0,
+        67,
+        43,
+        64,
+        43,
+        53,
+        46,
+        22
+    ],
+    "login locations": [
+        [
+            -121.951999,
+            37.346656
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                223,
+                0.01
+            ],
+            [
+                223,
+                0.01
+            ]
+        ]
+    ]
 }

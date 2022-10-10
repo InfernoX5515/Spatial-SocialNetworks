@@ -5,7 +5,23 @@
     "email": "erin43@hotmail.com",
     "birthdate": "1996-02-12",
     "phone": "952.471.6774x16791",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.034285,
+            37.38699
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7692,
+                0.24
+            ],
+            [
+                7692,
+                0.24
+            ]
+        ]
+    ]
 }

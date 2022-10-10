@@ -5,7 +5,20 @@
     "email": "martinezkimberly@yahoo.com",
     "birthdate": "1928-11-10",
     "phone": "(027)177-5011x193",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        24,
+        38,
+        23,
+        45,
+        20,
+        16
+    ],
+    "login locations": [
+        [
+            -118.357718,
+            34.145446
+        ]
+    ],
+    "relationships": []
 }

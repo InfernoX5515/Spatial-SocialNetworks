@@ -5,7 +5,25 @@
     "email": "kristinabrown@hotmail.com",
     "birthdate": "1995-08-24",
     "phone": "+1-174-994-0049",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        51,
+        33,
+        66,
+        14,
+        2,
+        51,
+        17,
+        43,
+        5,
+        23,
+        50
+    ],
+    "login locations": [
+        [
+            -117.255724,
+            32.91262
+        ]
+    ],
+    "relationships": []
 }

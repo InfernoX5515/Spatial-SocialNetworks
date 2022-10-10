@@ -5,7 +5,25 @@
     "email": "danielsamanda@gmail.com",
     "birthdate": "2020-10-02",
     "phone": "(545)820-2254x64762",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41
+    ],
+    "login locations": [
+        [
+            -117.245006,
+            33.110379
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                70788,
+                0.01
+            ],
+            [
+                70788,
+                0.01
+            ]
+        ]
+    ]
 }

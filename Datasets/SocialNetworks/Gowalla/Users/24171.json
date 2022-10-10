@@ -5,7 +5,18 @@
     "email": "smithemily@hotmail.com",
     "birthdate": "1956-03-01",
     "phone": "331-111-2635",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        16,
+        13,
+        52,
+        24
+    ],
+    "login locations": [
+        [
+            -117.159035,
+            32.717449
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "christinehernandez@hotmail.com",
     "birthdate": "1907-10-04",
     "phone": "988.665.1520x89218",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        27,
+        54,
+        5,
+        57,
+        15,
+        29
+    ],
+    "login locations": [
+        [
+            -121.420464,
+            38.601385
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "fcox@yahoo.com",
     "birthdate": "1971-09-20",
     "phone": "5910006726",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        4,
+        54,
+        23,
+        30,
+        32
+    ],
+    "login locations": [
+        [
+            -117.174929,
+            32.713843
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,38 @@
     "email": "samuelfuentes@gmail.com",
     "birthdate": "1997-05-15",
     "phone": "183-641-2531",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        2,
+        15,
+        60,
+        46,
+        43,
+        60,
+        46,
+        18,
+        34,
+        70,
+        24,
+        60,
+        66
+    ],
+    "login locations": [
+        [
+            -119.031769,
+            34.188966
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                504,
+                0.01
+            ],
+            [
+                24099,
+                0.075
+            ]
+        ]
+    ]
 }

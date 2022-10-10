@@ -5,7 +5,25 @@
     "email": "debrajohnson@gmail.com",
     "birthdate": "1927-01-01",
     "phone": "001-588-579-5388",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        65,
+        53,
+        63,
+        44,
+        42,
+        47,
+        49,
+        50,
+        75,
+        26,
+        28
+    ],
+    "login locations": [
+        [
+            -118.337501,
+            34.092556
+        ]
+    ],
+    "relationships": []
 }

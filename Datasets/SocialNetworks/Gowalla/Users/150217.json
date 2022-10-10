@@ -5,7 +5,18 @@
     "email": "clarkdesiree@gmail.com",
     "birthdate": "1983-12-05",
     "phone": "6816238560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        32,
+        22,
+        65,
+        65
+    ],
+    "login locations": [
+        [
+            -122.392707,
+            37.794885
+        ]
+    ],
+    "relationships": []
 }

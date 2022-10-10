@@ -5,7 +5,31 @@
     "email": "wallacerhonda@hotmail.com",
     "birthdate": "1930-12-07",
     "phone": "127.216.4444x05367",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        57,
+        17,
+        12,
+        74,
+        18,
+        3
+    ],
+    "login locations": [
+        [
+            -118.35212,
+            33.949443
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8131,
+                0.027027027027
+            ],
+            [
+                8131,
+                0.027027027027
+            ]
+        ]
+    ]
 }

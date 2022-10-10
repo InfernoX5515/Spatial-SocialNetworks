@@ -5,7 +5,35 @@
     "email": "tylerjames@yahoo.com",
     "birthdate": "1990-09-18",
     "phone": "064.315.5765x20997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        24,
+        5,
+        11,
+        52,
+        74,
+        10,
+        75,
+        57,
+        16,
+        32
+    ],
+    "login locations": [
+        [
+            -117.16809,
+            32.737348
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                23043,
+                1.0
+            ],
+            [
+                42764,
+                0.02
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,33 @@
     "email": "melissacampbell@hotmail.com",
     "birthdate": "1976-06-14",
     "phone": "(325)737-6820x5885",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        71,
+        25,
+        71,
+        60,
+        53,
+        14,
+        17,
+        29
+    ],
+    "login locations": [
+        [
+            -117.103026,
+            33.010029
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                14407,
+                0.01
+            ],
+            [
+                14407,
+                0.01
+            ]
+        ]
+    ]
 }

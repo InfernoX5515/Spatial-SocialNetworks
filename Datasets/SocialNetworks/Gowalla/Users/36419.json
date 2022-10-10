@@ -5,7 +5,20 @@
     "email": "hcruz@yahoo.com",
     "birthdate": "1932-12-22",
     "phone": "+1-203-136-5283",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        6,
+        75,
+        49,
+        8,
+        39,
+        56
+    ],
+    "login locations": [
+        [
+            -122.416024,
+            37.762201
+        ]
+    ],
+    "relationships": []
 }

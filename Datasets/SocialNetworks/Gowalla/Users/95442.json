@@ -5,7 +5,22 @@
     "email": "aaronmalone@hotmail.com",
     "birthdate": "1978-06-09",
     "phone": "(804)203-3677",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        16,
+        40,
+        19,
+        48,
+        14,
+        1,
+        45,
+        40
+    ],
+    "login locations": [
+        [
+            -117.234557,
+            34.469579
+        ]
+    ],
+    "relationships": []
 }

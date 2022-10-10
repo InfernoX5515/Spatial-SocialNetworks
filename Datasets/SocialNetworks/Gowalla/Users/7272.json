@@ -5,7 +5,23 @@
     "email": "cbecker@yahoo.com",
     "birthdate": "2007-05-07",
     "phone": "(449)380-5344x7407",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        56,
+        34,
+        41,
+        39,
+        51,
+        25,
+        61,
+        31,
+        42
+    ],
+    "login locations": [
+        [
+            -122.190493,
+            37.451435
+        ]
+    ],
+    "relationships": []
 }

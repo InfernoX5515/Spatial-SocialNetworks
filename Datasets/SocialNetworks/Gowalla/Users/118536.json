@@ -5,7 +5,20 @@
     "email": "travisbailey@yahoo.com",
     "birthdate": "2021-10-07",
     "phone": "(221)544-8685x000",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        50,
+        21,
+        35,
+        70,
+        0,
+        39
+    ],
+    "login locations": [
+        [
+            -122.097552,
+            38.198879
+        ]
+    ],
+    "relationships": []
 }

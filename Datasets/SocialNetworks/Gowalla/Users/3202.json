@@ -5,7 +5,19 @@
     "email": "george89@yahoo.com",
     "birthdate": "1919-01-20",
     "phone": "583-548-0412x324",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        63,
+        3,
+        27,
+        11,
+        14
+    ],
+    "login locations": [
+        [
+            -117.950784,
+            33.831795
+        ]
+    ],
+    "relationships": []
 }

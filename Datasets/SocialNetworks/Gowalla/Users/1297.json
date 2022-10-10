@@ -5,7 +5,30 @@
     "email": "hernandezpeggy@yahoo.com",
     "birthdate": "2002-04-23",
     "phone": "796.646.0704",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        3,
+        46,
+        13,
+        41,
+        49
+    ],
+    "login locations": [
+        [
+            -121.27089,
+            38.607279
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                36618,
+                0.01
+            ],
+            [
+                10444,
+                0.214285714286
+            ]
+        ]
+    ]
 }

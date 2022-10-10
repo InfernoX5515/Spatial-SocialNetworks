@@ -5,7 +5,18 @@
     "email": "valeriegibson@yahoo.com",
     "birthdate": "2002-04-14",
     "phone": "001-257-912-5571x8128",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        39,
+        10,
+        65,
+        18
+    ],
+    "login locations": [
+        [
+            -122.3298,
+            37.799829
+        ]
+    ],
+    "relationships": []
 }

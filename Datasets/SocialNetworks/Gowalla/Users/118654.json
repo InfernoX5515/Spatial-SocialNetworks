@@ -5,7 +5,18 @@
     "email": "alexandraclark@hotmail.com",
     "birthdate": "1958-09-30",
     "phone": "(679)694-0804x8337",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        49,
+        11,
+        66,
+        1
+    ],
+    "login locations": [
+        [
+            -121.857026,
+            37.698326
+        ]
+    ],
+    "relationships": []
 }

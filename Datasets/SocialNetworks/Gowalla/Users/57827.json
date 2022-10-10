@@ -5,7 +5,28 @@
     "email": "joshua50@yahoo.com",
     "birthdate": "1927-05-07",
     "phone": "(987)524-3382",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        22,
+        66,
+        22,
+        50,
+        70,
+        34,
+        39,
+        4,
+        70,
+        54,
+        15,
+        14,
+        19,
+        39
+    ],
+    "login locations": [
+        [
+            -117.141089,
+            32.793657
+        ]
+    ],
+    "relationships": []
 }

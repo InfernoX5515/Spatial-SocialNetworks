@@ -5,7 +5,26 @@
     "email": "leebennett@yahoo.com",
     "birthdate": "1939-04-30",
     "phone": "1603859477",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        49
+    ],
+    "login locations": [
+        [
+            -121.45447,
+            38.585288
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                102683,
+                0.0149253731343
+            ],
+            [
+                102683,
+                0.0149253731343
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "vanessa55@gmail.com",
     "birthdate": "1980-01-15",
     "phone": "001-753-081-5795x0228",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        36,
+        12,
+        0,
+        58,
+        37,
+        56,
+        45,
+        45,
+        38,
+        34,
+        0
+    ],
+    "login locations": [
+        [
+            -117.034266,
+            32.662914
+        ]
+    ],
+    "relationships": []
 }

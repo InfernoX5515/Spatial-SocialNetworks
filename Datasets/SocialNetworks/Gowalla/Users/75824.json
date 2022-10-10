@@ -5,7 +5,24 @@
     "email": "frederick15@gmail.com",
     "birthdate": "1956-01-02",
     "phone": "001-920-860-3780x2895",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        38,
+        68,
+        6,
+        43,
+        1,
+        19,
+        0,
+        71,
+        48,
+        25
+    ],
+    "login locations": [
+        [
+            -122.415124,
+            37.78926
+        ]
+    ],
+    "relationships": []
 }

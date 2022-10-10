@@ -5,7 +5,27 @@
     "email": "joannaellis@hotmail.com",
     "birthdate": "1920-03-23",
     "phone": "363.574.6991x25978",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        7,
+        27
+    ],
+    "login locations": [
+        [
+            -121.963728,
+            37.225252
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32401,
+                0.03
+            ],
+            [
+                31836,
+                0.0171428571429
+            ]
+        ]
+    ]
 }

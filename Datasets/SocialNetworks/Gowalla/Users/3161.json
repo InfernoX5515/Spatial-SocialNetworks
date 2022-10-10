@@ -5,7 +5,14 @@
     "email": "william91@yahoo.com",
     "birthdate": "2012-09-28",
     "phone": "221.123.8989",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72
+    ],
+    "login locations": [
+        [
+            -117.685299,
+            33.634292
+        ]
+    ],
+    "relationships": []
 }

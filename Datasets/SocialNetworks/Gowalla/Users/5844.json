@@ -5,7 +5,34 @@
     "email": "kelly45@gmail.com",
     "birthdate": "2001-03-01",
     "phone": "(036)601-4258x556",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        0,
+        71,
+        35,
+        37,
+        15,
+        42,
+        41,
+        20,
+        46
+    ],
+    "login locations": [
+        [
+            -117.159459,
+            32.718292
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4821,
+                0.0141176470588
+            ],
+            [
+                11119,
+                0.02
+            ]
+        ]
+    ]
 }

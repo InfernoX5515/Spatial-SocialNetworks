@@ -5,7 +5,12 @@
     "email": "paulgriffin@yahoo.com",
     "birthdate": "1941-11-23",
     "phone": "2499460922",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.317265,
+            33.912265
+        ]
+    ],
+    "relationships": []
 }

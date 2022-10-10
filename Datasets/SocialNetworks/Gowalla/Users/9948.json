@@ -5,7 +5,23 @@
     "email": "xshaw@hotmail.com",
     "birthdate": "1953-01-11",
     "phone": "348-683-6195x758",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        44,
+        6,
+        51,
+        39,
+        2,
+        23,
+        54,
+        55,
+        64
+    ],
+    "login locations": [
+        [
+            -118.406189,
+            34.057505
+        ]
+    ],
+    "relationships": []
 }

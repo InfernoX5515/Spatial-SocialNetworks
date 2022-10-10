@@ -5,7 +5,32 @@
     "email": "jenniferwagner@yahoo.com",
     "birthdate": "2022-03-25",
     "phone": "(099)670-5796",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        35,
+        44,
+        25,
+        13,
+        58,
+        71,
+        9
+    ],
+    "login locations": [
+        [
+            -122.404729,
+            37.831989
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2264,
+                0.0149253731343
+            ],
+            [
+                2264,
+                0.0149253731343
+            ]
+        ]
+    ]
 }

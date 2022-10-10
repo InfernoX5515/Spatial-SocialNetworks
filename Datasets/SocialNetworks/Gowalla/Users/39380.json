@@ -5,7 +5,26 @@
     "email": "millerjessica@yahoo.com",
     "birthdate": "1990-03-16",
     "phone": "+1-428-447-3505x2289",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        18,
+        25,
+        23,
+        2,
+        4,
+        42,
+        44,
+        19,
+        58,
+        10,
+        19,
+        9
+    ],
+    "login locations": [
+        [
+            -118.369938,
+            34.005682
+        ]
+    ],
+    "relationships": []
 }

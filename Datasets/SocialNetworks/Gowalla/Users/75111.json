@@ -5,7 +5,17 @@
     "email": "thomasjames@hotmail.com",
     "birthdate": "1991-08-18",
     "phone": "136.828.3490",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        5,
+        60,
+        58
+    ],
+    "login locations": [
+        [
+            -122.032673,
+            37.331511
+        ]
+    ],
+    "relationships": []
 }

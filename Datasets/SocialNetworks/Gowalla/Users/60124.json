@@ -5,7 +5,27 @@
     "email": "maxwelldavid@yahoo.com",
     "birthdate": "1950-03-19",
     "phone": "510-836-8826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        47,
+        42,
+        12,
+        29,
+        33,
+        42,
+        72,
+        36,
+        12,
+        11,
+        38,
+        70,
+        21
+    ],
+    "login locations": [
+        [
+            -122.411717,
+            37.772549
+        ]
+    ],
+    "relationships": []
 }

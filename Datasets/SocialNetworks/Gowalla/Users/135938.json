@@ -5,7 +5,23 @@
     "email": "destiny39@hotmail.com",
     "birthdate": "1970-09-13",
     "phone": "(824)497-7307",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        25,
+        14,
+        12,
+        1,
+        67,
+        17,
+        14,
+        41,
+        66
+    ],
+    "login locations": [
+        [
+            -122.434825,
+            37.728541
+        ]
+    ],
+    "relationships": []
 }

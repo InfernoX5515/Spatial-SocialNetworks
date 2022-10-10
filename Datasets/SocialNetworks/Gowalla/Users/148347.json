@@ -5,7 +5,31 @@
     "email": "timothy83@hotmail.com",
     "birthdate": "1953-03-12",
     "phone": "784-716-2275",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        33,
+        1,
+        66,
+        16,
+        43,
+        10
+    ],
+    "login locations": [
+        [
+            -117.909147,
+            33.948864
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                56061,
+                0.036866359447
+            ],
+            [
+                56061,
+                0.036866359447
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,39 @@
     "email": "ashleymoss@gmail.com",
     "birthdate": "1945-12-01",
     "phone": "+1-401-298-7643x7055",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        14,
+        10,
+        48,
+        11,
+        61,
+        72,
+        61,
+        69,
+        69,
+        21,
+        56,
+        33,
+        35,
+        32
+    ],
+    "login locations": [
+        [
+            -122.30199,
+            37.832965
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8596,
+                0.125
+            ],
+            [
+                8596,
+                0.125
+            ]
+        ]
+    ]
 }

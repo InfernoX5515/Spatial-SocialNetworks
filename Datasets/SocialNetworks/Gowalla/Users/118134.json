@@ -5,7 +5,19 @@
     "email": "kenneth44@yahoo.com",
     "birthdate": "1920-04-17",
     "phone": "001-490-777-8082x0253",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        13,
+        17,
+        56,
+        47,
+        61
+    ],
+    "login locations": [
+        [
+            -118.087712,
+            33.95376
+        ]
+    ],
+    "relationships": []
 }

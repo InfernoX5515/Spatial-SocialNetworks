@@ -5,7 +5,27 @@
     "email": "wjarvis@yahoo.com",
     "birthdate": "2011-09-30",
     "phone": "001-605-845-5177x66382",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        19,
+        26,
+        34,
+        20,
+        73,
+        17,
+        57,
+        29,
+        26,
+        36,
+        23,
+        56,
+        75
+    ],
+    "login locations": [
+        [
+            -122.429987,
+            37.735355
+        ]
+    ],
+    "relationships": []
 }

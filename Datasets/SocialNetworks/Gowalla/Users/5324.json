@@ -5,7 +5,33 @@
     "email": "delgadoangel@gmail.com",
     "birthdate": "1909-04-18",
     "phone": "993-665-8361x790",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        38,
+        43,
+        42,
+        56,
+        50,
+        21,
+        4,
+        35
+    ],
+    "login locations": [
+        [
+            -122.401369,
+            37.765843
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                75276,
+                0.111111111111
+            ]
+        ]
+    ]
 }

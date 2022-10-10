@@ -5,7 +5,36 @@
     "email": "thomasmichael@yahoo.com",
     "birthdate": "1917-01-03",
     "phone": "001-704-565-5134x45465",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        5,
+        47,
+        13,
+        21,
+        16,
+        69,
+        31,
+        10,
+        12,
+        50,
+        15
+    ],
+    "login locations": [
+        [
+            -121.926334,
+            37.366457
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                26030,
+                0.01
+            ],
+            [
+                26030,
+                0.01
+            ]
+        ]
+    ]
 }

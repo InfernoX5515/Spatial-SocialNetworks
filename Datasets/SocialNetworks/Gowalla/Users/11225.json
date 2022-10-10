@@ -5,7 +5,25 @@
     "email": "patrickjacob@gmail.com",
     "birthdate": "1937-12-21",
     "phone": "273-986-7732",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        5,
+        6,
+        37,
+        30,
+        75,
+        49,
+        57,
+        7,
+        66,
+        51,
+        29
+    ],
+    "login locations": [
+        [
+            -116.281173,
+            33.719258
+        ]
+    ],
+    "relationships": []
 }

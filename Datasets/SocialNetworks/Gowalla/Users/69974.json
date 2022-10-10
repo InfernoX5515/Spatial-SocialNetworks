@@ -5,7 +5,20 @@
     "email": "pwest@yahoo.com",
     "birthdate": "2006-02-15",
     "phone": "001-002-870-9635",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        52,
+        44,
+        69,
+        31,
+        14,
+        26
+    ],
+    "login locations": [
+        [
+            -122.306783,
+            37.516289
+        ]
+    ],
+    "relationships": []
 }

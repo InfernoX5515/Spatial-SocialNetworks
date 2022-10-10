@@ -5,7 +5,26 @@
     "email": "pdiaz@hotmail.com",
     "birthdate": "1998-07-09",
     "phone": "(572)928-0432",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        64,
+        2,
+        26,
+        46,
+        74,
+        41,
+        47,
+        61,
+        35,
+        45,
+        23,
+        17
+    ],
+    "login locations": [
+        [
+            -121.172115,
+            38.099213
+        ]
+    ],
+    "relationships": []
 }

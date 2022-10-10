@@ -5,7 +5,16 @@
     "email": "cody64@gmail.com",
     "birthdate": "1949-03-20",
     "phone": "844.189.8437x700",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        57,
+        60
+    ],
+    "login locations": [
+        [
+            -121.232064,
+            38.635228
+        ]
+    ],
+    "relationships": []
 }

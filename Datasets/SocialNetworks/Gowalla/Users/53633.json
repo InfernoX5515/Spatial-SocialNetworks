@@ -5,7 +5,28 @@
     "email": "jasonclark@hotmail.com",
     "birthdate": "1969-02-12",
     "phone": "(887)622-4221x82220",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        38,
+        35,
+        10,
+        41,
+        70,
+        54,
+        52,
+        66,
+        73,
+        39,
+        29,
+        26,
+        59,
+        65
+    ],
+    "login locations": [
+        [
+            -122.437947,
+            37.775638
+        ]
+    ],
+    "relationships": []
 }

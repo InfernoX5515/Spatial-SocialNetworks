@@ -5,7 +5,23 @@
     "email": "pcoleman@gmail.com",
     "birthdate": "1950-11-02",
     "phone": "(489)469-4471x984",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        2,
+        46,
+        47,
+        3,
+        57,
+        16,
+        7,
+        17,
+        12
+    ],
+    "login locations": [
+        [
+            -121.222759,
+            38.650706
+        ]
+    ],
+    "relationships": []
 }

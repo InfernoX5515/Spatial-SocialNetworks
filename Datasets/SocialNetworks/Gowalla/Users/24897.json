@@ -5,7 +5,36 @@
     "email": "ycline@hotmail.com",
     "birthdate": "2015-07-30",
     "phone": "320.469.9406x76495",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        8,
+        48,
+        34,
+        52,
+        50,
+        65,
+        23,
+        38,
+        2,
+        70,
+        15
+    ],
+    "login locations": [
+        [
+            -122.368223,
+            37.682136
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                116950,
+                0.0133333333333
+            ],
+            [
+                116950,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

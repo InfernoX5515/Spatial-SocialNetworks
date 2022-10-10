@@ -5,7 +5,33 @@
     "email": "mirandahansen@yahoo.com",
     "birthdate": "1936-10-17",
     "phone": "766-352-9948",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        3,
+        63,
+        56,
+        29,
+        1,
+        8,
+        11,
+        60
+    ],
+    "login locations": [
+        [
+            -122.040773,
+            37.317922
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5996,
+                0.01
+            ],
+            [
+                25557,
+                0.04
+            ]
+        ]
+    ]
 }

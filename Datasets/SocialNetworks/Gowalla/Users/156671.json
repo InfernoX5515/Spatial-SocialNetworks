@@ -5,7 +5,22 @@
     "email": "whamilton@gmail.com",
     "birthdate": "1958-04-17",
     "phone": "070-109-5997x459",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        28,
+        54,
+        0,
+        23,
+        50,
+        51,
+        54,
+        27
+    ],
+    "login locations": [
+        [
+            -122.257133,
+            37.82105
+        ]
+    ],
+    "relationships": []
 }

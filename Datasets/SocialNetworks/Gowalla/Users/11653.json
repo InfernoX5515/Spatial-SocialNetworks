@@ -5,7 +5,27 @@
     "email": "chrisfrye@hotmail.com",
     "birthdate": "1919-12-05",
     "phone": "(831)109-5406",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        41,
+        29,
+        18,
+        62,
+        64,
+        42,
+        40,
+        41,
+        58,
+        55,
+        46,
+        50,
+        45
+    ],
+    "login locations": [
+        [
+            -122.362108,
+            37.804928
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "omclaughlin@gmail.com",
     "birthdate": "2015-05-12",
     "phone": "001-811-732-2611x80215",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        55,
+        28,
+        25,
+        39,
+        66,
+        25,
+        44,
+        72,
+        36,
+        39,
+        11,
+        53,
+        15
+    ],
+    "login locations": [
+        [
+            -122.408471,
+            37.778988
+        ]
+    ],
+    "relationships": []
 }

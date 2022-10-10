@@ -5,7 +5,27 @@
     "email": "mccoydavid@yahoo.com",
     "birthdate": "1972-11-13",
     "phone": "004.557.9617",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        19,
+        21,
+        31,
+        15,
+        24,
+        11,
+        47,
+        67,
+        32,
+        26,
+        55,
+        31,
+        55
+    ],
+    "login locations": [
+        [
+            -118.107886,
+            34.086919
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "katherinesexton@yahoo.com",
     "birthdate": "1993-09-06",
     "phone": "610.391.0432x2721",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        7,
+        1,
+        20,
+        29,
+        9,
+        39,
+        48,
+        25,
+        4,
+        66,
+        56
+    ],
+    "login locations": [
+        [
+            -118.119914,
+            34.119475
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "toconnor@hotmail.com",
     "birthdate": "1938-04-08",
     "phone": "+1-952-724-4047x57127",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        14,
+        35,
+        10,
+        49,
+        75,
+        69,
+        71,
+        7,
+        50
+    ],
+    "login locations": [
+        [
+            -122.374536,
+            37.664497
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "jennawood@yahoo.com",
     "birthdate": "1994-04-18",
     "phone": "001-804-211-7039",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        57,
+        37,
+        67
+    ],
+    "login locations": [
+        [
+            -121.168462,
+            38.646591
+        ]
+    ],
+    "relationships": []
 }

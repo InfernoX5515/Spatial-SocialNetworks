@@ -5,7 +5,28 @@
     "email": "dalvarez@hotmail.com",
     "birthdate": "1983-04-16",
     "phone": "001-500-021-4669x23806",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        25,
+        35,
+        62,
+        31,
+        74,
+        47,
+        32,
+        43,
+        25,
+        52,
+        37,
+        74,
+        29,
+        75
+    ],
+    "login locations": [
+        [
+            -122.382293,
+            37.81128
+        ]
+    ],
+    "relationships": []
 }

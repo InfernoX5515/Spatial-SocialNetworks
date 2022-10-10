@@ -5,7 +5,26 @@
     "email": "anthony97@yahoo.com",
     "birthdate": "1942-09-22",
     "phone": "052-186-1436x8054",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        50
+    ],
+    "login locations": [
+        [
+            -122.405414,
+            37.78763
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                201,
+                0.04
+            ],
+            [
+                201,
+                0.04
+            ]
+        ]
+    ]
 }

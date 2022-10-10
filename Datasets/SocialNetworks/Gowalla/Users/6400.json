@@ -5,7 +5,39 @@
     "email": "kristysmith@gmail.com",
     "birthdate": "2022-03-05",
     "phone": "(014)429-3008",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        74,
+        8,
+        21,
+        66,
+        15,
+        17,
+        25,
+        49,
+        44,
+        11,
+        12,
+        22,
+        46,
+        11
+    ],
+    "login locations": [
+        [
+            -122.098796,
+            37.391365
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5074,
+                0.0227272727273
+            ],
+            [
+                5089,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

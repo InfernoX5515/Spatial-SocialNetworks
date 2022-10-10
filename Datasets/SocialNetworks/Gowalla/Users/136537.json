@@ -5,7 +5,18 @@
     "email": "hernandezscott@hotmail.com",
     "birthdate": "2012-10-14",
     "phone": "001-912-021-9490",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        8,
+        64,
+        11,
+        22
+    ],
+    "login locations": [
+        [
+            -121.233795,
+            38.742231
+        ]
+    ],
+    "relationships": []
 }

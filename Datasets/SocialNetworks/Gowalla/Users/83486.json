@@ -5,7 +5,19 @@
     "email": "matthew89@yahoo.com",
     "birthdate": "2022-05-22",
     "phone": "(558)383-4505",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        21,
+        13,
+        14,
+        60,
+        22
+    ],
+    "login locations": [
+        [
+            -119.751209,
+            34.426427
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "james98@yahoo.com",
     "birthdate": "1980-06-08",
     "phone": "3074643725",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        13,
+        36
+    ],
+    "login locations": [
+        [
+            -119.830946,
+            34.423902
+        ]
+    ],
+    "relationships": []
 }

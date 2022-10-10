@@ -5,7 +5,25 @@
     "email": "marshalljohn@gmail.com",
     "birthdate": "1933-03-11",
     "phone": "(334)896-8313x5620",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        5,
+        43,
+        46,
+        73,
+        26,
+        17,
+        1,
+        20,
+        0,
+        42,
+        9
+    ],
+    "login locations": [
+        [
+            -118.365585,
+            34.08005
+        ]
+    ],
+    "relationships": []
 }

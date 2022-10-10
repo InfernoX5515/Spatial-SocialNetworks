@@ -5,7 +5,26 @@
     "email": "etaylor@yahoo.com",
     "birthdate": "1990-12-10",
     "phone": "8034936372",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        21,
+        74,
+        33,
+        66,
+        40,
+        12,
+        72,
+        28,
+        3,
+        75,
+        53,
+        68
+    ],
+    "login locations": [
+        [
+            -122.408145,
+            37.770189
+        ]
+    ],
+    "relationships": []
 }

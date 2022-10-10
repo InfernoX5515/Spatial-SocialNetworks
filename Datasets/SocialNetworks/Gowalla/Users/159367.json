@@ -5,7 +5,12 @@
     "email": "michelejohnson@hotmail.com",
     "birthdate": "1993-12-03",
     "phone": "758-408-6282",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.091511,
+            37.906566
+        ]
+    ],
+    "relationships": []
 }

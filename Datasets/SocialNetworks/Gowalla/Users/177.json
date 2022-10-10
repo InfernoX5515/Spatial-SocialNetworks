@@ -5,7 +5,38 @@
     "email": "dcarrillo@gmail.com",
     "birthdate": "1914-03-17",
     "phone": "832-917-5041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        3,
+        26,
+        27,
+        73,
+        41,
+        60,
+        46,
+        55,
+        7,
+        2,
+        14,
+        6,
+        51
+    ],
+    "login locations": [
+        [
+            -122.400245,
+            37.776102
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10990,
+                0.0535714285714
+            ],
+            [
+                10991,
+                0.0869565217391
+            ]
+        ]
+    ]
 }

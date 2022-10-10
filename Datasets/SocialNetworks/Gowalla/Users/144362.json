@@ -5,7 +5,20 @@
     "email": "kristopher52@yahoo.com",
     "birthdate": "1926-08-07",
     "phone": "(135)356-5182x6369",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        45,
+        31,
+        69,
+        67,
+        25,
+        20
+    ],
+    "login locations": [
+        [
+            -122.054727,
+            38.268958
+        ]
+    ],
+    "relationships": []
 }

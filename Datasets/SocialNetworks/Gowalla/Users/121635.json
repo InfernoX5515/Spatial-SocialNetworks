@@ -5,7 +5,17 @@
     "email": "mmontgomery@hotmail.com",
     "birthdate": "1911-02-24",
     "phone": "635.736.3567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        12,
+        26,
+        39
+    ],
+    "login locations": [
+        [
+            -122.043229,
+            37.966771
+        ]
+    ],
+    "relationships": []
 }

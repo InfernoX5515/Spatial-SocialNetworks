@@ -5,7 +5,25 @@
     "email": "amymcclure@hotmail.com",
     "birthdate": "1941-08-04",
     "phone": "650.000.0027x382",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        70,
+        47,
+        48,
+        23,
+        53,
+        66,
+        32,
+        57,
+        12,
+        25,
+        60
+    ],
+    "login locations": [
+        [
+            -118.183524,
+            33.803224
+        ]
+    ],
+    "relationships": []
 }

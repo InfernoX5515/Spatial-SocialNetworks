@@ -5,7 +5,12 @@
     "email": "wadevictoria@gmail.com",
     "birthdate": "1951-07-28",
     "phone": "391-293-8494x057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.404577,
+            37.780803
+        ]
+    ],
+    "relationships": []
 }

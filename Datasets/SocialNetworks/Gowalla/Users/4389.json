@@ -5,7 +5,18 @@
     "email": "maryhill@yahoo.com",
     "birthdate": "2020-10-31",
     "phone": "754.401.2686x57823",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        59,
+        44,
+        68,
+        61
+    ],
+    "login locations": [
+        [
+            -122.408119,
+            37.775759
+        ]
+    ],
+    "relationships": []
 }

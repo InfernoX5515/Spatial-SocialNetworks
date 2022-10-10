@@ -5,7 +5,28 @@
     "email": "olee@gmail.com",
     "birthdate": "2008-11-29",
     "phone": "+1-823-705-1870x8555",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        30,
+        4,
+        43,
+        50,
+        25,
+        49,
+        66,
+        9,
+        10,
+        35,
+        36,
+        29,
+        0,
+        56
+    ],
+    "login locations": [
+        [
+            -118.396339,
+            34.073924
+        ]
+    ],
+    "relationships": []
 }

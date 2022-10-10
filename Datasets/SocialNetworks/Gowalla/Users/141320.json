@@ -5,7 +5,27 @@
     "email": "billy48@yahoo.com",
     "birthdate": "1913-03-07",
     "phone": "+1-826-812-4355",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        54,
+        73,
+        66,
+        32,
+        43,
+        65,
+        15,
+        3,
+        60,
+        1,
+        75,
+        53,
+        45
+    ],
+    "login locations": [
+        [
+            -119.692513,
+            34.413649
+        ]
+    ],
+    "relationships": []
 }

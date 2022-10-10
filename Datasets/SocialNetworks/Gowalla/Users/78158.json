@@ -5,7 +5,23 @@
     "email": "ejennings@gmail.com",
     "birthdate": "1983-11-21",
     "phone": "371.184.8213x79549",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        9,
+        29,
+        55,
+        24,
+        49,
+        75,
+        53,
+        56,
+        49
+    ],
+    "login locations": [
+        [
+            -122.059108,
+            37.370321
+        ]
+    ],
+    "relationships": []
 }

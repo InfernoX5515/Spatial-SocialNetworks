@@ -5,7 +5,25 @@
     "email": "austinmiller@gmail.com",
     "birthdate": "2004-03-07",
     "phone": "(296)152-3197",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        28,
+        14,
+        9,
+        21,
+        70,
+        5,
+        53,
+        65,
+        66,
+        31,
+        46
+    ],
+    "login locations": [
+        [
+            -122.719956,
+            38.438112
+        ]
+    ],
+    "relationships": []
 }

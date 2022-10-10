@@ -5,7 +5,27 @@
     "email": "avalenzuela@hotmail.com",
     "birthdate": "1910-03-01",
     "phone": "967.107.2572",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        58,
+        71,
+        25,
+        6,
+        21,
+        51,
+        22,
+        49,
+        68,
+        48,
+        8,
+        36,
+        55
+    ],
+    "login locations": [
+        [
+            -122.43113,
+            37.79412
+        ]
+    ],
+    "relationships": []
 }

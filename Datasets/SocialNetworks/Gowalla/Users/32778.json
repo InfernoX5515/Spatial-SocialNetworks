@@ -5,7 +5,23 @@
     "email": "kevin02@hotmail.com",
     "birthdate": "2017-03-17",
     "phone": "907.920.8763",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        73,
+        16,
+        45,
+        59,
+        29,
+        15,
+        56,
+        74,
+        40
+    ],
+    "login locations": [
+        [
+            -117.713502,
+            33.982801
+        ]
+    ],
+    "relationships": []
 }

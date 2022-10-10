@@ -5,7 +5,22 @@
     "email": "vwolfe@yahoo.com",
     "birthdate": "2011-11-10",
     "phone": "001-774-339-7773",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        74,
+        73,
+        37,
+        26,
+        20,
+        17,
+        18,
+        52
+    ],
+    "login locations": [
+        [
+            -122.404026,
+            37.789814
+        ]
+    ],
+    "relationships": []
 }

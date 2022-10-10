@@ -5,7 +5,14 @@
     "email": "iwood@gmail.com",
     "birthdate": "1934-03-15",
     "phone": "742.218.5875x77777",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66
+    ],
+    "login locations": [
+        [
+            -122.440508,
+            37.43352
+        ]
+    ],
+    "relationships": []
 }

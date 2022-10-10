@@ -5,7 +5,26 @@
     "email": "curtisthomas@gmail.com",
     "birthdate": "1914-09-27",
     "phone": "450-809-3094x56267",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        15,
+        69,
+        48,
+        45,
+        26,
+        18,
+        9,
+        31,
+        25,
+        45,
+        15,
+        46
+    ],
+    "login locations": [
+        [
+            -118.429299,
+            34.020107
+        ]
+    ],
+    "relationships": []
 }

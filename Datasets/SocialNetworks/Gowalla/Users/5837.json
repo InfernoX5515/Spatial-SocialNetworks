@@ -5,7 +5,19 @@
     "email": "xherrera@hotmail.com",
     "birthdate": "1944-08-15",
     "phone": "+1-405-414-9561",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        10,
+        73,
+        45,
+        12,
+        15
+    ],
+    "login locations": [
+        [
+            -122.067739,
+            37.398443
+        ]
+    ],
+    "relationships": []
 }

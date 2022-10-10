@@ -5,7 +5,14 @@
     "email": "anthonymurphy@gmail.com",
     "birthdate": "1928-01-25",
     "phone": "(753)725-2792",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66
+    ],
+    "login locations": [
+        [
+            -121.916126,
+            37.966948
+        ]
+    ],
+    "relationships": []
 }

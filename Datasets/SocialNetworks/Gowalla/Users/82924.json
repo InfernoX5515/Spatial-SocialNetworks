@@ -5,7 +5,16 @@
     "email": "grayjason@gmail.com",
     "birthdate": "1908-10-15",
     "phone": "2098554094",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        21,
+        68
+    ],
+    "login locations": [
+        [
+            -122.424798,
+            37.778104
+        ]
+    ],
+    "relationships": []
 }

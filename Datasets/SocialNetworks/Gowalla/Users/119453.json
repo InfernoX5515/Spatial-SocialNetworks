@@ -5,7 +5,28 @@
     "email": "burgesschelsea@yahoo.com",
     "birthdate": "2006-01-23",
     "phone": "721-436-0901x40977",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        45,
+        46,
+        75,
+        9,
+        22,
+        22,
+        34,
+        63,
+        16,
+        61,
+        35,
+        68,
+        68,
+        63
+    ],
+    "login locations": [
+        [
+            -121.986577,
+            37.37474
+        ]
+    ],
+    "relationships": []
 }

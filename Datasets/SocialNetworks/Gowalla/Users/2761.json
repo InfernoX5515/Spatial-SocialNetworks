@@ -5,7 +5,23 @@
     "email": "john05@gmail.com",
     "birthdate": "1932-03-02",
     "phone": "+1-167-477-0795x18062",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.916739,
+            33.801638
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                65504,
+                0.44
+            ],
+            [
+                65504,
+                0.44
+            ]
+        ]
+    ]
 }

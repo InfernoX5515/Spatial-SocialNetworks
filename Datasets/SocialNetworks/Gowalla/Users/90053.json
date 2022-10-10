@@ -5,7 +5,12 @@
     "email": "ugonzales@gmail.com",
     "birthdate": "1980-02-03",
     "phone": "571.375.8022x3613",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.732406,
+            33.742172
+        ]
+    ],
+    "relationships": []
 }

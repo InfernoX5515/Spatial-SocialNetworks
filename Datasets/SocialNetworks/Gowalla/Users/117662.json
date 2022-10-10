@@ -5,7 +5,14 @@
     "email": "tiffanyavila@gmail.com",
     "birthdate": "1996-05-17",
     "phone": "106.487.6900x7279",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6
+    ],
+    "login locations": [
+        [
+            -118.036984,
+            33.846182
+        ]
+    ],
+    "relationships": []
 }

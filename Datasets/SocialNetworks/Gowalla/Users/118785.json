@@ -5,7 +5,17 @@
     "email": "aburke@hotmail.com",
     "birthdate": "1940-08-01",
     "phone": "(428)594-1045x2378",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        15,
+        11,
+        52
+    ],
+    "login locations": [
+        [
+            -118.240211,
+            33.822268
+        ]
+    ],
+    "relationships": []
 }

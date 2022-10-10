@@ -5,7 +5,14 @@
     "email": "hjohnson@hotmail.com",
     "birthdate": "1955-05-02",
     "phone": "(710)831-1940x4388",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63
+    ],
+    "login locations": [
+        [
+            -118.235957,
+            34.097967
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "aliciajones@hotmail.com",
     "birthdate": "1948-11-23",
     "phone": "583.734.6844x00270",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        60,
+        7,
+        55,
+        75,
+        21,
+        50,
+        12,
+        60,
+        34,
+        74,
+        51,
+        18,
+        9,
+        6
+    ],
+    "login locations": [
+        [
+            -121.988518,
+            37.316198
+        ]
+    ],
+    "relationships": []
 }

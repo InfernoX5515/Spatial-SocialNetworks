@@ -5,7 +5,22 @@
     "email": "matthewgarcia@gmail.com",
     "birthdate": "1973-12-02",
     "phone": "1277484735",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        4,
+        42,
+        63,
+        65,
+        21,
+        55,
+        27,
+        55
+    ],
+    "login locations": [
+        [
+            -118.340261,
+            34.097984
+        ]
+    ],
+    "relationships": []
 }

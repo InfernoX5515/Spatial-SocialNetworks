@@ -5,7 +5,20 @@
     "email": "caseybarnes@gmail.com",
     "birthdate": "1991-02-26",
     "phone": "(092)505-7286",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        16,
+        38,
+        52,
+        18,
+        68,
+        19
+    ],
+    "login locations": [
+        [
+            -117.134106,
+            33.553498
+        ]
+    ],
+    "relationships": []
 }

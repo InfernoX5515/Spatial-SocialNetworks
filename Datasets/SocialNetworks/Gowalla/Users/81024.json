@@ -5,7 +5,25 @@
     "email": "ochoajohn@gmail.com",
     "birthdate": "1948-05-06",
     "phone": "001-141-542-5863",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        11,
+        18,
+        49,
+        46,
+        74,
+        51,
+        20,
+        1,
+        20,
+        50,
+        7
+    ],
+    "login locations": [
+        [
+            -117.942633,
+            33.834983
+        ]
+    ],
+    "relationships": []
 }

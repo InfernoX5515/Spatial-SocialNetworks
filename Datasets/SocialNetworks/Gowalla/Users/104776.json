@@ -5,7 +5,34 @@
     "email": "martin09@yahoo.com",
     "birthdate": "1925-07-24",
     "phone": "894.919.3859",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        3,
+        37,
+        54,
+        10,
+        51,
+        38,
+        1,
+        73,
+        56
+    ],
+    "login locations": [
+        [
+            -121.31128,
+            38.616326
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                104777,
+                0.0552995391705
+            ],
+            [
+                104782,
+                0.0645161290323
+            ]
+        ]
+    ]
 }

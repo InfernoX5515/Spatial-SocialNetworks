@@ -5,7 +5,28 @@
     "email": "walkerbailey@hotmail.com",
     "birthdate": "1970-06-25",
     "phone": "(586)494-1302",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        57,
+        20,
+        40,
+        25,
+        33,
+        67,
+        30,
+        64,
+        14,
+        9,
+        35,
+        42,
+        34,
+        15
+    ],
+    "login locations": [
+        [
+            -121.752355,
+            37.197945
+        ]
+    ],
+    "relationships": []
 }

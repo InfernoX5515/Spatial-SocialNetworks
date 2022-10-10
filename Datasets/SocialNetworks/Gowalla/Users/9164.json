@@ -5,7 +5,12 @@
     "email": "millerjustin@yahoo.com",
     "birthdate": "1938-05-05",
     "phone": "2482822519",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.411637,
+            34.036753
+        ]
+    ],
+    "relationships": []
 }

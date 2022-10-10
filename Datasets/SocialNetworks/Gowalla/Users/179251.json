@@ -5,7 +5,23 @@
     "email": "meganmaldonado@gmail.com",
     "birthdate": "1914-07-14",
     "phone": "141-694-8404",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.127466,
+            37.416002
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118155,
+                0.01
+            ],
+            [
+                118155,
+                0.01
+            ]
+        ]
+    ]
 }

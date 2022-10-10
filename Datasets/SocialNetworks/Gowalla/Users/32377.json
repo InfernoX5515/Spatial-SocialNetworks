@@ -5,7 +5,14 @@
     "email": "lynchjames@yahoo.com",
     "birthdate": "1998-11-12",
     "phone": "723-768-8634x3685",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67
+    ],
+    "login locations": [
+        [
+            -118.408992,
+            33.970358
+        ]
+    ],
+    "relationships": []
 }

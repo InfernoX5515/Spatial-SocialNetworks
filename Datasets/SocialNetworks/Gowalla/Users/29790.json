@@ -5,7 +5,19 @@
     "email": "fwilliams@hotmail.com",
     "birthdate": "2011-11-07",
     "phone": "(575)894-7849x93948",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        13,
+        19,
+        53,
+        36,
+        73
+    ],
+    "login locations": [
+        [
+            -122.220221,
+            37.659791
+        ]
+    ],
+    "relationships": []
 }

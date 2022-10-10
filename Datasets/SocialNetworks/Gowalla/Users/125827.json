@@ -5,7 +5,39 @@
     "email": "parnold@hotmail.com",
     "birthdate": "1952-10-22",
     "phone": "386-928-6414x344",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        19,
+        9,
+        48,
+        17,
+        1,
+        13,
+        57,
+        23,
+        55,
+        52,
+        60,
+        47,
+        59,
+        52
+    ],
+    "login locations": [
+        [
+            -121.93675,
+            38.337078
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125826,
+                0.24
+            ],
+            [
+                125826,
+                0.24
+            ]
+        ]
+    ]
 }

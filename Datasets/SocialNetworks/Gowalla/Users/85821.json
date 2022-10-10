@@ -5,7 +5,21 @@
     "email": "candace22@hotmail.com",
     "birthdate": "1945-06-28",
     "phone": "(241)793-6756x354",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        14,
+        20,
+        40,
+        13,
+        23,
+        12,
+        5
+    ],
+    "login locations": [
+        [
+            -117.906153,
+            33.775656
+        ]
+    ],
+    "relationships": []
 }

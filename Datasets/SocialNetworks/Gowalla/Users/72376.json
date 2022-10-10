@@ -5,7 +5,25 @@
     "email": "obrienkathryn@yahoo.com",
     "birthdate": "1973-09-14",
     "phone": "(758)341-0426",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        21,
+        72,
+        28,
+        44,
+        10,
+        70,
+        53,
+        41,
+        46,
+        46,
+        55
+    ],
+    "login locations": [
+        [
+            -118.13565,
+            34.653636
+        ]
+    ],
+    "relationships": []
 }

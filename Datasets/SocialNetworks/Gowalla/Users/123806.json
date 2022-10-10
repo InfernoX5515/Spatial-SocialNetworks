@@ -5,7 +5,27 @@
     "email": "qdavis@yahoo.com",
     "birthdate": "1997-10-23",
     "phone": "665.402.7788",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        32,
+        69,
+        13,
+        25,
+        10,
+        58,
+        60,
+        58,
+        61,
+        71,
+        30,
+        28,
+        8
+    ],
+    "login locations": [
+        [
+            -122.29437,
+            37.829736
+        ]
+    ],
+    "relationships": []
 }

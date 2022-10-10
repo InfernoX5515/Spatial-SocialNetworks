@@ -5,7 +5,19 @@
     "email": "emorgan@gmail.com",
     "birthdate": "2008-02-13",
     "phone": "(532)724-9458x28398",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        20,
+        70,
+        32,
+        29,
+        70
+    ],
+    "login locations": [
+        [
+            -117.268062,
+            34.058878
+        ]
+    ],
+    "relationships": []
 }

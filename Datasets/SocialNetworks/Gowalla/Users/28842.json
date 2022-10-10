@@ -5,7 +5,25 @@
     "email": "edwin48@hotmail.com",
     "birthdate": "1929-07-16",
     "phone": "723.940.4627",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60
+    ],
+    "login locations": [
+        [
+            -122.078866,
+            38.239276
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                446,
+                0.0364705882353
+            ],
+            [
+                28858,
+                0.104895104895
+            ]
+        ]
+    ]
 }

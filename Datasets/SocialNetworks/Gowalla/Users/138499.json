@@ -5,7 +5,14 @@
     "email": "dwilliams@gmail.com",
     "birthdate": "1914-02-14",
     "phone": "789.477.5743x519",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14
+    ],
+    "login locations": [
+        [
+            -121.899568,
+            36.725157
+        ]
+    ],
+    "relationships": []
 }

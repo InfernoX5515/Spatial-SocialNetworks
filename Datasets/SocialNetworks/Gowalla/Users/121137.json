@@ -5,7 +5,22 @@
     "email": "fletcherpatrick@hotmail.com",
     "birthdate": "1954-04-14",
     "phone": "529-125-9242x815",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        51,
+        31,
+        38,
+        8,
+        1,
+        57,
+        5,
+        6
+    ],
+    "login locations": [
+        [
+            -122.007005,
+            37.966147
+        ]
+    ],
+    "relationships": []
 }

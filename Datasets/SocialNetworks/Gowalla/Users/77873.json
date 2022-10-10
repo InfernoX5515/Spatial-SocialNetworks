@@ -5,7 +5,18 @@
     "email": "perezjames@yahoo.com",
     "birthdate": "2003-11-08",
     "phone": "575.176.5860",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        72,
+        47,
+        38,
+        59
+    ],
+    "login locations": [
+        [
+            -117.892363,
+            33.722039
+        ]
+    ],
+    "relationships": []
 }

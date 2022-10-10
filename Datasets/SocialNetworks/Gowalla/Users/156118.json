@@ -5,7 +5,21 @@
     "email": "tylerjackson@gmail.com",
     "birthdate": "1956-04-27",
     "phone": "638-561-2346x2160",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        38,
+        71,
+        28,
+        24,
+        4,
+        12,
+        43
+    ],
+    "login locations": [
+        [
+            -122.411804,
+            37.785087
+        ]
+    ],
+    "relationships": []
 }

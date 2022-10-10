@@ -5,7 +5,23 @@
     "email": "joshua34@hotmail.com",
     "birthdate": "1934-05-09",
     "phone": "206.109.7517",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.113495,
+            37.415601
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6096,
+                0.741935483871
+            ],
+            [
+                108,
+                0.0243902439024
+            ]
+        ]
+    ]
 }

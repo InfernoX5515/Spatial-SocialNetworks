@@ -5,7 +5,27 @@
     "email": "simsjoann@gmail.com",
     "birthdate": "1952-03-18",
     "phone": "(135)962-4552",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        29,
+        14,
+        53,
+        0,
+        32,
+        47,
+        32,
+        18,
+        64,
+        53,
+        21,
+        25,
+        46
+    ],
+    "login locations": [
+        [
+            -118.318851,
+            34.092013
+        ]
+    ],
+    "relationships": []
 }

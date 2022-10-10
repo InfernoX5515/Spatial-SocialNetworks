@@ -5,7 +5,26 @@
     "email": "stephensjack@yahoo.com",
     "birthdate": "2011-06-02",
     "phone": "649.682.6580x095",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        69,
+        16,
+        74,
+        70,
+        44,
+        16,
+        30,
+        64,
+        29,
+        27,
+        33,
+        21
+    ],
+    "login locations": [
+        [
+            -122.412147,
+            37.768677
+        ]
+    ],
+    "relationships": []
 }

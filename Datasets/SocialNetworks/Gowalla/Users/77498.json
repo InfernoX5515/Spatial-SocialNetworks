@@ -5,7 +5,18 @@
     "email": "christinejackson@gmail.com",
     "birthdate": "1920-05-29",
     "phone": "+1-037-734-8374x78955",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        17,
+        16,
+        35,
+        36
+    ],
+    "login locations": [
+        [
+            -118.142041,
+            33.998467
+        ]
+    ],
+    "relationships": []
 }

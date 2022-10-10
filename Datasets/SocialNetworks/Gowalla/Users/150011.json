@@ -5,7 +5,20 @@
     "email": "jason30@hotmail.com",
     "birthdate": "1953-08-26",
     "phone": "366-540-3557x6539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        61,
+        15,
+        50,
+        3,
+        64,
+        13
+    ],
+    "login locations": [
+        [
+            -118.191038,
+            33.873805
+        ]
+    ],
+    "relationships": []
 }

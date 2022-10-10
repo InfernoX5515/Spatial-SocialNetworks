@@ -5,7 +5,28 @@
     "email": "dennistodd@yahoo.com",
     "birthdate": "2001-12-23",
     "phone": "+1-228-562-1050",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        16,
+        74,
+        13,
+        46,
+        20,
+        48,
+        42,
+        73,
+        18,
+        72,
+        53,
+        44,
+        56,
+        52
+    ],
+    "login locations": [
+        [
+            -117.890941,
+            33.780071
+        ]
+    ],
+    "relationships": []
 }

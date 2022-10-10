@@ -5,7 +5,27 @@
     "email": "kellykathleen@gmail.com",
     "birthdate": "1971-04-28",
     "phone": "6218410871",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        2,
+        33,
+        75,
+        25,
+        0,
+        17,
+        11,
+        34,
+        60,
+        5,
+        60,
+        35,
+        70
+    ],
+    "login locations": [
+        [
+            -117.117514,
+            33.338113
+        ]
+    ],
+    "relationships": []
 }

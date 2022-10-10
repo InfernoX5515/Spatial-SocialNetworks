@@ -5,7 +5,21 @@
     "email": "dunlaptimothy@hotmail.com",
     "birthdate": "1953-01-23",
     "phone": "001-880-961-8949x05121",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        4,
+        28,
+        9,
+        55,
+        32,
+        27,
+        55
+    ],
+    "login locations": [
+        [
+            -122.33929,
+            37.840891
+        ]
+    ],
+    "relationships": []
 }

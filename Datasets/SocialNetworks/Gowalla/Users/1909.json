@@ -5,7 +5,12 @@
     "email": "uturner@yahoo.com",
     "birthdate": "2005-12-25",
     "phone": "001-236-606-1580x96661",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.400985,
+            37.763982
+        ]
+    ],
+    "relationships": []
 }

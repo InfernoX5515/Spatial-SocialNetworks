@@ -5,7 +5,19 @@
     "email": "hthompson@yahoo.com",
     "birthdate": "2009-04-22",
     "phone": "+1-492-595-1019x675",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        72,
+        23,
+        57,
+        71,
+        9
+    ],
+    "login locations": [
+        [
+            -117.889253,
+            33.681765
+        ]
+    ],
+    "relationships": []
 }

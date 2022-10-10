@@ -5,7 +5,22 @@
     "email": "floresaustin@gmail.com",
     "birthdate": "1972-06-04",
     "phone": "001-475-387-6253x9410",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        62,
+        21,
+        60,
+        67,
+        38,
+        0,
+        21,
+        27
+    ],
+    "login locations": [
+        [
+            -121.965939,
+            37.77252
+        ]
+    ],
+    "relationships": []
 }

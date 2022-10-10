@@ -5,7 +5,26 @@
     "email": "sheilarojas@yahoo.com",
     "birthdate": "1962-04-21",
     "phone": "+1-309-821-7134x1332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        43,
+        40,
+        4,
+        51,
+        19,
+        75,
+        6,
+        49,
+        23,
+        14,
+        33,
+        9
+    ],
+    "login locations": [
+        [
+            -122.387644,
+            37.78256
+        ]
+    ],
+    "relationships": []
 }

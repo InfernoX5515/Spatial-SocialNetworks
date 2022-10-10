@@ -5,7 +5,20 @@
     "email": "ericroman@hotmail.com",
     "birthdate": "1977-06-06",
     "phone": "8586709466",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        12,
+        24,
+        23,
+        10,
+        32,
+        54
+    ],
+    "login locations": [
+        [
+            -122.400269,
+            37.776207
+        ]
+    ],
+    "relationships": []
 }

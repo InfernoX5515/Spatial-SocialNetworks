@@ -5,7 +5,21 @@
     "email": "barreramonica@gmail.com",
     "birthdate": "1992-11-02",
     "phone": "001-336-549-5581x98079",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        73,
+        20,
+        11,
+        22,
+        37,
+        18,
+        13
+    ],
+    "login locations": [
+        [
+            -122.002651,
+            37.938057
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "tlane@yahoo.com",
     "birthdate": "1956-07-13",
     "phone": "+1-011-961-9727x812",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        55,
+        55,
+        7
+    ],
+    "login locations": [
+        [
+            -122.427434,
+            37.798173
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4514,
+                0.0335195530726
+            ],
+            [
+                4514,
+                0.0335195530726
+            ]
+        ]
+    ]
 }

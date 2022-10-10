@@ -5,7 +5,28 @@
     "email": "victor98@hotmail.com",
     "birthdate": "1943-09-21",
     "phone": "+1-396-484-4448x047",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        46,
+        64,
+        0,
+        72,
+        53,
+        66,
+        58,
+        17,
+        69,
+        26,
+        7,
+        10,
+        55,
+        60
+    ],
+    "login locations": [
+        [
+            -122.049658,
+            37.32624
+        ]
+    ],
+    "relationships": []
 }

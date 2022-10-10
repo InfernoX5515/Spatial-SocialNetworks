@@ -5,7 +5,19 @@
     "email": "jensentami@hotmail.com",
     "birthdate": "1985-11-29",
     "phone": "001-010-355-5531x051",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        46,
+        57,
+        64,
+        12,
+        49
+    ],
+    "login locations": [
+        [
+            -117.805174,
+            34.07123
+        ]
+    ],
+    "relationships": []
 }

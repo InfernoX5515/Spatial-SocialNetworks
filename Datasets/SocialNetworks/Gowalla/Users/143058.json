@@ -5,7 +5,26 @@
     "email": "robertsoncourtney@hotmail.com",
     "birthdate": "1955-09-13",
     "phone": "505-702-1512",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        5,
+        59,
+        1,
+        50,
+        69,
+        24,
+        58,
+        24,
+        21,
+        27,
+        3,
+        9
+    ],
+    "login locations": [
+        [
+            -117.211509,
+            32.795481
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "mary89@yahoo.com",
     "birthdate": "2009-01-18",
     "phone": "+1-932-689-7932",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        27,
+        17,
+        75,
+        58,
+        2,
+        40,
+        14,
+        51,
+        62,
+        46
+    ],
+    "login locations": [
+        [
+            -122.156074,
+            37.423517
+        ]
+    ],
+    "relationships": []
 }

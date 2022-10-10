@@ -5,7 +5,24 @@
     "email": "yolandahudson@gmail.com",
     "birthdate": "1975-11-16",
     "phone": "505.566.8855x1017",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        33,
+        23,
+        33,
+        56,
+        48,
+        34,
+        42,
+        64,
+        52,
+        33
+    ],
+    "login locations": [
+        [
+            -122.300071,
+            37.814664
+        ]
+    ],
+    "relationships": []
 }

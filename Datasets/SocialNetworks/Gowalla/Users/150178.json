@@ -5,7 +5,25 @@
     "email": "vargasdavid@hotmail.com",
     "birthdate": "2004-10-10",
     "phone": "522.929.3738",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        4,
+        75,
+        40,
+        65,
+        25,
+        53,
+        24,
+        70,
+        26,
+        65,
+        64
+    ],
+    "login locations": [
+        [
+            -118.064213,
+            34.102014
+        ]
+    ],
+    "relationships": []
 }

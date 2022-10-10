@@ -5,7 +5,14 @@
     "email": "darrellflynn@yahoo.com",
     "birthdate": "1956-08-26",
     "phone": "001-835-767-0278",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2
+    ],
+    "login locations": [
+        [
+            -118.334387,
+            34.056577
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "jenniferdixon@gmail.com",
     "birthdate": "1931-07-31",
     "phone": "(171)434-0137",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        44,
+        63,
+        15,
+        8,
+        62,
+        39
+    ],
+    "login locations": [
+        [
+            -117.073568,
+            32.644462
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "katherinemiller@gmail.com",
     "birthdate": "1951-02-01",
     "phone": "+1-381-987-2489x463",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        61
+    ],
+    "login locations": [
+        [
+            -121.207954,
+            37.90385
+        ]
+    ],
+    "relationships": []
 }

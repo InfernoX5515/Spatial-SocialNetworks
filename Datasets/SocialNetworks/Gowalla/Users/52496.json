@@ -5,7 +5,14 @@
     "email": "markdixon@hotmail.com",
     "birthdate": "1914-02-01",
     "phone": "+1-212-550-8593x8449",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3
+    ],
+    "login locations": [
+        [
+            -117.881531,
+            33.800014
+        ]
+    ],
+    "relationships": []
 }

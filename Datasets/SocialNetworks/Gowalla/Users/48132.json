@@ -5,7 +5,28 @@
     "email": "mark28@hotmail.com",
     "birthdate": "1954-09-15",
     "phone": "615.619.5313x3060",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        59,
+        59,
+        50,
+        33,
+        72,
+        67,
+        45,
+        46,
+        45,
+        11,
+        63,
+        39,
+        6,
+        35
+    ],
+    "login locations": [
+        [
+            -117.199554,
+            32.751425
+        ]
+    ],
+    "relationships": []
 }

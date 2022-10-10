@@ -5,7 +5,27 @@
     "email": "douglasmichelle@gmail.com",
     "birthdate": "1914-09-07",
     "phone": "085.844.7927",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        46,
+        59,
+        22,
+        25,
+        43,
+        54,
+        6,
+        60,
+        25,
+        51,
+        12,
+        17,
+        70
+    ],
+    "login locations": [
+        [
+            -122.407038,
+            37.78951
+        ]
+    ],
+    "relationships": []
 }

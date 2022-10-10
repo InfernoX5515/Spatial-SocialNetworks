@@ -5,7 +5,25 @@
     "email": "rachel12@gmail.com",
     "birthdate": "2007-12-24",
     "phone": "985-355-8411",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        52,
+        75,
+        35,
+        14,
+        56,
+        26,
+        7,
+        16,
+        4,
+        52,
+        50
+    ],
+    "login locations": [
+        [
+            -118.276823,
+            33.875847
+        ]
+    ],
+    "relationships": []
 }

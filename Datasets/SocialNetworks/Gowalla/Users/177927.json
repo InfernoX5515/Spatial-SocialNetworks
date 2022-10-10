@@ -5,7 +5,16 @@
     "email": "stanleysarah@hotmail.com",
     "birthdate": "2021-12-03",
     "phone": "525-927-8608x5724",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        10,
+        22
+    ],
+    "login locations": [
+        [
+            -122.417263,
+            37.806727
+        ]
+    ],
+    "relationships": []
 }

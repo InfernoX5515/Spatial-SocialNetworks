@@ -5,7 +5,27 @@
     "email": "alexsparks@gmail.com",
     "birthdate": "1969-04-20",
     "phone": "001-091-261-2008x597",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        55,
+        8,
+        53,
+        57,
+        58,
+        63,
+        20,
+        66,
+        68,
+        30,
+        64,
+        17,
+        31
+    ],
+    "login locations": [
+        [
+            -117.188818,
+            33.111378
+        ]
+    ],
+    "relationships": []
 }

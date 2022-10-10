@@ -5,7 +5,24 @@
     "email": "twilliams@hotmail.com",
     "birthdate": "2014-03-28",
     "phone": "(695)456-1704x4242",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        31,
+        34,
+        74,
+        22,
+        46,
+        34,
+        22,
+        75,
+        71,
+        1
+    ],
+    "login locations": [
+        [
+            -122.144718,
+            37.43119
+        ]
+    ],
+    "relationships": []
 }

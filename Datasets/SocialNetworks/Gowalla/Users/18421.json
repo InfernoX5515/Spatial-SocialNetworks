@@ -5,7 +5,23 @@
     "email": "chamberstaylor@yahoo.com",
     "birthdate": "1917-03-11",
     "phone": "136.171.7386",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        37,
+        74,
+        49,
+        64,
+        52,
+        23,
+        62,
+        75,
+        55
+    ],
+    "login locations": [
+        [
+            -118.402082,
+            34.008624
+        ]
+    ],
+    "relationships": []
 }

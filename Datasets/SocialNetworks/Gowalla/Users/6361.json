@@ -5,7 +5,18 @@
     "email": "gomeznatasha@gmail.com",
     "birthdate": "1950-01-06",
     "phone": "086.637.9319x8182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        20,
+        6,
+        12,
+        14
+    ],
+    "login locations": [
+        [
+            -122.044556,
+            37.36333
+        ]
+    ],
+    "relationships": []
 }

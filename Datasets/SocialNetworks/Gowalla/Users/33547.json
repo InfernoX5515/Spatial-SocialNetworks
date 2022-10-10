@@ -5,7 +5,16 @@
     "email": "collinscarrie@gmail.com",
     "birthdate": "1924-11-25",
     "phone": "+1-148-257-5504x0812",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        56,
+        56
+    ],
+    "login locations": [
+        [
+            -121.969435,
+            37.332448
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "tonybrady@gmail.com",
     "birthdate": "1955-04-22",
     "phone": "001-864-238-4155",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        66,
+        62,
+        42,
+        47,
+        61,
+        18,
+        9,
+        70,
+        11,
+        4,
+        27,
+        21,
+        60,
+        39
+    ],
+    "login locations": [
+        [
+            -122.194763,
+            37.806759
+        ]
+    ],
+    "relationships": []
 }

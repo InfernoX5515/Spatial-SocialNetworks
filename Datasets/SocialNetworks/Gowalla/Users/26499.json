@@ -5,7 +5,20 @@
     "email": "mpetersen@hotmail.com",
     "birthdate": "1973-07-08",
     "phone": "936.405.3871x74884",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        16,
+        55,
+        55,
+        49,
+        71,
+        65
+    ],
+    "login locations": [
+        [
+            -118.93056,
+            34.225223
+        ]
+    ],
+    "relationships": []
 }

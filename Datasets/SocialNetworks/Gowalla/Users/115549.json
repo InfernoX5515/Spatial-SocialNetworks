@@ -5,7 +5,15 @@
     "email": "stephanieschneider@yahoo.com",
     "birthdate": "1960-08-06",
     "phone": "916-282-2432",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        58
+    ],
+    "login locations": [
+        [
+            -122.432958,
+            37.765397
+        ]
+    ],
+    "relationships": []
 }

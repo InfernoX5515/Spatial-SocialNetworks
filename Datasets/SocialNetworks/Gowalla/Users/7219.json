@@ -5,7 +5,25 @@
     "email": "jasonsimpson@gmail.com",
     "birthdate": "1992-04-10",
     "phone": "001-586-787-7032",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        42,
+        1,
+        54,
+        5,
+        37,
+        63,
+        70,
+        5,
+        62,
+        17,
+        47
+    ],
+    "login locations": [
+        [
+            -122.034912,
+            37.373355
+        ]
+    ],
+    "relationships": []
 }

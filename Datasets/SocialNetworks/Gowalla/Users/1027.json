@@ -5,7 +5,34 @@
     "email": "carterjeanette@hotmail.com",
     "birthdate": "2009-11-10",
     "phone": "8361465872",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        69,
+        57,
+        46,
+        72,
+        36,
+        60,
+        64,
+        4,
+        27
+    ],
+    "login locations": [
+        [
+            -118.365023,
+            34.085457
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8679,
+                0.0114285714286
+            ],
+            [
+                43812,
+                0.0622222222222
+            ]
+        ]
+    ]
 }

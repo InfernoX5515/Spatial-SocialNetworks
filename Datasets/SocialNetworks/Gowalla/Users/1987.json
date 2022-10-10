@@ -5,7 +5,24 @@
     "email": "thomassharp@gmail.com",
     "birthdate": "2000-10-16",
     "phone": "+1-433-450-3865x7300",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        51,
+        51,
+        69,
+        13,
+        48,
+        15,
+        49,
+        30,
+        20,
+        72
+    ],
+    "login locations": [
+        [
+            -118.438439,
+            34.001051
+        ]
+    ],
+    "relationships": []
 }

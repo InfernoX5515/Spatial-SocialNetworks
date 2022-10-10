@@ -5,7 +5,12 @@
     "email": "kennedyrobert@yahoo.com",
     "birthdate": "1934-09-27",
     "phone": "249-509-5443x130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.924051,
+            33.688682
+        ]
+    ],
+    "relationships": []
 }

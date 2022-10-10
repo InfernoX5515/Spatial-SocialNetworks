@@ -5,7 +5,20 @@
     "email": "younggabrielle@yahoo.com",
     "birthdate": "1957-09-12",
     "phone": "613.027.9719",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        14,
+        49,
+        37,
+        3,
+        69,
+        51
+    ],
+    "login locations": [
+        [
+            -122.409373,
+            37.793124
+        ]
+    ],
+    "relationships": []
 }

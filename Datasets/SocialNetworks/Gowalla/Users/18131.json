@@ -5,7 +5,18 @@
     "email": "carlostaylor@gmail.com",
     "birthdate": "1960-12-29",
     "phone": "+1-695-475-1212x9221",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        59,
+        6,
+        26,
+        8
+    ],
+    "login locations": [
+        [
+            -117.150044,
+            32.728319
+        ]
+    ],
+    "relationships": []
 }

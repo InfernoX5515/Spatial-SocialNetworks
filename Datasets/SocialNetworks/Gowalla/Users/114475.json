@@ -5,7 +5,23 @@
     "email": "mgraham@gmail.com",
     "birthdate": "1934-03-14",
     "phone": "344-242-2969x37048",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        48,
+        38,
+        68,
+        49,
+        53,
+        25,
+        8,
+        0,
+        53
+    ],
+    "login locations": [
+        [
+            -122.042963,
+            37.337589
+        ]
+    ],
+    "relationships": []
 }

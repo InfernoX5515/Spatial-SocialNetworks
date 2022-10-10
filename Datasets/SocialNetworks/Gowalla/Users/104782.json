@@ -5,7 +5,28 @@
     "email": "rickey89@gmail.com",
     "birthdate": "1944-02-14",
     "phone": "4987251851",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        63,
+        23,
+        28
+    ],
+    "login locations": [
+        [
+            -121.274592,
+            38.579242
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                104776,
+                0.0487804878049
+            ],
+            [
+                104777,
+                0.0829493087558
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,34 @@
     "email": "rodneybass@hotmail.com",
     "birthdate": "1907-05-21",
     "phone": "001-716-500-1671x02549",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        49,
+        49,
+        32,
+        58,
+        55,
+        1,
+        4,
+        74,
+        43
+    ],
+    "login locations": [
+        [
+            -117.943407,
+            33.802065
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3996,
+                0.0333333333333
+            ],
+            [
+                3996,
+                0.0333333333333
+            ]
+        ]
+    ]
 }

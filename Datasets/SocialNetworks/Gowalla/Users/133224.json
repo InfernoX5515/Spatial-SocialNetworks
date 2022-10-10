@@ -5,7 +5,21 @@
     "email": "robert76@hotmail.com",
     "birthdate": "1971-08-12",
     "phone": "+1-338-150-8016x9769",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        55,
+        43,
+        66,
+        54,
+        65,
+        60,
+        29
+    ],
+    "login locations": [
+        [
+            -121.284893,
+            38.726458
+        ]
+    ],
+    "relationships": []
 }

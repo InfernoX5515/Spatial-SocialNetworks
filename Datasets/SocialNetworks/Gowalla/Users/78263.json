@@ -5,7 +5,33 @@
     "email": "yvasquez@gmail.com",
     "birthdate": "1907-08-17",
     "phone": "+1-637-181-6704",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        44,
+        32,
+        54,
+        4,
+        9,
+        5,
+        53,
+        45
+    ],
+    "login locations": [
+        [
+            -121.837324,
+            37.727116
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                78264,
+                0.04
+            ],
+            [
+                78265,
+                0.0185185185185
+            ]
+        ]
+    ]
 }

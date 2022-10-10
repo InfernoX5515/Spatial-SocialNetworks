@@ -5,7 +5,16 @@
     "email": "sarah07@yahoo.com",
     "birthdate": "1944-02-19",
     "phone": "001-807-450-5908",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        20,
+        56
+    ],
+    "login locations": [
+        [
+            -121.904588,
+            37.346799
+        ]
+    ],
+    "relationships": []
 }

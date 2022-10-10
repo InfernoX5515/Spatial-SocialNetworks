@@ -5,7 +5,17 @@
     "email": "ymorgan@gmail.com",
     "birthdate": "1945-04-26",
     "phone": "768.895.1112",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        72,
+        53,
+        52
+    ],
+    "login locations": [
+        [
+            -122.407423,
+            37.790203
+        ]
+    ],
+    "relationships": []
 }

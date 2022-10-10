@@ -5,7 +5,37 @@
     "email": "ycampbell@gmail.com",
     "birthdate": "1994-06-27",
     "phone": "605.278.6767x3143",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        60,
+        9,
+        75,
+        21,
+        53,
+        47,
+        19,
+        41,
+        15,
+        44,
+        53,
+        43
+    ],
+    "login locations": [
+        [
+            -118.213758,
+            34.000979
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118852,
+                0.25
+            ],
+            [
+                120186,
+                0.75
+            ]
+        ]
+    ]
 }

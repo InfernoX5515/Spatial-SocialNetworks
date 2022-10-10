@@ -5,7 +5,27 @@
     "email": "wanda47@gmail.com",
     "birthdate": "1987-12-21",
     "phone": "001-686-538-6068x327",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        73,
+        72,
+        66,
+        17,
+        39,
+        27,
+        70,
+        54,
+        19,
+        17,
+        14,
+        11,
+        54
+    ],
+    "login locations": [
+        [
+            -118.276868,
+            33.973457
+        ]
+    ],
+    "relationships": []
 }

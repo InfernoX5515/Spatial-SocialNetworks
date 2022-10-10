@@ -5,7 +5,24 @@
     "email": "garciajamie@hotmail.com",
     "birthdate": "1938-04-08",
     "phone": "1079920665",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        23,
+        65,
+        52,
+        65,
+        13,
+        62,
+        66,
+        57,
+        35,
+        10
+    ],
+    "login locations": [
+        [
+            -117.162704,
+            32.707984
+        ]
+    ],
+    "relationships": []
 }

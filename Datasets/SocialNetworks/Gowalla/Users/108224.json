@@ -5,7 +5,19 @@
     "email": "lauramartin@gmail.com",
     "birthdate": "2006-06-11",
     "phone": "001-816-980-4746x9697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        53,
+        5,
+        67,
+        59,
+        63
+    ],
+    "login locations": [
+        [
+            -118.380036,
+            34.131955
+        ]
+    ],
+    "relationships": []
 }

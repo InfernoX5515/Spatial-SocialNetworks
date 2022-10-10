@@ -5,7 +5,23 @@
     "email": "millercassandra@hotmail.com",
     "birthdate": "2010-09-27",
     "phone": "198.194.4877x49853",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        6,
+        36,
+        47,
+        29,
+        41,
+        58,
+        55,
+        57,
+        40
+    ],
+    "login locations": [
+        [
+            -118.048793,
+            33.848714
+        ]
+    ],
+    "relationships": []
 }

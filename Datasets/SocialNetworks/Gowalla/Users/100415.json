@@ -5,7 +5,28 @@
     "email": "feliciaharris@yahoo.com",
     "birthdate": "1982-01-20",
     "phone": "001-695-821-3299x4964",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        16,
+        34,
+        39
+    ],
+    "login locations": [
+        [
+            -118.988818,
+            35.391229
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                100414,
+                0.405797101449
+            ],
+            [
+                100417,
+                0.266666666667
+            ]
+        ]
+    ]
 }

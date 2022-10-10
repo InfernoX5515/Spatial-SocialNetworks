@@ -5,7 +5,28 @@
     "email": "sarahharrison@yahoo.com",
     "birthdate": "2015-04-10",
     "phone": "504-591-8873",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        9,
+        54,
+        17,
+        45,
+        9,
+        64,
+        21,
+        5,
+        25,
+        1,
+        69,
+        4,
+        64,
+        69
+    ],
+    "login locations": [
+        [
+            -117.140428,
+            32.780741
+        ]
+    ],
+    "relationships": []
 }

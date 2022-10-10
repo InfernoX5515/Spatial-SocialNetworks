@@ -5,7 +5,26 @@
     "email": "kellyjohnson@hotmail.com",
     "birthdate": "1976-03-15",
     "phone": "+1-859-120-6255",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        67,
+        62,
+        49,
+        17,
+        38,
+        12,
+        22,
+        55,
+        25,
+        34,
+        5,
+        33
+    ],
+    "login locations": [
+        [
+            -118.12164,
+            33.885958
+        ]
+    ],
+    "relationships": []
 }

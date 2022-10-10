@@ -5,7 +5,23 @@
     "email": "ydavis@hotmail.com",
     "birthdate": "2001-10-01",
     "phone": "(281)034-0737x59394",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.338526,
+            34.089966
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                593,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,17 @@
     "email": "cynthiaperry@yahoo.com",
     "birthdate": "1990-08-06",
     "phone": "001-569-285-9860",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        53,
+        74,
+        29
+    ],
+    "login locations": [
+        [
+            -118.049175,
+            33.944914
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "xlittle@hotmail.com",
     "birthdate": "1924-07-01",
     "phone": "(336)387-2852",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        32,
+        36,
+        51,
+        56,
+        4,
+        47,
+        59,
+        34
+    ],
+    "login locations": [
+        [
+            -122.030539,
+            37.382645
+        ]
+    ],
+    "relationships": []
 }

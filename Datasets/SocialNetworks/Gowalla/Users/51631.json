@@ -5,7 +5,16 @@
     "email": "courtney79@yahoo.com",
     "birthdate": "1967-03-18",
     "phone": "(933)245-3018x453",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        9,
+        34
+    ],
+    "login locations": [
+        [
+            -122.183721,
+            37.709645
+        ]
+    ],
+    "relationships": []
 }

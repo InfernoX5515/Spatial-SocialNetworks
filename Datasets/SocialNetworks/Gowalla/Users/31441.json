@@ -5,7 +5,27 @@
     "email": "hopkinstyler@gmail.com",
     "birthdate": "1929-12-06",
     "phone": "741-334-2364",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        23,
+        16,
+        19,
+        33,
+        25,
+        5,
+        23,
+        20,
+        68,
+        61,
+        22,
+        49,
+        16
+    ],
+    "login locations": [
+        [
+            -122.385927,
+            37.777161
+        ]
+    ],
+    "relationships": []
 }

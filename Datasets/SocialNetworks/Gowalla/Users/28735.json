@@ -5,7 +5,25 @@
     "email": "michellesampson@yahoo.com",
     "birthdate": "2020-01-13",
     "phone": "001-793-782-2303x38677",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        20,
+        48,
+        28,
+        47,
+        52,
+        20,
+        71,
+        12,
+        27,
+        6,
+        71
+    ],
+    "login locations": [
+        [
+            -118.038342,
+            33.904547
+        ]
+    ],
+    "relationships": []
 }

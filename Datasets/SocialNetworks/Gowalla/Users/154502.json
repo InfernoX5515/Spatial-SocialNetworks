@@ -5,7 +5,27 @@
     "email": "eevans@yahoo.com",
     "birthdate": "1946-01-25",
     "phone": "001-609-442-6926",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        9,
+        22,
+        11,
+        43,
+        68,
+        41,
+        58,
+        23,
+        52,
+        25,
+        75,
+        14,
+        59
+    ],
+    "login locations": [
+        [
+            -121.405329,
+            38.60071
+        ]
+    ],
+    "relationships": []
 }

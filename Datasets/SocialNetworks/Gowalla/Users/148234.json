@@ -5,7 +5,27 @@
     "email": "benjamindavis@gmail.com",
     "birthdate": "1978-09-01",
     "phone": "001-065-158-3741x6866",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        28,
+        72,
+        72,
+        67,
+        28,
+        71,
+        64,
+        16,
+        13,
+        46,
+        31,
+        3,
+        30
+    ],
+    "login locations": [
+        [
+            -122.282443,
+            37.849192
+        ]
+    ],
+    "relationships": []
 }

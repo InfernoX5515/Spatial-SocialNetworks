@@ -5,7 +5,26 @@
     "email": "timothy56@gmail.com",
     "birthdate": "1934-06-02",
     "phone": "+1-654-132-3437x67242",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        65
+    ],
+    "login locations": [
+        [
+            -117.267411,
+            33.030403
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                15607,
+                0.111111111111
+            ],
+            [
+                15607,
+                0.111111111111
+            ]
+        ]
+    ]
 }

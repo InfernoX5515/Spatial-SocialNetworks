@@ -5,7 +5,36 @@
     "email": "mitchellryan@hotmail.com",
     "birthdate": "1930-08-10",
     "phone": "(714)221-7748x23055",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        59,
+        54,
+        12,
+        74,
+        63,
+        0,
+        19,
+        16,
+        27,
+        36,
+        17
+    ],
+    "login locations": [
+        [
+            -122.363953,
+            37.729809
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5338,
+                0.014598540146
+            ],
+            [
+                5338,
+                0.014598540146
+            ]
+        ]
+    ]
 }

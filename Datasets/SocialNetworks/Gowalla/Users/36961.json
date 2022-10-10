@@ -5,7 +5,23 @@
     "email": "marthahenderson@hotmail.com",
     "birthdate": "1926-08-31",
     "phone": "9086544140",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        47,
+        13,
+        64,
+        63,
+        45,
+        21,
+        66,
+        2,
+        31
+    ],
+    "login locations": [
+        [
+            -122.397291,
+            37.788254
+        ]
+    ],
+    "relationships": []
 }

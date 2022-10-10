@@ -5,7 +5,22 @@
     "email": "hernandezcourtney@hotmail.com",
     "birthdate": "1978-02-09",
     "phone": "001-434-013-5705x58201",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        2,
+        44,
+        53,
+        23,
+        40,
+        5,
+        26,
+        65
+    ],
+    "login locations": [
+        [
+            -121.993063,
+            36.965361
+        ]
+    ],
+    "relationships": []
 }

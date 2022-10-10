@@ -5,7 +5,26 @@
     "email": "lambdavid@hotmail.com",
     "birthdate": "1929-04-13",
     "phone": "+1-159-976-4513x89320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        25,
+        65,
+        22,
+        1,
+        25,
+        44,
+        61,
+        40,
+        38,
+        52,
+        17,
+        24
+    ],
+    "login locations": [
+        [
+            -120.994721,
+            37.242725
+        ]
+    ],
+    "relationships": []
 }

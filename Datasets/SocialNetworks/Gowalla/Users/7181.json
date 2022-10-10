@@ -5,7 +5,26 @@
     "email": "rmontoya@yahoo.com",
     "birthdate": "1940-09-09",
     "phone": "690.362.9376x36246",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        73,
+        39,
+        46,
+        45,
+        57,
+        43,
+        40,
+        2,
+        37,
+        13,
+        6,
+        48
+    ],
+    "login locations": [
+        [
+            -117.757437,
+            33.655307
+        ]
+    ],
+    "relationships": []
 }

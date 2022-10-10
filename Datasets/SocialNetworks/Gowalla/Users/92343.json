@@ -5,7 +5,29 @@
     "email": "jason11@yahoo.com",
     "birthdate": "2002-07-05",
     "phone": "3929686942",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        35,
+        61,
+        15,
+        12
+    ],
+    "login locations": [
+        [
+            -122.427168,
+            37.774803
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11996,
+                0.0114285714286
+            ],
+            [
+                11996,
+                0.0114285714286
+            ]
+        ]
+    ]
 }

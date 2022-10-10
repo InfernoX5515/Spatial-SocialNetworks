@@ -5,7 +5,26 @@
     "email": "jacobmoore@gmail.com",
     "birthdate": "2006-06-16",
     "phone": "001-744-526-9226x662",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        75,
+        25,
+        63,
+        16,
+        24,
+        14,
+        16,
+        10,
+        5,
+        70,
+        75,
+        47
+    ],
+    "login locations": [
+        [
+            -121.779137,
+            37.680638
+        ]
+    ],
+    "relationships": []
 }

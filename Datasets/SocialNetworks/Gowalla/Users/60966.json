@@ -5,7 +5,28 @@
     "email": "hubbardkevin@yahoo.com",
     "birthdate": "1989-06-08",
     "phone": "001-363-882-9250x534",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        10,
+        27,
+        25,
+        66,
+        10,
+        10,
+        28,
+        47,
+        18,
+        22,
+        34,
+        50,
+        45,
+        59
+    ],
+    "login locations": [
+        [
+            -119.868062,
+            36.818507
+        ]
+    ],
+    "relationships": []
 }

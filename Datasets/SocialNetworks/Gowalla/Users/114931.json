@@ -5,7 +5,24 @@
     "email": "meghanadkins@gmail.com",
     "birthdate": "1947-01-18",
     "phone": "209.469.1175",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        25,
+        20,
+        9,
+        3,
+        14,
+        54,
+        32,
+        1,
+        59,
+        7
+    ],
+    "login locations": [
+        [
+            -122.358247,
+            37.694291
+        ]
+    ],
+    "relationships": []
 }

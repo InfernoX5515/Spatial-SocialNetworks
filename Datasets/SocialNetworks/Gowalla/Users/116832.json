@@ -5,7 +5,24 @@
     "email": "maria00@gmail.com",
     "birthdate": "1912-10-20",
     "phone": "084.916.6001x98508",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        7,
+        30,
+        68,
+        5,
+        43,
+        64,
+        50,
+        9,
+        39,
+        21
+    ],
+    "login locations": [
+        [
+            -122.403938,
+            37.785853
+        ]
+    ],
+    "relationships": []
 }

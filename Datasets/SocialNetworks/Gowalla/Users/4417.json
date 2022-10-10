@@ -5,7 +5,26 @@
     "email": "rollinsanthony@hotmail.com",
     "birthdate": "1910-01-12",
     "phone": "827.771.1312",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        8,
+        61,
+        22,
+        68,
+        62,
+        46,
+        66,
+        44,
+        40,
+        57,
+        4,
+        17
+    ],
+    "login locations": [
+        [
+            -117.904,
+            33.767883
+        ]
+    ],
+    "relationships": []
 }

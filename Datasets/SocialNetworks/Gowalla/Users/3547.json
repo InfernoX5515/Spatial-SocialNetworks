@@ -5,7 +5,12 @@
     "email": "turnerjill@gmail.com",
     "birthdate": "1908-07-30",
     "phone": "541-347-2617",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.398474,
+            37.780244
+        ]
+    ],
+    "relationships": []
 }

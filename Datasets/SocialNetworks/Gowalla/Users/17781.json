@@ -5,7 +5,17 @@
     "email": "courtneyjohnson@hotmail.com",
     "birthdate": "1998-10-22",
     "phone": "933-537-6459",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        7,
+        72,
+        21
+    ],
+    "login locations": [
+        [
+            -117.978549,
+            33.717892
+        ]
+    ],
+    "relationships": []
 }

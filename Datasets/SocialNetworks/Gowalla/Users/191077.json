@@ -5,7 +5,17 @@
     "email": "alejandra00@hotmail.com",
     "birthdate": "1962-05-23",
     "phone": "544.175.8586",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        68,
+        8,
+        53
+    ],
+    "login locations": [
+        [
+            -121.967956,
+            37.323783
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "mrivers@yahoo.com",
     "birthdate": "1939-01-19",
     "phone": "405-321-4953x3700",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        9,
+        47,
+        45,
+        60,
+        68
+    ],
+    "login locations": [
+        [
+            -122.091149,
+            37.393894
+        ]
+    ],
+    "relationships": []
 }

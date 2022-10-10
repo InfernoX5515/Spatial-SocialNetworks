@@ -5,7 +5,37 @@
     "email": "jenniferrich@gmail.com",
     "birthdate": "1994-10-25",
     "phone": "(740)388-3529x743",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        50,
+        50,
+        71,
+        43,
+        39,
+        63,
+        33,
+        47,
+        48,
+        9,
+        55,
+        7
+    ],
+    "login locations": [
+        [
+            -122.392273,
+            37.675426
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5071,
+                0.03125
+            ],
+            [
+                5098,
+                0.176
+            ]
+        ]
+    ]
 }

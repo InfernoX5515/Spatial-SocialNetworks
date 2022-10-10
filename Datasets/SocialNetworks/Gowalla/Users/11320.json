@@ -5,7 +5,28 @@
     "email": "ramirezaaron@yahoo.com",
     "birthdate": "1915-08-30",
     "phone": "015.200.3828x53204",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        25,
+        58,
+        63,
+        1,
+        18,
+        66,
+        22,
+        71,
+        26,
+        35,
+        72,
+        3,
+        1,
+        57
+    ],
+    "login locations": [
+        [
+            -119.840747,
+            36.924172
+        ]
+    ],
+    "relationships": []
 }

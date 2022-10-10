@@ -5,7 +5,27 @@
     "email": "rebeccapierce@yahoo.com",
     "birthdate": "1929-03-15",
     "phone": "+1-730-214-0651x7862",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        32,
+        15,
+        7,
+        0,
+        43,
+        47,
+        42,
+        42,
+        28,
+        33,
+        56,
+        3,
+        38
+    ],
+    "login locations": [
+        [
+            -117.116121,
+            32.924975
+        ]
+    ],
+    "relationships": []
 }

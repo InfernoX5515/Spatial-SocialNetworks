@@ -5,7 +5,14 @@
     "email": "hendersoncolleen@gmail.com",
     "birthdate": "1943-10-02",
     "phone": "(374)059-7985x48706",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21
+    ],
+    "login locations": [
+        [
+            -117.743094,
+            33.650328
+        ]
+    ],
+    "relationships": []
 }

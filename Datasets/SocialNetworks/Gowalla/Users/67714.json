@@ -5,7 +5,18 @@
     "email": "blakewalker@hotmail.com",
     "birthdate": "1965-05-12",
     "phone": "740.590.5528",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        36,
+        30,
+        24,
+        32
+    ],
+    "login locations": [
+        [
+            -118.328685,
+            34.032215
+        ]
+    ],
+    "relationships": []
 }

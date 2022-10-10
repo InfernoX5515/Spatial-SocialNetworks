@@ -5,7 +5,20 @@
     "email": "aaron99@yahoo.com",
     "birthdate": "2018-07-21",
     "phone": "173-873-7213x718",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        39,
+        56,
+        46,
+        7,
+        55,
+        9
+    ],
+    "login locations": [
+        [
+            -117.061267,
+            32.874987
+        ]
+    ],
+    "relationships": []
 }

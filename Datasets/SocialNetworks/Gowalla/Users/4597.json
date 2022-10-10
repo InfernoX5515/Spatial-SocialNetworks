@@ -5,7 +5,25 @@
     "email": "lewismichael@yahoo.com",
     "birthdate": "1943-04-20",
     "phone": "+1-119-821-7775x430",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        49,
+        25,
+        10,
+        62,
+        15,
+        60,
+        69,
+        22,
+        17,
+        13,
+        14
+    ],
+    "login locations": [
+        [
+            -117.290838,
+            33.115282
+        ]
+    ],
+    "relationships": []
 }

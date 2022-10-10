@@ -5,7 +5,29 @@
     "email": "juandelgado@hotmail.com",
     "birthdate": "1978-03-17",
     "phone": "+1-920-139-3425x63347",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        51,
+        41,
+        42,
+        74
+    ],
+    "login locations": [
+        [
+            -122.404799,
+            37.78552
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                77995,
+                0.405405405405
+            ],
+            [
+                34398,
+                0.56
+            ]
+        ]
+    ]
 }

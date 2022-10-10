@@ -5,7 +5,28 @@
     "email": "steven81@yahoo.com",
     "birthdate": "1937-11-15",
     "phone": "957.241.9942x172",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        50,
+        70,
+        41,
+        53,
+        6,
+        47,
+        30,
+        27,
+        66,
+        43,
+        42,
+        37,
+        7,
+        29
+    ],
+    "login locations": [
+        [
+            -118.441782,
+            34.151404
+        ]
+    ],
+    "relationships": []
 }

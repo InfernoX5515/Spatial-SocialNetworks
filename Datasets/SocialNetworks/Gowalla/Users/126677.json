@@ -5,7 +5,21 @@
     "email": "wrightsean@yahoo.com",
     "birthdate": "2022-08-11",
     "phone": "001-369-424-8871x75302",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        69,
+        20,
+        35,
+        10,
+        13,
+        72,
+        56
+    ],
+    "login locations": [
+        [
+            -118.245771,
+            34.023612
+        ]
+    ],
+    "relationships": []
 }

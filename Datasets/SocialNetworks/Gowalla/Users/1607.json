@@ -5,7 +5,28 @@
     "email": "lmassey@yahoo.com",
     "birthdate": "2004-11-05",
     "phone": "001-489-769-4050x7377",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        23,
+        10,
+        59,
+        43,
+        33,
+        61,
+        28,
+        52,
+        50,
+        23,
+        72,
+        27,
+        51,
+        34
+    ],
+    "login locations": [
+        [
+            -118.341288,
+            34.101574
+        ]
+    ],
+    "relationships": []
 }

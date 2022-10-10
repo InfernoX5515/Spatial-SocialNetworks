@@ -5,7 +5,27 @@
     "email": "vsanchez@yahoo.com",
     "birthdate": "1924-06-13",
     "phone": "(324)580-1321x0877",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        61,
+        68,
+        21,
+        8,
+        9,
+        20,
+        33,
+        74,
+        33,
+        59,
+        51,
+        24,
+        27
+    ],
+    "login locations": [
+        [
+            -122.309296,
+            37.766549
+        ]
+    ],
+    "relationships": []
 }

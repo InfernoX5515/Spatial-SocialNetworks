@@ -5,7 +5,28 @@
     "email": "michaeljimenez@yahoo.com",
     "birthdate": "1985-03-09",
     "phone": "993.173.4015",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        58,
+        16,
+        61,
+        11,
+        0,
+        8,
+        43,
+        17,
+        25,
+        8,
+        21,
+        34,
+        7,
+        4
+    ],
+    "login locations": [
+        [
+            -118.490932,
+            34.016866
+        ]
+    ],
+    "relationships": []
 }

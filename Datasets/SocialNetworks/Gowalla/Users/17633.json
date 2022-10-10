@@ -5,7 +5,21 @@
     "email": "igonzales@hotmail.com",
     "birthdate": "1939-07-19",
     "phone": "+1-950-583-4740x207",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        4,
+        40,
+        59,
+        56,
+        54,
+        33,
+        51
+    ],
+    "login locations": [
+        [
+            -117.166195,
+            32.777583
+        ]
+    ],
+    "relationships": []
 }

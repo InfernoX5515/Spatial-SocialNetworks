@@ -5,7 +5,23 @@
     "email": "frank03@hotmail.com",
     "birthdate": "1944-11-06",
     "phone": "890.279.3306x24417",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        2,
+        11,
+        56,
+        27,
+        7,
+        17,
+        18,
+        58,
+        8
+    ],
+    "login locations": [
+        [
+            -122.418012,
+            37.75353
+        ]
+    ],
+    "relationships": []
 }

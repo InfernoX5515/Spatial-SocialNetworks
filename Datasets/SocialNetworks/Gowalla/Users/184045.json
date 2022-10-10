@@ -5,7 +5,23 @@
     "email": "murphygary@gmail.com",
     "birthdate": "1993-09-12",
     "phone": "382-538-1114",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        1,
+        64,
+        38,
+        27,
+        9,
+        1,
+        8,
+        5,
+        31
+    ],
+    "login locations": [
+        [
+            -122.429967,
+            37.713149
+        ]
+    ],
+    "relationships": []
 }

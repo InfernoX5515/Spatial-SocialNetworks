@@ -5,7 +5,27 @@
     "email": "david70@yahoo.com",
     "birthdate": "1940-12-19",
     "phone": "(431)993-9173x689",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        28,
+        50
+    ],
+    "login locations": [
+        [
+            -117.872576,
+            33.845534
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2761,
+                0.0329341317365
+            ],
+            [
+                2761,
+                0.0329341317365
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,31 @@
     "email": "nicole08@yahoo.com",
     "birthdate": "1958-06-19",
     "phone": "872.171.7927",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        14,
+        65,
+        72,
+        45,
+        49,
+        44
+    ],
+    "login locations": [
+        [
+            -122.096273,
+            37.905325
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.01
+            ],
+            [
+                159,
+                0.01
+            ]
+        ]
+    ]
 }

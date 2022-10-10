@@ -5,7 +5,35 @@
     "email": "elijah50@gmail.com",
     "birthdate": "1969-09-08",
     "phone": "+1-902-157-5037",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        40,
+        58,
+        68,
+        19,
+        56,
+        16,
+        23,
+        46,
+        45,
+        8
+    ],
+    "login locations": [
+        [
+            -118.294849,
+            34.061571
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1685,
+                0.01
+            ],
+            [
+                1685,
+                0.01
+            ]
+        ]
+    ]
 }

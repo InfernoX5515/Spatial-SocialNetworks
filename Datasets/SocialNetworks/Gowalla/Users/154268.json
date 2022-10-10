@@ -5,7 +5,16 @@
     "email": "breese@yahoo.com",
     "birthdate": "1998-02-27",
     "phone": "327.980.2750x31634",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        42,
+        24
+    ],
+    "login locations": [
+        [
+            -117.842559,
+            33.911808
+        ]
+    ],
+    "relationships": []
 }

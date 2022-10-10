@@ -5,7 +5,15 @@
     "email": "thomasdaniel@hotmail.com",
     "birthdate": "1933-02-24",
     "phone": "+1-970-189-0959x147",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        13
+    ],
+    "login locations": [
+        [
+            -122.436976,
+            37.721443
+        ]
+    ],
+    "relationships": []
 }

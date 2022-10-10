@@ -5,7 +5,23 @@
     "email": "liedward@yahoo.com",
     "birthdate": "1926-11-03",
     "phone": "+1-421-426-7526x6463",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        2,
+        27,
+        22,
+        28,
+        45,
+        31,
+        71,
+        18,
+        44
+    ],
+    "login locations": [
+        [
+            -122.458366,
+            37.761692
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "elizabethblackwell@gmail.com",
     "birthdate": "1909-04-17",
     "phone": "(178)584-9718",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        57,
+        24,
+        70,
+        57,
+        32,
+        59
+    ],
+    "login locations": [
+        [
+            -118.430217,
+            34.022338
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "jeremiahgarrett@gmail.com",
     "birthdate": "1960-02-10",
     "phone": "001-558-117-8999x97091",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        31,
+        32,
+        62,
+        64,
+        70,
+        69,
+        25,
+        0
+    ],
+    "login locations": [
+        [
+            -122.098716,
+            37.403345
+        ]
+    ],
+    "relationships": []
 }

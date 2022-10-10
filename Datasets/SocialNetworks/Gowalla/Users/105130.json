@@ -5,7 +5,27 @@
     "email": "batesapril@hotmail.com",
     "birthdate": "1952-01-24",
     "phone": "(268)010-4223x339",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        20,
+        58,
+        29,
+        41,
+        33,
+        72,
+        62,
+        13,
+        54,
+        64,
+        62,
+        60,
+        49
+    ],
+    "login locations": [
+        [
+            -117.179763,
+            32.894856
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "natashaholder@gmail.com",
     "birthdate": "1976-09-07",
     "phone": "138.228.8709x04762",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        10,
+        34,
+        70
+    ],
+    "login locations": [
+        [
+            -122.040449,
+            37.324697
+        ]
+    ],
+    "relationships": []
 }

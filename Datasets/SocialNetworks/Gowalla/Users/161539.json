@@ -5,7 +5,25 @@
     "email": "jermainegibson@yahoo.com",
     "birthdate": "1971-05-27",
     "phone": "889-978-5948",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        60,
+        2,
+        8,
+        14,
+        68,
+        8,
+        24,
+        73,
+        16,
+        68,
+        9
+    ],
+    "login locations": [
+        [
+            -121.922616,
+            37.694562
+        ]
+    ],
+    "relationships": []
 }

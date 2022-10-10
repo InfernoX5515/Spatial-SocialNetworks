@@ -5,7 +5,24 @@
     "email": "helenmoore@gmail.com",
     "birthdate": "1993-03-08",
     "phone": "160.745.0782x4817",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        65,
+        39,
+        27,
+        40,
+        56,
+        72,
+        42,
+        22,
+        38,
+        35
+    ],
+    "login locations": [
+        [
+            -118.109075,
+            34.023933
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "vbennett@hotmail.com",
     "birthdate": "1949-01-13",
     "phone": "(683)537-8721x51116",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        38,
+        75,
+        58,
+        69,
+        40,
+        10,
+        5,
+        47,
+        34,
+        75
+    ],
+    "login locations": [
+        [
+            -122.447022,
+            37.687349
+        ]
+    ],
+    "relationships": []
 }

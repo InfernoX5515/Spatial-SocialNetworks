@@ -5,7 +5,17 @@
     "email": "xhamilton@gmail.com",
     "birthdate": "1921-09-19",
     "phone": "9059457389",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        67,
+        34,
+        8
+    ],
+    "login locations": [
+        [
+            -121.95388,
+            37.13958
+        ]
+    ],
+    "relationships": []
 }

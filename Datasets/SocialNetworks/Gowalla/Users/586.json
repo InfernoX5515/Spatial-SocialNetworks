@@ -5,7 +5,37 @@
     "email": "atkinsmolly@gmail.com",
     "birthdate": "1968-03-12",
     "phone": "001-660-788-6543x570",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        20,
+        60,
+        68,
+        43,
+        7,
+        33,
+        47,
+        31,
+        60,
+        4,
+        18,
+        26
+    ],
+    "login locations": [
+        [
+            -122.422267,
+            37.772089
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.0289855072464
+            ],
+            [
+                459,
+                0.01
+            ]
+        ]
+    ]
 }

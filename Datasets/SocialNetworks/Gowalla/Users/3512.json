@@ -5,7 +5,15 @@
     "email": "fernandezkatelyn@yahoo.com",
     "birthdate": "2013-05-27",
     "phone": "+1-632-252-4629x3775",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        56
+    ],
+    "login locations": [
+        [
+            -117.787229,
+            34.019865
+        ]
+    ],
+    "relationships": []
 }

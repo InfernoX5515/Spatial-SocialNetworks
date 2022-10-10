@@ -5,7 +5,26 @@
     "email": "timothy27@hotmail.com",
     "birthdate": "2014-07-26",
     "phone": "275-937-2109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        33,
+        41,
+        65,
+        69,
+        2,
+        56,
+        40,
+        45,
+        21,
+        52,
+        20,
+        14
+    ],
+    "login locations": [
+        [
+            -122.351098,
+            37.794614
+        ]
+    ],
+    "relationships": []
 }

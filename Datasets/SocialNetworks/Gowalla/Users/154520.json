@@ -5,7 +5,24 @@
     "email": "mbowman@yahoo.com",
     "birthdate": "2019-07-21",
     "phone": "001-090-114-3857x5853",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        42,
+        70,
+        74,
+        22,
+        20,
+        74,
+        5,
+        23,
+        34,
+        67
+    ],
+    "login locations": [
+        [
+            -117.916119,
+            33.875068
+        ]
+    ],
+    "relationships": []
 }

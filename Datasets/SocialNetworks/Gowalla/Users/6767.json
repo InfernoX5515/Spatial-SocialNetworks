@@ -5,7 +5,37 @@
     "email": "harperjohn@yahoo.com",
     "birthdate": "1995-09-01",
     "phone": "001-350-611-6879x285",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        15,
+        52,
+        75,
+        60,
+        9,
+        41,
+        50,
+        16,
+        27,
+        20,
+        45,
+        64
+    ],
+    "login locations": [
+        [
+            -122.394575,
+            37.733462
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                470,
+                0.01
+            ],
+            [
+                593,
+                0.01
+            ]
+        ]
+    ]
 }

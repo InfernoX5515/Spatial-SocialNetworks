@@ -5,7 +5,21 @@
     "email": "travislawson@hotmail.com",
     "birthdate": "1978-12-09",
     "phone": "988-214-1165x8819",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        41,
+        41,
+        47,
+        55,
+        68,
+        45,
+        49
+    ],
+    "login locations": [
+        [
+            -121.9488,
+            37.672929
+        ]
+    ],
+    "relationships": []
 }

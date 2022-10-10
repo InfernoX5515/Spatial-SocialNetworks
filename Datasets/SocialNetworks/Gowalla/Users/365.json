@@ -5,7 +5,21 @@
     "email": "rnielsen@yahoo.com",
     "birthdate": "2018-08-29",
     "phone": "(196)660-9473x76487",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        66,
+        68,
+        23,
+        2,
+        5,
+        9,
+        51
+    ],
+    "login locations": [
+        [
+            -122.417307,
+            37.772477
+        ]
+    ],
+    "relationships": []
 }

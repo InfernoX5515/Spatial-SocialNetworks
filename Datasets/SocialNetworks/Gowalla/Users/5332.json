@@ -5,7 +5,25 @@
     "email": "xrhodes@yahoo.com",
     "birthdate": "1911-07-03",
     "phone": "001-599-508-4596",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55
+    ],
+    "login locations": [
+        [
+            -122.398497,
+            37.763525
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                831,
+                0.01
+            ],
+            [
+                1703,
+                0.029702970297
+            ]
+        ]
+    ]
 }

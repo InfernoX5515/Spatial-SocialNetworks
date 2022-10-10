@@ -5,7 +5,14 @@
     "email": "ztrevino@gmail.com",
     "birthdate": "2016-03-03",
     "phone": "(038)461-4765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69
+    ],
+    "login locations": [
+        [
+            -118.286174,
+            34.118938
+        ]
+    ],
+    "relationships": []
 }

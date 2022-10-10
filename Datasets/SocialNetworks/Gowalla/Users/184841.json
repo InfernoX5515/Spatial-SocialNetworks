@@ -5,7 +5,35 @@
     "email": "hunter50@yahoo.com",
     "birthdate": "1939-05-11",
     "phone": "4035463042",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        2,
+        54,
+        24,
+        33,
+        56,
+        1,
+        52,
+        55,
+        19,
+        42
+    ],
+    "login locations": [
+        [
+            -118.387883,
+            34.060885
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                139217,
+                0.0967741935484
+            ],
+            [
+                139217,
+                0.0967741935484
+            ]
+        ]
+    ]
 }

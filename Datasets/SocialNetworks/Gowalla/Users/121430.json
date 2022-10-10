@@ -5,7 +5,26 @@
     "email": "alex00@yahoo.com",
     "birthdate": "1932-08-26",
     "phone": "926-694-2920",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        4,
+        63,
+        38,
+        5,
+        5,
+        27,
+        58,
+        14,
+        31,
+        46,
+        53,
+        69
+    ],
+    "login locations": [
+        [
+            -119.775126,
+            36.808367
+        ]
+    ],
+    "relationships": []
 }

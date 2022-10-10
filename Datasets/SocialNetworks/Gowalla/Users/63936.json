@@ -5,7 +5,16 @@
     "email": "pmiller@gmail.com",
     "birthdate": "1978-12-01",
     "phone": "(020)078-5204x88063",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        17,
+        4
+    ],
+    "login locations": [
+        [
+            -117.696492,
+            33.650971
+        ]
+    ],
+    "relationships": []
 }

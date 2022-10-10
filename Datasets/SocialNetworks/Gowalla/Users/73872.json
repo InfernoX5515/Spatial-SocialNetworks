@@ -5,7 +5,14 @@
     "email": "fitzpatrickwilliam@gmail.com",
     "birthdate": "1912-04-06",
     "phone": "585.672.0984",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -118.428425,
+            34.000984
+        ]
+    ],
+    "relationships": []
 }

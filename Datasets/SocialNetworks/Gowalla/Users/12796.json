@@ -5,7 +5,20 @@
     "email": "rebeccaharris@hotmail.com",
     "birthdate": "2016-11-11",
     "phone": "(268)933-2061x50104",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        3,
+        64,
+        50,
+        57,
+        60,
+        16
+    ],
+    "login locations": [
+        [
+            -118.600982,
+            34.223282
+        ]
+    ],
+    "relationships": []
 }

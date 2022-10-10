@@ -5,7 +5,26 @@
     "email": "hodgesjesus@yahoo.com",
     "birthdate": "1968-04-10",
     "phone": "(880)478-0629x1186",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        6
+    ],
+    "login locations": [
+        [
+            -122.419211,
+            37.764303
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6366,
+                0.0115606936416
+            ],
+            [
+                6366,
+                0.0115606936416
+            ]
+        ]
+    ]
 }

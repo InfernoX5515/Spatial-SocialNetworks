@@ -5,7 +5,32 @@
     "email": "shannonvillegas@yahoo.com",
     "birthdate": "1980-01-13",
     "phone": "(229)526-1830x941",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        1,
+        64,
+        73,
+        65,
+        70,
+        30,
+        24
+    ],
+    "login locations": [
+        [
+            -122.319832,
+            37.811906
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3540,
+                0.01
+            ],
+            [
+                3540,
+                0.01
+            ]
+        ]
+    ]
 }

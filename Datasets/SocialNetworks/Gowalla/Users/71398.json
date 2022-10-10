@@ -5,7 +5,12 @@
     "email": "williamschultz@hotmail.com",
     "birthdate": "1914-01-30",
     "phone": "+1-450-925-2255x5528",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.947808,
+            37.336446
+        ]
+    ],
+    "relationships": []
 }

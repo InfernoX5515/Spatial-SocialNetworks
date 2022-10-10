@@ -5,7 +5,32 @@
     "email": "ebrown@yahoo.com",
     "birthdate": "1923-07-23",
     "phone": "872.471.6038x514",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        51,
+        39,
+        38,
+        64,
+        51,
+        38,
+        56
+    ],
+    "login locations": [
+        [
+            -118.259019,
+            34.054209
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39503,
+                0.154121863799
+            ],
+            [
+                132016,
+                0.295454545455
+            ]
+        ]
+    ]
 }

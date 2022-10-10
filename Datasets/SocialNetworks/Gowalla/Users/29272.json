@@ -5,7 +5,20 @@
     "email": "kgomez@hotmail.com",
     "birthdate": "1956-08-21",
     "phone": "677.717.8812x10511",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        59,
+        31,
+        13,
+        40,
+        56,
+        65
+    ],
+    "login locations": [
+        [
+            -122.401857,
+            37.785708
+        ]
+    ],
+    "relationships": []
 }

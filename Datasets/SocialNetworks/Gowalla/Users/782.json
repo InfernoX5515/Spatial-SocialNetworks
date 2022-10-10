@@ -5,7 +5,38 @@
     "email": "robertkrause@yahoo.com",
     "birthdate": "1924-01-27",
     "phone": "836-607-4814x56005",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        31,
+        67,
+        64,
+        42,
+        59,
+        21,
+        24,
+        5,
+        13,
+        38,
+        34,
+        2,
+        12
+    ],
+    "login locations": [
+        [
+            -118.059529,
+            33.900556
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32535,
+                0.28
+            ],
+            [
+                40601,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

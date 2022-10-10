@@ -5,7 +5,27 @@
     "email": "fletcherandrew@hotmail.com",
     "birthdate": "1962-10-08",
     "phone": "906-612-3334x6815",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        30,
+        48,
+        67,
+        74,
+        55,
+        40,
+        22,
+        64,
+        37,
+        22,
+        10,
+        6,
+        25
+    ],
+    "login locations": [
+        [
+            -118.247762,
+            34.146231
+        ]
+    ],
+    "relationships": []
 }

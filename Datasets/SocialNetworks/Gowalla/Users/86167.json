@@ -5,7 +5,18 @@
     "email": "quinnkenneth@yahoo.com",
     "birthdate": "1955-01-04",
     "phone": "+1-506-043-1108",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        42,
+        73,
+        1,
+        74
+    ],
+    "login locations": [
+        [
+            -122.432903,
+            37.791806
+        ]
+    ],
+    "relationships": []
 }

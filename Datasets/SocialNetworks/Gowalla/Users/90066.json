@@ -5,7 +5,28 @@
     "email": "edwin22@gmail.com",
     "birthdate": "1973-09-08",
     "phone": "+1-300-514-3896x5526",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        47,
+        37,
+        71,
+        15,
+        62,
+        73,
+        45,
+        19,
+        36,
+        42,
+        51,
+        65,
+        67,
+        72
+    ],
+    "login locations": [
+        [
+            -117.14597,
+            32.753055
+        ]
+    ],
+    "relationships": []
 }

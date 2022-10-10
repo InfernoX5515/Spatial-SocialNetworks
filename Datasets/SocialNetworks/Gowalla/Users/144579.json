@@ -5,7 +5,24 @@
     "email": "crawfordpatricia@hotmail.com",
     "birthdate": "1969-04-13",
     "phone": "777-857-1618",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        59,
+        6,
+        66,
+        70,
+        0,
+        56,
+        49,
+        73,
+        51,
+        5
+    ],
+    "login locations": [
+        [
+            -118.495905,
+            34.015863
+        ]
+    ],
+    "relationships": []
 }

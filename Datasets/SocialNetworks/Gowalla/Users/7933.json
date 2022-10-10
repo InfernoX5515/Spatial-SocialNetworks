@@ -5,7 +5,12 @@
     "email": "gonzalezwesley@gmail.com",
     "birthdate": "1983-06-15",
     "phone": "(966)381-1851x45684",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.39811,
+            34.063139
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "ericmorgan@hotmail.com",
     "birthdate": "2012-04-21",
     "phone": "242-106-1973",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        17,
+        20,
+        60,
+        51,
+        23,
+        35,
+        75
+    ],
+    "login locations": [
+        [
+            -122.350776,
+            37.776365
+        ]
+    ],
+    "relationships": []
 }

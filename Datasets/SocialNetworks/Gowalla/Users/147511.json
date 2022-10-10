@@ -5,7 +5,16 @@
     "email": "smithseth@yahoo.com",
     "birthdate": "2019-12-11",
     "phone": "+1-070-364-8198x196",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        45,
+        50
+    ],
+    "login locations": [
+        [
+            -117.95308,
+            34.064408
+        ]
+    ],
+    "relationships": []
 }

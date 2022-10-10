@@ -5,7 +5,21 @@
     "email": "jlopez@hotmail.com",
     "birthdate": "2010-07-06",
     "phone": "815.795.0300x8153",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        59,
+        43,
+        24,
+        2,
+        61,
+        13,
+        67
+    ],
+    "login locations": [
+        [
+            -122.45288,
+            37.781731
+        ]
+    ],
+    "relationships": []
 }

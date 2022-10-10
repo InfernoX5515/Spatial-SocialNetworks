@@ -5,7 +5,38 @@
     "email": "paynekristina@gmail.com",
     "birthdate": "1970-03-04",
     "phone": "771-438-9769",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        47,
+        23,
+        25,
+        17,
+        66,
+        71,
+        9,
+        33,
+        64,
+        44,
+        49,
+        8,
+        6
+    ],
+    "login locations": [
+        [
+            -121.977101,
+            37.082005
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                254,
+                0.0625
+            ],
+            [
+                4246,
+                0.0392156862745
+            ]
+        ]
+    ]
 }

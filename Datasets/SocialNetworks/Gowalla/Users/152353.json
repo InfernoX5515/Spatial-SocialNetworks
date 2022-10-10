@@ -5,7 +5,23 @@
     "email": "shelby19@yahoo.com",
     "birthdate": "1964-12-25",
     "phone": "132.254.8859x11270",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        16,
+        8,
+        75,
+        38,
+        75,
+        12,
+        16,
+        47,
+        11
+    ],
+    "login locations": [
+        [
+            -117.099322,
+            32.705953
+        ]
+    ],
+    "relationships": []
 }

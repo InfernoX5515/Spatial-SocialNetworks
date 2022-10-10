@@ -5,7 +5,30 @@
     "email": "dixonjerry@hotmail.com",
     "birthdate": "1989-10-13",
     "phone": "+1-110-695-3386x5453",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        38,
+        74,
+        39,
+        56,
+        68
+    ],
+    "login locations": [
+        [
+            -122.40413,
+            37.775923
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                123,
+                0.015625
+            ],
+            [
+                3585,
+                0.131067961165
+            ]
+        ]
+    ]
 }

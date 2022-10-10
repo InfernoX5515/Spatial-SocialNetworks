@@ -5,7 +5,17 @@
     "email": "riversdeborah@yahoo.com",
     "birthdate": "1928-10-12",
     "phone": "+1-618-907-5848",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        24,
+        65,
+        66
+    ],
+    "login locations": [
+        [
+            -117.179199,
+            32.819613
+        ]
+    ],
+    "relationships": []
 }

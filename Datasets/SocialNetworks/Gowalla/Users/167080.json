@@ -5,7 +5,23 @@
     "email": "cruzkrystal@gmail.com",
     "birthdate": "1917-12-17",
     "phone": "001-860-010-5195x38272",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        30,
+        31,
+        60,
+        52,
+        43,
+        9,
+        6,
+        63,
+        9
+    ],
+    "login locations": [
+        [
+            -122.022958,
+            37.333353
+        ]
+    ],
+    "relationships": []
 }

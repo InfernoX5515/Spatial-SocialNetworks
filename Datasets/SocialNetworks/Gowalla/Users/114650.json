@@ -5,7 +5,20 @@
     "email": "robinpayne@gmail.com",
     "birthdate": "1962-06-04",
     "phone": "860-132-8136x47567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        45,
+        9,
+        19,
+        7,
+        9,
+        29
+    ],
+    "login locations": [
+        [
+            -122.400328,
+            37.776957
+        ]
+    ],
+    "relationships": []
 }

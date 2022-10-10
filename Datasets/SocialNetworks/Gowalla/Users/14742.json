@@ -5,7 +5,12 @@
     "email": "anne91@gmail.com",
     "birthdate": "1942-01-26",
     "phone": "0042930909",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.089414,
+            33.84443
+        ]
+    ],
+    "relationships": []
 }

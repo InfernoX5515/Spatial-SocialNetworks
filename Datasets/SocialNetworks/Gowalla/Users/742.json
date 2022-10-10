@@ -5,7 +5,27 @@
     "email": "eryan@yahoo.com",
     "birthdate": "1970-06-26",
     "phone": "273-882-6786x6390",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        30,
+        51
+    ],
+    "login locations": [
+        [
+            -118.107814,
+            34.057073
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53,
+                0.0146198830409
+            ],
+            [
+                53,
+                0.0146198830409
+            ]
+        ]
+    ]
 }

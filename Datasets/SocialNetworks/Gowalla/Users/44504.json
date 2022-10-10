@@ -5,7 +5,19 @@
     "email": "william28@gmail.com",
     "birthdate": "1991-12-09",
     "phone": "516-424-2355x823",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        6,
+        56,
+        29,
+        61,
+        26
+    ],
+    "login locations": [
+        [
+            -117.621998,
+            34.073829
+        ]
+    ],
+    "relationships": []
 }

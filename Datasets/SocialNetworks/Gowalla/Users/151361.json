@@ -5,7 +5,21 @@
     "email": "hwallace@yahoo.com",
     "birthdate": "1987-09-04",
     "phone": "824-026-8235x2363",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        64,
+        11,
+        44,
+        33,
+        73,
+        44,
+        34
+    ],
+    "login locations": [
+        [
+            -122.422434,
+            37.766712
+        ]
+    ],
+    "relationships": []
 }

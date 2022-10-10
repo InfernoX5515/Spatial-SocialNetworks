@@ -5,7 +5,17 @@
     "email": "ycastillo@gmail.com",
     "birthdate": "1953-04-08",
     "phone": "(737)462-7489x95454",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        55,
+        21,
+        15
+    ],
+    "login locations": [
+        [
+            -122.409643,
+            37.788532
+        ]
+    ],
+    "relationships": []
 }

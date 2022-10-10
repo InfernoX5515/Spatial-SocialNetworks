@@ -5,7 +5,27 @@
     "email": "xlong@hotmail.com",
     "birthdate": "1983-10-05",
     "phone": "+1-967-262-4625",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        38,
+        68
+    ],
+    "login locations": [
+        [
+            -122.398617,
+            37.750961
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10468,
+                0.01
+            ],
+            [
+                10468,
+                0.01
+            ]
+        ]
+    ]
 }

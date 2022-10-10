@@ -5,7 +5,14 @@
     "email": "qphillips@gmail.com",
     "birthdate": "1943-06-10",
     "phone": "956.328.1726",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45
+    ],
+    "login locations": [
+        [
+            -122.425114,
+            37.629409
+        ]
+    ],
+    "relationships": []
 }

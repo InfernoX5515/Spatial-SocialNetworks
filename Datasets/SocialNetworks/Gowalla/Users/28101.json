@@ -5,7 +5,16 @@
     "email": "floydjerry@gmail.com",
     "birthdate": "1988-02-22",
     "phone": "+1-919-326-3292",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        31,
+        60
+    ],
+    "login locations": [
+        [
+            -122.390937,
+            37.794088
+        ]
+    ],
+    "relationships": []
 }

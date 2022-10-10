@@ -5,7 +5,18 @@
     "email": "frank85@hotmail.com",
     "birthdate": "1910-12-14",
     "phone": "749-597-9213x67876",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        2,
+        58,
+        72,
+        1
+    ],
+    "login locations": [
+        [
+            -121.900213,
+            37.30461
+        ]
+    ],
+    "relationships": []
 }

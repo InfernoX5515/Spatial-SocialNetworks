@@ -5,7 +5,15 @@
     "email": "danielramirez@gmail.com",
     "birthdate": "2004-04-21",
     "phone": "+1-700-009-0372x4011",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        57
+    ],
+    "login locations": [
+        [
+            -118.366416,
+            34.127684
+        ]
+    ],
+    "relationships": []
 }

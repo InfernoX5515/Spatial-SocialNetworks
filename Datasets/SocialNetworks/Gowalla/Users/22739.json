@@ -5,7 +5,28 @@
     "email": "john93@gmail.com",
     "birthdate": "1920-09-07",
     "phone": "072-607-4809",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        3,
+        47,
+        67,
+        33,
+        4,
+        15,
+        59,
+        56,
+        24,
+        22,
+        16,
+        13,
+        74,
+        12
+    ],
+    "login locations": [
+        [
+            -118.380265,
+            34.062849
+        ]
+    ],
+    "relationships": []
 }

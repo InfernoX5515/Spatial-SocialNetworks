@@ -5,7 +5,23 @@
     "email": "kimberlystafford@hotmail.com",
     "birthdate": "1918-11-13",
     "phone": "160.650.0906x39227",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        49,
+        52,
+        63,
+        36,
+        15,
+        34,
+        21,
+        14,
+        34
+    ],
+    "login locations": [
+        [
+            -117.114629,
+            32.763839
+        ]
+    ],
+    "relationships": []
 }

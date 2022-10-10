@@ -5,7 +5,27 @@
     "email": "heather45@yahoo.com",
     "birthdate": "1966-06-08",
     "phone": "001-821-570-4336",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        40,
+        19
+    ],
+    "login locations": [
+        [
+            -122.428424,
+            37.773523
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5838,
+                0.0406504065041
+            ],
+            [
+                5838,
+                0.0406504065041
+            ]
+        ]
+    ]
 }

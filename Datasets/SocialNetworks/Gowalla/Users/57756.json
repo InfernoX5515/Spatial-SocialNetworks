@@ -5,7 +5,14 @@
     "email": "carterjeff@yahoo.com",
     "birthdate": "1971-06-22",
     "phone": "001-714-789-6876x0306",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46
+    ],
+    "login locations": [
+        [
+            -117.862328,
+            33.679058
+        ]
+    ],
+    "relationships": []
 }

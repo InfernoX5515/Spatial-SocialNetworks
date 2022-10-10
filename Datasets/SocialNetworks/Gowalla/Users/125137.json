@@ -5,7 +5,12 @@
     "email": "michelle89@gmail.com",
     "birthdate": "1969-06-23",
     "phone": "301-118-5748",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.403545,
+            37.738612
+        ]
+    ],
+    "relationships": []
 }

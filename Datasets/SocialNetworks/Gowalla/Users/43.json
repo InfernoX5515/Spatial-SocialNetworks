@@ -5,7 +5,36 @@
     "email": "chad59@gmail.com",
     "birthdate": "1932-10-23",
     "phone": "801.237.1540x72397",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        42,
+        51,
+        26,
+        28,
+        64,
+        17,
+        53,
+        43,
+        18,
+        10,
+        8
+    ],
+    "login locations": [
+        [
+            -118.43358,
+            34.05282
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5640,
+                0.5
+            ],
+            [
+                5301,
+                0.0833333333333
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "vhayes@gmail.com",
     "birthdate": "1955-08-01",
     "phone": "2254139240",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        21,
+        52,
+        44,
+        21,
+        64,
+        59,
+        28,
+        74,
+        70,
+        58
+    ],
+    "login locations": [
+        [
+            -119.755652,
+            36.855635
+        ]
+    ],
+    "relationships": []
 }

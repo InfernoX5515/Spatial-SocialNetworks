@@ -5,7 +5,12 @@
     "email": "vfry@yahoo.com",
     "birthdate": "1917-12-20",
     "phone": "(841)314-1330x3406",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -119.293333,
+            34.278347
+        ]
+    ],
+    "relationships": []
 }

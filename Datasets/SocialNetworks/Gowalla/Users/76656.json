@@ -5,7 +5,25 @@
     "email": "jessica88@gmail.com",
     "birthdate": "1999-09-15",
     "phone": "369-887-2540",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74
+    ],
+    "login locations": [
+        [
+            -122.429457,
+            37.789538
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159470,
+                0.2
+            ],
+            [
+                159470,
+                0.2
+            ]
+        ]
+    ]
 }

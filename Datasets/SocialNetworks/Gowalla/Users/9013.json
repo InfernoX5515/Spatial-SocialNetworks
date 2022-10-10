@@ -5,7 +5,28 @@
     "email": "bakerdenise@yahoo.com",
     "birthdate": "1960-08-30",
     "phone": "960.474.2789x246",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        50,
+        71,
+        75,
+        35,
+        37,
+        39,
+        33,
+        53,
+        27,
+        15,
+        19,
+        47,
+        67,
+        6
+    ],
+    "login locations": [
+        [
+            -118.367543,
+            33.951492
+        ]
+    ],
+    "relationships": []
 }

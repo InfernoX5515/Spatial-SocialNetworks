@@ -5,7 +5,29 @@
     "email": "bowencharles@gmail.com",
     "birthdate": "2009-06-25",
     "phone": "(101)571-1839x4570",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        0,
+        39,
+        19,
+        50
+    ],
+    "login locations": [
+        [
+            -118.058623,
+            33.869806
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                51424,
+                0.121951219512
+            ],
+            [
+                51424,
+                0.121951219512
+            ]
+        ]
+    ]
 }

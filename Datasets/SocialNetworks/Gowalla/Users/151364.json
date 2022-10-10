@@ -5,7 +5,15 @@
     "email": "moralesmartin@hotmail.com",
     "birthdate": "1935-04-24",
     "phone": "098-937-9958x922",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        22
+    ],
+    "login locations": [
+        [
+            -122.357591,
+            37.768524
+        ]
+    ],
+    "relationships": []
 }

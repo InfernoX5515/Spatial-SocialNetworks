@@ -5,7 +5,22 @@
     "email": "joshuacherry@yahoo.com",
     "birthdate": "2014-08-23",
     "phone": "8023281030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        59,
+        42,
+        75,
+        64,
+        23,
+        19,
+        29,
+        23
+    ],
+    "login locations": [
+        [
+            -118.59078,
+            34.179847
+        ]
+    ],
+    "relationships": []
 }

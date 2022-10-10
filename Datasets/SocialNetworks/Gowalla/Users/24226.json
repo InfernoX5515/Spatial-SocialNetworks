@@ -5,7 +5,18 @@
     "email": "gwilson@yahoo.com",
     "birthdate": "1934-03-04",
     "phone": "0575345737",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        17,
+        34,
+        69,
+        57
+    ],
+    "login locations": [
+        [
+            -122.416241,
+            37.753439
+        ]
+    ],
+    "relationships": []
 }

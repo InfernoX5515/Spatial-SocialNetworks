@@ -5,7 +5,14 @@
     "email": "finleymichael@yahoo.com",
     "birthdate": "2010-03-31",
     "phone": "001-149-917-3761x61969",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34
+    ],
+    "login locations": [
+        [
+            -122.299123,
+            37.806336
+        ]
+    ],
+    "relationships": []
 }

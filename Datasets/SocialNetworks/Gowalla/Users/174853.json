@@ -5,7 +5,20 @@
     "email": "brandyodonnell@yahoo.com",
     "birthdate": "1931-09-30",
     "phone": "728.571.4040x2720",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        3,
+        55,
+        64,
+        31,
+        66,
+        72
+    ],
+    "login locations": [
+        [
+            -122.412822,
+            37.774265
+        ]
+    ],
+    "relationships": []
 }

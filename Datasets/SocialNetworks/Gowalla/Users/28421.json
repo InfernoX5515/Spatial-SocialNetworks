@@ -5,7 +5,22 @@
     "email": "zanderson@hotmail.com",
     "birthdate": "2016-06-17",
     "phone": "001-795-175-4110x7981",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        34,
+        4,
+        42,
+        12,
+        23,
+        8,
+        10,
+        67
+    ],
+    "login locations": [
+        [
+            -120.937224,
+            37.69681
+        ]
+    ],
+    "relationships": []
 }

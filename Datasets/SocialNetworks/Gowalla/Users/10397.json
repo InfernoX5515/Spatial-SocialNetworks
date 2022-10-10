@@ -5,7 +5,38 @@
     "email": "tfranklin@hotmail.com",
     "birthdate": "1985-09-14",
     "phone": "528.889.9864x34214",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        33,
+        17,
+        14,
+        32,
+        56,
+        17,
+        14,
+        11,
+        12,
+        16,
+        20,
+        31,
+        51
+    ],
+    "login locations": [
+        [
+            -122.091432,
+            37.410687
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.01
+            ],
+            [
+                11098,
+                0.0268872802482
+            ]
+        ]
+    ]
 }

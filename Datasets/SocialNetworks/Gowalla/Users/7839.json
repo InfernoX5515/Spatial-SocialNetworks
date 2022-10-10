@@ -5,7 +5,32 @@
     "email": "stevenspaul@hotmail.com",
     "birthdate": "1909-06-02",
     "phone": "001-021-497-5685x722",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        20,
+        13,
+        69,
+        70,
+        26,
+        31,
+        9
+    ],
+    "login locations": [
+        [
+            -122.404749,
+            37.764114
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                4371,
+                0.01
+            ]
+        ]
+    ]
 }

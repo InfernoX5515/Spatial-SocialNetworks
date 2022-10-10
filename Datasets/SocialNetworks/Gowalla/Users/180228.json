@@ -5,7 +5,25 @@
     "email": "johnathan84@hotmail.com",
     "birthdate": "1951-11-18",
     "phone": "097-024-0663",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        72,
+        66,
+        68,
+        45,
+        10,
+        34,
+        14,
+        49,
+        48,
+        23,
+        10
+    ],
+    "login locations": [
+        [
+            -122.37682,
+            37.863417
+        ]
+    ],
+    "relationships": []
 }

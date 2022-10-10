@@ -5,7 +5,21 @@
     "email": "sarah64@yahoo.com",
     "birthdate": "1935-10-22",
     "phone": "001-882-590-3904",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        8,
+        1,
+        56,
+        54,
+        70,
+        24,
+        27
+    ],
+    "login locations": [
+        [
+            -122.447391,
+            37.732371
+        ]
+    ],
+    "relationships": []
 }

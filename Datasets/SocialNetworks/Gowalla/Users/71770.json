@@ -5,7 +5,14 @@
     "email": "stephaniestevenson@yahoo.com",
     "birthdate": "1939-11-16",
     "phone": "+1-548-631-9884x8694",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71
+    ],
+    "login locations": [
+        [
+            -122.352433,
+            37.814611
+        ]
+    ],
+    "relationships": []
 }

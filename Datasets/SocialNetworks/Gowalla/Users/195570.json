@@ -5,7 +5,12 @@
     "email": "jennifer75@gmail.com",
     "birthdate": "1922-02-20",
     "phone": "645.445.4382x5109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.309109,
+            33.920007
+        ]
+    ],
+    "relationships": []
 }

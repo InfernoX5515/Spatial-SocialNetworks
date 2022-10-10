@@ -5,7 +5,39 @@
     "email": "lorijackson@yahoo.com",
     "birthdate": "1918-01-04",
     "phone": "(684)080-5762x651",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        1,
+        34,
+        68,
+        40,
+        72,
+        14,
+        34,
+        11,
+        62,
+        74,
+        7,
+        52,
+        25,
+        51
+    ],
+    "login locations": [
+        [
+            -121.993105,
+            37.31779
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.021897810219
+            ],
+            [
+                126,
+                0.0119863013699
+            ]
+        ]
+    ]
 }

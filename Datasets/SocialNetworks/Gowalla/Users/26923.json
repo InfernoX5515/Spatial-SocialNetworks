@@ -5,7 +5,21 @@
     "email": "qmiller@hotmail.com",
     "birthdate": "1926-10-28",
     "phone": "+1-320-916-8513x1802",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        75,
+        19,
+        50,
+        65,
+        29,
+        65,
+        12
+    ],
+    "login locations": [
+        [
+            -118.206059,
+            34.09131
+        ]
+    ],
+    "relationships": []
 }

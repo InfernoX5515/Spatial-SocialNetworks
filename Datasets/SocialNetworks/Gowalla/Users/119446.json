@@ -5,7 +5,21 @@
     "email": "sotokevin@gmail.com",
     "birthdate": "1924-06-04",
     "phone": "(143)724-7768",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        72,
+        72,
+        29,
+        30,
+        28,
+        15,
+        56
+    ],
+    "login locations": [
+        [
+            -117.236623,
+            33.106188
+        ]
+    ],
+    "relationships": []
 }

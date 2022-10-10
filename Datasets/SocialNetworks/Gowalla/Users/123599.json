@@ -5,7 +5,22 @@
     "email": "annayoung@hotmail.com",
     "birthdate": "1931-12-20",
     "phone": "(710)698-3415x8653",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        64,
+        44,
+        18,
+        16,
+        8,
+        36,
+        0,
+        68
+    ],
+    "login locations": [
+        [
+            -118.362423,
+            33.934005
+        ]
+    ],
+    "relationships": []
 }

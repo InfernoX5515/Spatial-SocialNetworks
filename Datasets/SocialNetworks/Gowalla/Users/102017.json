@@ -5,7 +5,23 @@
     "email": "martinkurt@yahoo.com",
     "birthdate": "1958-08-06",
     "phone": "622-909-4842x77438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        45,
+        2,
+        54,
+        0,
+        53,
+        72,
+        12,
+        45,
+        7
+    ],
+    "login locations": [
+        [
+            -118.351437,
+            34.090325
+        ]
+    ],
+    "relationships": []
 }

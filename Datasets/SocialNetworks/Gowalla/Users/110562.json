@@ -5,7 +5,19 @@
     "email": "garrettmatthew@gmail.com",
     "birthdate": "1995-01-27",
     "phone": "295.801.1716",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        39,
+        48,
+        54,
+        70,
+        6
+    ],
+    "login locations": [
+        [
+            -121.961457,
+            37.718233
+        ]
+    ],
+    "relationships": []
 }

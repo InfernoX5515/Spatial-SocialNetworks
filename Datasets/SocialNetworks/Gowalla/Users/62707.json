@@ -5,7 +5,27 @@
     "email": "jeffrey80@hotmail.com",
     "birthdate": "1943-05-05",
     "phone": "395-910-7137",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        10,
+        44,
+        10,
+        67,
+        41,
+        24,
+        53,
+        18,
+        27,
+        48,
+        0,
+        43,
+        10
+    ],
+    "login locations": [
+        [
+            -122.386425,
+            37.675131
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "kathleen29@yahoo.com",
     "birthdate": "1960-04-11",
     "phone": "(638)984-9716",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        10,
+        38,
+        74,
+        15,
+        69,
+        65,
+        23
+    ],
+    "login locations": [
+        [
+            -122.398212,
+            37.769077
+        ]
+    ],
+    "relationships": []
 }

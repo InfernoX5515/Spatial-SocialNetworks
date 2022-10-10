@@ -5,7 +5,35 @@
     "email": "bfox@yahoo.com",
     "birthdate": "1935-05-29",
     "phone": "(683)494-1133x76984",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        70,
+        73,
+        61,
+        15,
+        64,
+        41,
+        47,
+        5,
+        45,
+        43
+    ],
+    "login locations": [
+        [
+            -122.343249,
+            37.587161
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.01
+            ],
+            [
+                159,
+                0.01
+            ]
+        ]
+    ]
 }

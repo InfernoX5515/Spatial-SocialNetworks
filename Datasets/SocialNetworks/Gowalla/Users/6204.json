@@ -5,7 +5,22 @@
     "email": "jamesdonna@gmail.com",
     "birthdate": "1985-07-29",
     "phone": "807.842.3837x5461",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        69,
+        72,
+        11,
+        53,
+        28,
+        21,
+        5,
+        5
+    ],
+    "login locations": [
+        [
+            -122.386624,
+            37.650595
+        ]
+    ],
+    "relationships": []
 }

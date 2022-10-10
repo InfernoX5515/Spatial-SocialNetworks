@@ -5,7 +5,27 @@
     "email": "josephpineda@yahoo.com",
     "birthdate": "1978-02-20",
     "phone": "(529)031-8424x6024",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        32,
+        24,
+        73,
+        21,
+        36,
+        3,
+        75,
+        58,
+        41,
+        52,
+        60,
+        16,
+        72
+    ],
+    "login locations": [
+        [
+            -118.331151,
+            33.975898
+        ]
+    ],
+    "relationships": []
 }

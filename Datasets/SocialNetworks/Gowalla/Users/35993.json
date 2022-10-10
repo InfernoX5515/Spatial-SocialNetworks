@@ -5,7 +5,23 @@
     "email": "tsimpson@gmail.com",
     "birthdate": "1933-08-28",
     "phone": "305-074-8970x93269",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        35,
+        68,
+        41,
+        64,
+        37,
+        7,
+        59,
+        65,
+        20
+    ],
+    "login locations": [
+        [
+            -122.183155,
+            37.868814
+        ]
+    ],
+    "relationships": []
 }

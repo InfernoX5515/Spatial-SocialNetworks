@@ -5,7 +5,23 @@
     "email": "suttonaustin@gmail.com",
     "birthdate": "1960-07-16",
     "phone": "001-338-870-5722x6057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        48,
+        1,
+        58,
+        62,
+        26,
+        53,
+        68,
+        11,
+        37
+    ],
+    "login locations": [
+        [
+            -122.300894,
+            37.664982
+        ]
+    ],
+    "relationships": []
 }

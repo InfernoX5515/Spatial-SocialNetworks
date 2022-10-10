@@ -5,7 +5,32 @@
     "email": "omarhampton@gmail.com",
     "birthdate": "1919-01-22",
     "phone": "+1-411-000-8974x4046",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        11,
+        13,
+        32,
+        62,
+        65,
+        7,
+        49
+    ],
+    "login locations": [
+        [
+            -117.890596,
+            33.761478
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                183539,
+                1.0
+            ],
+            [
+                183539,
+                1.0
+            ]
+        ]
+    ]
 }

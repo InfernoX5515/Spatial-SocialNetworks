@@ -5,7 +5,17 @@
     "email": "haleyjacob@gmail.com",
     "birthdate": "1984-08-27",
     "phone": "+1-354-182-3784x06440",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        59,
+        0,
+        47
+    ],
+    "login locations": [
+        [
+            -122.411595,
+            37.781358
+        ]
+    ],
+    "relationships": []
 }

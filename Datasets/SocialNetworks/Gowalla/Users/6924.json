@@ -5,7 +5,25 @@
     "email": "howardlisa@gmail.com",
     "birthdate": "1919-09-10",
     "phone": "(072)420-9793",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19
+    ],
+    "login locations": [
+        [
+            -117.24142,
+            32.775539
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6767,
+                0.02
+            ],
+            [
+                8681,
+                0.0121739130435
+            ]
+        ]
+    ]
 }

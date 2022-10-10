@@ -5,7 +5,16 @@
     "email": "ecervantes@yahoo.com",
     "birthdate": "1919-09-26",
     "phone": "937-374-0977",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        27,
+        41
+    ],
+    "login locations": [
+        [
+            -122.516512,
+            37.917522
+        ]
+    ],
+    "relationships": []
 }

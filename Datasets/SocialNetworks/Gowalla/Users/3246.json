@@ -5,7 +5,30 @@
     "email": "stephanie21@yahoo.com",
     "birthdate": "1999-09-10",
     "phone": "001-409-636-9011",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        69,
+        8,
+        51,
+        42,
+        0
+    ],
+    "login locations": [
+        [
+            -118.223497,
+            34.086421
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                41070,
+                0.108235294118
+            ],
+            [
+                41070,
+                0.108235294118
+            ]
+        ]
+    ]
 }

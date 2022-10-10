@@ -5,7 +5,28 @@
     "email": "phart@yahoo.com",
     "birthdate": "1954-11-30",
     "phone": "001-304-312-8226x678",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        48,
+        75,
+        37
+    ],
+    "login locations": [
+        [
+            -118.166814,
+            34.006552
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                117010,
+                0.0151515151515
+            ],
+            [
+                117010,
+                0.0151515151515
+            ]
+        ]
+    ]
 }

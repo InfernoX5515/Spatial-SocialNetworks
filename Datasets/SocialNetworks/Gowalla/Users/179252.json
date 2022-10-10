@@ -5,7 +5,27 @@
     "email": "lesterdanielle@yahoo.com",
     "birthdate": "2000-07-05",
     "phone": "001-281-483-2201x136",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        27,
+        2
+    ],
+    "login locations": [
+        [
+            -117.850857,
+            33.702019
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118155,
+                0.328859060403
+            ],
+            [
+                118155,
+                0.328859060403
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,17 @@
     "email": "debra09@gmail.com",
     "birthdate": "1944-02-22",
     "phone": "(421)040-4596",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        27,
+        74,
+        9
+    ],
+    "login locations": [
+        [
+            -122.389095,
+            37.786223
+        ]
+    ],
+    "relationships": []
 }

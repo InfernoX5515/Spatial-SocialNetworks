@@ -5,7 +5,25 @@
     "email": "davismiranda@hotmail.com",
     "birthdate": "1922-09-20",
     "phone": "370.036.6031x1128",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        60,
+        2,
+        43,
+        18,
+        67,
+        59,
+        20,
+        66,
+        28,
+        48,
+        53
+    ],
+    "login locations": [
+        [
+            -118.947837,
+            35.395713
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "eruiz@hotmail.com",
     "birthdate": "1974-01-21",
     "phone": "8361507333",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        18,
+        32,
+        1,
+        75
+    ],
+    "login locations": [
+        [
+            -121.907254,
+            37.345154
+        ]
+    ],
+    "relationships": []
 }

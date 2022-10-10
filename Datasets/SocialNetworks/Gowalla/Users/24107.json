@@ -5,7 +5,23 @@
     "email": "heather33@hotmail.com",
     "birthdate": "1911-11-02",
     "phone": "(627)004-2066x81520",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.323225,
+            37.78191
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                331,
+                0.0833333333333
+            ],
+            [
+                3005,
+                0.01
+            ]
+        ]
+    ]
 }

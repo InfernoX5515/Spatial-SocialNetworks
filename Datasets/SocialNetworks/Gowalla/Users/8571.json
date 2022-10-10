@@ -5,7 +5,27 @@
     "email": "kjohnson@hotmail.com",
     "birthdate": "1917-11-10",
     "phone": "(641)216-8613x29966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        23,
+        73,
+        29,
+        28,
+        74,
+        4,
+        65,
+        33,
+        75,
+        54,
+        21,
+        39,
+        28
+    ],
+    "login locations": [
+        [
+            -122.397529,
+            37.731199
+        ]
+    ],
+    "relationships": []
 }

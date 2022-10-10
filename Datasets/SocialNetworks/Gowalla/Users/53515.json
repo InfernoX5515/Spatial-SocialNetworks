@@ -5,7 +5,23 @@
     "email": "jday@gmail.com",
     "birthdate": "1996-03-10",
     "phone": "120-898-1243x586",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        18,
+        32,
+        53,
+        67,
+        55,
+        41,
+        39,
+        49,
+        69
+    ],
+    "login locations": [
+        [
+            -118.284969,
+            34.00311
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "fred97@hotmail.com",
     "birthdate": "1994-12-21",
     "phone": "(632)956-1633",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.405148,
+            37.76094
+        ]
+    ],
+    "relationships": []
 }

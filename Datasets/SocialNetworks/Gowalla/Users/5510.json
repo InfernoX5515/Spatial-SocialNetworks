@@ -5,7 +5,27 @@
     "email": "leejason@gmail.com",
     "birthdate": "1915-04-19",
     "phone": "(074)676-8765x247",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        31,
+        24
+    ],
+    "login locations": [
+        [
+            -118.323369,
+            34.056107
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                25220,
+                0.08
+            ],
+            [
+                25220,
+                0.08
+            ]
+        ]
+    ]
 }

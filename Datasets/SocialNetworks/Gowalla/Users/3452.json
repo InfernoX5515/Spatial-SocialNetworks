@@ -5,7 +5,20 @@
     "email": "ysmith@gmail.com",
     "birthdate": "1947-08-19",
     "phone": "001-578-220-4245x03036",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        45,
+        7,
+        45,
+        64,
+        7,
+        23
+    ],
+    "login locations": [
+        [
+            -117.901049,
+            33.760019
+        ]
+    ],
+    "relationships": []
 }

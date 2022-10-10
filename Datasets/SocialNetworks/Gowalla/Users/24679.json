@@ -5,7 +5,19 @@
     "email": "flewis@gmail.com",
     "birthdate": "1963-11-24",
     "phone": "512-835-1115",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        71,
+        34,
+        62,
+        7,
+        23
+    ],
+    "login locations": [
+        [
+            -120.212849,
+            39.20564
+        ]
+    ],
+    "relationships": []
 }

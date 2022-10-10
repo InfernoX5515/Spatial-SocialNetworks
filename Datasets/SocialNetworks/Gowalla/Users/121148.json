@@ -5,7 +5,37 @@
     "email": "sjackson@hotmail.com",
     "birthdate": "1949-12-06",
     "phone": "(701)909-1137x30868",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        59,
+        49,
+        28,
+        63,
+        35,
+        26,
+        9,
+        29,
+        37,
+        18,
+        3,
+        37
+    ],
+    "login locations": [
+        [
+            -122.043046,
+            37.617047
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                28712,
+                0.030303030303
+            ],
+            [
+                28712,
+                0.030303030303
+            ]
+        ]
+    ]
 }

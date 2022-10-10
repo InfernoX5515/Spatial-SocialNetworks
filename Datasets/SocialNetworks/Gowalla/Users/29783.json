@@ -5,7 +5,15 @@
     "email": "jon87@gmail.com",
     "birthdate": "2016-12-22",
     "phone": "047.053.0538x27863",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        7
+    ],
+    "login locations": [
+        [
+            -118.416822,
+            33.966712
+        ]
+    ],
+    "relationships": []
 }

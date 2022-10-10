@@ -5,7 +5,27 @@
     "email": "ashley08@hotmail.com",
     "birthdate": "1985-06-25",
     "phone": "236-347-2818",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        14,
+        12
+    ],
+    "login locations": [
+        [
+            -121.999303,
+            37.221254
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.043795620438
+            ],
+            [
+                82,
+                0.0133928571429
+            ]
+        ]
+    ]
 }

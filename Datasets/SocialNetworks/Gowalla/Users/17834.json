@@ -5,7 +5,35 @@
     "email": "hughesseth@gmail.com",
     "birthdate": "2001-03-01",
     "phone": "001-441-688-7717x855",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        51,
+        51,
+        20,
+        65,
+        72,
+        25,
+        18,
+        60,
+        18,
+        2
+    ],
+    "login locations": [
+        [
+            -122.276239,
+            37.795033
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2233,
+                0.0320855614973
+            ],
+            [
+                2233,
+                0.0320855614973
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "rebecca25@yahoo.com",
     "birthdate": "1936-02-11",
     "phone": "001-206-189-9796x18810",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        71,
+        46,
+        35,
+        42,
+        32,
+        24,
+        73,
+        64,
+        70,
+        65,
+        44,
+        56,
+        71
+    ],
+    "login locations": [
+        [
+            -121.951281,
+            36.936239
+        ]
+    ],
+    "relationships": []
 }

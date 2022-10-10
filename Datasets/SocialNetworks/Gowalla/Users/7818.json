@@ -5,7 +5,27 @@
     "email": "hwilliams@gmail.com",
     "birthdate": "1968-06-12",
     "phone": "(610)472-7185x767",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        42,
+        51,
+        22,
+        61,
+        31,
+        14,
+        0,
+        35,
+        9,
+        16,
+        42,
+        70,
+        13
+    ],
+    "login locations": [
+        [
+            -121.928907,
+            37.360877
+        ]
+    ],
+    "relationships": []
 }

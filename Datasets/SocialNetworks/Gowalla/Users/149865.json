@@ -5,7 +5,23 @@
     "email": "landerson@yahoo.com",
     "birthdate": "1956-03-20",
     "phone": "(362)544-0617",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        18,
+        65,
+        50,
+        74,
+        62,
+        67,
+        11,
+        9,
+        0
+    ],
+    "login locations": [
+        [
+            -117.258389,
+            32.983385
+        ]
+    ],
+    "relationships": []
 }

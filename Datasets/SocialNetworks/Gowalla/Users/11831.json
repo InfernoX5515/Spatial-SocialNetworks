@@ -5,7 +5,31 @@
     "email": "griffithantonio@gmail.com",
     "birthdate": "1995-10-01",
     "phone": "756.057.5206",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        68,
+        38,
+        9,
+        18,
+        14,
+        35
+    ],
+    "login locations": [
+        [
+            -122.418102,
+            37.774199
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11840,
+                0.04
+            ],
+            [
+                11840,
+                0.04
+            ]
+        ]
+    ]
 }

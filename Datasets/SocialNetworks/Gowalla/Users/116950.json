@@ -5,7 +5,39 @@
     "email": "lisayork@hotmail.com",
     "birthdate": "1928-01-29",
     "phone": "(761)848-2674x170",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        38,
+        45,
+        17,
+        33,
+        43,
+        46,
+        66,
+        45,
+        14,
+        49,
+        38,
+        6,
+        2,
+        20
+    ],
+    "login locations": [
+        [
+            -122.232733,
+            37.468267
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                24897,
+                0.08
+            ],
+            [
+                24897,
+                0.08
+            ]
+        ]
+    ]
 }

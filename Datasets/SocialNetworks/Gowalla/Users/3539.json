@@ -5,7 +5,23 @@
     "email": "diazdaniel@gmail.com",
     "birthdate": "1996-12-29",
     "phone": "+1-568-326-3129x778",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.424555,
+            37.766793
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                235,
+                0.181294964029
+            ],
+            [
+                3529,
+                0.220064724919
+            ]
+        ]
+    ]
 }

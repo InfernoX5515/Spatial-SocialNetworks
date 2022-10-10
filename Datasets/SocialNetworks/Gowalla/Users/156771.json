@@ -5,7 +5,19 @@
     "email": "johnmorgan@hotmail.com",
     "birthdate": "2003-04-03",
     "phone": "001-714-545-9775x75032",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        12,
+        4,
+        43,
+        3,
+        2
+    ],
+    "login locations": [
+        [
+            -121.264077,
+            38.830704
+        ]
+    ],
+    "relationships": []
 }

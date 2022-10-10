@@ -5,7 +5,14 @@
     "email": "whiteheadbrooke@yahoo.com",
     "birthdate": "2007-09-25",
     "phone": "581.457.4685x9949",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69
+    ],
+    "login locations": [
+        [
+            -122.405497,
+            37.758746
+        ]
+    ],
+    "relationships": []
 }

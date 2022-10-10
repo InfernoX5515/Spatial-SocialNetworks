@@ -5,7 +5,20 @@
     "email": "joshuaclark@hotmail.com",
     "birthdate": "1926-02-08",
     "phone": "+1-854-190-7858x79589",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        35,
+        33,
+        12,
+        35,
+        25,
+        25
+    ],
+    "login locations": [
+        [
+            -122.445161,
+            37.784495
+        ]
+    ],
+    "relationships": []
 }

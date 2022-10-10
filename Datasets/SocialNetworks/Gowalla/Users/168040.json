@@ -5,7 +5,12 @@
     "email": "eric09@hotmail.com",
     "birthdate": "1930-10-27",
     "phone": "+1-386-555-2078x4773",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.046458,
+            34.058003
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "miguel71@yahoo.com",
     "birthdate": "1969-07-14",
     "phone": "+1-549-901-9470x47249",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        20,
+        5,
+        33,
+        48,
+        10,
+        72,
+        75,
+        28,
+        31,
+        14,
+        23
+    ],
+    "login locations": [
+        [
+            -118.560986,
+            34.432186
+        ]
+    ],
+    "relationships": []
 }

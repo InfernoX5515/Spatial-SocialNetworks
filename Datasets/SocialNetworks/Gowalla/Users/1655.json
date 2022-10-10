@@ -5,7 +5,25 @@
     "email": "lcordova@hotmail.com",
     "birthdate": "1946-02-05",
     "phone": "675.903.6494x6114",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69
+    ],
+    "login locations": [
+        [
+            -117.894105,
+            33.915893
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                276,
+                0.0126582278481
+            ],
+            [
+                276,
+                0.0126582278481
+            ]
+        ]
+    ]
 }

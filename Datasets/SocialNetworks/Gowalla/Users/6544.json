@@ -5,7 +5,27 @@
     "email": "jorge25@hotmail.com",
     "birthdate": "1921-07-18",
     "phone": "657-388-7259x5200",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        11,
+        58,
+        59,
+        51,
+        33,
+        31,
+        48,
+        67,
+        16,
+        64,
+        7,
+        56,
+        46
+    ],
+    "login locations": [
+        [
+            -122.428528,
+            37.779951
+        ]
+    ],
+    "relationships": []
 }

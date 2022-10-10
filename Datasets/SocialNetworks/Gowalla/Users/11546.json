@@ -5,7 +5,15 @@
     "email": "oingram@gmail.com",
     "birthdate": "1918-09-07",
     "phone": "979-332-1292x35302",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        13
+    ],
+    "login locations": [
+        [
+            -122.315677,
+            37.548479
+        ]
+    ],
+    "relationships": []
 }

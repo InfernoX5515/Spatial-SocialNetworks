@@ -5,7 +5,18 @@
     "email": "jonesmichael@hotmail.com",
     "birthdate": "1966-02-07",
     "phone": "+1-968-675-9230",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        29,
+        19,
+        26,
+        22
+    ],
+    "login locations": [
+        [
+            -118.340507,
+            34.077265
+        ]
+    ],
+    "relationships": []
 }

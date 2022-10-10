@@ -5,7 +5,12 @@
     "email": "hudsonkathleen@gmail.com",
     "birthdate": "2021-07-15",
     "phone": "583.829.2122x3420",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.723029,
+            33.70889
+        ]
+    ],
+    "relationships": []
 }

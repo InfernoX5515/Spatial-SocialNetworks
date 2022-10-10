@@ -5,7 +5,18 @@
     "email": "nicole74@yahoo.com",
     "birthdate": "2017-10-25",
     "phone": "001-288-9486",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        58,
+        39,
+        10,
+        10
+    ],
+    "login locations": [
+        [
+            -116.534617,
+            33.818387
+        ]
+    ],
+    "relationships": []
 }

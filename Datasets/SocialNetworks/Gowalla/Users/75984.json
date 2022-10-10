@@ -5,7 +5,18 @@
     "email": "jenniferprince@gmail.com",
     "birthdate": "1966-07-10",
     "phone": "353.854.1036",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        7,
+        28,
+        54,
+        18
+    ],
+    "login locations": [
+        [
+            -122.466254,
+            37.763449
+        ]
+    ],
+    "relationships": []
 }

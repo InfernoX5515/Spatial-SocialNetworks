@@ -5,7 +5,25 @@
     "email": "perryrenee@yahoo.com",
     "birthdate": "2011-05-01",
     "phone": "(429)837-3455x88818",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        27,
+        62,
+        50,
+        58,
+        37,
+        31,
+        57,
+        1,
+        40,
+        29,
+        61
+    ],
+    "login locations": [
+        [
+            -122.22531,
+            37.785883
+        ]
+    ],
+    "relationships": []
 }

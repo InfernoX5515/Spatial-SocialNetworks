@@ -5,7 +5,24 @@
     "email": "fnolan@yahoo.com",
     "birthdate": "1954-06-28",
     "phone": "100.371.1055",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        21,
+        49,
+        58,
+        71,
+        53,
+        50,
+        47,
+        74,
+        57,
+        53
+    ],
+    "login locations": [
+        [
+            -118.284678,
+            34.048389
+        ]
+    ],
+    "relationships": []
 }

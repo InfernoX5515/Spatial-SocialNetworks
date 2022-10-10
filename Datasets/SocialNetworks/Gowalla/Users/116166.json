@@ -5,7 +5,12 @@
     "email": "colezachary@hotmail.com",
     "birthdate": "1964-07-31",
     "phone": "883-241-8679x0186",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.140936,
+            37.408075
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "qharris@hotmail.com",
     "birthdate": "1916-04-28",
     "phone": "+1-224-168-0195",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        14,
+        31,
+        53,
+        8,
+        47,
+        52,
+        39,
+        72,
+        32,
+        17
+    ],
+    "login locations": [
+        [
+            -121.552758,
+            38.558202
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "zlarson@yahoo.com",
     "birthdate": "1949-10-22",
     "phone": "450-051-2351",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        4,
+        67,
+        2,
+        40,
+        9,
+        7,
+        38,
+        69,
+        55,
+        72,
+        16,
+        56,
+        12,
+        6
+    ],
+    "login locations": [
+        [
+            -118.797484,
+            34.24434
+        ]
+    ],
+    "relationships": []
 }

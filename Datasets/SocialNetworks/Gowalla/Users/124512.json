@@ -5,7 +5,23 @@
     "email": "rebeccavillarreal@yahoo.com",
     "birthdate": "1999-07-07",
     "phone": "(452)294-1489x74560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.165031,
+            32.732519
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                124510,
+                0.0763358778626
+            ],
+            [
+                124513,
+                0.0544554455446
+            ]
+        ]
+    ]
 }

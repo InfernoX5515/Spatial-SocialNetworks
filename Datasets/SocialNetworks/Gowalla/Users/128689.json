@@ -5,7 +5,18 @@
     "email": "johnathan20@yahoo.com",
     "birthdate": "2014-03-08",
     "phone": "550.043.8036x98248",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        11,
+        30,
+        7,
+        22
+    ],
+    "login locations": [
+        [
+            -122.290887,
+            37.82339
+        ]
+    ],
+    "relationships": []
 }

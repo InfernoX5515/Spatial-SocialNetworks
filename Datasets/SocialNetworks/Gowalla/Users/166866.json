@@ -5,7 +5,17 @@
     "email": "smithwilliam@hotmail.com",
     "birthdate": "1980-12-03",
     "phone": "938-728-9825x8594",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        67,
+        13,
+        72
+    ],
+    "login locations": [
+        [
+            -118.487848,
+            34.02651
+        ]
+    ],
+    "relationships": []
 }

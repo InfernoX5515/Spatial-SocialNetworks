@@ -5,7 +5,16 @@
     "email": "stantonemily@yahoo.com",
     "birthdate": "1928-11-06",
     "phone": "(714)085-3062x611",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        69,
+        41
+    ],
+    "login locations": [
+        [
+            -117.941046,
+            33.643074
+        ]
+    ],
+    "relationships": []
 }

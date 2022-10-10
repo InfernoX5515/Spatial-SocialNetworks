@@ -5,7 +5,28 @@
     "email": "kathy46@hotmail.com",
     "birthdate": "1971-10-27",
     "phone": "399.592.2695",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        30,
+        72,
+        10,
+        12,
+        16,
+        5,
+        3,
+        11,
+        53,
+        53,
+        1,
+        68,
+        66,
+        36
+    ],
+    "login locations": [
+        [
+            -122.431132,
+            37.766111
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,32 @@
     "email": "mckeejessica@hotmail.com",
     "birthdate": "1991-07-04",
     "phone": "451-723-7200",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        0,
+        38,
+        46,
+        22,
+        37,
+        39,
+        66
+    ],
+    "login locations": [
+        [
+            -122.351975,
+            37.819625
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                182,
+                0.0869565217391
+            ],
+            [
+                831,
+                0.01
+            ]
+        ]
+    ]
 }

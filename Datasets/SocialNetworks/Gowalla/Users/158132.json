@@ -5,7 +5,17 @@
     "email": "jillbutler@yahoo.com",
     "birthdate": "2009-08-22",
     "phone": "(967)748-1601",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        21,
+        37,
+        41
+    ],
+    "login locations": [
+        [
+            -117.934146,
+            33.826251
+        ]
+    ],
+    "relationships": []
 }

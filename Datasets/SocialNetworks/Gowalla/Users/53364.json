@@ -5,7 +5,14 @@
     "email": "cynthia48@yahoo.com",
     "birthdate": "2002-01-26",
     "phone": "486.050.8216",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60
+    ],
+    "login locations": [
+        [
+            -117.039233,
+            32.656992
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "lindseymarks@hotmail.com",
     "birthdate": "1958-04-21",
     "phone": "967.425.2743x5165",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        20,
+        27,
+        63,
+        69,
+        38,
+        60,
+        61,
+        43
+    ],
+    "login locations": [
+        [
+            -122.160104,
+            37.444005
+        ]
+    ],
+    "relationships": []
 }

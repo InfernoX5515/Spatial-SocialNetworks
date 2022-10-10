@@ -5,7 +5,21 @@
     "email": "johnhernandez@yahoo.com",
     "birthdate": "1969-08-29",
     "phone": "(107)107-6592x7286",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        15,
+        50,
+        74,
+        11,
+        29,
+        10,
+        63
+    ],
+    "login locations": [
+        [
+            -118.118694,
+            34.064908
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,39 @@
     "email": "hwilson@gmail.com",
     "birthdate": "1941-09-02",
     "phone": "(054)824-6383",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        12,
+        54,
+        56,
+        40,
+        30,
+        72,
+        11,
+        30,
+        37,
+        33,
+        54,
+        9,
+        38,
+        59
+    ],
+    "login locations": [
+        [
+            -122.403156,
+            37.795364
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1658,
+                0.0133333333333
+            ],
+            [
+                1658,
+                0.0512820512821
+            ]
+        ]
+    ]
 }

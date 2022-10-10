@@ -5,7 +5,22 @@
     "email": "greenelinda@gmail.com",
     "birthdate": "1925-04-22",
     "phone": "001-513-256-0078x19185",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        73,
+        26,
+        33,
+        36,
+        46,
+        40,
+        9,
+        59
+    ],
+    "login locations": [
+        [
+            -118.318232,
+            34.035059
+        ]
+    ],
+    "relationships": []
 }

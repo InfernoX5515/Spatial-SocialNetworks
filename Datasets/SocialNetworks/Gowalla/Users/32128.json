@@ -5,7 +5,28 @@
     "email": "gmartin@yahoo.com",
     "birthdate": "1976-04-11",
     "phone": "448-289-6711x5619",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        20,
+        47,
+        42,
+        10,
+        34,
+        38,
+        11,
+        37,
+        13,
+        23,
+        63,
+        38,
+        23,
+        56
+    ],
+    "login locations": [
+        [
+            -122.418979,
+            37.75486
+        ]
+    ],
+    "relationships": []
 }

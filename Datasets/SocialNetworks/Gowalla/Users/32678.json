@@ -5,7 +5,23 @@
     "email": "slang@hotmail.com",
     "birthdate": "1925-08-27",
     "phone": "(067)878-6189x96128",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.988742,
+            37.787735
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2287,
+                0.01
+            ],
+            [
+                2287,
+                0.01
+            ]
+        ]
+    ]
 }

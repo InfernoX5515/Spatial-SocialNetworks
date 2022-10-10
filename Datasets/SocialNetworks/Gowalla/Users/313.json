@@ -5,7 +5,27 @@
     "email": "juarezkevin@yahoo.com",
     "birthdate": "1962-02-18",
     "phone": "434.869.1158",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        57,
+        20
+    ],
+    "login locations": [
+        [
+            -122.122215,
+            37.427618
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                23512,
+                0.04
+            ],
+            [
+                484,
+                0.0672514619883
+            ]
+        ]
+    ]
 }

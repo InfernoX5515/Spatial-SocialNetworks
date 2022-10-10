@@ -5,7 +5,12 @@
     "email": "gloria14@hotmail.com",
     "birthdate": "1979-09-27",
     "phone": "148-377-5165x7594",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.296186,
+            37.831843
+        ]
+    ],
+    "relationships": []
 }

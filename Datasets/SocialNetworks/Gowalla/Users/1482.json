@@ -5,7 +5,17 @@
     "email": "brownmarissa@gmail.com",
     "birthdate": "1958-02-15",
     "phone": "+1-736-334-7223x69356",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        18,
+        68,
+        10
+    ],
+    "login locations": [
+        [
+            -118.404154,
+            33.955481
+        ]
+    ],
+    "relationships": []
 }

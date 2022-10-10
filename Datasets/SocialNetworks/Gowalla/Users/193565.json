@@ -5,7 +5,18 @@
     "email": "njames@gmail.com",
     "birthdate": "1956-11-11",
     "phone": "230-392-6623x724",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        63,
+        42,
+        13,
+        10
+    ],
+    "login locations": [
+        [
+            -122.024116,
+            37.342806
+        ]
+    ],
+    "relationships": []
 }

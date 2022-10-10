@@ -5,7 +5,34 @@
     "email": "pschmidt@hotmail.com",
     "birthdate": "1957-06-02",
     "phone": "(289)558-8918",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        2,
+        19,
+        7,
+        1,
+        58,
+        71,
+        52,
+        31,
+        30
+    ],
+    "login locations": [
+        [
+            -122.405626,
+            37.78071
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                777,
+                0.01
+            ],
+            [
+                24500,
+                0.428571428571
+            ]
+        ]
+    ]
 }

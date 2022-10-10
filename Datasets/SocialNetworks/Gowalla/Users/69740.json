@@ -5,7 +5,27 @@
     "email": "santiagobrian@hotmail.com",
     "birthdate": "1927-06-11",
     "phone": "(665)783-9944x27045",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        37,
+        50,
+        22,
+        32,
+        36,
+        50,
+        22,
+        73,
+        69,
+        8,
+        41,
+        9,
+        16
+    ],
+    "login locations": [
+        [
+            -122.392304,
+            37.743436
+        ]
+    ],
+    "relationships": []
 }

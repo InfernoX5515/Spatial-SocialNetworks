@@ -5,7 +5,18 @@
     "email": "lindasherman@yahoo.com",
     "birthdate": "1918-06-15",
     "phone": "001-723-424-9289x381",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        4,
+        64,
+        25,
+        56
+    ],
+    "login locations": [
+        [
+            -122.103382,
+            37.408667
+        ]
+    ],
+    "relationships": []
 }

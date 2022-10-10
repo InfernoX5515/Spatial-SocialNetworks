@@ -5,7 +5,12 @@
     "email": "jessica48@gmail.com",
     "birthdate": "1971-04-25",
     "phone": "(784)673-7206x3120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.8873,
+            37.307854
+        ]
+    ],
+    "relationships": []
 }

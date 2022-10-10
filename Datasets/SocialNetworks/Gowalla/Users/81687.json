@@ -5,7 +5,24 @@
     "email": "thompsonrebecca@gmail.com",
     "birthdate": "1970-08-14",
     "phone": "090.786.0841x905",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        59,
+        24,
+        39,
+        11,
+        35,
+        74,
+        55,
+        11,
+        72,
+        38
+    ],
+    "login locations": [
+        [
+            -122.16326,
+            37.423306
+        ]
+    ],
+    "relationships": []
 }

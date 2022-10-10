@@ -5,7 +5,26 @@
     "email": "andrea06@yahoo.com",
     "birthdate": "1943-05-05",
     "phone": "(864)279-8832",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        75
+    ],
+    "login locations": [
+        [
+            -118.321881,
+            34.097158
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1549,
+                0.0113636363636
+            ],
+            [
+                1549,
+                0.0113636363636
+            ]
+        ]
+    ]
 }

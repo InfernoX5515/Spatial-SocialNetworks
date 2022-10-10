@@ -5,7 +5,18 @@
     "email": "russell49@hotmail.com",
     "birthdate": "1956-10-18",
     "phone": "(722)431-7162x558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        18,
+        70,
+        21,
+        15
+    ],
+    "login locations": [
+        [
+            -121.914632,
+            37.304666
+        ]
+    ],
+    "relationships": []
 }

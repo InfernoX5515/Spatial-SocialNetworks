@@ -5,7 +5,23 @@
     "email": "jimmycampbell@hotmail.com",
     "birthdate": "2015-10-06",
     "phone": "875-163-6091",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        61,
+        21,
+        56,
+        13,
+        13,
+        21,
+        49,
+        35,
+        56
+    ],
+    "login locations": [
+        [
+            -121.922993,
+            37.176295
+        ]
+    ],
+    "relationships": []
 }

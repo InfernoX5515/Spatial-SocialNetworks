@@ -5,7 +5,27 @@
     "email": "michelle77@yahoo.com",
     "birthdate": "1951-06-07",
     "phone": "319-836-9568",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        39,
+        73,
+        12,
+        59,
+        41,
+        2,
+        15,
+        75,
+        7,
+        41,
+        66,
+        14,
+        33
+    ],
+    "login locations": [
+        [
+            -122.531271,
+            37.972991
+        ]
+    ],
+    "relationships": []
 }

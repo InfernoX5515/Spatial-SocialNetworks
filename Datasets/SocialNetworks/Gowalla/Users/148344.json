@@ -5,7 +5,12 @@
     "email": "rcollier@yahoo.com",
     "birthdate": "1964-01-07",
     "phone": "257-965-8873x3765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.985441,
+            33.899276
+        ]
+    ],
+    "relationships": []
 }

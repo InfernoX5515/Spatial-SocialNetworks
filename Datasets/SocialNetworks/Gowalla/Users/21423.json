@@ -5,7 +5,19 @@
     "email": "sdominguez@gmail.com",
     "birthdate": "2014-03-03",
     "phone": "4473892648",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        24,
+        36,
+        46,
+        66,
+        75
+    ],
+    "login locations": [
+        [
+            -117.152768,
+            32.784444
+        ]
+    ],
+    "relationships": []
 }

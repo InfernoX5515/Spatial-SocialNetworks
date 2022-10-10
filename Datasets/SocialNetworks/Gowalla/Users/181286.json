@@ -5,7 +5,22 @@
     "email": "moorebrittany@hotmail.com",
     "birthdate": "1930-08-01",
     "phone": "840.134.1580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        4,
+        47,
+        31,
+        72,
+        10,
+        39,
+        10,
+        23
+    ],
+    "login locations": [
+        [
+            -117.169208,
+            33.521925
+        ]
+    ],
+    "relationships": []
 }

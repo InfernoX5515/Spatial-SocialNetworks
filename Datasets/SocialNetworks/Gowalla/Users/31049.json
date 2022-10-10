@@ -5,7 +5,12 @@
     "email": "dcameron@hotmail.com",
     "birthdate": "1916-05-30",
     "phone": "(679)920-0341x1726",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.452169,
+            34.375787
+        ]
+    ],
+    "relationships": []
 }

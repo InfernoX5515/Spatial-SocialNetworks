@@ -5,7 +5,24 @@
     "email": "speters@yahoo.com",
     "birthdate": "1956-05-24",
     "phone": "6653487753",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        56,
+        27,
+        19,
+        38,
+        64,
+        52,
+        18,
+        18,
+        30,
+        19
+    ],
+    "login locations": [
+        [
+            -122.432352,
+            37.784147
+        ]
+    ],
+    "relationships": []
 }

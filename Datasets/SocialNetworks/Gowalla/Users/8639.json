@@ -5,7 +5,24 @@
     "email": "jamesesparza@gmail.com",
     "birthdate": "1987-12-14",
     "phone": "+1-594-686-1072x20631",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        55,
+        6,
+        57,
+        33,
+        68,
+        64,
+        36,
+        28,
+        1,
+        45
+    ],
+    "login locations": [
+        [
+            -122.409326,
+            37.702851
+        ]
+    ],
+    "relationships": []
 }

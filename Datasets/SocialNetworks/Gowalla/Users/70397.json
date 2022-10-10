@@ -5,7 +5,21 @@
     "email": "travisdouglas@hotmail.com",
     "birthdate": "1966-10-18",
     "phone": "(609)678-6284x7916",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        56,
+        72,
+        13,
+        35,
+        64,
+        15,
+        58
+    ],
+    "login locations": [
+        [
+            -118.292129,
+            33.992811
+        ]
+    ],
+    "relationships": []
 }

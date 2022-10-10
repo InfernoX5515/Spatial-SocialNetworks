@@ -5,7 +5,18 @@
     "email": "stewartlisa@yahoo.com",
     "birthdate": "1964-04-05",
     "phone": "8042724517",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        45,
+        45,
+        55,
+        47
+    ],
+    "login locations": [
+        [
+            -118.237076,
+            34.039649
+        ]
+    ],
+    "relationships": []
 }

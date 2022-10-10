@@ -5,7 +5,25 @@
     "email": "michael55@gmail.com",
     "birthdate": "2012-01-02",
     "phone": "+1-957-875-8676x24079",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        50,
+        75,
+        18,
+        16,
+        13,
+        38,
+        11,
+        41,
+        0,
+        60,
+        28
+    ],
+    "login locations": [
+        [
+            -122.419908,
+            37.769485
+        ]
+    ],
+    "relationships": []
 }

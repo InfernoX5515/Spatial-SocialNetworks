@@ -5,7 +5,20 @@
     "email": "hallsusan@hotmail.com",
     "birthdate": "1995-03-08",
     "phone": "016.545.9329x59255",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        69,
+        58,
+        49,
+        60,
+        32,
+        2
+    ],
+    "login locations": [
+        [
+            -122.370138,
+            37.81201
+        ]
+    ],
+    "relationships": []
 }

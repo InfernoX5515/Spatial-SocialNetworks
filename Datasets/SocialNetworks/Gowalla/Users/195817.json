@@ -5,7 +5,22 @@
     "email": "burgesslisa@yahoo.com",
     "birthdate": "1908-04-19",
     "phone": "+1-671-492-0353x8131",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        54,
+        69,
+        59,
+        22,
+        64,
+        66,
+        30,
+        61
+    ],
+    "login locations": [
+        [
+            -118.422129,
+            34.067407
+        ]
+    ],
+    "relationships": []
 }

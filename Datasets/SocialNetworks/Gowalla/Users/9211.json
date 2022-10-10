@@ -5,7 +5,31 @@
     "email": "vmartin@gmail.com",
     "birthdate": "1984-05-10",
     "phone": "+1-485-362-0704x8206",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        70,
+        1,
+        27,
+        44,
+        36,
+        35
+    ],
+    "login locations": [
+        [
+            -122.152986,
+            37.432863
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11996,
+                0.0171428571429
+            ],
+            [
+                11996,
+                0.0171428571429
+            ]
+        ]
+    ]
 }

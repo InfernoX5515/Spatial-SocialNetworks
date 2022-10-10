@@ -5,7 +5,16 @@
     "email": "quinnalexandra@gmail.com",
     "birthdate": "1907-09-03",
     "phone": "(394)145-5903",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        63,
+        54
+    ],
+    "login locations": [
+        [
+            -117.92701,
+            33.808422
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "hooperdenise@gmail.com",
     "birthdate": "1951-08-04",
     "phone": "001-486-555-1823x2124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        25,
+        44,
+        49,
+        58,
+        38
+    ],
+    "login locations": [
+        [
+            -121.347633,
+            38.715883
+        ]
+    ],
+    "relationships": []
 }

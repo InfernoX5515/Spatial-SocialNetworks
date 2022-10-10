@@ -5,7 +5,27 @@
     "email": "mcdanielsandra@yahoo.com",
     "birthdate": "1975-01-15",
     "phone": "+1-460-263-5990",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        7,
+        34,
+        31,
+        74,
+        23,
+        40,
+        38,
+        69,
+        62,
+        13,
+        17,
+        1,
+        13
+    ],
+    "login locations": [
+        [
+            -122.325963,
+            37.80211
+        ]
+    ],
+    "relationships": []
 }

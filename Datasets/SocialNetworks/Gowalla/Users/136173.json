@@ -5,7 +5,26 @@
     "email": "justinmclaughlin@hotmail.com",
     "birthdate": "2022-08-09",
     "phone": "(636)720-4882",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        9,
+        56,
+        4,
+        28,
+        0,
+        57,
+        6,
+        8,
+        66,
+        43,
+        17,
+        2
+    ],
+    "login locations": [
+        [
+            -122.450208,
+            37.820659
+        ]
+    ],
+    "relationships": []
 }

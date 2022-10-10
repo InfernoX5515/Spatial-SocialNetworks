@@ -5,7 +5,19 @@
     "email": "brucewright@hotmail.com",
     "birthdate": "1999-01-02",
     "phone": "(923)469-7349",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        38,
+        3,
+        44,
+        56,
+        55
+    ],
+    "login locations": [
+        [
+            -122.410957,
+            37.79113
+        ]
+    ],
+    "relationships": []
 }

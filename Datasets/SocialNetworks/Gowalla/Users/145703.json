@@ -5,7 +5,25 @@
     "email": "amyaustin@hotmail.com",
     "birthdate": "1992-10-09",
     "phone": "9822744874",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        7,
+        75,
+        4,
+        51,
+        30,
+        73,
+        9,
+        65,
+        32,
+        69,
+        56
+    ],
+    "login locations": [
+        [
+            -118.283598,
+            34.022463
+        ]
+    ],
+    "relationships": []
 }

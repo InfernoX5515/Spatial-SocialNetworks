@@ -5,7 +5,26 @@
     "email": "chapmanstephen@yahoo.com",
     "birthdate": "1976-05-06",
     "phone": "(516)894-0176",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        19,
+        0,
+        60,
+        67,
+        15,
+        46,
+        47,
+        10,
+        68,
+        11,
+        62,
+        36
+    ],
+    "login locations": [
+        [
+            -117.568615,
+            33.980168
+        ]
+    ],
+    "relationships": []
 }

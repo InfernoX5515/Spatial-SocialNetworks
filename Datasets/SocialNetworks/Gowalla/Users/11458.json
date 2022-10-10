@@ -5,7 +5,25 @@
     "email": "samantha85@hotmail.com",
     "birthdate": "1965-01-04",
     "phone": "(562)563-4042",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        37,
+        57,
+        5,
+        37,
+        27,
+        61,
+        13,
+        70,
+        50,
+        34,
+        16
+    ],
+    "login locations": [
+        [
+            -122.407119,
+            37.775191
+        ]
+    ],
+    "relationships": []
 }

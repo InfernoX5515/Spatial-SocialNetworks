@@ -5,7 +5,27 @@
     "email": "michael63@yahoo.com",
     "birthdate": "1994-02-06",
     "phone": "001-256-653-7433x0645",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        5,
+        11,
+        57,
+        8,
+        19,
+        26,
+        19,
+        54,
+        0,
+        0,
+        9,
+        20,
+        65
+    ],
+    "login locations": [
+        [
+            -121.511433,
+            38.66883
+        ]
+    ],
+    "relationships": []
 }

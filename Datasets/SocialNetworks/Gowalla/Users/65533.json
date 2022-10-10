@@ -5,7 +5,16 @@
     "email": "joselloyd@gmail.com",
     "birthdate": "1932-07-23",
     "phone": "+1-573-721-5519x9578",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        9,
+        25
+    ],
+    "login locations": [
+        [
+            -116.418766,
+            33.786859
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "ryan80@hotmail.com",
     "birthdate": "1998-10-08",
     "phone": "001-493-710-7922x19147",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        30,
+        42,
+        49,
+        14,
+        55,
+        21,
+        15,
+        36,
+        51,
+        56,
+        51,
+        69,
+        11
+    ],
+    "login locations": [
+        [
+            -122.082464,
+            37.413287
+        ]
+    ],
+    "relationships": []
 }

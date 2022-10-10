@@ -5,7 +5,28 @@
     "email": "ithomas@hotmail.com",
     "birthdate": "1962-03-06",
     "phone": "(559)493-1124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        64,
+        66,
+        75
+    ],
+    "login locations": [
+        [
+            -121.468695,
+            38.566227
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                470,
+                0.01
+            ],
+            [
+                470,
+                0.08
+            ]
+        ]
+    ]
 }

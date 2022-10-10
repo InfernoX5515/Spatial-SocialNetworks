@@ -5,7 +5,26 @@
     "email": "ywilcox@yahoo.com",
     "birthdate": "1914-08-14",
     "phone": "534-451-2030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        71,
+        59,
+        53,
+        68,
+        41,
+        38,
+        62,
+        47,
+        51,
+        28,
+        39,
+        23
+    ],
+    "login locations": [
+        [
+            -118.349515,
+            34.124804
+        ]
+    ],
+    "relationships": []
 }

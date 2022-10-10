@@ -5,7 +5,33 @@
     "email": "kimberly92@hotmail.com",
     "birthdate": "2017-04-16",
     "phone": "726-891-2186x97076",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        28,
+        18,
+        31,
+        74,
+        58,
+        18,
+        42,
+        28
+    ],
+    "login locations": [
+        [
+            -117.227559,
+            32.869604
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                105459,
+                0.01
+            ],
+            [
+                105459,
+                0.01
+            ]
+        ]
+    ]
 }

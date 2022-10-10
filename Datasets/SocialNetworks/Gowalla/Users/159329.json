@@ -5,7 +5,15 @@
     "email": "rojaselizabeth@yahoo.com",
     "birthdate": "1929-05-09",
     "phone": "503-466-6682x7243",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        63
+    ],
+    "login locations": [
+        [
+            -122.411378,
+            37.96689
+        ]
+    ],
+    "relationships": []
 }

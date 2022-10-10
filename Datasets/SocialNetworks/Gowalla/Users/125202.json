@@ -5,7 +5,16 @@
     "email": "zacharycooley@yahoo.com",
     "birthdate": "1949-02-24",
     "phone": "+1-340-412-7390x03576",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        46,
+        49
+    ],
+    "login locations": [
+        [
+            -117.158299,
+            32.740426
+        ]
+    ],
+    "relationships": []
 }

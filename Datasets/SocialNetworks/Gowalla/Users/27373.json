@@ -5,7 +5,21 @@
     "email": "brian86@yahoo.com",
     "birthdate": "1927-11-22",
     "phone": "980.394.5632x47772",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        47,
+        21,
+        63,
+        27,
+        23,
+        23,
+        34
+    ],
+    "login locations": [
+        [
+            -121.884675,
+            37.3333
+        ]
+    ],
+    "relationships": []
 }

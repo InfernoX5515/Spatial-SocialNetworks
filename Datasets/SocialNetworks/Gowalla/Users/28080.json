@@ -5,7 +5,26 @@
     "email": "brandonnguyen@gmail.com",
     "birthdate": "1909-03-02",
     "phone": "604-532-3950",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        72,
+        5,
+        24,
+        22,
+        39,
+        72,
+        28,
+        40,
+        59,
+        36,
+        73,
+        17
+    ],
+    "login locations": [
+        [
+            -117.804434,
+            33.626515
+        ]
+    ],
+    "relationships": []
 }

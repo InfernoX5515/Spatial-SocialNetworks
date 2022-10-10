@@ -5,7 +5,22 @@
     "email": "lisamitchell@yahoo.com",
     "birthdate": "1977-01-20",
     "phone": "663-842-5543",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        5,
+        49,
+        57,
+        4,
+        56,
+        4,
+        7,
+        14
+    ],
+    "login locations": [
+        [
+            -122.207255,
+            38.067341
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "ayersjames@gmail.com",
     "birthdate": "1932-05-03",
     "phone": "+1-932-685-4257x0903",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        55
+    ],
+    "login locations": [
+        [
+            -118.221071,
+            34.111514
+        ]
+    ],
+    "relationships": []
 }

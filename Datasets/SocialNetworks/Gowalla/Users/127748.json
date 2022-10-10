@@ -5,7 +5,15 @@
     "email": "sjohnson@hotmail.com",
     "birthdate": "1928-03-03",
     "phone": "998.176.8313x65647",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        46
+    ],
+    "login locations": [
+        [
+            -117.890757,
+            33.702735
+        ]
+    ],
+    "relationships": []
 }

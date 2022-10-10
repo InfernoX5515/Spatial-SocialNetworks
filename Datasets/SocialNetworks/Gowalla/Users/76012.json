@@ -5,7 +5,20 @@
     "email": "fergusontom@yahoo.com",
     "birthdate": "1934-04-13",
     "phone": "001-298-061-9267x786",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        36,
+        48,
+        11,
+        33,
+        53,
+        28
+    ],
+    "login locations": [
+        [
+            -122.385171,
+            37.796574
+        ]
+    ],
+    "relationships": []
 }

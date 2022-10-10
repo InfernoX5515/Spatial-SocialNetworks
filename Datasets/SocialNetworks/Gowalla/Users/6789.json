@@ -5,7 +5,25 @@
     "email": "briannasmith@hotmail.com",
     "birthdate": "1910-03-29",
     "phone": "7691434826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        52,
+        33,
+        45,
+        15,
+        30,
+        50,
+        41,
+        58,
+        52,
+        36,
+        0
+    ],
+    "login locations": [
+        [
+            -122.29409,
+            37.888588
+        ]
+    ],
+    "relationships": []
 }

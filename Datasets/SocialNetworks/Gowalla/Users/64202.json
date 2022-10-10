@@ -5,7 +5,28 @@
     "email": "lisagonzales@yahoo.com",
     "birthdate": "1967-02-28",
     "phone": "001-660-772-1081",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        37,
+        72,
+        33,
+        48,
+        57,
+        56,
+        40,
+        48,
+        55,
+        43,
+        31,
+        5,
+        45,
+        12
+    ],
+    "login locations": [
+        [
+            -118.375742,
+            34.077848
+        ]
+    ],
+    "relationships": []
 }

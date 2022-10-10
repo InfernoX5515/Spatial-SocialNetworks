@@ -5,7 +5,12 @@
     "email": "zwilliams@hotmail.com",
     "birthdate": "1968-12-19",
     "phone": "+1-784-268-6761x993",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.139138,
+            32.733662
+        ]
+    ],
+    "relationships": []
 }

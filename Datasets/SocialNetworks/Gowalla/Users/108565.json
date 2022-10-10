@@ -5,7 +5,26 @@
     "email": "jonathandaniels@yahoo.com",
     "birthdate": "1927-09-13",
     "phone": "+1-672-256-9702x4205",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        70,
+        34,
+        75,
+        73,
+        33,
+        9,
+        10,
+        66,
+        57,
+        29,
+        48,
+        38
+    ],
+    "login locations": [
+        [
+            -122.4721,
+            37.687951
+        ]
+    ],
+    "relationships": []
 }

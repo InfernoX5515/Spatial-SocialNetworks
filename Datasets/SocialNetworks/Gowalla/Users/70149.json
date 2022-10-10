@@ -5,7 +5,26 @@
     "email": "npatel@yahoo.com",
     "birthdate": "1932-05-17",
     "phone": "(117)815-7523",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        24,
+        16,
+        8,
+        56,
+        24,
+        65,
+        54,
+        4,
+        45,
+        51,
+        65,
+        15
+    ],
+    "login locations": [
+        [
+            -122.407355,
+            37.786111
+        ]
+    ],
+    "relationships": []
 }

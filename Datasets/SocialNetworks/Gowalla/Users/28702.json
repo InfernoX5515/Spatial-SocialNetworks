@@ -5,7 +5,12 @@
     "email": "jasonhammond@hotmail.com",
     "birthdate": "1929-03-09",
     "phone": "876-703-0947x23966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.604881,
+            33.452783
+        ]
+    ],
+    "relationships": []
 }

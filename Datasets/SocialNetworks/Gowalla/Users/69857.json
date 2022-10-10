@@ -5,7 +5,27 @@
     "email": "jacob97@yahoo.com",
     "birthdate": "1966-09-20",
     "phone": "4551855741",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        70,
+        9,
+        37,
+        39,
+        2,
+        24,
+        68,
+        61,
+        25,
+        33,
+        6,
+        8,
+        69
+    ],
+    "login locations": [
+        [
+            -122.399048,
+            37.773312
+        ]
+    ],
+    "relationships": []
 }

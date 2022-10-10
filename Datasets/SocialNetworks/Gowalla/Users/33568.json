@@ -5,7 +5,14 @@
     "email": "dan50@hotmail.com",
     "birthdate": "2022-05-15",
     "phone": "405-926-0554x4739",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36
+    ],
+    "login locations": [
+        [
+            -121.97584,
+            37.315617
+        ]
+    ],
+    "relationships": []
 }

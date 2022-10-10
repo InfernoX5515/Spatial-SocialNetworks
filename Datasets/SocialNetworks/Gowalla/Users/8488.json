@@ -5,7 +5,39 @@
     "email": "zharper@gmail.com",
     "birthdate": "1958-07-15",
     "phone": "354-469-4216x121",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        11,
+        8,
+        33,
+        19,
+        41,
+        40,
+        22,
+        70,
+        64,
+        12,
+        10,
+        4,
+        10,
+        46
+    ],
+    "login locations": [
+        [
+            -121.95763,
+            37.086469
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4476,
+                0.01
+            ],
+            [
+                34347,
+                0.0314465408805
+            ]
+        ]
+    ]
 }

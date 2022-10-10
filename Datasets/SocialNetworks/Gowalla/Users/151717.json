@@ -5,7 +5,28 @@
     "email": "douglasfuller@gmail.com",
     "birthdate": "2011-06-02",
     "phone": "723-672-6713",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        73,
+        20,
+        8,
+        53,
+        62,
+        45,
+        69,
+        10,
+        58,
+        13,
+        70,
+        27,
+        40,
+        29
+    ],
+    "login locations": [
+        [
+            -118.000528,
+            34.146689
+        ]
+    ],
+    "relationships": []
 }

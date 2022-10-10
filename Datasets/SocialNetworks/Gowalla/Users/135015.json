@@ -5,7 +5,14 @@
     "email": "sarah15@yahoo.com",
     "birthdate": "1946-04-02",
     "phone": "(944)845-5157",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36
+    ],
+    "login locations": [
+        [
+            -117.1636,
+            32.707592
+        ]
+    ],
+    "relationships": []
 }

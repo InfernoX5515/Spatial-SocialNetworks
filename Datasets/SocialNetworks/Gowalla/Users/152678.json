@@ -5,7 +5,14 @@
     "email": "kelly59@gmail.com",
     "birthdate": "1955-04-09",
     "phone": "+1-364-122-2140x0565",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60
+    ],
+    "login locations": [
+        [
+            -119.800386,
+            36.806813
+        ]
+    ],
+    "relationships": []
 }

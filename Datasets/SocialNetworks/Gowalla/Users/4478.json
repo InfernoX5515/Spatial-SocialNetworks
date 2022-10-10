@@ -5,7 +5,22 @@
     "email": "mendezlori@yahoo.com",
     "birthdate": "1991-10-31",
     "phone": "(382)583-7069",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        19,
+        33,
+        72,
+        10,
+        61,
+        32,
+        53,
+        33
+    ],
+    "login locations": [
+        [
+            -122.331736,
+            37.800848
+        ]
+    ],
+    "relationships": []
 }

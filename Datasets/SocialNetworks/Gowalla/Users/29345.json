@@ -5,7 +5,37 @@
     "email": "bethany11@yahoo.com",
     "birthdate": "1949-11-13",
     "phone": "001-314-973-9123x32566",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        45,
+        69,
+        13,
+        69,
+        16,
+        21,
+        71,
+        58,
+        5,
+        31,
+        69,
+        4
+    ],
+    "login locations": [
+        [
+            -122.415435,
+            37.780532
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                458,
+                0.01
+            ],
+            [
+                458,
+                0.01
+            ]
+        ]
+    ]
 }

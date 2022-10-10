@@ -5,7 +5,21 @@
     "email": "stevenmartin@gmail.com",
     "birthdate": "1996-05-23",
     "phone": "219.632.9680",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        59,
+        28,
+        52,
+        46,
+        47,
+        45,
+        46
+    ],
+    "login locations": [
+        [
+            -118.212801,
+            34.055857
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "millerkelly@hotmail.com",
     "birthdate": "1962-03-24",
     "phone": "(375)107-1969x829",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        30,
+        5,
+        53,
+        71,
+        8,
+        48,
+        73
+    ],
+    "login locations": [
+        [
+            -122.163037,
+            37.425719
+        ]
+    ],
+    "relationships": []
 }

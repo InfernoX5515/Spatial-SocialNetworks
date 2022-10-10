@@ -5,7 +5,22 @@
     "email": "jamesjohnston@yahoo.com",
     "birthdate": "2019-11-20",
     "phone": "721.672.8847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        47,
+        25,
+        7,
+        3,
+        40,
+        25,
+        20,
+        65
+    ],
+    "login locations": [
+        [
+            -118.282064,
+            34.049222
+        ]
+    ],
+    "relationships": []
 }

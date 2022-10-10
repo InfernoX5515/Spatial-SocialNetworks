@@ -5,7 +5,18 @@
     "email": "lawrenceamy@yahoo.com",
     "birthdate": "1913-09-01",
     "phone": "970.127.9718x9921",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        40,
+        69,
+        69,
+        66
+    ],
+    "login locations": [
+        [
+            -118.337039,
+            34.117543
+        ]
+    ],
+    "relationships": []
 }

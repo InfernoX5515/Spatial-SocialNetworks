@@ -5,7 +5,24 @@
     "email": "alan05@yahoo.com",
     "birthdate": "1992-11-26",
     "phone": "745-843-0801x75153",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        63,
+        69,
+        0,
+        23,
+        29,
+        62,
+        45,
+        3,
+        71,
+        63
+    ],
+    "login locations": [
+        [
+            -121.335165,
+            38.646495
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "stephen55@yahoo.com",
     "birthdate": "1988-06-21",
     "phone": "412-542-7064",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        38,
+        10,
+        9,
+        17,
+        29,
+        40,
+        61,
+        24
+    ],
+    "login locations": [
+        [
+            -121.9361,
+            37.339287
+        ]
+    ],
+    "relationships": []
 }

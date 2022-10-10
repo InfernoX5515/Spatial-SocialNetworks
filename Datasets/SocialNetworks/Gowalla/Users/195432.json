@@ -5,7 +5,25 @@
     "email": "hawkinsluis@hotmail.com",
     "birthdate": "1984-10-28",
     "phone": "(037)111-3964",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        23,
+        20,
+        49,
+        32,
+        15,
+        28,
+        28,
+        16,
+        4,
+        10,
+        59
+    ],
+    "login locations": [
+        [
+            -117.240758,
+            33.730334
+        ]
+    ],
+    "relationships": []
 }

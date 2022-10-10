@@ -5,7 +5,14 @@
     "email": "lcarter@hotmail.com",
     "birthdate": "1942-12-10",
     "phone": "(629)596-9474",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28
+    ],
+    "login locations": [
+        [
+            -122.00243,
+            37.022226
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "rhall@hotmail.com",
     "birthdate": "2005-08-03",
     "phone": "372.907.4331x2015",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.338472,
+            37.59716
+        ]
+    ],
+    "relationships": []
 }

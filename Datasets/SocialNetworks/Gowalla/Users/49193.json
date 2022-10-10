@@ -5,7 +5,16 @@
     "email": "melissajenkins@yahoo.com",
     "birthdate": "1994-01-16",
     "phone": "+1-732-751-4896x324",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        59,
+        22
+    ],
+    "login locations": [
+        [
+            -118.380331,
+            34.066667
+        ]
+    ],
+    "relationships": []
 }

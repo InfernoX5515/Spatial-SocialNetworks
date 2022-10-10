@@ -5,7 +5,21 @@
     "email": "pjones@yahoo.com",
     "birthdate": "1915-12-29",
     "phone": "2126616251",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        26,
+        41,
+        10,
+        68,
+        35,
+        67,
+        34
+    ],
+    "login locations": [
+        [
+            -121.434359,
+            37.841889
+        ]
+    ],
+    "relationships": []
 }

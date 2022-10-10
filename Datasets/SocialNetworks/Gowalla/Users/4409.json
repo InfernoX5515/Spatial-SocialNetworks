@@ -5,7 +5,17 @@
     "email": "greenglenn@hotmail.com",
     "birthdate": "1986-01-09",
     "phone": "+1-097-328-6200",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        48,
+        46,
+        68
+    ],
+    "login locations": [
+        [
+            -122.417939,
+            37.762668
+        ]
+    ],
+    "relationships": []
 }

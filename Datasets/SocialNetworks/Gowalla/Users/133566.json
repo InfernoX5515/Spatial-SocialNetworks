@@ -5,7 +5,21 @@
     "email": "lauranguyen@hotmail.com",
     "birthdate": "1928-12-21",
     "phone": "001-248-995-1032x2526",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        60,
+        59,
+        58,
+        37,
+        65,
+        18,
+        45
+    ],
+    "login locations": [
+        [
+            -119.220287,
+            34.269191
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "rachel59@yahoo.com",
     "birthdate": "2020-07-04",
     "phone": "(526)687-0413",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        45
+    ],
+    "login locations": [
+        [
+            -118.306934,
+            34.123742
+        ]
+    ],
+    "relationships": []
 }

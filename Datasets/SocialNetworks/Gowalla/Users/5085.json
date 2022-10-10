@@ -5,7 +5,39 @@
     "email": "fsmith@gmail.com",
     "birthdate": "1980-02-03",
     "phone": "(167)879-5224x26143",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        17,
+        46,
+        67,
+        14,
+        6,
+        71,
+        3,
+        44,
+        52,
+        45,
+        38,
+        8,
+        23,
+        5
+    ],
+    "login locations": [
+        [
+            -122.44564,
+            37.76127
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.01
+            ],
+            [
+                70857,
+                0.333333333333
+            ]
+        ]
+    ]
 }

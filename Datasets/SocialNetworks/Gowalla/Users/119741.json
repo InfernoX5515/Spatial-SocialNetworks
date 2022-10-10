@@ -5,7 +5,16 @@
     "email": "michellenichols@yahoo.com",
     "birthdate": "2007-08-21",
     "phone": "699.973.9654",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        25,
+        47
+    ],
+    "login locations": [
+        [
+            -122.40596,
+            37.754863
+        ]
+    ],
+    "relationships": []
 }

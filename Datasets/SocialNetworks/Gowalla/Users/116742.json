@@ -5,7 +5,15 @@
     "email": "vcollins@yahoo.com",
     "birthdate": "2003-08-06",
     "phone": "768-085-5125x473",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        54
+    ],
+    "login locations": [
+        [
+            -121.949196,
+            37.378153
+        ]
+    ],
+    "relationships": []
 }

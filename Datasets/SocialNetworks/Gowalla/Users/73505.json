@@ -5,7 +5,28 @@
     "email": "bowenchristopher@hotmail.com",
     "birthdate": "1976-06-30",
     "phone": "(498)282-3377x8570",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        24,
+        22,
+        27,
+        72,
+        64,
+        41,
+        6,
+        15,
+        58,
+        10,
+        30,
+        43,
+        71,
+        42
+    ],
+    "login locations": [
+        [
+            -118.240176,
+            33.994397
+        ]
+    ],
+    "relationships": []
 }

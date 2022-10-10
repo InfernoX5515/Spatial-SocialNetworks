@@ -5,7 +5,28 @@
     "email": "weisspamela@hotmail.com",
     "birthdate": "1914-03-02",
     "phone": "440-923-7323x84122",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        19,
+        68,
+        38,
+        42,
+        42,
+        47,
+        70,
+        24,
+        51,
+        73,
+        54,
+        10,
+        9,
+        55
+    ],
+    "login locations": [
+        [
+            -118.404357,
+            34.066705
+        ]
+    ],
+    "relationships": []
 }

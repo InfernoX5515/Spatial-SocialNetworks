@@ -5,7 +5,17 @@
     "email": "rodgersnicole@gmail.com",
     "birthdate": "1990-05-29",
     "phone": "158-500-1679x961",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        72,
+        12,
+        60
+    ],
+    "login locations": [
+        [
+            -122.066546,
+            37.250949
+        ]
+    ],
+    "relationships": []
 }

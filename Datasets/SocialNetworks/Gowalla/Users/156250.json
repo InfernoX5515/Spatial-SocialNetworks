@@ -5,7 +5,27 @@
     "email": "moorechelsey@yahoo.com",
     "birthdate": "2006-01-02",
     "phone": "(065)525-3981x474",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        73,
+        47,
+        39,
+        50,
+        15,
+        28,
+        39,
+        25,
+        35,
+        67,
+        61,
+        61,
+        59
+    ],
+    "login locations": [
+        [
+            -118.31107,
+            34.09161
+        ]
+    ],
+    "relationships": []
 }

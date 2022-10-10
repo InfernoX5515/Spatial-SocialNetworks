@@ -5,7 +5,14 @@
     "email": "edward27@yahoo.com",
     "birthdate": "1945-08-10",
     "phone": "+1-210-054-5241x54130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54
+    ],
+    "login locations": [
+        [
+            -122.080522,
+            37.906965
+        ]
+    ],
+    "relationships": []
 }

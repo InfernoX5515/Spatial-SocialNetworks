@@ -5,7 +5,16 @@
     "email": "christopherjuarez@yahoo.com",
     "birthdate": "1935-02-04",
     "phone": "(851)926-7418x01412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        0,
+        41
+    ],
+    "login locations": [
+        [
+            -117.27122,
+            33.022419
+        ]
+    ],
+    "relationships": []
 }

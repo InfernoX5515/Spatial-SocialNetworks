@@ -5,7 +5,26 @@
     "email": "salazargloria@yahoo.com",
     "birthdate": "1973-11-21",
     "phone": "(184)884-5588x57378",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        29,
+        1,
+        57,
+        31,
+        33,
+        36,
+        67,
+        57,
+        31,
+        68,
+        38,
+        7
+    ],
+    "login locations": [
+        [
+            -122.41474,
+            37.802801
+        ]
+    ],
+    "relationships": []
 }

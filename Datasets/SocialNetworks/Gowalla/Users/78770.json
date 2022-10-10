@@ -5,7 +5,28 @@
     "email": "reneemcguire@gmail.com",
     "birthdate": "2002-09-11",
     "phone": "(286)490-6903x0502",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        43,
+        72,
+        26,
+        37,
+        28,
+        30,
+        39,
+        57,
+        69,
+        16,
+        37,
+        61,
+        62,
+        33
+    ],
+    "login locations": [
+        [
+            -122.103945,
+            37.405778
+        ]
+    ],
+    "relationships": []
 }

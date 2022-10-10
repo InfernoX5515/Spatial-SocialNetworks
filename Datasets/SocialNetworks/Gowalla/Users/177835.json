@@ -5,7 +5,14 @@
     "email": "calvincollins@hotmail.com",
     "birthdate": "2011-04-29",
     "phone": "748.428.8192x5999",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37
+    ],
+    "login locations": [
+        [
+            -122.339549,
+            37.773947
+        ]
+    ],
+    "relationships": []
 }

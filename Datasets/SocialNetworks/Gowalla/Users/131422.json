@@ -5,7 +5,15 @@
     "email": "jmurray@hotmail.com",
     "birthdate": "1962-06-15",
     "phone": "9649332486",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        22
+    ],
+    "login locations": [
+        [
+            -122.216061,
+            37.786513
+        ]
+    ],
+    "relationships": []
 }

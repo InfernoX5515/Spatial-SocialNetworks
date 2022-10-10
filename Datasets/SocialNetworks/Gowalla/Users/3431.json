@@ -5,7 +5,24 @@
     "email": "velazquezbrian@yahoo.com",
     "birthdate": "1988-04-02",
     "phone": "+1-242-550-7905x141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        8,
+        13,
+        26,
+        7,
+        17,
+        68,
+        55,
+        3,
+        1,
+        10
+    ],
+    "login locations": [
+        [
+            -117.658324,
+            34.038946
+        ]
+    ],
+    "relationships": []
 }

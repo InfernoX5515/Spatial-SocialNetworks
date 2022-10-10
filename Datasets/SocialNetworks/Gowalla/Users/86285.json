@@ -5,7 +5,25 @@
     "email": "jmoore@yahoo.com",
     "birthdate": "1983-06-09",
     "phone": "001-686-703-4786x1561",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        24,
+        37,
+        63,
+        74,
+        49,
+        49,
+        57,
+        44,
+        3,
+        60,
+        55
+    ],
+    "login locations": [
+        [
+            -118.042178,
+            33.920702
+        ]
+    ],
+    "relationships": []
 }

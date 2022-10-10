@@ -5,7 +5,19 @@
     "email": "garcianatalie@yahoo.com",
     "birthdate": "1977-08-03",
     "phone": "(521)203-0409x5043",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        71,
+        63,
+        21,
+        24,
+        34
+    ],
+    "login locations": [
+        [
+            -122.375194,
+            37.834382
+        ]
+    ],
+    "relationships": []
 }

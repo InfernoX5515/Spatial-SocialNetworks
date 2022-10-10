@@ -5,7 +5,25 @@
     "email": "jonesfelicia@hotmail.com",
     "birthdate": "1964-08-15",
     "phone": "232-881-3122x735",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        69,
+        10,
+        52,
+        45,
+        1,
+        31,
+        31,
+        72,
+        59,
+        70,
+        42
+    ],
+    "login locations": [
+        [
+            -118.29154,
+            34.056213
+        ]
+    ],
+    "relationships": []
 }

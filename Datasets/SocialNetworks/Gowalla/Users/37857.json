@@ -5,7 +5,27 @@
     "email": "melendezscott@gmail.com",
     "birthdate": "1953-01-24",
     "phone": "565-063-9453x371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        24,
+        30
+    ],
+    "login locations": [
+        [
+            -122.405019,
+            37.763323
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                23467,
+                0.0425531914894
+            ],
+            [
+                23467,
+                0.0425531914894
+            ]
+        ]
+    ]
 }

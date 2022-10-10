@@ -5,7 +5,26 @@
     "email": "maysvirginia@hotmail.com",
     "birthdate": "1981-02-12",
     "phone": "330-280-7622x755",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        63,
+        51,
+        64,
+        64,
+        29,
+        66,
+        4,
+        46,
+        12,
+        75,
+        1,
+        20
+    ],
+    "login locations": [
+        [
+            -122.307899,
+            37.827094
+        ]
+    ],
+    "relationships": []
 }

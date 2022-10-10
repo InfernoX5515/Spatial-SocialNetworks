@@ -5,7 +5,26 @@
     "email": "jasmineturner@hotmail.com",
     "birthdate": "2010-02-05",
     "phone": "001-098-264-3675x00281",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        13,
+        69,
+        50,
+        27,
+        49,
+        19,
+        17,
+        55,
+        74,
+        53,
+        75,
+        37
+    ],
+    "login locations": [
+        [
+            -122.356968,
+            37.796277
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "qgarcia@gmail.com",
     "birthdate": "1980-12-03",
     "phone": "+1-938-342-1651x28669",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        75,
+        22,
+        18,
+        42,
+        24,
+        26,
+        56,
+        73
+    ],
+    "login locations": [
+        [
+            -119.425238,
+            35.162727
+        ]
+    ],
+    "relationships": []
 }

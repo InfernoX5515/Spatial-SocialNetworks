@@ -5,7 +5,14 @@
     "email": "michelle62@gmail.com",
     "birthdate": "1955-06-16",
     "phone": "222.621.6206x747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29
+    ],
+    "login locations": [
+        [
+            -122.395319,
+            37.781061
+        ]
+    ],
+    "relationships": []
 }

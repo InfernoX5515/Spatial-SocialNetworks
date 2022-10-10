@@ -5,7 +5,12 @@
     "email": "brandi86@hotmail.com",
     "birthdate": "1909-12-03",
     "phone": "(379)104-6357x2946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -119.76518,
+            36.825874
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "thomasclaudia@hotmail.com",
     "birthdate": "1940-05-22",
     "phone": "001-313-882-8484x427",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        4,
+        63,
+        69,
+        53,
+        69,
+        63,
+        52,
+        58,
+        73,
+        12,
+        66
+    ],
+    "login locations": [
+        [
+            -122.399079,
+            37.640479
+        ]
+    ],
+    "relationships": []
 }

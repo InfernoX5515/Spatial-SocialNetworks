@@ -5,7 +5,16 @@
     "email": "bethburton@hotmail.com",
     "birthdate": "1960-07-24",
     "phone": "001-576-829-6633x81917",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        46,
+        38
+    ],
+    "login locations": [
+        [
+            -122.401881,
+            37.77158
+        ]
+    ],
+    "relationships": []
 }

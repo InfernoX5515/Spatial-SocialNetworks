@@ -5,7 +5,16 @@
     "email": "susan21@hotmail.com",
     "birthdate": "2004-11-28",
     "phone": "471.943.8598",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        57,
+        73
+    ],
+    "login locations": [
+        [
+            -118.14257,
+            33.87043
+        ]
+    ],
+    "relationships": []
 }

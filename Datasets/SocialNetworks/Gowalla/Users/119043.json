@@ -5,7 +5,27 @@
     "email": "carla32@gmail.com",
     "birthdate": "1993-06-22",
     "phone": "713-453-6872",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        64,
+        67
+    ],
+    "login locations": [
+        [
+            -118.290139,
+            33.839313
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                90801,
+                0.02
+            ],
+            [
+                119041,
+                0.2
+            ]
+        ]
+    ]
 }

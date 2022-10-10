@@ -5,7 +5,23 @@
     "email": "mharris@yahoo.com",
     "birthdate": "1930-09-17",
     "phone": "(198)750-6082x70604",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        9,
+        38,
+        54,
+        63,
+        72,
+        19,
+        61,
+        57,
+        25
+    ],
+    "login locations": [
+        [
+            -118.272168,
+            34.108254
+        ]
+    ],
+    "relationships": []
 }

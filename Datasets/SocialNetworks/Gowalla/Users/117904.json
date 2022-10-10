@@ -5,7 +5,23 @@
     "email": "zreyes@gmail.com",
     "birthdate": "1963-05-31",
     "phone": "(894)612-4619",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        22,
+        29,
+        24,
+        46,
+        33,
+        48,
+        60,
+        30,
+        40
+    ],
+    "login locations": [
+        [
+            -117.092603,
+            32.75981
+        ]
+    ],
+    "relationships": []
 }

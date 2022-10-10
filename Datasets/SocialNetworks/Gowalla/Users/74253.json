@@ -5,7 +5,17 @@
     "email": "reynoldsjessica@hotmail.com",
     "birthdate": "1984-05-18",
     "phone": "+1-683-389-9372x207",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        34,
+        61,
+        19
+    ],
+    "login locations": [
+        [
+            -117.153636,
+            32.888398
+        ]
+    ],
+    "relationships": []
 }

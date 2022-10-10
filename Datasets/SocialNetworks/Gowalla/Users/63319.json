@@ -5,7 +5,21 @@
     "email": "pcampbell@yahoo.com",
     "birthdate": "2006-05-17",
     "phone": "(781)933-3345x89612",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        67,
+        31,
+        44,
+        57,
+        58,
+        36,
+        22
+    ],
+    "login locations": [
+        [
+            -122.041778,
+            37.34218
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "chavezjerry@yahoo.com",
     "birthdate": "1909-08-24",
     "phone": "(559)661-9354x4953",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34
+    ],
+    "login locations": [
+        [
+            -118.282192,
+            34.034066
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7549,
+                0.137142857143
+            ],
+            [
+                7549,
+                0.137142857143
+            ]
+        ]
+    ]
 }

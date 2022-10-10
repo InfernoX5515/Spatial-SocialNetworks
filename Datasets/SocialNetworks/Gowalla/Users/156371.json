@@ -5,7 +5,17 @@
     "email": "vsolis@hotmail.com",
     "birthdate": "1998-01-21",
     "phone": "(266)563-5141x75758",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        36,
+        55,
+        41
+    ],
+    "login locations": [
+        [
+            -118.349347,
+            34.107877
+        ]
+    ],
+    "relationships": []
 }

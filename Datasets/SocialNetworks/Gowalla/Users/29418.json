@@ -5,7 +5,12 @@
     "email": "jvazquez@gmail.com",
     "birthdate": "1974-05-06",
     "phone": "+1-781-649-8163x448",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.954087,
+            33.91442
+        ]
+    ],
+    "relationships": []
 }

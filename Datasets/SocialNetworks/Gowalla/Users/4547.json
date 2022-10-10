@@ -5,7 +5,25 @@
     "email": "lindsey56@gmail.com",
     "birthdate": "1933-11-14",
     "phone": "+1-617-880-3594x4447",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        16,
+        26,
+        30,
+        75,
+        26,
+        46,
+        7,
+        17,
+        14,
+        51,
+        48
+    ],
+    "login locations": [
+        [
+            -117.149973,
+            33.549003
+        ]
+    ],
+    "relationships": []
 }

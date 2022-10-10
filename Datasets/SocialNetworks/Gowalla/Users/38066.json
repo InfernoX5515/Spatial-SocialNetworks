@@ -5,7 +5,28 @@
     "email": "ambercoleman@hotmail.com",
     "birthdate": "1999-09-10",
     "phone": "083-249-4438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        4,
+        2,
+        7
+    ],
+    "login locations": [
+        [
+            -117.990242,
+            33.748538
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3585,
+                0.0533980582524
+            ],
+            [
+                32735,
+                0.032
+            ]
+        ]
+    ]
 }

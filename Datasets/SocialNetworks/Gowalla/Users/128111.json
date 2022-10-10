@@ -5,7 +5,15 @@
     "email": "mendezcharlotte@gmail.com",
     "birthdate": "2012-02-11",
     "phone": "523.631.7268x944",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        64
+    ],
+    "login locations": [
+        [
+            -118.382623,
+            34.038531
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "annwhite@yahoo.com",
     "birthdate": "1951-12-30",
     "phone": "(515)274-9395x51288",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        49,
+        16,
+        31,
+        66,
+        74,
+        31,
+        33,
+        45,
+        40
+    ],
+    "login locations": [
+        [
+            -117.159405,
+            32.794202
+        ]
+    ],
+    "relationships": []
 }

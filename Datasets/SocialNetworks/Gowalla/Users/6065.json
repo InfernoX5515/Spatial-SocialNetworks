@@ -5,7 +5,35 @@
     "email": "danielmccarthy@hotmail.com",
     "birthdate": "1943-06-05",
     "phone": "2112274727",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        44,
+        52,
+        16,
+        74,
+        26,
+        15,
+        14,
+        6,
+        38,
+        34
+    ],
+    "login locations": [
+        [
+            -122.313659,
+            37.665375
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6059,
+                0.0236220472441
+            ],
+            [
+                6059,
+                0.0236220472441
+            ]
+        ]
+    ]
 }

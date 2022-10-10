@@ -5,7 +5,33 @@
     "email": "tinadelacruz@gmail.com",
     "birthdate": "1987-11-05",
     "phone": "001-871-139-8569",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        69,
+        63,
+        6,
+        4,
+        20,
+        66,
+        1,
+        72
+    ],
+    "login locations": [
+        [
+            -122.145018,
+            37.415333
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                599,
+                0.01
+            ],
+            [
+                31294,
+                0.0714285714286
+            ]
+        ]
+    ]
 }

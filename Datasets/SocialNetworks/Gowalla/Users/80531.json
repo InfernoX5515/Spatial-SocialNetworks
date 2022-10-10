@@ -5,7 +5,16 @@
     "email": "lholmes@yahoo.com",
     "birthdate": "1952-01-18",
     "phone": "529.032.0163x912",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        42,
+        25
+    ],
+    "login locations": [
+        [
+            -117.626693,
+            33.892668
+        ]
+    ],
+    "relationships": []
 }

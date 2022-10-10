@@ -5,7 +5,28 @@
     "email": "charles51@hotmail.com",
     "birthdate": "1961-03-01",
     "phone": "001-847-556-9429x511",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        6,
+        36,
+        49,
+        72,
+        50,
+        40,
+        8,
+        4,
+        42,
+        28,
+        15,
+        9,
+        42,
+        15
+    ],
+    "login locations": [
+        [
+            -118.424838,
+            34.099524
+        ]
+    ],
+    "relationships": []
 }

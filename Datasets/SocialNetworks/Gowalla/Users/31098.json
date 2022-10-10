@@ -5,7 +5,18 @@
     "email": "hickmansteven@hotmail.com",
     "birthdate": "2000-08-07",
     "phone": "001-983-964-6515x92450",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        74,
+        20,
+        31,
+        58
+    ],
+    "login locations": [
+        [
+            -122.395053,
+            37.774486
+        ]
+    ],
+    "relationships": []
 }

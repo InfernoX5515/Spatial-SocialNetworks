@@ -5,7 +5,26 @@
     "email": "osmith@hotmail.com",
     "birthdate": "1955-05-30",
     "phone": "949-473-1478",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        34
+    ],
+    "login locations": [
+        [
+            -118.334975,
+            34.166023
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53509,
+                0.021978021978
+            ],
+            [
+                53509,
+                0.021978021978
+            ]
+        ]
+    ]
 }

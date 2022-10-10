@@ -5,7 +5,21 @@
     "email": "jamesschmitt@hotmail.com",
     "birthdate": "2004-06-11",
     "phone": "+1-522-978-4790x527",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        39,
+        57,
+        12,
+        37,
+        42,
+        7,
+        32
+    ],
+    "login locations": [
+        [
+            -122.334309,
+            37.789147
+        ]
+    ],
+    "relationships": []
 }

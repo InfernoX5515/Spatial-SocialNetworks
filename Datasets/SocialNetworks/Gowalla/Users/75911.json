@@ -5,7 +5,16 @@
     "email": "rmitchell@yahoo.com",
     "birthdate": "1993-03-22",
     "phone": "(797)802-8190x31155",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        40,
+        60
+    ],
+    "login locations": [
+        [
+            -122.388236,
+            37.782204
+        ]
+    ],
+    "relationships": []
 }

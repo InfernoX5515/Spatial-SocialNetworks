@@ -5,7 +5,32 @@
     "email": "toddarnold@gmail.com",
     "birthdate": "1923-07-29",
     "phone": "914.503.5631",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        7,
+        51,
+        29,
+        3,
+        31,
+        34,
+        35
+    ],
+    "login locations": [
+        [
+            -118.288154,
+            34.061816
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4829,
+                0.0566037735849
+            ],
+            [
+                4829,
+                0.0566037735849
+            ]
+        ]
+    ]
 }

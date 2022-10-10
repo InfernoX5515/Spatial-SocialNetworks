@@ -5,7 +5,24 @@
     "email": "timothy02@hotmail.com",
     "birthdate": "1997-08-16",
     "phone": "+1-821-153-2614",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        3,
+        25,
+        62,
+        23,
+        66,
+        40,
+        70,
+        32,
+        28,
+        57
+    ],
+    "login locations": [
+        [
+            -122.655382,
+            38.254388
+        ]
+    ],
+    "relationships": []
 }

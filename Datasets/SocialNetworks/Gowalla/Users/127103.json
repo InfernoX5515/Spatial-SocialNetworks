@@ -5,7 +5,35 @@
     "email": "zhardy@gmail.com",
     "birthdate": "1930-07-27",
     "phone": "001-263-946-4822x4070",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        43,
+        34,
+        39,
+        37,
+        30,
+        9,
+        34,
+        34,
+        36,
+        59
+    ],
+    "login locations": [
+        [
+            -117.810663,
+            33.951537
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                127105,
+                0.125
+            ],
+            [
+                127105,
+                0.125
+            ]
+        ]
+    ]
 }

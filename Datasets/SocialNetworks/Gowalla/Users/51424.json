@@ -5,7 +5,27 @@
     "email": "sydneywest@yahoo.com",
     "birthdate": "1929-07-16",
     "phone": "+1-545-825-6643",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        18,
+        34
+    ],
+    "login locations": [
+        [
+            -121.93603,
+            37.208392
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39453,
+                0.01
+            ],
+            [
+                39453,
+                0.01
+            ]
+        ]
+    ]
 }

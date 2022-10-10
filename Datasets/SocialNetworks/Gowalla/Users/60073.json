@@ -5,7 +5,24 @@
     "email": "yvette05@gmail.com",
     "birthdate": "2003-11-23",
     "phone": "(701)380-7810x436",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        28,
+        29,
+        67,
+        49,
+        29,
+        0,
+        7,
+        10,
+        24,
+        7
+    ],
+    "login locations": [
+        [
+            -121.267978,
+            38.574128
+        ]
+    ],
+    "relationships": []
 }

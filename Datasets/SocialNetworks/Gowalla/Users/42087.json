@@ -5,7 +5,12 @@
     "email": "mendozaryan@yahoo.com",
     "birthdate": "1917-08-25",
     "phone": "905.846.3814x5597",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.395951,
+            37.75058
+        ]
+    ],
+    "relationships": []
 }

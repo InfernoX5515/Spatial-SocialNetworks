@@ -5,7 +5,28 @@
     "email": "rachel73@hotmail.com",
     "birthdate": "1990-02-10",
     "phone": "(519)386-9393x2530",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        44,
+        56,
+        5,
+        47,
+        67,
+        66,
+        23,
+        43,
+        39,
+        42,
+        15,
+        49,
+        21,
+        52
+    ],
+    "login locations": [
+        [
+            -121.269947,
+            38.762783
+        ]
+    ],
+    "relationships": []
 }

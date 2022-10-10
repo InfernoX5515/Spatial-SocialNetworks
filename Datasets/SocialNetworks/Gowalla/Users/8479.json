@@ -5,7 +5,17 @@
     "email": "nicholas45@hotmail.com",
     "birthdate": "1973-02-10",
     "phone": "976.008.3822",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        39,
+        71,
+        4
+    ],
+    "login locations": [
+        [
+            -121.976018,
+            37.327299
+        ]
+    ],
+    "relationships": []
 }

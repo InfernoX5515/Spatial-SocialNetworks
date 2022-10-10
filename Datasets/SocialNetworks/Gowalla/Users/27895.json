@@ -5,7 +5,23 @@
     "email": "tmartin@hotmail.com",
     "birthdate": "1925-05-24",
     "phone": "001-040-958-6666x812",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        55,
+        46,
+        7,
+        30,
+        8,
+        27,
+        19,
+        37,
+        56
+    ],
+    "login locations": [
+        [
+            -117.799509,
+            33.932276
+        ]
+    ],
+    "relationships": []
 }

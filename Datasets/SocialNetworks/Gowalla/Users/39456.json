@@ -5,7 +5,23 @@
     "email": "vowens@hotmail.com",
     "birthdate": "1968-01-31",
     "phone": "(813)870-1062",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        62,
+        61,
+        74,
+        48,
+        18,
+        34,
+        60,
+        0,
+        54
+    ],
+    "login locations": [
+        [
+            -117.194204,
+            32.816286
+        ]
+    ],
+    "relationships": []
 }

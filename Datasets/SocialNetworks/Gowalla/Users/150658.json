@@ -5,7 +5,15 @@
     "email": "richard16@yahoo.com",
     "birthdate": "1971-12-24",
     "phone": "(764)234-7841",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        36
+    ],
+    "login locations": [
+        [
+            -118.845621,
+            34.231286
+        ]
+    ],
+    "relationships": []
 }

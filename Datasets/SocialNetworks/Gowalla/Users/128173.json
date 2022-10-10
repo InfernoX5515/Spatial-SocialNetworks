@@ -5,7 +5,27 @@
     "email": "michaelhoward@gmail.com",
     "birthdate": "1964-07-04",
     "phone": "901.126.5677",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        30,
+        41,
+        24,
+        27,
+        57,
+        0,
+        22,
+        41,
+        28,
+        41,
+        55,
+        20,
+        38
+    ],
+    "login locations": [
+        [
+            -118.022055,
+            33.726801
+        ]
+    ],
+    "relationships": []
 }

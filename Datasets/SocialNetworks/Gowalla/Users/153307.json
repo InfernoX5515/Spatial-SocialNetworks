@@ -5,7 +5,27 @@
     "email": "smithdiana@gmail.com",
     "birthdate": "1933-11-05",
     "phone": "001-802-954-3141x67847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        1,
+        47,
+        7,
+        47,
+        63,
+        31,
+        29,
+        7,
+        59,
+        69,
+        6,
+        42,
+        37
+    ],
+    "login locations": [
+        [
+            -121.42531,
+            38.601155
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "megancampbell@hotmail.com",
     "birthdate": "1965-03-19",
     "phone": "(145)211-8095",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.931393,
+            37.323207
+        ]
+    ],
+    "relationships": []
 }

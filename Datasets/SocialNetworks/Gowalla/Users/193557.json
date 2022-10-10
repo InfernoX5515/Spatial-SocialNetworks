@@ -5,7 +5,26 @@
     "email": "hannahbowman@yahoo.com",
     "birthdate": "1923-02-16",
     "phone": "+1-205-373-4315x8300",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        57,
+        72,
+        15,
+        25,
+        48,
+        26,
+        73,
+        61,
+        30,
+        11,
+        60,
+        6
+    ],
+    "login locations": [
+        [
+            -122.407533,
+            37.787954
+        ]
+    ],
+    "relationships": []
 }

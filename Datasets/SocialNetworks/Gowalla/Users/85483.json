@@ -5,7 +5,17 @@
     "email": "epetersen@yahoo.com",
     "birthdate": "1960-09-14",
     "phone": "+1-998-055-7557",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        28,
+        74,
+        11
+    ],
+    "login locations": [
+        [
+            -121.47584,
+            38.573822
+        ]
+    ],
+    "relationships": []
 }

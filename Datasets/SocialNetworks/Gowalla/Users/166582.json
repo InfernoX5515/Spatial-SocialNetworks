@@ -5,7 +5,17 @@
     "email": "steve64@gmail.com",
     "birthdate": "2021-04-08",
     "phone": "224.183.6534x4495",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        51,
+        49,
+        41
+    ],
+    "login locations": [
+        [
+            -117.685145,
+            33.647734
+        ]
+    ],
+    "relationships": []
 }

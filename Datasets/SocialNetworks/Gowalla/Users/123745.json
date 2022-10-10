@@ -5,7 +5,15 @@
     "email": "garciamegan@hotmail.com",
     "birthdate": "1963-03-10",
     "phone": "0762131528",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        54
+    ],
+    "login locations": [
+        [
+            -122.434643,
+            37.886866
+        ]
+    ],
+    "relationships": []
 }

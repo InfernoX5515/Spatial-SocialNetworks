@@ -5,7 +5,21 @@
     "email": "ddavis@hotmail.com",
     "birthdate": "1914-05-11",
     "phone": "001-403-531-5283x15938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        75,
+        28,
+        21,
+        12,
+        19,
+        58,
+        71
+    ],
+    "login locations": [
+        [
+            -121.936506,
+            37.288269
+        ]
+    ],
+    "relationships": []
 }

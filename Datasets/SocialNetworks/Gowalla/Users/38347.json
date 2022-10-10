@@ -5,7 +5,28 @@
     "email": "johnsoncindy@yahoo.com",
     "birthdate": "2002-09-02",
     "phone": "(369)527-3614x23774",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        49,
+        40,
+        22,
+        32,
+        58,
+        42,
+        45,
+        44,
+        8,
+        5,
+        58,
+        53,
+        73,
+        18
+    ],
+    "login locations": [
+        [
+            -117.083056,
+            32.772554
+        ]
+    ],
+    "relationships": []
 }

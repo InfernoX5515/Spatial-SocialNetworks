@@ -5,7 +5,30 @@
     "email": "miguelwhite@gmail.com",
     "birthdate": "2003-04-11",
     "phone": "(751)534-4031x0663",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        45,
+        29,
+        52,
+        1,
+        11
+    ],
+    "login locations": [
+        [
+            -118.356762,
+            34.062412
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                158,
+                0.0422535211268
+            ],
+            [
+                355,
+                0.0218181818182
+            ]
+        ]
+    ]
 }

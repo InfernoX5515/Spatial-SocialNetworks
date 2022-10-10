@@ -5,7 +5,24 @@
     "email": "pforbes@yahoo.com",
     "birthdate": "1958-10-16",
     "phone": "899.616.1329x866",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        3,
+        71,
+        67,
+        56,
+        54,
+        19,
+        34,
+        34,
+        44,
+        3
+    ],
+    "login locations": [
+        [
+            -121.945341,
+            37.290493
+        ]
+    ],
+    "relationships": []
 }

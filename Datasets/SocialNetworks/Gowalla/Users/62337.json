@@ -5,7 +5,28 @@
     "email": "lindsey14@hotmail.com",
     "birthdate": "1936-11-09",
     "phone": "370-577-5079",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        16,
+        41,
+        75,
+        45,
+        43,
+        39,
+        61,
+        65,
+        71,
+        75,
+        8,
+        69,
+        70,
+        69
+    ],
+    "login locations": [
+        [
+            -122.450203,
+            37.709131
+        ]
+    ],
+    "relationships": []
 }

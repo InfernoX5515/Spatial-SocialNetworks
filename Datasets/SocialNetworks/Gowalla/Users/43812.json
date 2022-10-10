@@ -5,7 +5,31 @@
     "email": "npadilla@hotmail.com",
     "birthdate": "1931-01-16",
     "phone": "(023)561-5243x7842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        42,
+        35,
+        50,
+        26,
+        50,
+        4
+    ],
+    "login locations": [
+        [
+            -122.502966,
+            37.732881
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1027,
+                0.0622222222222
+            ],
+            [
+                8679,
+                0.0285714285714
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "sonyaanderson@yahoo.com",
     "birthdate": "1955-02-15",
     "phone": "309-982-2936",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        22,
+        51,
+        36,
+        71,
+        15,
+        75,
+        16,
+        22,
+        41,
+        39
+    ],
+    "login locations": [
+        [
+            -122.394639,
+            37.780537
+        ]
+    ],
+    "relationships": []
 }

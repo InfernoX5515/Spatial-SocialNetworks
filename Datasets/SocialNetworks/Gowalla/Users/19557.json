@@ -5,7 +5,24 @@
     "email": "bennettglen@hotmail.com",
     "birthdate": "1961-05-05",
     "phone": "(469)294-8246x223",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        33,
+        5,
+        14,
+        60,
+        40,
+        57,
+        12,
+        24,
+        43,
+        34
+    ],
+    "login locations": [
+        [
+            -121.329914,
+            37.990407
+        ]
+    ],
+    "relationships": []
 }

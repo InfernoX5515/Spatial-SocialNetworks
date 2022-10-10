@@ -5,7 +5,17 @@
     "email": "raymondmargaret@yahoo.com",
     "birthdate": "1931-02-03",
     "phone": "(683)995-1273x3169",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        38,
+        28,
+        68
+    ],
+    "login locations": [
+        [
+            -122.544819,
+            38.00479
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "zcole@hotmail.com",
     "birthdate": "1996-07-21",
     "phone": "(156)189-8246",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        44,
+        45,
+        67
+    ],
+    "login locations": [
+        [
+            -117.875221,
+            33.836032
+        ]
+    ],
+    "relationships": []
 }

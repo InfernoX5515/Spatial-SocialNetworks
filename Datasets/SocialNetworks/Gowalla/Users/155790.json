@@ -5,7 +5,24 @@
     "email": "stephanie92@yahoo.com",
     "birthdate": "1931-04-20",
     "phone": "001-016-124-9415x473",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        37,
+        16,
+        43,
+        36,
+        25,
+        62,
+        4,
+        1,
+        45,
+        13
+    ],
+    "login locations": [
+        [
+            -121.961612,
+            37.111754
+        ]
+    ],
+    "relationships": []
 }

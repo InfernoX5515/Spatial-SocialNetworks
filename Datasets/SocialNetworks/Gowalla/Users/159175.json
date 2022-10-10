@@ -5,7 +5,17 @@
     "email": "nortiz@gmail.com",
     "birthdate": "1999-09-08",
     "phone": "(050)743-6243",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        5,
+        27,
+        31
+    ],
+    "login locations": [
+        [
+            -122.162834,
+            37.444669
+        ]
+    ],
+    "relationships": []
 }

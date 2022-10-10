@@ -5,7 +5,25 @@
     "email": "amber07@hotmail.com",
     "birthdate": "1972-02-10",
     "phone": "(368)175-8603x53077",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        38,
+        13,
+        47,
+        55,
+        52,
+        68,
+        40,
+        72,
+        66,
+        26,
+        9
+    ],
+    "login locations": [
+        [
+            -117.727576,
+            33.567065
+        ]
+    ],
+    "relationships": []
 }

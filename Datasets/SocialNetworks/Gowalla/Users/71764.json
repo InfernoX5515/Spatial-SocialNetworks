@@ -5,7 +5,25 @@
     "email": "gary89@yahoo.com",
     "birthdate": "2005-09-11",
     "phone": "153.367.0431",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39
+    ],
+    "login locations": [
+        [
+            -122.037036,
+            37.314344
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4396,
+                0.01
+            ],
+            [
+                4396,
+                0.01
+            ]
+        ]
+    ]
 }

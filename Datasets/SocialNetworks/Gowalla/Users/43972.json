@@ -5,7 +5,15 @@
     "email": "jill29@hotmail.com",
     "birthdate": "1964-09-25",
     "phone": "001-018-846-4104x447",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        46
+    ],
+    "login locations": [
+        [
+            -121.888958,
+            36.620395
+        ]
+    ],
+    "relationships": []
 }

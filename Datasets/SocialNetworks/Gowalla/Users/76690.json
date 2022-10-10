@@ -5,7 +5,18 @@
     "email": "fdelacruz@hotmail.com",
     "birthdate": "1966-11-19",
     "phone": "327-844-1300x12956",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        21,
+        56,
+        62,
+        67
+    ],
+    "login locations": [
+        [
+            -122.339535,
+            37.805911
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "cervantesamy@hotmail.com",
     "birthdate": "1966-05-03",
     "phone": "130.834.5319x809",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        58,
+        9,
+        38,
+        0,
+        74,
+        16,
+        71,
+        15,
+        29,
+        57,
+        33,
+        61,
+        71
+    ],
+    "login locations": [
+        [
+            -122.292356,
+            37.824453
+        ]
+    ],
+    "relationships": []
 }

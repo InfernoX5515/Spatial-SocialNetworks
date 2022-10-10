@@ -5,7 +5,27 @@
     "email": "williammcbride@gmail.com",
     "birthdate": "1985-05-26",
     "phone": "+1-616-058-1859",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        11,
+        66,
+        37,
+        22,
+        23,
+        64,
+        51,
+        1,
+        24,
+        73,
+        13,
+        62,
+        54
+    ],
+    "login locations": [
+        [
+            -122.397151,
+            37.777387
+        ]
+    ],
+    "relationships": []
 }

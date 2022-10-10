@@ -5,7 +5,25 @@
     "email": "ochoabrenda@yahoo.com",
     "birthdate": "2014-11-12",
     "phone": "983-720-8515",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        20,
+        22,
+        5,
+        69,
+        42,
+        9,
+        56,
+        66,
+        6,
+        70,
+        59
+    ],
+    "login locations": [
+        [
+            -117.113594,
+            33.000401
+        ]
+    ],
+    "relationships": []
 }

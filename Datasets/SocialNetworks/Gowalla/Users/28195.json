@@ -5,7 +5,23 @@
     "email": "theresa45@hotmail.com",
     "birthdate": "1994-12-29",
     "phone": "6758453432",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        15,
+        20,
+        30,
+        35,
+        46,
+        75,
+        51,
+        35,
+        66
+    ],
+    "login locations": [
+        [
+            -118.375138,
+            33.933307
+        ]
+    ],
+    "relationships": []
 }

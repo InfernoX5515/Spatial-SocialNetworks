@@ -5,7 +5,18 @@
     "email": "antonio76@hotmail.com",
     "birthdate": "1949-07-16",
     "phone": "945-631-8742x335",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        28,
+        40,
+        51,
+        34
+    ],
+    "login locations": [
+        [
+            -117.180098,
+            32.793882
+        ]
+    ],
+    "relationships": []
 }

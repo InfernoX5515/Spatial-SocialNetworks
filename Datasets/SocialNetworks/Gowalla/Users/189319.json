@@ -5,7 +5,21 @@
     "email": "tracy79@yahoo.com",
     "birthdate": "1918-02-02",
     "phone": "139.002.3115x539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        2,
+        63,
+        18,
+        10,
+        71,
+        16,
+        39
+    ],
+    "login locations": [
+        [
+            -122.292941,
+            38.028181
+        ]
+    ],
+    "relationships": []
 }

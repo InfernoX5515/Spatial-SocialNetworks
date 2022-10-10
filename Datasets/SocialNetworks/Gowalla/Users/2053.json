@@ -5,7 +5,33 @@
     "email": "judykennedy@gmail.com",
     "birthdate": "1971-08-28",
     "phone": "874-930-7431",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        16,
+        32,
+        15,
+        12,
+        20,
+        32,
+        41,
+        52
+    ],
+    "login locations": [
+        [
+            -117.991867,
+            33.889354
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1991,
+                0.01
+            ],
+            [
+                2320,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "xjenkins@gmail.com",
     "birthdate": "1930-09-24",
     "phone": "768.926.1459x7731",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        31,
+        50,
+        51,
+        30,
+        16,
+        41,
+        73,
+        27,
+        57,
+        39,
+        4
+    ],
+    "login locations": [
+        [
+            -122.405542,
+            37.771864
+        ]
+    ],
+    "relationships": []
 }

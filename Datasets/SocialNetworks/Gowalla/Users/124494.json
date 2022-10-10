@@ -5,7 +5,26 @@
     "email": "joe30@gmail.com",
     "birthdate": "1953-02-16",
     "phone": "187-538-9923x60263",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        54
+    ],
+    "login locations": [
+        [
+            -121.88088,
+            37.299883
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39037,
+                0.01
+            ],
+            [
+                39037,
+                0.01
+            ]
+        ]
+    ]
 }

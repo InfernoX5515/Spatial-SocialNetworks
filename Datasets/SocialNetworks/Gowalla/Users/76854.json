@@ -5,7 +5,17 @@
     "email": "meyerjason@yahoo.com",
     "birthdate": "1957-09-26",
     "phone": "001-671-876-7596x99860",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        48,
+        10,
+        66
+    ],
+    "login locations": [
+        [
+            -118.314319,
+            34.001366
+        ]
+    ],
+    "relationships": []
 }

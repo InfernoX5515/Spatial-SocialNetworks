@@ -5,7 +5,18 @@
     "email": "oanderson@hotmail.com",
     "birthdate": "1981-10-05",
     "phone": "001-374-589-3090x340",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        1,
+        25,
+        30,
+        65
+    ],
+    "login locations": [
+        [
+            -117.709605,
+            33.977144
+        ]
+    ],
+    "relationships": []
 }

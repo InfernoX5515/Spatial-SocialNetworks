@@ -5,7 +5,20 @@
     "email": "uwarner@hotmail.com",
     "birthdate": "2006-08-07",
     "phone": "001-243-587-2755x06864",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        30,
+        12,
+        53,
+        1,
+        24,
+        59
+    ],
+    "login locations": [
+        [
+            -121.943109,
+            37.286358
+        ]
+    ],
+    "relationships": []
 }

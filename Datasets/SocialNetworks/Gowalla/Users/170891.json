@@ -5,7 +5,14 @@
     "email": "scarter@yahoo.com",
     "birthdate": "2017-12-01",
     "phone": "589.167.0844x2598",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64
+    ],
+    "login locations": [
+        [
+            -117.230309,
+            32.814724
+        ]
+    ],
+    "relationships": []
 }

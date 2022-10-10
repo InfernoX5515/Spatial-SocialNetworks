@@ -5,7 +5,37 @@
     "email": "williamsmargaret@yahoo.com",
     "birthdate": "1954-03-31",
     "phone": "+1-988-944-1967",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        45,
+        1,
+        27,
+        71,
+        63,
+        26,
+        56,
+        49,
+        36,
+        53,
+        11,
+        62
+    ],
+    "login locations": [
+        [
+            -118.301903,
+            34.119004
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39493,
+                0.01
+            ],
+            [
+                39493,
+                0.01
+            ]
+        ]
+    ]
 }

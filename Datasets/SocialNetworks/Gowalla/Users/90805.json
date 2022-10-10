@@ -5,7 +5,17 @@
     "email": "floresantonio@yahoo.com",
     "birthdate": "1996-11-02",
     "phone": "873.772.9791x266",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        8,
+        69,
+        61
+    ],
+    "login locations": [
+        [
+            -118.142125,
+            33.875602
+        ]
+    ],
+    "relationships": []
 }

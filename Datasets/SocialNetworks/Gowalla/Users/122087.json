@@ -5,7 +5,16 @@
     "email": "asnow@hotmail.com",
     "birthdate": "1935-12-10",
     "phone": "+1-265-939-9473x53166",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        38,
+        63
+    ],
+    "login locations": [
+        [
+            -122.435081,
+            37.761055
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "ldeleon@gmail.com",
     "birthdate": "2016-05-14",
     "phone": "(281)745-4932x671",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        12,
+        15,
+        34,
+        65,
+        70,
+        74,
+        5,
+        34
+    ],
+    "login locations": [
+        [
+            -122.051624,
+            37.549081
+        ]
+    ],
+    "relationships": []
 }

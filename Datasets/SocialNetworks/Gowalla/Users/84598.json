@@ -5,7 +5,27 @@
     "email": "molly27@hotmail.com",
     "birthdate": "2010-06-28",
     "phone": "001-564-025-3136x4028",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        31,
+        51,
+        41,
+        61,
+        59,
+        13,
+        60,
+        47,
+        14,
+        10,
+        25,
+        4,
+        31
+    ],
+    "login locations": [
+        [
+            -121.893139,
+            37.334619
+        ]
+    ],
+    "relationships": []
 }

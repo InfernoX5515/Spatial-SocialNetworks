@@ -5,7 +5,21 @@
     "email": "rossadams@yahoo.com",
     "birthdate": "1908-11-03",
     "phone": "590.896.3459",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        64,
+        25,
+        55,
+        29,
+        75,
+        3,
+        75
+    ],
+    "login locations": [
+        [
+            -122.054035,
+            37.382236
+        ]
+    ],
+    "relationships": []
 }

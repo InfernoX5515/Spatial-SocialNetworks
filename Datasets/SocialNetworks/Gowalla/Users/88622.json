@@ -5,7 +5,27 @@
     "email": "watkinsryan@yahoo.com",
     "birthdate": "1968-08-20",
     "phone": "131-243-4840x567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        7,
+        47,
+        61,
+        28,
+        0,
+        66,
+        0,
+        58,
+        39,
+        13,
+        11,
+        49,
+        43
+    ],
+    "login locations": [
+        [
+            -122.428796,
+            37.769166
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "garciaanthony@yahoo.com",
     "birthdate": "1917-03-01",
     "phone": "(959)930-7534x895",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15
+    ],
+    "login locations": [
+        [
+            -122.023947,
+            37.332956
+        ]
+    ],
+    "relationships": []
 }

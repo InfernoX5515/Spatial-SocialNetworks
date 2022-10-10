@@ -5,7 +5,25 @@
     "email": "awarren@hotmail.com",
     "birthdate": "1994-01-11",
     "phone": "727-348-6694x582",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        41,
+        45,
+        33,
+        21,
+        68,
+        43,
+        35,
+        7,
+        18,
+        57,
+        28
+    ],
+    "login locations": [
+        [
+            -117.770337,
+            34.099625
+        ]
+    ],
+    "relationships": []
 }

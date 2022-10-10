@@ -5,7 +5,23 @@
     "email": "ericmartinez@yahoo.com",
     "birthdate": "1993-09-06",
     "phone": "001-005-924-2847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        53,
+        72,
+        47,
+        47,
+        58,
+        73,
+        50,
+        31,
+        8
+    ],
+    "login locations": [
+        [
+            -117.759779,
+            33.680089
+        ]
+    ],
+    "relationships": []
 }

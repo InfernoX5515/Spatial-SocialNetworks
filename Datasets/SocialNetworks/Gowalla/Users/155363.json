@@ -5,7 +5,16 @@
     "email": "ashley26@gmail.com",
     "birthdate": "1953-12-16",
     "phone": "+1-963-221-8526x055",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        71,
+        45
+    ],
+    "login locations": [
+        [
+            -118.208489,
+            34.113626
+        ]
+    ],
+    "relationships": []
 }

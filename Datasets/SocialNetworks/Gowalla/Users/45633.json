@@ -5,7 +5,31 @@
     "email": "bryan36@yahoo.com",
     "birthdate": "1978-09-19",
     "phone": "491.299.2535",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        69,
+        8,
+        19,
+        16,
+        42,
+        50
+    ],
+    "login locations": [
+        [
+            -118.155566,
+            34.607068
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                139216,
+                0.01
+            ],
+            [
+                139216,
+                0.01
+            ]
+        ]
+    ]
 }

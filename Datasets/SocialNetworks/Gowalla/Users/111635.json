@@ -5,7 +5,16 @@
     "email": "michaelharris@hotmail.com",
     "birthdate": "1941-05-03",
     "phone": "198.921.9764",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        25,
+        39
+    ],
+    "login locations": [
+        [
+            -122.418369,
+            37.750716
+        ]
+    ],
+    "relationships": []
 }

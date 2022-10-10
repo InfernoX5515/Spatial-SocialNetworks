@@ -5,7 +5,28 @@
     "email": "smithlaura@hotmail.com",
     "birthdate": "1974-09-13",
     "phone": "+1-608-195-3689x3273",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        51,
+        1,
+        7,
+        30,
+        29,
+        73,
+        28,
+        37,
+        67,
+        1,
+        27,
+        63,
+        51,
+        11
+    ],
+    "login locations": [
+        [
+            -122.397835,
+            37.773926
+        ]
+    ],
+    "relationships": []
 }

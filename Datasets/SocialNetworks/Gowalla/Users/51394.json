@@ -5,7 +5,17 @@
     "email": "ptyler@gmail.com",
     "birthdate": "1914-01-31",
     "phone": "389.911.6490x8881",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        37,
+        5,
+        6
+    ],
+    "login locations": [
+        [
+            -121.331842,
+            38.008431
+        ]
+    ],
+    "relationships": []
 }

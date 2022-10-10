@@ -5,7 +5,33 @@
     "email": "kellyjennings@hotmail.com",
     "birthdate": "1945-10-05",
     "phone": "(031)094-2031x355",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        52,
+        68,
+        12,
+        33,
+        74,
+        6,
+        65,
+        52
+    ],
+    "login locations": [
+        [
+            -117.842438,
+            33.668527
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11037,
+                0.01
+            ],
+            [
+                11037,
+                0.01
+            ]
+        ]
+    ]
 }

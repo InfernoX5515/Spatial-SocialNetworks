@@ -5,7 +5,24 @@
     "email": "olivingston@hotmail.com",
     "birthdate": "1953-10-03",
     "phone": "(692)079-6200x267",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        64,
+        34,
+        52,
+        39,
+        6,
+        7,
+        45,
+        37,
+        7,
+        51
+    ],
+    "login locations": [
+        [
+            -117.925537,
+            33.942671
+        ]
+    ],
+    "relationships": []
 }

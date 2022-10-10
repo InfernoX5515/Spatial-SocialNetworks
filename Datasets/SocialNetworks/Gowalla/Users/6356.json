@@ -5,7 +5,28 @@
     "email": "jbullock@gmail.com",
     "birthdate": "1994-05-31",
     "phone": "172.519.1231",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        24,
+        45,
+        31
+    ],
+    "login locations": [
+        [
+            -122.031252,
+            37.349097
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.016
+            ],
+            [
+                158,
+                0.0140845070423
+            ]
+        ]
+    ]
 }

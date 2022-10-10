@@ -5,7 +5,33 @@
     "email": "jgonzalez@yahoo.com",
     "birthdate": "1934-03-20",
     "phone": "001-768-010-1864x52773",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        69,
+        37,
+        74,
+        11,
+        57,
+        56,
+        2,
+        16
+    ],
+    "login locations": [
+        [
+            -122.406133,
+            37.77461
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4614,
+                0.328859060403
+            ],
+            [
+                4614,
+                0.328859060403
+            ]
+        ]
+    ]
 }

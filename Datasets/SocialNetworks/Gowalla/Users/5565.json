@@ -5,7 +5,14 @@
     "email": "ericcamacho@hotmail.com",
     "birthdate": "2009-11-21",
     "phone": "012-170-4325",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54
+    ],
+    "login locations": [
+        [
+            -122.422603,
+            37.764885
+        ]
+    ],
+    "relationships": []
 }

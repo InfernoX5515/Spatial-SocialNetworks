@@ -5,7 +5,21 @@
     "email": "melissa84@gmail.com",
     "birthdate": "1910-02-25",
     "phone": "423-799-1364",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        48,
+        14,
+        56,
+        38,
+        16,
+        48,
+        10
+    ],
+    "login locations": [
+        [
+            -117.937956,
+            33.823699
+        ]
+    ],
+    "relationships": []
 }

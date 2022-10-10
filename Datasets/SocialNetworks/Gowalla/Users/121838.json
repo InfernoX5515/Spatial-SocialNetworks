@@ -5,7 +5,17 @@
     "email": "perkinsjohn@gmail.com",
     "birthdate": "2012-02-16",
     "phone": "106-400-3623x8796",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        14,
+        5,
+        28
+    ],
+    "login locations": [
+        [
+            -117.143852,
+            32.742959
+        ]
+    ],
+    "relationships": []
 }

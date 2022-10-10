@@ -5,7 +5,17 @@
     "email": "bethanyacosta@yahoo.com",
     "birthdate": "1978-09-03",
     "phone": "978.656.8361x376",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        23,
+        5,
+        14
+    ],
+    "login locations": [
+        [
+            -121.894019,
+            37.336118
+        ]
+    ],
+    "relationships": []
 }

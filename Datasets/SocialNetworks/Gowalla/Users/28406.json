@@ -5,7 +5,17 @@
     "email": "ryanjohn@hotmail.com",
     "birthdate": "1913-12-26",
     "phone": "287.047.3012",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        46,
+        8,
+        10
+    ],
+    "login locations": [
+        [
+            -122.295562,
+            37.595471
+        ]
+    ],
+    "relationships": []
 }

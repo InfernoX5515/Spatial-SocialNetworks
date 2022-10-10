@@ -5,7 +5,20 @@
     "email": "lori64@yahoo.com",
     "birthdate": "1965-01-19",
     "phone": "416-030-6688x960",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        3,
+        7,
+        25,
+        74,
+        46,
+        38
+    ],
+    "login locations": [
+        [
+            -114.601823,
+            35.059752
+        ]
+    ],
+    "relationships": []
 }

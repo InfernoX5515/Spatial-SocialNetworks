@@ -5,7 +5,22 @@
     "email": "nathan30@gmail.com",
     "birthdate": "1952-09-12",
     "phone": "+1-904-841-7407x453",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        52,
+        43,
+        18,
+        61,
+        27,
+        7,
+        55,
+        13
+    ],
+    "login locations": [
+        [
+            -122.35474,
+            37.635448
+        ]
+    ],
+    "relationships": []
 }

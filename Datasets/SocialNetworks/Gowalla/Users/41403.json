@@ -5,7 +5,27 @@
     "email": "wjohnson@hotmail.com",
     "birthdate": "2022-08-02",
     "phone": "8337100965",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        34,
+        26
+    ],
+    "login locations": [
+        [
+            -122.445097,
+            37.864093
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                850,
+                0.0133333333333
+            ],
+            [
+                850,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

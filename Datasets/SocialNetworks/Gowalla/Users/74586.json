@@ -5,7 +5,16 @@
     "email": "santiagobrandy@yahoo.com",
     "birthdate": "1987-12-11",
     "phone": "664-774-0021",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        74,
+        46
+    ],
+    "login locations": [
+        [
+            -122.201113,
+            37.671222
+        ]
+    ],
+    "relationships": []
 }

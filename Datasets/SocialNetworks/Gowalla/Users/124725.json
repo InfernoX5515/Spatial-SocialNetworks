@@ -5,7 +5,19 @@
     "email": "christine04@gmail.com",
     "birthdate": "1920-05-30",
     "phone": "(487)728-1590x513",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        71,
+        5,
+        33,
+        36,
+        14
+    ],
+    "login locations": [
+        [
+            -118.291673,
+            33.926394
+        ]
+    ],
+    "relationships": []
 }

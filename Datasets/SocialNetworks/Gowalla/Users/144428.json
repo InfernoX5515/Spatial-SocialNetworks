@@ -5,7 +5,25 @@
     "email": "csmith@hotmail.com",
     "birthdate": "1976-01-23",
     "phone": "+1-553-665-9689x721",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        30,
+        35,
+        5,
+        22,
+        31,
+        11,
+        29,
+        35,
+        75,
+        43,
+        26
+    ],
+    "login locations": [
+        [
+            -118.112613,
+            34.01224
+        ]
+    ],
+    "relationships": []
 }

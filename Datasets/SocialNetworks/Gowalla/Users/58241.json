@@ -5,7 +5,27 @@
     "email": "margaretcook@yahoo.com",
     "birthdate": "1990-04-06",
     "phone": "868-857-0699",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        17,
+        69,
+        44,
+        33,
+        35,
+        40,
+        1,
+        30,
+        34,
+        74,
+        35,
+        14,
+        35
+    ],
+    "login locations": [
+        [
+            -118.130337,
+            33.926471
+        ]
+    ],
+    "relationships": []
 }

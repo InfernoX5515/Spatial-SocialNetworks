@@ -5,7 +5,16 @@
     "email": "inovak@hotmail.com",
     "birthdate": "2005-04-23",
     "phone": "171.066.8218x0927",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        70,
+        68
+    ],
+    "login locations": [
+        [
+            -121.40626,
+            38.600731
+        ]
+    ],
+    "relationships": []
 }

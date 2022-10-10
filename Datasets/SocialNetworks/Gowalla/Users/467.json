@@ -5,7 +5,26 @@
     "email": "tammysmith@gmail.com",
     "birthdate": "1963-02-09",
     "phone": "001-681-661-2013",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        58,
+        6,
+        39,
+        35,
+        35,
+        67,
+        26,
+        30,
+        64,
+        2,
+        30,
+        41
+    ],
+    "login locations": [
+        [
+            -122.417623,
+            37.767149
+        ]
+    ],
+    "relationships": []
 }

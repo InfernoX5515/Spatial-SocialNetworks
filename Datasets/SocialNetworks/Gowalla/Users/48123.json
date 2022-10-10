@@ -5,7 +5,22 @@
     "email": "harringtonbrandon@yahoo.com",
     "birthdate": "1983-10-08",
     "phone": "(624)458-1229x14258",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        52,
+        20,
+        63,
+        13,
+        66,
+        18,
+        11,
+        66
+    ],
+    "login locations": [
+        [
+            -121.472387,
+            38.574691
+        ]
+    ],
+    "relationships": []
 }

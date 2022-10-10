@@ -5,7 +5,22 @@
     "email": "margaretthomas@gmail.com",
     "birthdate": "1959-08-04",
     "phone": "548-483-0042x00802",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        46,
+        25,
+        30,
+        74,
+        62,
+        7,
+        61,
+        53
+    ],
+    "login locations": [
+        [
+            -118.463167,
+            34.062854
+        ]
+    ],
+    "relationships": []
 }

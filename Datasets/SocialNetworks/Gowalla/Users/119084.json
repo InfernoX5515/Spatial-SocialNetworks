@@ -5,7 +5,14 @@
     "email": "brianmorales@gmail.com",
     "birthdate": "1978-03-10",
     "phone": "+1-674-103-7102x58551",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45
+    ],
+    "login locations": [
+        [
+            -118.407383,
+            34.002062
+        ]
+    ],
+    "relationships": []
 }

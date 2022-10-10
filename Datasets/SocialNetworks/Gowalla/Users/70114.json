@@ -5,7 +5,24 @@
     "email": "sarahsosa@hotmail.com",
     "birthdate": "1992-11-11",
     "phone": "278-028-0934x51456",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        71,
+        25,
+        12,
+        10,
+        68,
+        73,
+        49,
+        45,
+        66,
+        39
+    ],
+    "login locations": [
+        [
+            -122.345505,
+            37.821808
+        ]
+    ],
+    "relationships": []
 }

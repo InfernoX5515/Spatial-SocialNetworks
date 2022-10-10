@@ -5,7 +5,26 @@
     "email": "michaelwheeler@gmail.com",
     "birthdate": "1979-12-06",
     "phone": "661-559-2261x2661",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        6,
+        73,
+        11,
+        10,
+        45,
+        47,
+        1,
+        4,
+        56,
+        53,
+        75,
+        19
+    ],
+    "login locations": [
+        [
+            -122.292429,
+            38.253405
+        ]
+    ],
+    "relationships": []
 }

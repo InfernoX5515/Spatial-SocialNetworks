@@ -5,7 +5,39 @@
     "email": "randerson@gmail.com",
     "birthdate": "1982-07-01",
     "phone": "654-475-9850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        41,
+        52,
+        19,
+        41,
+        12,
+        74,
+        70,
+        43,
+        21,
+        43,
+        72,
+        56,
+        32,
+        17
+    ],
+    "login locations": [
+        [
+            -122.439682,
+            37.777096
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                94878,
+                0.01
+            ],
+            [
+                94878,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,32 @@
     "email": "melissa33@gmail.com",
     "birthdate": "1990-06-09",
     "phone": "883-398-2067",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        69,
+        31,
+        48,
+        65,
+        55,
+        36,
+        67
+    ],
+    "login locations": [
+        [
+            -120.24778,
+            39.238768
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                25220,
+                0.08
+            ],
+            [
+                25220,
+                0.08
+            ]
+        ]
+    ]
 }

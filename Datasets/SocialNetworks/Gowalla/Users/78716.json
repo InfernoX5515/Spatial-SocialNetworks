@@ -5,7 +5,26 @@
     "email": "rebeccahodge@gmail.com",
     "birthdate": "1976-04-09",
     "phone": "+1-783-675-1533x01234",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        12
+    ],
+    "login locations": [
+        [
+            -122.315047,
+            37.561443
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6480,
+                0.01
+            ],
+            [
+                6480,
+                0.01
+            ]
+        ]
+    ]
 }

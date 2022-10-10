@@ -5,7 +5,18 @@
     "email": "michaelgonzalez@gmail.com",
     "birthdate": "1932-06-11",
     "phone": "001-307-913-4363x64403",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        75,
+        45,
+        38,
+        13
+    ],
+    "login locations": [
+        [
+            -122.279402,
+            37.829889
+        ]
+    ],
+    "relationships": []
 }

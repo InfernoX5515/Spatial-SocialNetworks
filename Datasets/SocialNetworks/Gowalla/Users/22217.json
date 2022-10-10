@@ -5,7 +5,25 @@
     "email": "lisawhite@gmail.com",
     "birthdate": "2016-08-18",
     "phone": "166.973.4911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        19,
+        6,
+        50,
+        67,
+        41,
+        15,
+        41,
+        58,
+        30,
+        44,
+        54
+    ],
+    "login locations": [
+        [
+            -122.420793,
+            37.758726
+        ]
+    ],
+    "relationships": []
 }

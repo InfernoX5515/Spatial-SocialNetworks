@@ -5,7 +5,26 @@
     "email": "shelley19@gmail.com",
     "birthdate": "1976-10-15",
     "phone": "071-274-6538x82191",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        30
+    ],
+    "login locations": [
+        [
+            -122.402422,
+            37.780925
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                158,
+                0.0704225352113
+            ],
+            [
+                355,
+                0.0145454545455
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,20 @@
     "email": "jeffreyguerra@hotmail.com",
     "birthdate": "1991-01-15",
     "phone": "302-879-8828",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        19,
+        51,
+        72,
+        41,
+        62,
+        13
+    ],
+    "login locations": [
+        [
+            -117.346588,
+            33.99374
+        ]
+    ],
+    "relationships": []
 }

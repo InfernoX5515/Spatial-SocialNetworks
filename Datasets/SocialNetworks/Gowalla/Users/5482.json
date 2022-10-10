@@ -5,7 +5,12 @@
     "email": "jillchang@yahoo.com",
     "birthdate": "2014-12-31",
     "phone": "001-622-909-5419",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.960081,
+            37.332913
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "palmerjames@yahoo.com",
     "birthdate": "1946-04-20",
     "phone": "+1-473-753-9147",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        40,
+        37,
+        48,
+        17,
+        53,
+        75,
+        69,
+        54,
+        59,
+        6,
+        73
+    ],
+    "login locations": [
+        [
+            -118.319426,
+            33.942693
+        ]
+    ],
+    "relationships": []
 }

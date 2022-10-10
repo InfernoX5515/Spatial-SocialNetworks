@@ -5,7 +5,23 @@
     "email": "wlawrence@hotmail.com",
     "birthdate": "1976-05-12",
     "phone": "190-198-7710",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        72,
+        16,
+        20,
+        14,
+        21,
+        14,
+        60,
+        49,
+        3
+    ],
+    "login locations": [
+        [
+            -118.956238,
+            35.353811
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "laura26@yahoo.com",
     "birthdate": "2011-12-08",
     "phone": "+1-028-096-9727x461",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        54,
+        37,
+        3,
+        54,
+        61,
+        35,
+        17,
+        33,
+        13,
+        22,
+        26,
+        46
+    ],
+    "login locations": [
+        [
+            -121.937641,
+            37.269777
+        ]
+    ],
+    "relationships": []
 }

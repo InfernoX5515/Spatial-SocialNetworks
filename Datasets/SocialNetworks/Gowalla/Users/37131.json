@@ -5,7 +5,17 @@
     "email": "lsullivan@yahoo.com",
     "birthdate": "1978-01-03",
     "phone": "+1-356-037-1202x0498",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        30,
+        23,
+        57
+    ],
+    "login locations": [
+        [
+            -122.151869,
+            37.41193
+        ]
+    ],
+    "relationships": []
 }

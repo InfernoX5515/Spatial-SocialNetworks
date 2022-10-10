@@ -5,7 +5,18 @@
     "email": "martinezjoshua@gmail.com",
     "birthdate": "1987-07-16",
     "phone": "001-738-386-0672x82518",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        21,
+        32,
+        27,
+        71
+    ],
+    "login locations": [
+        [
+            -122.409816,
+            37.784977
+        ]
+    ],
+    "relationships": []
 }

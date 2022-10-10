@@ -5,7 +5,28 @@
     "email": "ucervantes@gmail.com",
     "birthdate": "1936-03-04",
     "phone": "234.463.5918x32558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        36,
+        56,
+        27,
+        38,
+        17,
+        72,
+        61,
+        39,
+        16,
+        73,
+        5,
+        15,
+        74,
+        12
+    ],
+    "login locations": [
+        [
+            -122.408865,
+            37.707656
+        ]
+    ],
+    "relationships": []
 }

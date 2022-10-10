@@ -5,7 +5,26 @@
     "email": "shellyspears@hotmail.com",
     "birthdate": "1981-11-22",
     "phone": "+1-605-998-6174",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        5,
+        42,
+        24,
+        29,
+        73,
+        61,
+        10,
+        11,
+        40,
+        21,
+        36,
+        54
+    ],
+    "login locations": [
+        [
+            -117.156615,
+            32.711667
+        ]
+    ],
+    "relationships": []
 }

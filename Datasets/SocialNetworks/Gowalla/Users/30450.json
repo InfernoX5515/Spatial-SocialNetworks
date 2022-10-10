@@ -5,7 +5,16 @@
     "email": "joseph43@gmail.com",
     "birthdate": "1976-04-29",
     "phone": "389-563-5225",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        60,
+        53
+    ],
+    "login locations": [
+        [
+            -117.970069,
+            33.734346
+        ]
+    ],
+    "relationships": []
 }

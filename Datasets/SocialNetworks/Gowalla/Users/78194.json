@@ -5,7 +5,27 @@
     "email": "stacy85@gmail.com",
     "birthdate": "1924-02-19",
     "phone": "331.789.4354x920",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        38,
+        35,
+        22,
+        42,
+        52,
+        47,
+        43,
+        11,
+        59,
+        41,
+        26,
+        20,
+        35
+    ],
+    "login locations": [
+        [
+            -122.44925,
+            37.688769
+        ]
+    ],
+    "relationships": []
 }

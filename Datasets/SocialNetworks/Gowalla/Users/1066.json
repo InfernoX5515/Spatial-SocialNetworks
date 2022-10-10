@@ -5,7 +5,25 @@
     "email": "johnsonjacob@gmail.com",
     "birthdate": "2008-09-04",
     "phone": "6510782187",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20
+    ],
+    "login locations": [
+        [
+            -118.345904,
+            34.134398
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                3332,
+                0.01
+            ]
+        ]
+    ]
 }

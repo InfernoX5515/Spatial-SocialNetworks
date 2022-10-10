@@ -5,7 +5,26 @@
     "email": "umccullough@gmail.com",
     "birthdate": "2007-02-10",
     "phone": "(892)949-7380x147",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        1,
+        38,
+        12,
+        33,
+        71,
+        69,
+        52,
+        24,
+        22,
+        11,
+        46,
+        9
+    ],
+    "login locations": [
+        [
+            -118.793387,
+            34.250642
+        ]
+    ],
+    "relationships": []
 }

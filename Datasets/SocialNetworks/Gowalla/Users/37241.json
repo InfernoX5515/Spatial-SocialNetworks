@@ -5,7 +5,27 @@
     "email": "gmcdonald@hotmail.com",
     "birthdate": "2002-01-05",
     "phone": "3788711462",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        74,
+        5
+    ],
+    "login locations": [
+        [
+            -118.200331,
+            33.924093
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5651,
+                0.0740740740741
+            ],
+            [
+                5651,
+                0.0740740740741
+            ]
+        ]
+    ]
 }

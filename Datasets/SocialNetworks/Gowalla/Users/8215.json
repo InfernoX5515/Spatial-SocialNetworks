@@ -5,7 +5,21 @@
     "email": "bradley07@hotmail.com",
     "birthdate": "2005-03-28",
     "phone": "253-119-4389x0525",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        51,
+        41,
+        60,
+        48,
+        74,
+        49,
+        21
+    ],
+    "login locations": [
+        [
+            -122.535292,
+            38.011418
+        ]
+    ],
+    "relationships": []
 }

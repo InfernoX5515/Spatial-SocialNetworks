@@ -5,7 +5,28 @@
     "email": "margaret60@hotmail.com",
     "birthdate": "1980-07-28",
     "phone": "+1-855-218-3796x7228",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        58,
+        40,
+        33,
+        45,
+        21,
+        4,
+        74,
+        46,
+        21,
+        21,
+        50,
+        20,
+        71,
+        0
+    ],
+    "login locations": [
+        [
+            -122.415024,
+            37.783657
+        ]
+    ],
+    "relationships": []
 }

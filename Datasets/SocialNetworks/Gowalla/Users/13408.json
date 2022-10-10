@@ -5,7 +5,28 @@
     "email": "allison40@hotmail.com",
     "birthdate": "2016-02-14",
     "phone": "326-961-1289",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        54,
+        24,
+        21
+    ],
+    "login locations": [
+        [
+            -118.315168,
+            34.045293
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4538,
+                0.0384615384615
+            ],
+            [
+                24870,
+                0.0242424242424
+            ]
+        ]
+    ]
 }

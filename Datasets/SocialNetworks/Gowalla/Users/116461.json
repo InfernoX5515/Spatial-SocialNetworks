@@ -5,7 +5,20 @@
     "email": "daniellesalas@yahoo.com",
     "birthdate": "1964-01-22",
     "phone": "175.587.5020x6294",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        48,
+        74,
+        40,
+        43,
+        28,
+        15
+    ],
+    "login locations": [
+        [
+            -118.333112,
+            34.060242
+        ]
+    ],
+    "relationships": []
 }

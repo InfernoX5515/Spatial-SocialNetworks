@@ -5,7 +5,15 @@
     "email": "benjaminbenson@gmail.com",
     "birthdate": "2016-08-22",
     "phone": "(497)265-5047x481",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        42
+    ],
+    "login locations": [
+        [
+            -118.067793,
+            33.866837
+        ]
+    ],
+    "relationships": []
 }

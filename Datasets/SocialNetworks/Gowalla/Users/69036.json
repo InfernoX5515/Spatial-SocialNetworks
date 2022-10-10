@@ -5,7 +5,19 @@
     "email": "frederick64@gmail.com",
     "birthdate": "1985-09-24",
     "phone": "+1-712-416-2065",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        28,
+        19,
+        47,
+        42,
+        46
+    ],
+    "login locations": [
+        [
+            -117.241006,
+            32.951692
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "dgomez@hotmail.com",
     "birthdate": "1949-02-27",
     "phone": "181-174-2455",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        30,
+        52,
+        28
+    ],
+    "login locations": [
+        [
+            -117.278822,
+            33.136323
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                74229,
+                0.169230769231
+            ],
+            [
+                74229,
+                0.169230769231
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,15 @@
     "email": "vhicks@yahoo.com",
     "birthdate": "1967-06-06",
     "phone": "333-682-6521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        54
+    ],
+    "login locations": [
+        [
+            -118.002975,
+            33.747186
+        ]
+    ],
+    "relationships": []
 }

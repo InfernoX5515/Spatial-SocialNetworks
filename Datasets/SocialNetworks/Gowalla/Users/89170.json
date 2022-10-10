@@ -5,7 +5,25 @@
     "email": "joseph50@hotmail.com",
     "birthdate": "1969-09-15",
     "phone": "008.041.6102x02252",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        48,
+        2,
+        41,
+        21,
+        72,
+        45,
+        70,
+        18,
+        58,
+        42,
+        2
+    ],
+    "login locations": [
+        [
+            -121.921939,
+            37.72326
+        ]
+    ],
+    "relationships": []
 }

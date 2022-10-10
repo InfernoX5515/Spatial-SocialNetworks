@@ -5,7 +5,17 @@
     "email": "tserrano@hotmail.com",
     "birthdate": "1928-10-03",
     "phone": "583.810.6472",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        38,
+        24,
+        36
+    ],
+    "login locations": [
+        [
+            -118.204723,
+            33.859607
+        ]
+    ],
+    "relationships": []
 }

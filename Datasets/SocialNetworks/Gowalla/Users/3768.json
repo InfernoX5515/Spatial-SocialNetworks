@@ -5,7 +5,37 @@
     "email": "kelseysparks@hotmail.com",
     "birthdate": "2005-09-03",
     "phone": "1500269626",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        53,
+        32,
+        30,
+        21,
+        47,
+        55,
+        60,
+        68,
+        10,
+        17,
+        30,
+        13
+    ],
+    "login locations": [
+        [
+            -122.298983,
+            38.297793
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                363,
+                0.01
+            ],
+            [
+                363,
+                0.01
+            ]
+        ]
+    ]
 }

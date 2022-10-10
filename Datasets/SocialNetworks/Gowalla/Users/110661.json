@@ -5,7 +5,18 @@
     "email": "parkerdavid@gmail.com",
     "birthdate": "1917-11-10",
     "phone": "5408122662",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        26,
+        32,
+        1,
+        7
+    ],
+    "login locations": [
+        [
+            -117.840819,
+            33.746056
+        ]
+    ],
+    "relationships": []
 }

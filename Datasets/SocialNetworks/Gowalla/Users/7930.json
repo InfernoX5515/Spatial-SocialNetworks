@@ -5,7 +5,35 @@
     "email": "cookstephen@hotmail.com",
     "birthdate": "1970-05-30",
     "phone": "+1-094-071-9140x80775",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        0,
+        41,
+        21,
+        55,
+        7,
+        59,
+        46,
+        70,
+        54,
+        40
+    ],
+    "login locations": [
+        [
+            -122.409054,
+            37.761672
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                85,
+                0.02
+            ],
+            [
+                5332,
+                0.113636363636
+            ]
+        ]
+    ]
 }

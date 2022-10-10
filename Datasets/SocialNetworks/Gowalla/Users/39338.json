@@ -5,7 +5,28 @@
     "email": "douglas52@gmail.com",
     "birthdate": "1925-03-04",
     "phone": "561-021-4076x81417",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        12,
+        50,
+        40
+    ],
+    "login locations": [
+        [
+            -118.354523,
+            34.049989
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1624,
+                0.012987012987
+            ],
+            [
+                1756,
+                0.188940092166
+            ]
+        ]
+    ]
 }

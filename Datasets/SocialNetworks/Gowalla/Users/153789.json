@@ -5,7 +5,29 @@
     "email": "alanmckinney@hotmail.com",
     "birthdate": "1951-09-16",
     "phone": "411-247-3832x82915",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        31,
+        67,
+        30,
+        25
+    ],
+    "login locations": [
+        [
+            -122.228965,
+            37.468777
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                188666,
+                0.02
+            ],
+            [
+                153790,
+                0.1
+            ]
+        ]
+    ]
 }

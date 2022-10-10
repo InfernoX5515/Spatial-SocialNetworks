@@ -5,7 +5,23 @@
     "email": "greenjoseph@gmail.com",
     "birthdate": "1932-09-09",
     "phone": "062-657-2124x7195",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        45,
+        19,
+        13,
+        57,
+        22,
+        17,
+        37,
+        50,
+        40
+    ],
+    "login locations": [
+        [
+            -121.917919,
+            37.322886
+        ]
+    ],
+    "relationships": []
 }

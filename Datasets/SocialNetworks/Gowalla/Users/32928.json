@@ -5,7 +5,28 @@
     "email": "laurahansen@hotmail.com",
     "birthdate": "1915-05-09",
     "phone": "038-046-0714",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        75,
+        38,
+        56,
+        64,
+        59,
+        1,
+        2,
+        35,
+        50,
+        66,
+        22,
+        64,
+        69,
+        12
+    ],
+    "login locations": [
+        [
+            -122.404574,
+            37.688826
+        ]
+    ],
+    "relationships": []
 }

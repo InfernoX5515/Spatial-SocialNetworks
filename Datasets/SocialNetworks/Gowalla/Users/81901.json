@@ -5,7 +5,15 @@
     "email": "stephensnicole@hotmail.com",
     "birthdate": "1932-12-14",
     "phone": "+1-120-158-3581x4856",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        73
+    ],
+    "login locations": [
+        [
+            -122.415606,
+            37.692096
+        ]
+    ],
+    "relationships": []
 }

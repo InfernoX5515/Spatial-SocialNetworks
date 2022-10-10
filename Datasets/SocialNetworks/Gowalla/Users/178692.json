@@ -5,7 +5,18 @@
     "email": "alicia23@gmail.com",
     "birthdate": "1975-06-22",
     "phone": "6781315504",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        65,
+        73,
+        0,
+        63
+    ],
+    "login locations": [
+        [
+            -121.979965,
+            38.299263
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "rebeccaberry@gmail.com",
     "birthdate": "1918-03-25",
     "phone": "507-306-3061x71652",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        18,
+        25,
+        49,
+        67,
+        3,
+        30,
+        65,
+        29,
+        70
+    ],
+    "login locations": [
+        [
+            -122.273557,
+            37.820449
+        ]
+    ],
+    "relationships": []
 }

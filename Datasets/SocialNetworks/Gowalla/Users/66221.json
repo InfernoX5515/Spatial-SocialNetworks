@@ -5,7 +5,18 @@
     "email": "reneerivera@yahoo.com",
     "birthdate": "1931-10-14",
     "phone": "(415)015-1944",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        67,
+        17,
+        1,
+        74
+    ],
+    "login locations": [
+        [
+            -117.969432,
+            33.708775
+        ]
+    ],
+    "relationships": []
 }

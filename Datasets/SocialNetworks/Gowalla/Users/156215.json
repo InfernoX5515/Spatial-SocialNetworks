@@ -5,7 +5,22 @@
     "email": "bowmandonna@yahoo.com",
     "birthdate": "1970-08-21",
     "phone": "+1-737-212-5033x206",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        21,
+        67,
+        51,
+        22,
+        62,
+        66,
+        72,
+        21
+    ],
+    "login locations": [
+        [
+            -122.277326,
+            38.214178
+        ]
+    ],
+    "relationships": []
 }

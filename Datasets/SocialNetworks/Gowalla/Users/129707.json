@@ -5,7 +5,22 @@
     "email": "sarasexton@hotmail.com",
     "birthdate": "1961-01-11",
     "phone": "+1-374-274-3750x46097",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        61,
+        34,
+        28,
+        62,
+        46,
+        55,
+        7,
+        46
+    ],
+    "login locations": [
+        [
+            -119.709893,
+            34.422823
+        ]
+    ],
+    "relationships": []
 }

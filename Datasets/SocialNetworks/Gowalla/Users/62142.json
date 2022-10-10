@@ -5,7 +5,18 @@
     "email": "patriciaball@hotmail.com",
     "birthdate": "1972-03-17",
     "phone": "+1-808-127-9453",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        25,
+        6,
+        30,
+        51
+    ],
+    "login locations": [
+        [
+            -118.566456,
+            34.215631
+        ]
+    ],
+    "relationships": []
 }

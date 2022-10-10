@@ -5,7 +5,26 @@
     "email": "ulam@gmail.com",
     "birthdate": "1951-03-14",
     "phone": "(188)665-8016x91685",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        74
+    ],
+    "login locations": [
+        [
+            -119.751039,
+            36.814286
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32693,
+                0.0454545454545
+            ],
+            [
+                32693,
+                0.0454545454545
+            ]
+        ]
+    ]
 }

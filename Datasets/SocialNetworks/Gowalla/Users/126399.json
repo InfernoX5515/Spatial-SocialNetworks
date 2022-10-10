@@ -5,7 +5,24 @@
     "email": "khanmichael@gmail.com",
     "birthdate": "1963-04-29",
     "phone": "001-290-090-6661x511",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        21,
+        13,
+        45,
+        40,
+        8,
+        74,
+        48,
+        59,
+        7,
+        15
+    ],
+    "login locations": [
+        [
+            -118.345103,
+            34.125421
+        ]
+    ],
+    "relationships": []
 }

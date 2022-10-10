@@ -5,7 +5,12 @@
     "email": "howardjeffrey@yahoo.com",
     "birthdate": "1965-07-17",
     "phone": "513-318-0760",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.283363,
+            37.874239
+        ]
+    ],
+    "relationships": []
 }

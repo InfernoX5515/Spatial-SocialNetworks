@@ -5,7 +5,21 @@
     "email": "hulljoyce@hotmail.com",
     "birthdate": "1990-08-05",
     "phone": "039-433-4848",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        46,
+        13,
+        52,
+        32,
+        61,
+        49,
+        8
+    ],
+    "login locations": [
+        [
+            -122.024645,
+            37.770097
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,29 @@
     "email": "ricedawn@hotmail.com",
     "birthdate": "1958-08-18",
     "phone": "372-982-4899x56820",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        8,
+        1,
+        17,
+        4
+    ],
+    "login locations": [
+        [
+            -122.699606,
+            38.345349
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                48886,
+                0.044776119403
+            ],
+            [
+                142471,
+                0.0274725274725
+            ]
+        ]
+    ]
 }

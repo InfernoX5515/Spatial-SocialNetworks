@@ -5,7 +5,24 @@
     "email": "larryallen@gmail.com",
     "birthdate": "1908-10-30",
     "phone": "+1-793-059-9087x3087",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        38,
+        1,
+        31,
+        74,
+        17,
+        46,
+        40,
+        70,
+        69,
+        14
+    ],
+    "login locations": [
+        [
+            -122.293707,
+            37.561234
+        ]
+    ],
+    "relationships": []
 }

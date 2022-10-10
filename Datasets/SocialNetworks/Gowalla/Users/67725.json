@@ -5,7 +5,15 @@
     "email": "amy52@hotmail.com",
     "birthdate": "1965-01-23",
     "phone": "(193)582-2319x1580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        12
+    ],
+    "login locations": [
+        [
+            -122.380675,
+            37.634003
+        ]
+    ],
+    "relationships": []
 }

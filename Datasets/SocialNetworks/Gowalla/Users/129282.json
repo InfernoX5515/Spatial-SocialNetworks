@@ -5,7 +5,15 @@
     "email": "michaelkim@hotmail.com",
     "birthdate": "2018-04-01",
     "phone": "790-068-8419x175",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        23
+    ],
+    "login locations": [
+        [
+            -117.869381,
+            33.77415
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "pricebrandon@hotmail.com",
     "birthdate": "1986-06-10",
     "phone": "410.508.0063",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        62,
+        33,
+        59
+    ],
+    "login locations": [
+        [
+            -122.365562,
+            37.628821
+        ]
+    ],
+    "relationships": []
 }

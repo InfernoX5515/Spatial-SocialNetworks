@@ -5,7 +5,22 @@
     "email": "cervantescharles@gmail.com",
     "birthdate": "1956-06-01",
     "phone": "(829)284-6458",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        20,
+        31,
+        40,
+        45,
+        9,
+        0,
+        71,
+        11
+    ],
+    "login locations": [
+        [
+            -121.923139,
+            37.413282
+        ]
+    ],
+    "relationships": []
 }

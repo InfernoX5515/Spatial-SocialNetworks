@@ -5,7 +5,15 @@
     "email": "bradley13@yahoo.com",
     "birthdate": "1916-07-07",
     "phone": "(389)881-0130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        14
+    ],
+    "login locations": [
+        [
+            -117.937759,
+            33.983895
+        ]
+    ],
+    "relationships": []
 }

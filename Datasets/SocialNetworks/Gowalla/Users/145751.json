@@ -5,7 +5,26 @@
     "email": "david35@yahoo.com",
     "birthdate": "1959-02-25",
     "phone": "001-506-516-9294",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        8,
+        13,
+        29,
+        8,
+        11,
+        19,
+        67,
+        42,
+        13,
+        0,
+        60,
+        26
+    ],
+    "login locations": [
+        [
+            -118.025543,
+            33.762178
+        ]
+    ],
+    "relationships": []
 }

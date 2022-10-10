@@ -5,7 +5,14 @@
     "email": "rosechristina@hotmail.com",
     "birthdate": "2013-07-28",
     "phone": "103.509.2067",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75
+    ],
+    "login locations": [
+        [
+            -118.215254,
+            34.057524
+        ]
+    ],
+    "relationships": []
 }

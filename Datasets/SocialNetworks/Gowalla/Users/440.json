@@ -5,7 +5,26 @@
     "email": "james54@gmail.com",
     "birthdate": "2020-02-07",
     "phone": "001-910-988-0741x1178",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        61
+    ],
+    "login locations": [
+        [
+            -122.409925,
+            37.768965
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4371,
+                0.0314009661836
+            ],
+            [
+                4371,
+                0.0314009661836
+            ]
+        ]
+    ]
 }

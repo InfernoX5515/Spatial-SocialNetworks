@@ -5,7 +5,28 @@
     "email": "bowenbryan@yahoo.com",
     "birthdate": "1984-07-16",
     "phone": "743.329.0723x5686",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        54,
+        6,
+        66,
+        0,
+        62,
+        55,
+        7,
+        44,
+        47,
+        39,
+        45,
+        28,
+        46,
+        40
+    ],
+    "login locations": [
+        [
+            -117.840399,
+            33.738797
+        ]
+    ],
+    "relationships": []
 }

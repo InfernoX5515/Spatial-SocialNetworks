@@ -5,7 +5,12 @@
     "email": "erica31@yahoo.com",
     "birthdate": "1951-11-02",
     "phone": "001-990-769-5124x16770",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.148547,
+            33.971588
+        ]
+    ],
+    "relationships": []
 }

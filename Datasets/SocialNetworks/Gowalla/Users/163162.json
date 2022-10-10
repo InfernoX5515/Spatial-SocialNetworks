@@ -5,7 +5,25 @@
     "email": "ubeck@yahoo.com",
     "birthdate": "2021-12-25",
     "phone": "+1-911-761-3002x095",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        12,
+        8,
+        51,
+        71,
+        30,
+        24,
+        44,
+        26,
+        38,
+        64,
+        32
+    ],
+    "login locations": [
+        [
+            -117.766599,
+            34.033764
+        ]
+    ],
+    "relationships": []
 }

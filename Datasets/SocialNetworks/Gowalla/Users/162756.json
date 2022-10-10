@@ -5,7 +5,17 @@
     "email": "rebeccaharvey@hotmail.com",
     "birthdate": "2017-06-25",
     "phone": "+1-408-853-6338x057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        55,
+        49,
+        43
+    ],
+    "login locations": [
+        [
+            -121.957578,
+            37.077144
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "kurttorres@yahoo.com",
     "birthdate": "2014-11-01",
     "phone": "977.537.4810x2786",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        33,
+        3,
+        40,
+        10,
+        5,
+        19,
+        60,
+        44,
+        15,
+        73,
+        14,
+        15
+    ],
+    "login locations": [
+        [
+            -118.410472,
+            33.999207
+        ]
+    ],
+    "relationships": []
 }

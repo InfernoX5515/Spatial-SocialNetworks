@@ -5,7 +5,23 @@
     "email": "jessica09@hotmail.com",
     "birthdate": "1963-04-15",
     "phone": "949-455-9559x4929",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.354738,
+            34.064956
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                484,
+                0.0540935672515
+            ],
+            [
+                56363,
+                0.102564102564
+            ]
+        ]
+    ]
 }

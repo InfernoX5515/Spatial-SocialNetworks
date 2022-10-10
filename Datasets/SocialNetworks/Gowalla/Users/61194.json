@@ -5,7 +5,28 @@
     "email": "reedrandy@yahoo.com",
     "birthdate": "1929-10-18",
     "phone": "001-516-058-1422",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        10,
+        58,
+        9,
+        71,
+        10,
+        45,
+        50,
+        24,
+        34,
+        30,
+        69,
+        8,
+        48,
+        57
+    ],
+    "login locations": [
+        [
+            -121.948875,
+            37.321037
+        ]
+    ],
+    "relationships": []
 }

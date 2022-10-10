@@ -5,7 +5,28 @@
     "email": "brownlarry@gmail.com",
     "birthdate": "1988-02-10",
     "phone": "694-318-0609x823",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        12,
+        45,
+        71,
+        72,
+        21,
+        34,
+        9,
+        21,
+        9,
+        30,
+        21,
+        45,
+        3,
+        0
+    ],
+    "login locations": [
+        [
+            -117.991897,
+            34.085051
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "rebecca18@hotmail.com",
     "birthdate": "1954-11-03",
     "phone": "+1-376-514-5339x075",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        72,
+        19
+    ],
+    "login locations": [
+        [
+            -121.599112,
+            38.636679
+        ]
+    ],
+    "relationships": []
 }

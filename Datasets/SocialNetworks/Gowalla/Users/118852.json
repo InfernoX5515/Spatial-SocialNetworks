@@ -5,7 +5,35 @@
     "email": "obrienthomas@hotmail.com",
     "birthdate": "1986-04-11",
     "phone": "732-433-2448x84701",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        22,
+        46,
+        11,
+        61,
+        41,
+        52,
+        75,
+        70,
+        20,
+        64
+    ],
+    "login locations": [
+        [
+            -118.323955,
+            34.18515
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                120189,
+                0.037037037037
+            ],
+            [
+                120189,
+                0.037037037037
+            ]
+        ]
+    ]
 }

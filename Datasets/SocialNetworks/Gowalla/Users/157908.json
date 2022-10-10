@@ -5,7 +5,19 @@
     "email": "madams@hotmail.com",
     "birthdate": "1948-07-05",
     "phone": "8946771901",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        20,
+        53,
+        38,
+        27,
+        34
+    ],
+    "login locations": [
+        [
+            -121.959172,
+            37.248162
+        ]
+    ],
+    "relationships": []
 }

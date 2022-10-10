@@ -5,7 +5,25 @@
     "email": "ivanarmstrong@gmail.com",
     "birthdate": "2018-05-17",
     "phone": "+1-976-077-3911x23926",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        46,
+        18,
+        2,
+        33,
+        65,
+        12,
+        4,
+        67,
+        8,
+        14,
+        56
+    ],
+    "login locations": [
+        [
+            -122.400039,
+            37.717936
+        ]
+    ],
+    "relationships": []
 }

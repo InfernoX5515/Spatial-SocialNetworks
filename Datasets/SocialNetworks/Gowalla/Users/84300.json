@@ -5,7 +5,21 @@
     "email": "brandi34@gmail.com",
     "birthdate": "1986-01-23",
     "phone": "560-309-3757x49601",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        52,
+        45,
+        34,
+        67,
+        50,
+        27,
+        12
+    ],
+    "login locations": [
+        [
+            -122.335079,
+            37.826046
+        ]
+    ],
+    "relationships": []
 }

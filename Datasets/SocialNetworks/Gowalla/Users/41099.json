@@ -5,7 +5,39 @@
     "email": "englishtina@yahoo.com",
     "birthdate": "1945-06-23",
     "phone": "001-140-427-1351",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        51,
+        23,
+        36,
+        1,
+        32,
+        4,
+        69,
+        8,
+        58,
+        50,
+        20,
+        70,
+        42,
+        12
+    ],
+    "login locations": [
+        [
+            -121.455577,
+            38.597821
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                111121,
+                0.0112820512821
+            ],
+            [
+                111121,
+                0.0112820512821
+            ]
+        ]
+    ]
 }

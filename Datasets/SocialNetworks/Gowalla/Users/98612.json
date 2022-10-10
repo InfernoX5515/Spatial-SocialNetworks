@@ -5,7 +5,22 @@
     "email": "brandttrevor@yahoo.com",
     "birthdate": "1917-03-14",
     "phone": "(066)652-7739x5434",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        69,
+        52,
+        28,
+        30,
+        41,
+        34,
+        11,
+        55
+    ],
+    "login locations": [
+        [
+            -122.411592,
+            37.789778
+        ]
+    ],
+    "relationships": []
 }

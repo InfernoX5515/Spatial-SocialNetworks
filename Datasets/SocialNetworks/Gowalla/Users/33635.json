@@ -5,7 +5,32 @@
     "email": "nelsonnancy@gmail.com",
     "birthdate": "1948-03-29",
     "phone": "020.684.0774x29193",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        35,
+        60,
+        25,
+        48,
+        43,
+        15,
+        1
+    ],
+    "login locations": [
+        [
+            -122.050644,
+            37.549593
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33764,
+                0.04
+            ],
+            [
+                126187,
+                0.0191082802548
+            ]
+        ]
+    ]
 }

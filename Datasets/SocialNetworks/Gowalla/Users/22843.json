@@ -5,7 +5,21 @@
     "email": "ynoble@yahoo.com",
     "birthdate": "1932-09-26",
     "phone": "580-886-6426x3401",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        34,
+        64,
+        5,
+        46,
+        56,
+        70,
+        70
+    ],
+    "login locations": [
+        [
+            -117.162984,
+            32.849273
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,31 @@
     "email": "douglas18@hotmail.com",
     "birthdate": "1990-01-07",
     "phone": "014.587.8851",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        68,
+        43,
+        37,
+        37,
+        14,
+        17
+    ],
+    "login locations": [
+        [
+            -122.409572,
+            37.782605
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43781,
+                0.01
+            ],
+            [
+                43781,
+                0.01
+            ]
+        ]
+    ]
 }

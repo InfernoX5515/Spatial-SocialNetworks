@@ -5,7 +5,16 @@
     "email": "danielharris@hotmail.com",
     "birthdate": "1962-07-10",
     "phone": "+1-254-040-2097",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        18,
+        41
+    ],
+    "login locations": [
+        [
+            -122.430186,
+            37.766125
+        ]
+    ],
+    "relationships": []
 }

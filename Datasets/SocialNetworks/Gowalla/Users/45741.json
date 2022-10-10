@@ -5,7 +5,23 @@
     "email": "kpeterson@hotmail.com",
     "birthdate": "1996-06-08",
     "phone": "001-194-049-5714x27004",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        28,
+        4,
+        35,
+        68,
+        75,
+        57,
+        1,
+        56,
+        59
+    ],
+    "login locations": [
+        [
+            -122.35288,
+            37.888895
+        ]
+    ],
+    "relationships": []
 }

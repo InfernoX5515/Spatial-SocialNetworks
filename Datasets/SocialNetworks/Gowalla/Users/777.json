@@ -5,7 +5,27 @@
     "email": "psanchez@hotmail.com",
     "birthdate": "1907-04-25",
     "phone": "(405)640-6994x821",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        35,
+        66
+    ],
+    "login locations": [
+        [
+            -118.275913,
+            34.02853
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                221,
+                0.5
+            ],
+            [
+                359,
+                0.01
+            ]
+        ]
+    ]
 }

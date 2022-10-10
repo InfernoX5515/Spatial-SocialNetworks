@@ -5,7 +5,19 @@
     "email": "nathan20@hotmail.com",
     "birthdate": "1986-01-07",
     "phone": "+1-610-776-9919x427",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        55,
+        26,
+        72,
+        33,
+        10
+    ],
+    "login locations": [
+        [
+            -118.12141,
+            34.154593
+        ]
+    ],
+    "relationships": []
 }

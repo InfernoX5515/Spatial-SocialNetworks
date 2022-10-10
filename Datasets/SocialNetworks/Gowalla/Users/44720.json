@@ -5,7 +5,36 @@
     "email": "tracy22@yahoo.com",
     "birthdate": "1979-11-21",
     "phone": "(890)478-7796",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        59,
+        13,
+        24,
+        13,
+        59,
+        29,
+        22,
+        46,
+        49,
+        23,
+        30
+    ],
+    "login locations": [
+        [
+            -122.124127,
+            37.414685
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10859,
+                0.01
+            ],
+            [
+                10859,
+                0.01
+            ]
+        ]
+    ]
 }

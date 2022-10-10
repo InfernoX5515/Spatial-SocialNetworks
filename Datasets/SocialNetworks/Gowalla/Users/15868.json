@@ -5,7 +5,20 @@
     "email": "jasondunlap@gmail.com",
     "birthdate": "1996-06-16",
     "phone": "+1-792-121-1603",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        15,
+        55,
+        59,
+        75,
+        35,
+        28
+    ],
+    "login locations": [
+        [
+            -122.404106,
+            37.777834
+        ]
+    ],
+    "relationships": []
 }

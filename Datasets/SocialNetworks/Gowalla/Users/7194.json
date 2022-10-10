@@ -5,7 +5,14 @@
     "email": "laura75@gmail.com",
     "birthdate": "1992-06-13",
     "phone": "(964)566-0579x444",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51
+    ],
+    "login locations": [
+        [
+            -117.152348,
+            32.715916
+        ]
+    ],
+    "relationships": []
 }

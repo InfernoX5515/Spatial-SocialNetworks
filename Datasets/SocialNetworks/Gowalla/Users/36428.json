@@ -5,7 +5,23 @@
     "email": "ndavis@hotmail.com",
     "birthdate": "1981-11-09",
     "phone": "372-936-5536x167",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        55,
+        54,
+        26,
+        68,
+        13,
+        58,
+        8,
+        63,
+        66
+    ],
+    "login locations": [
+        [
+            -122.401976,
+            37.797692
+        ]
+    ],
+    "relationships": []
 }

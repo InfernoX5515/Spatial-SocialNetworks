@@ -5,7 +5,24 @@
     "email": "virginia00@hotmail.com",
     "birthdate": "1992-12-29",
     "phone": "001-136-260-7493x04539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        62,
+        39,
+        23,
+        14,
+        2,
+        36,
+        1,
+        30,
+        46,
+        51
+    ],
+    "login locations": [
+        [
+            -122.048846,
+            37.404778
+        ]
+    ],
+    "relationships": []
 }

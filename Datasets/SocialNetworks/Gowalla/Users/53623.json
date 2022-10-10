@@ -5,7 +5,27 @@
     "email": "william72@hotmail.com",
     "birthdate": "1970-07-20",
     "phone": "509-832-9179x393",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        72,
+        5,
+        48,
+        64,
+        60,
+        40,
+        6,
+        17,
+        60,
+        47,
+        31,
+        72,
+        23
+    ],
+    "login locations": [
+        [
+            -121.944741,
+            37.682642
+        ]
+    ],
+    "relationships": []
 }

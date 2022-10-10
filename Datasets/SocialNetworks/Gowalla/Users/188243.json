@@ -5,7 +5,15 @@
     "email": "sharonbrewer@yahoo.com",
     "birthdate": "1958-08-17",
     "phone": "325-724-3292x69029",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        0
+    ],
+    "login locations": [
+        [
+            -122.453595,
+            37.729375
+        ]
+    ],
+    "relationships": []
 }

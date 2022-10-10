@@ -5,7 +5,27 @@
     "email": "millerashley@gmail.com",
     "birthdate": "2001-09-24",
     "phone": "(737)868-7829x56490",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        63,
+        44
+    ],
+    "login locations": [
+        [
+            -122.396638,
+            37.778664
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3585,
+                0.0825242718447
+            ],
+            [
+                4757,
+                0.0397727272727
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,32 @@
     "email": "edwardsjacqueline@hotmail.com",
     "birthdate": "1963-09-10",
     "phone": "(174)052-3123",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        75,
+        30,
+        22,
+        8,
+        32,
+        18,
+        15
+    ],
+    "login locations": [
+        [
+            -122.871772,
+            38.615319
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                110563,
+                0.026402640264
+            ],
+            [
+                110563,
+                0.026402640264
+            ]
+        ]
+    ]
 }

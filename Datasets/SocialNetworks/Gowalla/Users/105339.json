@@ -5,7 +5,16 @@
     "email": "joshua97@hotmail.com",
     "birthdate": "1979-12-17",
     "phone": "(029)451-4526x596",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        0,
+        54
+    ],
+    "login locations": [
+        [
+            -121.386539,
+            38.422728
+        ]
+    ],
+    "relationships": []
 }

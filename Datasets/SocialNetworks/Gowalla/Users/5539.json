@@ -5,7 +5,27 @@
     "email": "tgonzalez@hotmail.com",
     "birthdate": "1965-10-10",
     "phone": "001-387-886-1581x895",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        63,
+        2
+    ],
+    "login locations": [
+        [
+            -122.051024,
+            37.415905
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11570,
+                0.0294117647059
+            ],
+            [
+                11570,
+                0.0294117647059
+            ]
+        ]
+    ]
 }

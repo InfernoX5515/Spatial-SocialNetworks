@@ -5,7 +5,22 @@
     "email": "lyonspatrick@yahoo.com",
     "birthdate": "1933-06-19",
     "phone": "001-712-847-6263",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        22,
+        12,
+        66,
+        59,
+        33,
+        9,
+        20,
+        72
+    ],
+    "login locations": [
+        [
+            -117.992437,
+            33.758396
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "fordallison@gmail.com",
     "birthdate": "1950-07-20",
     "phone": "975-862-2235x38399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        27,
+        55,
+        40,
+        22,
+        28,
+        73,
+        67,
+        74,
+        4,
+        65,
+        59,
+        59,
+        30,
+        71
+    ],
+    "login locations": [
+        [
+            -118.286615,
+            33.86529
+        ]
+    ],
+    "relationships": []
 }

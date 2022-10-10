@@ -5,7 +5,19 @@
     "email": "silvajennifer@hotmail.com",
     "birthdate": "1920-11-19",
     "phone": "001-461-639-8076",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        7,
+        22,
+        48,
+        64,
+        73
+    ],
+    "login locations": [
+        [
+            -121.888871,
+            36.645527
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "shepardtara@gmail.com",
     "birthdate": "1944-07-17",
     "phone": "(876)727-8979",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        66,
+        24,
+        70,
+        58
+    ],
+    "login locations": [
+        [
+            -122.403835,
+            37.747843
+        ]
+    ],
+    "relationships": []
 }

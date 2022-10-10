@@ -5,7 +5,28 @@
     "email": "jeff70@yahoo.com",
     "birthdate": "1968-12-20",
     "phone": "(591)446-7628",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        74,
+        44,
+        6,
+        53,
+        51,
+        62,
+        8,
+        11,
+        63,
+        54,
+        56,
+        50,
+        55,
+        2
+    ],
+    "login locations": [
+        [
+            -122.422813,
+            37.771712
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "david43@yahoo.com",
     "birthdate": "2011-10-05",
     "phone": "+1-677-614-1996",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        66,
+        74,
+        60
+    ],
+    "login locations": [
+        [
+            -118.125438,
+            33.958079
+        ]
+    ],
+    "relationships": []
 }

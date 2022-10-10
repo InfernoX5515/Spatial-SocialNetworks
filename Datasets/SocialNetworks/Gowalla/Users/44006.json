@@ -5,7 +5,26 @@
     "email": "toddcontreras@gmail.com",
     "birthdate": "1995-05-29",
     "phone": "732-313-3489",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        73
+    ],
+    "login locations": [
+        [
+            -119.075654,
+            35.325268
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1052,
+                0.0714285714286
+            ],
+            [
+                1052,
+                0.0714285714286
+            ]
+        ]
+    ]
 }

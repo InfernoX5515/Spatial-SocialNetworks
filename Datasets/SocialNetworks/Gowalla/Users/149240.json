@@ -5,7 +5,16 @@
     "email": "albertsmith@hotmail.com",
     "birthdate": "1991-11-27",
     "phone": "(112)009-6812x730",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        53,
+        69
+    ],
+    "login locations": [
+        [
+            -122.413226,
+            37.767109
+        ]
+    ],
+    "relationships": []
 }

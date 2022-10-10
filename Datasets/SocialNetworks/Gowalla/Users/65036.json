@@ -5,7 +5,28 @@
     "email": "mariawalker@yahoo.com",
     "birthdate": "1944-07-07",
     "phone": "001-288-612-9234x9773",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        13,
+        55,
+        28,
+        49,
+        13,
+        53,
+        38,
+        73,
+        69,
+        19,
+        44,
+        73,
+        67,
+        5
+    ],
+    "login locations": [
+        [
+            -118.132144,
+            34.067352
+        ]
+    ],
+    "relationships": []
 }

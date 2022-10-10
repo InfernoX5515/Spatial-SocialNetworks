@@ -5,7 +5,25 @@
     "email": "vbender@yahoo.com",
     "birthdate": "2010-10-09",
     "phone": "7223643713",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        40,
+        26,
+        13,
+        21,
+        21,
+        51,
+        15,
+        22,
+        3,
+        19,
+        64
+    ],
+    "login locations": [
+        [
+            -122.174399,
+            37.444524
+        ]
+    ],
+    "relationships": []
 }

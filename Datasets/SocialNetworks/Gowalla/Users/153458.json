@@ -5,7 +5,15 @@
     "email": "john82@gmail.com",
     "birthdate": "2012-04-30",
     "phone": "(091)320-3211x8115",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        28
+    ],
+    "login locations": [
+        [
+            -122.387939,
+            37.657805
+        ]
+    ],
+    "relationships": []
 }

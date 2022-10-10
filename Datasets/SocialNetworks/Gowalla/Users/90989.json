@@ -5,7 +5,27 @@
     "email": "sarah50@yahoo.com",
     "birthdate": "1914-03-11",
     "phone": "(977)829-8883x01046",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        4,
+        66,
+        53,
+        19,
+        41,
+        67,
+        43,
+        21,
+        26,
+        36,
+        47,
+        37,
+        22
+    ],
+    "login locations": [
+        [
+            -122.409611,
+            37.769277
+        ]
+    ],
+    "relationships": []
 }

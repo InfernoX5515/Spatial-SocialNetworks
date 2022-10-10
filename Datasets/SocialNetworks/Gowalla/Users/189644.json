@@ -5,7 +5,14 @@
     "email": "xwalker@hotmail.com",
     "birthdate": "2004-03-29",
     "phone": "(690)713-5411x4597",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4
+    ],
+    "login locations": [
+        [
+            -117.168859,
+            32.809131
+        ]
+    ],
+    "relationships": []
 }

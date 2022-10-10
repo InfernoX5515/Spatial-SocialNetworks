@@ -5,7 +5,25 @@
     "email": "wjackson@hotmail.com",
     "birthdate": "2021-11-09",
     "phone": "001-654-885-5284x09909",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33
+    ],
+    "login locations": [
+        [
+            -121.371767,
+            38.595411
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                83718,
+                0.03125
+            ],
+            [
+                83718,
+                0.03125
+            ]
+        ]
+    ]
 }

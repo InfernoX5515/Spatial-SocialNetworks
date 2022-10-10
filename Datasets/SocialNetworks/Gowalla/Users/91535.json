@@ -5,7 +5,22 @@
     "email": "kellyschneider@yahoo.com",
     "birthdate": "1920-01-07",
     "phone": "(236)091-5082",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        62,
+        38,
+        74,
+        17,
+        26,
+        60,
+        30,
+        13
+    ],
+    "login locations": [
+        [
+            -121.45133,
+            38.584602
+        ]
+    ],
+    "relationships": []
 }

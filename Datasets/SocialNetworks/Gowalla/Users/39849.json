@@ -5,7 +5,32 @@
     "email": "mlee@hotmail.com",
     "birthdate": "1984-10-01",
     "phone": "296-674-9292",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        24,
+        45,
+        28,
+        47,
+        34,
+        1,
+        18
+    ],
+    "login locations": [
+        [
+            -122.032456,
+            37.332598
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5089,
+                0.0133333333333
+            ],
+            [
+                6398,
+                0.08
+            ]
+        ]
+    ]
 }

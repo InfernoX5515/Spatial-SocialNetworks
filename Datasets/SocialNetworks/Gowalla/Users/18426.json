@@ -5,7 +5,20 @@
     "email": "patrick10@yahoo.com",
     "birthdate": "1929-10-08",
     "phone": "931.231.9784x832",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        61,
+        24,
+        73,
+        33,
+        22,
+        0
+    ],
+    "login locations": [
+        [
+            -121.346614,
+            38.612695
+        ]
+    ],
+    "relationships": []
 }

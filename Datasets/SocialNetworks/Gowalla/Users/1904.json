@@ -5,7 +5,28 @@
     "email": "denise93@yahoo.com",
     "birthdate": "1935-12-04",
     "phone": "400.024.5069x05080",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        57,
+        40,
+        45
+    ],
+    "login locations": [
+        [
+            -122.141415,
+            37.386548
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1756,
+                0.073732718894
+            ],
+            [
+                37381,
+                0.0140845070423
+            ]
+        ]
+    ]
 }

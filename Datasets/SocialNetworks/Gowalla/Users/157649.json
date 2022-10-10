@@ -5,7 +5,22 @@
     "email": "ysmith@yahoo.com",
     "birthdate": "1972-07-24",
     "phone": "150-364-7996",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        56,
+        56,
+        8,
+        8,
+        41,
+        21,
+        51,
+        50
+    ],
+    "login locations": [
+        [
+            -122.487906,
+            37.643238
+        ]
+    ],
+    "relationships": []
 }

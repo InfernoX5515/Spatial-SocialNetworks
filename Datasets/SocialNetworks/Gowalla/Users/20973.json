@@ -5,7 +5,28 @@
     "email": "paulamanda@yahoo.com",
     "birthdate": "1976-07-07",
     "phone": "960.238.2075x677",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        20,
+        62,
+        21,
+        33,
+        9,
+        4,
+        24,
+        8,
+        35,
+        2,
+        2,
+        51,
+        12,
+        30
+    ],
+    "login locations": [
+        [
+            -121.278153,
+            38.767449
+        ]
+    ],
+    "relationships": []
 }

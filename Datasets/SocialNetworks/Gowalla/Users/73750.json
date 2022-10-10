@@ -5,7 +5,12 @@
     "email": "ocannon@yahoo.com",
     "birthdate": "1970-05-24",
     "phone": "001-256-451-1914x2733",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.832443,
+            33.727701
+        ]
+    ],
+    "relationships": []
 }

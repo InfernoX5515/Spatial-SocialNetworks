@@ -5,7 +5,16 @@
     "email": "eric42@yahoo.com",
     "birthdate": "1943-05-15",
     "phone": "035.068.9270x08585",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        22,
+        14
+    ],
+    "login locations": [
+        [
+            -119.085332,
+            35.377408
+        ]
+    ],
+    "relationships": []
 }

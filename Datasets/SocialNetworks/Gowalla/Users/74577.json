@@ -5,7 +5,27 @@
     "email": "molly24@gmail.com",
     "birthdate": "1947-03-16",
     "phone": "589.196.3273x01112",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        53,
+        70,
+        28,
+        44,
+        65,
+        20,
+        61,
+        74,
+        53,
+        45,
+        29,
+        19,
+        1
+    ],
+    "login locations": [
+        [
+            -122.421127,
+            37.773623
+        ]
+    ],
+    "relationships": []
 }

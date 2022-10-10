@@ -5,7 +5,28 @@
     "email": "rblevins@gmail.com",
     "birthdate": "1971-01-19",
     "phone": "(421)292-0481",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        52,
+        4,
+        20,
+        39,
+        66,
+        61,
+        26,
+        52,
+        34,
+        39,
+        12,
+        62,
+        46,
+        49
+    ],
+    "login locations": [
+        [
+            -117.139288,
+            32.791244
+        ]
+    ],
+    "relationships": []
 }

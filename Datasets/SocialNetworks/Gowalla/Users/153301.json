@@ -5,7 +5,14 @@
     "email": "mjacobs@gmail.com",
     "birthdate": "1998-10-05",
     "phone": "538-481-0082x09846",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53
+    ],
+    "login locations": [
+        [
+            -118.013503,
+            33.830755
+        ]
+    ],
+    "relationships": []
 }

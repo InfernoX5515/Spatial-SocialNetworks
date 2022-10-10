@@ -5,7 +5,12 @@
     "email": "ginagonzales@hotmail.com",
     "birthdate": "1972-10-07",
     "phone": "+1-156-077-0865x478",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.721845,
+            33.689767
+        ]
+    ],
+    "relationships": []
 }

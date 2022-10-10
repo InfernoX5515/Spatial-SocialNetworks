@@ -5,7 +5,16 @@
     "email": "wilkersonlance@hotmail.com",
     "birthdate": "1976-06-02",
     "phone": "0786705727",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        10,
+        6
+    ],
+    "login locations": [
+        [
+            -117.76411,
+            33.781849
+        ]
+    ],
+    "relationships": []
 }

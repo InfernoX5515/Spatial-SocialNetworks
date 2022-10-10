@@ -5,7 +5,27 @@
     "email": "zjohnson@yahoo.com",
     "birthdate": "1960-09-10",
     "phone": "+1-595-866-7887",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        65,
+        32,
+        40,
+        54,
+        32,
+        9,
+        57,
+        25,
+        28,
+        25,
+        75,
+        45,
+        19
+    ],
+    "login locations": [
+        [
+            -122.007769,
+            37.389643
+        ]
+    ],
+    "relationships": []
 }

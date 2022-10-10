@@ -5,7 +5,25 @@
     "email": "stephaniesmith@gmail.com",
     "birthdate": "2016-07-27",
     "phone": "(427)025-5443x13141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22
+    ],
+    "login locations": [
+        [
+            -122.359814,
+            37.794547
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                55424,
+                0.01
+            ],
+            [
+                55424,
+                0.01
+            ]
+        ]
+    ]
 }

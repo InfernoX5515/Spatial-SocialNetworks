@@ -5,7 +5,14 @@
     "email": "yrandolph@yahoo.com",
     "birthdate": "1922-09-05",
     "phone": "013.827.6682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16
+    ],
+    "login locations": [
+        [
+            -119.805371,
+            36.824442
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "craigchristopher@gmail.com",
     "birthdate": "1916-12-29",
     "phone": "904.700.1430x036",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        17
+    ],
+    "login locations": [
+        [
+            -121.99783,
+            37.964897
+        ]
+    ],
+    "relationships": []
 }

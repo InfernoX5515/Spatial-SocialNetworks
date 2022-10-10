@@ -5,7 +5,28 @@
     "email": "walkerlaura@gmail.com",
     "birthdate": "1967-03-29",
     "phone": "001-941-382-2664",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        69,
+        0,
+        29
+    ],
+    "login locations": [
+        [
+            -122.408902,
+            37.777038
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4903,
+                0.01
+            ],
+            [
+                4903,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "christophermcgee@yahoo.com",
     "birthdate": "1942-06-22",
     "phone": "165-605-4707x737",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        53,
+        17,
+        1,
+        37,
+        74,
+        19,
+        20,
+        5,
+        10,
+        39,
+        56,
+        66,
+        58
+    ],
+    "login locations": [
+        [
+            -121.713769,
+            37.145359
+        ]
+    ],
+    "relationships": []
 }

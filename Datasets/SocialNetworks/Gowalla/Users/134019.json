@@ -5,7 +5,18 @@
     "email": "regina39@gmail.com",
     "birthdate": "1999-02-28",
     "phone": "001-484-679-1673x380",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        71,
+        10,
+        66,
+        27
+    ],
+    "login locations": [
+        [
+            -122.411809,
+            37.767134
+        ]
+    ],
+    "relationships": []
 }

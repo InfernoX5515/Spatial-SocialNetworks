@@ -5,7 +5,25 @@
     "email": "gwhite@yahoo.com",
     "birthdate": "1982-08-08",
     "phone": "134.260.4206",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23
+    ],
+    "login locations": [
+        [
+            -120.232042,
+            39.18838
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                427,
+                0.0311111111111
+            ],
+            [
+                4480,
+                0.0816326530612
+            ]
+        ]
+    ]
 }

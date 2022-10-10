@@ -5,7 +5,25 @@
     "email": "david78@yahoo.com",
     "birthdate": "1964-12-14",
     "phone": "(994)477-4830x987",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        30,
+        36,
+        75,
+        70,
+        1,
+        33,
+        25,
+        20,
+        39,
+        67,
+        52
+    ],
+    "login locations": [
+        [
+            -118.087246,
+            33.908156
+        ]
+    ],
+    "relationships": []
 }

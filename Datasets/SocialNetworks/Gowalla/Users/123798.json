@@ -5,7 +5,24 @@
     "email": "anthonyleonard@gmail.com",
     "birthdate": "2015-09-30",
     "phone": "001-310-262-0260x75526",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        39,
+        43,
+        37,
+        53,
+        42,
+        20,
+        30,
+        70,
+        0,
+        41
+    ],
+    "login locations": [
+        [
+            -122.396639,
+            37.781155
+        ]
+    ],
+    "relationships": []
 }

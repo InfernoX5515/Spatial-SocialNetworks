@@ -5,7 +5,24 @@
     "email": "benjaminbradley@yahoo.com",
     "birthdate": "2022-07-26",
     "phone": "6330002966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        73,
+        27,
+        61,
+        18,
+        62,
+        4,
+        61,
+        19,
+        70,
+        2
+    ],
+    "login locations": [
+        [
+            -117.239649,
+            32.93037
+        ]
+    ],
+    "relationships": []
 }

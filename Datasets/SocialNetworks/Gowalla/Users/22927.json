@@ -5,7 +5,12 @@
     "email": "melindaharris@yahoo.com",
     "birthdate": "2008-03-24",
     "phone": "999-622-0065x32086",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.96058,
+            37.292851
+        ]
+    ],
+    "relationships": []
 }

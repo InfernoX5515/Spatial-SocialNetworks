@@ -5,7 +5,26 @@
     "email": "caseashley@hotmail.com",
     "birthdate": "1989-02-24",
     "phone": "(713)873-8967",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        21,
+        61,
+        7,
+        44,
+        44,
+        7,
+        73,
+        73,
+        46,
+        58,
+        16,
+        53
+    ],
+    "login locations": [
+        [
+            -118.296234,
+            34.104358
+        ]
+    ],
+    "relationships": []
 }

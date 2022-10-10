@@ -5,7 +5,15 @@
     "email": "raymond68@yahoo.com",
     "birthdate": "1959-06-11",
     "phone": "(474)957-5209",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        23
+    ],
+    "login locations": [
+        [
+            -121.951939,
+            37.403019
+        ]
+    ],
+    "relationships": []
 }

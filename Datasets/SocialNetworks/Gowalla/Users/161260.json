@@ -5,7 +5,14 @@
     "email": "amanda84@yahoo.com",
     "birthdate": "1934-02-01",
     "phone": "004.227.0162x65580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61
+    ],
+    "login locations": [
+        [
+            -122.406527,
+            37.736649
+        ]
+    ],
+    "relationships": []
 }

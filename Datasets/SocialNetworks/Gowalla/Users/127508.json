@@ -5,7 +5,14 @@
     "email": "lucasjasmine@hotmail.com",
     "birthdate": "1992-09-12",
     "phone": "378.996.0553",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34
+    ],
+    "login locations": [
+        [
+            -118.40504,
+            34.074844
+        ]
+    ],
+    "relationships": []
 }

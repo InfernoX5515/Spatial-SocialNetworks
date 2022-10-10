@@ -5,7 +5,20 @@
     "email": "carlosgoodwin@hotmail.com",
     "birthdate": "1936-12-22",
     "phone": "966-391-8817",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        68,
+        66,
+        42,
+        63,
+        5,
+        65
+    ],
+    "login locations": [
+        [
+            -122.393549,
+            37.768886
+        ]
+    ],
+    "relationships": []
 }

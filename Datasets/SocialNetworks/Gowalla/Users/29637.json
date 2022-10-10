@@ -5,7 +5,23 @@
     "email": "alisondavis@yahoo.com",
     "birthdate": "1938-01-21",
     "phone": "4219254771",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        6,
+        56,
+        5,
+        8,
+        61,
+        29,
+        32,
+        45,
+        8
+    ],
+    "login locations": [
+        [
+            -117.83528,
+            33.738279
+        ]
+    ],
+    "relationships": []
 }

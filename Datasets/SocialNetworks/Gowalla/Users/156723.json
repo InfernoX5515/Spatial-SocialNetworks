@@ -5,7 +5,25 @@
     "email": "jmendez@yahoo.com",
     "birthdate": "1916-11-01",
     "phone": "(220)062-8386x38320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        65,
+        34,
+        48,
+        58,
+        71,
+        39,
+        43,
+        62,
+        74,
+        53,
+        47
+    ],
+    "login locations": [
+        [
+            -122.089406,
+            37.399982
+        ]
+    ],
+    "relationships": []
 }

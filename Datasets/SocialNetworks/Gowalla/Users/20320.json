@@ -5,7 +5,26 @@
     "email": "adam26@hotmail.com",
     "birthdate": "1922-05-05",
     "phone": "519.721.7444x539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        46,
+        49,
+        66,
+        75,
+        40,
+        61,
+        47,
+        61,
+        17,
+        73,
+        45,
+        39
+    ],
+    "login locations": [
+        [
+            -122.412778,
+            37.763637
+        ]
+    ],
+    "relationships": []
 }

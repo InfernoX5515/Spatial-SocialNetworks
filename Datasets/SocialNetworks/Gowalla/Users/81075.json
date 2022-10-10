@@ -5,7 +5,16 @@
     "email": "kathryncasey@gmail.com",
     "birthdate": "2020-01-28",
     "phone": "8567053248",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        13,
+        57
+    ],
+    "login locations": [
+        [
+            -117.870104,
+            33.779187
+        ]
+    ],
+    "relationships": []
 }

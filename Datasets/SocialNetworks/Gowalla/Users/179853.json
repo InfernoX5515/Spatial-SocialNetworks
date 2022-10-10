@@ -5,7 +5,18 @@
     "email": "collierrachel@yahoo.com",
     "birthdate": "2021-04-28",
     "phone": "815.923.5878",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        26,
+        42,
+        11,
+        41
+    ],
+    "login locations": [
+        [
+            -121.656842,
+            36.711388
+        ]
+    ],
+    "relationships": []
 }

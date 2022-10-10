@@ -5,7 +5,15 @@
     "email": "ihansen@hotmail.com",
     "birthdate": "1941-04-21",
     "phone": "001-784-136-1519",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        3
+    ],
+    "login locations": [
+        [
+            -121.946526,
+            37.325158
+        ]
+    ],
+    "relationships": []
 }

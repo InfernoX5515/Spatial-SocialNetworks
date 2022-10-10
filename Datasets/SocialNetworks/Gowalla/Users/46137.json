@@ -5,7 +5,30 @@
     "email": "bellmatthew@gmail.com",
     "birthdate": "1956-10-09",
     "phone": "993.019.8960",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        50,
+        23,
+        5,
+        0,
+        61
+    ],
+    "login locations": [
+        [
+            -119.07469,
+            35.368797
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                20061,
+                0.217391304348
+            ],
+            [
+                20061,
+                0.217391304348
+            ]
+        ]
+    ]
 }

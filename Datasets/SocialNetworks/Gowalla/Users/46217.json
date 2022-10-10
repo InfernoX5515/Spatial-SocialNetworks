@@ -5,7 +5,22 @@
     "email": "jdavis@yahoo.com",
     "birthdate": "2001-12-30",
     "phone": "001-631-117-7944",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        37,
+        9,
+        16,
+        65,
+        38,
+        5,
+        59,
+        0
+    ],
+    "login locations": [
+        [
+            -117.178721,
+            32.681635
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "annettepotter@hotmail.com",
     "birthdate": "1975-09-29",
     "phone": "(502)479-9186x90578",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.34725,
+            37.797098
+        ]
+    ],
+    "relationships": []
 }

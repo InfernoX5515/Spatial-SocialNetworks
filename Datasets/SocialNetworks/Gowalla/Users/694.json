@@ -5,7 +5,22 @@
     "email": "lewisdavid@yahoo.com",
     "birthdate": "1935-07-17",
     "phone": "001-080-312-1319",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        3,
+        53,
+        65,
+        21,
+        5,
+        2,
+        45,
+        37
+    ],
+    "login locations": [
+        [
+            -118.283273,
+            34.073363
+        ]
+    ],
+    "relationships": []
 }

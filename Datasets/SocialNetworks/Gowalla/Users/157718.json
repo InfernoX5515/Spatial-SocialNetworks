@@ -5,7 +5,16 @@
     "email": "theresa91@hotmail.com",
     "birthdate": "2005-03-18",
     "phone": "(175)404-7922x980",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        16,
+        11
+    ],
+    "login locations": [
+        [
+            -121.785696,
+            37.157907
+        ]
+    ],
+    "relationships": []
 }

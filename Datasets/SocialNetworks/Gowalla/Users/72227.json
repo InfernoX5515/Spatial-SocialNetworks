@@ -5,7 +5,21 @@
     "email": "xbyrd@hotmail.com",
     "birthdate": "1996-04-21",
     "phone": "998.387.6605x67089",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        8,
+        73,
+        49,
+        32,
+        23,
+        73,
+        72
+    ],
+    "login locations": [
+        [
+            -117.231873,
+            33.101696
+        ]
+    ],
+    "relationships": []
 }

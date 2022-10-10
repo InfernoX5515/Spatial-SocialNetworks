@@ -5,7 +5,26 @@
     "email": "garciashawn@gmail.com",
     "birthdate": "1946-03-25",
     "phone": "(942)767-4393",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        49,
+        64,
+        24,
+        47,
+        6,
+        21,
+        54,
+        63,
+        56,
+        58,
+        44,
+        45
+    ],
+    "login locations": [
+        [
+            -118.596043,
+            34.191765
+        ]
+    ],
+    "relationships": []
 }

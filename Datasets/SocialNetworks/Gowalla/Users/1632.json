@@ -5,7 +5,19 @@
     "email": "leonardemily@gmail.com",
     "birthdate": "1935-03-09",
     "phone": "572-751-8325x4193",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        44,
+        11,
+        75,
+        9,
+        67
+    ],
+    "login locations": [
+        [
+            -118.33325,
+            34.091525
+        ]
+    ],
+    "relationships": []
 }

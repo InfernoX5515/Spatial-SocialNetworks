@@ -5,7 +5,21 @@
     "email": "dana92@yahoo.com",
     "birthdate": "1908-02-02",
     "phone": "489.087.5346x26724",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        7,
+        7,
+        49,
+        1,
+        41,
+        39,
+        63
+    ],
+    "login locations": [
+        [
+            -121.896125,
+            36.583482
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,39 @@
     "email": "badams@yahoo.com",
     "birthdate": "1945-08-24",
     "phone": "820-355-0658x328",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        58,
+        18,
+        64,
+        50,
+        34,
+        44,
+        32,
+        17,
+        46,
+        39,
+        32,
+        68,
+        58,
+        20
+    ],
+    "login locations": [
+        [
+            -117.792193,
+            33.649842
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                487,
+                0.01
+            ],
+            [
+                497,
+                0.0352941176471
+            ]
+        ]
+    ]
 }

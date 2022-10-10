@@ -5,7 +5,25 @@
     "email": "pereztaylor@hotmail.com",
     "birthdate": "1968-12-17",
     "phone": "(893)124-6256x9104",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        27,
+        36,
+        70,
+        51,
+        66,
+        73,
+        29,
+        29,
+        56,
+        52,
+        39
+    ],
+    "login locations": [
+        [
+            -117.595684,
+            34.053917
+        ]
+    ],
+    "relationships": []
 }

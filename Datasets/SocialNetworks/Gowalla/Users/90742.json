@@ -5,7 +5,12 @@
     "email": "millermike@gmail.com",
     "birthdate": "1988-10-15",
     "phone": "(360)570-7026",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.117527,
+            32.715119
+        ]
+    ],
+    "relationships": []
 }

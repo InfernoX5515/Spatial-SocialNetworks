@@ -5,7 +5,27 @@
     "email": "katelynhowell@yahoo.com",
     "birthdate": "1944-12-28",
     "phone": "914-526-7075x7531",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        0,
+        57,
+        14,
+        31,
+        16,
+        68,
+        4,
+        29,
+        57,
+        41,
+        57,
+        49,
+        38
+    ],
+    "login locations": [
+        [
+            -122.38531,
+            37.784805
+        ]
+    ],
+    "relationships": []
 }

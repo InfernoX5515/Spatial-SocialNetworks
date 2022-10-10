@@ -5,7 +5,19 @@
     "email": "timothymclaughlin@gmail.com",
     "birthdate": "1954-05-05",
     "phone": "3410901361",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        12,
+        20,
+        11,
+        3,
+        2
+    ],
+    "login locations": [
+        [
+            -122.418363,
+            37.770102
+        ]
+    ],
+    "relationships": []
 }

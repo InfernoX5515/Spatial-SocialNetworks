@@ -5,7 +5,21 @@
     "email": "deborah58@gmail.com",
     "birthdate": "1996-12-29",
     "phone": "+1-773-962-2570x7717",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        20,
+        31,
+        66,
+        65,
+        4,
+        60,
+        58
+    ],
+    "login locations": [
+        [
+            -121.225065,
+            38.749705
+        ]
+    ],
+    "relationships": []
 }

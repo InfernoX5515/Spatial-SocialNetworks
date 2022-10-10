@@ -5,7 +5,17 @@
     "email": "lynndavid@hotmail.com",
     "birthdate": "1986-06-27",
     "phone": "4727826838",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        17,
+        59,
+        9
+    ],
+    "login locations": [
+        [
+            -118.168363,
+            34.140874
+        ]
+    ],
+    "relationships": []
 }

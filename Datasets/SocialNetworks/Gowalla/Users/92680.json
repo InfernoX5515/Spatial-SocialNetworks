@@ -5,7 +5,17 @@
     "email": "kristophercox@gmail.com",
     "birthdate": "1917-12-24",
     "phone": "219-929-3559x3681",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        16,
+        74,
+        64
+    ],
+    "login locations": [
+        [
+            -119.239573,
+            34.243703
+        ]
+    ],
+    "relationships": []
 }

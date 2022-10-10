@@ -5,7 +5,21 @@
     "email": "lopezjames@yahoo.com",
     "birthdate": "1948-08-23",
     "phone": "925-349-6539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        48,
+        24,
+        37,
+        66,
+        73,
+        4,
+        18
+    ],
+    "login locations": [
+        [
+            -121.28668,
+            38.624867
+        ]
+    ],
+    "relationships": []
 }

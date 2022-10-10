@@ -5,7 +5,37 @@
     "email": "wilsonjacob@gmail.com",
     "birthdate": "1928-02-15",
     "phone": "+1-916-006-8767x436",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        29,
+        75,
+        13,
+        46,
+        58,
+        59,
+        57,
+        72,
+        12,
+        59,
+        39,
+        74
+    ],
+    "login locations": [
+        [
+            -122.439083,
+            37.778623
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125136,
+                0.2
+            ],
+            [
+                125136,
+                0.2
+            ]
+        ]
+    ]
 }

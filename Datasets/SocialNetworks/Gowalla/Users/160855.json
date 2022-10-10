@@ -5,7 +5,18 @@
     "email": "djones@gmail.com",
     "birthdate": "1967-05-31",
     "phone": "001-758-549-5605x2629",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        56,
+        0,
+        70,
+        63
+    ],
+    "login locations": [
+        [
+            -118.319637,
+            34.123746
+        ]
+    ],
+    "relationships": []
 }

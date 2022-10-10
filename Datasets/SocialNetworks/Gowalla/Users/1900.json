@@ -5,7 +5,39 @@
     "email": "higginshayley@hotmail.com",
     "birthdate": "1949-09-08",
     "phone": "001-736-300-0601x894",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        69,
+        66,
+        51,
+        44,
+        48,
+        51,
+        65,
+        16,
+        62,
+        70,
+        3,
+        39,
+        18,
+        42
+    ],
+    "login locations": [
+        [
+            -122.40385,
+            37.784607
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.01
+            ],
+            [
+                355,
+                0.01
+            ]
+        ]
+    ]
 }

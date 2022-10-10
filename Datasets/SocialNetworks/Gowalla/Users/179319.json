@@ -5,7 +5,23 @@
     "email": "vthomas@gmail.com",
     "birthdate": "1982-11-30",
     "phone": "(857)708-4106",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        15,
+        7,
+        68,
+        28,
+        35,
+        30,
+        57,
+        29,
+        34
+    ],
+    "login locations": [
+        [
+            -118.235227,
+            33.866126
+        ]
+    ],
+    "relationships": []
 }

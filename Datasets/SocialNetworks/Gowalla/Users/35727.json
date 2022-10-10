@@ -5,7 +5,27 @@
     "email": "wcole@yahoo.com",
     "birthdate": "2012-09-27",
     "phone": "+1-953-294-1285x99458",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        6,
+        67,
+        74,
+        42,
+        48,
+        2,
+        17,
+        38,
+        32,
+        66,
+        34,
+        0,
+        66
+    ],
+    "login locations": [
+        [
+            -118.257325,
+            34.096188
+        ]
+    ],
+    "relationships": []
 }

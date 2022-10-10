@@ -5,7 +5,34 @@
     "email": "miranda62@gmail.com",
     "birthdate": "1972-04-11",
     "phone": "855.887.0624x31915",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        69,
+        10,
+        52,
+        19,
+        16,
+        7,
+        19,
+        12,
+        57
+    ],
+    "login locations": [
+        [
+            -122.163144,
+            37.447073
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.0144927536232
+            ],
+            [
+                8651,
+                0.210526315789
+            ]
+        ]
+    ]
 }

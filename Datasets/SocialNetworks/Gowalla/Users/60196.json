@@ -5,7 +5,23 @@
     "email": "devinnorton@gmail.com",
     "birthdate": "1969-12-12",
     "phone": "8041559847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        48,
+        43,
+        28,
+        17,
+        70,
+        75,
+        22,
+        40,
+        74
+    ],
+    "login locations": [
+        [
+            -118.393715,
+            34.148393
+        ]
+    ],
+    "relationships": []
 }

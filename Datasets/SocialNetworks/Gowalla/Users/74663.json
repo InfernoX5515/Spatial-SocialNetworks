@@ -5,7 +5,26 @@
     "email": "jonathan09@gmail.com",
     "birthdate": "1918-10-13",
     "phone": "884-274-8783",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        40
+    ],
+    "login locations": [
+        [
+            -122.426122,
+            37.766365
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5101,
+                0.0243902439024
+            ],
+            [
+                5101,
+                0.0243902439024
+            ]
+        ]
+    ]
 }

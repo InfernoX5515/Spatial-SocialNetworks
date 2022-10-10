@@ -5,7 +5,21 @@
     "email": "tknox@hotmail.com",
     "birthdate": "1979-02-25",
     "phone": "(114)910-9114x118",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        60,
+        53,
+        18,
+        17,
+        31,
+        34,
+        46
+    ],
+    "login locations": [
+        [
+            -118.310185,
+            33.978853
+        ]
+    ],
+    "relationships": []
 }

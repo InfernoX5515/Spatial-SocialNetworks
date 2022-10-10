@@ -5,7 +5,14 @@
     "email": "dcobb@gmail.com",
     "birthdate": "1967-02-12",
     "phone": "(210)110-2725",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11
+    ],
+    "login locations": [
+        [
+            -121.986397,
+            38.27079
+        ]
+    ],
+    "relationships": []
 }

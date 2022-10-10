@@ -5,7 +5,23 @@
     "email": "kimberly31@gmail.com",
     "birthdate": "1919-08-08",
     "phone": "896-791-6599x35511",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        44,
+        28,
+        66,
+        48,
+        27,
+        18,
+        16,
+        70,
+        33
+    ],
+    "login locations": [
+        [
+            -121.434356,
+            38.584895
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "taylorvictor@hotmail.com",
     "birthdate": "1961-07-18",
     "phone": "239.551.1959x1605",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        62,
+        45,
+        39,
+        67,
+        71,
+        74,
+        49,
+        69,
+        67,
+        24,
+        73,
+        4,
+        15,
+        56
+    ],
+    "login locations": [
+        [
+            -118.335524,
+            34.071709
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "brandy53@yahoo.com",
     "birthdate": "1954-02-06",
     "phone": "+1-181-486-7666x8314",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36
+    ],
+    "login locations": [
+        [
+            -118.190643,
+            33.929475
+        ]
+    ],
+    "relationships": []
 }

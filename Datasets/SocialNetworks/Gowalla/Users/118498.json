@@ -5,7 +5,14 @@
     "email": "boydjuan@gmail.com",
     "birthdate": "1969-06-27",
     "phone": "+1-401-087-2906x3902",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58
+    ],
+    "login locations": [
+        [
+            -122.403746,
+            37.783231
+        ]
+    ],
+    "relationships": []
 }

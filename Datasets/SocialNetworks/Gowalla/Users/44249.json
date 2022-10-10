@@ -5,7 +5,30 @@
     "email": "martinezeric@hotmail.com",
     "birthdate": "1963-03-02",
     "phone": "(833)975-6547x56377",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        67,
+        15,
+        3,
+        48,
+        71
+    ],
+    "login locations": [
+        [
+            -117.853307,
+            33.679537
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22414,
+                0.08
+            ],
+            [
+                22414,
+                0.08
+            ]
+        ]
+    ]
 }

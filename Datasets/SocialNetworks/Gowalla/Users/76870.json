@@ -5,7 +5,23 @@
     "email": "xcurry@yahoo.com",
     "birthdate": "1994-04-14",
     "phone": "001-145-043-0825x20920",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        25,
+        15,
+        48,
+        58,
+        17,
+        56,
+        57,
+        65,
+        69
+    ],
+    "login locations": [
+        [
+            -118.407168,
+            33.943538
+        ]
+    ],
+    "relationships": []
 }

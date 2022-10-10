@@ -5,7 +5,23 @@
     "email": "jpowell@gmail.com",
     "birthdate": "1943-03-16",
     "phone": "+1-247-212-5161",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        64,
+        7,
+        70,
+        58,
+        69,
+        19,
+        11,
+        49,
+        8
+    ],
+    "login locations": [
+        [
+            -121.766468,
+            36.739851
+        ]
+    ],
+    "relationships": []
 }

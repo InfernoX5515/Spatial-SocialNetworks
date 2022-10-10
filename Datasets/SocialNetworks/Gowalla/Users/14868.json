@@ -5,7 +5,22 @@
     "email": "fcook@hotmail.com",
     "birthdate": "1988-06-09",
     "phone": "910-942-6863",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        58,
+        17,
+        10,
+        70,
+        61,
+        3,
+        38,
+        6
+    ],
+    "login locations": [
+        [
+            -122.320159,
+            37.827688
+        ]
+    ],
+    "relationships": []
 }

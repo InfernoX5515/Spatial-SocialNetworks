@@ -5,7 +5,39 @@
     "email": "halecharles@gmail.com",
     "birthdate": "1920-09-30",
     "phone": "(516)827-9461",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        28,
+        3,
+        24,
+        21,
+        32,
+        73,
+        73,
+        1,
+        41,
+        15,
+        52,
+        47,
+        24,
+        47
+    ],
+    "login locations": [
+        [
+            -121.910244,
+            37.311523
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32255,
+                0.06
+            ],
+            [
+                32255,
+                0.06
+            ]
+        ]
+    ]
 }

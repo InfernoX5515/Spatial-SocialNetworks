@@ -5,7 +5,21 @@
     "email": "heather17@hotmail.com",
     "birthdate": "1973-07-24",
     "phone": "001-977-946-6801x1585",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        39,
+        72,
+        10,
+        26,
+        28,
+        7,
+        39
+    ],
+    "login locations": [
+        [
+            -118.379011,
+            34.161592
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "michelebooker@hotmail.com",
     "birthdate": "1987-04-09",
     "phone": "+1-976-132-7811x2853",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        23,
+        0,
+        33,
+        6,
+        58,
+        15
+    ],
+    "login locations": [
+        [
+            -117.970952,
+            33.843166
+        ]
+    ],
+    "relationships": []
 }

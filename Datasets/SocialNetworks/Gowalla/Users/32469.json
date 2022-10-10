@@ -5,7 +5,21 @@
     "email": "andrew06@hotmail.com",
     "birthdate": "1994-03-14",
     "phone": "8865881511",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        20,
+        52,
+        13,
+        74,
+        1,
+        59,
+        23
+    ],
+    "login locations": [
+        [
+            -118.392047,
+            33.964557
+        ]
+    ],
+    "relationships": []
 }

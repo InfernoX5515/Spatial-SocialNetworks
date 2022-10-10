@@ -5,7 +5,21 @@
     "email": "wilsonclayton@hotmail.com",
     "birthdate": "1998-03-16",
     "phone": "001-275-752-4510x18344",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        53,
+        38,
+        19,
+        72,
+        10,
+        2,
+        57
+    ],
+    "login locations": [
+        [
+            -122.403819,
+            37.778039
+        ]
+    ],
+    "relationships": []
 }

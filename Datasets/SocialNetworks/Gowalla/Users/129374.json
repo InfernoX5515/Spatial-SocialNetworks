@@ -5,7 +5,12 @@
     "email": "caseyvincent@gmail.com",
     "birthdate": "1961-09-22",
     "phone": "993-766-4533x138",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.422309,
+            37.754344
+        ]
+    ],
+    "relationships": []
 }

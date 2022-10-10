@@ -5,7 +5,38 @@
     "email": "dustinbrown@hotmail.com",
     "birthdate": "1962-09-05",
     "phone": "+1-550-215-3380x9053",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        69,
+        5,
+        39,
+        33,
+        0,
+        23,
+        60,
+        49,
+        8,
+        42,
+        59,
+        69,
+        37
+    ],
+    "login locations": [
+        [
+            -122.014233,
+            37.093642
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                181138,
+                0.333333333333
+            ],
+            [
+                181138,
+                0.333333333333
+            ]
+        ]
+    ]
 }

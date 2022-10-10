@@ -5,7 +5,16 @@
     "email": "joanna96@hotmail.com",
     "birthdate": "1974-11-04",
     "phone": "(317)041-4783",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        55,
+        40
+    ],
+    "login locations": [
+        [
+            -119.782977,
+            36.781368
+        ]
+    ],
+    "relationships": []
 }

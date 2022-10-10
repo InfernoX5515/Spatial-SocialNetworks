@@ -5,7 +5,20 @@
     "email": "ronnievargas@yahoo.com",
     "birthdate": "2017-10-19",
     "phone": "1304002530",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        47,
+        26,
+        32,
+        49,
+        45,
+        4
+    ],
+    "login locations": [
+        [
+            -117.92994,
+            33.755163
+        ]
+    ],
+    "relationships": []
 }

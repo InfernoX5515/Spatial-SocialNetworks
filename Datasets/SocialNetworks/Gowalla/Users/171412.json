@@ -5,7 +5,27 @@
     "email": "karenhawkins@hotmail.com",
     "birthdate": "2001-05-16",
     "phone": "(702)203-3084x6415",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        35,
+        63,
+        56,
+        43,
+        69,
+        59,
+        64,
+        44,
+        54,
+        63,
+        34,
+        14,
+        45
+    ],
+    "login locations": [
+        [
+            -122.347668,
+            37.796873
+        ]
+    ],
+    "relationships": []
 }

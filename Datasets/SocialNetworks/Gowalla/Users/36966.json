@@ -5,7 +5,25 @@
     "email": "fjohnson@hotmail.com",
     "birthdate": "1929-06-21",
     "phone": "397.549.0929",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        10,
+        40,
+        26,
+        30,
+        41,
+        57,
+        53,
+        25,
+        50,
+        30,
+        58
+    ],
+    "login locations": [
+        [
+            -122.418231,
+            37.760748
+        ]
+    ],
+    "relationships": []
 }

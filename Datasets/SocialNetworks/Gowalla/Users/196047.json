@@ -5,7 +5,25 @@
     "email": "ybaker@gmail.com",
     "birthdate": "1925-10-23",
     "phone": "426-769-0495x709",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        54,
+        47,
+        49,
+        58,
+        64,
+        11,
+        26,
+        35,
+        72,
+        63,
+        23
+    ],
+    "login locations": [
+        [
+            -118.454648,
+            34.032399
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "heathernavarro@hotmail.com",
     "birthdate": "1943-10-26",
     "phone": "771.987.0439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.349845,
+            37.759898
+        ]
+    ],
+    "relationships": []
 }

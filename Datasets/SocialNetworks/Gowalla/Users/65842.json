@@ -5,7 +5,29 @@
     "email": "dwilliams@yahoo.com",
     "birthdate": "1932-03-06",
     "phone": "(904)233-6892x11165",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        25,
+        65,
+        71,
+        48
+    ],
+    "login locations": [
+        [
+            -121.985152,
+            37.373638
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                72053,
+                0.048
+            ],
+            [
+                72053,
+                0.048
+            ]
+        ]
+    ]
 }

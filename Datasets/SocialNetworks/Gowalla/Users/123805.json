@@ -5,7 +5,22 @@
     "email": "matthew42@gmail.com",
     "birthdate": "1935-04-05",
     "phone": "(211)065-8855",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        73,
+        34,
+        40,
+        32,
+        14,
+        54,
+        52,
+        64
+    ],
+    "login locations": [
+        [
+            -122.313731,
+            37.793214
+        ]
+    ],
+    "relationships": []
 }

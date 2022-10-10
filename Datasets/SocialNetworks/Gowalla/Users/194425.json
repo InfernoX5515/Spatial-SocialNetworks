@@ -5,7 +5,27 @@
     "email": "nguyenbruce@yahoo.com",
     "birthdate": "1966-03-05",
     "phone": "(859)635-6310x990",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        34,
+        53,
+        73,
+        66,
+        62,
+        62,
+        44,
+        57,
+        46,
+        57,
+        63,
+        66,
+        53
+    ],
+    "login locations": [
+        [
+            -121.889418,
+            37.326483
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "jaclyn70@gmail.com",
     "birthdate": "2009-05-18",
     "phone": "(260)129-7506x691",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        21,
+        3,
+        15,
+        14,
+        3,
+        13,
+        36,
+        4,
+        60,
+        36,
+        61
+    ],
+    "login locations": [
+        [
+            -122.058958,
+            37.393914
+        ]
+    ],
+    "relationships": []
 }

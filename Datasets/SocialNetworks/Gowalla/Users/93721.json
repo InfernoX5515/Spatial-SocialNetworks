@@ -5,7 +5,14 @@
     "email": "carljames@hotmail.com",
     "birthdate": "1967-02-19",
     "phone": "0473695582",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17
+    ],
+    "login locations": [
+        [
+            -122.284127,
+            37.818327
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "fcastillo@yahoo.com",
     "birthdate": "1939-05-07",
     "phone": "+1-492-805-5972x189",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        53,
+        6,
+        59,
+        2,
+        67,
+        4,
+        39,
+        0,
+        20,
+        42,
+        64,
+        6,
+        14
+    ],
+    "login locations": [
+        [
+            -121.221769,
+            38.735312
+        ]
+    ],
+    "relationships": []
 }

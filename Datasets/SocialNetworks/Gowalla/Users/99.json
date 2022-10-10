@@ -5,7 +5,31 @@
     "email": "valdezdavid@hotmail.com",
     "birthdate": "1910-08-02",
     "phone": "323-061-1725",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        52,
+        3,
+        54,
+        0,
+        69,
+        27
+    ],
+    "login locations": [
+        [
+            -122.406828,
+            37.786288
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8,
+                0.453333333333
+            ],
+            [
+                53,
+                0.137426900585
+            ]
+        ]
+    ]
 }

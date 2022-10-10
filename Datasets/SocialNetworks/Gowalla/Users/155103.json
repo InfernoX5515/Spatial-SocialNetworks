@@ -5,7 +5,25 @@
     "email": "thorntonjerry@gmail.com",
     "birthdate": "1988-01-29",
     "phone": "(384)942-4014x329",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        44,
+        5,
+        46,
+        35,
+        15,
+        50,
+        42,
+        1,
+        15,
+        35,
+        75
+    ],
+    "login locations": [
+        [
+            -122.390564,
+            37.706492
+        ]
+    ],
+    "relationships": []
 }

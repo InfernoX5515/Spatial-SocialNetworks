@@ -5,7 +5,14 @@
     "email": "ywright@hotmail.com",
     "birthdate": "1948-09-05",
     "phone": "(709)119-5155x70858",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3
+    ],
+    "login locations": [
+        [
+            -118.360442,
+            34.117767
+        ]
+    ],
+    "relationships": []
 }

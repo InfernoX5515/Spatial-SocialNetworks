@@ -5,7 +5,35 @@
     "email": "christine30@gmail.com",
     "birthdate": "1931-06-26",
     "phone": "188.224.4791x438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        32,
+        74,
+        47,
+        43,
+        7,
+        34,
+        49,
+        10,
+        3,
+        44
+    ],
+    "login locations": [
+        [
+            -122.433873,
+            37.787245
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                91818,
+                0.025641025641
+            ],
+            [
+                91818,
+                0.025641025641
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,16 @@
     "email": "edward23@hotmail.com",
     "birthdate": "1952-07-15",
     "phone": "001-638-057-7535",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        38,
+        51
+    ],
+    "login locations": [
+        [
+            -122.987034,
+            38.508144
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "ramirezjerome@hotmail.com",
     "birthdate": "1921-09-29",
     "phone": "+1-015-378-8735x878",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        35,
+        33,
+        7,
+        25,
+        49,
+        42,
+        6,
+        53,
+        37,
+        7,
+        51,
+        20
+    ],
+    "login locations": [
+        [
+            -118.313243,
+            34.1258
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "vsullivan@hotmail.com",
     "birthdate": "1911-08-09",
     "phone": "(619)203-3599x09430",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        19,
+        32,
+        46,
+        25,
+        70,
+        35,
+        54
+    ],
+    "login locations": [
+        [
+            -119.736268,
+            36.8013
+        ]
+    ],
+    "relationships": []
 }

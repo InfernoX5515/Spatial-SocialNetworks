@@ -5,7 +5,12 @@
     "email": "davisphilip@gmail.com",
     "birthdate": "1994-10-30",
     "phone": "+1-377-797-1884x648",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.159562,
+            32.827933
+        ]
+    ],
+    "relationships": []
 }

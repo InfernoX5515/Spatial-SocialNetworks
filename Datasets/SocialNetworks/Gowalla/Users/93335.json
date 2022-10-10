@@ -5,7 +5,21 @@
     "email": "holly83@hotmail.com",
     "birthdate": "1995-02-10",
     "phone": "534.616.7269x8153",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        6,
+        72,
+        9,
+        71,
+        56,
+        56,
+        16
+    ],
+    "login locations": [
+        [
+            -121.324029,
+            37.99319
+        ]
+    ],
+    "relationships": []
 }

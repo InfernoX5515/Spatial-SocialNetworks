@@ -5,7 +5,25 @@
     "email": "dana66@yahoo.com",
     "birthdate": "1934-05-04",
     "phone": "(052)561-1757x0939",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19
+    ],
+    "login locations": [
+        [
+            -118.283297,
+            34.028764
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118958,
+                0.01
+            ],
+            [
+                118958,
+                0.01
+            ]
+        ]
+    ]
 }

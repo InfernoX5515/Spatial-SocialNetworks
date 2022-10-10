@@ -5,7 +5,24 @@
     "email": "smithjoshua@gmail.com",
     "birthdate": "1988-12-05",
     "phone": "001-841-889-6352",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        17,
+        14,
+        41,
+        64,
+        27,
+        71,
+        57,
+        68,
+        62,
+        20
+    ],
+    "login locations": [
+        [
+            -118.098127,
+            33.854153
+        ]
+    ],
+    "relationships": []
 }

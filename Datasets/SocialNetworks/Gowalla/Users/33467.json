@@ -5,7 +5,15 @@
     "email": "ipearson@hotmail.com",
     "birthdate": "1973-05-08",
     "phone": "+1-402-750-7111x21942",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        20
+    ],
+    "login locations": [
+        [
+            -118.365485,
+            34.06059
+        ]
+    ],
+    "relationships": []
 }

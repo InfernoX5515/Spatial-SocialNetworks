@@ -5,7 +5,19 @@
     "email": "ryanblackwell@yahoo.com",
     "birthdate": "1937-07-28",
     "phone": "7727540589",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        23,
+        1,
+        6,
+        21,
+        37
+    ],
+    "login locations": [
+        [
+            -114.767985,
+            32.474318
+        ]
+    ],
+    "relationships": []
 }

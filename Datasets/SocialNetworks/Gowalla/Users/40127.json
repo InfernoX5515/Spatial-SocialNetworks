@@ -5,7 +5,16 @@
     "email": "richard86@yahoo.com",
     "birthdate": "1995-01-03",
     "phone": "376-027-0301",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        31,
+        10
+    ],
+    "login locations": [
+        [
+            -122.185575,
+            37.453482
+        ]
+    ],
+    "relationships": []
 }

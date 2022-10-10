@@ -5,7 +5,26 @@
     "email": "charles66@gmail.com",
     "birthdate": "1965-07-30",
     "phone": "+1-650-516-1482x5299",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        22,
+        71,
+        24,
+        11,
+        61,
+        64,
+        17,
+        30,
+        75,
+        29,
+        73,
+        23
+    ],
+    "login locations": [
+        [
+            -122.336206,
+            37.809542
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "elizabeth87@hotmail.com",
     "birthdate": "1919-06-24",
     "phone": "954-525-5890x7147",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        57,
+        13,
+        55,
+        69,
+        48,
+        3,
+        27,
+        25,
+        17,
+        62,
+        38
+    ],
+    "login locations": [
+        [
+            -122.220364,
+            37.476799
+        ]
+    ],
+    "relationships": []
 }

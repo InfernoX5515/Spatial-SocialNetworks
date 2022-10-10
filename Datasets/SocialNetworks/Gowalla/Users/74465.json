@@ -5,7 +5,17 @@
     "email": "debbiemurray@yahoo.com",
     "birthdate": "1972-06-03",
     "phone": "+1-163-278-1003x232",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        1,
+        37,
+        44
+    ],
+    "login locations": [
+        [
+            -122.173663,
+            37.417949
+        ]
+    ],
+    "relationships": []
 }

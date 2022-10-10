@@ -5,7 +5,28 @@
     "email": "scott97@gmail.com",
     "birthdate": "1943-05-16",
     "phone": "9569256948",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        13,
+        60,
+        43,
+        6,
+        43,
+        26,
+        74,
+        45,
+        19,
+        36,
+        68,
+        56,
+        28,
+        43
+    ],
+    "login locations": [
+        [
+            -122.424974,
+            37.76358
+        ]
+    ],
+    "relationships": []
 }

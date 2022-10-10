@@ -5,7 +5,39 @@
     "email": "jsosa@gmail.com",
     "birthdate": "1972-11-16",
     "phone": "334-797-2142",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        58,
+        7,
+        30,
+        18,
+        49,
+        43,
+        38,
+        68,
+        26,
+        10,
+        25,
+        66,
+        71,
+        30
+    ],
+    "login locations": [
+        [
+            -118.339734,
+            34.024367
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                133640,
+                0.0161290322581
+            ],
+            [
+                133641,
+                0.08
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "ihensley@hotmail.com",
     "birthdate": "1994-04-07",
     "phone": "4447088377",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        51,
+        22,
+        36,
+        31,
+        6,
+        52,
+        5,
+        17,
+        38,
+        42,
+        42
+    ],
+    "login locations": [
+        [
+            -121.993956,
+            37.31004
+        ]
+    ],
+    "relationships": []
 }

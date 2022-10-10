@@ -5,7 +5,14 @@
     "email": "acostachris@gmail.com",
     "birthdate": "2006-09-27",
     "phone": "(063)032-6001x122",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45
+    ],
+    "login locations": [
+        [
+            -119.065893,
+            35.363515
+        ]
+    ],
+    "relationships": []
 }

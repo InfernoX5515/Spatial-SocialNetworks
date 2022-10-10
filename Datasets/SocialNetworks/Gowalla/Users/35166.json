@@ -5,7 +5,20 @@
     "email": "patriciapreston@hotmail.com",
     "birthdate": "1988-05-05",
     "phone": "001-838-396-3042x54538",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        29,
+        31,
+        7,
+        34,
+        31,
+        65
+    ],
+    "login locations": [
+        [
+            -117.136786,
+            32.769833
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "matthewlopez@gmail.com",
     "birthdate": "1951-11-23",
     "phone": "(834)793-5792",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        16,
+        56,
+        24
+    ],
+    "login locations": [
+        [
+            -122.409362,
+            37.786203
+        ]
+    ],
+    "relationships": []
 }

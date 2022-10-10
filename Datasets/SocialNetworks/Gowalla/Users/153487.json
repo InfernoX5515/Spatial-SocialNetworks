@@ -5,7 +5,15 @@
     "email": "ryannorris@hotmail.com",
     "birthdate": "2008-10-07",
     "phone": "+1-894-256-6576",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        64
+    ],
+    "login locations": [
+        [
+            -121.89253,
+            37.297269
+        ]
+    ],
+    "relationships": []
 }

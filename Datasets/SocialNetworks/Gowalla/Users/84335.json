@@ -5,7 +5,20 @@
     "email": "andrew63@hotmail.com",
     "birthdate": "1911-06-23",
     "phone": "001-446-044-6588x8636",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        57,
+        35,
+        0,
+        54,
+        41,
+        69
+    ],
+    "login locations": [
+        [
+            -122.076737,
+            37.831098
+        ]
+    ],
+    "relationships": []
 }

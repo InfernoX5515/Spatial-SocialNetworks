@@ -5,7 +5,14 @@
     "email": "copelandsteven@hotmail.com",
     "birthdate": "1981-08-30",
     "phone": "150.401.0523x37491",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13
+    ],
+    "login locations": [
+        [
+            -121.525789,
+            38.665166
+        ]
+    ],
+    "relationships": []
 }

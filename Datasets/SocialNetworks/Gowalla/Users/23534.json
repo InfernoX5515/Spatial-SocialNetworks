@@ -5,7 +5,26 @@
     "email": "vanessamatthews@yahoo.com",
     "birthdate": "2009-07-01",
     "phone": "001-751-536-0663x103",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        31,
+        32,
+        17,
+        9,
+        74,
+        63,
+        69,
+        59,
+        38,
+        10,
+        7,
+        74
+    ],
+    "login locations": [
+        [
+            -122.157761,
+            37.429656
+        ]
+    ],
+    "relationships": []
 }

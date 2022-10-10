@@ -5,7 +5,16 @@
     "email": "gesparza@yahoo.com",
     "birthdate": "1955-05-09",
     "phone": "001-041-948-7304x93582",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        10,
+        75
+    ],
+    "login locations": [
+        [
+            -118.272946,
+            34.108128
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "utanner@gmail.com",
     "birthdate": "1961-03-15",
     "phone": "900-105-9642",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        61,
+        54,
+        45,
+        32,
+        73,
+        16,
+        36
+    ],
+    "login locations": [
+        [
+            -121.905507,
+            37.34847
+        ]
+    ],
+    "relationships": []
 }

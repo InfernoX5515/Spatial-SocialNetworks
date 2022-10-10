@@ -5,7 +5,26 @@
     "email": "brandihart@gmail.com",
     "birthdate": "1983-01-15",
     "phone": "+1-547-606-9232x0065",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        33,
+        73,
+        30,
+        72,
+        11,
+        1,
+        9,
+        61,
+        56,
+        67,
+        2,
+        64
+    ],
+    "login locations": [
+        [
+            -119.655221,
+            36.325852
+        ]
+    ],
+    "relationships": []
 }

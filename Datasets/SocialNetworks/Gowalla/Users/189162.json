@@ -5,7 +5,27 @@
     "email": "rachael33@yahoo.com",
     "birthdate": "1921-10-27",
     "phone": "9430913127",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        13,
+        60,
+        34,
+        64,
+        72,
+        72,
+        2,
+        46,
+        28,
+        59,
+        2,
+        46,
+        21
+    ],
+    "login locations": [
+        [
+            -118.424931,
+            34.045249
+        ]
+    ],
+    "relationships": []
 }

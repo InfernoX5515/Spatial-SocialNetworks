@@ -5,7 +5,15 @@
     "email": "eddiemoses@hotmail.com",
     "birthdate": "2016-01-08",
     "phone": "901-266-5729",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        59
+    ],
+    "login locations": [
+        [
+            -117.164488,
+            32.738794
+        ]
+    ],
+    "relationships": []
 }

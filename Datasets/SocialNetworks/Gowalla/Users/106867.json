@@ -5,7 +5,28 @@
     "email": "bradjensen@yahoo.com",
     "birthdate": "2007-02-01",
     "phone": "+1-814-434-8681x1236",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        5,
+        7,
+        25,
+        40,
+        73,
+        3,
+        63,
+        41,
+        43,
+        18,
+        50,
+        24,
+        63,
+        16
+    ],
+    "login locations": [
+        [
+            -118.408569,
+            34.091894
+        ]
+    ],
+    "relationships": []
 }

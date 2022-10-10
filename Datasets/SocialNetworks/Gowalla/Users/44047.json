@@ -5,7 +5,22 @@
     "email": "cindybennett@gmail.com",
     "birthdate": "1926-10-23",
     "phone": "465-935-9046",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        22,
+        61,
+        42,
+        4,
+        4,
+        67,
+        55,
+        29
+    ],
+    "login locations": [
+        [
+            -122.412928,
+            37.789129
+        ]
+    ],
+    "relationships": []
 }

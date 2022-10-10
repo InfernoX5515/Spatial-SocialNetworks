@@ -5,7 +5,22 @@
     "email": "william43@hotmail.com",
     "birthdate": "1974-11-07",
     "phone": "8246753188",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        40,
+        56,
+        73,
+        8,
+        43,
+        52,
+        48,
+        20
+    ],
+    "login locations": [
+        [
+            -118.692335,
+            34.049192
+        ]
+    ],
+    "relationships": []
 }

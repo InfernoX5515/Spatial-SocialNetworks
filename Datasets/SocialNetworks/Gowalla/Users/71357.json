@@ -5,7 +5,23 @@
     "email": "cindysanchez@gmail.com",
     "birthdate": "1926-04-14",
     "phone": "5539883827",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.416237,
+            37.77199
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                128118,
+                0.0243902439024
+            ],
+            [
+                128118,
+                0.0243902439024
+            ]
+        ]
+    ]
 }

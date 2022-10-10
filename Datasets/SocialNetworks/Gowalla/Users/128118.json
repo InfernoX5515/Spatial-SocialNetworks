@@ -5,7 +5,35 @@
     "email": "ericthomas@gmail.com",
     "birthdate": "1926-11-20",
     "phone": "001-386-672-5493x04261",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        49,
+        57,
+        19,
+        63,
+        17,
+        12,
+        32,
+        56,
+        49,
+        19
+    ],
+    "login locations": [
+        [
+            -121.994398,
+            37.323797
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                71357,
+                0.037037037037
+            ],
+            [
+                71357,
+                0.037037037037
+            ]
+        ]
+    ]
 }

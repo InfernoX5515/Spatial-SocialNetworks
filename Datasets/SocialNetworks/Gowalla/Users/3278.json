@@ -5,7 +5,23 @@
     "email": "annacarter@hotmail.com",
     "birthdate": "1949-10-31",
     "phone": "001-698-490-3948x828",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        53,
+        73,
+        74,
+        33,
+        18,
+        52,
+        45,
+        7,
+        57
+    ],
+    "login locations": [
+        [
+            -117.838237,
+            33.7463
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "troy13@yahoo.com",
     "birthdate": "1919-07-06",
     "phone": "404.766.5731",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        26,
+        73,
+        36,
+        67,
+        21,
+        63,
+        10,
+        0,
+        73,
+        33,
+        67,
+        4
+    ],
+    "login locations": [
+        [
+            -122.340335,
+            37.589155
+        ]
+    ],
+    "relationships": []
 }

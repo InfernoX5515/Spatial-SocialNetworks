@@ -5,7 +5,16 @@
     "email": "rjenkins@yahoo.com",
     "birthdate": "1996-02-09",
     "phone": "+1-523-810-2883x4197",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        45,
+        30
+    ],
+    "login locations": [
+        [
+            -117.882767,
+            33.789125
+        ]
+    ],
+    "relationships": []
 }

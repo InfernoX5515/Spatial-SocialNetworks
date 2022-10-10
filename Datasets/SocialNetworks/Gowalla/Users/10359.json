@@ -5,7 +5,14 @@
     "email": "patrickbrown@gmail.com",
     "birthdate": "1999-07-31",
     "phone": "(929)744-5467x69547",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5
+    ],
+    "login locations": [
+        [
+            -121.826732,
+            39.724469
+        ]
+    ],
+    "relationships": []
 }

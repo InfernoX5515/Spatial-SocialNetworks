@@ -5,7 +5,19 @@
     "email": "jmcbride@hotmail.com",
     "birthdate": "1945-02-23",
     "phone": "716-790-1217x446",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        40,
+        7,
+        23,
+        63,
+        55
+    ],
+    "login locations": [
+        [
+            -122.41312,
+            37.762623
+        ]
+    ],
+    "relationships": []
 }

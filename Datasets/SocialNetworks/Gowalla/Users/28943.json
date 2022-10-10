@@ -5,7 +5,17 @@
     "email": "krystalclark@yahoo.com",
     "birthdate": "1987-12-07",
     "phone": "132-224-9239x2692",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        52,
+        12,
+        22
+    ],
+    "login locations": [
+        [
+            -121.48424,
+            38.573964
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "yvonnecruz@hotmail.com",
     "birthdate": "1965-06-13",
     "phone": "(553)057-5482x771",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        57,
+        71,
+        62,
+        51,
+        42,
+        54,
+        37,
+        49,
+        41
+    ],
+    "login locations": [
+        [
+            -122.316104,
+            37.625798
+        ]
+    ],
+    "relationships": []
 }

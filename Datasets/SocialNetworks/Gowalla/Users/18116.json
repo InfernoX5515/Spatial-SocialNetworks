@@ -5,7 +5,15 @@
     "email": "ronald41@gmail.com",
     "birthdate": "1927-07-16",
     "phone": "156.425.1666x5161",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        72
+    ],
+    "login locations": [
+        [
+            -117.140666,
+            32.744296
+        ]
+    ],
+    "relationships": []
 }

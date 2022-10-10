@@ -5,7 +5,39 @@
     "email": "parkerjonathan@yahoo.com",
     "birthdate": "2008-03-02",
     "phone": "674-041-4222x863",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        20,
+        22,
+        18,
+        41,
+        3,
+        72,
+        69,
+        49,
+        54,
+        46,
+        40,
+        18,
+        4,
+        69
+    ],
+    "login locations": [
+        [
+            -117.140277,
+            32.828305
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38379,
+                0.0133333333333
+            ],
+            [
+                38379,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

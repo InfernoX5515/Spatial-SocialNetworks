@@ -5,7 +5,28 @@
     "email": "nguyenmichael@hotmail.com",
     "birthdate": "1919-01-16",
     "phone": "(117)475-1413",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        54,
+        65,
+        72,
+        72,
+        26,
+        41,
+        34,
+        37,
+        50,
+        75,
+        9,
+        43,
+        28,
+        1
+    ],
+    "login locations": [
+        [
+            -122.416437,
+            37.786397
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "christine02@gmail.com",
     "birthdate": "1969-01-11",
     "phone": "+1-235-660-8826x6764",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        66,
+        22,
+        64
+    ],
+    "login locations": [
+        [
+            -122.111878,
+            37.402125
+        ]
+    ],
+    "relationships": []
 }

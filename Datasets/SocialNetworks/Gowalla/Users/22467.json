@@ -5,7 +5,22 @@
     "email": "melaniebryan@gmail.com",
     "birthdate": "1923-04-21",
     "phone": "942.573.2959",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        27,
+        0,
+        20,
+        40,
+        11,
+        57,
+        65,
+        4
+    ],
+    "login locations": [
+        [
+            -122.344341,
+            38.373929
+        ]
+    ],
+    "relationships": []
 }

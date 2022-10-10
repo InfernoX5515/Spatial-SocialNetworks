@@ -5,7 +5,17 @@
     "email": "diamondchristian@gmail.com",
     "birthdate": "1945-02-17",
     "phone": "131-141-3894",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        6,
+        32,
+        8
+    ],
+    "login locations": [
+        [
+            -122.414839,
+            37.780893
+        ]
+    ],
+    "relationships": []
 }

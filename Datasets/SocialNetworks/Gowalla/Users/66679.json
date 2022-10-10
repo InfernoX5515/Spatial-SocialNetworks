@@ -5,7 +5,22 @@
     "email": "kevintaylor@gmail.com",
     "birthdate": "1995-02-01",
     "phone": "+1-039-307-2028",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        55,
+        36,
+        4,
+        4,
+        17,
+        69,
+        33,
+        66
+    ],
+    "login locations": [
+        [
+            -122.420351,
+            37.784469
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "bryandiaz@gmail.com",
     "birthdate": "1913-07-16",
     "phone": "385.992.2328",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        31,
+        50,
+        73,
+        54,
+        12,
+        6,
+        60,
+        40,
+        51,
+        53,
+        44,
+        13,
+        28
+    ],
+    "login locations": [
+        [
+            -117.981774,
+            33.882241
+        ]
+    ],
+    "relationships": []
 }

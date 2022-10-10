@@ -5,7 +5,15 @@
     "email": "karen62@gmail.com",
     "birthdate": "1957-05-27",
     "phone": "(431)623-4451",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        53
+    ],
+    "login locations": [
+        [
+            -117.189066,
+            33.602286
+        ]
+    ],
+    "relationships": []
 }

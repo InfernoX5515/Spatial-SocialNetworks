@@ -5,7 +5,14 @@
     "email": "vhill@hotmail.com",
     "birthdate": "1967-05-31",
     "phone": "001-402-622-1609x911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44
+    ],
+    "login locations": [
+        [
+            -118.551644,
+            34.421935
+        ]
+    ],
+    "relationships": []
 }

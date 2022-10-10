@@ -5,7 +5,28 @@
     "email": "cantrellemily@hotmail.com",
     "birthdate": "1993-01-19",
     "phone": "000-650-0882x82373",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        1,
+        45,
+        63
+    ],
+    "login locations": [
+        [
+            -122.410106,
+            37.763441
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33089,
+                0.06
+            ],
+            [
+                72914,
+                0.384615384615
+            ]
+        ]
+    ]
 }

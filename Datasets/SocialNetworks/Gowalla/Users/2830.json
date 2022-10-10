@@ -5,7 +5,25 @@
     "email": "russellblair@hotmail.com",
     "birthdate": "1974-09-02",
     "phone": "348-453-4461x654",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8
+    ],
+    "login locations": [
+        [
+            -118.32145,
+            33.976351
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                34895,
+                0.0888888888889
+            ],
+            [
+                34895,
+                0.0888888888889
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,26 @@
     "email": "cprice@hotmail.com",
     "birthdate": "1933-08-04",
     "phone": "+1-935-921-1915x090",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        38,
+        42,
+        46,
+        4,
+        12,
+        67,
+        17,
+        69,
+        30,
+        67,
+        14,
+        12
+    ],
+    "login locations": [
+        [
+            -122.426707,
+            37.777323
+        ]
+    ],
+    "relationships": []
 }

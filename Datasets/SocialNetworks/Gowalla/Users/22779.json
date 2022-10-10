@@ -5,7 +5,16 @@
     "email": "daniellemays@hotmail.com",
     "birthdate": "2020-06-11",
     "phone": "735.097.9249x637",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        66,
+        3
+    ],
+    "login locations": [
+        [
+            -119.74921,
+            36.791412
+        ]
+    ],
+    "relationships": []
 }

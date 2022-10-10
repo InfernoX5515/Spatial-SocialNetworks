@@ -5,7 +5,27 @@
     "email": "ncurtis@gmail.com",
     "birthdate": "2009-11-28",
     "phone": "001-532-840-7662x524",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        61,
+        37,
+        59,
+        63,
+        43,
+        48,
+        39,
+        0,
+        31,
+        60,
+        66,
+        33,
+        36
+    ],
+    "login locations": [
+        [
+            -122.02984,
+            37.358978
+        ]
+    ],
+    "relationships": []
 }

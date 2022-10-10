@@ -5,7 +5,28 @@
     "email": "robinsonmatthew@gmail.com",
     "birthdate": "1925-08-28",
     "phone": "977.377.3441x5958",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        47,
+        7,
+        17,
+        31,
+        11,
+        2,
+        27,
+        67,
+        45,
+        53,
+        74,
+        9,
+        74,
+        39
+    ],
+    "login locations": [
+        [
+            -121.935844,
+            37.365505
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "brett88@yahoo.com",
     "birthdate": "1938-02-24",
     "phone": "496-108-4038x79509",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        24,
+        12
+    ],
+    "login locations": [
+        [
+            -122.102916,
+            37.40455
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "nicholsrodney@yahoo.com",
     "birthdate": "1931-12-31",
     "phone": "160-465-7600x708",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        55,
+        9,
+        4,
+        52,
+        42,
+        51,
+        42,
+        36
+    ],
+    "login locations": [
+        [
+            -121.45103,
+            37.744634
+        ]
+    ],
+    "relationships": []
 }

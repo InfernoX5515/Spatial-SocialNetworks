@@ -5,7 +5,16 @@
     "email": "barbarapollard@gmail.com",
     "birthdate": "2004-03-20",
     "phone": "+1-664-332-1645x9141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        4,
+        55
+    ],
+    "login locations": [
+        [
+            -117.143902,
+            32.780532
+        ]
+    ],
+    "relationships": []
 }

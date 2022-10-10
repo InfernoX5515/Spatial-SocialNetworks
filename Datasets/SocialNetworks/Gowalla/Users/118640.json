@@ -5,7 +5,19 @@
     "email": "willielloyd@hotmail.com",
     "birthdate": "1944-03-23",
     "phone": "(349)148-5661x0263",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        58,
+        59,
+        26,
+        1,
+        74
+    ],
+    "login locations": [
+        [
+            -117.189702,
+            32.795853
+        ]
+    ],
+    "relationships": []
 }

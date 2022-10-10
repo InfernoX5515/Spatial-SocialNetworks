@@ -5,7 +5,38 @@
     "email": "meganholmes@hotmail.com",
     "birthdate": "1913-03-08",
     "phone": "667-487-8205",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        50,
+        68,
+        60,
+        25,
+        9,
+        28,
+        59,
+        6,
+        65,
+        35,
+        70,
+        8,
+        39
+    ],
+    "login locations": [
+        [
+            -117.03366,
+            32.800164
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38281,
+                0.0779220779221
+            ],
+            [
+                57812,
+                0.0185185185185
+            ]
+        ]
+    ]
 }

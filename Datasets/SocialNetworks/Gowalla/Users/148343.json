@@ -5,7 +5,16 @@
     "email": "colemandavid@hotmail.com",
     "birthdate": "2003-02-08",
     "phone": "001-850-870-5467x2434",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        21,
+        70
+    ],
+    "login locations": [
+        [
+            -117.915491,
+            33.829904
+        ]
+    ],
+    "relationships": []
 }

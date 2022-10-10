@@ -5,7 +5,36 @@
     "email": "ralvarado@gmail.com",
     "birthdate": "1991-04-24",
     "phone": "001-357-337-5223x45037",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        9,
+        61,
+        52,
+        1,
+        30,
+        4,
+        7,
+        34,
+        54,
+        45,
+        54
+    ],
+    "login locations": [
+        [
+            -122.361997,
+            37.779811
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5102,
+                0.0526315789474
+            ],
+            [
+                6208,
+                0.01
+            ]
+        ]
+    ]
 }

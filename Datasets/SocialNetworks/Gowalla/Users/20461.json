@@ -5,7 +5,19 @@
     "email": "ashleygomez@hotmail.com",
     "birthdate": "1985-02-07",
     "phone": "040.490.9718",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        73,
+        64,
+        59,
+        1,
+        73
+    ],
+    "login locations": [
+        [
+            -118.033003,
+            34.005853
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "whitealexandra@yahoo.com",
     "birthdate": "1967-11-13",
     "phone": "2218375799",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52
+    ],
+    "login locations": [
+        [
+            -117.889042,
+            33.713285
+        ]
+    ],
+    "relationships": []
 }

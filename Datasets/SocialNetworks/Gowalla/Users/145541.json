@@ -5,7 +5,21 @@
     "email": "jchan@yahoo.com",
     "birthdate": "2018-09-27",
     "phone": "(382)059-8773x046",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        32,
+        22,
+        63,
+        42,
+        68,
+        37,
+        51
+    ],
+    "login locations": [
+        [
+            -122.285368,
+            37.559604
+        ]
+    ],
+    "relationships": []
 }

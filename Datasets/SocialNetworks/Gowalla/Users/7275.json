@@ -5,7 +5,20 @@
     "email": "martinezshawn@hotmail.com",
     "birthdate": "1985-04-10",
     "phone": "+1-989-038-8102x88932",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        57,
+        47,
+        16,
+        33,
+        0,
+        37
+    ],
+    "login locations": [
+        [
+            -121.974043,
+            37.290516
+        ]
+    ],
+    "relationships": []
 }

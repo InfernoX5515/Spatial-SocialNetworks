@@ -5,7 +5,25 @@
     "email": "udominguez@yahoo.com",
     "birthdate": "1934-09-11",
     "phone": "001-401-457-7825x754",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46
+    ],
+    "login locations": [
+        [
+            -118.105607,
+            33.782965
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                435,
+                0.0299785867238
+            ],
+            [
+                435,
+                0.0299785867238
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "halllisa@hotmail.com",
     "birthdate": "1966-04-01",
     "phone": "(938)292-9614x277",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        48,
+        2,
+        64,
+        65,
+        31,
+        60,
+        51,
+        47,
+        58,
+        33,
+        4
+    ],
+    "login locations": [
+        [
+            -122.287599,
+            37.819944
+        ]
+    ],
+    "relationships": []
 }

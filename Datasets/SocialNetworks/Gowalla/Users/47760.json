@@ -5,7 +5,31 @@
     "email": "colemanjames@hotmail.com",
     "birthdate": "1925-10-21",
     "phone": "898.841.6308",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        16,
+        39,
+        27,
+        31,
+        18,
+        68
+    ],
+    "login locations": [
+        [
+            -119.035738,
+            34.226195
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39538,
+                0.01
+            ],
+            [
+                39538,
+                0.01
+            ]
+        ]
+    ]
 }

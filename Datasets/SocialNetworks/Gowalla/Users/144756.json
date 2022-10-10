@@ -5,7 +5,24 @@
     "email": "curtisbrown@hotmail.com",
     "birthdate": "1919-11-09",
     "phone": "126.262.6828x6593",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        17,
+        40,
+        14,
+        4,
+        71,
+        67,
+        56,
+        50,
+        69,
+        28
+    ],
+    "login locations": [
+        [
+            -117.774159,
+            33.665233
+        ]
+    ],
+    "relationships": []
 }

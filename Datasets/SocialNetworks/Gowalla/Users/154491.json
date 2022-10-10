@@ -5,7 +5,27 @@
     "email": "robertrobinson@yahoo.com",
     "birthdate": "2008-04-16",
     "phone": "183-373-6452x7677",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        16,
+        21
+    ],
+    "login locations": [
+        [
+            -122.256265,
+            38.113593
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                188794,
+                0.277777777778
+            ],
+            [
+                188794,
+                0.277777777778
+            ]
+        ]
+    ]
 }

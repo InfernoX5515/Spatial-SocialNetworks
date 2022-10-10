@@ -5,7 +5,17 @@
     "email": "aaron74@gmail.com",
     "birthdate": "1973-12-29",
     "phone": "248-525-6360x58003",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        38,
+        69,
+        48
+    ],
+    "login locations": [
+        [
+            -122.448598,
+            37.782055
+        ]
+    ],
+    "relationships": []
 }

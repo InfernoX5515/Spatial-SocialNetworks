@@ -5,7 +5,22 @@
     "email": "martha64@gmail.com",
     "birthdate": "1979-09-05",
     "phone": "819-497-2422",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        32,
+        74,
+        37,
+        21,
+        5,
+        60,
+        46,
+        71
+    ],
+    "login locations": [
+        [
+            -117.198109,
+            32.753145
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "cdelacruz@gmail.com",
     "birthdate": "1980-11-25",
     "phone": "+1-230-184-3537",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        1,
+        20,
+        72,
+        74,
+        75,
+        24,
+        60,
+        52,
+        70,
+        67,
+        71,
+        19,
+        4,
+        45
+    ],
+    "login locations": [
+        [
+            -122.100497,
+            37.396235
+        ]
+    ],
+    "relationships": []
 }

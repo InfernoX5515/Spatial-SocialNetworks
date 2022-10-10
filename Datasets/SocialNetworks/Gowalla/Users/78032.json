@@ -5,7 +5,19 @@
     "email": "corey95@gmail.com",
     "birthdate": "1984-06-25",
     "phone": "447-924-2379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        54,
+        52,
+        60,
+        2,
+        1
+    ],
+    "login locations": [
+        [
+            -117.984674,
+            33.877241
+        ]
+    ],
+    "relationships": []
 }

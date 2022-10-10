@@ -5,7 +5,28 @@
     "email": "chasemccarty@yahoo.com",
     "birthdate": "1988-08-15",
     "phone": "+1-774-245-7588x02165",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        62,
+        53,
+        62,
+        37,
+        30,
+        66,
+        52,
+        33,
+        23,
+        61,
+        41,
+        49,
+        56,
+        14
+    ],
+    "login locations": [
+        [
+            -118.284324,
+            34.095785
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "lesliehenderson@hotmail.com",
     "birthdate": "1944-07-22",
     "phone": "+1-372-937-2409x0526",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        10,
+        31,
+        10
+    ],
+    "login locations": [
+        [
+            -118.358514,
+            34.085049
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4560,
+                0.01
+            ],
+            [
+                4560,
+                0.01
+            ]
+        ]
+    ]
 }

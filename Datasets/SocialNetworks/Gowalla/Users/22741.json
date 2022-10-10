@@ -5,7 +5,19 @@
     "email": "vnelson@yahoo.com",
     "birthdate": "2015-11-30",
     "phone": "+1-871-187-9435",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        47,
+        30,
+        12,
+        48,
+        57
+    ],
+    "login locations": [
+        [
+            -118.280116,
+            34.092087
+        ]
+    ],
+    "relationships": []
 }

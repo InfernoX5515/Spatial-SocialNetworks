@@ -5,7 +5,12 @@
     "email": "maureentate@gmail.com",
     "birthdate": "1972-09-01",
     "phone": "(433)297-7303x108",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.176716,
+            33.555295
+        ]
+    ],
+    "relationships": []
 }

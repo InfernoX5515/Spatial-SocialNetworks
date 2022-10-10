@@ -5,7 +5,21 @@
     "email": "tknapp@hotmail.com",
     "birthdate": "1995-03-02",
     "phone": "8946008745",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        36,
+        13,
+        15,
+        0,
+        43,
+        10,
+        75
+    ],
+    "login locations": [
+        [
+            -121.950353,
+            37.350814
+        ]
+    ],
+    "relationships": []
 }

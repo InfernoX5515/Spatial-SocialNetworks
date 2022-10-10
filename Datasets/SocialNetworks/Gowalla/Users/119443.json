@@ -5,7 +5,39 @@
     "email": "andrewknight@gmail.com",
     "birthdate": "1949-09-25",
     "phone": "822-637-3193",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        15,
+        13,
+        44,
+        30,
+        16,
+        74,
+        6,
+        11,
+        35,
+        61,
+        22,
+        16,
+        8,
+        23
+    ],
+    "login locations": [
+        [
+            -119.797716,
+            36.825852
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                26926,
+                0.409090909091
+            ],
+            [
+                26926,
+                0.409090909091
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,15 @@
     "email": "greilly@gmail.com",
     "birthdate": "1964-09-14",
     "phone": "001-841-653-3575",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        60
+    ],
+    "login locations": [
+        [
+            -122.328396,
+            37.603748
+        ]
+    ],
+    "relationships": []
 }

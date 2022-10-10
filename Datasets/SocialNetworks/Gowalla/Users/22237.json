@@ -5,7 +5,38 @@
     "email": "ileon@gmail.com",
     "birthdate": "1945-05-18",
     "phone": "001-436-246-3369",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        42,
+        70,
+        14,
+        21,
+        3,
+        20,
+        7,
+        19,
+        18,
+        64,
+        0,
+        31,
+        21
+    ],
+    "login locations": [
+        [
+            -121.951936,
+            38.351433
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                245,
+                0.01
+            ],
+            [
+                4758,
+                0.0121951219512
+            ]
+        ]
+    ]
 }

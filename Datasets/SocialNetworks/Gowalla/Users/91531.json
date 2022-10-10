@@ -5,7 +5,17 @@
     "email": "browndavid@gmail.com",
     "birthdate": "1912-02-28",
     "phone": "3836367536",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        55,
+        30,
+        57
+    ],
+    "login locations": [
+        [
+            -121.409793,
+            38.5895
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "sweeneygina@gmail.com",
     "birthdate": "1946-12-15",
     "phone": "001-993-172-1088x85516",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        67,
+        46,
+        4,
+        40,
+        54,
+        59,
+        18,
+        28,
+        41
+    ],
+    "login locations": [
+        [
+            -122.170029,
+            37.871931
+        ]
+    ],
+    "relationships": []
 }

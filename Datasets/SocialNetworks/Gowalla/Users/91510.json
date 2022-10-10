@@ -5,7 +5,21 @@
     "email": "lwright@hotmail.com",
     "birthdate": "1928-08-17",
     "phone": "001-982-348-7729x9991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        19,
+        19,
+        42,
+        72,
+        39,
+        1,
+        6
+    ],
+    "login locations": [
+        [
+            -122.414689,
+            37.742994
+        ]
+    ],
+    "relationships": []
 }

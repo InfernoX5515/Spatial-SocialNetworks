@@ -5,7 +5,14 @@
     "email": "joycewilliams@yahoo.com",
     "birthdate": "1924-10-26",
     "phone": "129.269.9055x9030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20
+    ],
+    "login locations": [
+        [
+            -122.418265,
+            37.784826
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "nicholas23@hotmail.com",
     "birthdate": "1930-02-02",
     "phone": "2196504151",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        72
+    ],
+    "login locations": [
+        [
+            -122.432531,
+            37.797834
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8488,
+                0.238095238095
+            ],
+            [
+                8488,
+                0.238095238095
+            ]
+        ]
+    ]
 }

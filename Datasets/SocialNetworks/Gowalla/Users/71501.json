@@ -5,7 +5,26 @@
     "email": "johnsonamy@yahoo.com",
     "birthdate": "2012-03-25",
     "phone": "001-321-827-5127x88256",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        70,
+        10,
+        15,
+        66,
+        14,
+        7,
+        59,
+        63,
+        35,
+        53,
+        31,
+        50
+    ],
+    "login locations": [
+        [
+            -116.328568,
+            33.727434
+        ]
+    ],
+    "relationships": []
 }

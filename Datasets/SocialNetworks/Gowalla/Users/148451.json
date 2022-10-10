@@ -5,7 +5,19 @@
     "email": "andrewhamilton@gmail.com",
     "birthdate": "1968-10-03",
     "phone": "260.249.4907",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        24,
+        14,
+        61,
+        46,
+        7
+    ],
+    "login locations": [
+        [
+            -116.302955,
+            33.772921
+        ]
+    ],
+    "relationships": []
 }

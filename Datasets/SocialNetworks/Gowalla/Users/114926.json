@@ -5,7 +5,21 @@
     "email": "amyhunt@gmail.com",
     "birthdate": "1993-03-26",
     "phone": "+1-756-212-6446x9896",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        32,
+        43,
+        12,
+        67,
+        44,
+        38,
+        48
+    ],
+    "login locations": [
+        [
+            -118.162439,
+            35.045914
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "margaretbuchanan@gmail.com",
     "birthdate": "2005-09-30",
     "phone": "717-158-4274x1393",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        75,
+        9,
+        74,
+        12,
+        68,
+        57
+    ],
+    "login locations": [
+        [
+            -117.872979,
+            33.879683
+        ]
+    ],
+    "relationships": []
 }

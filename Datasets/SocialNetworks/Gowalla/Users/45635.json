@@ -5,7 +5,17 @@
     "email": "youngbrittany@hotmail.com",
     "birthdate": "1914-12-13",
     "phone": "001-295-413-9888",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        63,
+        71,
+        21
+    ],
+    "login locations": [
+        [
+            -119.318214,
+            36.250287
+        ]
+    ],
+    "relationships": []
 }

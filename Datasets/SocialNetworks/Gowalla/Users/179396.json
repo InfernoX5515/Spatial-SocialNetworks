@@ -5,7 +5,20 @@
     "email": "jamiejones@hotmail.com",
     "birthdate": "1917-10-08",
     "phone": "(439)967-7023",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        46,
+        30,
+        38,
+        57,
+        43,
+        13
+    ],
+    "login locations": [
+        [
+            -117.94111,
+            33.679179
+        ]
+    ],
+    "relationships": []
 }

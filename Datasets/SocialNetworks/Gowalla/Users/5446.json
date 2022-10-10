@@ -5,7 +5,18 @@
     "email": "keith10@yahoo.com",
     "birthdate": "1941-01-14",
     "phone": "(420)131-1968x5613",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        26,
+        4,
+        22,
+        42
+    ],
+    "login locations": [
+        [
+            -122.298622,
+            37.822812
+        ]
+    ],
+    "relationships": []
 }

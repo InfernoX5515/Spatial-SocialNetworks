@@ -5,7 +5,37 @@
     "email": "hamptongregory@gmail.com",
     "birthdate": "1943-08-11",
     "phone": "(174)429-5669x34147",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        57,
+        33,
+        40,
+        42,
+        70,
+        74,
+        64,
+        46,
+        8,
+        20,
+        69,
+        20
+    ],
+    "login locations": [
+        [
+            -117.952868,
+            33.755512
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39824,
+                0.02
+            ],
+            [
+                39824,
+                0.02
+            ]
+        ]
+    ]
 }

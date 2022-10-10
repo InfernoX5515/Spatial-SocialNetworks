@@ -5,7 +5,20 @@
     "email": "julie44@hotmail.com",
     "birthdate": "1999-09-07",
     "phone": "+1-092-686-3812",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        25,
+        15,
+        71,
+        35,
+        44,
+        66
+    ],
+    "login locations": [
+        [
+            -117.010015,
+            32.771887
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "kweber@hotmail.com",
     "birthdate": "2015-12-09",
     "phone": "745.709.1487",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        21,
+        72,
+        33,
+        12,
+        33
+    ],
+    "login locations": [
+        [
+            -122.408618,
+            37.786242
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "hday@hotmail.com",
     "birthdate": "1988-03-18",
     "phone": "001-201-938-7511x796",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        46,
+        43,
+        16,
+        75
+    ],
+    "login locations": [
+        [
+            -122.408562,
+            37.758786
+        ]
+    ],
+    "relationships": []
 }

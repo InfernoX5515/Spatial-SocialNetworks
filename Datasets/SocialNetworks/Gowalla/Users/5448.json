@@ -5,7 +5,25 @@
     "email": "spencermatthew@yahoo.com",
     "birthdate": "2003-07-01",
     "phone": "(881)039-2758x747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42
+    ],
+    "login locations": [
+        [
+            -118.236552,
+            34.020916
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                191,
+                0.01
+            ],
+            [
+                487,
+                0.01
+            ]
+        ]
+    ]
 }

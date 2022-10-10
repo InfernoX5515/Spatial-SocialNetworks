@@ -5,7 +5,19 @@
     "email": "ocarney@gmail.com",
     "birthdate": "2017-05-26",
     "phone": "884-378-6995",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        52,
+        58,
+        2,
+        56,
+        68
+    ],
+    "login locations": [
+        [
+            -116.460197,
+            33.798843
+        ]
+    ],
+    "relationships": []
 }

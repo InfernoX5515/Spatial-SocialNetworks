@@ -5,7 +5,32 @@
     "email": "foleysteven@yahoo.com",
     "birthdate": "1975-02-24",
     "phone": "+1-659-757-3354x32115",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        70,
+        3,
+        35,
+        5,
+        47,
+        51,
+        9
+    ],
+    "login locations": [
+        [
+            -122.211162,
+            37.482772
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                26538,
+                0.2
+            ],
+            [
+                26538,
+                0.2
+            ]
+        ]
+    ]
 }

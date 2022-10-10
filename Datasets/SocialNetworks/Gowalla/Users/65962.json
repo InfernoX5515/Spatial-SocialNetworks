@@ -5,7 +5,22 @@
     "email": "jill69@hotmail.com",
     "birthdate": "1985-03-31",
     "phone": "+1-119-728-2900x201",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        12,
+        68,
+        0,
+        34,
+        41,
+        17,
+        14,
+        67
+    ],
+    "login locations": [
+        [
+            -122.052315,
+            37.356564
+        ]
+    ],
+    "relationships": []
 }

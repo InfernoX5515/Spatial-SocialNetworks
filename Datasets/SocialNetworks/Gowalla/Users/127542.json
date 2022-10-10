@@ -5,7 +5,17 @@
     "email": "ccoffey@gmail.com",
     "birthdate": "1937-05-26",
     "phone": "967-164-8639",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        1,
+        27,
+        72
+    ],
+    "login locations": [
+        [
+            -117.111004,
+            32.886076
+        ]
+    ],
+    "relationships": []
 }

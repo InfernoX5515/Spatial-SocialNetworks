@@ -5,7 +5,24 @@
     "email": "michelle29@gmail.com",
     "birthdate": "1937-11-01",
     "phone": "(437)074-9832",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        8,
+        22,
+        32,
+        43,
+        63,
+        26,
+        74,
+        20,
+        19,
+        41
+    ],
+    "login locations": [
+        [
+            -122.418986,
+            37.590604
+        ]
+    ],
+    "relationships": []
 }

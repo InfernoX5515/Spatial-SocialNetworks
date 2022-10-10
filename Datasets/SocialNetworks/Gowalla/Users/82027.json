@@ -5,7 +5,25 @@
     "email": "hendersonnicholas@gmail.com",
     "birthdate": "1961-04-18",
     "phone": "241.940.1545x39834",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59
+    ],
+    "login locations": [
+        [
+            -122.407911,
+            37.79959
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                161854,
+                0.461538461538
+            ],
+            [
+                161854,
+                0.461538461538
+            ]
+        ]
+    ]
 }

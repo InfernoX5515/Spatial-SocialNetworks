@@ -5,7 +5,14 @@
     "email": "victoriamathews@yahoo.com",
     "birthdate": "2005-12-10",
     "phone": "+1-375-108-3229x46002",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67
+    ],
+    "login locations": [
+        [
+            -117.141771,
+            32.877077
+        ]
+    ],
+    "relationships": []
 }

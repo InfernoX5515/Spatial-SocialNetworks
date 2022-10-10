@@ -5,7 +5,27 @@
     "email": "brittanycooper@hotmail.com",
     "birthdate": "1914-01-03",
     "phone": "672-557-6612",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        4,
+        20
+    ],
+    "login locations": [
+        [
+            -122.396178,
+            37.780746
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.01
+            ],
+            [
+                159,
+                0.01
+            ]
+        ]
+    ]
 }

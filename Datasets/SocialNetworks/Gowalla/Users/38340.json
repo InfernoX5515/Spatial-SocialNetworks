@@ -5,7 +5,28 @@
     "email": "klogan@yahoo.com",
     "birthdate": "1931-09-28",
     "phone": "001-737-594-9868x4260",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        39,
+        50,
+        10,
+        35,
+        22,
+        31,
+        4,
+        50,
+        48,
+        10,
+        32,
+        51,
+        1,
+        52
+    ],
+    "login locations": [
+        [
+            -118.005062,
+            33.855368
+        ]
+    ],
+    "relationships": []
 }

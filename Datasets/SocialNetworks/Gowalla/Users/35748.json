@@ -5,7 +5,28 @@
     "email": "michael62@hotmail.com",
     "birthdate": "1925-06-23",
     "phone": "708.069.5447",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        65,
+        69,
+        38,
+        38,
+        15,
+        49,
+        25,
+        47,
+        60,
+        41,
+        49,
+        39,
+        25,
+        22
+    ],
+    "login locations": [
+        [
+            -118.160203,
+            34.102551
+        ]
+    ],
+    "relationships": []
 }

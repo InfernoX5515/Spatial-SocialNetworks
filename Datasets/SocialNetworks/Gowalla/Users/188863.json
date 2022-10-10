@@ -5,7 +5,23 @@
     "email": "jaimecarter@yahoo.com",
     "birthdate": "2011-10-09",
     "phone": "100-107-2872x5781",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        34,
+        26,
+        51,
+        21,
+        41,
+        19,
+        62,
+        46,
+        53
+    ],
+    "login locations": [
+        [
+            -121.986438,
+            37.304941
+        ]
+    ],
+    "relationships": []
 }

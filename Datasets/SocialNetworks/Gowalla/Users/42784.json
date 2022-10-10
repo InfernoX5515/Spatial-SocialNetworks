@@ -5,7 +5,28 @@
     "email": "tamarajohnson@gmail.com",
     "birthdate": "2013-06-17",
     "phone": "+1-647-316-8639x4185",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        57,
+        75,
+        70
+    ],
+    "login locations": [
+        [
+            -122.312737,
+            37.584258
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1654,
+                0.02
+            ],
+            [
+                1654,
+                0.02
+            ]
+        ]
+    ]
 }

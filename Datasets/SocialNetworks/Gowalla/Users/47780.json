@@ -5,7 +5,27 @@
     "email": "adamgarcia@hotmail.com",
     "birthdate": "1942-01-08",
     "phone": "+1-333-302-3656",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        8,
+        46,
+        36,
+        50,
+        61,
+        64,
+        53,
+        59,
+        67,
+        73,
+        42,
+        74,
+        53
+    ],
+    "login locations": [
+        [
+            -117.16565,
+            32.70934
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "benjaminhernandez@hotmail.com",
     "birthdate": "1979-05-22",
     "phone": "+1-394-949-6268x567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        2,
+        13,
+        25
+    ],
+    "login locations": [
+        [
+            -117.116897,
+            32.711786
+        ]
+    ],
+    "relationships": []
 }

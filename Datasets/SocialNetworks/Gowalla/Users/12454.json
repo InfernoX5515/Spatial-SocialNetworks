@@ -5,7 +5,16 @@
     "email": "fitzpatrickstephanie@gmail.com",
     "birthdate": "1949-04-05",
     "phone": "243-872-5379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        1,
+        38
+    ],
+    "login locations": [
+        [
+            -122.149304,
+            37.433823
+        ]
+    ],
+    "relationships": []
 }

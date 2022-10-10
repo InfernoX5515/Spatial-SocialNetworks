@@ -5,7 +5,21 @@
     "email": "heather16@hotmail.com",
     "birthdate": "1921-06-06",
     "phone": "+1-296-457-1223x932",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        7,
+        10,
+        11,
+        3,
+        35,
+        33,
+        13
+    ],
+    "login locations": [
+        [
+            -122.403914,
+            37.76163
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "austin02@yahoo.com",
     "birthdate": "1910-06-27",
     "phone": "6679471747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        68,
+        16,
+        1,
+        29,
+        35,
+        13,
+        40,
+        6,
+        27
+    ],
+    "login locations": [
+        [
+            -122.429803,
+            37.82668
+        ]
+    ],
+    "relationships": []
 }

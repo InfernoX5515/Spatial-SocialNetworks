@@ -5,7 +5,36 @@
     "email": "tiffany76@yahoo.com",
     "birthdate": "1970-05-29",
     "phone": "(782)562-6121x74645",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        27,
+        47,
+        54,
+        43,
+        75,
+        68,
+        16,
+        19,
+        58,
+        33,
+        37
+    ],
+    "login locations": [
+        [
+            -121.98658,
+            37.394131
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                35742,
+                0.08
+            ],
+            [
+                35742,
+                0.08
+            ]
+        ]
+    ]
 }

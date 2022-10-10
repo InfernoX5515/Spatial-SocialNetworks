@@ -5,7 +5,27 @@
     "email": "michelle24@hotmail.com",
     "birthdate": "1993-03-25",
     "phone": "001-609-744-6648",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        75,
+        40,
+        47,
+        43,
+        50,
+        44,
+        34,
+        25,
+        33,
+        36,
+        40,
+        31,
+        51
+    ],
+    "login locations": [
+        [
+            -121.952954,
+            37.351013
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "zruiz@gmail.com",
     "birthdate": "1949-02-05",
     "phone": "(274)649-5699x72553",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        56,
+        24,
+        40,
+        35,
+        40,
+        57,
+        33,
+        19
+    ],
+    "login locations": [
+        [
+            -117.8502,
+            33.727339
+        ]
+    ],
+    "relationships": []
 }

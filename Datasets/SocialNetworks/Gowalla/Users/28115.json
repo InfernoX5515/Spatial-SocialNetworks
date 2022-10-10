@@ -5,7 +5,24 @@
     "email": "michael93@gmail.com",
     "birthdate": "1931-01-22",
     "phone": "001-799-885-7077",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        75,
+        37,
+        7,
+        40,
+        65,
+        58,
+        43,
+        8,
+        39,
+        2
+    ],
+    "login locations": [
+        [
+            -117.884587,
+            33.752081
+        ]
+    ],
+    "relationships": []
 }

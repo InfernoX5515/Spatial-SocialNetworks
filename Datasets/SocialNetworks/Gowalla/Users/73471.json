@@ -5,7 +5,23 @@
     "email": "breanna26@hotmail.com",
     "birthdate": "1998-11-05",
     "phone": "390-723-7893x501",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        70,
+        3,
+        22,
+        53,
+        17,
+        58,
+        70,
+        55,
+        46
+    ],
+    "login locations": [
+        [
+            -118.435185,
+            34.042117
+        ]
+    ],
+    "relationships": []
 }

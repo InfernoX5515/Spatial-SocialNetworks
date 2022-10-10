@@ -5,7 +5,14 @@
     "email": "kevin27@gmail.com",
     "birthdate": "1923-06-02",
     "phone": "855.115.9700",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31
+    ],
+    "login locations": [
+        [
+            -119.786788,
+            36.803882
+        ]
+    ],
+    "relationships": []
 }

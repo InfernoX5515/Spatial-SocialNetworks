@@ -5,7 +5,28 @@
     "email": "aprilnewton@hotmail.com",
     "birthdate": "1984-10-10",
     "phone": "016.884.4609x24465",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        20,
+        62,
+        11,
+        5,
+        69,
+        43,
+        32,
+        67,
+        25,
+        63,
+        68,
+        73,
+        14,
+        73
+    ],
+    "login locations": [
+        [
+            -122.154097,
+            37.435116
+        ]
+    ],
+    "relationships": []
 }

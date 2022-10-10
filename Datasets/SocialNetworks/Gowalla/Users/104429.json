@@ -5,7 +5,16 @@
     "email": "pvazquez@yahoo.com",
     "birthdate": "1968-09-15",
     "phone": "678-971-5235",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        58,
+        41
+    ],
+    "login locations": [
+        [
+            -118.32689,
+            33.968458
+        ]
+    ],
+    "relationships": []
 }

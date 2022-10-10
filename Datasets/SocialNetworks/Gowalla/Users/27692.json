@@ -5,7 +5,25 @@
     "email": "christinemiller@yahoo.com",
     "birthdate": "1995-08-19",
     "phone": "+1-687-951-4210x43386",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        49,
+        46,
+        59,
+        50,
+        71,
+        11,
+        23,
+        44,
+        22,
+        46,
+        13
+    ],
+    "login locations": [
+        [
+            -117.807999,
+            33.718054
+        ]
+    ],
+    "relationships": []
 }

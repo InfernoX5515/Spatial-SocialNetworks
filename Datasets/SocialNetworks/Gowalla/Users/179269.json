@@ -5,7 +5,14 @@
     "email": "morganraymond@yahoo.com",
     "birthdate": "1915-07-19",
     "phone": "2367456450",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31
+    ],
+    "login locations": [
+        [
+            -117.980769,
+            33.686006
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "jasonterry@gmail.com",
     "birthdate": "1917-12-22",
     "phone": "225.972.3000x5775",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        51,
+        28,
+        67,
+        25
+    ],
+    "login locations": [
+        [
+            -122.399091,
+            37.772837
+        ]
+    ],
+    "relationships": []
 }

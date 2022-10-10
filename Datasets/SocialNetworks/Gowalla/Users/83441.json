@@ -5,7 +5,39 @@
     "email": "watkinsamy@hotmail.com",
     "birthdate": "1956-05-06",
     "phone": "977-053-2975x975",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        44,
+        5,
+        63,
+        56,
+        37,
+        34,
+        42,
+        57,
+        58,
+        6,
+        70,
+        75,
+        40,
+        41
+    ],
+    "login locations": [
+        [
+            -118.264882,
+            34.075943
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8175,
+                0.0882352941176
+            ],
+            [
+                8175,
+                0.0882352941176
+            ]
+        ]
+    ]
 }

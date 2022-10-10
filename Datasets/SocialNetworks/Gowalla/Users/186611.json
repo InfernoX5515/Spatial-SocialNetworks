@@ -5,7 +5,20 @@
     "email": "brittney95@hotmail.com",
     "birthdate": "2010-05-05",
     "phone": "769.831.4329x7899",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        34,
+        7,
+        46,
+        35,
+        52,
+        72
+    ],
+    "login locations": [
+        [
+            -118.308877,
+            34.044083
+        ]
+    ],
+    "relationships": []
 }

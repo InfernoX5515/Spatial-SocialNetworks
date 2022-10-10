@@ -5,7 +5,15 @@
     "email": "mcordova@yahoo.com",
     "birthdate": "1958-05-24",
     "phone": "(426)505-1916",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        4
+    ],
+    "login locations": [
+        [
+            -122.158834,
+            37.43863
+        ]
+    ],
+    "relationships": []
 }

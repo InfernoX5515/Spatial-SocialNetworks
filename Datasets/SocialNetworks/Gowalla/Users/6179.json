@@ -5,7 +5,32 @@
     "email": "wanda26@yahoo.com",
     "birthdate": "1949-06-14",
     "phone": "+1-153-057-0844x84824",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        8,
+        66,
+        33,
+        10,
+        10,
+        9,
+        35
+    ],
+    "login locations": [
+        [
+            -122.26435,
+            37.535029
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6208,
+                0.01
+            ],
+            [
+                6208,
+                0.01
+            ]
+        ]
+    ]
 }

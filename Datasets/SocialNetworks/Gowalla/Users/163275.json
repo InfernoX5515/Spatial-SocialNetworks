@@ -5,7 +5,25 @@
     "email": "arnoldsandra@gmail.com",
     "birthdate": "1967-10-17",
     "phone": "(163)462-9880x8324",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        10,
+        5,
+        56,
+        46,
+        21,
+        69,
+        56,
+        48,
+        60,
+        8,
+        18
+    ],
+    "login locations": [
+        [
+            -120.734349,
+            35.179009
+        ]
+    ],
+    "relationships": []
 }

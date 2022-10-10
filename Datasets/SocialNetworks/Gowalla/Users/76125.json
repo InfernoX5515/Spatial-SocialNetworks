@@ -5,7 +5,23 @@
     "email": "stephen43@gmail.com",
     "birthdate": "1943-07-14",
     "phone": "590.791.2219x07554",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        52,
+        43,
+        63,
+        2,
+        31,
+        23,
+        17,
+        4,
+        63
+    ],
+    "login locations": [
+        [
+            -122.252501,
+            37.850207
+        ]
+    ],
+    "relationships": []
 }

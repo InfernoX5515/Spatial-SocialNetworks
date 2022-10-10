@@ -5,7 +5,26 @@
     "email": "ahuynh@yahoo.com",
     "birthdate": "2005-01-08",
     "phone": "752.630.8059",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        2,
+        25,
+        8,
+        15,
+        22,
+        28,
+        14,
+        43,
+        33,
+        13,
+        55,
+        15
+    ],
+    "login locations": [
+        [
+            -121.969302,
+            36.977653
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "murphyerin@yahoo.com",
     "birthdate": "1956-06-22",
     "phone": "(440)692-4346x75631",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        17,
+        66,
+        49,
+        72,
+        0,
+        30,
+        32,
+        34
+    ],
+    "login locations": [
+        [
+            -118.340281,
+            34.063912
+        ]
+    ],
+    "relationships": []
 }

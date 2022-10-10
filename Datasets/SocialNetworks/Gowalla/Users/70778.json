@@ -5,7 +5,25 @@
     "email": "martinross@yahoo.com",
     "birthdate": "1987-03-26",
     "phone": "001-086-527-1838x427",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        24,
+        33,
+        10,
+        51,
+        51,
+        5,
+        50,
+        7,
+        36,
+        61,
+        18
+    ],
+    "login locations": [
+        [
+            -118.105449,
+            34.5826
+        ]
+    ],
+    "relationships": []
 }

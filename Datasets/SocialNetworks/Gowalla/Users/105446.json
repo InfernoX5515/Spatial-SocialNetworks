@@ -5,7 +5,20 @@
     "email": "cynthiacoleman@gmail.com",
     "birthdate": "1960-10-05",
     "phone": "(078)651-5457",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        65,
+        66,
+        51,
+        67,
+        16,
+        9
+    ],
+    "login locations": [
+        [
+            -121.287508,
+            38.703396
+        ]
+    ],
+    "relationships": []
 }

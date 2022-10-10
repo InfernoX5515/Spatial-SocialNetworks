@@ -5,7 +5,30 @@
     "email": "rbowman@hotmail.com",
     "birthdate": "1940-07-17",
     "phone": "001-437-148-8482x65963",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        54,
+        39,
+        9,
+        32,
+        15
+    ],
+    "login locations": [
+        [
+            -122.411633,
+            37.750494
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                9328,
+                0.291666666667
+            ],
+            [
+                9330,
+                1.0
+            ]
+        ]
+    ]
 }

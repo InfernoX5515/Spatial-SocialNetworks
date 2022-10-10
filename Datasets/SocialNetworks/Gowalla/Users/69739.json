@@ -5,7 +5,18 @@
     "email": "blackbethany@gmail.com",
     "birthdate": "1911-09-12",
     "phone": "(714)488-5187x866",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        12,
+        55,
+        3,
+        42
+    ],
+    "login locations": [
+        [
+            -122.39548,
+            37.784278
+        ]
+    ],
+    "relationships": []
 }

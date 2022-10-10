@@ -5,7 +5,30 @@
     "email": "whiggins@hotmail.com",
     "birthdate": "1959-02-17",
     "phone": "+1-796-262-1619x4228",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        23,
+        37,
+        49,
+        17,
+        51
+    ],
+    "login locations": [
+        [
+            -122.043647,
+            37.361716
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                158,
+                0.0281690140845
+            ],
+            [
+                355,
+                0.0145454545455
+            ]
+        ]
+    ]
 }

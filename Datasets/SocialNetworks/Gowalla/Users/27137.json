@@ -5,7 +5,17 @@
     "email": "wellsadam@gmail.com",
     "birthdate": "1992-01-05",
     "phone": "623.170.8269x00307",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        71,
+        26,
+        70
+    ],
+    "login locations": [
+        [
+            -121.944999,
+            37.305661
+        ]
+    ],
+    "relationships": []
 }

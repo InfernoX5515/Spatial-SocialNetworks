@@ -5,7 +5,14 @@
     "email": "elizabeth61@hotmail.com",
     "birthdate": "1956-03-18",
     "phone": "+1-571-177-8335",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0
+    ],
+    "login locations": [
+        [
+            -121.209723,
+            38.709296
+        ]
+    ],
+    "relationships": []
 }

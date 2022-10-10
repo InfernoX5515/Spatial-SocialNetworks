@@ -5,7 +5,23 @@
     "email": "antoniolam@gmail.com",
     "birthdate": "1992-03-08",
     "phone": "700.486.6079x439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        55,
+        46,
+        52,
+        57,
+        55,
+        53,
+        32,
+        33,
+        20
+    ],
+    "login locations": [
+        [
+            -122.038515,
+            37.377381
+        ]
+    ],
+    "relationships": []
 }

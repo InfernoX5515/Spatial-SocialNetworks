@@ -5,7 +5,28 @@
     "email": "charleswhite@hotmail.com",
     "birthdate": "1938-02-25",
     "phone": "318-085-9451x4835",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        16,
+        57,
+        51,
+        66,
+        26,
+        29,
+        20,
+        14,
+        36,
+        39,
+        30,
+        10,
+        62,
+        61
+    ],
+    "login locations": [
+        [
+            -118.279363,
+            34.091244
+        ]
+    ],
+    "relationships": []
 }

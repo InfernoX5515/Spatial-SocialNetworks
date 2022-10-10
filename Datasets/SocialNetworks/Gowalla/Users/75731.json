@@ -5,7 +5,15 @@
     "email": "peterli@hotmail.com",
     "birthdate": "1951-03-12",
     "phone": "352-891-6284x596",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        18
+    ],
+    "login locations": [
+        [
+            -122.107555,
+            37.437356
+        ]
+    ],
+    "relationships": []
 }

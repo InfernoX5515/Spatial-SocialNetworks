@@ -5,7 +5,19 @@
     "email": "valeriereilly@gmail.com",
     "birthdate": "1967-01-29",
     "phone": "678-612-6396x383",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        67,
+        31,
+        50,
+        32,
+        43
+    ],
+    "login locations": [
+        [
+            -121.921257,
+            37.320614
+        ]
+    ],
+    "relationships": []
 }

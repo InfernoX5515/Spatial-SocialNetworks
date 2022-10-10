@@ -5,7 +5,23 @@
     "email": "michaelsmith@hotmail.com",
     "birthdate": "2021-12-03",
     "phone": "(455)017-4566x6486",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        15,
+        9,
+        1,
+        48,
+        75,
+        28,
+        62,
+        49,
+        45
+    ],
+    "login locations": [
+        [
+            -121.467169,
+            38.571196
+        ]
+    ],
+    "relationships": []
 }

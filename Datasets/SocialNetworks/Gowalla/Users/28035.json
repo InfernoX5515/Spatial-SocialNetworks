@@ -5,7 +5,17 @@
     "email": "ericksonpatricia@hotmail.com",
     "birthdate": "1993-02-08",
     "phone": "001-997-857-1879x81182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        12,
+        14,
+        4
+    ],
+    "login locations": [
+        [
+            -117.762126,
+            33.665039
+        ]
+    ],
+    "relationships": []
 }

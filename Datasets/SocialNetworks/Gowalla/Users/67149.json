@@ -5,7 +5,15 @@
     "email": "hartjustin@hotmail.com",
     "birthdate": "2009-10-17",
     "phone": "(247)834-3475x166",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        64
+    ],
+    "login locations": [
+        [
+            -118.413562,
+            34.03964
+        ]
+    ],
+    "relationships": []
 }

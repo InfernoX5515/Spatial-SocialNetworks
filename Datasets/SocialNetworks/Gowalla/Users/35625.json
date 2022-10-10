@@ -5,7 +5,24 @@
     "email": "timothy25@hotmail.com",
     "birthdate": "1908-10-23",
     "phone": "947-278-4179x01863",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        37,
+        69,
+        2,
+        32,
+        73,
+        1,
+        74,
+        34,
+        30,
+        3
+    ],
+    "login locations": [
+        [
+            -121.008809,
+            37.664585
+        ]
+    ],
+    "relationships": []
 }

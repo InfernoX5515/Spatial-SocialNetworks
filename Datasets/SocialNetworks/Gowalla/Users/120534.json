@@ -5,7 +5,25 @@
     "email": "yfowler@yahoo.com",
     "birthdate": "1922-05-12",
     "phone": "907.950.7709x918",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        58,
+        61,
+        40,
+        29,
+        50,
+        4,
+        49,
+        30,
+        18,
+        49,
+        48
+    ],
+    "login locations": [
+        [
+            -121.943105,
+            37.363762
+        ]
+    ],
+    "relationships": []
 }

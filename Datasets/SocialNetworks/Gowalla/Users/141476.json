@@ -5,7 +5,23 @@
     "email": "uchang@hotmail.com",
     "birthdate": "1908-02-10",
     "phone": "873.824.0652x25083",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        20,
+        73,
+        15,
+        46,
+        19,
+        21,
+        15,
+        49,
+        71
+    ],
+    "login locations": [
+        [
+            -122.454527,
+            37.776645
+        ]
+    ],
+    "relationships": []
 }

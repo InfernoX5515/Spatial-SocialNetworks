@@ -5,7 +5,19 @@
     "email": "kellyadams@hotmail.com",
     "birthdate": "2000-04-12",
     "phone": "(990)043-3858",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        45,
+        58,
+        68,
+        56,
+        13
+    ],
+    "login locations": [
+        [
+            -121.658144,
+            36.673111
+        ]
+    ],
+    "relationships": []
 }

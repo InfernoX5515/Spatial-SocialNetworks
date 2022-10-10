@@ -5,7 +5,29 @@
     "email": "bradjackson@hotmail.com",
     "birthdate": "1966-03-03",
     "phone": "881.011.0899",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        48,
+        68,
+        53,
+        33
+    ],
+    "login locations": [
+        [
+            -122.302969,
+            37.572087
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                86,
+                0.01
+            ],
+            [
+                7946,
+                0.0833333333333
+            ]
+        ]
+    ]
 }

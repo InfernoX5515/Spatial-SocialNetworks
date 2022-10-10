@@ -5,7 +5,17 @@
     "email": "branditownsend@gmail.com",
     "birthdate": "1929-11-04",
     "phone": "7342413318",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        5,
+        64,
+        22
+    ],
+    "login locations": [
+        [
+            -121.921792,
+            37.305737
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "christopher69@yahoo.com",
     "birthdate": "1933-03-25",
     "phone": "541.249.0228x34991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        59,
+        60,
+        17,
+        26,
+        26,
+        64,
+        31,
+        14,
+        13,
+        27,
+        14,
+        28
+    ],
+    "login locations": [
+        [
+            -122.404547,
+            37.818697
+        ]
+    ],
+    "relationships": []
 }

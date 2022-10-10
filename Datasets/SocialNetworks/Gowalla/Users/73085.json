@@ -5,7 +5,39 @@
     "email": "maria35@yahoo.com",
     "birthdate": "1949-05-12",
     "phone": "+1-984-204-8318x606",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        6,
+        59,
+        12,
+        70,
+        33,
+        37,
+        27,
+        21,
+        10,
+        46,
+        46,
+        39,
+        67,
+        68
+    ],
+    "login locations": [
+        [
+            -122.456304,
+            37.785496
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33694,
+                0.01
+            ],
+            [
+                33694,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,20 @@
     "email": "nashdylan@yahoo.com",
     "birthdate": "1912-09-03",
     "phone": "(941)588-7041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        32,
+        70,
+        22,
+        23,
+        33,
+        26
+    ],
+    "login locations": [
+        [
+            -117.137948,
+            32.832268
+        ]
+    ],
+    "relationships": []
 }

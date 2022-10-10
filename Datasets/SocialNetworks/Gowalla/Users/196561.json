@@ -5,7 +5,23 @@
     "email": "rebeccareid@yahoo.com",
     "birthdate": "1958-08-13",
     "phone": "001-029-681-3595x942",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        6,
+        44,
+        47,
+        12,
+        41,
+        25,
+        27,
+        43,
+        8
+    ],
+    "login locations": [
+        [
+            -122.005527,
+            37.529416
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "thompsonkristin@hotmail.com",
     "birthdate": "1981-10-18",
     "phone": "574-620-2167x13709",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        52,
+        32,
+        35,
+        17,
+        41,
+        34,
+        24,
+        68,
+        44,
+        36,
+        24,
+        0
+    ],
+    "login locations": [
+        [
+            -118.16704,
+            34.012232
+        ]
+    ],
+    "relationships": []
 }

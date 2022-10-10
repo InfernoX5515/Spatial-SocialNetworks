@@ -5,7 +5,25 @@
     "email": "brandon81@hotmail.com",
     "birthdate": "1990-10-17",
     "phone": "(785)390-1491x9980",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        13,
+        23,
+        12,
+        71,
+        21,
+        6,
+        30,
+        38,
+        67,
+        50,
+        20
+    ],
+    "login locations": [
+        [
+            -122.646993,
+            38.247455
+        ]
+    ],
+    "relationships": []
 }

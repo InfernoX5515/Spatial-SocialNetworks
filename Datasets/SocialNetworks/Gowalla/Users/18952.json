@@ -5,7 +5,32 @@
     "email": "racheldavid@gmail.com",
     "birthdate": "1998-05-24",
     "phone": "+1-489-303-5673",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        36,
+        13,
+        44,
+        60,
+        29,
+        16,
+        62
+    ],
+    "login locations": [
+        [
+            -118.008628,
+            33.853159
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                24848,
+                0.04
+            ],
+            [
+                24848,
+                0.04
+            ]
+        ]
+    ]
 }

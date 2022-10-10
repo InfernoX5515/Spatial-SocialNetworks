@@ -5,7 +5,19 @@
     "email": "nichole70@yahoo.com",
     "birthdate": "1943-08-20",
     "phone": "1701207818",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        21,
+        65,
+        42,
+        24,
+        70
+    ],
+    "login locations": [
+        [
+            -118.398946,
+            34.060012
+        ]
+    ],
+    "relationships": []
 }

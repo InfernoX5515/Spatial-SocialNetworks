@@ -5,7 +5,14 @@
     "email": "hbush@yahoo.com",
     "birthdate": "1921-08-31",
     "phone": "284-462-5261x64425",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35
+    ],
+    "login locations": [
+        [
+            -122.408617,
+            37.784667
+        ]
+    ],
+    "relationships": []
 }

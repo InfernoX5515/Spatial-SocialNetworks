@@ -5,7 +5,28 @@
     "email": "eric90@gmail.com",
     "birthdate": "1969-01-12",
     "phone": "(727)050-9881",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        75,
+        63,
+        53
+    ],
+    "login locations": [
+        [
+            -122.288758,
+            37.852596
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                19321,
+                0.0131578947368
+            ],
+            [
+                19321,
+                0.0131578947368
+            ]
+        ]
+    ]
 }

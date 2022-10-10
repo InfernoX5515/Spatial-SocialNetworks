@@ -5,7 +5,14 @@
     "email": "leahparker@yahoo.com",
     "birthdate": "1994-03-18",
     "phone": "073.380.6958",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70
+    ],
+    "login locations": [
+        [
+            -122.411072,
+            37.762052
+        ]
+    ],
+    "relationships": []
 }

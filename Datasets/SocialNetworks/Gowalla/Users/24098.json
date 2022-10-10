@@ -5,7 +5,25 @@
     "email": "gilbertjustin@gmail.com",
     "birthdate": "1912-05-01",
     "phone": "(851)797-6958",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        69,
+        22,
+        56,
+        69,
+        14,
+        74,
+        26,
+        63,
+        27,
+        4,
+        11
+    ],
+    "login locations": [
+        [
+            -122.036968,
+            37.359759
+        ]
+    ],
+    "relationships": []
 }

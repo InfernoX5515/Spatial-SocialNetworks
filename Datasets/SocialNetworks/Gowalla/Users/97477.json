@@ -5,7 +5,16 @@
     "email": "kristathomas@hotmail.com",
     "birthdate": "1921-02-12",
     "phone": "2746749464",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        28,
+        20
+    ],
+    "login locations": [
+        [
+            -117.09711,
+            32.679611
+        ]
+    ],
+    "relationships": []
 }

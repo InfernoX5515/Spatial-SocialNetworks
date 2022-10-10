@@ -5,7 +5,22 @@
     "email": "nadams@yahoo.com",
     "birthdate": "2010-08-12",
     "phone": "(984)500-5766x6566",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        3,
+        70,
+        38,
+        52,
+        61,
+        30,
+        12,
+        72
+    ],
+    "login locations": [
+        [
+            -118.306826,
+            34.106515
+        ]
+    ],
+    "relationships": []
 }

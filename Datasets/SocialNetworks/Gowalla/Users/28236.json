@@ -5,7 +5,17 @@
     "email": "jamescook@hotmail.com",
     "birthdate": "2021-06-30",
     "phone": "(328)740-8447x09464",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        28,
+        3,
+        28
+    ],
+    "login locations": [
+        [
+            -119.834843,
+            36.824582
+        ]
+    ],
+    "relationships": []
 }

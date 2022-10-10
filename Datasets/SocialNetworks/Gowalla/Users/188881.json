@@ -5,7 +5,36 @@
     "email": "marshalldavid@gmail.com",
     "birthdate": "1988-09-04",
     "phone": "001-732-646-2342x4044",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        58,
+        40,
+        48,
+        40,
+        72,
+        38,
+        17,
+        24,
+        74,
+        30,
+        16
+    ],
+    "login locations": [
+        [
+            -117.076043,
+            32.770968
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                195453,
+                0.12
+            ],
+            [
+                195453,
+                0.12
+            ]
+        ]
+    ]
 }

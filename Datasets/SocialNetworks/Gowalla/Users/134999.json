@@ -5,7 +5,35 @@
     "email": "charlessanders@gmail.com",
     "birthdate": "1983-05-07",
     "phone": "+1-490-360-6115",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        20,
+        51,
+        40,
+        32,
+        75,
+        64,
+        54,
+        26,
+        70,
+        59
+    ],
+    "login locations": [
+        [
+            -117.162298,
+            32.707287
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                41729,
+                0.02
+            ],
+            [
+                41729,
+                0.02
+            ]
+        ]
+    ]
 }

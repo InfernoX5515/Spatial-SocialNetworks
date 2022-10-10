@@ -5,7 +5,19 @@
     "email": "jennifernovak@yahoo.com",
     "birthdate": "2012-04-18",
     "phone": "001-256-609-6980x05306",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        33,
+        23,
+        60,
+        50,
+        23
+    ],
+    "login locations": [
+        [
+            -122.404503,
+            37.762497
+        ]
+    ],
+    "relationships": []
 }

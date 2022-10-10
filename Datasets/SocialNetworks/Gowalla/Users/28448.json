@@ -5,7 +5,21 @@
     "email": "larsoncathy@hotmail.com",
     "birthdate": "1939-05-12",
     "phone": "(864)174-5390x749",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        50,
+        16,
+        48,
+        34,
+        11,
+        20,
+        49
+    ],
+    "login locations": [
+        [
+            -118.315306,
+            34.027007
+        ]
+    ],
+    "relationships": []
 }

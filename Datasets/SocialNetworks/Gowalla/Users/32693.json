@@ -5,7 +5,37 @@
     "email": "pamela99@hotmail.com",
     "birthdate": "2009-05-21",
     "phone": "128.797.6729",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        65,
+        7,
+        72,
+        41,
+        15,
+        61,
+        75,
+        41,
+        42,
+        41,
+        65,
+        66
+    ],
+    "login locations": [
+        [
+            -119.771465,
+            36.808587
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125024,
+                0.05
+            ],
+            [
+                125024,
+                0.05
+            ]
+        ]
+    ]
 }

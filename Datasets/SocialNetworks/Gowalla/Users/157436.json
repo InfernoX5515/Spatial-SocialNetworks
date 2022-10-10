@@ -5,7 +5,25 @@
     "email": "ryanrice@gmail.com",
     "birthdate": "1992-10-04",
     "phone": "+1-298-905-7798x814",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -122.425794,
+            37.774998
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                157437,
+                0.0267857142857
+            ],
+            [
+                157438,
+                0.0232558139535
+            ]
+        ]
+    ]
 }

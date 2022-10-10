@@ -5,7 +5,25 @@
     "email": "virginiatorres@yahoo.com",
     "birthdate": "1940-03-29",
     "phone": "(322)580-5366x782",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        61,
+        64,
+        73,
+        59,
+        49,
+        17,
+        61,
+        17,
+        16,
+        64,
+        59
+    ],
+    "login locations": [
+        [
+            -118.444409,
+            35.092951
+        ]
+    ],
+    "relationships": []
 }

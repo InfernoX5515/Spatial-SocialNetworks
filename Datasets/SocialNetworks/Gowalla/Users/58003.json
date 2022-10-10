@@ -5,7 +5,24 @@
     "email": "frances36@hotmail.com",
     "birthdate": "2017-05-25",
     "phone": "+1-900-164-8481x56956",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        32,
+        56,
+        57,
+        15,
+        6,
+        14,
+        43,
+        54,
+        62,
+        21
+    ],
+    "login locations": [
+        [
+            -118.342294,
+            33.980532
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "shelleyholt@hotmail.com",
     "birthdate": "1958-07-01",
     "phone": "770-299-9278x172",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37
+    ],
+    "login locations": [
+        [
+            -122.349955,
+            37.774112
+        ]
+    ],
+    "relationships": []
 }

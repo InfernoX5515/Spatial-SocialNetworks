@@ -5,7 +5,14 @@
     "email": "sarah57@yahoo.com",
     "birthdate": "2010-08-18",
     "phone": "738.341.4946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62
+    ],
+    "login locations": [
+        [
+            -122.088028,
+            37.422242
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "alexanderrose@gmail.com",
     "birthdate": "1925-02-21",
     "phone": "029-208-4616",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        54,
+        14
+    ],
+    "login locations": [
+        [
+            -118.287451,
+            33.949743
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3470,
+                0.013201320132
+            ],
+            [
+                3470,
+                0.013201320132
+            ]
+        ]
+    ]
 }

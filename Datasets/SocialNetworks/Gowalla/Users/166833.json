@@ -5,7 +5,17 @@
     "email": "kristen86@hotmail.com",
     "birthdate": "1972-10-31",
     "phone": "6220843163",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        68,
+        5,
+        4
+    ],
+    "login locations": [
+        [
+            -122.261449,
+            37.868856
+        ]
+    ],
+    "relationships": []
 }

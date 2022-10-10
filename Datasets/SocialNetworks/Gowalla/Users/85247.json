@@ -5,7 +5,18 @@
     "email": "kathrynpena@yahoo.com",
     "birthdate": "1973-07-22",
     "phone": "813-578-2895x49374",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        9,
+        72,
+        12,
+        32
+    ],
+    "login locations": [
+        [
+            -122.282911,
+            37.752821
+        ]
+    ],
+    "relationships": []
 }

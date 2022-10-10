@@ -5,7 +5,15 @@
     "email": "ericksonjason@hotmail.com",
     "birthdate": "1931-01-13",
     "phone": "(772)756-2915x031",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        54
+    ],
+    "login locations": [
+        [
+            -118.077495,
+            33.95482
+        ]
+    ],
+    "relationships": []
 }

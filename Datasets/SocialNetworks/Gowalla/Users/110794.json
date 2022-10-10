@@ -5,7 +5,18 @@
     "email": "khuynh@gmail.com",
     "birthdate": "2001-02-27",
     "phone": "001-014-974-9340x8712",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        71,
+        20,
+        24,
+        56
+    ],
+    "login locations": [
+        [
+            -122.406374,
+            37.785065
+        ]
+    ],
+    "relationships": []
 }

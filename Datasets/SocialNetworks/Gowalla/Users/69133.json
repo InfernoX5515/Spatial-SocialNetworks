@@ -5,7 +5,14 @@
     "email": "sharonwilson@yahoo.com",
     "birthdate": "2022-04-24",
     "phone": "297-400-0628x6221",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65
+    ],
+    "login locations": [
+        [
+            -118.356701,
+            34.158069
+        ]
+    ],
+    "relationships": []
 }

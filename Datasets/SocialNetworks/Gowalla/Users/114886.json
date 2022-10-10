@@ -5,7 +5,17 @@
     "email": "nfrazier@gmail.com",
     "birthdate": "1968-10-03",
     "phone": "260-387-8247",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        45,
+        46,
+        52
+    ],
+    "login locations": [
+        [
+            -118.210455,
+            33.90815
+        ]
+    ],
+    "relationships": []
 }

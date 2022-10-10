@@ -5,7 +5,30 @@
     "email": "marccruz@gmail.com",
     "birthdate": "2000-07-26",
     "phone": "477.411.8652x2250",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        46,
+        5,
+        47,
+        17,
+        38
+    ],
+    "login locations": [
+        [
+            -122.435819,
+            37.711452
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8,
+                0.52
+            ],
+            [
+                8,
+                0.52
+            ]
+        ]
+    ]
 }

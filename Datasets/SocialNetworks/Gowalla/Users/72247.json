@@ -5,7 +5,17 @@
     "email": "mary69@hotmail.com",
     "birthdate": "2019-08-31",
     "phone": "694-637-1938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        53,
+        30,
+        59
+    ],
+    "login locations": [
+        [
+            -122.417953,
+            37.778323
+        ]
+    ],
+    "relationships": []
 }

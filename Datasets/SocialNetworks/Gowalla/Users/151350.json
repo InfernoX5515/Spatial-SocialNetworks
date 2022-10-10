@@ -5,7 +5,16 @@
     "email": "horneantonio@yahoo.com",
     "birthdate": "2005-12-04",
     "phone": "382-125-6646",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        47,
+        32
+    ],
+    "login locations": [
+        [
+            -118.369759,
+            33.964654
+        ]
+    ],
+    "relationships": []
 }

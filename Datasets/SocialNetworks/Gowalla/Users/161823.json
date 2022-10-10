@@ -5,7 +5,18 @@
     "email": "brittany94@gmail.com",
     "birthdate": "1986-12-02",
     "phone": "(303)586-2213",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        73,
+        46,
+        7,
+        28
+    ],
+    "login locations": [
+        [
+            -122.201392,
+            37.810495
+        ]
+    ],
+    "relationships": []
 }

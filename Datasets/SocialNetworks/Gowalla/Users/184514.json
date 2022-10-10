@@ -5,7 +5,23 @@
     "email": "xbates@gmail.com",
     "birthdate": "1988-12-23",
     "phone": "(775)712-3316",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        64,
+        75,
+        62,
+        57,
+        24,
+        69,
+        26,
+        19,
+        52
+    ],
+    "login locations": [
+        [
+            -122.191108,
+            38.079502
+        ]
+    ],
+    "relationships": []
 }

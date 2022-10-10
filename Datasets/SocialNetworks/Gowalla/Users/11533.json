@@ -5,7 +5,17 @@
     "email": "robertgonzales@yahoo.com",
     "birthdate": "1961-05-13",
     "phone": "+1-187-067-5051",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        36,
+        72,
+        51
+    ],
+    "login locations": [
+        [
+            -117.167245,
+            32.697312
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "steeledavid@hotmail.com",
     "birthdate": "1917-07-21",
     "phone": "298.068.6983",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        49,
+        37,
+        35,
+        33,
+        46,
+        38,
+        43,
+        55,
+        15,
+        6,
+        16
+    ],
+    "login locations": [
+        [
+            -117.844655,
+            33.752837
+        ]
+    ],
+    "relationships": []
 }

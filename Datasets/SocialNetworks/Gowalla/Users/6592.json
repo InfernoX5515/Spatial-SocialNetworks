@@ -5,7 +5,22 @@
     "email": "rjackson@gmail.com",
     "birthdate": "1987-09-29",
     "phone": "612.826.0248x85809",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        46,
+        46,
+        56,
+        71,
+        55,
+        27,
+        58,
+        22
+    ],
+    "login locations": [
+        [
+            -122.071908,
+            37.349493
+        ]
+    ],
+    "relationships": []
 }

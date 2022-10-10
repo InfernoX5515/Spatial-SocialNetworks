@@ -5,7 +5,19 @@
     "email": "john10@yahoo.com",
     "birthdate": "2012-06-14",
     "phone": "775-520-4104x530",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        42,
+        57,
+        66,
+        67,
+        65
+    ],
+    "login locations": [
+        [
+            -122.425971,
+            37.770153
+        ]
+    ],
+    "relationships": []
 }

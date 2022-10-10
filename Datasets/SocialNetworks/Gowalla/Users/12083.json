@@ -5,7 +5,12 @@
     "email": "amberrobbins@gmail.com",
     "birthdate": "1928-11-02",
     "phone": "676-346-0121x428",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.413731,
+            37.785687
+        ]
+    ],
+    "relationships": []
 }

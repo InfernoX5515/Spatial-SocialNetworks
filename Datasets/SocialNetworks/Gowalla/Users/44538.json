@@ -5,7 +5,17 @@
     "email": "ashley23@hotmail.com",
     "birthdate": "1935-09-04",
     "phone": "093.875.2678x38437",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        28,
+        14,
+        22
+    ],
+    "login locations": [
+        [
+            -118.325033,
+            33.965544
+        ]
+    ],
+    "relationships": []
 }

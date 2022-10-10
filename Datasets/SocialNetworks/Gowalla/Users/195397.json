@@ -5,7 +5,17 @@
     "email": "susan03@gmail.com",
     "birthdate": "2011-11-09",
     "phone": "(816)518-6285x6099",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        43,
+        15,
+        15
+    ],
+    "login locations": [
+        [
+            -118.21364,
+            34.044822
+        ]
+    ],
+    "relationships": []
 }

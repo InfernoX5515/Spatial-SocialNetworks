@@ -5,7 +5,18 @@
     "email": "woodjoe@yahoo.com",
     "birthdate": "1978-11-16",
     "phone": "+1-452-781-4117",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        15,
+        71,
+        66,
+        54
+    ],
+    "login locations": [
+        [
+            -122.415471,
+            37.780353
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "hansonrichard@yahoo.com",
     "birthdate": "1939-07-03",
     "phone": "644-186-1847x59244",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        23,
+        24,
+        34,
+        37,
+        26,
+        37,
+        20,
+        46,
+        36,
+        7,
+        43,
+        57,
+        34,
+        13
+    ],
+    "login locations": [
+        [
+            -122.399734,
+            37.784945
+        ]
+    ],
+    "relationships": []
 }

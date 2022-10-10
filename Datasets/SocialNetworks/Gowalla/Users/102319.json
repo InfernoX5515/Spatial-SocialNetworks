@@ -5,7 +5,33 @@
     "email": "kelseybradford@yahoo.com",
     "birthdate": "1923-03-14",
     "phone": "+1-385-430-5145x42636",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        41,
+        11,
+        1,
+        51,
+        58,
+        21,
+        68,
+        6
+    ],
+    "login locations": [
+        [
+            -118.138503,
+            34.087725
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                16542,
+                0.15737704918
+            ],
+            [
+                16542,
+                0.15737704918
+            ]
+        ]
+    ]
 }

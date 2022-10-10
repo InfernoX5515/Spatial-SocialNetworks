@@ -5,7 +5,24 @@
     "email": "floresmarissa@hotmail.com",
     "birthdate": "1935-01-12",
     "phone": "+1-290-558-4459x8013",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        53,
+        57,
+        40,
+        60,
+        12,
+        40,
+        42,
+        32,
+        71,
+        43
+    ],
+    "login locations": [
+        [
+            -121.342496,
+            38.293801
+        ]
+    ],
+    "relationships": []
 }

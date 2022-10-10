@@ -5,7 +5,20 @@
     "email": "wthompson@gmail.com",
     "birthdate": "1993-09-20",
     "phone": "(908)281-1115x915",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        57,
+        46,
+        36,
+        25,
+        15,
+        52
+    ],
+    "login locations": [
+        [
+            -122.406696,
+            37.759033
+        ]
+    ],
+    "relationships": []
 }

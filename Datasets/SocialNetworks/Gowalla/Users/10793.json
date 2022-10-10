@@ -5,7 +5,27 @@
     "email": "zachary05@gmail.com",
     "birthdate": "1990-09-05",
     "phone": "461.023.0156",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        52,
+        54
+    ],
+    "login locations": [
+        [
+            -117.726756,
+            33.57572
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10781,
+                0.241379310345
+            ],
+            [
+                10781,
+                0.241379310345
+            ]
+        ]
+    ]
 }

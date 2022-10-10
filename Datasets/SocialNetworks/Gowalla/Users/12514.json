@@ -5,7 +5,28 @@
     "email": "frederickwest@gmail.com",
     "birthdate": "1997-06-01",
     "phone": "001-399-031-9013x207",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        55,
+        21,
+        30,
+        56,
+        36,
+        22,
+        54,
+        66,
+        21,
+        35,
+        42,
+        51,
+        23,
+        37
+    ],
+    "login locations": [
+        [
+            -118.34672,
+            34.08575
+        ]
+    ],
+    "relationships": []
 }

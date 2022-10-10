@@ -5,7 +5,12 @@
     "email": "jacobwest@yahoo.com",
     "birthdate": "1932-04-25",
     "phone": "(658)949-0907",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.006387,
+            37.017966
+        ]
+    ],
+    "relationships": []
 }

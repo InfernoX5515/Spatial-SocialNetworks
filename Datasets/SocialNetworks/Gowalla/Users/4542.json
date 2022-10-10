@@ -5,7 +5,28 @@
     "email": "zachary44@gmail.com",
     "birthdate": "2009-02-18",
     "phone": "+1-416-484-9644x55032",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        4,
+        8,
+        69,
+        3,
+        73,
+        39,
+        3,
+        21,
+        41,
+        47,
+        23,
+        44,
+        18,
+        16
+    ],
+    "login locations": [
+        [
+            -117.21377,
+            32.898429
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "adavis@yahoo.com",
     "birthdate": "1917-11-24",
     "phone": "940-728-7262x13772",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        26,
+        42,
+        50,
+        75,
+        22,
+        3,
+        71
+    ],
+    "login locations": [
+        [
+            -122.256432,
+            37.532507
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "james23@gmail.com",
     "birthdate": "1998-11-19",
     "phone": "+1-912-452-2495x12878",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        14,
+        58,
+        5,
+        50,
+        56,
+        38
+    ],
+    "login locations": [
+        [
+            -121.94661,
+            38.379976
+        ]
+    ],
+    "relationships": []
 }

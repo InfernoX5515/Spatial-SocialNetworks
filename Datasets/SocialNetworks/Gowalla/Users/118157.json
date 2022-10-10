@@ -5,7 +5,34 @@
     "email": "srobertson@yahoo.com",
     "birthdate": "1931-09-01",
     "phone": "658-921-2634",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        68,
+        39,
+        65,
+        75,
+        55,
+        1,
+        48,
+        34,
+        48
+    ],
+    "login locations": [
+        [
+            -122.107941,
+            37.409515
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                25675,
+                0.125
+            ],
+            [
+                25675,
+                0.125
+            ]
+        ]
+    ]
 }

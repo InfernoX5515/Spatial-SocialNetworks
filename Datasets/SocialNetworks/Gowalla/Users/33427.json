@@ -5,7 +5,24 @@
     "email": "fpatton@yahoo.com",
     "birthdate": "1930-04-20",
     "phone": "+1-691-126-0407x07389",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        13,
+        26,
+        40,
+        5,
+        69,
+        63,
+        56,
+        57,
+        65,
+        5
+    ],
+    "login locations": [
+        [
+            -122.304815,
+            37.807103
+        ]
+    ],
+    "relationships": []
 }

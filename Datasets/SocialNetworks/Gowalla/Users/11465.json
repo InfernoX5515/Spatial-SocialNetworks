@@ -5,7 +5,24 @@
     "email": "yrussell@hotmail.com",
     "birthdate": "1971-01-02",
     "phone": "261.169.1750x386",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        46,
+        42,
+        18,
+        59,
+        42,
+        55,
+        11,
+        35,
+        64,
+        36
+    ],
+    "login locations": [
+        [
+            -122.411918,
+            37.792939
+        ]
+    ],
+    "relationships": []
 }

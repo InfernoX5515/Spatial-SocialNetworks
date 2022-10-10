@@ -5,7 +5,24 @@
     "email": "marthalevy@yahoo.com",
     "birthdate": "1954-03-20",
     "phone": "485.704.5613x927",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        67,
+        61,
+        46,
+        53,
+        54,
+        2,
+        11,
+        6,
+        27,
+        10
+    ],
+    "login locations": [
+        [
+            -118.853651,
+            34.168483
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,34 @@
     "email": "jamie39@hotmail.com",
     "birthdate": "2016-05-17",
     "phone": "110-318-9659",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        18,
+        11,
+        6,
+        52,
+        48,
+        32,
+        65,
+        38,
+        47
+    ],
+    "login locations": [
+        [
+            -122.079557,
+            37.65398
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4442,
+                0.0344827586207
+            ],
+            [
+                11840,
+                0.02
+            ]
+        ]
+    ]
 }

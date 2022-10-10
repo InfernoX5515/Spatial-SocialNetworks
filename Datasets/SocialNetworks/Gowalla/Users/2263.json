@@ -5,7 +5,23 @@
     "email": "michellewilson@yahoo.com",
     "birthdate": "1943-11-01",
     "phone": "226.409.2960",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.427158,
+            33.937027
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6185,
+                0.01
+            ],
+            [
+                6185,
+                0.01
+            ]
+        ]
+    ]
 }

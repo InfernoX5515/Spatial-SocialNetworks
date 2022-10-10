@@ -5,7 +5,32 @@
     "email": "amanda43@hotmail.com",
     "birthdate": "1914-07-26",
     "phone": "001-484-700-5969x20641",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        34,
+        74,
+        59,
+        65,
+        48,
+        39,
+        3
+    ],
+    "login locations": [
+        [
+            -122.408044,
+            37.728585
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                577,
+                0.0118518518519
+            ],
+            [
+                577,
+                0.0118518518519
+            ]
+        ]
+    ]
 }

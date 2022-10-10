@@ -5,7 +5,21 @@
     "email": "kathleen52@gmail.com",
     "birthdate": "1931-12-03",
     "phone": "395-118-3536",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        12,
+        9,
+        36,
+        39,
+        75,
+        31,
+        16
+    ],
+    "login locations": [
+        [
+            -118.318349,
+            34.141821
+        ]
+    ],
+    "relationships": []
 }

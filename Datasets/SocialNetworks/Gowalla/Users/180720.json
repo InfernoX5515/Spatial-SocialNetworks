@@ -5,7 +5,23 @@
     "email": "kchen@yahoo.com",
     "birthdate": "1969-11-15",
     "phone": "(945)969-0439x65495",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.95224,
+            37.300054
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                180721,
+                0.02
+            ],
+            [
+                180721,
+                0.02
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,12 @@
     "email": "beverlymays@hotmail.com",
     "birthdate": "1957-11-15",
     "phone": "(128)586-7757",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -119.794317,
+            36.822635
+        ]
+    ],
+    "relationships": []
 }

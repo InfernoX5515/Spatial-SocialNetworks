@@ -5,7 +5,32 @@
     "email": "william27@hotmail.com",
     "birthdate": "1955-08-08",
     "phone": "(572)194-9977",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        7,
+        2,
+        13,
+        66,
+        41,
+        37,
+        51
+    ],
+    "login locations": [
+        [
+            -122.57431,
+            38.083755
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3540,
+                0.01
+            ],
+            [
+                3540,
+                0.01
+            ]
+        ]
+    ]
 }

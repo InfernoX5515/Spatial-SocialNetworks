@@ -5,7 +5,20 @@
     "email": "christophersnyder@gmail.com",
     "birthdate": "2022-02-04",
     "phone": "166.370.8343x1814",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        55,
+        58,
+        61,
+        5,
+        5,
+        33
+    ],
+    "login locations": [
+        [
+            -121.886203,
+            37.283884
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,34 @@
     "email": "phillipsmark@gmail.com",
     "birthdate": "1973-07-13",
     "phone": "5379010403",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        55,
+        72,
+        59,
+        46,
+        71,
+        54,
+        43,
+        65,
+        35
+    ],
+    "login locations": [
+        [
+            -118.628312,
+            34.496433
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                92,
+                0.0386266094421
+            ],
+            [
+                83441,
+                0.12
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,15 @@
     "email": "patricia63@hotmail.com",
     "birthdate": "1961-05-09",
     "phone": "001-643-833-1643x17462",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        24
+    ],
+    "login locations": [
+        [
+            -122.135185,
+            37.387115
+        ]
+    ],
+    "relationships": []
 }

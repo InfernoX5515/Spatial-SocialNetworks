@@ -5,7 +5,27 @@
     "email": "michaelmichael@yahoo.com",
     "birthdate": "2005-04-08",
     "phone": "929-250-1504x15229",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        42,
+        56,
+        74,
+        10,
+        36,
+        22,
+        69,
+        75,
+        60,
+        65,
+        40,
+        60,
+        39
+    ],
+    "login locations": [
+        [
+            -117.441625,
+            34.146747
+        ]
+    ],
+    "relationships": []
 }

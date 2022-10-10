@@ -5,7 +5,23 @@
     "email": "mfinley@gmail.com",
     "birthdate": "1952-01-10",
     "phone": "855-217-5219",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        18,
+        42,
+        37,
+        64,
+        46,
+        62,
+        2,
+        22,
+        41
+    ],
+    "login locations": [
+        [
+            -122.435603,
+            37.776895
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "reedmatthew@gmail.com",
     "birthdate": "1931-03-11",
     "phone": "(154)427-7228",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        36,
+        36,
+        40,
+        44,
+        71,
+        55,
+        35,
+        28,
+        61,
+        38
+    ],
+    "login locations": [
+        [
+            -119.856901,
+            34.411795
+        ]
+    ],
+    "relationships": []
 }

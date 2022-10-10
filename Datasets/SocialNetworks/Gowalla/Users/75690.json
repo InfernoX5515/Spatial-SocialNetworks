@@ -5,7 +5,16 @@
     "email": "tcarr@yahoo.com",
     "birthdate": "1960-03-26",
     "phone": "125-181-0521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        43,
+        19
+    ],
+    "login locations": [
+        [
+            -118.32955,
+            34.06425
+        ]
+    ],
+    "relationships": []
 }

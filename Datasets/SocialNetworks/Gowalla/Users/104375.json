@@ -5,7 +5,29 @@
     "email": "dhughes@gmail.com",
     "birthdate": "1908-11-20",
     "phone": "+1-754-675-9236",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        18,
+        47,
+        44,
+        7
+    ],
+    "login locations": [
+        [
+            -122.424927,
+            37.783016
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32401,
+                0.01
+            ],
+            [
+                32401,
+                0.01
+            ]
+        ]
+    ]
 }

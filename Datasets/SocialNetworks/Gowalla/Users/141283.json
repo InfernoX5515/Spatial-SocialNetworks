@@ -5,7 +5,18 @@
     "email": "mallory93@gmail.com",
     "birthdate": "1982-03-21",
     "phone": "772.952.8583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        56,
+        25,
+        18,
+        37
+    ],
+    "login locations": [
+        [
+            -118.128379,
+            33.985419
+        ]
+    ],
+    "relationships": []
 }

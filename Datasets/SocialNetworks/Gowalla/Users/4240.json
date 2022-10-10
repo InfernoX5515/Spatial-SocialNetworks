@@ -5,7 +5,24 @@
     "email": "patriciakelly@yahoo.com",
     "birthdate": "2001-09-10",
     "phone": "001-777-308-2539x2994",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        61,
+        20,
+        54,
+        70,
+        73,
+        41,
+        65,
+        72,
+        41,
+        15
+    ],
+    "login locations": [
+        [
+            -122.007927,
+            37.324919
+        ]
+    ],
+    "relationships": []
 }

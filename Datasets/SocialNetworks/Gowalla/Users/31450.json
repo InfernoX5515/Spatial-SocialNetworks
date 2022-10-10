@@ -5,7 +5,17 @@
     "email": "autumnalexander@gmail.com",
     "birthdate": "1969-04-05",
     "phone": "(388)676-4040x21412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        26,
+        16,
+        62
+    ],
+    "login locations": [
+        [
+            -118.413057,
+            33.967992
+        ]
+    ],
+    "relationships": []
 }

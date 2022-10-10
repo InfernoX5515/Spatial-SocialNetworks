@@ -5,7 +5,26 @@
     "email": "fortiz@yahoo.com",
     "birthdate": "1920-12-19",
     "phone": "+1-634-035-1938x920",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        72,
+        66,
+        14,
+        51,
+        71,
+        9,
+        6,
+        32,
+        55,
+        5,
+        72,
+        72
+    ],
+    "login locations": [
+        [
+            -118.211572,
+            34.104321
+        ]
+    ],
+    "relationships": []
 }

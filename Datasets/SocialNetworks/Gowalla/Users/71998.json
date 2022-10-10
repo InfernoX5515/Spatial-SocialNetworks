@@ -5,7 +5,22 @@
     "email": "jameswilson@hotmail.com",
     "birthdate": "1995-11-10",
     "phone": "+1-876-846-5283",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        26,
+        30,
+        54,
+        14,
+        25,
+        4,
+        50,
+        2
+    ],
+    "login locations": [
+        [
+            -122.412682,
+            37.787227
+        ]
+    ],
+    "relationships": []
 }

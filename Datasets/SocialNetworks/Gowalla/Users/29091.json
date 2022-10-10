@@ -5,7 +5,24 @@
     "email": "jessica62@yahoo.com",
     "birthdate": "1920-08-01",
     "phone": "691-548-2609",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        67,
+        68,
+        55,
+        12,
+        34,
+        12,
+        42,
+        26,
+        37,
+        37
+    ],
+    "login locations": [
+        [
+            -118.28921,
+            34.054075
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "marksscott@gmail.com",
     "birthdate": "1915-04-21",
     "phone": "001-986-694-5937x75266",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        31,
+        24,
+        46,
+        14,
+        69,
+        45,
+        25,
+        56,
+        4,
+        40,
+        37,
+        12,
+        32
+    ],
+    "login locations": [
+        [
+            -122.073086,
+            37.385173
+        ]
+    ],
+    "relationships": []
 }

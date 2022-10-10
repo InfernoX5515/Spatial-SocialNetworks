@@ -5,7 +5,36 @@
     "email": "ybrown@yahoo.com",
     "birthdate": "1952-09-11",
     "phone": "+1-111-351-2097x008",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        14,
+        45,
+        70,
+        8,
+        62,
+        65,
+        33,
+        51,
+        39,
+        32,
+        49
+    ],
+    "login locations": [
+        [
+            -118.237116,
+            34.107059
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8,
+                0.653333333333
+            ],
+            [
+                53,
+                0.318713450292
+            ]
+        ]
+    ]
 }

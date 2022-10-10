@@ -5,7 +5,17 @@
     "email": "harrispatricia@yahoo.com",
     "birthdate": "2005-02-21",
     "phone": "001-470-566-0531x008",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        37,
+        33,
+        51
+    ],
+    "login locations": [
+        [
+            -122.030213,
+            37.331868
+        ]
+    ],
+    "relationships": []
 }

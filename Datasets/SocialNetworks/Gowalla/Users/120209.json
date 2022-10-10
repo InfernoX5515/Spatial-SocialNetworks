@@ -5,7 +5,28 @@
     "email": "hhanson@gmail.com",
     "birthdate": "2013-01-08",
     "phone": "+1-118-663-4260x484",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        61,
+        11,
+        72,
+        43,
+        55,
+        5,
+        29,
+        16,
+        48,
+        29,
+        10,
+        8,
+        45,
+        58
+    ],
+    "login locations": [
+        [
+            -122.405722,
+            37.809986
+        ]
+    ],
+    "relationships": []
 }

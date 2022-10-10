@@ -5,7 +5,25 @@
     "email": "cmyers@hotmail.com",
     "birthdate": "1990-07-04",
     "phone": "510-048-9441x15777",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        67,
+        2,
+        62,
+        46,
+        2,
+        45,
+        17,
+        13,
+        69,
+        38,
+        0
+    ],
+    "login locations": [
+        [
+            -122.129406,
+            37.422133
+        ]
+    ],
+    "relationships": []
 }

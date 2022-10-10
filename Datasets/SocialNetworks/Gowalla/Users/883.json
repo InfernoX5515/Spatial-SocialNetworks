@@ -5,7 +5,27 @@
     "email": "lindsey08@yahoo.com",
     "birthdate": "1919-07-14",
     "phone": "+1-460-265-3578x819",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        67,
+        61,
+        41,
+        33,
+        48,
+        38,
+        12,
+        16,
+        10,
+        36,
+        51,
+        69,
+        58
+    ],
+    "login locations": [
+        [
+            -117.188049,
+            32.765866
+        ]
+    ],
+    "relationships": []
 }

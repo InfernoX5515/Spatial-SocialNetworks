@@ -5,7 +5,12 @@
     "email": "karencarter@gmail.com",
     "birthdate": "1953-03-26",
     "phone": "(359)282-1418",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.941454,
+            37.707347
+        ]
+    ],
+    "relationships": []
 }

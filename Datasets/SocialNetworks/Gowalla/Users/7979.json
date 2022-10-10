@@ -5,7 +5,20 @@
     "email": "julie83@gmail.com",
     "birthdate": "1928-01-30",
     "phone": "(610)721-8528x51280",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        24,
+        25,
+        66,
+        59,
+        2,
+        71
+    ],
+    "login locations": [
+        [
+            -122.198782,
+            37.429665
+        ]
+    ],
+    "relationships": []
 }

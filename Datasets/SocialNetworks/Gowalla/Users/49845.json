@@ -5,7 +5,20 @@
     "email": "meganmiller@gmail.com",
     "birthdate": "1959-07-08",
     "phone": "+1-537-414-9944",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        47,
+        49,
+        6,
+        38,
+        11,
+        8
+    ],
+    "login locations": [
+        [
+            -118.123492,
+            33.878455
+        ]
+    ],
+    "relationships": []
 }

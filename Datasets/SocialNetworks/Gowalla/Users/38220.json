@@ -5,7 +5,26 @@
     "email": "douglassmith@yahoo.com",
     "birthdate": "1936-02-10",
     "phone": "178.548.7917x0470",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        31
+    ],
+    "login locations": [
+        [
+            -121.397169,
+            38.594411
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                70385,
+                0.0266666666667
+            ],
+            [
+                70385,
+                0.0266666666667
+            ]
+        ]
+    ]
 }

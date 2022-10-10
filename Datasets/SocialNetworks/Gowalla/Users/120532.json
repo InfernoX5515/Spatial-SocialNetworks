@@ -5,7 +5,27 @@
     "email": "melanie87@hotmail.com",
     "birthdate": "1928-09-02",
     "phone": "969.222.1257x25699",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        75,
+        14,
+        49,
+        65,
+        56,
+        31,
+        74,
+        71,
+        53,
+        75,
+        31,
+        68,
+        44
+    ],
+    "login locations": [
+        [
+            -122.379859,
+            37.7953
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "courtneylewis@yahoo.com",
     "birthdate": "1983-11-20",
     "phone": "+1-001-441-8727x898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        37,
+        13,
+        45,
+        71,
+        67,
+        48,
+        66,
+        61,
+        31
+    ],
+    "login locations": [
+        [
+            -117.153379,
+            32.727019
+        ]
+    ],
+    "relationships": []
 }

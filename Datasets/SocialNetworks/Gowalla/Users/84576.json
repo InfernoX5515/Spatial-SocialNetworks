@@ -5,7 +5,20 @@
     "email": "kevintaylor@yahoo.com",
     "birthdate": "1963-01-01",
     "phone": "001-988-094-3939",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        66,
+        35,
+        14,
+        53,
+        36,
+        44
+    ],
+    "login locations": [
+        [
+            -121.931849,
+            37.695053
+        ]
+    ],
+    "relationships": []
 }

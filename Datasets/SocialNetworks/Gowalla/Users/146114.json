@@ -5,7 +5,21 @@
     "email": "perezchristie@hotmail.com",
     "birthdate": "2013-12-12",
     "phone": "(668)128-7181x93286",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        29,
+        31,
+        26,
+        29,
+        19,
+        26,
+        37
+    ],
+    "login locations": [
+        [
+            -116.545167,
+            33.81579
+        ]
+    ],
+    "relationships": []
 }

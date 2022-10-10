@@ -5,7 +5,25 @@
     "email": "adam78@yahoo.com",
     "birthdate": "1936-02-20",
     "phone": "001-662-740-0188x338",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49
+    ],
+    "login locations": [
+        [
+            -117.881418,
+            33.753994
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6827,
+                0.04
+            ],
+            [
+                5867,
+                0.1
+            ]
+        ]
+    ]
 }

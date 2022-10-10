@@ -5,7 +5,16 @@
     "email": "mary17@hotmail.com",
     "birthdate": "1938-07-20",
     "phone": "742-645-7526",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        12,
+        56
+    ],
+    "login locations": [
+        [
+            -118.233103,
+            34.134036
+        ]
+    ],
+    "relationships": []
 }

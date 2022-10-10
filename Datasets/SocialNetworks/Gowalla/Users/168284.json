@@ -5,7 +5,27 @@
     "email": "uowens@yahoo.com",
     "birthdate": "2000-03-12",
     "phone": "152.818.8553x6340",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        27,
+        9,
+        61,
+        32,
+        60,
+        19,
+        18,
+        54,
+        29,
+        27,
+        37,
+        47,
+        51
+    ],
+    "login locations": [
+        [
+            -118.008737,
+            33.91569
+        ]
+    ],
+    "relationships": []
 }

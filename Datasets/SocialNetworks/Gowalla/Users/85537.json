@@ -5,7 +5,14 @@
     "email": "danielpeterson@hotmail.com",
     "birthdate": "1989-12-20",
     "phone": "044-733-4067",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34
+    ],
+    "login locations": [
+        [
+            -122.161046,
+            37.443255
+        ]
+    ],
+    "relationships": []
 }

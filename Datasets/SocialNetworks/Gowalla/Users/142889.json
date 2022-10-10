@@ -5,7 +5,37 @@
     "email": "wallacepaige@gmail.com",
     "birthdate": "1976-01-29",
     "phone": "155-478-9681",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        50,
+        61,
+        19,
+        18,
+        55,
+        69,
+        68,
+        12,
+        68,
+        70,
+        69,
+        67
+    ],
+    "login locations": [
+        [
+            -118.349804,
+            34.06433
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49348,
+                0.0137931034483
+            ],
+            [
+                49348,
+                0.0137931034483
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "richard05@gmail.com",
     "birthdate": "1933-06-25",
     "phone": "592.498.6112x296",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        41,
+        16,
+        37,
+        14,
+        66,
+        28,
+        7,
+        14,
+        64,
+        26,
+        30
+    ],
+    "login locations": [
+        [
+            -122.403188,
+            37.783645
+        ]
+    ],
+    "relationships": []
 }

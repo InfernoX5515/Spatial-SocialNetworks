@@ -5,7 +5,15 @@
     "email": "griffindeborah@gmail.com",
     "birthdate": "2012-10-19",
     "phone": "001-048-069-1214x5742",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        8
+    ],
+    "login locations": [
+        [
+            -122.365059,
+            37.773921
+        ]
+    ],
+    "relationships": []
 }

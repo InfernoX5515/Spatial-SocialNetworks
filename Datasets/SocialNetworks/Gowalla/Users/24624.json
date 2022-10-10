@@ -5,7 +5,29 @@
     "email": "roy15@gmail.com",
     "birthdate": "1936-12-20",
     "phone": "643.613.9320x89964",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        12,
+        21,
+        4,
+        13
+    ],
+    "login locations": [
+        [
+            -122.415055,
+            37.754686
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5051,
+                0.08
+            ],
+            [
+                6556,
+                0.04
+            ]
+        ]
+    ]
 }

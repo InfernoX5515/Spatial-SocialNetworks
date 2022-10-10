@@ -5,7 +5,28 @@
     "email": "kbrown@yahoo.com",
     "birthdate": "1912-05-08",
     "phone": "(425)694-4863x4785",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        17,
+        64,
+        30,
+        39,
+        63,
+        17,
+        49,
+        57,
+        61,
+        55,
+        36,
+        3,
+        41,
+        53
+    ],
+    "login locations": [
+        [
+            -122.015748,
+            37.370985
+        ]
+    ],
+    "relationships": []
 }

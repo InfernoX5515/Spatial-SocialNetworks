@@ -5,7 +5,18 @@
     "email": "adamcole@hotmail.com",
     "birthdate": "1978-01-31",
     "phone": "001-767-858-6383x0401",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        15,
+        56,
+        66,
+        40
+    ],
+    "login locations": [
+        [
+            -122.427404,
+            37.790352
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "crobertson@yahoo.com",
     "birthdate": "1910-01-05",
     "phone": "(026)761-2272x496",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        68,
+        11,
+        13,
+        27,
+        11,
+        13
+    ],
+    "login locations": [
+        [
+            -122.265201,
+            37.823757
+        ]
+    ],
+    "relationships": []
 }

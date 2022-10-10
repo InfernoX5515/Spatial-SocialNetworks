@@ -5,7 +5,26 @@
     "email": "marygreen@hotmail.com",
     "birthdate": "1954-12-12",
     "phone": "(726)969-8057x37542",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        4,
+        49,
+        73,
+        60,
+        29,
+        12,
+        3,
+        44,
+        0,
+        46,
+        4,
+        45
+    ],
+    "login locations": [
+        [
+            -118.474497,
+            33.996503
+        ]
+    ],
+    "relationships": []
 }

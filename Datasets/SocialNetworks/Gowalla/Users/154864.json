@@ -5,7 +5,28 @@
     "email": "johnspence@hotmail.com",
     "birthdate": "1963-04-17",
     "phone": "4806946998",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        13,
+        14,
+        35,
+        10,
+        33,
+        12,
+        72,
+        21,
+        31,
+        4,
+        70,
+        13,
+        11,
+        43
+    ],
+    "login locations": [
+        [
+            -121.970333,
+            37.323182
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "conleyjay@yahoo.com",
     "birthdate": "1980-11-02",
     "phone": "(618)662-0989x2928",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        30,
+        21,
+        4,
+        69,
+        75,
+        3,
+        61,
+        33,
+        14,
+        42
+    ],
+    "login locations": [
+        [
+            -122.080776,
+            37.395626
+        ]
+    ],
+    "relationships": []
 }

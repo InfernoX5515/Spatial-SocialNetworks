@@ -5,7 +5,14 @@
     "email": "nicolebartlett@hotmail.com",
     "birthdate": "1978-09-06",
     "phone": "052.894.6638x1957",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11
+    ],
+    "login locations": [
+        [
+            -118.020479,
+            33.879212
+        ]
+    ],
+    "relationships": []
 }

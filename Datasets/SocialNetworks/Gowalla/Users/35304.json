@@ -5,7 +5,12 @@
     "email": "rachel53@gmail.com",
     "birthdate": "1922-12-10",
     "phone": "001-735-594-3443",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.894326,
+            33.788614
+        ]
+    ],
+    "relationships": []
 }

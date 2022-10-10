@@ -5,7 +5,38 @@
     "email": "dustinmiller@yahoo.com",
     "birthdate": "2015-10-06",
     "phone": "(871)616-3780",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        49,
+        9,
+        74,
+        2,
+        24,
+        8,
+        33,
+        25,
+        53,
+        57,
+        20,
+        17,
+        75
+    ],
+    "login locations": [
+        [
+            -117.79007,
+            33.629531
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7278,
+                0.01
+            ],
+            [
+                7278,
+                0.01
+            ]
+        ]
+    ]
 }

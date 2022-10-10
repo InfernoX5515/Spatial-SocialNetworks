@@ -5,7 +5,33 @@
     "email": "phoward@gmail.com",
     "birthdate": "1911-06-12",
     "phone": "+1-698-161-1427x783",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        43,
+        50,
+        71,
+        2,
+        71,
+        39,
+        58,
+        24
+    ],
+    "login locations": [
+        [
+            -122.41681,
+            37.780861
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                427,
+                0.01
+            ],
+            [
+                427,
+                0.01
+            ]
+        ]
+    ]
 }

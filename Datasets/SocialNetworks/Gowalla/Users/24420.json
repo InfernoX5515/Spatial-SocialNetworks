@@ -5,7 +5,32 @@
     "email": "imyers@yahoo.com",
     "birthdate": "2000-08-04",
     "phone": "+1-047-685-0422x19892",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        6,
+        27,
+        21,
+        50,
+        74,
+        29,
+        66
+    ],
+    "login locations": [
+        [
+            -122.380803,
+            37.730332
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2070,
+                0.01
+            ],
+            [
+                2070,
+                0.01
+            ]
+        ]
+    ]
 }

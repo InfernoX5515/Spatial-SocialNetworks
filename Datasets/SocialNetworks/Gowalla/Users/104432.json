@@ -5,7 +5,26 @@
     "email": "abigailpatrick@hotmail.com",
     "birthdate": "2015-07-12",
     "phone": "+1-921-013-4852x0156",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        37,
+        12,
+        49,
+        12,
+        69,
+        6,
+        2,
+        67,
+        65,
+        72,
+        38,
+        71
+    ],
+    "login locations": [
+        [
+            -118.685788,
+            34.195843
+        ]
+    ],
+    "relationships": []
 }

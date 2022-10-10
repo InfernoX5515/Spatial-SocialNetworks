@@ -5,7 +5,17 @@
     "email": "lswanson@yahoo.com",
     "birthdate": "1958-07-08",
     "phone": "+1-171-773-2882x262",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        38,
+        23,
+        14
+    ],
+    "login locations": [
+        [
+            -122.397459,
+            37.770777
+        ]
+    ],
+    "relationships": []
 }

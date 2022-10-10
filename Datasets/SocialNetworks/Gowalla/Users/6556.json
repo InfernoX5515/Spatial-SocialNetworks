@@ -5,7 +5,28 @@
     "email": "klam@gmail.com",
     "birthdate": "1977-11-18",
     "phone": "+1-120-193-6152x328",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        74,
+        56,
+        18
+    ],
+    "login locations": [
+        [
+            -122.400333,
+            37.774701
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82,
+                0.01
+            ],
+            [
+                477,
+                0.0151770657673
+            ]
+        ]
+    ]
 }

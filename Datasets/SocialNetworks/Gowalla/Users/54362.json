@@ -5,7 +5,24 @@
     "email": "kelly43@gmail.com",
     "birthdate": "1921-08-30",
     "phone": "+1-755-726-7630x78353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        2,
+        10,
+        45,
+        19,
+        17,
+        29,
+        53,
+        65,
+        72,
+        52
+    ],
+    "login locations": [
+        [
+            -117.572197,
+            34.119555
+        ]
+    ],
+    "relationships": []
 }

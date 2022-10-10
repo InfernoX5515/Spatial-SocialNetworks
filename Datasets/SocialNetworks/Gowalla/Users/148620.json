@@ -5,7 +5,25 @@
     "email": "michael12@yahoo.com",
     "birthdate": "1976-09-27",
     "phone": "+1-778-381-7181x895",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        36,
+        75,
+        64,
+        41,
+        26,
+        40,
+        36,
+        26,
+        29,
+        8,
+        46
+    ],
+    "login locations": [
+        [
+            -118.145597,
+            34.010394
+        ]
+    ],
+    "relationships": []
 }

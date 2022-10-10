@@ -5,7 +5,25 @@
     "email": "msutton@gmail.com",
     "birthdate": "1940-09-27",
     "phone": "(185)984-7058x56946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        26,
+        56,
+        64,
+        68,
+        20,
+        4,
+        10,
+        38,
+        47,
+        7,
+        45
+    ],
+    "login locations": [
+        [
+            -118.46348,
+            34.001441
+        ]
+    ],
+    "relationships": []
 }

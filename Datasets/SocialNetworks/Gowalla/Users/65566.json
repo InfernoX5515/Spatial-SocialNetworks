@@ -5,7 +5,25 @@
     "email": "dustin30@hotmail.com",
     "birthdate": "2001-02-24",
     "phone": "845.963.2428x952",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -121.968458,
+            37.362385
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22384,
+                0.04
+            ],
+            [
+                22384,
+                0.04
+            ]
+        ]
+    ]
 }

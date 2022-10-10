@@ -5,7 +5,12 @@
     "email": "wwalker@hotmail.com",
     "birthdate": "1922-03-03",
     "phone": "001-512-592-1208x268",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.370157,
+            37.781664
+        ]
+    ],
+    "relationships": []
 }

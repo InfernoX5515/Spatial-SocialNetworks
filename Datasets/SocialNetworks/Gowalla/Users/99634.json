@@ -5,7 +5,20 @@
     "email": "davidgrant@hotmail.com",
     "birthdate": "1915-07-17",
     "phone": "001-310-160-6320x570",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        25,
+        43,
+        14,
+        4,
+        3,
+        63
+    ],
+    "login locations": [
+        [
+            -122.40751,
+            37.763788
+        ]
+    ],
+    "relationships": []
 }

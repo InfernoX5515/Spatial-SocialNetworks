@@ -5,7 +5,38 @@
     "email": "jwilliams@hotmail.com",
     "birthdate": "2007-01-03",
     "phone": "749-616-9815x149",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        49,
+        45,
+        24,
+        50,
+        1,
+        53,
+        60,
+        1,
+        22,
+        0,
+        42,
+        34,
+        23
+    ],
+    "login locations": [
+        [
+            -122.424121,
+            37.763098
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5643,
+                0.0512820512821
+            ],
+            [
+                35754,
+                0.02
+            ]
+        ]
+    ]
 }

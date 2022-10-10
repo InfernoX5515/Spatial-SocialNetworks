@@ -5,7 +5,31 @@
     "email": "dakotabarry@yahoo.com",
     "birthdate": "2018-10-16",
     "phone": "328.541.7248",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        47,
+        72,
+        68,
+        65,
+        73,
+        54
+    ],
+    "login locations": [
+        [
+            -118.05321,
+            33.817377
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                179,
+                0.01
+            ],
+            [
+                11146,
+                0.61
+            ]
+        ]
+    ]
 }

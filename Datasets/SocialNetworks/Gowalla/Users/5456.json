@@ -5,7 +5,38 @@
     "email": "aevans@gmail.com",
     "birthdate": "2005-10-16",
     "phone": "039.175.4498",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        38,
+        11,
+        50,
+        54,
+        21,
+        59,
+        64,
+        67,
+        48,
+        39,
+        12,
+        7,
+        29
+    ],
+    "login locations": [
+        [
+            -122.398952,
+            37.743837
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                191,
+                0.01
+            ],
+            [
+                523,
+                0.01
+            ]
+        ]
+    ]
 }

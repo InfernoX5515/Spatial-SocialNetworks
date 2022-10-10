@@ -5,7 +5,20 @@
     "email": "gedwards@yahoo.com",
     "birthdate": "1973-09-20",
     "phone": "0646903177",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        64,
+        20,
+        54,
+        23,
+        9,
+        63
+    ],
+    "login locations": [
+        [
+            -122.403142,
+            37.757371
+        ]
+    ],
+    "relationships": []
 }

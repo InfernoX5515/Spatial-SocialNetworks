@@ -5,7 +5,30 @@
     "email": "johnsonanna@yahoo.com",
     "birthdate": "1943-01-16",
     "phone": "165.977.0224x558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        13,
+        4,
+        62,
+        61,
+        38
+    ],
+    "login locations": [
+        [
+            -122.441027,
+            37.772221
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                458,
+                0.0240963855422
+            ],
+            [
+                599,
+                0.0367647058824
+            ]
+        ]
+    ]
 }

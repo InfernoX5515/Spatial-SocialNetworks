@@ -5,7 +5,32 @@
     "email": "susanrivera@yahoo.com",
     "birthdate": "1946-03-09",
     "phone": "+1-400-992-6392x2082",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        8,
+        52,
+        49,
+        48,
+        4,
+        48,
+        30
+    ],
+    "login locations": [
+        [
+            -122.269742,
+            37.808712
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32515,
+                0.016835016835
+            ],
+            [
+                124786,
+                1.0
+            ]
+        ]
+    ]
 }

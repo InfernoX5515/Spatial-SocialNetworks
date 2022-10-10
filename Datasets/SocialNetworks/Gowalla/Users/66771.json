@@ -5,7 +5,23 @@
     "email": "elopez@yahoo.com",
     "birthdate": "1910-06-10",
     "phone": "321.237.4315",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        39,
+        67,
+        32,
+        53,
+        17,
+        75,
+        33,
+        61,
+        42
+    ],
+    "login locations": [
+        [
+            -118.579075,
+            34.193228
+        ]
+    ],
+    "relationships": []
 }

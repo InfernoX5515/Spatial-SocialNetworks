@@ -5,7 +5,25 @@
     "email": "pmartinez@gmail.com",
     "birthdate": "1988-05-07",
     "phone": "+1-220-293-3752x178",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        55,
+        6,
+        8,
+        28,
+        59,
+        56,
+        60,
+        34,
+        69,
+        34,
+        2
+    ],
+    "login locations": [
+        [
+            -116.544576,
+            33.821351
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "maureen18@yahoo.com",
     "birthdate": "1907-04-04",
     "phone": "(187)838-6810x117",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        70
+    ],
+    "login locations": [
+        [
+            -117.768316,
+            33.544758
+        ]
+    ],
+    "relationships": []
 }

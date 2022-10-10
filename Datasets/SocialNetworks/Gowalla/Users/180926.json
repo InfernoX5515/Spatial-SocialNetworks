@@ -5,7 +5,18 @@
     "email": "jilllewis@hotmail.com",
     "birthdate": "1918-11-30",
     "phone": "7159901347",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        32,
+        33,
+        6,
+        50
+    ],
+    "login locations": [
+        [
+            -121.418788,
+            38.574036
+        ]
+    ],
+    "relationships": []
 }

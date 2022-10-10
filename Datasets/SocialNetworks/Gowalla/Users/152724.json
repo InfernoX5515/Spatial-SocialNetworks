@@ -5,7 +5,34 @@
     "email": "katherine27@hotmail.com",
     "birthdate": "1976-07-10",
     "phone": "(321)844-3204x273",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        73,
+        75,
+        8,
+        36,
+        65,
+        66,
+        74,
+        30,
+        45
+    ],
+    "login locations": [
+        [
+            -118.153794,
+            34.093117
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                139217,
+                0.225806451613
+            ],
+            [
+                139217,
+                0.225806451613
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "sarahblevins@hotmail.com",
     "birthdate": "2005-11-27",
     "phone": "042-722-8644x1057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        41,
+        4,
+        10,
+        17,
+        55,
+        67,
+        14,
+        15,
+        8,
+        13,
+        14,
+        60,
+        71,
+        32
+    ],
+    "login locations": [
+        [
+            -122.418743,
+            37.794479
+        ]
+    ],
+    "relationships": []
 }

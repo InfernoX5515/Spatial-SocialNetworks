@@ -5,7 +5,16 @@
     "email": "valerie00@yahoo.com",
     "birthdate": "2010-05-03",
     "phone": "001-187-344-0569x20819",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        67,
+        35
+    ],
+    "login locations": [
+        [
+            -117.664239,
+            34.097944
+        ]
+    ],
+    "relationships": []
 }

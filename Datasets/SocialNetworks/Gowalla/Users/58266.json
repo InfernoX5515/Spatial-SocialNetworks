@@ -5,7 +5,22 @@
     "email": "petersbrittney@yahoo.com",
     "birthdate": "1973-11-13",
     "phone": "391-057-8092",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        49,
+        0,
+        25,
+        0,
+        61,
+        8,
+        11,
+        44
+    ],
+    "login locations": [
+        [
+            -118.533884,
+            34.231888
+        ]
+    ],
+    "relationships": []
 }

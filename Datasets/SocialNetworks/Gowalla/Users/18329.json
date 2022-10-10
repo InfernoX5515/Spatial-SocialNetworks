@@ -5,7 +5,27 @@
     "email": "kimberlycarter@hotmail.com",
     "birthdate": "1983-03-11",
     "phone": "(091)548-1692",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        38,
+        53,
+        54,
+        0,
+        64,
+        46,
+        39,
+        8,
+        30,
+        74,
+        69,
+        24,
+        69
+    ],
+    "login locations": [
+        [
+            -118.177698,
+            33.969532
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "xmartinez@gmail.com",
     "birthdate": "1921-09-16",
     "phone": "001-937-619-5733",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        14,
+        69,
+        40,
+        69,
+        53,
+        35,
+        35,
+        36,
+        67
+    ],
+    "login locations": [
+        [
+            -121.474248,
+            38.574684
+        ]
+    ],
+    "relationships": []
 }

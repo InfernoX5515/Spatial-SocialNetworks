@@ -5,7 +5,12 @@
     "email": "dhernandez@yahoo.com",
     "birthdate": "2017-05-18",
     "phone": "4028604498",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.356197,
+            38.087064
+        ]
+    ],
+    "relationships": []
 }

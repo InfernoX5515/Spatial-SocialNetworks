@@ -5,7 +5,23 @@
     "email": "michelleharding@gmail.com",
     "birthdate": "2017-11-07",
     "phone": "323-624-5082x903",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        30,
+        0,
+        32,
+        56,
+        53,
+        9,
+        9,
+        32,
+        0
+    ],
+    "login locations": [
+        [
+            -118.300139,
+            34.147383
+        ]
+    ],
+    "relationships": []
 }

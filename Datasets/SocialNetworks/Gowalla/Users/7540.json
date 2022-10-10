@@ -5,7 +5,28 @@
     "email": "carmen81@yahoo.com",
     "birthdate": "1930-07-07",
     "phone": "(030)277-9564x92277",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        52,
+        16,
+        22,
+        14,
+        51,
+        40,
+        42,
+        59,
+        31,
+        49,
+        37,
+        37,
+        0,
+        61
+    ],
+    "login locations": [
+        [
+            -117.820853,
+            33.964537
+        ]
+    ],
+    "relationships": []
 }

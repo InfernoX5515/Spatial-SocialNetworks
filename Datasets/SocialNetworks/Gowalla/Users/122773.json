@@ -5,7 +5,16 @@
     "email": "glennsmith@yahoo.com",
     "birthdate": "2009-11-17",
     "phone": "392-286-4167x43663",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        32,
+        73
+    ],
+    "login locations": [
+        [
+            -122.207284,
+            37.717439
+        ]
+    ],
+    "relationships": []
 }

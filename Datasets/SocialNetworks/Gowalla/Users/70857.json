@@ -5,7 +5,39 @@
     "email": "kathleenpeterson@yahoo.com",
     "birthdate": "1924-08-02",
     "phone": "+1-623-918-1296",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        12,
+        59,
+        8,
+        39,
+        17,
+        69,
+        22,
+        0,
+        4,
+        28,
+        21,
+        2,
+        21,
+        71
+    ],
+    "login locations": [
+        [
+            -122.422421,
+            37.7691
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5085,
+                0.166666666667
+            ],
+            [
+                113891,
+                1.0
+            ]
+        ]
+    ]
 }

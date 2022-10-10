@@ -5,7 +5,12 @@
     "email": "patriciaavila@hotmail.com",
     "birthdate": "2003-12-23",
     "phone": "001-896-997-6830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.394032,
+            37.673925
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "castillojeff@gmail.com",
     "birthdate": "1960-07-04",
     "phone": "(055)343-4477",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63
+    ],
+    "login locations": [
+        [
+            -118.368836,
+            33.887717
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                42720,
+                0.277777777778
+            ],
+            [
+                42720,
+                0.277777777778
+            ]
+        ]
+    ]
 }

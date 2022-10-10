@@ -5,7 +5,23 @@
     "email": "brandypaul@yahoo.com",
     "birthdate": "1933-08-26",
     "phone": "001-288-344-1901x49320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        35,
+        21,
+        47,
+        37,
+        64,
+        12,
+        61,
+        41,
+        0
+    ],
+    "login locations": [
+        [
+            -121.959472,
+            37.318252
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "soniahoffman@gmail.com",
     "birthdate": "1949-12-01",
     "phone": "433-688-8479",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        57,
+        55,
+        21,
+        61,
+        71,
+        28,
+        18,
+        57,
+        54,
+        71,
+        40,
+        6,
+        8,
+        61
+    ],
+    "login locations": [
+        [
+            -120.68958,
+            35.614752
+        ]
+    ],
+    "relationships": []
 }

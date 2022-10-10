@@ -5,7 +5,16 @@
     "email": "markruiz@yahoo.com",
     "birthdate": "2018-12-28",
     "phone": "+1-951-125-6240x4724",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        46,
+        8
+    ],
+    "login locations": [
+        [
+            -122.41639,
+            37.793924
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "joshua36@yahoo.com",
     "birthdate": "1946-07-03",
     "phone": "+1-433-698-6717",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        72,
+        15,
+        35,
+        2,
+        20
+    ],
+    "login locations": [
+        [
+            -122.000315,
+            37.377107
+        ]
+    ],
+    "relationships": []
 }

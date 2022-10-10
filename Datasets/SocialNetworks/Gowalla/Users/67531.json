@@ -5,7 +5,18 @@
     "email": "ryan14@gmail.com",
     "birthdate": "1967-11-06",
     "phone": "+1-489-553-6743x6893",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        37,
+        19,
+        20,
+        54
+    ],
+    "login locations": [
+        [
+            -122.388171,
+            37.803941
+        ]
+    ],
+    "relationships": []
 }

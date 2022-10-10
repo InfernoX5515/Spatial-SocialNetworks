@@ -5,7 +5,36 @@
     "email": "kevinmitchell@gmail.com",
     "birthdate": "1991-01-13",
     "phone": "271-343-1267",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        70,
+        29,
+        17,
+        65,
+        50,
+        32,
+        3,
+        35,
+        22,
+        16,
+        72
+    ],
+    "login locations": [
+        [
+            -122.419927,
+            37.781477
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3529,
+                0.0323624595469
+            ],
+            [
+                3529,
+                0.0323624595469
+            ]
+        ]
+    ]
 }

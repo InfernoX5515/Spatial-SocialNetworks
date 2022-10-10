@@ -5,7 +5,14 @@
     "email": "michael36@gmail.com",
     "birthdate": "1935-06-19",
     "phone": "(575)750-2089x1012",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73
+    ],
+    "login locations": [
+        [
+            -118.340017,
+            34.103751
+        ]
+    ],
+    "relationships": []
 }

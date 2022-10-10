@@ -5,7 +5,23 @@
     "email": "pcraig@yahoo.com",
     "birthdate": "2002-01-04",
     "phone": "(875)637-8538",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        53,
+        42,
+        69,
+        59,
+        72,
+        4,
+        75,
+        36,
+        21
+    ],
+    "login locations": [
+        [
+            -121.326573,
+            38.656146
+        ]
+    ],
+    "relationships": []
 }

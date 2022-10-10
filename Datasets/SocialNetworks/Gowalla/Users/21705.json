@@ -5,7 +5,38 @@
     "email": "joneslisa@yahoo.com",
     "birthdate": "1968-04-19",
     "phone": "233-321-3253x491",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        67,
+        67,
+        45,
+        32,
+        47,
+        15,
+        17,
+        35,
+        54,
+        55,
+        32,
+        52,
+        7
+    ],
+    "login locations": [
+        [
+            -121.915317,
+            37.34673
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2429,
+                0.01
+            ],
+            [
+                2429,
+                0.01
+            ]
+        ]
+    ]
 }

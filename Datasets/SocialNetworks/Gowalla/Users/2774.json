@@ -5,7 +5,14 @@
     "email": "higginsmichelle@yahoo.com",
     "birthdate": "1958-02-19",
     "phone": "(831)138-0811x447",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0
+    ],
+    "login locations": [
+        [
+            -117.979541,
+            33.792867
+        ]
+    ],
+    "relationships": []
 }

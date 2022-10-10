@@ -5,7 +5,28 @@
     "email": "scottyoung@yahoo.com",
     "birthdate": "1918-11-04",
     "phone": "863.891.7747x096",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        23,
+        14,
+        9,
+        74,
+        39,
+        24,
+        64,
+        24,
+        68,
+        11,
+        54,
+        71,
+        69,
+        20
+    ],
+    "login locations": [
+        [
+            -121.664478,
+            37.107356
+        ]
+    ],
+    "relationships": []
 }

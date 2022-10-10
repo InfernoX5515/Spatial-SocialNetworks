@@ -5,7 +5,25 @@
     "email": "ana31@gmail.com",
     "birthdate": "1989-03-01",
     "phone": "159-734-5323",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        10,
+        44,
+        11,
+        18,
+        1,
+        54,
+        34,
+        1,
+        0,
+        22,
+        31
+    ],
+    "login locations": [
+        [
+            -122.021187,
+            37.345632
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "imorrison@hotmail.com",
     "birthdate": "1962-01-11",
     "phone": "877-238-4275x9429",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        63,
+        29,
+        1,
+        39,
+        54,
+        66
+    ],
+    "login locations": [
+        [
+            -122.434952,
+            37.7463
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "blacknancy@gmail.com",
     "birthdate": "1957-06-30",
     "phone": "204.499.7123x220",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        20,
+        36,
+        0,
+        58,
+        53,
+        43,
+        29,
+        70,
+        12,
+        12
+    ],
+    "login locations": [
+        [
+            -118.303756,
+            34.075683
+        ]
+    ],
+    "relationships": []
 }

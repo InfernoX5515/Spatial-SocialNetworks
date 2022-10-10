@@ -5,7 +5,23 @@
     "email": "kmann@yahoo.com",
     "birthdate": "1956-08-02",
     "phone": "(225)017-2857",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        39,
+        7,
+        26,
+        68,
+        31,
+        6,
+        29,
+        41,
+        44
+    ],
+    "login locations": [
+        [
+            -122.406324,
+            37.794318
+        ]
+    ],
+    "relationships": []
 }

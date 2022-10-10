@@ -5,7 +5,25 @@
     "email": "oleonard@hotmail.com",
     "birthdate": "1975-08-25",
     "phone": "(943)441-6845",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        16,
+        4,
+        35,
+        53,
+        11,
+        58,
+        45,
+        22,
+        31,
+        44,
+        64
+    ],
+    "login locations": [
+        [
+            -117.220628,
+            32.755613
+        ]
+    ],
+    "relationships": []
 }

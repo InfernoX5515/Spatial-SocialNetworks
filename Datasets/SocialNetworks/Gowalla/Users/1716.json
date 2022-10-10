@@ -5,7 +5,20 @@
     "email": "eric60@hotmail.com",
     "birthdate": "2014-10-20",
     "phone": "(626)749-6045",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        39,
+        6,
+        34,
+        24,
+        36,
+        72
+    ],
+    "login locations": [
+        [
+            -118.431304,
+            33.975049
+        ]
+    ],
+    "relationships": []
 }

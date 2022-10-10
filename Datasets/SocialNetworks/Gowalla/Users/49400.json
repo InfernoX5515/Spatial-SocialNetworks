@@ -5,7 +5,28 @@
     "email": "larsengerald@gmail.com",
     "birthdate": "1984-02-01",
     "phone": "+1-428-590-3661",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        74,
+        55,
+        58,
+        14,
+        2,
+        63,
+        41,
+        33,
+        71,
+        29,
+        68,
+        19,
+        20,
+        51
+    ],
+    "login locations": [
+        [
+            -122.018367,
+            37.32219
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "jessica76@yahoo.com",
     "birthdate": "2000-06-12",
     "phone": "001-779-918-6785",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        50
+    ],
+    "login locations": [
+        [
+            -122.175546,
+            37.905859
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "kelseymurray@yahoo.com",
     "birthdate": "1934-08-31",
     "phone": "001-014-130-8677x946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        46,
+        40,
+        46,
+        61,
+        39,
+        13,
+        25,
+        38
+    ],
+    "login locations": [
+        [
+            -122.23423,
+            38.13762
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,31 @@
     "email": "taylormelinda@gmail.com",
     "birthdate": "1925-08-30",
     "phone": "252.386.6780x59877",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        45,
+        23,
+        61,
+        61,
+        31,
+        22
+    ],
+    "login locations": [
+        [
+            -122.004702,
+            37.36942
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5571,
+                0.0147601476015
+            ],
+            [
+                5571,
+                0.0147601476015
+            ]
+        ]
+    ]
 }

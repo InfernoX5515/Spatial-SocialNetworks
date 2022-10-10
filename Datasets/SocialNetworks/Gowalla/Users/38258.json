@@ -5,7 +5,18 @@
     "email": "jallen@gmail.com",
     "birthdate": "1925-12-23",
     "phone": "021.967.7429x2461",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        22,
+        39,
+        0,
+        23
+    ],
+    "login locations": [
+        [
+            -117.143234,
+            32.803781
+        ]
+    ],
+    "relationships": []
 }

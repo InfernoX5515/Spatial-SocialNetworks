@@ -5,7 +5,12 @@
     "email": "williamsmichael@gmail.com",
     "birthdate": "1960-11-05",
     "phone": "1552329328",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.92834,
+            38.390546
+        ]
+    ],
+    "relationships": []
 }

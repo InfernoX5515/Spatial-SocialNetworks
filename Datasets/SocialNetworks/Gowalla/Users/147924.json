@@ -5,7 +5,22 @@
     "email": "choiedward@gmail.com",
     "birthdate": "1951-11-13",
     "phone": "+1-076-164-1029x0291",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        38,
+        65,
+        40,
+        30,
+        71,
+        2,
+        16,
+        3
+    ],
+    "login locations": [
+        [
+            -118.550334,
+            34.173975
+        ]
+    ],
+    "relationships": []
 }

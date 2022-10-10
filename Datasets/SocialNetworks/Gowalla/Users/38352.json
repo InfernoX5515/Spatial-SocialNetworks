@@ -5,7 +5,25 @@
     "email": "sherylbrandt@yahoo.com",
     "birthdate": "1988-07-25",
     "phone": "004.946.4034x880",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        63,
+        32,
+        59,
+        8,
+        14,
+        41,
+        66,
+        73,
+        50,
+        1,
+        7
+    ],
+    "login locations": [
+        [
+            -117.211202,
+            33.100114
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "georgesmith@yahoo.com",
     "birthdate": "1934-06-28",
     "phone": "(124)157-3400",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        56,
+        41,
+        46,
+        27
+    ],
+    "login locations": [
+        [
+            -117.291324,
+            33.187378
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "sandragibbs@gmail.com",
     "birthdate": "1980-07-26",
     "phone": "4297923836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.862507,
+            33.789237
+        ]
+    ],
+    "relationships": []
 }

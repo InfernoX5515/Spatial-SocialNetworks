@@ -5,7 +5,24 @@
     "email": "emilyolson@hotmail.com",
     "birthdate": "1972-05-05",
     "phone": "(066)157-3242",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        75,
+        46,
+        70,
+        23,
+        63,
+        62,
+        38,
+        50,
+        18,
+        52
+    ],
+    "login locations": [
+        [
+            -121.395149,
+            38.599784
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "williamjohnson@hotmail.com",
     "birthdate": "2019-12-28",
     "phone": "001-100-784-6503x5585",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        7,
+        25,
+        19,
+        13,
+        75,
+        70,
+        72,
+        23,
+        4,
+        51,
+        58,
+        30,
+        46
+    ],
+    "login locations": [
+        [
+            -122.413022,
+            37.798878
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,34 @@
     "email": "whitney06@gmail.com",
     "birthdate": "2003-03-02",
     "phone": "+1-714-585-3320x1472",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        60,
+        27,
+        61,
+        30,
+        14,
+        17,
+        26,
+        67,
+        48
+    ],
+    "login locations": [
+        [
+            -118.212007,
+            33.987972
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11881,
+                0.0547945205479
+            ],
+            [
+                11881,
+                0.05
+            ]
+        ]
+    ]
 }

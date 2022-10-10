@@ -5,7 +5,19 @@
     "email": "dpatterson@gmail.com",
     "birthdate": "2003-08-29",
     "phone": "(245)529-3780x81386",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        53,
+        55,
+        24,
+        2,
+        27
+    ],
+    "login locations": [
+        [
+            -122.13267,
+            37.422871
+        ]
+    ],
+    "relationships": []
 }

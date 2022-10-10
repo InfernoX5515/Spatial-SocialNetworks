@@ -5,7 +5,20 @@
     "email": "peterwilliams@yahoo.com",
     "birthdate": "1968-03-19",
     "phone": "001-979-842-8863",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        58,
+        45,
+        23,
+        75,
+        70,
+        9
+    ],
+    "login locations": [
+        [
+            -122.411339,
+            37.747396
+        ]
+    ],
+    "relationships": []
 }

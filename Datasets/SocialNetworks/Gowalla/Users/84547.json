@@ -5,7 +5,15 @@
     "email": "cindy60@gmail.com",
     "birthdate": "1950-10-21",
     "phone": "775.943.9881x1866",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        40
+    ],
+    "login locations": [
+        [
+            -117.098372,
+            32.738283
+        ]
+    ],
+    "relationships": []
 }

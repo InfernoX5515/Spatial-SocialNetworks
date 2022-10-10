@@ -5,7 +5,28 @@
     "email": "jhunter@yahoo.com",
     "birthdate": "1943-09-30",
     "phone": "758-570-9121",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        35,
+        4,
+        32,
+        57,
+        41,
+        71,
+        12,
+        62,
+        1,
+        16,
+        0,
+        5,
+        35,
+        19
+    ],
+    "login locations": [
+        [
+            -117.796455,
+            33.926037
+        ]
+    ],
+    "relationships": []
 }

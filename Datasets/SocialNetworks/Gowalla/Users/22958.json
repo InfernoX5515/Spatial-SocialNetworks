@@ -5,7 +5,23 @@
     "email": "brookstaylor@gmail.com",
     "birthdate": "1968-12-31",
     "phone": "186.077.0950x5757",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        33,
+        2,
+        49,
+        50,
+        69,
+        22,
+        19,
+        47,
+        22
+    ],
+    "login locations": [
+        [
+            -122.012287,
+            37.358948
+        ]
+    ],
+    "relationships": []
 }

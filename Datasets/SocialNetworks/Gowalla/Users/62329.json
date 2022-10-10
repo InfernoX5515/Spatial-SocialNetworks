@@ -5,7 +5,27 @@
     "email": "ivancontreras@yahoo.com",
     "birthdate": "1965-06-06",
     "phone": "924.884.8027",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        66,
+        15,
+        57,
+        15,
+        57,
+        30,
+        51,
+        72,
+        18,
+        69,
+        17,
+        57,
+        73
+    ],
+    "login locations": [
+        [
+            -117.183213,
+            34.070802
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "charles34@hotmail.com",
     "birthdate": "1971-06-24",
     "phone": "+1-331-667-6103x58637",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        23,
+        44,
+        42,
+        33,
+        52,
+        65
+    ],
+    "login locations": [
+        [
+            -118.043886,
+            33.879962
+        ]
+    ],
+    "relationships": []
 }

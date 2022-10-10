@@ -5,7 +5,25 @@
     "email": "benjamin45@yahoo.com",
     "birthdate": "2007-06-29",
     "phone": "327.525.3917",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28
+    ],
+    "login locations": [
+        [
+            -118.332815,
+            34.119002
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.01
+            ],
+            [
+                159,
+                0.01
+            ]
+        ]
+    ]
 }

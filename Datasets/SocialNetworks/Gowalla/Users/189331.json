@@ -5,7 +5,16 @@
     "email": "margaretjones@hotmail.com",
     "birthdate": "2013-11-13",
     "phone": "001-468-017-6095x748",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        27,
+        12
+    ],
+    "login locations": [
+        [
+            -122.016797,
+            37.366687
+        ]
+    ],
+    "relationships": []
 }

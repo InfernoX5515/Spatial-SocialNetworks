@@ -5,7 +5,27 @@
     "email": "roberthopkins@yahoo.com",
     "birthdate": "2018-10-08",
     "phone": "001-706-938-3607x0680",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        67,
+        18,
+        36,
+        2,
+        25,
+        54,
+        19,
+        47,
+        17,
+        28,
+        2,
+        61,
+        10
+    ],
+    "login locations": [
+        [
+            -122.372198,
+            37.683705
+        ]
+    ],
+    "relationships": []
 }

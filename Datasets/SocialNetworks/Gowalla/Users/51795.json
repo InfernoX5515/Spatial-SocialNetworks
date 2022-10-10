@@ -5,7 +5,24 @@
     "email": "michael52@gmail.com",
     "birthdate": "1973-10-28",
     "phone": "(285)326-3784",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        39,
+        52,
+        11,
+        66,
+        54,
+        29,
+        48,
+        4,
+        38,
+        39
+    ],
+    "login locations": [
+        [
+            -118.396618,
+            34.017639
+        ]
+    ],
+    "relationships": []
 }

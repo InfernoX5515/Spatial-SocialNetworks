@@ -5,7 +5,33 @@
     "email": "marksullivan@gmail.com",
     "birthdate": "1912-08-09",
     "phone": "(537)703-5486x70031",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        8,
+        19,
+        62,
+        56,
+        46,
+        22,
+        32,
+        42
+    ],
+    "login locations": [
+        [
+            -117.154167,
+            32.771013
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                124513,
+                0.0148514851485
+            ],
+            [
+                124514,
+                1.0
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "sherman@yahoo.com",
     "birthdate": "1950-04-28",
     "phone": "187-998-6044x6924",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        2,
+        59,
+        37,
+        24,
+        45,
+        61,
+        56,
+        12,
+        4
+    ],
+    "login locations": [
+        [
+            -117.917216,
+            33.783063
+        ]
+    ],
+    "relationships": []
 }

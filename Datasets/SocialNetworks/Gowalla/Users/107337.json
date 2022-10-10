@@ -5,7 +5,36 @@
     "email": "brooke48@gmail.com",
     "birthdate": "1919-09-04",
     "phone": "001-766-337-8089",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        48,
+        58,
+        19,
+        75,
+        18,
+        47,
+        70,
+        42,
+        75,
+        58,
+        36
+    ],
+    "login locations": [
+        [
+            -122.003623,
+            37.350597
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                18753,
+                0.0277777777778
+            ],
+            [
+                18753,
+                0.0277777777778
+            ]
+        ]
+    ]
 }

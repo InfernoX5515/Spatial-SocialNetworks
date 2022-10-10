@@ -5,7 +5,27 @@
     "email": "bfoster@gmail.com",
     "birthdate": "1976-12-09",
     "phone": "7762090215",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        68,
+        30,
+        40,
+        9,
+        47,
+        72,
+        45,
+        1,
+        38,
+        28,
+        5,
+        28,
+        45
+    ],
+    "login locations": [
+        [
+            -118.367234,
+            34.03411
+        ]
+    ],
+    "relationships": []
 }

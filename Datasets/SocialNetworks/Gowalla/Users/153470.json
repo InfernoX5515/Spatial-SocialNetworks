@@ -5,7 +5,22 @@
     "email": "tgonzalez@yahoo.com",
     "birthdate": "1941-01-03",
     "phone": "858-312-5986x20955",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        18,
+        59,
+        36,
+        58,
+        30,
+        42,
+        34,
+        4
+    ],
+    "login locations": [
+        [
+            -118.128621,
+            33.822906
+        ]
+    ],
+    "relationships": []
 }

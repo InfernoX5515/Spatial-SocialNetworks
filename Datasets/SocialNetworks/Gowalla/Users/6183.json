@@ -5,7 +5,35 @@
     "email": "dawn71@yahoo.com",
     "birthdate": "1972-09-08",
     "phone": "(357)427-5588",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        23,
+        71,
+        20,
+        19,
+        36,
+        23,
+        43,
+        20,
+        33,
+        32
+    ],
+    "login locations": [
+        [
+            -122.413759,
+            37.787915
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                77962,
+                0.04
+            ],
+            [
+                77967,
+                0.0549450549451
+            ]
+        ]
+    ]
 }

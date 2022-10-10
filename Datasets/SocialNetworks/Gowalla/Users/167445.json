@@ -5,7 +5,28 @@
     "email": "kenneth28@hotmail.com",
     "birthdate": "2020-08-02",
     "phone": "545-200-4679",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        27,
+        52,
+        43,
+        3,
+        38,
+        61,
+        17,
+        64,
+        75,
+        21,
+        46,
+        51,
+        52,
+        70
+    ],
+    "login locations": [
+        [
+            -117.822955,
+            34.102139
+        ]
+    ],
+    "relationships": []
 }

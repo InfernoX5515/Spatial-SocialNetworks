@@ -5,7 +5,18 @@
     "email": "lori13@yahoo.com",
     "birthdate": "1967-05-20",
     "phone": "922.801.8372x3286",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        35,
+        34,
+        3,
+        62
+    ],
+    "login locations": [
+        [
+            -119.695568,
+            34.416721
+        ]
+    ],
+    "relationships": []
 }

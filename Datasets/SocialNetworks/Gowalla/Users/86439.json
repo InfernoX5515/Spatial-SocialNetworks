@@ -5,7 +5,14 @@
     "email": "crystalhoffman@hotmail.com",
     "birthdate": "2005-06-04",
     "phone": "(091)065-6414x613",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14
+    ],
+    "login locations": [
+        [
+            -122.404328,
+            37.786235
+        ]
+    ],
+    "relationships": []
 }

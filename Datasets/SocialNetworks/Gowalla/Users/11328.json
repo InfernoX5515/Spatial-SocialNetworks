@@ -5,7 +5,26 @@
     "email": "swashington@yahoo.com",
     "birthdate": "1968-09-15",
     "phone": "074-705-2221x32234",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        7,
+        74,
+        10,
+        10,
+        54,
+        36,
+        59,
+        41,
+        35,
+        28,
+        62,
+        67
+    ],
+    "login locations": [
+        [
+            -118.164025,
+            33.934553
+        ]
+    ],
+    "relationships": []
 }

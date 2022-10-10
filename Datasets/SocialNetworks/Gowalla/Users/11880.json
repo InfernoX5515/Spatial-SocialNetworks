@@ -5,7 +5,35 @@
     "email": "jeremymoreno@gmail.com",
     "birthdate": "1939-08-21",
     "phone": "001-437-574-4437x923",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        52,
+        38,
+        1,
+        64,
+        60,
+        21,
+        30,
+        1,
+        7,
+        28
+    ],
+    "login locations": [
+        [
+            -118.31791,
+            34.0362
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39457,
+                0.01
+            ],
+            [
+                39457,
+                0.01
+            ]
+        ]
+    ]
 }

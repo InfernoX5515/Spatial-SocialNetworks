@@ -5,7 +5,17 @@
     "email": "irwinnathan@yahoo.com",
     "birthdate": "1948-08-29",
     "phone": "7306624731",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        57,
+        27,
+        34
+    ],
+    "login locations": [
+        [
+            -122.196448,
+            37.452966
+        ]
+    ],
+    "relationships": []
 }

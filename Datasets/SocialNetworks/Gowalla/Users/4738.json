@@ -5,7 +5,25 @@
     "email": "trevor30@yahoo.com",
     "birthdate": "1984-01-25",
     "phone": "+1-883-389-9819x3148",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        10,
+        33,
+        71,
+        27,
+        41,
+        48,
+        45,
+        38,
+        24,
+        49,
+        51
+    ],
+    "login locations": [
+        [
+            -122.020421,
+            37.281668
+        ]
+    ],
+    "relationships": []
 }

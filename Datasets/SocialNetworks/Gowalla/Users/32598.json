@@ -5,7 +5,24 @@
     "email": "ihodges@hotmail.com",
     "birthdate": "1961-08-05",
     "phone": "(189)735-2558x59464",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        34,
+        9,
+        51,
+        2,
+        4,
+        37,
+        40,
+        63,
+        23,
+        69
+    ],
+    "login locations": [
+        [
+            -122.012559,
+            37.384626
+        ]
+    ],
+    "relationships": []
 }

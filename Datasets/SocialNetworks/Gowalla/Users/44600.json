@@ -5,7 +5,17 @@
     "email": "mcbridejeremy@hotmail.com",
     "birthdate": "2021-10-06",
     "phone": "001-747-210-7836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        64,
+        9,
+        40
+    ],
+    "login locations": [
+        [
+            -118.129194,
+            34.566335
+        ]
+    ],
+    "relationships": []
 }

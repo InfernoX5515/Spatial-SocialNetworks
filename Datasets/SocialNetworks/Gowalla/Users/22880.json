@@ -5,7 +5,38 @@
     "email": "barrygordon@hotmail.com",
     "birthdate": "1952-12-18",
     "phone": "708-681-7764x79471",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        20,
+        6,
+        24,
+        68,
+        65,
+        25,
+        12,
+        50,
+        51,
+        12,
+        61,
+        35,
+        8
+    ],
+    "login locations": [
+        [
+            -122.412826,
+            37.790909
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.0173913043478
+            ],
+            [
+                1900,
+                0.0285714285714
+            ]
+        ]
+    ]
 }

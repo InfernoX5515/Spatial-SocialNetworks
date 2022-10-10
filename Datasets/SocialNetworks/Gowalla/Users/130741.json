@@ -5,7 +5,17 @@
     "email": "carlsmith@hotmail.com",
     "birthdate": "1945-01-26",
     "phone": "5179950734",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        60,
+        71,
+        62
+    ],
+    "login locations": [
+        [
+            -118.340151,
+            34.056076
+        ]
+    ],
+    "relationships": []
 }

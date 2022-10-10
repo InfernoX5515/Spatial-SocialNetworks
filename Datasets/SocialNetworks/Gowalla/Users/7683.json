@@ -5,7 +5,22 @@
     "email": "rebeccamoore@hotmail.com",
     "birthdate": "2006-06-04",
     "phone": "001-864-590-4539x3145",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        39,
+        39,
+        17,
+        26,
+        50,
+        39,
+        47,
+        51
+    ],
+    "login locations": [
+        [
+            -122.329208,
+            37.577782
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "juliagraves@yahoo.com",
     "birthdate": "1919-08-19",
     "phone": "001-781-286-8444x48253",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        40,
+        24,
+        46,
+        7,
+        44,
+        32,
+        49,
+        33,
+        74,
+        16,
+        0,
+        42,
+        68
+    ],
+    "login locations": [
+        [
+            -117.276737,
+            33.029694
+        ]
+    ],
+    "relationships": []
 }

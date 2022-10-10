@@ -5,7 +5,14 @@
     "email": "elizabeth99@gmail.com",
     "birthdate": "1935-05-23",
     "phone": "405-926-2670x81298",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56
+    ],
+    "login locations": [
+        [
+            -122.425723,
+            37.746629
+        ]
+    ],
+    "relationships": []
 }

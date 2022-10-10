@@ -5,7 +5,15 @@
     "email": "whoover@yahoo.com",
     "birthdate": "2018-09-21",
     "phone": "(456)273-5026",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        35
+    ],
+    "login locations": [
+        [
+            -117.697868,
+            33.486706
+        ]
+    ],
+    "relationships": []
 }

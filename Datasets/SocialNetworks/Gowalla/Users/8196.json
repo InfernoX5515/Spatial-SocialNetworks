@@ -5,7 +5,28 @@
     "email": "kimberlysantiago@yahoo.com",
     "birthdate": "2019-03-19",
     "phone": "313.186.1582x561",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        41,
+        70,
+        24
+    ],
+    "login locations": [
+        [
+            -122.400936,
+            37.773681
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.01
+            ],
+            [
+                93,
+                0.01
+            ]
+        ]
+    ]
 }

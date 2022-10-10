@@ -5,7 +5,34 @@
     "email": "elizabeth21@hotmail.com",
     "birthdate": "1929-07-27",
     "phone": "(295)877-8334x68982",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        25,
+        16,
+        1,
+        26,
+        63,
+        32,
+        25,
+        5,
+        7
+    ],
+    "login locations": [
+        [
+            -122.417231,
+            37.794483
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                478,
+                0.01
+            ],
+            [
+                478,
+                0.01
+            ]
+        ]
+    ]
 }

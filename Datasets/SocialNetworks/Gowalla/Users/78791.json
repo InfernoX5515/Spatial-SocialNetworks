@@ -5,7 +5,18 @@
     "email": "pattonjoseph@gmail.com",
     "birthdate": "1959-09-17",
     "phone": "(825)783-2574x01168",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        38,
+        26,
+        11,
+        42
+    ],
+    "login locations": [
+        [
+            -122.433572,
+            37.772778
+        ]
+    ],
+    "relationships": []
 }

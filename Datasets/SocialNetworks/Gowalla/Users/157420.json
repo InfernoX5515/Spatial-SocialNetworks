@@ -5,7 +5,12 @@
     "email": "shannon87@hotmail.com",
     "birthdate": "1989-05-09",
     "phone": "192-409-4617x526",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.390578,
+            37.786691
+        ]
+    ],
+    "relationships": []
 }

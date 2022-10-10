@@ -5,7 +5,25 @@
     "email": "lauren61@yahoo.com",
     "birthdate": "1925-02-08",
     "phone": "5931293097",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53
+    ],
+    "login locations": [
+        [
+            -118.221162,
+            33.793413
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                98857,
+                0.0555555555556
+            ],
+            [
+                98857,
+                0.0555555555556
+            ]
+        ]
+    ]
 }

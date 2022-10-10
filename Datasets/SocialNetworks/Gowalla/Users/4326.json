@@ -5,7 +5,28 @@
     "email": "stephanielynch@hotmail.com",
     "birthdate": "1974-03-07",
     "phone": "630-959-4379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        3,
+        28,
+        51,
+        75,
+        48,
+        17,
+        8,
+        33,
+        64,
+        4,
+        69,
+        30,
+        59,
+        38
+    ],
+    "login locations": [
+        [
+            -122.073039,
+            37.392539
+        ]
+    ],
+    "relationships": []
 }

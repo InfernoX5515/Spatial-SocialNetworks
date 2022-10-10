@@ -5,7 +5,28 @@
     "email": "whitneyarias@yahoo.com",
     "birthdate": "1957-05-06",
     "phone": "265-013-0254x515",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        22,
+        57,
+        62,
+        16,
+        67,
+        2,
+        38,
+        3,
+        21,
+        69,
+        0,
+        43,
+        65,
+        65
+    ],
+    "login locations": [
+        [
+            -117.913893,
+            34.031661
+        ]
+    ],
+    "relationships": []
 }

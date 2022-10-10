@@ -5,7 +5,25 @@
     "email": "victoriaarnold@yahoo.com",
     "birthdate": "1940-06-12",
     "phone": "(367)485-3544",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        7,
+        70,
+        68,
+        38,
+        32,
+        47,
+        3,
+        30,
+        70,
+        64,
+        44
+    ],
+    "login locations": [
+        [
+            -122.402188,
+            37.794441
+        ]
+    ],
+    "relationships": []
 }

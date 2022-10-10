@@ -5,7 +5,28 @@
     "email": "elijahparks@hotmail.com",
     "birthdate": "1978-02-13",
     "phone": "+1-912-066-5021x2522",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        32,
+        51,
+        65,
+        19,
+        71,
+        29,
+        44,
+        2,
+        6,
+        7,
+        74,
+        74,
+        15,
+        64
+    ],
+    "login locations": [
+        [
+            -121.485088,
+            38.582571
+        ]
+    ],
+    "relationships": []
 }

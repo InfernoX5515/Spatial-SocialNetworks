@@ -5,7 +5,29 @@
     "email": "vreeves@gmail.com",
     "birthdate": "1974-11-01",
     "phone": "515.307.9362x22097",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        21,
+        54,
+        5,
+        64
+    ],
+    "login locations": [
+        [
+            -121.991478,
+            37.365482
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                593,
+                0.01
+            ]
+        ]
+    ]
 }

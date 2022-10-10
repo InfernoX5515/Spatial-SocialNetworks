@@ -5,7 +5,20 @@
     "email": "nataliewilliams@hotmail.com",
     "birthdate": "1974-10-20",
     "phone": "(191)474-6243x0241",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        46,
+        14,
+        23,
+        59,
+        34,
+        1
+    ],
+    "login locations": [
+        [
+            -122.404612,
+            37.789908
+        ]
+    ],
+    "relationships": []
 }

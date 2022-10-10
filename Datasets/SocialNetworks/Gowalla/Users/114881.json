@@ -5,7 +5,25 @@
     "email": "colephelps@gmail.com",
     "birthdate": "1940-12-07",
     "phone": "655.616.8309x699",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        55,
+        30,
+        14,
+        75,
+        40,
+        70,
+        69,
+        61,
+        29,
+        10,
+        19
+    ],
+    "login locations": [
+        [
+            -118.199628,
+            34.102875
+        ]
+    ],
+    "relationships": []
 }

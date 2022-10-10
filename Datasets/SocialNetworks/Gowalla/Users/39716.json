@@ -5,7 +5,21 @@
     "email": "morenolisa@hotmail.com",
     "birthdate": "1941-06-08",
     "phone": "582-075-9799x3393",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        72,
+        60,
+        57,
+        32,
+        60,
+        11,
+        53
+    ],
+    "login locations": [
+        [
+            -118.264419,
+            33.966745
+        ]
+    ],
+    "relationships": []
 }

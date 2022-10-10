@@ -5,7 +5,19 @@
     "email": "tday@hotmail.com",
     "birthdate": "1910-01-05",
     "phone": "(028)789-6648x6627",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        70,
+        37,
+        52,
+        52,
+        54
+    ],
+    "login locations": [
+        [
+            -121.92527,
+            37.24593
+        ]
+    ],
+    "relationships": []
 }

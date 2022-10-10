@@ -5,7 +5,33 @@
     "email": "christopherconner@hotmail.com",
     "birthdate": "1975-11-19",
     "phone": "906.655.9923x2279",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        57,
+        53,
+        73,
+        66,
+        38,
+        31,
+        42,
+        28
+    ],
+    "login locations": [
+        [
+            -121.385142,
+            38.638242
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                653,
+                0.0171428571429
+            ],
+            [
+                8707,
+                0.0497237569061
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,12 @@
     "email": "williamhancock@yahoo.com",
     "birthdate": "1982-09-24",
     "phone": "342.383.6458x5993",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.143136,
+            32.744994
+        ]
+    ],
+    "relationships": []
 }

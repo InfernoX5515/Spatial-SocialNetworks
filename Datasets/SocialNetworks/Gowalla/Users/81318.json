@@ -5,7 +5,24 @@
     "email": "james89@yahoo.com",
     "birthdate": "1918-04-06",
     "phone": "001-971-609-9560x881",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        13,
+        74,
+        10,
+        17,
+        65,
+        8,
+        8,
+        10,
+        16,
+        4
+    ],
+    "login locations": [
+        [
+            -122.166083,
+            37.428405
+        ]
+    ],
+    "relationships": []
 }

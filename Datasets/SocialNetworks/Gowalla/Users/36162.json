@@ -5,7 +5,25 @@
     "email": "jennifer26@gmail.com",
     "birthdate": "1999-02-02",
     "phone": "(973)455-3201",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        28,
+        26,
+        38,
+        46,
+        7,
+        61,
+        27,
+        13,
+        45,
+        41,
+        75
+    ],
+    "login locations": [
+        [
+            -118.117347,
+            33.888357
+        ]
+    ],
+    "relationships": []
 }

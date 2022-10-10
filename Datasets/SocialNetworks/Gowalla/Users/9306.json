@@ -5,7 +5,35 @@
     "email": "sfritz@yahoo.com",
     "birthdate": "1974-06-28",
     "phone": "(859)131-9029x34344",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        16,
+        41,
+        54,
+        69,
+        49,
+        19,
+        56,
+        4,
+        72,
+        52
+    ],
+    "login locations": [
+        [
+            -122.151562,
+            37.434782
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.0550724637681
+            ],
+            [
+                831,
+                0.0224215246637
+            ]
+        ]
+    ]
 }

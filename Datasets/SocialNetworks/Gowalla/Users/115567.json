@@ -5,7 +5,20 @@
     "email": "kevinelliott@gmail.com",
     "birthdate": "1935-09-06",
     "phone": "092.502.9680x67772",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        6,
+        33,
+        63,
+        48,
+        71,
+        44
+    ],
+    "login locations": [
+        [
+            -118.480649,
+            33.999566
+        ]
+    ],
+    "relationships": []
 }

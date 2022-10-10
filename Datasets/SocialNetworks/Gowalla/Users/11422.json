@@ -5,7 +5,26 @@
     "email": "tanya21@yahoo.com",
     "birthdate": "1990-12-23",
     "phone": "001-763-031-7826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        43
+    ],
+    "login locations": [
+        [
+            -122.085225,
+            37.149629
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                182,
+                0.0869565217391
+            ],
+            [
+                5112,
+                0.08
+            ]
+        ]
+    ]
 }

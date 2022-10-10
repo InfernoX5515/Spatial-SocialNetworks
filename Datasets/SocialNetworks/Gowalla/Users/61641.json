@@ -5,7 +5,12 @@
     "email": "leerobert@gmail.com",
     "birthdate": "1923-03-22",
     "phone": "9709291527",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.405527,
+            34.012745
+        ]
+    ],
+    "relationships": []
 }

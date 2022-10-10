@@ -5,7 +5,26 @@
     "email": "adavis@gmail.com",
     "birthdate": "1921-06-28",
     "phone": "(353)387-2635",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        7,
+        56,
+        9,
+        71,
+        38,
+        46,
+        68,
+        50,
+        47,
+        37,
+        26,
+        9
+    ],
+    "login locations": [
+        [
+            -118.299141,
+            34.140337
+        ]
+    ],
+    "relationships": []
 }

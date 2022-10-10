@@ -5,7 +5,16 @@
     "email": "dodsonraymond@hotmail.com",
     "birthdate": "1974-09-16",
     "phone": "487.868.3042",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        68,
+        48
+    ],
+    "login locations": [
+        [
+            -117.165067,
+            33.531369
+        ]
+    ],
+    "relationships": []
 }

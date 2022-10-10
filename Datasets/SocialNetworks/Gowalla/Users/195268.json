@@ -5,7 +5,19 @@
     "email": "panderson@gmail.com",
     "birthdate": "1990-11-21",
     "phone": "+1-789-612-4184x7019",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        74,
+        33,
+        64,
+        29,
+        48
+    ],
+    "login locations": [
+        [
+            -118.039518,
+            34.054568
+        ]
+    ],
+    "relationships": []
 }

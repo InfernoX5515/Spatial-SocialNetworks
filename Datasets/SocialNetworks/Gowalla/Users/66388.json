@@ -5,7 +5,19 @@
     "email": "quinnleslie@hotmail.com",
     "birthdate": "1924-10-09",
     "phone": "317-252-7810",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        60,
+        53,
+        17,
+        27,
+        17
+    ],
+    "login locations": [
+        [
+            -118.345248,
+            34.047504
+        ]
+    ],
+    "relationships": []
 }

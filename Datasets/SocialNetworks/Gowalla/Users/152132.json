@@ -5,7 +5,19 @@
     "email": "trice@hotmail.com",
     "birthdate": "1965-04-12",
     "phone": "087-780-7571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        69,
+        1,
+        39,
+        71,
+        58
+    ],
+    "login locations": [
+        [
+            -117.267897,
+            32.974992
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,37 @@
     "email": "ingramtom@hotmail.com",
     "birthdate": "1963-05-24",
     "phone": "(264)912-8298",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        62,
+        7,
+        18,
+        22,
+        56,
+        48,
+        69,
+        35,
+        64,
+        20,
+        70,
+        72
+    ],
+    "login locations": [
+        [
+            -121.306189,
+            38.68791
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32437,
+                0.06
+            ],
+            [
+                124716,
+                0.44262295082
+            ]
+        ]
+    ]
 }

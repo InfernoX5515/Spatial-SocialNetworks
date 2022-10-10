@@ -5,7 +5,12 @@
     "email": "michaelward@hotmail.com",
     "birthdate": "1918-02-09",
     "phone": "6095847167",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.064224,
+            37.387109
+        ]
+    ],
+    "relationships": []
 }

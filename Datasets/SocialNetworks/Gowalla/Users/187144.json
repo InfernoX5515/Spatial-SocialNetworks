@@ -5,7 +5,19 @@
     "email": "christinaanderson@yahoo.com",
     "birthdate": "2005-09-29",
     "phone": "(794)090-7748x659",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        75,
+        48,
+        6,
+        28,
+        47
+    ],
+    "login locations": [
+        [
+            -118.168709,
+            34.066063
+        ]
+    ],
+    "relationships": []
 }

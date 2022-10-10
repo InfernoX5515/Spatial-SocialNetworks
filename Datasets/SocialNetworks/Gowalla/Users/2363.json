@@ -5,7 +5,16 @@
     "email": "michelecross@gmail.com",
     "birthdate": "2008-03-26",
     "phone": "+1-933-496-0324",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        41,
+        58
+    ],
+    "login locations": [
+        [
+            -121.942232,
+            37.291478
+        ]
+    ],
+    "relationships": []
 }

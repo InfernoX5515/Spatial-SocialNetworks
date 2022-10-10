@@ -5,7 +5,14 @@
     "email": "sjimenez@yahoo.com",
     "birthdate": "1943-07-06",
     "phone": "030.312.5084",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20
+    ],
+    "login locations": [
+        [
+            -122.405732,
+            37.808332
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "vfowler@hotmail.com",
     "birthdate": "1948-07-29",
     "phone": "252.533.1189x660",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        41,
+        50,
+        23,
+        22,
+        64,
+        48,
+        35,
+        39,
+        3,
+        73,
+        46,
+        37,
+        49
+    ],
+    "login locations": [
+        [
+            -117.897207,
+            33.834958
+        ]
+    ],
+    "relationships": []
 }

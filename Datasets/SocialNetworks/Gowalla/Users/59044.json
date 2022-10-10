@@ -5,7 +5,26 @@
     "email": "williamsmartha@yahoo.com",
     "birthdate": "1916-03-15",
     "phone": "673.719.3161x4754",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        28,
+        37,
+        29,
+        68,
+        73,
+        24,
+        37,
+        64,
+        6,
+        46,
+        9,
+        20
+    ],
+    "login locations": [
+        [
+            -117.850785,
+            33.64147
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "michael53@gmail.com",
     "birthdate": "1974-04-19",
     "phone": "+1-592-435-7544x646",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        45,
+        59,
+        17
+    ],
+    "login locations": [
+        [
+            -122.402574,
+            37.791158
+        ]
+    ],
+    "relationships": []
 }

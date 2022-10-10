@@ -5,7 +5,18 @@
     "email": "pvasquez@hotmail.com",
     "birthdate": "1991-11-26",
     "phone": "001-484-507-3786",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        21,
+        12,
+        16,
+        3
+    ],
+    "login locations": [
+        [
+            -121.952509,
+            37.265943
+        ]
+    ],
+    "relationships": []
 }

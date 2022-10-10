@@ -5,7 +5,28 @@
     "email": "alexis90@gmail.com",
     "birthdate": "1921-08-07",
     "phone": "001-941-158-3536x80150",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        24,
+        10,
+        51
+    ],
+    "login locations": [
+        [
+            -117.872425,
+            33.748892
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38321,
+                0.225274725275
+            ],
+            [
+                38321,
+                0.225274725275
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,17 @@
     "email": "ecarlson@hotmail.com",
     "birthdate": "2018-08-04",
     "phone": "061.078.8933x521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        1,
+        52,
+        14
+    ],
+    "login locations": [
+        [
+            -122.39563,
+            37.719858
+        ]
+    ],
+    "relationships": []
 }

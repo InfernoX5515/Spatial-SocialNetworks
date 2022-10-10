@@ -5,7 +5,19 @@
     "email": "terryallison@gmail.com",
     "birthdate": "2003-03-27",
     "phone": "001-824-696-4047x43579",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        37,
+        71,
+        64,
+        55,
+        4
+    ],
+    "login locations": [
+        [
+            -121.92598,
+            37.394528
+        ]
+    ],
+    "relationships": []
 }

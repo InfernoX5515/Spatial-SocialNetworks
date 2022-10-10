@@ -5,7 +5,38 @@
     "email": "wilsonjerry@gmail.com",
     "birthdate": "1911-02-18",
     "phone": "001-524-531-4975x35635",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        65,
+        73,
+        75,
+        69,
+        33,
+        72,
+        7,
+        40,
+        17,
+        45,
+        21,
+        10,
+        51
+    ],
+    "login locations": [
+        [
+            -122.40784,
+            37.763798
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4473,
+                0.0769230769231
+            ],
+            [
+                4815,
+                0.0105263157895
+            ]
+        ]
+    ]
 }

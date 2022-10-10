@@ -5,7 +5,22 @@
     "email": "david09@yahoo.com",
     "birthdate": "1987-08-03",
     "phone": "(659)637-8803",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        11,
+        65,
+        2,
+        51,
+        31,
+        38,
+        63,
+        75
+    ],
+    "login locations": [
+        [
+            -122.068794,
+            37.388672
+        ]
+    ],
+    "relationships": []
 }

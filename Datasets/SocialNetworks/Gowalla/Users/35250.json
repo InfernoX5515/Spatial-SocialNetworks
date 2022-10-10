@@ -5,7 +5,16 @@
     "email": "sreed@hotmail.com",
     "birthdate": "1987-04-22",
     "phone": "(156)576-7080",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        2,
+        6
+    ],
+    "login locations": [
+        [
+            -122.262236,
+            37.830007
+        ]
+    ],
+    "relationships": []
 }

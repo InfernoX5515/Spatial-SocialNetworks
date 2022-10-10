@@ -5,7 +5,25 @@
     "email": "martinezjennifer@hotmail.com",
     "birthdate": "1976-06-30",
     "phone": "013-551-6681",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        73,
+        28,
+        48,
+        17,
+        47,
+        73,
+        0,
+        15,
+        69,
+        29,
+        3
+    ],
+    "login locations": [
+        [
+            -121.835568,
+            37.269992
+        ]
+    ],
+    "relationships": []
 }

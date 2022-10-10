@@ -5,7 +5,12 @@
     "email": "smithtimothy@gmail.com",
     "birthdate": "1989-04-06",
     "phone": "001-445-143-4280x9076",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.507263,
+            34.023649
+        ]
+    ],
+    "relationships": []
 }

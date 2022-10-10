@@ -5,7 +5,17 @@
     "email": "qoneal@yahoo.com",
     "birthdate": "2002-01-17",
     "phone": "187.036.6529",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        19,
+        49,
+        17
+    ],
+    "login locations": [
+        [
+            -122.385432,
+            37.676198
+        ]
+    ],
+    "relationships": []
 }

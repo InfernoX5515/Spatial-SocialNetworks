@@ -5,7 +5,25 @@
     "email": "campbelljudith@yahoo.com",
     "birthdate": "1922-03-26",
     "phone": "(006)429-3293x722",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        18,
+        75,
+        28,
+        23,
+        32,
+        70,
+        31,
+        61,
+        73,
+        23,
+        5
+    ],
+    "login locations": [
+        [
+            -122.413809,
+            37.80312
+        ]
+    ],
+    "relationships": []
 }

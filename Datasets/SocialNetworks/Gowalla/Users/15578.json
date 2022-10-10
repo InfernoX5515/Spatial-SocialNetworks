@@ -5,7 +5,28 @@
     "email": "barkerelizabeth@hotmail.com",
     "birthdate": "1931-04-25",
     "phone": "+1-703-939-4182x06679",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        75,
+        40,
+        58,
+        66,
+        45,
+        51,
+        73,
+        42,
+        66,
+        38,
+        11,
+        72,
+        51,
+        55
+    ],
+    "login locations": [
+        [
+            -118.408283,
+            34.015325
+        ]
+    ],
+    "relationships": []
 }

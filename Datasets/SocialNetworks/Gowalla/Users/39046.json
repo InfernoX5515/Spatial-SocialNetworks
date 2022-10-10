@@ -5,7 +5,27 @@
     "email": "marialarsen@hotmail.com",
     "birthdate": "1952-10-16",
     "phone": "+1-080-666-2614x636",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        71,
+        50,
+        46,
+        13,
+        34,
+        39,
+        2,
+        22,
+        16,
+        65,
+        23,
+        56,
+        9
+    ],
+    "login locations": [
+        [
+            -122.074633,
+            37.632379
+        ]
+    ],
+    "relationships": []
 }

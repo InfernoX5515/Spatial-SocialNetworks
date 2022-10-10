@@ -5,7 +5,22 @@
     "email": "alex89@gmail.com",
     "birthdate": "2014-01-21",
     "phone": "2161469398",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        70,
+        44,
+        45,
+        24,
+        11,
+        68,
+        62,
+        24
+    ],
+    "login locations": [
+        [
+            -118.310024,
+            34.031029
+        ]
+    ],
+    "relationships": []
 }

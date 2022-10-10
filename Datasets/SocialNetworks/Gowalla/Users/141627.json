@@ -5,7 +5,15 @@
     "email": "wattsstephanie@yahoo.com",
     "birthdate": "1950-12-01",
     "phone": "627-047-7735x502",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        71
+    ],
+    "login locations": [
+        [
+            -121.452557,
+            38.580019
+        ]
+    ],
+    "relationships": []
 }

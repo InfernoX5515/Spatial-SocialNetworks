@@ -5,7 +5,12 @@
     "email": "stephanieduncan@hotmail.com",
     "birthdate": "1921-08-30",
     "phone": "+1-841-145-6744x16879",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.011821,
+            38.329647
+        ]
+    ],
+    "relationships": []
 }

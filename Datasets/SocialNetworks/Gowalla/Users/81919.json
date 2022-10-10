@@ -5,7 +5,21 @@
     "email": "bentleyrobert@hotmail.com",
     "birthdate": "1918-12-11",
     "phone": "036-937-1844",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        51,
+        69,
+        45,
+        17,
+        0,
+        35,
+        69
+    ],
+    "login locations": [
+        [
+            -122.415539,
+            37.803051
+        ]
+    ],
+    "relationships": []
 }

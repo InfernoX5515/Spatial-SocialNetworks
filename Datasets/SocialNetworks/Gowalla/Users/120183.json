@@ -5,7 +5,12 @@
     "email": "samanthapetty@gmail.com",
     "birthdate": "1939-06-03",
     "phone": "001-293-230-4030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.389745,
+            34.003719
+        ]
+    ],
+    "relationships": []
 }

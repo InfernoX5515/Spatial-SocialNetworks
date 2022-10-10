@@ -5,7 +5,27 @@
     "email": "sherry68@yahoo.com",
     "birthdate": "1937-02-07",
     "phone": "+1-507-286-9430x911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        73,
+        26,
+        22,
+        29,
+        65,
+        55,
+        14,
+        33,
+        1,
+        59,
+        50,
+        25,
+        70
+    ],
+    "login locations": [
+        [
+            -122.361642,
+            37.77602
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "william49@hotmail.com",
     "birthdate": "1966-06-20",
     "phone": "001-151-239-5639",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        58,
+        3
+    ],
+    "login locations": [
+        [
+            -122.150408,
+            37.428781
+        ]
+    ],
+    "relationships": []
 }

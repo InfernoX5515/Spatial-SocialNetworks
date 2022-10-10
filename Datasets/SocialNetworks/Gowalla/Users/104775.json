@@ -5,7 +5,21 @@
     "email": "flynnluis@gmail.com",
     "birthdate": "1960-12-01",
     "phone": "001-008-138-0756",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        34,
+        7,
+        71,
+        51,
+        55,
+        17,
+        75
+    ],
+    "login locations": [
+        [
+            -121.343218,
+            38.625664
+        ]
+    ],
+    "relationships": []
 }

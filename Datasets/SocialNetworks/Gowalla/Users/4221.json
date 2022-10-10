@@ -5,7 +5,24 @@
     "email": "charles41@gmail.com",
     "birthdate": "1929-12-03",
     "phone": "636-912-7229x5718",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        53,
+        13,
+        11,
+        27,
+        2,
+        23,
+        10,
+        35,
+        21,
+        64
+    ],
+    "login locations": [
+        [
+            -118.312527,
+            34.026241
+        ]
+    ],
+    "relationships": []
 }

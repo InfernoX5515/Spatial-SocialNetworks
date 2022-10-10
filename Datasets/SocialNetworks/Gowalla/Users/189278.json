@@ -5,7 +5,20 @@
     "email": "lwilcox@hotmail.com",
     "birthdate": "1928-05-11",
     "phone": "(532)800-1617x712",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        61,
+        64,
+        45,
+        70,
+        49,
+        65
+    ],
+    "login locations": [
+        [
+            -122.803914,
+            38.552474
+        ]
+    ],
+    "relationships": []
 }

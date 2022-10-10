@@ -5,7 +5,18 @@
     "email": "deckerbeth@gmail.com",
     "birthdate": "1968-11-03",
     "phone": "+1-818-182-5348x76048",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        58,
+        68,
+        37,
+        54
+    ],
+    "login locations": [
+        [
+            -122.391699,
+            37.616209
+        ]
+    ],
+    "relationships": []
 }

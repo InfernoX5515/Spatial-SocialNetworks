@@ -5,7 +5,36 @@
     "email": "nunezjames@gmail.com",
     "birthdate": "1983-02-16",
     "phone": "095-600-6370x3419",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        6,
+        3,
+        59,
+        12,
+        37,
+        19,
+        56,
+        29,
+        56,
+        51,
+        53
+    ],
+    "login locations": [
+        [
+            -117.992475,
+            33.883121
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                586,
+                0.012987012987
+            ],
+            [
+                4224,
+                0.0707070707071
+            ]
+        ]
+    ]
 }

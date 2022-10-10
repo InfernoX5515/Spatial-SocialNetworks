@@ -5,7 +5,25 @@
     "email": "acalhoun@hotmail.com",
     "birthdate": "1927-07-30",
     "phone": "234-329-2629x31154",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        30,
+        70,
+        25,
+        33,
+        57,
+        15,
+        61,
+        35,
+        56,
+        3,
+        50
+    ],
+    "login locations": [
+        [
+            -118.297259,
+            34.10448
+        ]
+    ],
+    "relationships": []
 }

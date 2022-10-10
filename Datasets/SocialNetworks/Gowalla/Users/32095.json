@@ -5,7 +5,15 @@
     "email": "espinozaanthony@hotmail.com",
     "birthdate": "1939-10-05",
     "phone": "+1-306-088-6153x328",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        67
+    ],
+    "login locations": [
+        [
+            -122.289376,
+            37.607543
+        ]
+    ],
+    "relationships": []
 }

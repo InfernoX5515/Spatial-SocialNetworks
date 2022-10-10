@@ -5,7 +5,27 @@
     "email": "ytownsend@hotmail.com",
     "birthdate": "2014-10-07",
     "phone": "035-224-5708",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        47,
+        46,
+        24,
+        41,
+        63,
+        30,
+        28,
+        46,
+        14,
+        50,
+        65,
+        74,
+        17
+    ],
+    "login locations": [
+        [
+            -117.020622,
+            32.772287
+        ]
+    ],
+    "relationships": []
 }

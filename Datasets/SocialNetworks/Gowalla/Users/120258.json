@@ -5,7 +5,27 @@
     "email": "rhodesjustin@gmail.com",
     "birthdate": "1937-09-01",
     "phone": "437-079-8878x5516",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        73,
+        70,
+        47,
+        8,
+        33,
+        6,
+        60,
+        65,
+        67,
+        70,
+        34,
+        10,
+        5
+    ],
+    "login locations": [
+        [
+            -122.027905,
+            36.988834
+        ]
+    ],
+    "relationships": []
 }

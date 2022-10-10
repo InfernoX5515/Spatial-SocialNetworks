@@ -5,7 +5,31 @@
     "email": "vrogers@yahoo.com",
     "birthdate": "1918-11-27",
     "phone": "460-851-9072",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        27,
+        42,
+        1,
+        4,
+        29,
+        9
+    ],
+    "login locations": [
+        [
+            -122.401076,
+            37.767439
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                5257,
+                0.01
+            ]
+        ]
+    ]
 }

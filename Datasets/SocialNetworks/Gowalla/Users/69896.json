@@ -5,7 +5,18 @@
     "email": "pfigueroa@gmail.com",
     "birthdate": "1945-01-23",
     "phone": "(841)621-8761x0145",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        28,
+        63,
+        48,
+        36
+    ],
+    "login locations": [
+        [
+            -122.26866,
+            37.540579
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,31 @@
     "email": "alexandra61@yahoo.com",
     "birthdate": "1927-01-25",
     "phone": "156.899.5254",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        38,
+        70,
+        60,
+        61,
+        29,
+        53
+    ],
+    "login locations": [
+        [
+            -118.40779,
+            34.038583
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                427,
+                0.0266666666667
+            ],
+            [
+                4371,
+                0.0169082125604
+            ]
+        ]
+    ]
 }

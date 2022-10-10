@@ -5,7 +5,12 @@
     "email": "cle@yahoo.com",
     "birthdate": "1915-05-12",
     "phone": "648.165.3411x715",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.011515,
+            34.139872
+        ]
+    ],
+    "relationships": []
 }

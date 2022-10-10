@@ -5,7 +5,18 @@
     "email": "mcdonaldscott@hotmail.com",
     "birthdate": "2019-02-03",
     "phone": "001-709-702-0636x4422",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        41,
+        5,
+        40,
+        46
+    ],
+    "login locations": [
+        [
+            -122.018105,
+            37.266051
+        ]
+    ],
+    "relationships": []
 }

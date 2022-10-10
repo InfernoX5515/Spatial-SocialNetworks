@@ -5,7 +5,26 @@
     "email": "adamsdouglas@gmail.com",
     "birthdate": "2020-08-08",
     "phone": "(803)764-0942",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        46,
+        57,
+        18,
+        12,
+        53,
+        72,
+        34,
+        30,
+        42,
+        67,
+        20,
+        12
+    ],
+    "login locations": [
+        [
+            -122.40921,
+            37.772665
+        ]
+    ],
+    "relationships": []
 }

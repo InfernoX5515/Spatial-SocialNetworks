@@ -5,7 +5,26 @@
     "email": "conwaykaren@hotmail.com",
     "birthdate": "1923-03-20",
     "phone": "0425829676",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        12,
+        66,
+        51,
+        34,
+        35,
+        5,
+        0,
+        14,
+        21,
+        49,
+        61,
+        67
+    ],
+    "login locations": [
+        [
+            -122.36537,
+            37.784036
+        ]
+    ],
+    "relationships": []
 }

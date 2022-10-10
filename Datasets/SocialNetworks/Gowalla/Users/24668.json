@@ -5,7 +5,12 @@
     "email": "lindsaycooper@gmail.com",
     "birthdate": "2004-04-17",
     "phone": "252-803-9417",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.352224,
+            34.080051
+        ]
+    ],
+    "relationships": []
 }

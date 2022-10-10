@@ -5,7 +5,12 @@
     "email": "castilloemma@gmail.com",
     "birthdate": "2003-11-19",
     "phone": "+1-902-254-0938x74286",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.137287,
+            37.678233
+        ]
+    ],
+    "relationships": []
 }

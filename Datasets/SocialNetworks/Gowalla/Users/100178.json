@@ -5,7 +5,20 @@
     "email": "osweeney@hotmail.com",
     "birthdate": "1976-03-03",
     "phone": "(854)150-1196",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        71,
+        7,
+        30,
+        6,
+        53,
+        75
+    ],
+    "login locations": [
+        [
+            -122.253067,
+            37.81063
+        ]
+    ],
+    "relationships": []
 }

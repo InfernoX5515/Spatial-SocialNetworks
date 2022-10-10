@@ -5,7 +5,32 @@
     "email": "hannahsalazar@yahoo.com",
     "birthdate": "1934-09-01",
     "phone": "2665264872",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        34,
+        54,
+        22,
+        73,
+        1,
+        44,
+        43
+    ],
+    "login locations": [
+        [
+            -117.889126,
+            33.646327
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6767,
+                0.01
+            ],
+            [
+                6767,
+                0.0243902439024
+            ]
+        ]
+    ]
 }

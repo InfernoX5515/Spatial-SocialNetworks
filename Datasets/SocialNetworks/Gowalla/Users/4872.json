@@ -5,7 +5,28 @@
     "email": "psoto@hotmail.com",
     "birthdate": "1983-12-30",
     "phone": "(114)112-8965x9174",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        50,
+        14,
+        0,
+        2,
+        48,
+        23,
+        74,
+        28,
+        54,
+        9,
+        24,
+        52,
+        24,
+        2
+    ],
+    "login locations": [
+        [
+            -117.834606,
+            33.663925
+        ]
+    ],
+    "relationships": []
 }

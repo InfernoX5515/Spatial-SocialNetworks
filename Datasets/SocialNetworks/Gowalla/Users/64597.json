@@ -5,7 +5,16 @@
     "email": "williewright@yahoo.com",
     "birthdate": "2017-11-05",
     "phone": "(216)209-0682x00751",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        46,
+        19
+    ],
+    "login locations": [
+        [
+            -117.384658,
+            33.93159
+        ]
+    ],
+    "relationships": []
 }

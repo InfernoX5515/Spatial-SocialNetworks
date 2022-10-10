@@ -5,7 +5,22 @@
     "email": "lisadiaz@yahoo.com",
     "birthdate": "1972-09-13",
     "phone": "792.256.1547x1049",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        4,
+        67,
+        5,
+        75,
+        3,
+        1,
+        75,
+        37
+    ],
+    "login locations": [
+        [
+            -117.006052,
+            32.655567
+        ]
+    ],
+    "relationships": []
 }

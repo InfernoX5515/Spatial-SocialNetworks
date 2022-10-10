@@ -5,7 +5,28 @@
     "email": "drew93@gmail.com",
     "birthdate": "1918-09-19",
     "phone": "051-763-9039",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        66,
+        46,
+        42,
+        43,
+        39,
+        0,
+        8,
+        50,
+        39,
+        8,
+        11,
+        30,
+        12,
+        30
+    ],
+    "login locations": [
+        [
+            -122.429442,
+            37.797864
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "millerlisa@hotmail.com",
     "birthdate": "1983-11-27",
     "phone": "9970038335",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        48,
+        55,
+        30,
+        29,
+        60,
+        60,
+        40,
+        48
+    ],
+    "login locations": [
+        [
+            -120.680036,
+            35.611223
+        ]
+    ],
+    "relationships": []
 }

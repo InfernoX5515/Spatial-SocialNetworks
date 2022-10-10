@@ -5,7 +5,22 @@
     "email": "james83@hotmail.com",
     "birthdate": "1982-12-25",
     "phone": "(583)501-0192",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        63,
+        58,
+        45,
+        15,
+        1,
+        75,
+        51,
+        33
+    ],
+    "login locations": [
+        [
+            -118.325892,
+            34.077787
+        ]
+    ],
+    "relationships": []
 }

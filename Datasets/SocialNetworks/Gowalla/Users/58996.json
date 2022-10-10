@@ -5,7 +5,21 @@
     "email": "steincourtney@gmail.com",
     "birthdate": "1941-08-30",
     "phone": "+1-597-830-0930",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        34,
+        15,
+        55,
+        32,
+        7,
+        3,
+        7
+    ],
+    "login locations": [
+        [
+            -117.937316,
+            33.791931
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "alice55@hotmail.com",
     "birthdate": "1975-01-17",
     "phone": "268.010.8683",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        21,
+        71,
+        8,
+        51,
+        49,
+        19,
+        16
+    ],
+    "login locations": [
+        [
+            -118.34028,
+            34.087155
+        ]
+    ],
+    "relationships": []
 }

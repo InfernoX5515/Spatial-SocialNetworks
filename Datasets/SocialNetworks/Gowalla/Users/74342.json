@@ -5,7 +5,19 @@
     "email": "eharris@gmail.com",
     "birthdate": "2013-02-01",
     "phone": "921-424-1891x6109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        13,
+        6,
+        34,
+        10,
+        74
+    ],
+    "login locations": [
+        [
+            -122.390041,
+            37.808817
+        ]
+    ],
+    "relationships": []
 }

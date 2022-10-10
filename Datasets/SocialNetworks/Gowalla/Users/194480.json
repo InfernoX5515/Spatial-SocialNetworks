@@ -5,7 +5,26 @@
     "email": "tonyahayes@gmail.com",
     "birthdate": "1985-01-18",
     "phone": "5584417177",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        69,
+        15,
+        39,
+        62,
+        25,
+        2,
+        24,
+        67,
+        37,
+        51,
+        48,
+        27
+    ],
+    "login locations": [
+        [
+            -117.057497,
+            32.622396
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "sreed@yahoo.com",
     "birthdate": "1974-01-12",
     "phone": "+1-613-137-5365x2334",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        42,
+        64,
+        11,
+        54,
+        0,
+        66,
+        9,
+        27,
+        3,
+        28,
+        2
+    ],
+    "login locations": [
+        [
+            -118.235992,
+            34.045617
+        ]
+    ],
+    "relationships": []
 }

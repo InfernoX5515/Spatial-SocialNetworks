@@ -5,7 +5,24 @@
     "email": "lonniechapman@gmail.com",
     "birthdate": "1962-06-07",
     "phone": "722-844-5089x577",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        57,
+        24,
+        49,
+        0,
+        27,
+        58,
+        37,
+        25,
+        41,
+        39
+    ],
+    "login locations": [
+        [
+            -122.113897,
+            37.408281
+        ]
+    ],
+    "relationships": []
 }

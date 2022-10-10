@@ -5,7 +5,20 @@
     "email": "petersenvictor@yahoo.com",
     "birthdate": "1990-12-16",
     "phone": "001-461-456-8785",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        70,
+        0,
+        20,
+        14,
+        30,
+        27
+    ],
+    "login locations": [
+        [
+            -121.870018,
+            36.68749
+        ]
+    ],
+    "relationships": []
 }

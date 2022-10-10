@@ -5,7 +5,18 @@
     "email": "adamsjacob@hotmail.com",
     "birthdate": "1973-06-09",
     "phone": "001-077-120-5334",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        6,
+        59,
+        53,
+        2
+    ],
+    "login locations": [
+        [
+            -119.78909,
+            36.76711
+        ]
+    ],
+    "relationships": []
 }

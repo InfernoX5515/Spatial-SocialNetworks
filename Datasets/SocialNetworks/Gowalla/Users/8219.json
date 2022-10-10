@@ -5,7 +5,27 @@
     "email": "brandyjohnson@gmail.com",
     "birthdate": "1962-09-16",
     "phone": "(998)258-9647x511",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        65,
+        54
+    ],
+    "login locations": [
+        [
+            -122.172424,
+            37.44089
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4530,
+                0.01
+            ],
+            [
+                4530,
+                0.01
+            ]
+        ]
+    ]
 }

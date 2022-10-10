@@ -5,7 +5,17 @@
     "email": "chopkins@hotmail.com",
     "birthdate": "1966-12-09",
     "phone": "+1-266-131-1399x61050",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        9,
+        24,
+        58
+    ],
+    "login locations": [
+        [
+            -117.925014,
+            33.80874
+        ]
+    ],
+    "relationships": []
 }

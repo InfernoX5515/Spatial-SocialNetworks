@@ -5,7 +5,18 @@
     "email": "cathy81@yahoo.com",
     "birthdate": "1968-09-19",
     "phone": "+1-240-008-3070x4719",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        37,
+        27,
+        45,
+        21
+    ],
+    "login locations": [
+        [
+            -119.867911,
+            34.42402
+        ]
+    ],
+    "relationships": []
 }

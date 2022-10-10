@@ -5,7 +5,19 @@
     "email": "brett39@gmail.com",
     "birthdate": "1997-06-23",
     "phone": "558.665.3886x75783",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        49,
+        17,
+        65,
+        4,
+        5
+    ],
+    "login locations": [
+        [
+            -121.952468,
+            37.233892
+        ]
+    ],
+    "relationships": []
 }

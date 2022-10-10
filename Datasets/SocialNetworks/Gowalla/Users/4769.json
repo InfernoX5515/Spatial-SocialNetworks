@@ -5,7 +5,27 @@
     "email": "marknewman@yahoo.com",
     "birthdate": "2014-06-05",
     "phone": "001-599-293-0289x37635",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        67,
+        2,
+        29,
+        44,
+        46,
+        30,
+        36,
+        11,
+        10,
+        34,
+        29,
+        22,
+        70
+    ],
+    "login locations": [
+        [
+            -117.963789,
+            33.668617
+        ]
+    ],
+    "relationships": []
 }

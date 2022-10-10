@@ -5,7 +5,22 @@
     "email": "uharmon@hotmail.com",
     "birthdate": "1920-08-05",
     "phone": "+1-715-517-6229x8983",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        15,
+        42,
+        5,
+        46,
+        43,
+        5,
+        70,
+        14
+    ],
+    "login locations": [
+        [
+            -121.421123,
+            38.40978
+        ]
+    ],
+    "relationships": []
 }

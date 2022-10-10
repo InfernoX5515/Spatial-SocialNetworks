@@ -5,7 +5,22 @@
     "email": "sara40@yahoo.com",
     "birthdate": "1913-07-25",
     "phone": "001-875-338-4209",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        35,
+        63,
+        28,
+        48,
+        62,
+        34,
+        26,
+        4
+    ],
+    "login locations": [
+        [
+            -121.696316,
+            40.880163
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "audrey05@gmail.com",
     "birthdate": "1982-02-27",
     "phone": "001-713-689-3564",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45
+    ],
+    "login locations": [
+        [
+            -117.388976,
+            34.0
+        ]
+    ],
+    "relationships": []
 }

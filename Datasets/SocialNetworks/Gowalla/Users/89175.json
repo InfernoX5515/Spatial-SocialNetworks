@@ -5,7 +5,14 @@
     "email": "imills@hotmail.com",
     "birthdate": "1933-04-09",
     "phone": "+1-024-717-7296x000",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54
+    ],
+    "login locations": [
+        [
+            -121.410301,
+            38.599074
+        ]
+    ],
+    "relationships": []
 }

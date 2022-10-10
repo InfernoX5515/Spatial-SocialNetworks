@@ -5,7 +5,21 @@
     "email": "patriciacox@gmail.com",
     "birthdate": "1962-02-22",
     "phone": "(792)122-6386x08529",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        20,
+        73,
+        43,
+        43,
+        63,
+        54,
+        1
+    ],
+    "login locations": [
+        [
+            -122.407083,
+            37.785727
+        ]
+    ],
+    "relationships": []
 }

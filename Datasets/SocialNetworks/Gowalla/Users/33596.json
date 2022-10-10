@@ -5,7 +5,24 @@
     "email": "jorge40@hotmail.com",
     "birthdate": "1949-08-25",
     "phone": "001-451-626-8865x3166",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        42,
+        1,
+        20,
+        67,
+        27,
+        39,
+        37,
+        21,
+        12,
+        66
+    ],
+    "login locations": [
+        [
+            -122.314567,
+            37.589654
+        ]
+    ],
+    "relationships": []
 }

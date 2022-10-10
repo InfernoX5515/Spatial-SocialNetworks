@@ -5,7 +5,21 @@
     "email": "chapmantimothy@gmail.com",
     "birthdate": "2008-05-21",
     "phone": "+1-686-148-4671x200",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        22,
+        18,
+        5,
+        28,
+        23,
+        73,
+        32
+    ],
+    "login locations": [
+        [
+            -121.301563,
+            38.649486
+        ]
+    ],
+    "relationships": []
 }

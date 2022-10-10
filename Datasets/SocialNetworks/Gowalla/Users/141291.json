@@ -5,7 +5,28 @@
     "email": "joelgonzalez@hotmail.com",
     "birthdate": "1992-09-08",
     "phone": "001-549-735-6630x372",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        66,
+        12,
+        65,
+        75,
+        40,
+        2,
+        66,
+        26,
+        30,
+        10,
+        43,
+        75,
+        6,
+        47
+    ],
+    "login locations": [
+        [
+            -118.217881,
+            34.143249
+        ]
+    ],
+    "relationships": []
 }

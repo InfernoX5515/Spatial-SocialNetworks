@@ -5,7 +5,36 @@
     "email": "eric86@hotmail.com",
     "birthdate": "2014-06-28",
     "phone": "(849)832-4356x35438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        0,
+        8,
+        58,
+        42,
+        26,
+        29,
+        38,
+        59,
+        53,
+        0,
+        10
+    ],
+    "login locations": [
+        [
+            -122.39603,
+            37.70103
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.102189781022
+            ],
+            [
+                6509,
+                0.181818181818
+            ]
+        ]
+    ]
 }

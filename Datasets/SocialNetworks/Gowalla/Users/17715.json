@@ -5,7 +5,27 @@
     "email": "ryanjoseph@gmail.com",
     "birthdate": "1987-07-23",
     "phone": "(032)022-3778",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        63,
+        60
+    ],
+    "login locations": [
+        [
+            -117.982903,
+            33.72432
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                15569,
+                0.056
+            ],
+            [
+                15569,
+                0.056
+            ]
+        ]
+    ]
 }

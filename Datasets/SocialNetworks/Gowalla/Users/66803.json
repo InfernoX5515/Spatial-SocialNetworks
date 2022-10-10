@@ -5,7 +5,22 @@
     "email": "ccallahan@hotmail.com",
     "birthdate": "1993-02-27",
     "phone": "+1-136-386-0927x8211",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        15,
+        56,
+        46,
+        28,
+        12,
+        69,
+        28,
+        24
+    ],
+    "login locations": [
+        [
+            -121.98915,
+            37.343941
+        ]
+    ],
+    "relationships": []
 }

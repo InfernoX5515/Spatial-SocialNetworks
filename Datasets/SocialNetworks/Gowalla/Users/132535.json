@@ -5,7 +5,23 @@
     "email": "ljensen@hotmail.com",
     "birthdate": "1941-01-02",
     "phone": "001-288-891-5307",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        61,
+        8,
+        56,
+        27,
+        67,
+        14,
+        34,
+        35,
+        75
+    ],
+    "login locations": [
+        [
+            -119.250312,
+            34.248855
+        ]
+    ],
+    "relationships": []
 }

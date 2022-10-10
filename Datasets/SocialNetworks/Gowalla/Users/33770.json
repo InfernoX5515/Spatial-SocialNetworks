@@ -5,7 +5,20 @@
     "email": "julieschroeder@hotmail.com",
     "birthdate": "1986-03-03",
     "phone": "+1-423-009-4609x598",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        38,
+        3,
+        34,
+        57,
+        30,
+        71
+    ],
+    "login locations": [
+        [
+            -122.424457,
+            37.738372
+        ]
+    ],
+    "relationships": []
 }

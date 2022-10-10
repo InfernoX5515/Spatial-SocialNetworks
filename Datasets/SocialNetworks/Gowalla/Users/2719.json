@@ -5,7 +5,22 @@
     "email": "christine25@yahoo.com",
     "birthdate": "1949-11-27",
     "phone": "+1-068-722-5528",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        36,
+        41,
+        12,
+        5,
+        68,
+        57,
+        26,
+        34
+    ],
+    "login locations": [
+        [
+            -117.90625,
+            33.628973
+        ]
+    ],
+    "relationships": []
 }

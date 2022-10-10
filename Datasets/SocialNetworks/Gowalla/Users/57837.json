@@ -5,7 +5,38 @@
     "email": "esandoval@hotmail.com",
     "birthdate": "1989-08-06",
     "phone": "102.113.7999x765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        61,
+        51,
+        7,
+        33,
+        74,
+        27,
+        18,
+        17,
+        65,
+        3,
+        1,
+        65,
+        29
+    ],
+    "login locations": [
+        [
+            -117.20721,
+            32.901109
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                57812,
+                0.0185185185185
+            ],
+            [
+                57828,
+                0.04
+            ]
+        ]
+    ]
 }

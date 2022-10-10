@@ -5,7 +5,18 @@
     "email": "joelnelson@yahoo.com",
     "birthdate": "1986-10-21",
     "phone": "+1-236-885-3271x96437",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        27,
+        62,
+        23,
+        0
+    ],
+    "login locations": [
+        [
+            -122.312894,
+            37.591755
+        ]
+    ],
+    "relationships": []
 }

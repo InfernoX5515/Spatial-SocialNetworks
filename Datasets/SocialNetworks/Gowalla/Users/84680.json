@@ -5,7 +5,26 @@
     "email": "rjohnson@gmail.com",
     "birthdate": "1916-11-07",
     "phone": "001-301-831-7671x6436",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        5,
+        10,
+        14,
+        28,
+        9,
+        32,
+        45,
+        13,
+        9,
+        16,
+        45,
+        37
+    ],
+    "login locations": [
+        [
+            -121.789575,
+            36.731932
+        ]
+    ],
+    "relationships": []
 }

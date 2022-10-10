@@ -5,7 +5,28 @@
     "email": "justin60@gmail.com",
     "birthdate": "1958-09-11",
     "phone": "+1-422-750-0315x74516",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        29,
+        60,
+        17
+    ],
+    "login locations": [
+        [
+            -118.182183,
+            33.911265
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2608,
+                0.0416666666667
+            ],
+            [
+                2608,
+                0.0416666666667
+            ]
+        ]
+    ]
 }

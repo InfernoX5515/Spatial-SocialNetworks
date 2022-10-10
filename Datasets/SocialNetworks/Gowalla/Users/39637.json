@@ -5,7 +5,31 @@
     "email": "michael53@hotmail.com",
     "birthdate": "1941-03-31",
     "phone": "579.013.4941",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        1,
+        49,
+        57,
+        17,
+        25,
+        24
+    ],
+    "login locations": [
+        [
+            -118.32267,
+            34.069161
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                132469,
+                0.0874704491726
+            ],
+            [
+                132469,
+                0.0874704491726
+            ]
+        ]
+    ]
 }

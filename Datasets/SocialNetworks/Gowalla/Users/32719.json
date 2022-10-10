@@ -5,7 +5,17 @@
     "email": "kenneth81@hotmail.com",
     "birthdate": "2013-08-17",
     "phone": "001-170-771-0599x858",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        50,
+        68,
+        2
+    ],
+    "login locations": [
+        [
+            -122.401196,
+            37.782052
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "alisonrhodes@gmail.com",
     "birthdate": "1956-02-10",
     "phone": "+1-108-926-3946x56124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        64,
+        45,
+        61,
+        46,
+        47,
+        52,
+        24,
+        26,
+        32
+    ],
+    "login locations": [
+        [
+            -122.125531,
+            37.427965
+        ]
+    ],
+    "relationships": []
 }

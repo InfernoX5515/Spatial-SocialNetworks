@@ -5,7 +5,38 @@
     "email": "castillobrenda@gmail.com",
     "birthdate": "1920-09-03",
     "phone": "0374969945",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        65,
+        40,
+        62,
+        3,
+        54,
+        25,
+        21,
+        42,
+        41,
+        11,
+        16,
+        47,
+        48
+    ],
+    "login locations": [
+        [
+            -119.716045,
+            34.419406
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                195433,
+                0.0857142857143
+            ],
+            [
+                195433,
+                0.0857142857143
+            ]
+        ]
+    ]
 }

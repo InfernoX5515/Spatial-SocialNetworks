@@ -5,7 +5,23 @@
     "email": "sherrylewis@yahoo.com",
     "birthdate": "1971-05-21",
     "phone": "900-642-5089x3869",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        36,
+        75,
+        68,
+        58,
+        60,
+        29,
+        61,
+        6,
+        17
+    ],
+    "login locations": [
+        [
+            -118.110042,
+            34.106547
+        ]
+    ],
+    "relationships": []
 }

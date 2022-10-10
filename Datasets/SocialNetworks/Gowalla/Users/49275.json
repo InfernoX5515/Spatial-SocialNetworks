@@ -5,7 +5,29 @@
     "email": "fwu@gmail.com",
     "birthdate": "1939-03-16",
     "phone": "(880)052-0834",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        0,
+        62,
+        54,
+        27
+    ],
+    "login locations": [
+        [
+            -117.838119,
+            33.762979
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4906,
+                0.0625
+            ],
+            [
+                49273,
+                0.225225225225
+            ]
+        ]
+    ]
 }

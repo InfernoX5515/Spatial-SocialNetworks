@@ -5,7 +5,26 @@
     "email": "pholmes@yahoo.com",
     "birthdate": "1913-03-14",
     "phone": "811.371.6092x33371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        53,
+        32,
+        55,
+        11,
+        6,
+        2,
+        9,
+        21,
+        63,
+        22,
+        18,
+        60
+    ],
+    "login locations": [
+        [
+            -122.409737,
+            37.769448
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "owilliams@gmail.com",
     "birthdate": "1934-10-15",
     "phone": "653.136.8871x9042",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.146522,
+            32.7611
+        ]
+    ],
+    "relationships": []
 }

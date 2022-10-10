@@ -5,7 +5,37 @@
     "email": "rbass@hotmail.com",
     "birthdate": "1988-09-03",
     "phone": "(573)159-8122x789",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        59,
+        8,
+        58,
+        72,
+        49,
+        69,
+        53,
+        10,
+        14,
+        2,
+        62,
+        12
+    ],
+    "login locations": [
+        [
+            -122.426426,
+            37.772055
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.01
+            ],
+            [
+                6508,
+                0.0130718954248
+            ]
+        ]
+    ]
 }

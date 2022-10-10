@@ -5,7 +5,17 @@
     "email": "dclark@yahoo.com",
     "birthdate": "1925-01-21",
     "phone": "263.440.4181x621",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        72,
+        24,
+        5
+    ],
+    "login locations": [
+        [
+            -117.823066,
+            33.670991
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "joshuablair@hotmail.com",
     "birthdate": "1948-12-24",
     "phone": "770-922-2818",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        27,
+        70,
+        14
+    ],
+    "login locations": [
+        [
+            -122.351991,
+            37.624806
+        ]
+    ],
+    "relationships": []
 }

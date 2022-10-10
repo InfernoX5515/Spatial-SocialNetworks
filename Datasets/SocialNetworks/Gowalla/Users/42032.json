@@ -5,7 +5,25 @@
     "email": "mwilliams@gmail.com",
     "birthdate": "1923-02-08",
     "phone": "666.622.6574x2310",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        22,
+        10,
+        15,
+        31,
+        9,
+        21,
+        24,
+        57,
+        72,
+        42,
+        32
+    ],
+    "login locations": [
+        [
+            -117.104886,
+            32.760507
+        ]
+    ],
+    "relationships": []
 }

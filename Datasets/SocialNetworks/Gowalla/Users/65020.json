@@ -5,7 +5,21 @@
     "email": "james85@hotmail.com",
     "birthdate": "1963-08-28",
     "phone": "001-947-070-1444x2975",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        71,
+        39,
+        63,
+        14,
+        60,
+        17,
+        2
+    ],
+    "login locations": [
+        [
+            -122.419946,
+            37.760585
+        ]
+    ],
+    "relationships": []
 }

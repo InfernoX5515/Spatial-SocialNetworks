@@ -5,7 +5,26 @@
     "email": "jakewood@yahoo.com",
     "birthdate": "1937-03-19",
     "phone": "001-669-662-2708x43793",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        22,
+        73,
+        70,
+        19,
+        5,
+        6,
+        54,
+        51,
+        75,
+        45,
+        71,
+        45
+    ],
+    "login locations": [
+        [
+            -118.077143,
+            33.867618
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "william15@yahoo.com",
     "birthdate": "1985-01-13",
     "phone": "853-298-6918x949",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        61,
+        37,
+        18,
+        27
+    ],
+    "login locations": [
+        [
+            -117.79947,
+            33.677933
+        ]
+    ],
+    "relationships": []
 }

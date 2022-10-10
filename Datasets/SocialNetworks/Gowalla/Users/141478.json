@@ -5,7 +5,16 @@
     "email": "ssilva@gmail.com",
     "birthdate": "1943-12-08",
     "phone": "975.041.3364x67614",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        17,
+        25
+    ],
+    "login locations": [
+        [
+            -117.963225,
+            33.826053
+        ]
+    ],
+    "relationships": []
 }

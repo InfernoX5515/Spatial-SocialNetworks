@@ -5,7 +5,16 @@
     "email": "kristy02@gmail.com",
     "birthdate": "1985-08-27",
     "phone": "149.727.6102",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        74,
+        60
+    ],
+    "login locations": [
+        [
+            -122.407132,
+            37.779743
+        ]
+    ],
+    "relationships": []
 }

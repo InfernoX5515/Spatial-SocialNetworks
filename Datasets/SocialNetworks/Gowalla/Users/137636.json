@@ -5,7 +5,22 @@
     "email": "heather62@gmail.com",
     "birthdate": "1923-10-29",
     "phone": "7419446688",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        28,
+        48,
+        37,
+        14,
+        55,
+        54,
+        13,
+        23
+    ],
+    "login locations": [
+        [
+            -119.01055,
+            35.368443
+        ]
+    ],
+    "relationships": []
 }

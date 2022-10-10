@@ -5,7 +5,38 @@
     "email": "gloria78@hotmail.com",
     "birthdate": "1939-01-31",
     "phone": "001-455-923-8711x5204",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        54,
+        30,
+        23,
+        14,
+        57,
+        23,
+        57,
+        21,
+        68,
+        62,
+        49,
+        24,
+        75
+    ],
+    "login locations": [
+        [
+            -118.313618,
+            33.952664
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                85,
+                0.05
+            ],
+            [
+                32678,
+                0.05
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "ljohnson@gmail.com",
     "birthdate": "1934-12-11",
     "phone": "(382)622-6986",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        55,
+        26,
+        0,
+        53,
+        44,
+        24,
+        11,
+        7,
+        13,
+        70,
+        7
+    ],
+    "login locations": [
+        [
+            -118.342826,
+            34.139305
+        ]
+    ],
+    "relationships": []
 }

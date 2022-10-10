@@ -5,7 +5,23 @@
     "email": "jordandavid@yahoo.com",
     "birthdate": "1991-02-05",
     "phone": "+1-237-337-0868",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.28948,
+            34.076992
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53509,
+                0.010989010989
+            ],
+            [
+                53509,
+                0.010989010989
+            ]
+        ]
+    ]
 }

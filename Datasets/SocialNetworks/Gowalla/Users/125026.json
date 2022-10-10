@@ -5,7 +5,26 @@
     "email": "dominichawkins@gmail.com",
     "birthdate": "1959-01-11",
     "phone": "(451)470-2257x6062",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        20,
+        46,
+        71,
+        28,
+        44,
+        29,
+        29,
+        40,
+        47,
+        27,
+        47,
+        75
+    ],
+    "login locations": [
+        [
+            -119.725746,
+            36.835492
+        ]
+    ],
+    "relationships": []
 }

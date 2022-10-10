@@ -5,7 +5,21 @@
     "email": "nstevens@yahoo.com",
     "birthdate": "1996-06-26",
     "phone": "001-513-789-2311",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        27,
+        47,
+        34,
+        3,
+        4,
+        73,
+        74
+    ],
+    "login locations": [
+        [
+            -122.430324,
+            37.765493
+        ]
+    ],
+    "relationships": []
 }

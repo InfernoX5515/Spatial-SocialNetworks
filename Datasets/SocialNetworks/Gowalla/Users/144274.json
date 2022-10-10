@@ -5,7 +5,25 @@
     "email": "ernest12@gmail.com",
     "birthdate": "1991-02-14",
     "phone": "(226)581-2020",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        22,
+        61,
+        57,
+        4,
+        5,
+        60,
+        47,
+        65,
+        1,
+        62,
+        1
+    ],
+    "login locations": [
+        [
+            -122.640877,
+            37.896516
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "lindajackson@gmail.com",
     "birthdate": "1992-12-20",
     "phone": "903.534.1578x73480",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        34,
+        43
+    ],
+    "login locations": [
+        [
+            -121.950794,
+            37.411929
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4906,
+                0.0703125
+            ],
+            [
+                4906,
+                0.0703125
+            ]
+        ]
+    ]
 }

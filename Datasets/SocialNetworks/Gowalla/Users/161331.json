@@ -5,7 +5,20 @@
     "email": "josephmatthews@hotmail.com",
     "birthdate": "2000-03-26",
     "phone": "(279)816-7938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        61,
+        72,
+        50,
+        42,
+        75,
+        27
+    ],
+    "login locations": [
+        [
+            -117.291012,
+            33.656983
+        ]
+    ],
+    "relationships": []
 }

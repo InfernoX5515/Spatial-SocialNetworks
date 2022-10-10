@@ -5,7 +5,23 @@
     "email": "blanchardtyler@hotmail.com",
     "birthdate": "2010-04-18",
     "phone": "(581)475-4046x1997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        50,
+        44,
+        24,
+        38,
+        72,
+        47,
+        54,
+        67,
+        57
+    ],
+    "login locations": [
+        [
+            -122.193994,
+            37.647069
+        ]
+    ],
+    "relationships": []
 }

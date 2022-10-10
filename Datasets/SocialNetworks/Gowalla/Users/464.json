@@ -5,7 +5,23 @@
     "email": "yespinoza@yahoo.com",
     "birthdate": "2001-12-21",
     "phone": "187.675.6220",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.411028,
+            37.771463
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.01
+            ],
+            [
+                355,
+                0.01
+            ]
+        ]
+    ]
 }

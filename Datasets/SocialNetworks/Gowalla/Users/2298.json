@@ -5,7 +5,28 @@
     "email": "justin34@gmail.com",
     "birthdate": "2004-02-05",
     "phone": "540.975.1559",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        21,
+        65,
+        54
+    ],
+    "login locations": [
+        [
+            -118.546759,
+            34.252834
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4530,
+                0.0245098039216
+            ],
+            [
+                4530,
+                0.0245098039216
+            ]
+        ]
+    ]
 }

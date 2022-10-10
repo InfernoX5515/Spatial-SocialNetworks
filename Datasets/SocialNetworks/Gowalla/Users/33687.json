@@ -5,7 +5,17 @@
     "email": "zreyes@yahoo.com",
     "birthdate": "1909-12-18",
     "phone": "001-304-525-3526x7402",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        33,
+        62,
+        22
+    ],
+    "login locations": [
+        [
+            -122.026911,
+            37.368901
+        ]
+    ],
+    "relationships": []
 }

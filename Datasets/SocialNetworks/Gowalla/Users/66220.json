@@ -5,7 +5,17 @@
     "email": "nealrachel@gmail.com",
     "birthdate": "2011-02-26",
     "phone": "001-202-786-4480x276",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        11,
+        20,
+        47
+    ],
+    "login locations": [
+        [
+            -118.440488,
+            34.027941
+        ]
+    ],
+    "relationships": []
 }

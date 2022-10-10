@@ -5,7 +5,21 @@
     "email": "snyderadrian@gmail.com",
     "birthdate": "1971-01-09",
     "phone": "(842)152-1281x54195",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        4,
+        3,
+        36,
+        7,
+        70,
+        70,
+        70
+    ],
+    "login locations": [
+        [
+            -122.407136,
+            37.783282
+        ]
+    ],
+    "relationships": []
 }

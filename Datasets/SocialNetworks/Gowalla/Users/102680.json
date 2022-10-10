@@ -5,7 +5,24 @@
     "email": "hintonchristopher@gmail.com",
     "birthdate": "1913-04-20",
     "phone": "+1-334-149-3451x98226",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        72,
+        63,
+        65,
+        11,
+        28,
+        61,
+        27,
+        29,
+        57,
+        72
+    ],
+    "login locations": [
+        [
+            -118.349769,
+            33.805201
+        ]
+    ],
+    "relationships": []
 }

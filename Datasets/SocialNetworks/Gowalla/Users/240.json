@@ -5,7 +5,38 @@
     "email": "kaylahuang@yahoo.com",
     "birthdate": "2007-03-27",
     "phone": "(026)544-3025",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        17,
+        24,
+        48,
+        67,
+        34,
+        8,
+        3,
+        0,
+        73,
+        6,
+        66,
+        14,
+        51
+    ],
+    "login locations": [
+        [
+            -122.428208,
+            37.784059
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                191,
+                0.0306946688207
+            ],
+            [
+                191,
+                0.0306946688207
+            ]
+        ]
+    ]
 }

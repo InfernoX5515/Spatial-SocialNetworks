@@ -5,7 +5,15 @@
     "email": "sandrabrown@hotmail.com",
     "birthdate": "1999-10-18",
     "phone": "(158)819-3559x232",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        65
+    ],
+    "login locations": [
+        [
+            -122.409968,
+            37.782655
+        ]
+    ],
+    "relationships": []
 }

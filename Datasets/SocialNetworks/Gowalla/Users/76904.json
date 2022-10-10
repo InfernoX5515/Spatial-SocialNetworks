@@ -5,7 +5,16 @@
     "email": "samuel60@hotmail.com",
     "birthdate": "1958-11-10",
     "phone": "001-529-890-5366x257",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        19,
+        25
+    ],
+    "login locations": [
+        [
+            -118.472582,
+            34.039387
+        ]
+    ],
+    "relationships": []
 }

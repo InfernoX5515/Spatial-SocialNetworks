@@ -5,7 +5,37 @@
     "email": "mathewcohen@yahoo.com",
     "birthdate": "1931-05-27",
     "phone": "001-592-881-4865",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        51,
+        24,
+        22,
+        50,
+        0,
+        40,
+        49,
+        43,
+        36,
+        5,
+        32,
+        39
+    ],
+    "login locations": [
+        [
+            -122.407009,
+            37.762122
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4244,
+                0.0192307692308
+            ],
+            [
+                6356,
+                0.0166666666667
+            ]
+        ]
+    ]
 }

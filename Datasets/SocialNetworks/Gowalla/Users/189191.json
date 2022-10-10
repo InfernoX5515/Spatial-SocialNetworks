@@ -5,7 +5,22 @@
     "email": "anna19@hotmail.com",
     "birthdate": "1948-02-24",
     "phone": "(529)321-4888",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        55,
+        60,
+        61,
+        23,
+        35,
+        39,
+        68,
+        9
+    ],
+    "login locations": [
+        [
+            -121.459244,
+            38.583626
+        ]
+    ],
+    "relationships": []
 }

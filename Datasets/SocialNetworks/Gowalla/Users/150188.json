@@ -5,7 +5,31 @@
     "email": "john15@yahoo.com",
     "birthdate": "2022-05-09",
     "phone": "720-533-2171",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        22,
+        70,
+        18,
+        6,
+        50,
+        63
+    ],
+    "login locations": [
+        [
+            -119.037266,
+            35.347078
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                150187,
+                0.0243902439024
+            ],
+            [
+                150187,
+                0.0243902439024
+            ]
+        ]
+    ]
 }

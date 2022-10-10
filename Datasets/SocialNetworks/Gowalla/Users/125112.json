@@ -5,7 +5,25 @@
     "email": "gnewman@gmail.com",
     "birthdate": "1987-03-18",
     "phone": "764.908.2175",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48
+    ],
+    "login locations": [
+        [
+            -118.90163,
+            34.188577
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125111,
+                0.075
+            ],
+            [
+                125111,
+                0.075
+            ]
+        ]
+    ]
 }

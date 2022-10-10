@@ -5,7 +5,27 @@
     "email": "juanyoung@yahoo.com",
     "birthdate": "1927-01-03",
     "phone": "+1-430-446-0971x700",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        9,
+        7,
+        38,
+        3,
+        36,
+        55,
+        70,
+        50,
+        68,
+        32,
+        0,
+        19,
+        50
+    ],
+    "login locations": [
+        [
+            -122.399819,
+            37.797068
+        ]
+    ],
+    "relationships": []
 }

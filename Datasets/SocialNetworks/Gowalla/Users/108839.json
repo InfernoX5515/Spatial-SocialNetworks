@@ -5,7 +5,21 @@
     "email": "taylorjamie@hotmail.com",
     "birthdate": "2016-12-05",
     "phone": "158-299-5250",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        5,
+        6,
+        23,
+        69,
+        60,
+        63,
+        25
+    ],
+    "login locations": [
+        [
+            -121.871523,
+            36.625353
+        ]
+    ],
+    "relationships": []
 }

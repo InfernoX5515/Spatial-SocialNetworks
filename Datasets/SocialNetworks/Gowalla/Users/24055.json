@@ -5,7 +5,14 @@
     "email": "linda94@yahoo.com",
     "birthdate": "2009-11-17",
     "phone": "089-655-7696",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5
+    ],
+    "login locations": [
+        [
+            -122.418384,
+            37.770112
+        ]
+    ],
+    "relationships": []
 }

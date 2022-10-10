@@ -5,7 +5,22 @@
     "email": "arobertson@yahoo.com",
     "birthdate": "1974-08-14",
     "phone": "749.931.8658x842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        53,
+        49,
+        6,
+        49,
+        52,
+        14,
+        63,
+        46
+    ],
+    "login locations": [
+        [
+            -117.966107,
+            33.80517
+        ]
+    ],
+    "relationships": []
 }

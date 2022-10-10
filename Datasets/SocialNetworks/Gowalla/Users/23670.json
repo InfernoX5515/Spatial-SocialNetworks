@@ -5,7 +5,23 @@
     "email": "yhill@gmail.com",
     "birthdate": "1953-06-10",
     "phone": "001-596-075-6749x6083",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        44,
+        57,
+        51,
+        27,
+        73,
+        56,
+        69,
+        70,
+        1
+    ],
+    "login locations": [
+        [
+            -116.299363,
+            33.721504
+        ]
+    ],
+    "relationships": []
 }

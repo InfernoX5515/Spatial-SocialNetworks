@@ -5,7 +5,26 @@
     "email": "kimberlyflores@yahoo.com",
     "birthdate": "1969-11-24",
     "phone": "810.246.1295x7603",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        38,
+        20,
+        37,
+        49,
+        13,
+        16,
+        15,
+        40,
+        39,
+        66,
+        19,
+        32
+    ],
+    "login locations": [
+        [
+            -122.400894,
+            37.793715
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "nicole33@hotmail.com",
     "birthdate": "1942-10-07",
     "phone": "698-364-1707x064",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        2
+    ],
+    "login locations": [
+        [
+            -121.280925,
+            38.602592
+        ]
+    ],
+    "relationships": []
 }

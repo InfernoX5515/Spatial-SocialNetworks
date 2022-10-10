@@ -5,7 +5,25 @@
     "email": "jowen@gmail.com",
     "birthdate": "1957-07-28",
     "phone": "+1-046-276-8481",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27
+    ],
+    "login locations": [
+        [
+            -118.171556,
+            34.135376
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2170,
+                0.0196078431373
+            ],
+            [
+                2170,
+                0.0196078431373
+            ]
+        ]
+    ]
 }

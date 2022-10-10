@@ -5,7 +5,12 @@
     "email": "molinachristopher@hotmail.com",
     "birthdate": "1943-01-05",
     "phone": "542-519-9267",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.998123,
+            37.347111
+        ]
+    ],
+    "relationships": []
 }

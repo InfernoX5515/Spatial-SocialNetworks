@@ -5,7 +5,15 @@
     "email": "pwilliams@yahoo.com",
     "birthdate": "1958-01-12",
     "phone": "7499842149",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        47
+    ],
+    "login locations": [
+        [
+            -122.303815,
+            37.882159
+        ]
+    ],
+    "relationships": []
 }

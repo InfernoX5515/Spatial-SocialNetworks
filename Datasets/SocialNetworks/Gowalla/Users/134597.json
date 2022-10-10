@@ -5,7 +5,12 @@
     "email": "josephrodriguez@gmail.com",
     "birthdate": "2013-04-07",
     "phone": "609-774-2193x12556",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.167057,
+            32.71227
+        ]
+    ],
+    "relationships": []
 }

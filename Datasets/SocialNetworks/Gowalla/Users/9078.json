@@ -5,7 +5,12 @@
     "email": "lcain@yahoo.com",
     "birthdate": "1966-05-09",
     "phone": "001-262-251-0125x5155",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.917698,
+            37.344662
+        ]
+    ],
+    "relationships": []
 }

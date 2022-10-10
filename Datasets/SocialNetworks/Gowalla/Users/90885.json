@@ -5,7 +5,20 @@
     "email": "andrew90@yahoo.com",
     "birthdate": "1939-08-08",
     "phone": "616.213.7986x3457",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        39,
+        72,
+        63,
+        74,
+        18,
+        25
+    ],
+    "login locations": [
+        [
+            -117.15641,
+            32.905851
+        ]
+    ],
+    "relationships": []
 }

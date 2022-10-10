@@ -5,7 +5,35 @@
     "email": "alopez@gmail.com",
     "birthdate": "1925-03-25",
     "phone": "(259)162-3911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        37,
+        71,
+        25,
+        17,
+        68,
+        11,
+        28,
+        19,
+        62,
+        20
+    ],
+    "login locations": [
+        [
+            -122.17754,
+            37.814495
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                470,
+                0.01
+            ],
+            [
+                65437,
+                0.12
+            ]
+        ]
+    ]
 }

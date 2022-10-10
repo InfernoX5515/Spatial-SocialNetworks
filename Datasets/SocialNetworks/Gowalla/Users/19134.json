@@ -5,7 +5,12 @@
     "email": "robinsonricardo@hotmail.com",
     "birthdate": "1953-12-20",
     "phone": "065.593.4238x7798",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.192415,
+            32.761767
+        ]
+    ],
+    "relationships": []
 }

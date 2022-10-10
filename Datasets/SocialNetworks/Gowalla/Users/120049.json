@@ -5,7 +5,29 @@
     "email": "uwells@gmail.com",
     "birthdate": "1915-09-04",
     "phone": "001-220-426-4167x5693",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        16,
+        18,
+        3,
+        14
+    ],
+    "login locations": [
+        [
+            -119.758992,
+            36.776823
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                120048,
+                0.18
+            ],
+            [
+                120051,
+                0.111111111111
+            ]
+        ]
+    ]
 }

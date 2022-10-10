@@ -5,7 +5,30 @@
     "email": "istokes@hotmail.com",
     "birthdate": "1959-09-23",
     "phone": "518.081.9693x7698",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        19,
+        15,
+        53,
+        65,
+        13
+    ],
+    "login locations": [
+        [
+            -122.121148,
+            37.420235
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                108,
+                0.0431519699812
+            ],
+            [
+                4371,
+                0.01
+            ]
+        ]
+    ]
 }

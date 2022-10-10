@@ -5,7 +5,22 @@
     "email": "jimmyhunt@hotmail.com",
     "birthdate": "1989-08-04",
     "phone": "245-238-4117",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        2,
+        33,
+        18,
+        18,
+        28,
+        50,
+        53,
+        72
+    ],
+    "login locations": [
+        [
+            -119.092119,
+            36.126207
+        ]
+    ],
+    "relationships": []
 }

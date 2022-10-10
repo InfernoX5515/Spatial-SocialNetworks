@@ -5,7 +5,14 @@
     "email": "lwest@gmail.com",
     "birthdate": "1958-04-09",
     "phone": "001-828-108-8818x493",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58
+    ],
+    "login locations": [
+        [
+            -121.284252,
+            38.613695
+        ]
+    ],
+    "relationships": []
 }

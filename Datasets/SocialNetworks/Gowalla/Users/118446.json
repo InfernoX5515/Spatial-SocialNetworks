@@ -5,7 +5,37 @@
     "email": "vjuarez@gmail.com",
     "birthdate": "1933-07-29",
     "phone": "288-841-8133x1597",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        27,
+        6,
+        5,
+        50,
+        24,
+        44,
+        41,
+        64,
+        36,
+        68,
+        71,
+        6
+    ],
+    "login locations": [
+        [
+            -119.77169,
+            36.797829
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                179309,
+                0.0933333333333
+            ],
+            [
+                179309,
+                0.0933333333333
+            ]
+        ]
+    ]
 }

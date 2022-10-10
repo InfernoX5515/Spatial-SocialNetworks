@@ -5,7 +5,19 @@
     "email": "mary64@yahoo.com",
     "birthdate": "1928-01-25",
     "phone": "676.428.7404",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        63,
+        45,
+        14,
+        59,
+        71
+    ],
+    "login locations": [
+        [
+            -122.434406,
+            37.771897
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "whitneysolomon@yahoo.com",
     "birthdate": "1948-07-10",
     "phone": "834.320.2414x403",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        19,
+        23,
+        37,
+        36,
+        13,
+        37,
+        32,
+        74
+    ],
+    "login locations": [
+        [
+            -118.337868,
+            34.124542
+        ]
+    ],
+    "relationships": []
 }

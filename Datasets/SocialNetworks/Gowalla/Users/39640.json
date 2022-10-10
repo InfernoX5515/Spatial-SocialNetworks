@@ -5,7 +5,27 @@
     "email": "amy55@gmail.com",
     "birthdate": "2013-12-12",
     "phone": "001-501-100-2523",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        41,
+        28,
+        40,
+        15,
+        68,
+        53,
+        3,
+        9,
+        73,
+        73,
+        19,
+        49,
+        16
+    ],
+    "login locations": [
+        [
+            -118.360402,
+            34.080956
+        ]
+    ],
+    "relationships": []
 }

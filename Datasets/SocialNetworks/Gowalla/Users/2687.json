@@ -5,7 +5,29 @@
     "email": "lisa45@hotmail.com",
     "birthdate": "1913-03-31",
     "phone": "+1-080-145-7124x238",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        63,
+        29,
+        45,
+        30
+    ],
+    "login locations": [
+        [
+            -117.278973,
+            33.942833
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2039,
+                0.01
+            ],
+            [
+                2039,
+                0.01
+            ]
+        ]
+    ]
 }

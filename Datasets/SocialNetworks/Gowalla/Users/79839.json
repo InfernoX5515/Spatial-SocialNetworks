@@ -5,7 +5,26 @@
     "email": "veronica12@gmail.com",
     "birthdate": "1955-01-18",
     "phone": "7260882397",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        30,
+        57,
+        9,
+        18,
+        59,
+        20,
+        42,
+        75,
+        69,
+        12,
+        34,
+        48
+    ],
+    "login locations": [
+        [
+            -118.335198,
+            34.054309
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "lindsay14@yahoo.com",
     "birthdate": "1971-02-04",
     "phone": "463.097.4090x5898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        47,
+        72,
+        14,
+        0,
+        43,
+        2,
+        3
+    ],
+    "login locations": [
+        [
+            -122.211247,
+            37.844743
+        ]
+    ],
+    "relationships": []
 }

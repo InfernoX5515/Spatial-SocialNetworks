@@ -5,7 +5,22 @@
     "email": "boydsteven@hotmail.com",
     "birthdate": "2010-10-26",
     "phone": "+1-886-822-9569x29836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        63,
+        63,
+        16,
+        11,
+        21,
+        50,
+        11,
+        49
+    ],
+    "login locations": [
+        [
+            -118.401192,
+            34.037131
+        ]
+    ],
+    "relationships": []
 }

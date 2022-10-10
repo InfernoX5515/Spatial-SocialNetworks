@@ -5,7 +5,23 @@
     "email": "stanleyrichard@gmail.com",
     "birthdate": "1996-10-09",
     "phone": "345.382.6808x3080",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        17,
+        49,
+        14,
+        39,
+        22,
+        6,
+        8,
+        73,
+        44
+    ],
+    "login locations": [
+        [
+            -118.335067,
+            33.95893
+        ]
+    ],
+    "relationships": []
 }

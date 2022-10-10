@@ -5,7 +5,21 @@
     "email": "guzmanvictoria@hotmail.com",
     "birthdate": "1913-03-04",
     "phone": "229.386.7951x6321",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        50,
+        55,
+        36,
+        31,
+        64,
+        21,
+        74
+    ],
+    "login locations": [
+        [
+            -120.805316,
+            38.730421
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "baxtercynthia@hotmail.com",
     "birthdate": "1922-07-30",
     "phone": "+1-961-449-6124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        45,
+        61,
+        13,
+        25,
+        56,
+        33,
+        11,
+        30,
+        36
+    ],
+    "login locations": [
+        [
+            -122.416485,
+            37.771928
+        ]
+    ],
+    "relationships": []
 }

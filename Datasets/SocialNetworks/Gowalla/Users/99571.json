@@ -5,7 +5,20 @@
     "email": "justinfletcher@yahoo.com",
     "birthdate": "1973-03-14",
     "phone": "003.903.0916",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        48,
+        53,
+        70,
+        7,
+        37,
+        31
+    ],
+    "login locations": [
+        [
+            -122.650709,
+            38.341828
+        ]
+    ],
+    "relationships": []
 }

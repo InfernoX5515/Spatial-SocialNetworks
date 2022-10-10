@@ -5,7 +5,17 @@
     "email": "rubiomegan@hotmail.com",
     "birthdate": "1973-11-08",
     "phone": "289.599.4676",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        42,
+        68,
+        75
+    ],
+    "login locations": [
+        [
+            -118.427918,
+            34.295551
+        ]
+    ],
+    "relationships": []
 }

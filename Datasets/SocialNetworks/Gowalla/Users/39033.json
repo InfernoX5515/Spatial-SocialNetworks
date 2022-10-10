@@ -5,7 +5,27 @@
     "email": "awhite@yahoo.com",
     "birthdate": "1927-09-09",
     "phone": "(952)502-1312x84276",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        49,
+        58,
+        62,
+        69,
+        10,
+        38,
+        18,
+        59,
+        30,
+        22,
+        22,
+        58,
+        45
+    ],
+    "login locations": [
+        [
+            -122.128413,
+            37.678356
+        ]
+    ],
+    "relationships": []
 }

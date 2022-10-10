@@ -5,7 +5,15 @@
     "email": "sbaker@hotmail.com",
     "birthdate": "2013-08-10",
     "phone": "001-554-867-2713x661",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        75
+    ],
+    "login locations": [
+        [
+            -122.249671,
+            37.776176
+        ]
+    ],
+    "relationships": []
 }

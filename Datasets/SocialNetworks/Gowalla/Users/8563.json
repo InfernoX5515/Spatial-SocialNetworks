@@ -5,7 +5,22 @@
     "email": "brianabrooks@gmail.com",
     "birthdate": "1958-12-30",
     "phone": "+1-226-588-7174x89094",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        12,
+        18,
+        53,
+        45,
+        43,
+        66,
+        71,
+        68
+    ],
+    "login locations": [
+        [
+            -122.28941,
+            37.853043
+        ]
+    ],
+    "relationships": []
 }

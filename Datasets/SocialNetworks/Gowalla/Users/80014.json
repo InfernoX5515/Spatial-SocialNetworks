@@ -5,7 +5,12 @@
     "email": "bpowers@hotmail.com",
     "birthdate": "1978-04-04",
     "phone": "(697)883-4917",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.151209,
+            32.759269
+        ]
+    ],
+    "relationships": []
 }

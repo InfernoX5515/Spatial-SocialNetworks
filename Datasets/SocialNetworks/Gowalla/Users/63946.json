@@ -5,7 +5,28 @@
     "email": "michele43@yahoo.com",
     "birthdate": "1945-08-27",
     "phone": "+1-823-185-0583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        68,
+        59,
+        48,
+        35,
+        3,
+        47,
+        21,
+        59,
+        45,
+        7,
+        11,
+        22,
+        3,
+        48
+    ],
+    "login locations": [
+        [
+            -122.199988,
+            37.726239
+        ]
+    ],
+    "relationships": []
 }

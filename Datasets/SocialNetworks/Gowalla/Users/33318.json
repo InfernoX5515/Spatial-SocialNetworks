@@ -5,7 +5,20 @@
     "email": "dkelly@hotmail.com",
     "birthdate": "1973-10-16",
     "phone": "001-928-221-2622x368",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        6,
+        42,
+        3,
+        65,
+        2,
+        21
+    ],
+    "login locations": [
+        [
+            -118.644722,
+            34.165074
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "eadkins@hotmail.com",
     "birthdate": "1977-03-14",
     "phone": "(820)037-1250x5767",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        8,
+        20,
+        41,
+        31,
+        13,
+        16,
+        2,
+        25,
+        37
+    ],
+    "login locations": [
+        [
+            -117.967294,
+            33.763135
+        ]
+    ],
+    "relationships": []
 }

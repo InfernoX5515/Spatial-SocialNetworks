@@ -5,7 +5,20 @@
     "email": "johnsonlynn@yahoo.com",
     "birthdate": "1981-09-11",
     "phone": "054-016-7985x811",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        10,
+        68,
+        35,
+        39,
+        20,
+        65
+    ],
+    "login locations": [
+        [
+            -122.231139,
+            37.766666
+        ]
+    ],
+    "relationships": []
 }

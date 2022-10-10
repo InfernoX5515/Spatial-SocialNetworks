@@ -5,7 +5,24 @@
     "email": "candicebowman@hotmail.com",
     "birthdate": "2020-12-12",
     "phone": "(491)123-4430x5823",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        50,
+        58,
+        27,
+        2,
+        36,
+        16,
+        45,
+        66,
+        57,
+        41
+    ],
+    "login locations": [
+        [
+            -122.085254,
+            38.233526
+        ]
+    ],
+    "relationships": []
 }

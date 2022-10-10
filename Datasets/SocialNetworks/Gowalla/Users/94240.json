@@ -5,7 +5,27 @@
     "email": "samantha86@hotmail.com",
     "birthdate": "1960-01-08",
     "phone": "360-675-7824x920",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        35,
+        22,
+        63,
+        17,
+        5,
+        7,
+        71,
+        56,
+        56,
+        58,
+        66,
+        1,
+        68
+    ],
+    "login locations": [
+        [
+            -117.921612,
+            33.88777
+        ]
+    ],
+    "relationships": []
 }

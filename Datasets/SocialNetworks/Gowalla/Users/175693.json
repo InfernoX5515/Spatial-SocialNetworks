@@ -5,7 +5,25 @@
     "email": "waltermiller@yahoo.com",
     "birthdate": "1933-10-13",
     "phone": "+1-154-697-1496x122",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        38,
+        1,
+        11,
+        27,
+        49,
+        30,
+        35,
+        39,
+        8,
+        60,
+        10
+    ],
+    "login locations": [
+        [
+            -121.850319,
+            38.581127
+        ]
+    ],
+    "relationships": []
 }

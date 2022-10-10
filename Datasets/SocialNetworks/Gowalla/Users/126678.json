@@ -5,7 +5,26 @@
     "email": "dianajuarez@hotmail.com",
     "birthdate": "1933-01-13",
     "phone": "(404)831-5533x1744",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        71,
+        70,
+        65,
+        5,
+        45,
+        63,
+        30,
+        54,
+        25,
+        58,
+        37,
+        6
+    ],
+    "login locations": [
+        [
+            -119.222202,
+            36.322655
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "tiffanyhancock@gmail.com",
     "birthdate": "1963-03-21",
     "phone": "633.722.6221x98511",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        40,
+        25,
+        1,
+        14,
+        6,
+        61,
+        38,
+        73,
+        62,
+        39,
+        72,
+        20,
+        57
+    ],
+    "login locations": [
+        [
+            -121.70197,
+            37.175791
+        ]
+    ],
+    "relationships": []
 }

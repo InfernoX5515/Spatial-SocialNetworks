@@ -5,7 +5,35 @@
     "email": "iramirez@gmail.com",
     "birthdate": "1944-11-13",
     "phone": "(278)047-2379x311",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        20,
+        22,
+        48,
+        26,
+        26,
+        64,
+        24,
+        55,
+        16,
+        47
+    ],
+    "login locations": [
+        [
+            -117.889275,
+            33.98571
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7231,
+                0.04
+            ],
+            [
+                7231,
+                0.04
+            ]
+        ]
+    ]
 }

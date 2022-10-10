@@ -5,7 +5,14 @@
     "email": "ihunt@hotmail.com",
     "birthdate": "1929-07-11",
     "phone": "109.394.0766x26839",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50
+    ],
+    "login locations": [
+        [
+            -122.412292,
+            37.781808
+        ]
+    ],
+    "relationships": []
 }

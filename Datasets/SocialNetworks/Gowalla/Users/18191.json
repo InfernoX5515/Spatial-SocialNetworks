@@ -5,7 +5,38 @@
     "email": "yolsen@yahoo.com",
     "birthdate": "2020-02-12",
     "phone": "+1-150-414-5551x8689",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        21,
+        40,
+        49,
+        7,
+        6,
+        58,
+        29,
+        73,
+        7,
+        54,
+        75,
+        2,
+        58
+    ],
+    "login locations": [
+        [
+            -118.222104,
+            34.042118
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                487,
+                0.0210526315789
+            ],
+            [
+                5448,
+                0.131355932203
+            ]
+        ]
+    ]
 }

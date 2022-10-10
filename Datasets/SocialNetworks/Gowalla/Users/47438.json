@@ -5,7 +5,27 @@
     "email": "hunterflores@yahoo.com",
     "birthdate": "1944-01-04",
     "phone": "1413354438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        24,
+        5,
+        38,
+        72,
+        5,
+        13,
+        5,
+        11,
+        65,
+        27,
+        37,
+        42,
+        51
+    ],
+    "login locations": [
+        [
+            -122.411252,
+            37.748249
+        ]
+    ],
+    "relationships": []
 }

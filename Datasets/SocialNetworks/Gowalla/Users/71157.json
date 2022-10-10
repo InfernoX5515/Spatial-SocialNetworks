@@ -5,7 +5,26 @@
     "email": "jerry25@hotmail.com",
     "birthdate": "1962-01-26",
     "phone": "451-487-2543",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        67,
+        38,
+        27,
+        24,
+        53,
+        35,
+        29,
+        18,
+        71,
+        1,
+        74,
+        30
+    ],
+    "login locations": [
+        [
+            -122.408747,
+            37.720596
+        ]
+    ],
+    "relationships": []
 }

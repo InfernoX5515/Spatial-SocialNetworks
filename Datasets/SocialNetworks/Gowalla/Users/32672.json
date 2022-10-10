@@ -5,7 +5,25 @@
     "email": "molly45@gmail.com",
     "birthdate": "2001-11-24",
     "phone": "001-485-620-1007",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        12,
+        36,
+        73,
+        23,
+        9,
+        59,
+        8,
+        46,
+        37,
+        68,
+        14
+    ],
+    "login locations": [
+        [
+            -118.525856,
+            34.046366
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "fpayne@yahoo.com",
     "birthdate": "2011-05-17",
     "phone": "+1-156-433-7720",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        68,
+        38,
+        12,
+        38,
+        13,
+        20,
+        39,
+        3,
+        74,
+        56,
+        44
+    ],
+    "login locations": [
+        [
+            -117.241749,
+            32.802837
+        ]
+    ],
+    "relationships": []
 }

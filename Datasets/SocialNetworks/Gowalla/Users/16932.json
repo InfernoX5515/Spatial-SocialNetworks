@@ -5,7 +5,19 @@
     "email": "diana74@hotmail.com",
     "birthdate": "1954-12-18",
     "phone": "023.597.6888",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        15,
+        6,
+        18,
+        46,
+        37
+    ],
+    "login locations": [
+        [
+            -118.01303,
+            34.138797
+        ]
+    ],
+    "relationships": []
 }

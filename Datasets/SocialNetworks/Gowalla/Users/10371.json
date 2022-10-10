@@ -5,7 +5,32 @@
     "email": "klawson@gmail.com",
     "birthdate": "2011-04-12",
     "phone": "001-088-053-4028x10966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        63,
+        40,
+        28,
+        69,
+        73,
+        36,
+        2
+    ],
+    "login locations": [
+        [
+            -122.336364,
+            37.574913
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.01
+            ],
+            [
+                10442,
+                0.01
+            ]
+        ]
+    ]
 }

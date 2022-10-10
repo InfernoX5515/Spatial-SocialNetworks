@@ -5,7 +5,27 @@
     "email": "torreslaura@gmail.com",
     "birthdate": "1959-09-22",
     "phone": "022-710-7166",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        51,
+        46,
+        29,
+        64,
+        56,
+        53,
+        61,
+        12,
+        22,
+        63,
+        52,
+        41,
+        61
+    ],
+    "login locations": [
+        [
+            -122.173499,
+            37.772168
+        ]
+    ],
+    "relationships": []
 }

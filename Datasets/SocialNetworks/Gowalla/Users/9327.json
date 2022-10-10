@@ -5,7 +5,23 @@
     "email": "johnsonjacob@yahoo.com",
     "birthdate": "1955-05-01",
     "phone": "+1-883-175-9749x090",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        38,
+        75,
+        19,
+        13,
+        6,
+        34,
+        58,
+        21,
+        34
+    ],
+    "login locations": [
+        [
+            -122.399803,
+            37.760465
+        ]
+    ],
+    "relationships": []
 }

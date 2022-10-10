@@ -5,7 +5,23 @@
     "email": "tracylittle@hotmail.com",
     "birthdate": "1943-09-19",
     "phone": "001-078-447-7153x60775",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.076241,
+            37.401968
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                478,
+                0.01
+            ],
+            [
+                600,
+                0.01
+            ]
+        ]
+    ]
 }

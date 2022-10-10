@@ -5,7 +5,27 @@
     "email": "justin89@hotmail.com",
     "birthdate": "1932-05-30",
     "phone": "389.941.5643",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        58,
+        5,
+        61,
+        58,
+        58,
+        2,
+        30,
+        4,
+        5,
+        44,
+        52,
+        74,
+        75
+    ],
+    "login locations": [
+        [
+            -122.030329,
+            37.330588
+        ]
+    ],
+    "relationships": []
 }

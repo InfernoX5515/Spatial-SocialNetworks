@@ -5,7 +5,25 @@
     "email": "robertsvickie@yahoo.com",
     "birthdate": "1936-09-19",
     "phone": "+1-952-646-9836x57145",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        13,
+        32,
+        17,
+        6,
+        55,
+        60,
+        13,
+        53,
+        57,
+        25,
+        44
+    ],
+    "login locations": [
+        [
+            -122.177164,
+            37.870818
+        ]
+    ],
+    "relationships": []
 }

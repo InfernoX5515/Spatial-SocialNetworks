@@ -5,7 +5,31 @@
     "email": "ashleymiller@yahoo.com",
     "birthdate": "2022-02-18",
     "phone": "(283)489-3904x65424",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        5,
+        60,
+        26,
+        71,
+        0,
+        0
+    ],
+    "login locations": [
+        [
+            -122.002797,
+            37.365639
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.01
+            ],
+            [
+                285,
+                0.01
+            ]
+        ]
+    ]
 }

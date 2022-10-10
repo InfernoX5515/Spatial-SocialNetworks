@@ -5,7 +5,27 @@
     "email": "tinafisher@yahoo.com",
     "birthdate": "1909-10-21",
     "phone": "641-388-9281x353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        39,
+        15,
+        49,
+        25,
+        3,
+        33,
+        67,
+        69,
+        61,
+        21,
+        43,
+        60,
+        30
+    ],
+    "login locations": [
+        [
+            -122.083006,
+            37.61565
+        ]
+    ],
+    "relationships": []
 }

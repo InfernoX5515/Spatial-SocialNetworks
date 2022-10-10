@@ -5,7 +5,18 @@
     "email": "emorrison@hotmail.com",
     "birthdate": "1980-09-07",
     "phone": "195-236-9789x6172",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        17,
+        38,
+        55,
+        16
+    ],
+    "login locations": [
+        [
+            -122.437739,
+            37.769548
+        ]
+    ],
+    "relationships": []
 }

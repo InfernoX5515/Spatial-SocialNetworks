@@ -5,7 +5,27 @@
     "email": "james03@yahoo.com",
     "birthdate": "2018-07-13",
     "phone": "(174)980-1535",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        67,
+        6,
+        37,
+        54,
+        37,
+        66,
+        66,
+        39,
+        59,
+        13,
+        65,
+        14,
+        59
+    ],
+    "login locations": [
+        [
+            -118.30037,
+            33.834938
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "micheal33@hotmail.com",
     "birthdate": "1962-11-22",
     "phone": "144.913.3626x0212",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        17,
+        18
+    ],
+    "login locations": [
+        [
+            -118.10812,
+            33.923536
+        ]
+    ],
+    "relationships": []
 }

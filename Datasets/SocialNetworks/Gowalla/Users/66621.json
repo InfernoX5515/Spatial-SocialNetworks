@@ -5,7 +5,26 @@
     "email": "peggy16@yahoo.com",
     "birthdate": "1910-06-10",
     "phone": "478-239-5968x108",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        29
+    ],
+    "login locations": [
+        [
+            -122.41182,
+            37.739597
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3128,
+                0.190476190476
+            ],
+            [
+                3128,
+                0.190476190476
+            ]
+        ]
+    ]
 }

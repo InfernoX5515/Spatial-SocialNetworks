@@ -5,7 +5,28 @@
     "email": "kellynewton@yahoo.com",
     "birthdate": "1928-06-08",
     "phone": "(793)727-7301",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        68,
+        45,
+        2,
+        29,
+        47,
+        12,
+        29,
+        36,
+        46,
+        23,
+        29,
+        26,
+        66,
+        72
+    ],
+    "login locations": [
+        [
+            -117.894268,
+            33.987238
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "garciamichael@hotmail.com",
     "birthdate": "1954-02-02",
     "phone": "625.590.1631x6370",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        45,
+        33,
+        12,
+        0,
+        70,
+        1,
+        23,
+        75,
+        4
+    ],
+    "login locations": [
+        [
+            -118.325404,
+            34.089288
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "clayjason@hotmail.com",
     "birthdate": "1915-01-03",
     "phone": "+1-865-016-3763x5764",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        75,
+        11,
+        36,
+        71
+    ],
+    "login locations": [
+        [
+            -122.408801,
+            37.776404
+        ]
+    ],
+    "relationships": []
 }

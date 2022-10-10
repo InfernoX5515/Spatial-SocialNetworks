@@ -5,7 +5,22 @@
     "email": "michael76@yahoo.com",
     "birthdate": "1950-07-23",
     "phone": "001-572-493-1382x9475",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        49,
+        7,
+        39,
+        31,
+        48,
+        58,
+        45,
+        59
+    ],
+    "login locations": [
+        [
+            -117.934426,
+            33.703452
+        ]
+    ],
+    "relationships": []
 }

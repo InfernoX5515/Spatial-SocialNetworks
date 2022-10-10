@@ -5,7 +5,21 @@
     "email": "osteele@hotmail.com",
     "birthdate": "1966-11-08",
     "phone": "(144)356-8391",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        35,
+        12,
+        0,
+        8,
+        25,
+        27,
+        21
+    ],
+    "login locations": [
+        [
+            -122.001668,
+            37.019847
+        ]
+    ],
+    "relationships": []
 }

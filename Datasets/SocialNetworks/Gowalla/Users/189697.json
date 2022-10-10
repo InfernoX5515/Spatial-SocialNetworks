@@ -5,7 +5,23 @@
     "email": "saradecker@gmail.com",
     "birthdate": "1919-05-31",
     "phone": "001-258-849-1109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        9,
+        36,
+        40,
+        3,
+        44,
+        11,
+        57,
+        39,
+        49
+    ],
+    "login locations": [
+        [
+            -122.401451,
+            37.783798
+        ]
+    ],
+    "relationships": []
 }

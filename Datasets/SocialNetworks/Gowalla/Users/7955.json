@@ -5,7 +5,27 @@
     "email": "raychristina@hotmail.com",
     "birthdate": "1917-12-03",
     "phone": "6023381160",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        68,
+        73,
+        43,
+        36,
+        12,
+        30,
+        75,
+        34,
+        51,
+        73,
+        56,
+        17,
+        54
+    ],
+    "login locations": [
+        [
+            -122.30018,
+            37.600917
+        ]
+    ],
+    "relationships": []
 }

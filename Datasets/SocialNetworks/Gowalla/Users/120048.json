@@ -5,7 +5,39 @@
     "email": "biancakane@yahoo.com",
     "birthdate": "1908-05-03",
     "phone": "432.102.4086",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        59,
+        32,
+        47,
+        41,
+        28,
+        34,
+        38,
+        5,
+        49,
+        26,
+        11,
+        23,
+        70,
+        45
+    ],
+    "login locations": [
+        [
+            -119.695181,
+            36.703152
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                120051,
+                0.138888888889
+            ],
+            [
+                120049,
+                0.352941176471
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,34 @@
     "email": "larryturner@yahoo.com",
     "birthdate": "1967-06-05",
     "phone": "(236)296-2961x53133",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        17,
+        13,
+        40,
+        53,
+        71,
+        15,
+        1,
+        70,
+        44
+    ],
+    "login locations": [
+        [
+            -122.409184,
+            37.748662
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                478,
+                0.01
+            ],
+            [
+                4244,
+                0.0384615384615
+            ]
+        ]
+    ]
 }

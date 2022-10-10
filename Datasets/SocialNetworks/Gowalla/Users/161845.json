@@ -5,7 +5,15 @@
     "email": "phillipanderson@yahoo.com",
     "birthdate": "1948-06-25",
     "phone": "724.973.1149x90305",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        7
+    ],
+    "login locations": [
+        [
+            -121.99494,
+            37.213573
+        ]
+    ],
+    "relationships": []
 }

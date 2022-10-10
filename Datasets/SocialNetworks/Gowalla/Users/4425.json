@@ -5,7 +5,14 @@
     "email": "jcarter@yahoo.com",
     "birthdate": "2016-09-16",
     "phone": "(487)325-1665x642",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51
+    ],
+    "login locations": [
+        [
+            -122.335036,
+            37.80708
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "kenneth36@hotmail.com",
     "birthdate": "1930-07-19",
     "phone": "0935338819",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        0,
+        54,
+        61,
+        48,
+        39,
+        14,
+        31
+    ],
+    "login locations": [
+        [
+            -121.424778,
+            38.60514
+        ]
+    ],
+    "relationships": []
 }

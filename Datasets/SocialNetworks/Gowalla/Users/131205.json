@@ -5,7 +5,26 @@
     "email": "stephanie79@gmail.com",
     "birthdate": "1943-04-04",
     "phone": "(229)111-1188x60096",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        8,
+        26,
+        48,
+        16,
+        39,
+        28,
+        54,
+        27,
+        7,
+        74,
+        21,
+        45
+    ],
+    "login locations": [
+        [
+            -118.428364,
+            34.064361
+        ]
+    ],
+    "relationships": []
 }

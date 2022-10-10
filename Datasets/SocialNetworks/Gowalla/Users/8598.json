@@ -5,7 +5,19 @@
     "email": "ismith@hotmail.com",
     "birthdate": "1934-03-14",
     "phone": "148.534.1987",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        27,
+        44,
+        24,
+        29,
+        39
+    ],
+    "login locations": [
+        [
+            -122.286126,
+            37.853483
+        ]
+    ],
+    "relationships": []
 }

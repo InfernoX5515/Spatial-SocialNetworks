@@ -5,7 +5,28 @@
     "email": "kleinandrew@hotmail.com",
     "birthdate": "1994-05-15",
     "phone": "599-687-0688",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        27,
+        59,
+        75,
+        63,
+        54,
+        75,
+        46,
+        9,
+        66,
+        16,
+        72,
+        36,
+        4,
+        41
+    ],
+    "login locations": [
+        [
+            -117.725318,
+            33.595686
+        ]
+    ],
+    "relationships": []
 }

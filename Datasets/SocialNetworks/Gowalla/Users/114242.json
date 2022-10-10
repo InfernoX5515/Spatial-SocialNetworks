@@ -5,7 +5,28 @@
     "email": "sabrina04@gmail.com",
     "birthdate": "2013-05-17",
     "phone": "001-574-369-5752",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        10,
+        25,
+        27,
+        14,
+        4,
+        45,
+        60,
+        53,
+        34,
+        29,
+        4,
+        49,
+        52,
+        46
+    ],
+    "login locations": [
+        [
+            -118.397888,
+            34.032843
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "mmiller@gmail.com",
     "birthdate": "1908-05-18",
     "phone": "001-168-067-6558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        8,
+        27,
+        68,
+        32,
+        56,
+        72,
+        73,
+        62,
+        12,
+        56,
+        39,
+        29
+    ],
+    "login locations": [
+        [
+            -117.828893,
+            34.095986
+        ]
+    ],
+    "relationships": []
 }

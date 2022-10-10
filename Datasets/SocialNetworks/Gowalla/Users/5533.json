@@ -5,7 +5,27 @@
     "email": "christina61@gmail.com",
     "birthdate": "2007-07-28",
     "phone": "+1-500-995-0776x12357",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        23,
+        45,
+        73,
+        24,
+        36,
+        46,
+        16,
+        71,
+        19,
+        30,
+        11,
+        57,
+        45
+    ],
+    "login locations": [
+        [
+            -122.412059,
+            37.739867
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "wsmith@hotmail.com",
     "birthdate": "1919-07-25",
     "phone": "001-307-407-8416x5333",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        43,
+        57
+    ],
+    "login locations": [
+        [
+            -122.713144,
+            38.430282
+        ]
+    ],
+    "relationships": []
 }

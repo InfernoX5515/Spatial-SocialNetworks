@@ -5,7 +5,20 @@
     "email": "arnoldhailey@hotmail.com",
     "birthdate": "1993-05-12",
     "phone": "189.653.3200x236",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        21,
+        22,
+        25,
+        33,
+        13,
+        33
+    ],
+    "login locations": [
+        [
+            -122.402542,
+            37.780706
+        ]
+    ],
+    "relationships": []
 }

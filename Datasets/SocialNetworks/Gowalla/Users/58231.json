@@ -5,7 +5,23 @@
     "email": "sarahmartin@hotmail.com",
     "birthdate": "1926-10-29",
     "phone": "+1-928-566-9240",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        32,
+        66,
+        43,
+        44,
+        65,
+        15,
+        2,
+        51,
+        10
+    ],
+    "login locations": [
+        [
+            -118.250431,
+            34.043704
+        ]
+    ],
+    "relationships": []
 }

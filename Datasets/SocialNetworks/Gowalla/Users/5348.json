@@ -5,7 +5,24 @@
     "email": "lisa91@hotmail.com",
     "birthdate": "1981-01-20",
     "phone": "9284527514",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        26,
+        65,
+        20,
+        14,
+        49,
+        67,
+        2,
+        71,
+        1,
+        15
+    ],
+    "login locations": [
+        [
+            -122.413975,
+            37.790128
+        ]
+    ],
+    "relationships": []
 }

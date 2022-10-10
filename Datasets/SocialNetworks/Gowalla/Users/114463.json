@@ -5,7 +5,28 @@
     "email": "traciewilliams@gmail.com",
     "birthdate": "1909-08-22",
     "phone": "(296)457-8778x952",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        36,
+        7,
+        35,
+        70,
+        12,
+        36,
+        41,
+        65,
+        57,
+        70,
+        1,
+        73,
+        17,
+        32
+    ],
+    "login locations": [
+        [
+            -121.968069,
+            37.390106
+        ]
+    ],
+    "relationships": []
 }

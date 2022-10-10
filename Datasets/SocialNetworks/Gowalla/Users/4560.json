@@ -5,7 +5,25 @@
     "email": "james52@gmail.com",
     "birthdate": "1971-02-12",
     "phone": "001-122-347-0967x079",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27
+    ],
+    "login locations": [
+        [
+            -122.402297,
+            37.760729
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1466,
+                0.02
+            ],
+            [
+                1523,
+                0.01
+            ]
+        ]
+    ]
 }

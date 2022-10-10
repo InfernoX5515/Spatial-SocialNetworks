@@ -5,7 +5,18 @@
     "email": "cynthia09@yahoo.com",
     "birthdate": "1998-05-16",
     "phone": "095.104.9323",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        32,
+        0,
+        32,
+        68
+    ],
+    "login locations": [
+        [
+            -122.426703,
+            37.772539
+        ]
+    ],
+    "relationships": []
 }

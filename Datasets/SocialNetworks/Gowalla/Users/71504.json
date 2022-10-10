@@ -5,7 +5,21 @@
     "email": "michael50@gmail.com",
     "birthdate": "1998-09-05",
     "phone": "2020478123",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        14,
+        32,
+        17,
+        33,
+        26,
+        10,
+        24
+    ],
+    "login locations": [
+        [
+            -122.079291,
+            37.420444
+        ]
+    ],
+    "relationships": []
 }

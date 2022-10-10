@@ -5,7 +5,19 @@
     "email": "michael34@yahoo.com",
     "birthdate": "1947-06-15",
     "phone": "(051)478-3873x703",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        16,
+        29,
+        44,
+        16,
+        63
+    ],
+    "login locations": [
+        [
+            -117.130634,
+            33.003719
+        ]
+    ],
+    "relationships": []
 }

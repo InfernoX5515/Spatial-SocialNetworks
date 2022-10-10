@@ -5,7 +5,15 @@
     "email": "csmith@yahoo.com",
     "birthdate": "2021-12-03",
     "phone": "920-882-8626",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        17
+    ],
+    "login locations": [
+        [
+            -122.426655,
+            37.77032
+        ]
+    ],
+    "relationships": []
 }

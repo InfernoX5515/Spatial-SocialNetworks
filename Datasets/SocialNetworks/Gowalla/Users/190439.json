@@ -5,7 +5,19 @@
     "email": "ortizcrystal@yahoo.com",
     "birthdate": "2013-12-02",
     "phone": "741.862.5913",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        29,
+        37,
+        24,
+        35,
+        38
+    ],
+    "login locations": [
+        [
+            -117.219305,
+            32.798603
+        ]
+    ],
+    "relationships": []
 }

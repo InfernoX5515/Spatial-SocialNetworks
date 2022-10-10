@@ -5,7 +5,20 @@
     "email": "jwatkins@yahoo.com",
     "birthdate": "1931-02-25",
     "phone": "633.346.0475",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        39,
+        39,
+        23,
+        17,
+        39,
+        56
+    ],
+    "login locations": [
+        [
+            -118.379106,
+            34.029021
+        ]
+    ],
+    "relationships": []
 }

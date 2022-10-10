@@ -5,7 +5,25 @@
     "email": "gonzalezscott@yahoo.com",
     "birthdate": "1924-01-15",
     "phone": "001-810-065-7241",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        3,
+        25,
+        20,
+        18,
+        15,
+        47,
+        22,
+        75,
+        68,
+        72,
+        34
+    ],
+    "login locations": [
+        [
+            -122.16326,
+            37.423306
+        ]
+    ],
+    "relationships": []
 }

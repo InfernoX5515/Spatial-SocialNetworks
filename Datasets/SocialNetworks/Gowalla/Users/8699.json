@@ -5,7 +5,21 @@
     "email": "gonzalezmichael@hotmail.com",
     "birthdate": "2019-05-10",
     "phone": "(908)486-9141x01371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        42,
+        16,
+        6,
+        30,
+        59,
+        52,
+        26
+    ],
+    "login locations": [
+        [
+            -122.251698,
+            37.782646
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "jfoley@hotmail.com",
     "birthdate": "1906-11-19",
     "phone": "(536)863-1521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        26,
+        41,
+        63,
+        68,
+        4,
+        34,
+        5,
+        45,
+        16,
+        22
+    ],
+    "login locations": [
+        [
+            -117.329823,
+            34.519323
+        ]
+    ],
+    "relationships": []
 }

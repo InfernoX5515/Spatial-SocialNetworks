@@ -5,7 +5,26 @@
     "email": "kelsey06@gmail.com",
     "birthdate": "1921-12-11",
     "phone": "+1-439-253-8320x4009",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        49,
+        59,
+        10,
+        65,
+        75,
+        38,
+        41,
+        5,
+        16,
+        59,
+        26,
+        4
+    ],
+    "login locations": [
+        [
+            -122.404129,
+            37.782945
+        ]
+    ],
+    "relationships": []
 }

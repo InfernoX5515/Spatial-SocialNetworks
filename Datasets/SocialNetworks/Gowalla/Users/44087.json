@@ -5,7 +5,15 @@
     "email": "deborah12@gmail.com",
     "birthdate": "2015-05-29",
     "phone": "001-414-314-5369x282",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        38
+    ],
+    "login locations": [
+        [
+            -118.253716,
+            34.042024
+        ]
+    ],
+    "relationships": []
 }

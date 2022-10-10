@@ -5,7 +5,15 @@
     "email": "ronald98@yahoo.com",
     "birthdate": "1990-04-21",
     "phone": "099-599-3864x82169",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        0
+    ],
+    "login locations": [
+        [
+            -121.804696,
+            37.213371
+        ]
+    ],
+    "relationships": []
 }

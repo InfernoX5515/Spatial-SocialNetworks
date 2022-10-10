@@ -5,7 +5,24 @@
     "email": "sanchezsamantha@hotmail.com",
     "birthdate": "1921-05-11",
     "phone": "025-677-0138",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        8,
+        2,
+        39,
+        20,
+        37,
+        32,
+        4,
+        54,
+        35,
+        54
+    ],
+    "login locations": [
+        [
+            -122.401061,
+            37.775754
+        ]
+    ],
+    "relationships": []
 }

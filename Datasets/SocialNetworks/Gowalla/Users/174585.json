@@ -5,7 +5,14 @@
     "email": "mbond@yahoo.com",
     "birthdate": "1930-12-08",
     "phone": "001-542-447-6717",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17
+    ],
+    "login locations": [
+        [
+            -118.796074,
+            34.26219
+        ]
+    ],
+    "relationships": []
 }

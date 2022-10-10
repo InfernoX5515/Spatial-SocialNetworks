@@ -5,7 +5,27 @@
     "email": "stevenskelsey@hotmail.com",
     "birthdate": "2019-08-28",
     "phone": "(575)252-9424x3601",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        69,
+        33,
+        69,
+        62,
+        26,
+        4,
+        44,
+        3,
+        5,
+        13,
+        7,
+        20,
+        50
+    ],
+    "login locations": [
+        [
+            -117.749326,
+            34.101471
+        ]
+    ],
+    "relationships": []
 }

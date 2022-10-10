@@ -5,7 +5,18 @@
     "email": "hwalker@gmail.com",
     "birthdate": "1977-08-04",
     "phone": "647.607.8870x970",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        39,
+        24,
+        75,
+        8
+    ],
+    "login locations": [
+        [
+            -121.930885,
+            37.335756
+        ]
+    ],
+    "relationships": []
 }

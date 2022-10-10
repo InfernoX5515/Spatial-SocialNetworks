@@ -5,7 +5,20 @@
     "email": "wcoffey@gmail.com",
     "birthdate": "1930-09-24",
     "phone": "(406)108-9929",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        39,
+        8,
+        32,
+        23,
+        11,
+        36
+    ],
+    "login locations": [
+        [
+            -122.385669,
+            37.753473
+        ]
+    ],
+    "relationships": []
 }

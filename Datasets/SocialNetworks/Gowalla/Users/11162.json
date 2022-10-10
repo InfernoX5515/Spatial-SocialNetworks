@@ -5,7 +5,24 @@
     "email": "leahwagner@hotmail.com",
     "birthdate": "1928-01-20",
     "phone": "403.302.1539x402",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        23,
+        19,
+        52,
+        2,
+        31,
+        58,
+        70,
+        75,
+        25,
+        20
+    ],
+    "login locations": [
+        [
+            -118.32992,
+            34.101698
+        ]
+    ],
+    "relationships": []
 }

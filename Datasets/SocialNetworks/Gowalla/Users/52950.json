@@ -5,7 +5,22 @@
     "email": "cindy53@yahoo.com",
     "birthdate": "2013-04-16",
     "phone": "845.025.7481",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        7,
+        48,
+        7,
+        19,
+        67,
+        59,
+        34,
+        56
+    ],
+    "login locations": [
+        [
+            -118.300758,
+            33.954863
+        ]
+    ],
+    "relationships": []
 }

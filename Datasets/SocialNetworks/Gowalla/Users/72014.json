@@ -5,7 +5,37 @@
     "email": "wendy12@hotmail.com",
     "birthdate": "2006-09-05",
     "phone": "933-678-6439x707",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        19,
+        62,
+        17,
+        1,
+        22,
+        37,
+        69,
+        55,
+        25,
+        23,
+        54,
+        35
+    ],
+    "login locations": [
+        [
+            -122.429955,
+            37.75961
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4473,
+                0.153846153846
+            ],
+            [
+                4473,
+                0.153846153846
+            ]
+        ]
+    ]
 }

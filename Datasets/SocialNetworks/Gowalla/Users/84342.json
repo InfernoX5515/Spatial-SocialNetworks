@@ -5,7 +5,22 @@
     "email": "pvelazquez@gmail.com",
     "birthdate": "1924-02-14",
     "phone": "5341888553",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        4,
+        37,
+        70,
+        27,
+        2,
+        72,
+        6,
+        48
+    ],
+    "login locations": [
+        [
+            -122.289419,
+            37.844314
+        ]
+    ],
+    "relationships": []
 }

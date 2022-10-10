@@ -5,7 +5,19 @@
     "email": "michael97@gmail.com",
     "birthdate": "2000-01-16",
     "phone": "001-098-022-6619",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        75,
+        55,
+        25,
+        25,
+        1
+    ],
+    "login locations": [
+        [
+            -122.419066,
+            37.754036
+        ]
+    ],
+    "relationships": []
 }

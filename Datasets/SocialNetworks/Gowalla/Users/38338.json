@@ -5,7 +5,23 @@
     "email": "monica04@yahoo.com",
     "birthdate": "1930-07-21",
     "phone": "+1-425-531-9906",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        24,
+        42,
+        35,
+        16,
+        0,
+        60,
+        11,
+        70,
+        70
+    ],
+    "login locations": [
+        [
+            -118.332848,
+            34.11351
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "reynoldswesley@yahoo.com",
     "birthdate": "2011-10-11",
     "phone": "(221)057-4553x417",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        9,
+        45,
+        41
+    ],
+    "login locations": [
+        [
+            -122.420386,
+            37.779443
+        ]
+    ],
+    "relationships": []
 }

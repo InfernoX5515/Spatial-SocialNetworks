@@ -5,7 +5,38 @@
     "email": "pwalsh@hotmail.com",
     "birthdate": "2007-07-16",
     "phone": "001-796-154-7878x80653",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        74,
+        72,
+        67,
+        25,
+        31,
+        68,
+        16,
+        65,
+        16,
+        48,
+        66,
+        63,
+        49
+    ],
+    "login locations": [
+        [
+            -118.451173,
+            34.154199
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22735,
+                0.04
+            ],
+            [
+                114251,
+                0.0125
+            ]
+        ]
+    ]
 }

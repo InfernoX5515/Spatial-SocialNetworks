@@ -5,7 +5,22 @@
     "email": "cheryl95@yahoo.com",
     "birthdate": "1919-03-22",
     "phone": "(800)564-2657x9332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        8,
+        23,
+        73,
+        21,
+        63,
+        43,
+        14,
+        31
+    ],
+    "login locations": [
+        [
+            -118.098556,
+            33.885172
+        ]
+    ],
+    "relationships": []
 }

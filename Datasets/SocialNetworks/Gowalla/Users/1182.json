@@ -5,7 +5,26 @@
     "email": "annejenkins@yahoo.com",
     "birthdate": "1938-11-12",
     "phone": "451.819.1775x0461",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        2,
+        14,
+        5,
+        27,
+        29,
+        71,
+        6,
+        60,
+        64,
+        66,
+        14,
+        9
+    ],
+    "login locations": [
+        [
+            -122.705557,
+            38.407044
+        ]
+    ],
+    "relationships": []
 }

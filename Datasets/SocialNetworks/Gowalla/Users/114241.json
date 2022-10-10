@@ -5,7 +5,21 @@
     "email": "brianfernandez@yahoo.com",
     "birthdate": "2018-07-16",
     "phone": "+1-470-940-1962",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        74,
+        51,
+        46,
+        29,
+        69,
+        45,
+        7
+    ],
+    "login locations": [
+        [
+            -118.271444,
+            34.071979
+        ]
+    ],
+    "relationships": []
 }

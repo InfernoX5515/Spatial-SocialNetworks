@@ -5,7 +5,28 @@
     "email": "victor75@hotmail.com",
     "birthdate": "1999-07-11",
     "phone": "001-124-343-9389",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        34,
+        36,
+        6,
+        19,
+        73,
+        38,
+        40,
+        26,
+        3,
+        65,
+        22,
+        37,
+        22,
+        72
+    ],
+    "login locations": [
+        [
+            -122.391032,
+            37.782511
+        ]
+    ],
+    "relationships": []
 }

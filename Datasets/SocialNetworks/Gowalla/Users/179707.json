@@ -5,7 +5,24 @@
     "email": "fchambers@yahoo.com",
     "birthdate": "1960-08-11",
     "phone": "001-014-447-7149x4181",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        72,
+        33,
+        28,
+        22,
+        22,
+        16,
+        24,
+        73,
+        25,
+        75
+    ],
+    "login locations": [
+        [
+            -122.259656,
+            38.196698
+        ]
+    ],
+    "relationships": []
 }

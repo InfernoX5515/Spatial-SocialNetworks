@@ -5,7 +5,28 @@
     "email": "joneselizabeth@gmail.com",
     "birthdate": "1971-11-15",
     "phone": "+1-929-582-6466x8652",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        13,
+        8,
+        45,
+        22,
+        13,
+        20,
+        2,
+        45,
+        72,
+        55,
+        48,
+        17,
+        34,
+        36
+    ],
+    "login locations": [
+        [
+            -118.105165,
+            33.975624
+        ]
+    ],
+    "relationships": []
 }

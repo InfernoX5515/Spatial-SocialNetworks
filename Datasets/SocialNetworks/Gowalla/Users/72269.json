@@ -5,7 +5,16 @@
     "email": "wking@hotmail.com",
     "birthdate": "1910-01-13",
     "phone": "493.045.9182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        56,
+        73
+    ],
+    "login locations": [
+        [
+            -117.169056,
+            32.720222
+        ]
+    ],
+    "relationships": []
 }

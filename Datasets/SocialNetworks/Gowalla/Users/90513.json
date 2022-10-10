@@ -5,7 +5,26 @@
     "email": "josephwilliams@gmail.com",
     "birthdate": "1992-01-05",
     "phone": "(478)185-7162x9730",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        75,
+        15,
+        57,
+        35,
+        49,
+        53,
+        1,
+        72,
+        29,
+        25,
+        57,
+        4
+    ],
+    "login locations": [
+        [
+            -118.30692,
+            34.053858
+        ]
+    ],
+    "relationships": []
 }

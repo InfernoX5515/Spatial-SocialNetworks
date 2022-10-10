@@ -5,7 +5,26 @@
     "email": "christina30@hotmail.com",
     "birthdate": "1937-05-18",
     "phone": "001-488-066-8734",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        36,
+        14,
+        63,
+        53,
+        39,
+        43,
+        41,
+        14,
+        32,
+        4,
+        6,
+        37
+    ],
+    "login locations": [
+        [
+            -118.321233,
+            33.98107
+        ]
+    ],
+    "relationships": []
 }

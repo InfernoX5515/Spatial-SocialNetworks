@@ -5,7 +5,24 @@
     "email": "henryjamie@hotmail.com",
     "birthdate": "1986-04-12",
     "phone": "+1-996-125-1295x30145",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        36,
+        66,
+        1,
+        23,
+        46,
+        72,
+        69,
+        36,
+        54,
+        46
+    ],
+    "login locations": [
+        [
+            -121.997665,
+            37.37918
+        ]
+    ],
+    "relationships": []
 }

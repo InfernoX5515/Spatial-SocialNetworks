@@ -5,7 +5,27 @@
     "email": "lisabrooks@yahoo.com",
     "birthdate": "1915-06-29",
     "phone": "+1-338-318-2393x09946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        2,
+        9,
+        71,
+        41,
+        65,
+        6,
+        66,
+        5,
+        60,
+        41,
+        8,
+        32,
+        32
+    ],
+    "login locations": [
+        [
+            -121.353996,
+            38.306283
+        ]
+    ],
+    "relationships": []
 }

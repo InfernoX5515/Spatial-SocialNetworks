@@ -5,7 +5,27 @@
     "email": "jaclynlong@hotmail.com",
     "birthdate": "2014-01-12",
     "phone": "(133)287-2522",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        30,
+        67,
+        69,
+        70,
+        3,
+        71,
+        37,
+        70,
+        65,
+        43,
+        14,
+        0,
+        2
+    ],
+    "login locations": [
+        [
+            -119.040428,
+            35.342413
+        ]
+    ],
+    "relationships": []
 }

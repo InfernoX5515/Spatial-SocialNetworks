@@ -5,7 +5,17 @@
     "email": "kimtracy@gmail.com",
     "birthdate": "1956-01-05",
     "phone": "694-558-2563x490",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        52,
+        51,
+        62
+    ],
+    "login locations": [
+        [
+            -118.40126,
+            33.94592
+        ]
+    ],
+    "relationships": []
 }

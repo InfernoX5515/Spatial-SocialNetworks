@@ -5,7 +5,22 @@
     "email": "emartin@hotmail.com",
     "birthdate": "1985-07-11",
     "phone": "(858)610-1591x138",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        66,
+        36,
+        55,
+        28,
+        45,
+        70,
+        73,
+        34
+    ],
+    "login locations": [
+        [
+            -121.41,
+            38.591474
+        ]
+    ],
+    "relationships": []
 }

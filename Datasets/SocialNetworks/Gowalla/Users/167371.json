@@ -5,7 +5,17 @@
     "email": "susan60@hotmail.com",
     "birthdate": "1992-10-05",
     "phone": "+1-948-153-4389x29958",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        31,
+        65,
+        48
+    ],
+    "login locations": [
+        [
+            -117.160594,
+            33.924209
+        ]
+    ],
+    "relationships": []
 }

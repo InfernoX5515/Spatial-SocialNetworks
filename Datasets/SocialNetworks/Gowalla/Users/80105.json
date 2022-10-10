@@ -5,7 +5,25 @@
     "email": "dwhite@hotmail.com",
     "birthdate": "1963-02-11",
     "phone": "(688)529-4540x612",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        63,
+        17,
+        50,
+        40,
+        60,
+        67,
+        31,
+        45,
+        70,
+        50,
+        32
+    ],
+    "login locations": [
+        [
+            -122.016333,
+            37.339862
+        ]
+    ],
+    "relationships": []
 }

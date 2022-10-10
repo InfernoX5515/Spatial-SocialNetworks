@@ -5,7 +5,26 @@
     "email": "uharris@gmail.com",
     "birthdate": "2019-01-11",
     "phone": "431.989.6740",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        0,
+        31,
+        57,
+        72,
+        66,
+        26,
+        19,
+        44,
+        1,
+        9,
+        7,
+        0
+    ],
+    "login locations": [
+        [
+            -118.307517,
+            34.088659
+        ]
+    ],
+    "relationships": []
 }

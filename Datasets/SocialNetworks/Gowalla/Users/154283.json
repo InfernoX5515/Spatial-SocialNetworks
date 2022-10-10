@@ -5,7 +5,23 @@
     "email": "gwinters@gmail.com",
     "birthdate": "1990-09-03",
     "phone": "086-344-5104",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        15,
+        11,
+        8,
+        74,
+        1,
+        25,
+        59,
+        60,
+        68
+    ],
+    "login locations": [
+        [
+            -122.259936,
+            37.868832
+        ]
+    ],
+    "relationships": []
 }

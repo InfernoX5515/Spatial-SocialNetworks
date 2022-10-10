@@ -5,7 +5,23 @@
     "email": "lawrence48@gmail.com",
     "birthdate": "1925-12-28",
     "phone": "416-638-2565",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        38,
+        50,
+        70,
+        56,
+        54,
+        60,
+        63,
+        8,
+        64
+    ],
+    "login locations": [
+        [
+            -118.307078,
+            34.174115
+        ]
+    ],
+    "relationships": []
 }

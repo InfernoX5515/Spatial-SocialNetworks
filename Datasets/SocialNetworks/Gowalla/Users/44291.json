@@ -5,7 +5,19 @@
     "email": "maria53@yahoo.com",
     "birthdate": "1913-05-25",
     "phone": "078.171.6902",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        22,
+        19,
+        69,
+        61,
+        69
+    ],
+    "login locations": [
+        [
+            -118.311344,
+            34.025196
+        ]
+    ],
+    "relationships": []
 }

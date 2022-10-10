@@ -5,7 +5,37 @@
     "email": "david70@hotmail.com",
     "birthdate": "1958-03-22",
     "phone": "595-427-4946x299",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        53,
+        18,
+        29,
+        48,
+        33,
+        18,
+        33,
+        75,
+        61,
+        13,
+        15,
+        25
+    ],
+    "login locations": [
+        [
+            -117.896228,
+            34.104099
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                102319,
+                0.539325842697
+            ],
+            [
+                102319,
+                0.539325842697
+            ]
+        ]
+    ]
 }

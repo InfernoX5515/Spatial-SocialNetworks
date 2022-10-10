@@ -5,7 +5,24 @@
     "email": "grobinson@yahoo.com",
     "birthdate": "1940-05-30",
     "phone": "+1-557-280-8155x5491",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        4,
+        22,
+        0,
+        73,
+        29,
+        58,
+        45,
+        46,
+        54,
+        61
+    ],
+    "login locations": [
+        [
+            -122.090604,
+            37.406775
+        ]
+    ],
+    "relationships": []
 }

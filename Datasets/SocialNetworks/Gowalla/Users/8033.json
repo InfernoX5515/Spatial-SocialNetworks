@@ -5,7 +5,36 @@
     "email": "christianhowe@yahoo.com",
     "birthdate": "1929-03-31",
     "phone": "897-101-5789",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        16,
+        7,
+        49,
+        58,
+        50,
+        26,
+        6,
+        16,
+        68,
+        35,
+        43
+    ],
+    "login locations": [
+        [
+            -122.30761,
+            37.795568
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4235,
+                0.0265780730897
+            ],
+            [
+                4252,
+                0.010582010582
+            ]
+        ]
+    ]
 }

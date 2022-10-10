@@ -5,7 +5,14 @@
     "email": "ashley16@hotmail.com",
     "birthdate": "1947-06-26",
     "phone": "(339)967-6054x5539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57
+    ],
+    "login locations": [
+        [
+            -118.298974,
+            34.091332
+        ]
+    ],
+    "relationships": []
 }

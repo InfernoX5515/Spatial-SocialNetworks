@@ -5,7 +5,27 @@
     "email": "elizabeth57@yahoo.com",
     "birthdate": "1967-07-28",
     "phone": "001-791-576-1804",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        14,
+        3,
+        54,
+        13,
+        45,
+        75,
+        16,
+        9,
+        2,
+        71,
+        65,
+        56,
+        20
+    ],
+    "login locations": [
+        [
+            -122.295438,
+            37.809176
+        ]
+    ],
+    "relationships": []
 }

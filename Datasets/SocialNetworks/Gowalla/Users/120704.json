@@ -5,7 +5,20 @@
     "email": "wbyrd@yahoo.com",
     "birthdate": "1960-03-26",
     "phone": "294.511.5563",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        46,
+        53,
+        59,
+        9,
+        71,
+        18
+    ],
+    "login locations": [
+        [
+            -118.227461,
+            34.012066
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "robbinsjonathan@yahoo.com",
     "birthdate": "1908-01-25",
     "phone": "+1-055-233-1089x359",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        59
+    ],
+    "login locations": [
+        [
+            -117.663873,
+            34.065335
+        ]
+    ],
+    "relationships": []
 }

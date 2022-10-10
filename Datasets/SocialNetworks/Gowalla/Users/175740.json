@@ -5,7 +5,24 @@
     "email": "victor63@gmail.com",
     "birthdate": "2009-08-20",
     "phone": "+1-639-542-0498x63137",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        61,
+        50,
+        18,
+        17,
+        52,
+        5,
+        33,
+        55,
+        62,
+        6
+    ],
+    "login locations": [
+        [
+            -122.31144,
+            37.879365
+        ]
+    ],
+    "relationships": []
 }

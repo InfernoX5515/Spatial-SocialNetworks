@@ -5,7 +5,21 @@
     "email": "robertford@gmail.com",
     "birthdate": "1930-12-27",
     "phone": "994.082.3963x07328",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        9,
+        16,
+        34,
+        67,
+        39,
+        44,
+        17
+    ],
+    "login locations": [
+        [
+            -118.808375,
+            34.27598
+        ]
+    ],
+    "relationships": []
 }

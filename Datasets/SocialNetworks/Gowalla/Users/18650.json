@@ -5,7 +5,17 @@
     "email": "browningpatrick@gmail.com",
     "birthdate": "2016-05-28",
     "phone": "(700)116-7197x69492",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        47,
+        15,
+        37
+    ],
+    "login locations": [
+        [
+            -118.353073,
+            33.88604
+        ]
+    ],
+    "relationships": []
 }

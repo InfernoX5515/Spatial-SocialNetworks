@@ -5,7 +5,37 @@
     "email": "qlloyd@hotmail.com",
     "birthdate": "2004-12-22",
     "phone": "001-693-755-5579x7772",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        16,
+        55,
+        59,
+        73,
+        18,
+        24,
+        59,
+        62,
+        26,
+        28,
+        36,
+        44
+    ],
+    "login locations": [
+        [
+            -118.341829,
+            33.94174
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1655,
+                0.0666666666667
+            ],
+            [
+                1655,
+                0.0666666666667
+            ]
+        ]
+    ]
 }

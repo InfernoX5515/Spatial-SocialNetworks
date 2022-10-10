@@ -5,7 +5,18 @@
     "email": "michael66@gmail.com",
     "birthdate": "1937-04-15",
     "phone": "+1-982-296-4373",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        8,
+        1,
+        60,
+        22
+    ],
+    "login locations": [
+        [
+            -117.838789,
+            33.694507
+        ]
+    ],
+    "relationships": []
 }

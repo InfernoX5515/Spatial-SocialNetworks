@@ -5,7 +5,28 @@
     "email": "joshua41@hotmail.com",
     "birthdate": "1994-03-05",
     "phone": "001-318-598-7530x321",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        40,
+        4,
+        74,
+        23,
+        23,
+        44,
+        2,
+        9,
+        74,
+        67,
+        15,
+        48,
+        5,
+        23
+    ],
+    "login locations": [
+        [
+            -122.143887,
+            37.386539
+        ]
+    ],
+    "relationships": []
 }

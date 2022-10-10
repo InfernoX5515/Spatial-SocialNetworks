@@ -5,7 +5,20 @@
     "email": "gabriella70@yahoo.com",
     "birthdate": "1985-01-14",
     "phone": "206.457.0759x159",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        41,
+        34,
+        33,
+        24,
+        60,
+        3
+    ],
+    "login locations": [
+        [
+            -122.43675,
+            37.803068
+        ]
+    ],
+    "relationships": []
 }

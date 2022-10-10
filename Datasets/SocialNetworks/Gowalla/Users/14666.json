@@ -5,7 +5,16 @@
     "email": "markramsey@hotmail.com",
     "birthdate": "1994-04-25",
     "phone": "689.280.1639x81055",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        33,
+        25
+    ],
+    "login locations": [
+        [
+            -119.858991,
+            36.867232
+        ]
+    ],
+    "relationships": []
 }

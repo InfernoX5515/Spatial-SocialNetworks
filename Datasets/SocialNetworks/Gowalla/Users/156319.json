@@ -5,7 +5,28 @@
     "email": "kenneth49@hotmail.com",
     "birthdate": "1949-06-27",
     "phone": "599-855-7355",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        5,
+        9,
+        37,
+        38,
+        35,
+        23,
+        11,
+        14,
+        75,
+        30,
+        72,
+        41,
+        32,
+        68
+    ],
+    "login locations": [
+        [
+            -122.429387,
+            37.767228
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,39 @@
     "email": "nmartin@hotmail.com",
     "birthdate": "1986-01-11",
     "phone": "366-686-3408",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        15,
+        7,
+        39,
+        26,
+        72,
+        71,
+        39,
+        1,
+        42,
+        33,
+        51,
+        66,
+        55,
+        40
+    ],
+    "login locations": [
+        [
+            -118.159927,
+            34.713949
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1101,
+                0.01
+            ],
+            [
+                1101,
+                0.01
+            ]
+        ]
+    ]
 }

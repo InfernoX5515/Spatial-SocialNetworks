@@ -5,7 +5,26 @@
     "email": "grantbush@yahoo.com",
     "birthdate": "1929-03-06",
     "phone": "874.911.2765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        16
+    ],
+    "login locations": [
+        [
+            -117.900064,
+            33.722975
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                17728,
+                0.01
+            ],
+            [
+                17728,
+                0.02
+            ]
+        ]
+    ]
 }

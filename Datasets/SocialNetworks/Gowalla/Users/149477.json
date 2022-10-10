@@ -5,7 +5,28 @@
     "email": "zthompson@hotmail.com",
     "birthdate": "1921-06-07",
     "phone": "2473521109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        31,
+        23,
+        0,
+        14,
+        74,
+        0,
+        24,
+        11,
+        16,
+        65,
+        73,
+        60,
+        64,
+        58
+    ],
+    "login locations": [
+        [
+            -122.398885,
+            37.778901
+        ]
+    ],
+    "relationships": []
 }

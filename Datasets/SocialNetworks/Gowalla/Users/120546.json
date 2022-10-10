@@ -5,7 +5,21 @@
     "email": "rebecca91@hotmail.com",
     "birthdate": "1929-12-16",
     "phone": "+1-289-519-6400x3626",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        73,
+        59,
+        46,
+        43,
+        31,
+        17,
+        12
+    ],
+    "login locations": [
+        [
+            -117.84239,
+            33.659716
+        ]
+    ],
+    "relationships": []
 }

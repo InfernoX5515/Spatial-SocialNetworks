@@ -5,7 +5,20 @@
     "email": "melissa67@yahoo.com",
     "birthdate": "1997-04-17",
     "phone": "(185)424-9176x640",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        57,
+        16,
+        21,
+        25,
+        35,
+        72
+    ],
+    "login locations": [
+        [
+            -122.25879,
+            37.741807
+        ]
+    ],
+    "relationships": []
 }

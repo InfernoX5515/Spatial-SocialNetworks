@@ -5,7 +5,39 @@
     "email": "kathleen18@gmail.com",
     "birthdate": "1992-03-23",
     "phone": "770.283.6667",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        67,
+        24,
+        33,
+        42,
+        11,
+        26,
+        29,
+        41,
+        50,
+        50,
+        31,
+        68,
+        61,
+        48
+    ],
+    "login locations": [
+        [
+            -118.292054,
+            33.988336
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2429,
+                0.0750279955207
+            ],
+            [
+                2429,
+                0.0750279955207
+            ]
+        ]
+    ]
 }

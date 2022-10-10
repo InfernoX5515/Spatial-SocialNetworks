@@ -5,7 +5,14 @@
     "email": "jonescynthia@hotmail.com",
     "birthdate": "1979-08-28",
     "phone": "+1-798-393-6803x48855",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18
+    ],
+    "login locations": [
+        [
+            -117.209736,
+            32.821645
+        ]
+    ],
+    "relationships": []
 }

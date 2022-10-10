@@ -5,7 +5,12 @@
     "email": "dprice@gmail.com",
     "birthdate": "2019-10-09",
     "phone": "(191)170-1678x958",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.306647,
+            33.201212
+        ]
+    ],
+    "relationships": []
 }

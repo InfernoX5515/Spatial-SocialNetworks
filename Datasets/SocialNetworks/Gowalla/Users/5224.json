@@ -5,7 +5,23 @@
     "email": "dstanley@hotmail.com",
     "birthdate": "1943-02-22",
     "phone": "010.294.9827x343",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        73,
+        32,
+        2,
+        60,
+        19,
+        32,
+        47,
+        65,
+        23
+    ],
+    "login locations": [
+        [
+            -122.404036,
+            37.787042
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,39 @@
     "email": "rdavis@gmail.com",
     "birthdate": "1967-08-04",
     "phone": "(848)433-4518",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        66,
+        22,
+        52,
+        23,
+        71,
+        7,
+        54,
+        4,
+        57,
+        45,
+        72,
+        69,
+        21,
+        16
+    ],
+    "login locations": [
+        [
+            -122.015021,
+            37.570545
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.01
+            ],
+            [
+                285,
+                0.01
+            ]
+        ]
+    ]
 }

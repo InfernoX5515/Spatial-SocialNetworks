@@ -5,7 +5,34 @@
     "email": "murrayfrank@gmail.com",
     "birthdate": "1912-02-02",
     "phone": "+1-721-217-1259x90620",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        48,
+        30,
+        12,
+        65,
+        35,
+        58,
+        38,
+        72,
+        15
+    ],
+    "login locations": [
+        [
+            -117.20117,
+            33.6024
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2735,
+                0.01
+            ],
+            [
+                285,
+                0.01
+            ]
+        ]
+    ]
 }

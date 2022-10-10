@@ -5,7 +5,14 @@
     "email": "isaac44@hotmail.com",
     "birthdate": "1973-06-23",
     "phone": "469.450.3841x904",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3
+    ],
+    "login locations": [
+        [
+            -117.102919,
+            32.784717
+        ]
+    ],
+    "relationships": []
 }

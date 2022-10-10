@@ -5,7 +5,16 @@
     "email": "aaron61@hotmail.com",
     "birthdate": "1979-02-15",
     "phone": "0058065440",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        75,
+        44
+    ],
+    "login locations": [
+        [
+            -117.215985,
+            32.795394
+        ]
+    ],
+    "relationships": []
 }

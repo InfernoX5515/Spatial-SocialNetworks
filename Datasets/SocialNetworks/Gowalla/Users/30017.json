@@ -5,7 +5,25 @@
     "email": "michaelmyers@gmail.com",
     "birthdate": "1977-12-16",
     "phone": "001-717-633-6380x8605",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        49,
+        46,
+        15,
+        39,
+        39,
+        15,
+        5,
+        64,
+        43,
+        19,
+        33
+    ],
+    "login locations": [
+        [
+            -121.998111,
+            37.386174
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "vargasrobin@hotmail.com",
     "birthdate": "1941-02-01",
     "phone": "(627)359-8468x27914",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20
+    ],
+    "login locations": [
+        [
+            -122.159333,
+            37.44142
+        ]
+    ],
+    "relationships": []
 }

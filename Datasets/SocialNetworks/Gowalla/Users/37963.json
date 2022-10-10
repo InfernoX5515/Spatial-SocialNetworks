@@ -5,7 +5,14 @@
     "email": "melinda71@yahoo.com",
     "birthdate": "1985-06-17",
     "phone": "823.110.1339",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44
+    ],
+    "login locations": [
+        [
+            -117.928133,
+            33.812016
+        ]
+    ],
+    "relationships": []
 }

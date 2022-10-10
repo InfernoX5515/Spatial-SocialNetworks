@@ -5,7 +5,27 @@
     "email": "owilcox@yahoo.com",
     "birthdate": "1974-09-16",
     "phone": "998.044.2201x4853",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        38,
+        69,
+        50,
+        4,
+        4,
+        40,
+        8,
+        47,
+        73,
+        33,
+        71,
+        29,
+        61
+    ],
+    "login locations": [
+        [
+            -122.26676,
+            37.869653
+        ]
+    ],
+    "relationships": []
 }

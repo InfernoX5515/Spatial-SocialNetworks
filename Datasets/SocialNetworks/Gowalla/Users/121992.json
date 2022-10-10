@@ -5,7 +5,21 @@
     "email": "vincentbennett@gmail.com",
     "birthdate": "1980-11-17",
     "phone": "568-308-7905x7877",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        47,
+        32,
+        53,
+        30,
+        27,
+        3,
+        11
+    ],
+    "login locations": [
+        [
+            -117.069413,
+            32.927225
+        ]
+    ],
+    "relationships": []
 }

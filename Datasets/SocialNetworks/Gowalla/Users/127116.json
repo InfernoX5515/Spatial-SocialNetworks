@@ -5,7 +5,12 @@
     "email": "ashleywilliams@yahoo.com",
     "birthdate": "1949-10-28",
     "phone": "001-421-401-1813x9283",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.314364,
+            34.090921
+        ]
+    ],
+    "relationships": []
 }

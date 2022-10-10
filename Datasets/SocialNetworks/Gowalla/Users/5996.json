@@ -5,7 +5,38 @@
     "email": "calderonnathan@gmail.com",
     "birthdate": "1970-01-08",
     "phone": "630.265.3850x9979",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        33,
+        63,
+        23,
+        53,
+        42,
+        67,
+        37,
+        69,
+        1,
+        29,
+        5,
+        9,
+        72
+    ],
+    "login locations": [
+        [
+            -122.219564,
+            37.472705
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2170,
+                0.0196078431373
+            ],
+            [
+                8492,
+                0.01
+            ]
+        ]
+    ]
 }

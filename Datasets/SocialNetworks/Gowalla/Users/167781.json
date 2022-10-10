@@ -5,7 +5,21 @@
     "email": "bridget42@hotmail.com",
     "birthdate": "1944-11-19",
     "phone": "9138298470",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        29,
+        0,
+        70,
+        60,
+        6,
+        32,
+        28
+    ],
+    "login locations": [
+        [
+            -118.272524,
+            34.033165
+        ]
+    ],
+    "relationships": []
 }

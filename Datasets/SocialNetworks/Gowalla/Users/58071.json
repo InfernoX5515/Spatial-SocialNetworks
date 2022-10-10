@@ -5,7 +5,20 @@
     "email": "lamjohnny@hotmail.com",
     "birthdate": "1926-08-11",
     "phone": "001-025-186-1419x81521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        43,
+        28,
+        33,
+        33,
+        44,
+        12
+    ],
+    "login locations": [
+        [
+            -122.117447,
+            37.412461
+        ]
+    ],
+    "relationships": []
 }

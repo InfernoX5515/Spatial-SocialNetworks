@@ -5,7 +5,16 @@
     "email": "butlerdenise@hotmail.com",
     "birthdate": "1952-01-25",
     "phone": "831.638.5898x03329",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        60,
+        21
+    ],
+    "login locations": [
+        [
+            -118.308871,
+            34.098172
+        ]
+    ],
+    "relationships": []
 }

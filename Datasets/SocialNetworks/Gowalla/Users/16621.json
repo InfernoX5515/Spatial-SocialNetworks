@@ -5,7 +5,37 @@
     "email": "thomasgarcia@gmail.com",
     "birthdate": "1918-11-07",
     "phone": "(816)588-9686",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        1,
+        69,
+        39,
+        38,
+        43,
+        33,
+        14,
+        13,
+        58,
+        31,
+        39,
+        10
+    ],
+    "login locations": [
+        [
+            -118.37871,
+            33.966543
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                102495,
+                0.466666666667
+            ],
+            [
+                102495,
+                0.466666666667
+            ]
+        ]
+    ]
 }

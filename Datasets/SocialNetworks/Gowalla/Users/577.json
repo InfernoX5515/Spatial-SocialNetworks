@@ -5,7 +5,23 @@
     "email": "jessica41@gmail.com",
     "birthdate": "1989-10-09",
     "phone": "037.522.1394x432",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.135397,
+            37.807216
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                347,
+                0.0197860962567
+            ],
+            [
+                501,
+                0.177777777778
+            ]
+        ]
+    ]
 }

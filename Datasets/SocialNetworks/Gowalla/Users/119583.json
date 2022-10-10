@@ -5,7 +5,20 @@
     "email": "williamssherry@hotmail.com",
     "birthdate": "1923-02-13",
     "phone": "+1-361-764-7583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        13,
+        45,
+        19,
+        6,
+        43,
+        55
+    ],
+    "login locations": [
+        [
+            -122.354225,
+            37.69358
+        ]
+    ],
+    "relationships": []
 }

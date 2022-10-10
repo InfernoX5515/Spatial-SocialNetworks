@@ -5,7 +5,26 @@
     "email": "xschwartz@hotmail.com",
     "birthdate": "1921-02-01",
     "phone": "+1-086-703-4597x24834",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        13,
+        16,
+        44,
+        26,
+        21,
+        47,
+        36,
+        14,
+        18,
+        53,
+        18,
+        10
+    ],
+    "login locations": [
+        [
+            -122.110381,
+            37.88158
+        ]
+    ],
+    "relationships": []
 }

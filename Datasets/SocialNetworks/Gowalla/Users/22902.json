@@ -5,7 +5,19 @@
     "email": "martinjeanette@yahoo.com",
     "birthdate": "1975-03-30",
     "phone": "807.944.3173x250",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        33,
+        31,
+        9,
+        51,
+        30
+    ],
+    "login locations": [
+        [
+            -122.273506,
+            37.827343
+        ]
+    ],
+    "relationships": []
 }

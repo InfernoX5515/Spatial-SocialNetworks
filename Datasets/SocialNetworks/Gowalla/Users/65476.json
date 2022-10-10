@@ -5,7 +5,16 @@
     "email": "russellkristen@gmail.com",
     "birthdate": "2021-12-28",
     "phone": "863-091-3829",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        48,
+        58
+    ],
+    "login locations": [
+        [
+            -118.415692,
+            34.070339
+        ]
+    ],
+    "relationships": []
 }

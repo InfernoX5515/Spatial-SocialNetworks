@@ -5,7 +5,23 @@
     "email": "alan11@hotmail.com",
     "birthdate": "1974-12-15",
     "phone": "(212)742-4633x568",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        72,
+        10,
+        49,
+        39,
+        67,
+        26,
+        32,
+        34,
+        34
+    ],
+    "login locations": [
+        [
+            -122.158895,
+            37.828763
+        ]
+    ],
+    "relationships": []
 }

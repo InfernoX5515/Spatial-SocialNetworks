@@ -5,7 +5,26 @@
     "email": "kaitlyndavis@yahoo.com",
     "birthdate": "2012-10-31",
     "phone": "733.907.6852",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        55,
+        8,
+        0,
+        15,
+        5,
+        48,
+        31,
+        22,
+        61,
+        60,
+        17,
+        23
+    ],
+    "login locations": [
+        [
+            -121.242382,
+            38.676079
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "james27@hotmail.com",
     "birthdate": "1957-02-11",
     "phone": "178.882.3750x84470",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        1,
+        36,
+        56
+    ],
+    "login locations": [
+        [
+            -121.929039,
+            37.315848
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118729,
+                0.114398422091
+            ],
+            [
+                118729,
+                0.114398422091
+            ]
+        ]
+    ]
 }

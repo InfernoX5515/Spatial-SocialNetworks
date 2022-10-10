@@ -5,7 +5,17 @@
     "email": "sbrown@gmail.com",
     "birthdate": "1980-04-28",
     "phone": "162.865.6889x741",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        39,
+        52,
+        50
+    ],
+    "login locations": [
+        [
+            -118.375725,
+            34.01521
+        ]
+    ],
+    "relationships": []
 }

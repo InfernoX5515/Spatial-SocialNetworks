@@ -5,7 +5,14 @@
     "email": "shannon32@yahoo.com",
     "birthdate": "2004-04-29",
     "phone": "(617)849-8111x0879",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48
+    ],
+    "login locations": [
+        [
+            -118.270911,
+            34.079905
+        ]
+    ],
+    "relationships": []
 }

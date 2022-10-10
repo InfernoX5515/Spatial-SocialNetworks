@@ -5,7 +5,15 @@
     "email": "cohenrobert@yahoo.com",
     "birthdate": "1977-04-13",
     "phone": "(753)156-7294",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        3
+    ],
+    "login locations": [
+        [
+            -118.240371,
+            34.137835
+        ]
+    ],
+    "relationships": []
 }

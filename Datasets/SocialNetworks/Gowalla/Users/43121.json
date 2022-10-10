@@ -5,7 +5,17 @@
     "email": "heathergarrett@yahoo.com",
     "birthdate": "1938-01-06",
     "phone": "001-763-040-7024x2471",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        1,
+        36,
+        35
+    ],
+    "login locations": [
+        [
+            -117.989621,
+            33.844907
+        ]
+    ],
+    "relationships": []
 }

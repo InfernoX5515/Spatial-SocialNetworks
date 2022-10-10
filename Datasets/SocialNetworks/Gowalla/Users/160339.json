@@ -5,7 +5,24 @@
     "email": "ysmith@yahoo.com",
     "birthdate": "2011-09-29",
     "phone": "529-280-4840x680",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        35,
+        28,
+        49,
+        28,
+        60,
+        42,
+        30,
+        74,
+        31,
+        4
+    ],
+    "login locations": [
+        [
+            -121.97003,
+            37.141849
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "bethnunez@yahoo.com",
     "birthdate": "2012-07-02",
     "phone": "0391488296",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        65,
+        14
+    ],
+    "login locations": [
+        [
+            -122.412288,
+            37.792949
+        ]
+    ],
+    "relationships": []
 }

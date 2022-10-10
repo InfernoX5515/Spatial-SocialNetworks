@@ -5,7 +5,14 @@
     "email": "bellglenn@hotmail.com",
     "birthdate": "1983-07-05",
     "phone": "+1-397-021-2597x985",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3
+    ],
+    "login locations": [
+        [
+            -117.826011,
+            33.980003
+        ]
+    ],
+    "relationships": []
 }

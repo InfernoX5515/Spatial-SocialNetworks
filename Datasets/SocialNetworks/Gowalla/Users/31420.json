@@ -5,7 +5,27 @@
     "email": "millerandrew@hotmail.com",
     "birthdate": "2007-12-28",
     "phone": "001-613-939-4891x91830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        46,
+        42,
+        75,
+        32,
+        72,
+        5,
+        39,
+        62,
+        57,
+        42,
+        29,
+        15,
+        24
+    ],
+    "login locations": [
+        [
+            -122.430179,
+            37.807274
+        ]
+    ],
+    "relationships": []
 }

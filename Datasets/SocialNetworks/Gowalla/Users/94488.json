@@ -5,7 +5,20 @@
     "email": "tbaker@yahoo.com",
     "birthdate": "2001-03-05",
     "phone": "565-561-6534x042",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        35,
+        67,
+        43,
+        27,
+        57,
+        58
+    ],
+    "login locations": [
+        [
+            -117.293151,
+            34.457726
+        ]
+    ],
+    "relationships": []
 }

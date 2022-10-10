@@ -5,7 +5,14 @@
     "email": "amy24@hotmail.com",
     "birthdate": "1953-01-19",
     "phone": "689.022.3443x8538",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54
+    ],
+    "login locations": [
+        [
+            -121.964073,
+            37.25506
+        ]
+    ],
+    "relationships": []
 }

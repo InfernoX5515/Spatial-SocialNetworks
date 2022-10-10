@@ -5,7 +5,22 @@
     "email": "ashleypeterson@hotmail.com",
     "birthdate": "1921-04-26",
     "phone": "696-030-7997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        37,
+        60,
+        4,
+        31,
+        66,
+        6,
+        10,
+        1
+    ],
+    "login locations": [
+        [
+            -122.223364,
+            37.959797
+        ]
+    ],
+    "relationships": []
 }

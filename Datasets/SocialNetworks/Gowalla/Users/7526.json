@@ -5,7 +5,36 @@
     "email": "millermaria@hotmail.com",
     "birthdate": "1994-08-24",
     "phone": "001-383-257-8081",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        26,
+        54,
+        58,
+        8,
+        61,
+        12,
+        9,
+        15,
+        3,
+        39,
+        60
+    ],
+    "login locations": [
+        [
+            -122.085094,
+            37.672521
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                158,
+                0.0422535211268
+            ],
+            [
+                355,
+                0.0181818181818
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,33 @@
     "email": "howellheidi@gmail.com",
     "birthdate": "1937-04-01",
     "phone": "682-179-8683",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        32,
+        2,
+        70,
+        37,
+        13,
+        22,
+        59,
+        2
+    ],
+    "login locations": [
+        [
+            -117.158638,
+            32.831416
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                177,
+                0.0523076923077
+            ],
+            [
+                10990,
+                0.160714285714
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,22 @@
     "email": "gregorybishop@hotmail.com",
     "birthdate": "1933-08-27",
     "phone": "(263)406-9551x068",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        66,
+        8,
+        5,
+        13,
+        16,
+        19,
+        57,
+        0
+    ],
+    "login locations": [
+        [
+            -122.28916,
+            37.576218
+        ]
+    ],
+    "relationships": []
 }

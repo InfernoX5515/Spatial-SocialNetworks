@@ -5,7 +5,22 @@
     "email": "tjennings@gmail.com",
     "birthdate": "1918-04-24",
     "phone": "001-000-787-7491x12997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        9,
+        41,
+        3,
+        1,
+        27,
+        26,
+        2,
+        3
+    ],
+    "login locations": [
+        [
+            -118.404413,
+            34.011426
+        ]
+    ],
+    "relationships": []
 }

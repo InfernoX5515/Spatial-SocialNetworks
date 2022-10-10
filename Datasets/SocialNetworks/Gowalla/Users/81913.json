@@ -5,7 +5,28 @@
     "email": "desiree21@gmail.com",
     "birthdate": "2005-05-17",
     "phone": "466-513-0733x820",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        65,
+        20,
+        69,
+        0,
+        34,
+        31,
+        0,
+        37,
+        25,
+        64,
+        39,
+        44,
+        64,
+        72
+    ],
+    "login locations": [
+        [
+            -122.408088,
+            37.787969
+        ]
+    ],
+    "relationships": []
 }

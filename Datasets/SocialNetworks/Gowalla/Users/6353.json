@@ -5,7 +5,28 @@
     "email": "stevenhicks@yahoo.com",
     "birthdate": "1919-01-03",
     "phone": "001-043-830-3352",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        57,
+        2,
+        53
+    ],
+    "login locations": [
+        [
+            -122.138077,
+            37.403804
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5102,
+                0.0526315789474
+            ],
+            [
+                5103,
+                0.0666666666667
+            ]
+        ]
+    ]
 }

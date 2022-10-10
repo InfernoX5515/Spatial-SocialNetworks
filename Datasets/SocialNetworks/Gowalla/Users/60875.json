@@ -5,7 +5,21 @@
     "email": "onealcatherine@yahoo.com",
     "birthdate": "1985-08-31",
     "phone": "001-975-436-5188x9979",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        21,
+        16,
+        62,
+        28,
+        12,
+        53,
+        45
+    ],
+    "login locations": [
+        [
+            -118.58563,
+            34.25484
+        ]
+    ],
+    "relationships": []
 }

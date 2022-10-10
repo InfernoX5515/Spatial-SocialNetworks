@@ -5,7 +5,18 @@
     "email": "durhamjennifer@yahoo.com",
     "birthdate": "1954-11-26",
     "phone": "001-882-616-2629x840",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        61,
+        23,
+        43,
+        58
+    ],
+    "login locations": [
+        [
+            -121.971359,
+            37.343866
+        ]
+    ],
+    "relationships": []
 }

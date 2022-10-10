@@ -5,7 +5,18 @@
     "email": "sara94@yahoo.com",
     "birthdate": "2008-10-15",
     "phone": "353.737.5424x5559",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        17,
+        24,
+        36,
+        10
+    ],
+    "login locations": [
+        [
+            -118.018329,
+            33.916682
+        ]
+    ],
+    "relationships": []
 }

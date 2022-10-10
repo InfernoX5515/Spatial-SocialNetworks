@@ -5,7 +5,20 @@
     "email": "brittney18@yahoo.com",
     "birthdate": "1921-09-09",
     "phone": "4499063584",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        22,
+        41,
+        5,
+        75,
+        57,
+        4
+    ],
+    "login locations": [
+        [
+            -118.306796,
+            34.171607
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "reynoldsnicholas@hotmail.com",
     "birthdate": "1913-05-04",
     "phone": "873.449.0847x87842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        26,
+        37,
+        17,
+        34,
+        62,
+        33,
+        42
+    ],
+    "login locations": [
+        [
+            -122.181922,
+            37.733757
+        ]
+    ],
+    "relationships": []
 }

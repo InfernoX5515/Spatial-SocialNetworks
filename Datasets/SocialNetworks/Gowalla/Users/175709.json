@@ -5,7 +5,26 @@
     "email": "martinjason@hotmail.com",
     "birthdate": "1909-10-10",
     "phone": "001-422-077-9262x96508",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        0,
+        41,
+        65,
+        10,
+        52,
+        40,
+        37,
+        42,
+        69,
+        20,
+        54,
+        41
+    ],
+    "login locations": [
+        [
+            -117.165065,
+            32.69645
+        ]
+    ],
+    "relationships": []
 }

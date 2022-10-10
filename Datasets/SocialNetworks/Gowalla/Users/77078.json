@@ -5,7 +5,20 @@
     "email": "ryanquinn@yahoo.com",
     "birthdate": "2018-02-25",
     "phone": "+1-407-820-0156x886",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        68,
+        52,
+        65,
+        35,
+        36,
+        29
+    ],
+    "login locations": [
+        [
+            -122.055329,
+            37.362876
+        ]
+    ],
+    "relationships": []
 }

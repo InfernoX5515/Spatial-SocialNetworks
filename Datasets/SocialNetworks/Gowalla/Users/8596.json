@@ -5,7 +5,37 @@
     "email": "fisherchristopher@hotmail.com",
     "birthdate": "1951-10-23",
     "phone": "001-315-347-5203x74818",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        0,
+        64,
+        2,
+        33,
+        34,
+        22,
+        40,
+        41,
+        6,
+        34,
+        31,
+        31
+    ],
+    "login locations": [
+        [
+            -122.40929,
+            37.732678
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8588,
+                0.0833333333333
+            ],
+            [
+                8588,
+                0.0833333333333
+            ]
+        ]
+    ]
 }

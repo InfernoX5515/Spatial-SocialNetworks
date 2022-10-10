@@ -5,7 +5,25 @@
     "email": "amy07@gmail.com",
     "birthdate": "1908-09-17",
     "phone": "(769)039-0578",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        19,
+        28,
+        24,
+        35,
+        63,
+        52,
+        61,
+        35,
+        33,
+        3,
+        4
+    ],
+    "login locations": [
+        [
+            -118.116939,
+            34.002698
+        ]
+    ],
+    "relationships": []
 }

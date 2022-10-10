@@ -5,7 +5,23 @@
     "email": "xmartin@gmail.com",
     "birthdate": "1988-06-27",
     "phone": "146.064.5428x635",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        50,
+        0,
+        65,
+        42,
+        51,
+        40,
+        21,
+        6,
+        70
+    ],
+    "login locations": [
+        [
+            -121.602487,
+            38.65261
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "lvasquez@gmail.com",
     "birthdate": "1925-06-09",
     "phone": "778.551.5108x2053",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        70,
+        28,
+        28,
+        16,
+        60,
+        27,
+        12,
+        74
+    ],
+    "login locations": [
+        [
+            -122.684186,
+            38.362589
+        ]
+    ],
+    "relationships": []
 }

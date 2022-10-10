@@ -5,7 +5,23 @@
     "email": "rcummings@yahoo.com",
     "birthdate": "1981-11-18",
     "phone": "230.189.4564",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        15,
+        37,
+        14,
+        52,
+        64,
+        56,
+        45,
+        65,
+        57
+    ],
+    "login locations": [
+        [
+            -117.969818,
+            33.827412
+        ]
+    ],
+    "relationships": []
 }

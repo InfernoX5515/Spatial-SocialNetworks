@@ -5,7 +5,35 @@
     "email": "iowens@gmail.com",
     "birthdate": "1953-11-27",
     "phone": "017.595.9926x7124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        72,
+        49,
+        13,
+        18,
+        4,
+        49,
+        67,
+        50,
+        26,
+        66
+    ],
+    "login locations": [
+        [
+            -121.931233,
+            37.291588
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                78404,
+                0.173333333333
+            ],
+            [
+                78404,
+                0.173333333333
+            ]
+        ]
+    ]
 }

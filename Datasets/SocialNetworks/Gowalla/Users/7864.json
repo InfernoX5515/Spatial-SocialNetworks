@@ -5,7 +5,28 @@
     "email": "caitlinbaker@yahoo.com",
     "birthdate": "1972-05-08",
     "phone": "379.489.7825",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        62,
+        2,
+        22
+    ],
+    "login locations": [
+        [
+            -122.382696,
+            37.777892
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5284,
+                0.0434782608696
+            ],
+            [
+                5284,
+                0.0434782608696
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,26 @@
     "email": "hbarton@gmail.com",
     "birthdate": "1959-04-26",
     "phone": "+1-042-978-9365",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        46,
+        68,
+        25,
+        3,
+        24,
+        74,
+        33,
+        17,
+        23,
+        15,
+        52,
+        45
+    ],
+    "login locations": [
+        [
+            -122.161565,
+            37.444245
+        ]
+    ],
+    "relationships": []
 }

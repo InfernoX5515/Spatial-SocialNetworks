@@ -5,7 +5,26 @@
     "email": "samuelwilson@yahoo.com",
     "birthdate": "1994-10-26",
     "phone": "001-680-813-1115x253",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        20,
+        11,
+        73,
+        69,
+        20,
+        4,
+        71,
+        48,
+        27,
+        42,
+        29,
+        30
+    ],
+    "login locations": [
+        [
+            -122.531079,
+            37.976065
+        ]
+    ],
+    "relationships": []
 }

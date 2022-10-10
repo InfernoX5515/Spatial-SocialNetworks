@@ -5,7 +5,28 @@
     "email": "qhill@yahoo.com",
     "birthdate": "1944-10-11",
     "phone": "620-488-1005",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        51,
+        40,
+        35,
+        0,
+        3,
+        42,
+        27,
+        38,
+        29,
+        43,
+        18,
+        19,
+        54,
+        25
+    ],
+    "login locations": [
+        [
+            -117.160879,
+            32.718662
+        ]
+    ],
+    "relationships": []
 }

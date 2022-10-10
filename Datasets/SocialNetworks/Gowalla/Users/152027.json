@@ -5,7 +5,28 @@
     "email": "ymccormick@yahoo.com",
     "birthdate": "1940-08-29",
     "phone": "585-219-0606x3284",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        64,
+        51,
+        12,
+        19,
+        46,
+        64,
+        2,
+        64,
+        1,
+        18,
+        26,
+        54,
+        45,
+        66
+    ],
+    "login locations": [
+        [
+            -117.841785,
+            33.681951
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "kvilla@gmail.com",
     "birthdate": "1961-03-05",
     "phone": "485.561.7253",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        19,
+        70,
+        58,
+        53,
+        0,
+        28,
+        13,
+        17,
+        50,
+        58,
+        42,
+        74
+    ],
+    "login locations": [
+        [
+            -122.360984,
+            37.612317
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "elizabethfigueroa@hotmail.com",
     "birthdate": "1975-05-24",
     "phone": "368-870-1755",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        17,
+        55,
+        16,
+        58
+    ],
+    "login locations": [
+        [
+            -117.167253,
+            32.717988
+        ]
+    ],
+    "relationships": []
 }

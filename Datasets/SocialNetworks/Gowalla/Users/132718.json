@@ -5,7 +5,26 @@
     "email": "rachelmorton@hotmail.com",
     "birthdate": "1951-06-22",
     "phone": "001-428-044-8951",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        33
+    ],
+    "login locations": [
+        [
+            -117.911445,
+            33.656806
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39813,
+                0.106666666667
+            ],
+            [
+                56456,
+                0.12
+            ]
+        ]
+    ]
 }

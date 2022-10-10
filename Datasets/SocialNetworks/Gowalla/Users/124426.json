@@ -5,7 +5,25 @@
     "email": "matthew95@hotmail.com",
     "birthdate": "1990-02-01",
     "phone": "872.727.0607x606",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        62,
+        17,
+        4,
+        38,
+        18,
+        45,
+        75,
+        3,
+        7,
+        65,
+        74
+    ],
+    "login locations": [
+        [
+            -122.325608,
+            37.818613
+        ]
+    ],
+    "relationships": []
 }

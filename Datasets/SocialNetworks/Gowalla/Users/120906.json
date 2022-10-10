@@ -5,7 +5,27 @@
     "email": "jrobinson@gmail.com",
     "birthdate": "1966-11-03",
     "phone": "498.221.2188x2264",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        0,
+        14
+    ],
+    "login locations": [
+        [
+            -117.890353,
+            33.783011
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                28427,
+                0.0865384615385
+            ],
+            [
+                28427,
+                0.0865384615385
+            ]
+        ]
+    ]
 }

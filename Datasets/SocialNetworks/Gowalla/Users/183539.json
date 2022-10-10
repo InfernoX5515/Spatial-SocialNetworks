@@ -5,7 +5,25 @@
     "email": "ibrown@gmail.com",
     "birthdate": "1976-10-22",
     "phone": "403.371.0717",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49
+    ],
+    "login locations": [
+        [
+            -117.734174,
+            33.575998
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                134399,
+                0.02
+            ],
+            [
+                134399,
+                0.02
+            ]
+        ]
+    ]
 }

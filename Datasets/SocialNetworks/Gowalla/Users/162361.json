@@ -5,7 +5,23 @@
     "email": "michelepatterson@gmail.com",
     "birthdate": "1979-11-26",
     "phone": "001-320-400-4271x21695",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        33,
+        38,
+        28,
+        29,
+        67,
+        12,
+        43,
+        66,
+        7
+    ],
+    "login locations": [
+        [
+            -118.32404,
+            33.968505
+        ]
+    ],
+    "relationships": []
 }

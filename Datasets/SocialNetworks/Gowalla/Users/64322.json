@@ -5,7 +5,24 @@
     "email": "trangregory@hotmail.com",
     "birthdate": "1919-09-04",
     "phone": "001-924-241-7238x99964",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        38,
+        69,
+        54,
+        41,
+        21,
+        42,
+        16,
+        13,
+        29,
+        47
+    ],
+    "login locations": [
+        [
+            -119.784615,
+            36.761341
+        ]
+    ],
+    "relationships": []
 }

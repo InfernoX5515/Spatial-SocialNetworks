@@ -5,7 +5,20 @@
     "email": "gilmoresamuel@gmail.com",
     "birthdate": "1920-04-22",
     "phone": "001-120-988-5633x92769",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        48,
+        58,
+        2,
+        39,
+        35,
+        33
+    ],
+    "login locations": [
+        [
+            -121.384756,
+            38.70976
+        ]
+    ],
+    "relationships": []
 }

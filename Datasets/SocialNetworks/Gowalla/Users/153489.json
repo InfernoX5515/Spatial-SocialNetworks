@@ -5,7 +5,12 @@
     "email": "peter41@yahoo.com",
     "birthdate": "1973-01-30",
     "phone": "770.794.0271x351",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.418556,
+            37.787684
+        ]
+    ],
+    "relationships": []
 }

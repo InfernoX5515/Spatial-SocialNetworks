@@ -5,7 +5,21 @@
     "email": "bernarddaniel@yahoo.com",
     "birthdate": "1986-07-10",
     "phone": "330.898.2261",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        24,
+        16,
+        59,
+        13,
+        22,
+        19,
+        13
+    ],
+    "login locations": [
+        [
+            -122.401579,
+            37.794684
+        ]
+    ],
+    "relationships": []
 }

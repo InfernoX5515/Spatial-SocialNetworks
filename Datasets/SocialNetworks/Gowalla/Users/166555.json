@@ -5,7 +5,15 @@
     "email": "sullivanjessica@yahoo.com",
     "birthdate": "1934-10-28",
     "phone": "505.245.9572",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        29
+    ],
+    "login locations": [
+        [
+            -118.334983,
+            34.021888
+        ]
+    ],
+    "relationships": []
 }

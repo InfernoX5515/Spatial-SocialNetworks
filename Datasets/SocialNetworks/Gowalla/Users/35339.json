@@ -5,7 +5,26 @@
     "email": "rcarlson@gmail.com",
     "birthdate": "1994-01-22",
     "phone": "(634)370-7414x8267",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        7,
+        38,
+        64,
+        21,
+        36,
+        51,
+        27,
+        72,
+        51,
+        44,
+        0,
+        73
+    ],
+    "login locations": [
+        [
+            -117.874855,
+            33.701115
+        ]
+    ],
+    "relationships": []
 }

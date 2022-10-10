@@ -5,7 +5,17 @@
     "email": "yspence@yahoo.com",
     "birthdate": "1924-05-04",
     "phone": "(739)813-0756x43307",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        32,
+        75,
+        61
+    ],
+    "login locations": [
+        [
+            -121.977746,
+            37.327497
+        ]
+    ],
+    "relationships": []
 }

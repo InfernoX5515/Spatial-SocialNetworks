@@ -5,7 +5,35 @@
     "email": "sarah97@yahoo.com",
     "birthdate": "1972-09-26",
     "phone": "001-083-096-8192x79879",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        5,
+        51,
+        23,
+        34,
+        3,
+        67,
+        17,
+        13,
+        46,
+        21
+    ],
+    "login locations": [
+        [
+            -118.433195,
+            34.03632
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5844,
+                0.011447260834
+            ],
+            [
+                5844,
+                0.011447260834
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,20 @@
     "email": "lmitchell@hotmail.com",
     "birthdate": "2019-10-21",
     "phone": "471-201-8436x3146",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        60,
+        10,
+        46,
+        8,
+        19,
+        44
+    ],
+    "login locations": [
+        [
+            -122.410175,
+            37.769916
+        ]
+    ],
+    "relationships": []
 }

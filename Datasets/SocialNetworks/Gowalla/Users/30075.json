@@ -5,7 +5,16 @@
     "email": "bushtodd@gmail.com",
     "birthdate": "1989-06-21",
     "phone": "148.530.4821",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        70,
+        61
+    ],
+    "login locations": [
+        [
+            -122.083758,
+            37.3759
+        ]
+    ],
+    "relationships": []
 }

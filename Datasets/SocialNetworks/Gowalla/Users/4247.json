@@ -5,7 +5,26 @@
     "email": "strevino@hotmail.com",
     "birthdate": "1959-06-17",
     "phone": "7175913030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        0
+    ],
+    "login locations": [
+        [
+            -122.408134,
+            37.760834
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4232,
+                0.010183299389
+            ],
+            [
+                4232,
+                0.010183299389
+            ]
+        ]
+    ]
 }

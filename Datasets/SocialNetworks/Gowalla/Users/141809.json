@@ -5,7 +5,18 @@
     "email": "joelhawkins@gmail.com",
     "birthdate": "1942-04-20",
     "phone": "(542)992-4586x945",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        5,
+        46,
+        38,
+        74
+    ],
+    "login locations": [
+        [
+            -121.903966,
+            37.397092
+        ]
+    ],
+    "relationships": []
 }

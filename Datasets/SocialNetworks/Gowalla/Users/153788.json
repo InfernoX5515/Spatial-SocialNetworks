@@ -5,7 +5,21 @@
     "email": "jeffreypatterson@yahoo.com",
     "birthdate": "1998-08-03",
     "phone": "001-906-230-7973x911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        4,
+        44,
+        41,
+        2,
+        61,
+        8,
+        65
+    ],
+    "login locations": [
+        [
+            -122.372024,
+            37.772004
+        ]
+    ],
+    "relationships": []
 }

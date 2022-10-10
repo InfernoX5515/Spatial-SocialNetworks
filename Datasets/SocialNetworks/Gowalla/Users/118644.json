@@ -5,7 +5,27 @@
     "email": "virginia98@yahoo.com",
     "birthdate": "1925-08-07",
     "phone": "534.436.9334",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        75,
+        6,
+        61,
+        47,
+        32,
+        74,
+        32,
+        6,
+        36,
+        35,
+        6,
+        71,
+        0
+    ],
+    "login locations": [
+        [
+            -117.215942,
+            32.814784
+        ]
+    ],
+    "relationships": []
 }

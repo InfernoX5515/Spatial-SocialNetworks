@@ -5,7 +5,26 @@
     "email": "mcclainmelinda@yahoo.com",
     "birthdate": "2006-02-01",
     "phone": "(565)410-4333",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        31,
+        58,
+        27,
+        12,
+        10,
+        21,
+        5,
+        41,
+        41,
+        60,
+        23,
+        51
+    ],
+    "login locations": [
+        [
+            -121.975569,
+            37.116918
+        ]
+    ],
+    "relationships": []
 }

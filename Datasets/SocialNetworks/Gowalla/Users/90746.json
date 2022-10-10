@@ -5,7 +5,23 @@
     "email": "catherine33@gmail.com",
     "birthdate": "1918-04-21",
     "phone": "001-685-753-0616x57842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        16,
+        36,
+        3,
+        0,
+        22,
+        25,
+        29,
+        63,
+        37
+    ],
+    "login locations": [
+        [
+            -118.333444,
+            34.054945
+        ]
+    ],
+    "relationships": []
 }

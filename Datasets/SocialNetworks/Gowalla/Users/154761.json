@@ -5,7 +5,25 @@
     "email": "erinhayes@gmail.com",
     "birthdate": "2021-03-21",
     "phone": "(267)372-2994x439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        1,
+        13,
+        27,
+        30,
+        63,
+        55,
+        24,
+        44,
+        45,
+        15,
+        27
+    ],
+    "login locations": [
+        [
+            -122.452659,
+            37.767475
+        ]
+    ],
+    "relationships": []
 }

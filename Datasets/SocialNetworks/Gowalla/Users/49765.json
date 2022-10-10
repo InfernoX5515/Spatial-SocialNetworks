@@ -5,7 +5,23 @@
     "email": "ashley37@yahoo.com",
     "birthdate": "1997-01-31",
     "phone": "001-436-678-7053x17591",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        71,
+        14,
+        39,
+        6,
+        45,
+        70,
+        61,
+        68,
+        31
+    ],
+    "login locations": [
+        [
+            -119.222799,
+            34.453888
+        ]
+    ],
+    "relationships": []
 }

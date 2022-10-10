@@ -5,7 +5,21 @@
     "email": "michaelbrooks@yahoo.com",
     "birthdate": "1979-01-21",
     "phone": "072-700-3847x973",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        13,
+        51,
+        41,
+        41,
+        34,
+        70,
+        35
+    ],
+    "login locations": [
+        [
+            -122.359998,
+            37.624392
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "zjennings@hotmail.com",
     "birthdate": "1965-09-06",
     "phone": "+1-326-984-7306x8769",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        30,
+        39,
+        14,
+        21
+    ],
+    "login locations": [
+        [
+            -122.436467,
+            37.783633
+        ]
+    ],
+    "relationships": []
 }

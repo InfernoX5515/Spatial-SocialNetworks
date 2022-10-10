@@ -5,7 +5,25 @@
     "email": "jbaldwin@gmail.com",
     "birthdate": "1980-04-16",
     "phone": "(729)550-7766",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        15,
+        35,
+        49,
+        40,
+        18,
+        30,
+        25,
+        56,
+        72,
+        33,
+        74
+    ],
+    "login locations": [
+        [
+            -121.155306,
+            38.861668
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "lambjared@gmail.com",
     "birthdate": "1975-09-11",
     "phone": "207-183-6741x4592",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29
+    ],
+    "login locations": [
+        [
+            -118.07742,
+            33.995623
+        ]
+    ],
+    "relationships": []
 }

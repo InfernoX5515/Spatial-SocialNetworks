@@ -5,7 +5,21 @@
     "email": "john92@gmail.com",
     "birthdate": "1911-02-08",
     "phone": "(782)784-5436x0847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        16,
+        2,
+        34,
+        54,
+        41,
+        3,
+        11
+    ],
+    "login locations": [
+        [
+            -118.163247,
+            34.132722
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "annamccarthy@yahoo.com",
     "birthdate": "1936-09-04",
     "phone": "+1-585-257-9169x54742",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        61,
+        48,
+        40,
+        20,
+        65,
+        41,
+        47,
+        9,
+        68
+    ],
+    "login locations": [
+        [
+            -117.137033,
+            32.722204
+        ]
+    ],
+    "relationships": []
 }

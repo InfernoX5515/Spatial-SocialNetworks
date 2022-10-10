@@ -5,7 +5,19 @@
     "email": "briannamcfarland@gmail.com",
     "birthdate": "1935-08-16",
     "phone": "774.530.8428",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        45,
+        12,
+        7,
+        41,
+        49
+    ],
+    "login locations": [
+        [
+            -122.081635,
+            37.389681
+        ]
+    ],
+    "relationships": []
 }

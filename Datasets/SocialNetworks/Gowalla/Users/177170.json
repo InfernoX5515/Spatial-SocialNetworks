@@ -5,7 +5,25 @@
     "email": "burnsthomas@gmail.com",
     "birthdate": "1919-07-21",
     "phone": "689-853-4811x7875",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        37,
+        62,
+        61,
+        2,
+        52,
+        74,
+        35,
+        19,
+        60,
+        25,
+        58
+    ],
+    "login locations": [
+        [
+            -121.275636,
+            38.675047
+        ]
+    ],
+    "relationships": []
 }

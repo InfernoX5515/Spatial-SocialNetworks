@@ -5,7 +5,26 @@
     "email": "davidphillips@yahoo.com",
     "birthdate": "1946-04-04",
     "phone": "(183)586-8363",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        7,
+        75,
+        0,
+        9,
+        41,
+        42,
+        36,
+        37,
+        39,
+        21,
+        41,
+        70
+    ],
+    "login locations": [
+        [
+            -122.428418,
+            37.776444
+        ]
+    ],
+    "relationships": []
 }

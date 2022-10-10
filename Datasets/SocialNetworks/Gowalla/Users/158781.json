@@ -5,7 +5,23 @@
     "email": "kvelez@gmail.com",
     "birthdate": "2011-05-10",
     "phone": "830.235.0268",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        46,
+        34,
+        5,
+        49,
+        48,
+        22,
+        14,
+        6,
+        70
+    ],
+    "login locations": [
+        [
+            -121.90679,
+            37.315338
+        ]
+    ],
+    "relationships": []
 }

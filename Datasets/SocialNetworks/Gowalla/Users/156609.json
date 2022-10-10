@@ -5,7 +5,36 @@
     "email": "oreynolds@hotmail.com",
     "birthdate": "1916-01-15",
     "phone": "+1-612-687-7927x42321",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        73,
+        67,
+        26,
+        51,
+        16,
+        27,
+        8,
+        24,
+        22,
+        5,
+        6
+    ],
+    "login locations": [
+        [
+            -118.425421,
+            34.032424
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                69987,
+                0.075
+            ],
+            [
+                69987,
+                0.075
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,26 @@
     "email": "matthewpeterson@hotmail.com",
     "birthdate": "1990-03-24",
     "phone": "001-958-274-7439x7257",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        24
+    ],
+    "login locations": [
+        [
+            -121.980585,
+            37.339751
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22555,
+                0.019512195122
+            ],
+            [
+                22555,
+                0.019512195122
+            ]
+        ]
+    ]
 }

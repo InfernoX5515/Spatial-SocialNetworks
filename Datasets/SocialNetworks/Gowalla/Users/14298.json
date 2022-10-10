@@ -5,7 +5,22 @@
     "email": "davidlee@gmail.com",
     "birthdate": "2004-03-02",
     "phone": "432-570-2671x81079",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        33,
+        68,
+        14,
+        8,
+        49,
+        29,
+        54,
+        13
+    ],
+    "login locations": [
+        [
+            -121.750949,
+            38.675107
+        ]
+    ],
+    "relationships": []
 }

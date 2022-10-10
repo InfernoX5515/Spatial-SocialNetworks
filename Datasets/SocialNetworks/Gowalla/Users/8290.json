@@ -5,7 +5,20 @@
     "email": "careychristopher@hotmail.com",
     "birthdate": "2017-05-15",
     "phone": "+1-806-464-8174x6940",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        1,
+        50,
+        2,
+        74,
+        0,
+        53
+    ],
+    "login locations": [
+        [
+            -118.343353,
+            34.124918
+        ]
+    ],
+    "relationships": []
 }

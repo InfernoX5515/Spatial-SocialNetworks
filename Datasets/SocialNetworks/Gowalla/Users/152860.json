@@ -5,7 +5,21 @@
     "email": "rkelly@hotmail.com",
     "birthdate": "2001-01-20",
     "phone": "215-297-1456x42670",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        64,
+        32,
+        60,
+        30,
+        46,
+        21,
+        5
+    ],
+    "login locations": [
+        [
+            -117.850489,
+            33.72961
+        ]
+    ],
+    "relationships": []
 }

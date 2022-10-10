@@ -5,7 +5,27 @@
     "email": "briansimmons@gmail.com",
     "birthdate": "1912-04-18",
     "phone": "001-054-843-1175x02111",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        51,
+        25,
+        10,
+        40,
+        57,
+        68,
+        5,
+        61,
+        14,
+        52,
+        35,
+        70,
+        63
+    ],
+    "login locations": [
+        [
+            -121.964587,
+            37.318948
+        ]
+    ],
+    "relationships": []
 }

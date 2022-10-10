@@ -5,7 +5,18 @@
     "email": "amy22@hotmail.com",
     "birthdate": "2018-07-11",
     "phone": "001-434-003-6794x0074",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        36,
+        68,
+        29,
+        28
+    ],
+    "login locations": [
+        [
+            -118.416399,
+            34.052418
+        ]
+    ],
+    "relationships": []
 }

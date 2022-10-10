@@ -5,7 +5,12 @@
     "email": "dalefowler@yahoo.com",
     "birthdate": "2019-10-22",
     "phone": "680.316.1230",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -120.604801,
+            35.137591
+        ]
+    ],
+    "relationships": []
 }

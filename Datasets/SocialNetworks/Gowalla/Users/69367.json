@@ -5,7 +5,21 @@
     "email": "dustin98@yahoo.com",
     "birthdate": "1925-06-17",
     "phone": "(402)176-5714",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        23,
+        25,
+        33,
+        47,
+        30,
+        26,
+        43
+    ],
+    "login locations": [
+        [
+            -118.407168,
+            33.943538
+        ]
+    ],
+    "relationships": []
 }

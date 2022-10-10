@@ -5,7 +5,28 @@
     "email": "icampbell@hotmail.com",
     "birthdate": "2017-03-08",
     "phone": "(943)985-9631",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        58,
+        50,
+        71,
+        68,
+        41,
+        30,
+        60,
+        38,
+        34,
+        3,
+        4,
+        1,
+        63,
+        58
+    ],
+    "login locations": [
+        [
+            -121.995759,
+            37.264193
+        ]
+    ],
+    "relationships": []
 }

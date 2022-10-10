@@ -5,7 +5,20 @@
     "email": "andrew47@yahoo.com",
     "birthdate": "1993-04-18",
     "phone": "+1-135-687-7376x972",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        40,
+        8,
+        53,
+        14,
+        73,
+        18
+    ],
+    "login locations": [
+        [
+            -122.284805,
+            37.805576
+        ]
+    ],
+    "relationships": []
 }

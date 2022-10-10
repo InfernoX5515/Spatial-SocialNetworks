@@ -5,7 +5,27 @@
     "email": "kyoung@yahoo.com",
     "birthdate": "2021-09-24",
     "phone": "638.607.8330x5177",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        6,
+        10,
+        36,
+        63,
+        3,
+        63,
+        59,
+        36,
+        71,
+        1,
+        34,
+        46,
+        39
+    ],
+    "login locations": [
+        [
+            -118.237925,
+            34.10391
+        ]
+    ],
+    "relationships": []
 }

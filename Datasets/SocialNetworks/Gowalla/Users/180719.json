@@ -5,7 +5,24 @@
     "email": "amygarcia@yahoo.com",
     "birthdate": "1970-06-08",
     "phone": "+1-846-887-0060x4278",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        52,
+        60,
+        14,
+        22,
+        60,
+        40,
+        24,
+        39,
+        16,
+        64
+    ],
+    "login locations": [
+        [
+            -121.950577,
+            37.324111
+        ]
+    ],
+    "relationships": []
 }

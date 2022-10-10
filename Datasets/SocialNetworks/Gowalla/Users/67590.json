@@ -5,7 +5,21 @@
     "email": "judyramsey@gmail.com",
     "birthdate": "1974-10-14",
     "phone": "698.594.2383",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        25,
+        68,
+        10,
+        46,
+        72,
+        55,
+        71
+    ],
+    "login locations": [
+        [
+            -118.587591,
+            34.199106
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "piercemckenzie@yahoo.com",
     "birthdate": "1958-05-28",
     "phone": "(612)319-2887",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        61,
+        44,
+        28,
+        53,
+        24,
+        48,
+        54,
+        68
+    ],
+    "login locations": [
+        [
+            -121.661939,
+            36.671971
+        ]
+    ],
+    "relationships": []
 }

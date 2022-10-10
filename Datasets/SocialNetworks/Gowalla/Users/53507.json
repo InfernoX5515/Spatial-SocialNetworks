@@ -5,7 +5,23 @@
     "email": "kimdonna@gmail.com",
     "birthdate": "1997-04-24",
     "phone": "326-158-2495x29559",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        12,
+        2,
+        75,
+        45,
+        17,
+        57,
+        2,
+        30,
+        5
+    ],
+    "login locations": [
+        [
+            -118.346551,
+            34.088369
+        ]
+    ],
+    "relationships": []
 }

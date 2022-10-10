@@ -5,7 +5,28 @@
     "email": "alexandermiller@gmail.com",
     "birthdate": "2020-07-03",
     "phone": "(904)871-1863x650",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        26,
+        45,
+        65
+    ],
+    "login locations": [
+        [
+            -122.42649,
+            37.753664
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49601,
+                0.0366666666667
+            ],
+            [
+                49601,
+                0.0366666666667
+            ]
+        ]
+    ]
 }

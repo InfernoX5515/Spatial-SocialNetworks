@@ -5,7 +5,21 @@
     "email": "tammycrawford@hotmail.com",
     "birthdate": "1914-04-23",
     "phone": "(717)562-6723x28535",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        13,
+        42,
+        25,
+        37,
+        62,
+        1,
+        40
+    ],
+    "login locations": [
+        [
+            -122.340477,
+            38.039899
+        ]
+    ],
+    "relationships": []
 }

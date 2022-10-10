@@ -5,7 +5,33 @@
     "email": "nevans@yahoo.com",
     "birthdate": "1991-06-24",
     "phone": "856-460-2611",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        68,
+        73,
+        24,
+        42,
+        60,
+        2,
+        45,
+        23
+    ],
+    "login locations": [
+        [
+            -117.147975,
+            32.760543
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                44262,
+                0.382978723404
+            ],
+            [
+                44262,
+                0.382978723404
+            ]
+        ]
+    ]
 }

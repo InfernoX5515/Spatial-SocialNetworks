@@ -5,7 +5,16 @@
     "email": "thomaskenneth@gmail.com",
     "birthdate": "1933-12-03",
     "phone": "3634290484",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        57,
+        64
+    ],
+    "login locations": [
+        [
+            -122.432076,
+            37.704961
+        ]
+    ],
+    "relationships": []
 }

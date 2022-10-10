@@ -5,7 +5,27 @@
     "email": "cowanrebecca@hotmail.com",
     "birthdate": "1985-06-30",
     "phone": "271.467.1443x078",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        66,
+        41,
+        2,
+        24,
+        51,
+        36,
+        65,
+        7,
+        75,
+        42,
+        56,
+        65,
+        0
+    ],
+    "login locations": [
+        [
+            -118.237875,
+            33.920182
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "brownthomas@hotmail.com",
     "birthdate": "1920-10-02",
     "phone": "(543)024-5434",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        66,
+        33
+    ],
+    "login locations": [
+        [
+            -117.158547,
+            32.731548
+        ]
+    ],
+    "relationships": []
 }

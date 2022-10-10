@@ -5,7 +5,24 @@
     "email": "william09@yahoo.com",
     "birthdate": "1958-10-20",
     "phone": "+1-114-126-5520x105",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        75,
+        66,
+        58,
+        16,
+        70,
+        14,
+        13,
+        18,
+        60,
+        26
+    ],
+    "login locations": [
+        [
+            -119.326606,
+            36.359573
+        ]
+    ],
+    "relationships": []
 }

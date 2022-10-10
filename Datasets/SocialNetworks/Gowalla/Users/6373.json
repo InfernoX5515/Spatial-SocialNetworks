@@ -5,7 +5,23 @@
     "email": "mhamilton@hotmail.com",
     "birthdate": "2019-09-26",
     "phone": "(366)528-2377x30883",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        74,
+        56,
+        20,
+        39,
+        26,
+        21,
+        39,
+        39,
+        46
+    ],
+    "login locations": [
+        [
+            -118.443666,
+            34.022146
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "matthewrangel@hotmail.com",
     "birthdate": "1990-01-28",
     "phone": "(640)725-4255x73901",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        10,
+        41,
+        58,
+        1,
+        20,
+        66
+    ],
+    "login locations": [
+        [
+            -117.970068,
+            33.846688
+        ]
+    ],
+    "relationships": []
 }

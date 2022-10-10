@@ -5,7 +5,21 @@
     "email": "maria12@yahoo.com",
     "birthdate": "2020-01-24",
     "phone": "9415709445",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        35,
+        14,
+        3,
+        20,
+        25,
+        22,
+        31
+    ],
+    "login locations": [
+        [
+            -117.715617,
+            33.652751
+        ]
+    ],
+    "relationships": []
 }

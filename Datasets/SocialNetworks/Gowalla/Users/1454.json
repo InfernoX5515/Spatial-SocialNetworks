@@ -5,7 +5,26 @@
     "email": "richard38@yahoo.com",
     "birthdate": "1999-01-04",
     "phone": "(867)075-0826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        40
+    ],
+    "login locations": [
+        [
+            -122.331652,
+            37.796192
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                376,
+                0.01
+            ],
+            [
+                777,
+                0.0105747126437
+            ]
+        ]
+    ]
 }

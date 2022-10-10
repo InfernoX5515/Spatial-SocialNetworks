@@ -5,7 +5,23 @@
     "email": "smithdouglas@gmail.com",
     "birthdate": "1983-08-27",
     "phone": "345-929-0298",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        51,
+        45,
+        7,
+        45,
+        25,
+        60,
+        40,
+        43,
+        41
+    ],
+    "login locations": [
+        [
+            -119.140464,
+            36.297719
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "fgalloway@hotmail.com",
     "birthdate": "1923-07-09",
     "phone": "001-374-269-7558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        0
+    ],
+    "login locations": [
+        [
+            -122.398276,
+            37.785447
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.0729927007299
+            ],
+            [
+                4362,
+                0.0689655172414
+            ]
+        ]
+    ]
 }

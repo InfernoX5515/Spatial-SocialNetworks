@@ -5,7 +5,12 @@
     "email": "dwayne86@gmail.com",
     "birthdate": "2013-01-03",
     "phone": "3105335389",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.286931,
+            33.823263
+        ]
+    ],
+    "relationships": []
 }

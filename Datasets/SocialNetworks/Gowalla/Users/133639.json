@@ -5,7 +5,23 @@
     "email": "bboone@hotmail.com",
     "birthdate": "2022-06-08",
     "phone": "(672)736-6212x15385",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        13,
+        33,
+        54,
+        11,
+        10,
+        24,
+        13,
+        70,
+        29
+    ],
+    "login locations": [
+        [
+            -118.258923,
+            34.068732
+        ]
+    ],
+    "relationships": []
 }

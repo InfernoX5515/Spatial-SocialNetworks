@@ -5,7 +5,18 @@
     "email": "john57@gmail.com",
     "birthdate": "1998-10-17",
     "phone": "001-258-728-9885x454",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        43,
+        62,
+        17,
+        65
+    ],
+    "login locations": [
+        [
+            -118.775737,
+            34.284274
+        ]
+    ],
+    "relationships": []
 }

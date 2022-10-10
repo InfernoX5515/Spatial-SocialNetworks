@@ -5,7 +5,17 @@
     "email": "crystalshah@hotmail.com",
     "birthdate": "2006-07-01",
     "phone": "032.494.6701x6221",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        34,
+        27,
+        74
+    ],
+    "login locations": [
+        [
+            -120.357546,
+            37.230202
+        ]
+    ],
+    "relationships": []
 }

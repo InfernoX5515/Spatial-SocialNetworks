@@ -5,7 +5,25 @@
     "email": "mauricebrewer@yahoo.com",
     "birthdate": "1930-05-01",
     "phone": "001-382-176-6499x29225",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        51,
+        30,
+        24,
+        57,
+        62,
+        69,
+        49,
+        53,
+        18,
+        71,
+        67
+    ],
+    "login locations": [
+        [
+            -118.40943,
+            34.04895
+        ]
+    ],
+    "relationships": []
 }

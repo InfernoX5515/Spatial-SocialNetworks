@@ -5,7 +5,27 @@
     "email": "wileystephen@hotmail.com",
     "birthdate": "1936-05-14",
     "phone": "742.191.5211",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        23,
+        36
+    ],
+    "login locations": [
+        [
+            -121.988681,
+            37.316575
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82,
+                0.133928571429
+            ],
+            [
+                254,
+                0.0416666666667
+            ]
+        ]
+    ]
 }

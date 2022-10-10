@@ -5,7 +5,27 @@
     "email": "jamesgonzalez@hotmail.com",
     "birthdate": "1936-08-02",
     "phone": "515.424.3886",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        37,
+        63
+    ],
+    "login locations": [
+        [
+            -122.008233,
+            37.328006
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4436,
+                0.01
+            ],
+            [
+                4436,
+                0.01
+            ]
+        ]
+    ]
 }

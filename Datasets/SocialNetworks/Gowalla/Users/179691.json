@@ -5,7 +5,20 @@
     "email": "ykelly@gmail.com",
     "birthdate": "1985-01-05",
     "phone": "(688)255-2537x28233",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        22,
+        13,
+        18,
+        47,
+        25,
+        2
+    ],
+    "login locations": [
+        [
+            -122.426102,
+            37.775553
+        ]
+    ],
+    "relationships": []
 }

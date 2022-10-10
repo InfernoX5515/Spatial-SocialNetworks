@@ -5,7 +5,17 @@
     "email": "dawn16@yahoo.com",
     "birthdate": "1916-08-02",
     "phone": "822.155.6125x298",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        64,
+        37,
+        38
+    ],
+    "login locations": [
+        [
+            -118.368363,
+            34.08155
+        ]
+    ],
+    "relationships": []
 }

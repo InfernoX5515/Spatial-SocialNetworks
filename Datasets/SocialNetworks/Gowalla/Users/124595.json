@@ -5,7 +5,18 @@
     "email": "mtran@gmail.com",
     "birthdate": "1960-04-13",
     "phone": "+1-774-035-7871",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        69,
+        23,
+        68,
+        65
+    ],
+    "login locations": [
+        [
+            -119.848776,
+            34.431952
+        ]
+    ],
+    "relationships": []
 }

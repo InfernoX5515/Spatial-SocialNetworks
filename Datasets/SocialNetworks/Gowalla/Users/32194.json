@@ -5,7 +5,25 @@
     "email": "joshuagarner@hotmail.com",
     "birthdate": "1946-04-27",
     "phone": "001-062-109-8991x5977",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        27,
+        26,
+        12,
+        4,
+        30,
+        6,
+        3,
+        51,
+        25,
+        61,
+        15
+    ],
+    "login locations": [
+        [
+            -122.257068,
+            37.788834
+        ]
+    ],
+    "relationships": []
 }

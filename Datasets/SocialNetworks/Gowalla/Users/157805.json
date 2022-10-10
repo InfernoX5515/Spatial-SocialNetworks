@@ -5,7 +5,18 @@
     "email": "whitneydestiny@yahoo.com",
     "birthdate": "1986-09-22",
     "phone": "+1-952-721-2918",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        48,
+        58,
+        61,
+        49
+    ],
+    "login locations": [
+        [
+            -117.973834,
+            34.051325
+        ]
+    ],
+    "relationships": []
 }

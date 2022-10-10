@@ -5,7 +5,27 @@
     "email": "bmiranda@hotmail.com",
     "birthdate": "1964-12-26",
     "phone": "+1-117-405-5293x52924",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        65,
+        13,
+        18,
+        24,
+        54,
+        35,
+        15,
+        29,
+        54,
+        65,
+        23,
+        50,
+        59
+    ],
+    "login locations": [
+        [
+            -118.028087,
+            34.078006
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "amybates@gmail.com",
     "birthdate": "1944-11-02",
     "phone": "077.306.4466x33554",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        26,
+        40,
+        0,
+        14,
+        22,
+        49,
+        56,
+        44,
+        23,
+        71,
+        26
+    ],
+    "login locations": [
+        [
+            -122.428046,
+            37.782897
+        ]
+    ],
+    "relationships": []
 }

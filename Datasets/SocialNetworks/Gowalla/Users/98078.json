@@ -5,7 +5,26 @@
     "email": "lucas66@gmail.com",
     "birthdate": "1963-12-28",
     "phone": "616.632.6550x0731",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        33,
+        20,
+        21,
+        8,
+        2,
+        49,
+        65,
+        3,
+        73,
+        58,
+        22,
+        26
+    ],
+    "login locations": [
+        [
+            -119.80512,
+            36.853231
+        ]
+    ],
+    "relationships": []
 }

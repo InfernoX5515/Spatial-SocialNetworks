@@ -5,7 +5,24 @@
     "email": "brownpatrick@gmail.com",
     "birthdate": "1934-07-31",
     "phone": "(242)390-9965x124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        27,
+        67,
+        73,
+        28,
+        53,
+        55,
+        3,
+        58,
+        74,
+        66
+    ],
+    "login locations": [
+        [
+            -118.375479,
+            34.081268
+        ]
+    ],
+    "relationships": []
 }

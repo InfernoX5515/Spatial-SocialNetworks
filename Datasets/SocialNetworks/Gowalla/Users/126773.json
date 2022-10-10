@@ -5,7 +5,25 @@
     "email": "beanjohn@gmail.com",
     "birthdate": "1924-01-17",
     "phone": "(783)063-7753x7445",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        5,
+        26,
+        55,
+        42,
+        0,
+        35,
+        50,
+        53,
+        11,
+        47,
+        64
+    ],
+    "login locations": [
+        [
+            -118.692846,
+            34.098385
+        ]
+    ],
+    "relationships": []
 }

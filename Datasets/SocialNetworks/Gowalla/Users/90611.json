@@ -5,7 +5,22 @@
     "email": "ashleyjohnston@gmail.com",
     "birthdate": "1931-07-24",
     "phone": "+1-274-092-7559x303",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        67,
+        62,
+        43,
+        62,
+        40,
+        65,
+        53,
+        35
+    ],
+    "login locations": [
+        [
+            -122.467305,
+            37.754846
+        ]
+    ],
+    "relationships": []
 }

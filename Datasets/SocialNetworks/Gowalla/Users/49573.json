@@ -5,7 +5,14 @@
     "email": "ymurphy@gmail.com",
     "birthdate": "1931-12-07",
     "phone": "773.232.6207x6798",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64
+    ],
+    "login locations": [
+        [
+            -122.408903,
+            37.758816
+        ]
+    ],
+    "relationships": []
 }

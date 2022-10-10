@@ -5,7 +5,23 @@
     "email": "jamiemendoza@hotmail.com",
     "birthdate": "1924-11-01",
     "phone": "001-275-128-0988x0324",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        65,
+        16,
+        27,
+        37,
+        15,
+        50,
+        32,
+        10,
+        5
+    ],
+    "login locations": [
+        [
+            -121.929785,
+            37.332976
+        ]
+    ],
+    "relationships": []
 }

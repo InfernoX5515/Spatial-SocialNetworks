@@ -5,7 +5,20 @@
     "email": "angelafisher@hotmail.com",
     "birthdate": "1990-02-23",
     "phone": "(061)033-7139x97124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        40,
+        64,
+        74,
+        60,
+        12,
+        13
+    ],
+    "login locations": [
+        [
+            -118.309155,
+            34.07392
+        ]
+    ],
+    "relationships": []
 }

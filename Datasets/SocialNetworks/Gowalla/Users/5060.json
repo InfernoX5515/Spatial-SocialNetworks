@@ -5,7 +5,26 @@
     "email": "meyerdaniel@yahoo.com",
     "birthdate": "1923-12-10",
     "phone": "(118)037-0747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        42
+    ],
+    "login locations": [
+        [
+            -122.28767,
+            37.809038
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.0238596491228
+            ],
+            [
+                4257,
+                0.0409638554217
+            ]
+        ]
+    ]
 }

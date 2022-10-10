@@ -5,7 +5,28 @@
     "email": "josephgarza@yahoo.com",
     "birthdate": "1964-01-07",
     "phone": "001-524-959-6665x2057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        67,
+        50,
+        38,
+        68,
+        24,
+        71,
+        8,
+        0,
+        29,
+        9,
+        13,
+        54,
+        70,
+        70
+    ],
+    "login locations": [
+        [
+            -122.005741,
+            37.121364
+        ]
+    ],
+    "relationships": []
 }

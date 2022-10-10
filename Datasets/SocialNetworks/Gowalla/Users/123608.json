@@ -5,7 +5,16 @@
     "email": "dominiquesimpson@gmail.com",
     "birthdate": "1952-05-11",
     "phone": "001-040-137-1585x686",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        59,
+        32
+    ],
+    "login locations": [
+        [
+            -118.328478,
+            34.093206
+        ]
+    ],
+    "relationships": []
 }

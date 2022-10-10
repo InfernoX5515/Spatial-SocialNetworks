@@ -5,7 +5,24 @@
     "email": "horncatherine@hotmail.com",
     "birthdate": "1993-06-26",
     "phone": "839.998.6670x320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        30,
+        28,
+        2,
+        7,
+        56,
+        46,
+        27,
+        66,
+        10,
+        52
+    ],
+    "login locations": [
+        [
+            -122.430453,
+            37.795544
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "vaughnaaron@gmail.com",
     "birthdate": "2001-09-29",
     "phone": "041.928.2298x42203",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        65,
+        61,
+        50,
+        59,
+        61,
+        0,
+        42,
+        36
+    ],
+    "login locations": [
+        [
+            -117.151028,
+            32.857978
+        ]
+    ],
+    "relationships": []
 }

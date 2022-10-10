@@ -5,7 +5,28 @@
     "email": "dmoore@yahoo.com",
     "birthdate": "1956-07-13",
     "phone": "176.370.2530x16118",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        35,
+        38,
+        61,
+        5,
+        24,
+        65,
+        31,
+        46,
+        7,
+        57,
+        36,
+        7,
+        22,
+        21
+    ],
+    "login locations": [
+        [
+            -117.179058,
+            32.726561
+        ]
+    ],
+    "relationships": []
 }

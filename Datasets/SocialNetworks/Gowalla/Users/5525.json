@@ -5,7 +5,36 @@
     "email": "jonesthomas@gmail.com",
     "birthdate": "2006-08-14",
     "phone": "272-815-4144",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        56,
+        53,
+        54,
+        55,
+        21,
+        51,
+        14,
+        71,
+        65,
+        33,
+        66
+    ],
+    "login locations": [
+        [
+            -122.415992,
+            37.760682
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5558,
+                0.07
+            ],
+            [
+                5558,
+                0.0243902439024
+            ]
+        ]
+    ]
 }

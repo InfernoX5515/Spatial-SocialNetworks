@@ -5,7 +5,27 @@
     "email": "adamparrish@hotmail.com",
     "birthdate": "1999-02-12",
     "phone": "534.180.3188",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        46,
+        7,
+        0,
+        47,
+        19,
+        66,
+        27,
+        64,
+        73,
+        33,
+        32,
+        42,
+        27
+    ],
+    "login locations": [
+        [
+            -119.783008,
+            36.778402
+        ]
+    ],
+    "relationships": []
 }

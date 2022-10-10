@@ -5,7 +5,24 @@
     "email": "davisjulia@hotmail.com",
     "birthdate": "1941-12-02",
     "phone": "165.535.5246x4891",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        29,
+        62,
+        31,
+        61,
+        65,
+        18,
+        16,
+        45,
+        69,
+        36
+    ],
+    "login locations": [
+        [
+            -117.421491,
+            34.098682
+        ]
+    ],
+    "relationships": []
 }

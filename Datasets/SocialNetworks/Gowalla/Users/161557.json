@@ -5,7 +5,19 @@
     "email": "lindageorge@yahoo.com",
     "birthdate": "1940-10-31",
     "phone": "001-482-820-4274x72742",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        40,
+        15,
+        20,
+        7,
+        55
+    ],
+    "login locations": [
+        [
+            -118.288227,
+            34.089081
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "deborahaguilar@gmail.com",
     "birthdate": "1995-03-17",
     "phone": "0692455634",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        49,
+        34,
+        8,
+        4,
+        51,
+        75,
+        71,
+        27
+    ],
+    "login locations": [
+        [
+            -117.075406,
+            32.757237
+        ]
+    ],
+    "relationships": []
 }

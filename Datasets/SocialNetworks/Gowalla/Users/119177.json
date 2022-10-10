@@ -5,7 +5,14 @@
     "email": "xstewart@hotmail.com",
     "birthdate": "2004-01-03",
     "phone": "+1-122-977-0772x94056",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28
+    ],
+    "login locations": [
+        [
+            -121.374012,
+            38.633473
+        ]
+    ],
+    "relationships": []
 }

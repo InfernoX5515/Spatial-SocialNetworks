@@ -5,7 +5,16 @@
     "email": "collinssean@hotmail.com",
     "birthdate": "1941-08-02",
     "phone": "068-585-4904",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        34,
+        70
+    ],
+    "login locations": [
+        [
+            -121.974727,
+            37.29891
+        ]
+    ],
+    "relationships": []
 }

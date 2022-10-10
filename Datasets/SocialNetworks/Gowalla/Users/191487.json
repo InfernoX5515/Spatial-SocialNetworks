@@ -5,7 +5,23 @@
     "email": "ronald67@hotmail.com",
     "birthdate": "1970-03-17",
     "phone": "357-579-0165x547",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        34,
+        73,
+        50,
+        59,
+        33,
+        2,
+        26,
+        53,
+        38
+    ],
+    "login locations": [
+        [
+            -121.316563,
+            38.001025
+        ]
+    ],
+    "relationships": []
 }

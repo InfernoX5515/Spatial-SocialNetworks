@@ -5,7 +5,16 @@
     "email": "johnsonjamie@yahoo.com",
     "birthdate": "1927-10-14",
     "phone": "+1-272-037-2997x4603",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        47,
+        15
+    ],
+    "login locations": [
+        [
+            -122.4025,
+            37.774313
+        ]
+    ],
+    "relationships": []
 }

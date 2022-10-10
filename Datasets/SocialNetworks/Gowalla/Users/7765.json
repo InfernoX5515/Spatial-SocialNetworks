@@ -5,7 +5,28 @@
     "email": "dbarajas@gmail.com",
     "birthdate": "1954-03-20",
     "phone": "807.217.1995x821",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        23,
+        25,
+        10,
+        34,
+        71,
+        15,
+        24,
+        68,
+        46,
+        58,
+        18,
+        57,
+        75,
+        10
+    ],
+    "login locations": [
+        [
+            -122.406983,
+            37.775116
+        ]
+    ],
+    "relationships": []
 }

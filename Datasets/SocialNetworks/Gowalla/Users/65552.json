@@ -5,7 +5,20 @@
     "email": "deansheryl@gmail.com",
     "birthdate": "1997-04-18",
     "phone": "+1-228-360-8563x2028",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        41,
+        43,
+        0,
+        4,
+        43,
+        24
+    ],
+    "login locations": [
+        [
+            -122.032926,
+            37.345646
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "meredith43@hotmail.com",
     "birthdate": "1989-02-12",
     "phone": "1145452104",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        62,
+        0,
+        17,
+        60,
+        40,
+        52,
+        59,
+        62,
+        6,
+        1,
+        17,
+        47
+    ],
+    "login locations": [
+        [
+            -117.132626,
+            32.767153
+        ]
+    ],
+    "relationships": []
 }

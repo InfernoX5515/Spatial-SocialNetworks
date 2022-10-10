@@ -5,7 +5,18 @@
     "email": "ifloyd@yahoo.com",
     "birthdate": "1910-03-09",
     "phone": "844-722-2015",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        68,
+        64,
+        59,
+        51
+    ],
+    "login locations": [
+        [
+            -118.428305,
+            33.959993
+        ]
+    ],
+    "relationships": []
 }

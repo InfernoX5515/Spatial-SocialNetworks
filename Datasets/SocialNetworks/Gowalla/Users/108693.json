@@ -5,7 +5,28 @@
     "email": "jmeyer@yahoo.com",
     "birthdate": "2006-12-27",
     "phone": "3388501556",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        40,
+        73,
+        35,
+        74,
+        39,
+        62,
+        0,
+        40,
+        41,
+        45,
+        25,
+        46,
+        4,
+        52
+    ],
+    "login locations": [
+        [
+            -121.466845,
+            38.571128
+        ]
+    ],
+    "relationships": []
 }

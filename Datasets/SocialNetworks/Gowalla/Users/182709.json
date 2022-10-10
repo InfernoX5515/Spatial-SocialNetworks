@@ -5,7 +5,38 @@
     "email": "luisanderson@yahoo.com",
     "birthdate": "1995-11-01",
     "phone": "739-520-8213",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        63,
+        67,
+        27,
+        10,
+        9,
+        49,
+        60,
+        8,
+        3,
+        1,
+        38,
+        22,
+        43
+    ],
+    "login locations": [
+        [
+            -117.068917,
+            32.616662
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                132018,
+                0.0119047619048
+            ],
+            [
+                132018,
+                0.0119047619048
+            ]
+        ]
+    ]
 }

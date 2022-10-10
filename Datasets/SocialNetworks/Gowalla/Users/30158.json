@@ -5,7 +5,30 @@
     "email": "woodjessica@yahoo.com",
     "birthdate": "1978-09-02",
     "phone": "+1-364-033-1014",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        34,
+        31,
+        67,
+        61,
+        65
+    ],
+    "login locations": [
+        [
+            -121.353816,
+            38.736908
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                122537,
+                0.0101694915254
+            ],
+            [
+                122537,
+                0.0101694915254
+            ]
+        ]
+    ]
 }

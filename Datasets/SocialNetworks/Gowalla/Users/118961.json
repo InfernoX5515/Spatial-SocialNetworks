@@ -5,7 +5,15 @@
     "email": "sonya05@gmail.com",
     "birthdate": "1978-06-28",
     "phone": "(258)258-8798x5718",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        66
+    ],
+    "login locations": [
+        [
+            -118.452325,
+            34.12669
+        ]
+    ],
+    "relationships": []
 }

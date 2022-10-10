@@ -5,7 +5,16 @@
     "email": "ikelly@yahoo.com",
     "birthdate": "2003-02-23",
     "phone": "001-143-973-9884x770",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        65,
+        56
+    ],
+    "login locations": [
+        [
+            -117.671096,
+            35.629478
+        ]
+    ],
+    "relationships": []
 }

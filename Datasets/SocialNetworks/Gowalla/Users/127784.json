@@ -5,7 +5,27 @@
     "email": "fitzgeraldregina@hotmail.com",
     "birthdate": "2018-08-02",
     "phone": "462-716-9733x102",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        66,
+        65,
+        39,
+        54,
+        22,
+        8,
+        7,
+        8,
+        32,
+        46,
+        43,
+        46,
+        15
+    ],
+    "login locations": [
+        [
+            -118.137491,
+            34.083315
+        ]
+    ],
+    "relationships": []
 }

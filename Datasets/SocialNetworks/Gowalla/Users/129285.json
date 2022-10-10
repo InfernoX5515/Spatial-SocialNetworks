@@ -5,7 +5,16 @@
     "email": "darrell70@yahoo.com",
     "birthdate": "1938-04-28",
     "phone": "+1-652-597-2858x5544",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        74,
+        38
+    ],
+    "login locations": [
+        [
+            -122.27143,
+            37.749722
+        ]
+    ],
+    "relationships": []
 }

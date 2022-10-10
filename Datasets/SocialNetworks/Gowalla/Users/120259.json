@@ -5,7 +5,27 @@
     "email": "ngarcia@hotmail.com",
     "birthdate": "1917-11-20",
     "phone": "001-399-923-5427",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        58,
+        41,
+        7,
+        62,
+        60,
+        36,
+        3,
+        43,
+        20,
+        57,
+        2,
+        1,
+        7
+    ],
+    "login locations": [
+        [
+            -122.00799,
+            37.00996
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,37 @@
     "email": "rachel65@yahoo.com",
     "birthdate": "1912-01-02",
     "phone": "001-605-923-8535x00648",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        75,
+        20,
+        63,
+        60,
+        4,
+        25,
+        47,
+        27,
+        69,
+        32,
+        53,
+        38
+    ],
+    "login locations": [
+        [
+            -117.920466,
+            33.731385
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1904,
+                0.04
+            ],
+            [
+                2126,
+                0.0971428571429
+            ]
+        ]
+    ]
 }

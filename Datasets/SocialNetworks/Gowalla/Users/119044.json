@@ -5,7 +5,33 @@
     "email": "james61@yahoo.com",
     "birthdate": "1964-11-24",
     "phone": "586.706.5446x733",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        55,
+        15,
+        12,
+        59,
+        35,
+        56,
+        14,
+        45
+    ],
+    "login locations": [
+        [
+            -117.999479,
+            33.689755
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                90801,
+                0.02
+            ],
+            [
+                90803,
+                0.0590717299578
+            ]
+        ]
+    ]
 }

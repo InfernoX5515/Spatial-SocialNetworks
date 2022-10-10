@@ -5,7 +5,16 @@
     "email": "jenniferrogers@gmail.com",
     "birthdate": "1983-01-31",
     "phone": "736.049.5070x65894",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        69,
+        30
+    ],
+    "login locations": [
+        [
+            -121.426843,
+            38.582247
+        ]
+    ],
+    "relationships": []
 }

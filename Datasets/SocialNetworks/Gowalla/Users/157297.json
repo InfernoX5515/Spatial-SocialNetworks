@@ -5,7 +5,22 @@
     "email": "albert96@yahoo.com",
     "birthdate": "1972-02-27",
     "phone": "(243)300-8207x47209",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        48,
+        30,
+        8,
+        42,
+        49,
+        70,
+        3,
+        19
+    ],
+    "login locations": [
+        [
+            -122.020559,
+            37.383493
+        ]
+    ],
+    "relationships": []
 }

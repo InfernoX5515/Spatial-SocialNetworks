@@ -5,7 +5,12 @@
     "email": "stephanie91@hotmail.com",
     "birthdate": "2002-04-23",
     "phone": "287.588.5393",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.618022,
+            34.169805
+        ]
+    ],
+    "relationships": []
 }

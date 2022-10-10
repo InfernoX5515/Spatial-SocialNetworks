@@ -5,7 +5,26 @@
     "email": "sharonwalters@hotmail.com",
     "birthdate": "2015-11-12",
     "phone": "817-645-7307",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        31,
+        49,
+        51,
+        9,
+        16,
+        65,
+        51,
+        18,
+        45,
+        44,
+        10,
+        68
+    ],
+    "login locations": [
+        [
+            -122.403746,
+            37.783231
+        ]
+    ],
+    "relationships": []
 }

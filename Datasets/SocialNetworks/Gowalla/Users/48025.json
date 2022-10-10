@@ -5,7 +5,14 @@
     "email": "gregoryaguilar@hotmail.com",
     "birthdate": "2008-10-31",
     "phone": "+1-569-215-4309x403",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23
+    ],
+    "login locations": [
+        [
+            -122.383517,
+            37.814014
+        ]
+    ],
+    "relationships": []
 }

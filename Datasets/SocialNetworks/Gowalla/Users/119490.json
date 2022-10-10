@@ -5,7 +5,30 @@
     "email": "kristinhowell@hotmail.com",
     "birthdate": "1949-09-25",
     "phone": "533-716-2920",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        18,
+        66,
+        25,
+        10,
+        51
+    ],
+    "login locations": [
+        [
+            -117.748564,
+            33.672949
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                26987,
+                0.0266666666667
+            ],
+            [
+                26987,
+                0.0266666666667
+            ]
+        ]
+    ]
 }

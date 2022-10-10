@@ -5,7 +5,16 @@
     "email": "maciasryan@yahoo.com",
     "birthdate": "1958-06-12",
     "phone": "484-136-6944x6484",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        39,
+        69
+    ],
+    "login locations": [
+        [
+            -121.957594,
+            37.393325
+        ]
+    ],
+    "relationships": []
 }

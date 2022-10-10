@@ -5,7 +5,20 @@
     "email": "owenbryan@hotmail.com",
     "birthdate": "1975-03-08",
     "phone": "348.006.6760",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        12,
+        69,
+        33,
+        64,
+        42,
+        71
+    ],
+    "login locations": [
+        [
+            -121.465074,
+            38.577219
+        ]
+    ],
+    "relationships": []
 }

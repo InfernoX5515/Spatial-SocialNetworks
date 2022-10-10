@@ -5,7 +5,26 @@
     "email": "lnewman@gmail.com",
     "birthdate": "1978-03-08",
     "phone": "001-082-865-2787",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        9
+    ],
+    "login locations": [
+        [
+            -118.151732,
+            33.894752
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                137639,
+                0.0344827586207
+            ],
+            [
+                137639,
+                0.0344827586207
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,36 @@
     "email": "smacias@hotmail.com",
     "birthdate": "1947-04-25",
     "phone": "893.400.0706",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        38,
+        51,
+        14,
+        51,
+        74,
+        23,
+        36,
+        38,
+        31,
+        74,
+        31
+    ],
+    "login locations": [
+        [
+            -122.115262,
+            37.384324
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5098,
+                0.012
+            ],
+            [
+                5102,
+                0.0526315789474
+            ]
+        ]
+    ]
 }

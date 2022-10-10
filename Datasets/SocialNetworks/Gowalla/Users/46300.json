@@ -5,7 +5,26 @@
     "email": "tammyherrera@yahoo.com",
     "birthdate": "1926-11-28",
     "phone": "+1-630-846-6494x2396",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        61
+    ],
+    "login locations": [
+        [
+            -121.916796,
+            37.371292
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                129655,
+                0.0337078651685
+            ],
+            [
+                129655,
+                0.0337078651685
+            ]
+        ]
+    ]
 }

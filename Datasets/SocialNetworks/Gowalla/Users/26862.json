@@ -5,7 +5,23 @@
     "email": "joyortiz@hotmail.com",
     "birthdate": "2011-03-07",
     "phone": "349.706.9216x465",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        0,
+        31,
+        18,
+        26,
+        51,
+        43,
+        34,
+        54,
+        38
+    ],
+    "login locations": [
+        [
+            -121.023908,
+            38.67536
+        ]
+    ],
+    "relationships": []
 }

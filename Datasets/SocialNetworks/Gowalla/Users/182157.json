@@ -5,7 +5,28 @@
     "email": "sarah49@gmail.com",
     "birthdate": "1964-11-11",
     "phone": "(155)335-5970",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        53,
+        70,
+        39,
+        4,
+        59,
+        31,
+        62,
+        70,
+        39,
+        32,
+        64,
+        64,
+        48,
+        48
+    ],
+    "login locations": [
+        [
+            -122.010713,
+            36.975166
+        ]
+    ],
+    "relationships": []
 }

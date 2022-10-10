@@ -5,7 +5,14 @@
     "email": "noblecathy@gmail.com",
     "birthdate": "1988-02-15",
     "phone": "534.406.7162x8599",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38
+    ],
+    "login locations": [
+        [
+            -124.126212,
+            40.791108
+        ]
+    ],
+    "relationships": []
 }

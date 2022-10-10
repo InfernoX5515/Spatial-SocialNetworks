@@ -5,7 +5,17 @@
     "email": "michele83@gmail.com",
     "birthdate": "1977-08-19",
     "phone": "(045)354-9825x21382",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        29,
+        21,
+        68
+    ],
+    "login locations": [
+        [
+            -118.396278,
+            34.04504
+        ]
+    ],
+    "relationships": []
 }

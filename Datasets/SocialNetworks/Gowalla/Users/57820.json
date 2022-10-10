@@ -5,7 +5,22 @@
     "email": "donaldcrawford@gmail.com",
     "birthdate": "2001-06-05",
     "phone": "(916)086-5440",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        72,
+        55,
+        17,
+        20,
+        68,
+        56,
+        32,
+        19
+    ],
+    "login locations": [
+        [
+            -118.318354,
+            34.074612
+        ]
+    ],
+    "relationships": []
 }

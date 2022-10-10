@@ -5,7 +5,14 @@
     "email": "jennifer15@gmail.com",
     "birthdate": "2016-10-09",
     "phone": "(089)582-2331",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23
+    ],
+    "login locations": [
+        [
+            -118.383111,
+            34.063329
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "andrew34@yahoo.com",
     "birthdate": "1989-07-09",
     "phone": "(722)913-1787x800",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        55,
+        48,
+        48,
+        42,
+        63,
+        54,
+        1,
+        55,
+        37,
+        51,
+        42,
+        74,
+        34
+    ],
+    "login locations": [
+        [
+            -121.389366,
+            38.609861
+        ]
+    ],
+    "relationships": []
 }

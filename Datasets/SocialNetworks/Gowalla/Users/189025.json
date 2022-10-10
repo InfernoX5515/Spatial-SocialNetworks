@@ -5,7 +5,20 @@
     "email": "megan38@hotmail.com",
     "birthdate": "1972-02-09",
     "phone": "(387)346-6642",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        11,
+        61,
+        6,
+        42,
+        48,
+        35
+    ],
+    "login locations": [
+        [
+            -122.026199,
+            36.972228
+        ]
+    ],
+    "relationships": []
 }

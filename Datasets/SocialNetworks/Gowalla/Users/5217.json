@@ -5,7 +5,36 @@
     "email": "santiagotimothy@gmail.com",
     "birthdate": "1919-11-25",
     "phone": "462-468-3489x37882",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        66,
+        19,
+        0,
+        33,
+        7,
+        57,
+        46,
+        33,
+        17,
+        5,
+        10
+    ],
+    "login locations": [
+        [
+            -121.910267,
+            37.343536
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                304,
+                0.01
+            ],
+            [
+                324,
+                0.01
+            ]
+        ]
+    ]
 }

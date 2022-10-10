@@ -5,7 +5,30 @@
     "email": "angela48@yahoo.com",
     "birthdate": "1931-10-04",
     "phone": "(249)681-9132x0939",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        50,
+        34,
+        38,
+        8,
+        10
+    ],
+    "login locations": [
+        [
+            -119.659158,
+            36.781291
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32694,
+                0.12
+            ],
+            [
+                32694,
+                0.12
+            ]
+        ]
+    ]
 }

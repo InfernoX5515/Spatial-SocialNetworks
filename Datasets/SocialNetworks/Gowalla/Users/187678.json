@@ -5,7 +5,20 @@
     "email": "cisnerosamanda@yahoo.com",
     "birthdate": "2016-07-09",
     "phone": "459-679-8108x5697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        29,
+        57,
+        11,
+        66,
+        19,
+        72
+    ],
+    "login locations": [
+        [
+            -117.792672,
+            33.945481
+        ]
+    ],
+    "relationships": []
 }

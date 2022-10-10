@@ -5,7 +5,20 @@
     "email": "nmckenzie@gmail.com",
     "birthdate": "1990-11-11",
     "phone": "(786)405-0824x973",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        25,
+        34,
+        52,
+        18,
+        10,
+        1
+    ],
+    "login locations": [
+        [
+            -121.296137,
+            38.615543
+        ]
+    ],
+    "relationships": []
 }

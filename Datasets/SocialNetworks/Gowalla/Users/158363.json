@@ -5,7 +5,28 @@
     "email": "kbaker@yahoo.com",
     "birthdate": "1951-03-06",
     "phone": "(893)648-6227x181",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        65,
+        9,
+        63,
+        4,
+        36,
+        33,
+        39,
+        44,
+        3,
+        39,
+        0,
+        27,
+        56,
+        31
+    ],
+    "login locations": [
+        [
+            -122.267089,
+            37.872273
+        ]
+    ],
+    "relationships": []
 }

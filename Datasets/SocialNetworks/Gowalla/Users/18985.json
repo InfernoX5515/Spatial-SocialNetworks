@@ -5,7 +5,22 @@
     "email": "hernandezrandy@yahoo.com",
     "birthdate": "1925-03-04",
     "phone": "964.571.8999x3799",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        11,
+        62,
+        3,
+        27,
+        53,
+        37,
+        5,
+        57
+    ],
+    "login locations": [
+        [
+            -117.15981,
+            32.711734
+        ]
+    ],
+    "relationships": []
 }

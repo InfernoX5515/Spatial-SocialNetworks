@@ -5,7 +5,26 @@
     "email": "mgoodwin@hotmail.com",
     "birthdate": "1976-02-22",
     "phone": "+1-791-981-3274x1007",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        66,
+        5,
+        67,
+        26,
+        17,
+        26,
+        6,
+        42,
+        61,
+        17,
+        69,
+        56
+    ],
+    "login locations": [
+        [
+            -118.356579,
+            34.057574
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,37 @@
     "email": "rebeccasmith@hotmail.com",
     "birthdate": "2003-10-15",
     "phone": "(454)399-7163",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        67,
+        38,
+        70,
+        17,
+        28,
+        73,
+        5,
+        39,
+        41,
+        35,
+        26,
+        37
+    ],
+    "login locations": [
+        [
+            -121.389849,
+            38.429911
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.0142566191446
+            ],
+            [
+                3970,
+                0.0326797385621
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "jacquelinehall@yahoo.com",
     "birthdate": "1992-03-02",
     "phone": "001-909-708-7828x8306",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        40,
+        44,
+        67,
+        7,
+        32,
+        66,
+        72,
+        2,
+        38
+    ],
+    "login locations": [
+        [
+            -118.344157,
+            34.083867
+        ]
+    ],
+    "relationships": []
 }

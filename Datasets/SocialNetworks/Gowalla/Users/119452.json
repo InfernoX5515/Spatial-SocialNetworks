@@ -5,7 +5,12 @@
     "email": "dylan21@hotmail.com",
     "birthdate": "1964-10-19",
     "phone": "765-217-1932x81657",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.405855,
+            37.766363
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "nlin@hotmail.com",
     "birthdate": "1938-12-09",
     "phone": "001-799-990-4436x32521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        14,
+        18,
+        75,
+        16,
+        68,
+        28,
+        10,
+        48,
+        44,
+        4,
+        26,
+        36,
+        40,
+        36
+    ],
+    "login locations": [
+        [
+            -122.369918,
+            37.681458
+        ]
+    ],
+    "relationships": []
 }

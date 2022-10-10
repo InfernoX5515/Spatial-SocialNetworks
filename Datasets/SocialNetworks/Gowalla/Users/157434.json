@@ -5,7 +5,12 @@
     "email": "moorejoseph@yahoo.com",
     "birthdate": "1920-09-03",
     "phone": "680.863.4826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.452712,
+            33.980362
+        ]
+    ],
+    "relationships": []
 }

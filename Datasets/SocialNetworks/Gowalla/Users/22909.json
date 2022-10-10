@@ -5,7 +5,33 @@
     "email": "kyleperez@gmail.com",
     "birthdate": "1986-05-17",
     "phone": "6784055707",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        38,
+        28,
+        13,
+        43,
+        11,
+        22,
+        65,
+        51
+    ],
+    "login locations": [
+        [
+            -122.416728,
+            37.790701
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                600,
+                0.01
+            ],
+            [
+                4353,
+                0.0185185185185
+            ]
+        ]
+    ]
 }

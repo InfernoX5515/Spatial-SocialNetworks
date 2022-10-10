@@ -5,7 +5,27 @@
     "email": "fbishop@yahoo.com",
     "birthdate": "1973-06-05",
     "phone": "787-713-8473x00606",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        4,
+        52,
+        45,
+        32,
+        55,
+        49,
+        50,
+        51,
+        6,
+        1,
+        64,
+        47,
+        54
+    ],
+    "login locations": [
+        [
+            -122.441452,
+            37.775085
+        ]
+    ],
+    "relationships": []
 }

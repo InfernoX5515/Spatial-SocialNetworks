@@ -5,7 +5,26 @@
     "email": "susanbarron@gmail.com",
     "birthdate": "1981-11-11",
     "phone": "(508)675-5389x5574",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        52,
+        52,
+        25,
+        25,
+        55,
+        5,
+        55,
+        58,
+        75,
+        67,
+        33,
+        48
+    ],
+    "login locations": [
+        [
+            -121.996173,
+            37.338223
+        ]
+    ],
+    "relationships": []
 }

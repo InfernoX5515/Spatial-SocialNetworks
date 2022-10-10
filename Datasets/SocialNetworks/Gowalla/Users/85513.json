@@ -5,7 +5,26 @@
     "email": "meganwheeler@yahoo.com",
     "birthdate": "1995-08-11",
     "phone": "(740)240-4871x96391",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        0,
+        58,
+        40,
+        4,
+        12,
+        40,
+        56,
+        24,
+        2,
+        14,
+        70,
+        47
+    ],
+    "login locations": [
+        [
+            -122.422045,
+            37.783663
+        ]
+    ],
+    "relationships": []
 }

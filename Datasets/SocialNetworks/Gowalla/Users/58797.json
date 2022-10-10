@@ -5,7 +5,24 @@
     "email": "bhorn@hotmail.com",
     "birthdate": "2013-03-17",
     "phone": "+1-741-272-8440x97671",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        38,
+        55,
+        75,
+        61,
+        4,
+        16,
+        54,
+        72,
+        27,
+        26
+    ],
+    "login locations": [
+        [
+            -118.039095,
+            33.958965
+        ]
+    ],
+    "relationships": []
 }

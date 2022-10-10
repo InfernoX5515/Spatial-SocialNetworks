@@ -5,7 +5,27 @@
     "email": "sroberts@gmail.com",
     "birthdate": "1926-05-26",
     "phone": "0899188740",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        53,
+        28,
+        33,
+        27,
+        52,
+        61,
+        38,
+        62,
+        41,
+        3,
+        18,
+        45,
+        0
+    ],
+    "login locations": [
+        [
+            -117.717905,
+            34.004108
+        ]
+    ],
+    "relationships": []
 }

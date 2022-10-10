@@ -5,7 +5,36 @@
     "email": "matthewschloe@hotmail.com",
     "birthdate": "1922-10-07",
     "phone": "778.051.7292",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        31,
+        18,
+        1,
+        46,
+        42,
+        23,
+        29,
+        2,
+        63,
+        58,
+        36
+    ],
+    "login locations": [
+        [
+            -121.999069,
+            37.368547
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22936,
+                0.0123076923077
+            ],
+            [
+                22936,
+                0.0123076923077
+            ]
+        ]
+    ]
 }

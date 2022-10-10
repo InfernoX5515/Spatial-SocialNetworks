@@ -5,7 +5,27 @@
     "email": "sherrypeterson@yahoo.com",
     "birthdate": "1944-07-26",
     "phone": "(965)130-9090x811",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        67,
+        23
+    ],
+    "login locations": [
+        [
+            -122.298351,
+            38.307645
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1121,
+                0.01
+            ],
+            [
+                1121,
+                0.01
+            ]
+        ]
+    ]
 }

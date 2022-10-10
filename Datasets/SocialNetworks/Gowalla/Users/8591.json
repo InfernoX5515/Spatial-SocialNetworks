@@ -5,7 +5,26 @@
     "email": "feliciakeith@gmail.com",
     "birthdate": "1928-01-26",
     "phone": "+1-906-962-5981",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        33,
+        30,
+        52,
+        46,
+        22,
+        44,
+        66,
+        30,
+        47,
+        59,
+        68,
+        18
+    ],
+    "login locations": [
+        [
+            -122.167134,
+            37.399308
+        ]
+    ],
+    "relationships": []
 }

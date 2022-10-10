@@ -5,7 +5,19 @@
     "email": "chelsea81@yahoo.com",
     "birthdate": "2007-06-17",
     "phone": "(656)385-4273x81130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        56,
+        23,
+        43,
+        71,
+        12
+    ],
+    "login locations": [
+        [
+            -119.753972,
+            36.842507
+        ]
+    ],
+    "relationships": []
 }

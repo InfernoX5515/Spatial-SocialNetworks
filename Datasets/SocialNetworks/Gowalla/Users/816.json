@@ -5,7 +5,19 @@
     "email": "sclark@hotmail.com",
     "birthdate": "2007-02-07",
     "phone": "875.876.2178",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        59,
+        1,
+        45,
+        1,
+        2
+    ],
+    "login locations": [
+        [
+            -121.30329,
+            38.727656
+        ]
+    ],
+    "relationships": []
 }

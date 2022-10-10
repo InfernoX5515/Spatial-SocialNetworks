@@ -5,7 +5,35 @@
     "email": "vasquezjean@hotmail.com",
     "birthdate": "2011-03-18",
     "phone": "001-639-288-0460x39095",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        51,
+        1,
+        19,
+        54,
+        15,
+        52,
+        55,
+        74,
+        43,
+        20
+    ],
+    "login locations": [
+        [
+            -117.159545,
+            32.709137
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                17715,
+                0.032
+            ],
+            [
+                41797,
+                0.0526315789474
+            ]
+        ]
+    ]
 }

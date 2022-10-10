@@ -5,7 +5,16 @@
     "email": "richarddavis@yahoo.com",
     "birthdate": "1967-03-06",
     "phone": "258-822-4719x614",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        47,
+        59
+    ],
+    "login locations": [
+        [
+            -122.406838,
+            37.72274
+        ]
+    ],
+    "relationships": []
 }

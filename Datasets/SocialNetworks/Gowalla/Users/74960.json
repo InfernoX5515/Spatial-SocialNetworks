@@ -5,7 +5,18 @@
     "email": "charlesreynolds@hotmail.com",
     "birthdate": "1925-07-18",
     "phone": "037.839.7980",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        37,
+        66,
+        19,
+        30
+    ],
+    "login locations": [
+        [
+            -118.407168,
+            33.943538
+        ]
+    ],
+    "relationships": []
 }

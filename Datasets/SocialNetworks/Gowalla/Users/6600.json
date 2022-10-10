@@ -5,7 +5,23 @@
     "email": "haneydavid@gmail.com",
     "birthdate": "1967-01-11",
     "phone": "558.657.9692x343",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.410446,
+            37.783175
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4324,
+                0.01
+            ],
+            [
+                4324,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "taylorjames@hotmail.com",
     "birthdate": "1922-12-25",
     "phone": "(314)176-0708",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57
+    ],
+    "login locations": [
+        [
+            -121.971433,
+            37.034246
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8490,
+                0.0932203389831
+            ],
+            [
+                8490,
+                0.0932203389831
+            ]
+        ]
+    ]
 }

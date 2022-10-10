@@ -5,7 +5,21 @@
     "email": "rachaelclark@yahoo.com",
     "birthdate": "1948-05-21",
     "phone": "001-049-695-9402",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        44,
+        44,
+        24,
+        33,
+        10,
+        38,
+        74
+    ],
+    "login locations": [
+        [
+            -124.159443,
+            40.804325
+        ]
+    ],
+    "relationships": []
 }

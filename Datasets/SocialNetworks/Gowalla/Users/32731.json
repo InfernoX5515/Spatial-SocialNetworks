@@ -5,7 +5,17 @@
     "email": "shane53@yahoo.com",
     "birthdate": "1921-08-06",
     "phone": "+1-700-530-0060x123",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        45,
+        37,
+        22
+    ],
+    "login locations": [
+        [
+            -121.972931,
+            37.391301
+        ]
+    ],
+    "relationships": []
 }

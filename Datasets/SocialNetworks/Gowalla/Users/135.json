@@ -5,7 +5,35 @@
     "email": "yfrancis@gmail.com",
     "birthdate": "1968-10-27",
     "phone": "(005)341-2859x50162",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        30,
+        18,
+        54,
+        6,
+        26,
+        15,
+        6,
+        74,
+        37,
+        75
+    ],
+    "login locations": [
+        [
+            -122.413732,
+            37.765197
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2742,
+                0.0100755667506
+            ],
+            [
+                2742,
+                0.0100755667506
+            ]
+        ]
+    ]
 }

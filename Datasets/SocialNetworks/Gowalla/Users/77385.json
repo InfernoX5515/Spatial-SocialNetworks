@@ -5,7 +5,12 @@
     "email": "bauersean@yahoo.com",
     "birthdate": "2006-10-07",
     "phone": "6445863562",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.907317,
+            37.344302
+        ]
+    ],
+    "relationships": []
 }

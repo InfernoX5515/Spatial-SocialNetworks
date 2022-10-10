@@ -5,7 +5,27 @@
     "email": "spearskatherine@yahoo.com",
     "birthdate": "1963-03-10",
     "phone": "(581)395-5421x814",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        50,
+        38,
+        48,
+        42,
+        62,
+        3,
+        68,
+        45,
+        59,
+        72,
+        74,
+        42,
+        62
+    ],
+    "login locations": [
+        [
+            -121.913918,
+            37.32515
+        ]
+    ],
+    "relationships": []
 }

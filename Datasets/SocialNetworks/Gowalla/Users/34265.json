@@ -5,7 +5,34 @@
     "email": "pjimenez@hotmail.com",
     "birthdate": "1951-08-04",
     "phone": "825-878-7265x225",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        10,
+        75,
+        17,
+        16,
+        10,
+        54,
+        22,
+        46,
+        66
+    ],
+    "login locations": [
+        [
+            -122.315961,
+            37.623111
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2338,
+                0.06
+            ],
+            [
+                2338,
+                0.06
+            ]
+        ]
+    ]
 }

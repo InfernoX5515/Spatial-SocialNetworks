@@ -5,7 +5,26 @@
     "email": "johnsonalexa@yahoo.com",
     "birthdate": "1947-09-28",
     "phone": "0565892128",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        38,
+        25,
+        74,
+        23,
+        40,
+        14,
+        68,
+        8,
+        62,
+        69,
+        35,
+        3
+    ],
+    "login locations": [
+        [
+            -122.312855,
+            38.230437
+        ]
+    ],
+    "relationships": []
 }

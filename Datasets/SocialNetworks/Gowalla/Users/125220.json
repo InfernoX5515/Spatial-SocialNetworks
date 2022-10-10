@@ -5,7 +5,12 @@
     "email": "thomasbrown@yahoo.com",
     "birthdate": "1906-12-06",
     "phone": "503-215-2953",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.471876,
+            34.01046
+        ]
+    ],
+    "relationships": []
 }

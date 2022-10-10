@@ -5,7 +5,21 @@
     "email": "ryanrasmussen@gmail.com",
     "birthdate": "1916-12-27",
     "phone": "001-139-105-7474",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        26,
+        16,
+        36,
+        67,
+        17,
+        62,
+        68
+    ],
+    "login locations": [
+        [
+            -118.057034,
+            33.978711
+        ]
+    ],
+    "relationships": []
 }

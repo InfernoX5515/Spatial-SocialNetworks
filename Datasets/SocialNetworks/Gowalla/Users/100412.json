@@ -5,7 +5,14 @@
     "email": "marie53@gmail.com",
     "birthdate": "1972-03-24",
     "phone": "(544)024-0297",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48
+    ],
+    "login locations": [
+        [
+            -119.019226,
+            35.37102
+        ]
+    ],
+    "relationships": []
 }

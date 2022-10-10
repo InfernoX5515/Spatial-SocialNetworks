@@ -5,7 +5,21 @@
     "email": "cmarshall@hotmail.com",
     "birthdate": "2005-11-24",
     "phone": "+1-719-035-1464x5131",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        53,
+        69,
+        35,
+        75,
+        52,
+        36,
+        54
+    ],
+    "login locations": [
+        [
+            -121.966416,
+            37.377986
+        ]
+    ],
+    "relationships": []
 }

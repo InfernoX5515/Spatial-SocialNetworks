@@ -5,7 +5,28 @@
     "email": "melvinmalone@hotmail.com",
     "birthdate": "2007-11-15",
     "phone": "927.421.0703x35030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        31,
+        49,
+        64,
+        36,
+        4,
+        54,
+        47,
+        74,
+        6,
+        38,
+        39,
+        24,
+        71,
+        65
+    ],
+    "login locations": [
+        [
+            -118.424184,
+            34.037142
+        ]
+    ],
+    "relationships": []
 }

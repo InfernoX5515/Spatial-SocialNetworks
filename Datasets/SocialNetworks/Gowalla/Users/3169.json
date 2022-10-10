@@ -5,7 +5,12 @@
     "email": "andrea00@gmail.com",
     "birthdate": "1946-05-20",
     "phone": "(791)265-8184",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.004586,
+            34.071943
+        ]
+    ],
+    "relationships": []
 }

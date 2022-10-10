@@ -5,7 +5,38 @@
     "email": "kim39@yahoo.com",
     "birthdate": "1952-06-07",
     "phone": "5700360270",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        7,
+        9,
+        69,
+        56,
+        50,
+        30,
+        25,
+        21,
+        30,
+        60,
+        12,
+        64,
+        17
+    ],
+    "login locations": [
+        [
+            -122.41579,
+            37.786129
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                478,
+                0.01
+            ],
+            [
+                5110,
+                0.01
+            ]
+        ]
+    ]
 }

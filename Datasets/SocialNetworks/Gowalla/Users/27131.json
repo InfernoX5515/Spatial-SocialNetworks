@@ -5,7 +5,14 @@
     "email": "krystalhays@gmail.com",
     "birthdate": "1961-09-04",
     "phone": "+1-938-529-2034",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30
+    ],
+    "login locations": [
+        [
+            -117.897011,
+            33.774018
+        ]
+    ],
+    "relationships": []
 }

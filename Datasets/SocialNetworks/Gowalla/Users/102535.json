@@ -5,7 +5,20 @@
     "email": "lambertmichelle@yahoo.com",
     "birthdate": "1906-10-22",
     "phone": "001-877-983-6462x77817",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        75,
+        39,
+        63,
+        71,
+        58,
+        27
+    ],
+    "login locations": [
+        [
+            -122.422838,
+            37.775821
+        ]
+    ],
+    "relationships": []
 }

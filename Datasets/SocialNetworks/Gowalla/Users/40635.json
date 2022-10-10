@@ -5,7 +5,23 @@
     "email": "mmorgan@hotmail.com",
     "birthdate": "1952-10-20",
     "phone": "(797)112-4286x753",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        36,
+        38,
+        26,
+        13,
+        51,
+        38,
+        25,
+        57,
+        28
+    ],
+    "login locations": [
+        [
+            -122.179639,
+            37.885654
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "justindouglas@hotmail.com",
     "birthdate": "2015-11-04",
     "phone": "4194731041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        68,
+        20,
+        56,
+        68,
+        68,
+        39,
+        63,
+        69,
+        33
+    ],
+    "login locations": [
+        [
+            -122.365127,
+            37.660514
+        ]
+    ],
+    "relationships": []
 }

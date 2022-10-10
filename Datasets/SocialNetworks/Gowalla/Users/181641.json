@@ -5,7 +5,22 @@
     "email": "beckjohn@yahoo.com",
     "birthdate": "2017-04-06",
     "phone": "+1-572-497-5702",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        13,
+        15,
+        32,
+        45,
+        69,
+        52,
+        64,
+        22
+    ],
+    "login locations": [
+        [
+            -118.88711,
+            34.184702
+        ]
+    ],
+    "relationships": []
 }

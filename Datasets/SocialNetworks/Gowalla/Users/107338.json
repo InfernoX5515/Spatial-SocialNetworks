@@ -5,7 +5,21 @@
     "email": "hawkinsmisty@gmail.com",
     "birthdate": "1914-11-09",
     "phone": "112-452-6160x88777",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        60,
+        27,
+        42,
+        30,
+        27,
+        47,
+        40
+    ],
+    "login locations": [
+        [
+            -121.992181,
+            37.332128
+        ]
+    ],
+    "relationships": []
 }

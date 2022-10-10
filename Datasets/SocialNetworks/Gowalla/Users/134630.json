@@ -5,7 +5,22 @@
     "email": "john80@hotmail.com",
     "birthdate": "1921-06-04",
     "phone": "001-687-992-0495x5958",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        57,
+        33,
+        72,
+        66,
+        60,
+        22,
+        22,
+        48
+    ],
+    "login locations": [
+        [
+            -122.274135,
+            37.881457
+        ]
+    ],
+    "relationships": []
 }

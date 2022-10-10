@@ -5,7 +5,28 @@
     "email": "mccallcathy@yahoo.com",
     "birthdate": "1948-04-19",
     "phone": "(140)828-3557x81736",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        60,
+        21,
+        23,
+        7,
+        34,
+        36,
+        74,
+        64,
+        48,
+        67,
+        18,
+        15,
+        27,
+        68
+    ],
+    "login locations": [
+        [
+            -117.113187,
+            32.872623
+        ]
+    ],
+    "relationships": []
 }

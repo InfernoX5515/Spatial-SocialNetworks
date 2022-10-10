@@ -5,7 +5,29 @@
     "email": "elizabeth38@gmail.com",
     "birthdate": "1979-02-23",
     "phone": "(263)346-8385x2561",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        46,
+        44,
+        41,
+        73
+    ],
+    "login locations": [
+        [
+            -122.415659,
+            37.778988
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                9182,
+                0.01
+            ],
+            [
+                9182,
+                0.01
+            ]
+        ]
+    ]
 }

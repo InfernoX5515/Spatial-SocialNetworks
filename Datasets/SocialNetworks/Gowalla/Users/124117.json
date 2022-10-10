@@ -5,7 +5,15 @@
     "email": "cynthia96@hotmail.com",
     "birthdate": "1997-01-08",
     "phone": "117-210-9571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        8
+    ],
+    "login locations": [
+        [
+            -118.604629,
+            34.100329
+        ]
+    ],
+    "relationships": []
 }

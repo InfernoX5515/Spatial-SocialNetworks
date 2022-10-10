@@ -5,7 +5,12 @@
     "email": "oconnorcolleen@yahoo.com",
     "birthdate": "1991-06-08",
     "phone": "534-750-3608",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.376261,
+            34.048049
+        ]
+    ],
+    "relationships": []
 }

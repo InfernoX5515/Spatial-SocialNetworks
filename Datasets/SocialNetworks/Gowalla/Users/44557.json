@@ -5,7 +5,27 @@
     "email": "kevintorres@hotmail.com",
     "birthdate": "1931-01-22",
     "phone": "165-156-4746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        38,
+        63,
+        73,
+        55,
+        31,
+        31,
+        9,
+        8,
+        26,
+        43,
+        31,
+        55,
+        35
+    ],
+    "login locations": [
+        [
+            -122.40736,
+            37.792607
+        ]
+    ],
+    "relationships": []
 }

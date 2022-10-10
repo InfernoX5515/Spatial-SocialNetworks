@@ -5,7 +5,23 @@
     "email": "lori30@gmail.com",
     "birthdate": "2018-07-21",
     "phone": "222-198-9870x6989",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        66,
+        65,
+        71,
+        18,
+        49,
+        58,
+        32,
+        43,
+        50
+    ],
+    "login locations": [
+        [
+            -117.199112,
+            33.035845
+        ]
+    ],
+    "relationships": []
 }

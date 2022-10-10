@@ -5,7 +5,16 @@
     "email": "douglaschristopher@hotmail.com",
     "birthdate": "1913-04-13",
     "phone": "597-890-2257x2034",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        21,
+        69
+    ],
+    "login locations": [
+        [
+            -118.401128,
+            34.067174
+        ]
+    ],
+    "relationships": []
 }

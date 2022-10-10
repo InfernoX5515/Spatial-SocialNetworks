@@ -5,7 +5,39 @@
     "email": "whitesierra@hotmail.com",
     "birthdate": "1959-07-21",
     "phone": "223-578-2255",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        10,
+        32,
+        7,
+        1,
+        55,
+        67,
+        46,
+        0,
+        31,
+        11,
+        51,
+        43,
+        44,
+        18
+    ],
+    "login locations": [
+        [
+            -122.405438,
+            37.773924
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                158,
+                0.0140845070423
+            ],
+            [
+                355,
+                0.0145454545455
+            ]
+        ]
+    ]
 }

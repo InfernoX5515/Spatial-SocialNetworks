@@ -5,7 +5,22 @@
     "email": "sandra74@gmail.com",
     "birthdate": "1966-06-13",
     "phone": "219-209-5114x39781",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        47,
+        2,
+        55,
+        38,
+        34,
+        12,
+        31,
+        32
+    ],
+    "login locations": [
+        [
+            -117.6638,
+            33.672158
+        ]
+    ],
+    "relationships": []
 }

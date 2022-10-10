@@ -5,7 +5,16 @@
     "email": "barrykaylee@gmail.com",
     "birthdate": "1927-05-21",
     "phone": "470.324.3129x716",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        18,
+        37
+    ],
+    "login locations": [
+        [
+            -120.160891,
+            39.295925
+        ]
+    ],
+    "relationships": []
 }

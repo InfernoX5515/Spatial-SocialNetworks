@@ -5,7 +5,23 @@
     "email": "contrerasbonnie@hotmail.com",
     "birthdate": "2007-05-17",
     "phone": "(151)414-4687",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.435353,
+            37.966358
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.01
+            ],
+            [
+                487,
+                0.01
+            ]
+        ]
+    ]
 }

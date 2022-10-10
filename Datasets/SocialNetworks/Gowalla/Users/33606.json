@@ -5,7 +5,27 @@
     "email": "thomas85@yahoo.com",
     "birthdate": "1943-07-19",
     "phone": "+1-178-286-7850x7938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        20,
+        67,
+        73,
+        17,
+        23,
+        29,
+        13,
+        42,
+        72,
+        48,
+        1,
+        51,
+        8
+    ],
+    "login locations": [
+        [
+            -122.448273,
+            37.793518
+        ]
+    ],
+    "relationships": []
 }

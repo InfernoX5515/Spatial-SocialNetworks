@@ -5,7 +5,28 @@
     "email": "stephanie21@gmail.com",
     "birthdate": "1953-01-29",
     "phone": "(459)407-8509x2068",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        67,
+        68,
+        45,
+        36,
+        38,
+        6,
+        34,
+        0,
+        14,
+        39,
+        41,
+        15,
+        39,
+        12
+    ],
+    "login locations": [
+        [
+            -118.255438,
+            34.068796
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "linda96@gmail.com",
     "birthdate": "1925-11-07",
     "phone": "+1-725-397-8484x898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        60,
+        14,
+        67,
+        23,
+        17,
+        25,
+        63,
+        69,
+        50,
+        14,
+        22
+    ],
+    "login locations": [
+        [
+            -118.252769,
+            34.084524
+        ]
+    ],
+    "relationships": []
 }

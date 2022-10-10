@@ -5,7 +5,19 @@
     "email": "jessicaboyle@hotmail.com",
     "birthdate": "1948-02-12",
     "phone": "427-539-4771x57332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        39,
+        36,
+        7,
+        33,
+        46
+    ],
+    "login locations": [
+        [
+            -120.110629,
+            34.663693
+        ]
+    ],
+    "relationships": []
 }

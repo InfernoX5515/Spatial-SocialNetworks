@@ -5,7 +5,15 @@
     "email": "ellen42@gmail.com",
     "birthdate": "1963-08-24",
     "phone": "001-470-858-3942x353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        12
+    ],
+    "login locations": [
+        [
+            -122.079508,
+            37.628146
+        ]
+    ],
+    "relationships": []
 }

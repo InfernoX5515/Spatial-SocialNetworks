@@ -5,7 +5,27 @@
     "email": "jenniferjones@gmail.com",
     "birthdate": "1971-04-05",
     "phone": "735.440.1412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        32,
+        15
+    ],
+    "login locations": [
+        [
+            -121.473282,
+            38.574494
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                108692,
+                0.625
+            ],
+            [
+                108692,
+                0.625
+            ]
+        ]
+    ]
 }

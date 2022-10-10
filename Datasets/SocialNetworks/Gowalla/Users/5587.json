@@ -5,7 +5,23 @@
     "email": "emartin@yahoo.com",
     "birthdate": "1997-03-07",
     "phone": "300.826.1415x11966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        28,
+        43,
+        30,
+        62,
+        11,
+        11,
+        58,
+        45,
+        50
+    ],
+    "login locations": [
+        [
+            -122.407322,
+            37.800064
+        ]
+    ],
+    "relationships": []
 }

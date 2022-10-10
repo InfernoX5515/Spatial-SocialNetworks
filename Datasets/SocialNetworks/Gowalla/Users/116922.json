@@ -5,7 +5,23 @@
     "email": "joemorrison@gmail.com",
     "birthdate": "1956-08-29",
     "phone": "368-327-2005x8832",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        61,
+        44,
+        46,
+        40,
+        21,
+        0,
+        38,
+        51,
+        30
+    ],
+    "login locations": [
+        [
+            -122.388823,
+            37.800913
+        ]
+    ],
+    "relationships": []
 }

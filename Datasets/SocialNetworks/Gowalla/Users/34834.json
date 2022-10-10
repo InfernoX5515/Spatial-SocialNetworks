@@ -5,7 +5,39 @@
     "email": "nicolemiller@yahoo.com",
     "birthdate": "2002-09-02",
     "phone": "(014)640-2127x6757",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        51,
+        71,
+        14,
+        73,
+        53,
+        50,
+        22,
+        45,
+        2,
+        33,
+        44,
+        39,
+        38,
+        65
+    ],
+    "login locations": [
+        [
+            -122.249772,
+            37.840859
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5612,
+                0.01
+            ],
+            [
+                5612,
+                0.01
+            ]
+        ]
+    ]
 }

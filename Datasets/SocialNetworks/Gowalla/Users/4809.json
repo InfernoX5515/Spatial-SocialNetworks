@@ -5,7 +5,37 @@
     "email": "christopher62@gmail.com",
     "birthdate": "1946-02-02",
     "phone": "(905)745-8334",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        60,
+        7,
+        58,
+        62,
+        31,
+        48,
+        28,
+        35,
+        26,
+        29,
+        24,
+        17
+    ],
+    "login locations": [
+        [
+            -118.427618,
+            34.128536
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6755,
+                0.294117647059
+            ],
+            [
+                6755,
+                0.294117647059
+            ]
+        ]
+    ]
 }

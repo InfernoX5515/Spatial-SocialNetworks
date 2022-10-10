@@ -5,7 +5,24 @@
     "email": "pamela77@hotmail.com",
     "birthdate": "1933-02-01",
     "phone": "5338273742",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        18,
+        21,
+        8,
+        44,
+        23,
+        74,
+        53,
+        42,
+        42,
+        26
+    ],
+    "login locations": [
+        [
+            -122.112072,
+            37.878222
+        ]
+    ],
+    "relationships": []
 }

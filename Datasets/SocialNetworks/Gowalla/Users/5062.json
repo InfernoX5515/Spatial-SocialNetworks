@@ -5,7 +5,28 @@
     "email": "diazbrittany@gmail.com",
     "birthdate": "1984-01-01",
     "phone": "872.516.8948",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        42,
+        15,
+        11,
+        2,
+        73,
+        75,
+        16,
+        17,
+        25,
+        58,
+        75,
+        18,
+        32,
+        63
+    ],
+    "login locations": [
+        [
+            -122.26557,
+            37.800644
+        ]
+    ],
+    "relationships": []
 }

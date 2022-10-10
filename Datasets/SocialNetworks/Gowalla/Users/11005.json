@@ -5,7 +5,29 @@
     "email": "bryanhansen@yahoo.com",
     "birthdate": "1935-03-17",
     "phone": "(105)296-4037x62876",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        51,
+        73,
+        19,
+        68
+    ],
+    "login locations": [
+        [
+            -122.397005,
+            37.768218
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                177,
+                0.01
+            ],
+            [
+                177,
+                0.01
+            ]
+        ]
+    ]
 }

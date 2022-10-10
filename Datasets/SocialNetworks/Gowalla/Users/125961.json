@@ -5,7 +5,15 @@
     "email": "wileybrianna@gmail.com",
     "birthdate": "1932-06-07",
     "phone": "001-210-479-4745",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        74
+    ],
+    "login locations": [
+        [
+            -122.233998,
+            37.831048
+        ]
+    ],
+    "relationships": []
 }

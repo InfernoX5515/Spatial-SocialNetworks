@@ -5,7 +5,19 @@
     "email": "jadenelson@yahoo.com",
     "birthdate": "2000-07-03",
     "phone": "+1-191-666-0722x06424",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        58,
+        61,
+        61,
+        61,
+        22
+    ],
+    "login locations": [
+        [
+            -118.116653,
+            33.795117
+        ]
+    ],
+    "relationships": []
 }

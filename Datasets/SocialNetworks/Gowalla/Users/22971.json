@@ -5,7 +5,26 @@
     "email": "websterkatie@yahoo.com",
     "birthdate": "1993-09-26",
     "phone": "626-071-7343x718",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        36,
+        50,
+        67,
+        8,
+        49,
+        74,
+        68,
+        41,
+        60,
+        65,
+        55,
+        69
+    ],
+    "login locations": [
+        [
+            -122.016379,
+            37.33621
+        ]
+    ],
+    "relationships": []
 }

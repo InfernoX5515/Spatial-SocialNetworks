@@ -5,7 +5,38 @@
     "email": "scox@yahoo.com",
     "birthdate": "1928-10-19",
     "phone": "(915)438-5993",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        47,
+        2,
+        30,
+        28,
+        19,
+        63,
+        11,
+        70,
+        21,
+        68,
+        27,
+        30,
+        6
+    ],
+    "login locations": [
+        [
+            -122.359249,
+            37.805813
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                15569,
+                0.01
+            ],
+            [
+                15569,
+                0.01
+            ]
+        ]
+    ]
 }

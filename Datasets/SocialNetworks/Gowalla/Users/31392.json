@@ -5,7 +5,18 @@
     "email": "vgonzalez@gmail.com",
     "birthdate": "1977-04-26",
     "phone": "001-029-809-5424x32963",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        16,
+        26,
+        53,
+        44
+    ],
+    "login locations": [
+        [
+            -121.39353,
+            38.603428
+        ]
+    ],
+    "relationships": []
 }

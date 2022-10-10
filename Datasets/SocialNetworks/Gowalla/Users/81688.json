@@ -5,7 +5,15 @@
     "email": "ubradley@hotmail.com",
     "birthdate": "2009-07-10",
     "phone": "(395)564-1638",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        70
+    ],
+    "login locations": [
+        [
+            -122.167454,
+            37.420859
+        ]
+    ],
+    "relationships": []
 }

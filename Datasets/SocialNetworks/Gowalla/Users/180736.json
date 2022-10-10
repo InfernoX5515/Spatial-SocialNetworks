@@ -5,7 +5,25 @@
     "email": "agibson@yahoo.com",
     "birthdate": "2007-10-05",
     "phone": "(797)533-6588x480",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        19,
+        72,
+        46,
+        60,
+        64,
+        51,
+        63,
+        74,
+        52,
+        20,
+        23
+    ],
+    "login locations": [
+        [
+            -121.871611,
+            37.284982
+        ]
+    ],
+    "relationships": []
 }

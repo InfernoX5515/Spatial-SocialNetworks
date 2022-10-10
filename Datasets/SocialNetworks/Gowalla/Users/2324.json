@@ -5,7 +5,35 @@
     "email": "stephanie23@yahoo.com",
     "birthdate": "1941-02-27",
     "phone": "732.935.2979x53140",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        34,
+        18,
+        42,
+        71,
+        3,
+        29,
+        52,
+        30,
+        2,
+        69
+    ],
+    "login locations": [
+        [
+            -122.55477,
+            37.978567
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.021897810219
+            ],
+            [
+                276,
+                0.0126582278481
+            ]
+        ]
+    ]
 }

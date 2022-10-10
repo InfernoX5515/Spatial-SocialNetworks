@@ -5,7 +5,22 @@
     "email": "danielwatson@hotmail.com",
     "birthdate": "2001-10-30",
     "phone": "603-268-5645x603",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        20,
+        75,
+        60,
+        75,
+        7,
+        65,
+        29,
+        69
+    ],
+    "login locations": [
+        [
+            -122.030868,
+            37.351256
+        ]
+    ],
+    "relationships": []
 }

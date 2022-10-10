@@ -5,7 +5,18 @@
     "email": "christopher73@hotmail.com",
     "birthdate": "1973-09-04",
     "phone": "+1-262-471-9703x3943",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        11,
+        14,
+        29,
+        24
+    ],
+    "login locations": [
+        [
+            -121.430749,
+            38.602805
+        ]
+    ],
+    "relationships": []
 }

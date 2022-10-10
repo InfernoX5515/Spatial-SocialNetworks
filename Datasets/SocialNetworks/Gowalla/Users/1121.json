@@ -5,7 +5,38 @@
     "email": "wusierra@gmail.com",
     "birthdate": "1915-02-08",
     "phone": "552.005.7671x93653",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        13,
+        25,
+        53,
+        55,
+        71,
+        2,
+        0,
+        37,
+        30,
+        0,
+        8,
+        56,
+        55
+    ],
+    "login locations": [
+        [
+            -117.36111,
+            33.922044
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                276,
+                0.0253164556962
+            ],
+            [
+                41231,
+                0.02
+            ]
+        ]
+    ]
 }

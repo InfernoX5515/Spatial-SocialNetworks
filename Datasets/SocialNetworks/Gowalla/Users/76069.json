@@ -5,7 +5,18 @@
     "email": "ybrady@gmail.com",
     "birthdate": "2012-07-07",
     "phone": "(865)551-6410x31929",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        18,
+        5,
+        57,
+        15
+    ],
+    "login locations": [
+        [
+            -117.576023,
+            34.100448
+        ]
+    ],
+    "relationships": []
 }

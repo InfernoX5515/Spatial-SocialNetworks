@@ -5,7 +5,23 @@
     "email": "annasilva@hotmail.com",
     "birthdate": "1987-07-14",
     "phone": "+1-659-318-8914",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        20,
+        71,
+        20,
+        4,
+        44,
+        60,
+        6,
+        50,
+        2
+    ],
+    "login locations": [
+        [
+            -118.394873,
+            33.888939
+        ]
+    ],
+    "relationships": []
 }

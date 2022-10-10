@@ -5,7 +5,14 @@
     "email": "lwilliams@yahoo.com",
     "birthdate": "1951-03-05",
     "phone": "(112)201-6877x6643",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10
+    ],
+    "login locations": [
+        [
+            -121.959873,
+            37.220415
+        ]
+    ],
+    "relationships": []
 }

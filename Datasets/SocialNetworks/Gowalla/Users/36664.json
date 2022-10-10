@@ -5,7 +5,24 @@
     "email": "fernandezmonica@yahoo.com",
     "birthdate": "1934-07-15",
     "phone": "728.117.3776x58858",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        31,
+        73,
+        74,
+        61,
+        6,
+        28,
+        66,
+        58,
+        18,
+        75
+    ],
+    "login locations": [
+        [
+            -117.114867,
+            32.804291
+        ]
+    ],
+    "relationships": []
 }

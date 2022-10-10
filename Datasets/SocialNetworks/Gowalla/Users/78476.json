@@ -5,7 +5,21 @@
     "email": "qhartman@yahoo.com",
     "birthdate": "2012-07-27",
     "phone": "+1-386-659-0272x836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        74,
+        5,
+        9,
+        7,
+        41,
+        27,
+        14
+    ],
+    "login locations": [
+        [
+            -122.378991,
+            37.724774
+        ]
+    ],
+    "relationships": []
 }

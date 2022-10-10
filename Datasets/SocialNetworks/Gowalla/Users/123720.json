@@ -5,7 +5,26 @@
     "email": "meltonchristopher@gmail.com",
     "birthdate": "1907-07-28",
     "phone": "393.250.2822x079",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        26
+    ],
+    "login locations": [
+        [
+            -122.017591,
+            37.407429
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                123719,
+                0.333333333333
+            ],
+            [
+                123719,
+                0.333333333333
+            ]
+        ]
+    ]
 }

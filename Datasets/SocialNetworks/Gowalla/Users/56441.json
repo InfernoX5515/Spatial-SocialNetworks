@@ -5,7 +5,12 @@
     "email": "seansolis@hotmail.com",
     "birthdate": "1949-02-20",
     "phone": "7122299706",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.878204,
+            33.778258
+        ]
+    ],
+    "relationships": []
 }

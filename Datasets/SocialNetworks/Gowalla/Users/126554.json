@@ -5,7 +5,14 @@
     "email": "paulrivers@hotmail.com",
     "birthdate": "1946-06-09",
     "phone": "125-602-3886",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33
+    ],
+    "login locations": [
+        [
+            -117.28437,
+            33.030805
+        ]
+    ],
+    "relationships": []
 }

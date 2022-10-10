@@ -5,7 +5,24 @@
     "email": "chelsea86@yahoo.com",
     "birthdate": "1933-12-24",
     "phone": "892-940-0041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        65,
+        67,
+        33,
+        10,
+        24,
+        23,
+        24,
+        32,
+        68,
+        18
+    ],
+    "login locations": [
+        [
+            -122.403835,
+            37.752708
+        ]
+    ],
+    "relationships": []
 }

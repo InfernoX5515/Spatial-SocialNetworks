@@ -5,7 +5,16 @@
     "email": "qpayne@hotmail.com",
     "birthdate": "1937-04-20",
     "phone": "(313)996-4259x6374",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        41,
+        37
+    ],
+    "login locations": [
+        [
+            -122.40959,
+            37.787375
+        ]
+    ],
+    "relationships": []
 }

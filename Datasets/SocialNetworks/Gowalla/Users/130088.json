@@ -5,7 +5,28 @@
     "email": "larsonmaria@yahoo.com",
     "birthdate": "2004-01-03",
     "phone": "001-316-721-5095x359",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        27,
+        6,
+        6,
+        30,
+        20,
+        27,
+        22,
+        14,
+        16,
+        11,
+        13,
+        24,
+        1,
+        40
+    ],
+    "login locations": [
+        [
+            -121.373785,
+            38.632978
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "velezjacqueline@yahoo.com",
     "birthdate": "1994-12-30",
     "phone": "407-227-6977x68230",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        11,
+        25
+    ],
+    "login locations": [
+        [
+            -118.295973,
+            34.074938
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                28413,
+                0.0481927710843
+            ],
+            [
+                28413,
+                0.0481927710843
+            ]
+        ]
+    ]
 }

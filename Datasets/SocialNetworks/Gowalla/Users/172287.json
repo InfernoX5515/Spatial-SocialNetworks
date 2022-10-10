@@ -5,7 +5,25 @@
     "email": "lhall@yahoo.com",
     "birthdate": "1986-08-06",
     "phone": "264.347.2984x28540",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        54,
+        53,
+        65,
+        53,
+        53,
+        8,
+        25,
+        72,
+        42,
+        8,
+        27
+    ],
+    "login locations": [
+        [
+            -118.106488,
+            34.073223
+        ]
+    ],
+    "relationships": []
 }

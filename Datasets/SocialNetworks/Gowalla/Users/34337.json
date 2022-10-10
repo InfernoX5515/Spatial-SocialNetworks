@@ -5,7 +5,26 @@
     "email": "lindsaydavis@yahoo.com",
     "birthdate": "1992-01-12",
     "phone": "+1-017-896-7461x6592",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        6,
+        3,
+        9,
+        2,
+        32,
+        41,
+        30,
+        52,
+        20,
+        64,
+        36,
+        9
+    ],
+    "login locations": [
+        [
+            -117.167993,
+            32.774073
+        ]
+    ],
+    "relationships": []
 }

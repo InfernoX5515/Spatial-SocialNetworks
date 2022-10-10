@@ -5,7 +5,25 @@
     "email": "seth64@hotmail.com",
     "birthdate": "1992-08-13",
     "phone": "857.664.3457x20470",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        58,
+        11,
+        17,
+        8,
+        1,
+        46,
+        46,
+        46,
+        25,
+        64,
+        41
+    ],
+    "login locations": [
+        [
+            -117.026563,
+            32.801361
+        ]
+    ],
+    "relationships": []
 }

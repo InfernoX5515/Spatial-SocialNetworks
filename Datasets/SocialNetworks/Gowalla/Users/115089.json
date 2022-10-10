@@ -5,7 +5,22 @@
     "email": "lmendez@hotmail.com",
     "birthdate": "1980-10-10",
     "phone": "825.275.4476x071",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        29,
+        3,
+        43,
+        68,
+        35,
+        46,
+        57,
+        58
+    ],
+    "login locations": [
+        [
+            -118.413472,
+            33.959271
+        ]
+    ],
+    "relationships": []
 }

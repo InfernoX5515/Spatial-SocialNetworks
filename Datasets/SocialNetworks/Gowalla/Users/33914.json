@@ -5,7 +5,26 @@
     "email": "rosemarissa@gmail.com",
     "birthdate": "1940-03-20",
     "phone": "001-356-371-5175x17509",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        16,
+        44,
+        61,
+        36,
+        5,
+        9,
+        17,
+        23,
+        61,
+        70,
+        13,
+        73
+    ],
+    "login locations": [
+        [
+            -118.366202,
+            34.068597
+        ]
+    ],
+    "relationships": []
 }

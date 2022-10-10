@@ -5,7 +5,37 @@
     "email": "mdavis@gmail.com",
     "birthdate": "1932-10-30",
     "phone": "(729)352-5425",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        10,
+        7,
+        24,
+        43,
+        43,
+        12,
+        16,
+        15,
+        34,
+        41,
+        33,
+        61
+    ],
+    "login locations": [
+        [
+            -118.296923,
+            34.120209
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4236,
+                0.159090909091
+            ],
+            [
+                4252,
+                0.169312169312
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,17 @@
     "email": "martinezdawn@yahoo.com",
     "birthdate": "1951-03-29",
     "phone": "077-454-1993",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        42,
+        5,
+        5
+    ],
+    "login locations": [
+        [
+            -119.772038,
+            36.825125
+        ]
+    ],
+    "relationships": []
 }

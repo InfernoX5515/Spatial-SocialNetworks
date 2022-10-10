@@ -5,7 +5,25 @@
     "email": "stephenswilliam@hotmail.com",
     "birthdate": "1974-08-27",
     "phone": "(540)163-6197x75233",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        21,
+        3,
+        46,
+        9,
+        23,
+        45,
+        14,
+        7,
+        74,
+        8,
+        21
+    ],
+    "login locations": [
+        [
+            -117.754316,
+            33.72489
+        ]
+    ],
+    "relationships": []
 }

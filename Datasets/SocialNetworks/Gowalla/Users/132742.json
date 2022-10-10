@@ -5,7 +5,23 @@
     "email": "jennifersummers@hotmail.com",
     "birthdate": "1953-05-07",
     "phone": "519.255.6608",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        22,
+        41,
+        15,
+        14,
+        21,
+        60,
+        14,
+        50,
+        30
+    ],
+    "login locations": [
+        [
+            -122.319464,
+            37.799584
+        ]
+    ],
+    "relationships": []
 }

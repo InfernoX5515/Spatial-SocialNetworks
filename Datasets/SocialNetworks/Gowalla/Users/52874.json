@@ -5,7 +5,12 @@
     "email": "edwinshort@yahoo.com",
     "birthdate": "1975-05-22",
     "phone": "421-527-6939x45627",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.744828,
+            33.709281
+        ]
+    ],
+    "relationships": []
 }

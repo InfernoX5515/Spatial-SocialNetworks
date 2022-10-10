@@ -5,7 +5,14 @@
     "email": "fodonnell@yahoo.com",
     "birthdate": "1978-02-01",
     "phone": "348.580.0361",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44
+    ],
+    "login locations": [
+        [
+            -122.426257,
+            37.774336
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "kellygabriel@yahoo.com",
     "birthdate": "2007-04-22",
     "phone": "289.131.5011",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        67,
+        61,
+        0,
+        67,
+        15
+    ],
+    "login locations": [
+        [
+            -120.648116,
+            35.240939
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "alan57@gmail.com",
     "birthdate": "2000-09-07",
     "phone": "001-329-778-6229",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        66,
+        1,
+        35,
+        6,
+        67,
+        1,
+        48,
+        11,
+        10,
+        36,
+        50,
+        23,
+        19
+    ],
+    "login locations": [
+        [
+            -118.441553,
+            34.031808
+        ]
+    ],
+    "relationships": []
 }

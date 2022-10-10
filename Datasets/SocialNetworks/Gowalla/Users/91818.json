@@ -5,7 +5,26 @@
     "email": "djones@hotmail.com",
     "birthdate": "2003-09-12",
     "phone": "(368)905-3968x84302",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        63
+    ],
+    "login locations": [
+        [
+            -122.023462,
+            37.334445
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                70744,
+                0.0909090909091
+            ],
+            [
+                71747,
+                0.04
+            ]
+        ]
+    ]
 }

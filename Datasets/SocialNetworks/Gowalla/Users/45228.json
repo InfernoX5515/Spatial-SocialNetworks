@@ -5,7 +5,17 @@
     "email": "bneal@hotmail.com",
     "birthdate": "1922-09-16",
     "phone": "(156)615-8019",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        64,
+        3,
+        57
+    ],
+    "login locations": [
+        [
+            -117.941276,
+            33.782108
+        ]
+    ],
+    "relationships": []
 }

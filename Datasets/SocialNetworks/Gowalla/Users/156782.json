@@ -5,7 +5,26 @@
     "email": "rharris@yahoo.com",
     "birthdate": "1962-06-05",
     "phone": "851-517-6020x70198",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        10,
+        28,
+        31,
+        26,
+        36,
+        44,
+        27,
+        25,
+        58,
+        33,
+        66,
+        73
+    ],
+    "login locations": [
+        [
+            -118.388533,
+            34.010392
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "hjones@yahoo.com",
     "birthdate": "1955-12-04",
     "phone": "(752)821-4122x4053",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        51,
+        24,
+        41
+    ],
+    "login locations": [
+        [
+            -118.123017,
+            34.081195
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38299,
+                0.409090909091
+            ],
+            [
+                38299,
+                0.409090909091
+            ]
+        ]
+    ]
 }

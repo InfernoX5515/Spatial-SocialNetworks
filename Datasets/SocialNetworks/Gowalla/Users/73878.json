@@ -5,7 +5,26 @@
     "email": "carlos08@yahoo.com",
     "birthdate": "1938-07-20",
     "phone": "(084)479-5357x3497",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        17,
+        50,
+        66,
+        13,
+        31,
+        56,
+        63,
+        29,
+        56,
+        12,
+        35,
+        62
+    ],
+    "login locations": [
+        [
+            -122.427671,
+            37.774856
+        ]
+    ],
+    "relationships": []
 }

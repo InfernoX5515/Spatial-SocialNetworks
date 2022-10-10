@@ -5,7 +5,17 @@
     "email": "vwagner@gmail.com",
     "birthdate": "2009-07-31",
     "phone": "+1-030-777-8401x93520",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        3,
+        54,
+        68
+    ],
+    "login locations": [
+        [
+            -122.043959,
+            37.399647
+        ]
+    ],
+    "relationships": []
 }

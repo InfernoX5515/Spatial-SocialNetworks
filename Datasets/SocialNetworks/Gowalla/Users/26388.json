@@ -5,7 +5,24 @@
     "email": "nsherman@hotmail.com",
     "birthdate": "1995-12-20",
     "phone": "498.425.5227x04931",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        19,
+        49,
+        70,
+        50,
+        22,
+        17,
+        14,
+        17,
+        7,
+        43
+    ],
+    "login locations": [
+        [
+            -121.95503,
+            37.26041
+        ]
+    ],
+    "relationships": []
 }

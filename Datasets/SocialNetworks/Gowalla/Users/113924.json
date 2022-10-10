@@ -5,7 +5,25 @@
     "email": "powellbarbara@yahoo.com",
     "birthdate": "2009-01-08",
     "phone": "775.070.8902",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        59,
+        69,
+        26,
+        68,
+        42,
+        65,
+        62,
+        64,
+        30,
+        23,
+        38
+    ],
+    "login locations": [
+        [
+            -122.390784,
+            37.768862
+        ]
+    ],
+    "relationships": []
 }

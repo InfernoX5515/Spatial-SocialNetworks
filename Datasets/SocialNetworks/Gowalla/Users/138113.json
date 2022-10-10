@@ -5,7 +5,19 @@
     "email": "kjohnson@gmail.com",
     "birthdate": "1921-11-10",
     "phone": "734.226.9086",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        19,
+        14,
+        37,
+        70,
+        51
+    ],
+    "login locations": [
+        [
+            -118.461353,
+            34.029693
+        ]
+    ],
+    "relationships": []
 }

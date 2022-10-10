@@ -5,7 +5,22 @@
     "email": "christophermartinez@hotmail.com",
     "birthdate": "1971-11-19",
     "phone": "563-222-1921x67642",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        22,
+        48,
+        27,
+        17,
+        7,
+        22,
+        53,
+        30
+    ],
+    "login locations": [
+        [
+            -118.447374,
+            34.023544
+        ]
+    ],
+    "relationships": []
 }

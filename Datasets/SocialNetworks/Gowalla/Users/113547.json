@@ -5,7 +5,15 @@
     "email": "yross@yahoo.com",
     "birthdate": "1978-11-03",
     "phone": "+1-335-084-8184x81588",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        36
+    ],
+    "login locations": [
+        [
+            -118.344616,
+            34.040992
+        ]
+    ],
+    "relationships": []
 }

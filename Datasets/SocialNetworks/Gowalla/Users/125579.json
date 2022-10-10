@@ -5,7 +5,24 @@
     "email": "mannamanda@yahoo.com",
     "birthdate": "1952-11-27",
     "phone": "365.703.9963x12353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        30,
+        66,
+        69,
+        55,
+        22,
+        72,
+        40,
+        60,
+        41,
+        54
+    ],
+    "login locations": [
+        [
+            -122.423023,
+            37.770805
+        ]
+    ],
+    "relationships": []
 }

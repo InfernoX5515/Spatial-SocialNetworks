@@ -5,7 +5,28 @@
     "email": "harristiffany@gmail.com",
     "birthdate": "1999-05-03",
     "phone": "954-066-4182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        25,
+        75,
+        64,
+        74,
+        56,
+        51,
+        29,
+        47,
+        39,
+        34,
+        39,
+        44,
+        22,
+        22
+    ],
+    "login locations": [
+        [
+            -122.424227,
+            37.807962
+        ]
+    ],
+    "relationships": []
 }

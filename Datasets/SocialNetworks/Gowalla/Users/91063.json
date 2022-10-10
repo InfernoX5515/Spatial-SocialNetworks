@@ -5,7 +5,27 @@
     "email": "hendersonlori@gmail.com",
     "birthdate": "1945-02-14",
     "phone": "243.743.4964x971",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        70,
+        26,
+        57,
+        41,
+        64,
+        56,
+        28,
+        18,
+        55,
+        4,
+        67,
+        63,
+        61
+    ],
+    "login locations": [
+        [
+            -122.399738,
+            37.782559
+        ]
+    ],
+    "relationships": []
 }

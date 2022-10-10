@@ -5,7 +5,26 @@
     "email": "lgalloway@gmail.com",
     "birthdate": "1928-04-25",
     "phone": "377.731.2095",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        60,
+        9,
+        75,
+        52,
+        57,
+        42,
+        23,
+        45,
+        42,
+        27,
+        1,
+        63
+    ],
+    "login locations": [
+        [
+            -122.423694,
+            37.812917
+        ]
+    ],
+    "relationships": []
 }

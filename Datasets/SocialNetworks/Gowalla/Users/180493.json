@@ -5,7 +5,14 @@
     "email": "econner@yahoo.com",
     "birthdate": "1975-02-28",
     "phone": "928-010-1946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33
+    ],
+    "login locations": [
+        [
+            -117.153265,
+            32.741714
+        ]
+    ],
+    "relationships": []
 }

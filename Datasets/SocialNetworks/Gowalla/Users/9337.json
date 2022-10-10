@@ -5,7 +5,27 @@
     "email": "vglover@hotmail.com",
     "birthdate": "1939-11-19",
     "phone": "385-128-5769",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        38,
+        40,
+        71,
+        42,
+        73,
+        20,
+        65,
+        8,
+        12,
+        2,
+        64,
+        62,
+        74
+    ],
+    "login locations": [
+        [
+            -122.422822,
+            37.719754
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "nicolebrown@yahoo.com",
     "birthdate": "1915-01-16",
     "phone": "750.305.7280x16814",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35
+    ],
+    "login locations": [
+        [
+            -122.243098,
+            37.406964
+        ]
+    ],
+    "relationships": []
 }

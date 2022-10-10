@@ -5,7 +5,25 @@
     "email": "anthony69@yahoo.com",
     "birthdate": "1947-11-07",
     "phone": "962.366.3975",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        67,
+        13,
+        10,
+        4,
+        54,
+        39,
+        61,
+        45,
+        64,
+        51,
+        12
+    ],
+    "login locations": [
+        [
+            -122.406447,
+            37.790293
+        ]
+    ],
+    "relationships": []
 }

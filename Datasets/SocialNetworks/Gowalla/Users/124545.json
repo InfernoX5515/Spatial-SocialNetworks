@@ -5,7 +5,29 @@
     "email": "graykeith@gmail.com",
     "birthdate": "2004-07-29",
     "phone": "300-537-4949x34214",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        53,
+        12,
+        16,
+        31
+    ],
+    "login locations": [
+        [
+            -117.139199,
+            33.410004
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33760,
+                0.12
+            ],
+            [
+                33760,
+                0.12
+            ]
+        ]
+    ]
 }

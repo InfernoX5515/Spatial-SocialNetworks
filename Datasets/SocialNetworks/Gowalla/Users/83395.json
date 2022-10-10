@@ -5,7 +5,15 @@
     "email": "william93@yahoo.com",
     "birthdate": "1922-06-22",
     "phone": "001-376-250-1068",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        56
+    ],
+    "login locations": [
+        [
+            -122.334521,
+            37.795141
+        ]
+    ],
+    "relationships": []
 }

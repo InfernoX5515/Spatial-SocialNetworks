@@ -5,7 +5,22 @@
     "email": "hernandezkaitlyn@hotmail.com",
     "birthdate": "1944-03-30",
     "phone": "712.388.5883",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        58,
+        30,
+        46,
+        61,
+        3,
+        28,
+        47,
+        53
+    ],
+    "login locations": [
+        [
+            -117.881423,
+            33.876443
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "mcdonaldjasmin@yahoo.com",
     "birthdate": "1934-02-24",
     "phone": "576.633.2568x98104",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        73,
+        71,
+        67,
+        14,
+        42,
+        39,
+        75,
+        71,
+        53,
+        66,
+        10
+    ],
+    "login locations": [
+        [
+            -122.157299,
+            37.435637
+        ]
+    ],
+    "relationships": []
 }

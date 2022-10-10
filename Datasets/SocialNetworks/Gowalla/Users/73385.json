@@ -5,7 +5,20 @@
     "email": "john04@yahoo.com",
     "birthdate": "1950-12-17",
     "phone": "+1-038-332-4776x74223",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        4,
+        46,
+        45,
+        15,
+        20,
+        68
+    ],
+    "login locations": [
+        [
+            -122.401155,
+            37.779875
+        ]
+    ],
+    "relationships": []
 }

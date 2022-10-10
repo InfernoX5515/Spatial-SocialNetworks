@@ -5,7 +5,16 @@
     "email": "carla54@hotmail.com",
     "birthdate": "1938-03-11",
     "phone": "665.858.9197",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        42,
+        25
+    ],
+    "login locations": [
+        [
+            -118.48387,
+            34.00517
+        ]
+    ],
+    "relationships": []
 }

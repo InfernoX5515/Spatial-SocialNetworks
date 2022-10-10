@@ -5,7 +5,23 @@
     "email": "muellerwesley@yahoo.com",
     "birthdate": "1933-02-28",
     "phone": "932.737.4621",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        32,
+        29,
+        11,
+        75,
+        59,
+        53,
+        11,
+        69,
+        12
+    ],
+    "login locations": [
+        [
+            -118.332948,
+            34.141585
+        ]
+    ],
+    "relationships": []
 }

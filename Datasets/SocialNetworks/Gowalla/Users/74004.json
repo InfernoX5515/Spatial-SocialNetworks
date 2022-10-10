@@ -5,7 +5,20 @@
     "email": "davidrobertson@yahoo.com",
     "birthdate": "1979-04-17",
     "phone": "(204)576-6963x2561",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        33,
+        41,
+        70,
+        26,
+        11,
+        38
+    ],
+    "login locations": [
+        [
+            -118.356753,
+            34.094791
+        ]
+    ],
+    "relationships": []
 }

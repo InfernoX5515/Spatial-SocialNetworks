@@ -5,7 +5,15 @@
     "email": "william19@hotmail.com",
     "birthdate": "1934-02-12",
     "phone": "(463)727-1233x783",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        59
+    ],
+    "login locations": [
+        [
+            -118.831965,
+            34.1611
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "iparker@yahoo.com",
     "birthdate": "1996-02-26",
     "phone": "001-681-380-0284x94190",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        13,
+        32,
+        59,
+        0,
+        38,
+        37,
+        60,
+        5,
+        3
+    ],
+    "login locations": [
+        [
+            -118.317265,
+            33.912265
+        ]
+    ],
+    "relationships": []
 }

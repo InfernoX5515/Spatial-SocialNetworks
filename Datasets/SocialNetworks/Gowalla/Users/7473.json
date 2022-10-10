@@ -5,7 +5,27 @@
     "email": "michael28@hotmail.com",
     "birthdate": "1972-05-03",
     "phone": "+1-968-725-3175x1220",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        59,
+        70
+    ],
+    "login locations": [
+        [
+            -122.060972,
+            37.355505
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                276,
+                0.0126582278481
+            ],
+            [
+                600,
+                0.01
+            ]
+        ]
+    ]
 }

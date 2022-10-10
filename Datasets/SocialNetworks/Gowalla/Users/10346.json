@@ -5,7 +5,30 @@
     "email": "mirandabrittany@hotmail.com",
     "birthdate": "1933-01-02",
     "phone": "(238)372-1127",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        14,
+        40,
+        31,
+        60,
+        23
+    ],
+    "login locations": [
+        [
+            -122.399748,
+            37.76913
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.0175438596491
+            ],
+            [
+                159,
+                0.0175438596491
+            ]
+        ]
+    ]
 }

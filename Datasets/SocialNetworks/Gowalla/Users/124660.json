@@ -5,7 +5,17 @@
     "email": "brandonsmith@hotmail.com",
     "birthdate": "1917-08-23",
     "phone": "001-347-249-5810x96898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        68,
+        19,
+        66
+    ],
+    "login locations": [
+        [
+            -118.247432,
+            34.078553
+        ]
+    ],
+    "relationships": []
 }

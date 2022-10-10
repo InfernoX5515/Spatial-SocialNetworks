@@ -5,7 +5,17 @@
     "email": "dglass@yahoo.com",
     "birthdate": "1915-03-29",
     "phone": "093.571.0020x369",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        35,
+        17,
+        11
+    ],
+    "login locations": [
+        [
+            -122.413964,
+            37.771754
+        ]
+    ],
+    "relationships": []
 }

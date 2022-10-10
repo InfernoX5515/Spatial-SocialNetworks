@@ -5,7 +5,14 @@
     "email": "thomas69@hotmail.com",
     "birthdate": "1915-03-12",
     "phone": "001-889-945-1841x5212",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57
+    ],
+    "login locations": [
+        [
+            -122.442971,
+            37.787588
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "charlesnichols@gmail.com",
     "birthdate": "1918-05-15",
     "phone": "916-994-5267",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        42,
+        49,
+        72,
+        13,
+        48,
+        23,
+        17,
+        63,
+        24,
+        15,
+        12,
+        53
+    ],
+    "login locations": [
+        [
+            -117.169678,
+            32.775284
+        ]
+    ],
+    "relationships": []
 }

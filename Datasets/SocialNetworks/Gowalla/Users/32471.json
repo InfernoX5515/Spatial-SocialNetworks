@@ -5,7 +5,20 @@
     "email": "fbell@gmail.com",
     "birthdate": "1911-05-06",
     "phone": "343.329.0472x2319",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        57,
+        23,
+        64,
+        58,
+        31,
+        75
+    ],
+    "login locations": [
+        [
+            -122.40566,
+            37.764183
+        ]
+    ],
+    "relationships": []
 }

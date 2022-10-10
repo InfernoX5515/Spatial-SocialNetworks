@@ -5,7 +5,19 @@
     "email": "reyesfred@hotmail.com",
     "birthdate": "1951-07-02",
     "phone": "(637)169-7648x26211",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        35,
+        75,
+        31,
+        24,
+        67
+    ],
+    "login locations": [
+        [
+            -118.392961,
+            34.021496
+        ]
+    ],
+    "relationships": []
 }

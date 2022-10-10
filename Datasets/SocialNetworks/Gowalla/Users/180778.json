@@ -5,7 +5,28 @@
     "email": "amandajohnson@hotmail.com",
     "birthdate": "2002-12-08",
     "phone": "589-312-5920",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        45,
+        13,
+        66,
+        73,
+        32,
+        16,
+        45,
+        54,
+        61,
+        32,
+        63,
+        12,
+        70,
+        3
+    ],
+    "login locations": [
+        [
+            -121.31383,
+            38.655514
+        ]
+    ],
+    "relationships": []
 }

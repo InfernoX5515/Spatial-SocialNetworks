@@ -5,7 +5,26 @@
     "email": "alvarezjoshua@gmail.com",
     "birthdate": "1923-11-14",
     "phone": "7048795655",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        56,
+        28,
+        70,
+        56,
+        23,
+        6,
+        52,
+        44,
+        51,
+        15,
+        62,
+        17
+    ],
+    "login locations": [
+        [
+            -122.430688,
+            37.736147
+        ]
+    ],
+    "relationships": []
 }

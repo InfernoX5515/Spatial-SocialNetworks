@@ -5,7 +5,14 @@
     "email": "cassandra89@hotmail.com",
     "birthdate": "1926-02-07",
     "phone": "(295)177-9996x642",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54
+    ],
+    "login locations": [
+        [
+            -119.266797,
+            36.275058
+        ]
+    ],
+    "relationships": []
 }

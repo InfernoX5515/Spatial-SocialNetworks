@@ -5,7 +5,24 @@
     "email": "danielwhite@hotmail.com",
     "birthdate": "1942-07-29",
     "phone": "532.295.8887x870",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        5,
+        71,
+        16,
+        33,
+        17,
+        23,
+        54,
+        4,
+        67,
+        59
+    ],
+    "login locations": [
+        [
+            -118.400511,
+            34.07307
+        ]
+    ],
+    "relationships": []
 }

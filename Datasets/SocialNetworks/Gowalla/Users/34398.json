@@ -5,7 +5,31 @@
     "email": "justinmaldonado@gmail.com",
     "birthdate": "1987-09-19",
     "phone": "+1-229-939-5185",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        11,
+        27,
+        27,
+        75,
+        69,
+        53
+    ],
+    "login locations": [
+        [
+            -122.403776,
+            37.849887
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6196,
+                0.0580310880829
+            ],
+            [
+                6196,
+                0.0580310880829
+            ]
+        ]
+    ]
 }

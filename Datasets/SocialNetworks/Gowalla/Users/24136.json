@@ -5,7 +5,22 @@
     "email": "ywebb@yahoo.com",
     "birthdate": "2010-10-09",
     "phone": "+1-808-984-8357x99071",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        39,
+        32,
+        18,
+        57,
+        12,
+        51,
+        22,
+        25
+    ],
+    "login locations": [
+        [
+            -122.092163,
+            37.381236
+        ]
+    ],
+    "relationships": []
 }

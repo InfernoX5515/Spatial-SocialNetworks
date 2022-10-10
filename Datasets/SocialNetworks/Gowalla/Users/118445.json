@@ -5,7 +5,28 @@
     "email": "clarksteven@hotmail.com",
     "birthdate": "2017-04-16",
     "phone": "414.093.1294x0449",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        72,
+        19,
+        2
+    ],
+    "login locations": [
+        [
+            -119.780941,
+            36.793143
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                179308,
+                0.0512820512821
+            ],
+            [
+                179308,
+                0.0512820512821
+            ]
+        ]
+    ]
 }

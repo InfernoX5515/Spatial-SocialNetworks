@@ -5,7 +5,19 @@
     "email": "davidmontgomery@yahoo.com",
     "birthdate": "1986-06-17",
     "phone": "169.776.5991x16758",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        48,
+        45,
+        9,
+        52,
+        4
+    ],
+    "login locations": [
+        [
+            -121.593804,
+            37.011473
+        ]
+    ],
+    "relationships": []
 }

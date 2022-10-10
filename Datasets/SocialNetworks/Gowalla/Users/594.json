@@ -5,7 +5,39 @@
     "email": "robertevans@yahoo.com",
     "birthdate": "2009-12-26",
     "phone": "(045)104-6086x892",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        35,
+        24,
+        17,
+        44,
+        44,
+        0,
+        58,
+        43,
+        24,
+        36,
+        16,
+        7,
+        56,
+        36
+    ],
+    "login locations": [
+        [
+            -122.397179,
+            37.724628
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.029197080292
+            ],
+            [
+                268,
+                0.01
+            ]
+        ]
+    ]
 }

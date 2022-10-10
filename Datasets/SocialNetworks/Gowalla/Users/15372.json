@@ -5,7 +5,20 @@
     "email": "jeffrey90@hotmail.com",
     "birthdate": "2010-04-24",
     "phone": "+1-647-590-4424",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        44,
+        19,
+        11,
+        51,
+        9,
+        55
+    ],
+    "login locations": [
+        [
+            -117.304524,
+            34.12531
+        ]
+    ],
+    "relationships": []
 }

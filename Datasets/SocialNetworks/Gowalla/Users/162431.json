@@ -5,7 +5,23 @@
     "email": "ehamilton@gmail.com",
     "birthdate": "1958-01-11",
     "phone": "001-887-469-3712x82977",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        54,
+        70,
+        70,
+        55,
+        14,
+        68,
+        5,
+        8,
+        37
+    ],
+    "login locations": [
+        [
+            -121.472392,
+            38.573311
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "btorres@yahoo.com",
     "birthdate": "1906-11-05",
     "phone": "638.797.4995x825",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        70,
+        20,
+        39
+    ],
+    "login locations": [
+        [
+            -117.92463,
+            33.814252
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                120313,
+                0.5
+            ],
+            [
+                120313,
+                0.5
+            ]
+        ]
+    ]
 }

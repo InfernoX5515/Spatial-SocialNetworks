@@ -5,7 +5,23 @@
     "email": "jordanhill@yahoo.com",
     "birthdate": "1996-03-08",
     "phone": "775.308.8245x833",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.300421,
+            37.55339
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6324,
+                0.01
+            ],
+            [
+                6324,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,14 @@
     "email": "fadams@yahoo.com",
     "birthdate": "1964-02-18",
     "phone": "067-905-9650",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41
+    ],
+    "login locations": [
+        [
+            -118.160287,
+            33.784779
+        ]
+    ],
+    "relationships": []
 }

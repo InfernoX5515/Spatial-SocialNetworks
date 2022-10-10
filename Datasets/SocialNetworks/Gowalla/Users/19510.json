@@ -5,7 +5,36 @@
     "email": "ethan27@gmail.com",
     "birthdate": "1953-02-17",
     "phone": "694.584.0394",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        53,
+        30,
+        54,
+        74,
+        28,
+        38,
+        54,
+        12,
+        36,
+        64,
+        11
+    ],
+    "login locations": [
+        [
+            -117.274116,
+            33.145713
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1409,
+                0.0266666666667
+            ],
+            [
+                1409,
+                0.0266666666667
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "candice01@hotmail.com",
     "birthdate": "2011-12-04",
     "phone": "7996891898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        63,
+        45,
+        27,
+        24,
+        64,
+        10,
+        21,
+        9,
+        26,
+        60,
+        1,
+        41,
+        2
+    ],
+    "login locations": [
+        [
+            -122.029982,
+            37.3166
+        ]
+    ],
+    "relationships": []
 }

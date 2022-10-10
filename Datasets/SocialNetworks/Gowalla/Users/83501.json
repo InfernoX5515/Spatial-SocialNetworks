@@ -5,7 +5,19 @@
     "email": "charleshill@hotmail.com",
     "birthdate": "2017-10-25",
     "phone": "858-938-1534x145",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        25,
+        6,
+        46,
+        9,
+        33
+    ],
+    "login locations": [
+        [
+            -122.146467,
+            37.425722
+        ]
+    ],
+    "relationships": []
 }

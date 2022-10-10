@@ -5,7 +5,23 @@
     "email": "cperez@yahoo.com",
     "birthdate": "1969-12-15",
     "phone": "224.687.6953x949",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        13,
+        73,
+        38,
+        74,
+        61,
+        5,
+        27,
+        64,
+        69
+    ],
+    "login locations": [
+        [
+            -122.415492,
+            37.78009
+        ]
+    ],
+    "relationships": []
 }

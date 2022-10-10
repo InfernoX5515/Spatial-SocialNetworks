@@ -5,7 +5,27 @@
     "email": "jhayes@gmail.com",
     "birthdate": "1910-02-18",
     "phone": "+1-349-608-3426x2412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        73,
+        26,
+        24,
+        7,
+        57,
+        23,
+        74,
+        7,
+        17,
+        31,
+        4,
+        63,
+        72
+    ],
+    "login locations": [
+        [
+            -119.774922,
+            36.851224
+        ]
+    ],
+    "relationships": []
 }

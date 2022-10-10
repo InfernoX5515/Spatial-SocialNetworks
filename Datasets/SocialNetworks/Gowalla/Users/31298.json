@@ -5,7 +5,27 @@
     "email": "nancy88@gmail.com",
     "birthdate": "1968-07-19",
     "phone": "197.287.8687x698",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        2,
+        6,
+        44,
+        22,
+        61,
+        36,
+        48,
+        5,
+        16,
+        19,
+        57,
+        57,
+        22
+    ],
+    "login locations": [
+        [
+            -122.417285,
+            37.777566
+        ]
+    ],
+    "relationships": []
 }

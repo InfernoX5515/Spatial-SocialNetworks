@@ -5,7 +5,20 @@
     "email": "bishopcheryl@yahoo.com",
     "birthdate": "1936-07-27",
     "phone": "+1-431-402-4943x219",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        22,
+        34,
+        5,
+        13,
+        4,
+        42
+    ],
+    "login locations": [
+        [
+            -122.340068,
+            37.851025
+        ]
+    ],
+    "relationships": []
 }

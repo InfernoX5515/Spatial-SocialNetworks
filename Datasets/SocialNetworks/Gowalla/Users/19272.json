@@ -5,7 +5,21 @@
     "email": "benjaminanderson@yahoo.com",
     "birthdate": "1924-11-24",
     "phone": "(276)738-8943x7335",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        45,
+        27,
+        38,
+        51,
+        20,
+        66,
+        19
+    ],
+    "login locations": [
+        [
+            -122.105926,
+            37.414907
+        ]
+    ],
+    "relationships": []
 }

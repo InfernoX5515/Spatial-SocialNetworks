@@ -5,7 +5,23 @@
     "email": "dgross@gmail.com",
     "birthdate": "1932-12-17",
     "phone": "+1-817-906-7742x47426",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        49,
+        27,
+        23,
+        52,
+        14,
+        71,
+        36,
+        21,
+        13
+    ],
+    "login locations": [
+        [
+            -122.407276,
+            37.797522
+        ]
+    ],
+    "relationships": []
 }

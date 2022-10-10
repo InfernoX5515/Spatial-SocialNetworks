@@ -5,7 +5,18 @@
     "email": "michelle82@hotmail.com",
     "birthdate": "1954-05-17",
     "phone": "558.871.0336x1788",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        3,
+        65,
+        66,
+        9
+    ],
+    "login locations": [
+        [
+            -118.313494,
+            34.076118
+        ]
+    ],
+    "relationships": []
 }

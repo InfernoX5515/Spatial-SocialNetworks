@@ -5,7 +5,28 @@
     "email": "michael01@gmail.com",
     "birthdate": "1947-02-26",
     "phone": "001-937-452-3253x15216",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        58,
+        21,
+        63,
+        31,
+        73,
+        18,
+        46,
+        25,
+        49,
+        54,
+        41,
+        29,
+        20,
+        33
+    ],
+    "login locations": [
+        [
+            -122.438815,
+            37.780123
+        ]
+    ],
+    "relationships": []
 }

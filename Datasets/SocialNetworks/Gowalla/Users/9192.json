@@ -5,7 +5,36 @@
     "email": "elizabeth35@hotmail.com",
     "birthdate": "2001-09-09",
     "phone": "+1-096-636-4727x365",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        70,
+        20,
+        64,
+        2,
+        34,
+        51,
+        38,
+        35,
+        17,
+        62,
+        39
+    ],
+    "login locations": [
+        [
+            -122.419442,
+            37.755704
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1454,
+                0.01
+            ],
+            [
+                1454,
+                0.01
+            ]
+        ]
+    ]
 }

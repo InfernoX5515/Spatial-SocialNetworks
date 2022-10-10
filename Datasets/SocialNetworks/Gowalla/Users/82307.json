@@ -5,7 +5,12 @@
     "email": "jwilliams@yahoo.com",
     "birthdate": "1989-10-20",
     "phone": "001-570-877-7872x2623",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.398841,
+            37.700824
+        ]
+    ],
+    "relationships": []
 }

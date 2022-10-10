@@ -5,7 +5,34 @@
     "email": "richmondnicole@yahoo.com",
     "birthdate": "1948-08-28",
     "phone": "964.266.2553",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        13,
+        45,
+        31,
+        2,
+        57,
+        16,
+        0,
+        69,
+        27
+    ],
+    "login locations": [
+        [
+            -117.15275,
+            32.857793
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                4031,
+                0.0217391304348
+            ]
+        ]
+    ]
 }

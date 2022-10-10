@@ -5,7 +5,26 @@
     "email": "jeffrey20@gmail.com",
     "birthdate": "2020-12-31",
     "phone": "824.592.8289x11608",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        56,
+        7,
+        37,
+        40,
+        64,
+        37,
+        70,
+        57,
+        37,
+        31,
+        12,
+        49
+    ],
+    "login locations": [
+        [
+            -122.076108,
+            37.394053
+        ]
+    ],
+    "relationships": []
 }

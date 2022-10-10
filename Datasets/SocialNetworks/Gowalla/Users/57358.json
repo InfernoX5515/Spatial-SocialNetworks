@@ -5,7 +5,25 @@
     "email": "adkinsnathan@gmail.com",
     "birthdate": "1944-05-18",
     "phone": "082-572-4667",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        74,
+        41,
+        26,
+        10,
+        59,
+        67,
+        17,
+        41,
+        16,
+        74,
+        36
+    ],
+    "login locations": [
+        [
+            -117.087924,
+            32.967002
+        ]
+    ],
+    "relationships": []
 }

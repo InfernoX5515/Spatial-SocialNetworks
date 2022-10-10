@@ -5,7 +5,25 @@
     "email": "jennifer57@hotmail.com",
     "birthdate": "2019-09-25",
     "phone": "(433)750-9201x19219",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        66,
+        19,
+        29,
+        10,
+        63,
+        4,
+        66,
+        16,
+        42,
+        70,
+        68
+    ],
+    "login locations": [
+        [
+            -122.187859,
+            37.744545
+        ]
+    ],
+    "relationships": []
 }

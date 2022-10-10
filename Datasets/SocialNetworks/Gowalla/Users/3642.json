@@ -5,7 +5,19 @@
     "email": "jason64@hotmail.com",
     "birthdate": "1958-10-02",
     "phone": "(069)396-6431x37569",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        15,
+        13,
+        10,
+        34,
+        75
+    ],
+    "login locations": [
+        [
+            -122.423041,
+            37.785775
+        ]
+    ],
+    "relationships": []
 }

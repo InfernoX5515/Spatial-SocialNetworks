@@ -5,7 +5,22 @@
     "email": "rebeccaavila@gmail.com",
     "birthdate": "1965-10-21",
     "phone": "001-807-222-7328",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        56,
+        32,
+        31,
+        18,
+        22,
+        63,
+        35,
+        11
+    ],
+    "login locations": [
+        [
+            -122.412209,
+            37.770346
+        ]
+    ],
+    "relationships": []
 }

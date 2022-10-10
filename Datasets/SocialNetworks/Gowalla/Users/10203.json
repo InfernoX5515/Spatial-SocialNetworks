@@ -5,7 +5,26 @@
     "email": "harrisbarbara@gmail.com",
     "birthdate": "1925-08-27",
     "phone": "0973429488",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        65
+    ],
+    "login locations": [
+        [
+            -122.043705,
+            37.742844
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                2143,
+                0.04
+            ]
+        ]
+    ]
 }

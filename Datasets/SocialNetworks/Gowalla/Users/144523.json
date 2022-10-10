@@ -5,7 +5,16 @@
     "email": "ericawade@hotmail.com",
     "birthdate": "2020-04-16",
     "phone": "918-955-7808x362",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        12,
+        37
+    ],
+    "login locations": [
+        [
+            -122.431891,
+            37.773791
+        ]
+    ],
+    "relationships": []
 }

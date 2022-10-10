@@ -5,7 +5,26 @@
     "email": "sguzman@hotmail.com",
     "birthdate": "1992-10-17",
     "phone": "730.809.4379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        72,
+        8,
+        70,
+        69,
+        59,
+        22,
+        67,
+        59,
+        42,
+        10,
+        50,
+        63
+    ],
+    "login locations": [
+        [
+            -117.849743,
+            33.885337
+        ]
+    ],
+    "relationships": []
 }

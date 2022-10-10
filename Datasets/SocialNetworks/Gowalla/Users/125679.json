@@ -5,7 +5,27 @@
     "email": "fdavis@yahoo.com",
     "birthdate": "1969-01-02",
     "phone": "497-331-7619",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        8,
+        15,
+        30,
+        27,
+        69,
+        28,
+        32,
+        34,
+        21,
+        63,
+        12,
+        43,
+        43
+    ],
+    "login locations": [
+        [
+            -122.382626,
+            37.844413
+        ]
+    ],
+    "relationships": []
 }

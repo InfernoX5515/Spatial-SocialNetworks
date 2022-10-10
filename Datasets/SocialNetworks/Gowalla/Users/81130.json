@@ -5,7 +5,19 @@
     "email": "michaelwilliams@yahoo.com",
     "birthdate": "1993-05-03",
     "phone": "(549)655-2823x90845",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        21,
+        16,
+        3,
+        46,
+        60
+    ],
+    "login locations": [
+        [
+            -122.117113,
+            37.423333
+        ]
+    ],
+    "relationships": []
 }

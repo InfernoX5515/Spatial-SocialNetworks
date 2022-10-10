@@ -5,7 +5,27 @@
     "email": "lisaroberts@yahoo.com",
     "birthdate": "1970-10-07",
     "phone": "+1-578-691-0336x4819",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        42,
+        20,
+        7,
+        29,
+        16,
+        37,
+        61,
+        73,
+        15,
+        23,
+        8,
+        41,
+        75
+    ],
+    "login locations": [
+        [
+            -122.411793,
+            37.750212
+        ]
+    ],
+    "relationships": []
 }

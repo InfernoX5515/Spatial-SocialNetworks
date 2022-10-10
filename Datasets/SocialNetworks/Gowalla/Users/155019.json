@@ -5,7 +5,26 @@
     "email": "eileenschroeder@gmail.com",
     "birthdate": "1908-12-04",
     "phone": "178-150-8520",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        55,
+        55,
+        48,
+        70,
+        64,
+        13,
+        50,
+        10,
+        42,
+        39,
+        20,
+        57
+    ],
+    "login locations": [
+        [
+            -117.161593,
+            32.793973
+        ]
+    ],
+    "relationships": []
 }

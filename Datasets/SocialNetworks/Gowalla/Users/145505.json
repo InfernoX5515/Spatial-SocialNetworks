@@ -5,7 +5,16 @@
     "email": "castillotammy@hotmail.com",
     "birthdate": "1995-09-04",
     "phone": "+1-539-428-8400",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        20,
+        58
+    ],
+    "login locations": [
+        [
+            -118.597447,
+            34.24925
+        ]
+    ],
+    "relationships": []
 }

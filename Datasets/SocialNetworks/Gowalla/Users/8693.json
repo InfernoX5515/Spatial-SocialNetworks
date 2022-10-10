@@ -5,7 +5,31 @@
     "email": "sotoalan@hotmail.com",
     "birthdate": "1987-10-07",
     "phone": "1426803421",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        33,
+        63,
+        52,
+        1,
+        37,
+        59
+    ],
+    "login locations": [
+        [
+            -122.410772,
+            37.696933
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.0205714285714
+            ],
+            [
+                476,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,20 @@
     "email": "jstein@yahoo.com",
     "birthdate": "1943-06-06",
     "phone": "+1-198-497-6452",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        52,
+        50,
+        13,
+        41,
+        71,
+        15
+    ],
+    "login locations": [
+        [
+            -121.79042,
+            37.123594
+        ]
+    ],
+    "relationships": []
 }

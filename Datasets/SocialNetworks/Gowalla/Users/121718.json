@@ -5,7 +5,28 @@
     "email": "harrisemma@yahoo.com",
     "birthdate": "1979-02-09",
     "phone": "001-443-214-1049x2999",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        45,
+        31,
+        47,
+        60,
+        63,
+        68,
+        72,
+        41,
+        33,
+        74,
+        60,
+        60,
+        14,
+        0
+    ],
+    "login locations": [
+        [
+            -118.268139,
+            33.933466
+        ]
+    ],
+    "relationships": []
 }

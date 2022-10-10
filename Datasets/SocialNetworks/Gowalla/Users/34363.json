@@ -5,7 +5,22 @@
     "email": "thomasmay@hotmail.com",
     "birthdate": "2015-01-22",
     "phone": "0191992809",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        52,
+        21,
+        26,
+        8,
+        64,
+        44,
+        50,
+        52
+    ],
+    "login locations": [
+        [
+            -122.402833,
+            37.724939
+        ]
+    ],
+    "relationships": []
 }

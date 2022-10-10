@@ -5,7 +5,28 @@
     "email": "shawnwright@yahoo.com",
     "birthdate": "1975-02-21",
     "phone": "(751)935-4452",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        26,
+        35,
+        31,
+        61,
+        54,
+        71,
+        75,
+        71,
+        65,
+        40,
+        30,
+        4,
+        10,
+        7
+    ],
+    "login locations": [
+        [
+            -117.352353,
+            34.054252
+        ]
+    ],
+    "relationships": []
 }

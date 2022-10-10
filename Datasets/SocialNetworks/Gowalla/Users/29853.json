@@ -5,7 +5,26 @@
     "email": "diazdavid@hotmail.com",
     "birthdate": "1948-12-23",
     "phone": "8927200419",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        74,
+        75,
+        12,
+        12,
+        20,
+        25,
+        42,
+        74,
+        49,
+        42,
+        40,
+        45
+    ],
+    "login locations": [
+        [
+            -117.179363,
+            32.800586
+        ]
+    ],
+    "relationships": []
 }

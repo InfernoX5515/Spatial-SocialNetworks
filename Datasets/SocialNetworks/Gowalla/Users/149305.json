@@ -5,7 +5,21 @@
     "email": "jmccoy@hotmail.com",
     "birthdate": "1998-01-23",
     "phone": "(136)072-1929x0441",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        71,
+        64,
+        26,
+        65,
+        49,
+        7,
+        27
+    ],
+    "login locations": [
+        [
+            -118.152674,
+            34.629739
+        ]
+    ],
+    "relationships": []
 }

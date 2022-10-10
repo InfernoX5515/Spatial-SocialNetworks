@@ -5,7 +5,25 @@
     "email": "lauren74@yahoo.com",
     "birthdate": "1947-01-23",
     "phone": "096.091.8851",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        30,
+        31,
+        12,
+        69,
+        39,
+        44,
+        64,
+        41,
+        47,
+        39,
+        68
+    ],
+    "login locations": [
+        [
+            -122.401063,
+            37.785809
+        ]
+    ],
+    "relationships": []
 }

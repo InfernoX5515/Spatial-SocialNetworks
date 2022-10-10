@@ -5,7 +5,25 @@
     "email": "troysmith@gmail.com",
     "birthdate": "1948-10-25",
     "phone": "(342)686-3274x991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        19,
+        13,
+        5,
+        47,
+        16,
+        51,
+        60,
+        40,
+        10,
+        63,
+        59
+    ],
+    "login locations": [
+        [
+            -122.342942,
+            37.461777
+        ]
+    ],
+    "relationships": []
 }

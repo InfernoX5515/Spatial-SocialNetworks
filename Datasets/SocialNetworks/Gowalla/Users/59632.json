@@ -5,7 +5,25 @@
     "email": "mcfarlandmichelle@hotmail.com",
     "birthdate": "1966-12-06",
     "phone": "(303)567-3868x55523",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -121.922517,
+            37.308056
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2039,
+                0.235772357724
+            ],
+            [
+                2039,
+                0.235772357724
+            ]
+        ]
+    ]
 }

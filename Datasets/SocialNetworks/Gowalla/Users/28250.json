@@ -5,7 +5,16 @@
     "email": "dana82@hotmail.com",
     "birthdate": "2001-05-20",
     "phone": "+1-745-666-0861x6315",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        70,
+        13
+    ],
+    "login locations": [
+        [
+            -118.20651,
+            34.003723
+        ]
+    ],
+    "relationships": []
 }

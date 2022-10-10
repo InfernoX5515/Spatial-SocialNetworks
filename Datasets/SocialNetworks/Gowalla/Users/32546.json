@@ -5,7 +5,35 @@
     "email": "holly79@yahoo.com",
     "birthdate": "2014-09-22",
     "phone": "+1-396-960-4099x3470",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        53,
+        61,
+        19,
+        58,
+        67,
+        29,
+        48,
+        26,
+        7,
+        50
+    ],
+    "login locations": [
+        [
+            -118.228784,
+            33.854874
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                15569,
+                0.01
+            ],
+            [
+                41797,
+                0.105263157895
+            ]
+        ]
+    ]
 }

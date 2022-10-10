@@ -5,7 +5,35 @@
     "email": "blevinsmichael@hotmail.com",
     "birthdate": "1936-05-26",
     "phone": "+1-825-990-1666x97138",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        41,
+        54,
+        75,
+        19,
+        6,
+        19,
+        52,
+        68,
+        1,
+        8
+    ],
+    "login locations": [
+        [
+            -118.340762,
+            34.072918
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                70380,
+                0.0533333333333
+            ],
+            [
+                70380,
+                0.0533333333333
+            ]
+        ]
+    ]
 }

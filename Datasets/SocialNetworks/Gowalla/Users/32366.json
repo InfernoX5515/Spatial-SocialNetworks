@@ -5,7 +5,17 @@
     "email": "catherinescott@hotmail.com",
     "birthdate": "1969-09-27",
     "phone": "(894)344-5464",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        14,
+        47,
+        11
+    ],
+    "login locations": [
+        [
+            -119.105217,
+            36.130625
+        ]
+    ],
+    "relationships": []
 }

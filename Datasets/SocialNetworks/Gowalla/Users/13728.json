@@ -5,7 +5,12 @@
     "email": "shawnhale@hotmail.com",
     "birthdate": "1923-05-26",
     "phone": "375-336-0458",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.434974,
+            37.74906
+        ]
+    ],
+    "relationships": []
 }

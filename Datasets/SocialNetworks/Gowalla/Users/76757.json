@@ -5,7 +5,14 @@
     "email": "ephillips@yahoo.com",
     "birthdate": "1920-02-20",
     "phone": "449-000-5239",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75
+    ],
+    "login locations": [
+        [
+            -122.351631,
+            37.752275
+        ]
+    ],
+    "relationships": []
 }

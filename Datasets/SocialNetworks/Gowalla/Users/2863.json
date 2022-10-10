@@ -5,7 +5,26 @@
     "email": "brockdonna@hotmail.com",
     "birthdate": "1923-05-16",
     "phone": "312-937-7633",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        61,
+        26,
+        75,
+        54,
+        42,
+        41,
+        57,
+        31,
+        13,
+        7,
+        30,
+        35
+    ],
+    "login locations": [
+        [
+            -118.238524,
+            33.872474
+        ]
+    ],
+    "relationships": []
 }

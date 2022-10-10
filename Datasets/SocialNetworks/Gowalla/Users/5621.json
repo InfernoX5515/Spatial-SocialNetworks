@@ -5,7 +5,12 @@
     "email": "rcollins@yahoo.com",
     "birthdate": "1943-10-22",
     "phone": "3150597265",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.412544,
+            37.729555
+        ]
+    ],
+    "relationships": []
 }

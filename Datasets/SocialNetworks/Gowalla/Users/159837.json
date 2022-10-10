@@ -5,7 +5,15 @@
     "email": "andrew48@hotmail.com",
     "birthdate": "2007-07-03",
     "phone": "956.876.9583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        73
+    ],
+    "login locations": [
+        [
+            -117.182025,
+            32.808007
+        ]
+    ],
+    "relationships": []
 }

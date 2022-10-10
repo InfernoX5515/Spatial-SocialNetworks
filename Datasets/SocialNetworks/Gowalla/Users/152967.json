@@ -5,7 +5,18 @@
     "email": "ngregory@yahoo.com",
     "birthdate": "2017-06-20",
     "phone": "347-290-6673x956",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        64,
+        13,
+        56,
+        51
+    ],
+    "login locations": [
+        [
+            -122.238421,
+            37.755349
+        ]
+    ],
+    "relationships": []
 }

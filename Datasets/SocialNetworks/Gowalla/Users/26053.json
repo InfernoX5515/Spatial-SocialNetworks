@@ -5,7 +5,14 @@
     "email": "ybruce@hotmail.com",
     "birthdate": "2004-05-07",
     "phone": "(938)690-3534",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69
+    ],
+    "login locations": [
+        [
+            -122.397735,
+            37.765643
+        ]
+    ],
+    "relationships": []
 }

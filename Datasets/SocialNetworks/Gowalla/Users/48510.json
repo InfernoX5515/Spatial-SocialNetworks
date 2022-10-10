@@ -5,7 +5,19 @@
     "email": "tracey86@gmail.com",
     "birthdate": "1948-10-31",
     "phone": "(208)356-1465",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        28,
+        58,
+        58,
+        75,
+        34
+    ],
+    "login locations": [
+        [
+            -117.929896,
+            33.790169
+        ]
+    ],
+    "relationships": []
 }

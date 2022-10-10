@@ -5,7 +5,34 @@
     "email": "greendeborah@yahoo.com",
     "birthdate": "1960-06-10",
     "phone": "400.343.5566",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        20,
+        27,
+        20,
+        15,
+        33,
+        63,
+        23,
+        60,
+        7
+    ],
+    "login locations": [
+        [
+            -119.788504,
+            36.796675
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                102172,
+                0.08
+            ],
+            [
+                102172,
+                0.08
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,20 @@
     "email": "patriciaellis@yahoo.com",
     "birthdate": "1923-01-07",
     "phone": "001-501-066-3806",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        28,
+        62,
+        52,
+        9,
+        75,
+        43
+    ],
+    "login locations": [
+        [
+            -119.627605,
+            34.419143
+        ]
+    ],
+    "relationships": []
 }

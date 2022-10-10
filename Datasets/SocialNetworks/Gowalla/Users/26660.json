@@ -5,7 +5,26 @@
     "email": "briandavis@gmail.com",
     "birthdate": "1978-07-05",
     "phone": "(613)681-3837x709",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        12,
+        39,
+        19,
+        22,
+        15,
+        15,
+        21,
+        68,
+        4,
+        14,
+        75,
+        59
+    ],
+    "login locations": [
+        [
+            -117.72981,
+            33.626421
+        ]
+    ],
+    "relationships": []
 }

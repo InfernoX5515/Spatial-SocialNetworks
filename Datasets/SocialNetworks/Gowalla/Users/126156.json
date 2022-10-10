@@ -5,7 +5,22 @@
     "email": "christinaduncan@hotmail.com",
     "birthdate": "1948-05-25",
     "phone": "883.967.8548x52017",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        36,
+        9,
+        72,
+        19,
+        30,
+        14,
+        45,
+        35
+    ],
+    "login locations": [
+        [
+            -122.053076,
+            37.830149
+        ]
+    ],
+    "relationships": []
 }

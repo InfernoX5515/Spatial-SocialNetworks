@@ -5,7 +5,27 @@
     "email": "stephenscassie@yahoo.com",
     "birthdate": "1923-07-21",
     "phone": "+1-870-724-9997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        25,
+        45,
+        56,
+        15,
+        62,
+        23,
+        11,
+        48,
+        6,
+        36,
+        51,
+        71,
+        52
+    ],
+    "login locations": [
+        [
+            -121.28719,
+            38.808452
+        ]
+    ],
+    "relationships": []
 }

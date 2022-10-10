@@ -5,7 +5,18 @@
     "email": "lincasey@hotmail.com",
     "birthdate": "1965-11-20",
     "phone": "+1-192-211-0499x19031",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        63,
+        63,
+        66,
+        22
+    ],
+    "login locations": [
+        [
+            -118.229011,
+            33.971641
+        ]
+    ],
+    "relationships": []
 }

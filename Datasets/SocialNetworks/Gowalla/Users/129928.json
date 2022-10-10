@@ -5,7 +5,27 @@
     "email": "chavezmonique@gmail.com",
     "birthdate": "2013-08-07",
     "phone": "708-097-7792x000",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        13,
+        34,
+        46,
+        53,
+        2,
+        43,
+        7,
+        29,
+        31,
+        75,
+        11,
+        8,
+        68
+    ],
+    "login locations": [
+        [
+            -118.422994,
+            34.025271
+        ]
+    ],
+    "relationships": []
 }

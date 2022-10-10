@@ -5,7 +5,32 @@
     "email": "margaret53@gmail.com",
     "birthdate": "1994-02-06",
     "phone": "373-993-7257x89387",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        23,
+        22,
+        27,
+        29,
+        2,
+        39,
+        30
+    ],
+    "login locations": [
+        [
+            -118.255137,
+            34.059094
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2068,
+                0.817142857143
+            ],
+            [
+                2068,
+                0.817142857143
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "james46@gmail.com",
     "birthdate": "1961-08-13",
     "phone": "3903649616",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.172237,
+            32.730975
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82708,
+                0.02
+            ],
+            [
+                82708,
+                0.02
+            ]
+        ]
+    ]
 }

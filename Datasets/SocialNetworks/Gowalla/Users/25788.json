@@ -5,7 +5,22 @@
     "email": "jacksonanna@yahoo.com",
     "birthdate": "1921-01-13",
     "phone": "949-184-1580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        45,
+        56,
+        19,
+        12,
+        26,
+        51,
+        56,
+        6
+    ],
+    "login locations": [
+        [
+            -122.411069,
+            37.777445
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "lucerotimothy@gmail.com",
     "birthdate": "1933-12-28",
     "phone": "(172)873-0927x07830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.021357,
+            33.957847
+        ]
+    ],
+    "relationships": []
 }

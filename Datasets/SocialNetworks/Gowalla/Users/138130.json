@@ -5,7 +5,22 @@
     "email": "jparsons@yahoo.com",
     "birthdate": "1919-11-03",
     "phone": "554.551.5794x03960",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        74,
+        4,
+        74,
+        36,
+        48,
+        44,
+        6,
+        57
+    ],
+    "login locations": [
+        [
+            -118.403398,
+            34.056369
+        ]
+    ],
+    "relationships": []
 }

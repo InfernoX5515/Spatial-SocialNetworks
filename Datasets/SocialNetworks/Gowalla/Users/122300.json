@@ -5,7 +5,17 @@
     "email": "asmith@hotmail.com",
     "birthdate": "2003-11-02",
     "phone": "001-760-358-1467x733",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        59,
+        24,
+        44
+    ],
+    "login locations": [
+        [
+            -117.178644,
+            32.757159
+        ]
+    ],
+    "relationships": []
 }

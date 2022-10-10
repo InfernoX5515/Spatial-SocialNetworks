@@ -5,7 +5,33 @@
     "email": "hillkevin@yahoo.com",
     "birthdate": "1995-04-04",
     "phone": "(098)715-8288x80760",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        18,
+        58,
+        75,
+        17,
+        32,
+        38,
+        49,
+        52
+    ],
+    "login locations": [
+        [
+            -118.347922,
+            34.064083
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4371,
+                0.01
+            ],
+            [
+                4371,
+                0.01
+            ]
+        ]
+    ]
 }

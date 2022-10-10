@@ -5,7 +5,32 @@
     "email": "rachel15@hotmail.com",
     "birthdate": "1993-08-03",
     "phone": "4743281523",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        72,
+        32,
+        62,
+        45,
+        5,
+        63,
+        10
+    ],
+    "login locations": [
+        [
+            -118.360508,
+            33.975316
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3955,
+                0.0263157894737
+            ],
+            [
+                3955,
+                0.0263157894737
+            ]
+        ]
+    ]
 }

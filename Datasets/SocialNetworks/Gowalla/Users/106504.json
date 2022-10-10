@@ -5,7 +5,18 @@
     "email": "cooperzachary@hotmail.com",
     "birthdate": "1938-11-21",
     "phone": "299-052-6233",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        2,
+        50,
+        42,
+        37
+    ],
+    "login locations": [
+        [
+            -117.216276,
+            32.736125
+        ]
+    ],
+    "relationships": []
 }

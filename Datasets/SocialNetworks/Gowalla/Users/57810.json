@@ -5,7 +5,15 @@
     "email": "fgonzalez@hotmail.com",
     "birthdate": "1990-01-27",
     "phone": "572.655.3636",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        32
+    ],
+    "login locations": [
+        [
+            -117.1288,
+            32.75127
+        ]
+    ],
+    "relationships": []
 }

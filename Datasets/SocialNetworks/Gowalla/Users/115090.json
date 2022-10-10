@@ -5,7 +5,27 @@
     "email": "jesusjefferson@gmail.com",
     "birthdate": "2006-07-28",
     "phone": "388.691.4693x3747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        68,
+        31,
+        75,
+        30,
+        21,
+        42,
+        67,
+        30,
+        21,
+        30,
+        74,
+        26,
+        57
+    ],
+    "login locations": [
+        [
+            -118.172623,
+            34.148167
+        ]
+    ],
+    "relationships": []
 }

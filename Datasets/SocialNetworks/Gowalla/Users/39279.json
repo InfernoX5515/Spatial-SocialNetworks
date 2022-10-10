@@ -5,7 +5,39 @@
     "email": "odonnellmichael@gmail.com",
     "birthdate": "1943-11-30",
     "phone": "325.575.5850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        9,
+        24,
+        38,
+        66,
+        34,
+        65,
+        17,
+        9,
+        65,
+        43,
+        3,
+        35,
+        3,
+        11
+    ],
+    "login locations": [
+        [
+            -122.404666,
+            37.714135
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39280,
+                0.108108108108
+            ],
+            [
+                39280,
+                0.108108108108
+            ]
+        ]
+    ]
 }

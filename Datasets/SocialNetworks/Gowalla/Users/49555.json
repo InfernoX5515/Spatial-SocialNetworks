@@ -5,7 +5,22 @@
     "email": "romerojoshua@hotmail.com",
     "birthdate": "1982-11-29",
     "phone": "+1-868-539-4767",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        63,
+        55,
+        39,
+        45,
+        43,
+        54,
+        7,
+        62
+    ],
+    "login locations": [
+        [
+            -122.335684,
+            37.643246
+        ]
+    ],
+    "relationships": []
 }

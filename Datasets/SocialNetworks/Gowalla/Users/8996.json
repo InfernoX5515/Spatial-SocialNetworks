@@ -5,7 +5,14 @@
     "email": "qmiddleton@gmail.com",
     "birthdate": "1910-04-30",
     "phone": "883-991-7358x80927",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52
+    ],
+    "login locations": [
+        [
+            -118.189375,
+            34.12144
+        ]
+    ],
+    "relationships": []
 }

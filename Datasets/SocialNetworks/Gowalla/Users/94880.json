@@ -5,7 +5,16 @@
     "email": "brittanyturner@yahoo.com",
     "birthdate": "1961-05-14",
     "phone": "321-116-1741x80012",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        67,
+        42
+    ],
+    "login locations": [
+        [
+            -122.077864,
+            37.39262
+        ]
+    ],
+    "relationships": []
 }

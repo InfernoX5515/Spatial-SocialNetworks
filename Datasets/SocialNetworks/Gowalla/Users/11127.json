@@ -5,7 +5,25 @@
     "email": "deborahanderson@gmail.com",
     "birthdate": "1970-03-19",
     "phone": "+1-359-837-1192x2019",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        52,
+        11,
+        47,
+        11,
+        42,
+        35,
+        25,
+        27,
+        52,
+        74,
+        40
+    ],
+    "login locations": [
+        [
+            -121.255053,
+            38.745131
+        ]
+    ],
+    "relationships": []
 }

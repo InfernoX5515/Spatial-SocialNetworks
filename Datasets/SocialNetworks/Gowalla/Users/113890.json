@@ -5,7 +5,35 @@
     "email": "ramseyjohn@gmail.com",
     "birthdate": "1989-03-15",
     "phone": "246.841.4406",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        22,
+        22,
+        72,
+        63,
+        15,
+        40,
+        20,
+        65,
+        9,
+        9
+    ],
+    "login locations": [
+        [
+            -122.40189,
+            37.764244
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                113891,
+                1.0
+            ],
+            [
+                113891,
+                1.0
+            ]
+        ]
+    ]
 }

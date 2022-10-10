@@ -5,7 +5,22 @@
     "email": "qcarney@gmail.com",
     "birthdate": "1985-03-27",
     "phone": "7822313259",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        45,
+        21,
+        33,
+        35,
+        45,
+        60,
+        25,
+        4
+    ],
+    "login locations": [
+        [
+            -122.432747,
+            37.764924
+        ]
+    ],
+    "relationships": []
 }

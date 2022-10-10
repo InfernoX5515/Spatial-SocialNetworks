@@ -5,7 +5,15 @@
     "email": "mmartinez@yahoo.com",
     "birthdate": "1932-10-15",
     "phone": "001-066-255-0980x15225",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        15
+    ],
+    "login locations": [
+        [
+            -121.838059,
+            37.217751
+        ]
+    ],
+    "relationships": []
 }

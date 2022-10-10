@@ -5,7 +5,17 @@
     "email": "gowens@gmail.com",
     "birthdate": "1958-07-04",
     "phone": "9941945653",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        72,
+        17,
+        29
+    ],
+    "login locations": [
+        [
+            -117.800895,
+            33.872363
+        ]
+    ],
+    "relationships": []
 }

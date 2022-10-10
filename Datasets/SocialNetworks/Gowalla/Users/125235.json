@@ -5,7 +5,14 @@
     "email": "karenhicks@hotmail.com",
     "birthdate": "1954-04-24",
     "phone": "981-760-9678x396",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73
+    ],
+    "login locations": [
+        [
+            -117.175653,
+            32.826337
+        ]
+    ],
+    "relationships": []
 }

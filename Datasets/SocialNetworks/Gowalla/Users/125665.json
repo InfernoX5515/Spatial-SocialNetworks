@@ -5,7 +5,19 @@
     "email": "dale42@hotmail.com",
     "birthdate": "2018-05-01",
     "phone": "917.033.8798",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        59,
+        24,
+        45,
+        66,
+        9
+    ],
+    "login locations": [
+        [
+            -122.417944,
+            37.766105
+        ]
+    ],
+    "relationships": []
 }

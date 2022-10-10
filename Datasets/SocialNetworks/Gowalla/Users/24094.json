@@ -5,7 +5,21 @@
     "email": "amaldonado@hotmail.com",
     "birthdate": "1934-11-16",
     "phone": "+1-816-108-1137x39121",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        33,
+        51,
+        68,
+        45,
+        43,
+        29,
+        38
+    ],
+    "login locations": [
+        [
+            -122.410474,
+            37.782894
+        ]
+    ],
+    "relationships": []
 }

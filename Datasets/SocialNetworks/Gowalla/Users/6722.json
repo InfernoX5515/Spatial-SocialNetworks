@@ -5,7 +5,30 @@
     "email": "erica06@hotmail.com",
     "birthdate": "1934-05-02",
     "phone": "(830)848-2716",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        65,
+        69,
+        21,
+        1,
+        73
+    ],
+    "login locations": [
+        [
+            -122.431335,
+            37.764562
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                459,
+                0.0143884892086
+            ],
+            [
+                2292,
+                0.0414201183432
+            ]
+        ]
+    ]
 }

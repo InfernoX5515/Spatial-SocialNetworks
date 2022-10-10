@@ -5,7 +5,25 @@
     "email": "sho@hotmail.com",
     "birthdate": "2006-09-15",
     "phone": "001-794-244-8680x8646",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        63,
+        55,
+        40,
+        31,
+        52,
+        1,
+        4,
+        11,
+        37,
+        11,
+        40
+    ],
+    "login locations": [
+        [
+            -118.457741,
+            33.997769
+        ]
+    ],
+    "relationships": []
 }

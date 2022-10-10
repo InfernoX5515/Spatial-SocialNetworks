@@ -5,7 +5,27 @@
     "email": "donaldgraham@yahoo.com",
     "birthdate": "2019-08-26",
     "phone": "626.936.5634",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        29,
+        10,
+        26,
+        50,
+        49,
+        7,
+        69,
+        12,
+        0,
+        21,
+        11,
+        52,
+        0
+    ],
+    "login locations": [
+        [
+            -122.401033,
+            37.769739
+        ]
+    ],
+    "relationships": []
 }

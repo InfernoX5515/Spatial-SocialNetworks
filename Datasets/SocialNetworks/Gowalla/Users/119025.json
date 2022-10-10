@@ -5,7 +5,18 @@
     "email": "kpreston@yahoo.com",
     "birthdate": "1976-08-28",
     "phone": "571.294.9072x802",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        30,
+        64,
+        34,
+        58
+    ],
+    "login locations": [
+        [
+            -122.111997,
+            37.416986
+        ]
+    ],
+    "relationships": []
 }

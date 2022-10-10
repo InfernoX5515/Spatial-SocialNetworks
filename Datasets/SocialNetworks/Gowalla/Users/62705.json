@@ -5,7 +5,27 @@
     "email": "kevinthornton@gmail.com",
     "birthdate": "1937-11-07",
     "phone": "(418)397-2793",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        68,
+        32,
+        26,
+        2,
+        5,
+        5,
+        15,
+        5,
+        43,
+        30,
+        43,
+        30,
+        69
+    ],
+    "login locations": [
+        [
+            -122.418955,
+            37.763777
+        ]
+    ],
+    "relationships": []
 }

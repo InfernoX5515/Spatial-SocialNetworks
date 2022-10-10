@@ -5,7 +5,17 @@
     "email": "ewalters@yahoo.com",
     "birthdate": "2005-09-24",
     "phone": "673.629.4035x45940",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        70,
+        70,
+        26
+    ],
+    "login locations": [
+        [
+            -117.160826,
+            33.529835
+        ]
+    ],
+    "relationships": []
 }

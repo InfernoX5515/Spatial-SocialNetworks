@@ -5,7 +5,12 @@
     "email": "jennifer46@hotmail.com",
     "birthdate": "2009-03-20",
     "phone": "341-877-2114",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -116.913601,
+            33.889932
+        ]
+    ],
+    "relationships": []
 }

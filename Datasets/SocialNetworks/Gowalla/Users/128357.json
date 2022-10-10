@@ -5,7 +5,17 @@
     "email": "mayjohn@hotmail.com",
     "birthdate": "1920-07-08",
     "phone": "001-086-082-9035x2989",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        54,
+        73,
+        24
+    ],
+    "login locations": [
+        [
+            -121.983895,
+            37.296937
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "lgarcia@gmail.com",
     "birthdate": "1961-02-15",
     "phone": "+1-996-145-3337x997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        74,
+        65
+    ],
+    "login locations": [
+        [
+            -118.318571,
+            34.072012
+        ]
+    ],
+    "relationships": []
 }

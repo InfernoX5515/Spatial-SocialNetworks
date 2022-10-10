@@ -5,7 +5,26 @@
     "email": "brianna69@gmail.com",
     "birthdate": "1919-11-10",
     "phone": "(503)213-8120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        44
+    ],
+    "login locations": [
+        [
+            -118.443823,
+            34.042265
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32712,
+                0.0228571428571
+            ],
+            [
+                34830,
+                0.0933333333333
+            ]
+        ]
+    ]
 }

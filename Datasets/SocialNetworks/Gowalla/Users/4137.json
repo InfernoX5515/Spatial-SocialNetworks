@@ -5,7 +5,17 @@
     "email": "sweeneycolton@yahoo.com",
     "birthdate": "1976-01-28",
     "phone": "+1-970-385-8614x2597",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        57,
+        21,
+        37
+    ],
+    "login locations": [
+        [
+            -122.332326,
+            37.814413
+        ]
+    ],
+    "relationships": []
 }

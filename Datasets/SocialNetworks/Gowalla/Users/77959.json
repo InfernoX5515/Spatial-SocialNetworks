@@ -5,7 +5,26 @@
     "email": "myersdavid@hotmail.com",
     "birthdate": "1979-05-14",
     "phone": "604.256.5576",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        14,
+        46,
+        45,
+        14,
+        63,
+        55,
+        0,
+        17,
+        0,
+        70,
+        7,
+        31
+    ],
+    "login locations": [
+        [
+            -122.419316,
+            37.773946
+        ]
+    ],
+    "relationships": []
 }

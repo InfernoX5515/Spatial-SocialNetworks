@@ -5,7 +5,12 @@
     "email": "uyoung@yahoo.com",
     "birthdate": "1911-04-04",
     "phone": "001-096-509-1519x535",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.398259,
+            37.759159
+        ]
+    ],
+    "relationships": []
 }

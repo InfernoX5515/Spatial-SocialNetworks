@@ -5,7 +5,22 @@
     "email": "rowejeffrey@hotmail.com",
     "birthdate": "1911-02-12",
     "phone": "(423)304-0658x757",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        68,
+        32,
+        15,
+        54,
+        59,
+        45,
+        72,
+        0
+    ],
+    "login locations": [
+        [
+            -122.404063,
+            37.777524
+        ]
+    ],
+    "relationships": []
 }

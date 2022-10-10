@@ -5,7 +5,23 @@
     "email": "williamtrujillo@hotmail.com",
     "birthdate": "1958-10-21",
     "phone": "001-337-307-6243",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.738669,
+            34.055212
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1121,
+                0.0175115207373
+            ],
+            [
+                27640,
+                0.0769230769231
+            ]
+        ]
+    ]
 }

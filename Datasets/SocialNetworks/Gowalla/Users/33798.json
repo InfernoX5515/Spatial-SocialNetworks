@@ -5,7 +5,12 @@
     "email": "zachary84@hotmail.com",
     "birthdate": "1912-09-03",
     "phone": "+1-185-813-5291x7794",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.625809,
+            38.206939
+        ]
+    ],
+    "relationships": []
 }

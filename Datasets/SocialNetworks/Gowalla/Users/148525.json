@@ -5,7 +5,20 @@
     "email": "lisa60@hotmail.com",
     "birthdate": "1936-02-05",
     "phone": "633-946-3124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        70,
+        10,
+        59,
+        49,
+        75,
+        51
+    ],
+    "login locations": [
+        [
+            -118.292308,
+            34.09315
+        ]
+    ],
+    "relationships": []
 }

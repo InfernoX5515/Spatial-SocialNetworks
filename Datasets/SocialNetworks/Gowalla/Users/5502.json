@@ -5,7 +5,23 @@
     "email": "tracyfleming@hotmail.com",
     "birthdate": "1943-10-28",
     "phone": "(229)072-5759x011",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.984742,
+            37.107892
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5342,
+                0.016393442623
+            ],
+            [
+                5342,
+                0.016393442623
+            ]
+        ]
+    ]
 }

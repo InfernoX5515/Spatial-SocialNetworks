@@ -5,7 +5,14 @@
     "email": "stoutshannon@yahoo.com",
     "birthdate": "1930-06-01",
     "phone": "(960)261-3808x921",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52
+    ],
+    "login locations": [
+        [
+            -118.570888,
+            34.388474
+        ]
+    ],
+    "relationships": []
 }

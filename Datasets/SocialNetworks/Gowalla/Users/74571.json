@@ -5,7 +5,27 @@
     "email": "wellspeter@gmail.com",
     "birthdate": "2018-04-09",
     "phone": "756-064-4545",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        68,
+        57,
+        50,
+        3,
+        24,
+        74,
+        35,
+        4,
+        54,
+        16,
+        71,
+        61,
+        25
+    ],
+    "login locations": [
+        [
+            -117.222583,
+            32.814618
+        ]
+    ],
+    "relationships": []
 }

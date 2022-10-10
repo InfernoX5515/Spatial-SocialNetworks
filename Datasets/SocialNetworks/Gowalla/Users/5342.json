@@ -5,7 +5,38 @@
     "email": "hhall@yahoo.com",
     "birthdate": "1970-12-03",
     "phone": "(128)667-6444",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        47,
+        52,
+        9,
+        63,
+        45,
+        14,
+        73,
+        3,
+        51,
+        63,
+        33,
+        23,
+        74
+    ],
+    "login locations": [
+        [
+            -122.396247,
+            37.757109
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                331,
+                0.0833333333333
+            ],
+            [
+                2287,
+                0.0432098765432
+            ]
+        ]
+    ]
 }

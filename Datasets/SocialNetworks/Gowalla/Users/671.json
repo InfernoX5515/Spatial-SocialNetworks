@@ -5,7 +5,18 @@
     "email": "donald09@hotmail.com",
     "birthdate": "1976-07-18",
     "phone": "(042)527-8487x865",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        30,
+        7,
+        70,
+        39
+    ],
+    "login locations": [
+        [
+            -121.665215,
+            37.936896
+        ]
+    ],
+    "relationships": []
 }

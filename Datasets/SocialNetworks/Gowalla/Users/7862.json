@@ -5,7 +5,12 @@
     "email": "ucochran@yahoo.com",
     "birthdate": "1980-06-02",
     "phone": "+1-496-792-8449x53410",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.189976,
+            32.796908
+        ]
+    ],
+    "relationships": []
 }

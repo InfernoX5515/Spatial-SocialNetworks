@@ -5,7 +5,24 @@
     "email": "michaelwest@gmail.com",
     "birthdate": "1954-07-19",
     "phone": "719-195-1857x54632",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        59,
+        61,
+        52,
+        47,
+        7,
+        52,
+        24,
+        70,
+        72,
+        4
+    ],
+    "login locations": [
+        [
+            -117.180255,
+            32.851366
+        ]
+    ],
+    "relationships": []
 }

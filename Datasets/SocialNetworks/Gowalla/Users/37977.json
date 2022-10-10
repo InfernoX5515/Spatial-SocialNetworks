@@ -5,7 +5,25 @@
     "email": "yarmstrong@yahoo.com",
     "birthdate": "1947-02-25",
     "phone": "(798)240-1568",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        66,
+        40,
+        50,
+        12,
+        16,
+        10,
+        74,
+        68,
+        75,
+        71,
+        20
+    ],
+    "login locations": [
+        [
+            -122.395549,
+            37.791103
+        ]
+    ],
+    "relationships": []
 }

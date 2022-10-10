@@ -5,7 +5,19 @@
     "email": "hendersonpaige@yahoo.com",
     "birthdate": "1927-01-20",
     "phone": "511.330.4832x41222",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        59,
+        36,
+        29,
+        35,
+        9
+    ],
+    "login locations": [
+        [
+            -117.991927,
+            33.776047
+        ]
+    ],
+    "relationships": []
 }

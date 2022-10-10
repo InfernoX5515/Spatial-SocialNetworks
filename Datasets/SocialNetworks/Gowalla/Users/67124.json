@@ -5,7 +5,19 @@
     "email": "uwhite@yahoo.com",
     "birthdate": "1980-10-09",
     "phone": "(612)987-0282x406",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        43,
+        16,
+        40,
+        36,
+        2
+    ],
+    "login locations": [
+        [
+            -118.442104,
+            34.014143
+        ]
+    ],
+    "relationships": []
 }

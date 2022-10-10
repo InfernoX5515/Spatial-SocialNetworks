@@ -5,7 +5,37 @@
     "email": "jamie17@hotmail.com",
     "birthdate": "1994-04-30",
     "phone": "721-173-1780",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        32,
+        18,
+        31,
+        23,
+        50,
+        1,
+        4,
+        56,
+        6,
+        19,
+        43,
+        35
+    ],
+    "login locations": [
+        [
+            -122.105808,
+            37.382766
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1784,
+                0.04
+            ],
+            [
+                5485,
+                0.428571428571
+            ]
+        ]
+    ]
 }

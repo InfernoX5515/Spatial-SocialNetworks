@@ -5,7 +5,24 @@
     "email": "gmartinez@gmail.com",
     "birthdate": "1992-02-17",
     "phone": "001-239-265-5282x025",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        49,
+        25,
+        20,
+        16,
+        72,
+        63,
+        11,
+        18,
+        45,
+        24
+    ],
+    "login locations": [
+        [
+            -121.982524,
+            37.049885
+        ]
+    ],
+    "relationships": []
 }

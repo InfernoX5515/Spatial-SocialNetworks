@@ -5,7 +5,26 @@
     "email": "boydrobert@yahoo.com",
     "birthdate": "1959-11-20",
     "phone": "671.058.9792x359",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        36,
+        25,
+        58,
+        37,
+        67,
+        14,
+        42,
+        20,
+        70,
+        38,
+        65,
+        60
+    ],
+    "login locations": [
+        [
+            -122.040284,
+            37.383844
+        ]
+    ],
+    "relationships": []
 }

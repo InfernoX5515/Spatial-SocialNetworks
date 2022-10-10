@@ -5,7 +5,17 @@
     "email": "keith00@yahoo.com",
     "birthdate": "1965-02-23",
     "phone": "335-896-8276x173",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        25,
+        8,
+        69
+    ],
+    "login locations": [
+        [
+            -121.834242,
+            39.736232
+        ]
+    ],
+    "relationships": []
 }

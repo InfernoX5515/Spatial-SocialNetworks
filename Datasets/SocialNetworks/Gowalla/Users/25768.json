@@ -5,7 +5,27 @@
     "email": "stacysanchez@hotmail.com",
     "birthdate": "2010-03-31",
     "phone": "+1-936-802-6743",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        3,
+        12,
+        55,
+        53,
+        20,
+        36,
+        20,
+        35,
+        1,
+        21,
+        1,
+        22,
+        42
+    ],
+    "login locations": [
+        [
+            -122.103758,
+            37.433312
+        ]
+    ],
+    "relationships": []
 }

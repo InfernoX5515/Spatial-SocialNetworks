@@ -5,7 +5,12 @@
     "email": "mholmes@yahoo.com",
     "birthdate": "1989-05-21",
     "phone": "973.966.0466",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.433513,
+            37.777642
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "louisallison@gmail.com",
     "birthdate": "1998-11-03",
     "phone": "+1-453-494-1677x8065",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        47,
+        59,
+        46,
+        35
+    ],
+    "login locations": [
+        [
+            -122.724968,
+            38.432292
+        ]
+    ],
+    "relationships": []
 }

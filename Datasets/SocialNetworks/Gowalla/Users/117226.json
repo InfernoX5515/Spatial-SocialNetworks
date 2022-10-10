@@ -5,7 +5,23 @@
     "email": "kimberly09@gmail.com",
     "birthdate": "1969-09-27",
     "phone": "367.829.2088x757",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        23,
+        6,
+        16,
+        55,
+        50,
+        35,
+        5,
+        49,
+        19
+    ],
+    "login locations": [
+        [
+            -122.408224,
+            37.788854
+        ]
+    ],
+    "relationships": []
 }

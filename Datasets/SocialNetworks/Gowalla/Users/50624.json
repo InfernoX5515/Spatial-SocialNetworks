@@ -5,7 +5,15 @@
     "email": "paula60@yahoo.com",
     "birthdate": "1956-08-04",
     "phone": "978-598-1168x2865",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        75
+    ],
+    "login locations": [
+        [
+            -118.314435,
+            34.085141
+        ]
+    ],
+    "relationships": []
 }

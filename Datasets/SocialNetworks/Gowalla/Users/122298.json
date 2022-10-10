@@ -5,7 +5,20 @@
     "email": "rachel49@hotmail.com",
     "birthdate": "2001-08-20",
     "phone": "001-927-066-9914x24198",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        52,
+        0,
+        72,
+        6,
+        50,
+        65
+    ],
+    "login locations": [
+        [
+            -118.402822,
+            34.008331
+        ]
+    ],
+    "relationships": []
 }

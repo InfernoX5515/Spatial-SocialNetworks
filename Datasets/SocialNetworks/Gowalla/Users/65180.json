@@ -5,7 +5,20 @@
     "email": "michaelmoore@gmail.com",
     "birthdate": "1940-12-01",
     "phone": "+1-034-613-1968",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        1,
+        74,
+        30,
+        28,
+        32,
+        24
+    ],
+    "login locations": [
+        [
+            -118.22186,
+            34.106083
+        ]
+    ],
+    "relationships": []
 }

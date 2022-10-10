@@ -5,7 +5,17 @@
     "email": "annajones@yahoo.com",
     "birthdate": "1971-05-22",
     "phone": "596.072.2993",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        68,
+        2,
+        71
+    ],
+    "login locations": [
+        [
+            -121.925002,
+            37.323037
+        ]
+    ],
+    "relationships": []
 }

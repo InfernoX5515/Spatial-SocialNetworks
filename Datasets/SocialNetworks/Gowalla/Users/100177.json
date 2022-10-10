@@ -5,7 +5,24 @@
     "email": "andersonchristopher@gmail.com",
     "birthdate": "1982-03-06",
     "phone": "2745182537",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        73,
+        35,
+        62,
+        15,
+        17,
+        46,
+        45,
+        20,
+        4,
+        18
+    ],
+    "login locations": [
+        [
+            -122.326517,
+            37.610044
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "jilljackson@hotmail.com",
     "birthdate": "1938-05-21",
     "phone": "753.686.5499",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        48,
+        54,
+        54,
+        14
+    ],
+    "login locations": [
+        [
+            -117.1635,
+            32.706832
+        ]
+    ],
+    "relationships": []
 }

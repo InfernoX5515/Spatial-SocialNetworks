@@ -5,7 +5,25 @@
     "email": "fbryant@hotmail.com",
     "birthdate": "1997-04-23",
     "phone": "+1-351-964-8543x446",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        3,
+        47,
+        49,
+        23,
+        6,
+        65,
+        49,
+        60,
+        40,
+        18,
+        32
+    ],
+    "login locations": [
+        [
+            -118.352955,
+            34.196308
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "joselee@gmail.com",
     "birthdate": "1964-08-27",
     "phone": "152.244.7839x150",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        72,
+        52
+    ],
+    "login locations": [
+        [
+            -117.8874,
+            33.818782
+        ]
+    ],
+    "relationships": []
 }

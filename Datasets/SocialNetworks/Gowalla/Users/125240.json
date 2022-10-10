@@ -5,7 +5,24 @@
     "email": "tammie82@yahoo.com",
     "birthdate": "1913-11-14",
     "phone": "086-867-9914",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        18,
+        5,
+        45,
+        49,
+        21,
+        59,
+        56,
+        41,
+        74,
+        54
+    ],
+    "login locations": [
+        [
+            -119.679551,
+            36.784417
+        ]
+    ],
+    "relationships": []
 }

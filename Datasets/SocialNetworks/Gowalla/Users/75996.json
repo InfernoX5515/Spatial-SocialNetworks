@@ -5,7 +5,17 @@
     "email": "jordanmitchell@yahoo.com",
     "birthdate": "1972-04-28",
     "phone": "001-917-908-1769x235",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        21,
+        70,
+        12
+    ],
+    "login locations": [
+        [
+            -118.367656,
+            34.115698
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "bradshawalicia@hotmail.com",
     "birthdate": "2020-09-23",
     "phone": "336.618.8322x873",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.433273,
+            37.764557
+        ]
+    ],
+    "relationships": []
 }

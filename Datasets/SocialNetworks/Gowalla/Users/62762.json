@@ -5,7 +5,20 @@
     "email": "thansen@hotmail.com",
     "birthdate": "1935-12-29",
     "phone": "001-279-163-1849x9513",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        40,
+        62,
+        55,
+        3,
+        32,
+        68
+    ],
+    "login locations": [
+        [
+            -122.05517,
+            37.420133
+        ]
+    ],
+    "relationships": []
 }

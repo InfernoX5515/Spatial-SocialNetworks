@@ -5,7 +5,26 @@
     "email": "vickiepalmer@hotmail.com",
     "birthdate": "1940-06-17",
     "phone": "001-488-457-9724",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        60,
+        51,
+        64,
+        40,
+        70,
+        55,
+        71,
+        31,
+        49,
+        57,
+        19,
+        48
+    ],
+    "login locations": [
+        [
+            -122.633061,
+            38.263762
+        ]
+    ],
+    "relationships": []
 }

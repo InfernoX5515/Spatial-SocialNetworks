@@ -5,7 +5,24 @@
     "email": "wilkinscassandra@gmail.com",
     "birthdate": "2000-04-18",
     "phone": "2894570259",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        14,
+        69,
+        55,
+        74,
+        31,
+        28,
+        43,
+        43,
+        40,
+        9
+    ],
+    "login locations": [
+        [
+            -122.307906,
+            37.877476
+        ]
+    ],
+    "relationships": []
 }

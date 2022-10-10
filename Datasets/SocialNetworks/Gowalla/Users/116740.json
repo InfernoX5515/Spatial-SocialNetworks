@@ -5,7 +5,26 @@
     "email": "stephenparsons@yahoo.com",
     "birthdate": "1954-03-01",
     "phone": "028.759.5599x4779",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        73,
+        72,
+        2,
+        39,
+        22,
+        15,
+        75,
+        59,
+        21,
+        62,
+        63,
+        23
+    ],
+    "login locations": [
+        [
+            -122.38615,
+            37.616356
+        ]
+    ],
+    "relationships": []
 }

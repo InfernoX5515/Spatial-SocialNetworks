@@ -5,7 +5,23 @@
     "email": "howardlisa@gmail.com",
     "birthdate": "1915-01-21",
     "phone": "402-248-5574",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        74,
+        15,
+        12,
+        26,
+        26,
+        44,
+        38,
+        11,
+        48
+    ],
+    "login locations": [
+        [
+            -122.092791,
+            37.390717
+        ]
+    ],
+    "relationships": []
 }

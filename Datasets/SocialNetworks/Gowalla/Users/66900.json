@@ -5,7 +5,23 @@
     "email": "brandon95@gmail.com",
     "birthdate": "1979-09-30",
     "phone": "(766)577-0282",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        62,
+        24,
+        29,
+        47,
+        27,
+        48,
+        47,
+        47,
+        1
+    ],
+    "login locations": [
+        [
+            -121.949265,
+            37.760966
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "michelledixon@gmail.com",
     "birthdate": "1935-05-17",
     "phone": "+1-232-460-6852",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        10,
+        51,
+        10,
+        47,
+        30,
+        56,
+        38,
+        17
+    ],
+    "login locations": [
+        [
+            -122.406763,
+            37.76846
+        ]
+    ],
+    "relationships": []
 }

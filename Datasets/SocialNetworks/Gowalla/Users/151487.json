@@ -5,7 +5,27 @@
     "email": "jeffrey74@yahoo.com",
     "birthdate": "1948-09-13",
     "phone": "917.784.1457",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        30,
+        71,
+        60,
+        20,
+        21,
+        60,
+        19,
+        57,
+        63,
+        16,
+        29,
+        60,
+        24
+    ],
+    "login locations": [
+        [
+            -117.954639,
+            33.98586
+        ]
+    ],
+    "relationships": []
 }

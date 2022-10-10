@@ -5,7 +5,26 @@
     "email": "christinefitzgerald@yahoo.com",
     "birthdate": "1994-09-13",
     "phone": "141-355-6838",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        43,
+        11,
+        50,
+        67,
+        17,
+        1,
+        33,
+        26,
+        73,
+        21,
+        2,
+        18
+    ],
+    "login locations": [
+        [
+            -118.470137,
+            33.991767
+        ]
+    ],
+    "relationships": []
 }

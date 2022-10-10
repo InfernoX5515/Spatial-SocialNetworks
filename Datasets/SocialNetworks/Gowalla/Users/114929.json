@@ -5,7 +5,28 @@
     "email": "spencermelissa@yahoo.com",
     "birthdate": "1913-04-08",
     "phone": "001-423-241-1407x435",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        28,
+        22,
+        28,
+        57,
+        56,
+        68,
+        42,
+        68,
+        46,
+        2,
+        4,
+        33,
+        25,
+        38
+    ],
+    "login locations": [
+        [
+            -122.180014,
+            37.453913
+        ]
+    ],
+    "relationships": []
 }

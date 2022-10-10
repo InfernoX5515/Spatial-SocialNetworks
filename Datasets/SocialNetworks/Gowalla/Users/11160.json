@@ -5,7 +5,38 @@
     "email": "kristenbrewer@hotmail.com",
     "birthdate": "1945-07-30",
     "phone": "(572)351-6757",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        57,
+        59,
+        70,
+        21,
+        43,
+        3,
+        53,
+        42,
+        52,
+        66,
+        62,
+        19,
+        24
+    ],
+    "login locations": [
+        [
+            -118.436941,
+            34.022543
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                484,
+                0.01
+            ],
+            [
+                484,
+                0.01
+            ]
+        ]
+    ]
 }

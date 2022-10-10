@@ -5,7 +5,14 @@
     "email": "wbutler@hotmail.com",
     "birthdate": "1972-06-11",
     "phone": "001-496-571-3017",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42
+    ],
+    "login locations": [
+        [
+            -117.10402,
+            32.763036
+        ]
+    ],
+    "relationships": []
 }

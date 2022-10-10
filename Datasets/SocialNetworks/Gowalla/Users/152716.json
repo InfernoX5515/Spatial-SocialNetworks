@@ -5,7 +5,26 @@
     "email": "gillsteven@gmail.com",
     "birthdate": "1941-05-26",
     "phone": "726.660.4680x9822",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        51,
+        61,
+        34,
+        4,
+        17,
+        7,
+        54,
+        10,
+        64,
+        50,
+        64,
+        42
+    ],
+    "login locations": [
+        [
+            -121.800403,
+            37.061614
+        ]
+    ],
+    "relationships": []
 }

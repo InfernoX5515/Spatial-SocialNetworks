@@ -5,7 +5,25 @@
     "email": "ginamontgomery@gmail.com",
     "birthdate": "1980-04-21",
     "phone": "8167983303",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        21,
+        72,
+        14,
+        31,
+        9,
+        12,
+        67,
+        15,
+        44,
+        14,
+        56
+    ],
+    "login locations": [
+        [
+            -121.25802,
+            38.753667
+        ]
+    ],
+    "relationships": []
 }

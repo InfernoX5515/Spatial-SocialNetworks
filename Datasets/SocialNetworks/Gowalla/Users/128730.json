@@ -5,7 +5,17 @@
     "email": "danielglover@hotmail.com",
     "birthdate": "2009-02-01",
     "phone": "+1-099-976-2698x2398",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        23,
+        21,
+        45
+    ],
+    "login locations": [
+        [
+            -117.762892,
+            33.724923
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "danielmcmahon@gmail.com",
     "birthdate": "1916-01-25",
     "phone": "001-698-219-3384x4806",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        3,
+        52,
+        60,
+        28,
+        50,
+        57,
+        51,
+        39,
+        63,
+        42
+    ],
+    "login locations": [
+        [
+            -122.40267,
+            37.783256
+        ]
+    ],
+    "relationships": []
 }

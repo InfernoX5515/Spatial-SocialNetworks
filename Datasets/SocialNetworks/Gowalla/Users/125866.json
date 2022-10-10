@@ -5,7 +5,27 @@
     "email": "owensbrian@hotmail.com",
     "birthdate": "1967-04-30",
     "phone": "+1-381-220-0691x2190",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        19,
+        59,
+        8,
+        69,
+        57,
+        59,
+        1,
+        62,
+        63,
+        4,
+        51,
+        17,
+        3
+    ],
+    "login locations": [
+        [
+            -121.92204,
+            37.714185
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "tammy03@yahoo.com",
     "birthdate": "2003-03-21",
     "phone": "001-422-384-2705x547",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        40,
+        58,
+        63,
+        10,
+        17,
+        36,
+        11,
+        24
+    ],
+    "login locations": [
+        [
+            -122.413023,
+            37.768664
+        ]
+    ],
+    "relationships": []
 }

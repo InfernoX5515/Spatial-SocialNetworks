@@ -5,7 +5,28 @@
     "email": "stricklandluis@gmail.com",
     "birthdate": "1979-11-08",
     "phone": "(399)820-6948x7607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        52,
+        21,
+        55,
+        34,
+        44,
+        44,
+        20,
+        65,
+        13,
+        52,
+        52,
+        54,
+        54,
+        11
+    ],
+    "login locations": [
+        [
+            -121.950643,
+            37.763654
+        ]
+    ],
+    "relationships": []
 }

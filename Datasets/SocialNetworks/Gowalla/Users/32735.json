@@ -5,7 +5,30 @@
     "email": "craigunderwood@hotmail.com",
     "birthdate": "2006-12-14",
     "phone": "(841)229-7705",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        30,
+        15,
+        64,
+        49,
+        69
+    ],
+    "login locations": [
+        [
+            -122.185006,
+            37.429849
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38066,
+                0.105263157895
+            ],
+            [
+                38066,
+                0.105263157895
+            ]
+        ]
+    ]
 }

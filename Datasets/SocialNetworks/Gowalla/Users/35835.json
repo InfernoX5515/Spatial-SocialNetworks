@@ -5,7 +5,25 @@
     "email": "gibsonmathew@gmail.com",
     "birthdate": "1997-05-08",
     "phone": "9923924956",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55
+    ],
+    "login locations": [
+        [
+            -118.46956,
+            34.016888
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                538,
+                0.0917431192661
+            ],
+            [
+                538,
+                0.0917431192661
+            ]
+        ]
+    ]
 }

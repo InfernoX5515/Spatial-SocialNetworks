@@ -5,7 +5,34 @@
     "email": "anne19@hotmail.com",
     "birthdate": "2006-11-23",
     "phone": "(342)278-4818x86041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        8,
+        23,
+        32,
+        24,
+        22,
+        57,
+        47,
+        14,
+        66
+    ],
+    "login locations": [
+        [
+            -122.503997,
+            37.595014
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49336,
+                0.01
+            ],
+            [
+                49336,
+                0.01
+            ]
+        ]
+    ]
 }

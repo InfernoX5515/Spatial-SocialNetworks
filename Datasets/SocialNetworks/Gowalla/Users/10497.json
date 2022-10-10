@@ -5,7 +5,27 @@
     "email": "leetony@gmail.com",
     "birthdate": "1952-07-10",
     "phone": "+1-752-164-8071x9096",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        35,
+        29,
+        5,
+        17,
+        10,
+        53,
+        7,
+        59,
+        48,
+        3,
+        62,
+        22,
+        1
+    ],
+    "login locations": [
+        [
+            -122.440006,
+            37.787544
+        ]
+    ],
+    "relationships": []
 }

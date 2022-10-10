@@ -5,7 +5,37 @@
     "email": "aaronpalmer@yahoo.com",
     "birthdate": "1998-11-10",
     "phone": "792-305-1850x96113",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        7,
+        31,
+        30,
+        38,
+        56,
+        51,
+        62,
+        9,
+        48,
+        36,
+        36,
+        44
+    ],
+    "login locations": [
+        [
+            -117.626259,
+            33.990623
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                137317,
+                0.136363636364
+            ],
+            [
+                137317,
+                0.136363636364
+            ]
+        ]
+    ]
 }

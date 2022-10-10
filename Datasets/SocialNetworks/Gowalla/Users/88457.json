@@ -5,7 +5,24 @@
     "email": "jbrooks@gmail.com",
     "birthdate": "1957-07-17",
     "phone": "001-025-064-3450x25409",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        55,
+        55,
+        71,
+        1,
+        26,
+        48,
+        10,
+        36,
+        24,
+        11
+    ],
+    "login locations": [
+        [
+            -118.413099,
+            33.999219
+        ]
+    ],
+    "relationships": []
 }

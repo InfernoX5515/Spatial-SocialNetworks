@@ -5,7 +5,18 @@
     "email": "zamoraeric@yahoo.com",
     "birthdate": "1979-03-28",
     "phone": "341-623-0271x080",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        66,
+        71,
+        15,
+        52
+    ],
+    "login locations": [
+        [
+            -121.423292,
+            38.613721
+        ]
+    ],
+    "relationships": []
 }

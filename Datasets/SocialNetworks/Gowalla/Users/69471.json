@@ -5,7 +5,30 @@
     "email": "pereztroy@hotmail.com",
     "birthdate": "2005-06-29",
     "phone": "001-305-103-6400x3341",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        49,
+        71,
+        22,
+        58,
+        51
+    ],
+    "login locations": [
+        [
+            -121.763239,
+            36.903822
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                69467,
+                0.025
+            ],
+            [
+                69467,
+                0.025
+            ]
+        ]
+    ]
 }

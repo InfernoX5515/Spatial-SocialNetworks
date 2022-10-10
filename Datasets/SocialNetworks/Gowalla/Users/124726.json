@@ -5,7 +5,24 @@
     "email": "robyn11@yahoo.com",
     "birthdate": "1914-07-01",
     "phone": "001-960-465-3570x2118",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        22,
+        29,
+        67,
+        16,
+        9,
+        38,
+        56,
+        67,
+        66,
+        62
+    ],
+    "login locations": [
+        [
+            -122.239739,
+            37.942786
+        ]
+    ],
+    "relationships": []
 }

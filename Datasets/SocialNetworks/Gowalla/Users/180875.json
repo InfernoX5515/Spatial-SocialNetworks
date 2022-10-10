@@ -5,7 +5,16 @@
     "email": "mmason@hotmail.com",
     "birthdate": "1992-06-10",
     "phone": "+1-241-777-9058x4930",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        23,
+        33
+    ],
+    "login locations": [
+        [
+            -118.131285,
+            33.778491
+        ]
+    ],
+    "relationships": []
 }

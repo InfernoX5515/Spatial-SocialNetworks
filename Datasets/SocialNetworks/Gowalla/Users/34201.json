@@ -5,7 +5,21 @@
     "email": "schwartztami@yahoo.com",
     "birthdate": "1963-01-12",
     "phone": "001-455-243-6459x58510",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        41,
+        65,
+        29,
+        27,
+        70,
+        22,
+        53
+    ],
+    "login locations": [
+        [
+            -117.169249,
+            32.860825
+        ]
+    ],
+    "relationships": []
 }

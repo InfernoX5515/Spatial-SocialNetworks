@@ -5,7 +5,28 @@
     "email": "brianjones@yahoo.com",
     "birthdate": "1947-02-21",
     "phone": "928.479.9033x708",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        19,
+        8,
+        46,
+        64,
+        29,
+        10,
+        16,
+        63,
+        75,
+        14,
+        25,
+        47,
+        12,
+        57
+    ],
+    "login locations": [
+        [
+            -122.349455,
+            37.845939
+        ]
+    ],
+    "relationships": []
 }

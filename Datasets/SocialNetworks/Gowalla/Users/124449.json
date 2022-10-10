@@ -5,7 +5,22 @@
     "email": "lauren26@hotmail.com",
     "birthdate": "2021-12-29",
     "phone": "001-821-451-2220x8284",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        42,
+        47,
+        36,
+        22,
+        13,
+        65,
+        9,
+        27
+    ],
+    "login locations": [
+        [
+            -118.39431,
+            34.171388
+        ]
+    ],
+    "relationships": []
 }

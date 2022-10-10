@@ -5,7 +5,27 @@
     "email": "lcooper@gmail.com",
     "birthdate": "1982-08-01",
     "phone": "001-879-912-2298x67226",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        46,
+        60
+    ],
+    "login locations": [
+        [
+            -121.983406,
+            37.224133
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118874,
+                0.010752688172
+            ],
+            [
+                118883,
+                0.01
+            ]
+        ]
+    ]
 }

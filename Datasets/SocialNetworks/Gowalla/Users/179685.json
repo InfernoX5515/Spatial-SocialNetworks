@@ -5,7 +5,28 @@
     "email": "batesbenjamin@yahoo.com",
     "birthdate": "1931-09-21",
     "phone": "+1-284-721-0195x551",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        11,
+        36,
+        46,
+        61,
+        9,
+        5,
+        0,
+        70,
+        32,
+        20,
+        4,
+        36,
+        68,
+        24
+    ],
+    "login locations": [
+        [
+            -118.36207,
+            34.077215
+        ]
+    ],
+    "relationships": []
 }

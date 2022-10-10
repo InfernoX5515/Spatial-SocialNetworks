@@ -5,7 +5,16 @@
     "email": "stonepatrick@gmail.com",
     "birthdate": "1923-06-26",
     "phone": "668-346-9410",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        71,
+        58
+    ],
+    "login locations": [
+        [
+            -122.408948,
+            37.7883
+        ]
+    ],
+    "relationships": []
 }

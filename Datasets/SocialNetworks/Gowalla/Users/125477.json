@@ -5,7 +5,24 @@
     "email": "jessicaperez@gmail.com",
     "birthdate": "1994-11-02",
     "phone": "0241981074",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        54,
+        12,
+        4,
+        26,
+        11,
+        2,
+        22,
+        73,
+        50,
+        61
+    ],
+    "login locations": [
+        [
+            -122.332321,
+            37.925635
+        ]
+    ],
+    "relationships": []
 }

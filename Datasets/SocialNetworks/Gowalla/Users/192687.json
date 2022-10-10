@@ -5,7 +5,24 @@
     "email": "paul98@hotmail.com",
     "birthdate": "1989-08-05",
     "phone": "(311)418-3885x79919",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        27,
+        8,
+        38,
+        72,
+        25,
+        55,
+        27,
+        64,
+        51,
+        45
+    ],
+    "login locations": [
+        [
+            -117.686714,
+            33.959971
+        ]
+    ],
+    "relationships": []
 }

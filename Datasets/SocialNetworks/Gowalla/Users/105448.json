@@ -5,7 +5,22 @@
     "email": "gardnerangela@hotmail.com",
     "birthdate": "1966-02-27",
     "phone": "764-461-1429",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        12,
+        59,
+        73,
+        50,
+        62,
+        47,
+        11,
+        72
+    ],
+    "login locations": [
+        [
+            -122.179211,
+            38.153876
+        ]
+    ],
+    "relationships": []
 }

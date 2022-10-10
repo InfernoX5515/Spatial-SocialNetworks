@@ -5,7 +5,21 @@
     "email": "tmcknight@gmail.com",
     "birthdate": "1993-12-24",
     "phone": "333-704-0074",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        3,
+        26,
+        47,
+        49,
+        65,
+        19,
+        69
+    ],
+    "login locations": [
+        [
+            -122.169166,
+            37.74456
+        ]
+    ],
+    "relationships": []
 }

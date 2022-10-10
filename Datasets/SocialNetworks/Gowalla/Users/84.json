@@ -5,7 +5,33 @@
     "email": "jhoffman@yahoo.com",
     "birthdate": "1987-04-08",
     "phone": "3436826192",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        31,
+        4,
+        19,
+        31,
+        1,
+        45,
+        41,
+        9
+    ],
+    "login locations": [
+        [
+            -122.217524,
+            37.440778
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53,
+                0.0818713450292
+            ],
+            [
+                3585,
+                0.0436893203883
+            ]
+        ]
+    ]
 }

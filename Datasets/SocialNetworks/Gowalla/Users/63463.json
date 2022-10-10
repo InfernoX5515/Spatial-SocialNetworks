@@ -5,7 +5,20 @@
     "email": "ggonzalez@yahoo.com",
     "birthdate": "1939-05-20",
     "phone": "630.349.7843x14135",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        70,
+        70,
+        43,
+        15,
+        51,
+        34
+    ],
+    "login locations": [
+        [
+            -118.305466,
+            34.091391
+        ]
+    ],
+    "relationships": []
 }

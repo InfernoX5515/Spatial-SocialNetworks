@@ -5,7 +5,20 @@
     "email": "tammy83@yahoo.com",
     "birthdate": "2003-07-25",
     "phone": "001-334-942-7421",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        63,
+        60,
+        9,
+        6,
+        1,
+        73
+    ],
+    "login locations": [
+        [
+            -118.44064,
+            34.033607
+        ]
+    ],
+    "relationships": []
 }

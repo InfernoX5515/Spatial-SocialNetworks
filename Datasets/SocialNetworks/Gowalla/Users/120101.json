@@ -5,7 +5,15 @@
     "email": "melindabooth@yahoo.com",
     "birthdate": "1978-09-03",
     "phone": "001-106-515-2475x6166",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        14
+    ],
+    "login locations": [
+        [
+            -122.262643,
+            37.847157
+        ]
+    ],
+    "relationships": []
 }

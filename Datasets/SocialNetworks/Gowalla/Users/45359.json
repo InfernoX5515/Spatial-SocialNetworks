@@ -5,7 +5,26 @@
     "email": "reynoldsadam@yahoo.com",
     "birthdate": "1960-09-16",
     "phone": "(623)291-8944x4763",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        75,
+        39,
+        63,
+        49,
+        19,
+        64,
+        63,
+        35,
+        5,
+        50,
+        6,
+        38
+    ],
+    "login locations": [
+        [
+            -117.198664,
+            32.891603
+        ]
+    ],
+    "relationships": []
 }

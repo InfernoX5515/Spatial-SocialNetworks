@@ -5,7 +5,16 @@
     "email": "katie47@yahoo.com",
     "birthdate": "1927-06-21",
     "phone": "863.580.8850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        14,
+        63
+    ],
+    "login locations": [
+        [
+            -122.408126,
+            37.788364
+        ]
+    ],
+    "relationships": []
 }

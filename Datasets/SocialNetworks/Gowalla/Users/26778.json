@@ -5,7 +5,34 @@
     "email": "whitney84@hotmail.com",
     "birthdate": "1968-02-29",
     "phone": "9877733711",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        54,
+        36,
+        61,
+        15,
+        14,
+        44,
+        40,
+        15,
+        13
+    ],
+    "login locations": [
+        [
+            -122.398108,
+            37.775719
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5567,
+                0.01
+            ],
+            [
+                5567,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,22 @@
     "email": "rebeccajohnson@gmail.com",
     "birthdate": "1968-04-14",
     "phone": "(300)485-5278x3278",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        72,
+        66,
+        39,
+        70,
+        10,
+        48,
+        60,
+        18
+    ],
+    "login locations": [
+        [
+            -118.294985,
+            34.049712
+        ]
+    ],
+    "relationships": []
 }

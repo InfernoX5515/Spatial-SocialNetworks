@@ -5,7 +5,17 @@
     "email": "brookeolson@gmail.com",
     "birthdate": "1947-04-24",
     "phone": "(635)835-7354x979",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        8,
+        25,
+        7
+    ],
+    "login locations": [
+        [
+            -117.072114,
+            33.557897
+        ]
+    ],
+    "relationships": []
 }

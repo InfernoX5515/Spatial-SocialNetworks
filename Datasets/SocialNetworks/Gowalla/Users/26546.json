@@ -5,7 +5,27 @@
     "email": "zsmith@hotmail.com",
     "birthdate": "1936-06-19",
     "phone": "(957)206-4515x1890",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        33,
+        22
+    ],
+    "login locations": [
+        [
+            -117.820382,
+            33.836048
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                27883,
+                0.0131578947368
+            ],
+            [
+                27883,
+                0.0131578947368
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,29 @@
     "email": "cory24@yahoo.com",
     "birthdate": "1975-07-04",
     "phone": "878-986-8894x587",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        59,
+        15,
+        16,
+        3
+    ],
+    "login locations": [
+        [
+            -121.973432,
+            38.354141
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                41099,
+                0.22
+            ],
+            [
+                41099,
+                0.22
+            ]
+        ]
+    ]
 }

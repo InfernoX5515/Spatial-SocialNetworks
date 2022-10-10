@@ -5,7 +5,23 @@
     "email": "matthew24@gmail.com",
     "birthdate": "1928-09-25",
     "phone": "(408)940-9891x4688",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        73,
+        46,
+        69,
+        30,
+        22,
+        60,
+        26,
+        43,
+        49
+    ],
+    "login locations": [
+        [
+            -122.402202,
+            37.788673
+        ]
+    ],
+    "relationships": []
 }

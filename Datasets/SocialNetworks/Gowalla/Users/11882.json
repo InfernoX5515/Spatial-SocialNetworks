@@ -5,7 +5,20 @@
     "email": "rhughes@hotmail.com",
     "birthdate": "1910-04-16",
     "phone": "+1-004-274-6163x843",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        30,
+        12,
+        9,
+        0,
+        75,
+        68
+    ],
+    "login locations": [
+        [
+            -122.390818,
+            37.753569
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "gabriella80@hotmail.com",
     "birthdate": "1956-10-16",
     "phone": "001-757-594-3874",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        27,
+        71,
+        21,
+        64
+    ],
+    "login locations": [
+        [
+            -118.263623,
+            34.043691
+        ]
+    ],
+    "relationships": []
 }

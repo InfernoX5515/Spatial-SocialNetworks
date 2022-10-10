@@ -5,7 +5,23 @@
     "email": "brooksmary@gmail.com",
     "birthdate": "1925-04-09",
     "phone": "450.188.2127",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        75,
+        66,
+        8,
+        10,
+        26,
+        40,
+        35,
+        31,
+        0
+    ],
+    "login locations": [
+        [
+            -117.323951,
+            33.12709
+        ]
+    ],
+    "relationships": []
 }

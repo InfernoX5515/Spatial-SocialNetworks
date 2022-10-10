@@ -5,7 +5,26 @@
     "email": "drew81@yahoo.com",
     "birthdate": "1921-12-13",
     "phone": "(654)082-2788",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        65,
+        35,
+        51,
+        36,
+        6,
+        39,
+        59,
+        2,
+        16,
+        57,
+        48,
+        49
+    ],
+    "login locations": [
+        [
+            -118.371918,
+            34.067529
+        ]
+    ],
+    "relationships": []
 }

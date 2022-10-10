@@ -5,7 +5,24 @@
     "email": "rebeccawoods@gmail.com",
     "birthdate": "1999-07-15",
     "phone": "(849)113-5245",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        6,
+        35,
+        56,
+        4,
+        71,
+        30,
+        21,
+        51,
+        31,
+        57
+    ],
+    "login locations": [
+        [
+            -120.358502,
+            36.141441
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "lori53@gmail.com",
     "birthdate": "2000-07-19",
     "phone": "031.151.1273",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        42
+    ],
+    "login locations": [
+        [
+            -117.848807,
+            33.796702
+        ]
+    ],
+    "relationships": []
 }

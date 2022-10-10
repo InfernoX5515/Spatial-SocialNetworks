@@ -5,7 +5,25 @@
     "email": "jensenrachel@gmail.com",
     "birthdate": "1973-06-04",
     "phone": "092.712.3408x4288",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        72,
+        32,
+        38,
+        29,
+        49,
+        34,
+        19,
+        24,
+        33,
+        51,
+        59
+    ],
+    "login locations": [
+        [
+            -118.310024,
+            34.083115
+        ]
+    ],
+    "relationships": []
 }

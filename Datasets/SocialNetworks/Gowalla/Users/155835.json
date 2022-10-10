@@ -5,7 +5,19 @@
     "email": "vtaylor@gmail.com",
     "birthdate": "1961-08-12",
     "phone": "799.624.4160",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        57,
+        18,
+        53,
+        37,
+        60
+    ],
+    "login locations": [
+        [
+            -121.9845,
+            37.859309
+        ]
+    ],
+    "relationships": []
 }

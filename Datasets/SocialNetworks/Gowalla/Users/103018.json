@@ -5,7 +5,15 @@
     "email": "walkeranthony@yahoo.com",
     "birthdate": "2013-12-22",
     "phone": "001-065-490-7038",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        25
+    ],
+    "login locations": [
+        [
+            -119.650734,
+            34.419376
+        ]
+    ],
+    "relationships": []
 }

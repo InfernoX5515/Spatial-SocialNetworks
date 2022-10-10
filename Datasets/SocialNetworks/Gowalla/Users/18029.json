@@ -5,7 +5,25 @@
     "email": "jessica55@hotmail.com",
     "birthdate": "1988-12-25",
     "phone": "393-962-9743x4306",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        35,
+        41,
+        28,
+        16,
+        49,
+        68,
+        30,
+        17,
+        17,
+        54,
+        57
+    ],
+    "login locations": [
+        [
+            -122.232265,
+            37.801113
+        ]
+    ],
+    "relationships": []
 }

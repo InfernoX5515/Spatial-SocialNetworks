@@ -5,7 +5,17 @@
     "email": "emcgrath@hotmail.com",
     "birthdate": "1971-05-31",
     "phone": "633-879-0101x540",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        40,
+        63,
+        6
+    ],
+    "login locations": [
+        [
+            -122.349907,
+            37.784462
+        ]
+    ],
+    "relationships": []
 }

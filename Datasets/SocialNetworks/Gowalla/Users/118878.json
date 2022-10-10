@@ -5,7 +5,33 @@
     "email": "juliathomas@yahoo.com",
     "birthdate": "1935-03-20",
     "phone": "(307)847-8310x799",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        14,
+        67,
+        60,
+        34,
+        23,
+        18,
+        59,
+        44
+    ],
+    "login locations": [
+        [
+            -121.97566,
+            37.317002
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                78408,
+                0.1
+            ],
+            [
+                118874,
+                0.10752688172
+            ]
+        ]
+    ]
 }

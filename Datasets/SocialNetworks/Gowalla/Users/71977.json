@@ -5,7 +5,16 @@
     "email": "miguel30@yahoo.com",
     "birthdate": "1927-03-27",
     "phone": "767.228.1242x317",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        0,
+        52
+    ],
+    "login locations": [
+        [
+            -122.271493,
+            37.785369
+        ]
+    ],
+    "relationships": []
 }

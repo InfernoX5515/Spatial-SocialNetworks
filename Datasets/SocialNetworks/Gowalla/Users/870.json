@@ -5,7 +5,28 @@
     "email": "matthewsjulian@yahoo.com",
     "birthdate": "1929-03-05",
     "phone": "171.228.5392x39133",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        33,
+        65,
+        10
+    ],
+    "login locations": [
+        [
+            -122.179615,
+            37.87081
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1279,
+                0.632
+            ],
+            [
+                1279,
+                0.632
+            ]
+        ]
+    ]
 }

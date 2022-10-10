@@ -5,7 +5,22 @@
     "email": "spencerashley@yahoo.com",
     "birthdate": "1947-11-17",
     "phone": "001-174-318-2526",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        11,
+        58,
+        70,
+        0,
+        66,
+        64,
+        57,
+        46
+    ],
+    "login locations": [
+        [
+            -119.170127,
+            36.141471
+        ]
+    ],
+    "relationships": []
 }

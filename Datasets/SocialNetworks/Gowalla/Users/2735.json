@@ -5,7 +5,26 @@
     "email": "oarnold@gmail.com",
     "birthdate": "1917-11-03",
     "phone": "+1-048-707-2743x88294",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        17
+    ],
+    "login locations": [
+        [
+            -118.20903,
+            33.998471
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                244,
+                0.01
+            ],
+            [
+                3470,
+                0.016501650165
+            ]
+        ]
+    ]
 }

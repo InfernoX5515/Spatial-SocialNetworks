@@ -5,7 +5,24 @@
     "email": "andrew18@hotmail.com",
     "birthdate": "1922-10-03",
     "phone": "001-977-085-7492x0840",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        44,
+        49,
+        45,
+        71,
+        17,
+        7,
+        75,
+        62,
+        35,
+        70
+    ],
+    "login locations": [
+        [
+            -122.405932,
+            37.797615
+        ]
+    ],
+    "relationships": []
 }

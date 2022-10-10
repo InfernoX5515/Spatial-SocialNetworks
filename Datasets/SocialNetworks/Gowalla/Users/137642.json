@@ -5,7 +5,27 @@
     "email": "zholt@gmail.com",
     "birthdate": "2021-08-14",
     "phone": "(427)427-5762x323",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        14,
+        20,
+        60,
+        48,
+        37,
+        32,
+        18,
+        39,
+        28,
+        4,
+        27,
+        24,
+        1
+    ],
+    "login locations": [
+        [
+            -119.755045,
+            36.829681
+        ]
+    ],
+    "relationships": []
 }

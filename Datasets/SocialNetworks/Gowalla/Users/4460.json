@@ -5,7 +5,23 @@
     "email": "xrhodes@hotmail.com",
     "birthdate": "1983-07-28",
     "phone": "001-804-602-2314x69970",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.021076,
+            37.333418
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                427,
+                0.0666666666667
+            ],
+            [
+                427,
+                0.0666666666667
+            ]
+        ]
+    ]
 }

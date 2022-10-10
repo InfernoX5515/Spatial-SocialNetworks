@@ -5,7 +5,17 @@
     "email": "edwardmiller@gmail.com",
     "birthdate": "1914-11-30",
     "phone": "602-329-4467x03199",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        42,
+        69,
+        22
+    ],
+    "login locations": [
+        [
+            -121.707258,
+            36.686498
+        ]
+    ],
+    "relationships": []
 }

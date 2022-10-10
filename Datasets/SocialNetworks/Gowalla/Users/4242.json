@@ -5,7 +5,38 @@
     "email": "whitechad@gmail.com",
     "birthdate": "1985-10-06",
     "phone": "023.280.1680x5751",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        18,
+        43,
+        9,
+        33,
+        12,
+        39,
+        59,
+        15,
+        31,
+        56,
+        55,
+        29,
+        4
+    ],
+    "login locations": [
+        [
+            -121.995677,
+            37.369678
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                70765,
+                0.32
+            ],
+            [
+                70765,
+                0.21
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,12 @@
     "email": "egonzalez@hotmail.com",
     "birthdate": "1995-10-09",
     "phone": "6193028304",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.41357,
+            37.774869
+        ]
+    ],
+    "relationships": []
 }

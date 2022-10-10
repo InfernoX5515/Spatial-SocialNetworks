@@ -5,7 +5,21 @@
     "email": "dakotadrake@gmail.com",
     "birthdate": "1956-10-25",
     "phone": "001-299-835-7439x22687",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        57,
+        49,
+        46,
+        72,
+        69,
+        67,
+        64
+    ],
+    "login locations": [
+        [
+            -122.387405,
+            37.72071
+        ]
+    ],
+    "relationships": []
 }

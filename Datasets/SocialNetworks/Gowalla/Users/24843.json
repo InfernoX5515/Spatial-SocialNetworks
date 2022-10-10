@@ -5,7 +5,19 @@
     "email": "mccarthytaylor@gmail.com",
     "birthdate": "1986-09-09",
     "phone": "133-898-2054x20122",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        42,
+        33,
+        4,
+        68,
+        49
+    ],
+    "login locations": [
+        [
+            -122.396018,
+            37.80888
+        ]
+    ],
+    "relationships": []
 }

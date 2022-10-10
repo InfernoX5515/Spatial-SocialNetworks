@@ -5,7 +5,26 @@
     "email": "martinezscott@gmail.com",
     "birthdate": "1957-08-28",
     "phone": "571-925-8462x6741",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        11,
+        16,
+        14,
+        10,
+        42,
+        52,
+        59,
+        4,
+        9,
+        54,
+        48,
+        55
+    ],
+    "login locations": [
+        [
+            -122.418998,
+            37.806414
+        ]
+    ],
+    "relationships": []
 }

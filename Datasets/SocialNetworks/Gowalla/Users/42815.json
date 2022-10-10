@@ -5,7 +5,29 @@
     "email": "campbellbarbara@gmail.com",
     "birthdate": "1980-11-02",
     "phone": "001-193-607-7999x09820",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        20,
+        32,
+        75,
+        11
+    ],
+    "login locations": [
+        [
+            -121.905993,
+            37.317935
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22464,
+                0.0380952380952
+            ],
+            [
+                22464,
+                0.0380952380952
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,22 @@
     "email": "russellcarter@hotmail.com",
     "birthdate": "1993-01-28",
     "phone": "+1-008-297-6003x01725",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        46,
+        18,
+        47,
+        7,
+        8,
+        72,
+        67,
+        40
+    ],
+    "login locations": [
+        [
+            -119.205149,
+            36.297106
+        ]
+    ],
+    "relationships": []
 }

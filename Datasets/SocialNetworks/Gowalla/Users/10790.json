@@ -5,7 +5,17 @@
     "email": "cynthiapena@gmail.com",
     "birthdate": "1951-06-25",
     "phone": "(267)816-7100x2044",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        60,
+        45,
+        56
+    ],
+    "login locations": [
+        [
+            -117.953893,
+            33.842955
+        ]
+    ],
+    "relationships": []
 }

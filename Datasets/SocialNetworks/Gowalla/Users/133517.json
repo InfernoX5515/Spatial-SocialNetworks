@@ -5,7 +5,19 @@
     "email": "steven48@yahoo.com",
     "birthdate": "1972-05-04",
     "phone": "950.143.1045x83025",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        63,
+        25,
+        61,
+        1,
+        18
+    ],
+    "login locations": [
+        [
+            -117.952552,
+            33.771799
+        ]
+    ],
+    "relationships": []
 }

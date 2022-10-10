@@ -5,7 +5,34 @@
     "email": "allen21@yahoo.com",
     "birthdate": "2015-10-04",
     "phone": "948.366.6667x572",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        66,
+        65,
+        68,
+        28,
+        14,
+        11,
+        35,
+        58,
+        15
+    ],
+    "login locations": [
+        [
+            -122.400442,
+            37.771932
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4265,
+                0.0366972477064
+            ],
+            [
+                4265,
+                0.0366972477064
+            ]
+        ]
+    ]
 }

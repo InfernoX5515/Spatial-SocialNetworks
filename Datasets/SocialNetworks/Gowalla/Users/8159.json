@@ -5,7 +5,27 @@
     "email": "chayes@gmail.com",
     "birthdate": "1975-07-05",
     "phone": "545.218.6317",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        40,
+        56
+    ],
+    "login locations": [
+        [
+            -122.404128,
+            37.770058
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                92,
+                0.0257510729614
+            ],
+            [
+                3332,
+                0.016501650165
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,16 @@
     "email": "dennissanders@gmail.com",
     "birthdate": "1924-11-24",
     "phone": "(273)285-3695x50063",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        7,
+        8
+    ],
+    "login locations": [
+        [
+            -121.949997,
+            37.531826
+        ]
+    ],
+    "relationships": []
 }

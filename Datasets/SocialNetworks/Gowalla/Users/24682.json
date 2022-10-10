@@ -5,7 +5,26 @@
     "email": "rdavis@yahoo.com",
     "birthdate": "1985-08-29",
     "phone": "907.401.3128",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        17,
+        45,
+        48,
+        61,
+        4,
+        52,
+        33,
+        35,
+        22,
+        25,
+        55,
+        25
+    ],
+    "login locations": [
+        [
+            -118.188066,
+            33.768251
+        ]
+    ],
+    "relationships": []
 }

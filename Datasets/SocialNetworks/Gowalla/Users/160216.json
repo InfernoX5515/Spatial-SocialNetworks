@@ -5,7 +5,18 @@
     "email": "yyoung@yahoo.com",
     "birthdate": "2010-07-30",
     "phone": "5636029802",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        21,
+        24,
+        3,
+        31
+    ],
+    "login locations": [
+        [
+            -122.365973,
+            37.786715
+        ]
+    ],
+    "relationships": []
 }

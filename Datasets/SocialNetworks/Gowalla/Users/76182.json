@@ -5,7 +5,17 @@
     "email": "udavis@gmail.com",
     "birthdate": "1964-12-22",
     "phone": "(622)566-9299x6724",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        14,
+        49,
+        46
+    ],
+    "login locations": [
+        [
+            -122.373142,
+            37.805438
+        ]
+    ],
+    "relationships": []
 }

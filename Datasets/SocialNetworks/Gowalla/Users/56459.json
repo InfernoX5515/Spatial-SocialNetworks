@@ -5,7 +5,17 @@
     "email": "shawn04@gmail.com",
     "birthdate": "1931-05-29",
     "phone": "990.256.7170",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        75,
+        49,
+        61
+    ],
+    "login locations": [
+        [
+            -117.901916,
+            33.783163
+        ]
+    ],
+    "relationships": []
 }

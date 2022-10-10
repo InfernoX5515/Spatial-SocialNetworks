@@ -5,7 +5,25 @@
     "email": "jessicajones@hotmail.com",
     "birthdate": "1997-02-08",
     "phone": "624.121.1764x23032",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        39,
+        30,
+        45,
+        65,
+        13,
+        26,
+        66,
+        27,
+        75,
+        0,
+        16
+    ],
+    "login locations": [
+        [
+            -118.333827,
+            34.105568
+        ]
+    ],
+    "relationships": []
 }

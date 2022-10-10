@@ -5,7 +5,26 @@
     "email": "mary84@yahoo.com",
     "birthdate": "2018-07-15",
     "phone": "(245)503-1334x18857",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        61,
+        21,
+        10,
+        16,
+        58,
+        19,
+        17,
+        66,
+        4,
+        24,
+        14,
+        33
+    ],
+    "login locations": [
+        [
+            -121.92754,
+            37.286451
+        ]
+    ],
+    "relationships": []
 }

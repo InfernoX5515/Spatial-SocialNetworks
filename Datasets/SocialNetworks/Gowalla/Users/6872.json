@@ -5,7 +5,36 @@
     "email": "jeffrey46@hotmail.com",
     "birthdate": "2017-07-12",
     "phone": "992.604.1516x660",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        57,
+        71,
+        33,
+        70,
+        26,
+        62,
+        46,
+        5,
+        43,
+        46,
+        15
+    ],
+    "login locations": [
+        [
+            -118.219184,
+            33.923843
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7099,
+                0.240506329114
+            ],
+            [
+                7099,
+                0.240506329114
+            ]
+        ]
+    ]
 }

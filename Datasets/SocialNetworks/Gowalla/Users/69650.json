@@ -5,7 +5,17 @@
     "email": "maynardmary@hotmail.com",
     "birthdate": "2000-09-26",
     "phone": "881-248-0904x3356",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        5,
+        25,
+        44
+    ],
+    "login locations": [
+        [
+            -122.415246,
+            37.771986
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "markwarren@gmail.com",
     "birthdate": "1934-03-23",
     "phone": "(953)036-4562",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        14,
+        68,
+        5,
+        58,
+        59,
+        18,
+        11,
+        57,
+        56,
+        57
+    ],
+    "login locations": [
+        [
+            -117.243224,
+            33.915263
+        ]
+    ],
+    "relationships": []
 }

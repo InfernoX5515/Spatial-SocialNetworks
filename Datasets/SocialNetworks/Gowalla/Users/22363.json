@@ -5,7 +5,18 @@
     "email": "crossalyssa@gmail.com",
     "birthdate": "1926-08-30",
     "phone": "+1-139-222-7749x7113",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        67,
+        54,
+        36,
+        45
+    ],
+    "login locations": [
+        [
+            -118.421861,
+            34.025874
+        ]
+    ],
+    "relationships": []
 }

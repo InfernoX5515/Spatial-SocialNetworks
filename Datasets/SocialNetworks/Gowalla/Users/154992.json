@@ -5,7 +5,24 @@
     "email": "mariahreyes@yahoo.com",
     "birthdate": "1963-05-02",
     "phone": "+1-942-788-5381x9598",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        39,
+        75,
+        41,
+        29,
+        37,
+        46,
+        16,
+        49,
+        68,
+        48
+    ],
+    "login locations": [
+        [
+            -118.404992,
+            34.055822
+        ]
+    ],
+    "relationships": []
 }

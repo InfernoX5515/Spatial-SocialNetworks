@@ -5,7 +5,38 @@
     "email": "collinschristine@yahoo.com",
     "birthdate": "1940-12-15",
     "phone": "048.717.5579",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        38,
+        60,
+        66,
+        65,
+        66,
+        36,
+        6,
+        63,
+        47,
+        36,
+        14,
+        7,
+        55
+    ],
+    "login locations": [
+        [
+            -122.41855,
+            37.682448
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                41255,
+                0.04
+            ],
+            [
+                41255,
+                0.04
+            ]
+        ]
+    ]
 }

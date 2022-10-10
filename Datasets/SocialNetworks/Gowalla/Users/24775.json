@@ -5,7 +5,28 @@
     "email": "kmichael@hotmail.com",
     "birthdate": "1914-01-01",
     "phone": "001-088-347-6846x778",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        41,
+        35,
+        16
+    ],
+    "login locations": [
+        [
+            -122.403675,
+            37.786448
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                586,
+                0.01
+            ],
+            [
+                4560,
+                0.01
+            ]
+        ]
+    ]
 }

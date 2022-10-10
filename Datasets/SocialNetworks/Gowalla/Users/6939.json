@@ -5,7 +5,19 @@
     "email": "zgray@gmail.com",
     "birthdate": "2021-03-19",
     "phone": "315.953.9524",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        37,
+        71,
+        26,
+        65,
+        40
+    ],
+    "login locations": [
+        [
+            -117.681196,
+            33.458225
+        ]
+    ],
+    "relationships": []
 }

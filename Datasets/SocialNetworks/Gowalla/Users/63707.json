@@ -5,7 +5,17 @@
     "email": "aguilarchristy@hotmail.com",
     "birthdate": "1927-10-23",
     "phone": "803-585-8698x3874",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        57,
+        36,
+        1
+    ],
+    "login locations": [
+        [
+            -122.418452,
+            37.782275
+        ]
+    ],
+    "relationships": []
 }

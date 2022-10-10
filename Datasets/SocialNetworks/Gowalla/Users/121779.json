@@ -5,7 +5,18 @@
     "email": "joan27@gmail.com",
     "birthdate": "1986-02-14",
     "phone": "001-084-794-7253x4972",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        25,
+        52,
+        13,
+        20
+    ],
+    "login locations": [
+        [
+            -118.270881,
+            34.101163
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "browndanielle@gmail.com",
     "birthdate": "2017-12-12",
     "phone": "+1-704-140-4955x75168",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        59,
+        25,
+        59,
+        39,
+        31,
+        20,
+        6,
+        71,
+        1,
+        60,
+        37,
+        0
+    ],
+    "login locations": [
+        [
+            -118.572829,
+            34.392021
+        ]
+    ],
+    "relationships": []
 }

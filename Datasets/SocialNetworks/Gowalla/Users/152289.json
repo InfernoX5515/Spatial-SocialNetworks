@@ -5,7 +5,22 @@
     "email": "susan56@yahoo.com",
     "birthdate": "1947-12-15",
     "phone": "725.896.1338",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        31,
+        4,
+        41,
+        37,
+        68,
+        3,
+        58,
+        60
+    ],
+    "login locations": [
+        [
+            -118.40408,
+            33.940152
+        ]
+    ],
+    "relationships": []
 }

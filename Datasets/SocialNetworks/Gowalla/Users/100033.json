@@ -5,7 +5,21 @@
     "email": "johnrodriguez@gmail.com",
     "birthdate": "2012-02-16",
     "phone": "791.328.2154",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        46,
+        33,
+        60,
+        17,
+        37,
+        40,
+        3
+    ],
+    "login locations": [
+        [
+            -121.434424,
+            38.585771
+        ]
+    ],
+    "relationships": []
 }

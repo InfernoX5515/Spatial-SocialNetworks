@@ -5,7 +5,28 @@
     "email": "marc04@gmail.com",
     "birthdate": "2017-05-29",
     "phone": "(773)820-4271x771",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        43,
+        25,
+        21,
+        9,
+        21,
+        59,
+        43,
+        11,
+        73,
+        13,
+        23,
+        70,
+        75,
+        34
+    ],
+    "login locations": [
+        [
+            -122.395029,
+            37.797018
+        ]
+    ],
+    "relationships": []
 }

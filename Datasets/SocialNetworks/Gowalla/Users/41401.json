@@ -5,7 +5,19 @@
     "email": "kevinanderson@gmail.com",
     "birthdate": "1924-04-14",
     "phone": "(320)296-3104x82309",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        69,
+        12,
+        20,
+        12,
+        43
+    ],
+    "login locations": [
+        [
+            -122.291937,
+            37.837661
+        ]
+    ],
+    "relationships": []
 }

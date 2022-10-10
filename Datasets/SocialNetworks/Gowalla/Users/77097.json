@@ -5,7 +5,19 @@
     "email": "bestlaura@yahoo.com",
     "birthdate": "1962-06-10",
     "phone": "436.704.8899x23102",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        56,
+        43,
+        8,
+        29,
+        74
+    ],
+    "login locations": [
+        [
+            -122.298064,
+            37.73372
+        ]
+    ],
+    "relationships": []
 }

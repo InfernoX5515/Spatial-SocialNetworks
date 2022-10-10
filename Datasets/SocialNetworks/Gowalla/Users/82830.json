@@ -5,7 +5,22 @@
     "email": "qharper@yahoo.com",
     "birthdate": "1942-09-29",
     "phone": "(702)131-7891x74969",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        70,
+        23,
+        67,
+        7,
+        44,
+        27,
+        57,
+        34
+    ],
+    "login locations": [
+        [
+            -117.162354,
+            32.777784
+        ]
+    ],
+    "relationships": []
 }

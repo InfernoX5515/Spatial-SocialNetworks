@@ -5,7 +5,27 @@
     "email": "blakenelson@gmail.com",
     "birthdate": "1955-08-29",
     "phone": "603-023-2760x773",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        57,
+        62,
+        7,
+        71,
+        23,
+        70,
+        70,
+        46,
+        10,
+        2,
+        39,
+        44,
+        8
+    ],
+    "login locations": [
+        [
+            -122.049079,
+            37.389348
+        ]
+    ],
+    "relationships": []
 }

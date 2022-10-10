@@ -5,7 +5,21 @@
     "email": "mcguirepaul@yahoo.com",
     "birthdate": "2006-03-04",
     "phone": "+1-478-751-9891x313",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        39,
+        71,
+        38,
+        44,
+        61,
+        38,
+        1
+    ],
+    "login locations": [
+        [
+            -118.388007,
+            34.090305
+        ]
+    ],
+    "relationships": []
 }

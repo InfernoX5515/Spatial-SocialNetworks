@@ -5,7 +5,22 @@
     "email": "bsmith@hotmail.com",
     "birthdate": "2015-12-17",
     "phone": "001-832-410-7051x647",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        9,
+        44,
+        27,
+        52,
+        24,
+        37,
+        63,
+        54
+    ],
+    "login locations": [
+        [
+            -117.771894,
+            33.682047
+        ]
+    ],
+    "relationships": []
 }

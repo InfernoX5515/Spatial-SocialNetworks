@@ -5,7 +5,14 @@
     "email": "valerie88@gmail.com",
     "birthdate": "1911-11-14",
     "phone": "317.704.5052x88307",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70
+    ],
+    "login locations": [
+        [
+            -122.465249,
+            37.777908
+        ]
+    ],
+    "relationships": []
 }

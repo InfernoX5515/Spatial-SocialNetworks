@@ -5,7 +5,18 @@
     "email": "kimjames@gmail.com",
     "birthdate": "1961-03-30",
     "phone": "(814)296-4175x925",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        43,
+        15,
+        42,
+        49
+    ],
+    "login locations": [
+        [
+            -122.413889,
+            37.772717
+        ]
+    ],
+    "relationships": []
 }

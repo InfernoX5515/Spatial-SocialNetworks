@@ -5,7 +5,20 @@
     "email": "bradley10@hotmail.com",
     "birthdate": "1973-11-05",
     "phone": "001-837-403-5753x1758",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        17,
+        11,
+        37,
+        54,
+        24,
+        40
+    ],
+    "login locations": [
+        [
+            -122.406462,
+            37.831513
+        ]
+    ],
+    "relationships": []
 }

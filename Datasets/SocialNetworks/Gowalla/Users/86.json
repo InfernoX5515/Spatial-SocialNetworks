@@ -5,7 +5,30 @@
     "email": "deanna95@yahoo.com",
     "birthdate": "2016-07-06",
     "phone": "(285)830-1579",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        20,
+        41,
+        1,
+        16,
+        70
+    ],
+    "login locations": [
+        [
+            -122.382204,
+            37.743536
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7939,
+                0.088
+            ],
+            [
+                7944,
+                0.666666666667
+            ]
+        ]
+    ]
 }

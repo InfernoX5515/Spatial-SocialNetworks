@@ -5,7 +5,24 @@
     "email": "stephanie46@yahoo.com",
     "birthdate": "1935-06-11",
     "phone": "748.482.2914x6886",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        58,
+        47,
+        72,
+        31,
+        49,
+        65,
+        70,
+        50,
+        52,
+        27
+    ],
+    "login locations": [
+        [
+            -122.260255,
+            37.824116
+        ]
+    ],
+    "relationships": []
 }

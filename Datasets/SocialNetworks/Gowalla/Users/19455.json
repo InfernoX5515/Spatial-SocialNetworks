@@ -5,7 +5,19 @@
     "email": "florescourtney@gmail.com",
     "birthdate": "1918-01-07",
     "phone": "681.254.8037x892",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        49,
+        42,
+        30,
+        42,
+        20
+    ],
+    "login locations": [
+        [
+            -122.409987,
+            37.779572
+        ]
+    ],
+    "relationships": []
 }

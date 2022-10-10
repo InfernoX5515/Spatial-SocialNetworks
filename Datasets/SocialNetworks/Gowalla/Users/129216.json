@@ -5,7 +5,17 @@
     "email": "knichols@hotmail.com",
     "birthdate": "1989-09-03",
     "phone": "(767)095-5844",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        73,
+        8,
+        7
+    ],
+    "login locations": [
+        [
+            -122.441349,
+            37.769871
+        ]
+    ],
+    "relationships": []
 }

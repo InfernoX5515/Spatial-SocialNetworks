@@ -5,7 +5,26 @@
     "email": "wesleymarshall@yahoo.com",
     "birthdate": "2003-02-25",
     "phone": "+1-628-668-2324",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        2
+    ],
+    "login locations": [
+        [
+            -118.319838,
+            33.813467
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1756,
+                0.0552995391705
+            ],
+            [
+                1904,
+                0.048
+            ]
+        ]
+    ]
 }

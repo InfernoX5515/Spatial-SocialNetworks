@@ -5,7 +5,24 @@
     "email": "urodriguez@yahoo.com",
     "birthdate": "2005-03-18",
     "phone": "(282)491-8739",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        13,
+        74,
+        23,
+        48,
+        67,
+        57,
+        11,
+        62,
+        35,
+        64
+    ],
+    "login locations": [
+        [
+            -121.965105,
+            37.231565
+        ]
+    ],
+    "relationships": []
 }

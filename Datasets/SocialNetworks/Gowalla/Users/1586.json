@@ -5,7 +5,28 @@
     "email": "deborahsanders@gmail.com",
     "birthdate": "1949-05-27",
     "phone": "+1-298-347-5511x1587",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        52,
+        29,
+        64
+    ],
+    "login locations": [
+        [
+            -118.303358,
+            33.967609
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8690,
+                0.01
+            ],
+            [
+                11232,
+                0.01
+            ]
+        ]
+    ]
 }

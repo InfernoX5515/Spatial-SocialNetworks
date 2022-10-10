@@ -5,7 +5,28 @@
     "email": "kentdana@gmail.com",
     "birthdate": "1983-02-28",
     "phone": "310-931-1991x88476",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        24,
+        48,
+        74,
+        69,
+        59,
+        40,
+        73,
+        15,
+        25,
+        71,
+        27,
+        31,
+        75,
+        47
+    ],
+    "login locations": [
+        [
+            -117.971791,
+            33.868516
+        ]
+    ],
+    "relationships": []
 }

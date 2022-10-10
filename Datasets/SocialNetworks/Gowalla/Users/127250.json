@@ -5,7 +5,24 @@
     "email": "tcunningham@yahoo.com",
     "birthdate": "2006-02-15",
     "phone": "(078)986-0694x9120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        73,
+        4,
+        2,
+        55,
+        7,
+        11,
+        52,
+        18,
+        45,
+        37
+    ],
+    "login locations": [
+        [
+            -121.947624,
+            37.305423
+        ]
+    ],
+    "relationships": []
 }

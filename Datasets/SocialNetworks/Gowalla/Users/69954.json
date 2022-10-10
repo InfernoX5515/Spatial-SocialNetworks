@@ -5,7 +5,28 @@
     "email": "williamsonalexander@gmail.com",
     "birthdate": "1976-05-11",
     "phone": "001-035-713-3939x2779",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        55,
+        48,
+        29,
+        40,
+        68,
+        53,
+        56,
+        74,
+        30,
+        22,
+        18,
+        7,
+        54,
+        64
+    ],
+    "login locations": [
+        [
+            -122.43331,
+            37.782574
+        ]
+    ],
+    "relationships": []
 }

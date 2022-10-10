@@ -5,7 +5,37 @@
     "email": "daniellopez@gmail.com",
     "birthdate": "2007-01-08",
     "phone": "001-238-160-3394x65129",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        2,
+        42,
+        74,
+        10,
+        75,
+        60,
+        11,
+        15,
+        49,
+        63,
+        31,
+        39
+    ],
+    "login locations": [
+        [
+            -118.293512,
+            34.135188
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4640,
+                0.0225225225225
+            ],
+            [
+                4640,
+                0.0225225225225
+            ]
+        ]
+    ]
 }

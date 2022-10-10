@@ -5,7 +5,18 @@
     "email": "yball@gmail.com",
     "birthdate": "1918-02-09",
     "phone": "001-343-934-2477x115",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        54,
+        37,
+        40,
+        42
+    ],
+    "login locations": [
+        [
+            -122.56784,
+            37.89483
+        ]
+    ],
+    "relationships": []
 }

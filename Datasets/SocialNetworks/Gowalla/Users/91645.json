@@ -5,7 +5,18 @@
     "email": "andrew41@yahoo.com",
     "birthdate": "1966-02-02",
     "phone": "+1-195-777-1732",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        75,
+        70,
+        35,
+        5
+    ],
+    "login locations": [
+        [
+            -122.159211,
+            37.448383
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "joseph68@yahoo.com",
     "birthdate": "1946-12-25",
     "phone": "+1-376-834-1504x37772",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        66,
+        43,
+        4,
+        54,
+        40,
+        61,
+        34,
+        24,
+        67,
+        36,
+        13,
+        66,
+        34
+    ],
+    "login locations": [
+        [
+            -117.951879,
+            33.838384
+        ]
+    ],
+    "relationships": []
 }

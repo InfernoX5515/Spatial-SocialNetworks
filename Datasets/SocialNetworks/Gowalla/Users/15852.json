@@ -5,7 +5,12 @@
     "email": "edward69@gmail.com",
     "birthdate": "1985-01-16",
     "phone": "+1-870-133-2345x4705",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.347865,
+            37.671768
+        ]
+    ],
+    "relationships": []
 }

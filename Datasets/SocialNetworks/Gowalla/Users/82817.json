@@ -5,7 +5,12 @@
     "email": "nelsonmelissa@hotmail.com",
     "birthdate": "1969-09-05",
     "phone": "769-410-8266x2542",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.957961,
+            33.841923
+        ]
+    ],
+    "relationships": []
 }

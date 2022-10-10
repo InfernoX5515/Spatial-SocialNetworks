@@ -5,7 +5,27 @@
     "email": "mathewspamela@hotmail.com",
     "birthdate": "1925-12-09",
     "phone": "001-702-090-4955",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        61,
+        38,
+        31,
+        8,
+        71,
+        28,
+        63,
+        27,
+        62,
+        30,
+        4,
+        19,
+        75
+    ],
+    "login locations": [
+        [
+            -118.176059,
+            33.818536
+        ]
+    ],
+    "relationships": []
 }

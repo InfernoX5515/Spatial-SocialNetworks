@@ -5,7 +5,25 @@
     "email": "kgreen@gmail.com",
     "birthdate": "1917-12-27",
     "phone": "410-741-5176x1049",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71
+    ],
+    "login locations": [
+        [
+            -118.448322,
+            34.046905
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                833,
+                0.0235546038544
+            ],
+            [
+                833,
+                0.0235546038544
+            ]
+        ]
+    ]
 }

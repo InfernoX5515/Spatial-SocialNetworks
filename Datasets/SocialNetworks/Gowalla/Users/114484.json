@@ -5,7 +5,16 @@
     "email": "daisydavis@gmail.com",
     "birthdate": "1964-07-01",
     "phone": "894-313-4133",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        7,
+        5
+    ],
+    "login locations": [
+        [
+            -122.432674,
+            37.468806
+        ]
+    ],
+    "relationships": []
 }

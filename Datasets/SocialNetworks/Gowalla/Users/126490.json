@@ -5,7 +5,16 @@
     "email": "harrisondarren@hotmail.com",
     "birthdate": "1960-04-26",
     "phone": "240-339-3730",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        0,
+        4
+    ],
+    "login locations": [
+        [
+            -121.446503,
+            38.58039
+        ]
+    ],
+    "relationships": []
 }

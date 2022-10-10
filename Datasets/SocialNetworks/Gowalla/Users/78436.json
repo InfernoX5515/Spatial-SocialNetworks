@@ -5,7 +5,25 @@
     "email": "ijones@hotmail.com",
     "birthdate": "1967-10-27",
     "phone": "(320)983-1605x42691",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        24,
+        70,
+        3,
+        21,
+        48,
+        29,
+        7,
+        4,
+        26,
+        47,
+        38
+    ],
+    "login locations": [
+        [
+            -117.217138,
+            32.791994
+        ]
+    ],
+    "relationships": []
 }

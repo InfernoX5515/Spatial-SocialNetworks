@@ -5,7 +5,26 @@
     "email": "johnsonkristin@gmail.com",
     "birthdate": "2007-10-05",
     "phone": "+1-445-714-6269",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        6,
+        21,
+        10,
+        12,
+        30,
+        0,
+        2,
+        69,
+        38,
+        9,
+        19,
+        61
+    ],
+    "login locations": [
+        [
+            -122.267413,
+            37.869831
+        ]
+    ],
+    "relationships": []
 }

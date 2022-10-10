@@ -5,7 +5,23 @@
     "email": "mmccormick@gmail.com",
     "birthdate": "1997-06-24",
     "phone": "001-365-630-6190x326",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        3,
+        5,
+        32,
+        41,
+        66,
+        14,
+        6,
+        27,
+        8
+    ],
+    "login locations": [
+        [
+            -118.267026,
+            34.126685
+        ]
+    ],
+    "relationships": []
 }

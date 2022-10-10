@@ -5,7 +5,23 @@
     "email": "maryhumphrey@gmail.com",
     "birthdate": "1992-12-26",
     "phone": "884.584.2138x698",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        65,
+        61,
+        66,
+        57,
+        44,
+        25,
+        60,
+        37,
+        22
+    ],
+    "login locations": [
+        [
+            -117.826889,
+            33.982659
+        ]
+    ],
+    "relationships": []
 }

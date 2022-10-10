@@ -5,7 +5,15 @@
     "email": "ftaylor@hotmail.com",
     "birthdate": "1976-03-19",
     "phone": "(022)196-2722",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        60
+    ],
+    "login locations": [
+        [
+            -122.047149,
+            37.405468
+        ]
+    ],
+    "relationships": []
 }

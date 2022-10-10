@@ -5,7 +5,14 @@
     "email": "hopkinsjeffrey@gmail.com",
     "birthdate": "1967-12-27",
     "phone": "+1-077-895-1206x34843",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8
+    ],
+    "login locations": [
+        [
+            -118.093619,
+            33.860128
+        ]
+    ],
+    "relationships": []
 }

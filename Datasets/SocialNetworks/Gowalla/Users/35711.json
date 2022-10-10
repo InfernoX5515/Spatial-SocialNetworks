@@ -5,7 +5,16 @@
     "email": "gardnerjonathan@yahoo.com",
     "birthdate": "1973-09-07",
     "phone": "804-449-5762x703",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        52,
+        45
+    ],
+    "login locations": [
+        [
+            -122.069496,
+            37.389217
+        ]
+    ],
+    "relationships": []
 }

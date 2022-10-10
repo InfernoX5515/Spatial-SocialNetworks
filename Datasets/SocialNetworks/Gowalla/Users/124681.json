@@ -5,7 +5,21 @@
     "email": "dwhite@yahoo.com",
     "birthdate": "1934-04-27",
     "phone": "3363877754",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        46,
+        62,
+        48,
+        17,
+        4,
+        60,
+        51
+    ],
+    "login locations": [
+        [
+            -118.060033,
+            33.888668
+        ]
+    ],
+    "relationships": []
 }

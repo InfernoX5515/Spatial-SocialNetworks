@@ -5,7 +5,27 @@
     "email": "smithfrank@gmail.com",
     "birthdate": "2011-01-13",
     "phone": "+1-787-299-5186x9386",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        42,
+        71,
+        6,
+        14,
+        30,
+        7,
+        74,
+        45,
+        45,
+        44,
+        69,
+        49,
+        32
+    ],
+    "login locations": [
+        [
+            -122.068756,
+            37.380041
+        ]
+    ],
+    "relationships": []
 }

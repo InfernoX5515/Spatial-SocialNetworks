@@ -5,7 +5,27 @@
     "email": "vschmidt@hotmail.com",
     "birthdate": "1936-03-15",
     "phone": "(667)151-8533x6966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        48,
+        56,
+        60,
+        60,
+        27,
+        72,
+        31,
+        9,
+        45,
+        37,
+        6,
+        73,
+        58
+    ],
+    "login locations": [
+        [
+            -122.29339,
+            37.900537
+        ]
+    ],
+    "relationships": []
 }

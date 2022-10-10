@@ -5,7 +5,25 @@
     "email": "ldaniels@yahoo.com",
     "birthdate": "2017-03-14",
     "phone": "826-753-6970x3154",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        72,
+        48,
+        10,
+        64,
+        37,
+        72,
+        5,
+        49,
+        59,
+        46,
+        38
+    ],
+    "login locations": [
+        [
+            -122.397362,
+            37.763684
+        ]
+    ],
+    "relationships": []
 }

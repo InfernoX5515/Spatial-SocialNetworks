@@ -5,7 +5,34 @@
     "email": "logantorres@yahoo.com",
     "birthdate": "2009-02-19",
     "phone": "5999520506",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        54,
+        15,
+        42,
+        55,
+        6,
+        63,
+        7,
+        20,
+        50
+    ],
+    "login locations": [
+        [
+            -121.384454,
+            38.610269
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38223,
+                0.01
+            ],
+            [
+                38223,
+                0.01
+            ]
+        ]
+    ]
 }

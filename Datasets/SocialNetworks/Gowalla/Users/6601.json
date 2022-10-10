@@ -5,7 +5,32 @@
     "email": "tiffanymorton@gmail.com",
     "birthdate": "1975-12-21",
     "phone": "001-105-846-1369x9508",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        43,
+        51,
+        54,
+        14,
+        49,
+        36,
+        34
+    ],
+    "login locations": [
+        [
+            -119.762318,
+            36.866967
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6633,
+                0.111111111111
+            ],
+            [
+                6633,
+                0.111111111111
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,29 @@
     "email": "michael18@yahoo.com",
     "birthdate": "1994-03-05",
     "phone": "813.076.0604",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        44,
+        18,
+        29,
+        12
+    ],
+    "login locations": [
+        [
+            -122.167934,
+            37.414988
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.0140350877193
+            ],
+            [
+                1454,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

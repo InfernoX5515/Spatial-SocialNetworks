@@ -5,7 +5,27 @@
     "email": "jmartinez@yahoo.com",
     "birthdate": "1990-05-11",
     "phone": "315.124.3205x0291",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        43,
+        36,
+        7,
+        48,
+        65,
+        28,
+        75,
+        72,
+        7,
+        35,
+        75,
+        72,
+        8
+    ],
+    "login locations": [
+        [
+            -122.396171,
+            37.73334
+        ]
+    ],
+    "relationships": []
 }

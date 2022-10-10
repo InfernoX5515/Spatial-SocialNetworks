@@ -5,7 +5,37 @@
     "email": "brobertson@gmail.com",
     "birthdate": "1954-05-06",
     "phone": "(686)262-8741x4839",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        11,
+        52,
+        13,
+        4,
+        22,
+        57,
+        8,
+        27,
+        28,
+        58,
+        61,
+        3
+    ],
+    "login locations": [
+        [
+            -117.25073,
+            33.044826
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                477,
+                0.0370994940978
+            ],
+            [
+                593,
+                0.010183299389
+            ]
+        ]
+    ]
 }

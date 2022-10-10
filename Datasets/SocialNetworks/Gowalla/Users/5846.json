@@ -5,7 +5,38 @@
     "email": "vroberts@yahoo.com",
     "birthdate": "2012-07-12",
     "phone": "321.324.9482x854",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        73,
+        72,
+        6,
+        29,
+        19,
+        20,
+        39,
+        5,
+        64,
+        68,
+        22,
+        70,
+        43
+    ],
+    "login locations": [
+        [
+            -121.299416,
+            37.993666
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3854,
+                0.180555555556
+            ],
+            [
+                5110,
+                0.04
+            ]
+        ]
+    ]
 }

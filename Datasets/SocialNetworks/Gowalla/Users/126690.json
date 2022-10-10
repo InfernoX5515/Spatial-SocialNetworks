@@ -5,7 +5,26 @@
     "email": "jonesjames@gmail.com",
     "birthdate": "2020-03-27",
     "phone": "001-950-580-5429",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        68,
+        18,
+        9,
+        29,
+        46,
+        59,
+        1,
+        50,
+        3,
+        31,
+        41,
+        43
+    ],
+    "login locations": [
+        [
+            -118.558271,
+            34.240821
+        ]
+    ],
+    "relationships": []
 }

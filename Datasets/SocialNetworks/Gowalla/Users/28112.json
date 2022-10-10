@@ -5,7 +5,26 @@
     "email": "gdavenport@gmail.com",
     "birthdate": "1972-05-03",
     "phone": "771-264-0292x29187",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        71,
+        25,
+        12,
+        72,
+        59,
+        24,
+        62,
+        74,
+        0,
+        9,
+        71,
+        40
+    ],
+    "login locations": [
+        [
+            -117.897983,
+            33.727317
+        ]
+    ],
+    "relationships": []
 }

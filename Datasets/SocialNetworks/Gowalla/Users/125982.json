@@ -5,7 +5,21 @@
     "email": "jason48@yahoo.com",
     "birthdate": "1931-12-28",
     "phone": "013-684-1203x57567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        43,
+        39,
+        13,
+        17,
+        39,
+        55,
+        3
+    ],
+    "login locations": [
+        [
+            -122.331264,
+            37.65678
+        ]
+    ],
+    "relationships": []
 }

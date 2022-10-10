@@ -5,7 +5,28 @@
     "email": "huffpatricia@gmail.com",
     "birthdate": "1967-12-19",
     "phone": "072-531-8501",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        23,
+        21,
+        62,
+        46,
+        14,
+        25,
+        37,
+        37,
+        75,
+        3,
+        35,
+        2,
+        55,
+        49
+    ],
+    "login locations": [
+        [
+            -121.89006,
+            37.274512
+        ]
+    ],
+    "relationships": []
 }

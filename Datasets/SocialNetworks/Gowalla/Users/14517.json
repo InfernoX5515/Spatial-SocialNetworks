@@ -5,7 +5,15 @@
     "email": "ahill@gmail.com",
     "birthdate": "1921-01-29",
     "phone": "+1-042-323-5935x6184",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        44
+    ],
+    "login locations": [
+        [
+            -118.438201,
+            34.071507
+        ]
+    ],
+    "relationships": []
 }

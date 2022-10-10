@@ -5,7 +5,20 @@
     "email": "lthomas@hotmail.com",
     "birthdate": "2007-11-28",
     "phone": "+1-150-579-0314x43880",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        72,
+        6,
+        21,
+        58,
+        2,
+        3
+    ],
+    "login locations": [
+        [
+            -118.081985,
+            34.052126
+        ]
+    ],
+    "relationships": []
 }

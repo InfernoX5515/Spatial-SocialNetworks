@@ -5,7 +5,21 @@
     "email": "whiteheadjennifer@gmail.com",
     "birthdate": "1919-12-01",
     "phone": "001-443-844-7569",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        29,
+        37,
+        55,
+        49,
+        26,
+        12,
+        70
+    ],
+    "login locations": [
+        [
+            -122.289127,
+            37.576718
+        ]
+    ],
+    "relationships": []
 }

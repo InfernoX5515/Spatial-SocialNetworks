@@ -5,7 +5,21 @@
     "email": "deborah10@yahoo.com",
     "birthdate": "1911-01-16",
     "phone": "971.813.0537x75066",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        75,
+        0,
+        45,
+        5,
+        74,
+        52,
+        65
+    ],
+    "login locations": [
+        [
+            -122.403366,
+            37.774922
+        ]
+    ],
+    "relationships": []
 }

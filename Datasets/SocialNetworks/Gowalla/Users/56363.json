@@ -5,7 +5,37 @@
     "email": "ssims@gmail.com",
     "birthdate": "1953-12-17",
     "phone": "+1-846-831-7417",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        37,
+        61,
+        65,
+        14,
+        16,
+        2,
+        40,
+        16,
+        43,
+        5,
+        62,
+        2
+    ],
+    "login locations": [
+        [
+            -117.140104,
+            32.812863
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1774,
+                0.01
+            ],
+            [
+                1774,
+                0.01
+            ]
+        ]
+    ]
 }

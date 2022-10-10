@@ -5,7 +5,28 @@
     "email": "lauraharrington@yahoo.com",
     "birthdate": "1983-06-08",
     "phone": "734.320.5538x0364",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        33,
+        23,
+        16,
+        5,
+        61,
+        43,
+        5,
+        74,
+        5,
+        23,
+        74,
+        3,
+        53,
+        31
+    ],
+    "login locations": [
+        [
+            -117.113421,
+            32.858549
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "lauren05@gmail.com",
     "birthdate": "1955-10-25",
     "phone": "001-638-671-5591x53059",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        52,
+        59,
+        49,
+        2,
+        17,
+        53,
+        10,
+        31,
+        56,
+        47,
+        49,
+        25
+    ],
+    "login locations": [
+        [
+            -121.976276,
+            37.392777
+        ]
+    ],
+    "relationships": []
 }

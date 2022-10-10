@@ -5,7 +5,38 @@
     "email": "christianwells@gmail.com",
     "birthdate": "2017-02-06",
     "phone": "+1-515-585-8973",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        4,
+        50,
+        19,
+        45,
+        61,
+        45,
+        3,
+        69,
+        54,
+        58,
+        70,
+        18,
+        55
+    ],
+    "login locations": [
+        [
+            -121.483896,
+            38.577418
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33760,
+                0.16
+            ],
+            [
+                33760,
+                0.16
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,14 @@
     "email": "whitemelissa@gmail.com",
     "birthdate": "1955-11-12",
     "phone": "(908)511-1546x27532",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24
+    ],
+    "login locations": [
+        [
+            -121.428776,
+            37.750155
+        ]
+    ],
+    "relationships": []
 }

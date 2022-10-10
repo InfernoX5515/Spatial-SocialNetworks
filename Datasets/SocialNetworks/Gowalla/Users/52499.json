@@ -5,7 +5,17 @@
     "email": "jessica39@hotmail.com",
     "birthdate": "1947-10-28",
     "phone": "001-067-776-6002",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        34,
+        26,
+        66
+    ],
+    "login locations": [
+        [
+            -117.95799,
+            33.742071
+        ]
+    ],
+    "relationships": []
 }

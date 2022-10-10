@@ -5,7 +5,17 @@
     "email": "qprice@hotmail.com",
     "birthdate": "1951-01-31",
     "phone": "224.722.4357x407",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        51,
+        51,
+        2
+    ],
+    "login locations": [
+        [
+            -119.183566,
+            36.298629
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "keith51@yahoo.com",
     "birthdate": "1907-09-10",
     "phone": "001-054-288-2928x3493",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        52,
+        59,
+        57,
+        2,
+        29,
+        74,
+        38,
+        25
+    ],
+    "login locations": [
+        [
+            -122.39715,
+            37.766611
+        ]
+    ],
+    "relationships": []
 }

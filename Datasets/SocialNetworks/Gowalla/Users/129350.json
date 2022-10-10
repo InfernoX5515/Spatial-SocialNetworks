@@ -5,7 +5,17 @@
     "email": "lawrence04@yahoo.com",
     "birthdate": "1937-09-27",
     "phone": "524-798-2197x8149",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        56,
+        11,
+        24
+    ],
+    "login locations": [
+        [
+            -122.399068,
+            37.78477
+        ]
+    ],
+    "relationships": []
 }

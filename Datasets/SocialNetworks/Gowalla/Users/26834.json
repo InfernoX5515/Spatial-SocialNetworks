@@ -5,7 +5,24 @@
     "email": "laranicole@hotmail.com",
     "birthdate": "2003-03-05",
     "phone": "364.853.8223x37518",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        17,
+        8,
+        62,
+        56,
+        20,
+        30,
+        47,
+        14,
+        52,
+        26
+    ],
+    "login locations": [
+        [
+            -119.757864,
+            36.854546
+        ]
+    ],
+    "relationships": []
 }

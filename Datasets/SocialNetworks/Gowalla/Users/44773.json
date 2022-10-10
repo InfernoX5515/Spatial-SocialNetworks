@@ -5,7 +5,16 @@
     "email": "daytonya@hotmail.com",
     "birthdate": "1961-05-17",
     "phone": "+1-083-437-7745x08930",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        65,
+        61
+    ],
+    "login locations": [
+        [
+            -117.910097,
+            33.711459
+        ]
+    ],
+    "relationships": []
 }

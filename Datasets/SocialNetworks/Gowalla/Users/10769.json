@@ -5,7 +5,25 @@
     "email": "hernandezlaura@yahoo.com",
     "birthdate": "2003-08-31",
     "phone": "(893)419-0820",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        75,
+        52,
+        19,
+        23,
+        14,
+        22,
+        60,
+        19,
+        52,
+        36,
+        9
+    ],
+    "login locations": [
+        [
+            -118.092804,
+            33.923638
+        ]
+    ],
+    "relationships": []
 }

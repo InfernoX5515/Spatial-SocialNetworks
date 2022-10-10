@@ -5,7 +5,16 @@
     "email": "benjamin43@yahoo.com",
     "birthdate": "1942-11-28",
     "phone": "366-772-1722x627",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        16,
+        49
+    ],
+    "login locations": [
+        [
+            -121.975162,
+            37.358722
+        ]
+    ],
+    "relationships": []
 }

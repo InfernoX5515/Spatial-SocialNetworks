@@ -5,7 +5,25 @@
     "email": "francisjulie@hotmail.com",
     "birthdate": "1907-08-05",
     "phone": "6146555880",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        52,
+        10,
+        25,
+        9,
+        61,
+        71,
+        17,
+        23,
+        23,
+        51,
+        23
+    ],
+    "login locations": [
+        [
+            -117.838731,
+            33.900337
+        ]
+    ],
+    "relationships": []
 }

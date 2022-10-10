@@ -5,7 +5,28 @@
     "email": "josemoody@yahoo.com",
     "birthdate": "1991-08-25",
     "phone": "462-182-0306x34199",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        27,
+        60,
+        31,
+        72,
+        41,
+        21,
+        60,
+        3,
+        40,
+        32,
+        70,
+        42,
+        73,
+        61
+    ],
+    "login locations": [
+        [
+            -118.374131,
+            34.067701
+        ]
+    ],
+    "relationships": []
 }

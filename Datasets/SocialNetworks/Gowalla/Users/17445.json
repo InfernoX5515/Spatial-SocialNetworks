@@ -5,7 +5,25 @@
     "email": "agibson@yahoo.com",
     "birthdate": "1934-07-19",
     "phone": "+1-000-083-4584x00213",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        45,
+        26,
+        8,
+        35,
+        53,
+        7,
+        45,
+        50,
+        30,
+        23,
+        27
+    ],
+    "login locations": [
+        [
+            -117.903325,
+            34.089693
+        ]
+    ],
+    "relationships": []
 }

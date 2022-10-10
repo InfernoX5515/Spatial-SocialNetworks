@@ -5,7 +5,36 @@
     "email": "danieldominguez@gmail.com",
     "birthdate": "1929-11-17",
     "phone": "+1-588-448-2690x702",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        54,
+        66,
+        15,
+        32,
+        3,
+        55,
+        69,
+        54,
+        29,
+        24,
+        57
+    ],
+    "login locations": [
+        [
+            -118.358006,
+            34.050032
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32712,
+                0.0857142857143
+            ],
+            [
+                32712,
+                0.0857142857143
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,26 @@
     "email": "clarkrobert@yahoo.com",
     "birthdate": "1958-12-01",
     "phone": "(539)910-7089",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        34,
+        30,
+        72,
+        14,
+        31,
+        64,
+        52,
+        54,
+        45,
+        10,
+        56,
+        8
+    ],
+    "login locations": [
+        [
+            -118.325184,
+            34.109895
+        ]
+    ],
+    "relationships": []
 }

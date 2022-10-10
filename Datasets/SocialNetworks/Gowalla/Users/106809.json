@@ -5,7 +5,27 @@
     "email": "zford@gmail.com",
     "birthdate": "1933-05-19",
     "phone": "+1-573-592-7004x4162",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        43,
+        42,
+        66,
+        56,
+        75,
+        51,
+        22,
+        38,
+        34,
+        34,
+        27,
+        21,
+        50
+    ],
+    "login locations": [
+        [
+            -122.366578,
+            37.86086
+        ]
+    ],
+    "relationships": []
 }

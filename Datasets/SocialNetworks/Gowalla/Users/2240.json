@@ -5,7 +5,30 @@
     "email": "castillomichael@hotmail.com",
     "birthdate": "2016-06-10",
     "phone": "110-632-4327",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        31,
+        2,
+        40,
+        48,
+        61
+    ],
+    "login locations": [
+        [
+            -122.428209,
+            37.765601
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                593,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,12 @@
     "email": "doconnor@hotmail.com",
     "birthdate": "1980-09-03",
     "phone": "+1-274-057-5316x957",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.33157,
+            34.093539
+        ]
+    ],
+    "relationships": []
 }

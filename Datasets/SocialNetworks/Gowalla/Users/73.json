@@ -5,7 +5,14 @@
     "email": "frank41@gmail.com",
     "birthdate": "1959-07-05",
     "phone": "535-200-2739x9913",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57
+    ],
+    "login locations": [
+        [
+            -122.184756,
+            37.436384
+        ]
+    ],
+    "relationships": []
 }

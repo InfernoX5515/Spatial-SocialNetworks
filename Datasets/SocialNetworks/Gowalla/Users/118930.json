@@ -5,7 +5,24 @@
     "email": "robert13@hotmail.com",
     "birthdate": "1921-11-30",
     "phone": "(750)010-2910x842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        58,
+        49,
+        8,
+        30,
+        58,
+        70,
+        34,
+        43,
+        35,
+        67
+    ],
+    "login locations": [
+        [
+            -118.863886,
+            34.1871
+        ]
+    ],
+    "relationships": []
 }

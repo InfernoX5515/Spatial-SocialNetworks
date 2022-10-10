@@ -5,7 +5,15 @@
     "email": "perkinszachary@hotmail.com",
     "birthdate": "1995-06-10",
     "phone": "001-658-017-6359x898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        39
+    ],
+    "login locations": [
+        [
+            -122.362281,
+            38.40126
+        ]
+    ],
+    "relationships": []
 }

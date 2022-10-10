@@ -5,7 +5,18 @@
     "email": "mollylewis@hotmail.com",
     "birthdate": "1980-11-23",
     "phone": "333-429-6229x6438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        6,
+        59,
+        27,
+        6
+    ],
+    "login locations": [
+        [
+            -118.10866,
+            34.053661
+        ]
+    ],
+    "relationships": []
 }

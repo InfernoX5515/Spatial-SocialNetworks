@@ -5,7 +5,27 @@
     "email": "david04@hotmail.com",
     "birthdate": "1959-07-04",
     "phone": "001-481-338-0738x356",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        9,
+        6,
+        57,
+        61,
+        16,
+        20,
+        36,
+        32,
+        38,
+        5,
+        74,
+        36,
+        57
+    ],
+    "login locations": [
+        [
+            -121.918443,
+            37.381735
+        ]
+    ],
+    "relationships": []
 }

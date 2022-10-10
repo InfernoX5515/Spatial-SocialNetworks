@@ -5,7 +5,37 @@
     "email": "jonathan00@gmail.com",
     "birthdate": "2011-05-05",
     "phone": "041-689-5708x70547",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        53,
+        53,
+        3,
+        17,
+        46,
+        2,
+        0,
+        35,
+        57,
+        26,
+        12,
+        56
+    ],
+    "login locations": [
+        [
+            -122.408045,
+            37.784896
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                473,
+                0.44
+            ],
+            [
+                10459,
+                0.158469945355
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "hjohnston@hotmail.com",
     "birthdate": "1920-07-12",
     "phone": "852-460-7084",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        56,
+        59,
+        23,
+        56,
+        8,
+        34,
+        35,
+        66,
+        36,
+        16
+    ],
+    "login locations": [
+        [
+            -122.429052,
+            37.776909
+        ]
+    ],
+    "relationships": []
 }

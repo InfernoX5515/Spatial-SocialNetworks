@@ -5,7 +5,24 @@
     "email": "wwright@gmail.com",
     "birthdate": "1961-11-23",
     "phone": "941.964.9807x2681",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        75,
+        58,
+        3,
+        19,
+        38,
+        51,
+        0,
+        41,
+        26,
+        17
+    ],
+    "login locations": [
+        [
+            -117.165466,
+            32.768608
+        ]
+    ],
+    "relationships": []
 }

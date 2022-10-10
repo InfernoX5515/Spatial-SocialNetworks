@@ -5,7 +5,28 @@
     "email": "wilsonjill@yahoo.com",
     "birthdate": "2017-01-19",
     "phone": "638-410-3061",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        51,
+        13,
+        40
+    ],
+    "login locations": [
+        [
+            -122.405456,
+            37.782835
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3529,
+                0.414239482201
+            ],
+            [
+                3533,
+                0.636363636364
+            ]
+        ]
+    ]
 }

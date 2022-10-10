@@ -5,7 +5,37 @@
     "email": "osanchez@gmail.com",
     "birthdate": "2006-04-12",
     "phone": "+1-829-505-2412x972",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        37,
+        74,
+        4,
+        22,
+        27,
+        74,
+        4,
+        69,
+        9,
+        52,
+        1,
+        50
+    ],
+    "login locations": [
+        [
+            -122.409961,
+            37.768153
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                478,
+                0.044776119403
+            ],
+            [
+                487,
+                0.01
+            ]
+        ]
+    ]
 }

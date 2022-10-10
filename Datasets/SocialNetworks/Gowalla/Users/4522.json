@@ -5,7 +5,39 @@
     "email": "wrightcaitlin@gmail.com",
     "birthdate": "1997-11-16",
     "phone": "717.274.0491x766",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        63,
+        39,
+        55,
+        27,
+        45,
+        40,
+        39,
+        1,
+        48,
+        22,
+        70,
+        51,
+        55,
+        23
+    ],
+    "login locations": [
+        [
+            -122.40789,
+            37.781643
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                477,
+                0.0118043844857
+            ],
+            [
+                5838,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,31 @@
     "email": "jameskelley@yahoo.com",
     "birthdate": "1986-03-26",
     "phone": "4368913872",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        71,
+        51,
+        31,
+        18,
+        24,
+        15
+    ],
+    "login locations": [
+        [
+            -122.151023,
+            37.689417
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                14330,
+                0.01
+            ],
+            [
+                14330,
+                0.01
+            ]
+        ]
+    ]
 }

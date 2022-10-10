@@ -5,7 +5,17 @@
     "email": "mary37@yahoo.com",
     "birthdate": "1981-10-12",
     "phone": "+1-738-224-9606x6430",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        26,
+        19,
+        65
+    ],
+    "login locations": [
+        [
+            -119.717465,
+            34.425535
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "jsanford@hotmail.com",
     "birthdate": "1956-10-20",
     "phone": "7938352400",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        33,
+        18,
+        74,
+        40,
+        8
+    ],
+    "login locations": [
+        [
+            -122.027764,
+            37.388628
+        ]
+    ],
+    "relationships": []
 }

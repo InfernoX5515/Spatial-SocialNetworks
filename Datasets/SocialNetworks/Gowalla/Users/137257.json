@@ -5,7 +5,17 @@
     "email": "ehayes@hotmail.com",
     "birthdate": "1937-04-17",
     "phone": "184.605.0015",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        68,
+        46,
+        74
+    ],
+    "login locations": [
+        [
+            -122.451178,
+            37.746467
+        ]
+    ],
+    "relationships": []
 }

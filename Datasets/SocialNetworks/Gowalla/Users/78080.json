@@ -5,7 +5,27 @@
     "email": "kyang@yahoo.com",
     "birthdate": "1952-11-13",
     "phone": "0368581029",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        52,
+        69,
+        2,
+        27,
+        23,
+        33,
+        0,
+        5,
+        75,
+        40,
+        14,
+        69,
+        21
+    ],
+    "login locations": [
+        [
+            -122.094366,
+            37.407838
+        ]
+    ],
+    "relationships": []
 }

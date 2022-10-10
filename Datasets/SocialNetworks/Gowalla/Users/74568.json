@@ -5,7 +5,12 @@
     "email": "zwest@hotmail.com",
     "birthdate": "1988-04-03",
     "phone": "436-593-9756",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.420392,
+            37.762601
+        ]
+    ],
+    "relationships": []
 }

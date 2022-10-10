@@ -5,7 +5,23 @@
     "email": "isaachill@yahoo.com",
     "birthdate": "2001-09-20",
     "phone": "001-749-352-8444x99314",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        14,
+        26,
+        56,
+        39,
+        22,
+        59,
+        46,
+        33,
+        46
+    ],
+    "login locations": [
+        [
+            -122.08472,
+            37.731422
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "hromero@yahoo.com",
     "birthdate": "1988-09-20",
     "phone": "606-124-7642x1270",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        2,
+        56,
+        57,
+        61,
+        39,
+        37,
+        20
+    ],
+    "login locations": [
+        [
+            -122.401452,
+            37.771726
+        ]
+    ],
+    "relationships": []
 }

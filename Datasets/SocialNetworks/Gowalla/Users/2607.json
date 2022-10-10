@@ -5,7 +5,27 @@
     "email": "petersontanya@hotmail.com",
     "birthdate": "1912-11-22",
     "phone": "2250720625",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        36,
+        39
+    ],
+    "login locations": [
+        [
+            -121.730311,
+            38.560963
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6536,
+                0.01
+            ],
+            [
+                36424,
+                0.0882352941176
+            ]
+        ]
+    ]
 }

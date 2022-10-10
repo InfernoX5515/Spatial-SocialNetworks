@@ -5,7 +5,31 @@
     "email": "rhart@yahoo.com",
     "birthdate": "2020-11-06",
     "phone": "(762)256-2371x73738",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        21,
+        15,
+        56,
+        27,
+        75,
+        40
+    ],
+    "login locations": [
+        [
+            -117.709105,
+            33.655611
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49841,
+                0.0121212121212
+            ],
+            [
+                49842,
+                0.140569395018
+            ]
+        ]
+    ]
 }

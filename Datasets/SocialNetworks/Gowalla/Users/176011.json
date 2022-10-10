@@ -5,7 +5,12 @@
     "email": "ymorris@hotmail.com",
     "birthdate": "2021-09-28",
     "phone": "001-045-883-3355x27150",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.445087,
+            34.077553
+        ]
+    ],
+    "relationships": []
 }

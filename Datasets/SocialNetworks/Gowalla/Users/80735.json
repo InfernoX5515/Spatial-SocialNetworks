@@ -5,7 +5,27 @@
     "email": "cmarshall@hotmail.com",
     "birthdate": "1973-02-05",
     "phone": "001-998-424-1455x04055",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        37,
+        3,
+        59,
+        56,
+        42,
+        52,
+        23,
+        8,
+        34,
+        22,
+        29,
+        41,
+        3
+    ],
+    "login locations": [
+        [
+            -122.436307,
+            37.773138
+        ]
+    ],
+    "relationships": []
 }

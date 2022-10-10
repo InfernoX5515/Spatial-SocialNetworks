@@ -5,7 +5,14 @@
     "email": "msmith@gmail.com",
     "birthdate": "1990-11-06",
     "phone": "111.680.8551",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22
+    ],
+    "login locations": [
+        [
+            -117.202827,
+            34.057207
+        ]
+    ],
+    "relationships": []
 }

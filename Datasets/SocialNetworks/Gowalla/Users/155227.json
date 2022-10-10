@@ -5,7 +5,15 @@
     "email": "kathycabrera@gmail.com",
     "birthdate": "1950-12-06",
     "phone": "175-630-3213x4852",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        74
+    ],
+    "login locations": [
+        [
+            -118.042951,
+            33.952572
+        ]
+    ],
+    "relationships": []
 }

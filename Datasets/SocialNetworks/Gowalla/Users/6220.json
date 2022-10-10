@@ -5,7 +5,24 @@
     "email": "greenamy@hotmail.com",
     "birthdate": "1930-01-20",
     "phone": "738-460-3558x3463",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        59,
+        3,
+        6,
+        46,
+        37,
+        33,
+        26,
+        28,
+        35,
+        59
+    ],
+    "login locations": [
+        [
+            -118.032932,
+            34.030246
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "hmedina@gmail.com",
     "birthdate": "1958-09-12",
     "phone": "001-129-982-7196x6521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        10
+    ],
+    "login locations": [
+        [
+            -117.718609,
+            34.048613
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6199,
+                0.0123076923077
+            ],
+            [
+                62702,
+                0.135593220339
+            ]
+        ]
+    ]
 }

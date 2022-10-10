@@ -5,7 +5,27 @@
     "email": "robert82@yahoo.com",
     "birthdate": "1971-07-12",
     "phone": "001-009-885-1793x679",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        39,
+        53,
+        40,
+        56,
+        35,
+        69,
+        34,
+        42,
+        19,
+        32,
+        14,
+        64,
+        61
+    ],
+    "login locations": [
+        [
+            -117.169859,
+            32.816921
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "torresbrenda@yahoo.com",
     "birthdate": "1993-10-30",
     "phone": "(419)134-4554",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        41,
+        54,
+        52,
+        66,
+        40,
+        41,
+        63,
+        7,
+        36,
+        40,
+        58,
+        17,
+        75
+    ],
+    "login locations": [
+        [
+            -117.951387,
+            33.753341
+        ]
+    ],
+    "relationships": []
 }

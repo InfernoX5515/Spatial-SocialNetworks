@@ -5,7 +5,21 @@
     "email": "allisonforbes@yahoo.com",
     "birthdate": "2001-12-08",
     "phone": "990-644-1674",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        56,
+        44,
+        55,
+        57,
+        69,
+        62,
+        15
+    ],
+    "login locations": [
+        [
+            -122.422587,
+            37.756929
+        ]
+    ],
+    "relationships": []
 }

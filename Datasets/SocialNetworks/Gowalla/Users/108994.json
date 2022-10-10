@@ -5,7 +5,28 @@
     "email": "colleensmith@gmail.com",
     "birthdate": "1961-03-15",
     "phone": "+1-866-834-3929",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        46,
+        2,
+        22
+    ],
+    "login locations": [
+        [
+            -118.147271,
+            33.86499
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                19542,
+                0.01
+            ],
+            [
+                19542,
+                0.01
+            ]
+        ]
+    ]
 }

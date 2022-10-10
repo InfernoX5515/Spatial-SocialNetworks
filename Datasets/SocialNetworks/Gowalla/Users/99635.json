@@ -5,7 +5,23 @@
     "email": "sosameagan@hotmail.com",
     "birthdate": "1985-02-15",
     "phone": "485.973.3062x26674",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.449952,
+            34.151512
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                171257,
+                1.0
+            ],
+            [
+                171257,
+                1.0
+            ]
+        ]
+    ]
 }

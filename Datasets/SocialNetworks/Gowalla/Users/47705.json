@@ -5,7 +5,18 @@
     "email": "marvin89@hotmail.com",
     "birthdate": "2016-01-05",
     "phone": "418.468.2650x80765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        42,
+        23,
+        47,
+        67
+    ],
+    "login locations": [
+        [
+            -122.18414,
+            37.454741
+        ]
+    ],
+    "relationships": []
 }

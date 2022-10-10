@@ -5,7 +5,18 @@
     "email": "charles92@yahoo.com",
     "birthdate": "1986-01-07",
     "phone": "0171163588",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        75,
+        28,
+        67,
+        71
+    ],
+    "login locations": [
+        [
+            -117.178164,
+            32.72592
+        ]
+    ],
+    "relationships": []
 }

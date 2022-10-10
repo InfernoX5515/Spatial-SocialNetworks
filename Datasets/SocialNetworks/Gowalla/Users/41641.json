@@ -5,7 +5,17 @@
     "email": "lisa17@hotmail.com",
     "birthdate": "1964-02-17",
     "phone": "861.128.6466",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        39,
+        29,
+        26
+    ],
+    "login locations": [
+        [
+            -122.111091,
+            37.849079
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "lrodriguez@hotmail.com",
     "birthdate": "1948-04-06",
     "phone": "344-152-2227x42416",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        41
+    ],
+    "login locations": [
+        [
+            -118.275274,
+            34.118013
+        ]
+    ],
+    "relationships": []
 }

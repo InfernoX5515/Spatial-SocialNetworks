@@ -5,7 +5,16 @@
     "email": "kaitlyn08@yahoo.com",
     "birthdate": "1964-12-24",
     "phone": "(953)360-9235x7997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        63,
+        69
+    ],
+    "login locations": [
+        [
+            -122.404252,
+            37.784675
+        ]
+    ],
+    "relationships": []
 }

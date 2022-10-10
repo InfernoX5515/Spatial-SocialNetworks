@@ -5,7 +5,22 @@
     "email": "laceymiller@gmail.com",
     "birthdate": "2016-02-28",
     "phone": "653-768-6351",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        23,
+        48,
+        72,
+        59,
+        16,
+        62,
+        68,
+        69
+    ],
+    "login locations": [
+        [
+            -122.413723,
+            37.802755
+        ]
+    ],
+    "relationships": []
 }

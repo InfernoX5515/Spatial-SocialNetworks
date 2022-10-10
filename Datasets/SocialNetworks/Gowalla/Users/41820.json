@@ -5,7 +5,24 @@
     "email": "ypruitt@hotmail.com",
     "birthdate": "1914-05-19",
     "phone": "+1-626-582-0818",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        25,
+        2,
+        21,
+        32,
+        74,
+        62,
+        70,
+        61,
+        36,
+        10
+    ],
+    "login locations": [
+        [
+            -118.174735,
+            34.065804
+        ]
+    ],
+    "relationships": []
 }

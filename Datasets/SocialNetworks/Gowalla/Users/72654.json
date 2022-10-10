@@ -5,7 +5,28 @@
     "email": "gibsonshannon@gmail.com",
     "birthdate": "1962-02-21",
     "phone": "096.312.2962x35292",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        18,
+        54,
+        73,
+        64,
+        62,
+        4,
+        33,
+        50,
+        17,
+        23,
+        2,
+        50,
+        55,
+        71
+    ],
+    "login locations": [
+        [
+            -122.421183,
+            37.74993
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "robin62@gmail.com",
     "birthdate": "1966-02-24",
     "phone": "727-925-6186x42500",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        27,
+        37,
+        5,
+        54,
+        16
+    ],
+    "login locations": [
+        [
+            -118.90678,
+            34.243938
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "nathan95@gmail.com",
     "birthdate": "1965-07-04",
     "phone": "296-195-9274x80656",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        9
+    ],
+    "login locations": [
+        [
+            -117.216206,
+            32.881205
+        ]
+    ],
+    "relationships": []
 }

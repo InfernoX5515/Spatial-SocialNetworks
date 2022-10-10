@@ -5,7 +5,22 @@
     "email": "juliesmith@hotmail.com",
     "birthdate": "1941-04-18",
     "phone": "1159060533",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        41,
+        12,
+        58,
+        0,
+        54,
+        19,
+        34,
+        16
+    ],
+    "login locations": [
+        [
+            -118.286688,
+            33.985936
+        ]
+    ],
+    "relationships": []
 }

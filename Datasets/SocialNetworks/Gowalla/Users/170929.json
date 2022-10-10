@@ -5,7 +5,20 @@
     "email": "clarklisa@hotmail.com",
     "birthdate": "1929-01-07",
     "phone": "001-748-775-5365",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        32,
+        6,
+        69,
+        13,
+        38,
+        69
+    ],
+    "login locations": [
+        [
+            -121.890702,
+            37.333048
+        ]
+    ],
+    "relationships": []
 }

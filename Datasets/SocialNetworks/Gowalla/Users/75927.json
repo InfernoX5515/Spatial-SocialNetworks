@@ -5,7 +5,28 @@
     "email": "matthewsharp@yahoo.com",
     "birthdate": "1982-10-23",
     "phone": "001-746-411-8989x062",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        64,
+        58,
+        22,
+        62,
+        35,
+        60,
+        37,
+        1,
+        49,
+        73,
+        74,
+        62,
+        3,
+        32
+    ],
+    "login locations": [
+        [
+            -121.943401,
+            37.374467
+        ]
+    ],
+    "relationships": []
 }

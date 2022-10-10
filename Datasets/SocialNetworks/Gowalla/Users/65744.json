@@ -5,7 +5,18 @@
     "email": "michaelhopkins@yahoo.com",
     "birthdate": "1933-02-27",
     "phone": "541.104.7286x37313",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        51,
+        65,
+        28,
+        17
+    ],
+    "login locations": [
+        [
+            -118.428093,
+            34.021457
+        ]
+    ],
+    "relationships": []
 }

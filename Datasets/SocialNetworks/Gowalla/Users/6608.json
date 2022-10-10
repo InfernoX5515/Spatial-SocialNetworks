@@ -5,7 +5,17 @@
     "email": "mhodge@gmail.com",
     "birthdate": "1924-09-09",
     "phone": "(316)964-2987x76656",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        29,
+        46,
+        65
+    ],
+    "login locations": [
+        [
+            -122.087142,
+            37.380833
+        ]
+    ],
+    "relationships": []
 }

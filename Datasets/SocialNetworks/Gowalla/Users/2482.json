@@ -5,7 +5,14 @@
     "email": "eric19@hotmail.com",
     "birthdate": "1923-10-10",
     "phone": "550.692.0098x15547",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26
+    ],
+    "login locations": [
+        [
+            -117.165662,
+            32.72717
+        ]
+    ],
+    "relationships": []
 }

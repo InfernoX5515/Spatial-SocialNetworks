@@ -5,7 +5,22 @@
     "email": "kylethompson@gmail.com",
     "birthdate": "1973-08-18",
     "phone": "0920913439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        59,
+        28,
+        17,
+        16,
+        11,
+        0,
+        3,
+        11
+    ],
+    "login locations": [
+        [
+            -117.533734,
+            34.110894
+        ]
+    ],
+    "relationships": []
 }

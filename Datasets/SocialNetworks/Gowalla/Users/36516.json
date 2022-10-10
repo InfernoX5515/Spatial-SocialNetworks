@@ -5,7 +5,28 @@
     "email": "joshua26@gmail.com",
     "birthdate": "1930-01-25",
     "phone": "001-066-328-1658x0417",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        25,
+        3,
+        35
+    ],
+    "login locations": [
+        [
+            -122.377866,
+            37.794006
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                586,
+                0.01
+            ],
+            [
+                4224,
+                0.040404040404
+            ]
+        ]
+    ]
 }

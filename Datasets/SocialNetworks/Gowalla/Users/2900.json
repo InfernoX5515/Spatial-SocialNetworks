@@ -5,7 +5,23 @@
     "email": "fibarra@hotmail.com",
     "birthdate": "1924-02-10",
     "phone": "001-492-237-9309x83822",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.128456,
+            37.94194
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1921,
+                0.0266666666667
+            ],
+            [
+                1921,
+                0.0266666666667
+            ]
+        ]
+    ]
 }

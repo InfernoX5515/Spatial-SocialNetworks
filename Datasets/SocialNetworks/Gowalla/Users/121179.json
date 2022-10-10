@@ -5,7 +5,34 @@
     "email": "owenkayla@gmail.com",
     "birthdate": "1915-08-09",
     "phone": "(213)186-3487",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        47,
+        16,
+        9,
+        62,
+        1,
+        60,
+        44,
+        32,
+        0
+    ],
+    "login locations": [
+        [
+            -118.606685,
+            34.218026
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                28730,
+                0.1
+            ],
+            [
+                28730,
+                0.1
+            ]
+        ]
+    ]
 }

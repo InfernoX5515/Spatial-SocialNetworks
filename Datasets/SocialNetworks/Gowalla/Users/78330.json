@@ -5,7 +5,24 @@
     "email": "kelsey00@yahoo.com",
     "birthdate": "1941-10-15",
     "phone": "248.298.9395x40236",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        35,
+        15,
+        14,
+        41,
+        15,
+        30,
+        5,
+        22,
+        6,
+        31
+    ],
+    "login locations": [
+        [
+            -118.188488,
+            34.16019
+        ]
+    ],
+    "relationships": []
 }

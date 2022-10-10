@@ -5,7 +5,18 @@
     "email": "gregorymorgan@gmail.com",
     "birthdate": "1949-01-04",
     "phone": "001-622-525-8827x271",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        47,
+        56,
+        11,
+        55
+    ],
+    "login locations": [
+        [
+            -118.255144,
+            34.074459
+        ]
+    ],
+    "relationships": []
 }

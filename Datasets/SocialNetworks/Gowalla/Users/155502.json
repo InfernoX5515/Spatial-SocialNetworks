@@ -5,7 +5,27 @@
     "email": "edward42@gmail.com",
     "birthdate": "1942-09-27",
     "phone": "107.890.2428x050",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        25,
+        66,
+        0,
+        12,
+        30,
+        17,
+        50,
+        26,
+        25,
+        14,
+        11,
+        35,
+        14
+    ],
+    "login locations": [
+        [
+            -122.381072,
+            37.776897
+        ]
+    ],
+    "relationships": []
 }

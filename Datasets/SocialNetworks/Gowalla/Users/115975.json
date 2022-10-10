@@ -5,7 +5,29 @@
     "email": "michellegrant@gmail.com",
     "birthdate": "1926-01-09",
     "phone": "(749)110-7596x147",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        10,
+        20,
+        20,
+        18
+    ],
+    "login locations": [
+        [
+            -122.361352,
+            37.780537
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39047,
+                0.0233918128655
+            ],
+            [
+                39047,
+                0.0233918128655
+            ]
+        ]
+    ]
 }

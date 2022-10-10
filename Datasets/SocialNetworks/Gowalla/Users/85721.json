@@ -5,7 +5,12 @@
     "email": "copelandmichael@yahoo.com",
     "birthdate": "1940-09-27",
     "phone": "1529097639",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.322945,
+            37.811022
+        ]
+    ],
+    "relationships": []
 }

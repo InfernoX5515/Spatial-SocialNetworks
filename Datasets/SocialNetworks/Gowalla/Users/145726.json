@@ -5,7 +5,30 @@
     "email": "lisa55@gmail.com",
     "birthdate": "1934-07-03",
     "phone": "236.784.5121",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        72,
+        55,
+        66,
+        72,
+        41
+    ],
+    "login locations": [
+        [
+            -118.147548,
+            34.01488
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53509,
+                0.010989010989
+            ],
+            [
+                53509,
+                0.010989010989
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,18 @@
     "email": "ntyler@yahoo.com",
     "birthdate": "1961-12-10",
     "phone": "001-832-562-8308x7368",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        37,
+        16,
+        7,
+        9
+    ],
+    "login locations": [
+        [
+            -122.318899,
+            37.600471
+        ]
+    ],
+    "relationships": []
 }

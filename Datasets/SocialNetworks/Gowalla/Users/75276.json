@@ -5,7 +5,29 @@
     "email": "angelamack@yahoo.com",
     "birthdate": "2004-07-04",
     "phone": "001-123-273-7538",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        48,
+        61,
+        70,
+        75
+    ],
+    "login locations": [
+        [
+            -122.404997,
+            37.790189
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5324,
+                0.0588235294118
+            ],
+            [
+                5324,
+                0.0588235294118
+            ]
+        ]
+    ]
 }

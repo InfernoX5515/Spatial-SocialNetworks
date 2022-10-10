@@ -5,7 +5,39 @@
     "email": "kathrynsmith@yahoo.com",
     "birthdate": "1911-03-28",
     "phone": "633-514-3567x2982",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        26,
+        30,
+        55,
+        59,
+        12,
+        39,
+        4,
+        71,
+        5,
+        16,
+        34,
+        32,
+        64,
+        32
+    ],
+    "login locations": [
+        [
+            -121.366075,
+            38.695016
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1558,
+                0.01
+            ],
+            [
+                1558,
+                0.01
+            ]
+        ]
+    ]
 }

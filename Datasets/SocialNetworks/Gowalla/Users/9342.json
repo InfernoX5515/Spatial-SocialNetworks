@@ -5,7 +5,23 @@
     "email": "kellybrian@yahoo.com",
     "birthdate": "1979-01-03",
     "phone": "+1-213-858-6397x516",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.284436,
+            37.832129
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6208,
+                0.01
+            ],
+            [
+                6208,
+                0.01
+            ]
+        ]
+    ]
 }

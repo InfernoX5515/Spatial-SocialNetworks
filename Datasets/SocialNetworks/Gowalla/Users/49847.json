@@ -5,7 +5,27 @@
     "email": "ortizangela@hotmail.com",
     "birthdate": "1967-06-01",
     "phone": "(331)955-5354x88547",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        69,
+        52,
+        25,
+        21,
+        27,
+        36,
+        6,
+        34,
+        64,
+        58,
+        8,
+        39,
+        40
+    ],
+    "login locations": [
+        [
+            -117.291805,
+            33.114642
+        ]
+    ],
+    "relationships": []
 }

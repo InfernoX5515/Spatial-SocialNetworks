@@ -5,7 +5,23 @@
     "email": "campbellamanda@yahoo.com",
     "birthdate": "1987-04-24",
     "phone": "301-053-8521x627",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        66,
+        0,
+        27,
+        14,
+        25,
+        68,
+        28,
+        19,
+        27
+    ],
+    "login locations": [
+        [
+            -117.757752,
+            33.650976
+        ]
+    ],
+    "relationships": []
 }

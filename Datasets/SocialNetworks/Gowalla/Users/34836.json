@@ -5,7 +5,34 @@
     "email": "kleinamber@hotmail.com",
     "birthdate": "1931-07-02",
     "phone": "(888)946-0701x4590",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        35,
+        16,
+        39,
+        7,
+        14,
+        61,
+        57,
+        56,
+        60
+    ],
+    "login locations": [
+        [
+            -122.048147,
+            37.340195
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1703,
+                0.029702970297
+            ],
+            [
+                1703,
+                0.029702970297
+            ]
+        ]
+    ]
 }

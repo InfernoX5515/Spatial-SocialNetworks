@@ -5,7 +5,27 @@
     "email": "olivia80@yahoo.com",
     "birthdate": "1986-06-04",
     "phone": "0397773679",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        47,
+        50
+    ],
+    "login locations": [
+        [
+            -118.109709,
+            34.584093
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2287,
+                0.0493827160494
+            ],
+            [
+                119173,
+                0.01
+            ]
+        ]
+    ]
 }

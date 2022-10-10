@@ -5,7 +5,35 @@
     "email": "yurebecca@hotmail.com",
     "birthdate": "1962-04-27",
     "phone": "7763850120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        68,
+        48,
+        64,
+        52,
+        3,
+        41,
+        23,
+        11,
+        40,
+        4
+    ],
+    "login locations": [
+        [
+            -121.623013,
+            37.055916
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3529,
+                0.0161812297735
+            ],
+            [
+                3533,
+                0.363636363636
+            ]
+        ]
+    ]
 }

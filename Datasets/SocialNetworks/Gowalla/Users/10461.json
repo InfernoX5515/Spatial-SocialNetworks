@@ -5,7 +5,26 @@
     "email": "sandranolan@yahoo.com",
     "birthdate": "1975-05-31",
     "phone": "489.855.9815",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        59,
+        23,
+        55,
+        71,
+        38,
+        58,
+        69,
+        70,
+        1,
+        24,
+        47,
+        51
+    ],
+    "login locations": [
+        [
+            -122.40541,
+            37.776865
+        ]
+    ],
+    "relationships": []
 }

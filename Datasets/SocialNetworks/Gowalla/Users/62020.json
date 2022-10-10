@@ -5,7 +5,18 @@
     "email": "diane69@yahoo.com",
     "birthdate": "1927-06-18",
     "phone": "001-991-327-6230x844",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        43,
+        24,
+        29,
+        29
+    ],
+    "login locations": [
+        [
+            -118.40693,
+            34.028149
+        ]
+    ],
+    "relationships": []
 }

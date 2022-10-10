@@ -5,7 +5,22 @@
     "email": "gibbsabigail@hotmail.com",
     "birthdate": "1939-04-29",
     "phone": "+1-028-450-1161x5757",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        48,
+        37,
+        68,
+        52,
+        10,
+        18,
+        18,
+        11
+    ],
+    "login locations": [
+        [
+            -122.141298,
+            37.433212
+        ]
+    ],
+    "relationships": []
 }

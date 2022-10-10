@@ -5,7 +5,27 @@
     "email": "hallkimberly@gmail.com",
     "birthdate": "1915-02-09",
     "phone": "354.482.0120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        63,
+        56
+    ],
+    "login locations": [
+        [
+            -122.083737,
+            37.388178
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4252,
+                0.031746031746
+            ],
+            [
+                4252,
+                0.031746031746
+            ]
+        ]
+    ]
 }

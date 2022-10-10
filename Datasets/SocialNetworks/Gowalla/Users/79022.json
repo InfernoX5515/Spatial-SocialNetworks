@@ -5,7 +5,24 @@
     "email": "fherrera@gmail.com",
     "birthdate": "1932-04-09",
     "phone": "913.266.2324x18781",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        70,
+        61,
+        36,
+        61,
+        11,
+        32,
+        44,
+        11,
+        21,
+        47
+    ],
+    "login locations": [
+        [
+            -122.392551,
+            37.783132
+        ]
+    ],
+    "relationships": []
 }

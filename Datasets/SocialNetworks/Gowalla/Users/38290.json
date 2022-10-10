@@ -5,7 +5,37 @@
     "email": "thodges@yahoo.com",
     "birthdate": "1922-05-18",
     "phone": "001-033-782-5980x573",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        51,
+        68,
+        62,
+        26,
+        1,
+        9,
+        4,
+        24,
+        16,
+        46,
+        27,
+        65
+    ],
+    "login locations": [
+        [
+            -117.173399,
+            32.713893
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5877,
+                0.01
+            ],
+            [
+                5877,
+                0.01
+            ]
+        ]
+    ]
 }

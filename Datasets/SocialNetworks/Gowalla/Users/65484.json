@@ -5,7 +5,15 @@
     "email": "jessica30@hotmail.com",
     "birthdate": "1967-05-15",
     "phone": "001-561-164-5087",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        24
+    ],
+    "login locations": [
+        [
+            -122.020029,
+            37.965393
+        ]
+    ],
+    "relationships": []
 }

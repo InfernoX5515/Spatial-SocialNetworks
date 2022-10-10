@@ -5,7 +5,17 @@
     "email": "peggy91@hotmail.com",
     "birthdate": "1941-10-23",
     "phone": "(939)913-8108x8391",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        31,
+        18,
+        16
+    ],
+    "login locations": [
+        [
+            -117.776186,
+            33.578537
+        ]
+    ],
+    "relationships": []
 }

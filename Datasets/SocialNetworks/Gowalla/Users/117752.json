@@ -5,7 +5,19 @@
     "email": "julie48@hotmail.com",
     "birthdate": "2009-04-11",
     "phone": "3644438911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        75,
+        28,
+        13,
+        27,
+        0
+    ],
+    "login locations": [
+        [
+            -118.390934,
+            34.000576
+        ]
+    ],
+    "relationships": []
 }

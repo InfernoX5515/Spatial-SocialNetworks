@@ -5,7 +5,25 @@
     "email": "gpratt@hotmail.com",
     "birthdate": "1987-11-28",
     "phone": "525-608-1943x5768",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        44,
+        12,
+        32,
+        54,
+        59,
+        63,
+        66,
+        69,
+        16,
+        5,
+        16
+    ],
+    "login locations": [
+        [
+            -122.718419,
+            38.416684
+        ]
+    ],
+    "relationships": []
 }

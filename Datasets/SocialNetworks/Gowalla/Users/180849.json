@@ -5,7 +5,17 @@
     "email": "dana40@gmail.com",
     "birthdate": "2012-08-22",
     "phone": "(569)556-6267",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        68,
+        69,
+        39
+    ],
+    "login locations": [
+        [
+            -117.23568,
+            32.767332
+        ]
+    ],
+    "relationships": []
 }

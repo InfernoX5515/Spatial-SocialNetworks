@@ -5,7 +5,21 @@
     "email": "hortonkara@yahoo.com",
     "birthdate": "1984-04-10",
     "phone": "931.813.0093",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        44,
+        61,
+        26,
+        68,
+        68,
+        34,
+        40
+    ],
+    "login locations": [
+        [
+            -122.048683,
+            37.361736
+        ]
+    ],
+    "relationships": []
 }

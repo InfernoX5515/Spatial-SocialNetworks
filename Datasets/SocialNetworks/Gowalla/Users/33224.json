@@ -5,7 +5,18 @@
     "email": "susanespinoza@yahoo.com",
     "birthdate": "1936-07-01",
     "phone": "(771)440-7193x85033",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        37,
+        57,
+        26,
+        48
+    ],
+    "login locations": [
+        [
+            -122.418677,
+            37.775721
+        ]
+    ],
+    "relationships": []
 }

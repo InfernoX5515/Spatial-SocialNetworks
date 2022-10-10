@@ -5,7 +5,22 @@
     "email": "dominguezdarrell@hotmail.com",
     "birthdate": "1909-12-20",
     "phone": "852.788.4524x7039",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        21,
+        22,
+        68,
+        20,
+        19,
+        42,
+        61,
+        19
+    ],
+    "login locations": [
+        [
+            -118.434073,
+            34.037079
+        ]
+    ],
+    "relationships": []
 }

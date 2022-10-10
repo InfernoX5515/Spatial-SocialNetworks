@@ -5,7 +5,23 @@
     "email": "marycooper@gmail.com",
     "birthdate": "1947-09-04",
     "phone": "013.807.5459x502",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        62,
+        32,
+        19,
+        20,
+        63,
+        21,
+        66,
+        65,
+        39
+    ],
+    "login locations": [
+        [
+            -122.431209,
+            37.772002
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "ilopez@yahoo.com",
     "birthdate": "1961-11-03",
     "phone": "+1-444-062-7041x99909",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        50,
+        28,
+        63,
+        51,
+        32,
+        74,
+        29,
+        11,
+        2,
+        40
+    ],
+    "login locations": [
+        [
+            -122.093472,
+            38.041316
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "qgilbert@yahoo.com",
     "birthdate": "2020-01-08",
     "phone": "(783)754-8219x2239",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33
+    ],
+    "login locations": [
+        [
+            -122.412759,
+            37.741986
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "robinroberts@gmail.com",
     "birthdate": "1983-11-10",
     "phone": "689-587-0791x92974",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -119.796296,
+            36.732876
+        ]
+    ],
+    "relationships": []
 }

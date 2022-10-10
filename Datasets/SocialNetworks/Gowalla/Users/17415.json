@@ -5,7 +5,27 @@
     "email": "bookerdavid@hotmail.com",
     "birthdate": "2004-02-07",
     "phone": "001-625-957-5053x3863",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        40,
+        7,
+        62,
+        33,
+        47,
+        52,
+        64,
+        28,
+        71,
+        52,
+        41,
+        66,
+        30
+    ],
+    "login locations": [
+        [
+            -118.149338,
+            34.061733
+        ]
+    ],
+    "relationships": []
 }

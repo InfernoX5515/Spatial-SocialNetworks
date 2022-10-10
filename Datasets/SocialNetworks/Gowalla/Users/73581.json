@@ -5,7 +5,26 @@
     "email": "richardsjacqueline@yahoo.com",
     "birthdate": "1959-02-03",
     "phone": "+1-887-491-4333",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        15,
+        59,
+        23,
+        24,
+        56,
+        23,
+        15,
+        53,
+        23,
+        58,
+        73,
+        36
+    ],
+    "login locations": [
+        [
+            -118.392618,
+            34.019682
+        ]
+    ],
+    "relationships": []
 }

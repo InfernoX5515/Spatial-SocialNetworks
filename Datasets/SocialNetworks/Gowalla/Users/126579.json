@@ -5,7 +5,12 @@
     "email": "kimberlymontgomery@hotmail.com",
     "birthdate": "1917-12-27",
     "phone": "9340756770",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.276655,
+            34.111743
+        ]
+    ],
+    "relationships": []
 }

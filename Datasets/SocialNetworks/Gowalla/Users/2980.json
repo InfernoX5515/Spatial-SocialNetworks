@@ -5,7 +5,17 @@
     "email": "phillipslinda@hotmail.com",
     "birthdate": "1951-11-05",
     "phone": "+1-121-385-6097x122",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        44,
+        7,
+        62
+    ],
+    "login locations": [
+        [
+            -118.543338,
+            34.417525
+        ]
+    ],
+    "relationships": []
 }

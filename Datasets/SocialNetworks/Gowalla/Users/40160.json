@@ -5,7 +5,26 @@
     "email": "anthony12@hotmail.com",
     "birthdate": "1972-12-31",
     "phone": "001-944-716-5348",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        12
+    ],
+    "login locations": [
+        [
+            -121.793562,
+            37.68279
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1409,
+                0.0133333333333
+            ],
+            [
+                9202,
+                0.0142857142857
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,16 @@
     "email": "andre31@hotmail.com",
     "birthdate": "1994-12-15",
     "phone": "935.964.2028x274",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        50,
+        6
+    ],
+    "login locations": [
+        [
+            -119.235288,
+            34.261649
+        ]
+    ],
+    "relationships": []
 }

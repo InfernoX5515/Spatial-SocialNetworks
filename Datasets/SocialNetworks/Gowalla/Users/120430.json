@@ -5,7 +5,12 @@
     "email": "angelaaustin@hotmail.com",
     "birthdate": "2013-01-02",
     "phone": "001-373-047-9213x77873",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.265502,
+            33.888175
+        ]
+    ],
+    "relationships": []
 }

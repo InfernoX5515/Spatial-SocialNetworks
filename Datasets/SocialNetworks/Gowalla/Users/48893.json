@@ -5,7 +5,25 @@
     "email": "vanessa24@yahoo.com",
     "birthdate": "2011-10-01",
     "phone": "195.523.2115",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10
+    ],
+    "login locations": [
+        [
+            -122.162696,
+            38.06358
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1280,
+                0.02
+            ],
+            [
+                142473,
+                0.01
+            ]
+        ]
+    ]
 }

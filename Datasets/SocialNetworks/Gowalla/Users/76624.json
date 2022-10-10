@@ -5,7 +5,23 @@
     "email": "karasnyder@yahoo.com",
     "birthdate": "1937-06-27",
     "phone": "(902)774-2702",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        22,
+        10,
+        24,
+        24,
+        54,
+        56,
+        23,
+        73,
+        23
+    ],
+    "login locations": [
+        [
+            -118.306115,
+            34.065749
+        ]
+    ],
+    "relationships": []
 }

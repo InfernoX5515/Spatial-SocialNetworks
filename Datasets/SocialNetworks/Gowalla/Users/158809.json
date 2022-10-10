@@ -5,7 +5,25 @@
     "email": "nmoore@hotmail.com",
     "birthdate": "1988-03-05",
     "phone": "462.715.7704x792",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        8,
+        21,
+        22,
+        18,
+        47,
+        72,
+        70,
+        71,
+        74,
+        60,
+        1
+    ],
+    "login locations": [
+        [
+            -122.363136,
+            37.879074
+        ]
+    ],
+    "relationships": []
 }

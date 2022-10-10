@@ -5,7 +5,31 @@
     "email": "john52@yahoo.com",
     "birthdate": "1989-01-01",
     "phone": "(924)232-8814x1770",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        9,
+        37,
+        73,
+        55,
+        49,
+        42
+    ],
+    "login locations": [
+        [
+            -118.190097,
+            33.820865
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2324,
+                0.0266666666667
+            ],
+            [
+                2324,
+                0.0266666666667
+            ]
+        ]
+    ]
 }

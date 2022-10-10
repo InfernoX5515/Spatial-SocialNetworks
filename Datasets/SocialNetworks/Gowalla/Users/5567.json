@@ -5,7 +5,31 @@
     "email": "zachary47@yahoo.com",
     "birthdate": "1972-03-03",
     "phone": "+1-936-107-2074x275",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        36,
+        19,
+        35,
+        29,
+        50,
+        20
+    ],
+    "login locations": [
+        [
+            -122.417423,
+            37.764682
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                459,
+                0.0107913669065
+            ],
+            [
+                2170,
+                0.0196078431373
+            ]
+        ]
+    ]
 }

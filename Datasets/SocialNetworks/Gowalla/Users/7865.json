@@ -5,7 +5,35 @@
     "email": "lgonzalez@gmail.com",
     "birthdate": "1959-08-01",
     "phone": "(212)990-3098x939",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        42,
+        27,
+        71,
+        17,
+        57,
+        65,
+        47,
+        15,
+        58,
+        60
+    ],
+    "login locations": [
+        [
+            -122.13351,
+            37.416647
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5321,
+                0.0789473684211
+            ],
+            [
+                33648,
+                0.08
+            ]
+        ]
+    ]
 }

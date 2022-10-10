@@ -5,7 +5,17 @@
     "email": "brenda05@hotmail.com",
     "birthdate": "1985-11-07",
     "phone": "518-350-2588",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        15,
+        62,
+        43
+    ],
+    "login locations": [
+        [
+            -118.347988,
+            34.118087
+        ]
+    ],
+    "relationships": []
 }

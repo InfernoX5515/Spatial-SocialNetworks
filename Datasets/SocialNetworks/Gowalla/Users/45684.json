@@ -5,7 +5,25 @@
     "email": "dianajohnson@gmail.com",
     "birthdate": "1959-12-30",
     "phone": "(515)556-9091",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38
+    ],
+    "login locations": [
+        [
+            -119.765003,
+            34.427341
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                17024,
+                0.16
+            ],
+            [
+                17024,
+                0.16
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "ilarson@gmail.com",
     "birthdate": "1926-10-27",
     "phone": "669-255-7845x170",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        56,
+        24,
+        15,
+        65,
+        40,
+        16,
+        31,
+        17,
+        20,
+        14
+    ],
+    "login locations": [
+        [
+            -117.823634,
+            33.909734
+        ]
+    ],
+    "relationships": []
 }

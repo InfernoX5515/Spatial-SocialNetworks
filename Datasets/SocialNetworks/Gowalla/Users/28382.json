@@ -5,7 +5,15 @@
     "email": "nicholastrujillo@gmail.com",
     "birthdate": "1933-05-06",
     "phone": "001-865-813-7962",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        58
+    ],
+    "login locations": [
+        [
+            -121.913196,
+            36.857951
+        ]
+    ],
+    "relationships": []
 }

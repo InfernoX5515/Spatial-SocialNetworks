@@ -5,7 +5,14 @@
     "email": "kimberlydixon@yahoo.com",
     "birthdate": "1919-01-18",
     "phone": "449.129.2249x1586",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28
+    ],
+    "login locations": [
+        [
+            -122.192547,
+            37.552375
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "denisecook@hotmail.com",
     "birthdate": "1967-02-06",
     "phone": "(309)475-3861",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        35,
+        26
+    ],
+    "login locations": [
+        [
+            -117.848316,
+            33.706845
+        ]
+    ],
+    "relationships": []
 }

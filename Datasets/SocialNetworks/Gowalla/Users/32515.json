@@ -5,7 +5,30 @@
     "email": "jacquelinetaylor@hotmail.com",
     "birthdate": "1957-04-28",
     "phone": "698.897.9732",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        14,
+        3,
+        3,
+        65,
+        56
+    ],
+    "login locations": [
+        [
+            -118.15388,
+            34.098841
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8195,
+                0.368421052632
+            ],
+            [
+                124785,
+                0.263157894737
+            ]
+        ]
+    ]
 }

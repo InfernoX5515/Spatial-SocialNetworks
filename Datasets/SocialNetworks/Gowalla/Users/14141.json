@@ -5,7 +5,25 @@
     "email": "reginahester@yahoo.com",
     "birthdate": "1928-01-25",
     "phone": "+1-048-657-2894",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        42,
+        33,
+        56,
+        32,
+        3,
+        74,
+        72,
+        33,
+        26,
+        51,
+        7
+    ],
+    "login locations": [
+        [
+            -117.090194,
+            32.631967
+        ]
+    ],
+    "relationships": []
 }

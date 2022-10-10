@@ -5,7 +5,16 @@
     "email": "billygutierrez@hotmail.com",
     "birthdate": "1986-07-23",
     "phone": "230.250.9197x98980",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        70,
+        10
+    ],
+    "login locations": [
+        [
+            -118.351878,
+            33.864591
+        ]
+    ],
+    "relationships": []
 }

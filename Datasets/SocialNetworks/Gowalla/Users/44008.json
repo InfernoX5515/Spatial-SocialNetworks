@@ -5,7 +5,26 @@
     "email": "matthewwhitney@hotmail.com",
     "birthdate": "1958-12-21",
     "phone": "001-556-497-2840x2107",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        48,
+        21,
+        74,
+        18,
+        9,
+        25,
+        38,
+        27,
+        71,
+        47,
+        45,
+        10
+    ],
+    "login locations": [
+        [
+            -117.164284,
+            32.73731
+        ]
+    ],
+    "relationships": []
 }

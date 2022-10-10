@@ -5,7 +5,28 @@
     "email": "evansevan@gmail.com",
     "birthdate": "2000-05-19",
     "phone": "323-340-3901",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        25,
+        44,
+        11,
+        37,
+        34,
+        37,
+        2,
+        68,
+        70,
+        43,
+        71,
+        50,
+        61,
+        59
+    ],
+    "login locations": [
+        [
+            -117.898716,
+            33.655375
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "holtthomas@gmail.com",
     "birthdate": "1926-03-26",
     "phone": "+1-464-214-4922",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        14,
+        3,
+        59,
+        71,
+        27,
+        66
+    ],
+    "login locations": [
+        [
+            -122.26339,
+            37.820485
+        ]
+    ],
+    "relationships": []
 }

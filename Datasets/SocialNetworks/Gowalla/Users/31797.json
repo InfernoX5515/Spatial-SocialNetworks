@@ -5,7 +5,23 @@
     "email": "williamanderson@yahoo.com",
     "birthdate": "1934-02-05",
     "phone": "746-414-5755",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        45,
+        41,
+        21,
+        23,
+        57,
+        60,
+        69,
+        30,
+        5
+    ],
+    "login locations": [
+        [
+            -121.984517,
+            37.154018
+        ]
+    ],
+    "relationships": []
 }

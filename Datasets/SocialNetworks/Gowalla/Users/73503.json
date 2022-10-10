@@ -5,7 +5,17 @@
     "email": "candice68@hotmail.com",
     "birthdate": "2019-08-07",
     "phone": "+1-819-793-5803x8085",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        24,
+        47,
+        37
+    ],
+    "login locations": [
+        [
+            -122.309931,
+            37.838694
+        ]
+    ],
+    "relationships": []
 }

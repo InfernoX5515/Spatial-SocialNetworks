@@ -5,7 +5,30 @@
     "email": "raydonald@hotmail.com",
     "birthdate": "1945-03-31",
     "phone": "382.901.8247",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        31,
+        40,
+        67,
+        44,
+        32
+    ],
+    "login locations": [
+        [
+            -118.38953,
+            34.015858
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7337,
+                0.1
+            ],
+            [
+                7337,
+                0.1
+            ]
+        ]
+    ]
 }

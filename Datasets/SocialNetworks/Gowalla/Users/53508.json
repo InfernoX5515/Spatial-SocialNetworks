@@ -5,7 +5,28 @@
     "email": "jamesholmes@hotmail.com",
     "birthdate": "1985-08-07",
     "phone": "+1-066-543-4531",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        46,
+        59,
+        45,
+        38,
+        2,
+        18,
+        72,
+        1,
+        54,
+        49,
+        38,
+        11,
+        57,
+        13
+    ],
+    "login locations": [
+        [
+            -118.297096,
+            34.129334
+        ]
+    ],
+    "relationships": []
 }

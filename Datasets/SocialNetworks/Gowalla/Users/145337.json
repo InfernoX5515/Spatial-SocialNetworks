@@ -5,7 +5,24 @@
     "email": "sanderslaurie@hotmail.com",
     "birthdate": "1975-10-10",
     "phone": "(667)922-4121",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        37,
+        16,
+        17,
+        57,
+        26,
+        50,
+        8,
+        35,
+        12,
+        71
+    ],
+    "login locations": [
+        [
+            -122.400473,
+            37.634682
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "iwhite@yahoo.com",
     "birthdate": "1988-03-23",
     "phone": "+1-345-614-7865",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        46,
+        23,
+        8,
+        1,
+        49,
+        20,
+        71,
+        25,
+        75
+    ],
+    "login locations": [
+        [
+            -122.428727,
+            37.76895
+        ]
+    ],
+    "relationships": []
 }

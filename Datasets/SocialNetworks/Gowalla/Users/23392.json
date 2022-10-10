@@ -5,7 +5,26 @@
     "email": "batkinson@hotmail.com",
     "birthdate": "2006-04-18",
     "phone": "+1-856-981-9587",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        29,
+        13,
+        68,
+        57,
+        43,
+        30,
+        63,
+        55,
+        28,
+        36,
+        37,
+        36
+    ],
+    "login locations": [
+        [
+            -122.109999,
+            37.685225
+        ]
+    ],
+    "relationships": []
 }

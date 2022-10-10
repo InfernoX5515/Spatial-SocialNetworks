@@ -5,7 +5,28 @@
     "email": "xpowers@hotmail.com",
     "birthdate": "1920-03-02",
     "phone": "(275)407-3786",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        32,
+        29,
+        42,
+        49,
+        6,
+        57,
+        11,
+        58,
+        51,
+        3,
+        21,
+        41,
+        2,
+        15
+    ],
+    "login locations": [
+        [
+            -117.867585,
+            33.939954
+        ]
+    ],
+    "relationships": []
 }

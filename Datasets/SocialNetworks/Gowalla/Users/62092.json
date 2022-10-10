@@ -5,7 +5,18 @@
     "email": "nicholasmartinez@gmail.com",
     "birthdate": "1946-04-13",
     "phone": "442-944-6886x7135",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        63,
+        33,
+        47,
+        41
+    ],
+    "login locations": [
+        [
+            -117.158259,
+            32.788852
+        ]
+    ],
+    "relationships": []
 }

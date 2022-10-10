@@ -5,7 +5,22 @@
     "email": "glenn64@yahoo.com",
     "birthdate": "2020-07-11",
     "phone": "001-522-609-3847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        16,
+        74,
+        38,
+        75,
+        42,
+        7,
+        32,
+        4
+    ],
+    "login locations": [
+        [
+            -121.896837,
+            37.336515
+        ]
+    ],
+    "relationships": []
 }

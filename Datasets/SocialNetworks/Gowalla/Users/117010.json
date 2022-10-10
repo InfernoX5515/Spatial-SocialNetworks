@@ -5,7 +5,30 @@
     "email": "harringtonalexander@yahoo.com",
     "birthdate": "1989-04-17",
     "phone": "+1-599-500-3557x195",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        47,
+        57,
+        51,
+        65,
+        52
+    ],
+    "login locations": [
+        [
+            -117.113772,
+            32.961496
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                35318,
+                0.024
+            ],
+            [
+                35318,
+                0.024
+            ]
+        ]
+    ]
 }

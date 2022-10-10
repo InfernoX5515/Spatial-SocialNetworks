@@ -5,7 +5,15 @@
     "email": "kingtom@gmail.com",
     "birthdate": "1932-06-28",
     "phone": "2563287009",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        11
+    ],
+    "login locations": [
+        [
+            -121.982844,
+            36.988969
+        ]
+    ],
+    "relationships": []
 }

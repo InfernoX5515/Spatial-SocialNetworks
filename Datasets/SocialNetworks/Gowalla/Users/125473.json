@@ -5,7 +5,23 @@
     "email": "owenerin@gmail.com",
     "birthdate": "1926-10-15",
     "phone": "001-361-959-7420x3032",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        9,
+        64,
+        31,
+        45,
+        65,
+        55,
+        28,
+        1,
+        74
+    ],
+    "login locations": [
+        [
+            -118.178274,
+            33.809777
+        ]
+    ],
+    "relationships": []
 }

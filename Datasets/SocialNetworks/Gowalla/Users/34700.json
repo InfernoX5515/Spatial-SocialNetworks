@@ -5,7 +5,15 @@
     "email": "taylorjasmine@hotmail.com",
     "birthdate": "1935-01-16",
     "phone": "866.865.2490x6310",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        35
+    ],
+    "login locations": [
+        [
+            -122.382891,
+            37.771817
+        ]
+    ],
+    "relationships": []
 }

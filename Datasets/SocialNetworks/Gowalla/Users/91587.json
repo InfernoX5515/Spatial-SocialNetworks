@@ -5,7 +5,25 @@
     "email": "rcontreras@yahoo.com",
     "birthdate": "1912-02-08",
     "phone": "460-125-1184x57945",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        56,
+        3,
+        37,
+        54,
+        36,
+        22,
+        44,
+        31,
+        6,
+        4,
+        39
+    ],
+    "login locations": [
+        [
+            -121.308772,
+            38.750618
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "jacksonnatalie@gmail.com",
     "birthdate": "1983-01-11",
     "phone": "188-696-0193x080",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        58,
+        68,
+        12
+    ],
+    "login locations": [
+        [
+            -121.033394,
+            37.699045
+        ]
+    ],
+    "relationships": []
 }

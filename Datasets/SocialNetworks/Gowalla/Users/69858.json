@@ -5,7 +5,12 @@
     "email": "joshuagriffith@hotmail.com",
     "birthdate": "2007-02-04",
     "phone": "+1-967-649-2199",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.014617,
+            37.25488
+        ]
+    ],
+    "relationships": []
 }

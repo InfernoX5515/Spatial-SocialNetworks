@@ -5,7 +5,19 @@
     "email": "kwalker@yahoo.com",
     "birthdate": "1958-01-28",
     "phone": "001-085-001-9625x8810",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        35,
+        69,
+        31,
+        26,
+        48
+    ],
+    "login locations": [
+        [
+            -118.374972,
+            34.050641
+        ]
+    ],
+    "relationships": []
 }

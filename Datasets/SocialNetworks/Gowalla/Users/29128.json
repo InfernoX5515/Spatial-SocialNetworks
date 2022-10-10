@@ -5,7 +5,14 @@
     "email": "stephanie88@hotmail.com",
     "birthdate": "1979-05-26",
     "phone": "(782)400-4439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75
+    ],
+    "login locations": [
+        [
+            -117.976579,
+            33.894121
+        ]
+    ],
+    "relationships": []
 }

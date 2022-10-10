@@ -5,7 +5,22 @@
     "email": "justinhall@hotmail.com",
     "birthdate": "2010-11-08",
     "phone": "3488884091",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        51,
+        10,
+        6,
+        61,
+        73,
+        40,
+        44,
+        33
+    ],
+    "login locations": [
+        [
+            -122.35866,
+            37.681942
+        ]
+    ],
+    "relationships": []
 }

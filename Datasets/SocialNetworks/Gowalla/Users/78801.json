@@ -5,7 +5,15 @@
     "email": "gabrielleflynn@yahoo.com",
     "birthdate": "1952-08-26",
     "phone": "+1-045-470-7989x6611",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        63
+    ],
+    "login locations": [
+        [
+            -122.416204,
+            37.759022
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "hicksjennifer@hotmail.com",
     "birthdate": "1924-02-10",
     "phone": "374.866.5746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        21,
+        48,
+        1,
+        32,
+        32
+    ],
+    "login locations": [
+        [
+            -117.959413,
+            33.808545
+        ]
+    ],
+    "relationships": []
 }

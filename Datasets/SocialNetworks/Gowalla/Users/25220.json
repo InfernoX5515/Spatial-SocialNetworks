@@ -5,7 +5,36 @@
     "email": "procha@yahoo.com",
     "birthdate": "1918-08-03",
     "phone": "498-830-3850x990",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        31,
+        44,
+        13,
+        7,
+        41,
+        6,
+        55,
+        43,
+        53,
+        14,
+        55
+    ],
+    "login locations": [
+        [
+            -122.413333,
+            37.796545
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5510,
+                0.0165289256198
+            ],
+            [
+                9331,
+                0.08
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "sandersashley@yahoo.com",
     "birthdate": "1952-04-28",
     "phone": "4700866012",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        69,
+        71,
+        60,
+        52,
+        67,
+        74,
+        18,
+        64,
+        74
+    ],
+    "login locations": [
+        [
+            -122.078176,
+            37.736733
+        ]
+    ],
+    "relationships": []
 }

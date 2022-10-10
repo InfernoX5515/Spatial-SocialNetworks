@@ -5,7 +5,27 @@
     "email": "brownapril@yahoo.com",
     "birthdate": "1922-09-19",
     "phone": "(401)789-2871x0066",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        45,
+        17,
+        71,
+        37,
+        64,
+        3,
+        0,
+        24,
+        14,
+        56,
+        2,
+        67,
+        41
+    ],
+    "login locations": [
+        [
+            -118.372422,
+            34.133038
+        ]
+    ],
+    "relationships": []
 }

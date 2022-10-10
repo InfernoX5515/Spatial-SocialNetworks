@@ -5,7 +5,28 @@
     "email": "justin59@gmail.com",
     "birthdate": "1955-12-24",
     "phone": "(281)208-6596",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        28,
+        45,
+        36,
+        67,
+        48,
+        53,
+        12,
+        24,
+        31,
+        9,
+        19,
+        50,
+        21,
+        71
+    ],
+    "login locations": [
+        [
+            -119.002687,
+            34.197871
+        ]
+    ],
+    "relationships": []
 }

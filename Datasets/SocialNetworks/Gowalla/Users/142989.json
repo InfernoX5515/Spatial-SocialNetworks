@@ -5,7 +5,26 @@
     "email": "harryward@yahoo.com",
     "birthdate": "1928-05-26",
     "phone": "+1-760-379-1378x487",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        8,
+        9,
+        64,
+        22,
+        5,
+        12,
+        20,
+        56,
+        27,
+        31,
+        55,
+        66
+    ],
+    "login locations": [
+        [
+            -117.062671,
+            33.016065
+        ]
+    ],
+    "relationships": []
 }

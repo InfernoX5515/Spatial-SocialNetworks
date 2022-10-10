@@ -5,7 +5,23 @@
     "email": "sarah13@yahoo.com",
     "birthdate": "1996-01-15",
     "phone": "001-512-572-9149",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        51,
+        16,
+        44,
+        34,
+        0,
+        31,
+        40,
+        70,
+        34
+    ],
+    "login locations": [
+        [
+            -122.160254,
+            37.434289
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,34 @@
     "email": "stokesbrittney@yahoo.com",
     "birthdate": "2008-02-13",
     "phone": "9242539712",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        42,
+        54,
+        19,
+        8,
+        21,
+        75,
+        75,
+        45,
+        47
+    ],
+    "login locations": [
+        [
+            -121.939289,
+            37.302988
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                37562,
+                0.01
+            ],
+            [
+                37562,
+                0.01
+            ]
+        ]
+    ]
 }

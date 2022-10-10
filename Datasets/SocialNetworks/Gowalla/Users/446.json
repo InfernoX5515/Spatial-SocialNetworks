@@ -5,7 +5,30 @@
     "email": "jakekim@yahoo.com",
     "birthdate": "1913-09-12",
     "phone": "001-854-942-1227",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        26,
+        33,
+        13,
+        3,
+        66
+    ],
+    "login locations": [
+        [
+            -122.063729,
+            37.386423
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                28842,
+                0.223021582734
+            ],
+            [
+                28858,
+                0.269230769231
+            ]
+        ]
+    ]
 }

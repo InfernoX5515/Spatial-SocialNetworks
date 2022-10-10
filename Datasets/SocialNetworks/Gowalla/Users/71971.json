@@ -5,7 +5,24 @@
     "email": "andrewsbrian@gmail.com",
     "birthdate": "1985-05-25",
     "phone": "219.158.5986x9094",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        41,
+        6,
+        33,
+        10,
+        59,
+        66,
+        43,
+        3,
+        35,
+        6
+    ],
+    "login locations": [
+        [
+            -122.005991,
+            37.32849
+        ]
+    ],
+    "relationships": []
 }

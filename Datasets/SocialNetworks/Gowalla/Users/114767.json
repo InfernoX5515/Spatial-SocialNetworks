@@ -5,7 +5,27 @@
     "email": "dominicmaynard@hotmail.com",
     "birthdate": "2012-03-20",
     "phone": "001-817-900-0685x30770",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        2,
+        67,
+        54,
+        32,
+        44,
+        75,
+        41,
+        31,
+        26,
+        57,
+        35,
+        60,
+        74
+    ],
+    "login locations": [
+        [
+            -122.396405,
+            37.692649
+        ]
+    ],
+    "relationships": []
 }

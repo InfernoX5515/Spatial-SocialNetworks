@@ -5,7 +5,25 @@
     "email": "moodysharon@gmail.com",
     "birthdate": "1933-10-04",
     "phone": "+1-789-301-3733",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14
+    ],
+    "login locations": [
+        [
+            -122.144655,
+            37.428448
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5612,
+                0.596923076923
+            ],
+            [
+                5612,
+                0.596923076923
+            ]
+        ]
+    ]
 }

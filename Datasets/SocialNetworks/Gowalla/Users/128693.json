@@ -5,7 +5,16 @@
     "email": "sjohnson@gmail.com",
     "birthdate": "1922-06-04",
     "phone": "(098)438-6606",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        45,
+        35
+    ],
+    "login locations": [
+        [
+            -122.253057,
+            37.818468
+        ]
+    ],
+    "relationships": []
 }

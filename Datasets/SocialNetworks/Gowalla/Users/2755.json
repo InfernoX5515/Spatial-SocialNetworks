@@ -5,7 +5,33 @@
     "email": "david04@gmail.com",
     "birthdate": "2000-09-25",
     "phone": "978.126.7537",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        42,
+        28,
+        47,
+        71,
+        50,
+        0,
+        74,
+        62
+    ],
+    "login locations": [
+        [
+            -122.417934,
+            37.799276
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                126,
+                0.11301369863
+            ],
+            [
+                487,
+                0.0301754385965
+            ]
+        ]
+    ]
 }

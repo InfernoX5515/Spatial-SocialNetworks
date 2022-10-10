@@ -5,7 +5,33 @@
     "email": "kimberly60@yahoo.com",
     "birthdate": "1968-09-01",
     "phone": "(910)470-3280x7826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        42,
+        13,
+        23,
+        49,
+        59,
+        66,
+        14,
+        2
+    ],
+    "login locations": [
+        [
+            -122.417747,
+            37.786591
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2607,
+                0.038961038961
+            ],
+            [
+                41588,
+                0.04
+            ]
+        ]
+    ]
 }

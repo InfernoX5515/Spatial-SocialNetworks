@@ -5,7 +5,28 @@
     "email": "teresa18@gmail.com",
     "birthdate": "1992-04-22",
     "phone": "001-953-297-1121x1718",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        38,
+        57,
+        18,
+        69,
+        8,
+        16,
+        47,
+        52,
+        10,
+        52,
+        2,
+        65,
+        0,
+        28
+    ],
+    "login locations": [
+        [
+            -122.437839,
+            37.738573
+        ]
+    ],
+    "relationships": []
 }

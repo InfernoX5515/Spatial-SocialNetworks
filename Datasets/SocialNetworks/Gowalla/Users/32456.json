@@ -5,7 +5,18 @@
     "email": "qpittman@yahoo.com",
     "birthdate": "2001-10-06",
     "phone": "943.367.3268",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        1,
+        32,
+        40,
+        15
+    ],
+    "login locations": [
+        [
+            -122.398995,
+            37.71916
+        ]
+    ],
+    "relationships": []
 }

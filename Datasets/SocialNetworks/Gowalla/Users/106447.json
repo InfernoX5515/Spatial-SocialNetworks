@@ -5,7 +5,26 @@
     "email": "lphelps@hotmail.com",
     "birthdate": "1912-03-01",
     "phone": "001-324-552-4548x334",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        52,
+        20,
+        10,
+        16,
+        70,
+        60,
+        16,
+        22,
+        64,
+        52,
+        74,
+        47
+    ],
+    "login locations": [
+        [
+            -119.777939,
+            36.822087
+        ]
+    ],
+    "relationships": []
 }

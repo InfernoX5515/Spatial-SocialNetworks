@@ -5,7 +5,32 @@
     "email": "qwilliams@gmail.com",
     "birthdate": "1996-12-24",
     "phone": "2493351496",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        6,
+        51,
+        70,
+        62,
+        53,
+        13,
+        14
+    ],
+    "login locations": [
+        [
+            -118.175906,
+            33.954787
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7372,
+                0.01
+            ],
+            [
+                7372,
+                0.01
+            ]
+        ]
+    ]
 }

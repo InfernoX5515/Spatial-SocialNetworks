@@ -5,7 +5,32 @@
     "email": "ccastro@hotmail.com",
     "birthdate": "1985-07-21",
     "phone": "514.543.0292",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        63,
+        68,
+        49,
+        44,
+        43,
+        46,
+        38
+    ],
+    "login locations": [
+        [
+            -122.412375,
+            37.762689
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.116788321168
+            ],
+            [
+                87,
+                0.08
+            ]
+        ]
+    ]
 }

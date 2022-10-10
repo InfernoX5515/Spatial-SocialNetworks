@@ -5,7 +5,23 @@
     "email": "torresamy@hotmail.com",
     "birthdate": "2016-02-01",
     "phone": "(294)389-1812x4188",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        40,
+        31,
+        37,
+        67,
+        9,
+        51,
+        16,
+        0,
+        7
+    ],
+    "login locations": [
+        [
+            -121.928702,
+            37.173968
+        ]
+    ],
+    "relationships": []
 }

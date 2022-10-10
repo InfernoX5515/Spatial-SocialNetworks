@@ -5,7 +5,23 @@
     "email": "ronaldsmith@hotmail.com",
     "birthdate": "1973-01-15",
     "phone": "001-885-234-3723x01382",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.283367,
+            34.151777
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                182,
+                0.0869565217391
+            ],
+            [
+                191,
+                0.0210016155089
+            ]
+        ]
+    ]
 }

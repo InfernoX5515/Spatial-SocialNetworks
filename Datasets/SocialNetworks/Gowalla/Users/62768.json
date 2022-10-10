@@ -5,7 +5,22 @@
     "email": "robinsonyvonne@gmail.com",
     "birthdate": "2007-10-21",
     "phone": "001-493-730-0185x309",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        15,
+        72,
+        0,
+        64,
+        54,
+        33,
+        31,
+        4
+    ],
+    "login locations": [
+        [
+            -117.97653,
+            33.886018
+        ]
+    ],
+    "relationships": []
 }

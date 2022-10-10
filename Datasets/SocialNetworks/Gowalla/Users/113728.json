@@ -5,7 +5,14 @@
     "email": "diane17@gmail.com",
     "birthdate": "1948-11-27",
     "phone": "+1-494-814-1638",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4
+    ],
+    "login locations": [
+        [
+            -122.402951,
+            37.782474
+        ]
+    ],
+    "relationships": []
 }

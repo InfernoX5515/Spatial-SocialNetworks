@@ -5,7 +5,16 @@
     "email": "vanessachang@hotmail.com",
     "birthdate": "2009-04-17",
     "phone": "(023)693-6597x0854",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        27,
+        56
+    ],
+    "login locations": [
+        [
+            -118.327095,
+            34.156089
+        ]
+    ],
+    "relationships": []
 }

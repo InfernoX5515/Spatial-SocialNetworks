@@ -5,7 +5,18 @@
     "email": "cathybennett@yahoo.com",
     "birthdate": "1999-07-15",
     "phone": "817.875.1428",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        27,
+        61,
+        4,
+        21
+    ],
+    "login locations": [
+        [
+            -117.201993,
+            32.875258
+        ]
+    ],
+    "relationships": []
 }

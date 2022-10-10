@@ -5,7 +5,21 @@
     "email": "troymeyer@yahoo.com",
     "birthdate": "2005-11-07",
     "phone": "314-924-7685x97563",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        60,
+        55,
+        71,
+        39,
+        66,
+        50,
+        24
+    ],
+    "login locations": [
+        [
+            -122.229881,
+            37.720022
+        ]
+    ],
+    "relationships": []
 }

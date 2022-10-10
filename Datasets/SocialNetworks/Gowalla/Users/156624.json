@@ -5,7 +5,12 @@
     "email": "sheltonlaura@hotmail.com",
     "birthdate": "1991-06-17",
     "phone": "817.486.7600x77130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.837861,
+            33.763097
+        ]
+    ],
+    "relationships": []
 }

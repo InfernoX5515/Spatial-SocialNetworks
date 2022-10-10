@@ -5,7 +5,16 @@
     "email": "orozcobradley@hotmail.com",
     "birthdate": "1978-12-30",
     "phone": "(569)841-4994x7204",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        57,
+        18
+    ],
+    "login locations": [
+        [
+            -118.341754,
+            33.930288
+        ]
+    ],
+    "relationships": []
 }

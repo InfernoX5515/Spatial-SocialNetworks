@@ -5,7 +5,26 @@
     "email": "ryanrubio@yahoo.com",
     "birthdate": "1929-05-29",
     "phone": "001-727-132-9213x28528",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        27,
+        19,
+        57,
+        43,
+        65,
+        58,
+        75,
+        17,
+        49,
+        20,
+        4,
+        43
+    ],
+    "login locations": [
+        [
+            -121.485365,
+            38.572355
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,29 @@
     "email": "zchavez@gmail.com",
     "birthdate": "2010-12-03",
     "phone": "050-706-9610x448",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        74,
+        40,
+        67,
+        37
+    ],
+    "login locations": [
+        [
+            -117.163969,
+            32.72578
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                34380,
+                0.0588235294118
+            ],
+            [
+                125659,
+                0.25
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "nparker@yahoo.com",
     "birthdate": "1981-09-25",
     "phone": "001-338-401-7902x211",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        27,
+        0,
+        53,
+        42,
+        19,
+        33,
+        51,
+        66,
+        66,
+        1,
+        58,
+        14,
+        45
+    ],
+    "login locations": [
+        [
+            -122.415359,
+            37.771972
+        ]
+    ],
+    "relationships": []
 }

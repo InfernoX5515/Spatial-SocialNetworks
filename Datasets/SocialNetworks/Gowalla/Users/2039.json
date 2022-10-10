@@ -5,7 +5,26 @@
     "email": "npena@gmail.com",
     "birthdate": "1923-09-19",
     "phone": "+1-067-268-9410",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        28
+    ],
+    "login locations": [
+        [
+            -118.317345,
+            34.075596
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                59632,
+                0.828571428571
+            ],
+            [
+                2687,
+                0.01
+            ]
+        ]
+    ]
 }

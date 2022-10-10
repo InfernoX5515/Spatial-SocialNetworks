@@ -5,7 +5,27 @@
     "email": "kirstenlee@yahoo.com",
     "birthdate": "2021-04-06",
     "phone": "936.521.0253x693",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        23,
+        72
+    ],
+    "login locations": [
+        [
+            -118.423439,
+            33.979536
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4436,
+                0.01
+            ],
+            [
+                4436,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,21 @@
     "email": "moranolivia@yahoo.com",
     "birthdate": "1984-08-14",
     "phone": "(006)881-4735x0584",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        66,
+        21,
+        46,
+        60,
+        35,
+        40,
+        6
+    ],
+    "login locations": [
+        [
+            -122.42567,
+            37.754211
+        ]
+    ],
+    "relationships": []
 }

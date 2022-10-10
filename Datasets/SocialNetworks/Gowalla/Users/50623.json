@@ -5,7 +5,15 @@
     "email": "nicholschristopher@yahoo.com",
     "birthdate": "1970-06-28",
     "phone": "062-586-5740",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        26
+    ],
+    "login locations": [
+        [
+            -117.840907,
+            33.670219
+        ]
+    ],
+    "relationships": []
 }

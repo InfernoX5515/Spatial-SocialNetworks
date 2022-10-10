@@ -5,7 +5,26 @@
     "email": "simmonsmichael@hotmail.com",
     "birthdate": "1995-05-25",
     "phone": "5893140537",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        17,
+        66,
+        26,
+        31,
+        23,
+        9,
+        63,
+        41,
+        75,
+        49,
+        57,
+        46
+    ],
+    "login locations": [
+        [
+            -118.250414,
+            33.986581
+        ]
+    ],
+    "relationships": []
 }

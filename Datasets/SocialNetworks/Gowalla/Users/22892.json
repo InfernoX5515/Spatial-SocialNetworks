@@ -5,7 +5,27 @@
     "email": "marie54@hotmail.com",
     "birthdate": "1981-05-21",
     "phone": "001-916-411-1794",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        65,
+        8,
+        45,
+        47,
+        67,
+        12,
+        35,
+        32,
+        28,
+        33,
+        35,
+        34,
+        64
+    ],
+    "login locations": [
+        [
+            -122.345243,
+            37.899147
+        ]
+    ],
+    "relationships": []
 }

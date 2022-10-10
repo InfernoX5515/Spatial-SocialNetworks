@@ -5,7 +5,17 @@
     "email": "michaelharrison@gmail.com",
     "birthdate": "1934-01-05",
     "phone": "+1-384-459-7539x37708",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        13,
+        12,
+        25
+    ],
+    "login locations": [
+        [
+            -122.431307,
+            37.732255
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "karen18@gmail.com",
     "birthdate": "2016-11-28",
     "phone": "400-184-9995",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        68,
+        36,
+        1,
+        21,
+        1,
+        24
+    ],
+    "login locations": [
+        [
+            -122.032984,
+            38.315486
+        ]
+    ],
+    "relationships": []
 }

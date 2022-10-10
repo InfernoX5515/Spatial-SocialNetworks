@@ -5,7 +5,29 @@
     "email": "jeremiahdoyle@gmail.com",
     "birthdate": "1962-11-17",
     "phone": "524.935.8386",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        26,
+        55,
+        31,
+        66
+    ],
+    "login locations": [
+        [
+            -122.400724,
+            37.778525
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                191,
+                0.01
+            ],
+            [
+                191,
+                0.01
+            ]
+        ]
+    ]
 }

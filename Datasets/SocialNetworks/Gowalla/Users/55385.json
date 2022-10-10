@@ -5,7 +5,25 @@
     "email": "tamara82@yahoo.com",
     "birthdate": "1967-07-19",
     "phone": "(837)945-4372x404",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        15,
+        68,
+        13,
+        41,
+        1,
+        63,
+        13,
+        37,
+        6,
+        58,
+        59
+    ],
+    "login locations": [
+        [
+            -118.311322,
+            34.073747
+        ]
+    ],
+    "relationships": []
 }

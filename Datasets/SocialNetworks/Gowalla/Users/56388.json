@@ -5,7 +5,16 @@
     "email": "smithjason@gmail.com",
     "birthdate": "2006-09-06",
     "phone": "(621)062-1353x932",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        45,
+        26
+    ],
+    "login locations": [
+        [
+            -118.294186,
+            34.083426
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "brownamanda@yahoo.com",
     "birthdate": "2019-01-31",
     "phone": "331-227-2839",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        19,
+        8,
+        31,
+        48,
+        34,
+        47,
+        39,
+        48,
+        13
+    ],
+    "login locations": [
+        [
+            -119.020361,
+            35.343805
+        ]
+    ],
+    "relationships": []
 }

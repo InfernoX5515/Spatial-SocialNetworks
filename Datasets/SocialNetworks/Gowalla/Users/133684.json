@@ -5,7 +5,25 @@
     "email": "mmartin@yahoo.com",
     "birthdate": "1985-06-19",
     "phone": "4978171754",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        67,
+        4,
+        71,
+        52,
+        72,
+        42,
+        9,
+        53,
+        27,
+        18,
+        55
+    ],
+    "login locations": [
+        [
+            -119.743988,
+            36.837689
+        ]
+    ],
+    "relationships": []
 }

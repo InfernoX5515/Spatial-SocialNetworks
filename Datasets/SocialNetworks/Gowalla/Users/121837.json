@@ -5,7 +5,30 @@
     "email": "millsjeremy@hotmail.com",
     "birthdate": "1943-03-14",
     "phone": "001-734-287-0323x21178",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        69,
+        10,
+        55,
+        57,
+        35
+    ],
+    "login locations": [
+        [
+            -117.872842,
+            33.836906
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                29523,
+                0.01
+            ],
+            [
+                29523,
+                0.01
+            ]
+        ]
+    ]
 }

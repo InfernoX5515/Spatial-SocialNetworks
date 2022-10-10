@@ -5,7 +5,36 @@
     "email": "jennyreed@yahoo.com",
     "birthdate": "1998-05-14",
     "phone": "(247)715-8044x069",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        32,
+        32,
+        14,
+        49,
+        58,
+        30,
+        16,
+        26,
+        37,
+        25,
+        40
+    ],
+    "login locations": [
+        [
+            -121.933527,
+            37.260654
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                26428,
+                0.0526315789474
+            ],
+            [
+                118870,
+                0.0975609756098
+            ]
+        ]
+    ]
 }

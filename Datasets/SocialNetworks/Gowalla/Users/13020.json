@@ -5,7 +5,20 @@
     "email": "johnsonconnie@hotmail.com",
     "birthdate": "1915-12-27",
     "phone": "(964)274-9539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        23,
+        73,
+        25,
+        56,
+        12,
+        58
+    ],
+    "login locations": [
+        [
+            -121.894663,
+            36.605412
+        ]
+    ],
+    "relationships": []
 }

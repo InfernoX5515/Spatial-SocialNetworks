@@ -5,7 +5,28 @@
     "email": "amystrickland@yahoo.com",
     "birthdate": "1952-05-24",
     "phone": "924.507.4958",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        3,
+        33,
+        24,
+        63,
+        58,
+        49,
+        43,
+        67,
+        63,
+        32,
+        65,
+        66,
+        13,
+        65
+    ],
+    "login locations": [
+        [
+            -121.884299,
+            37.286383
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "smithnicole@hotmail.com",
     "birthdate": "2015-07-24",
     "phone": "001-197-730-0239",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        0,
+        43,
+        21,
+        32,
+        24,
+        49,
+        4,
+        73,
+        48,
+        54,
+        16,
+        72,
+        6
+    ],
+    "login locations": [
+        [
+            -122.008681,
+            37.385768
+        ]
+    ],
+    "relationships": []
 }

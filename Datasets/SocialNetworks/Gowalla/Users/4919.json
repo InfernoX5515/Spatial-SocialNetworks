@@ -5,7 +5,20 @@
     "email": "msantos@yahoo.com",
     "birthdate": "1996-01-30",
     "phone": "6269281321",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        14,
+        42,
+        3,
+        74,
+        41,
+        13
+    ],
+    "login locations": [
+        [
+            -117.190011,
+            33.659631
+        ]
+    ],
+    "relationships": []
 }

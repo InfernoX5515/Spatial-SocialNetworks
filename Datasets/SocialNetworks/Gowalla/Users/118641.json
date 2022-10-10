@@ -5,7 +5,26 @@
     "email": "bakerdaniel@yahoo.com",
     "birthdate": "1930-05-24",
     "phone": "001-791-063-5847x05472",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        51,
+        40,
+        61,
+        3,
+        62,
+        5,
+        36,
+        35,
+        40,
+        67,
+        63,
+        0
+    ],
+    "login locations": [
+        [
+            -117.207292,
+            32.779025
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "wburns@hotmail.com",
     "birthdate": "1957-06-01",
     "phone": "001-559-669-6111x9048",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        32,
+        55,
+        61,
+        60,
+        39,
+        71,
+        12,
+        12,
+        70,
+        36,
+        47
+    ],
+    "login locations": [
+        [
+            -118.439983,
+            34.121806
+        ]
+    ],
+    "relationships": []
 }

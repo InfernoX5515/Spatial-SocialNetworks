@@ -5,7 +5,24 @@
     "email": "slove@gmail.com",
     "birthdate": "1923-02-06",
     "phone": "0648867537",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        14,
+        8,
+        39,
+        17,
+        1,
+        51,
+        63,
+        15,
+        27,
+        71
+    ],
+    "login locations": [
+        [
+            -122.407728,
+            37.785566
+        ]
+    ],
+    "relationships": []
 }

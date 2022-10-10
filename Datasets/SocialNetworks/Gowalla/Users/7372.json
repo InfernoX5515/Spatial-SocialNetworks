@@ -5,7 +5,29 @@
     "email": "dgarcia@gmail.com",
     "birthdate": "1915-02-23",
     "phone": "+1-842-731-9349x5002",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        51,
+        40,
+        2,
+        44
+    ],
+    "login locations": [
+        [
+            -122.400241,
+            37.77813
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                1454,
+                0.01
+            ]
+        ]
+    ]
 }

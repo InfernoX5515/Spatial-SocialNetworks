@@ -5,7 +5,16 @@
     "email": "ericajohnson@gmail.com",
     "birthdate": "1982-07-19",
     "phone": "262.509.7690",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        68,
+        63
+    ],
+    "login locations": [
+        [
+            -121.944016,
+            37.303065
+        ]
+    ],
+    "relationships": []
 }

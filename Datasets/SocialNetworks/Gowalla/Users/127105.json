@@ -5,7 +5,28 @@
     "email": "matthew48@hotmail.com",
     "birthdate": "2008-10-05",
     "phone": "(693)787-8170",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        56,
+        64,
+        19
+    ],
+    "login locations": [
+        [
+            -121.030638,
+            37.687403
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                127103,
+                0.0454545454545
+            ],
+            [
+                127103,
+                0.0454545454545
+            ]
+        ]
+    ]
 }

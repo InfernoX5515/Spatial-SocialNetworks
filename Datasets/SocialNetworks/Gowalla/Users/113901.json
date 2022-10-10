@@ -5,7 +5,26 @@
     "email": "rhondabrown@yahoo.com",
     "birthdate": "1960-12-19",
     "phone": "218-431-8158x1698",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        33,
+        21,
+        27,
+        58,
+        27,
+        8,
+        49,
+        66,
+        0,
+        30,
+        14,
+        31
+    ],
+    "login locations": [
+        [
+            -122.095558,
+            37.405566
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,33 @@
     "email": "caitlinyates@yahoo.com",
     "birthdate": "1940-04-23",
     "phone": "001-461-431-7124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        33,
+        40,
+        45,
+        52,
+        63,
+        28,
+        50,
+        17
+    ],
+    "login locations": [
+        [
+            -122.387203,
+            37.788876
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39962,
+                0.133333333333
+            ],
+            [
+                113994,
+                0.0466666666667
+            ]
+        ]
+    ]
 }

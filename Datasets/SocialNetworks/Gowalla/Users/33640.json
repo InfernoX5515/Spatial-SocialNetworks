@@ -5,7 +5,20 @@
     "email": "xwebb@yahoo.com",
     "birthdate": "1923-01-01",
     "phone": "+1-902-717-7428",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        63,
+        71,
+        74,
+        34,
+        5,
+        22
+    ],
+    "login locations": [
+        [
+            -120.221448,
+            39.343481
+        ]
+    ],
+    "relationships": []
 }

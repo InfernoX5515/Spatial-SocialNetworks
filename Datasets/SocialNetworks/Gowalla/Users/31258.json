@@ -5,7 +5,22 @@
     "email": "jennifer64@hotmail.com",
     "birthdate": "1945-05-05",
     "phone": "603-176-5839x8806",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        66,
+        63,
+        15,
+        28,
+        6,
+        13,
+        64,
+        30
+    ],
+    "login locations": [
+        [
+            -118.306713,
+            34.061149
+        ]
+    ],
+    "relationships": []
 }

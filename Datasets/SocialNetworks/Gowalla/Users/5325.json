@@ -5,7 +5,27 @@
     "email": "jacobmckenzie@hotmail.com",
     "birthdate": "2003-11-27",
     "phone": "583-357-5223x402",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        17,
+        22
+    ],
+    "login locations": [
+        [
+            -122.378625,
+            37.719
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.014598540146
+            ],
+            [
+                246,
+                0.012987012987
+            ]
+        ]
+    ]
 }

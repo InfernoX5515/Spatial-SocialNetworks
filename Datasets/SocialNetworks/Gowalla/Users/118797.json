@@ -5,7 +5,32 @@
     "email": "richard94@gmail.com",
     "birthdate": "1939-01-08",
     "phone": "153-883-6072x70586",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        72,
+        74,
+        67,
+        14,
+        29,
+        6,
+        40
+    ],
+    "login locations": [
+        [
+            -117.937211,
+            33.874361
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118799,
+                0.438356164384
+            ],
+            [
+                118799,
+                0.438356164384
+            ]
+        ]
+    ]
 }

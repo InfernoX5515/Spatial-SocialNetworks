@@ -5,7 +5,22 @@
     "email": "daniel94@hotmail.com",
     "birthdate": "1946-09-27",
     "phone": "(293)021-7143",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        19,
+        15,
+        25,
+        45,
+        37,
+        3,
+        41,
+        53
+    ],
+    "login locations": [
+        [
+            -121.95464,
+            37.305533
+        ]
+    ],
+    "relationships": []
 }

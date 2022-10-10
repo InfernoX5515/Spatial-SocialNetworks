@@ -5,7 +5,28 @@
     "email": "deanwilliams@yahoo.com",
     "birthdate": "1946-12-12",
     "phone": "399.826.7464x975",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        65,
+        63,
+        45,
+        32,
+        44,
+        44,
+        27,
+        62,
+        71,
+        17,
+        6,
+        12,
+        50,
+        36
+    ],
+    "login locations": [
+        [
+            -117.979121,
+            33.836619
+        ]
+    ],
+    "relationships": []
 }

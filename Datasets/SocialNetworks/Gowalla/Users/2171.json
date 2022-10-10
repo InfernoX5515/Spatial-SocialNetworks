@@ -5,7 +5,25 @@
     "email": "mcfarlandangela@hotmail.com",
     "birthdate": "1919-07-09",
     "phone": "001-222-648-6737x780",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        15,
+        44,
+        32,
+        50,
+        21,
+        43,
+        26,
+        20,
+        24,
+        58,
+        2
+    ],
+    "login locations": [
+        [
+            -118.362824,
+            34.078099
+        ]
+    ],
+    "relationships": []
 }

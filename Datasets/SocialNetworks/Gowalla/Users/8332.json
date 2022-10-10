@@ -5,7 +5,24 @@
     "email": "ipacheco@yahoo.com",
     "birthdate": "1999-11-25",
     "phone": "430-343-1954",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        25,
+        63,
+        49,
+        5,
+        39,
+        72,
+        26,
+        57,
+        53,
+        56
+    ],
+    "login locations": [
+        [
+            -116.303555,
+            33.734239
+        ]
+    ],
+    "relationships": []
 }

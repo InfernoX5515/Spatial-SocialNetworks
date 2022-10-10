@@ -5,7 +5,37 @@
     "email": "jvillanueva@yahoo.com",
     "birthdate": "1940-03-26",
     "phone": "001-298-810-1696x646",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        14,
+        74,
+        12,
+        30,
+        2,
+        44,
+        71,
+        1,
+        15,
+        12,
+        62,
+        51
+    ],
+    "login locations": [
+        [
+            -122.294108,
+            37.777017
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8690,
+                0.0571428571429
+            ],
+            [
+                10844,
+                0.157894736842
+            ]
+        ]
+    ]
 }

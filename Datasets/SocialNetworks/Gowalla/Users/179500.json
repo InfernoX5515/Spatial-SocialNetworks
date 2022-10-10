@@ -5,7 +5,14 @@
     "email": "lori71@gmail.com",
     "birthdate": "1958-12-06",
     "phone": "476.922.5956",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50
+    ],
+    "login locations": [
+        [
+            -117.209432,
+            32.898737
+        ]
+    ],
+    "relationships": []
 }

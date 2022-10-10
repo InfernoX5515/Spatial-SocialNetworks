@@ -5,7 +5,28 @@
     "email": "wcontreras@yahoo.com",
     "birthdate": "1960-02-25",
     "phone": "001-349-379-0173x298",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        20,
+        28,
+        21,
+        44,
+        55,
+        35,
+        17,
+        41,
+        26,
+        42,
+        21,
+        48,
+        39,
+        48
+    ],
+    "login locations": [
+        [
+            -122.275543,
+            38.27493
+        ]
+    ],
+    "relationships": []
 }

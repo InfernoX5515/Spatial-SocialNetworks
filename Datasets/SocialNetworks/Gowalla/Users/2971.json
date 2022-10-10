@@ -5,7 +5,28 @@
     "email": "ashleybates@gmail.com",
     "birthdate": "1985-05-22",
     "phone": "442.972.4961",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        62,
+        48,
+        44
+    ],
+    "login locations": [
+        [
+            -117.932945,
+            33.762291
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                14473,
+                0.0555555555556
+            ],
+            [
+                14473,
+                0.0555555555556
+            ]
+        ]
+    ]
 }

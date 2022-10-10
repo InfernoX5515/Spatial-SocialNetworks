@@ -5,7 +5,14 @@
     "email": "xmcdonald@hotmail.com",
     "birthdate": "1931-08-16",
     "phone": "5883480479",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65
+    ],
+    "login locations": [
+        [
+            -117.984463,
+            33.768216
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "aramirez@yahoo.com",
     "birthdate": "1946-06-21",
     "phone": "+1-376-172-0885x491",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        35,
+        25,
+        35,
+        67,
+        64,
+        37,
+        48,
+        17,
+        72,
+        7,
+        6,
+        68
+    ],
+    "login locations": [
+        [
+            -118.294004,
+            34.030523
+        ]
+    ],
+    "relationships": []
 }

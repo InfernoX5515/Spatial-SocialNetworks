@@ -5,7 +5,14 @@
     "email": "tkelley@hotmail.com",
     "birthdate": "1992-10-06",
     "phone": "955.648.1331",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49
+    ],
+    "login locations": [
+        [
+            -122.39861,
+            37.774481
+        ]
+    ],
+    "relationships": []
 }

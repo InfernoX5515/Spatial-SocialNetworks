@@ -5,7 +5,18 @@
     "email": "dawngonzalez@gmail.com",
     "birthdate": "1951-11-12",
     "phone": "7242856190",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        23,
+        43,
+        41,
+        57
+    ],
+    "login locations": [
+        [
+            -121.966855,
+            37.336949
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,33 @@
     "email": "qhill@yahoo.com",
     "birthdate": "1967-01-19",
     "phone": "258.322.4060",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        44,
+        43,
+        69,
+        22,
+        65,
+        33,
+        29,
+        20
+    ],
+    "login locations": [
+        [
+            -122.289035,
+            37.917601
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                48893,
+                0.01
+            ],
+            [
+                48893,
+                0.01
+            ]
+        ]
+    ]
 }

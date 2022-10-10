@@ -5,7 +5,17 @@
     "email": "ewhite@gmail.com",
     "birthdate": "1975-11-27",
     "phone": "982.436.5214",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        21,
+        42,
+        61
+    ],
+    "login locations": [
+        [
+            -117.322469,
+            34.071683
+        ]
+    ],
+    "relationships": []
 }

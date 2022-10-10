@@ -5,7 +5,15 @@
     "email": "lchang@hotmail.com",
     "birthdate": "2019-11-01",
     "phone": "001-944-910-9043x93711",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        28
+    ],
+    "login locations": [
+        [
+            -117.724878,
+            33.630738
+        ]
+    ],
+    "relationships": []
 }

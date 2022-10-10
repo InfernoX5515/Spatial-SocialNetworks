@@ -5,7 +5,28 @@
     "email": "steven61@hotmail.com",
     "birthdate": "1970-02-19",
     "phone": "915-775-6497x1871",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        27,
+        60,
+        33,
+        48,
+        44,
+        68,
+        53,
+        72,
+        28,
+        21,
+        21,
+        28,
+        47,
+        14
+    ],
+    "login locations": [
+        [
+            -122.405466,
+            37.759758
+        ]
+    ],
+    "relationships": []
 }

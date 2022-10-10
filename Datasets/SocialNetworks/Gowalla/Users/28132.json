@@ -5,7 +5,25 @@
     "email": "brownnicole@hotmail.com",
     "birthdate": "2008-12-04",
     "phone": "(346)461-4107x15829",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        12,
+        25,
+        70,
+        24,
+        51,
+        33,
+        17,
+        23,
+        3,
+        25,
+        20
+    ],
+    "login locations": [
+        [
+            -121.271543,
+            38.591606
+        ]
+    ],
+    "relationships": []
 }

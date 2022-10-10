@@ -5,7 +5,33 @@
     "email": "dhill@yahoo.com",
     "birthdate": "1924-02-21",
     "phone": "001-407-972-0446x382",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        64,
+        36,
+        19,
+        40,
+        41,
+        48,
+        53,
+        8
+    ],
+    "login locations": [
+        [
+            -117.651396,
+            33.667499
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63465,
+                0.01
+            ],
+            [
+                123308,
+                0.08
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,17 @@
     "email": "frank53@hotmail.com",
     "birthdate": "1909-02-04",
     "phone": "+1-215-259-5763x8622",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        31,
+        6,
+        43
+    ],
+    "login locations": [
+        [
+            -121.905301,
+            37.327573
+        ]
+    ],
+    "relationships": []
 }

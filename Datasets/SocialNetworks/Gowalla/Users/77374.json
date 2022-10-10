@@ -5,7 +5,31 @@
     "email": "andersondavid@yahoo.com",
     "birthdate": "1968-11-28",
     "phone": "(124)576-0708x0150",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        62,
+        42,
+        22,
+        18,
+        26,
+        51
+    ],
+    "login locations": [
+        [
+            -118.37196,
+            34.081015
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                70825,
+                0.0240963855422
+            ],
+            [
+                70825,
+                0.0240963855422
+            ]
+        ]
+    ]
 }

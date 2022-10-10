@@ -5,7 +5,21 @@
     "email": "montgomerydanielle@yahoo.com",
     "birthdate": "1963-04-21",
     "phone": "737.592.0260x642",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        1,
+        23,
+        38,
+        17,
+        13,
+        66,
+        69
+    ],
+    "login locations": [
+        [
+            -122.402643,
+            37.773805
+        ]
+    ],
+    "relationships": []
 }

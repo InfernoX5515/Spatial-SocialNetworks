@@ -5,7 +5,21 @@
     "email": "coreyrocha@hotmail.com",
     "birthdate": "1929-06-13",
     "phone": "632-994-8203x599",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        14,
+        28,
+        17,
+        16,
+        24,
+        49,
+        20
+    ],
+    "login locations": [
+        [
+            -118.007059,
+            33.731779
+        ]
+    ],
+    "relationships": []
 }

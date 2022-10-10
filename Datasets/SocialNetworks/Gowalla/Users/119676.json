@@ -5,7 +5,30 @@
     "email": "sharon19@yahoo.com",
     "birthdate": "1931-07-22",
     "phone": "001-440-873-7054x01102",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        58,
+        29,
+        7,
+        60,
+        18
+    ],
+    "login locations": [
+        [
+            -122.264358,
+            37.802103
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                27155,
+                0.0746268656716
+            ],
+            [
+                27155,
+                0.0746268656716
+            ]
+        ]
+    ]
 }

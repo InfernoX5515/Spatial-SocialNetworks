@@ -5,7 +5,29 @@
     "email": "parkercheryl@yahoo.com",
     "birthdate": "2022-07-02",
     "phone": "016.118.3954",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        6,
+        0,
+        60,
+        62
+    ],
+    "login locations": [
+        [
+            -117.136865,
+            32.744782
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                124510,
+                0.30534351145
+            ],
+            [
+                124511,
+                0.285714285714
+            ]
+        ]
+    ]
 }

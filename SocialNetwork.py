@@ -110,27 +110,49 @@ class SocialNetwork:
 
     def loadUsers(self):
         userDir = f"{self.dir}/Users"
-        users = {}
 
         if os.path.exists(userDir):
             files = os.listdir(userDir)
 
-            for file in files:
-                with open(f"{userDir}/{file}", "r") as f:
-                    data = json.load(f)
+            threadCount = 10
+            threads = []
+            total = len(files)
+            start = 0
+            end = math.floor(total / threadCount)
 
-                    if data['id'] not in users:
-                        indexKey = f"~{data['id']}~ll:{data['login locations']}~kw:{data['keywords']}"
-                        users[indexKey] = SNUser(data['id'], loginLocs=data['login locations'],
-                                                 keywords=data['keywords'], relations=data['relationships'],
-                                                 username=data['username'], name=data['name'], email=data['email'],
-                                                 birthdate=data['birthdate'], phone=data['phone'])
+            for x in range(1, threadCount + 1):
+                if x == threadCount + 1:
+                    end = total
+                print(start)
+                print(end)
+                threads += [threading.Thread(target=lambda s=start, e=end: self.loadUserFiles(files[s:e]))]
+                start = end * x
+
+            for thread in threads:
+                thread.start()
+
+            for thread in threads:
+                thread.join()
 
         else:
             os.mkdir(userDir)
             self.users = {}
 
-        self.users = users
+    def loadUserFiles(self, files):
+        #print("Thread spawned")
+        userDir = f"{self.dir}/Users"
+
+        for file in files:
+            with open(f"{userDir}/{file}", "r") as f:
+                data = json.load(f)
+
+                if data['id'] not in self.users:
+                    indexKey = f"~{data['id']}~ll:{data['login locations']}~kw:{data['keywords']}"
+                    self.users[indexKey] = SNUser(data['id'], loginLocs=data['login locations'],
+                                                  keywords=data['keywords'], relations=data['relationships'],
+                                                  username=data['username'], name=data['name'], email=data['email'],
+                                                  birthdate=data['birthdate'], phone=data['phone'])
+
 
         '''
         # Read in user attributes from the given path

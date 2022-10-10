@@ -5,7 +5,21 @@
     "email": "laurie46@gmail.com",
     "birthdate": "2021-02-01",
     "phone": "(700)129-7287x7734",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        17,
+        60,
+        40,
+        44,
+        51,
+        71,
+        21
+    ],
+    "login locations": [
+        [
+            -117.850601,
+            33.733466
+        ]
+    ],
+    "relationships": []
 }

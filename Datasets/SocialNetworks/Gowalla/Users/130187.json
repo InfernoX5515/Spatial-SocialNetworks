@@ -5,7 +5,16 @@
     "email": "moniqueperry@hotmail.com",
     "birthdate": "1924-10-13",
     "phone": "+1-262-647-0161",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        39,
+        14
+    ],
+    "login locations": [
+        [
+            -117.15133,
+            32.873507
+        ]
+    ],
+    "relationships": []
 }

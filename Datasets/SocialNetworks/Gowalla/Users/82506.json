@@ -5,7 +5,15 @@
     "email": "fhawkins@gmail.com",
     "birthdate": "1921-06-17",
     "phone": "0685015710",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        55
+    ],
+    "login locations": [
+        [
+            -117.754862,
+            33.690022
+        ]
+    ],
+    "relationships": []
 }

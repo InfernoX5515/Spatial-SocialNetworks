@@ -5,7 +5,27 @@
     "email": "scotttroy@yahoo.com",
     "birthdate": "1952-01-02",
     "phone": "6333973659",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        29,
+        21,
+        15,
+        25,
+        53,
+        71,
+        7,
+        18,
+        51,
+        55,
+        68,
+        42,
+        19
+    ],
+    "login locations": [
+        [
+            -117.861402,
+            34.026585
+        ]
+    ],
+    "relationships": []
 }

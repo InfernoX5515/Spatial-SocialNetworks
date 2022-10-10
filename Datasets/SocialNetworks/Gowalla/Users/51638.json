@@ -5,7 +5,25 @@
     "email": "qmcgee@hotmail.com",
     "birthdate": "2008-01-01",
     "phone": "001-337-018-6133",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        2,
+        40,
+        27,
+        53,
+        10,
+        8,
+        15,
+        11,
+        6,
+        70,
+        58
+    ],
+    "login locations": [
+        [
+            -119.756882,
+            36.84943
+        ]
+    ],
+    "relationships": []
 }

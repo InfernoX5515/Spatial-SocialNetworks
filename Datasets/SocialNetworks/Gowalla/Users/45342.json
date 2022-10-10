@@ -5,7 +5,19 @@
     "email": "levi78@gmail.com",
     "birthdate": "1928-05-08",
     "phone": "669-753-4483x95849",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        28,
+        45,
+        70,
+        57,
+        61
+    ],
+    "login locations": [
+        [
+            -122.348321,
+            37.797728
+        ]
+    ],
+    "relationships": []
 }

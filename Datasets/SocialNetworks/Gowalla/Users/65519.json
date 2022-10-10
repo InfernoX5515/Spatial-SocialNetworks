@@ -5,7 +5,12 @@
     "email": "iharris@gmail.com",
     "birthdate": "1959-06-23",
     "phone": "+1-062-198-2290",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.824208,
+            37.680549
+        ]
+    ],
+    "relationships": []
 }

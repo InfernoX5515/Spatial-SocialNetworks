@@ -5,7 +5,23 @@
     "email": "samanthamartinez@hotmail.com",
     "birthdate": "2009-09-02",
     "phone": "474-005-7635x5457",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        3,
+        15,
+        16,
+        49,
+        19,
+        32,
+        55,
+        45,
+        15
+    ],
+    "login locations": [
+        [
+            -122.412541,
+            37.806129
+        ]
+    ],
+    "relationships": []
 }

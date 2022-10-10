@@ -5,7 +5,27 @@
     "email": "nmunoz@hotmail.com",
     "birthdate": "2013-02-18",
     "phone": "+1-888-093-6327x11522",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        58,
+        10,
+        18,
+        50,
+        48,
+        22,
+        39,
+        57,
+        69,
+        45,
+        43,
+        5,
+        37
+    ],
+    "login locations": [
+        [
+            -122.283305,
+            38.303406
+        ]
+    ],
+    "relationships": []
 }

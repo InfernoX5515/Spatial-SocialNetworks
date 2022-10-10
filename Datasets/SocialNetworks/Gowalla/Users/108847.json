@@ -5,7 +5,17 @@
     "email": "cory25@gmail.com",
     "birthdate": "1971-11-24",
     "phone": "(370)805-7192",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        72,
+        12,
+        4
+    ],
+    "login locations": [
+        [
+            -122.354319,
+            37.813394
+        ]
+    ],
+    "relationships": []
 }

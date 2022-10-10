@@ -5,7 +5,38 @@
     "email": "judymeyer@gmail.com",
     "birthdate": "1993-07-31",
     "phone": "1950958213",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        41,
+        69,
+        29,
+        16,
+        40,
+        55,
+        19,
+        41,
+        61,
+        22,
+        43,
+        37,
+        50
+    ],
+    "login locations": [
+        [
+            -121.937313,
+            37.349149
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1048,
+                0.04
+            ],
+            [
+                1048,
+                0.04
+            ]
+        ]
+    ]
 }

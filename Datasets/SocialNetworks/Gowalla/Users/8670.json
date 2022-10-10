@@ -5,7 +5,28 @@
     "email": "mathew55@gmail.com",
     "birthdate": "2016-05-22",
     "phone": "358-865-9088",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        26,
+        41,
+        46,
+        32,
+        36,
+        54,
+        5,
+        66,
+        46,
+        47,
+        58,
+        7,
+        63,
+        33
+    ],
+    "login locations": [
+        [
+            -118.238876,
+            33.861807
+        ]
+    ],
+    "relationships": []
 }

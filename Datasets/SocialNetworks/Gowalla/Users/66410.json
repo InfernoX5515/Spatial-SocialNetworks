@@ -5,7 +5,25 @@
     "email": "lucascastaneda@yahoo.com",
     "birthdate": "1962-05-18",
     "phone": "001-264-014-6001",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        42,
+        1,
+        3,
+        50,
+        39,
+        18,
+        45,
+        53,
+        28,
+        35,
+        16
+    ],
+    "login locations": [
+        [
+            -122.406524,
+            37.792567
+        ]
+    ],
+    "relationships": []
 }

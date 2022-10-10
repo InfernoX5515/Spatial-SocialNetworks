@@ -5,7 +5,33 @@
     "email": "silvacynthia@hotmail.com",
     "birthdate": "1965-12-28",
     "phone": "+1-314-900-6033x9773",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        45,
+        36,
+        57,
+        28,
+        43,
+        71,
+        6,
+        31
+    ],
+    "login locations": [
+        [
+            -122.296598,
+            37.933206
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                154491,
+                0.178571428571
+            ],
+            [
+                154491,
+                0.178571428571
+            ]
+        ]
+    ]
 }

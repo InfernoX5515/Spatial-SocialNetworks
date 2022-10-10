@@ -5,7 +5,26 @@
     "email": "bonniemyers@yahoo.com",
     "birthdate": "2010-07-09",
     "phone": "+1-221-710-4784x76961",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        52,
+        20,
+        53,
+        63,
+        40,
+        75,
+        68,
+        36,
+        58,
+        28,
+        11,
+        49
+    ],
+    "login locations": [
+        [
+            -122.400809,
+            37.698271
+        ]
+    ],
+    "relationships": []
 }

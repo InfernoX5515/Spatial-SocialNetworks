@@ -5,7 +5,15 @@
     "email": "xdiaz@hotmail.com",
     "birthdate": "1948-04-22",
     "phone": "144-523-5956x16938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        72
+    ],
+    "login locations": [
+        [
+            -118.364731,
+            34.081622
+        ]
+    ],
+    "relationships": []
 }

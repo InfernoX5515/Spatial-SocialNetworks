@@ -5,7 +5,19 @@
     "email": "joshua11@hotmail.com",
     "birthdate": "1962-09-02",
     "phone": "918.610.4598",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        40,
+        55,
+        72,
+        23,
+        7
+    ],
+    "login locations": [
+        [
+            -122.304643,
+            37.804095
+        ]
+    ],
+    "relationships": []
 }

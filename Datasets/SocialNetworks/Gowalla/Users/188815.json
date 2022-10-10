@@ -5,7 +5,24 @@
     "email": "gglover@yahoo.com",
     "birthdate": "1918-02-23",
     "phone": "348-168-5141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        32,
+        40,
+        59,
+        51,
+        5,
+        44,
+        39,
+        33,
+        73,
+        10
+    ],
+    "login locations": [
+        [
+            -122.383084,
+            37.747467
+        ]
+    ],
+    "relationships": []
 }

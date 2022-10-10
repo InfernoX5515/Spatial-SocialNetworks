@@ -5,7 +5,23 @@
     "email": "wendy59@hotmail.com",
     "birthdate": "2008-01-26",
     "phone": "647-517-8532",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        28,
+        46,
+        54,
+        31,
+        57,
+        58,
+        51,
+        48,
+        32
+    ],
+    "login locations": [
+        [
+            -122.399131,
+            37.787341
+        ]
+    ],
+    "relationships": []
 }

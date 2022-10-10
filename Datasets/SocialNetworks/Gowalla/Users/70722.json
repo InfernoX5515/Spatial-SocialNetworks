@@ -5,7 +5,25 @@
     "email": "kaitlinthomas@gmail.com",
     "birthdate": "1938-06-20",
     "phone": "+1-555-548-9930x0823",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        43,
+        18,
+        31,
+        45,
+        26,
+        69,
+        54,
+        12,
+        67,
+        7,
+        15
+    ],
+    "login locations": [
+        [
+            -122.412366,
+            37.776689
+        ]
+    ],
+    "relationships": []
 }

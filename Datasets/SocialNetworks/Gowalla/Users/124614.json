@@ -5,7 +5,30 @@
     "email": "simonalexandria@yahoo.com",
     "birthdate": "1931-07-29",
     "phone": "6408519080",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        12,
+        47,
+        32,
+        19,
+        4
+    ],
+    "login locations": [
+        [
+            -120.081593,
+            39.225784
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32321,
+                0.015
+            ],
+            [
+                32321,
+                0.015
+            ]
+        ]
+    ]
 }

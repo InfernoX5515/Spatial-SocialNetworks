@@ -5,7 +5,17 @@
     "email": "tiffanyadams@gmail.com",
     "birthdate": "1910-09-27",
     "phone": "645.338.6183x0153",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        53,
+        21,
+        42
+    ],
+    "login locations": [
+        [
+            -122.413935,
+            37.769044
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "jmyers@gmail.com",
     "birthdate": "1993-12-22",
     "phone": "(104)524-6924x9734",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        50,
+        52
+    ],
+    "login locations": [
+        [
+            -118.253113,
+            33.96443
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                119043,
+                0.0902255639098
+            ],
+            [
+                179444,
+                0.6
+            ]
+        ]
+    ]
 }

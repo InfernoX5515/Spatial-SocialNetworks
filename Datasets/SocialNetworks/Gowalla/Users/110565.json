@@ -5,7 +5,18 @@
     "email": "madison02@yahoo.com",
     "birthdate": "1948-11-01",
     "phone": "324-301-0500",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        49,
+        34,
+        53,
+        68
+    ],
+    "login locations": [
+        [
+            -121.911866,
+            37.677519
+        ]
+    ],
+    "relationships": []
 }

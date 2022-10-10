@@ -5,7 +5,24 @@
     "email": "yblake@yahoo.com",
     "birthdate": "2014-01-13",
     "phone": "824-993-2498x7068",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        71,
+        25,
+        52,
+        24,
+        61,
+        20,
+        25,
+        64,
+        19,
+        7
+    ],
+    "login locations": [
+        [
+            -122.404793,
+            37.746424
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "kathy46@gmail.com",
     "birthdate": "1907-12-30",
     "phone": "884-120-6399x821",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        53,
+        56,
+        58,
+        70,
+        43,
+        27,
+        49
+    ],
+    "login locations": [
+        [
+            -121.418475,
+            38.406175
+        ]
+    ],
+    "relationships": []
 }

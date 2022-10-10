@@ -5,7 +5,31 @@
     "email": "daniel58@hotmail.com",
     "birthdate": "1977-06-07",
     "phone": "+1-636-823-2411x8002",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        74,
+        56,
+        49,
+        66,
+        22,
+        41
+    ],
+    "login locations": [
+        [
+            -122.38615,
+            37.616356
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.032
+            ],
+            [
+                355,
+                0.0145454545455
+            ]
+        ]
+    ]
 }

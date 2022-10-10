@@ -5,7 +5,28 @@
     "email": "sfitzgerald@gmail.com",
     "birthdate": "1949-05-27",
     "phone": "001-734-800-1494",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        30,
+        52,
+        34,
+        55,
+        22,
+        0,
+        18,
+        18,
+        68,
+        54,
+        33,
+        64,
+        60,
+        73
+    ],
+    "login locations": [
+        [
+            -118.162741,
+            33.792397
+        ]
+    ],
+    "relationships": []
 }

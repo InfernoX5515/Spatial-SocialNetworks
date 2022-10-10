@@ -5,7 +5,28 @@
     "email": "sean99@hotmail.com",
     "birthdate": "1925-10-02",
     "phone": "001-398-377-4888",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        42,
+        63,
+        15,
+        16,
+        23,
+        23,
+        59,
+        72,
+        74,
+        9,
+        14,
+        60,
+        11,
+        43
+    ],
+    "login locations": [
+        [
+            -122.128736,
+            37.413222
+        ]
+    ],
+    "relationships": []
 }

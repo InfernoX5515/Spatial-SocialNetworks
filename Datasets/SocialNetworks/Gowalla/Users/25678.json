@@ -5,7 +5,25 @@
     "email": "kristenedwards@yahoo.com",
     "birthdate": "1917-04-01",
     "phone": "+1-417-025-3337x621",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        49,
+        8,
+        58,
+        33,
+        5,
+        68,
+        36,
+        18,
+        74,
+        46,
+        9
+    ],
+    "login locations": [
+        [
+            -122.402741,
+            37.752809
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "veronicafernandez@hotmail.com",
     "birthdate": "1957-04-19",
     "phone": "052.756.6971",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        4
+    ],
+    "login locations": [
+        [
+            -118.292393,
+            33.908791
+        ]
+    ],
+    "relationships": []
 }

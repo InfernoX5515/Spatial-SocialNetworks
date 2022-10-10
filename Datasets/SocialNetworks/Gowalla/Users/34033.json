@@ -5,7 +5,26 @@
     "email": "jessica78@gmail.com",
     "birthdate": "1951-07-06",
     "phone": "633.705.9644",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        18,
+        22,
+        11,
+        38,
+        50,
+        21,
+        13,
+        35,
+        14,
+        44,
+        7,
+        53
+    ],
+    "login locations": [
+        [
+            -122.052335,
+            37.385634
+        ]
+    ],
+    "relationships": []
 }

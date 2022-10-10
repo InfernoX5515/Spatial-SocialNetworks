@@ -5,7 +5,23 @@
     "email": "rbryant@hotmail.com",
     "birthdate": "2008-02-06",
     "phone": "001-072-369-3973x27132",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        58,
+        28,
+        64,
+        49,
+        59,
+        13,
+        48,
+        27,
+        11
+    ],
+    "login locations": [
+        [
+            -117.806901,
+            33.711681
+        ]
+    ],
+    "relationships": []
 }

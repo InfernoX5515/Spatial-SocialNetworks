@@ -5,7 +5,15 @@
     "email": "deborahchavez@hotmail.com",
     "birthdate": "2020-07-01",
     "phone": "+1-217-449-0616",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        52
+    ],
+    "login locations": [
+        [
+            -117.731554,
+            33.689255
+        ]
+    ],
+    "relationships": []
 }

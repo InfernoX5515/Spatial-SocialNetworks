@@ -5,7 +5,16 @@
     "email": "johncolon@yahoo.com",
     "birthdate": "1926-12-20",
     "phone": "001-670-380-5547x41491",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        28,
+        66
+    ],
+    "login locations": [
+        [
+            -118.436375,
+            34.160439
+        ]
+    ],
+    "relationships": []
 }

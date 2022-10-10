@@ -5,7 +5,17 @@
     "email": "rhodesashley@yahoo.com",
     "birthdate": "1974-01-19",
     "phone": "(232)435-5219x1332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        24,
+        38,
+        30
+    ],
+    "login locations": [
+        [
+            -117.139838,
+            32.792624
+        ]
+    ],
+    "relationships": []
 }

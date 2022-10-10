@@ -5,7 +5,27 @@
     "email": "tonyawalker@hotmail.com",
     "birthdate": "1931-07-18",
     "phone": "610-271-5932x55213",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        29,
+        49,
+        74,
+        29,
+        0,
+        75,
+        61,
+        23,
+        61,
+        73,
+        34,
+        8,
+        31
+    ],
+    "login locations": [
+        [
+            -122.394323,
+            37.794578
+        ]
+    ],
+    "relationships": []
 }

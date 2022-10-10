@@ -5,7 +5,27 @@
     "email": "joneschelsey@hotmail.com",
     "birthdate": "1979-05-30",
     "phone": "117-165-8790",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        6,
+        37,
+        70,
+        2,
+        16,
+        59,
+        68,
+        10,
+        8,
+        41,
+        57,
+        35,
+        34
+    ],
+    "login locations": [
+        [
+            -121.771786,
+            37.300443
+        ]
+    ],
+    "relationships": []
 }

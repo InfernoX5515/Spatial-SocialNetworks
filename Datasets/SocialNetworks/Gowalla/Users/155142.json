@@ -5,7 +5,16 @@
     "email": "fischerthomas@gmail.com",
     "birthdate": "1918-10-18",
     "phone": "746.132.6880x09754",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        30,
+        39
+    ],
+    "login locations": [
+        [
+            -118.308511,
+            33.977058
+        ]
+    ],
+    "relationships": []
 }

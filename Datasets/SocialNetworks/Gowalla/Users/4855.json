@@ -5,7 +5,27 @@
     "email": "jessicaberg@gmail.com",
     "birthdate": "1984-02-15",
     "phone": "(947)176-2336x589",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        33,
+        74,
+        39,
+        69,
+        27,
+        55,
+        6,
+        28,
+        4,
+        8,
+        27,
+        42,
+        25
+    ],
+    "login locations": [
+        [
+            -122.387594,
+            37.770997
+        ]
+    ],
+    "relationships": []
 }

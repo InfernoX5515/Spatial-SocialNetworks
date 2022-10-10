@@ -5,7 +5,29 @@
     "email": "phamrobert@hotmail.com",
     "birthdate": "1998-05-24",
     "phone": "+1-801-540-5083x57770",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        0,
+        6,
+        15,
+        50
+    ],
+    "login locations": [
+        [
+            -118.365773,
+            33.990681
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                484,
+                0.0365497076023
+            ],
+            [
+                13262,
+                0.144
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,18 @@
     "email": "amymoyer@gmail.com",
     "birthdate": "1943-02-03",
     "phone": "677-680-0191x412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        35,
+        51,
+        56,
+        7
+    ],
+    "login locations": [
+        [
+            -118.27667,
+            34.149702
+        ]
+    ],
+    "relationships": []
 }

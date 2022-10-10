@@ -5,7 +5,26 @@
     "email": "hsimon@yahoo.com",
     "birthdate": "1927-11-12",
     "phone": "328.079.2438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        64,
+        59,
+        75,
+        42,
+        71,
+        37,
+        10,
+        6,
+        17,
+        13,
+        7,
+        0
+    ],
+    "login locations": [
+        [
+            -121.916677,
+            36.977047
+        ]
+    ],
+    "relationships": []
 }

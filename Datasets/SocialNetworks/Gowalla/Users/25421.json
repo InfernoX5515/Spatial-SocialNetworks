@@ -5,7 +5,25 @@
     "email": "jason80@hotmail.com",
     "birthdate": "1919-02-27",
     "phone": "(611)821-9987x3437",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        19,
+        46,
+        19,
+        75,
+        47,
+        57,
+        61,
+        10,
+        40,
+        14,
+        62
+    ],
+    "login locations": [
+        [
+            -122.33823,
+            37.640614
+        ]
+    ],
+    "relationships": []
 }

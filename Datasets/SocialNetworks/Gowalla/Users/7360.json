@@ -5,7 +5,23 @@
     "email": "oliviawilson@yahoo.com",
     "birthdate": "2002-05-15",
     "phone": "923.767.6858",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.411275,
+            37.760902
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82,
+                0.01
+            ],
+            [
+                82,
+                0.0188679245283
+            ]
+        ]
+    ]
 }

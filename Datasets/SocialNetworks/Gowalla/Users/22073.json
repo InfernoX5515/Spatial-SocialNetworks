@@ -5,7 +5,26 @@
     "email": "moorechristopher@hotmail.com",
     "birthdate": "1997-08-13",
     "phone": "359.629.6632x0145",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        37,
+        52,
+        66,
+        29,
+        1,
+        20,
+        66,
+        63,
+        38,
+        6,
+        71,
+        56
+    ],
+    "login locations": [
+        [
+            -122.393837,
+            37.780404
+        ]
+    ],
+    "relationships": []
 }

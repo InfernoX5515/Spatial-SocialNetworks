@@ -5,7 +5,17 @@
     "email": "zbird@gmail.com",
     "birthdate": "1947-12-03",
     "phone": "466-646-6456x6596",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        44,
+        38,
+        49
+    ],
+    "login locations": [
+        [
+            -122.40554,
+            37.614729
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "fhall@hotmail.com",
     "birthdate": "1909-09-24",
     "phone": "208-765-1025",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        57
+    ],
+    "login locations": [
+        [
+            -122.413049,
+            37.784434
+        ]
+    ],
+    "relationships": []
 }

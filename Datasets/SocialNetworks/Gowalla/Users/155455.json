@@ -5,7 +5,23 @@
     "email": "sthomas@hotmail.com",
     "birthdate": "1971-05-07",
     "phone": "001-162-052-1646x9959",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        33,
+        72,
+        65,
+        57,
+        11,
+        32,
+        55,
+        70,
+        35
+    ],
+    "login locations": [
+        [
+            -118.073809,
+            33.82554
+        ]
+    ],
+    "relationships": []
 }

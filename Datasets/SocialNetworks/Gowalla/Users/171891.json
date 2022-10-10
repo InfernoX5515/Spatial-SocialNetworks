@@ -5,7 +5,19 @@
     "email": "holmescolton@yahoo.com",
     "birthdate": "1929-02-15",
     "phone": "+1-080-724-9547x8712",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        14,
+        33,
+        4,
+        39,
+        54
+    ],
+    "login locations": [
+        [
+            -122.06263,
+            38.26429
+        ]
+    ],
+    "relationships": []
 }

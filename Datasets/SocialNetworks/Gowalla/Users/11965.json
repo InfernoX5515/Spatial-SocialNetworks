@@ -5,7 +5,34 @@
     "email": "donna33@yahoo.com",
     "birthdate": "2007-05-16",
     "phone": "(300)822-7942",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        46,
+        5,
+        33,
+        35,
+        55,
+        72,
+        7,
+        12,
+        41
+    ],
+    "login locations": [
+        [
+            -117.765906,
+            33.698756
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11804,
+                0.0533333333333
+            ],
+            [
+                11804,
+                0.0533333333333
+            ]
+        ]
+    ]
 }

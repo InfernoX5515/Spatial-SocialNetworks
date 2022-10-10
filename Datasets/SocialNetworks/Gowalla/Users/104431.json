@@ -5,7 +5,14 @@
     "email": "cory97@hotmail.com",
     "birthdate": "1926-02-16",
     "phone": "133.026.1434x218",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27
+    ],
+    "login locations": [
+        [
+            -118.359009,
+            34.082863
+        ]
+    ],
+    "relationships": []
 }

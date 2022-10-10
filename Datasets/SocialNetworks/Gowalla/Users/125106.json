@@ -5,7 +5,20 @@
     "email": "uarmstrong@gmail.com",
     "birthdate": "1940-04-10",
     "phone": "(442)492-3359x8936",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        68,
+        44,
+        61,
+        18,
+        42,
+        6
+    ],
+    "login locations": [
+        [
+            -118.089787,
+            34.023591
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "ncochran@gmail.com",
     "birthdate": "1947-09-05",
     "phone": "+1-159-122-1332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        60,
+        65,
+        74,
+        53,
+        25,
+        35
+    ],
+    "login locations": [
+        [
+            -117.211201,
+            33.024487
+        ]
+    ],
+    "relationships": []
 }

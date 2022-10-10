@@ -5,7 +5,26 @@
     "email": "cathywhite@hotmail.com",
     "birthdate": "1951-10-19",
     "phone": "689.700.9811x602",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        63
+    ],
+    "login locations": [
+        [
+            -117.17553,
+            32.725171
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                57837,
+                0.025
+            ],
+            [
+                57837,
+                0.025
+            ]
+        ]
+    ]
 }

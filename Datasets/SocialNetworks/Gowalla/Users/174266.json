@@ -5,7 +5,20 @@
     "email": "davidsmith@hotmail.com",
     "birthdate": "1958-04-08",
     "phone": "001-343-275-8766x508",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        28,
+        31,
+        12,
+        18,
+        67,
+        32
+    ],
+    "login locations": [
+        [
+            -121.505324,
+            38.583271
+        ]
+    ],
+    "relationships": []
 }

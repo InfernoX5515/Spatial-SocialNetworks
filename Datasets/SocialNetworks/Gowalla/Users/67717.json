@@ -5,7 +5,15 @@
     "email": "slloyd@gmail.com",
     "birthdate": "1915-06-03",
     "phone": "+1-645-663-2076x291",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        15
+    ],
+    "login locations": [
+        [
+            -122.026978,
+            37.788694
+        ]
+    ],
+    "relationships": []
 }

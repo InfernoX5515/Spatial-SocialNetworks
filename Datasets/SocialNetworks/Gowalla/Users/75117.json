@@ -5,7 +5,18 @@
     "email": "shawnthompson@yahoo.com",
     "birthdate": "2016-12-02",
     "phone": "+1-506-943-3870x784",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        70,
+        67,
+        19,
+        72
+    ],
+    "login locations": [
+        [
+            -122.042391,
+            37.388193
+        ]
+    ],
+    "relationships": []
 }

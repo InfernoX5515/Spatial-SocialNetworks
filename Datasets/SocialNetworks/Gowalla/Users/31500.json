@@ -5,7 +5,17 @@
     "email": "castroashley@yahoo.com",
     "birthdate": "1980-09-02",
     "phone": "700-885-6036x7753",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        48,
+        16,
+        37
+    ],
+    "login locations": [
+        [
+            -122.388968,
+            37.716986
+        ]
+    ],
+    "relationships": []
 }

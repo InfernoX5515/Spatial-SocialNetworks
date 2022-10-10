@@ -5,7 +5,22 @@
     "email": "kathleenjones@yahoo.com",
     "birthdate": "1929-12-19",
     "phone": "374.108.5881x173",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        27,
+        6,
+        46,
+        19,
+        58,
+        41,
+        58,
+        29
+    ],
+    "login locations": [
+        [
+            -122.412639,
+            37.79831
+        ]
+    ],
+    "relationships": []
 }

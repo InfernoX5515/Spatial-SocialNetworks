@@ -5,7 +5,23 @@
     "email": "williamscory@gmail.com",
     "birthdate": "1916-05-20",
     "phone": "978-585-6782x6314",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        2,
+        55,
+        67,
+        5,
+        53,
+        73,
+        53,
+        2,
+        5
+    ],
+    "login locations": [
+        [
+            -119.314034,
+            36.325066
+        ]
+    ],
+    "relationships": []
 }

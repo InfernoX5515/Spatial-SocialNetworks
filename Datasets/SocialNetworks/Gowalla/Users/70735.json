@@ -5,7 +5,14 @@
     "email": "estradachad@hotmail.com",
     "birthdate": "1918-11-05",
     "phone": "+1-179-877-9589x270",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28
+    ],
+    "login locations": [
+        [
+            -122.051023,
+            37.409539
+        ]
+    ],
+    "relationships": []
 }

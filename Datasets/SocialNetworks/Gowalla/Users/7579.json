@@ -5,7 +5,25 @@
     "email": "lgray@yahoo.com",
     "birthdate": "2022-03-29",
     "phone": "+1-714-694-9755",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        48,
+        27,
+        75,
+        2,
+        17,
+        18,
+        22,
+        56,
+        52,
+        28,
+        4
+    ],
+    "login locations": [
+        [
+            -122.400317,
+            37.789873
+        ]
+    ],
+    "relationships": []
 }

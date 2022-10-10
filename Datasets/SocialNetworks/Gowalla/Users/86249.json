@@ -5,7 +5,18 @@
     "email": "hwaters@yahoo.com",
     "birthdate": "1932-08-17",
     "phone": "457-187-8888x0438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        45,
+        31,
+        50,
+        68
+    ],
+    "login locations": [
+        [
+            -118.41578,
+            34.018502
+        ]
+    ],
+    "relationships": []
 }

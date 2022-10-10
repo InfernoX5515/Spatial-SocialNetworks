@@ -5,7 +5,25 @@
     "email": "scottcourtney@yahoo.com",
     "birthdate": "1991-12-31",
     "phone": "001-021-035-2965x163",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        0,
+        55,
+        60,
+        68,
+        12,
+        44,
+        64,
+        70,
+        37,
+        33,
+        58
+    ],
+    "login locations": [
+        [
+            -122.387426,
+            37.773619
+        ]
+    ],
+    "relationships": []
 }

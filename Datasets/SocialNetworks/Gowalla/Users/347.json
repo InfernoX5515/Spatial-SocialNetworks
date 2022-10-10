@@ -5,7 +5,37 @@
     "email": "parkerjason@hotmail.com",
     "birthdate": "1984-10-14",
     "phone": "215.775.9394",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        12,
+        28,
+        18,
+        1,
+        2,
+        43,
+        4,
+        17,
+        56,
+        1,
+        20,
+        55
+    ],
+    "login locations": [
+        [
+            -122.404061,
+            37.736433
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                577,
+                0.0182716049383
+            ],
+            [
+                23303,
+                0.386666666667
+            ]
+        ]
+    ]
 }

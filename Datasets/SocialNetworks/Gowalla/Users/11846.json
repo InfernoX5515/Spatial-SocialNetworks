@@ -5,7 +5,20 @@
     "email": "murrayjennifer@yahoo.com",
     "birthdate": "2022-06-14",
     "phone": "8322947845",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        75,
+        12,
+        45,
+        39,
+        54,
+        15
+    ],
+    "login locations": [
+        [
+            -122.407628,
+            37.777401
+        ]
+    ],
+    "relationships": []
 }

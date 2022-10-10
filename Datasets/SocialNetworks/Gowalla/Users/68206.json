@@ -5,7 +5,23 @@
     "email": "jeffreybarrera@yahoo.com",
     "birthdate": "1918-04-05",
     "phone": "(153)868-2899",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        64,
+        28,
+        32,
+        60,
+        67,
+        12,
+        17,
+        50,
+        55
+    ],
+    "login locations": [
+        [
+            -122.685388,
+            41.918726
+        ]
+    ],
+    "relationships": []
 }

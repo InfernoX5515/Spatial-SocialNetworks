@@ -5,7 +5,14 @@
     "email": "kevin41@gmail.com",
     "birthdate": "1950-02-02",
     "phone": "562.729.6437x11538",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14
+    ],
+    "login locations": [
+        [
+            -118.406661,
+            34.032613
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "skelley@gmail.com",
     "birthdate": "1975-05-11",
     "phone": "709-569-3487x11716",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        59,
+        41,
+        7,
+        64
+    ],
+    "login locations": [
+        [
+            -117.751992,
+            33.616642
+        ]
+    ],
+    "relationships": []
 }

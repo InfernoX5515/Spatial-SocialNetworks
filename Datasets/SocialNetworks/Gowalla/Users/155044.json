@@ -5,7 +5,12 @@
     "email": "grahamcarrie@yahoo.com",
     "birthdate": "1980-05-16",
     "phone": "001-431-535-6679x2580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.385513,
+            33.900688
+        ]
+    ],
+    "relationships": []
 }

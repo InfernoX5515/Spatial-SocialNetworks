@@ -5,7 +5,26 @@
     "email": "anita08@yahoo.com",
     "birthdate": "1940-05-21",
     "phone": "001-120-110-5810x0972",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        28,
+        53,
+        29,
+        65,
+        21,
+        30,
+        1,
+        68,
+        61,
+        59,
+        4,
+        40
+    ],
+    "login locations": [
+        [
+            -117.96127,
+            33.876743
+        ]
+    ],
+    "relationships": []
 }

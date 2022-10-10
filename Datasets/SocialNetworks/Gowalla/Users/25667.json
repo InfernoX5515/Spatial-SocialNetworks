@@ -5,7 +5,21 @@
     "email": "ibarrachristopher@gmail.com",
     "birthdate": "1939-01-13",
     "phone": "+1-844-784-3417",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        69,
+        9,
+        46,
+        11,
+        50,
+        62,
+        32
+    ],
+    "login locations": [
+        [
+            -122.396742,
+            37.789594
+        ]
+    ],
+    "relationships": []
 }

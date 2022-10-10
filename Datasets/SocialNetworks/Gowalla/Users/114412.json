@@ -5,7 +5,16 @@
     "email": "obrienwilliam@gmail.com",
     "birthdate": "1916-09-02",
     "phone": "498.770.5030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        12,
+        39
+    ],
+    "login locations": [
+        [
+            -122.417459,
+            37.767465
+        ]
+    ],
+    "relationships": []
 }

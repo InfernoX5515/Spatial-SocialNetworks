@@ -5,7 +5,22 @@
     "email": "shawbrandon@gmail.com",
     "birthdate": "1939-11-04",
     "phone": "1250629302",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        48,
+        3,
+        13,
+        28,
+        30,
+        16,
+        57,
+        12
+    ],
+    "login locations": [
+        [
+            -122.409061,
+            37.78815
+        ]
+    ],
+    "relationships": []
 }

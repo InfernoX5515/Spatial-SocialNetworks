@@ -5,7 +5,25 @@
     "email": "audreysmith@hotmail.com",
     "birthdate": "2012-04-04",
     "phone": "832-773-3454",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        7,
+        2,
+        43,
+        6,
+        23,
+        31,
+        6,
+        28,
+        57,
+        4,
+        13
+    ],
+    "login locations": [
+        [
+            -117.754393,
+            34.061071
+        ]
+    ],
+    "relationships": []
 }

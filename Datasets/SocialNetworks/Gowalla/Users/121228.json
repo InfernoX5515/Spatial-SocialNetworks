@@ -5,7 +5,23 @@
     "email": "christianhill@gmail.com",
     "birthdate": "1906-10-09",
     "phone": "(195)405-1760x72379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        72,
+        65,
+        45,
+        68,
+        63,
+        10,
+        62,
+        51,
+        75
+    ],
+    "login locations": [
+        [
+            -118.41308,
+            34.059042
+        ]
+    ],
+    "relationships": []
 }

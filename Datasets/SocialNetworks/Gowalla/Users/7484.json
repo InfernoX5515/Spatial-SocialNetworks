@@ -5,7 +5,22 @@
     "email": "lindsey79@yahoo.com",
     "birthdate": "1915-04-24",
     "phone": "221-243-5624",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        46,
+        61,
+        34,
+        57,
+        6,
+        53,
+        43,
+        21
+    ],
+    "login locations": [
+        [
+            -122.406433,
+            37.784621
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "jsosa@gmail.com",
     "birthdate": "1955-05-17",
     "phone": "2341596412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        49,
+        23,
+        2,
+        30,
+        56,
+        75
+    ],
+    "login locations": [
+        [
+            -118.441296,
+            34.032326
+        ]
+    ],
+    "relationships": []
 }

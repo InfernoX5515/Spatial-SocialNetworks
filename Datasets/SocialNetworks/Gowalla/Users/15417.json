@@ -5,7 +5,21 @@
     "email": "kingann@gmail.com",
     "birthdate": "2012-04-12",
     "phone": "404-984-4974",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        42,
+        40,
+        9,
+        30,
+        6,
+        65,
+        28
+    ],
+    "login locations": [
+        [
+            -122.257229,
+            38.295824
+        ]
+    ],
+    "relationships": []
 }

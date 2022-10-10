@@ -5,7 +5,34 @@
     "email": "linda36@yahoo.com",
     "birthdate": "1984-02-19",
     "phone": "856.267.3283x65272",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        68,
+        48,
+        33,
+        74,
+        7,
+        7,
+        13,
+        15,
+        70
+    ],
+    "login locations": [
+        [
+            -118.393739,
+            33.985352
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32546,
+                0.08
+            ],
+            [
+                32546,
+                0.08
+            ]
+        ]
+    ]
 }

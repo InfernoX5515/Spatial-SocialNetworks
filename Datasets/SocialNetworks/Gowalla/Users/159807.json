@@ -5,7 +5,28 @@
     "email": "klinejennifer@gmail.com",
     "birthdate": "1957-03-17",
     "phone": "(897)329-0505x086",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        14,
+        52,
+        62,
+        60,
+        58,
+        39,
+        75,
+        39,
+        4,
+        25,
+        8,
+        19,
+        75,
+        70
+    ],
+    "login locations": [
+        [
+            -122.046339,
+            37.381907
+        ]
+    ],
+    "relationships": []
 }

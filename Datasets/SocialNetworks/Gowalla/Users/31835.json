@@ -5,7 +5,31 @@
     "email": "bwilson@hotmail.com",
     "birthdate": "1952-11-22",
     "phone": "635.855.5907",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        10,
+        58,
+        19,
+        60,
+        30,
+        39
+    ],
+    "login locations": [
+        [
+            -122.421335,
+            37.757035
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                494,
+                0.1
+            ],
+            [
+                494,
+                0.1
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "alanjohnson@yahoo.com",
     "birthdate": "1931-03-10",
     "phone": "9893683990",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        14,
+        34,
+        42,
+        59,
+        30,
+        49,
+        1,
+        53,
+        33,
+        33,
+        54,
+        12,
+        35
+    ],
+    "login locations": [
+        [
+            -122.39601,
+            37.793541
+        ]
+    ],
+    "relationships": []
 }

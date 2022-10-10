@@ -5,7 +5,12 @@
     "email": "carpentertanya@hotmail.com",
     "birthdate": "1996-03-05",
     "phone": "687.811.8429x496",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.287191,
+            34.101149
+        ]
+    ],
+    "relationships": []
 }

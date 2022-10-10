@@ -5,7 +5,15 @@
     "email": "hwagner@gmail.com",
     "birthdate": "1950-09-06",
     "phone": "045-337-6753",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        52
+    ],
+    "login locations": [
+        [
+            -118.150398,
+            34.129802
+        ]
+    ],
+    "relationships": []
 }

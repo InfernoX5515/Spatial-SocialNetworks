@@ -5,7 +5,18 @@
     "email": "blee@gmail.com",
     "birthdate": "1962-03-25",
     "phone": "563.002.3225x068",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        34,
+        53,
+        43,
+        12
+    ],
+    "login locations": [
+        [
+            -122.390984,
+            37.706194
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "joshuagarcia@gmail.com",
     "birthdate": "1944-10-17",
     "phone": "721-787-8340x449",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        27,
+        2,
+        40,
+        56,
+        13,
+        7,
+        53,
+        54
+    ],
+    "login locations": [
+        [
+            -117.776325,
+            33.651147
+        ]
+    ],
+    "relationships": []
 }

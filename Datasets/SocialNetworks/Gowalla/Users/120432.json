@@ -5,7 +5,31 @@
     "email": "matthew12@hotmail.com",
     "birthdate": "2005-07-04",
     "phone": "001-714-921-1102",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        8,
+        33,
+        56,
+        41,
+        28,
+        37
+    ],
+    "login locations": [
+        [
+            -120.453602,
+            34.713269
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49841,
+                0.0909090909091
+            ],
+            [
+                49841,
+                0.0909090909091
+            ]
+        ]
+    ]
 }

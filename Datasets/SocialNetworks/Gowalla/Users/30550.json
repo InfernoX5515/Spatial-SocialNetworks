@@ -5,7 +5,24 @@
     "email": "kellylopez@hotmail.com",
     "birthdate": "1952-05-11",
     "phone": "+1-672-000-8858",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        51,
+        67,
+        6,
+        0,
+        36,
+        39,
+        61,
+        65,
+        42,
+        55
+    ],
+    "login locations": [
+        [
+            -117.270751,
+            33.088263
+        ]
+    ],
+    "relationships": []
 }

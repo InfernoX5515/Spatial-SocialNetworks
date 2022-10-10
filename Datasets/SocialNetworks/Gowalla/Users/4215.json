@@ -5,7 +5,27 @@
     "email": "hwolfe@gmail.com",
     "birthdate": "2016-04-22",
     "phone": "965.466.8532x6845",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        52,
+        73,
+        20,
+        6,
+        49,
+        68,
+        11,
+        3,
+        70,
+        47,
+        38,
+        22,
+        24
+    ],
+    "login locations": [
+        [
+            -117.26474,
+            33.068669
+        ]
+    ],
+    "relationships": []
 }

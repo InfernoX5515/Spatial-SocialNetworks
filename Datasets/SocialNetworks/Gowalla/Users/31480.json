@@ -5,7 +5,15 @@
     "email": "claytonwright@hotmail.com",
     "birthdate": "2015-07-22",
     "phone": "(792)857-9059x89182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        64
+    ],
+    "login locations": [
+        [
+            -121.062687,
+            38.651904
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "rphillips@gmail.com",
     "birthdate": "1936-09-25",
     "phone": "001-914-580-1195x520",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        8,
+        58,
+        34,
+        51
+    ],
+    "login locations": [
+        [
+            -117.175727,
+            32.725851
+        ]
+    ],
+    "relationships": []
 }

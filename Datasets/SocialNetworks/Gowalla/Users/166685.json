@@ -5,7 +5,28 @@
     "email": "ofields@yahoo.com",
     "birthdate": "1985-11-06",
     "phone": "958.465.1630x577",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        51,
+        27,
+        75,
+        63,
+        67,
+        22,
+        62,
+        62,
+        44,
+        26,
+        47,
+        57,
+        5,
+        9
+    ],
+    "login locations": [
+        [
+            -121.462925,
+            38.574152
+        ]
+    ],
+    "relationships": []
 }

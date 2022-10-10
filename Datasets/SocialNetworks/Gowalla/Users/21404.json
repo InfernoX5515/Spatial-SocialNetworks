@@ -5,7 +5,23 @@
     "email": "cclark@yahoo.com",
     "birthdate": "1929-11-08",
     "phone": "3985624051",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        60,
+        51,
+        15,
+        7,
+        41,
+        67,
+        18,
+        35,
+        61
+    ],
+    "login locations": [
+        [
+            -122.29008,
+            37.847656
+        ]
+    ],
+    "relationships": []
 }

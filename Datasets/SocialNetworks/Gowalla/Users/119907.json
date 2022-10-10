@@ -5,7 +5,23 @@
     "email": "ayalathomas@yahoo.com",
     "birthdate": "1964-11-13",
     "phone": "414.551.4664x87449",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.412966,
+            37.802734
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                119903,
+                0.0151843817787
+            ],
+            [
+                119903,
+                0.0151843817787
+            ]
+        ]
+    ]
 }

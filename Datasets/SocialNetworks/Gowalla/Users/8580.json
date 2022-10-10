@@ -5,7 +5,25 @@
     "email": "crystal81@hotmail.com",
     "birthdate": "1987-02-14",
     "phone": "748-351-3244x396",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        2,
+        5,
+        70,
+        47,
+        24,
+        47,
+        48,
+        53,
+        63,
+        61,
+        30
+    ],
+    "login locations": [
+        [
+            -122.406936,
+            37.781219
+        ]
+    ],
+    "relationships": []
 }

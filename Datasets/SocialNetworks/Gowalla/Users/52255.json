@@ -5,7 +5,16 @@
     "email": "deborah13@gmail.com",
     "birthdate": "1990-02-10",
     "phone": "2858171891",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        72,
+        26
+    ],
+    "login locations": [
+        [
+            -122.41811,
+            37.784566
+        ]
+    ],
+    "relationships": []
 }

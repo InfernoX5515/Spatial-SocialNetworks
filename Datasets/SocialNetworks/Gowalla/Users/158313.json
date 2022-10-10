@@ -5,7 +5,12 @@
     "email": "dstephenson@hotmail.com",
     "birthdate": "1993-09-03",
     "phone": "745-875-2834",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.015433,
+            37.404036
+        ]
+    ],
+    "relationships": []
 }

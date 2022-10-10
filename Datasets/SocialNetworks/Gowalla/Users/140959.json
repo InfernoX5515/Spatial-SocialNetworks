@@ -5,7 +5,25 @@
     "email": "kyle91@yahoo.com",
     "birthdate": "1942-09-28",
     "phone": "863.405.3957x491",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        1,
+        27,
+        17,
+        10,
+        7,
+        2,
+        0,
+        16,
+        18,
+        42,
+        39
+    ],
+    "login locations": [
+        [
+            -118.356255,
+            34.072071
+        ]
+    ],
+    "relationships": []
 }

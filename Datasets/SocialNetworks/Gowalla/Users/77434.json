@@ -5,7 +5,19 @@
     "email": "erica75@gmail.com",
     "birthdate": "1934-09-29",
     "phone": "+1-837-918-6375x95206",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        1,
+        52,
+        6,
+        28,
+        62
+    ],
+    "login locations": [
+        [
+            -122.0281,
+            37.367672
+        ]
+    ],
+    "relationships": []
 }

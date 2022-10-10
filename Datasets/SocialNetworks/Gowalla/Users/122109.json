@@ -5,7 +5,27 @@
     "email": "omckinney@hotmail.com",
     "birthdate": "1990-12-22",
     "phone": "(444)266-4180",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        55,
+        55,
+        63,
+        14,
+        67,
+        34,
+        38,
+        32,
+        3,
+        46,
+        6,
+        36,
+        34
+    ],
+    "login locations": [
+        [
+            -122.416661,
+            37.795661
+        ]
+    ],
+    "relationships": []
 }

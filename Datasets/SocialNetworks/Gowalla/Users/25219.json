@@ -5,7 +5,24 @@
     "email": "miajacobs@hotmail.com",
     "birthdate": "1954-03-15",
     "phone": "273-622-0806",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        16,
+        35,
+        58,
+        10,
+        16,
+        3,
+        41,
+        2,
+        41,
+        71
+    ],
+    "login locations": [
+        [
+            -122.312859,
+            37.613765
+        ]
+    ],
+    "relationships": []
 }

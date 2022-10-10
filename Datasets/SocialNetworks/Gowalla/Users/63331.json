@@ -5,7 +5,24 @@
     "email": "clewis@yahoo.com",
     "birthdate": "1955-07-06",
     "phone": "4235983399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        40,
+        4,
+        37,
+        24,
+        15,
+        50,
+        73,
+        67,
+        44,
+        29
+    ],
+    "login locations": [
+        [
+            -122.103319,
+            37.401164
+        ]
+    ],
+    "relationships": []
 }

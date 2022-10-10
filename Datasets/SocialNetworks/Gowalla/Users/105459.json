@@ -5,7 +5,37 @@
     "email": "esavage@gmail.com",
     "birthdate": "1973-11-03",
     "phone": "(001)584-6805",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        44,
+        20,
+        8,
+        28,
+        4,
+        13,
+        10,
+        42,
+        71,
+        62,
+        59,
+        54
+    ],
+    "login locations": [
+        [
+            -117.210741,
+            32.855917
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                105455,
+                0.923076923077
+            ],
+            [
+                105456,
+                0.0223463687151
+            ]
+        ]
+    ]
 }

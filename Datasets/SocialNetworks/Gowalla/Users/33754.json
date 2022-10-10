@@ -5,7 +5,14 @@
     "email": "matthewking@gmail.com",
     "birthdate": "1974-03-06",
     "phone": "(697)873-4608x6560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72
+    ],
+    "login locations": [
+        [
+            -121.996435,
+            37.340048
+        ]
+    ],
+    "relationships": []
 }

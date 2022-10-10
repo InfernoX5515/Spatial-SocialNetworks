@@ -5,7 +5,31 @@
     "email": "mjones@hotmail.com",
     "birthdate": "2000-12-22",
     "phone": "(760)956-4108",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        24,
+        47,
+        0,
+        44,
+        6,
+        30
+    ],
+    "login locations": [
+        [
+            -121.955481,
+            37.299407
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8739,
+                0.0461538461538
+            ],
+            [
+                8739,
+                0.0461538461538
+            ]
+        ]
+    ]
 }

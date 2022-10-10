@@ -5,7 +5,27 @@
     "email": "deborah25@gmail.com",
     "birthdate": "1946-07-23",
     "phone": "+1-280-795-7537x254",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        55,
+        50,
+        50,
+        73,
+        70,
+        24,
+        39,
+        73,
+        37,
+        52,
+        16,
+        65,
+        24
+    ],
+    "login locations": [
+        [
+            -122.412662,
+            37.761506
+        ]
+    ],
+    "relationships": []
 }

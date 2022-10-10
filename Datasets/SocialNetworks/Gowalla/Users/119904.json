@@ -5,7 +5,14 @@
     "email": "cclark@hotmail.com",
     "birthdate": "1914-11-06",
     "phone": "+1-007-754-3488x01086",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19
+    ],
+    "login locations": [
+        [
+            -122.404085,
+            37.788589
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,36 @@
     "email": "thompsonmatthew@hotmail.com",
     "birthdate": "1941-12-26",
     "phone": "+1-774-385-8028",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        12,
+        23,
+        74,
+        75,
+        56,
+        72,
+        3,
+        38,
+        60,
+        22,
+        0
+    ],
+    "login locations": [
+        [
+            -118.41725,
+            34.046493
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.01
+            ],
+            [
+                476,
+                0.0107042253521
+            ]
+        ]
+    ]
 }

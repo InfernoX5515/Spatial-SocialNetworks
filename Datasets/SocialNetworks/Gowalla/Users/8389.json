@@ -5,7 +5,35 @@
     "email": "jenniferwolfe@yahoo.com",
     "birthdate": "2000-06-05",
     "phone": "2163417583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        20,
+        57,
+        25,
+        35,
+        36,
+        49,
+        19,
+        38,
+        75,
+        7
+    ],
+    "login locations": [
+        [
+            -122.376955,
+            37.721211
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3970,
+                0.0130718954248
+            ],
+            [
+                3970,
+                0.0130718954248
+            ]
+        ]
+    ]
 }

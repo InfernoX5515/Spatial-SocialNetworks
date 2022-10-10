@@ -5,7 +5,20 @@
     "email": "tracylawson@yahoo.com",
     "birthdate": "2007-04-25",
     "phone": "382-532-3028",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        66,
+        75,
+        23,
+        6,
+        25,
+        74
+    ],
+    "login locations": [
+        [
+            -121.86853,
+            37.26401
+        ]
+    ],
+    "relationships": []
 }

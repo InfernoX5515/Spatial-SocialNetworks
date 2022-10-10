@@ -5,7 +5,25 @@
     "email": "yhale@gmail.com",
     "birthdate": "1939-03-07",
     "phone": "(983)307-1318",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        27,
+        42,
+        31,
+        15,
+        12,
+        61,
+        39,
+        70,
+        21,
+        61,
+        18
+    ],
+    "login locations": [
+        [
+            -122.393687,
+            37.772388
+        ]
+    ],
+    "relationships": []
 }

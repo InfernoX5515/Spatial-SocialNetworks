@@ -5,7 +5,12 @@
     "email": "maureenwarner@yahoo.com",
     "birthdate": "2005-09-27",
     "phone": "832-012-8339x439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.646589,
+            33.569433
+        ]
+    ],
+    "relationships": []
 }

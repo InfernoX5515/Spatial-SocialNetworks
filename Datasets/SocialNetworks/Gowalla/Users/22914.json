@@ -5,7 +5,39 @@
     "email": "timothyryan@gmail.com",
     "birthdate": "1931-02-07",
     "phone": "+1-573-500-3610",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        8,
+        51,
+        71,
+        44,
+        23,
+        55,
+        4,
+        27,
+        11,
+        67,
+        65,
+        71,
+        11,
+        1
+    ],
+    "login locations": [
+        [
+            -122.405245,
+            37.772981
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.01
+            ],
+            [
+                285,
+                0.01
+            ]
+        ]
+    ]
 }

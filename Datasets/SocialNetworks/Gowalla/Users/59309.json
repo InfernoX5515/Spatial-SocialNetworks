@@ -5,7 +5,18 @@
     "email": "ricematthew@hotmail.com",
     "birthdate": "2008-11-19",
     "phone": "(319)539-8192x961",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        29,
+        68,
+        48,
+        54
+    ],
+    "login locations": [
+        [
+            -122.402815,
+            37.78589
+        ]
+    ],
+    "relationships": []
 }

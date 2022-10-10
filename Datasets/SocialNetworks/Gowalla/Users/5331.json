@@ -5,7 +5,25 @@
     "email": "sphelps@gmail.com",
     "birthdate": "1911-12-14",
     "phone": "(349)615-6590x295",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        49,
+        39,
+        59,
+        56,
+        27,
+        16,
+        68,
+        57,
+        23,
+        8,
+        73
+    ],
+    "login locations": [
+        [
+            -118.421377,
+            34.037907
+        ]
+    ],
+    "relationships": []
 }

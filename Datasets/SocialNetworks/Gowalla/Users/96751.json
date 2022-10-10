@@ -5,7 +5,16 @@
     "email": "meganwalker@gmail.com",
     "birthdate": "1996-03-30",
     "phone": "(660)304-5812x972",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        56,
+        69
+    ],
+    "login locations": [
+        [
+            -118.366501,
+            34.095091
+        ]
+    ],
+    "relationships": []
 }

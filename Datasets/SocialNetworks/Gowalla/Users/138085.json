@@ -5,7 +5,16 @@
     "email": "elizabethcruz@gmail.com",
     "birthdate": "1935-04-22",
     "phone": "+1-352-118-5159",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        4,
+        36
+    ],
+    "login locations": [
+        [
+            -118.374085,
+            33.990254
+        ]
+    ],
+    "relationships": []
 }

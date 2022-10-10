@@ -5,7 +5,17 @@
     "email": "madeline30@yahoo.com",
     "birthdate": "1920-12-26",
     "phone": "001-862-879-5492",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        9,
+        12,
+        39
+    ],
+    "login locations": [
+        [
+            -118.060582,
+            33.872934
+        ]
+    ],
+    "relationships": []
 }

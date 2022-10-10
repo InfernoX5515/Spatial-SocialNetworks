@@ -5,7 +5,14 @@
     "email": "christinefranklin@yahoo.com",
     "birthdate": "1931-02-14",
     "phone": "344-596-9781x0313",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69
+    ],
+    "login locations": [
+        [
+            -117.676193,
+            33.871014
+        ]
+    ],
+    "relationships": []
 }

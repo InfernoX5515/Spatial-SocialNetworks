@@ -5,7 +5,25 @@
     "email": "david32@yahoo.com",
     "birthdate": "1973-03-18",
     "phone": "001-588-741-7902x72223",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        23,
+        17,
+        69,
+        70,
+        61,
+        56,
+        64,
+        5,
+        26,
+        32,
+        69
+    ],
+    "login locations": [
+        [
+            -122.41662,
+            37.733653
+        ]
+    ],
+    "relationships": []
 }

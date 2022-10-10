@@ -5,7 +5,21 @@
     "email": "miguel26@yahoo.com",
     "birthdate": "1984-07-01",
     "phone": "+1-814-614-1962x6773",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        9,
+        30,
+        60,
+        40,
+        37,
+        15,
+        67
+    ],
+    "login locations": [
+        [
+            -122.446685,
+            37.780491
+        ]
+    ],
+    "relationships": []
 }

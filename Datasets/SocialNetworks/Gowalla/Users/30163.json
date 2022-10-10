@@ -5,7 +5,20 @@
     "email": "shelbyturner@yahoo.com",
     "birthdate": "1936-06-09",
     "phone": "001-812-564-4136x200",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        2,
+        52,
+        44,
+        43,
+        70,
+        25
+    ],
+    "login locations": [
+        [
+            -117.839673,
+            33.644019
+        ]
+    ],
+    "relationships": []
 }

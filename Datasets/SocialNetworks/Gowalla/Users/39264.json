@@ -5,7 +5,14 @@
     "email": "derrickthomas@yahoo.com",
     "birthdate": "2018-10-26",
     "phone": "812-159-3140",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30
+    ],
+    "login locations": [
+        [
+            -118.266576,
+            34.077497
+        ]
+    ],
+    "relationships": []
 }

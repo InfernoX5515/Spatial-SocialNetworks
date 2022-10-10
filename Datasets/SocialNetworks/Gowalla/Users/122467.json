@@ -5,7 +5,12 @@
     "email": "hernandezconnor@yahoo.com",
     "birthdate": "1986-09-27",
     "phone": "(294)096-9172x895",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.810752,
+            33.681066
+        ]
+    ],
+    "relationships": []
 }

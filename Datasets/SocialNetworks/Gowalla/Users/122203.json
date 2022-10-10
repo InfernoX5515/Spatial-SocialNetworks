@@ -5,7 +5,25 @@
     "email": "selena78@hotmail.com",
     "birthdate": "1926-01-22",
     "phone": "061-159-4725",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        36,
+        27,
+        12,
+        33,
+        4,
+        67,
+        3,
+        75,
+        40,
+        37,
+        2
+    ],
+    "login locations": [
+        [
+            -118.325813,
+            34.193753
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "richard24@gmail.com",
     "birthdate": "1987-04-08",
     "phone": "620.427.0168",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        26,
+        29,
+        31,
+        33,
+        17,
+        71
+    ],
+    "login locations": [
+        [
+            -118.140311,
+            33.923113
+        ]
+    ],
+    "relationships": []
 }

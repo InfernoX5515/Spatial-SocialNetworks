@@ -5,7 +5,12 @@
     "email": "gyates@hotmail.com",
     "birthdate": "1980-09-11",
     "phone": "+1-913-803-1639x904",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.359861,
+            38.40071
+        ]
+    ],
+    "relationships": []
 }

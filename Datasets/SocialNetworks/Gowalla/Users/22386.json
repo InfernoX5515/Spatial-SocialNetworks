@@ -5,7 +5,32 @@
     "email": "mbright@gmail.com",
     "birthdate": "2015-09-10",
     "phone": "001-278-605-9346x298",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        19,
+        7,
+        27,
+        15,
+        33,
+        70,
+        42
+    ],
+    "login locations": [
+        [
+            -121.990299,
+            37.347995
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4399,
+                0.01
+            ],
+            [
+                4399,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,12 @@
     "email": "justin43@hotmail.com",
     "birthdate": "1973-02-14",
     "phone": "226-795-1304x08449",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.276896,
+            34.047287
+        ]
+    ],
+    "relationships": []
 }

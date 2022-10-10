@@ -5,7 +5,22 @@
     "email": "imay@gmail.com",
     "birthdate": "1990-04-13",
     "phone": "(100)655-2996x000",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        72,
+        62,
+        70,
+        20,
+        25,
+        50,
+        22,
+        3
+    ],
+    "login locations": [
+        [
+            -117.920322,
+            33.811162
+        ]
+    ],
+    "relationships": []
 }

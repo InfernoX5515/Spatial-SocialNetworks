@@ -5,7 +5,16 @@
     "email": "williamsonfrank@yahoo.com",
     "birthdate": "1907-09-23",
     "phone": "(501)701-4204x615",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        71,
+        68
+    ],
+    "login locations": [
+        [
+            -122.335885,
+            37.620956
+        ]
+    ],
+    "relationships": []
 }

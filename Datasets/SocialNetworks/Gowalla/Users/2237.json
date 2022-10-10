@@ -5,7 +5,35 @@
     "email": "paul70@yahoo.com",
     "birthdate": "1959-05-12",
     "phone": "(258)942-1592",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        51,
+        47,
+        21,
+        68,
+        21,
+        6,
+        8,
+        3,
+        18,
+        75
+    ],
+    "login locations": [
+        [
+            -117.995399,
+            33.85197
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.01
+            ],
+            [
+                268,
+                0.01
+            ]
+        ]
+    ]
 }

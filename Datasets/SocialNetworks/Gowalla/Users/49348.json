@@ -5,7 +5,30 @@
     "email": "xbecker@gmail.com",
     "birthdate": "1914-01-08",
     "phone": "982-063-0674",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        18,
+        6,
+        59,
+        20,
+        4
+    ],
+    "login locations": [
+        [
+            -117.912826,
+            33.879209
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1904,
+                0.032
+            ],
+            [
+                2126,
+                0.0571428571429
+            ]
+        ]
+    ]
 }

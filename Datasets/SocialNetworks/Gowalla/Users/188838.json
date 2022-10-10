@@ -5,7 +5,15 @@
     "email": "michael06@gmail.com",
     "birthdate": "1912-10-05",
     "phone": "921.437.5721x24965",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        24
+    ],
+    "login locations": [
+        [
+            -118.164971,
+            33.768541
+        ]
+    ],
+    "relationships": []
 }

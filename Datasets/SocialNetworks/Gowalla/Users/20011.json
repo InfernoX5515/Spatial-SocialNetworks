@@ -5,7 +5,27 @@
     "email": "joseharrell@gmail.com",
     "birthdate": "1924-12-09",
     "phone": "001-036-988-7787x4592",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        38,
+        58,
+        16,
+        68,
+        31,
+        52,
+        61,
+        63,
+        2,
+        39,
+        36,
+        23,
+        26
+    ],
+    "login locations": [
+        [
+            -117.217537,
+            33.124118
+        ]
+    ],
+    "relationships": []
 }

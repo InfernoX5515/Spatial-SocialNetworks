@@ -5,7 +5,26 @@
     "email": "xthomas@gmail.com",
     "birthdate": "1910-06-16",
     "phone": "903-624-4114",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        10,
+        50,
+        75,
+        53,
+        57,
+        23,
+        69,
+        62,
+        35,
+        14,
+        9,
+        57
+    ],
+    "login locations": [
+        [
+            -118.340907,
+            33.968551
+        ]
+    ],
+    "relationships": []
 }

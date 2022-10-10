@@ -5,7 +5,26 @@
     "email": "cgarrison@yahoo.com",
     "birthdate": "1948-05-01",
     "phone": "109.271.3153",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        39,
+        63,
+        34,
+        51,
+        16,
+        6,
+        24,
+        13,
+        9,
+        9,
+        27,
+        71
+    ],
+    "login locations": [
+        [
+            -118.326045,
+            34.022255
+        ]
+    ],
+    "relationships": []
 }

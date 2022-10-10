@@ -5,7 +5,19 @@
     "email": "odonnellsusan@yahoo.com",
     "birthdate": "1931-12-11",
     "phone": "263.377.3554x886",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        8,
+        67,
+        17,
+        30,
+        22
+    ],
+    "login locations": [
+        [
+            -118.227069,
+            34.207531
+        ]
+    ],
+    "relationships": []
 }

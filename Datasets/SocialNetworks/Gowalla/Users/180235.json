@@ -5,7 +5,22 @@
     "email": "vmartinez@gmail.com",
     "birthdate": "1949-08-01",
     "phone": "(612)531-7502x8547",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        12,
+        44,
+        50,
+        6,
+        12,
+        23,
+        44,
+        9
+    ],
+    "login locations": [
+        [
+            -118.057681,
+            33.909464
+        ]
+    ],
+    "relationships": []
 }

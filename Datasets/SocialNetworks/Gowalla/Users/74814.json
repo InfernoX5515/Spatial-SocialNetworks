@@ -5,7 +5,24 @@
     "email": "kristy12@gmail.com",
     "birthdate": "1962-07-14",
     "phone": "610-610-8597x117",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        35,
+        73,
+        37,
+        18,
+        15,
+        0,
+        65,
+        21,
+        56,
+        28
+    ],
+    "login locations": [
+        [
+            -117.271128,
+            33.956568
+        ]
+    ],
+    "relationships": []
 }

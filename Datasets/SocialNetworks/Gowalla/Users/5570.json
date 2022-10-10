@@ -5,7 +5,18 @@
     "email": "jesseanderson@gmail.com",
     "birthdate": "1993-02-13",
     "phone": "(623)931-5403",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        69,
+        71,
+        9,
+        67
+    ],
+    "login locations": [
+        [
+            -122.392163,
+            37.742488
+        ]
+    ],
+    "relationships": []
 }

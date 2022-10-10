@@ -5,7 +5,20 @@
     "email": "leeamber@hotmail.com",
     "birthdate": "2013-05-23",
     "phone": "001-998-351-9283x69070",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        18,
+        59,
+        47,
+        44,
+        21,
+        40
+    ],
+    "login locations": [
+        [
+            -122.408689,
+            37.768202
+        ]
+    ],
+    "relationships": []
 }

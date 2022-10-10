@@ -5,7 +5,17 @@
     "email": "michaelmoreno@yahoo.com",
     "birthdate": "1988-08-02",
     "phone": "3419321715",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        34,
+        12,
+        20
+    ],
+    "login locations": [
+        [
+            -118.572989,
+            34.193592
+        ]
+    ],
+    "relationships": []
 }

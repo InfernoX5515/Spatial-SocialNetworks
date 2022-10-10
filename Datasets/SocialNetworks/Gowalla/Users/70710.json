@@ -5,7 +5,26 @@
     "email": "michael38@yahoo.com",
     "birthdate": "1942-07-05",
     "phone": "6059177616",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        38,
+        38,
+        12,
+        48,
+        38,
+        62,
+        2,
+        15,
+        59,
+        24,
+        66,
+        68
+    ],
+    "login locations": [
+        [
+            -118.360309,
+            34.014818
+        ]
+    ],
+    "relationships": []
 }

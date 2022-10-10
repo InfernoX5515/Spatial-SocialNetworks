@@ -5,7 +5,29 @@
     "email": "lopezcindy@yahoo.com",
     "birthdate": "1939-05-23",
     "phone": "001-554-366-7329x601",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        34,
+        44,
+        69,
+        28
+    ],
+    "login locations": [
+        [
+            -122.418006,
+            37.785497
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33420,
+                0.04
+            ],
+            [
+                33420,
+                0.04
+            ]
+        ]
+    ]
 }

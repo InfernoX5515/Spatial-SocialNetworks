@@ -5,7 +5,14 @@
     "email": "ybrown@yahoo.com",
     "birthdate": "1960-04-18",
     "phone": "404-786-8891",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46
+    ],
+    "login locations": [
+        [
+            -118.455518,
+            34.080076
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "sallison@gmail.com",
     "birthdate": "1957-11-13",
     "phone": "196.550.2270",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        19,
+        1,
+        9
+    ],
+    "login locations": [
+        [
+            -119.313363,
+            36.292809
+        ]
+    ],
+    "relationships": []
 }

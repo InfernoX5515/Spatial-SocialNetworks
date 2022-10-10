@@ -5,7 +5,18 @@
     "email": "ecurtis@hotmail.com",
     "birthdate": "1989-06-29",
     "phone": "001-778-925-4709x44793",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        18,
+        16,
+        48,
+        39
+    ],
+    "login locations": [
+        [
+            -121.077529,
+            38.930072
+        ]
+    ],
+    "relationships": []
 }

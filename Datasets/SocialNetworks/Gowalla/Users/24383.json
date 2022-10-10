@@ -5,7 +5,26 @@
     "email": "mcmahonkeith@yahoo.com",
     "birthdate": "1964-09-14",
     "phone": "060.905.6736",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        8,
+        69,
+        25,
+        46,
+        12,
+        4,
+        55,
+        20,
+        50,
+        50,
+        34,
+        38
+    ],
+    "login locations": [
+        [
+            -121.448763,
+            38.592763
+        ]
+    ],
+    "relationships": []
 }

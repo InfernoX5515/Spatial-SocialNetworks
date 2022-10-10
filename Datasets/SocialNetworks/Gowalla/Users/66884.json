@@ -5,7 +5,21 @@
     "email": "joseshort@yahoo.com",
     "birthdate": "2014-12-18",
     "phone": "443-746-3850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        71,
+        43,
+        50,
+        67,
+        49,
+        38,
+        31
+    ],
+    "login locations": [
+        [
+            -121.447044,
+            38.580152
+        ]
+    ],
+    "relationships": []
 }

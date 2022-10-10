@@ -5,7 +5,20 @@
     "email": "jacob54@hotmail.com",
     "birthdate": "2001-01-22",
     "phone": "+1-638-030-1405x4625",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        59,
+        12,
+        25,
+        55,
+        56,
+        63
+    ],
+    "login locations": [
+        [
+            -117.69104,
+            34.081883
+        ]
+    ],
+    "relationships": []
 }

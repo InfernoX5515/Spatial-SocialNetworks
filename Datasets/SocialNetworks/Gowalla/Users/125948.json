@@ -5,7 +5,28 @@
     "email": "wilsonalan@gmail.com",
     "birthdate": "1997-06-21",
     "phone": "+1-275-386-3403x36799",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        56,
+        10,
+        27
+    ],
+    "login locations": [
+        [
+            -121.009341,
+            37.673264
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33414,
+                0.138888888889
+            ],
+            [
+                33414,
+                0.138888888889
+            ]
+        ]
+    ]
 }

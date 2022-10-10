@@ -5,7 +5,25 @@
     "email": "todd01@hotmail.com",
     "birthdate": "2009-10-17",
     "phone": "606-629-2258x955",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        47,
+        0,
+        8,
+        74,
+        30,
+        19,
+        44,
+        59,
+        53,
+        51,
+        50
+    ],
+    "login locations": [
+        [
+            -122.377069,
+            37.699053
+        ]
+    ],
+    "relationships": []
 }

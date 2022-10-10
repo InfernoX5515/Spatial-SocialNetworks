@@ -5,7 +5,23 @@
     "email": "angela50@hotmail.com",
     "birthdate": "2020-07-21",
     "phone": "3678047675",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        64,
+        59,
+        40,
+        33,
+        17,
+        45,
+        62,
+        42,
+        42
+    ],
+    "login locations": [
+        [
+            -122.407329,
+            37.769454
+        ]
+    ],
+    "relationships": []
 }

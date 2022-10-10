@@ -5,7 +5,28 @@
     "email": "paul51@yahoo.com",
     "birthdate": "2014-03-15",
     "phone": "303-064-0905x302",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        1,
+        9,
+        24,
+        29,
+        6,
+        7,
+        74,
+        43,
+        58,
+        60,
+        62,
+        33,
+        2,
+        29
+    ],
+    "login locations": [
+        [
+            -118.464146,
+            34.053503
+        ]
+    ],
+    "relationships": []
 }

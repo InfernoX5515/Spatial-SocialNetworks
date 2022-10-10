@@ -5,7 +5,18 @@
     "email": "johnsonashley@yahoo.com",
     "birthdate": "2014-12-28",
     "phone": "(430)615-8631x681",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        37,
+        44,
+        68,
+        20
+    ],
+    "login locations": [
+        [
+            -122.29687,
+            37.543812
+        ]
+    ],
+    "relationships": []
 }

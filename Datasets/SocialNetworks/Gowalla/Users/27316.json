@@ -5,7 +5,18 @@
     "email": "mccoymarie@gmail.com",
     "birthdate": "1920-07-27",
     "phone": "054.813.3500",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        27,
+        69,
+        10,
+        6
+    ],
+    "login locations": [
+        [
+            -117.989399,
+            34.046421
+        ]
+    ],
+    "relationships": []
 }

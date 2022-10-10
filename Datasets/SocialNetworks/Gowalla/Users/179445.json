@@ -5,7 +5,12 @@
     "email": "brookeblake@hotmail.com",
     "birthdate": "1948-01-21",
     "phone": "870.459.8335x42500",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.074104,
+            33.93805
+        ]
+    ],
+    "relationships": []
 }

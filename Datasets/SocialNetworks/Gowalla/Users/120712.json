@@ -5,7 +5,23 @@
     "email": "thicks@yahoo.com",
     "birthdate": "1947-05-12",
     "phone": "(874)035-6472x5187",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        64,
+        22,
+        58,
+        29,
+        60,
+        50,
+        38,
+        19,
+        43
+    ],
+    "login locations": [
+        [
+            -117.686916,
+            34.046694
+        ]
+    ],
+    "relationships": []
 }

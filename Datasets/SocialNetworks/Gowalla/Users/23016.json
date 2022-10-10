@@ -5,7 +5,19 @@
     "email": "karen99@gmail.com",
     "birthdate": "1985-06-12",
     "phone": "+1-001-818-4608x59456",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        10,
+        18,
+        30,
+        67,
+        65
+    ],
+    "login locations": [
+        [
+            -122.319293,
+            37.561402
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "danielle85@gmail.com",
     "birthdate": "1982-12-04",
     "phone": "+1-599-668-8409x37255",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        53,
+        7,
+        9,
+        4,
+        9,
+        38,
+        4,
+        40,
+        30
+    ],
+    "login locations": [
+        [
+            -119.787598,
+            36.831081
+        ]
+    ],
+    "relationships": []
 }

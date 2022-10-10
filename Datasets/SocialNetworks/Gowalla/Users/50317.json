@@ -5,7 +5,27 @@
     "email": "carriegarcia@gmail.com",
     "birthdate": "1980-10-18",
     "phone": "791-702-6468",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        38,
+        36,
+        34,
+        20,
+        4,
+        56,
+        23,
+        66,
+        71,
+        60,
+        75,
+        61,
+        51
+    ],
+    "login locations": [
+        [
+            -118.518632,
+            34.225209
+        ]
+    ],
+    "relationships": []
 }

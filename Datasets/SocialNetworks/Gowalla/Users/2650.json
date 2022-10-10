@@ -5,7 +5,14 @@
     "email": "graveschristine@yahoo.com",
     "birthdate": "2014-12-12",
     "phone": "643-615-9567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23
+    ],
+    "login locations": [
+        [
+            -118.352175,
+            33.811997
+        ]
+    ],
+    "relationships": []
 }

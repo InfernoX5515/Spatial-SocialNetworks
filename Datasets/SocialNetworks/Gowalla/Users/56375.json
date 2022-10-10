@@ -5,7 +5,20 @@
     "email": "brianturner@gmail.com",
     "birthdate": "1990-10-10",
     "phone": "+1-878-861-2779x091",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        57,
+        15,
+        69,
+        0,
+        67,
+        59
+    ],
+    "login locations": [
+        [
+            -118.374537,
+            34.082593
+        ]
+    ],
+    "relationships": []
 }

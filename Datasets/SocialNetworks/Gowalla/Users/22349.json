@@ -5,7 +5,20 @@
     "email": "stephenochoa@yahoo.com",
     "birthdate": "2006-10-11",
     "phone": "244-404-4897",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        70,
+        53,
+        64,
+        74,
+        35,
+        73
+    ],
+    "login locations": [
+        [
+            -122.309081,
+            37.791421
+        ]
+    ],
+    "relationships": []
 }

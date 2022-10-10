@@ -5,7 +5,14 @@
     "email": "ryan89@hotmail.com",
     "birthdate": "1958-05-05",
     "phone": "001-594-413-9796x6347",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25
+    ],
+    "login locations": [
+        [
+            -117.201977,
+            32.731877
+        ]
+    ],
+    "relationships": []
 }

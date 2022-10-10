@@ -5,7 +5,28 @@
     "email": "ryankennedy@gmail.com",
     "birthdate": "1989-10-29",
     "phone": "416.175.7760x4936",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        39,
+        45,
+        25,
+        12,
+        4,
+        42,
+        4,
+        28,
+        58,
+        23,
+        27,
+        16,
+        37,
+        68
+    ],
+    "login locations": [
+        [
+            -118.172809,
+            34.073829
+        ]
+    ],
+    "relationships": []
 }

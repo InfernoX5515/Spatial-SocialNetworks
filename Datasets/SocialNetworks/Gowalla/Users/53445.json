@@ -5,7 +5,23 @@
     "email": "reillykatrina@yahoo.com",
     "birthdate": "1952-10-31",
     "phone": "332-871-5712x1881",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        18,
+        22,
+        70,
+        17,
+        14,
+        65,
+        4,
+        58,
+        8
+    ],
+    "login locations": [
+        [
+            -117.962839,
+            33.811269
+        ]
+    ],
+    "relationships": []
 }

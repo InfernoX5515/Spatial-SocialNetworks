@@ -5,7 +5,22 @@
     "email": "haley65@hotmail.com",
     "birthdate": "1949-03-15",
     "phone": "051.849.7765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        12,
+        40,
+        32,
+        41,
+        1,
+        62,
+        74,
+        10
+    ],
+    "login locations": [
+        [
+            -122.293402,
+            37.828979
+        ]
+    ],
+    "relationships": []
 }

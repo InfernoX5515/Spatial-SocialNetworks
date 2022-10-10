@@ -5,7 +5,27 @@
     "email": "david16@hotmail.com",
     "birthdate": "2009-05-17",
     "phone": "343-479-2299",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        0,
+        1,
+        21,
+        49,
+        18,
+        47,
+        59,
+        14,
+        8,
+        31,
+        6,
+        35,
+        20
+    ],
+    "login locations": [
+        [
+            -121.47102,
+            38.578778
+        ]
+    ],
+    "relationships": []
 }

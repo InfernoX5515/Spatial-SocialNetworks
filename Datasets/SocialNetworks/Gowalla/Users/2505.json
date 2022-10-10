@@ -5,7 +5,23 @@
     "email": "scottreynolds@yahoo.com",
     "birthdate": "2010-03-16",
     "phone": "567.524.6975",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        12,
+        34,
+        64,
+        31,
+        11,
+        68,
+        48,
+        75,
+        49
+    ],
+    "login locations": [
+        [
+            -121.992692,
+            37.340423
+        ]
+    ],
+    "relationships": []
 }

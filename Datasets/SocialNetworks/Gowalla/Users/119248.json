@@ -5,7 +5,14 @@
     "email": "rachel39@yahoo.com",
     "birthdate": "1941-07-17",
     "phone": "063-876-2586x6186",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71
+    ],
+    "login locations": [
+        [
+            -118.133093,
+            33.872157
+        ]
+    ],
+    "relationships": []
 }

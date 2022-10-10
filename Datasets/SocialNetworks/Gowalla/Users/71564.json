@@ -5,7 +5,25 @@
     "email": "spencerjose@gmail.com",
     "birthdate": "1941-04-23",
     "phone": "520.352.9195x104",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75
+    ],
+    "login locations": [
+        [
+            -122.411575,
+            37.759055
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                76646,
+                0.111111111111
+            ],
+            [
+                76646,
+                0.111111111111
+            ]
+        ]
+    ]
 }

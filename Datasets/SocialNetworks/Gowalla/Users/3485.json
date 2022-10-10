@@ -5,7 +5,22 @@
     "email": "susan75@gmail.com",
     "birthdate": "1961-07-18",
     "phone": "713.853.6177x9522",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        20,
+        26,
+        26,
+        37,
+        22,
+        55,
+        44,
+        1
+    ],
+    "login locations": [
+        [
+            -122.4076,
+            37.79383
+        ]
+    ],
+    "relationships": []
 }

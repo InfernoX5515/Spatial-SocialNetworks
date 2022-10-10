@@ -5,7 +5,14 @@
     "email": "xtaylor@yahoo.com",
     "birthdate": "2020-10-31",
     "phone": "712-491-2571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18
+    ],
+    "login locations": [
+        [
+            -122.056665,
+            37.334767
+        ]
+    ],
+    "relationships": []
 }

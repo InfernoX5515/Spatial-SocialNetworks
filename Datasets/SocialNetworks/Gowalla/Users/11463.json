@@ -5,7 +5,27 @@
     "email": "tammyknox@gmail.com",
     "birthdate": "1976-06-15",
     "phone": "+1-432-459-4488x744",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        39,
+        60,
+        2,
+        27,
+        37,
+        4,
+        63,
+        49,
+        16,
+        11,
+        65,
+        39,
+        11
+    ],
+    "login locations": [
+        [
+            -118.439356,
+            34.034539
+        ]
+    ],
+    "relationships": []
 }

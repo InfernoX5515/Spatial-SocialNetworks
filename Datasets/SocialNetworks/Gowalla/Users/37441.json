@@ -5,7 +5,19 @@
     "email": "nicoleramirez@gmail.com",
     "birthdate": "2002-11-02",
     "phone": "+1-070-733-1177",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        69,
+        67,
+        6,
+        68,
+        27
+    ],
+    "login locations": [
+        [
+            -122.41111,
+            37.76221
+        ]
+    ],
+    "relationships": []
 }

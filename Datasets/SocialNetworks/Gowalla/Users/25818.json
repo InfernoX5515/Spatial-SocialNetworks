@@ -5,7 +5,21 @@
     "email": "bakerdouglas@yahoo.com",
     "birthdate": "1985-02-04",
     "phone": "+1-764-713-6482",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        48,
+        4,
+        17,
+        36,
+        58,
+        7,
+        16
+    ],
+    "login locations": [
+        [
+            -122.156593,
+            37.471221
+        ]
+    ],
+    "relationships": []
 }

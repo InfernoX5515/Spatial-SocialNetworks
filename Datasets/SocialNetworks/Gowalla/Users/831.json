@@ -5,7 +5,25 @@
     "email": "villarrealbrittany@yahoo.com",
     "birthdate": "1929-01-31",
     "phone": "+1-574-108-6891x387",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19
+    ],
+    "login locations": [
+        [
+            -117.893534,
+            33.934213
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.0909090909091
+            ],
+            [
+                85,
+                0.11
+            ]
+        ]
+    ]
 }

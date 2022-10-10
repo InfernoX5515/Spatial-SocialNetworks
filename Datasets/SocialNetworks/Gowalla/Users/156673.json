@@ -5,7 +5,17 @@
     "email": "david79@gmail.com",
     "birthdate": "2009-11-15",
     "phone": "(166)860-5046x607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        68,
+        75,
+        63
+    ],
+    "login locations": [
+        [
+            -117.70766,
+            33.607825
+        ]
+    ],
+    "relationships": []
 }

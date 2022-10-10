@@ -5,7 +5,22 @@
     "email": "jamesalvarado@hotmail.com",
     "birthdate": "1923-09-19",
     "phone": "580-791-8263",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        45,
+        60,
+        11,
+        59,
+        75,
+        27,
+        56,
+        43
+    ],
+    "login locations": [
+        [
+            -122.406608,
+            37.785292
+        ]
+    ],
+    "relationships": []
 }

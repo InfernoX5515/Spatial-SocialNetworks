@@ -5,7 +5,26 @@
     "email": "jeanpearson@hotmail.com",
     "birthdate": "1913-06-20",
     "phone": "001-669-872-1258x4976",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        51,
+        20,
+        46,
+        67,
+        41,
+        74,
+        70,
+        66,
+        67,
+        14,
+        14,
+        20
+    ],
+    "login locations": [
+        [
+            -118.470779,
+            34.004506
+        ]
+    ],
+    "relationships": []
 }

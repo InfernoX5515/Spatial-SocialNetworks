@@ -5,7 +5,15 @@
     "email": "austin95@gmail.com",
     "birthdate": "1994-08-09",
     "phone": "001-819-442-2460x6073",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        58
+    ],
+    "login locations": [
+        [
+            -121.889618,
+            37.209957
+        ]
+    ],
+    "relationships": []
 }

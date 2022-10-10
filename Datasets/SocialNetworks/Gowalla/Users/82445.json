@@ -5,7 +5,14 @@
     "email": "qperez@gmail.com",
     "birthdate": "1984-02-05",
     "phone": "677-563-7827x5561",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22
+    ],
+    "login locations": [
+        [
+            -122.44045,
+            37.80483
+        ]
+    ],
+    "relationships": []
 }

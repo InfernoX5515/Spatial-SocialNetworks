@@ -5,7 +5,16 @@
     "email": "kdrake@hotmail.com",
     "birthdate": "1930-06-19",
     "phone": "894-498-3883x223",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        4,
+        8
+    ],
+    "login locations": [
+        [
+            -122.429517,
+            37.765045
+        ]
+    ],
+    "relationships": []
 }

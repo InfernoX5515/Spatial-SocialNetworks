@@ -5,7 +5,18 @@
     "email": "crossdebra@hotmail.com",
     "birthdate": "1942-09-11",
     "phone": "001-302-831-9056x43137",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        22,
+        43,
+        22,
+        64
+    ],
+    "login locations": [
+        [
+            -121.295598,
+            38.692052
+        ]
+    ],
+    "relationships": []
 }

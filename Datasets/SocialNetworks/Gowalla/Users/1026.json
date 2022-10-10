@@ -5,7 +5,26 @@
     "email": "kylenolan@gmail.com",
     "birthdate": "1938-04-18",
     "phone": "001-410-866-0356x71504",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        50,
+        29,
+        70,
+        73,
+        65,
+        47,
+        23,
+        50,
+        2,
+        38,
+        30,
+        13
+    ],
+    "login locations": [
+        [
+            -122.37512,
+            37.780816
+        ]
+    ],
+    "relationships": []
 }

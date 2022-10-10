@@ -5,7 +5,21 @@
     "email": "justinwoods@gmail.com",
     "birthdate": "1984-03-25",
     "phone": "001-058-558-0442x01606",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        49,
+        54,
+        25,
+        27,
+        60,
+        50,
+        0
+    ],
+    "login locations": [
+        [
+            -122.413346,
+            37.745681
+        ]
+    ],
+    "relationships": []
 }

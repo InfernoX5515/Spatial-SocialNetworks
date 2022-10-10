@@ -5,7 +5,17 @@
     "email": "mbaker@gmail.com",
     "birthdate": "1923-05-09",
     "phone": "001-045-839-4385",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        15,
+        12,
+        18
+    ],
+    "login locations": [
+        [
+            -117.158111,
+            32.747742
+        ]
+    ],
+    "relationships": []
 }

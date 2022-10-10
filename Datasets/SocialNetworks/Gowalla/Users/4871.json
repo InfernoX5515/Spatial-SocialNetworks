@@ -5,7 +5,17 @@
     "email": "mollylong@gmail.com",
     "birthdate": "1916-10-22",
     "phone": "538-592-9337",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        61,
+        67,
+        3
+    ],
+    "login locations": [
+        [
+            -122.420656,
+            37.777111
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "riveramadison@yahoo.com",
     "birthdate": "1967-12-16",
     "phone": "+1-561-398-3878x875",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        19,
+        62,
+        68,
+        37,
+        55,
+        11
+    ],
+    "login locations": [
+        [
+            -121.856957,
+            36.654617
+        ]
+    ],
+    "relationships": []
 }

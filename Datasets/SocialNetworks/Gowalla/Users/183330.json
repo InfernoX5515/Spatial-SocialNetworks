@@ -5,7 +5,18 @@
     "email": "susan17@yahoo.com",
     "birthdate": "1964-03-26",
     "phone": "8277054716",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        52,
+        70,
+        73,
+        32
+    ],
+    "login locations": [
+        [
+            -118.572695,
+            34.409636
+        ]
+    ],
+    "relationships": []
 }

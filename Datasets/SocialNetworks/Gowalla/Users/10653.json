@@ -5,7 +5,27 @@
     "email": "vlopez@hotmail.com",
     "birthdate": "1962-04-21",
     "phone": "376-263-9016",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        18,
+        46,
+        36,
+        59,
+        38,
+        60,
+        4,
+        58,
+        72,
+        39,
+        54,
+        4,
+        23
+    ],
+    "login locations": [
+        [
+            -121.824951,
+            37.240404
+        ]
+    ],
+    "relationships": []
 }

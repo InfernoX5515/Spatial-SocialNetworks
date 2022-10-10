@@ -5,7 +5,27 @@
     "email": "michael20@gmail.com",
     "birthdate": "1913-06-02",
     "phone": "090-519-6586",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        74,
+        72
+    ],
+    "login locations": [
+        [
+            -117.879104,
+            33.64849
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3184,
+                0.01
+            ],
+            [
+                3184,
+                0.01
+            ]
+        ]
+    ]
 }

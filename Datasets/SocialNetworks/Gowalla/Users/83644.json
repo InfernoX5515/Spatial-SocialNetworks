@@ -5,7 +5,27 @@
     "email": "ochambers@yahoo.com",
     "birthdate": "1963-10-15",
     "phone": "699-212-9452x947",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        74,
+        24,
+        38,
+        39,
+        52,
+        59,
+        73,
+        57,
+        70,
+        15,
+        68,
+        65,
+        5
+    ],
+    "login locations": [
+        [
+            -122.432271,
+            37.773635
+        ]
+    ],
+    "relationships": []
 }

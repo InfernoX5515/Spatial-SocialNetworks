@@ -5,7 +5,34 @@
     "email": "michaelkirby@hotmail.com",
     "birthdate": "1999-03-17",
     "phone": "(182)060-6912x31964",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        9,
+        17,
+        46,
+        25,
+        24,
+        5,
+        56,
+        17,
+        25
+    ],
+    "login locations": [
+        [
+            -122.414003,
+            37.778337
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10780,
+                0.0355731225296
+            ],
+            [
+                37241,
+                0.0952380952381
+            ]
+        ]
+    ]
 }

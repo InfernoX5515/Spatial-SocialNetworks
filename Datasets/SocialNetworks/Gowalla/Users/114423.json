@@ -5,7 +5,16 @@
     "email": "yweber@yahoo.com",
     "birthdate": "1934-05-25",
     "phone": "835-200-8016",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        64,
+        73
+    ],
+    "login locations": [
+        [
+            -121.953253,
+            37.293557
+        ]
+    ],
+    "relationships": []
 }

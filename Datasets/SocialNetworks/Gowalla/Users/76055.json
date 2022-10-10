@@ -5,7 +5,24 @@
     "email": "william76@hotmail.com",
     "birthdate": "2021-08-24",
     "phone": "931.692.8782x768",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        56,
+        63,
+        11,
+        6,
+        16,
+        50,
+        40,
+        64,
+        69,
+        73
+    ],
+    "login locations": [
+        [
+            -122.721929,
+            38.415489
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "aguilardavid@yahoo.com",
     "birthdate": "1938-06-20",
     "phone": "(325)658-8647x67105",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        33
+    ],
+    "login locations": [
+        [
+            -117.916582,
+            33.807652
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                48117,
+                0.102112676056
+            ],
+            [
+                48117,
+                0.102112676056
+            ]
+        ]
+    ]
 }

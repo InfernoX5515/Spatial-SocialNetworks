@@ -5,7 +5,14 @@
     "email": "bblack@yahoo.com",
     "birthdate": "1962-01-16",
     "phone": "001-620-768-3830x97927",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48
+    ],
+    "login locations": [
+        [
+            -121.923063,
+            37.309939
+        ]
+    ],
+    "relationships": []
 }

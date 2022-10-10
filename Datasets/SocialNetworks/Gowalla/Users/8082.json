@@ -5,7 +5,12 @@
     "email": "anthonymichelle@hotmail.com",
     "birthdate": "1928-12-11",
     "phone": "+1-273-609-2063x165",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.346667,
+            34.007135
+        ]
+    ],
+    "relationships": []
 }

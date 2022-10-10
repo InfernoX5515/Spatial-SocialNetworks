@@ -5,7 +5,27 @@
     "email": "juan97@gmail.com",
     "birthdate": "1956-02-06",
     "phone": "001-107-837-8122x731",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        75,
+        74
+    ],
+    "login locations": [
+        [
+            -118.366371,
+            34.000327
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                134446,
+                0.08
+            ],
+            [
+                134446,
+                0.08
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "lturner@gmail.com",
     "birthdate": "1930-10-28",
     "phone": "548-728-4602x416",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        39,
+        53,
+        38,
+        74,
+        39,
+        39,
+        41,
+        4,
+        59,
+        65,
+        50,
+        29,
+        62
+    ],
+    "login locations": [
+        [
+            -121.995172,
+            37.550773
+        ]
+    ],
+    "relationships": []
 }

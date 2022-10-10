@@ -5,7 +5,26 @@
     "email": "corey50@hotmail.com",
     "birthdate": "2020-08-19",
     "phone": "(059)310-8386x99411",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        34
+    ],
+    "login locations": [
+        [
+            -117.713515,
+            34.230472
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                30793,
+                0.01
+            ],
+            [
+                30793,
+                0.01
+            ]
+        ]
+    ]
 }

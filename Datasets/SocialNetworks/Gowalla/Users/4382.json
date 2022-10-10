@@ -5,7 +5,12 @@
     "email": "sharonellis@yahoo.com",
     "birthdate": "1988-07-04",
     "phone": "001-193-796-8099x8315",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.402553,
+            37.74822
+        ]
+    ],
+    "relationships": []
 }

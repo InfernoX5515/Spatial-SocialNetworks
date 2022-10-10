@@ -5,7 +5,22 @@
     "email": "lcurry@gmail.com",
     "birthdate": "1972-06-10",
     "phone": "001-624-976-3149",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        0,
+        53,
+        35,
+        7,
+        52,
+        14,
+        42,
+        9
+    ],
+    "login locations": [
+        [
+            -122.110454,
+            37.692452
+        ]
+    ],
+    "relationships": []
 }

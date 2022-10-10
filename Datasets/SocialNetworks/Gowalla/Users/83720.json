@@ -5,7 +5,24 @@
     "email": "tnelson@gmail.com",
     "birthdate": "1993-03-19",
     "phone": "633.152.4510x326",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        62,
+        2,
+        47,
+        45,
+        67,
+        42,
+        20,
+        32,
+        23,
+        56
+    ],
+    "login locations": [
+        [
+            -118.383743,
+            34.071049
+        ]
+    ],
+    "relationships": []
 }

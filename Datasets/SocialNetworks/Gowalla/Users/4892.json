@@ -5,7 +5,26 @@
     "email": "alexanderhall@yahoo.com",
     "birthdate": "1984-01-30",
     "phone": "+1-059-972-6599x9091",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        49,
+        71,
+        73,
+        75,
+        7,
+        34,
+        43,
+        52,
+        24,
+        35,
+        54,
+        55
+    ],
+    "login locations": [
+        [
+            -117.234566,
+            32.749984
+        ]
+    ],
+    "relationships": []
 }

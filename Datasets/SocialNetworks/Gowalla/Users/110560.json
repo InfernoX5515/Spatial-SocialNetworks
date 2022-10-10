@@ -5,7 +5,19 @@
     "email": "george72@yahoo.com",
     "birthdate": "1994-04-12",
     "phone": "001-207-296-3471",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        4,
+        17,
+        11,
+        72,
+        58
+    ],
+    "login locations": [
+        [
+            -122.065377,
+            37.715104
+        ]
+    ],
+    "relationships": []
 }

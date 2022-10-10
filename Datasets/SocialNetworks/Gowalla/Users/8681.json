@@ -5,7 +5,38 @@
     "email": "heathmichael@hotmail.com",
     "birthdate": "1978-04-28",
     "phone": "744-778-0975x39715",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        18,
+        32,
+        42,
+        70,
+        0,
+        49,
+        10,
+        36,
+        50,
+        67,
+        26,
+        29,
+        0
+    ],
+    "login locations": [
+        [
+            -122.329448,
+            37.827517
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6924,
+                0.14
+            ],
+            [
+                8668,
+                0.0608695652174
+            ]
+        ]
+    ]
 }

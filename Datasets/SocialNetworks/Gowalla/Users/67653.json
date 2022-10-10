@@ -5,7 +5,22 @@
     "email": "nelsonkelly@yahoo.com",
     "birthdate": "1987-11-16",
     "phone": "(434)275-8940x5703",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        50,
+        27,
+        30,
+        0,
+        13,
+        26,
+        26,
+        34
+    ],
+    "login locations": [
+        [
+            -122.393916,
+            37.780447
+        ]
+    ],
+    "relationships": []
 }

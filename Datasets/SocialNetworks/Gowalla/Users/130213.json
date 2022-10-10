@@ -5,7 +5,20 @@
     "email": "wisesarah@gmail.com",
     "birthdate": "1958-11-23",
     "phone": "001-670-299-7959x361",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        12,
+        34,
+        51,
+        51,
+        56,
+        19
+    ],
+    "login locations": [
+        [
+            -118.717985,
+            34.221731
+        ]
+    ],
+    "relationships": []
 }

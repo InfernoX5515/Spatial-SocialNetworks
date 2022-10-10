@@ -5,7 +5,16 @@
     "email": "sean48@gmail.com",
     "birthdate": "1918-02-03",
     "phone": "001-028-069-7436x8528",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        18,
+        58
+    ],
+    "login locations": [
+        [
+            -117.611313,
+            33.581421
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "michellefigueroa@yahoo.com",
     "birthdate": "1920-01-17",
     "phone": "(019)057-9143",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        8,
+        19,
+        43,
+        55,
+        14,
+        51,
+        69,
+        3,
+        68
+    ],
+    "login locations": [
+        [
+            -122.305806,
+            37.709634
+        ]
+    ],
+    "relationships": []
 }

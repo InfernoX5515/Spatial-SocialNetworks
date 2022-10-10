@@ -5,7 +5,29 @@
     "email": "christophereaton@gmail.com",
     "birthdate": "2004-05-09",
     "phone": "567-523-7430x8601",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        37,
+        54,
+        41,
+        53
+    ],
+    "login locations": [
+        [
+            -122.174665,
+            37.424115
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7298,
+                0.0119047619048
+            ],
+            [
+                7298,
+                0.0119047619048
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,14 @@
     "email": "calebsanchez@gmail.com",
     "birthdate": "1985-10-01",
     "phone": "(568)176-0321x901",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26
+    ],
+    "login locations": [
+        [
+            -122.411075,
+            37.787058
+        ]
+    ],
+    "relationships": []
 }

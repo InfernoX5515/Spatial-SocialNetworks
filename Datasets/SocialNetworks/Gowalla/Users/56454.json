@@ -5,7 +5,26 @@
     "email": "lisatyler@gmail.com",
     "birthdate": "1969-06-27",
     "phone": "+1-479-219-9274x371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        69,
+        31,
+        24,
+        26,
+        60,
+        27,
+        25,
+        17,
+        61,
+        63,
+        8,
+        51
+    ],
+    "login locations": [
+        [
+            -117.728964,
+            33.608639
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,38 @@
     "email": "mcfarlandelizabeth@hotmail.com",
     "birthdate": "1988-02-02",
     "phone": "+1-082-145-6775x2014",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        52,
+        11,
+        59,
+        70,
+        64,
+        2,
+        2,
+        3,
+        1,
+        21,
+        18,
+        34,
+        65
+    ],
+    "login locations": [
+        [
+            -121.231643,
+            38.697168
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                194725,
+                0.025
+            ],
+            [
+                194726,
+                0.04
+            ]
+        ]
+    ]
 }

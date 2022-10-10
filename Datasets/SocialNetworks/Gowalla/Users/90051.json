@@ -5,7 +5,23 @@
     "email": "tholder@yahoo.com",
     "birthdate": "1976-10-22",
     "phone": "882-496-8910",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        10,
+        13,
+        19,
+        49,
+        63,
+        6,
+        44,
+        18,
+        22
+    ],
+    "login locations": [
+        [
+            -117.846063,
+            33.72182
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "bishopreginald@yahoo.com",
     "birthdate": "1947-03-12",
     "phone": "315.562.0409",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        36,
+        1,
+        9,
+        23,
+        1,
+        23,
+        72,
+        20,
+        53,
+        50,
+        21,
+        19,
+        22,
+        45
+    ],
+    "login locations": [
+        [
+            -117.930486,
+            33.996026
+        ]
+    ],
+    "relationships": []
 }

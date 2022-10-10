@@ -5,7 +5,20 @@
     "email": "dana68@hotmail.com",
     "birthdate": "1928-09-12",
     "phone": "+1-236-750-8984",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        19,
+        50,
+        49,
+        37,
+        4,
+        66
+    ],
+    "login locations": [
+        [
+            -122.388903,
+            37.719952
+        ]
+    ],
+    "relationships": []
 }

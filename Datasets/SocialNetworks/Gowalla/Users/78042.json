@@ -5,7 +5,26 @@
     "email": "stephaniejacobs@gmail.com",
     "birthdate": "1970-02-02",
     "phone": "+1-423-447-5671",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        72,
+        23,
+        24,
+        70,
+        50,
+        57,
+        75,
+        18,
+        15,
+        13,
+        17,
+        56
+    ],
+    "login locations": [
+        [
+            -117.179887,
+            32.73667
+        ]
+    ],
+    "relationships": []
 }

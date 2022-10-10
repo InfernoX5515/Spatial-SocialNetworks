@@ -5,7 +5,28 @@
     "email": "mossleslie@gmail.com",
     "birthdate": "1999-06-24",
     "phone": "278-056-9884",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        35,
+        13,
+        57,
+        31,
+        33,
+        68,
+        50,
+        9,
+        19,
+        21,
+        70,
+        7,
+        37,
+        45
+    ],
+    "login locations": [
+        [
+            -122.398785,
+            37.788009
+        ]
+    ],
+    "relationships": []
 }

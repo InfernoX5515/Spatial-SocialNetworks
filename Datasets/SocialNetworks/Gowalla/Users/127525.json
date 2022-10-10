@@ -5,7 +5,23 @@
     "email": "jennifercox@yahoo.com",
     "birthdate": "1997-04-05",
     "phone": "(432)442-8875x820",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        27,
+        55,
+        19,
+        0,
+        34,
+        47,
+        12,
+        17,
+        60
+    ],
+    "login locations": [
+        [
+            -121.940815,
+            37.29308
+        ]
+    ],
+    "relationships": []
 }

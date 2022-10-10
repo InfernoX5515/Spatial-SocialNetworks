@@ -5,7 +5,26 @@
     "email": "stephanietapia@hotmail.com",
     "birthdate": "1972-05-05",
     "phone": "001-939-899-9459x5734",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        2,
+        69,
+        4,
+        46,
+        11,
+        44,
+        34,
+        63,
+        34,
+        35,
+        44,
+        52
+    ],
+    "login locations": [
+        [
+            -122.409395,
+            37.768892
+        ]
+    ],
+    "relationships": []
 }

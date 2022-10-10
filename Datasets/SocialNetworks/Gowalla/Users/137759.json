@@ -5,7 +5,22 @@
     "email": "davidflynn@yahoo.com",
     "birthdate": "1952-11-17",
     "phone": "001-871-878-7291x8680",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        17,
+        35,
+        52,
+        57,
+        52,
+        11,
+        75,
+        73
+    ],
+    "login locations": [
+        [
+            -122.30266,
+            37.541315
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "yhahn@gmail.com",
     "birthdate": "1957-03-12",
     "phone": "001-336-447-1506",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        18,
+        13,
+        29,
+        56,
+        58,
+        33,
+        18,
+        37,
+        36,
+        67,
+        45,
+        37,
+        31
+    ],
+    "login locations": [
+        [
+            -122.433949,
+            37.794615
+        ]
+    ],
+    "relationships": []
 }

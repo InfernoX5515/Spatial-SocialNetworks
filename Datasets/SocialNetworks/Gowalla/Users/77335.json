@@ -5,7 +5,17 @@
     "email": "roselauren@hotmail.com",
     "birthdate": "1927-03-16",
     "phone": "(653)654-4097x66039",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        42,
+        71,
+        64
+    ],
+    "login locations": [
+        [
+            -122.409362,
+            37.786203
+        ]
+    ],
+    "relationships": []
 }

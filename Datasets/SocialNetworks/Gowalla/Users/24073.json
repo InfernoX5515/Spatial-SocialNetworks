@@ -5,7 +5,16 @@
     "email": "kaitlyngreen@gmail.com",
     "birthdate": "2014-12-10",
     "phone": "+1-607-576-7973x14940",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        5,
+        24
+    ],
+    "login locations": [
+        [
+            -122.136225,
+            37.422786
+        ]
+    ],
+    "relationships": []
 }

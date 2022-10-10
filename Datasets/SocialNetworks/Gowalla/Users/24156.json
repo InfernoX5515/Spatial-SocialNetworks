@@ -5,7 +5,35 @@
     "email": "cindyconrad@hotmail.com",
     "birthdate": "1985-05-18",
     "phone": "012-808-9591x9639",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        46,
+        48,
+        70,
+        68,
+        63,
+        56,
+        53,
+        26,
+        58,
+        42
+    ],
+    "login locations": [
+        [
+            -122.41561,
+            37.770781
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4399,
+                0.01
+            ],
+            [
+                22365,
+                0.0533333333333
+            ]
+        ]
+    ]
 }

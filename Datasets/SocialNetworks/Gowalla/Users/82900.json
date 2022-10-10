@@ -5,7 +5,20 @@
     "email": "melindajacobs@gmail.com",
     "birthdate": "1913-10-11",
     "phone": "0864911697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        63,
+        73,
+        27,
+        14,
+        51,
+        73
+    ],
+    "login locations": [
+        [
+            -118.485063,
+            34.017022
+        ]
+    ],
+    "relationships": []
 }

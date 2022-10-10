@@ -5,7 +5,33 @@
     "email": "michaelwolf@hotmail.com",
     "birthdate": "1949-04-25",
     "phone": "323.366.8910x8172",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        23,
+        40,
+        48,
+        8,
+        40,
+        73,
+        57,
+        56
+    ],
+    "login locations": [
+        [
+            -122.408144,
+            37.779572
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                29677,
+                0.136363636364
+            ],
+            [
+                29677,
+                0.136363636364
+            ]
+        ]
+    ]
 }

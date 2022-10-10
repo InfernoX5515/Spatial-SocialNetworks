@@ -5,7 +5,14 @@
     "email": "cgreene@yahoo.com",
     "birthdate": "1963-06-17",
     "phone": "4501979807",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53
+    ],
+    "login locations": [
+        [
+            -122.397772,
+            37.673237
+        ]
+    ],
+    "relationships": []
 }

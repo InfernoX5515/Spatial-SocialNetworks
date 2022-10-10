@@ -5,7 +5,27 @@
     "email": "rebeccajohnson@yahoo.com",
     "birthdate": "1977-01-18",
     "phone": "425.072.6931",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        11,
+        17,
+        40,
+        28,
+        64,
+        18,
+        73,
+        53,
+        56,
+        37,
+        13,
+        64,
+        32
+    ],
+    "login locations": [
+        [
+            -122.415225,
+            37.761069
+        ]
+    ],
+    "relationships": []
 }

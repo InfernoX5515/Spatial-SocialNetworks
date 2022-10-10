@@ -5,7 +5,23 @@
     "email": "jeffrey68@hotmail.com",
     "birthdate": "2016-09-20",
     "phone": "(782)270-2053",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.544518,
+            34.386927
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                179,
+                0.09
+            ],
+            [
+                179,
+                0.09
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "hernandeznicole@gmail.com",
     "birthdate": "1935-11-08",
     "phone": "+1-673-752-3257x17122",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        22,
+        48,
+        73,
+        26,
+        3,
+        56,
+        42,
+        71,
+        59,
+        53
+    ],
+    "login locations": [
+        [
+            -118.322308,
+            34.191123
+        ]
+    ],
+    "relationships": []
 }

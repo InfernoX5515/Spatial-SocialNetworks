@@ -5,7 +5,20 @@
     "email": "escobardaniel@yahoo.com",
     "birthdate": "1925-11-22",
     "phone": "031-550-9005x281",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        21,
+        5,
+        61,
+        46,
+        49,
+        63
+    ],
+    "login locations": [
+        [
+            -118.436701,
+            34.041362
+        ]
+    ],
+    "relationships": []
 }

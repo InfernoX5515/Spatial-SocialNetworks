@@ -5,7 +5,26 @@
     "email": "schneiderrachel@hotmail.com",
     "birthdate": "1934-09-28",
     "phone": "980.630.7476x850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        44,
+        5,
+        75,
+        8,
+        30,
+        45,
+        71,
+        51,
+        1,
+        28,
+        12,
+        4
+    ],
+    "login locations": [
+        [
+            -116.387226,
+            33.771719
+        ]
+    ],
+    "relationships": []
 }

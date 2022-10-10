@@ -5,7 +5,16 @@
     "email": "brenda95@yahoo.com",
     "birthdate": "1963-09-02",
     "phone": "001-145-9611",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        39,
+        61
+    ],
+    "login locations": [
+        [
+            -118.44198,
+            34.012626
+        ]
+    ],
+    "relationships": []
 }

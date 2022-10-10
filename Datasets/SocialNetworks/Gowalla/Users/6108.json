@@ -5,7 +5,39 @@
     "email": "andersonevelyn@yahoo.com",
     "birthdate": "1988-11-27",
     "phone": "(087)186-5065",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        63,
+        63,
+        54,
+        37,
+        66,
+        11,
+        17,
+        38,
+        70,
+        52,
+        42,
+        56,
+        31,
+        4
+    ],
+    "login locations": [
+        [
+            -122.275264,
+            37.859139
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53,
+                0.01
+            ],
+            [
+                53,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,18 @@
     "email": "angeladaniels@yahoo.com",
     "birthdate": "1988-09-07",
     "phone": "(914)409-2305x648",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        1,
+        43,
+        30,
+        0
+    ],
+    "login locations": [
+        [
+            -117.1857,
+            32.812606
+        ]
+    ],
+    "relationships": []
 }

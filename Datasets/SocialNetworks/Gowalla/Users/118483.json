@@ -5,7 +5,17 @@
     "email": "matthewlove@gmail.com",
     "birthdate": "1927-06-19",
     "phone": "895.022.4985",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        35,
+        39,
+        66
+    ],
+    "login locations": [
+        [
+            -117.88691,
+            33.690555
+        ]
+    ],
+    "relationships": []
 }

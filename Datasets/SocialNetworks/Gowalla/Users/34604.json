@@ -5,7 +5,28 @@
     "email": "garciaalyssa@gmail.com",
     "birthdate": "1979-02-13",
     "phone": "500.117.3046x9875",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        0,
+        16,
+        31,
+        25,
+        74,
+        35,
+        75,
+        11,
+        9,
+        48,
+        11,
+        40,
+        40,
+        64
+    ],
+    "login locations": [
+        [
+            -118.375247,
+            34.069606
+        ]
+    ],
+    "relationships": []
 }

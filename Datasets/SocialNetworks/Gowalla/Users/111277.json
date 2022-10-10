@@ -5,7 +5,27 @@
     "email": "ebrooks@yahoo.com",
     "birthdate": "1937-01-06",
     "phone": "+1-301-223-1622x946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        49,
+        2,
+        67,
+        44,
+        4,
+        73,
+        24,
+        62,
+        52,
+        55,
+        43,
+        7,
+        57
+    ],
+    "login locations": [
+        [
+            -122.098899,
+            37.415296
+        ]
+    ],
+    "relationships": []
 }

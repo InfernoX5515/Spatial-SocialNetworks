@@ -5,7 +5,24 @@
     "email": "alexishayes@yahoo.com",
     "birthdate": "1973-04-09",
     "phone": "384.002.3739x14794",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        49,
+        56,
+        0,
+        0,
+        39,
+        26,
+        43,
+        36,
+        20,
+        6
+    ],
+    "login locations": [
+        [
+            -122.275537,
+            37.802455
+        ]
+    ],
+    "relationships": []
 }

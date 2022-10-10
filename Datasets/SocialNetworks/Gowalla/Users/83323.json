@@ -5,7 +5,20 @@
     "email": "whiteveronica@yahoo.com",
     "birthdate": "1957-05-14",
     "phone": "(560)689-5264",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        29,
+        66,
+        33,
+        5,
+        63,
+        47
+    ],
+    "login locations": [
+        [
+            -118.371173,
+            34.07165
+        ]
+    ],
+    "relationships": []
 }

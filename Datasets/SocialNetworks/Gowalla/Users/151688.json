@@ -5,7 +5,32 @@
     "email": "matthewwalker@hotmail.com",
     "birthdate": "1946-04-25",
     "phone": "001-332-387-0238x8058",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        7,
+        55,
+        45,
+        64,
+        73,
+        28,
+        63
+    ],
+    "login locations": [
+        [
+            -121.915802,
+            37.322035
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                151694,
+                0.0102040816327
+            ],
+            [
+                151694,
+                0.0102040816327
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,22 @@
     "email": "anthonyjohnson@yahoo.com",
     "birthdate": "2017-09-12",
     "phone": "+1-320-607-7104",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        1,
+        42,
+        53,
+        8,
+        36,
+        21,
+        22,
+        26
+    ],
+    "login locations": [
+        [
+            -120.634155,
+            35.173872
+        ]
+    ],
+    "relationships": []
 }

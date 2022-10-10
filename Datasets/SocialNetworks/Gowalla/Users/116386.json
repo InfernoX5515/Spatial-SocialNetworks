@@ -5,7 +5,16 @@
     "email": "jasonowens@yahoo.com",
     "birthdate": "1987-09-04",
     "phone": "223.527.1735x8290",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        48,
+        17
+    ],
+    "login locations": [
+        [
+            -118.178702,
+            33.849172
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "heather14@hotmail.com",
     "birthdate": "2008-12-22",
     "phone": "001-686-402-6856",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        41,
+        34,
+        19,
+        71,
+        30,
+        26,
+        13,
+        51,
+        23,
+        61
+    ],
+    "login locations": [
+        [
+            -122.435875,
+            37.798828
+        ]
+    ],
+    "relationships": []
 }

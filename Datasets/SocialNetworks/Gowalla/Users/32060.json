@@ -5,7 +5,19 @@
     "email": "ecoleman@hotmail.com",
     "birthdate": "1959-08-21",
     "phone": "280-636-0412x257",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        67,
+        70,
+        71,
+        49,
+        42
+    ],
+    "login locations": [
+        [
+            -122.160242,
+            37.444977
+        ]
+    ],
+    "relationships": []
 }

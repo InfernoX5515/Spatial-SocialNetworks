@@ -5,7 +5,22 @@
     "email": "charlesgonzalez@hotmail.com",
     "birthdate": "1998-04-17",
     "phone": "(840)102-7952x8739",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        2,
+        60,
+        33,
+        45,
+        11,
+        64,
+        24,
+        48
+    ],
+    "login locations": [
+        [
+            -118.105522,
+            34.152472
+        ]
+    ],
+    "relationships": []
 }

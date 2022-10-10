@@ -5,7 +5,22 @@
     "email": "zmoreno@hotmail.com",
     "birthdate": "1963-03-31",
     "phone": "+1-308-474-7795x85045",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        66,
+        59,
+        44,
+        62,
+        3,
+        36,
+        20,
+        66
+    ],
+    "login locations": [
+        [
+            -118.426258,
+            34.009185
+        ]
+    ],
+    "relationships": []
 }

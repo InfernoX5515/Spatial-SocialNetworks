@@ -5,7 +5,32 @@
     "email": "uwoodward@yahoo.com",
     "birthdate": "1913-11-01",
     "phone": "616-592-9114x0144",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        28,
+        25,
+        52,
+        57,
+        40,
+        19,
+        59
+    ],
+    "login locations": [
+        [
+            -122.40967,
+            37.792077
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5832,
+                0.01
+            ],
+            [
+                5832,
+                0.01
+            ]
+        ]
+    ]
 }

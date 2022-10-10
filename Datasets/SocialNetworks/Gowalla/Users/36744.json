@@ -5,7 +5,26 @@
     "email": "phillipsanna@hotmail.com",
     "birthdate": "1988-10-15",
     "phone": "079-898-4408x99924",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        8,
+        64,
+        65,
+        43,
+        73,
+        51,
+        41,
+        72,
+        46,
+        69,
+        0,
+        5
+    ],
+    "login locations": [
+        [
+            -118.078398,
+            33.767623
+        ]
+    ],
+    "relationships": []
 }

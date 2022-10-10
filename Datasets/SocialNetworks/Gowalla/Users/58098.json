@@ -5,7 +5,18 @@
     "email": "joann92@hotmail.com",
     "birthdate": "1961-08-17",
     "phone": "971-818-4463x45706",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        50,
+        24,
+        24,
+        26
+    ],
+    "login locations": [
+        [
+            -122.066984,
+            37.21605
+        ]
+    ],
+    "relationships": []
 }

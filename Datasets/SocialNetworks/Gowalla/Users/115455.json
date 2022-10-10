@@ -5,7 +5,27 @@
     "email": "mathisbrent@gmail.com",
     "birthdate": "1907-01-30",
     "phone": "001-943-725-8427",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        72,
+        18,
+        69,
+        66,
+        61,
+        59,
+        53,
+        33,
+        52,
+        64,
+        48,
+        61,
+        40
+    ],
+    "login locations": [
+        [
+            -118.369461,
+            34.128942
+        ]
+    ],
+    "relationships": []
 }

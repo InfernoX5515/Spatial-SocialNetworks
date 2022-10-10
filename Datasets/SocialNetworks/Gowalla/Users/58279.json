@@ -5,7 +5,26 @@
     "email": "gary35@gmail.com",
     "birthdate": "1982-06-18",
     "phone": "001-137-539-8248x5047",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        70,
+        30,
+        19,
+        65,
+        49,
+        5,
+        48,
+        24,
+        23,
+        13,
+        37,
+        56
+    ],
+    "login locations": [
+        [
+            -122.097551,
+            37.40439
+        ]
+    ],
+    "relationships": []
 }

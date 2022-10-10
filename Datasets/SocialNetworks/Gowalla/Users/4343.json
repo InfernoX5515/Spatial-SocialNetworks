@@ -5,7 +5,21 @@
     "email": "riddledylan@hotmail.com",
     "birthdate": "1978-11-21",
     "phone": "(521)436-0422x3518",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        52,
+        72,
+        75,
+        17,
+        28,
+        1,
+        51
+    ],
+    "login locations": [
+        [
+            -122.12897,
+            37.429493
+        ]
+    ],
+    "relationships": []
 }

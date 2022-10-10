@@ -5,7 +5,14 @@
     "email": "griffinduane@gmail.com",
     "birthdate": "1958-07-03",
     "phone": "041-186-6585",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25
+    ],
+    "login locations": [
+        [
+            -122.322231,
+            37.564709
+        ]
+    ],
+    "relationships": []
 }

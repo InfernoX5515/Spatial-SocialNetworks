@@ -5,7 +5,23 @@
     "email": "durantheresa@yahoo.com",
     "birthdate": "1945-02-06",
     "phone": "(909)515-6787x37596",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        58,
+        42,
+        28,
+        35,
+        0,
+        58,
+        41,
+        10,
+        70
+    ],
+    "login locations": [
+        [
+            -122.411246,
+            37.747738
+        ]
+    ],
+    "relationships": []
 }

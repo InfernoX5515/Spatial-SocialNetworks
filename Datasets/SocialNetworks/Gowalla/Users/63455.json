@@ -5,7 +5,26 @@
     "email": "fcochran@hotmail.com",
     "birthdate": "2000-08-04",
     "phone": "001-500-124-9212x594",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        1,
+        2,
+        63,
+        26,
+        34,
+        16,
+        31,
+        8,
+        57,
+        69,
+        56,
+        46
+    ],
+    "login locations": [
+        [
+            -122.143096,
+            37.439422
+        ]
+    ],
+    "relationships": []
 }

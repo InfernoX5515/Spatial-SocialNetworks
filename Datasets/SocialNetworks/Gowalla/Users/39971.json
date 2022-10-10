@@ -5,7 +5,17 @@
     "email": "fraziernichole@yahoo.com",
     "birthdate": "1990-05-30",
     "phone": "+1-623-682-3875x6201",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        72,
+        25,
+        2
+    ],
+    "login locations": [
+        [
+            -121.317207,
+            38.589977
+        ]
+    ],
+    "relationships": []
 }

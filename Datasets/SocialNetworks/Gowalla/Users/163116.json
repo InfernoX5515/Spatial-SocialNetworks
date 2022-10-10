@@ -5,7 +5,21 @@
     "email": "collinscarolyn@hotmail.com",
     "birthdate": "1928-11-26",
     "phone": "103.134.3242x3098",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        9,
+        34,
+        31,
+        18,
+        2,
+        71,
+        16
+    ],
+    "login locations": [
+        [
+            -122.324577,
+            37.564246
+        ]
+    ],
+    "relationships": []
 }

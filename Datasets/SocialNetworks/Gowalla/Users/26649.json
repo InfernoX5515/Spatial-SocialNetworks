@@ -5,7 +5,22 @@
     "email": "donald63@yahoo.com",
     "birthdate": "1924-02-14",
     "phone": "196.446.0050x125",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        11,
+        14,
+        58,
+        51,
+        14,
+        3,
+        58,
+        47
+    ],
+    "login locations": [
+        [
+            -117.55406,
+            34.075238
+        ]
+    ],
+    "relationships": []
 }

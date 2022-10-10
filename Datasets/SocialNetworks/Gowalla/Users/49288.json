@@ -5,7 +5,27 @@
     "email": "msanchez@gmail.com",
     "birthdate": "2005-06-23",
     "phone": "001-887-957-6622x209",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        18,
+        14
+    ],
+    "login locations": [
+        [
+            -121.674813,
+            37.097384
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                102077,
+                0.5
+            ],
+            [
+                102077,
+                0.5
+            ]
+        ]
+    ]
 }

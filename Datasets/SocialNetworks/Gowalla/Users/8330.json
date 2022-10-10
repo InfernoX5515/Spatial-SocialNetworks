@@ -5,7 +5,17 @@
     "email": "allenwilkins@yahoo.com",
     "birthdate": "1984-12-11",
     "phone": "001-998-032-9144",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        73,
+        43,
+        10
+    ],
+    "login locations": [
+        [
+            -122.310441,
+            37.820496
+        ]
+    ],
+    "relationships": []
 }

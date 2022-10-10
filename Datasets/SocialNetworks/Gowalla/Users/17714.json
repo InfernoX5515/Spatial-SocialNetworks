@@ -5,7 +5,25 @@
     "email": "kbowman@hotmail.com",
     "birthdate": "1906-12-30",
     "phone": "(853)473-1702",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        10,
+        38,
+        50,
+        20,
+        55,
+        51,
+        20,
+        41,
+        43,
+        39,
+        11
+    ],
+    "login locations": [
+        [
+            -118.3874,
+            33.999523
+        ]
+    ],
+    "relationships": []
 }

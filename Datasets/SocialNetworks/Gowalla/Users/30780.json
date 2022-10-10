@@ -5,7 +5,24 @@
     "email": "khouston@hotmail.com",
     "birthdate": "1984-11-02",
     "phone": "001-624-910-2525x5211",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        33,
+        26,
+        28,
+        45,
+        43,
+        6,
+        0,
+        0,
+        52,
+        14
+    ],
+    "login locations": [
+        [
+            -122.402566,
+            37.775997
+        ]
+    ],
+    "relationships": []
 }

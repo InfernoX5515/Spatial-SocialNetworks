@@ -5,7 +5,27 @@
     "email": "mwilliams@yahoo.com",
     "birthdate": "2015-03-12",
     "phone": "857.968.9588",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        31,
+        22,
+        12,
+        65,
+        38,
+        38,
+        27,
+        28,
+        15,
+        26,
+        59,
+        30,
+        22
+    ],
+    "login locations": [
+        [
+            -118.713597,
+            34.180937
+        ]
+    ],
+    "relationships": []
 }

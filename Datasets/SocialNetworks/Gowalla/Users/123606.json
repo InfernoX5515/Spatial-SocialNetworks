@@ -5,7 +5,15 @@
     "email": "swilliams@hotmail.com",
     "birthdate": "1954-09-02",
     "phone": "313-009-9727",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        45
+    ],
+    "login locations": [
+        [
+            -122.437863,
+            37.721372
+        ]
+    ],
+    "relationships": []
 }

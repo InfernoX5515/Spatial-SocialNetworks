@@ -5,7 +5,24 @@
     "email": "hubbardwilliam@yahoo.com",
     "birthdate": "1985-09-20",
     "phone": "001-287-298-2638",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        24,
+        37,
+        69,
+        4,
+        50,
+        3,
+        8,
+        57,
+        72,
+        4
+    ],
+    "login locations": [
+        [
+            -118.428691,
+            34.132715
+        ]
+    ],
+    "relationships": []
 }

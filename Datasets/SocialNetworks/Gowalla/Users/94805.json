@@ -5,7 +5,27 @@
     "email": "josephmassey@hotmail.com",
     "birthdate": "1966-12-28",
     "phone": "475.288.5463x03379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        17,
+        1,
+        3,
+        31,
+        41,
+        6,
+        21,
+        2,
+        50,
+        22,
+        21,
+        9,
+        71
+    ],
+    "login locations": [
+        [
+            -117.162397,
+            32.708984
+        ]
+    ],
+    "relationships": []
 }

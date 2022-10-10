@@ -5,7 +5,25 @@
     "email": "randy23@hotmail.com",
     "birthdate": "1974-11-27",
     "phone": "189.976.5094x22665",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        72,
+        12,
+        50,
+        27,
+        42,
+        28,
+        57,
+        4,
+        71,
+        54,
+        69
+    ],
+    "login locations": [
+        [
+            -117.919684,
+            34.001073
+        ]
+    ],
+    "relationships": []
 }

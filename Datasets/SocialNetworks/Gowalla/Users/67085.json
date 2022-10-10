@@ -5,7 +5,30 @@
     "email": "ncombs@yahoo.com",
     "birthdate": "1978-10-31",
     "phone": "081-396-6132x72247",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        44,
+        18,
+        26,
+        14,
+        62
+    ],
+    "login locations": [
+        [
+            -118.104505,
+            34.071289
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6221,
+                0.01
+            ],
+            [
+                6221,
+                0.01
+            ]
+        ]
+    ]
 }

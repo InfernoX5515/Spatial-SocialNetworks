@@ -5,7 +5,35 @@
     "email": "dmcpherson@hotmail.com",
     "birthdate": "1906-10-01",
     "phone": "001-447-567-9789x22568",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        46,
+        34,
+        24,
+        24,
+        9,
+        36,
+        61,
+        8,
+        74,
+        35
+    ],
+    "login locations": [
+        [
+            -122.407004,
+            37.775687
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5073,
+                0.0266666666667
+            ],
+            [
+                5089,
+                0.04
+            ]
+        ]
+    ]
 }

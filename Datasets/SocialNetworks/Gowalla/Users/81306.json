@@ -5,7 +5,32 @@
     "email": "sierra22@hotmail.com",
     "birthdate": "2008-07-24",
     "phone": "001-153-262-3708x9952",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        39,
+        26,
+        7,
+        63,
+        43,
+        4,
+        30
+    ],
+    "login locations": [
+        [
+            -122.433448,
+            37.727969
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7297,
+                0.04
+            ],
+            [
+                7297,
+                0.04
+            ]
+        ]
+    ]
 }

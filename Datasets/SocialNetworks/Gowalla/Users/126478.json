@@ -5,7 +5,18 @@
     "email": "slarson@gmail.com",
     "birthdate": "1994-10-23",
     "phone": "938.670.2903x387",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        19,
+        0,
+        60,
+        55
+    ],
+    "login locations": [
+        [
+            -117.975067,
+            33.802654
+        ]
+    ],
+    "relationships": []
 }

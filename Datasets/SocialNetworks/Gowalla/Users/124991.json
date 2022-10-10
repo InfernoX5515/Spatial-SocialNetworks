@@ -5,7 +5,22 @@
     "email": "asims@yahoo.com",
     "birthdate": "1934-12-05",
     "phone": "001-840-264-6150x294",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        57,
+        34,
+        66,
+        75,
+        28,
+        7,
+        71,
+        39
+    ],
+    "login locations": [
+        [
+            -118.361704,
+            33.899428
+        ]
+    ],
+    "relationships": []
 }

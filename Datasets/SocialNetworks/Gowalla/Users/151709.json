@@ -5,7 +5,18 @@
     "email": "lamstephen@hotmail.com",
     "birthdate": "1912-12-17",
     "phone": "001-473-095-1738x53089",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        29,
+        42,
+        34,
+        34
+    ],
+    "login locations": [
+        [
+            -117.637342,
+            34.102273
+        ]
+    ],
+    "relationships": []
 }

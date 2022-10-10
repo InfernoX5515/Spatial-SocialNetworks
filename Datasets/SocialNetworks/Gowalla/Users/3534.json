@@ -5,7 +5,18 @@
     "email": "zimmermanalicia@hotmail.com",
     "birthdate": "1928-11-05",
     "phone": "954-708-5106x65030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        6,
+        21,
+        39,
+        6
+    ],
+    "login locations": [
+        [
+            -122.406973,
+            37.787225
+        ]
+    ],
+    "relationships": []
 }

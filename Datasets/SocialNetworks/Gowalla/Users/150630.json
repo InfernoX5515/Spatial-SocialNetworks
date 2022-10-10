@@ -5,7 +5,27 @@
     "email": "maryhughes@yahoo.com",
     "birthdate": "1996-10-15",
     "phone": "6870584337",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        6,
+        16,
+        46,
+        66,
+        1,
+        69,
+        59,
+        49,
+        54,
+        45,
+        17,
+        26,
+        19
+    ],
+    "login locations": [
+        [
+            -122.036279,
+            37.415838
+        ]
+    ],
+    "relationships": []
 }

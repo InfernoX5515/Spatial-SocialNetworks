@@ -5,7 +5,18 @@
     "email": "kimberlydickerson@hotmail.com",
     "birthdate": "2006-05-23",
     "phone": "+1-727-188-6921x4754",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        67,
+        26,
+        27,
+        65
+    ],
+    "login locations": [
+        [
+            -118.305422,
+            34.121397
+        ]
+    ],
+    "relationships": []
 }

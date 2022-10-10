@@ -5,7 +5,21 @@
     "email": "watsonbenjamin@hotmail.com",
     "birthdate": "1997-01-30",
     "phone": "5637218246",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        17,
+        22,
+        23,
+        22,
+        46,
+        62,
+        14
+    ],
+    "login locations": [
+        [
+            -118.047277,
+            34.05961
+        ]
+    ],
+    "relationships": []
 }

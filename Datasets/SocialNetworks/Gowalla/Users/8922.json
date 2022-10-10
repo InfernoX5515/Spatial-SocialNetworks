@@ -5,7 +5,12 @@
     "email": "hmanning@yahoo.com",
     "birthdate": "1936-12-03",
     "phone": "899.634.6604",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.334674,
+            37.816855
+        ]
+    ],
+    "relationships": []
 }

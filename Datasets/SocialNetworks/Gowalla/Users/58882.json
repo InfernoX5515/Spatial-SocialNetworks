@@ -5,7 +5,16 @@
     "email": "baxtercalvin@gmail.com",
     "birthdate": "1932-02-02",
     "phone": "001-683-947-5340",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        68,
+        49
+    ],
+    "login locations": [
+        [
+            -118.441253,
+            34.265027
+        ]
+    ],
+    "relationships": []
 }

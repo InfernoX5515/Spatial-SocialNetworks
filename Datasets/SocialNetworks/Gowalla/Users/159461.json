@@ -5,7 +5,22 @@
     "email": "hoffmanjustin@gmail.com",
     "birthdate": "1992-05-19",
     "phone": "(085)922-4575",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        54,
+        9,
+        8,
+        55,
+        9,
+        71,
+        24,
+        55
+    ],
+    "login locations": [
+        [
+            -121.960495,
+            37.337982
+        ]
+    ],
+    "relationships": []
 }

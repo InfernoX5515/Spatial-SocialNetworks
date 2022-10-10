@@ -5,7 +5,25 @@
     "email": "oleonard@gmail.com",
     "birthdate": "1939-12-14",
     "phone": "286-288-4491x14580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43
+    ],
+    "login locations": [
+        [
+            -121.249537,
+            38.701227
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                194724,
+                0.333333333333
+            ],
+            [
+                194724,
+                0.333333333333
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,39 @@
     "email": "ericaspence@hotmail.com",
     "birthdate": "1920-01-12",
     "phone": "828-612-9712",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        16,
+        12,
+        18,
+        55,
+        19,
+        57,
+        31,
+        69,
+        50,
+        44,
+        49,
+        47,
+        57,
+        10
+    ],
+    "login locations": [
+        [
+            -117.723819,
+            33.628748
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                831,
+                0.01
+            ],
+            [
+                3554,
+                0.1
+            ]
+        ]
+    ]
 }

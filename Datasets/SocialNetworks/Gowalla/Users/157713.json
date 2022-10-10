@@ -5,7 +5,20 @@
     "email": "cflores@gmail.com",
     "birthdate": "1957-07-03",
     "phone": "942-201-5530x6370",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        34,
+        34,
+        51,
+        6,
+        50,
+        28
+    ],
+    "login locations": [
+        [
+            -118.116152,
+            34.675534
+        ]
+    ],
+    "relationships": []
 }

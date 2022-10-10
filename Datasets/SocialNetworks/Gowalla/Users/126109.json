@@ -5,7 +5,26 @@
     "email": "fgeorge@yahoo.com",
     "birthdate": "1996-08-28",
     "phone": "426.537.8890",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        36,
+        12,
+        10,
+        16,
+        18,
+        2,
+        53,
+        5,
+        66,
+        38,
+        43,
+        8
+    ],
+    "login locations": [
+        [
+            -121.975298,
+            37.174614
+        ]
+    ],
+    "relationships": []
 }

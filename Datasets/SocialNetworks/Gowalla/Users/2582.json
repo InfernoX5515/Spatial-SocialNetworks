@@ -5,7 +5,27 @@
     "email": "lori17@yahoo.com",
     "birthdate": "1948-10-29",
     "phone": "(586)829-5683",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        1,
+        12,
+        71,
+        2,
+        29,
+        37,
+        48,
+        60,
+        12,
+        51,
+        26,
+        59,
+        24
+    ],
+    "login locations": [
+        [
+            -117.225236,
+            32.827529
+        ]
+    ],
+    "relationships": []
 }

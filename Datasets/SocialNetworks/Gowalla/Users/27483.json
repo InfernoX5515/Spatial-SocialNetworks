@@ -5,7 +5,20 @@
     "email": "fingram@yahoo.com",
     "birthdate": "1913-05-09",
     "phone": "(238)315-2092x3706",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        49,
+        3,
+        64,
+        62,
+        66,
+        64
+    ],
+    "login locations": [
+        [
+            -117.554967,
+            34.048931
+        ]
+    ],
+    "relationships": []
 }

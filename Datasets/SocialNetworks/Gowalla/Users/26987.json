@@ -5,7 +5,33 @@
     "email": "istevens@hotmail.com",
     "birthdate": "1937-03-19",
     "phone": "7162024290",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        40,
+        14,
+        52,
+        6,
+        5,
+        75,
+        29,
+        42
+    ],
+    "login locations": [
+        [
+            -117.777727,
+            33.695407
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                119490,
+                0.0909090909091
+            ],
+            [
+                119490,
+                0.0909090909091
+            ]
+        ]
+    ]
 }

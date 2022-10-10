@@ -5,7 +5,34 @@
     "email": "teverett@hotmail.com",
     "birthdate": "1996-03-02",
     "phone": "(163)176-4976",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        22,
+        34,
+        21,
+        39,
+        39,
+        3,
+        15,
+        8,
+        37
+    ],
+    "login locations": [
+        [
+            -117.744629,
+            33.650477
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118797,
+                0.316831683168
+            ],
+            [
+                118797,
+                0.316831683168
+            ]
+        ]
+    ]
 }

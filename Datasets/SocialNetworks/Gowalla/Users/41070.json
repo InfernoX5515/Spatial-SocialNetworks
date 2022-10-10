@@ -5,7 +5,34 @@
     "email": "michael84@yahoo.com",
     "birthdate": "1912-11-09",
     "phone": "346.311.1313",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        47,
+        75,
+        41,
+        16,
+        38,
+        11,
+        28,
+        30,
+        6
+    ],
+    "login locations": [
+        [
+            -116.349781,
+            33.72053
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3246,
+                0.0516273849607
+            ],
+            [
+                15025,
+                0.0732984293194
+            ]
+        ]
+    ]
 }

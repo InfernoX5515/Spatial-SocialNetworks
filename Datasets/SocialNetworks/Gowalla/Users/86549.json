@@ -5,7 +5,18 @@
     "email": "gregory50@gmail.com",
     "birthdate": "1992-03-10",
     "phone": "+1-330-058-8807x03641",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        35,
+        58,
+        20,
+        22
+    ],
+    "login locations": [
+        [
+            -118.291095,
+            34.103512
+        ]
+    ],
+    "relationships": []
 }

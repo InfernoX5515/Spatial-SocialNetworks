@@ -5,7 +5,22 @@
     "email": "greenesarah@hotmail.com",
     "birthdate": "1910-10-20",
     "phone": "5237207378",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        47,
+        30,
+        42,
+        3,
+        22,
+        67,
+        25,
+        50
+    ],
+    "login locations": [
+        [
+            -118.18257,
+            33.848134
+        ]
+    ],
+    "relationships": []
 }

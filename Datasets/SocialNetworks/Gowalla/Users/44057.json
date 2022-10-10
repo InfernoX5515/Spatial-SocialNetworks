@@ -5,7 +5,12 @@
     "email": "jamesorr@yahoo.com",
     "birthdate": "2002-07-21",
     "phone": "516.102.6312x1075",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.931028,
+            37.294706
+        ]
+    ],
+    "relationships": []
 }

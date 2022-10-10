@@ -5,7 +5,23 @@
     "email": "knoxeric@yahoo.com",
     "birthdate": "1986-10-04",
     "phone": "1810570856",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        25,
+        54,
+        18,
+        24,
+        0,
+        37,
+        57,
+        36,
+        22
+    ],
+    "login locations": [
+        [
+            -121.663968,
+            37.024045
+        ]
+    ],
+    "relationships": []
 }

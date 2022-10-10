@@ -5,7 +5,19 @@
     "email": "jenniferhogan@gmail.com",
     "birthdate": "1932-10-18",
     "phone": "028.012.0052x9693",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        12,
+        1,
+        10,
+        56,
+        67
+    ],
+    "login locations": [
+        [
+            -121.986352,
+            37.343533
+        ]
+    ],
+    "relationships": []
 }

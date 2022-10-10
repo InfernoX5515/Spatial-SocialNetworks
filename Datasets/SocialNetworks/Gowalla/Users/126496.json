@@ -5,7 +5,12 @@
     "email": "zachary30@hotmail.com",
     "birthdate": "2003-10-09",
     "phone": "485.794.4232x3232",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.291444,
+            34.071707
+        ]
+    ],
+    "relationships": []
 }

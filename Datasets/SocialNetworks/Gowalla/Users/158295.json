@@ -5,7 +5,17 @@
     "email": "claudiajohnson@gmail.com",
     "birthdate": "1965-09-27",
     "phone": "001-425-680-5230",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        15,
+        61,
+        67
+    ],
+    "login locations": [
+        [
+            -118.320992,
+            34.081561
+        ]
+    ],
+    "relationships": []
 }

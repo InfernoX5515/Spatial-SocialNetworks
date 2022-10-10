@@ -5,7 +5,34 @@
     "email": "ballen@hotmail.com",
     "birthdate": "1981-03-15",
     "phone": "863.076.7464x9572",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        6,
+        19,
+        57,
+        12,
+        29,
+        74,
+        39,
+        44,
+        50
+    ],
+    "login locations": [
+        [
+            -122.417103,
+            37.77892
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                235,
+                0.0805755395683
+            ],
+            [
+                3532,
+                0.102880658436
+            ]
+        ]
+    ]
 }

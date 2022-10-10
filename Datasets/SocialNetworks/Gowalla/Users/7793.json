@@ -5,7 +5,16 @@
     "email": "cody11@hotmail.com",
     "birthdate": "1911-09-01",
     "phone": "(084)092-4727",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        73,
+        10
+    ],
+    "login locations": [
+        [
+            -122.159415,
+            37.43809
+        ]
+    ],
+    "relationships": []
 }

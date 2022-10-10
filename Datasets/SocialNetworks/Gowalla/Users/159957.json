@@ -5,7 +5,26 @@
     "email": "brettsummers@gmail.com",
     "birthdate": "1957-09-26",
     "phone": "671-431-1921x185",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        33,
+        39,
+        25,
+        50,
+        29,
+        56,
+        37,
+        33,
+        18,
+        44,
+        68,
+        62
+    ],
+    "login locations": [
+        [
+            -119.839113,
+            34.423837
+        ]
+    ],
+    "relationships": []
 }

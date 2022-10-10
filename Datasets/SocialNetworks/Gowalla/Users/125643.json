@@ -5,7 +5,27 @@
     "email": "wrightsandra@hotmail.com",
     "birthdate": "1985-07-08",
     "phone": "063.640.9825x06615",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        29,
+        60,
+        54,
+        15,
+        44,
+        5,
+        24,
+        64,
+        6,
+        51,
+        57,
+        9,
+        48
+    ],
+    "login locations": [
+        [
+            -122.248546,
+            37.47129
+        ]
+    ],
+    "relationships": []
 }

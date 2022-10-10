@@ -5,7 +5,20 @@
     "email": "dsmith@hotmail.com",
     "birthdate": "1997-03-08",
     "phone": "840-545-6649x122",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        19,
+        61,
+        4,
+        32,
+        21,
+        11
+    ],
+    "login locations": [
+        [
+            -117.993789,
+            33.767982
+        ]
+    ],
+    "relationships": []
 }

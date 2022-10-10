@@ -5,7 +5,19 @@
     "email": "brian05@yahoo.com",
     "birthdate": "1940-07-13",
     "phone": "6179110112",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        29,
+        40,
+        14,
+        3,
+        51
+    ],
+    "login locations": [
+        [
+            -117.273006,
+            33.175698
+        ]
+    ],
+    "relationships": []
 }

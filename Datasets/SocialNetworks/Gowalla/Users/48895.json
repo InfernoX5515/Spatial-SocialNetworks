@@ -5,7 +5,17 @@
     "email": "alexandermartinez@gmail.com",
     "birthdate": "1906-10-15",
     "phone": "+1-217-437-1071x0930",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        22,
+        74,
+        64
+    ],
+    "login locations": [
+        [
+            -121.873943,
+            37.269567
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "watsonbrittany@yahoo.com",
     "birthdate": "1983-06-29",
     "phone": "(077)475-6437x63939",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        36,
+        63,
+        54,
+        22,
+        3,
+        30,
+        73,
+        6,
+        66,
+        66,
+        47
+    ],
+    "login locations": [
+        [
+            -117.27751,
+            34.09426
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "allisongabriel@hotmail.com",
     "birthdate": "1997-04-27",
     "phone": "928.251.4694x06353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        10,
+        42,
+        55,
+        66,
+        44,
+        51,
+        65,
+        17
+    ],
+    "login locations": [
+        [
+            -119.165322,
+            36.299654
+        ]
+    ],
+    "relationships": []
 }

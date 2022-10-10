@@ -5,7 +5,35 @@
     "email": "mary45@gmail.com",
     "birthdate": "1977-05-18",
     "phone": "+1-468-842-4080x030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        42,
+        3,
+        21,
+        54,
+        72,
+        22,
+        7,
+        73,
+        0,
+        36
+    ],
+    "login locations": [
+        [
+            -122.39135,
+            37.760872
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1774,
+                0.01
+            ],
+            [
+                1774,
+                0.01
+            ]
+        ]
+    ]
 }

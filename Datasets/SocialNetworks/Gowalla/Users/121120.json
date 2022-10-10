@@ -5,7 +5,16 @@
     "email": "nobrien@hotmail.com",
     "birthdate": "1976-06-09",
     "phone": "001-812-993-2151",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        42,
+        43
+    ],
+    "login locations": [
+        [
+            -122.722805,
+            38.338475
+        ]
+    ],
+    "relationships": []
 }

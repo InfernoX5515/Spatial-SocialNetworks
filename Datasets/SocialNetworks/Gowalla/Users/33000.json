@@ -5,7 +5,21 @@
     "email": "fosterrobert@hotmail.com",
     "birthdate": "2019-07-17",
     "phone": "241-250-8536x46707",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        73,
+        43,
+        27,
+        23,
+        33,
+        61,
+        68
+    ],
+    "login locations": [
+        [
+            -118.061682,
+            33.866307
+        ]
+    ],
+    "relationships": []
 }

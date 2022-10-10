@@ -5,7 +5,19 @@
     "email": "jon77@gmail.com",
     "birthdate": "1995-01-02",
     "phone": "001-219-560-9318x59434",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        17,
+        53,
+        13,
+        13,
+        7
+    ],
+    "login locations": [
+        [
+            -118.399061,
+            34.095779
+        ]
+    ],
+    "relationships": []
 }

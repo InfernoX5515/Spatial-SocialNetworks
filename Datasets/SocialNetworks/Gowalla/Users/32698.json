@@ -5,7 +5,14 @@
     "email": "sarah32@yahoo.com",
     "birthdate": "2010-04-13",
     "phone": "875-801-0278x5013",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18
+    ],
+    "login locations": [
+        [
+            -122.328443,
+            37.650947
+        ]
+    ],
+    "relationships": []
 }

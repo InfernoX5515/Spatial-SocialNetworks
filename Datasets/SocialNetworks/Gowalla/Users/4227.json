@@ -5,7 +5,30 @@
     "email": "wesley06@gmail.com",
     "birthdate": "1974-10-05",
     "phone": "345.262.5208x7557",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        59,
+        61,
+        31,
+        31,
+        45
+    ],
+    "login locations": [
+        [
+            -122.430635,
+            37.774158
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8,
+                0.04
+            ],
+            [
+                96,
+                0.08
+            ]
+        ]
+    ]
 }

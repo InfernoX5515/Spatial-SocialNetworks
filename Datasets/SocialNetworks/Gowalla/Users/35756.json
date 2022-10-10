@@ -5,7 +5,29 @@
     "email": "marypowers@hotmail.com",
     "birthdate": "1911-05-21",
     "phone": "0980639400",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        55,
+        38,
+        15,
+        64
+    ],
+    "login locations": [
+        [
+            -118.380417,
+            34.057212
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                36618,
+                0.02
+            ],
+            [
+                36618,
+                0.02
+            ]
+        ]
+    ]
 }

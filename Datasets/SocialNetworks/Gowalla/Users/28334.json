@@ -5,7 +5,25 @@
     "email": "chelsea78@hotmail.com",
     "birthdate": "1951-12-25",
     "phone": "001-832-150-3934x94879",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        1,
+        8,
+        26,
+        66,
+        5,
+        45,
+        18,
+        9,
+        28,
+        13,
+        16
+    ],
+    "login locations": [
+        [
+            -122.651542,
+            38.256973
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "ilewis@yahoo.com",
     "birthdate": "1991-04-10",
     "phone": "710-828-8474",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        50,
+        46,
+        59,
+        28,
+        20,
+        51,
+        42,
+        38,
+        55,
+        36,
+        41,
+        63
+    ],
+    "login locations": [
+        [
+            -122.434743,
+            37.76085
+        ]
+    ],
+    "relationships": []
 }

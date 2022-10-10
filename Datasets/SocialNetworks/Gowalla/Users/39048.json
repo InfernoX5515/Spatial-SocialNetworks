@@ -5,7 +5,36 @@
     "email": "patrickhuff@hotmail.com",
     "birthdate": "1973-06-05",
     "phone": "(482)518-4416",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        32,
+        40,
+        34,
+        59,
+        43,
+        55,
+        9,
+        8,
+        45,
+        23,
+        19
+    ],
+    "login locations": [
+        [
+            -122.246151,
+            37.790004
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                653,
+                0.0628571428571
+            ],
+            [
+                1346,
+                0.266666666667
+            ]
+        ]
+    ]
 }

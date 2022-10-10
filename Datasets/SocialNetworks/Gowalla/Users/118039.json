@@ -5,7 +5,15 @@
     "email": "laurensuarez@hotmail.com",
     "birthdate": "1925-07-30",
     "phone": "001-389-016-3783x5102",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        35
+    ],
+    "login locations": [
+        [
+            -118.328171,
+            34.097843
+        ]
+    ],
+    "relationships": []
 }

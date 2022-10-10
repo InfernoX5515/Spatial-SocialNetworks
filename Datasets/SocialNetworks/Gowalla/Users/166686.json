@@ -5,7 +5,21 @@
     "email": "lisa19@hotmail.com",
     "birthdate": "1963-06-20",
     "phone": "075.420.7527x2994",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        22,
+        19,
+        72,
+        68,
+        36,
+        27,
+        72
+    ],
+    "login locations": [
+        [
+            -121.454139,
+            38.580147
+        ]
+    ],
+    "relationships": []
 }

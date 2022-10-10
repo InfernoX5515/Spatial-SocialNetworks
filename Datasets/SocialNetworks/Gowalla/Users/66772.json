@@ -5,7 +5,19 @@
     "email": "jordanjenna@hotmail.com",
     "birthdate": "1916-05-10",
     "phone": "(841)859-2124x76168",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        62,
+        49,
+        5,
+        33,
+        71
+    ],
+    "login locations": [
+        [
+            -117.048643,
+            32.684425
+        ]
+    ],
+    "relationships": []
 }

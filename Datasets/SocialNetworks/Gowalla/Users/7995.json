@@ -5,7 +5,21 @@
     "email": "davidruiz@hotmail.com",
     "birthdate": "1942-05-12",
     "phone": "+1-280-945-8656x61017",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        17,
+        35,
+        18,
+        55,
+        18,
+        36,
+        72
+    ],
+    "login locations": [
+        [
+            -122.103823,
+            37.395642
+        ]
+    ],
+    "relationships": []
 }

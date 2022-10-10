@@ -5,7 +5,20 @@
     "email": "jessica71@gmail.com",
     "birthdate": "1965-03-18",
     "phone": "(131)975-9790x0056",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        59,
+        0,
+        59,
+        38,
+        53,
+        17
+    ],
+    "login locations": [
+        [
+            -118.346554,
+            34.022439
+        ]
+    ],
+    "relationships": []
 }

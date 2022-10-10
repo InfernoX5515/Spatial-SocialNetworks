@@ -5,7 +5,37 @@
     "email": "sjackson@yahoo.com",
     "birthdate": "1916-06-13",
     "phone": "436-544-6230x30116",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        2,
+        29,
+        0,
+        18,
+        38,
+        36,
+        39,
+        43,
+        65,
+        29,
+        9,
+        21
+    ],
+    "login locations": [
+        [
+            -117.201281,
+            32.839309
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38280,
+                0.01
+            ],
+            [
+                38280,
+                0.01
+            ]
+        ]
+    ]
 }

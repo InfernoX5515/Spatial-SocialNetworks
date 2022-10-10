@@ -5,7 +5,15 @@
     "email": "tammyprice@hotmail.com",
     "birthdate": "1974-09-01",
     "phone": "756.389.9420x79205",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        24
+    ],
+    "login locations": [
+        [
+            -118.16426,
+            34.117498
+        ]
+    ],
+    "relationships": []
 }

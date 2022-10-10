@@ -5,7 +5,21 @@
     "email": "martinezrandy@hotmail.com",
     "birthdate": "1922-04-25",
     "phone": "001-701-977-6989x72416",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        69,
+        42,
+        1,
+        50,
+        70,
+        36,
+        61
+    ],
+    "login locations": [
+        [
+            -117.888142,
+            33.75519
+        ]
+    ],
+    "relationships": []
 }

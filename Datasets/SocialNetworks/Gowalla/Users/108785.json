@@ -5,7 +5,23 @@
     "email": "twarren@hotmail.com",
     "birthdate": "1986-01-22",
     "phone": "411.587.3862x79242",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        45,
+        28,
+        17,
+        41,
+        45,
+        33,
+        40,
+        49,
+        24
+    ],
+    "login locations": [
+        [
+            -119.015139,
+            35.274006
+        ]
+    ],
+    "relationships": []
 }

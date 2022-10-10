@@ -5,7 +5,12 @@
     "email": "rothandrew@gmail.com",
     "birthdate": "2012-07-26",
     "phone": "001-423-732-2006x503",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.245885,
+            33.144594
+        ]
+    ],
+    "relationships": []
 }

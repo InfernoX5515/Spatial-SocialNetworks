@@ -5,7 +5,15 @@
     "email": "aprilrodriguez@gmail.com",
     "birthdate": "1957-06-15",
     "phone": "001-381-856-4874x90593",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        47
+    ],
+    "login locations": [
+        [
+            -117.9537,
+            33.766222
+        ]
+    ],
+    "relationships": []
 }

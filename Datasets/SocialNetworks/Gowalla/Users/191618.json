@@ -5,7 +5,16 @@
     "email": "hmcintyre@gmail.com",
     "birthdate": "2005-08-17",
     "phone": "867.839.9580x349",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        28,
+        21
+    ],
+    "login locations": [
+        [
+            -117.90433,
+            34.083686
+        ]
+    ],
+    "relationships": []
 }

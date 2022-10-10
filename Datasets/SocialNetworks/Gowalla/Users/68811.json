@@ -5,7 +5,20 @@
     "email": "matthew92@gmail.com",
     "birthdate": "2010-01-29",
     "phone": "253-678-7740",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        58,
+        55,
+        35,
+        57,
+        65,
+        1
+    ],
+    "login locations": [
+        [
+            -121.961517,
+            37.314917
+        ]
+    ],
+    "relationships": []
 }

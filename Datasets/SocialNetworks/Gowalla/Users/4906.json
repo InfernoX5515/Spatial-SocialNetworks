@@ -5,7 +5,39 @@
     "email": "lphillips@yahoo.com",
     "birthdate": "1967-04-06",
     "phone": "(559)845-9389",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        51,
+        34,
+        16,
+        6,
+        48,
+        29,
+        75,
+        12,
+        34,
+        7,
+        16,
+        44,
+        73,
+        22
+    ],
+    "login locations": [
+        [
+            -118.029528,
+            33.827943
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                85,
+                0.01
+            ],
+            [
+                245,
+                0.01
+            ]
+        ]
+    ]
 }

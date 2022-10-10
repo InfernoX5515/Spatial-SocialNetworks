@@ -5,7 +5,15 @@
     "email": "lori02@hotmail.com",
     "birthdate": "1933-06-23",
     "phone": "+1-474-711-3823x782",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        53
+    ],
+    "login locations": [
+        [
+            -118.14354,
+            33.914453
+        ]
+    ],
+    "relationships": []
 }

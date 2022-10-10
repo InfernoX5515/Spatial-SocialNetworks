@@ -5,7 +5,33 @@
     "email": "angela74@yahoo.com",
     "birthdate": "1973-11-27",
     "phone": "001-209-968-3599x90631",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        38,
+        54,
+        23,
+        71,
+        51,
+        49,
+        69,
+        53
+    ],
+    "login locations": [
+        [
+            -117.944388,
+            33.826656
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                102689,
+                0.0681818181818
+            ],
+            [
+                102689,
+                0.0681818181818
+            ]
+        ]
+    ]
 }

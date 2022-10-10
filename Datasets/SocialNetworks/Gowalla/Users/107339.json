@@ -5,7 +5,26 @@
     "email": "ecruz@gmail.com",
     "birthdate": "1956-07-28",
     "phone": "+1-239-012-1520x3579",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        62,
+        57,
+        41,
+        23,
+        56,
+        12,
+        21,
+        59,
+        7,
+        30,
+        23,
+        23
+    ],
+    "login locations": [
+        [
+            -122.081343,
+            37.636908
+        ]
+    ],
+    "relationships": []
 }

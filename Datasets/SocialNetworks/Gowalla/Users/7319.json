@@ -5,7 +5,16 @@
     "email": "danielquinn@gmail.com",
     "birthdate": "1936-02-21",
     "phone": "+1-578-330-5792x58057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        52,
+        46
+    ],
+    "login locations": [
+        [
+            -118.214703,
+            34.123827
+        ]
+    ],
+    "relationships": []
 }

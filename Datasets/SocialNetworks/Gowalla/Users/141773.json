@@ -5,7 +5,23 @@
     "email": "robert20@gmail.com",
     "birthdate": "1920-04-02",
     "phone": "943.971.2733x03377",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        61,
+        41,
+        65,
+        8,
+        30,
+        48,
+        8,
+        60,
+        70
+    ],
+    "login locations": [
+        [
+            -122.351167,
+            37.613198
+        ]
+    ],
+    "relationships": []
 }

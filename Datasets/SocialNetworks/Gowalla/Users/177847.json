@@ -5,7 +5,23 @@
     "email": "npennington@hotmail.com",
     "birthdate": "2004-03-25",
     "phone": "(262)531-8775",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        4,
+        4,
+        9,
+        70,
+        10,
+        52,
+        25,
+        50,
+        65
+    ],
+    "login locations": [
+        [
+            -118.339471,
+            34.03462
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "gibsoneric@hotmail.com",
     "birthdate": "1962-09-29",
     "phone": "690.989.4208x270",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.411836,
+            37.791453
+        ]
+    ],
+    "relationships": []
 }

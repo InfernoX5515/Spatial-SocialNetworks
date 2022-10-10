@@ -5,7 +5,16 @@
     "email": "kellybrianna@gmail.com",
     "birthdate": "1969-11-17",
     "phone": "001-340-140-6313",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        44,
+        16
+    ],
+    "login locations": [
+        [
+            -117.860675,
+            33.738023
+        ]
+    ],
+    "relationships": []
 }

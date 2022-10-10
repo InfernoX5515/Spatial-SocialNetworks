@@ -5,7 +5,15 @@
     "email": "bkeller@hotmail.com",
     "birthdate": "1950-01-03",
     "phone": "001-053-643-4675x7300",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        19
+    ],
+    "login locations": [
+        [
+            -122.397616,
+            37.779924
+        ]
+    ],
+    "relationships": []
 }

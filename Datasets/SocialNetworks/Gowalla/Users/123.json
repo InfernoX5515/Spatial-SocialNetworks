@@ -5,7 +5,31 @@
     "email": "tberry@yahoo.com",
     "birthdate": "1974-01-13",
     "phone": "225-512-6874",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        20,
+        13,
+        18,
+        42,
+        11,
+        15
+    ],
+    "login locations": [
+        [
+            -122.132564,
+            37.458039
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                435,
+                0.01
+            ],
+            [
+                435,
+                0.01
+            ]
+        ]
+    ]
 }

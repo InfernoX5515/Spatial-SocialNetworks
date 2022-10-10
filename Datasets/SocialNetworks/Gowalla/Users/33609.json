@@ -5,7 +5,24 @@
     "email": "pjohnson@gmail.com",
     "birthdate": "1999-05-20",
     "phone": "001-934-309-3231x543",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        10,
+        53,
+        37,
+        12,
+        21,
+        46,
+        14,
+        8,
+        57,
+        36
+    ],
+    "login locations": [
+        [
+            -118.048216,
+            33.745569
+        ]
+    ],
+    "relationships": []
 }

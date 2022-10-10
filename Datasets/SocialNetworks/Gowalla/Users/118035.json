@@ -5,7 +5,19 @@
     "email": "turnerrachel@hotmail.com",
     "birthdate": "2014-06-06",
     "phone": "001-112-465-2490",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        11,
+        5,
+        23,
+        65,
+        6
+    ],
+    "login locations": [
+        [
+            -122.433177,
+            37.766616
+        ]
+    ],
+    "relationships": []
 }

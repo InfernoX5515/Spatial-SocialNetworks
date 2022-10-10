@@ -5,7 +5,17 @@
     "email": "brittanycarson@gmail.com",
     "birthdate": "1975-06-21",
     "phone": "816.976.6431x378",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        51,
+        20,
+        11
+    ],
+    "login locations": [
+        [
+            -117.890113,
+            33.687383
+        ]
+    ],
+    "relationships": []
 }

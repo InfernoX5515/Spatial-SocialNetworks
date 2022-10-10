@@ -5,7 +5,28 @@
     "email": "devin58@gmail.com",
     "birthdate": "2002-07-09",
     "phone": "849.851.0542",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        59,
+        30,
+        35,
+        50,
+        66,
+        47,
+        36,
+        54,
+        67,
+        8,
+        36,
+        2,
+        58,
+        16
+    ],
+    "login locations": [
+        [
+            -118.396264,
+            34.023761
+        ]
+    ],
+    "relationships": []
 }

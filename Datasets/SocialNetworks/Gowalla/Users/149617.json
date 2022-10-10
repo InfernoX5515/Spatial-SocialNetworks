@@ -5,7 +5,14 @@
     "email": "hgonzales@yahoo.com",
     "birthdate": "1937-08-23",
     "phone": "5105956842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28
+    ],
+    "login locations": [
+        [
+            -118.262458,
+            33.847218
+        ]
+    ],
+    "relationships": []
 }

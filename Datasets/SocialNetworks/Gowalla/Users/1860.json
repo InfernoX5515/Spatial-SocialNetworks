@@ -5,7 +5,36 @@
     "email": "charlesgreene@yahoo.com",
     "birthdate": "2006-07-20",
     "phone": "001-851-267-4342x93631",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        63,
+        57,
+        56,
+        38,
+        18,
+        21,
+        36,
+        69,
+        34,
+        33,
+        21
+    ],
+    "login locations": [
+        [
+            -118.394417,
+            34.022548
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                57750,
+                0.0427807486631
+            ],
+            [
+                57787,
+                0.992
+            ]
+        ]
+    ]
 }

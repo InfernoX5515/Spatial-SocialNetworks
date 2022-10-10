@@ -5,7 +5,20 @@
     "email": "patricktate@yahoo.com",
     "birthdate": "2017-06-26",
     "phone": "001-424-644-3477x4264",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        16,
+        48,
+        74,
+        31,
+        52,
+        55
+    ],
+    "login locations": [
+        [
+            -118.351883,
+            34.0627
+        ]
+    ],
+    "relationships": []
 }

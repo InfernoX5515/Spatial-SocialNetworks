@@ -5,7 +5,36 @@
     "email": "victoriawang@yahoo.com",
     "birthdate": "1930-06-20",
     "phone": "+1-314-355-6987",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        14,
+        44,
+        26,
+        42,
+        44,
+        56,
+        73,
+        50,
+        5,
+        11,
+        64
+    ],
+    "login locations": [
+        [
+            -119.806561,
+            36.830885
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93338,
+                0.128205128205
+            ],
+            [
+                93338,
+                0.128205128205
+            ]
+        ]
+    ]
 }

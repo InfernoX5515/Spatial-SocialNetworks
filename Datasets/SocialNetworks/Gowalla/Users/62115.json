@@ -5,7 +5,17 @@
     "email": "daniel04@gmail.com",
     "birthdate": "2011-02-04",
     "phone": "476-379-8266x15269",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        45,
+        49,
+        50
+    ],
+    "login locations": [
+        [
+            -121.931964,
+            37.336864
+        ]
+    ],
+    "relationships": []
 }

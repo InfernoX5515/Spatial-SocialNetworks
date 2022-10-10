@@ -5,7 +5,27 @@
     "email": "bobby11@yahoo.com",
     "birthdate": "1931-04-29",
     "phone": "(658)398-0377x5156",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        68,
+        56,
+        73,
+        25,
+        44,
+        50,
+        71,
+        51,
+        4,
+        45,
+        61,
+        7,
+        20
+    ],
+    "login locations": [
+        [
+            -121.981351,
+            37.549914
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "vincentpeter@hotmail.com",
     "birthdate": "1945-10-12",
     "phone": "921.772.7250x146",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        2,
+        67,
+        50,
+        51
+    ],
+    "login locations": [
+        [
+            -122.323777,
+            37.729488
+        ]
+    ],
+    "relationships": []
 }

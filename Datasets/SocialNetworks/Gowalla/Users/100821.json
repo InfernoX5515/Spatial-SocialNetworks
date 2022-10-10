@@ -5,7 +5,21 @@
     "email": "ljohnson@yahoo.com",
     "birthdate": "1963-12-27",
     "phone": "463-114-2438x55439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        45,
+        26,
+        72,
+        66,
+        56,
+        56,
+        58
+    ],
+    "login locations": [
+        [
+            -122.243952,
+            37.406925
+        ]
+    ],
+    "relationships": []
 }

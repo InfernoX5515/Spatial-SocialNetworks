@@ -5,7 +5,30 @@
     "email": "moralessandra@yahoo.com",
     "birthdate": "1994-06-16",
     "phone": "001-828-654-9013x0354",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        38,
+        56,
+        59,
+        32,
+        35
+    ],
+    "login locations": [
+        [
+            -118.191562,
+            34.074244
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                60201,
+                0.0290909090909
+            ],
+            [
+                60201,
+                0.0290909090909
+            ]
+        ]
+    ]
 }

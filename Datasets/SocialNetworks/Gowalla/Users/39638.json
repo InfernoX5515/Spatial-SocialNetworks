@@ -5,7 +5,37 @@
     "email": "westrebecca@gmail.com",
     "birthdate": "1943-08-29",
     "phone": "(519)429-3824x1093",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        54,
+        62,
+        10,
+        36,
+        22,
+        32,
+        8,
+        58,
+        62,
+        36,
+        24,
+        9
+    ],
+    "login locations": [
+        [
+            -118.173708,
+            34.078903
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                833,
+                0.01
+            ],
+            [
+                1655,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

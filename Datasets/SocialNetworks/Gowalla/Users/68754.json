@@ -5,7 +5,22 @@
     "email": "courtneyhorton@gmail.com",
     "birthdate": "1928-08-20",
     "phone": "460.261.3606x161",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        6,
+        68,
+        65,
+        68,
+        46,
+        4,
+        8,
+        66
+    ],
+    "login locations": [
+        [
+            -122.350074,
+            37.577891
+        ]
+    ],
+    "relationships": []
 }

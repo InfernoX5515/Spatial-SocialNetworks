@@ -5,7 +5,15 @@
     "email": "rprice@gmail.com",
     "birthdate": "1907-10-16",
     "phone": "001-517-687-0674x32229",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        10
+    ],
+    "login locations": [
+        [
+            -117.930227,
+            33.727707
+        ]
+    ],
+    "relationships": []
 }

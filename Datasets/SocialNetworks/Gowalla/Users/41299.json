@@ -5,7 +5,20 @@
     "email": "vanessa23@yahoo.com",
     "birthdate": "1934-01-24",
     "phone": "+1-245-375-1435",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        12,
+        16,
+        22,
+        32,
+        43,
+        36
+    ],
+    "login locations": [
+        [
+            -122.395952,
+            37.756137
+        ]
+    ],
+    "relationships": []
 }

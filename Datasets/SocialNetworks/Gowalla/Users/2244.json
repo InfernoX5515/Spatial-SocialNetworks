@@ -5,7 +5,36 @@
     "email": "kellyandrew@hotmail.com",
     "birthdate": "1939-04-04",
     "phone": "9951750173",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        64,
+        58,
+        23,
+        0,
+        56,
+        8,
+        52,
+        29,
+        33,
+        3,
+        40
+    ],
+    "login locations": [
+        [
+            -122.070618,
+            37.393317
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                62751,
+                0.0909090909091
+            ],
+            [
+                62751,
+                0.0909090909091
+            ]
+        ]
+    ]
 }

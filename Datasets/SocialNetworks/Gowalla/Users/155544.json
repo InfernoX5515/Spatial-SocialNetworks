@@ -5,7 +5,23 @@
     "email": "nicole75@hotmail.com",
     "birthdate": "1962-03-29",
     "phone": "842-481-3798x373",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        39,
+        52,
+        12,
+        16,
+        54,
+        8,
+        50,
+        27,
+        26
+    ],
+    "login locations": [
+        [
+            -122.321745,
+            37.564847
+        ]
+    ],
+    "relationships": []
 }

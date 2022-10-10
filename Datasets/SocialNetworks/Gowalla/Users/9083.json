@@ -5,7 +5,25 @@
     "email": "lisa68@yahoo.com",
     "birthdate": "1999-03-18",
     "phone": "+1-313-700-2978x827",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        41,
+        46,
+        54,
+        37,
+        54,
+        40,
+        27,
+        7,
+        27,
+        8,
+        24
+    ],
+    "login locations": [
+        [
+            -118.402957,
+            34.037747
+        ]
+    ],
+    "relationships": []
 }

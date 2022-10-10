@@ -5,7 +5,28 @@
     "email": "brentjenkins@gmail.com",
     "birthdate": "1952-02-24",
     "phone": "371.081.5481x52794",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        72,
+        17,
+        44,
+        49,
+        12,
+        12,
+        46,
+        71,
+        47,
+        75,
+        10,
+        32,
+        38,
+        64
+    ],
+    "login locations": [
+        [
+            -118.427176,
+            34.153023
+        ]
+    ],
+    "relationships": []
 }

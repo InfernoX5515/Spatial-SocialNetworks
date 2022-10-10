@@ -5,7 +5,26 @@
     "email": "jallison@gmail.com",
     "birthdate": "1995-06-06",
     "phone": "(483)948-2781x9594",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        46,
+        26,
+        47,
+        51,
+        73,
+        25,
+        54,
+        14,
+        38,
+        48,
+        16,
+        54
+    ],
+    "login locations": [
+        [
+            -122.0408,
+            37.392468
+        ]
+    ],
+    "relationships": []
 }

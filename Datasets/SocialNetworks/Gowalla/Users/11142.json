@@ -5,7 +5,14 @@
     "email": "velasquezreginald@yahoo.com",
     "birthdate": "1918-01-25",
     "phone": "149.549.6228",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56
+    ],
+    "login locations": [
+        [
+            -122.416419,
+            37.764881
+        ]
+    ],
+    "relationships": []
 }

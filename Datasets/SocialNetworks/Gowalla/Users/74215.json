@@ -5,7 +5,15 @@
     "email": "kellis@hotmail.com",
     "birthdate": "2011-11-25",
     "phone": "001-467-552-2288x472",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        72
+    ],
+    "login locations": [
+        [
+            -122.112427,
+            37.200144
+        ]
+    ],
+    "relationships": []
 }

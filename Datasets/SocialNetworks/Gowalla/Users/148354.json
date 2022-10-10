@@ -5,7 +5,23 @@
     "email": "ksnyder@gmail.com",
     "birthdate": "1947-03-19",
     "phone": "913.937.4224x217",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        42,
+        62,
+        31,
+        5,
+        63,
+        52,
+        36,
+        35,
+        7
+    ],
+    "login locations": [
+        [
+            -121.968406,
+            37.125568
+        ]
+    ],
+    "relationships": []
 }

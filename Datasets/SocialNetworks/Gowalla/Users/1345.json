@@ -5,7 +5,25 @@
     "email": "adkinsdonald@hotmail.com",
     "birthdate": "1944-08-27",
     "phone": "789-475-2484",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21
+    ],
+    "login locations": [
+        [
+            -122.087675,
+            37.714038
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2198,
+                0.0125
+            ],
+            [
+                3752,
+                0.01
+            ]
+        ]
+    ]
 }

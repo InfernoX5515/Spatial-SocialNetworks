@@ -5,7 +5,26 @@
     "email": "jeffrey02@hotmail.com",
     "birthdate": "1997-06-09",
     "phone": "776-650-9038x85969",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        39
+    ],
+    "login locations": [
+        [
+            -117.896174,
+            34.039236
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                44505,
+                0.513513513514
+            ],
+            [
+                44505,
+                0.513513513514
+            ]
+        ]
+    ]
 }

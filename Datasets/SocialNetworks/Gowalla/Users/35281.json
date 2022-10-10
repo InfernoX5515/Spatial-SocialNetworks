@@ -5,7 +5,23 @@
     "email": "xadams@gmail.com",
     "birthdate": "1983-12-17",
     "phone": "+1-904-483-0136",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        4,
+        5,
+        37,
+        25,
+        7,
+        54,
+        44,
+        35,
+        3
+    ],
+    "login locations": [
+        [
+            -118.46015,
+            34.045364
+        ]
+    ],
+    "relationships": []
 }

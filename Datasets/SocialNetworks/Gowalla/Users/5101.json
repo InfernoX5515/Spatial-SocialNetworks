@@ -5,7 +5,30 @@
     "email": "courtneysanders@hotmail.com",
     "birthdate": "1986-01-14",
     "phone": "(530)916-7941x370",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        50,
+        12,
+        52,
+        51,
+        10
+    ],
+    "login locations": [
+        [
+            -122.415219,
+            37.770778
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.01
+            ],
+            [
+                478,
+                0.0398009950249
+            ]
+        ]
+    ]
 }

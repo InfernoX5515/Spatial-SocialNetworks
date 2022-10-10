@@ -5,7 +5,28 @@
     "email": "nlee@yahoo.com",
     "birthdate": "2005-01-16",
     "phone": "800-712-7332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        15,
+        2,
+        4,
+        22,
+        64,
+        47,
+        55,
+        19,
+        7,
+        6,
+        74,
+        6,
+        42,
+        68
+    ],
+    "login locations": [
+        [
+            -117.197373,
+            32.73209
+        ]
+    ],
+    "relationships": []
 }

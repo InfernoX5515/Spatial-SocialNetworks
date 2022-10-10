@@ -5,7 +5,26 @@
     "email": "andreajones@hotmail.com",
     "birthdate": "1959-12-24",
     "phone": "+1-011-531-6827x7363",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        37,
+        56,
+        44,
+        61,
+        55,
+        73,
+        60,
+        7,
+        68,
+        42,
+        23,
+        32
+    ],
+    "login locations": [
+        [
+            -121.979867,
+            37.170316
+        ]
+    ],
+    "relationships": []
 }

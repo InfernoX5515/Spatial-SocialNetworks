@@ -5,7 +5,29 @@
     "email": "nvargas@hotmail.com",
     "birthdate": "1950-05-08",
     "phone": "571-365-6513x348",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        4,
+        12,
+        37,
+        27
+    ],
+    "login locations": [
+        [
+            -122.249285,
+            38.129464
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                21,
+                0.04
+            ],
+            [
+                593,
+                0.0162932790224
+            ]
+        ]
+    ]
 }

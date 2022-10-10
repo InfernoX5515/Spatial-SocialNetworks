@@ -5,7 +5,14 @@
     "email": "carloshill@yahoo.com",
     "birthdate": "1928-09-03",
     "phone": "387.905.9636",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24
+    ],
+    "login locations": [
+        [
+            -117.75169,
+            33.543321
+        ]
+    ],
+    "relationships": []
 }

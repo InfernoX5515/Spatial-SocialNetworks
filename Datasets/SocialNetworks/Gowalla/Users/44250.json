@@ -5,7 +5,28 @@
     "email": "jose23@hotmail.com",
     "birthdate": "1926-04-12",
     "phone": "(137)349-2291",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        44,
+        14,
+        25
+    ],
+    "login locations": [
+        [
+            -117.152239,
+            33.517961
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118155,
+                0.0335570469799
+            ],
+            [
+                118155,
+                0.0335570469799
+            ]
+        ]
+    ]
 }

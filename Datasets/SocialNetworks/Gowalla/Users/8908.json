@@ -5,7 +5,14 @@
     "email": "david22@hotmail.com",
     "birthdate": "1983-02-17",
     "phone": "001-177-360-5977x45475",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65
+    ],
+    "login locations": [
+        [
+            -118.224152,
+            33.905424
+        ]
+    ],
+    "relationships": []
 }

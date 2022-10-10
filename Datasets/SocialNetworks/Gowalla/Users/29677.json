@@ -5,7 +5,29 @@
     "email": "edwardssteven@hotmail.com",
     "birthdate": "1908-07-01",
     "phone": "559-759-4657x62320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        36,
+        21,
+        75,
+        45
+    ],
+    "login locations": [
+        [
+            -122.272143,
+            37.545813
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7488,
+                0.0171428571429
+            ],
+            [
+                7488,
+                0.0171428571429
+            ]
+        ]
+    ]
 }

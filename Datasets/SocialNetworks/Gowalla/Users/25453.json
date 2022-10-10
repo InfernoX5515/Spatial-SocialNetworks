@@ -5,7 +5,23 @@
     "email": "wsmith@hotmail.com",
     "birthdate": "1982-07-11",
     "phone": "001-689-191-9709x25198",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        24,
+        4,
+        1,
+        59,
+        63,
+        40,
+        73,
+        53,
+        66
+    ],
+    "login locations": [
+        [
+            -122.407176,
+            37.791307
+        ]
+    ],
+    "relationships": []
 }

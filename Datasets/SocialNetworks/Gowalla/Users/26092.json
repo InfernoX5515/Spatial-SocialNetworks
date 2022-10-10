@@ -5,7 +5,33 @@
     "email": "hwilliams@hotmail.com",
     "birthdate": "1961-10-14",
     "phone": "(073)773-4653",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        36,
+        17,
+        32,
+        13,
+        27,
+        11,
+        23,
+        56
+    ],
+    "login locations": [
+        [
+            -119.03412,
+            35.369539
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6536,
+                0.01
+            ],
+            [
+                6536,
+                0.01
+            ]
+        ]
+    ]
 }

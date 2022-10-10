@@ -5,7 +5,19 @@
     "email": "elizabethpeters@yahoo.com",
     "birthdate": "1985-07-10",
     "phone": "(558)936-4696",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        28,
+        39,
+        50,
+        36,
+        51
+    ],
+    "login locations": [
+        [
+            -122.404933,
+            37.733171
+        ]
+    ],
+    "relationships": []
 }

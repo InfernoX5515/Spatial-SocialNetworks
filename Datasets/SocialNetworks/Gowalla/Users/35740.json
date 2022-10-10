@@ -5,7 +5,23 @@
     "email": "wisekarina@gmail.com",
     "birthdate": "1995-05-28",
     "phone": "487.691.5518",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.262478,
+            34.068511
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6320,
+                0.01
+            ],
+            [
+                35754,
+                0.04
+            ]
+        ]
+    ]
 }

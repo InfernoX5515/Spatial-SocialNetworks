@@ -5,7 +5,25 @@
     "email": "rmanning@hotmail.com",
     "birthdate": "1916-03-07",
     "phone": "910.264.0163x1972",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        8,
+        5,
+        32,
+        37,
+        68,
+        14,
+        62,
+        73,
+        25,
+        61,
+        58
+    ],
+    "login locations": [
+        [
+            -122.425577,
+            37.769493
+        ]
+    ],
+    "relationships": []
 }

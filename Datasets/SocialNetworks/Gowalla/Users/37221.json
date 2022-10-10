@@ -5,7 +5,23 @@
     "email": "fmartin@hotmail.com",
     "birthdate": "2012-05-27",
     "phone": "(412)867-9181",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        71,
+        43,
+        13,
+        47,
+        39,
+        29,
+        47,
+        63,
+        41
+    ],
+    "login locations": [
+        [
+            -117.935882,
+            33.689377
+        ]
+    ],
+    "relationships": []
 }

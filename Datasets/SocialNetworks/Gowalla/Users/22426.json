@@ -5,7 +5,22 @@
     "email": "juan46@gmail.com",
     "birthdate": "1992-12-06",
     "phone": "986-643-8075x71842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        55,
+        33,
+        74,
+        3,
+        42,
+        71,
+        21,
+        33
+    ],
+    "login locations": [
+        [
+            -121.978687,
+            37.231433
+        ]
+    ],
+    "relationships": []
 }

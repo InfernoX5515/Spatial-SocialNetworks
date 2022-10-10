@@ -5,7 +5,22 @@
     "email": "tonyamoore@gmail.com",
     "birthdate": "2001-04-29",
     "phone": "681.925.5068x704",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        15,
+        34,
+        35,
+        43,
+        52,
+        48,
+        1,
+        8
+    ],
+    "login locations": [
+        [
+            -117.922779,
+            33.690784
+        ]
+    ],
+    "relationships": []
 }

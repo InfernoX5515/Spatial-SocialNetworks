@@ -5,7 +5,26 @@
     "email": "rgilbert@gmail.com",
     "birthdate": "1918-01-07",
     "phone": "958.697.2567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        69
+    ],
+    "login locations": [
+        [
+            -122.069408,
+            37.374282
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                653,
+                0.0685714285714
+            ],
+            [
+                39047,
+                0.0350877192982
+            ]
+        ]
+    ]
 }

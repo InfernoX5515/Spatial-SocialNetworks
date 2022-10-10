@@ -5,7 +5,19 @@
     "email": "brianholmes@yahoo.com",
     "birthdate": "2000-12-08",
     "phone": "504-484-6775x06928",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        27,
+        23,
+        56,
+        35,
+        48
+    ],
+    "login locations": [
+        [
+            -117.178727,
+            33.551742
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "anthonysmith@gmail.com",
     "birthdate": "1968-05-27",
     "phone": "041-632-1549",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.428473,
+            34.022542
+        ]
+    ],
+    "relationships": []
 }

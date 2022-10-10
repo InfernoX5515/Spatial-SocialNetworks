@@ -5,7 +5,19 @@
     "email": "michelle04@gmail.com",
     "birthdate": "1932-12-04",
     "phone": "(433)697-5251",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        4,
+        35,
+        51,
+        70,
+        26
+    ],
+    "login locations": [
+        [
+            -122.001898,
+            37.334595
+        ]
+    ],
+    "relationships": []
 }

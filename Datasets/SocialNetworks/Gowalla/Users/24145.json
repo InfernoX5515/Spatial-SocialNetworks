@@ -5,7 +5,16 @@
     "email": "kobrien@gmail.com",
     "birthdate": "1956-04-22",
     "phone": "040.735.5444",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        44,
+        51
+    ],
+    "login locations": [
+        [
+            -118.430792,
+            34.003493
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "lisapatton@gmail.com",
     "birthdate": "1962-05-28",
     "phone": "001-409-792-0827",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        2,
+        45,
+        9,
+        24,
+        11,
+        34,
+        46
+    ],
+    "login locations": [
+        [
+            -122.730494,
+            38.409972
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,36 @@
     "email": "davidblack@gmail.com",
     "birthdate": "1919-12-13",
     "phone": "+1-151-547-2250x11068",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        67,
+        46,
+        32,
+        65,
+        62,
+        44,
+        64,
+        29,
+        29,
+        54,
+        31
+    ],
+    "login locations": [
+        [
+            -122.413439,
+            37.776656
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82,
+                0.0133928571429
+            ],
+            [
+                82,
+                0.0133928571429
+            ]
+        ]
+    ]
 }

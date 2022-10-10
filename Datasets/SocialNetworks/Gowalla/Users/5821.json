@@ -5,7 +5,24 @@
     "email": "hbradley@gmail.com",
     "birthdate": "1987-11-26",
     "phone": "552.297.8097",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        50,
+        46,
+        30,
+        8,
+        1,
+        12,
+        65,
+        71,
+        53,
+        54
+    ],
+    "login locations": [
+        [
+            -122.344743,
+            37.730478
+        ]
+    ],
+    "relationships": []
 }

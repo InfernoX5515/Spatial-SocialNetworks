@@ -5,7 +5,18 @@
     "email": "jonathansanchez@yahoo.com",
     "birthdate": "1961-08-23",
     "phone": "281-111-3625x464",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        27,
+        13,
+        60,
+        23
+    ],
+    "login locations": [
+        [
+            -122.874735,
+            38.58533
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "reginabullock@hotmail.com",
     "birthdate": "2016-12-12",
     "phone": "770.249.8402",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        49,
+        30,
+        69,
+        12
+    ],
+    "login locations": [
+        [
+            -122.44518,
+            37.810326
+        ]
+    ],
+    "relationships": []
 }

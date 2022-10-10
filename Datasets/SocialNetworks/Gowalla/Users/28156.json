@@ -5,7 +5,20 @@
     "email": "slee@gmail.com",
     "birthdate": "1915-06-01",
     "phone": "(763)989-7260",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        44,
+        5,
+        49,
+        47,
+        75,
+        24
+    ],
+    "login locations": [
+        [
+            -120.68129,
+            35.232869
+        ]
+    ],
+    "relationships": []
 }

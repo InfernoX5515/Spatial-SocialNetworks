@@ -5,7 +5,14 @@
     "email": "xramos@yahoo.com",
     "birthdate": "1935-05-28",
     "phone": "+1-979-566-5787x1474",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43
+    ],
+    "login locations": [
+        [
+            -121.268245,
+            37.894389
+        ]
+    ],
+    "relationships": []
 }

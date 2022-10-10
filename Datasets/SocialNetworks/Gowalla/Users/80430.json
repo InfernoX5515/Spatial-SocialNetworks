@@ -5,7 +5,28 @@
     "email": "nicolehenry@yahoo.com",
     "birthdate": "1908-08-30",
     "phone": "976-555-0431",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        45,
+        66,
+        7,
+        30,
+        0,
+        67,
+        2,
+        23,
+        74,
+        30,
+        11,
+        26,
+        33,
+        66
+    ],
+    "login locations": [
+        [
+            -117.776841,
+            34.101042
+        ]
+    ],
+    "relationships": []
 }

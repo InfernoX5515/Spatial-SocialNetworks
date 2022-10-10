@@ -5,7 +5,34 @@
     "email": "derek88@gmail.com",
     "birthdate": "1957-10-14",
     "phone": "(553)191-5057x34794",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        48,
+        23,
+        59,
+        68,
+        33,
+        18,
+        18,
+        74,
+        1
+    ],
+    "login locations": [
+        [
+            -122.396464,
+            37.779519
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                56456,
+                0.065
+            ],
+            [
+                132717,
+                0.0920245398773
+            ]
+        ]
+    ]
 }

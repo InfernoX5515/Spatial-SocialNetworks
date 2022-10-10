@@ -5,7 +5,16 @@
     "email": "kristin65@yahoo.com",
     "birthdate": "1987-06-27",
     "phone": "(929)470-8263x95745",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        45,
+        40
+    ],
+    "login locations": [
+        [
+            -118.291811,
+            33.782488
+        ]
+    ],
+    "relationships": []
 }

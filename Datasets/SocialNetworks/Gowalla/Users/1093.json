@@ -5,7 +5,16 @@
     "email": "julianpayne@yahoo.com",
     "birthdate": "1976-09-23",
     "phone": "664-166-5931x8724",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        26,
+        36
+    ],
+    "login locations": [
+        [
+            -117.350732,
+            33.159478
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "timothycooley@yahoo.com",
     "birthdate": "1914-04-21",
     "phone": "1065185035",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72
+    ],
+    "login locations": [
+        [
+            -122.097546,
+            37.601119
+        ]
+    ],
+    "relationships": []
 }

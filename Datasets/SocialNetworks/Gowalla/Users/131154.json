@@ -5,7 +5,20 @@
     "email": "fvelez@yahoo.com",
     "birthdate": "1944-01-17",
     "phone": "(332)278-4134x38075",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        15,
+        45,
+        72,
+        51,
+        64,
+        38
+    ],
+    "login locations": [
+        [
+            -117.32363,
+            34.181533
+        ]
+    ],
+    "relationships": []
 }

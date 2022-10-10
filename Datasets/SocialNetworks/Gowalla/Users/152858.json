@@ -5,7 +5,19 @@
     "email": "rachel90@yahoo.com",
     "birthdate": "1923-04-24",
     "phone": "550-649-0079x1611",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        60,
+        18,
+        40,
+        8,
+        19
+    ],
+    "login locations": [
+        [
+            -117.672277,
+            33.798824
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,33 @@
     "email": "christine66@yahoo.com",
     "birthdate": "1926-07-24",
     "phone": "619.140.6818x111",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        38,
+        59,
+        75,
+        7,
+        75,
+        58,
+        7,
+        32
+    ],
+    "login locations": [
+        [
+            -122.094762,
+            37.40902
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22384,
+                0.01
+            ],
+            [
+                22384,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,35 @@
     "email": "christopheraustin@yahoo.com",
     "birthdate": "1943-07-28",
     "phone": "533-085-3140",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        19,
+        2,
+        66,
+        13,
+        19,
+        9,
+        5,
+        22,
+        7,
+        57
+    ],
+    "login locations": [
+        [
+            -122.328497,
+            37.790742
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43737,
+                0.0714285714286
+            ],
+            [
+                43737,
+                0.0714285714286
+            ]
+        ]
+    ]
 }

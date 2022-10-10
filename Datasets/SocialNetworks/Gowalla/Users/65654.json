@@ -5,7 +5,20 @@
     "email": "scott41@hotmail.com",
     "birthdate": "1953-01-26",
     "phone": "+1-270-341-7342x580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        14,
+        67,
+        67,
+        31,
+        32,
+        52
+    ],
+    "login locations": [
+        [
+            -118.348561,
+            34.136679
+        ]
+    ],
+    "relationships": []
 }

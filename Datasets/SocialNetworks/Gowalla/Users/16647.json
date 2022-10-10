@@ -5,7 +5,21 @@
     "email": "bbenitez@gmail.com",
     "birthdate": "1918-03-29",
     "phone": "(244)692-5160x5830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        37,
+        51,
+        75,
+        31,
+        47,
+        74,
+        2
+    ],
+    "login locations": [
+        [
+            -122.101552,
+            38.224806
+        ]
+    ],
+    "relationships": []
 }

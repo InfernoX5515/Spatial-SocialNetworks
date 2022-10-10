@@ -5,7 +5,22 @@
     "email": "amberrodriguez@hotmail.com",
     "birthdate": "2012-09-24",
     "phone": "(014)339-9003x72153",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        16,
+        69,
+        49,
+        44,
+        56,
+        25,
+        14,
+        54
+    ],
+    "login locations": [
+        [
+            -116.999526,
+            32.654764
+        ]
+    ],
+    "relationships": []
 }

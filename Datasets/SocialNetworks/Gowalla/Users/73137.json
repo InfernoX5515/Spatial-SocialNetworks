@@ -5,7 +5,24 @@
     "email": "dharris@hotmail.com",
     "birthdate": "2010-12-18",
     "phone": "020.726.4143x0423",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        48,
+        17,
+        43,
+        37,
+        13,
+        62,
+        6,
+        16,
+        26,
+        24
+    ],
+    "login locations": [
+        [
+            -122.039776,
+            37.373194
+        ]
+    ],
+    "relationships": []
 }

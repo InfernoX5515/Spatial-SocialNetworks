@@ -5,7 +5,16 @@
     "email": "jamiecunningham@yahoo.com",
     "birthdate": "1937-11-10",
     "phone": "001-241-562-7448x108",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        6,
+        50
+    ],
+    "login locations": [
+        [
+            -118.384005,
+            34.057382
+        ]
+    ],
+    "relationships": []
 }

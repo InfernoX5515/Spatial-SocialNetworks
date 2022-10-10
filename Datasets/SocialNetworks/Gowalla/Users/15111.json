@@ -5,7 +5,24 @@
     "email": "ldavis@yahoo.com",
     "birthdate": "2017-07-31",
     "phone": "118.931.5689x1637",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        49,
+        6,
+        25,
+        32,
+        72,
+        22,
+        3,
+        48,
+        35,
+        64
+    ],
+    "login locations": [
+        [
+            -118.135839,
+            34.146247
+        ]
+    ],
+    "relationships": []
 }

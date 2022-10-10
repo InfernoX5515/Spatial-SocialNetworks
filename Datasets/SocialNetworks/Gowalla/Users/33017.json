@@ -5,7 +5,25 @@
     "email": "emilycarroll@hotmail.com",
     "birthdate": "2017-01-18",
     "phone": "001-249-543-9392x5460",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28
+    ],
+    "login locations": [
+        [
+            -118.407168,
+            33.943538
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125450,
+                0.0504451038576
+            ],
+            [
+                125452,
+                0.117647058824
+            ]
+        ]
+    ]
 }

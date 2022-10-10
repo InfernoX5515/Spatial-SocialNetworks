@@ -5,7 +5,22 @@
     "email": "fwade@hotmail.com",
     "birthdate": "1946-03-03",
     "phone": "456-071-1834x2564",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        5,
+        10,
+        28,
+        32,
+        20,
+        62,
+        33,
+        74
+    ],
+    "login locations": [
+        [
+            -122.402137,
+            37.782292
+        ]
+    ],
+    "relationships": []
 }

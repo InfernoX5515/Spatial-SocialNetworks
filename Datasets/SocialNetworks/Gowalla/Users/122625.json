@@ -5,7 +5,17 @@
     "email": "paula70@yahoo.com",
     "birthdate": "1966-11-06",
     "phone": "001-098-054-1145",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        42,
+        65,
+        14
+    ],
+    "login locations": [
+        [
+            -117.06797,
+            32.771317
+        ]
+    ],
+    "relationships": []
 }

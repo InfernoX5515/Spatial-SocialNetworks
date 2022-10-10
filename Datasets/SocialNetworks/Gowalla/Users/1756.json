@@ -5,7 +5,30 @@
     "email": "nromero@yahoo.com",
     "birthdate": "2021-11-27",
     "phone": "+1-704-099-6113x55396",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        64,
+        43,
+        71,
+        19,
+        63
+    ],
+    "login locations": [
+        [
+            -118.322484,
+            33.840214
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                56069,
+                0.48
+            ],
+            [
+                39338,
+                0.269736842105
+            ]
+        ]
+    ]
 }

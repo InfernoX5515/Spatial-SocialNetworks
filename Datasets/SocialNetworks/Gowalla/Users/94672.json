@@ -5,7 +5,19 @@
     "email": "dannyryan@hotmail.com",
     "birthdate": "1918-01-10",
     "phone": "(944)295-0681x21360",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        69,
+        48,
+        11,
+        15,
+        53
+    ],
+    "login locations": [
+        [
+            -121.737537,
+            38.551714
+        ]
+    ],
+    "relationships": []
 }

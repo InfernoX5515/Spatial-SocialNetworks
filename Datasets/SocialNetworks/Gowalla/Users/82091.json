@@ -5,7 +5,23 @@
     "email": "kathy34@gmail.com",
     "birthdate": "1943-09-15",
     "phone": "552.165.2286x24753",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        7,
+        20,
+        24,
+        62,
+        29,
+        7,
+        17,
+        63,
+        47
+    ],
+    "login locations": [
+        [
+            -122.373071,
+            37.794734
+        ]
+    ],
+    "relationships": []
 }

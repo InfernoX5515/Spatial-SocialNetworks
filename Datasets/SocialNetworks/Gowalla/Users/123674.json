@@ -5,7 +5,26 @@
     "email": "oross@hotmail.com",
     "birthdate": "1967-04-02",
     "phone": "001-414-416-9272x521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        73,
+        29,
+        22,
+        28,
+        67,
+        52,
+        41,
+        49,
+        8,
+        5,
+        31,
+        72
+    ],
+    "login locations": [
+        [
+            -119.702679,
+            36.766251
+        ]
+    ],
+    "relationships": []
 }

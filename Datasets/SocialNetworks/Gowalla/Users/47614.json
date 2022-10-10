@@ -5,7 +5,18 @@
     "email": "sbailey@gmail.com",
     "birthdate": "1953-03-11",
     "phone": "(003)679-1425",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        6,
+        69,
+        36,
+        72
+    ],
+    "login locations": [
+        [
+            -122.048822,
+            37.382628
+        ]
+    ],
+    "relationships": []
 }

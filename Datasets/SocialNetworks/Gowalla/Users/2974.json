@@ -5,7 +5,22 @@
     "email": "douglasbrown@gmail.com",
     "birthdate": "1913-11-07",
     "phone": "385.235.3542x864",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        39,
+        37,
+        16,
+        43,
+        2,
+        1,
+        1,
+        69
+    ],
+    "login locations": [
+        [
+            -118.35378,
+            34.065165
+        ]
+    ],
+    "relationships": []
 }

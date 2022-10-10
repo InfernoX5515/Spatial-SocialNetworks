@@ -5,7 +5,25 @@
     "email": "jmclaughlin@yahoo.com",
     "birthdate": "2003-09-25",
     "phone": "001-770-914-2819x488",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        66,
+        23,
+        17,
+        9,
+        31,
+        16,
+        8,
+        8,
+        12,
+        65,
+        40
+    ],
+    "login locations": [
+        [
+            -117.270224,
+            33.13536
+        ]
+    ],
+    "relationships": []
 }

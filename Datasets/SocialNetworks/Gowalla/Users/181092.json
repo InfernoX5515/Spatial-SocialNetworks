@@ -5,7 +5,20 @@
     "email": "kyle09@hotmail.com",
     "birthdate": "1938-12-02",
     "phone": "266-680-3459",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        28,
+        66,
+        46,
+        12,
+        52,
+        67
+    ],
+    "login locations": [
+        [
+            -119.105236,
+            34.235573
+        ]
+    ],
+    "relationships": []
 }

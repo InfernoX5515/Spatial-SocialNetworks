@@ -5,7 +5,27 @@
     "email": "harrisrebecca@yahoo.com",
     "birthdate": "1954-01-16",
     "phone": "2999293329",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        38,
+        66,
+        31,
+        56,
+        36,
+        28,
+        25,
+        66,
+        49,
+        22,
+        34,
+        40,
+        64
+    ],
+    "login locations": [
+        [
+            -118.346144,
+            33.952329
+        ]
+    ],
+    "relationships": []
 }

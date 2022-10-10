@@ -5,7 +5,38 @@
     "email": "nathan24@hotmail.com",
     "birthdate": "1951-10-18",
     "phone": "310.348.7509",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        45,
+        37,
+        19,
+        12,
+        61,
+        60,
+        41,
+        75,
+        12,
+        65,
+        58,
+        25,
+        68
+    ],
+    "login locations": [
+        [
+            -117.141608,
+            32.8063
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                188881,
+                0.115384615385
+            ],
+            [
+                188881,
+                0.115384615385
+            ]
+        ]
+    ]
 }

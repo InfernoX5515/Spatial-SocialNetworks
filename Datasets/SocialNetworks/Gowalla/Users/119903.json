@@ -5,7 +5,23 @@
     "email": "hgarcia@yahoo.com",
     "birthdate": "2016-01-17",
     "phone": "(494)600-3126",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.26299,
+            38.10939
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                119907,
+                0.269230769231
+            ],
+            [
+                119908,
+                0.25
+            ]
+        ]
+    ]
 }

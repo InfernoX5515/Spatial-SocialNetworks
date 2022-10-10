@@ -5,7 +5,28 @@
     "email": "smithrussell@yahoo.com",
     "birthdate": "1916-06-01",
     "phone": "156.127.0720",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        53,
+        2,
+        29,
+        62,
+        65,
+        60,
+        28,
+        65,
+        6,
+        17,
+        14,
+        26,
+        35,
+        43
+    ],
+    "login locations": [
+        [
+            -119.371836,
+            35.183553
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,29 @@
     "email": "shirley37@hotmail.com",
     "birthdate": "1984-11-20",
     "phone": "(640)516-1218",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        72,
+        64,
+        23,
+        38
+    ],
+    "login locations": [
+        [
+            -121.964094,
+            37.279452
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                255,
+                0.0143884892086
+            ],
+            [
+                74595,
+                0.04
+            ]
+        ]
+    ]
 }

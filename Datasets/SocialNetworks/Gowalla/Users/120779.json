@@ -5,7 +5,17 @@
     "email": "alexanderwarren@gmail.com",
     "birthdate": "1992-06-12",
     "phone": "(893)343-3041x472",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        23,
+        6,
+        6
+    ],
+    "login locations": [
+        [
+            -117.102826,
+            32.722948
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "wmartinez@gmail.com",
     "birthdate": "1956-05-26",
     "phone": "792.701.8894",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        36,
+        21,
+        43,
+        18,
+        72,
+        57,
+        35,
+        59,
+        74,
+        23
+    ],
+    "login locations": [
+        [
+            -118.468517,
+            34.072745
+        ]
+    ],
+    "relationships": []
 }

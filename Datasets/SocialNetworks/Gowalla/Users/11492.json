@@ -5,7 +5,14 @@
     "email": "iconway@hotmail.com",
     "birthdate": "1982-10-27",
     "phone": "+1-700-772-1636x189",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49
+    ],
+    "login locations": [
+        [
+            -117.790476,
+            33.645836
+        ]
+    ],
+    "relationships": []
 }

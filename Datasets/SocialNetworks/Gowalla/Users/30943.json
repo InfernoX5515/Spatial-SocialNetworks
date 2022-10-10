@@ -5,7 +5,18 @@
     "email": "marshalljames@yahoo.com",
     "birthdate": "1969-08-05",
     "phone": "343-882-2451",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        26,
+        57,
+        60,
+        43
+    ],
+    "login locations": [
+        [
+            -117.687793,
+            33.468889
+        ]
+    ],
+    "relationships": []
 }

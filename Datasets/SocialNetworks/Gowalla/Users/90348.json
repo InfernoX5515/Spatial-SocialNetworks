@@ -5,7 +5,14 @@
     "email": "beth18@hotmail.com",
     "birthdate": "1938-01-23",
     "phone": "1844102896",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65
+    ],
+    "login locations": [
+        [
+            -119.259794,
+            36.306652
+        ]
+    ],
+    "relationships": []
 }

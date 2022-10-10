@@ -5,7 +5,30 @@
     "email": "teresathomas@hotmail.com",
     "birthdate": "1949-12-02",
     "phone": "+1-556-463-7449x564",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        61,
+        36,
+        33,
+        16,
+        29
+    ],
+    "login locations": [
+        [
+            -121.909489,
+            37.32691
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                36843,
+                0.0446428571429
+            ],
+            [
+                36843,
+                0.0446428571429
+            ]
+        ]
+    ]
 }

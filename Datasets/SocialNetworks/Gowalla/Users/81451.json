@@ -5,7 +5,12 @@
     "email": "kristi15@gmail.com",
     "birthdate": "1996-11-27",
     "phone": "+1-837-283-4770",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.402651,
+            37.765129
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "david53@hotmail.com",
     "birthdate": "2001-12-01",
     "phone": "177.062.2424x264",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        23,
+        61,
+        17,
+        66,
+        34,
+        38
+    ],
+    "login locations": [
+        [
+            -117.166455,
+            33.030983
+        ]
+    ],
+    "relationships": []
 }

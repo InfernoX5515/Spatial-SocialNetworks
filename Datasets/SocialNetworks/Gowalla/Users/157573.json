@@ -5,7 +5,21 @@
     "email": "crawfordjames@hotmail.com",
     "birthdate": "1941-07-24",
     "phone": "(894)963-0383x14227",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        15,
+        58,
+        7,
+        22,
+        72,
+        58,
+        17
+    ],
+    "login locations": [
+        [
+            -120.675983,
+            35.282729
+        ]
+    ],
+    "relationships": []
 }

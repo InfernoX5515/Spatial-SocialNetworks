@@ -5,7 +5,16 @@
     "email": "acohen@yahoo.com",
     "birthdate": "1945-06-18",
     "phone": "001-766-945-3168",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        26,
+        11
+    ],
+    "login locations": [
+        [
+            -122.27549,
+            37.669582
+        ]
+    ],
+    "relationships": []
 }

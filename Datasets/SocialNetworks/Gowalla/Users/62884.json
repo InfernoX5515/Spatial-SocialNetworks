@@ -5,7 +5,26 @@
     "email": "hannahruiz@gmail.com",
     "birthdate": "1926-10-15",
     "phone": "001-709-642-6389x2905",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        53,
+        55,
+        30,
+        52,
+        30,
+        65,
+        71,
+        49,
+        68,
+        10,
+        50,
+        43
+    ],
+    "login locations": [
+        [
+            -122.429166,
+            37.761227
+        ]
+    ],
+    "relationships": []
 }

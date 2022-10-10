@@ -5,7 +5,12 @@
     "email": "malvarez@hotmail.com",
     "birthdate": "1987-10-08",
     "phone": "(460)773-3789x220",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.6832,
+            34.030889
+        ]
+    ],
+    "relationships": []
 }

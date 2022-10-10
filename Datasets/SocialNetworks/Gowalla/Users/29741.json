@@ -5,7 +5,12 @@
     "email": "berryheather@gmail.com",
     "birthdate": "1915-04-12",
     "phone": "001-411-174-4580x3709",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.417305,
+            37.755978
+        ]
+    ],
+    "relationships": []
 }

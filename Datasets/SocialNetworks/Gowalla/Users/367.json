@@ -5,7 +5,17 @@
     "email": "ijohnson@yahoo.com",
     "birthdate": "1947-08-23",
     "phone": "001-244-198-8226x0170",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        54,
+        63,
+        4
+    ],
+    "login locations": [
+        [
+            -122.414683,
+            37.77554
+        ]
+    ],
+    "relationships": []
 }

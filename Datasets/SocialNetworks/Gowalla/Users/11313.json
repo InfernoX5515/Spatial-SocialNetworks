@@ -5,7 +5,14 @@
     "email": "nolananna@yahoo.com",
     "birthdate": "1934-10-03",
     "phone": "001-196-941-5162x857",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52
+    ],
+    "login locations": [
+        [
+            -122.40513,
+            37.772737
+        ]
+    ],
+    "relationships": []
 }

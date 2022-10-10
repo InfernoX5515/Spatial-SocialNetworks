@@ -5,7 +5,31 @@
     "email": "morgantheresa@yahoo.com",
     "birthdate": "1931-03-14",
     "phone": "051.697.4482x3112",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        3,
+        18,
+        72,
+        68,
+        37,
+        6
+    ],
+    "login locations": [
+        [
+            -122.269654,
+            38.221846
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                189712,
+                0.5
+            ],
+            [
+                189712,
+                0.5
+            ]
+        ]
+    ]
 }

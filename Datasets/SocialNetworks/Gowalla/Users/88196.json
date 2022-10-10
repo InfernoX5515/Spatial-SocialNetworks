@@ -5,7 +5,25 @@
     "email": "bernard17@yahoo.com",
     "birthdate": "2022-05-09",
     "phone": "001-022-104-1520x02960",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        41,
+        46,
+        51,
+        3,
+        48,
+        19,
+        62,
+        6,
+        25,
+        16,
+        4
+    ],
+    "login locations": [
+        [
+            -117.891607,
+            33.775399
+        ]
+    ],
+    "relationships": []
 }

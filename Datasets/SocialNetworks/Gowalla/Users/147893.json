@@ -5,7 +5,22 @@
     "email": "hernandezamanda@yahoo.com",
     "birthdate": "1938-10-06",
     "phone": "891.350.0494",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        42,
+        32,
+        71,
+        47,
+        75,
+        46,
+        20,
+        10
+    ],
+    "login locations": [
+        [
+            -122.251953,
+            37.528979
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "douglas90@yahoo.com",
     "birthdate": "1912-03-24",
     "phone": "037.595.0676x267",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61
+    ],
+    "login locations": [
+        [
+            -122.426681,
+            37.770041
+        ]
+    ],
+    "relationships": []
 }

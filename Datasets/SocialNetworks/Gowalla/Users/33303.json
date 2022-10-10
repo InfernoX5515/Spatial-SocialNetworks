@@ -5,7 +5,24 @@
     "email": "williamsmichael@hotmail.com",
     "birthdate": "2018-11-03",
     "phone": "303.068.8829x5084",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        17,
+        22,
+        66,
+        59,
+        40,
+        51,
+        58,
+        53,
+        35,
+        57
+    ],
+    "login locations": [
+        [
+            -121.40125,
+            38.608495
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "goodmanjoy@hotmail.com",
     "birthdate": "1952-12-21",
     "phone": "207.557.9139x292",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        56,
+        51,
+        66,
+        11,
+        15,
+        20,
+        7,
+        41,
+        22
+    ],
+    "login locations": [
+        [
+            -122.428678,
+            37.781851
+        ]
+    ],
+    "relationships": []
 }

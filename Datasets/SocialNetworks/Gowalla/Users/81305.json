@@ -5,7 +5,27 @@
     "email": "chase77@hotmail.com",
     "birthdate": "1976-10-02",
     "phone": "127-178-6611x8364",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        10,
+        5,
+        38,
+        31,
+        60,
+        44,
+        3,
+        50,
+        52,
+        29,
+        49,
+        1,
+        6
+    ],
+    "login locations": [
+        [
+            -122.436663,
+            37.732298
+        ]
+    ],
+    "relationships": []
 }

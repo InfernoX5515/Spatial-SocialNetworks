@@ -5,7 +5,14 @@
     "email": "joel70@yahoo.com",
     "birthdate": "1938-08-11",
     "phone": "574-095-4688x451",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54
+    ],
+    "login locations": [
+        [
+            -122.425533,
+            37.764682
+        ]
+    ],
+    "relationships": []
 }

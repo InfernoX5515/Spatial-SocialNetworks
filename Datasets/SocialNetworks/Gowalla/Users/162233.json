@@ -5,7 +5,15 @@
     "email": "brandon07@gmail.com",
     "birthdate": "1948-08-29",
     "phone": "(115)057-3601x4506",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        27
+    ],
+    "login locations": [
+        [
+            -122.425835,
+            37.761971
+        ]
+    ],
+    "relationships": []
 }

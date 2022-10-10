@@ -5,7 +5,16 @@
     "email": "lhall@hotmail.com",
     "birthdate": "2004-04-24",
     "phone": "049-413-2495x732",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        0,
+        65
+    ],
+    "login locations": [
+        [
+            -118.235743,
+            34.055806
+        ]
+    ],
+    "relationships": []
 }

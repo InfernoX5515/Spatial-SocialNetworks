@@ -5,7 +5,22 @@
     "email": "sarah72@yahoo.com",
     "birthdate": "1999-07-30",
     "phone": "434.181.9306x51739",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        56,
+        66,
+        10,
+        1,
+        63,
+        32,
+        29,
+        63
+    ],
+    "login locations": [
+        [
+            -121.445035,
+            38.602827
+        ]
+    ],
+    "relationships": []
 }

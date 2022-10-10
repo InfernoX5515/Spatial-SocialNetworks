@@ -5,7 +5,28 @@
     "email": "bookererin@gmail.com",
     "birthdate": "1967-10-22",
     "phone": "654-312-6001",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        45,
+        57,
+        17,
+        39,
+        16,
+        53,
+        14,
+        67,
+        51,
+        70,
+        48,
+        70,
+        3,
+        51
+    ],
+    "login locations": [
+        [
+            -118.358402,
+            34.084726
+        ]
+    ],
+    "relationships": []
 }

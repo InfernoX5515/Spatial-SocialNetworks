@@ -5,7 +5,18 @@
     "email": "scottdavid@hotmail.com",
     "birthdate": "2007-05-02",
     "phone": "355-187-7528",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        10,
+        20,
+        42,
+        8
+    ],
+    "login locations": [
+        [
+            -122.453574,
+            37.693255
+        ]
+    ],
+    "relationships": []
 }

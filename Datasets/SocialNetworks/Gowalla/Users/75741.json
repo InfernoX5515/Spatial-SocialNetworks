@@ -5,7 +5,27 @@
     "email": "ppeters@hotmail.com",
     "birthdate": "1907-05-15",
     "phone": "001-597-454-8739x00796",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        54,
+        64,
+        34,
+        3,
+        12,
+        64,
+        43,
+        52,
+        29,
+        69,
+        56,
+        16,
+        6
+    ],
+    "login locations": [
+        [
+            -122.234222,
+            38.084138
+        ]
+    ],
+    "relationships": []
 }

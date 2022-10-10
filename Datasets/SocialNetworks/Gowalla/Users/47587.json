@@ -5,7 +5,21 @@
     "email": "kathy86@yahoo.com",
     "birthdate": "1942-01-16",
     "phone": "5078562414",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        57,
+        28,
+        47,
+        24,
+        41,
+        46,
+        39
+    ],
+    "login locations": [
+        [
+            -118.34745,
+            34.074813
+        ]
+    ],
+    "relationships": []
 }

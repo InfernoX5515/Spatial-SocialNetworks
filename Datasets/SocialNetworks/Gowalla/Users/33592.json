@@ -5,7 +5,28 @@
     "email": "pennyhardy@yahoo.com",
     "birthdate": "1961-04-21",
     "phone": "(651)510-6587x31739",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        9,
+        16,
+        61,
+        56,
+        74,
+        62,
+        45,
+        38,
+        6,
+        27,
+        46,
+        2,
+        14,
+        66
+    ],
+    "login locations": [
+        [
+            -121.924769,
+            37.950547
+        ]
+    ],
+    "relationships": []
 }

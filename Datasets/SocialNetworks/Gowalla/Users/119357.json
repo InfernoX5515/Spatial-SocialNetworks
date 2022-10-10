@@ -5,7 +5,15 @@
     "email": "lindsey43@yahoo.com",
     "birthdate": "1994-07-27",
     "phone": "748-969-6533",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        10
+    ],
+    "login locations": [
+        [
+            -121.209246,
+            38.657219
+        ]
+    ],
+    "relationships": []
 }

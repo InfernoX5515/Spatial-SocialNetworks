@@ -5,7 +5,24 @@
     "email": "reeveskelli@yahoo.com",
     "birthdate": "1944-04-23",
     "phone": "609-436-9614",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        36,
+        63,
+        42,
+        44,
+        12,
+        66,
+        5,
+        35,
+        5,
+        15
+    ],
+    "login locations": [
+        [
+            -122.284347,
+            37.817497
+        ]
+    ],
+    "relationships": []
 }

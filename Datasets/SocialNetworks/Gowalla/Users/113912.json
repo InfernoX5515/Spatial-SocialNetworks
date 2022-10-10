@@ -5,7 +5,24 @@
     "email": "khammond@hotmail.com",
     "birthdate": "1915-12-04",
     "phone": "+1-487-689-4578x94823",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        60,
+        22,
+        35,
+        66,
+        22,
+        10,
+        34,
+        37,
+        48,
+        19
+    ],
+    "login locations": [
+        [
+            -121.946279,
+            37.348933
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "patriciadiaz@hotmail.com",
     "birthdate": "1929-08-04",
     "phone": "729-565-8013",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        57,
+        20,
+        68,
+        40,
+        9,
+        23,
+        11,
+        5,
+        53,
+        7
+    ],
+    "login locations": [
+        [
+            -122.095061,
+            37.41197
+        ]
+    ],
+    "relationships": []
 }

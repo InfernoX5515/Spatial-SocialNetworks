@@ -5,7 +5,26 @@
     "email": "bradleyflores@yahoo.com",
     "birthdate": "1965-09-24",
     "phone": "001-149-697-9173",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        4
+    ],
+    "login locations": [
+        [
+            -122.032091,
+            37.326461
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4252,
+                0.01
+            ],
+            [
+                4252,
+                0.01
+            ]
+        ]
+    ]
 }

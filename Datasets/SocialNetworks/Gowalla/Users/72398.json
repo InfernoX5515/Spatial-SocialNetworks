@@ -5,7 +5,17 @@
     "email": "fitzpatrickallison@gmail.com",
     "birthdate": "1920-06-14",
     "phone": "596-818-1212",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        63,
+        2,
+        13
+    ],
+    "login locations": [
+        [
+            -118.139873,
+            33.793562
+        ]
+    ],
+    "relationships": []
 }

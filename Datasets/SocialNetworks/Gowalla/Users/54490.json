@@ -5,7 +5,27 @@
     "email": "stevensmith@gmail.com",
     "birthdate": "1970-11-19",
     "phone": "(700)353-1910",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        73,
+        67,
+        59,
+        71,
+        21,
+        14,
+        24,
+        71,
+        38,
+        7,
+        3,
+        72,
+        56
+    ],
+    "login locations": [
+        [
+            -121.832039,
+            37.285588
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,36 @@
     "email": "marshdeborah@gmail.com",
     "birthdate": "1992-06-15",
     "phone": "008-616-8656x739",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        34,
+        12,
+        48,
+        67,
+        8,
+        0,
+        30,
+        40,
+        68,
+        69,
+        58
+    ],
+    "login locations": [
+        [
+            -122.401266,
+            37.784131
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                83726,
+                0.12
+            ],
+            [
+                83725,
+                0.22
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "nicholas29@gmail.com",
     "birthdate": "1990-12-29",
     "phone": "001-672-275-7265x47343",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        8,
+        59,
+        33
+    ],
+    "login locations": [
+        [
+            -122.394185,
+            37.752126
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5091,
+                0.015
+            ],
+            [
+                5091,
+                0.015
+            ]
+        ]
+    ]
 }

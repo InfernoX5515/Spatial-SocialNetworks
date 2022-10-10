@@ -5,7 +5,22 @@
     "email": "dhayden@gmail.com",
     "birthdate": "1908-03-10",
     "phone": "337-658-3610x439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        44,
+        11,
+        56,
+        74,
+        66,
+        21,
+        43,
+        41
+    ],
+    "login locations": [
+        [
+            -117.219957,
+            32.76453
+        ]
+    ],
+    "relationships": []
 }

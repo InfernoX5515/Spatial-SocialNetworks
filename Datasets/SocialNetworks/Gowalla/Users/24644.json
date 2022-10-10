@@ -5,7 +5,23 @@
     "email": "jkaufman@gmail.com",
     "birthdate": "1946-06-14",
     "phone": "204-682-7973",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        30,
+        44,
+        71,
+        70,
+        70,
+        23,
+        20,
+        62,
+        37
+    ],
+    "login locations": [
+        [
+            -122.302766,
+            37.856211
+        ]
+    ],
+    "relationships": []
 }

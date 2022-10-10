@@ -5,7 +5,26 @@
     "email": "barkermichael@yahoo.com",
     "birthdate": "1913-02-24",
     "phone": "143-601-4253",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        73,
+        69,
+        56,
+        2,
+        52,
+        46,
+        53,
+        39,
+        50,
+        68,
+        56,
+        9
+    ],
+    "login locations": [
+        [
+            -122.410289,
+            37.77883
+        ]
+    ],
+    "relationships": []
 }

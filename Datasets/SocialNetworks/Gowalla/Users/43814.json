@@ -5,7 +5,28 @@
     "email": "caitlynhenderson@gmail.com",
     "birthdate": "1911-08-18",
     "phone": "286-083-6435",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        55,
+        24,
+        37,
+        39,
+        15,
+        8,
+        18,
+        36,
+        8,
+        11,
+        55,
+        30,
+        51,
+        10
+    ],
+    "login locations": [
+        [
+            -118.321075,
+            33.865798
+        ]
+    ],
+    "relationships": []
 }

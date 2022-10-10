@@ -5,7 +5,25 @@
     "email": "lwoodard@yahoo.com",
     "birthdate": "2019-10-15",
     "phone": "081-683-3071x99933",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        58,
+        44,
+        9,
+        69,
+        57,
+        61,
+        45,
+        37,
+        52,
+        67,
+        60
+    ],
+    "login locations": [
+        [
+            -121.342187,
+            38.656412
+        ]
+    ],
+    "relationships": []
 }

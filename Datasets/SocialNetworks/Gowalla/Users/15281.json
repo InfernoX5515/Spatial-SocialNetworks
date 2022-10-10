@@ -5,7 +5,14 @@
     "email": "gary70@hotmail.com",
     "birthdate": "1948-12-22",
     "phone": "+1-011-562-5671x1411",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64
+    ],
+    "login locations": [
+        [
+            -118.282302,
+            34.070621
+        ]
+    ],
+    "relationships": []
 }

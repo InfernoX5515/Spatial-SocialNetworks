@@ -5,7 +5,20 @@
     "email": "sue38@hotmail.com",
     "birthdate": "1973-12-29",
     "phone": "(944)506-3557",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        37,
+        40,
+        44,
+        34,
+        66,
+        17
+    ],
+    "login locations": [
+        [
+            -118.262404,
+            34.038587
+        ]
+    ],
+    "relationships": []
 }

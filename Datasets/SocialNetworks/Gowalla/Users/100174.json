@@ -5,7 +5,27 @@
     "email": "qcook@gmail.com",
     "birthdate": "1950-03-04",
     "phone": "939-788-8310x85865",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        63,
+        5,
+        56,
+        5,
+        56,
+        58,
+        58,
+        1,
+        69,
+        10,
+        41,
+        60,
+        31
+    ],
+    "login locations": [
+        [
+            -122.039051,
+            37.816084
+        ]
+    ],
+    "relationships": []
 }

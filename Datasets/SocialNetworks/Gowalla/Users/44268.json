@@ -5,7 +5,14 @@
     "email": "mercerdonna@hotmail.com",
     "birthdate": "1945-03-14",
     "phone": "(691)975-9933",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57
+    ],
+    "login locations": [
+        [
+            -122.288863,
+            37.849827
+        ]
+    ],
+    "relationships": []
 }

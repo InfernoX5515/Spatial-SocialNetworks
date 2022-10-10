@@ -5,7 +5,17 @@
     "email": "joelyang@hotmail.com",
     "birthdate": "2002-03-28",
     "phone": "001-313-508-5350x375",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        65,
+        10,
+        30
+    ],
+    "login locations": [
+        [
+            -121.451927,
+            38.584853
+        ]
+    ],
+    "relationships": []
 }

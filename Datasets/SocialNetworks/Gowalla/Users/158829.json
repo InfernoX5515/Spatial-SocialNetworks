@@ -5,7 +5,22 @@
     "email": "cynthia35@gmail.com",
     "birthdate": "1943-06-10",
     "phone": "373-786-7572",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        68,
+        59,
+        31,
+        18,
+        11,
+        5,
+        34,
+        38
+    ],
+    "login locations": [
+        [
+            -118.834893,
+            34.158439
+        ]
+    ],
+    "relationships": []
 }

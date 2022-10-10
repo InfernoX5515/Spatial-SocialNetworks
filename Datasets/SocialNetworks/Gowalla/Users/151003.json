@@ -5,7 +5,26 @@
     "email": "jimenezhannah@hotmail.com",
     "birthdate": "2008-12-12",
     "phone": "(335)338-9576",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        51,
+        50,
+        19,
+        22,
+        28,
+        70,
+        23,
+        56,
+        26,
+        26,
+        21,
+        38
+    ],
+    "login locations": [
+        [
+            -121.95487,
+            37.371017
+        ]
+    ],
+    "relationships": []
 }

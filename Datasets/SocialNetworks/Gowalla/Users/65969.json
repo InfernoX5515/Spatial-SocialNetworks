@@ -5,7 +5,18 @@
     "email": "julia41@gmail.com",
     "birthdate": "1954-04-06",
     "phone": "2026916515",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        35,
+        67,
+        66,
+        2
+    ],
+    "login locations": [
+        [
+            -122.409593,
+            37.770523
+        ]
+    ],
+    "relationships": []
 }

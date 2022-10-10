@@ -5,7 +5,12 @@
     "email": "vnichols@hotmail.com",
     "birthdate": "1954-05-29",
     "phone": "652.225.1878x06874",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.811181,
+            34.032898
+        ]
+    ],
+    "relationships": []
 }

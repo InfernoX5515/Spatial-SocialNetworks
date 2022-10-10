@@ -5,7 +5,25 @@
     "email": "samuel76@gmail.com",
     "birthdate": "1971-04-27",
     "phone": "662.488.8614x875",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        26,
+        52,
+        43,
+        41,
+        63,
+        25,
+        74,
+        74,
+        13,
+        16,
+        69
+    ],
+    "login locations": [
+        [
+            -121.960583,
+            37.805466
+        ]
+    ],
+    "relationships": []
 }

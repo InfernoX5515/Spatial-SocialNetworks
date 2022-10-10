@@ -5,7 +5,37 @@
     "email": "jcross@yahoo.com",
     "birthdate": "1961-07-02",
     "phone": "(009)341-7484x72976",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        67,
+        61,
+        48,
+        26,
+        14,
+        54,
+        44,
+        28,
+        21,
+        19,
+        55,
+        69
+    ],
+    "login locations": [
+        [
+            -122.22665,
+            37.702497
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6221,
+                0.01
+            ],
+            [
+                6221,
+                0.01
+            ]
+        ]
+    ]
 }

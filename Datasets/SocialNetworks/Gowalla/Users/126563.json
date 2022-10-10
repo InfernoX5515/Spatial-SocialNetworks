@@ -5,7 +5,19 @@
     "email": "andersondavid@gmail.com",
     "birthdate": "1988-12-20",
     "phone": "001-799-842-4680x6222",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        52,
+        20,
+        59,
+        66,
+        50
+    ],
+    "login locations": [
+        [
+            -117.149236,
+            32.80914
+        ]
+    ],
+    "relationships": []
 }

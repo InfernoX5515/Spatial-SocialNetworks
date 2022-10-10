@@ -5,7 +5,17 @@
     "email": "samuelthornton@gmail.com",
     "birthdate": "1937-11-21",
     "phone": "+1-022-624-2765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        10,
+        52,
+        33
+    ],
+    "login locations": [
+        [
+            -118.04097,
+            34.074824
+        ]
+    ],
+    "relationships": []
 }

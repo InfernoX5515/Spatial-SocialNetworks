@@ -5,7 +5,16 @@
     "email": "matthewhooper@gmail.com",
     "birthdate": "2016-10-28",
     "phone": "8883231342",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        33,
+        52
+    ],
+    "login locations": [
+        [
+            -122.393205,
+            37.794912
+        ]
+    ],
+    "relationships": []
 }

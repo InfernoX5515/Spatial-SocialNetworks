@@ -5,7 +5,25 @@
     "email": "torresjoseph@yahoo.com",
     "birthdate": "2008-04-02",
     "phone": "197.972.7157",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44
+    ],
+    "login locations": [
+        [
+            -122.401942,
+            37.780952
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1052,
+                0.208791208791
+            ],
+            [
+                600,
+                0.130909090909
+            ]
+        ]
+    ]
 }

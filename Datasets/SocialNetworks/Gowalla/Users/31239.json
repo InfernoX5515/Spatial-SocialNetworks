@@ -5,7 +5,34 @@
     "email": "nritter@yahoo.com",
     "birthdate": "1994-03-22",
     "phone": "040.181.1600x581",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        48,
+        40,
+        28,
+        69,
+        48,
+        73,
+        36,
+        48,
+        1
+    ],
+    "login locations": [
+        [
+            -117.865063,
+            33.690323
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                72924,
+                0.4
+            ],
+            [
+                72924,
+                0.4
+            ]
+        ]
+    ]
 }

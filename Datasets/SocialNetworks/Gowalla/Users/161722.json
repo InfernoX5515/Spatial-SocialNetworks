@@ -5,7 +5,26 @@
     "email": "qperez@yahoo.com",
     "birthdate": "1944-05-20",
     "phone": "(815)003-9983",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        20,
+        17,
+        60,
+        53,
+        24,
+        46,
+        33,
+        34,
+        62,
+        17,
+        56,
+        36
+    ],
+    "login locations": [
+        [
+            -122.464746,
+            37.741057
+        ]
+    ],
+    "relationships": []
 }

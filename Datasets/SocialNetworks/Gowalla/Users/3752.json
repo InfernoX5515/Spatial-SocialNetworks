@@ -5,7 +5,26 @@
     "email": "greerchristopher@hotmail.com",
     "birthdate": "2011-10-03",
     "phone": "001-870-309-5688x793",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        15
+    ],
+    "login locations": [
+        [
+            -122.301477,
+            37.559067
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                331,
+                0.0833333333333
+            ],
+            [
+                363,
+                0.0108695652174
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,15 @@
     "email": "gpope@gmail.com",
     "birthdate": "1965-07-12",
     "phone": "(720)046-6033x5245",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        61
+    ],
+    "login locations": [
+        [
+            -117.178956,
+            34.049568
+        ]
+    ],
+    "relationships": []
 }

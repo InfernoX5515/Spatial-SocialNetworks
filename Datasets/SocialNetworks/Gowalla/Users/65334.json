@@ -5,7 +5,14 @@
     "email": "kingbrenda@yahoo.com",
     "birthdate": "1979-09-22",
     "phone": "001-190-975-8288",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45
+    ],
+    "login locations": [
+        [
+            -121.888548,
+            37.702757
+        ]
+    ],
+    "relationships": []
 }

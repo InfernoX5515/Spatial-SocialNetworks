@@ -5,7 +5,16 @@
     "email": "michaelvaughn@gmail.com",
     "birthdate": "1923-12-01",
     "phone": "+1-652-667-4024",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        41,
+        19
+    ],
+    "login locations": [
+        [
+            -122.012888,
+            37.17676
+        ]
+    ],
+    "relationships": []
 }

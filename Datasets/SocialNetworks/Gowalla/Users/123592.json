@@ -5,7 +5,24 @@
     "email": "boothphillip@gmail.com",
     "birthdate": "1922-10-20",
     "phone": "030.009.6022",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        19,
+        42,
+        48,
+        15,
+        70,
+        24,
+        25,
+        26,
+        41,
+        72
+    ],
+    "login locations": [
+        [
+            -122.402886,
+            37.775649
+        ]
+    ],
+    "relationships": []
 }

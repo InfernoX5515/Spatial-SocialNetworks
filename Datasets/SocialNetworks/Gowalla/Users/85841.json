@@ -5,7 +5,14 @@
     "email": "laurenherrera@hotmail.com",
     "birthdate": "1943-03-20",
     "phone": "553.739.4674x39835",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22
+    ],
+    "login locations": [
+        [
+            -118.434462,
+            34.08694
+        ]
+    ],
+    "relationships": []
 }

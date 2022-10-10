@@ -5,7 +5,18 @@
     "email": "ccabrera@hotmail.com",
     "birthdate": "1926-05-09",
     "phone": "070.075.1296",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        49,
+        12,
+        58,
+        11
+    ],
+    "login locations": [
+        [
+            -118.381768,
+            34.047052
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "blackburnrobert@yahoo.com",
     "birthdate": "1969-12-30",
     "phone": "(548)748-4556x95529",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        7,
+        44,
+        39,
+        10,
+        75,
+        45,
+        75
+    ],
+    "login locations": [
+        [
+            -122.409617,
+            37.759463
+        ]
+    ],
+    "relationships": []
 }

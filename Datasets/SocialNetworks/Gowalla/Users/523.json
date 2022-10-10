@@ -5,7 +5,26 @@
     "email": "austin83@hotmail.com",
     "birthdate": "1909-04-30",
     "phone": "(503)432-1533x265",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        41
+    ],
+    "login locations": [
+        [
+            -122.403248,
+            37.749279
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                191,
+                0.0113085621971
+            ],
+            [
+                398,
+                0.12
+            ]
+        ]
+    ]
 }

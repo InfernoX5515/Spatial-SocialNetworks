@@ -5,7 +5,38 @@
     "email": "ewingwilliam@hotmail.com",
     "birthdate": "1948-02-19",
     "phone": "001-423-422-9012x6352",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        63,
+        52,
+        38,
+        59,
+        8,
+        62,
+        23,
+        54,
+        17,
+        8,
+        74,
+        58,
+        50
+    ],
+    "login locations": [
+        [
+            -117.116413,
+            32.700817
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39503,
+                0.114695340502
+            ],
+            [
+                132016,
+                0.113636363636
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "crawfordjoanna@yahoo.com",
     "birthdate": "1968-10-31",
     "phone": "151-057-8109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        68,
+        35,
+        15,
+        66,
+        75,
+        54,
+        54,
+        1,
+        39,
+        26,
+        0
+    ],
+    "login locations": [
+        [
+            -122.313005,
+            38.049766
+        ]
+    ],
+    "relationships": []
 }

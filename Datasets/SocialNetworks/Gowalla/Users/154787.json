@@ -5,7 +5,23 @@
     "email": "kward@yahoo.com",
     "birthdate": "2005-12-19",
     "phone": "+1-174-918-4967x8409",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        57,
+        51,
+        13,
+        8,
+        33,
+        75,
+        58,
+        8,
+        12
+    ],
+    "login locations": [
+        [
+            -122.409447,
+            37.788883
+        ]
+    ],
+    "relationships": []
 }

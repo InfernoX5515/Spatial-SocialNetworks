@@ -5,7 +5,20 @@
     "email": "karlmiller@yahoo.com",
     "birthdate": "1970-03-08",
     "phone": "(317)339-7614x515",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        8,
+        74,
+        63,
+        5,
+        71,
+        22
+    ],
+    "login locations": [
+        [
+            -122.386876,
+            37.774316
+        ]
+    ],
+    "relationships": []
 }

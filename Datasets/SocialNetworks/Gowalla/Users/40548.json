@@ -5,7 +5,23 @@
     "email": "joshua73@yahoo.com",
     "birthdate": "1908-01-26",
     "phone": "(353)293-6015x7758",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.41154,
+            37.78157
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                777,
+                0.01
+            ],
+            [
+                777,
+                0.01
+            ]
+        ]
+    ]
 }

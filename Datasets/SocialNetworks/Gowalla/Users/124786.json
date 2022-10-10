@@ -5,7 +5,31 @@
     "email": "patriciamiller@yahoo.com",
     "birthdate": "1999-11-12",
     "phone": "+1-709-671-8492x244",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        35,
+        57,
+        35,
+        25,
+        42,
+        14
+    ],
+    "login locations": [
+        [
+            -118.079286,
+            34.074995
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32515,
+                0.01
+            ],
+            [
+                124785,
+                0.0526315789474
+            ]
+        ]
+    ]
 }

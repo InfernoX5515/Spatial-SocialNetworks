@@ -5,7 +5,23 @@
     "email": "sarahanderson@gmail.com",
     "birthdate": "1979-12-19",
     "phone": "+1-207-865-0458x7872",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.402264,
+            37.786202
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.0151515151515
+            ],
+            [
+                1900,
+                0.0142857142857
+            ]
+        ]
+    ]
 }

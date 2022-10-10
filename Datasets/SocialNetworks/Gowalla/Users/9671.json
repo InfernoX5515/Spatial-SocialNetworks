@@ -5,7 +5,16 @@
     "email": "jennifercollins@hotmail.com",
     "birthdate": "1917-01-27",
     "phone": "+1-062-664-7304x03399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        26,
+        28
+    ],
+    "login locations": [
+        [
+            -122.10661,
+            37.391324
+        ]
+    ],
+    "relationships": []
 }

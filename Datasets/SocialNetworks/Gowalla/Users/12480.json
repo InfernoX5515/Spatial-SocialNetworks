@@ -5,7 +5,22 @@
     "email": "crawfordkathryn@hotmail.com",
     "birthdate": "1999-04-21",
     "phone": "022.915.3729",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        48,
+        62,
+        1,
+        50,
+        7,
+        71,
+        67,
+        69
+    ],
+    "login locations": [
+        [
+            -122.043918,
+            38.247532
+        ]
+    ],
+    "relationships": []
 }

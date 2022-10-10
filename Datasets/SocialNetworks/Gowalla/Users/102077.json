@@ -5,7 +5,33 @@
     "email": "faithgarcia@hotmail.com",
     "birthdate": "1931-02-22",
     "phone": "387-851-6979x80836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        75,
+        48,
+        18,
+        70,
+        14,
+        26,
+        61,
+        74
+    ],
+    "login locations": [
+        [
+            -117.982605,
+            33.901531
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49288,
+                0.01
+            ],
+            [
+                49288,
+                0.01
+            ]
+        ]
+    ]
 }

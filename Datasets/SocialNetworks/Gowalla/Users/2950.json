@@ -5,7 +5,12 @@
     "email": "hmcbride@gmail.com",
     "birthdate": "1925-10-10",
     "phone": "451-706-0308x7860",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.348829,
+            33.884248
+        ]
+    ],
+    "relationships": []
 }

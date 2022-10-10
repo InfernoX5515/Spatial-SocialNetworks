@@ -5,7 +5,36 @@
     "email": "ramospamela@gmail.com",
     "birthdate": "2014-04-16",
     "phone": "+1-958-428-9001x454",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        15,
+        7,
+        15,
+        50,
+        10,
+        26,
+        55,
+        23,
+        20,
+        28,
+        29
+    ],
+    "login locations": [
+        [
+            -118.254925,
+            34.074407
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6167,
+                0.020618556701
+            ],
+            [
+                6167,
+                0.020618556701
+            ]
+        ]
+    ]
 }

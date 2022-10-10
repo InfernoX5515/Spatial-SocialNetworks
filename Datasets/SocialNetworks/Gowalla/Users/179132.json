@@ -5,7 +5,17 @@
     "email": "aburns@hotmail.com",
     "birthdate": "1906-12-05",
     "phone": "6002232888",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        56,
+        68,
+        19
+    ],
+    "login locations": [
+        [
+            -118.023321,
+            33.860943
+        ]
+    ],
+    "relationships": []
 }

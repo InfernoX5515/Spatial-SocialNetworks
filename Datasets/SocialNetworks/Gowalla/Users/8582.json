@@ -5,7 +5,36 @@
     "email": "marydennis@yahoo.com",
     "birthdate": "1989-03-24",
     "phone": "001-911-578-8182x300",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        2,
+        21,
+        32,
+        18,
+        13,
+        53,
+        19,
+        39,
+        68,
+        28,
+        44
+    ],
+    "login locations": [
+        [
+            -122.424871,
+            37.763221
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5100,
+                0.112
+            ],
+            [
+                5112,
+                0.22
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "samanthawarner@hotmail.com",
     "birthdate": "2006-11-01",
     "phone": "(456)963-0413x966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        72,
+        38,
+        14
+    ],
+    "login locations": [
+        [
+            -118.374645,
+            34.007664
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                5550,
+                0.025641025641
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,14 @@
     "email": "salazarcatherine@gmail.com",
     "birthdate": "2005-11-20",
     "phone": "001-061-403-7849x049",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25
+    ],
+    "login locations": [
+        [
+            -117.145291,
+            32.943704
+        ]
+    ],
+    "relationships": []
 }

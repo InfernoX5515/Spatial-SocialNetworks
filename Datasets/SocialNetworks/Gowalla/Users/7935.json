@@ -5,7 +5,24 @@
     "email": "thompsonamy@hotmail.com",
     "birthdate": "2014-08-13",
     "phone": "179.071.8461x421",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        40,
+        43,
+        35,
+        47,
+        44,
+        44,
+        32,
+        7,
+        74,
+        50
+    ],
+    "login locations": [
+        [
+            -122.133103,
+            37.436024
+        ]
+    ],
+    "relationships": []
 }

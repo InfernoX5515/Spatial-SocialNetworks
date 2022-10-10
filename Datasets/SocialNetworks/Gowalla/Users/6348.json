@@ -5,7 +5,21 @@
     "email": "carlwebster@gmail.com",
     "birthdate": "1949-10-11",
     "phone": "234-617-0288x2974",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        43,
+        46,
+        71,
+        62,
+        26,
+        36,
+        6
+    ],
+    "login locations": [
+        [
+            -122.122419,
+            37.426706
+        ]
+    ],
+    "relationships": []
 }

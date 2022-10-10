@@ -5,7 +5,28 @@
     "email": "allisonthomas@gmail.com",
     "birthdate": "1946-04-05",
     "phone": "213-520-0536x11047",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        34,
+        34,
+        67,
+        53,
+        1,
+        23,
+        19,
+        37,
+        38,
+        16,
+        43,
+        10,
+        29,
+        39
+    ],
+    "login locations": [
+        [
+            -118.375264,
+            34.074835
+        ]
+    ],
+    "relationships": []
 }

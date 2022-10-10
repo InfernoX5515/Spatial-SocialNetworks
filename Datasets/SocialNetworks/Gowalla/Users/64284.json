@@ -5,7 +5,17 @@
     "email": "michellelee@gmail.com",
     "birthdate": "2009-12-23",
     "phone": "8817847505",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        26,
+        5,
+        65
+    ],
+    "login locations": [
+        [
+            -121.943445,
+            37.362368
+        ]
+    ],
+    "relationships": []
 }

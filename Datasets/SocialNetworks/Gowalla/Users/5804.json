@@ -5,7 +5,14 @@
     "email": "patrickedwards@gmail.com",
     "birthdate": "1980-02-08",
     "phone": "001-547-019-9870",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73
+    ],
+    "login locations": [
+        [
+            -122.091039,
+            37.411775
+        ]
+    ],
+    "relationships": []
 }

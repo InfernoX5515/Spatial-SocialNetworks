@@ -5,7 +5,31 @@
     "email": "sotoannette@hotmail.com",
     "birthdate": "1938-05-18",
     "phone": "001-402-748-3579x431",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        28,
+        39,
+        19,
+        58,
+        66,
+        51
+    ],
+    "login locations": [
+        [
+            -121.948211,
+            37.032634
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.0898550724638
+            ],
+            [
+                285,
+                0.0898550724638
+            ]
+        ]
+    ]
 }

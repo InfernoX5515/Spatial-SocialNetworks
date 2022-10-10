@@ -5,7 +5,19 @@
     "email": "christineflores@hotmail.com",
     "birthdate": "1987-04-10",
     "phone": "6377758737",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        57,
+        42,
+        72,
+        3,
+        47
+    ],
+    "login locations": [
+        [
+            -122.395169,
+            37.779377
+        ]
+    ],
+    "relationships": []
 }

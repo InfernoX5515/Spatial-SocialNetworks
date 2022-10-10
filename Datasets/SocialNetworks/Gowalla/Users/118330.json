@@ -5,7 +5,22 @@
     "email": "jeffreyolson@yahoo.com",
     "birthdate": "1981-08-12",
     "phone": "2266930206",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        25,
+        57,
+        43,
+        26,
+        20,
+        19,
+        12,
+        64
+    ],
+    "login locations": [
+        [
+            -122.610426,
+            38.055168
+        ]
+    ],
+    "relationships": []
 }

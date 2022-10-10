@@ -5,7 +5,27 @@
     "email": "vhall@yahoo.com",
     "birthdate": "1968-03-21",
     "phone": "911.206.8144x45234",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        64,
+        57,
+        2,
+        44,
+        44,
+        4,
+        49,
+        10,
+        60,
+        57,
+        75,
+        8,
+        3
+    ],
+    "login locations": [
+        [
+            -118.30426,
+            33.866778
+        ]
+    ],
+    "relationships": []
 }

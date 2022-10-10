@@ -5,7 +5,22 @@
     "email": "agill@yahoo.com",
     "birthdate": "2017-10-18",
     "phone": "(481)566-8464",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        45,
+        44,
+        16,
+        67,
+        18,
+        30,
+        22,
+        49
+    ],
+    "login locations": [
+        [
+            -117.919199,
+            33.806502
+        ]
+    ],
+    "relationships": []
 }

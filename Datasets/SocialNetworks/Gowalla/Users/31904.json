@@ -5,7 +5,25 @@
     "email": "daniel78@yahoo.com",
     "birthdate": "1987-04-03",
     "phone": "001-324-192-9029",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        7,
+        17,
+        54,
+        18,
+        15,
+        43,
+        5,
+        50,
+        29,
+        19,
+        34
+    ],
+    "login locations": [
+        [
+            -117.837367,
+            33.849918
+        ]
+    ],
+    "relationships": []
 }

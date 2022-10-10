@@ -5,7 +5,28 @@
     "email": "thughes@hotmail.com",
     "birthdate": "1941-01-28",
     "phone": "+1-494-830-3112x98185",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        4,
+        12,
+        35,
+        70,
+        15,
+        31,
+        72,
+        51,
+        1,
+        6,
+        27,
+        18,
+        34,
+        3
+    ],
+    "login locations": [
+        [
+            -117.177371,
+            32.911981
+        ]
+    ],
+    "relationships": []
 }

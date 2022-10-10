@@ -5,7 +5,32 @@
     "email": "leeaaron@yahoo.com",
     "birthdate": "1941-11-13",
     "phone": "+1-208-421-6668x27463",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        31,
+        15,
+        58,
+        29,
+        32,
+        11,
+        74
+    ],
+    "login locations": [
+        [
+            -117.186946,
+            33.059856
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                245,
+                0.0116666666667
+            ],
+            [
+                245,
+                0.0116666666667
+            ]
+        ]
+    ]
 }

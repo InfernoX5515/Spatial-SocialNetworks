@@ -5,7 +5,23 @@
     "email": "kthompson@gmail.com",
     "birthdate": "1957-09-26",
     "phone": "024.522.9030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        64,
+        39,
+        67,
+        2,
+        11,
+        15,
+        53,
+        4,
+        37
+    ],
+    "login locations": [
+        [
+            -122.394401,
+            37.782833
+        ]
+    ],
+    "relationships": []
 }

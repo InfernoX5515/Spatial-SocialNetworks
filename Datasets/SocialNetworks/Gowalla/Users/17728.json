@@ -5,7 +5,25 @@
     "email": "dominguezwilliam@hotmail.com",
     "birthdate": "2001-10-25",
     "phone": "616-386-8905",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50
+    ],
+    "login locations": [
+        [
+            -122.325185,
+            37.684483
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                13448,
+                0.0555555555556
+            ],
+            [
+                105441,
+                0.333333333333
+            ]
+        ]
+    ]
 }

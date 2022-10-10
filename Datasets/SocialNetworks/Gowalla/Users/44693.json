@@ -5,7 +5,28 @@
     "email": "tuckercarol@gmail.com",
     "birthdate": "1944-11-20",
     "phone": "524-054-8790x935",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        23,
+        45,
+        25,
+        50,
+        68,
+        27,
+        28,
+        45,
+        55,
+        20,
+        16,
+        32,
+        16,
+        45
+    ],
+    "login locations": [
+        [
+            -117.16225,
+            32.738287
+        ]
+    ],
+    "relationships": []
 }

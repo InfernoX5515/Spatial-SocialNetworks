@@ -5,7 +5,18 @@
     "email": "hallmelanie@gmail.com",
     "birthdate": "1954-11-10",
     "phone": "(815)918-5269x19608",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        48,
+        53,
+        54,
+        33
+    ],
+    "login locations": [
+        [
+            -122.391805,
+            37.783566
+        ]
+    ],
+    "relationships": []
 }

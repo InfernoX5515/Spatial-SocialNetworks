@@ -5,7 +5,20 @@
     "email": "michele58@yahoo.com",
     "birthdate": "1976-08-10",
     "phone": "001-680-885-0970x77269",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        66,
+        14,
+        11,
+        34,
+        24,
+        35
+    ],
+    "login locations": [
+        [
+            -122.188203,
+            37.457887
+        ]
+    ],
+    "relationships": []
 }

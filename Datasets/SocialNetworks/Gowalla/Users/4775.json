@@ -5,7 +5,28 @@
     "email": "jmaxwell@gmail.com",
     "birthdate": "1959-08-23",
     "phone": "007.992.1911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        28,
+        16,
+        51,
+        40,
+        8,
+        65,
+        50,
+        59,
+        39,
+        50,
+        57,
+        74,
+        33,
+        35
+    ],
+    "login locations": [
+        [
+            -122.268444,
+            37.820818
+        ]
+    ],
+    "relationships": []
 }

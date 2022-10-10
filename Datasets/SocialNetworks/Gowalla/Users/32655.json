@@ -5,7 +5,14 @@
     "email": "kimberly15@gmail.com",
     "birthdate": "1947-01-18",
     "phone": "861-160-2742",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68
+    ],
+    "login locations": [
+        [
+            -118.414744,
+            34.027758
+        ]
+    ],
+    "relationships": []
 }

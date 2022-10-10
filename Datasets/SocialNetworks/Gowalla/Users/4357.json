@@ -5,7 +5,27 @@
     "email": "brookssandra@hotmail.com",
     "birthdate": "1960-10-21",
     "phone": "(738)612-3315x607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        30,
+        29,
+        31,
+        65,
+        39,
+        12,
+        52,
+        12,
+        34,
+        75,
+        5,
+        12,
+        6
+    ],
+    "login locations": [
+        [
+            -122.409032,
+            37.77582
+        ]
+    ],
+    "relationships": []
 }

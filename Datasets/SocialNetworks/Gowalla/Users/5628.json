@@ -5,7 +5,27 @@
     "email": "bradleymurphy@hotmail.com",
     "birthdate": "2003-01-18",
     "phone": "063.531.1815x082",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        56,
+        36
+    ],
+    "login locations": [
+        [
+            -122.402769,
+            37.764356
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                254,
+                0.0208333333333
+            ],
+            [
+                2292,
+                0.0414201183432
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,16 @@
     "email": "zfields@gmail.com",
     "birthdate": "1970-01-20",
     "phone": "286.469.9448",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        7,
+        17
+    ],
+    "login locations": [
+        [
+            -118.425324,
+            34.040185
+        ]
+    ],
+    "relationships": []
 }

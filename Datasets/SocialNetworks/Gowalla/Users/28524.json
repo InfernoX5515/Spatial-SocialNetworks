@@ -5,7 +5,36 @@
     "email": "wendysingh@hotmail.com",
     "birthdate": "1979-12-24",
     "phone": "071.572.3543x894",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        31,
+        54,
+        65,
+        71,
+        46,
+        30,
+        19,
+        28,
+        35,
+        23,
+        42
+    ],
+    "login locations": [
+        [
+            -117.042548,
+            32.791405
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                24132,
+                0.0133333333333
+            ],
+            [
+                24132,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

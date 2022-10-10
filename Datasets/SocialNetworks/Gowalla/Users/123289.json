@@ -5,7 +5,27 @@
     "email": "kathryn59@hotmail.com",
     "birthdate": "1940-06-06",
     "phone": "1684853966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        75,
+        15,
+        47,
+        53,
+        23,
+        36,
+        27,
+        28,
+        54,
+        36,
+        52,
+        27,
+        13
+    ],
+    "login locations": [
+        [
+            -122.235405,
+            37.84807
+        ]
+    ],
+    "relationships": []
 }

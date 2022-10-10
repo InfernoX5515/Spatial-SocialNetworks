@@ -5,7 +5,22 @@
     "email": "johnsonwyatt@hotmail.com",
     "birthdate": "1990-07-19",
     "phone": "+1-882-244-3752x565",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        63,
+        19,
+        46,
+        18,
+        45,
+        14,
+        63,
+        56
+    ],
+    "login locations": [
+        [
+            -122.418216,
+            37.764354
+        ]
+    ],
+    "relationships": []
 }

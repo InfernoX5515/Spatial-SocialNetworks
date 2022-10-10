@@ -5,7 +5,28 @@
     "email": "angelahuff@hotmail.com",
     "birthdate": "1970-12-25",
     "phone": "799-642-5499x126",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        24,
+        68,
+        63
+    ],
+    "login locations": [
+        [
+            -117.116112,
+            33.154044
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                16219,
+                0.04
+            ],
+            [
+                16219,
+                0.04
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,32 @@
     "email": "ortegarobert@hotmail.com",
     "birthdate": "2009-08-28",
     "phone": "001-544-926-4255x2926",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        30,
+        17,
+        17,
+        13,
+        1,
+        45,
+        0
+    ],
+    "login locations": [
+        [
+            -117.141296,
+            32.761807
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2196,
+                0.0131578947368
+            ],
+            [
+                22412,
+                0.0714285714286
+            ]
+        ]
+    ]
 }

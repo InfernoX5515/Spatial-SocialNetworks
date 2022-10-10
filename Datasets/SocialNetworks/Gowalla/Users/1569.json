@@ -5,7 +5,32 @@
     "email": "sharonlee@gmail.com",
     "birthdate": "1961-11-28",
     "phone": "001-001-074-7824x8134",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        16,
+        58,
+        3,
+        38,
+        43,
+        25,
+        19
+    ],
+    "login locations": [
+        [
+            -118.152804,
+            33.86614
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2314,
+                0.0622568093385
+            ],
+            [
+                2314,
+                0.0622568093385
+            ]
+        ]
+    ]
 }

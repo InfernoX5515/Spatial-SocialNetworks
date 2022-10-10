@@ -5,7 +5,26 @@
     "email": "erintorres@gmail.com",
     "birthdate": "1945-09-11",
     "phone": "(184)932-5156",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        31,
+        42,
+        17,
+        69,
+        74,
+        28,
+        42,
+        32,
+        24,
+        2,
+        59,
+        28
+    ],
+    "login locations": [
+        [
+            -117.828408,
+            33.697313
+        ]
+    ],
+    "relationships": []
 }

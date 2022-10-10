@@ -5,7 +5,23 @@
     "email": "dhill@gmail.com",
     "birthdate": "1910-11-01",
     "phone": "001-962-013-1316x5345",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        60,
+        31,
+        65,
+        1,
+        49,
+        69,
+        24,
+        23,
+        61
+    ],
+    "login locations": [
+        [
+            -122.424496,
+            37.797165
+        ]
+    ],
+    "relationships": []
 }

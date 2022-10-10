@@ -5,7 +5,28 @@
     "email": "annhoover@hotmail.com",
     "birthdate": "1997-10-07",
     "phone": "538-226-7108x79167",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        31,
+        63,
+        1,
+        21,
+        2,
+        41,
+        60,
+        39,
+        51,
+        35,
+        4,
+        31,
+        23,
+        73
+    ],
+    "login locations": [
+        [
+            -122.429833,
+            37.788302
+        ]
+    ],
+    "relationships": []
 }

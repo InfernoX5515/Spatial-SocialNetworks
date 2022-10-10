@@ -5,7 +5,15 @@
     "email": "tammy11@yahoo.com",
     "birthdate": "1973-07-11",
     "phone": "+1-712-478-1981x7321",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        57
+    ],
+    "login locations": [
+        [
+            -122.169665,
+            37.437817
+        ]
+    ],
+    "relationships": []
 }

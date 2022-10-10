@@ -5,7 +5,21 @@
     "email": "marcusguzman@hotmail.com",
     "birthdate": "1981-11-17",
     "phone": "419.805.1284",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        35,
+        19,
+        7,
+        24,
+        23,
+        44,
+        73
+    ],
+    "login locations": [
+        [
+            -122.407172,
+            37.774332
+        ]
+    ],
+    "relationships": []
 }

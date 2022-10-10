@@ -5,7 +5,14 @@
     "email": "jenniferjones@hotmail.com",
     "birthdate": "1971-10-18",
     "phone": "(203)058-2069",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0
+    ],
+    "login locations": [
+        [
+            -118.047055,
+            33.896751
+        ]
+    ],
+    "relationships": []
 }

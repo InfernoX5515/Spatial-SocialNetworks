@@ -5,7 +5,20 @@
     "email": "amandawiley@yahoo.com",
     "birthdate": "1972-06-19",
     "phone": "392-656-3297x7780",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        62,
+        6,
+        63,
+        75,
+        73,
+        34
+    ],
+    "login locations": [
+        [
+            -122.075531,
+            37.316832
+        ]
+    ],
+    "relationships": []
 }

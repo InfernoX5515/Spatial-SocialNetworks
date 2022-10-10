@@ -5,7 +5,27 @@
     "email": "dakotajohnson@yahoo.com",
     "birthdate": "1986-12-03",
     "phone": "328-014-5444",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        16,
+        20,
+        6,
+        2,
+        37,
+        26,
+        2,
+        75,
+        57,
+        28,
+        13,
+        11,
+        65
+    ],
+    "login locations": [
+        [
+            -118.252115,
+            34.022142
+        ]
+    ],
+    "relationships": []
 }

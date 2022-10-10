@@ -5,7 +5,37 @@
     "email": "huntkyle@hotmail.com",
     "birthdate": "1985-07-21",
     "phone": "285-383-1374",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        72,
+        64,
+        74,
+        65,
+        34,
+        36,
+        57,
+        28,
+        69,
+        15,
+        69,
+        1
+    ],
+    "login locations": [
+        [
+            -122.400044,
+            37.7798
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.01
+            ],
+            [
+                63,
+                0.01
+            ]
+        ]
+    ]
 }

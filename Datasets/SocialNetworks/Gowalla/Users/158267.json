@@ -5,7 +5,27 @@
     "email": "cmiles@hotmail.com",
     "birthdate": "1911-07-24",
     "phone": "917-497-7234x332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        74,
+        61,
+        2,
+        0,
+        51,
+        32,
+        75,
+        61,
+        4,
+        51,
+        4,
+        4,
+        73
+    ],
+    "login locations": [
+        [
+            -122.022046,
+            37.361641
+        ]
+    ],
+    "relationships": []
 }

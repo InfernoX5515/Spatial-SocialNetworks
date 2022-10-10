@@ -5,7 +5,35 @@
     "email": "edaniel@gmail.com",
     "birthdate": "1979-10-06",
     "phone": "+1-157-372-5919x825",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        61,
+        56,
+        10,
+        46,
+        9,
+        10,
+        40,
+        44,
+        11,
+        65
+    ],
+    "login locations": [
+        [
+            -122.407837,
+            37.75247
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                25762,
+                0.02
+            ],
+            [
+                25762,
+                0.02
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,18 @@
     "email": "glopez@gmail.com",
     "birthdate": "1923-12-27",
     "phone": "+1-152-702-0527x92377",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        17,
+        64,
+        64,
+        70
+    ],
+    "login locations": [
+        [
+            -122.405024,
+            37.779321
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "erodriguez@gmail.com",
     "birthdate": "1950-03-22",
     "phone": "737.265.4916",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        35,
+        28,
+        73,
+        66,
+        7,
+        12,
+        41,
+        62,
+        24,
+        30,
+        53
+    ],
+    "login locations": [
+        [
+            -121.29753,
+            38.713631
+        ]
+    ],
+    "relationships": []
 }

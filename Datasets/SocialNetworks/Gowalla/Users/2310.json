@@ -5,7 +5,24 @@
     "email": "abennett@yahoo.com",
     "birthdate": "1984-02-09",
     "phone": "001-615-808-9757x0417",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        32,
+        53,
+        68,
+        2,
+        27,
+        60,
+        42,
+        38,
+        37,
+        22
+    ],
+    "login locations": [
+        [
+            -117.14868,
+            32.77268
+        ]
+    ],
+    "relationships": []
 }

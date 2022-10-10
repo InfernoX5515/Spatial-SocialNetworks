@@ -5,7 +5,27 @@
     "email": "aaronlane@gmail.com",
     "birthdate": "1940-08-25",
     "phone": "001-958-898-0475",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        4,
+        17,
+        20,
+        32,
+        18,
+        30,
+        65,
+        52,
+        34,
+        66,
+        13,
+        33,
+        41
+    ],
+    "login locations": [
+        [
+            -122.535069,
+            37.920761
+        ]
+    ],
+    "relationships": []
 }

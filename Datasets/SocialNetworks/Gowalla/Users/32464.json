@@ -5,7 +5,31 @@
     "email": "harmonbenjamin@hotmail.com",
     "birthdate": "1950-06-04",
     "phone": "(271)601-0123",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        47,
+        1,
+        42,
+        71,
+        58,
+        63
+    ],
+    "login locations": [
+        [
+            -122.073933,
+            37.382403
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4612,
+                0.0432569974555
+            ],
+            [
+                4612,
+                0.0432569974555
+            ]
+        ]
+    ]
 }

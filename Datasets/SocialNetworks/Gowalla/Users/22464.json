@@ -5,7 +5,26 @@
     "email": "kevin97@yahoo.com",
     "birthdate": "1961-05-08",
     "phone": "922-872-7956",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        32
+    ],
+    "login locations": [
+        [
+            -122.395859,
+            37.681326
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                42815,
+                0.04
+            ],
+            [
+                42815,
+                0.04
+            ]
+        ]
+    ]
 }

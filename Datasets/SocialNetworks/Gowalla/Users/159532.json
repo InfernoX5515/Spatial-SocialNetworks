@@ -5,7 +5,27 @@
     "email": "pboyle@hotmail.com",
     "birthdate": "1970-11-10",
     "phone": "+1-614-023-3444x58585",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        62,
+        26,
+        50,
+        46,
+        75,
+        38,
+        24,
+        44,
+        24,
+        29,
+        39,
+        65,
+        29
+    ],
+    "login locations": [
+        [
+            -117.337487,
+            33.976639
+        ]
+    ],
+    "relationships": []
 }

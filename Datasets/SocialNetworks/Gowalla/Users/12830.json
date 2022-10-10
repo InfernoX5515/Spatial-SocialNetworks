@@ -5,7 +5,17 @@
     "email": "jfleming@hotmail.com",
     "birthdate": "1939-11-05",
     "phone": "251.865.6404",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        32,
+        33,
+        36
+    ],
+    "login locations": [
+        [
+            -122.233469,
+            37.660681
+        ]
+    ],
+    "relationships": []
 }

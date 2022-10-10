@@ -5,7 +5,24 @@
     "email": "tamarascott@gmail.com",
     "birthdate": "1966-12-16",
     "phone": "+1-470-787-4409x44133",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        52,
+        66,
+        47,
+        22,
+        74,
+        51,
+        43,
+        7,
+        37,
+        61
+    ],
+    "login locations": [
+        [
+            -121.407605,
+            38.600859
+        ]
+    ],
+    "relationships": []
 }

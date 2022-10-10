@@ -5,7 +5,39 @@
     "email": "ballemily@hotmail.com",
     "birthdate": "1926-01-03",
     "phone": "001-340-478-7589x7505",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        57,
+        10,
+        66,
+        48,
+        68,
+        54,
+        30,
+        37,
+        65,
+        4,
+        14,
+        60,
+        41,
+        20
+    ],
+    "login locations": [
+        [
+            -122.078492,
+            37.6067
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                51656,
+                0.125
+            ],
+            [
+                55424,
+                0.0175438596491
+            ]
+        ]
+    ]
 }

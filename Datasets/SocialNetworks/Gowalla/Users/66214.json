@@ -5,7 +5,18 @@
     "email": "sydneymarks@gmail.com",
     "birthdate": "1983-04-09",
     "phone": "745-793-5702x8691",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        71,
+        28,
+        62,
+        9
+    ],
+    "login locations": [
+        [
+            -114.344423,
+            34.471254
+        ]
+    ],
+    "relationships": []
 }

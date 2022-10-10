@@ -5,7 +5,32 @@
     "email": "sharon08@hotmail.com",
     "birthdate": "2009-10-01",
     "phone": "001-161-589-1683x05065",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        65,
+        7,
+        57,
+        75,
+        68,
+        57,
+        38
+    ],
+    "login locations": [
+        [
+            -122.406009,
+            37.772445
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.182481751825
+            ],
+            [
+                85,
+                0.13
+            ]
+        ]
+    ]
 }

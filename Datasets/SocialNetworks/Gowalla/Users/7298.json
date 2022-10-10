@@ -5,7 +5,33 @@
     "email": "robert83@hotmail.com",
     "birthdate": "2021-11-16",
     "phone": "001-361-281-7337x207",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        57,
+        70,
+        9,
+        45,
+        34,
+        19,
+        16,
+        50
+    ],
+    "login locations": [
+        [
+            -122.393748,
+            37.616889
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                87,
+                0.0311111111111
+            ],
+            [
+                600,
+                0.0181818181818
+            ]
+        ]
+    ]
 }

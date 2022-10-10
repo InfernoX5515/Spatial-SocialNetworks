@@ -5,7 +5,25 @@
     "email": "hicksmary@gmail.com",
     "birthdate": "1914-05-24",
     "phone": "001-107-178-9822",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53
+    ],
+    "login locations": [
+        [
+            -122.405133,
+            37.718414
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2170,
+                0.0196078431373
+            ],
+            [
+                31294,
+                0.0714285714286
+            ]
+        ]
+    ]
 }

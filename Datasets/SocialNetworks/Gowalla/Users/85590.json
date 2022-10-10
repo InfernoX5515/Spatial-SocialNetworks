@@ -5,7 +5,26 @@
     "email": "anitachen@hotmail.com",
     "birthdate": "1972-08-29",
     "phone": "137.743.3390x323",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        39,
+        27,
+        3,
+        17,
+        37,
+        5,
+        55,
+        9,
+        6,
+        42,
+        25,
+        28
+    ],
+    "login locations": [
+        [
+            -122.030901,
+            37.569337
+        ]
+    ],
+    "relationships": []
 }

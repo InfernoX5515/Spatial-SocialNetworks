@@ -5,7 +5,18 @@
     "email": "cestrada@yahoo.com",
     "birthdate": "2000-10-04",
     "phone": "+1-291-698-4317x005",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        35,
+        40,
+        58,
+        55
+    ],
+    "login locations": [
+        [
+            -122.756964,
+            38.441312
+        ]
+    ],
+    "relationships": []
 }

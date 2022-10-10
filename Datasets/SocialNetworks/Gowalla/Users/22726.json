@@ -5,7 +5,16 @@
     "email": "sharon26@yahoo.com",
     "birthdate": "1943-03-30",
     "phone": "252.938.8452",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        4,
+        25
+    ],
+    "login locations": [
+        [
+            -122.397823,
+            37.728495
+        ]
+    ],
+    "relationships": []
 }

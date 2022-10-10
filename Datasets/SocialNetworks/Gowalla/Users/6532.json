@@ -5,7 +5,31 @@
     "email": "kristinevans@yahoo.com",
     "birthdate": "1929-07-31",
     "phone": "970.836.9480x130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        38,
+        42,
+        17,
+        18,
+        34,
+        39
+    ],
+    "login locations": [
+        [
+            -122.427526,
+            37.788325
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.021897810219
+            ],
+            [
+                10427,
+                0.0295652173913
+            ]
+        ]
+    ]
 }

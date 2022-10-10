@@ -5,7 +5,28 @@
     "email": "mark89@gmail.com",
     "birthdate": "1984-01-19",
     "phone": "882-251-0188x641",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        54,
+        13,
+        12,
+        17,
+        2,
+        18,
+        29,
+        45,
+        12,
+        75,
+        18,
+        4,
+        49,
+        50
+    ],
+    "login locations": [
+        [
+            -122.12031,
+            37.42009
+        ]
+    ],
+    "relationships": []
 }

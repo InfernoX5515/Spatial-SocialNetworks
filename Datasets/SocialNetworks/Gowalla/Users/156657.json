@@ -5,7 +5,12 @@
     "email": "jacqueline08@yahoo.com",
     "birthdate": "1972-04-10",
     "phone": "785-371-2754x102",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.346973,
+            34.078382
+        ]
+    ],
+    "relationships": []
 }

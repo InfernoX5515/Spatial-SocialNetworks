@@ -5,7 +5,17 @@
     "email": "penaruben@yahoo.com",
     "birthdate": "1916-03-14",
     "phone": "(843)632-7246",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        63,
+        50,
+        62
+    ],
+    "login locations": [
+        [
+            -119.740255,
+            34.430099
+        ]
+    ],
+    "relationships": []
 }

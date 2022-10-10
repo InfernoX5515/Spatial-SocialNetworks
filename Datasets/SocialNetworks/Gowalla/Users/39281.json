@@ -5,7 +5,25 @@
     "email": "gmorris@yahoo.com",
     "birthdate": "1976-07-29",
     "phone": "914-577-6000x49492",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -122.418423,
+            37.768296
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39280,
+                0.0540540540541
+            ],
+            [
+                39280,
+                0.0540540540541
+            ]
+        ]
+    ]
 }

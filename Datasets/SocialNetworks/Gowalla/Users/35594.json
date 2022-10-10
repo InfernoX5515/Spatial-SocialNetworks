@@ -5,7 +5,26 @@
     "email": "benjamin01@yahoo.com",
     "birthdate": "1964-04-06",
     "phone": "340.113.9656x56485",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        60,
+        72,
+        19,
+        22,
+        71,
+        33,
+        14,
+        72,
+        25,
+        26,
+        17,
+        30
+    ],
+    "login locations": [
+        [
+            -117.141217,
+            34.039402
+        ]
+    ],
+    "relationships": []
 }

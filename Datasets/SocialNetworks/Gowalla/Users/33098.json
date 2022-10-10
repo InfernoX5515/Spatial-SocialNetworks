@@ -5,7 +5,27 @@
     "email": "mary99@hotmail.com",
     "birthdate": "1980-11-26",
     "phone": "(876)112-2337x8652",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        16,
+        44,
+        10,
+        44,
+        9,
+        25,
+        46,
+        28,
+        43,
+        62,
+        0,
+        63,
+        56
+    ],
+    "login locations": [
+        [
+            -118.371569,
+            34.028705
+        ]
+    ],
+    "relationships": []
 }

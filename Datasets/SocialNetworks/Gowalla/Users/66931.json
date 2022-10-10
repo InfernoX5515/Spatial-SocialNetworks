@@ -5,7 +5,26 @@
     "email": "johnsonjoseph@gmail.com",
     "birthdate": "1974-07-23",
     "phone": "037.349.2124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        41,
+        35,
+        62,
+        59,
+        14,
+        3,
+        18,
+        9,
+        58,
+        28,
+        69,
+        21
+    ],
+    "login locations": [
+        [
+            -118.259682,
+            34.147535
+        ]
+    ],
+    "relationships": []
 }

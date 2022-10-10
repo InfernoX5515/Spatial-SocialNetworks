@@ -5,7 +5,39 @@
     "email": "bridgesjames@hotmail.com",
     "birthdate": "1993-02-23",
     "phone": "8219025283",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        15,
+        21,
+        29,
+        41,
+        41,
+        61,
+        57,
+        49,
+        3,
+        55,
+        42,
+        65,
+        59,
+        31
+    ],
+    "login locations": [
+        [
+            -121.450264,
+            38.573268
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6582,
+                0.01
+            ],
+            [
+                8592,
+                0.01
+            ]
+        ]
+    ]
 }

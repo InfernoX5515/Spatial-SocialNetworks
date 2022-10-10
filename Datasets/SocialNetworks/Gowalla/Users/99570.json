@@ -5,7 +5,24 @@
     "email": "garciajessica@hotmail.com",
     "birthdate": "1988-07-07",
     "phone": "(315)479-8509x1908",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        8,
+        44,
+        70,
+        2,
+        15,
+        19,
+        13,
+        63,
+        7,
+        48
+    ],
+    "login locations": [
+        [
+            -122.461408,
+            37.755753
+        ]
+    ],
+    "relationships": []
 }

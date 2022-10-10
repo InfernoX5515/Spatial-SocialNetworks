@@ -5,7 +5,25 @@
     "email": "manningdouglas@hotmail.com",
     "birthdate": "1919-10-11",
     "phone": "+1-377-999-3093",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        16,
+        13,
+        34,
+        23,
+        23,
+        27,
+        63,
+        35,
+        56,
+        50,
+        55
+    ],
+    "login locations": [
+        [
+            -117.917718,
+            33.855744
+        ]
+    ],
+    "relationships": []
 }

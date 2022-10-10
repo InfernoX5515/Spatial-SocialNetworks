@@ -5,7 +5,29 @@
     "email": "bfox@hotmail.com",
     "birthdate": "1986-04-15",
     "phone": "823.855.9513x97252",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        58,
+        58,
+        32,
+        19
+    ],
+    "login locations": [
+        [
+            -122.388046,
+            37.782467
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4560,
+                0.0665634674923
+            ],
+            [
+                18191,
+                0.04
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,38 @@
     "email": "clarkamanda@gmail.com",
     "birthdate": "1923-06-27",
     "phone": "+1-032-248-4368x13111",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        45,
+        0,
+        14,
+        2,
+        71,
+        50,
+        10,
+        48,
+        63,
+        15,
+        61,
+        30,
+        59
+    ],
+    "login locations": [
+        [
+            -122.394843,
+            37.761472
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                191,
+                0.01
+            ],
+            [
+                398,
+                0.28
+            ]
+        ]
+    ]
 }

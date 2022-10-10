@@ -5,7 +5,19 @@
     "email": "ballardgregory@hotmail.com",
     "birthdate": "1922-07-14",
     "phone": "+1-088-179-7479x56077",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        74,
+        51,
+        50,
+        24,
+        47
+    ],
+    "login locations": [
+        [
+            -122.392709,
+            37.67609
+        ]
+    ],
+    "relationships": []
 }

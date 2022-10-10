@@ -5,7 +5,25 @@
     "email": "steinmary@gmail.com",
     "birthdate": "1950-09-06",
     "phone": "001-659-752-6979x345",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        59,
+        65,
+        75,
+        64,
+        24,
+        47,
+        40,
+        40,
+        74,
+        37,
+        72
+    ],
+    "login locations": [
+        [
+            -118.390364,
+            34.043169
+        ]
+    ],
+    "relationships": []
 }

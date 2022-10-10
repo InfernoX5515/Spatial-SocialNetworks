@@ -5,7 +5,14 @@
     "email": "fanderson@hotmail.com",
     "birthdate": "2009-08-06",
     "phone": "(585)425-7737",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34
+    ],
+    "login locations": [
+        [
+            -122.261305,
+            37.506604
+        ]
+    ],
+    "relationships": []
 }

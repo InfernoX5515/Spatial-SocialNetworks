@@ -5,7 +5,22 @@
     "email": "millerrobert@gmail.com",
     "birthdate": "1977-11-28",
     "phone": "3997697755",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        39,
+        16,
+        56,
+        33,
+        18,
+        46,
+        75,
+        60
+    ],
+    "login locations": [
+        [
+            -118.282011,
+            34.075943
+        ]
+    ],
+    "relationships": []
 }

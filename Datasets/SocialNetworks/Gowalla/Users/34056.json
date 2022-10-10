@@ -5,7 +5,28 @@
     "email": "kathrynwilson@yahoo.com",
     "birthdate": "1931-06-16",
     "phone": "667.446.0125",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        59,
+        26,
+        22,
+        62,
+        25,
+        12,
+        73,
+        6,
+        75,
+        70,
+        47,
+        13,
+        47,
+        49
+    ],
+    "login locations": [
+        [
+            -118.387666,
+            33.893228
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,30 @@
     "email": "ishannon@gmail.com",
     "birthdate": "1941-11-01",
     "phone": "001-137-026-2324",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        19,
+        13,
+        18,
+        37,
+        6
+    ],
+    "login locations": [
+        [
+            -120.993668,
+            37.646308
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                470,
+                0.035203520352
+            ],
+            [
+                944,
+                0.08
+            ]
+        ]
+    ]
 }

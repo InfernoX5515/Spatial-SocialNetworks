@@ -5,7 +5,21 @@
     "email": "rodriguezsarah@yahoo.com",
     "birthdate": "1994-08-25",
     "phone": "6539080000",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        6,
+        45,
+        14,
+        41,
+        53,
+        72,
+        61
+    ],
+    "login locations": [
+        [
+            -122.365883,
+            37.801619
+        ]
+    ],
+    "relationships": []
 }

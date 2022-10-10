@@ -5,7 +5,12 @@
     "email": "williamrivera@yahoo.com",
     "birthdate": "1960-04-30",
     "phone": "445.532.8456x057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.870801,
+            33.888445
+        ]
+    ],
+    "relationships": []
 }

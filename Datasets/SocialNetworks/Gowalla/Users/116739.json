@@ -5,7 +5,25 @@
     "email": "kerry57@yahoo.com",
     "birthdate": "1906-11-02",
     "phone": "724.693.2349x071",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        7,
+        52,
+        39,
+        28,
+        3,
+        7,
+        75,
+        50,
+        20,
+        74,
+        21
+    ],
+    "login locations": [
+        [
+            -122.142784,
+            37.408385
+        ]
+    ],
+    "relationships": []
 }

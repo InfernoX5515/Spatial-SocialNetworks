@@ -5,7 +5,16 @@
     "email": "laura11@hotmail.com",
     "birthdate": "1975-01-31",
     "phone": "001-746-774-7291",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        42,
+        39
+    ],
+    "login locations": [
+        [
+            -118.088663,
+            34.048326
+        ]
+    ],
+    "relationships": []
 }

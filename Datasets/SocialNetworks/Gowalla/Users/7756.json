@@ -5,7 +5,28 @@
     "email": "moralesdavid@yahoo.com",
     "birthdate": "1984-03-29",
     "phone": "746.537.8720x81260",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        36,
+        69,
+        40,
+        31,
+        15,
+        49,
+        31,
+        42,
+        12,
+        36,
+        38,
+        67,
+        59,
+        13
+    ],
+    "login locations": [
+        [
+            -122.382335,
+            37.708986
+        ]
+    ],
+    "relationships": []
 }

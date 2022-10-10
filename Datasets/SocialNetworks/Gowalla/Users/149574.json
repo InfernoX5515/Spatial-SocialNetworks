@@ -5,7 +5,15 @@
     "email": "bullockeileen@hotmail.com",
     "birthdate": "1974-01-30",
     "phone": "(970)660-0972x18392",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        61
+    ],
+    "login locations": [
+        [
+            -117.868268,
+            34.087094
+        ]
+    ],
+    "relationships": []
 }

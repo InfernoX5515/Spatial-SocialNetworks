@@ -5,7 +5,20 @@
     "email": "vdixon@hotmail.com",
     "birthdate": "1915-11-17",
     "phone": "821.016.0067x19442",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        22,
+        38,
+        64,
+        75,
+        19,
+        56
+    ],
+    "login locations": [
+        [
+            -118.610494,
+            34.186367
+        ]
+    ],
+    "relationships": []
 }

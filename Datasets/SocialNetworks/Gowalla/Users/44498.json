@@ -5,7 +5,16 @@
     "email": "perezthomas@gmail.com",
     "birthdate": "1943-09-30",
     "phone": "(218)613-6757",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        49,
+        65
+    ],
+    "login locations": [
+        [
+            -117.933843,
+            33.790535
+        ]
+    ],
+    "relationships": []
 }

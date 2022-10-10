@@ -5,7 +5,18 @@
     "email": "hrobinson@gmail.com",
     "birthdate": "1992-11-27",
     "phone": "+1-462-024-9227x9102",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        5,
+        0,
+        40,
+        38
+    ],
+    "login locations": [
+        [
+            -122.397706,
+            37.76157
+        ]
+    ],
+    "relationships": []
 }

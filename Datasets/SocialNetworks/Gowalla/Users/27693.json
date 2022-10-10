@@ -5,7 +5,32 @@
     "email": "dmiller@hotmail.com",
     "birthdate": "1941-10-15",
     "phone": "383.560.0331x56746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        54,
+        11,
+        38,
+        65,
+        53,
+        66,
+        33
+    ],
+    "login locations": [
+        [
+            -122.430537,
+            37.803708
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                470,
+                0.01
+            ],
+            [
+                10992,
+                0.01
+            ]
+        ]
+    ]
 }

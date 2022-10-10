@@ -5,7 +5,35 @@
     "email": "colleen19@gmail.com",
     "birthdate": "1919-10-13",
     "phone": "001-367-397-1450x08533",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        74,
+        31,
+        38,
+        54,
+        51,
+        5,
+        55,
+        52,
+        4,
+        27
+    ],
+    "login locations": [
+        [
+            -119.076136,
+            35.391911
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                68665,
+                0.016
+            ],
+            [
+                68665,
+                0.016
+            ]
+        ]
+    ]
 }

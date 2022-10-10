@@ -5,7 +5,20 @@
     "email": "priscilla66@yahoo.com",
     "birthdate": "1925-10-11",
     "phone": "001-837-731-0631x43516",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        55,
+        36,
+        57,
+        35,
+        43,
+        37
+    ],
+    "login locations": [
+        [
+            -118.128329,
+            33.844594
+        ]
+    ],
+    "relationships": []
 }

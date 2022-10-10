@@ -5,7 +5,25 @@
     "email": "evansmelissa@hotmail.com",
     "birthdate": "2011-04-03",
     "phone": "793.549.5647x6928",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        47,
+        60,
+        57,
+        46,
+        35,
+        20,
+        51,
+        13,
+        21,
+        54,
+        15
+    ],
+    "login locations": [
+        [
+            -117.831721,
+            33.740419
+        ]
+    ],
+    "relationships": []
 }

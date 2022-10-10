@@ -5,7 +5,21 @@
     "email": "odomanthony@yahoo.com",
     "birthdate": "1928-02-10",
     "phone": "(797)121-7932",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        26,
+        74,
+        43,
+        59,
+        20,
+        43,
+        20
+    ],
+    "login locations": [
+        [
+            -119.160692,
+            34.268014
+        ]
+    ],
+    "relationships": []
 }

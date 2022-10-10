@@ -5,7 +5,25 @@
     "email": "padillacraig@yahoo.com",
     "birthdate": "1916-06-21",
     "phone": "078-798-8274x1564",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55
+    ],
+    "login locations": [
+        [
+            -122.064411,
+            37.361822
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                25301,
+                0.01
+            ],
+            [
+                25309,
+                0.125
+            ]
+        ]
+    ]
 }

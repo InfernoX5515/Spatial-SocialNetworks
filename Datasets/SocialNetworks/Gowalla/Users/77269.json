@@ -5,7 +5,27 @@
     "email": "jacobalvarez@hotmail.com",
     "birthdate": "1949-07-25",
     "phone": "878-932-1399x0440",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        7,
+        9,
+        5,
+        49,
+        23,
+        9,
+        31,
+        12,
+        20,
+        6,
+        13,
+        48,
+        6
+    ],
+    "login locations": [
+        [
+            -122.421599,
+            37.840709
+        ]
+    ],
+    "relationships": []
 }

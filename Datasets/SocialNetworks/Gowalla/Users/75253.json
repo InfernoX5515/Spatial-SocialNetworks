@@ -5,7 +5,21 @@
     "email": "flarson@yahoo.com",
     "birthdate": "1976-11-25",
     "phone": "001-134-229-7712x0398",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        60,
+        40,
+        40,
+        12,
+        56,
+        55,
+        68
+    ],
+    "login locations": [
+        [
+            -122.268309,
+            37.565081
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "cervantesdavid@yahoo.com",
     "birthdate": "2004-03-05",
     "phone": "676-343-8307x8047",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        53,
+        41
+    ],
+    "login locations": [
+        [
+            -122.360574,
+            37.673738
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.0148571428571
+            ],
+            [
+                5783,
+                0.0833333333333
+            ]
+        ]
+    ]
 }

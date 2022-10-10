@@ -5,7 +5,14 @@
     "email": "lschmidt@yahoo.com",
     "birthdate": "2018-11-15",
     "phone": "+1-871-942-3919x58917",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4
+    ],
+    "login locations": [
+        [
+            -122.249793,
+            37.841491
+        ]
+    ],
+    "relationships": []
 }

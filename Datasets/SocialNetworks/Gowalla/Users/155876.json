@@ -5,7 +5,12 @@
     "email": "kimberly31@hotmail.com",
     "birthdate": "1971-05-29",
     "phone": "087.856.9472",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.21142,
+            32.923044
+        ]
+    ],
+    "relationships": []
 }

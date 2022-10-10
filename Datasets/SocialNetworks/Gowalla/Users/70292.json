@@ -5,7 +5,31 @@
     "email": "joanne70@yahoo.com",
     "birthdate": "1973-11-07",
     "phone": "001-937-506-9520x8675",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        45,
+        59,
+        50,
+        7,
+        64,
+        6
+    ],
+    "login locations": [
+        [
+            -122.279568,
+            37.857163
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                102537,
+                0.014598540146
+            ],
+            [
+                102537,
+                0.014598540146
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,18 @@
     "email": "maria58@hotmail.com",
     "birthdate": "1921-12-20",
     "phone": "649.447.4854x87916",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        0,
+        33,
+        50,
+        17
+    ],
+    "login locations": [
+        [
+            -122.418801,
+            37.795916
+        ]
+    ],
+    "relationships": []
 }

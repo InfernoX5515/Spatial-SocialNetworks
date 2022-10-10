@@ -5,7 +5,20 @@
     "email": "kflores@yahoo.com",
     "birthdate": "1926-08-19",
     "phone": "4824991640",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        12,
+        6,
+        31,
+        63,
+        22,
+        18
+    ],
+    "login locations": [
+        [
+            -122.409226,
+            37.78916
+        ]
+    ],
+    "relationships": []
 }

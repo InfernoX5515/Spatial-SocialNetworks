@@ -5,7 +5,20 @@
     "email": "lynn41@gmail.com",
     "birthdate": "2018-03-28",
     "phone": "8129325141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        59,
+        34,
+        15,
+        26,
+        7,
+        29
+    ],
+    "login locations": [
+        [
+            -119.737031,
+            34.427206
+        ]
+    ],
+    "relationships": []
 }

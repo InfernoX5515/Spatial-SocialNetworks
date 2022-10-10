@@ -5,7 +5,27 @@
     "email": "leonardgomez@gmail.com",
     "birthdate": "1979-07-28",
     "phone": "728-666-6875x4117",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        57,
+        26
+    ],
+    "login locations": [
+        [
+            -122.234857,
+            37.724983
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4821,
+                0.168235294118
+            ],
+            [
+                9183,
+                0.04
+            ]
+        ]
+    ]
 }

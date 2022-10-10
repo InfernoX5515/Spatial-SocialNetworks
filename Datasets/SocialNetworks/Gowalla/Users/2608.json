@@ -5,7 +5,28 @@
     "email": "raybrandi@gmail.com",
     "birthdate": "1911-01-11",
     "phone": "237.057.5043x26608",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        13,
+        44,
+        42
+    ],
+    "login locations": [
+        [
+            -117.942059,
+            33.788091
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                65001,
+                0.04
+            ],
+            [
+                65001,
+                0.04
+            ]
+        ]
+    ]
 }

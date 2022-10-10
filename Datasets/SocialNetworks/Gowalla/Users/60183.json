@@ -5,7 +5,26 @@
     "email": "kmitchell@hotmail.com",
     "birthdate": "1989-03-16",
     "phone": "001-000-783-6609x40637",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        7,
+        1,
+        41,
+        12,
+        47,
+        64,
+        15,
+        50,
+        39,
+        7,
+        15,
+        24
+    ],
+    "login locations": [
+        [
+            -120.880575,
+            38.706378
+        ]
+    ],
+    "relationships": []
 }

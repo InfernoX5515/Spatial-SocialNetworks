@@ -5,7 +5,28 @@
     "email": "rosariosusan@gmail.com",
     "birthdate": "1938-11-15",
     "phone": "882.729.6389x71146",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        11,
+        68,
+        41,
+        15,
+        74,
+        29,
+        41,
+        53,
+        24,
+        69,
+        17,
+        50,
+        9,
+        14
+    ],
+    "login locations": [
+        [
+            -122.411072,
+            37.76315
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "shill@yahoo.com",
     "birthdate": "1983-04-27",
     "phone": "(796)575-9130x9932",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        11
+    ],
+    "login locations": [
+        [
+            -122.328165,
+            37.75027
+        ]
+    ],
+    "relationships": []
 }

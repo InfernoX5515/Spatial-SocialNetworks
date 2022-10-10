@@ -5,7 +5,25 @@
     "email": "gamblerita@hotmail.com",
     "birthdate": "1922-01-22",
     "phone": "(392)622-0086x7786",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48
+    ],
+    "login locations": [
+        [
+            -122.420543,
+            37.780165
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4481,
+                0.142857142857
+            ],
+            [
+                5338,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,37 @@
     "email": "amywinters@hotmail.com",
     "birthdate": "1942-04-14",
     "phone": "334-114-0735",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        54,
+        52,
+        37,
+        9,
+        35,
+        66,
+        14,
+        25,
+        71,
+        59,
+        64,
+        42
+    ],
+    "login locations": [
+        [
+            -117.600182,
+            33.985717
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4362,
+                0.0229885057471
+            ],
+            [
+                4362,
+                0.0229885057471
+            ]
+        ]
+    ]
 }

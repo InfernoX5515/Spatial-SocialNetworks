@@ -5,7 +5,20 @@
     "email": "davidadams@hotmail.com",
     "birthdate": "1991-05-21",
     "phone": "027-623-6846",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        3,
+        57,
+        15,
+        71,
+        55,
+        52
+    ],
+    "login locations": [
+        [
+            -122.382769,
+            37.884164
+        ]
+    ],
+    "relationships": []
 }

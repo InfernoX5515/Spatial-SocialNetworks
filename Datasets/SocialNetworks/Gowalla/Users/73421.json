@@ -5,7 +5,27 @@
     "email": "johnsonjennifer@gmail.com",
     "birthdate": "1936-05-23",
     "phone": "(764)651-6251",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        11,
+        71,
+        75,
+        15,
+        60,
+        9,
+        75,
+        48,
+        29,
+        73,
+        46,
+        61,
+        28
+    ],
+    "login locations": [
+        [
+            -118.403697,
+            34.047739
+        ]
+    ],
+    "relationships": []
 }

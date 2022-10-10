@@ -5,7 +5,22 @@
     "email": "blevinssamuel@gmail.com",
     "birthdate": "1992-04-22",
     "phone": "210-632-4328",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        48,
+        71,
+        24,
+        54,
+        73,
+        63,
+        33,
+        21
+    ],
+    "login locations": [
+        [
+            -122.425007,
+            37.794257
+        ]
+    ],
+    "relationships": []
 }

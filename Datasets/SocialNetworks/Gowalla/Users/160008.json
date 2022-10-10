@@ -5,7 +5,15 @@
     "email": "kelleychristian@yahoo.com",
     "birthdate": "1966-10-14",
     "phone": "(902)393-9223x296",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        32
+    ],
+    "login locations": [
+        [
+            -117.919119,
+            33.810689
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "dillonrogers@yahoo.com",
     "birthdate": "2017-05-12",
     "phone": "(243)626-4399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        2,
+        62,
+        24,
+        18,
+        8,
+        10,
+        34
+    ],
+    "login locations": [
+        [
+            -122.407994,
+            37.755989
+        ]
+    ],
+    "relationships": []
 }

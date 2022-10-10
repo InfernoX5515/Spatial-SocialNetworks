@@ -5,7 +5,23 @@
     "email": "destiny42@yahoo.com",
     "birthdate": "1911-05-05",
     "phone": "866.641.3786",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        75,
+        33,
+        0,
+        49,
+        58,
+        53,
+        4,
+        1,
+        66
+    ],
+    "login locations": [
+        [
+            -122.435709,
+            37.774704
+        ]
+    ],
+    "relationships": []
 }

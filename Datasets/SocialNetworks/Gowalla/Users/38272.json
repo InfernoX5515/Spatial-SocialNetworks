@@ -5,7 +5,15 @@
     "email": "elaine41@hotmail.com",
     "birthdate": "1972-01-09",
     "phone": "(308)201-2717x203",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        75
+    ],
+    "login locations": [
+        [
+            -117.101029,
+            32.731793
+        ]
+    ],
+    "relationships": []
 }

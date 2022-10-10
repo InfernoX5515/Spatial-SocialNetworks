@@ -5,7 +5,21 @@
     "email": "crystalmunoz@hotmail.com",
     "birthdate": "1940-04-17",
     "phone": "493-798-2972",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        46,
+        73,
+        74,
+        5,
+        24,
+        11,
+        13
+    ],
+    "login locations": [
+        [
+            -118.291282,
+            34.161728
+        ]
+    ],
+    "relationships": []
 }

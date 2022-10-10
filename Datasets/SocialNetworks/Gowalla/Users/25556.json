@@ -5,7 +5,26 @@
     "email": "michelehill@gmail.com",
     "birthdate": "1971-02-02",
     "phone": "469-321-7431x779",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        16,
+        9,
+        21,
+        48,
+        15,
+        66,
+        47,
+        51,
+        2,
+        34,
+        60,
+        63
+    ],
+    "login locations": [
+        [
+            -122.010126,
+            37.327692
+        ]
+    ],
+    "relationships": []
 }

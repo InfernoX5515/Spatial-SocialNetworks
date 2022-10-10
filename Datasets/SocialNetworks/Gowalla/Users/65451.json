@@ -5,7 +5,24 @@
     "email": "cclark@gmail.com",
     "birthdate": "2019-11-20",
     "phone": "557.169.1554",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        24,
+        24,
+        3,
+        45,
+        74,
+        25,
+        38,
+        0,
+        49,
+        72
+    ],
+    "login locations": [
+        [
+            -121.278524,
+            38.774785
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "philipwelch@yahoo.com",
     "birthdate": "1932-08-18",
     "phone": "435-905-2687",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        2,
+        60
+    ],
+    "login locations": [
+        [
+            -122.3552,
+            37.751304
+        ]
+    ],
+    "relationships": []
 }

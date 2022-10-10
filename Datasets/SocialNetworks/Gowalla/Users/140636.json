@@ -5,7 +5,31 @@
     "email": "hgonzales@gmail.com",
     "birthdate": "1909-09-29",
     "phone": "(267)690-5219x562",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        33,
+        74,
+        2,
+        19,
+        55,
+        17
+    ],
+    "login locations": [
+        [
+            -122.081043,
+            37.967583
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                140637,
+                0.409893992933
+            ],
+            [
+                140638,
+                0.36170212766
+            ]
+        ]
+    ]
 }

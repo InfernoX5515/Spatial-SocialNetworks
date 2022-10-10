@@ -5,7 +5,34 @@
     "email": "igibbs@hotmail.com",
     "birthdate": "1998-11-17",
     "phone": "9911513105",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        74,
+        11,
+        70,
+        48,
+        7,
+        59,
+        10,
+        68,
+        7
+    ],
+    "login locations": [
+        [
+            -114.339865,
+            34.475518
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2182,
+                0.01
+            ],
+            [
+                2182,
+                0.01
+            ]
+        ]
+    ]
 }

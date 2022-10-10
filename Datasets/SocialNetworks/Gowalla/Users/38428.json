@@ -5,7 +5,15 @@
     "email": "kellysanchez@yahoo.com",
     "birthdate": "1946-12-25",
     "phone": "(336)751-8400x287",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        12
+    ],
+    "login locations": [
+        [
+            -117.899292,
+            33.682387
+        ]
+    ],
+    "relationships": []
 }

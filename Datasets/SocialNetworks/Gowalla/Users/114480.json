@@ -5,7 +5,27 @@
     "email": "olynch@gmail.com",
     "birthdate": "1927-04-23",
     "phone": "303-134-1407x9390",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        24,
+        63,
+        14,
+        68,
+        9,
+        33,
+        57,
+        50,
+        67,
+        71,
+        31,
+        56,
+        70
+    ],
+    "login locations": [
+        [
+            -122.394407,
+            37.817401
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,34 @@
     "email": "brandonortiz@hotmail.com",
     "birthdate": "1983-09-30",
     "phone": "226.825.2052x297",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        31,
+        51,
+        75,
+        72,
+        17,
+        12,
+        52,
+        35,
+        7
+    ],
+    "login locations": [
+        [
+            -122.410526,
+            37.803808
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                235,
+                0.29928057554
+            ],
+            [
+                3532,
+                0.263374485597
+            ]
+        ]
+    ]
 }

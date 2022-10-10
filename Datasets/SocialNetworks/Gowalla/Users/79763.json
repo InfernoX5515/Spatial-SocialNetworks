@@ -5,7 +5,21 @@
     "email": "josephknight@yahoo.com",
     "birthdate": "2005-11-11",
     "phone": "+1-258-628-0625",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        60,
+        36,
+        39,
+        66,
+        27,
+        57,
+        9
+    ],
+    "login locations": [
+        [
+            -118.471042,
+            34.007182
+        ]
+    ],
+    "relationships": []
 }

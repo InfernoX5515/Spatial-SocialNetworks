@@ -5,7 +5,17 @@
     "email": "brett13@yahoo.com",
     "birthdate": "1923-07-30",
     "phone": "001-760-001-2343x44392",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        1,
+        66,
+        30
+    ],
+    "login locations": [
+        [
+            -117.228663,
+            33.04541
+        ]
+    ],
+    "relationships": []
 }

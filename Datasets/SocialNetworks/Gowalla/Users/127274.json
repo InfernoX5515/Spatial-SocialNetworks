@@ -5,7 +5,12 @@
     "email": "rhodesstacey@hotmail.com",
     "birthdate": "1988-04-06",
     "phone": "(901)232-9251",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.948521,
+            37.319689
+        ]
+    ],
+    "relationships": []
 }

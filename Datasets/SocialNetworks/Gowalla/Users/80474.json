@@ -5,7 +5,23 @@
     "email": "alanwong@yahoo.com",
     "birthdate": "2003-11-14",
     "phone": "327-671-0357x10550",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        75,
+        19,
+        64,
+        10,
+        69,
+        28,
+        18,
+        14,
+        15
+    ],
+    "login locations": [
+        [
+            -121.956408,
+            37.349996
+        ]
+    ],
+    "relationships": []
 }

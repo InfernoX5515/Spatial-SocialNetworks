@@ -5,7 +5,20 @@
     "email": "amywilliamson@yahoo.com",
     "birthdate": "1971-10-03",
     "phone": "487-997-8193x543",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        21,
+        0,
+        50,
+        71,
+        31,
+        45
+    ],
+    "login locations": [
+        [
+            -117.160667,
+            32.709892
+        ]
+    ],
+    "relationships": []
 }

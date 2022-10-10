@@ -5,7 +5,25 @@
     "email": "charlesstephen@hotmail.com",
     "birthdate": "1977-01-29",
     "phone": "001-418-571-7068",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59
+    ],
+    "login locations": [
+        [
+            -121.894234,
+            37.383337
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2971,
+                0.049504950495
+            ],
+            [
+                2971,
+                0.049504950495
+            ]
+        ]
+    ]
 }

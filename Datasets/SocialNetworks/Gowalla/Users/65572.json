@@ -5,7 +5,21 @@
     "email": "campbellwendy@hotmail.com",
     "birthdate": "2017-02-03",
     "phone": "957-569-0135x637",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        14,
+        0,
+        53,
+        1,
+        1,
+        14,
+        54
+    ],
+    "login locations": [
+        [
+            -122.314305,
+            37.563214
+        ]
+    ],
+    "relationships": []
 }

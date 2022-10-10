@@ -5,7 +5,15 @@
     "email": "uhughes@yahoo.com",
     "birthdate": "1935-12-17",
     "phone": "(689)315-2548",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        72
+    ],
+    "login locations": [
+        [
+            -119.280122,
+            34.273458
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "aarmstrong@hotmail.com",
     "birthdate": "1956-06-08",
     "phone": "869.905.8965x89393",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        65,
+        46,
+        21,
+        28,
+        22,
+        56
+    ],
+    "login locations": [
+        [
+            -117.219919,
+            32.812111
+        ]
+    ],
+    "relationships": []
 }

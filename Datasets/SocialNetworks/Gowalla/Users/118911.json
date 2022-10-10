@@ -5,7 +5,20 @@
     "email": "angela40@gmail.com",
     "birthdate": "1946-03-18",
     "phone": "001-192-633-3634x77257",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        69,
+        54,
+        67,
+        44,
+        39,
+        45
+    ],
+    "login locations": [
+        [
+            -117.161696,
+            32.749009
+        ]
+    ],
+    "relationships": []
 }

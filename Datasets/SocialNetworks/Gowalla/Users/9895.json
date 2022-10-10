@@ -5,7 +5,15 @@
     "email": "cheyenne87@hotmail.com",
     "birthdate": "1919-05-29",
     "phone": "(960)402-0594x46998",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        61
+    ],
+    "login locations": [
+        [
+            -118.410908,
+            34.043345
+        ]
+    ],
+    "relationships": []
 }

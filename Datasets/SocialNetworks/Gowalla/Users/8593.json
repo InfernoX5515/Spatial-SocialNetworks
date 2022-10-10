@@ -5,7 +5,23 @@
     "email": "davilawilliam@yahoo.com",
     "birthdate": "2015-03-26",
     "phone": "393.630.9871",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        1,
+        19,
+        7,
+        35,
+        1,
+        42,
+        75,
+        64,
+        50
+    ],
+    "login locations": [
+        [
+            -122.083683,
+            37.392181
+        ]
+    ],
+    "relationships": []
 }

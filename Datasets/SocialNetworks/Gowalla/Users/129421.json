@@ -5,7 +5,12 @@
     "email": "howardcatherine@yahoo.com",
     "birthdate": "1926-11-19",
     "phone": "804-377-6414x6635",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.360603,
+            34.096598
+        ]
+    ],
+    "relationships": []
 }

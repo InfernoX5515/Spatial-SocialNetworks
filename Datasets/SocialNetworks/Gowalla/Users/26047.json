@@ -5,7 +5,21 @@
     "email": "belldaniel@hotmail.com",
     "birthdate": "1922-06-01",
     "phone": "(381)442-4282",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        10,
+        28,
+        19,
+        69,
+        60,
+        45,
+        29
+    ],
+    "login locations": [
+        [
+            -117.987275,
+            33.789198
+        ]
+    ],
+    "relationships": []
 }

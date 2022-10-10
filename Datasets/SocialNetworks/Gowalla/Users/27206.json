@@ -5,7 +5,24 @@
     "email": "michael13@yahoo.com",
     "birthdate": "1948-07-06",
     "phone": "475.157.9811x83214",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        49,
+        61,
+        32,
+        25,
+        16,
+        38,
+        60,
+        58,
+        46,
+        66
+    ],
+    "login locations": [
+        [
+            -122.412496,
+            37.776323
+        ]
+    ],
+    "relationships": []
 }

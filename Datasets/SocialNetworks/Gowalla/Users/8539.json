@@ -5,7 +5,21 @@
     "email": "audrey21@yahoo.com",
     "birthdate": "1965-08-30",
     "phone": "447.719.3992",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        43,
+        74,
+        11,
+        8,
+        45,
+        61,
+        40
+    ],
+    "login locations": [
+        [
+            -122.313744,
+            37.828489
+        ]
+    ],
+    "relationships": []
 }

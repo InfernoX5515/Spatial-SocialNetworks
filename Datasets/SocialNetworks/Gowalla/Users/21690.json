@@ -5,7 +5,19 @@
     "email": "ashleytorres@hotmail.com",
     "birthdate": "1957-01-21",
     "phone": "+1-592-882-9230x6711",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        35,
+        69,
+        31,
+        58,
+        63
+    ],
+    "login locations": [
+        [
+            -122.280071,
+            37.599053
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "nicoleluna@gmail.com",
     "birthdate": "1911-01-03",
     "phone": "001-504-277-8115x0836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        48,
+        3,
+        10,
+        38,
+        36,
+        7,
+        23,
+        71,
+        50
+    ],
+    "login locations": [
+        [
+            -122.334025,
+            37.56199
+        ]
+    ],
+    "relationships": []
 }

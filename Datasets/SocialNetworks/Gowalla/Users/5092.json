@@ -5,7 +5,36 @@
     "email": "william83@hotmail.com",
     "birthdate": "1966-05-01",
     "phone": "300.593.9144x3411",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        63,
+        20,
+        9,
+        18,
+        38,
+        38,
+        63,
+        47,
+        61,
+        21,
+        45
+    ],
+    "login locations": [
+        [
+            -122.42148,
+            37.769553
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5112,
+                0.02
+            ],
+            [
+                5112,
+                0.02
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,16 @@
     "email": "iross@hotmail.com",
     "birthdate": "1908-07-11",
     "phone": "001-945-693-2288",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        68,
+        52
+    ],
+    "login locations": [
+        [
+            -119.047412,
+            35.35894
+        ]
+    ],
+    "relationships": []
 }

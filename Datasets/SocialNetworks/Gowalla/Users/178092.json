@@ -5,7 +5,20 @@
     "email": "calvinburns@yahoo.com",
     "birthdate": "2004-12-09",
     "phone": "784-814-0607x793",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        33,
+        15,
+        21,
+        63,
+        18,
+        49
+    ],
+    "login locations": [
+        [
+            -118.105927,
+            33.839864
+        ]
+    ],
+    "relationships": []
 }

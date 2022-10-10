@@ -5,7 +5,18 @@
     "email": "rhondabrown@hotmail.com",
     "birthdate": "1958-05-16",
     "phone": "(017)446-1849x661",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        9,
+        31,
+        40,
+        73
+    ],
+    "login locations": [
+        [
+            -118.268849,
+            34.00577
+        ]
+    ],
+    "relationships": []
 }

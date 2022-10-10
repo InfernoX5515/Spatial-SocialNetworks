@@ -5,7 +5,38 @@
     "email": "michael79@yahoo.com",
     "birthdate": "1954-07-22",
     "phone": "521.127.1536x9207",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        42,
+        38,
+        6,
+        56,
+        33,
+        73,
+        33,
+        42,
+        50,
+        54,
+        64,
+        8,
+        24
+    ],
+    "login locations": [
+        [
+            -122.439411,
+            37.671387
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                41240,
+                0.88
+            ],
+            [
+                39638,
+                0.0123456790123
+            ]
+        ]
+    ]
 }

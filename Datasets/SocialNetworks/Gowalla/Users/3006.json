@@ -5,7 +5,28 @@
     "email": "hansenrobert@yahoo.com",
     "birthdate": "1921-12-06",
     "phone": "(586)062-0780x408",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        46,
+        6,
+        35
+    ],
+    "login locations": [
+        [
+            -118.369573,
+            34.124806
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                66233,
+                0.0666666666667
+            ],
+            [
+                3103,
+                0.0208955223881
+            ]
+        ]
+    ]
 }

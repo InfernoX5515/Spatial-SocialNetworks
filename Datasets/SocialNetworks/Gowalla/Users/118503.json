@@ -5,7 +5,20 @@
     "email": "linannette@yahoo.com",
     "birthdate": "2010-07-01",
     "phone": "322-550-0107",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        64,
+        46,
+        65,
+        28,
+        30,
+        66
+    ],
+    "login locations": [
+        [
+            -121.834335,
+            37.318781
+        ]
+    ],
+    "relationships": []
 }

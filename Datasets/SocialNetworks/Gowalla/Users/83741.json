@@ -5,7 +5,20 @@
     "email": "durhampaul@hotmail.com",
     "birthdate": "1981-05-26",
     "phone": "+1-350-063-2823",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        45,
+        46,
+        36,
+        35,
+        42,
+        45
+    ],
+    "login locations": [
+        [
+            -122.423494,
+            37.757196
+        ]
+    ],
+    "relationships": []
 }

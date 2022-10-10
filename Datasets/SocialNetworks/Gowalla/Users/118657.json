@@ -5,7 +5,22 @@
     "email": "vanessajohnson@gmail.com",
     "birthdate": "1985-06-24",
     "phone": "001-551-655-0299x98599",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        55,
+        56,
+        40,
+        75,
+        56,
+        64,
+        63,
+        62
+    ],
+    "login locations": [
+        [
+            -119.854861,
+            34.413388
+        ]
+    ],
+    "relationships": []
 }

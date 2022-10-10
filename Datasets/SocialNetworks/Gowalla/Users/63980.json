@@ -5,7 +5,27 @@
     "email": "astephenson@yahoo.com",
     "birthdate": "2000-08-26",
     "phone": "804.554.1151x653",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        11,
+        14
+    ],
+    "login locations": [
+        [
+            -118.452946,
+            34.001515
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2389,
+                0.02
+            ],
+            [
+                2389,
+                0.02
+            ]
+        ]
+    ]
 }

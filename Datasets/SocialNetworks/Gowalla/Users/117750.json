@@ -5,7 +5,25 @@
     "email": "maureenjohnson@yahoo.com",
     "birthdate": "1910-11-29",
     "phone": "001-323-342-3299x29047",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        30,
+        29,
+        52,
+        23,
+        35,
+        9,
+        18,
+        49,
+        11,
+        57,
+        31
+    ],
+    "login locations": [
+        [
+            -118.472261,
+            34.027185
+        ]
+    ],
+    "relationships": []
 }

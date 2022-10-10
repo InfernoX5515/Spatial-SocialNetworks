@@ -5,7 +5,12 @@
     "email": "joyce68@yahoo.com",
     "birthdate": "1984-09-19",
     "phone": "5029162959",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.342108,
+            34.094623
+        ]
+    ],
+    "relationships": []
 }

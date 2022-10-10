@@ -5,7 +5,26 @@
     "email": "swilson@yahoo.com",
     "birthdate": "2017-02-16",
     "phone": "(423)080-9712x587",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        19,
+        51,
+        67,
+        7,
+        34,
+        40,
+        16,
+        0,
+        49,
+        26,
+        75,
+        55
+    ],
+    "login locations": [
+        [
+            -122.402066,
+            37.785319
+        ]
+    ],
+    "relationships": []
 }

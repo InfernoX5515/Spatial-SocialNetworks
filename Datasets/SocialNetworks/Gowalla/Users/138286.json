@@ -5,7 +5,23 @@
     "email": "aaron86@yahoo.com",
     "birthdate": "1915-08-12",
     "phone": "+1-951-965-4730x538",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        72,
+        42,
+        18,
+        71,
+        67,
+        36,
+        10,
+        63,
+        61
+    ],
+    "login locations": [
+        [
+            -117.910699,
+            34.013139
+        ]
+    ],
+    "relationships": []
 }

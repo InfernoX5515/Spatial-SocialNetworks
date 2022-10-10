@@ -5,7 +5,25 @@
     "email": "davenportbenjamin@yahoo.com",
     "birthdate": "2012-03-24",
     "phone": "+1-496-416-5387x591",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        48,
+        27,
+        35,
+        48,
+        60,
+        25,
+        60,
+        18,
+        32,
+        69,
+        36
+    ],
+    "login locations": [
+        [
+            -121.913461,
+            37.743581
+        ]
+    ],
+    "relationships": []
 }

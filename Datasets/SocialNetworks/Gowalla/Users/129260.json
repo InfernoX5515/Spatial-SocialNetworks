@@ -5,7 +5,15 @@
     "email": "nicholas41@yahoo.com",
     "birthdate": "1948-12-21",
     "phone": "+1-381-500-6658x241",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        6
+    ],
+    "login locations": [
+        [
+            -122.392844,
+            37.782718
+        ]
+    ],
+    "relationships": []
 }

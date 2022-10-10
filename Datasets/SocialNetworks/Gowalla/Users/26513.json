@@ -5,7 +5,19 @@
     "email": "donnajordan@yahoo.com",
     "birthdate": "1919-11-04",
     "phone": "+1-942-010-3317x9049",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        12,
+        30,
+        37,
+        50,
+        36
+    ],
+    "login locations": [
+        [
+            -117.149494,
+            32.74303
+        ]
+    ],
+    "relationships": []
 }

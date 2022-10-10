@@ -5,7 +5,23 @@
     "email": "isaiah43@hotmail.com",
     "birthdate": "1953-08-11",
     "phone": "001-868-640-8329x68391",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        7,
+        23,
+        64,
+        28,
+        61,
+        24,
+        25,
+        43,
+        72
+    ],
+    "login locations": [
+        [
+            -118.38464,
+            34.030389
+        ]
+    ],
+    "relationships": []
 }

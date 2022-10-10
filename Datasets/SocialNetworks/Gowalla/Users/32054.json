@@ -5,7 +5,18 @@
     "email": "robert49@hotmail.com",
     "birthdate": "2001-06-10",
     "phone": "001-478-964-2961x3155",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        16,
+        60,
+        42,
+        64
+    ],
+    "login locations": [
+        [
+            -122.322814,
+            37.564852
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,38 @@
     "email": "kristen19@hotmail.com",
     "birthdate": "2009-11-19",
     "phone": "120.280.1412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        2,
+        55,
+        68,
+        1,
+        40,
+        52,
+        68,
+        73,
+        66,
+        7,
+        8,
+        54,
+        27
+    ],
+    "login locations": [
+        [
+            -121.966925,
+            37.030605
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82171,
+                0.2
+            ],
+            [
+                82171,
+                0.2
+            ]
+        ]
+    ]
 }

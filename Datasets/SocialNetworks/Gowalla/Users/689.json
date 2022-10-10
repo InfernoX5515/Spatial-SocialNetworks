@@ -5,7 +5,18 @@
     "email": "michealrobles@gmail.com",
     "birthdate": "1960-03-18",
     "phone": "(787)896-3350",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        43,
+        2,
+        18,
+        42
+    ],
+    "login locations": [
+        [
+            -122.162594,
+            37.445074
+        ]
+    ],
+    "relationships": []
 }

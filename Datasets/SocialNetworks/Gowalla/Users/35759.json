@@ -5,7 +5,15 @@
     "email": "whaney@yahoo.com",
     "birthdate": "1973-01-08",
     "phone": "001-919-084-7510x67488",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        35
+    ],
+    "login locations": [
+        [
+            -118.336829,
+            34.082341
+        ]
+    ],
+    "relationships": []
 }

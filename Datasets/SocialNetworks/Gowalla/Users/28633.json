@@ -5,7 +5,31 @@
     "email": "robertsrichard@yahoo.com",
     "birthdate": "1956-05-18",
     "phone": "638.875.4918x0245",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        62,
+        14,
+        56,
+        21,
+        17,
+        54
+    ],
+    "login locations": [
+        [
+            -119.100529,
+            34.209505
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                104419,
+                0.0210084033613
+            ],
+            [
+                104419,
+                0.0210084033613
+            ]
+        ]
+    ]
 }

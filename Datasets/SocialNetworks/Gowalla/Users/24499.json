@@ -5,7 +5,25 @@
     "email": "laura35@yahoo.com",
     "birthdate": "1985-05-27",
     "phone": "382.771.7873",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        27,
+        9,
+        6,
+        34,
+        59,
+        0,
+        19,
+        36,
+        72,
+        75,
+        61
+    ],
+    "login locations": [
+        [
+            -116.54524,
+            33.828518
+        ]
+    ],
+    "relationships": []
 }

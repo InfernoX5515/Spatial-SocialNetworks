@@ -5,7 +5,26 @@
     "email": "taylorbrandon@gmail.com",
     "birthdate": "1957-11-09",
     "phone": "+1-140-559-3499x193",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        57
+    ],
+    "login locations": [
+        [
+            -122.109922,
+            37.424667
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                472,
+                0.041975308642
+            ],
+            [
+                484,
+                0.0219298245614
+            ]
+        ]
+    ]
 }

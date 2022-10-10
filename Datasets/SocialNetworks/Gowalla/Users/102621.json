@@ -5,7 +5,27 @@
     "email": "mshaw@yahoo.com",
     "birthdate": "2020-11-21",
     "phone": "+1-551-034-6129",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        3,
+        47,
+        18,
+        22,
+        27,
+        18,
+        26,
+        60,
+        54,
+        2,
+        67,
+        16,
+        66
+    ],
+    "login locations": [
+        [
+            -120.248322,
+            39.191786
+        ]
+    ],
+    "relationships": []
 }

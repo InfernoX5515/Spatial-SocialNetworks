@@ -5,7 +5,25 @@
     "email": "victoria03@hotmail.com",
     "birthdate": "1937-11-14",
     "phone": "366-694-5830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15
+    ],
+    "login locations": [
+        [
+            -122.329363,
+            37.743312
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.01
+            ],
+            [
+                427,
+                0.0311111111111
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "petersbrittany@hotmail.com",
     "birthdate": "2021-07-24",
     "phone": "692.216.8158x5795",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        4,
+        72,
+        19
+    ],
+    "login locations": [
+        [
+            -122.046636,
+            37.383262
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                36178,
+                0.01
+            ],
+            [
+                36178,
+                0.01
+            ]
+        ]
+    ]
 }

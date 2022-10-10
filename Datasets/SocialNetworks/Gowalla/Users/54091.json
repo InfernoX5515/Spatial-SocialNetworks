@@ -5,7 +5,21 @@
     "email": "combsscott@hotmail.com",
     "birthdate": "1966-11-03",
     "phone": "001-056-962-4913",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        72,
+        73,
+        14,
+        10,
+        74,
+        30,
+        5
+    ],
+    "login locations": [
+        [
+            -118.420301,
+            34.015064
+        ]
+    ],
+    "relationships": []
 }

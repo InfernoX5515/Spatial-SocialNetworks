@@ -5,7 +5,30 @@
     "email": "stephaniefields@gmail.com",
     "birthdate": "1970-06-18",
     "phone": "(638)570-3601x42156",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        56,
+        3,
+        40,
+        34,
+        48
+    ],
+    "login locations": [
+        [
+            -122.328772,
+            37.784779
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1523,
+                0.306666666667
+            ],
+            [
+                1523,
+                0.306666666667
+            ]
+        ]
+    ]
 }

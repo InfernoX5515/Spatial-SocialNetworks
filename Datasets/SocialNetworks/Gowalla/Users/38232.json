@@ -5,7 +5,25 @@
     "email": "sotovincent@gmail.com",
     "birthdate": "2006-07-19",
     "phone": "001-919-555-8777x58223",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        68,
+        36,
+        75,
+        31,
+        23,
+        72,
+        31,
+        12,
+        42,
+        54,
+        23
+    ],
+    "login locations": [
+        [
+            -117.191008,
+            32.745584
+        ]
+    ],
+    "relationships": []
 }

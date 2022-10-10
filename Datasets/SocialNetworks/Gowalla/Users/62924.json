@@ -5,7 +5,26 @@
     "email": "angelarosales@hotmail.com",
     "birthdate": "2015-09-10",
     "phone": "0611531604",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        25,
+        73,
+        50,
+        35,
+        10,
+        66,
+        3,
+        20,
+        44,
+        34,
+        49,
+        68
+    ],
+    "login locations": [
+        [
+            -118.353869,
+            34.00879
+        ]
+    ],
+    "relationships": []
 }

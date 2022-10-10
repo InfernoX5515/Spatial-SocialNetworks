@@ -5,7 +5,16 @@
     "email": "fmartin@gmail.com",
     "birthdate": "1991-03-31",
     "phone": "+1-850-049-9524x8230",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        10,
+        61
+    ],
+    "login locations": [
+        [
+            -118.456041,
+            34.005542
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "william55@hotmail.com",
     "birthdate": "2021-12-01",
     "phone": "001-983-100-5132x40283",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        57,
+        6,
+        62,
+        57,
+        31,
+        43
+    ],
+    "login locations": [
+        [
+            -122.037633,
+            37.738667
+        ]
+    ],
+    "relationships": []
 }

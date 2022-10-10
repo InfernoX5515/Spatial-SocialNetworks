@@ -5,7 +5,28 @@
     "email": "sean86@hotmail.com",
     "birthdate": "1981-10-02",
     "phone": "+1-983-855-9952",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        19,
+        21,
+        66,
+        13,
+        32,
+        9,
+        35,
+        18,
+        12,
+        29,
+        51,
+        33,
+        65,
+        23
+    ],
+    "login locations": [
+        [
+            -122.323649,
+            37.852815
+        ]
+    ],
+    "relationships": []
 }

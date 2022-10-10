@@ -5,7 +5,26 @@
     "email": "danielgibson@hotmail.com",
     "birthdate": "1959-06-25",
     "phone": "001-325-565-2471x54880",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        57,
+        62,
+        1,
+        21,
+        17,
+        55,
+        6,
+        22,
+        74,
+        52,
+        11,
+        43
+    ],
+    "login locations": [
+        [
+            -122.35324,
+            37.807987
+        ]
+    ],
+    "relationships": []
 }

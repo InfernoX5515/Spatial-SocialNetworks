@@ -5,7 +5,28 @@
     "email": "matthew01@gmail.com",
     "birthdate": "1966-12-05",
     "phone": "537.961.8017x4745",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        46,
+        5,
+        17,
+        49,
+        50,
+        64,
+        54,
+        54,
+        1,
+        14,
+        54,
+        15,
+        33,
+        23
+    ],
+    "login locations": [
+        [
+            -121.915374,
+            37.345541
+        ]
+    ],
+    "relationships": []
 }

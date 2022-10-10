@@ -5,7 +5,31 @@
     "email": "nicholas37@gmail.com",
     "birthdate": "1924-09-24",
     "phone": "436-873-9088x286",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        57,
+        37,
+        47,
+        48,
+        19,
+        38
+    ],
+    "login locations": [
+        [
+            -122.426375,
+            37.758991
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.014598540146
+            ],
+            [
+                268,
+                0.01
+            ]
+        ]
+    ]
 }

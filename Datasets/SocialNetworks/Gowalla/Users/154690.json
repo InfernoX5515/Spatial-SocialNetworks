@@ -5,7 +5,14 @@
     "email": "longabigail@gmail.com",
     "birthdate": "1972-12-07",
     "phone": "186.941.8378x7589",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31
+    ],
+    "login locations": [
+        [
+            -122.407723,
+            37.797871
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,31 @@
     "email": "griffintodd@hotmail.com",
     "birthdate": "1933-10-05",
     "phone": "(687)124-9678",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        73,
+        75,
+        54,
+        74,
+        8,
+        53
+    ],
+    "login locations": [
+        [
+            -122.624048,
+            38.187263
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                44595,
+                0.157894736842
+            ],
+            [
+                1654,
+                0.1
+            ]
+        ]
+    ]
 }

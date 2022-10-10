@@ -5,7 +5,34 @@
     "email": "jessicafreeman@hotmail.com",
     "birthdate": "1960-11-05",
     "phone": "545-272-7211x0779",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        5,
+        34,
+        18,
+        14,
+        69,
+        17,
+        47,
+        58,
+        38
+    ],
+    "login locations": [
+        [
+            -122.008073,
+            36.967037
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                91818,
+                0.025641025641
+            ],
+            [
+                91818,
+                0.025641025641
+            ]
+        ]
+    ]
 }

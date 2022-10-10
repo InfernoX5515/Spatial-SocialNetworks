@@ -5,7 +5,39 @@
     "email": "tracymorrison@hotmail.com",
     "birthdate": "2020-07-28",
     "phone": "(128)770-9319",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        48,
+        3,
+        34,
+        53,
+        36,
+        73,
+        67,
+        69,
+        63,
+        61,
+        56,
+        16,
+        47,
+        1
+    ],
+    "login locations": [
+        [
+            -117.194642,
+            32.741485
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                90487,
+                0.323529411765
+            ],
+            [
+                90487,
+                0.323529411765
+            ]
+        ]
+    ]
 }

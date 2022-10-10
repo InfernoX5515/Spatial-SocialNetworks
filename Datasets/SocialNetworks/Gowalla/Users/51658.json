@@ -5,7 +5,20 @@
     "email": "markprince@gmail.com",
     "birthdate": "1956-09-16",
     "phone": "+1-444-027-7456x0671",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        62,
+        14,
+        27,
+        20,
+        15,
+        61
+    ],
+    "login locations": [
+        [
+            -120.460836,
+            38.136861
+        ]
+    ],
+    "relationships": []
 }

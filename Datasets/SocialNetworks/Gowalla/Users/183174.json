@@ -5,7 +5,19 @@
     "email": "melissachapman@hotmail.com",
     "birthdate": "1951-01-10",
     "phone": "873.870.1226x76839",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        65,
+        11,
+        36,
+        70,
+        60
+    ],
+    "login locations": [
+        [
+            -120.408373,
+            34.911586
+        ]
+    ],
+    "relationships": []
 }

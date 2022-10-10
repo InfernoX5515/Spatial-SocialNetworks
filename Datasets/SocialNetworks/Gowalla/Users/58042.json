@@ -5,7 +5,20 @@
     "email": "jaybrandt@gmail.com",
     "birthdate": "1997-09-07",
     "phone": "+1-520-758-3346x03494",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        58,
+        4,
+        32,
+        52,
+        27,
+        29
+    ],
+    "login locations": [
+        [
+            -122.302183,
+            37.826232
+        ]
+    ],
+    "relationships": []
 }

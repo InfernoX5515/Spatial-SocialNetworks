@@ -5,7 +5,24 @@
     "email": "david20@hotmail.com",
     "birthdate": "1975-03-25",
     "phone": "+1-904-071-4723",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        69,
+        42,
+        43,
+        34,
+        70,
+        34,
+        64,
+        2,
+        42,
+        0
+    ],
+    "login locations": [
+        [
+            -122.275052,
+            37.920859
+        ]
+    ],
+    "relationships": []
 }

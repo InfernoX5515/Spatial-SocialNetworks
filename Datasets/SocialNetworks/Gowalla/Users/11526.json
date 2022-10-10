@@ -5,7 +5,23 @@
     "email": "xcooper@hotmail.com",
     "birthdate": "1978-09-24",
     "phone": "323-825-1860",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        48,
+        41,
+        16,
+        63,
+        59,
+        72,
+        73,
+        69,
+        54
+    ],
+    "login locations": [
+        [
+            -122.413129,
+            37.770619
+        ]
+    ],
+    "relationships": []
 }

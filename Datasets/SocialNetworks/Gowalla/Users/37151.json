@@ -5,7 +5,22 @@
     "email": "loganmills@gmail.com",
     "birthdate": "2020-04-22",
     "phone": "001-248-307-3742x486",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        1,
+        53,
+        67,
+        1,
+        35,
+        40,
+        27,
+        62
+    ],
+    "login locations": [
+        [
+            -122.420198,
+            37.757812
+        ]
+    ],
+    "relationships": []
 }

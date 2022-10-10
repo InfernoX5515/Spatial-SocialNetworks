@@ -5,7 +5,18 @@
     "email": "hannah20@hotmail.com",
     "birthdate": "2016-01-02",
     "phone": "879-561-5506x57464",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        63,
+        34,
+        15,
+        72
+    ],
+    "login locations": [
+        [
+            -118.498925,
+            34.015434
+        ]
+    ],
+    "relationships": []
 }

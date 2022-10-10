@@ -5,7 +5,28 @@
     "email": "stacy86@hotmail.com",
     "birthdate": "2017-07-24",
     "phone": "220.836.8798x61771",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        57,
+        62,
+        59,
+        14,
+        27,
+        30,
+        43,
+        20,
+        51,
+        8,
+        56,
+        45,
+        11,
+        24
+    ],
+    "login locations": [
+        [
+            -119.735235,
+            36.843807
+        ]
+    ],
+    "relationships": []
 }

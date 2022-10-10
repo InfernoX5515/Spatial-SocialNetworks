@@ -5,7 +5,23 @@
     "email": "nicholaslucas@hotmail.com",
     "birthdate": "1916-10-01",
     "phone": "+1-274-609-7140x4332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        4,
+        5,
+        38,
+        7,
+        18,
+        68,
+        74,
+        41,
+        32
+    ],
+    "login locations": [
+        [
+            -117.894949,
+            33.818944
+        ]
+    ],
+    "relationships": []
 }

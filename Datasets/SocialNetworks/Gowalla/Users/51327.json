@@ -5,7 +5,20 @@
     "email": "iriley@hotmail.com",
     "birthdate": "1975-05-22",
     "phone": "519.686.4436x17620",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        20,
+        23,
+        30,
+        35,
+        7,
+        8
+    ],
+    "login locations": [
+        [
+            -121.664412,
+            38.616199
+        ]
+    ],
+    "relationships": []
 }

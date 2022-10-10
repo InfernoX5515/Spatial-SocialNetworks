@@ -5,7 +5,20 @@
     "email": "garciakimberly@hotmail.com",
     "birthdate": "1933-09-30",
     "phone": "+1-621-683-3528x8604",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        11,
+        48,
+        44,
+        45,
+        72,
+        21
+    ],
+    "login locations": [
+        [
+            -114.594938,
+            32.661617
+        ]
+    ],
+    "relationships": []
 }

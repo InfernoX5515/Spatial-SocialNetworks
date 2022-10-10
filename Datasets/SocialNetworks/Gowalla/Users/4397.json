@@ -5,7 +5,28 @@
     "email": "matthew58@hotmail.com",
     "birthdate": "2005-10-04",
     "phone": "333-459-1303x3177",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        56,
+        20,
+        38
+    ],
+    "login locations": [
+        [
+            -122.394403,
+            37.794032
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.030303030303
+            ],
+            [
+                87,
+                0.0711111111111
+            ]
+        ]
+    ]
 }

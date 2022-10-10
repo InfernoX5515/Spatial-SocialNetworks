@@ -5,7 +5,15 @@
     "email": "thomasjeremy@hotmail.com",
     "birthdate": "1963-04-24",
     "phone": "001-450-335-6754x8121",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        56
+    ],
+    "login locations": [
+        [
+            -121.468259,
+            38.572219
+        ]
+    ],
+    "relationships": []
 }

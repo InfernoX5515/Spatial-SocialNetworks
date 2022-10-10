@@ -5,7 +5,14 @@
     "email": "tfisher@gmail.com",
     "birthdate": "1984-01-30",
     "phone": "(691)046-3322",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19
+    ],
+    "login locations": [
+        [
+            -121.48943,
+            38.5819
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "pgomez@hotmail.com",
     "birthdate": "1981-08-07",
     "phone": "045-667-5814",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        70
+    ],
+    "login locations": [
+        [
+            -122.300874,
+            37.572268
+        ]
+    ],
+    "relationships": []
 }

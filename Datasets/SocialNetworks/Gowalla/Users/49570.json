@@ -5,7 +5,23 @@
     "email": "karen99@hotmail.com",
     "birthdate": "1987-12-07",
     "phone": "646-636-4980",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        27,
+        46,
+        3,
+        21,
+        1,
+        57,
+        49,
+        70,
+        46
+    ],
+    "login locations": [
+        [
+            -118.291479,
+            34.045773
+        ]
+    ],
+    "relationships": []
 }

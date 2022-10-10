@@ -5,7 +5,28 @@
     "email": "michael36@hotmail.com",
     "birthdate": "1921-07-25",
     "phone": "(930)248-2279x62598",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        45,
+        37,
+        10
+    ],
+    "login locations": [
+        [
+            -122.369271,
+            37.739259
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6221,
+                0.01
+            ],
+            [
+                6221,
+                0.01
+            ]
+        ]
+    ]
 }

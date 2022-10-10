@@ -5,7 +5,25 @@
     "email": "zgardner@yahoo.com",
     "birthdate": "1984-07-27",
     "phone": "+1-976-245-2121x005",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68
+    ],
+    "login locations": [
+        [
+            -117.191063,
+            33.678338
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                101676,
+                0.037037037037
+            ],
+            [
+                101676,
+                0.037037037037
+            ]
+        ]
+    ]
 }

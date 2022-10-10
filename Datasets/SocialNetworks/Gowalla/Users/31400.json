@@ -5,7 +5,30 @@
     "email": "nathanielkelly@hotmail.com",
     "birthdate": "1973-04-29",
     "phone": "7469229897",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        50,
+        22,
+        42,
+        37,
+        66
+    ],
+    "login locations": [
+        [
+            -117.916796,
+            33.818584
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                470,
+                0.01
+            ],
+            [
+                470,
+                0.01
+            ]
+        ]
+    ]
 }

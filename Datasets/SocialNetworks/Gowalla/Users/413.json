@@ -5,7 +5,37 @@
     "email": "jose03@hotmail.com",
     "birthdate": "1917-08-01",
     "phone": "001-625-323-9656x99371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        21,
+        48,
+        8,
+        32,
+        6,
+        55,
+        50,
+        70,
+        7,
+        41,
+        5,
+        45
+    ],
+    "login locations": [
+        [
+            -122.331429,
+            37.821027
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4407,
+                0.118644067797
+            ],
+            [
+                4407,
+                0.118644067797
+            ]
+        ]
+    ]
 }

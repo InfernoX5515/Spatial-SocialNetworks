@@ -5,7 +5,23 @@
     "email": "jordanashley@gmail.com",
     "birthdate": "1916-04-02",
     "phone": "285.617.0474",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        15,
+        11,
+        12,
+        52,
+        67,
+        20,
+        59,
+        26,
+        23
+    ],
+    "login locations": [
+        [
+            -120.664035,
+            35.281706
+        ]
+    ],
+    "relationships": []
 }

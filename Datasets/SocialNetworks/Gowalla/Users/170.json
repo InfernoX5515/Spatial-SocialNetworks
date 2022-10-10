@@ -5,7 +5,32 @@
     "email": "michael48@gmail.com",
     "birthdate": "1939-02-07",
     "phone": "+1-591-240-5840",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        60,
+        15,
+        55,
+        32,
+        43,
+        20,
+        15
+    ],
+    "login locations": [
+        [
+            -117.863481,
+            33.687164
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10770,
+                0.0391061452514
+            ],
+            [
+                10781,
+                0.172413793103
+            ]
+        ]
+    ]
 }

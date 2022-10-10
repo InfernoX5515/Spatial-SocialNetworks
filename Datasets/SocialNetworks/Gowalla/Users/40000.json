@@ -5,7 +5,21 @@
     "email": "drojas@hotmail.com",
     "birthdate": "1926-04-19",
     "phone": "001-669-333-5339x0356",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        41,
+        68,
+        16,
+        48,
+        14,
+        6,
+        49
+    ],
+    "login locations": [
+        [
+            -122.3851,
+            37.61467
+        ]
+    ],
+    "relationships": []
 }

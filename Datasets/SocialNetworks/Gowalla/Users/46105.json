@@ -5,7 +5,15 @@
     "email": "angelarollins@gmail.com",
     "birthdate": "1956-12-07",
     "phone": "4080471084",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        65
+    ],
+    "login locations": [
+        [
+            -117.294469,
+            33.134363
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "michaelberg@hotmail.com",
     "birthdate": "1958-01-10",
     "phone": "6683029293",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        63,
+        52,
+        46,
+        35,
+        6,
+        61,
+        65,
+        43,
+        7
+    ],
+    "login locations": [
+        [
+            -118.175809,
+            34.059776
+        ]
+    ],
+    "relationships": []
 }

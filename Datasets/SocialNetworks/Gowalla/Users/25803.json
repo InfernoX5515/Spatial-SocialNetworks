@@ -5,7 +5,15 @@
     "email": "currychristopher@hotmail.com",
     "birthdate": "1948-07-01",
     "phone": "+1-152-824-9042",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        38
+    ],
+    "login locations": [
+        [
+            -121.725245,
+            37.170995
+        ]
+    ],
+    "relationships": []
 }

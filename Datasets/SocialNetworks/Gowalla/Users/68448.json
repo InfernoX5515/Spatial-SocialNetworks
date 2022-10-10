@@ -5,7 +5,22 @@
     "email": "vtate@hotmail.com",
     "birthdate": "2003-07-06",
     "phone": "+1-152-008-0195x8027",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        25,
+        61,
+        40,
+        25,
+        16,
+        67,
+        5,
+        70
+    ],
+    "login locations": [
+        [
+            -117.17222,
+            32.732815
+        ]
+    ],
+    "relationships": []
 }

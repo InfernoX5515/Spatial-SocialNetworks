@@ -5,7 +5,25 @@
     "email": "camachobrandon@gmail.com",
     "birthdate": "1933-06-18",
     "phone": "802.927.7421",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56
+    ],
+    "login locations": [
+        [
+            -117.934974,
+            33.664256
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                470,
+                0.0544554455446
+            ],
+            [
+                470,
+                0.0544554455446
+            ]
+        ]
+    ]
 }

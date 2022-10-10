@@ -5,7 +5,35 @@
     "email": "kevin26@yahoo.com",
     "birthdate": "1913-10-07",
     "phone": "968.725.8425x04336",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        41,
+        16,
+        25,
+        18,
+        69,
+        18,
+        72,
+        6,
+        38,
+        12
+    ],
+    "login locations": [
+        [
+            -118.414438,
+            34.02051
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63934,
+                0.0933333333333
+            ],
+            [
+                63934,
+                0.0933333333333
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "brownjennifer@hotmail.com",
     "birthdate": "1934-05-17",
     "phone": "346-245-5625x65923",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        31,
+        59,
+        57,
+        53,
+        42,
+        49,
+        28,
+        20,
+        36,
+        71
+    ],
+    "login locations": [
+        [
+            -117.887341,
+            33.721267
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "marksdennis@gmail.com",
     "birthdate": "1922-12-20",
     "phone": "(982)356-9776x2982",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.353961,
+            34.093909
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7473,
+                0.015873015873
+            ],
+            [
+                7473,
+                0.015873015873
+            ]
+        ]
+    ]
 }

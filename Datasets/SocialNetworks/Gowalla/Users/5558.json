@@ -5,7 +5,34 @@
     "email": "derrick31@yahoo.com",
     "birthdate": "1933-11-22",
     "phone": "(844)450-9710",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        70,
+        34,
+        24,
+        26,
+        35,
+        43,
+        68,
+        4,
+        38
+    ],
+    "login locations": [
+        [
+            -122.133685,
+            37.384987
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4227,
+                0.0196078431373
+            ],
+            [
+                4530,
+                0.0196078431373
+            ]
+        ]
+    ]
 }

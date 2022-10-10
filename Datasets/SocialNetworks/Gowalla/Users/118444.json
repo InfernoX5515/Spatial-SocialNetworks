@@ -5,7 +5,27 @@
     "email": "aaroncarroll@hotmail.com",
     "birthdate": "1964-07-10",
     "phone": "001-510-376-6123x480",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        39,
+        62
+    ],
+    "login locations": [
+        [
+            -122.338359,
+            37.813672
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                179307,
+                0.130718954248
+            ],
+            [
+                179307,
+                0.130718954248
+            ]
+        ]
+    ]
 }

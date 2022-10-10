@@ -5,7 +5,14 @@
     "email": "stephanieho@yahoo.com",
     "birthdate": "1984-07-17",
     "phone": "921-211-3105x7240",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62
+    ],
+    "login locations": [
+        [
+            -122.424326,
+            37.801538
+        ]
+    ],
+    "relationships": []
 }

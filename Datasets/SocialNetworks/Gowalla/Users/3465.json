@@ -5,7 +5,28 @@
     "email": "dcruz@hotmail.com",
     "birthdate": "1962-11-21",
     "phone": "176.896.3519",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        1,
+        34,
+        38,
+        23,
+        51,
+        72,
+        26,
+        7,
+        33,
+        64,
+        37,
+        7,
+        30,
+        38
+    ],
+    "login locations": [
+        [
+            -118.22252,
+            33.910489
+        ]
+    ],
+    "relationships": []
 }

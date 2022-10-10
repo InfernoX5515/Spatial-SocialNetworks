@@ -5,7 +5,26 @@
     "email": "bethwood@hotmail.com",
     "birthdate": "1962-04-06",
     "phone": "547-454-6369x176",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        70,
+        16,
+        58,
+        46,
+        36,
+        38,
+        0,
+        5,
+        23,
+        63,
+        7,
+        8
+    ],
+    "login locations": [
+        [
+            -122.040535,
+            37.971628
+        ]
+    ],
+    "relationships": []
 }

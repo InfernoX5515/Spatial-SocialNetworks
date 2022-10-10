@@ -5,7 +5,34 @@
     "email": "barbara52@hotmail.com",
     "birthdate": "1944-10-24",
     "phone": "+1-847-048-0854x589",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        14,
+        25,
+        63,
+        12,
+        63,
+        29,
+        48,
+        12,
+        61
+    ],
+    "login locations": [
+        [
+            -118.348325,
+            34.083111
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                276,
+                0.0126582278481
+            ],
+            [
+                330,
+                0.01
+            ]
+        ]
+    ]
 }

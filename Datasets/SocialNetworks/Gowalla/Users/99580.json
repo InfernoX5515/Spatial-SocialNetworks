@@ -5,7 +5,20 @@
     "email": "ryan21@hotmail.com",
     "birthdate": "1963-02-21",
     "phone": "303.489.2591",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        9,
+        41,
+        29,
+        65,
+        16,
+        22
+    ],
+    "login locations": [
+        [
+            -117.932767,
+            33.763528
+        ]
+    ],
+    "relationships": []
 }

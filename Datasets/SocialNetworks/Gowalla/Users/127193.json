@@ -5,7 +5,23 @@
     "email": "johnclark@yahoo.com",
     "birthdate": "2011-10-15",
     "phone": "637-614-3360x96350",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        7,
+        34,
+        1,
+        37,
+        57,
+        19,
+        50,
+        25,
+        70
+    ],
+    "login locations": [
+        [
+            -122.424489,
+            37.776272
+        ]
+    ],
+    "relationships": []
 }

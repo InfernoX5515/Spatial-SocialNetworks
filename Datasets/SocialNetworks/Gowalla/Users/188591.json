@@ -5,7 +5,12 @@
     "email": "melissavilla@hotmail.com",
     "birthdate": "1933-11-29",
     "phone": "+1-649-427-1507x801",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.246303,
+            33.18819
+        ]
+    ],
+    "relationships": []
 }

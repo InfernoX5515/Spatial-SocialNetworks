@@ -5,7 +5,29 @@
     "email": "jacksonjoseph@yahoo.com",
     "birthdate": "1975-06-06",
     "phone": "(742)289-3268x26886",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        17,
+        7,
+        66,
+        67
+    ],
+    "login locations": [
+        [
+            -118.407168,
+            33.943538
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                78408,
+                0.26
+            ],
+            [
+                118874,
+                0.365591397849
+            ]
+        ]
+    ]
 }

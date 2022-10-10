@@ -5,7 +5,15 @@
     "email": "newmanderrick@hotmail.com",
     "birthdate": "1952-02-28",
     "phone": "689.593.9712x0113",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        53
+    ],
+    "login locations": [
+        [
+            -121.446411,
+            38.422778
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,33 @@
     "email": "ycurtis@hotmail.com",
     "birthdate": "1976-07-26",
     "phone": "001-238-625-2126x37395",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        63,
+        20,
+        73,
+        18,
+        65,
+        56,
+        42,
+        3
+    ],
+    "login locations": [
+        [
+            -122.212124,
+            37.710343
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                37857,
+                0.01
+            ],
+            [
+                37857,
+                0.01
+            ]
+        ]
+    ]
 }

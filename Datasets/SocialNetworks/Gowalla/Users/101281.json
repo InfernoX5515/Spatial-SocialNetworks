@@ -5,7 +5,17 @@
     "email": "bonillascott@hotmail.com",
     "birthdate": "1930-10-20",
     "phone": "3819904002",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        11,
+        44,
+        73
+    ],
+    "login locations": [
+        [
+            -122.178708,
+            37.828708
+        ]
+    ],
+    "relationships": []
 }

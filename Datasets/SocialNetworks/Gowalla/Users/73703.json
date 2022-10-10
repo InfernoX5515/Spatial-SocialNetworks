@@ -5,7 +5,19 @@
     "email": "christine39@gmail.com",
     "birthdate": "2010-11-21",
     "phone": "107.674.2888x8326",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        48,
+        12,
+        37,
+        71,
+        42
+    ],
+    "login locations": [
+        [
+            -118.0231,
+            33.95661
+        ]
+    ],
+    "relationships": []
 }

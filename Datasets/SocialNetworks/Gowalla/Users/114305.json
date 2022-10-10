@@ -5,7 +5,15 @@
     "email": "harveyryan@yahoo.com",
     "birthdate": "1908-03-17",
     "phone": "876.771.2431x647",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        45
+    ],
+    "login locations": [
+        [
+            -121.574052,
+            37.723168
+        ]
+    ],
+    "relationships": []
 }

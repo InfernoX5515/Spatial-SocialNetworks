@@ -5,7 +5,22 @@
     "email": "zwilson@yahoo.com",
     "birthdate": "2010-06-04",
     "phone": "+1-176-796-4816x2863",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        39,
+        68,
+        49,
+        46,
+        63,
+        19,
+        44,
+        28
+    ],
+    "login locations": [
+        [
+            -117.156406,
+            32.897798
+        ]
+    ],
+    "relationships": []
 }

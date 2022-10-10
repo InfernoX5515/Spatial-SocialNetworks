@@ -5,7 +5,27 @@
     "email": "nathansmith@yahoo.com",
     "birthdate": "1999-03-13",
     "phone": "001-209-429-1973",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        38,
+        1,
+        62,
+        15,
+        55,
+        20,
+        9,
+        43,
+        29,
+        15,
+        14,
+        9,
+        11
+    ],
+    "login locations": [
+        [
+            -121.993543,
+            37.331374
+        ]
+    ],
+    "relationships": []
 }

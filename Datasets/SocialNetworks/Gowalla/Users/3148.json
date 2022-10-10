@@ -5,7 +5,27 @@
     "email": "mccoyjessica@gmail.com",
     "birthdate": "2012-03-21",
     "phone": "356.210.0776x1539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        60,
+        46,
+        51,
+        15,
+        10,
+        37,
+        9,
+        37,
+        28,
+        16,
+        64,
+        22,
+        2
+    ],
+    "login locations": [
+        [
+            -118.396017,
+            34.033051
+        ]
+    ],
+    "relationships": []
 }

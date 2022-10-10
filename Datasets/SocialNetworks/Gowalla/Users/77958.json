@@ -5,7 +5,16 @@
     "email": "stephanie67@hotmail.com",
     "birthdate": "1917-01-23",
     "phone": "530.774.0017x76102",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        54,
+        22
+    ],
+    "login locations": [
+        [
+            -122.36747,
+            37.780227
+        ]
+    ],
+    "relationships": []
 }

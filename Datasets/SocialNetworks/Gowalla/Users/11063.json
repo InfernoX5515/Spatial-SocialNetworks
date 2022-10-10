@@ -5,7 +5,16 @@
     "email": "kristen56@yahoo.com",
     "birthdate": "2006-09-13",
     "phone": "578.064.7912x92835",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        44,
+        35
+    ],
+    "login locations": [
+        [
+            -117.147859,
+            32.924569
+        ]
+    ],
+    "relationships": []
 }

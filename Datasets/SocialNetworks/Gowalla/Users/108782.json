@@ -5,7 +5,16 @@
     "email": "matthew38@hotmail.com",
     "birthdate": "1947-09-04",
     "phone": "(279)800-6333x186",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        44,
+        18
+    ],
+    "login locations": [
+        [
+            -119.02576,
+            35.35717
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "leslieblankenship@yahoo.com",
     "birthdate": "1984-03-12",
     "phone": "(497)398-4994x7316",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        14,
+        26,
+        33,
+        47,
+        71,
+        25,
+        55,
+        52,
+        74,
+        57,
+        15,
+        47
+    ],
+    "login locations": [
+        [
+            -118.465845,
+            34.033849
+        ]
+    ],
+    "relationships": []
 }

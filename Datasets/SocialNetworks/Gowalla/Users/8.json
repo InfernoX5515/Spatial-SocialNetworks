@@ -5,7 +5,29 @@
     "email": "timothy86@yahoo.com",
     "birthdate": "1980-10-16",
     "phone": "(015)755-5474",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        6,
+        60,
+        20,
+        69
+    ],
+    "login locations": [
+        [
+            -122.40568,
+            37.801563
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4227,
+                0.01
+            ],
+            [
+                53,
+                0.114035087719
+            ]
+        ]
+    ]
 }

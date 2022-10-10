@@ -5,7 +5,12 @@
     "email": "hernandezkarla@yahoo.com",
     "birthdate": "2021-01-24",
     "phone": "+1-130-095-6631x03254",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.826037,
+            36.67726
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "garrett10@gmail.com",
     "birthdate": "1907-03-20",
     "phone": "+1-133-608-3009x207",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        16,
+        66,
+        3,
+        73,
+        14,
+        35,
+        67,
+        59
+    ],
+    "login locations": [
+        [
+            -121.029674,
+            37.692532
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,35 @@
     "email": "markjackson@yahoo.com",
     "birthdate": "1925-08-25",
     "phone": "337-237-6172",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        49,
+        27,
+        48,
+        13,
+        58,
+        17,
+        16,
+        55,
+        13,
+        25
+    ],
+    "login locations": [
+        [
+            -118.338255,
+            34.050533
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39503,
+                0.0143369175627
+            ],
+            [
+                39503,
+                0.0143369175627
+            ]
+        ]
+    ]
 }

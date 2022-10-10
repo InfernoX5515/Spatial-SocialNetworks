@@ -5,7 +5,19 @@
     "email": "stephanie37@hotmail.com",
     "birthdate": "1951-10-03",
     "phone": "0920926393",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        48,
+        17,
+        67,
+        58,
+        70
+    ],
+    "login locations": [
+        [
+            -122.08834,
+            37.42434
+        ]
+    ],
+    "relationships": []
 }

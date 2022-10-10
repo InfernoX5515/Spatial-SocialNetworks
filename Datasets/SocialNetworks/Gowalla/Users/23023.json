@@ -5,7 +5,33 @@
     "email": "daniel12@gmail.com",
     "birthdate": "1937-05-17",
     "phone": "(139)305-3585x563",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        3,
+        6,
+        2,
+        73,
+        3,
+        1,
+        18,
+        52
+    ],
+    "login locations": [
+        [
+            -122.399106,
+            37.775426
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                114563,
+                0.0421052631579
+            ],
+            [
+                114563,
+                0.0421052631579
+            ]
+        ]
+    ]
 }

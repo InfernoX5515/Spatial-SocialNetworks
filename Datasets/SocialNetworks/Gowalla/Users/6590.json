@@ -5,7 +5,38 @@
     "email": "allenbeth@hotmail.com",
     "birthdate": "1976-05-12",
     "phone": "+1-661-182-2988x42611",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        10,
+        58,
+        74,
+        7,
+        19,
+        5,
+        59,
+        15,
+        75,
+        42,
+        69,
+        38,
+        20
+    ],
+    "login locations": [
+        [
+            -122.161052,
+            37.43852
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                599,
+                0.01
+            ],
+            [
+                6208,
+                0.01
+            ]
+        ]
+    ]
 }

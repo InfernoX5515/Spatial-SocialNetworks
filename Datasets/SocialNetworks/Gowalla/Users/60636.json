@@ -5,7 +5,24 @@
     "email": "mary17@hotmail.com",
     "birthdate": "1934-03-23",
     "phone": "769.502.8106x11074",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        22,
+        57,
+        65,
+        7,
+        1,
+        9,
+        50,
+        6,
+        13,
+        7
+    ],
+    "login locations": [
+        [
+            -118.395374,
+            33.962724
+        ]
+    ],
+    "relationships": []
 }

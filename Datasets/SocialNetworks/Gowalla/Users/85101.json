@@ -5,7 +5,24 @@
     "email": "xlambert@gmail.com",
     "birthdate": "1937-12-08",
     "phone": "177-814-2965x41539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        55,
+        43,
+        15,
+        46,
+        12,
+        60,
+        21,
+        20,
+        74,
+        48
+    ],
+    "login locations": [
+        [
+            -119.821859,
+            34.43523
+        ]
+    ],
+    "relationships": []
 }

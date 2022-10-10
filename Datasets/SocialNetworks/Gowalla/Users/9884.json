@@ -5,7 +5,24 @@
     "email": "jonesjamie@gmail.com",
     "birthdate": "1984-08-01",
     "phone": "(863)372-9597",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        16,
+        48,
+        39,
+        67,
+        61,
+        52,
+        34,
+        17,
+        40,
+        72
+    ],
+    "login locations": [
+        [
+            -117.726969,
+            33.549613
+        ]
+    ],
+    "relationships": []
 }

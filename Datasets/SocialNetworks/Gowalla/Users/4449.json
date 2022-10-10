@@ -5,7 +5,17 @@
     "email": "gracelandry@hotmail.com",
     "birthdate": "1921-09-21",
     "phone": "430.011.1163",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        10,
+        75,
+        49
+    ],
+    "login locations": [
+        [
+            -122.166548,
+            37.431474
+        ]
+    ],
+    "relationships": []
 }

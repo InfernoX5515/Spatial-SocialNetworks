@@ -5,7 +5,16 @@
     "email": "qbrady@hotmail.com",
     "birthdate": "1979-04-17",
     "phone": "(418)289-9158",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        13,
+        53
+    ],
+    "login locations": [
+        [
+            -122.410742,
+            37.778868
+        ]
+    ],
+    "relationships": []
 }

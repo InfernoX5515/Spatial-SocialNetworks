@@ -5,7 +5,27 @@
     "email": "caroline24@gmail.com",
     "birthdate": "1975-09-29",
     "phone": "967.757.3657",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        30,
+        8,
+        60,
+        61,
+        63,
+        23,
+        73,
+        27,
+        13,
+        70,
+        41,
+        44,
+        40
+    ],
+    "login locations": [
+        [
+            -122.391086,
+            37.780411
+        ]
+    ],
+    "relationships": []
 }

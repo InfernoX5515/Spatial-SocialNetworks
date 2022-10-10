@@ -5,7 +5,15 @@
     "email": "william41@yahoo.com",
     "birthdate": "1913-02-10",
     "phone": "(661)261-4559x51546",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        10
+    ],
+    "login locations": [
+        [
+            -118.323176,
+            33.91653
+        ]
+    ],
+    "relationships": []
 }

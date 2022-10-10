@@ -5,7 +5,23 @@
     "email": "nsmith@hotmail.com",
     "birthdate": "1972-11-19",
     "phone": "071.549.1144x33743",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        8,
+        13,
+        8,
+        2,
+        61,
+        40,
+        29,
+        29,
+        2
+    ],
+    "login locations": [
+        [
+            -122.535627,
+            37.901498
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "cramirez@hotmail.com",
     "birthdate": "1984-07-03",
     "phone": "(294)956-2645",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        61,
+        73,
+        52
+    ],
+    "login locations": [
+        [
+            -118.429066,
+            34.034392
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                48825,
+                0.01
+            ],
+            [
+                48825,
+                0.01
+            ]
+        ]
+    ]
 }

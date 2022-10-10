@@ -5,7 +5,25 @@
     "email": "lawrence07@gmail.com",
     "birthdate": "1924-11-06",
     "phone": "+1-181-687-5569x8807",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55
+    ],
+    "login locations": [
+        [
+            -122.406502,
+            37.77535
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6221,
+                0.01
+            ],
+            [
+                8706,
+                0.08
+            ]
+        ]
+    ]
 }

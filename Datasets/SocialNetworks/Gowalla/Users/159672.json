@@ -5,7 +5,25 @@
     "email": "ericarnold@gmail.com",
     "birthdate": "1960-03-14",
     "phone": "+1-526-595-6242x1423",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        1,
+        11,
+        65,
+        67,
+        43,
+        9,
+        66,
+        12,
+        66,
+        28,
+        33
+    ],
+    "login locations": [
+        [
+            -117.037503,
+            32.783555
+        ]
+    ],
+    "relationships": []
 }

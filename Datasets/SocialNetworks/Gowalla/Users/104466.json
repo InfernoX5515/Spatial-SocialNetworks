@@ -5,7 +5,14 @@
     "email": "dbarton@gmail.com",
     "birthdate": "1930-02-13",
     "phone": "+1-486-804-9768x984",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15
+    ],
+    "login locations": [
+        [
+            -118.377592,
+            33.889359
+        ]
+    ],
+    "relationships": []
 }

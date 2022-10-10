@@ -5,7 +5,20 @@
     "email": "fosterjoseph@gmail.com",
     "birthdate": "1997-02-21",
     "phone": "966.216.2320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        26,
+        10,
+        1,
+        39,
+        55,
+        35
+    ],
+    "login locations": [
+        [
+            -122.386861,
+            37.794297
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "mweber@yahoo.com",
     "birthdate": "1985-12-04",
     "phone": "001-362-460-9525x037",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        35,
+        33,
+        11,
+        59,
+        15
+    ],
+    "login locations": [
+        [
+            -122.288131,
+            37.783676
+        ]
+    ],
+    "relationships": []
 }

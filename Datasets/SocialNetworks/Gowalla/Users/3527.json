@@ -5,7 +5,25 @@
     "email": "eric74@yahoo.com",
     "birthdate": "2004-10-08",
     "phone": "001-338-207-6909x6865",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        27,
+        27,
+        29,
+        72,
+        13,
+        31,
+        8,
+        24,
+        35,
+        42,
+        46
+    ],
+    "login locations": [
+        [
+            -122.437984,
+            37.756888
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "uwillis@yahoo.com",
     "birthdate": "2021-02-02",
     "phone": "(636)531-9172",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        75,
+        61,
+        9,
+        38
+    ],
+    "login locations": [
+        [
+            -118.721303,
+            34.160506
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "jbell@gmail.com",
     "birthdate": "1954-07-24",
     "phone": "645-217-5394x64010",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        62,
+        33,
+        55,
+        15,
+        64,
+        24
+    ],
+    "login locations": [
+        [
+            -122.407283,
+            37.777453
+        ]
+    ],
+    "relationships": []
 }

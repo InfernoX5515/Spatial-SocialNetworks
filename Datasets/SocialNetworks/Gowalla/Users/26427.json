@@ -5,7 +5,27 @@
     "email": "stevensonjay@yahoo.com",
     "birthdate": "1960-11-01",
     "phone": "532-925-0970",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        33,
+        0,
+        0,
+        61,
+        46,
+        56,
+        2,
+        48,
+        30,
+        12,
+        65,
+        30,
+        36
+    ],
+    "login locations": [
+        [
+            -122.426739,
+            37.774355
+        ]
+    ],
+    "relationships": []
 }

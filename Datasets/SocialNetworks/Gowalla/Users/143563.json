@@ -5,7 +5,26 @@
     "email": "jasongarcia@hotmail.com",
     "birthdate": "1949-03-12",
     "phone": "098-177-0660x109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        4,
+        68,
+        28,
+        26,
+        42,
+        59,
+        20,
+        31,
+        39,
+        34,
+        26,
+        44
+    ],
+    "login locations": [
+        [
+            -118.426252,
+            34.252518
+        ]
+    ],
+    "relationships": []
 }

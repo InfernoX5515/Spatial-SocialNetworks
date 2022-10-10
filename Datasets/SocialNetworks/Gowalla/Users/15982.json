@@ -5,7 +5,28 @@
     "email": "alejandro54@hotmail.com",
     "birthdate": "1933-11-19",
     "phone": "001-802-373-9902x1696",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        54,
+        1,
+        27,
+        54,
+        21,
+        41,
+        39,
+        9,
+        11,
+        27,
+        6,
+        54,
+        29,
+        36
+    ],
+    "login locations": [
+        [
+            -121.836904,
+            37.947387
+        ]
+    ],
+    "relationships": []
 }

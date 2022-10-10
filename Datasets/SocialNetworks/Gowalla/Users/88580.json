@@ -5,7 +5,16 @@
     "email": "athomas@yahoo.com",
     "birthdate": "2000-01-24",
     "phone": "095.532.5392x09221",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        24,
+        51
+    ],
+    "login locations": [
+        [
+            -122.449995,
+            37.765402
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "cookbridget@yahoo.com",
     "birthdate": "1991-02-20",
     "phone": "277-335-7110",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        72,
+        46,
+        50,
+        32
+    ],
+    "login locations": [
+        [
+            -122.411029,
+            37.777292
+        ]
+    ],
+    "relationships": []
 }

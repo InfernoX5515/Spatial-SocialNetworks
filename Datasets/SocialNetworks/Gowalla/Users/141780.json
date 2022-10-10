@@ -5,7 +5,21 @@
     "email": "uramirez@hotmail.com",
     "birthdate": "1913-08-27",
     "phone": "777-561-6563x632",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        9,
+        72,
+        26,
+        13,
+        10,
+        11,
+        11
+    ],
+    "login locations": [
+        [
+            -118.441054,
+            34.033354
+        ]
+    ],
+    "relationships": []
 }

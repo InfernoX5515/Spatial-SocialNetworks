@@ -5,7 +5,12 @@
     "email": "patriciareynolds@hotmail.com",
     "birthdate": "1972-02-27",
     "phone": "917-388-5377x370",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.365493,
+            34.116807
+        ]
+    ],
+    "relationships": []
 }

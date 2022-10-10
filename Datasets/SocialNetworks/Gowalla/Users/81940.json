@@ -5,7 +5,25 @@
     "email": "stephen28@gmail.com",
     "birthdate": "1908-06-25",
     "phone": "(423)779-9117x56041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        67,
+        25,
+        0,
+        15,
+        16,
+        69,
+        24,
+        65,
+        8,
+        47,
+        63
+    ],
+    "login locations": [
+        [
+            -121.748357,
+            37.186164
+        ]
+    ],
+    "relationships": []
 }

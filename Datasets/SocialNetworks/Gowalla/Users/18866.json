@@ -5,7 +5,28 @@
     "email": "lsmith@yahoo.com",
     "birthdate": "1907-09-01",
     "phone": "0745068640",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        19,
+        56,
+        19,
+        37,
+        20,
+        60,
+        48,
+        50,
+        1,
+        69,
+        52,
+        57,
+        3,
+        43
+    ],
+    "login locations": [
+        [
+            -122.738148,
+            38.423604
+        ]
+    ],
+    "relationships": []
 }

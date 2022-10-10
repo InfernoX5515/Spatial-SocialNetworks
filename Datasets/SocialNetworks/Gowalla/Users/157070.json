@@ -5,7 +5,21 @@
     "email": "ryanmcgrath@yahoo.com",
     "birthdate": "2009-08-25",
     "phone": "290-251-9707x26385",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        48,
+        70,
+        37,
+        19,
+        46,
+        71,
+        31
+    ],
+    "login locations": [
+        [
+            -117.236806,
+            32.735591
+        ]
+    ],
+    "relationships": []
 }

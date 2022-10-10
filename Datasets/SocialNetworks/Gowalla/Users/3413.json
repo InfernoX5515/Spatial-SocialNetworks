@@ -5,7 +5,26 @@
     "email": "ricky54@gmail.com",
     "birthdate": "1909-03-20",
     "phone": "001-005-260-8193x8688",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        40,
+        60,
+        18,
+        31,
+        75,
+        9,
+        24,
+        24,
+        41,
+        29,
+        58,
+        30
+    ],
+    "login locations": [
+        [
+            -117.131109,
+            34.049298
+        ]
+    ],
+    "relationships": []
 }

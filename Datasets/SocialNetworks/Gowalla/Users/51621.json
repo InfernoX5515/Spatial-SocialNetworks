@@ -5,7 +5,23 @@
     "email": "dawn48@yahoo.com",
     "birthdate": "2022-01-05",
     "phone": "569-444-5393x89238",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        47,
+        39,
+        55,
+        57,
+        9,
+        6,
+        9,
+        49,
+        72
+    ],
+    "login locations": [
+        [
+            -118.408169,
+            34.030671
+        ]
+    ],
+    "relationships": []
 }

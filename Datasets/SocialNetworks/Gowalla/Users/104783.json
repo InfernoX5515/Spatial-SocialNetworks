@@ -5,7 +5,23 @@
     "email": "wgomez@gmail.com",
     "birthdate": "1925-10-08",
     "phone": "001-655-495-4835",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.387381,
+            38.580996
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                104777,
+                0.01
+            ],
+            [
+                104782,
+                0.0322580645161
+            ]
+        ]
+    ]
 }

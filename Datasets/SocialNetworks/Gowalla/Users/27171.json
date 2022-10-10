@@ -5,7 +5,20 @@
     "email": "millerwalter@yahoo.com",
     "birthdate": "2022-04-21",
     "phone": "907.228.5298",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        69,
+        25,
+        70,
+        74,
+        49,
+        40
+    ],
+    "login locations": [
+        [
+            -118.36148,
+            34.038222
+        ]
+    ],
+    "relationships": []
 }

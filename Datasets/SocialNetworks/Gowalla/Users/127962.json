@@ -5,7 +5,17 @@
     "email": "xwilliams@hotmail.com",
     "birthdate": "1929-05-04",
     "phone": "293-990-0818x62857",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        24,
+        48,
+        2
+    ],
+    "login locations": [
+        [
+            -118.281654,
+            34.069412
+        ]
+    ],
+    "relationships": []
 }

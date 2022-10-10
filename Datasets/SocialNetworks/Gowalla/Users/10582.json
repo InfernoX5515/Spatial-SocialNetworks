@@ -5,7 +5,20 @@
     "email": "eric44@yahoo.com",
     "birthdate": "1939-09-13",
     "phone": "666-492-3550",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        72,
+        16,
+        27,
+        46,
+        58,
+        10
+    ],
+    "login locations": [
+        [
+            -117.201395,
+            32.860551
+        ]
+    ],
+    "relationships": []
 }

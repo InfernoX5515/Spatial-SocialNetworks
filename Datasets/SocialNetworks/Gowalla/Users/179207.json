@@ -5,7 +5,19 @@
     "email": "asanchez@yahoo.com",
     "birthdate": "1932-03-15",
     "phone": "(553)916-3944x82884",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        41,
+        27,
+        69,
+        55,
+        64
+    ],
+    "login locations": [
+        [
+            -117.097846,
+            32.747472
+        ]
+    ],
+    "relationships": []
 }

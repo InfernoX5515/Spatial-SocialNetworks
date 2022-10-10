@@ -5,7 +5,15 @@
     "email": "benjamin17@hotmail.com",
     "birthdate": "1951-10-15",
     "phone": "(219)697-9729x5904",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        21
+    ],
+    "login locations": [
+        [
+            -118.437854,
+            34.149424
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,33 @@
     "email": "lrivera@gmail.com",
     "birthdate": "1909-03-13",
     "phone": "5900977330",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        39,
+        71,
+        7,
+        59,
+        54,
+        47,
+        16,
+        35
+    ],
+    "login locations": [
+        [
+            -121.983306,
+            37.733148
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                140636,
+                0.020942408377
+            ],
+            [
+                140638,
+                0.0212765957447
+            ]
+        ]
+    ]
 }

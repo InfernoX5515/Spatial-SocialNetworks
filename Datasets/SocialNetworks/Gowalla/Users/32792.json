@@ -5,7 +5,25 @@
     "email": "amandawaller@hotmail.com",
     "birthdate": "1947-02-09",
     "phone": "+1-588-798-4929x9850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        18,
+        48,
+        25,
+        50,
+        67,
+        61,
+        52,
+        23,
+        61,
+        21,
+        37
+    ],
+    "login locations": [
+        [
+            -118.368678,
+            34.070356
+        ]
+    ],
+    "relationships": []
 }

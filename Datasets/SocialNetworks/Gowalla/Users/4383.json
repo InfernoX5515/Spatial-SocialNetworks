@@ -5,7 +5,25 @@
     "email": "bpaul@gmail.com",
     "birthdate": "1913-01-02",
     "phone": "(615)805-7985x672",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43
+    ],
+    "login locations": [
+        [
+            -122.431687,
+            37.757509
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1454,
+                0.0133333333333
+            ],
+            [
+                1785,
+                0.01
+            ]
+        ]
+    ]
 }

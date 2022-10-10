@@ -5,7 +5,18 @@
     "email": "anthonyglass@yahoo.com",
     "birthdate": "2003-03-23",
     "phone": "524.734.7598x7949",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        48,
+        69,
+        66,
+        45
+    ],
+    "login locations": [
+        [
+            -118.101685,
+            33.842793
+        ]
+    ],
+    "relationships": []
 }

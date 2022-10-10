@@ -5,7 +5,20 @@
     "email": "iboyd@hotmail.com",
     "birthdate": "1953-11-05",
     "phone": "(761)224-1136",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        0,
+        42,
+        69,
+        71,
+        28,
+        27
+    ],
+    "login locations": [
+        [
+            -121.58773,
+            38.693131
+        ]
+    ],
+    "relationships": []
 }

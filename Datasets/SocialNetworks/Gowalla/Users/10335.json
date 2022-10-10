@@ -5,7 +5,24 @@
     "email": "rlee@gmail.com",
     "birthdate": "1937-07-20",
     "phone": "997.148.9775x920",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        1,
+        69,
+        55,
+        56,
+        68,
+        36,
+        68,
+        12,
+        50,
+        13
+    ],
+    "login locations": [
+        [
+            -121.946445,
+            37.322531
+        ]
+    ],
+    "relationships": []
 }

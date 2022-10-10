@@ -5,7 +5,28 @@
     "email": "guerrawhitney@yahoo.com",
     "birthdate": "1918-10-02",
     "phone": "+1-692-012-5539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        50,
+        36,
+        46,
+        10,
+        9,
+        17,
+        29,
+        3,
+        59,
+        32,
+        60,
+        9,
+        40,
+        5
+    ],
+    "login locations": [
+        [
+            -118.330584,
+            34.071812
+        ]
+    ],
+    "relationships": []
 }

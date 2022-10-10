@@ -5,7 +5,16 @@
     "email": "rioslindsey@gmail.com",
     "birthdate": "1913-02-08",
     "phone": "+1-913-897-8741x68774",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        43,
+        46
+    ],
+    "login locations": [
+        [
+            -118.427378,
+            33.935936
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "tjohnson@yahoo.com",
     "birthdate": "2001-06-23",
     "phone": "001-341-510-6350",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        58
+    ],
+    "login locations": [
+        [
+            -122.411017,
+            37.768003
+        ]
+    ],
+    "relationships": []
 }

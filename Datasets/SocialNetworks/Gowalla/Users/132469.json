@@ -5,7 +5,28 @@
     "email": "macdonaldolivia@gmail.com",
     "birthdate": "2003-10-20",
     "phone": "(738)962-4584",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        57,
+        13,
+        75
+    ],
+    "login locations": [
+        [
+            -118.257659,
+            34.081999
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39637,
+                0.160173160173
+            ],
+            [
+                39637,
+                0.160173160173
+            ]
+        ]
+    ]
 }

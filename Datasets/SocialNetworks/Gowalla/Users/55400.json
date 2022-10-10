@@ -5,7 +5,16 @@
     "email": "khartman@hotmail.com",
     "birthdate": "2001-03-18",
     "phone": "+1-038-215-7989x68754",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        2,
+        17
+    ],
+    "login locations": [
+        [
+            -117.079175,
+            32.725941
+        ]
+    ],
+    "relationships": []
 }

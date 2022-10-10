@@ -5,7 +5,17 @@
     "email": "mwiggins@gmail.com",
     "birthdate": "1967-06-25",
     "phone": "(519)004-1438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        58,
+        53,
+        16
+    ],
+    "login locations": [
+        [
+            -121.998655,
+            37.319854
+        ]
+    ],
+    "relationships": []
 }

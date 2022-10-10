@@ -5,7 +5,22 @@
     "email": "sallymartinez@yahoo.com",
     "birthdate": "1993-11-26",
     "phone": "001-766-293-0310x3772",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        66,
+        21,
+        9,
+        17,
+        73,
+        27,
+        9,
+        72
+    ],
+    "login locations": [
+        [
+            -116.265894,
+            33.72529
+        ]
+    ],
+    "relationships": []
 }

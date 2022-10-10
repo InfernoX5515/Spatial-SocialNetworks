@@ -5,7 +5,14 @@
     "email": "nwilson@yahoo.com",
     "birthdate": "1977-05-25",
     "phone": "(179)732-3817x56074",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -122.400295,
+            37.858993
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "zsmith@gmail.com",
     "birthdate": "1937-11-07",
     "phone": "0885606559",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26
+    ],
+    "login locations": [
+        [
+            -118.597365,
+            34.354585
+        ]
+    ],
+    "relationships": []
 }

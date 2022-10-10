@@ -5,7 +5,18 @@
     "email": "ushea@hotmail.com",
     "birthdate": "1942-02-18",
     "phone": "745.493.8519x35902",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        17,
+        75,
+        65,
+        34
+    ],
+    "login locations": [
+        [
+            -122.292834,
+            37.554957
+        ]
+    ],
+    "relationships": []
 }

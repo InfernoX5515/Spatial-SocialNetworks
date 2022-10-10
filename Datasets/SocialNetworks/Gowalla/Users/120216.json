@@ -5,7 +5,12 @@
     "email": "cassidy61@yahoo.com",
     "birthdate": "1951-07-19",
     "phone": "962.044.4609x292",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.150388,
+            34.123608
+        ]
+    ],
+    "relationships": []
 }

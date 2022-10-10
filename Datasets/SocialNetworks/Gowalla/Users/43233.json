@@ -5,7 +5,27 @@
     "email": "danielskristie@gmail.com",
     "birthdate": "1909-03-31",
     "phone": "599.645.9227x817",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        46,
+        55,
+        41,
+        74,
+        24,
+        6,
+        26,
+        36,
+        30,
+        28,
+        28,
+        33,
+        56
+    ],
+    "login locations": [
+        [
+            -121.268653,
+            38.753661
+        ]
+    ],
+    "relationships": []
 }

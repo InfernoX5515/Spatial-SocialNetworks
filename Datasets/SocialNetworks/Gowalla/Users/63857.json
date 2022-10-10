@@ -5,7 +5,16 @@
     "email": "vcampbell@hotmail.com",
     "birthdate": "1989-08-16",
     "phone": "162-234-7192x91377",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        51,
+        29
+    ],
+    "login locations": [
+        [
+            -117.134634,
+            32.894829
+        ]
+    ],
+    "relationships": []
 }

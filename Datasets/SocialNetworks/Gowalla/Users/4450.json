@@ -5,7 +5,27 @@
     "email": "kellie53@hotmail.com",
     "birthdate": "1979-09-15",
     "phone": "(280)918-0678x71282",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        23,
+        51,
+        39,
+        3,
+        49,
+        34,
+        6,
+        59,
+        32,
+        6,
+        19,
+        47,
+        30
+    ],
+    "login locations": [
+        [
+            -122.16501,
+            37.362359
+        ]
+    ],
+    "relationships": []
 }

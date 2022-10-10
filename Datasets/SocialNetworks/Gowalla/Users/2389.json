@@ -5,7 +5,28 @@
     "email": "elizabeth17@yahoo.com",
     "birthdate": "1985-09-20",
     "phone": "+1-666-348-8359x335",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        24,
+        54,
+        75
+    ],
+    "login locations": [
+        [
+            -118.420441,
+            34.052129
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63980,
+                0.03125
+            ],
+            [
+                63980,
+                0.03125
+            ]
+        ]
+    ]
 }

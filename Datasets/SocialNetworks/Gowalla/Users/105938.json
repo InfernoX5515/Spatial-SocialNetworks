@@ -5,7 +5,25 @@
     "email": "heatheredwards@yahoo.com",
     "birthdate": "1969-02-24",
     "phone": "651-648-8797x0762",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        38,
+        56,
+        9,
+        28,
+        41,
+        41,
+        63,
+        7,
+        32,
+        68,
+        58
+    ],
+    "login locations": [
+        [
+            -118.670982,
+            34.214062
+        ]
+    ],
+    "relationships": []
 }

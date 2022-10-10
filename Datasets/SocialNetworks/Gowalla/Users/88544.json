@@ -5,7 +5,18 @@
     "email": "qjohnson@yahoo.com",
     "birthdate": "1945-09-12",
     "phone": "+1-383-915-0339x2615",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        55,
+        47,
+        9,
+        49
+    ],
+    "login locations": [
+        [
+            -121.102662,
+            38.891826
+        ]
+    ],
+    "relationships": []
 }

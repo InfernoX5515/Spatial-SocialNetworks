@@ -5,7 +5,12 @@
     "email": "daydrew@hotmail.com",
     "birthdate": "1942-08-31",
     "phone": "001-484-953-5408x643",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.072033,
+            33.874631
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "turnerandrew@yahoo.com",
     "birthdate": "1990-04-23",
     "phone": "764-199-6283x6733",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        21,
+        49,
+        0,
+        60
+    ],
+    "login locations": [
+        [
+            -122.085907,
+            37.388129
+        ]
+    ],
+    "relationships": []
 }

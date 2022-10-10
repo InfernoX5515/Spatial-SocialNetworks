@@ -5,7 +5,24 @@
     "email": "frymarie@gmail.com",
     "birthdate": "1939-10-20",
     "phone": "343-344-3464x01829",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        39,
+        40,
+        63,
+        59,
+        64,
+        27,
+        16,
+        60,
+        15,
+        53
+    ],
+    "login locations": [
+        [
+            -121.981888,
+            37.346115
+        ]
+    ],
+    "relationships": []
 }

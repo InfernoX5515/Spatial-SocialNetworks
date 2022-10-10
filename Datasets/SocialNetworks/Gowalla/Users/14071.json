@@ -5,7 +5,20 @@
     "email": "maryle@yahoo.com",
     "birthdate": "1977-12-30",
     "phone": "454-371-7842x1400",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        28,
+        65,
+        9,
+        0,
+        62,
+        70
+    ],
+    "login locations": [
+        [
+            -122.377249,
+            37.666473
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "jillgregory@hotmail.com",
     "birthdate": "1971-05-07",
     "phone": "527-616-1027x5514",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        41,
+        74,
+        2,
+        72
+    ],
+    "login locations": [
+        [
+            -122.390356,
+            37.611563
+        ]
+    ],
+    "relationships": []
 }

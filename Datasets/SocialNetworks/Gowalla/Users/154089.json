@@ -5,7 +5,26 @@
     "email": "welchbenjamin@hotmail.com",
     "birthdate": "1994-02-21",
     "phone": "(713)410-2054x3691",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        20,
+        26,
+        42,
+        41,
+        33,
+        4,
+        16,
+        0,
+        71,
+        25,
+        16,
+        11
+    ],
+    "login locations": [
+        [
+            -118.611025,
+            34.176506
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "joshuawebster@hotmail.com",
     "birthdate": "1925-04-25",
     "phone": "(596)218-2271",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        49,
+        68,
+        63,
+        49,
+        64,
+        9,
+        12
+    ],
+    "login locations": [
+        [
+            -121.977837,
+            37.289154
+        ]
+    ],
+    "relationships": []
 }

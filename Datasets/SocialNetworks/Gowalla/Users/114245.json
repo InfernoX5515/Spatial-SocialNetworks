@@ -5,7 +5,16 @@
     "email": "jharris@gmail.com",
     "birthdate": "1927-05-17",
     "phone": "1916010604",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        42,
+        66
+    ],
+    "login locations": [
+        [
+            -122.406643,
+            37.759761
+        ]
+    ],
+    "relationships": []
 }

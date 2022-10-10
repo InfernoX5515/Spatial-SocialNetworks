@@ -5,7 +5,18 @@
     "email": "jasonschneider@yahoo.com",
     "birthdate": "2009-03-13",
     "phone": "441.845.2126",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        25,
+        68,
+        48,
+        64
+    ],
+    "login locations": [
+        [
+            -122.129698,
+            37.401648
+        ]
+    ],
+    "relationships": []
 }

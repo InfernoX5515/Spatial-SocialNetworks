@@ -5,7 +5,36 @@
     "email": "villegasmonique@gmail.com",
     "birthdate": "1946-12-27",
     "phone": "001-574-635-8704",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        3,
+        0,
+        26,
+        52,
+        8,
+        63,
+        52,
+        47,
+        27,
+        32,
+        58
+    ],
+    "login locations": [
+        [
+            -122.41693,
+            37.767047
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                83718,
+                0.078125
+            ],
+            [
+                83718,
+                0.078125
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,20 @@
     "email": "jody03@gmail.com",
     "birthdate": "1962-10-14",
     "phone": "(278)811-2309",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        64,
+        57,
+        24,
+        8,
+        61,
+        54
+    ],
+    "login locations": [
+        [
+            -118.353741,
+            34.035016
+        ]
+    ],
+    "relationships": []
 }

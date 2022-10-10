@@ -5,7 +5,12 @@
     "email": "jeremyhunter@yahoo.com",
     "birthdate": "1958-07-19",
     "phone": "7268990461",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.185191,
+            32.870676
+        ]
+    ],
+    "relationships": []
 }

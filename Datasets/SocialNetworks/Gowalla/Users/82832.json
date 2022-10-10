@@ -5,7 +5,38 @@
     "email": "brownadam@hotmail.com",
     "birthdate": "1953-07-14",
     "phone": "523-926-1103x4749",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        73,
+        65,
+        65,
+        62,
+        23,
+        50,
+        74,
+        72,
+        21,
+        68,
+        43,
+        63,
+        10
+    ],
+    "login locations": [
+        [
+            -122.422696,
+            37.764924
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82831,
+                0.96
+            ],
+            [
+                82831,
+                0.96
+            ]
+        ]
+    ]
 }

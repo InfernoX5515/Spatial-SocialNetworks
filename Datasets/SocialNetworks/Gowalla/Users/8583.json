@@ -5,7 +5,25 @@
     "email": "aprilrollins@gmail.com",
     "birthdate": "1942-08-23",
     "phone": "171.465.0734",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45
+    ],
+    "login locations": [
+        [
+            -122.164446,
+            37.431194
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                355,
+                0.0145454545455
+            ],
+            [
+                4244,
+                0.0384615384615
+            ]
+        ]
+    ]
 }

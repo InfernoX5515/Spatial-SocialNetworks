@@ -5,7 +5,15 @@
     "email": "keaton@hotmail.com",
     "birthdate": "1943-04-23",
     "phone": "(960)196-4880",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        46
+    ],
+    "login locations": [
+        [
+            -117.791789,
+            34.07776
+        ]
+    ],
+    "relationships": []
 }

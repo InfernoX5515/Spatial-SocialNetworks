@@ -5,7 +5,21 @@
     "email": "joneslisa@hotmail.com",
     "birthdate": "1994-09-10",
     "phone": "096.676.8238x80674",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        60,
+        59,
+        23,
+        10,
+        22,
+        29,
+        14
+    ],
+    "login locations": [
+        [
+            -122.546069,
+            38.036104
+        ]
+    ],
+    "relationships": []
 }

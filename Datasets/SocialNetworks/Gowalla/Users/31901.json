@@ -5,7 +5,16 @@
     "email": "turnerjohn@hotmail.com",
     "birthdate": "1920-08-20",
     "phone": "691.625.8571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        51,
+        48
+    ],
+    "login locations": [
+        [
+            -118.169634,
+            33.975452
+        ]
+    ],
+    "relationships": []
 }

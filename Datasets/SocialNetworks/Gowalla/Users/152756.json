@@ -5,7 +5,21 @@
     "email": "moralesruben@gmail.com",
     "birthdate": "1939-08-15",
     "phone": "(352)600-6465x8537",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        59,
+        5,
+        10,
+        10,
+        4,
+        8,
+        37
+    ],
+    "login locations": [
+        [
+            -118.419574,
+            34.011072
+        ]
+    ],
+    "relationships": []
 }

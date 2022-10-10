@@ -5,7 +5,37 @@
     "email": "bmorgan@yahoo.com",
     "birthdate": "1990-11-20",
     "phone": "+1-616-120-2195",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        36,
+        38,
+        71,
+        45,
+        35,
+        17,
+        66,
+        28,
+        13,
+        43,
+        9,
+        50
+    ],
+    "login locations": [
+        [
+            -117.232811,
+            32.817383
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33197,
+                0.02
+            ],
+            [
+                33197,
+                0.02
+            ]
+        ]
+    ]
 }

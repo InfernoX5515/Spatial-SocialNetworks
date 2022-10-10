@@ -5,7 +5,21 @@
     "email": "justinsmith@gmail.com",
     "birthdate": "1967-11-12",
     "phone": "+1-089-529-3994x1601",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        19,
+        15,
+        5,
+        46,
+        4,
+        15,
+        35
+    ],
+    "login locations": [
+        [
+            -121.411474,
+            38.617592
+        ]
+    ],
+    "relationships": []
 }

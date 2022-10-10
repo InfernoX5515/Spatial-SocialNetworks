@@ -5,7 +5,17 @@
     "email": "jacobrodriguez@hotmail.com",
     "birthdate": "1942-06-03",
     "phone": "944.410.1575",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        56,
+        7,
+        24
+    ],
+    "login locations": [
+        [
+            -122.406224,
+            37.760204
+        ]
+    ],
+    "relationships": []
 }

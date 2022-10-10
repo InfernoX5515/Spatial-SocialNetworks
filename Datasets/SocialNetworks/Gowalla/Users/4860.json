@@ -5,7 +5,16 @@
     "email": "obrienmatthew@hotmail.com",
     "birthdate": "1911-05-21",
     "phone": "873.109.8590",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        5,
+        5
+    ],
+    "login locations": [
+        [
+            -118.03096,
+            33.768239
+        ]
+    ],
+    "relationships": []
 }

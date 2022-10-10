@@ -5,7 +5,16 @@
     "email": "ibrown@yahoo.com",
     "birthdate": "1931-01-04",
     "phone": "(477)267-9690",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        59,
+        52
+    ],
+    "login locations": [
+        [
+            -119.340065,
+            36.264318
+        ]
+    ],
+    "relationships": []
 }

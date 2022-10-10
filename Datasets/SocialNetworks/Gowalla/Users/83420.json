@@ -5,7 +5,25 @@
     "email": "reyeschristopher@yahoo.com",
     "birthdate": "1954-09-01",
     "phone": "101.775.5599x87086",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        17,
+        37,
+        64,
+        57,
+        44,
+        42,
+        41,
+        47,
+        58,
+        31,
+        59
+    ],
+    "login locations": [
+        [
+            -122.217626,
+            37.826185
+        ]
+    ],
+    "relationships": []
 }

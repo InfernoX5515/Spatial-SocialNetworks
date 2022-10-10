@@ -5,7 +5,31 @@
     "email": "rsims@hotmail.com",
     "birthdate": "1909-07-27",
     "phone": "357.241.5325",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        17,
+        48,
+        6,
+        32,
+        17,
+        0
+    ],
+    "login locations": [
+        [
+            -121.939174,
+            37.300726
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118883,
+                0.01
+            ],
+            [
+                118883,
+                0.01
+            ]
+        ]
+    ]
 }

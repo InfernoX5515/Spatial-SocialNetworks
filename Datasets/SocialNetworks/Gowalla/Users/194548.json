@@ -5,7 +5,27 @@
     "email": "michellehayden@gmail.com",
     "birthdate": "2015-05-23",
     "phone": "+1-715-458-1994x3607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        5,
+        54,
+        5,
+        52,
+        74,
+        36,
+        46,
+        74,
+        9,
+        71,
+        70,
+        11,
+        66
+    ],
+    "login locations": [
+        [
+            -117.884751,
+            33.939701
+        ]
+    ],
+    "relationships": []
 }

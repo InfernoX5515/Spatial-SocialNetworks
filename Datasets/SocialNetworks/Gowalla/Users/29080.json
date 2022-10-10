@@ -5,7 +5,21 @@
     "email": "matthewedwards@hotmail.com",
     "birthdate": "2003-11-05",
     "phone": "609-423-8855x83313",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        51,
+        65,
+        61,
+        39,
+        28,
+        40,
+        20
+    ],
+    "login locations": [
+        [
+            -122.403978,
+            37.787952
+        ]
+    ],
+    "relationships": []
 }

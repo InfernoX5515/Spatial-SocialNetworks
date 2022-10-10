@@ -5,7 +5,22 @@
     "email": "suzannegallegos@hotmail.com",
     "birthdate": "1964-08-07",
     "phone": "(069)824-9089x8075",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        50,
+        58,
+        75,
+        59,
+        15,
+        52,
+        36,
+        14
+    ],
+    "login locations": [
+        [
+            -118.428235,
+            33.995667
+        ]
+    ],
+    "relationships": []
 }

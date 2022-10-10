@@ -5,7 +5,37 @@
     "email": "zjackson@hotmail.com",
     "birthdate": "1996-08-08",
     "phone": "579.943.1879x9960",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        57,
+        17,
+        13,
+        75,
+        5,
+        42,
+        2,
+        17,
+        29,
+        42,
+        4,
+        63
+    ],
+    "login locations": [
+        [
+            -117.928424,
+            33.779871
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6221,
+                0.01
+            ],
+            [
+                6221,
+                0.01
+            ]
+        ]
+    ]
 }

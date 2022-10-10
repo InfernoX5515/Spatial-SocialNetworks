@@ -5,7 +5,12 @@
     "email": "fmosley@yahoo.com",
     "birthdate": "1912-03-08",
     "phone": "7694395885",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.411052,
+            37.78008
+        ]
+    ],
+    "relationships": []
 }

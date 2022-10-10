@@ -5,7 +5,20 @@
     "email": "msolis@yahoo.com",
     "birthdate": "1977-05-14",
     "phone": "(805)709-9477",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        64,
+        52,
+        24,
+        67,
+        55,
+        4
+    ],
+    "login locations": [
+        [
+            -118.005342,
+            33.788205
+        ]
+    ],
+    "relationships": []
 }

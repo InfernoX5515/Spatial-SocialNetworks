@@ -5,7 +5,21 @@
     "email": "shawphillip@hotmail.com",
     "birthdate": "1949-04-09",
     "phone": "001-941-648-9871x51362",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        7,
+        45,
+        50,
+        74,
+        16,
+        43,
+        41
+    ],
+    "login locations": [
+        [
+            -119.773835,
+            36.824085
+        ]
+    ],
+    "relationships": []
 }

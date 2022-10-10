@@ -5,7 +5,18 @@
     "email": "careydaniel@gmail.com",
     "birthdate": "1934-09-30",
     "phone": "(946)217-0700",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        46,
+        45,
+        63,
+        18
+    ],
+    "login locations": [
+        [
+            -117.950936,
+            33.876955
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "bmontgomery@yahoo.com",
     "birthdate": "1927-11-01",
     "phone": "(471)858-8388",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        17,
+        58,
+        6,
+        51
+    ],
+    "login locations": [
+        [
+            -117.950805,
+            33.71523
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "tatejesse@yahoo.com",
     "birthdate": "1934-02-21",
     "phone": "333.749.1632x172",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.404554,
+            37.724661
+        ]
+    ],
+    "relationships": []
 }

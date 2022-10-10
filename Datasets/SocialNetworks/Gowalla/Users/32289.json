@@ -5,7 +5,12 @@
     "email": "lhall@yahoo.com",
     "birthdate": "2014-01-16",
     "phone": "537.747.7485x4306",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.968922,
+            38.020067
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,32 @@
     "email": "lparker@hotmail.com",
     "birthdate": "1909-05-21",
     "phone": "105-455-9199",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        27,
+        70,
+        60,
+        28,
+        5,
+        1,
+        5
+    ],
+    "login locations": [
+        [
+            -118.047597,
+            33.899965
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2133,
+                0.032967032967
+            ],
+            [
+                55387,
+                0.125
+            ]
+        ]
+    ]
 }

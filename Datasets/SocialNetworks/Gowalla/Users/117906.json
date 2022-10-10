@@ -5,7 +5,26 @@
     "email": "susanfry@gmail.com",
     "birthdate": "1941-09-03",
     "phone": "001-899-454-7638x755",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        19,
+        63,
+        53,
+        72,
+        33,
+        51,
+        11,
+        38,
+        50,
+        22,
+        0,
+        43
+    ],
+    "login locations": [
+        [
+            -117.187903,
+            32.756883
+        ]
+    ],
+    "relationships": []
 }

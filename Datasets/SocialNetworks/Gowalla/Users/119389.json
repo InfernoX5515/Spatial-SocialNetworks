@@ -5,7 +5,14 @@
     "email": "dominique40@gmail.com",
     "birthdate": "1941-11-11",
     "phone": "236.784.0669",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10
+    ],
+    "login locations": [
+        [
+            -118.464956,
+            33.999741
+        ]
+    ],
+    "relationships": []
 }

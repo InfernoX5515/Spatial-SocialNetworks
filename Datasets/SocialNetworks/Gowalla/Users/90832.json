@@ -5,7 +5,23 @@
     "email": "ishelton@hotmail.com",
     "birthdate": "1922-01-14",
     "phone": "189-185-1093",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        13,
+        58,
+        74,
+        57,
+        27,
+        58,
+        0,
+        44,
+        42
+    ],
+    "login locations": [
+        [
+            -118.256905,
+            34.073371
+        ]
+    ],
+    "relationships": []
 }

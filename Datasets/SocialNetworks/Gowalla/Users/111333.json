@@ -5,7 +5,12 @@
     "email": "ehenry@hotmail.com",
     "birthdate": "1997-01-10",
     "phone": "001-324-706-3530x7378",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.908169,
+            34.103865
+        ]
+    ],
+    "relationships": []
 }

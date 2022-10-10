@@ -5,7 +5,16 @@
     "email": "kayladavis@hotmail.com",
     "birthdate": "1970-04-12",
     "phone": "(063)555-0391x1909",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        69,
+        12
+    ],
+    "login locations": [
+        [
+            -117.944461,
+            33.817616
+        ]
+    ],
+    "relationships": []
 }

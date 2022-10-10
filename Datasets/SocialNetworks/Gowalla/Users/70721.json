@@ -5,7 +5,14 @@
     "email": "taylorlisa@hotmail.com",
     "birthdate": "1977-06-15",
     "phone": "(291)667-9577x77037",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21
+    ],
+    "login locations": [
+        [
+            -122.409888,
+            37.776738
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "steven53@gmail.com",
     "birthdate": "1969-07-16",
     "phone": "001-972-286-9746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        53,
+        69,
+        8,
+        55
+    ],
+    "login locations": [
+        [
+            -121.975567,
+            37.416008
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "ramirezedgar@hotmail.com",
     "birthdate": "1947-08-29",
     "phone": "7632737076",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        72,
+        61,
+        39,
+        9,
+        60,
+        10,
+        65,
+        12
+    ],
+    "login locations": [
+        [
+            -122.099455,
+            37.3946
+        ]
+    ],
+    "relationships": []
 }

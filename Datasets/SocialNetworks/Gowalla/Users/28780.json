@@ -5,7 +5,19 @@
     "email": "burnsrebecca@yahoo.com",
     "birthdate": "1926-12-27",
     "phone": "207-656-0890",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        13,
+        25,
+        18,
+        29,
+        70
+    ],
+    "login locations": [
+        [
+            -122.182084,
+            37.454134
+        ]
+    ],
+    "relationships": []
 }

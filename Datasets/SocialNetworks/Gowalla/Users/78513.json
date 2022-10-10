@@ -5,7 +5,21 @@
     "email": "bstephens@yahoo.com",
     "birthdate": "1910-04-13",
     "phone": "001-273-879-8166x159",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        16,
+        24,
+        11,
+        41,
+        71,
+        23,
+        10
+    ],
+    "login locations": [
+        [
+            -122.431684,
+            37.749719
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "yford@yahoo.com",
     "birthdate": "1936-11-10",
     "phone": "235.846.3154x5438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        65,
+        11,
+        4,
+        12,
+        51,
+        39,
+        29,
+        14,
+        56
+    ],
+    "login locations": [
+        [
+            -122.256064,
+            37.786085
+        ]
+    ],
+    "relationships": []
 }

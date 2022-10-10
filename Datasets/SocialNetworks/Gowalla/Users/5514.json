@@ -5,7 +5,24 @@
     "email": "kmorris@gmail.com",
     "birthdate": "1986-07-04",
     "phone": "+1-939-187-2679x1834",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        39,
+        75,
+        20,
+        19,
+        31,
+        41,
+        54,
+        65,
+        33,
+        47
+    ],
+    "login locations": [
+        [
+            -122.421058,
+            37.766732
+        ]
+    ],
+    "relationships": []
 }

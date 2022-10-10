@@ -5,7 +5,26 @@
     "email": "amorrison@yahoo.com",
     "birthdate": "1969-07-23",
     "phone": "001-991-880-7143",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        62,
+        5,
+        30,
+        74,
+        10,
+        8,
+        1,
+        40,
+        63,
+        4,
+        40,
+        1
+    ],
+    "login locations": [
+        [
+            -118.426522,
+            34.060034
+        ]
+    ],
+    "relationships": []
 }

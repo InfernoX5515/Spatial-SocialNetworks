@@ -5,7 +5,17 @@
     "email": "sarahthompson@yahoo.com",
     "birthdate": "1965-09-25",
     "phone": "146.691.7028x652",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        62,
+        62,
+        70
+    ],
+    "login locations": [
+        [
+            -122.406034,
+            37.766996
+        ]
+    ],
+    "relationships": []
 }

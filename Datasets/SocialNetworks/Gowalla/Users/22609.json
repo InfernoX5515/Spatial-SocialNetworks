@@ -5,7 +5,34 @@
     "email": "shorn@gmail.com",
     "birthdate": "1943-12-08",
     "phone": "001-874-954-6179x607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        30,
+        6,
+        74,
+        24,
+        51,
+        49,
+        50,
+        43,
+        68
+    ],
+    "login locations": [
+        [
+            -122.410518,
+            37.719345
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.01
+            ],
+            [
+                268,
+                0.01
+            ]
+        ]
+    ]
 }

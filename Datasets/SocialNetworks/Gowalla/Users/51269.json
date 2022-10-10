@@ -5,7 +5,15 @@
     "email": "mitchellbill@hotmail.com",
     "birthdate": "1909-12-08",
     "phone": "836-562-8483",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        29
+    ],
+    "login locations": [
+        [
+            -122.404048,
+            37.792748
+        ]
+    ],
+    "relationships": []
 }

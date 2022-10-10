@@ -5,7 +5,18 @@
     "email": "eguzman@gmail.com",
     "birthdate": "1982-01-18",
     "phone": "(086)314-1774x66337",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        69,
+        74,
+        32,
+        36
+    ],
+    "login locations": [
+        [
+            -122.41538,
+            37.774734
+        ]
+    ],
+    "relationships": []
 }

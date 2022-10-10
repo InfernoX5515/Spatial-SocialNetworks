@@ -5,7 +5,28 @@
     "email": "warrenjeremy@yahoo.com",
     "birthdate": "1984-01-03",
     "phone": "(427)420-6067",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        7,
+        37,
+        51
+    ],
+    "login locations": [
+        [
+            -119.039467,
+            35.358693
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                100413,
+                0.407407407407
+            ],
+            [
+                100417,
+                0.311111111111
+            ]
+        ]
+    ]
 }

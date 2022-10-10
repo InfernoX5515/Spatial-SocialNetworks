@@ -5,7 +5,27 @@
     "email": "heather47@hotmail.com",
     "birthdate": "1910-02-26",
     "phone": "001-877-998-2646x78879",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        68,
+        36,
+        73,
+        55,
+        32,
+        35,
+        30,
+        13,
+        43,
+        45,
+        45,
+        23,
+        12
+    ],
+    "login locations": [
+        [
+            -117.900663,
+            33.771651
+        ]
+    ],
+    "relationships": []
 }

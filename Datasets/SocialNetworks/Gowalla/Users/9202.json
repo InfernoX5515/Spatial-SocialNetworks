@@ -5,7 +5,38 @@
     "email": "nicholas75@hotmail.com",
     "birthdate": "1976-07-07",
     "phone": "215-873-6071x40451",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        58,
+        65,
+        40,
+        39,
+        0,
+        74,
+        10,
+        41,
+        53,
+        48,
+        34,
+        21,
+        31
+    ],
+    "login locations": [
+        [
+            -122.439923,
+            37.748007
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1409,
+                0.0133333333333
+            ],
+            [
+                4399,
+                0.01
+            ]
+        ]
+    ]
 }

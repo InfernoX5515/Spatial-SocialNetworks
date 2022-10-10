@@ -5,7 +5,25 @@
     "email": "delacruzdaniel@yahoo.com",
     "birthdate": "1916-01-02",
     "phone": "(104)195-6571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        15,
+        34,
+        44,
+        45,
+        14,
+        25,
+        73,
+        45,
+        62,
+        24,
+        15
+    ],
+    "login locations": [
+        [
+            -122.293608,
+            37.828598
+        ]
+    ],
+    "relationships": []
 }

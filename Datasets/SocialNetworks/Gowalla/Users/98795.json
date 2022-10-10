@@ -5,7 +5,14 @@
     "email": "youngkristin@hotmail.com",
     "birthdate": "1945-09-05",
     "phone": "827.410.4342x4244",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6
+    ],
+    "login locations": [
+        [
+            -118.093507,
+            34.038358
+        ]
+    ],
+    "relationships": []
 }

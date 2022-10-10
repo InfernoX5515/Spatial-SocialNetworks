@@ -5,7 +5,22 @@
     "email": "burnsjohn@gmail.com",
     "birthdate": "2004-12-30",
     "phone": "(811)809-8830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        18,
+        54,
+        74,
+        22,
+        38,
+        73,
+        64,
+        22
+    ],
+    "login locations": [
+        [
+            -122.413078,
+            37.785108
+        ]
+    ],
+    "relationships": []
 }

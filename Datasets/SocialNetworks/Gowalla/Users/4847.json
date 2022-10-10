@@ -5,7 +5,17 @@
     "email": "brooke76@gmail.com",
     "birthdate": "1933-02-09",
     "phone": "+1-288-157-0781",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        39,
+        28,
+        56
+    ],
+    "login locations": [
+        [
+            -117.155253,
+            32.722259
+        ]
+    ],
+    "relationships": []
 }

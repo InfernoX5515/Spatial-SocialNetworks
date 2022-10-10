@@ -5,7 +5,39 @@
     "email": "jlewis@gmail.com",
     "birthdate": "1949-03-18",
     "phone": "996.114.3347",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        8,
+        48,
+        9,
+        3,
+        63,
+        13,
+        16,
+        59,
+        29,
+        18,
+        9,
+        50,
+        54,
+        36
+    ],
+    "login locations": [
+        [
+            -121.140207,
+            38.701628
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22787,
+                0.0434782608696
+            ],
+            [
+                38229,
+                0.01
+            ]
+        ]
+    ]
 }

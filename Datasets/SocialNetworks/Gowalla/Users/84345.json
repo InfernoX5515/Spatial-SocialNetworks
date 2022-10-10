@@ -5,7 +5,34 @@
     "email": "christopher57@hotmail.com",
     "birthdate": "1947-10-26",
     "phone": "365.883.0572x9350",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        56,
+        0,
+        48,
+        53,
+        37,
+        5,
+        45,
+        75,
+        23
+    ],
+    "login locations": [
+        [
+            -122.082805,
+            37.38775
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8589,
+                0.024
+            ],
+            [
+                8589,
+                0.024
+            ]
+        ]
+    ]
 }

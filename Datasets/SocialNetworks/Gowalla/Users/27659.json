@@ -5,7 +5,23 @@
     "email": "heidi75@gmail.com",
     "birthdate": "1986-09-14",
     "phone": "001-576-917-5391x0917",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.351551,
+            34.027797
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                102263,
+                0.454545454545
+            ],
+            [
+                102263,
+                0.454545454545
+            ]
+        ]
+    ]
 }

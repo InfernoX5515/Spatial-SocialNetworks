@@ -5,7 +5,16 @@
     "email": "smithtina@gmail.com",
     "birthdate": "1945-07-01",
     "phone": "+1-334-950-4041x1304",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        13,
+        14
+    ],
+    "login locations": [
+        [
+            -122.42605,
+            37.768297
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "morganjacqueline@hotmail.com",
     "birthdate": "1987-09-28",
     "phone": "834.338.6839x21965",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        63,
+        67,
+        32,
+        49,
+        27,
+        38,
+        72,
+        15,
+        74,
+        32,
+        20
+    ],
+    "login locations": [
+        [
+            -121.946606,
+            37.357485
+        ]
+    ],
+    "relationships": []
 }

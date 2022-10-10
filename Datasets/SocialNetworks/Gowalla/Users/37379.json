@@ -5,7 +5,23 @@
     "email": "lawrence26@gmail.com",
     "birthdate": "1926-04-12",
     "phone": "001-973-983-0201",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        24,
+        4,
+        52,
+        55,
+        14,
+        58,
+        32,
+        11,
+        72
+    ],
+    "login locations": [
+        [
+            -121.975862,
+            37.275935
+        ]
+    ],
+    "relationships": []
 }

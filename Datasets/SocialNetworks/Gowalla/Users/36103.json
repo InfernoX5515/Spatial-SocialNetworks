@@ -5,7 +5,24 @@
     "email": "brian96@hotmail.com",
     "birthdate": "1993-10-07",
     "phone": "136.365.7954",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        44,
+        27,
+        45,
+        35,
+        47,
+        2,
+        8,
+        20,
+        53,
+        59
+    ],
+    "login locations": [
+        [
+            -122.087177,
+            37.386944
+        ]
+    ],
+    "relationships": []
 }

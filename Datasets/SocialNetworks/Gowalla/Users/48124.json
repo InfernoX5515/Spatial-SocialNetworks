@@ -5,7 +5,31 @@
     "email": "brandi72@hotmail.com",
     "birthdate": "1960-04-28",
     "phone": "(539)023-5454x10857",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        37,
+        42,
+        25,
+        34,
+        39,
+        15
+    ],
+    "login locations": [
+        [
+            -118.31394,
+            34.077575
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10404,
+                0.201834862385
+            ],
+            [
+                10404,
+                0.201834862385
+            ]
+        ]
+    ]
 }

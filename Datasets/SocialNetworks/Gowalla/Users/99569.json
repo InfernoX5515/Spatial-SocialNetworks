@@ -5,7 +5,25 @@
     "email": "ppitts@gmail.com",
     "birthdate": "1972-09-11",
     "phone": "(062)841-3438x4841",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        51,
+        1,
+        56,
+        27,
+        4,
+        14,
+        19,
+        17,
+        14,
+        64,
+        18
+    ],
+    "login locations": [
+        [
+            -118.448694,
+            34.018756
+        ]
+    ],
+    "relationships": []
 }

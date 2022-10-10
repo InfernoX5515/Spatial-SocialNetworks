@@ -5,7 +5,39 @@
     "email": "nicholsondavid@hotmail.com",
     "birthdate": "1986-10-06",
     "phone": "866-124-5892x9182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        45,
+        43,
+        23,
+        44,
+        36,
+        71,
+        13,
+        7,
+        67,
+        47,
+        12,
+        12,
+        1,
+        31
+    ],
+    "login locations": [
+        [
+            -118.434049,
+            34.001089
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63066,
+                0.142857142857
+            ],
+            [
+                63066,
+                0.142857142857
+            ]
+        ]
+    ]
 }

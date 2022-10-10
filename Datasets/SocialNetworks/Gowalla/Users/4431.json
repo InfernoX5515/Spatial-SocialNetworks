@@ -5,7 +5,19 @@
     "email": "eolson@gmail.com",
     "birthdate": "1911-04-19",
     "phone": "(095)205-0426x2103",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        46,
+        3,
+        9,
+        67,
+        5
+    ],
+    "login locations": [
+        [
+            -122.159898,
+            37.436722
+        ]
+    ],
+    "relationships": []
 }

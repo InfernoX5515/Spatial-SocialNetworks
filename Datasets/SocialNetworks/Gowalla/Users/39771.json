@@ -5,7 +5,19 @@
     "email": "rhodesjenna@gmail.com",
     "birthdate": "1986-02-14",
     "phone": "+1-543-034-6345",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        62,
+        66,
+        24,
+        52,
+        67
+    ],
+    "login locations": [
+        [
+            -117.748123,
+            34.048913
+        ]
+    ],
+    "relationships": []
 }

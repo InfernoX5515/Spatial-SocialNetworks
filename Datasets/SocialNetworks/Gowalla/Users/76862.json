@@ -5,7 +5,28 @@
     "email": "ryan26@gmail.com",
     "birthdate": "1941-04-30",
     "phone": "(191)574-4961x7684",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        43,
+        47,
+        31,
+        46,
+        12,
+        34,
+        74,
+        32,
+        61,
+        30,
+        61,
+        61,
+        5,
+        38
+    ],
+    "login locations": [
+        [
+            -118.378086,
+            33.922232
+        ]
+    ],
+    "relationships": []
 }

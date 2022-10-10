@@ -5,7 +5,21 @@
     "email": "johnsonmeagan@hotmail.com",
     "birthdate": "1998-04-21",
     "phone": "(527)810-5846x953",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        44,
+        21,
+        17,
+        29,
+        22,
+        40,
+        60
+    ],
+    "login locations": [
+        [
+            -121.96839,
+            38.358946
+        ]
+    ],
+    "relationships": []
 }

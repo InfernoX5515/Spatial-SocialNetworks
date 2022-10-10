@@ -5,7 +5,29 @@
     "email": "ljohnson@hotmail.com",
     "birthdate": "2022-03-22",
     "phone": "0716686806",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        44,
+        24,
+        15,
+        46
+    ],
+    "login locations": [
+        [
+            -122.222783,
+            38.080699
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2170,
+                0.0196078431373
+            ],
+            [
+                2170,
+                0.0196078431373
+            ]
+        ]
+    ]
 }

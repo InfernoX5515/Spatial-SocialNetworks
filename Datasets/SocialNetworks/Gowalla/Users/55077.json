@@ -5,7 +5,39 @@
     "email": "darren29@hotmail.com",
     "birthdate": "1910-02-17",
     "phone": "018-980-8874x458",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        67,
+        66,
+        33,
+        22,
+        62,
+        14,
+        4,
+        13,
+        8,
+        64,
+        68,
+        61,
+        0,
+        53
+    ],
+    "login locations": [
+        [
+            -118.114845,
+            33.867343
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1655,
+                0.0133333333333
+            ],
+            [
+                8706,
+                0.04
+            ]
+        ]
+    ]
 }

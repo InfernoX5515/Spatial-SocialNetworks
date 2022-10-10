@@ -5,7 +5,22 @@
     "email": "john73@hotmail.com",
     "birthdate": "1962-05-06",
     "phone": "100-178-8648x95494",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        29,
+        17,
+        66,
+        73,
+        32,
+        40,
+        19,
+        56
+    ],
+    "login locations": [
+        [
+            -121.972608,
+            37.904216
+        ]
+    ],
+    "relationships": []
 }

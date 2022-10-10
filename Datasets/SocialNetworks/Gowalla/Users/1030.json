@@ -5,7 +5,23 @@
     "email": "jason03@hotmail.com",
     "birthdate": "1956-06-07",
     "phone": "(694)696-6996x7420",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        55,
+        50,
+        13,
+        47,
+        13,
+        63,
+        68,
+        24,
+        28
+    ],
+    "login locations": [
+        [
+            -118.295837,
+            33.954213
+        ]
+    ],
+    "relationships": []
 }

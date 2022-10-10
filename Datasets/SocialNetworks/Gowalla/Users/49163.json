@@ -5,7 +5,17 @@
     "email": "wdelacruz@hotmail.com",
     "birthdate": "1951-11-09",
     "phone": "(852)205-5301",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        40,
+        25,
+        69
+    ],
+    "login locations": [
+        [
+            -117.889884,
+            33.778075
+        ]
+    ],
+    "relationships": []
 }

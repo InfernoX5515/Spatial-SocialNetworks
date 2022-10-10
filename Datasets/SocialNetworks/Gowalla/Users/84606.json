@@ -5,7 +5,28 @@
     "email": "karenstewart@hotmail.com",
     "birthdate": "2000-05-22",
     "phone": "507.253.5422",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        6,
+        74,
+        33,
+        47,
+        9,
+        26,
+        32,
+        14,
+        18,
+        22,
+        2,
+        44,
+        38,
+        72
+    ],
+    "login locations": [
+        [
+            -122.381028,
+            37.804801
+        ]
+    ],
+    "relationships": []
 }

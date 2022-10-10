@@ -5,7 +5,22 @@
     "email": "scottcochran@hotmail.com",
     "birthdate": "1951-11-07",
     "phone": "8398507494",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        47,
+        4,
+        12,
+        27,
+        21,
+        61,
+        28,
+        16
+    ],
+    "login locations": [
+        [
+            -117.103353,
+            32.973115
+        ]
+    ],
+    "relationships": []
 }

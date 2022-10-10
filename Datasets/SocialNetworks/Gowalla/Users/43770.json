@@ -5,7 +5,23 @@
     "email": "kimberlyphelps@gmail.com",
     "birthdate": "1989-10-14",
     "phone": "001-658-050-8434",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        66,
+        69,
+        2,
+        10,
+        56,
+        1,
+        37,
+        51,
+        48
+    ],
+    "login locations": [
+        [
+            -122.428798,
+            37.771424
+        ]
+    ],
+    "relationships": []
 }

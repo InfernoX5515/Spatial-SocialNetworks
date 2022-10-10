@@ -5,7 +5,28 @@
     "email": "spencer17@hotmail.com",
     "birthdate": "1928-03-02",
     "phone": "908-913-0475x1028",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        45,
+        64,
+        31
+    ],
+    "login locations": [
+        [
+            -117.156106,
+            32.715257
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                179,
+                0.01
+            ],
+            [
+                179,
+                0.01
+            ]
+        ]
+    ]
 }

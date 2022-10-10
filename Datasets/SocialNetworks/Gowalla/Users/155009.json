@@ -5,7 +5,16 @@
     "email": "evelyn10@gmail.com",
     "birthdate": "1951-01-12",
     "phone": "7892260989",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        13,
+        65
+    ],
+    "login locations": [
+        [
+            -122.423527,
+            37.79328
+        ]
+    ],
+    "relationships": []
 }

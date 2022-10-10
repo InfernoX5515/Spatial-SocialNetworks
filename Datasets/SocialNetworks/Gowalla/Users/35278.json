@@ -5,7 +5,16 @@
     "email": "stewartchristine@yahoo.com",
     "birthdate": "2003-09-09",
     "phone": "(043)748-7545",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        36,
+        34
+    ],
+    "login locations": [
+        [
+            -118.174998,
+            34.087833
+        ]
+    ],
+    "relationships": []
 }

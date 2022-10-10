@@ -5,7 +5,12 @@
     "email": "ryan49@yahoo.com",
     "birthdate": "1998-07-23",
     "phone": "684.963.5669",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.393419,
+            37.75254
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "olivia23@hotmail.com",
     "birthdate": "2018-04-15",
     "phone": "+1-108-791-2584x42776",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        46,
+        18,
+        29,
+        3
+    ],
+    "login locations": [
+        [
+            -118.043591,
+            33.790775
+        ]
+    ],
+    "relationships": []
 }

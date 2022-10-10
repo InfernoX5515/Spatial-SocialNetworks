@@ -5,7 +5,25 @@
     "email": "candaceoconnor@yahoo.com",
     "birthdate": "1968-09-26",
     "phone": "569-495-7758x1644",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        46,
+        64,
+        5,
+        4,
+        66,
+        16,
+        4,
+        55,
+        37,
+        38,
+        74
+    ],
+    "login locations": [
+        [
+            -122.414385,
+            37.756688
+        ]
+    ],
+    "relationships": []
 }

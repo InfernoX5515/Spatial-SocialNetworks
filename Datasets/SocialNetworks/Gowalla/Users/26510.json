@@ -5,7 +5,15 @@
     "email": "joewilson@gmail.com",
     "birthdate": "1948-06-10",
     "phone": "001-461-407-2010x9942",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        30
+    ],
+    "login locations": [
+        [
+            -117.969275,
+            33.859384
+        ]
+    ],
+    "relationships": []
 }

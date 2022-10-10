@@ -5,7 +5,21 @@
     "email": "cindy66@gmail.com",
     "birthdate": "1907-06-28",
     "phone": "731-659-7140x43121",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        22,
+        55,
+        13,
+        1,
+        7,
+        58,
+        11
+    ],
+    "login locations": [
+        [
+            -118.348339,
+            33.921863
+        ]
+    ],
+    "relationships": []
 }

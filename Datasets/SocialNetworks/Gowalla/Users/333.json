@@ -5,7 +5,23 @@
     "email": "bonniejohnson@yahoo.com",
     "birthdate": "1934-09-14",
     "phone": "(118)398-2132",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.153142,
+            37.430497
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                427,
+                0.0133333333333
+            ],
+            [
+                427,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

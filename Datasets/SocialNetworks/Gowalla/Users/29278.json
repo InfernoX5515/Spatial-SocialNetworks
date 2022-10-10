@@ -5,7 +5,29 @@
     "email": "eugene62@hotmail.com",
     "birthdate": "1954-11-24",
     "phone": "774.153.4062x7765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        14,
+        57,
+        23,
+        46
+    ],
+    "login locations": [
+        [
+            -117.213919,
+            32.804736
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3752,
+                0.0278884462151
+            ],
+            [
+                5877,
+                0.0147058823529
+            ]
+        ]
+    ]
 }

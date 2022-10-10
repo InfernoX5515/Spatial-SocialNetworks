@@ -5,7 +5,24 @@
     "email": "wandrade@yahoo.com",
     "birthdate": "1997-09-19",
     "phone": "+1-246-267-1835",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        51,
+        52,
+        24,
+        5,
+        66,
+        16,
+        26,
+        36,
+        8,
+        4
+    ],
+    "login locations": [
+        [
+            -118.036712,
+            33.798907
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "aweiss@yahoo.com",
     "birthdate": "2016-07-16",
     "phone": "+1-157-099-4636x38434",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67
+    ],
+    "login locations": [
+        [
+            -117.751554,
+            33.658445
+        ]
+    ],
+    "relationships": []
 }

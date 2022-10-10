@@ -5,7 +5,24 @@
     "email": "veronica80@hotmail.com",
     "birthdate": "1917-08-14",
     "phone": "668.954.8822x9214",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        27,
+        40,
+        19,
+        55,
+        66,
+        59,
+        28,
+        27,
+        21,
+        57
+    ],
+    "login locations": [
+        [
+            -122.286562,
+            37.564185
+        ]
+    ],
+    "relationships": []
 }

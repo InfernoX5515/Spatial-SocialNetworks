@@ -5,7 +5,26 @@
     "email": "josescott@gmail.com",
     "birthdate": "1907-08-23",
     "phone": "0845748478",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        6,
+        57,
+        69,
+        3,
+        63,
+        20,
+        24,
+        64,
+        73,
+        46,
+        67,
+        67
+    ],
+    "login locations": [
+        [
+            -117.206316,
+            33.019593
+        ]
+    ],
+    "relationships": []
 }

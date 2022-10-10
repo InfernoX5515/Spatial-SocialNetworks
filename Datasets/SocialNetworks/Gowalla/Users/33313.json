@@ -5,7 +5,18 @@
     "email": "rpierce@yahoo.com",
     "birthdate": "1952-09-04",
     "phone": "001-895-702-6222",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        25,
+        38,
+        68,
+        44
+    ],
+    "login locations": [
+        [
+            -122.402288,
+            37.775415
+        ]
+    ],
+    "relationships": []
 }

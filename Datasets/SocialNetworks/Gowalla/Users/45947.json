@@ -5,7 +5,14 @@
     "email": "robertjohnson@gmail.com",
     "birthdate": "1920-12-11",
     "phone": "098.569.3729x6202",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46
+    ],
+    "login locations": [
+        [
+            -117.097009,
+            32.635247
+        ]
+    ],
+    "relationships": []
 }

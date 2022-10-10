@@ -5,7 +5,28 @@
     "email": "ronaldfarley@hotmail.com",
     "birthdate": "1935-11-03",
     "phone": "082-649-0835x242",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        72,
+        56,
+        58
+    ],
+    "login locations": [
+        [
+            -119.223077,
+            34.258762
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                26241,
+                0.464
+            ],
+            [
+                26241,
+                0.464
+            ]
+        ]
+    ]
 }

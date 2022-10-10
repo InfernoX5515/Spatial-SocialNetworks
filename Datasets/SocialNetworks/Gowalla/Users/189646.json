@@ -5,7 +5,18 @@
     "email": "erin01@yahoo.com",
     "birthdate": "2001-03-10",
     "phone": "904.358.2212x1733",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        37,
+        54,
+        31,
+        44
+    ],
+    "login locations": [
+        [
+            -122.407677,
+            37.764956
+        ]
+    ],
+    "relationships": []
 }

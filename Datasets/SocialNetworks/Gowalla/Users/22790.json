@@ -5,7 +5,23 @@
     "email": "reedkatie@yahoo.com",
     "birthdate": "1974-11-04",
     "phone": "+1-006-202-2174x359",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        11,
+        48,
+        24,
+        56,
+        53,
+        75,
+        30,
+        60,
+        53
+    ],
+    "login locations": [
+        [
+            -122.377652,
+            37.66442
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "johnsonjeffery@hotmail.com",
     "birthdate": "1922-02-18",
     "phone": "001-995-465-1504",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        29,
+        11,
+        35,
+        61,
+        28,
+        25,
+        54,
+        12,
+        65,
+        39
+    ],
+    "login locations": [
+        [
+            -121.507382,
+            38.653445
+        ]
+    ],
+    "relationships": []
 }

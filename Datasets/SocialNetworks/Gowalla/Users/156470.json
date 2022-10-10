@@ -5,7 +5,18 @@
     "email": "mlawrence@gmail.com",
     "birthdate": "1916-12-15",
     "phone": "(206)633-3598x75475",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        35,
+        9,
+        3,
+        5
+    ],
+    "login locations": [
+        [
+            -118.361804,
+            33.973714
+        ]
+    ],
+    "relationships": []
 }

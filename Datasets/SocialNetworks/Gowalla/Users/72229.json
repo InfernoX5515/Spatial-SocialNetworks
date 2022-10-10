@@ -5,7 +5,15 @@
     "email": "ortegajames@hotmail.com",
     "birthdate": "2019-07-08",
     "phone": "(782)840-4928",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        33
+    ],
+    "login locations": [
+        [
+            -122.061221,
+            37.363536
+        ]
+    ],
+    "relationships": []
 }

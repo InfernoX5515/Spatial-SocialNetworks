@@ -5,7 +5,19 @@
     "email": "miranda22@hotmail.com",
     "birthdate": "1965-12-17",
     "phone": "+1-625-699-1772",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        38,
+        54,
+        50,
+        61,
+        66
+    ],
+    "login locations": [
+        [
+            -122.067383,
+            37.390641
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "kurt92@yahoo.com",
     "birthdate": "2004-12-27",
     "phone": "855-682-5114x236",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60
+    ],
+    "login locations": [
+        [
+            -122.450108,
+            37.72049
+        ]
+    ],
+    "relationships": []
 }

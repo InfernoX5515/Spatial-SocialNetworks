@@ -5,7 +5,34 @@
     "email": "linda45@gmail.com",
     "birthdate": "1963-08-14",
     "phone": "(883)327-1676x1501",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        67,
+        19,
+        17,
+        12,
+        53,
+        24,
+        30,
+        62,
+        45
+    ],
+    "login locations": [
+        [
+            -122.172661,
+            37.79313
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                624,
+                0.01
+            ],
+            [
+                624,
+                0.01
+            ]
+        ]
+    ]
 }

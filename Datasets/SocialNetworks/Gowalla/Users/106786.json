@@ -5,7 +5,32 @@
     "email": "ryanowen@gmail.com",
     "birthdate": "1911-04-19",
     "phone": "124.909.5097x30182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        72,
+        54,
+        41,
+        56,
+        9,
+        13,
+        68
+    ],
+    "login locations": [
+        [
+            -121.470324,
+            38.574375
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                106787,
+                0.333333333333
+            ],
+            [
+                162432,
+                0.44
+            ]
+        ]
+    ]
 }

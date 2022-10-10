@@ -5,7 +5,39 @@
     "email": "marckeller@hotmail.com",
     "birthdate": "1909-10-24",
     "phone": "(115)475-5142x278",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        74,
+        46,
+        1,
+        38,
+        19,
+        73,
+        35,
+        70,
+        57,
+        64,
+        56,
+        29,
+        62,
+        2
+    ],
+    "login locations": [
+        [
+            -122.417812,
+            37.766732
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1523,
+                0.01
+            ],
+            [
+                23276,
+                0.01
+            ]
+        ]
+    ]
 }

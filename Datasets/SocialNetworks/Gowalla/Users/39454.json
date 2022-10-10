@@ -5,7 +5,18 @@
     "email": "rsoto@gmail.com",
     "birthdate": "1915-04-28",
     "phone": "(899)624-3730x673",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        48,
+        6,
+        63,
+        59
+    ],
+    "login locations": [
+        [
+            -117.96374,
+            33.956942
+        ]
+    ],
+    "relationships": []
 }

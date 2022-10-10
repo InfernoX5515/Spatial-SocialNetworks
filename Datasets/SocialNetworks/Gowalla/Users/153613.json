@@ -5,7 +5,18 @@
     "email": "jenniferbarton@gmail.com",
     "birthdate": "1909-04-21",
     "phone": "001-103-208-1152x040",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        6,
+        63,
+        22,
+        65
+    ],
+    "login locations": [
+        [
+            -122.376912,
+            37.768423
+        ]
+    ],
+    "relationships": []
 }

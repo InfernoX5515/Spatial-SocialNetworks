@@ -5,7 +5,16 @@
     "email": "sharonyoung@yahoo.com",
     "birthdate": "1911-03-27",
     "phone": "(958)433-2193",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        74,
+        52
+    ],
+    "login locations": [
+        [
+            -122.332996,
+            37.611448
+        ]
+    ],
+    "relationships": []
 }

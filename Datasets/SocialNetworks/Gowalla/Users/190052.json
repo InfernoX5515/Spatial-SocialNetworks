@@ -5,7 +5,12 @@
     "email": "joshuafletcher@hotmail.com",
     "birthdate": "2007-09-28",
     "phone": "(204)207-5737x38607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.963524,
+            37.28728
+        ]
+    ],
+    "relationships": []
 }

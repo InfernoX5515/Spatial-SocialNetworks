@@ -5,7 +5,25 @@
     "email": "stephenmcmillan@yahoo.com",
     "birthdate": "1981-05-31",
     "phone": "(571)991-3219",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        31,
+        47,
+        12,
+        33,
+        13,
+        57,
+        66,
+        71,
+        7,
+        60,
+        10
+    ],
+    "login locations": [
+        [
+            -122.032601,
+            37.37234
+        ]
+    ],
+    "relationships": []
 }

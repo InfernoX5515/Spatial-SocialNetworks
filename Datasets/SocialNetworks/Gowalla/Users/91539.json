@@ -5,7 +5,16 @@
     "email": "xhart@gmail.com",
     "birthdate": "1997-08-23",
     "phone": "483-179-1358x393",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        54,
+        35
+    ],
+    "login locations": [
+        [
+            -121.647193,
+            39.137001
+        ]
+    ],
+    "relationships": []
 }

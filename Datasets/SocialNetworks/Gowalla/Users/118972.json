@@ -5,7 +5,12 @@
     "email": "james78@yahoo.com",
     "birthdate": "1950-05-11",
     "phone": "750-422-8993x79904",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.288096,
+            38.770391
+        ]
+    ],
+    "relationships": []
 }

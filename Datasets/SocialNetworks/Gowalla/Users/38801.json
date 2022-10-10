@@ -5,7 +5,23 @@
     "email": "charlesdavid@yahoo.com",
     "birthdate": "1971-08-10",
     "phone": "(846)594-8424x69672",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        1,
+        69,
+        53,
+        11,
+        22,
+        51,
+        54,
+        29,
+        6
+    ],
+    "login locations": [
+        [
+            -117.912874,
+            33.660344
+        ]
+    ],
+    "relationships": []
 }

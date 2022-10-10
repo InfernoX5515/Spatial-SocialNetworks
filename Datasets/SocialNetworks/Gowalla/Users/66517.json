@@ -5,7 +5,16 @@
     "email": "albertsmith@yahoo.com",
     "birthdate": "2017-05-06",
     "phone": "(687)248-1557x288",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        52,
+        49
+    ],
+    "login locations": [
+        [
+            -122.14705,
+            37.421985
+        ]
+    ],
+    "relationships": []
 }

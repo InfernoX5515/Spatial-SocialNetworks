@@ -5,7 +5,24 @@
     "email": "debra19@yahoo.com",
     "birthdate": "2001-07-23",
     "phone": "328.077.4094",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        1,
+        62,
+        32,
+        33,
+        43,
+        72,
+        34,
+        11,
+        6,
+        54
+    ],
+    "login locations": [
+        [
+            -118.857914,
+            34.186589
+        ]
+    ],
+    "relationships": []
 }

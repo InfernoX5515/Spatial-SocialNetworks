@@ -5,7 +5,15 @@
     "email": "holly62@yahoo.com",
     "birthdate": "1966-11-20",
     "phone": "805-640-8542",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        2
+    ],
+    "login locations": [
+        [
+            -117.886988,
+            33.685692
+        ]
+    ],
+    "relationships": []
 }

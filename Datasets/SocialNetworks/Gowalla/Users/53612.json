@@ -5,7 +5,28 @@
     "email": "alyssajones@yahoo.com",
     "birthdate": "1963-06-07",
     "phone": "(321)000-1937x1565",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        50,
+        4,
+        17,
+        2,
+        38,
+        37,
+        60,
+        35,
+        38,
+        34,
+        32,
+        43,
+        32,
+        25
+    ],
+    "login locations": [
+        [
+            -122.05478,
+            38.260712
+        ]
+    ],
+    "relationships": []
 }

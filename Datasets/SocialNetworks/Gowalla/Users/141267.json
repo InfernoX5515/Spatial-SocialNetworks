@@ -5,7 +5,17 @@
     "email": "rodriguezrachel@gmail.com",
     "birthdate": "1945-08-06",
     "phone": "001-593-892-8133x164",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        37,
+        8,
+        59
+    ],
+    "login locations": [
+        [
+            -121.854615,
+            37.287683
+        ]
+    ],
+    "relationships": []
 }

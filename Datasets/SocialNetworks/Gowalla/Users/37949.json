@@ -5,7 +5,22 @@
     "email": "markwalker@yahoo.com",
     "birthdate": "1960-03-15",
     "phone": "(976)093-2696x688",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        56,
+        7,
+        0,
+        34,
+        46,
+        33,
+        28,
+        19
+    ],
+    "login locations": [
+        [
+            -122.374677,
+            37.805137
+        ]
+    ],
+    "relationships": []
 }

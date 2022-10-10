@@ -5,7 +5,28 @@
     "email": "orozcorhonda@hotmail.com",
     "birthdate": "2014-03-05",
     "phone": "794-877-0699",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        5,
+        2,
+        32,
+        52,
+        29,
+        53,
+        3,
+        40,
+        30,
+        26,
+        34,
+        49,
+        38,
+        50
+    ],
+    "login locations": [
+        [
+            -117.118176,
+            32.72108
+        ]
+    ],
+    "relationships": []
 }

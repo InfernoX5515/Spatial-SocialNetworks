@@ -5,7 +5,21 @@
     "email": "robinsonclarence@gmail.com",
     "birthdate": "1923-01-05",
     "phone": "(443)513-9202x68749",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        13,
+        14,
+        58,
+        52,
+        58,
+        37,
+        18
+    ],
+    "login locations": [
+        [
+            -122.142371,
+            37.403827
+        ]
+    ],
+    "relationships": []
 }

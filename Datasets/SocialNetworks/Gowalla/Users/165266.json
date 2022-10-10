@@ -5,7 +5,22 @@
     "email": "qsmith@gmail.com",
     "birthdate": "1979-01-23",
     "phone": "5085530747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        36,
+        31,
+        50,
+        3,
+        3,
+        3,
+        64,
+        44
+    ],
+    "login locations": [
+        [
+            -121.596708,
+            39.839035
+        ]
+    ],
+    "relationships": []
 }

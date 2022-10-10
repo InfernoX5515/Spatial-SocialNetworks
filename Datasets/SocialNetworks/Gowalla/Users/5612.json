@@ -5,7 +5,34 @@
     "email": "terrymichelle@hotmail.com",
     "birthdate": "1936-09-02",
     "phone": "479-669-8379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        34,
+        15,
+        53,
+        65,
+        19,
+        67,
+        62,
+        17,
+        45
+    ],
+    "login locations": [
+        [
+            -122.409781,
+            37.789129
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                34834,
+                0.04
+            ],
+            [
+                12877,
+                0.01
+            ]
+        ]
+    ]
 }

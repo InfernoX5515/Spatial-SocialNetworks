@@ -5,7 +5,18 @@
     "email": "georgeamanda@yahoo.com",
     "birthdate": "1920-02-28",
     "phone": "+1-535-643-2667x10758",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        25,
+        61,
+        75,
+        66
+    ],
+    "login locations": [
+        [
+            -118.358405,
+            34.031966
+        ]
+    ],
+    "relationships": []
 }

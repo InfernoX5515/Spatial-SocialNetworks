@@ -5,7 +5,20 @@
     "email": "vcohen@gmail.com",
     "birthdate": "1972-09-13",
     "phone": "001-552-106-4399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        11,
+        57,
+        31,
+        1,
+        36,
+        31
+    ],
+    "login locations": [
+        [
+            -122.449378,
+            37.777659
+        ]
+    ],
+    "relationships": []
 }

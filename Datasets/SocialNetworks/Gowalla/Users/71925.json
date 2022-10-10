@@ -5,7 +5,14 @@
     "email": "gellison@gmail.com",
     "birthdate": "1985-10-07",
     "phone": "924.643.1675",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33
+    ],
+    "login locations": [
+        [
+            -122.297473,
+            37.536887
+        ]
+    ],
+    "relationships": []
 }

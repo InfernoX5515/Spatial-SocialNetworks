@@ -5,7 +5,21 @@
     "email": "mendezmichael@gmail.com",
     "birthdate": "1936-04-14",
     "phone": "081.199.5136x78180",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        39,
+        31,
+        71,
+        40,
+        12,
+        32,
+        67
+    ],
+    "login locations": [
+        [
+            -122.410071,
+            37.763974
+        ]
+    ],
+    "relationships": []
 }

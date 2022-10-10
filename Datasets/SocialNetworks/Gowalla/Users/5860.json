@@ -5,7 +5,22 @@
     "email": "rodrigueznicholas@gmail.com",
     "birthdate": "1918-07-20",
     "phone": "355.325.2413",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        38,
+        16,
+        20,
+        42,
+        71,
+        45,
+        46,
+        45
+    ],
+    "login locations": [
+        [
+            -117.200737,
+            32.831322
+        ]
+    ],
+    "relationships": []
 }

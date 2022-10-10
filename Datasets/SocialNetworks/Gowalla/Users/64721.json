@@ -5,7 +5,16 @@
     "email": "jasminewilson@yahoo.com",
     "birthdate": "1967-02-13",
     "phone": "(186)635-2129",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        31,
+        48
+    ],
+    "login locations": [
+        [
+            -118.385499,
+            34.011779
+        ]
+    ],
+    "relationships": []
 }

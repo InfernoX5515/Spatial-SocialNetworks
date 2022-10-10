@@ -5,7 +5,14 @@
     "email": "juan99@yahoo.com",
     "birthdate": "2001-11-17",
     "phone": "+1-268-581-8347",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70
+    ],
+    "login locations": [
+        [
+            -122.374376,
+            37.641912
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "wesleycook@gmail.com",
     "birthdate": "1943-11-28",
     "phone": "461.200.1791x13675",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        32
+    ],
+    "login locations": [
+        [
+            -120.656885,
+            35.279697
+        ]
+    ],
+    "relationships": []
 }

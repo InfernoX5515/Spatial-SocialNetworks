@@ -5,7 +5,15 @@
     "email": "ssmith@gmail.com",
     "birthdate": "1984-05-30",
     "phone": "820.222.4876x284",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        62
+    ],
+    "login locations": [
+        [
+            -118.337443,
+            34.07792
+        ]
+    ],
+    "relationships": []
 }

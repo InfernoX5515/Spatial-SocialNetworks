@@ -5,7 +5,23 @@
     "email": "smithdonald@gmail.com",
     "birthdate": "1912-02-19",
     "phone": "001-219-988-9186x92713",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        29,
+        40,
+        72,
+        31,
+        75,
+        68,
+        42,
+        25,
+        45
+    ],
+    "login locations": [
+        [
+            -118.473572,
+            34.023832
+        ]
+    ],
+    "relationships": []
 }

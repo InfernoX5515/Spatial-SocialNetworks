@@ -5,7 +5,32 @@
     "email": "xryan@hotmail.com",
     "birthdate": "1955-12-28",
     "phone": "(597)471-8646",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        49,
+        23,
+        54,
+        66,
+        54,
+        74,
+        14
+    ],
+    "login locations": [
+        [
+            -122.400185,
+            37.710713
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8651,
+                0.263157894737
+            ],
+            [
+                9182,
+                0.07
+            ]
+        ]
+    ]
 }

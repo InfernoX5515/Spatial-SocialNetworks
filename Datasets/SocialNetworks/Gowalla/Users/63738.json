@@ -5,7 +5,22 @@
     "email": "khughes@gmail.com",
     "birthdate": "1916-10-01",
     "phone": "(582)235-8249",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        39,
+        36,
+        45,
+        66,
+        14,
+        44,
+        2,
+        59
+    ],
+    "login locations": [
+        [
+            -117.149469,
+            32.720657
+        ]
+    ],
+    "relationships": []
 }

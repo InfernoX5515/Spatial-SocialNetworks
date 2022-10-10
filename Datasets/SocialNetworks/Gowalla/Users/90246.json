@@ -5,7 +5,26 @@
     "email": "gpaul@gmail.com",
     "birthdate": "1907-04-19",
     "phone": "143.776.1774x36920",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        25,
+        56,
+        21,
+        14,
+        50,
+        53,
+        49,
+        60,
+        72,
+        64,
+        71,
+        29
+    ],
+    "login locations": [
+        [
+            -118.362706,
+            33.973336
+        ]
+    ],
+    "relationships": []
 }

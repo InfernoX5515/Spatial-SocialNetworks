@@ -5,7 +5,22 @@
     "email": "birdmichelle@gmail.com",
     "birthdate": "2017-09-25",
     "phone": "(541)570-9428x9892",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        41,
+        66,
+        49,
+        3,
+        24,
+        12,
+        69,
+        10
+    ],
+    "login locations": [
+        [
+            -122.02978,
+            37.188489
+        ]
+    ],
+    "relationships": []
 }

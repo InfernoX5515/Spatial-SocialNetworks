@@ -5,7 +5,18 @@
     "email": "lopezdavid@hotmail.com",
     "birthdate": "2003-10-20",
     "phone": "+1-124-180-4871x66935",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        59,
+        9,
+        21,
+        19
+    ],
+    "login locations": [
+        [
+            -118.480629,
+            33.999032
+        ]
+    ],
+    "relationships": []
 }

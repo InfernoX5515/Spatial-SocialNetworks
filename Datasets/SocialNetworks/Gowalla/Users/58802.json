@@ -5,7 +5,27 @@
     "email": "whughes@hotmail.com",
     "birthdate": "1972-02-16",
     "phone": "(561)896-5124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        15,
+        49,
+        29,
+        68,
+        40,
+        63,
+        7,
+        50,
+        58,
+        13,
+        59,
+        73,
+        15
+    ],
+    "login locations": [
+        [
+            -118.353574,
+            33.836473
+        ]
+    ],
+    "relationships": []
 }

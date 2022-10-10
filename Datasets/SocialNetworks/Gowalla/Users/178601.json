@@ -5,7 +5,17 @@
     "email": "omartinez@yahoo.com",
     "birthdate": "1920-07-16",
     "phone": "535.561.1306",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        73,
+        52,
+        64
+    ],
+    "login locations": [
+        [
+            -122.221468,
+            37.423677
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "ronald69@hotmail.com",
     "birthdate": "2004-07-31",
     "phone": "001-412-656-4921x906",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        29,
+        63,
+        29,
+        73,
+        29,
+        75
+    ],
+    "login locations": [
+        [
+            -122.443818,
+            37.776097
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "fjones@gmail.com",
     "birthdate": "1929-08-24",
     "phone": "003.906.1655",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65
+    ],
+    "login locations": [
+        [
+            -122.406363,
+            37.771316
+        ]
+    ],
+    "relationships": []
 }

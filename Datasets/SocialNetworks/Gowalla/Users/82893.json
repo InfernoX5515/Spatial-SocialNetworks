@@ -5,7 +5,20 @@
     "email": "barry86@gmail.com",
     "birthdate": "1949-04-25",
     "phone": "+1-304-829-4595x9213",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        23,
+        14,
+        16,
+        41,
+        52,
+        13
+    ],
+    "login locations": [
+        [
+            -117.156926,
+            32.71679
+        ]
+    ],
+    "relationships": []
 }

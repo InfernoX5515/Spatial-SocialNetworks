@@ -5,7 +5,26 @@
     "email": "russell35@hotmail.com",
     "birthdate": "1929-09-02",
     "phone": "312-919-1770x01158",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        1,
+        13,
+        72,
+        24,
+        67,
+        15,
+        27,
+        59,
+        30,
+        39,
+        52,
+        7
+    ],
+    "login locations": [
+        [
+            -122.426582,
+            37.750394
+        ]
+    ],
+    "relationships": []
 }

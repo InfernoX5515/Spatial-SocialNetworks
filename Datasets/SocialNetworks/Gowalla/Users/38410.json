@@ -5,7 +5,21 @@
     "email": "sullivanchristopher@hotmail.com",
     "birthdate": "1982-03-25",
     "phone": "513.926.7583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        53,
+        54,
+        38,
+        40,
+        20,
+        25,
+        53
+    ],
+    "login locations": [
+        [
+            -118.358641,
+            34.086963
+        ]
+    ],
+    "relationships": []
 }

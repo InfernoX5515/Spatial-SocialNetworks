@@ -5,7 +5,24 @@
     "email": "fowlermary@gmail.com",
     "birthdate": "1973-11-30",
     "phone": "473.584.6332x98750",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        24,
+        49,
+        20,
+        42,
+        0,
+        20,
+        32,
+        60,
+        3,
+        15
+    ],
+    "login locations": [
+        [
+            -122.083444,
+            37.398667
+        ]
+    ],
+    "relationships": []
 }

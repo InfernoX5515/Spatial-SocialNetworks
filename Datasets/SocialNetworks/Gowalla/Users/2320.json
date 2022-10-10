@@ -5,7 +5,36 @@
     "email": "ashleywoods@yahoo.com",
     "birthdate": "1907-08-18",
     "phone": "+1-125-763-9833x625",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        40,
+        68,
+        31,
+        5,
+        43,
+        39,
+        52,
+        40,
+        39,
+        27,
+        50
+    ],
+    "login locations": [
+        [
+            -117.757152,
+            34.078059
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                221,
+                0.1
+            ],
+            [
+                304,
+                0.0426356589147
+            ]
+        ]
+    ]
 }

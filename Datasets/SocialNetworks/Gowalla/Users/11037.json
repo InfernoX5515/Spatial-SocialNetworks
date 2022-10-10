@@ -5,7 +5,26 @@
     "email": "laurenhughes@hotmail.com",
     "birthdate": "1921-12-05",
     "phone": "001-932-116-6894x43833",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        70
+    ],
+    "login locations": [
+        [
+            -122.139729,
+            37.415189
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2107,
+                0.01
+            ],
+            [
+                2107,
+                0.01
+            ]
+        ]
+    ]
 }

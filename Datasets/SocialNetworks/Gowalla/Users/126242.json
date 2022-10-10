@@ -5,7 +5,26 @@
     "email": "alexisbradley@hotmail.com",
     "birthdate": "1909-04-12",
     "phone": "626-740-0871x297",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        26,
+        18,
+        21,
+        49,
+        11,
+        11,
+        19,
+        75,
+        36,
+        13,
+        68,
+        25
+    ],
+    "login locations": [
+        [
+            -122.411055,
+            37.81295
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "drew97@gmail.com",
     "birthdate": "1986-12-04",
     "phone": "985-697-1734x3150",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24
+    ],
+    "login locations": [
+        [
+            -122.173226,
+            37.436966
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125948,
+                0.333333333333
+            ],
+            [
+                125948,
+                0.333333333333
+            ]
+        ]
+    ]
 }

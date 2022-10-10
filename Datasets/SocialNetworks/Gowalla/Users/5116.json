@@ -5,7 +5,25 @@
     "email": "johnsondavid@hotmail.com",
     "birthdate": "1940-04-25",
     "phone": "(246)533-0226x99021",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2
+    ],
+    "login locations": [
+        [
+            -122.161917,
+            37.423365
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8582,
+                0.01
+            ],
+            [
+                8582,
+                0.01
+            ]
+        ]
+    ]
 }

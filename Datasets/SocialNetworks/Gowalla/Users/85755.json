@@ -5,7 +5,17 @@
     "email": "dtucker@hotmail.com",
     "birthdate": "1985-10-07",
     "phone": "+1-364-294-8744",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        10,
+        71,
+        75
+    ],
+    "login locations": [
+        [
+            -122.438031,
+            37.808432
+        ]
+    ],
+    "relationships": []
 }

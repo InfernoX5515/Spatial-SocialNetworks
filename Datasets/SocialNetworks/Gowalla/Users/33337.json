@@ -5,7 +5,24 @@
     "email": "collinsallison@hotmail.com",
     "birthdate": "1949-12-15",
     "phone": "+1-714-939-5655x124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        47,
+        9,
+        19,
+        59,
+        49,
+        9,
+        12,
+        46,
+        8,
+        0
+    ],
+    "login locations": [
+        [
+            -122.159966,
+            37.861336
+        ]
+    ],
+    "relationships": []
 }

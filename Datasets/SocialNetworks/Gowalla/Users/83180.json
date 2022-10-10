@@ -5,7 +5,23 @@
     "email": "william60@gmail.com",
     "birthdate": "1961-08-20",
     "phone": "001-517-309-7275x59839",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        75,
+        28,
+        55,
+        3,
+        73,
+        33,
+        75,
+        42,
+        18
+    ],
+    "login locations": [
+        [
+            -122.420244,
+            37.799629
+        ]
+    ],
+    "relationships": []
 }

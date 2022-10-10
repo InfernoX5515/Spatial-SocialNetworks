@@ -5,7 +5,32 @@
     "email": "woodscharles@yahoo.com",
     "birthdate": "1927-05-29",
     "phone": "+1-782-803-7349x3560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        12,
+        58,
+        46,
+        14,
+        61,
+        75,
+        65
+    ],
+    "login locations": [
+        [
+            -122.022728,
+            37.768752
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                40055,
+                0.015873015873
+            ],
+            [
+                40055,
+                0.015873015873
+            ]
+        ]
+    ]
 }

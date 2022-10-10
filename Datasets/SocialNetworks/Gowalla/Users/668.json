@@ -5,7 +5,32 @@
     "email": "mark19@hotmail.com",
     "birthdate": "1940-06-04",
     "phone": "+1-604-344-2637",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        53,
+        39,
+        49,
+        71,
+        63,
+        20,
+        33
+    ],
+    "login locations": [
+        [
+            -118.220712,
+            34.112357
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39263,
+                0.166666666667
+            ],
+            [
+                39263,
+                0.166666666667
+            ]
+        ]
+    ]
 }

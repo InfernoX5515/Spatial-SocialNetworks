@@ -5,7 +5,22 @@
     "email": "sramirez@hotmail.com",
     "birthdate": "1919-06-24",
     "phone": "0260260334",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        74,
+        35,
+        16,
+        68,
+        55,
+        62,
+        64,
+        32
+    ],
+    "login locations": [
+        [
+            -122.402541,
+            37.766154
+        ]
+    ],
+    "relationships": []
 }

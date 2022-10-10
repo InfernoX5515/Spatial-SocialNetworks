@@ -5,7 +5,21 @@
     "email": "martin19@yahoo.com",
     "birthdate": "1932-04-06",
     "phone": "(608)982-2195x8164",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        49,
+        14,
+        15,
+        10,
+        43,
+        51,
+        44
+    ],
+    "login locations": [
+        [
+            -117.096953,
+            32.918898
+        ]
+    ],
+    "relationships": []
 }

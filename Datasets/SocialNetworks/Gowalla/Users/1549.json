@@ -5,7 +5,33 @@
     "email": "jerryreed@yahoo.com",
     "birthdate": "1916-01-26",
     "phone": "+1-039-366-2710",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        48,
+        12,
+        1,
+        26,
+        9,
+        4,
+        4,
+        63
+    ],
+    "login locations": [
+        [
+            -119.23847,
+            34.257625
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53151,
+                0.08
+            ],
+            [
+                3572,
+                0.0322580645161
+            ]
+        ]
+    ]
 }

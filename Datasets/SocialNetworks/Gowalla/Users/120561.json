@@ -5,7 +5,12 @@
     "email": "blakepope@yahoo.com",
     "birthdate": "2010-02-17",
     "phone": "698.189.9259x9420",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.323134,
+            38.612415
+        ]
+    ],
+    "relationships": []
 }

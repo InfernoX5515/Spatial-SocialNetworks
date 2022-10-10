@@ -5,7 +5,31 @@
     "email": "lisa63@yahoo.com",
     "birthdate": "2011-11-11",
     "phone": "+1-416-050-5219x858",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        2,
+        30,
+        11,
+        29,
+        32,
+        59
+    ],
+    "login locations": [
+        [
+            -122.391483,
+            37.781441
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4901,
+                0.01
+            ],
+            [
+                4901,
+                0.01
+            ]
+        ]
+    ]
 }

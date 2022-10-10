@@ -5,7 +5,17 @@
     "email": "kelleyemily@hotmail.com",
     "birthdate": "1969-04-17",
     "phone": "764.251.4090",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        72,
+        30,
+        0
+    ],
+    "login locations": [
+        [
+            -122.341749,
+            37.785892
+        ]
+    ],
+    "relationships": []
 }

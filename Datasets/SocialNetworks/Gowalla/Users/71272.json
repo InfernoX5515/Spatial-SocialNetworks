@@ -5,7 +5,15 @@
     "email": "nancy67@gmail.com",
     "birthdate": "1965-08-10",
     "phone": "(617)554-7571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        30
+    ],
+    "login locations": [
+        [
+            -122.408241,
+            37.759921
+        ]
+    ],
+    "relationships": []
 }

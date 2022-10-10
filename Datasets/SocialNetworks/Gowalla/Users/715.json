@@ -5,7 +5,26 @@
     "email": "zmitchell@yahoo.com",
     "birthdate": "1911-04-16",
     "phone": "018.372.5566x31580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        67
+    ],
+    "login locations": [
+        [
+            -121.964843,
+            37.315169
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39810,
+                0.161290322581
+            ],
+            [
+                39810,
+                0.161290322581
+            ]
+        ]
+    ]
 }

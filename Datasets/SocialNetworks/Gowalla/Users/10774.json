@@ -5,7 +5,25 @@
     "email": "nrodriguez@yahoo.com",
     "birthdate": "2017-05-11",
     "phone": "299-275-5637",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        11,
+        43,
+        58,
+        66,
+        52,
+        10,
+        41,
+        30,
+        46,
+        46,
+        13
+    ],
+    "login locations": [
+        [
+            -118.006396,
+            33.841924
+        ]
+    ],
+    "relationships": []
 }

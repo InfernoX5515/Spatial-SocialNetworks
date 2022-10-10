@@ -5,7 +5,14 @@
     "email": "ffry@hotmail.com",
     "birthdate": "1948-11-15",
     "phone": "(088)911-4967",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43
+    ],
+    "login locations": [
+        [
+            -122.438174,
+            37.764345
+        ]
+    ],
+    "relationships": []
 }

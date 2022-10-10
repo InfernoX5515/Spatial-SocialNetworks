@@ -5,7 +5,38 @@
     "email": "wschmidt@gmail.com",
     "birthdate": "1928-12-14",
     "phone": "(720)222-8447",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        2,
+        60,
+        63,
+        3,
+        10,
+        6,
+        37,
+        62,
+        30,
+        26,
+        39,
+        20,
+        14
+    ],
+    "login locations": [
+        [
+            -119.827035,
+            34.419758
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                9997,
+                0.01
+            ],
+            [
+                9997,
+                0.01
+            ]
+        ]
+    ]
 }

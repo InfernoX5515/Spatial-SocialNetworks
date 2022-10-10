@@ -5,7 +5,28 @@
     "email": "jessica66@gmail.com",
     "birthdate": "1957-11-04",
     "phone": "+1-783-205-1022",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        24,
+        70,
+        23,
+        59,
+        26,
+        4,
+        43,
+        9,
+        57,
+        15,
+        64,
+        62,
+        62,
+        56
+    ],
+    "login locations": [
+        [
+            -122.136713,
+            37.405081
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,37 @@
     "email": "jasonroberts@hotmail.com",
     "birthdate": "1938-12-28",
     "phone": "369-948-6436x3764",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        21,
+        44,
+        4,
+        74,
+        28,
+        23,
+        39,
+        23,
+        53,
+        15,
+        71,
+        69
+    ],
+    "login locations": [
+        [
+            -121.47943,
+            38.575199
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1313,
+                0.0223577235772
+            ],
+            [
+                1313,
+                0.0223577235772
+            ]
+        ]
+    ]
 }

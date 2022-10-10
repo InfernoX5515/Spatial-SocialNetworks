@@ -5,7 +5,21 @@
     "email": "aaron18@yahoo.com",
     "birthdate": "1912-07-08",
     "phone": "(509)297-7789x53759",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        17,
+        51,
+        20,
+        10,
+        46,
+        54,
+        26
+    ],
+    "login locations": [
+        [
+            -122.345549,
+            37.588476
+        ]
+    ],
+    "relationships": []
 }

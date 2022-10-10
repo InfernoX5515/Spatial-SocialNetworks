@@ -5,7 +5,21 @@
     "email": "willisbernard@hotmail.com",
     "birthdate": "1928-10-14",
     "phone": "(677)623-7702x533",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        0,
+        70,
+        49,
+        5,
+        67,
+        64,
+        24
+    ],
+    "login locations": [
+        [
+            -121.978533,
+            37.277376
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "fenglish@gmail.com",
     "birthdate": "1986-08-25",
     "phone": "471-832-7134x37862",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        51,
+        6,
+        25,
+        25,
+        68,
+        33,
+        13,
+        60,
+        16,
+        68,
+        15
+    ],
+    "login locations": [
+        [
+            -121.882222,
+            37.34031
+        ]
+    ],
+    "relationships": []
 }

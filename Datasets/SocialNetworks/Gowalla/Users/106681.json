@@ -5,7 +5,25 @@
     "email": "margaret37@yahoo.com",
     "birthdate": "1938-01-19",
     "phone": "553.639.5321",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        57,
+        52,
+        50,
+        25,
+        27,
+        34,
+        23,
+        73,
+        30,
+        69,
+        72
+    ],
+    "login locations": [
+        [
+            -122.172317,
+            38.27842
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "tyler38@gmail.com",
     "birthdate": "1988-08-11",
     "phone": "954.575.0722",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        40,
+        9,
+        60,
+        33,
+        5,
+        46,
+        63,
+        15
+    ],
+    "login locations": [
+        [
+            -117.886146,
+            33.763638
+        ]
+    ],
+    "relationships": []
 }

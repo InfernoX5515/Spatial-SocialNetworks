@@ -5,7 +5,31 @@
     "email": "dilloncampbell@hotmail.com",
     "birthdate": "1930-12-01",
     "phone": "+1-070-645-5565x399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        73,
+        24,
+        2,
+        36,
+        60,
+        74
+    ],
+    "login locations": [
+        [
+            -117.807354,
+            33.893339
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                155578,
+                0.0106382978723
+            ],
+            [
+                155578,
+                0.0106382978723
+            ]
+        ]
+    ]
 }

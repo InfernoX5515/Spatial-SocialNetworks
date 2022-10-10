@@ -5,7 +5,30 @@
     "email": "ymoore@yahoo.com",
     "birthdate": "1987-04-13",
     "phone": "(238)780-6376",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        26,
+        19,
+        58,
+        23,
+        69
+    ],
+    "login locations": [
+        [
+            -117.836799,
+            33.740905
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                245,
+                0.01
+            ],
+            [
+                245,
+                0.01
+            ]
+        ]
+    ]
 }

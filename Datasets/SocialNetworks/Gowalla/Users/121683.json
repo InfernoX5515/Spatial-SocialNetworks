@@ -5,7 +5,25 @@
     "email": "tammymonroe@hotmail.com",
     "birthdate": "1994-12-01",
     "phone": "226-628-4236",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        3,
+        21,
+        7,
+        41,
+        29,
+        42,
+        8,
+        1,
+        51,
+        1,
+        27
+    ],
+    "login locations": [
+        [
+            -121.658268,
+            37.081155
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "barronjudith@hotmail.com",
     "birthdate": "1908-01-03",
     "phone": "(539)860-2880x92507",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        5,
+        69,
+        59,
+        33,
+        74,
+        18
+    ],
+    "login locations": [
+        [
+            -117.754963,
+            33.635178
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "jessicabenjamin@gmail.com",
     "birthdate": "1966-07-31",
     "phone": "001-123-164-4694x454",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        26,
+        58,
+        55,
+        15,
+        23,
+        15,
+        48,
+        35
+    ],
+    "login locations": [
+        [
+            -118.307291,
+            34.065562
+        ]
+    ],
+    "relationships": []
 }

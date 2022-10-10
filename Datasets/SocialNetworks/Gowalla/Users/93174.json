@@ -5,7 +5,25 @@
     "email": "leroy73@yahoo.com",
     "birthdate": "2009-06-07",
     "phone": "370.271.1399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        49,
+        64,
+        62,
+        15,
+        35,
+        9,
+        21,
+        30,
+        69,
+        48,
+        4
+    ],
+    "login locations": [
+        [
+            -122.300446,
+            37.817838
+        ]
+    ],
+    "relationships": []
 }

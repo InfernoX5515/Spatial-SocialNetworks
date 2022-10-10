@@ -5,7 +5,24 @@
     "email": "lindsey99@yahoo.com",
     "birthdate": "1966-08-24",
     "phone": "465-033-9447",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        1,
+        11,
+        63,
+        5,
+        67,
+        26,
+        11,
+        16,
+        26,
+        17
+    ],
+    "login locations": [
+        [
+            -117.947598,
+            33.717379
+        ]
+    ],
+    "relationships": []
 }

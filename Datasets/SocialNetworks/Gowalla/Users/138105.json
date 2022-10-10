@@ -5,7 +5,14 @@
     "email": "greenkaitlyn@yahoo.com",
     "birthdate": "1920-06-05",
     "phone": "+1-165-291-2298x2744",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46
+    ],
+    "login locations": [
+        [
+            -117.842765,
+            33.635648
+        ]
+    ],
+    "relationships": []
 }

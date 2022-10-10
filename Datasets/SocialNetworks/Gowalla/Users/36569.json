@@ -5,7 +5,12 @@
     "email": "robertenglish@gmail.com",
     "birthdate": "1975-07-27",
     "phone": "0743140059",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.421489,
+            34.026285
+        ]
+    ],
+    "relationships": []
 }

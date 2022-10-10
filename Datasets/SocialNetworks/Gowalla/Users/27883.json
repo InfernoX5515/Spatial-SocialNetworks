@@ -5,7 +5,32 @@
     "email": "jking@yahoo.com",
     "birthdate": "1920-08-28",
     "phone": "9354527871",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        54,
+        64,
+        61,
+        2,
+        34,
+        6,
+        13
+    ],
+    "login locations": [
+        [
+            -116.362543,
+            33.766055
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                26546,
+                0.0555555555556
+            ],
+            [
+                26546,
+                0.0555555555556
+            ]
+        ]
+    ]
 }

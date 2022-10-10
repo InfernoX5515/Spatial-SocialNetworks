@@ -5,7 +5,27 @@
     "email": "nicholasmartin@yahoo.com",
     "birthdate": "1984-08-05",
     "phone": "(234)985-6094x5373",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        15,
+        64,
+        52,
+        36,
+        1,
+        50,
+        14,
+        45,
+        19,
+        11,
+        13,
+        73,
+        48
+    ],
+    "login locations": [
+        [
+            -121.958824,
+            38.346892
+        ]
+    ],
+    "relationships": []
 }

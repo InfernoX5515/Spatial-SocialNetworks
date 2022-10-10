@@ -5,7 +5,26 @@
     "email": "powellapril@hotmail.com",
     "birthdate": "2001-12-10",
     "phone": "001-926-114-3590x412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        8,
+        17,
+        11,
+        13,
+        49,
+        18,
+        31,
+        0,
+        72,
+        33,
+        71,
+        4
+    ],
+    "login locations": [
+        [
+            -122.40586,
+            37.774571
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "castrokenneth@hotmail.com",
     "birthdate": "1930-12-05",
     "phone": "+1-536-848-0456x0212",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        0,
+        18,
+        19,
+        16
+    ],
+    "login locations": [
+        [
+            -117.162081,
+            32.709856
+        ]
+    ],
+    "relationships": []
 }

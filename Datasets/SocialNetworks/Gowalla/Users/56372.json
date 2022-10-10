@@ -5,7 +5,26 @@
     "email": "charles78@hotmail.com",
     "birthdate": "1954-03-15",
     "phone": "047.555.7713x247",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        51,
+        8,
+        10,
+        24,
+        46,
+        28,
+        34,
+        68,
+        31,
+        17,
+        25,
+        71
+    ],
+    "login locations": [
+        [
+            -118.362787,
+            34.060072
+        ]
+    ],
+    "relationships": []
 }

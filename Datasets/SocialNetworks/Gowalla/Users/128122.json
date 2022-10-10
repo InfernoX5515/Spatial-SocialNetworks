@@ -5,7 +5,15 @@
     "email": "xschmidt@gmail.com",
     "birthdate": "1928-05-22",
     "phone": "876-928-3160",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        19
+    ],
+    "login locations": [
+        [
+            -117.909258,
+            33.785138
+        ]
+    ],
+    "relationships": []
 }

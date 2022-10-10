@@ -5,7 +5,37 @@
     "email": "clayton28@gmail.com",
     "birthdate": "1988-08-12",
     "phone": "674-206-4521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        54,
+        30,
+        43,
+        5,
+        18,
+        53,
+        37,
+        8,
+        26,
+        40,
+        6,
+        46
+    ],
+    "login locations": [
+        [
+            -122.430517,
+            37.776187
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.0757575757576
+            ],
+            [
+                1655,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

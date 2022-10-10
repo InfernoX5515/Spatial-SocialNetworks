@@ -5,7 +5,23 @@
     "email": "brian51@hotmail.com",
     "birthdate": "1980-08-30",
     "phone": "001-570-119-6361x953",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        34,
+        74,
+        25,
+        48,
+        53,
+        40,
+        41,
+        43,
+        10
+    ],
+    "login locations": [
+        [
+            -122.429305,
+            37.784207
+        ]
+    ],
+    "relationships": []
 }

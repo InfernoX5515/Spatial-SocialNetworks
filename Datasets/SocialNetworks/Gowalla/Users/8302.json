@@ -5,7 +5,32 @@
     "email": "amandaacosta@hotmail.com",
     "birthdate": "1958-12-04",
     "phone": "122.740.0595x8804",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        57,
+        19,
+        12,
+        34,
+        50,
+        35,
+        57
+    ],
+    "login locations": [
+        [
+            -122.352965,
+            37.811853
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1900,
+                0.0142857142857
+            ],
+            [
+                9193,
+                0.048
+            ]
+        ]
+    ]
 }

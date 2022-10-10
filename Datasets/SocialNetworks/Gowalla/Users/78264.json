@@ -5,7 +5,30 @@
     "email": "sarahgiles@yahoo.com",
     "birthdate": "1943-06-19",
     "phone": "(616)442-6461x5878",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        53,
+        2,
+        7,
+        36,
+        4
+    ],
+    "login locations": [
+        [
+            -122.089321,
+            37.709411
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                78262,
+                0.0322580645161
+            ],
+            [
+                78263,
+                0.0333333333333
+            ]
+        ]
+    ]
 }

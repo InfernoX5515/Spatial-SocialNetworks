@@ -5,7 +5,20 @@
     "email": "drandolph@yahoo.com",
     "birthdate": "1980-03-21",
     "phone": "001-755-454-3334",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        6,
+        41,
+        4,
+        25,
+        39,
+        4
+    ],
+    "login locations": [
+        [
+            -118.378002,
+            34.11355
+        ]
+    ],
+    "relationships": []
 }

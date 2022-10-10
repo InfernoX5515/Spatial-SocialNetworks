@@ -5,7 +5,19 @@
     "email": "pstark@yahoo.com",
     "birthdate": "1995-02-05",
     "phone": "778.144.4868",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        46,
+        0,
+        8,
+        44,
+        69
+    ],
+    "login locations": [
+        [
+            -117.962175,
+            33.774899
+        ]
+    ],
+    "relationships": []
 }

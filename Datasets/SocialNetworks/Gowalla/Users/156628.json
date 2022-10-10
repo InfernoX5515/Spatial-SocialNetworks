@@ -5,7 +5,16 @@
     "email": "cassidysingleton@gmail.com",
     "birthdate": "1956-08-19",
     "phone": "+1-513-086-5625x4294",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        51,
+        45
+    ],
+    "login locations": [
+        [
+            -121.980398,
+            37.329871
+        ]
+    ],
+    "relationships": []
 }

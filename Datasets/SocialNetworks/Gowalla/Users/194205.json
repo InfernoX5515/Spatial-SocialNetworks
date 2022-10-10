@@ -5,7 +5,20 @@
     "email": "gregory19@gmail.com",
     "birthdate": "1949-05-03",
     "phone": "(399)451-1133",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        33,
+        10,
+        59,
+        11,
+        23,
+        64
+    ],
+    "login locations": [
+        [
+            -122.395825,
+            37.892303
+        ]
+    ],
+    "relationships": []
 }

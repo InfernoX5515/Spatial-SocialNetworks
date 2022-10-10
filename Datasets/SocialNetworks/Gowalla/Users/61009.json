@@ -5,7 +5,26 @@
     "email": "kayla55@gmail.com",
     "birthdate": "2013-03-11",
     "phone": "(254)721-8061",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        41,
+        37,
+        64,
+        55,
+        56,
+        30,
+        1,
+        70,
+        59,
+        51,
+        28,
+        39
+    ],
+    "login locations": [
+        [
+            -117.825746,
+            33.694509
+        ]
+    ],
+    "relationships": []
 }

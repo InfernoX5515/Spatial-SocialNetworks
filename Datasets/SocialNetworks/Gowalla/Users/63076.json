@@ -5,7 +5,27 @@
     "email": "chandlermegan@gmail.com",
     "birthdate": "2017-12-03",
     "phone": "+1-362-898-1830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        16,
+        53,
+        15,
+        57,
+        29,
+        71,
+        53,
+        37,
+        14,
+        67,
+        36,
+        24,
+        52
+    ],
+    "login locations": [
+        [
+            -118.396059,
+            33.980689
+        ]
+    ],
+    "relationships": []
 }

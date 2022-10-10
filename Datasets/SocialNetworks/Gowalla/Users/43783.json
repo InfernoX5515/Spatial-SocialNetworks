@@ -5,7 +5,25 @@
     "email": "gonzalesmichael@gmail.com",
     "birthdate": "1966-04-10",
     "phone": "(686)385-8104x29002",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        37,
+        30,
+        58,
+        51,
+        28,
+        32,
+        73,
+        45,
+        9,
+        31,
+        74
+    ],
+    "login locations": [
+        [
+            -122.374931,
+            37.795165
+        ]
+    ],
+    "relationships": []
 }

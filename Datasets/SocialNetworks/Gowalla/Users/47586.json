@@ -5,7 +5,17 @@
     "email": "julie93@hotmail.com",
     "birthdate": "1944-03-23",
     "phone": "(640)026-8529x82238",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        39,
+        13,
+        26
+    ],
+    "login locations": [
+        [
+            -122.342933,
+            37.79044
+        ]
+    ],
+    "relationships": []
 }

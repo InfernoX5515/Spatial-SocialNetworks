@@ -5,7 +5,23 @@
     "email": "robert18@gmail.com",
     "birthdate": "1983-07-01",
     "phone": "393-265-1572x0209",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        20,
+        10,
+        1,
+        35,
+        56,
+        11,
+        49,
+        74,
+        13
+    ],
+    "login locations": [
+        [
+            -118.399167,
+            34.087591
+        ]
+    ],
+    "relationships": []
 }

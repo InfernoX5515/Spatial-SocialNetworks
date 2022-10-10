@@ -5,7 +5,25 @@
     "email": "hodgescarol@hotmail.com",
     "birthdate": "2015-08-12",
     "phone": "(610)268-8758",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        71,
+        37,
+        51,
+        36,
+        67,
+        31,
+        44,
+        58,
+        31,
+        74,
+        41
+    ],
+    "login locations": [
+        [
+            -118.489114,
+            34.01134
+        ]
+    ],
+    "relationships": []
 }

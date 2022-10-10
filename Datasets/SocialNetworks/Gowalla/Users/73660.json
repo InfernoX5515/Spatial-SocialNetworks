@@ -5,7 +5,27 @@
     "email": "amy10@hotmail.com",
     "birthdate": "1982-12-27",
     "phone": "337.006.8941x0729",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        24,
+        67,
+        28,
+        65,
+        63,
+        23,
+        70,
+        37,
+        10,
+        67,
+        25,
+        45,
+        61
+    ],
+    "login locations": [
+        [
+            -122.396696,
+            37.776117
+        ]
+    ],
+    "relationships": []
 }

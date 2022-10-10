@@ -5,7 +5,16 @@
     "email": "gerald46@hotmail.com",
     "birthdate": "1983-07-04",
     "phone": "001-651-741-2979",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        28,
+        27
+    ],
+    "login locations": [
+        [
+            -119.77291,
+            36.791722
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,31 @@
     "email": "sandramorton@gmail.com",
     "birthdate": "1958-07-12",
     "phone": "001-782-155-2850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        54,
+        56,
+        59,
+        9,
+        28,
+        20
+    ],
+    "login locations": [
+        [
+            -122.412948,
+            37.761553
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22412,
+                0.0714285714286
+            ],
+            [
+                22414,
+                0.06
+            ]
+        ]
+    ]
 }

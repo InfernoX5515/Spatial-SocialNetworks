@@ -5,7 +5,19 @@
     "email": "brichardson@gmail.com",
     "birthdate": "2004-05-09",
     "phone": "001-726-984-3614",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        41,
+        39,
+        50,
+        58,
+        2
+    ],
+    "login locations": [
+        [
+            -121.15729,
+            38.67124
+        ]
+    ],
+    "relationships": []
 }

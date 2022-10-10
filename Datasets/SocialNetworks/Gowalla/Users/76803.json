@@ -5,7 +5,25 @@
     "email": "andrewssteven@hotmail.com",
     "birthdate": "1923-07-27",
     "phone": "805-239-5067x89956",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        27,
+        52,
+        43,
+        33,
+        41,
+        75,
+        52,
+        44,
+        41,
+        39,
+        30
+    ],
+    "login locations": [
+        [
+            -117.360752,
+            33.960712
+        ]
+    ],
+    "relationships": []
 }

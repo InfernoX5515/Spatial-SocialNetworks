@@ -5,7 +5,23 @@
     "email": "lthompson@hotmail.com",
     "birthdate": "1982-07-21",
     "phone": "001-867-370-4809x17798",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        40,
+        61,
+        73,
+        35,
+        50,
+        34,
+        63,
+        6,
+        43
+    ],
+    "login locations": [
+        [
+            -118.331211,
+            34.053154
+        ]
+    ],
+    "relationships": []
 }

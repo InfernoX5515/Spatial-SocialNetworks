@@ -5,7 +5,25 @@
     "email": "patrick10@hotmail.com",
     "birthdate": "1990-10-25",
     "phone": "001-755-700-9849x4876",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        23,
+        72,
+        33,
+        73,
+        44,
+        50,
+        56,
+        58,
+        58,
+        5,
+        14
+    ],
+    "login locations": [
+        [
+            -122.464284,
+            37.783006
+        ]
+    ],
+    "relationships": []
 }

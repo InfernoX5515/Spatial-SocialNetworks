@@ -5,7 +5,20 @@
     "email": "brandttroy@hotmail.com",
     "birthdate": "1922-10-31",
     "phone": "155.868.7316",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        50,
+        75,
+        29,
+        40,
+        62,
+        32
+    ],
+    "login locations": [
+        [
+            -118.324155,
+            34.068975
+        ]
+    ],
+    "relationships": []
 }

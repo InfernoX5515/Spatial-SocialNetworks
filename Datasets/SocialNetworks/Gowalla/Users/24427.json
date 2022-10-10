@@ -5,7 +5,21 @@
     "email": "hjohnson@gmail.com",
     "birthdate": "1959-12-24",
     "phone": "(840)408-3853",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        39,
+        0,
+        68,
+        75,
+        43,
+        9,
+        72
+    ],
+    "login locations": [
+        [
+            -122.392575,
+            37.768031
+        ]
+    ],
+    "relationships": []
 }

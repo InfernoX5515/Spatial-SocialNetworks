@@ -5,7 +5,21 @@
     "email": "alvarezdaniel@gmail.com",
     "birthdate": "1983-03-29",
     "phone": "(304)687-4863x2708",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        29,
+        23,
+        33,
+        5,
+        55,
+        33,
+        11
+    ],
+    "login locations": [
+        [
+            -117.91341,
+            33.688197
+        ]
+    ],
+    "relationships": []
 }

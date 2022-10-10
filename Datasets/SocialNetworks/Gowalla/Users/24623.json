@@ -5,7 +5,25 @@
     "email": "yjohnson@hotmail.com",
     "birthdate": "1986-10-20",
     "phone": "647-878-8078",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        71,
+        16,
+        19,
+        73,
+        62,
+        49,
+        46,
+        39,
+        62,
+        45,
+        30
+    ],
+    "login locations": [
+        [
+            -122.404167,
+            37.767304
+        ]
+    ],
+    "relationships": []
 }

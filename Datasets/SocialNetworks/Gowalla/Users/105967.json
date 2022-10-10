@@ -5,7 +5,27 @@
     "email": "beverlyhamilton@yahoo.com",
     "birthdate": "1972-03-29",
     "phone": "+1-814-653-2342x8780",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        30,
+        26,
+        64,
+        55,
+        38,
+        71,
+        7,
+        17,
+        31,
+        13,
+        69,
+        9,
+        25
+    ],
+    "login locations": [
+        [
+            -118.057699,
+            33.812054
+        ]
+    ],
+    "relationships": []
 }

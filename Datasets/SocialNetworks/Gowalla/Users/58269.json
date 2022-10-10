@@ -5,7 +5,25 @@
     "email": "guzmanlori@gmail.com",
     "birthdate": "1970-12-22",
     "phone": "+1-752-499-5656x81711",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        58,
+        47,
+        59,
+        44,
+        21,
+        29,
+        51,
+        13,
+        69,
+        11,
+        1
+    ],
+    "login locations": [
+        [
+            -118.315316,
+            34.074478
+        ]
+    ],
+    "relationships": []
 }

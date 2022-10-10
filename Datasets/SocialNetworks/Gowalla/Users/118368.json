@@ -5,7 +5,12 @@
     "email": "xadkins@gmail.com",
     "birthdate": "1938-02-13",
     "phone": "+1-006-241-0011x9701",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.975002,
+            37.548712
+        ]
+    ],
+    "relationships": []
 }

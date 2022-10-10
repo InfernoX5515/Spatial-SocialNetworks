@@ -5,7 +5,17 @@
     "email": "kellygardner@yahoo.com",
     "birthdate": "2012-02-05",
     "phone": "(137)512-4199x828",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        39,
+        68,
+        59
+    ],
+    "login locations": [
+        [
+            -121.931478,
+            37.393587
+        ]
+    ],
+    "relationships": []
 }

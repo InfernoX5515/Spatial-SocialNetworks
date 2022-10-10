@@ -5,7 +5,25 @@
     "email": "ucharles@hotmail.com",
     "birthdate": "2021-06-01",
     "phone": "0552629487",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        36,
+        51,
+        52,
+        4,
+        60,
+        9,
+        21,
+        52,
+        20,
+        39,
+        67
+    ],
+    "login locations": [
+        [
+            -121.872181,
+            37.319099
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "obrienedward@yahoo.com",
     "birthdate": "1969-05-31",
     "phone": "001-303-415-3627x91205",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        75,
+        11,
+        7,
+        37,
+        6,
+        54,
+        26,
+        23,
+        0
+    ],
+    "login locations": [
+        [
+            -122.281612,
+            37.99472
+        ]
+    ],
+    "relationships": []
 }

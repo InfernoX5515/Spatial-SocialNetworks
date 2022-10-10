@@ -5,7 +5,37 @@
     "email": "woodsjennifer@hotmail.com",
     "birthdate": "1999-06-26",
     "phone": "001-022-679-9649",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        3,
+        36,
+        0,
+        30,
+        68,
+        30,
+        39,
+        2,
+        71,
+        55,
+        13,
+        45
+    ],
+    "login locations": [
+        [
+            -118.117119,
+            34.002003
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                34318,
+                0.0267857142857
+            ],
+            [
+                118255,
+                0.25
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,22 @@
     "email": "qgolden@gmail.com",
     "birthdate": "1997-09-22",
     "phone": "(836)980-0416x241",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        33,
+        62,
+        18,
+        58,
+        32,
+        36,
+        33,
+        59
+    ],
+    "login locations": [
+        [
+            -122.52039,
+            37.900769
+        ]
+    ],
+    "relationships": []
 }

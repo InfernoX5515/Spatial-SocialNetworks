@@ -5,7 +5,24 @@
     "email": "littlejonathan@gmail.com",
     "birthdate": "1971-02-11",
     "phone": "001-078-923-2255",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        4,
+        32,
+        51,
+        8,
+        32,
+        34,
+        65,
+        66,
+        28,
+        23
+    ],
+    "login locations": [
+        [
+            -118.251748,
+            33.911936
+        ]
+    ],
+    "relationships": []
 }

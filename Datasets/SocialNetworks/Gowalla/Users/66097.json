@@ -5,7 +5,25 @@
     "email": "kimberly65@hotmail.com",
     "birthdate": "2007-08-28",
     "phone": "582.989.7565x6373",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        24,
+        23,
+        12,
+        28,
+        71,
+        68,
+        9,
+        54,
+        24,
+        31,
+        49
+    ],
+    "login locations": [
+        [
+            -118.265705,
+            33.83537
+        ]
+    ],
+    "relationships": []
 }

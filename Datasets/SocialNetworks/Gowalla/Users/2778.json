@@ -5,7 +5,25 @@
     "email": "sfarmer@yahoo.com",
     "birthdate": "1997-03-29",
     "phone": "001-538-285-2634",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10
+    ],
+    "login locations": [
+        [
+            -122.553313,
+            37.981814
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                65534,
+                0.04
+            ],
+            [
+                65535,
+                0.16
+            ]
+        ]
+    ]
 }

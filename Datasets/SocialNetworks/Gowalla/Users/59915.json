@@ -5,7 +5,36 @@
     "email": "danielle88@yahoo.com",
     "birthdate": "1987-12-15",
     "phone": "431.223.7821x836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        42,
+        27,
+        67,
+        12,
+        61,
+        52,
+        25,
+        37,
+        23,
+        2,
+        19
+    ],
+    "login locations": [
+        [
+            -122.406271,
+            37.787451
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                119852,
+                0.0232558139535
+            ],
+            [
+                119852,
+                0.0232558139535
+            ]
+        ]
+    ]
 }

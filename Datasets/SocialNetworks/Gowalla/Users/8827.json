@@ -5,7 +5,12 @@
     "email": "hwatson@yahoo.com",
     "birthdate": "1989-04-17",
     "phone": "513-450-7996x374",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.18737,
+            32.744363
+        ]
+    ],
+    "relationships": []
 }

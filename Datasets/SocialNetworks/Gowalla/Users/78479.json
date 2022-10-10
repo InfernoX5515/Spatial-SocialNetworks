@@ -5,7 +5,15 @@
     "email": "monica00@hotmail.com",
     "birthdate": "2001-03-21",
     "phone": "(415)791-8577",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        37
+    ],
+    "login locations": [
+        [
+            -121.935267,
+            37.359336
+        ]
+    ],
+    "relationships": []
 }

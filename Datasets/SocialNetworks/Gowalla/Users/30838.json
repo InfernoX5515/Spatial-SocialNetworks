@@ -5,7 +5,27 @@
     "email": "shawn03@yahoo.com",
     "birthdate": "1986-12-07",
     "phone": "+1-669-213-1815x476",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        22,
+        36,
+        7,
+        15,
+        37,
+        18,
+        8,
+        20,
+        41,
+        57,
+        14,
+        48,
+        35
+    ],
+    "login locations": [
+        [
+            -122.404638,
+            38.455408
+        ]
+    ],
+    "relationships": []
 }

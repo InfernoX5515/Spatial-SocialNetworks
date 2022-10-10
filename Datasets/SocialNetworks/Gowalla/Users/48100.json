@@ -5,7 +5,26 @@
     "email": "qmoore@yahoo.com",
     "birthdate": "1980-06-19",
     "phone": "(445)403-9011x20482",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        1,
+        54,
+        2,
+        15,
+        69,
+        25,
+        26,
+        34,
+        37,
+        54,
+        71,
+        17
+    ],
+    "login locations": [
+        [
+            -117.915639,
+            33.809654
+        ]
+    ],
+    "relationships": []
 }

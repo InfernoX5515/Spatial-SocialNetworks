@@ -5,7 +5,23 @@
     "email": "james01@hotmail.com",
     "birthdate": "2017-06-28",
     "phone": "447-253-2133",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        50,
+        0,
+        31,
+        20,
+        51,
+        30,
+        34,
+        39,
+        41
+    ],
+    "login locations": [
+        [
+            -117.888263,
+            34.12909
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,36 @@
     "email": "fjohnson@yahoo.com",
     "birthdate": "2019-10-20",
     "phone": "123-912-1117",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        51,
+        53,
+        34,
+        36,
+        51,
+        52,
+        31,
+        26,
+        24,
+        70,
+        48
+    ],
+    "login locations": [
+        [
+            -117.160321,
+            32.77541
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                523,
+                0.0365296803653
+            ],
+            [
+                523,
+                0.0365296803653
+            ]
+        ]
+    ]
 }

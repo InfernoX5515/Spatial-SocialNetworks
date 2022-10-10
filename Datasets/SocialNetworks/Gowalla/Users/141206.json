@@ -5,7 +5,27 @@
     "email": "brandon77@hotmail.com",
     "birthdate": "2007-04-19",
     "phone": "+1-832-777-8159x9615",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        67,
+        53,
+        68,
+        31,
+        43,
+        58,
+        73,
+        60,
+        44,
+        39,
+        71,
+        14,
+        61
+    ],
+    "login locations": [
+        [
+            -117.983099,
+            33.847191
+        ]
+    ],
+    "relationships": []
 }

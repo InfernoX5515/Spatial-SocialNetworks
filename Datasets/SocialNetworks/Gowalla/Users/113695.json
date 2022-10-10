@@ -5,7 +5,23 @@
     "email": "john71@gmail.com",
     "birthdate": "1977-03-12",
     "phone": "(478)257-8607x982",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        50,
+        61,
+        42,
+        13,
+        21,
+        20,
+        17,
+        21,
+        47
+    ],
+    "login locations": [
+        [
+            -122.420113,
+            37.786787
+        ]
+    ],
+    "relationships": []
 }

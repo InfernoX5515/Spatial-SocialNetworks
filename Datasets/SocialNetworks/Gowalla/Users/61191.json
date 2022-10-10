@@ -5,7 +5,23 @@
     "email": "contrerasscott@yahoo.com",
     "birthdate": "2017-08-05",
     "phone": "001-812-679-6566x2254",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        45,
+        57,
+        24,
+        44,
+        29,
+        24,
+        63,
+        43,
+        45
+    ],
+    "login locations": [
+        [
+            -117.858385,
+            33.648341
+        ]
+    ],
+    "relationships": []
 }

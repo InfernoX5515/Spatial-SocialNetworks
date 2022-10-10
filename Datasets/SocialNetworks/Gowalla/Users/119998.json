@@ -5,7 +5,19 @@
     "email": "nguyenjeffrey@yahoo.com",
     "birthdate": "1976-11-21",
     "phone": "(180)470-8041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        7,
+        50,
+        68,
+        15,
+        72
+    ],
+    "login locations": [
+        [
+            -117.207201,
+            32.737674
+        ]
+    ],
+    "relationships": []
 }

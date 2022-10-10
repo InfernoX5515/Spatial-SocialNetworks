@@ -5,7 +5,36 @@
     "email": "amandaandrade@gmail.com",
     "birthdate": "1934-06-26",
     "phone": "788.787.6984",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        27,
+        0,
+        37,
+        33,
+        14,
+        41,
+        29,
+        71,
+        37,
+        48,
+        14
+    ],
+    "login locations": [
+        [
+            -122.409458,
+            37.801434
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.029197080292
+            ],
+            [
+                376,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,21 @@
     "email": "shawanne@gmail.com",
     "birthdate": "1977-08-17",
     "phone": "569.737.8611x692",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        71,
+        27,
+        12,
+        28,
+        30,
+        24,
+        14
+    ],
+    "login locations": [
+        [
+            -122.390447,
+            37.873734
+        ]
+    ],
+    "relationships": []
 }

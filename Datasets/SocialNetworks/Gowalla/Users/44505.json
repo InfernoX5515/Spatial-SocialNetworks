@@ -5,7 +5,25 @@
     "email": "brenda69@yahoo.com",
     "birthdate": "2002-10-25",
     "phone": "200-116-2234",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75
+    ],
+    "login locations": [
+        [
+            -118.331295,
+            34.075448
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                138107,
+                0.294117647059
+            ],
+            [
+                48108,
+                0.125
+            ]
+        ]
+    ]
 }

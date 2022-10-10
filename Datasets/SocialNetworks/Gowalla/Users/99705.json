@@ -5,7 +5,22 @@
     "email": "nterrell@gmail.com",
     "birthdate": "1937-05-26",
     "phone": "001-978-997-0720x578",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        23,
+        17,
+        51,
+        3,
+        35,
+        0,
+        0,
+        4
+    ],
+    "login locations": [
+        [
+            -117.239973,
+            32.999381
+        ]
+    ],
+    "relationships": []
 }

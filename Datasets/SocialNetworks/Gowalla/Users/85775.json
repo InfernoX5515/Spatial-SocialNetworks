@@ -5,7 +5,14 @@
     "email": "amanda07@hotmail.com",
     "birthdate": "1930-02-22",
     "phone": "+1-425-278-9719",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65
+    ],
+    "login locations": [
+        [
+            -122.407927,
+            37.787575
+        ]
+    ],
+    "relationships": []
 }

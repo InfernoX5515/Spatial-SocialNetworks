@@ -5,7 +5,38 @@
     "email": "raymondconway@hotmail.com",
     "birthdate": "1986-11-21",
     "phone": "862.237.9379x742",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        59,
+        51,
+        53,
+        61,
+        34,
+        67,
+        57,
+        65,
+        51,
+        40,
+        46,
+        71,
+        20
+    ],
+    "login locations": [
+        [
+            -119.767053,
+            36.807225
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.0266666666667
+            ],
+            [
+                44006,
+                0.061320754717
+            ]
+        ]
+    ]
 }

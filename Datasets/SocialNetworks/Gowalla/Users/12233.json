@@ -5,7 +5,24 @@
     "email": "seanherman@yahoo.com",
     "birthdate": "1927-06-22",
     "phone": "001-627-163-8973",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        70,
+        27,
+        68,
+        16,
+        61,
+        0,
+        70,
+        13,
+        30,
+        14
+    ],
+    "login locations": [
+        [
+            -118.372017,
+            34.124874
+        ]
+    ],
+    "relationships": []
 }

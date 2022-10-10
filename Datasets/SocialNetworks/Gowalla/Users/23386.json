@@ -5,7 +5,27 @@
     "email": "ptrujillo@gmail.com",
     "birthdate": "1975-05-30",
     "phone": "+1-210-061-6313x046",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        31,
+        26,
+        10,
+        61,
+        62,
+        37,
+        31,
+        9,
+        24,
+        44,
+        6,
+        52,
+        59
+    ],
+    "login locations": [
+        [
+            -117.095464,
+            32.636337
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "samanthamcbride@gmail.com",
     "birthdate": "1989-11-13",
     "phone": "5853338457",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        64,
+        31
+    ],
+    "login locations": [
+        [
+            -121.491076,
+            38.556424
+        ]
+    ],
+    "relationships": []
 }

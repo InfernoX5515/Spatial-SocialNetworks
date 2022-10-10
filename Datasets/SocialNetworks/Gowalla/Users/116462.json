@@ -5,7 +5,39 @@
     "email": "patriciatorres@hotmail.com",
     "birthdate": "2016-01-19",
     "phone": "+1-516-942-7078",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        14,
+        62,
+        59,
+        26,
+        39,
+        16,
+        1,
+        69,
+        9,
+        15,
+        34,
+        29,
+        59,
+        71
+    ],
+    "login locations": [
+        [
+            -118.291957,
+            34.099482
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                24410,
+                0.16
+            ],
+            [
+                90809,
+                0.01
+            ]
+        ]
+    ]
 }

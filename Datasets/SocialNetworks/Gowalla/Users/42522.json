@@ -5,7 +5,21 @@
     "email": "vasquezcarlos@gmail.com",
     "birthdate": "1946-02-23",
     "phone": "9925224725",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        50,
+        72,
+        49,
+        41,
+        44,
+        63,
+        21
+    ],
+    "login locations": [
+        [
+            -118.220464,
+            33.890761
+        ]
+    ],
+    "relationships": []
 }

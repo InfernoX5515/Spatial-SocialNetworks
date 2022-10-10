@@ -5,7 +5,28 @@
     "email": "watsonkeith@hotmail.com",
     "birthdate": "1984-04-07",
     "phone": "345.398.7044x1818",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        4,
+        20,
+        55
+    ],
+    "login locations": [
+        [
+            -122.412483,
+            37.794396
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1121,
+                0.01
+            ],
+            [
+                9339,
+                0.111111111111
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,26 @@
     "email": "derekflores@hotmail.com",
     "birthdate": "1917-05-10",
     "phone": "+1-733-606-1321x8098",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        5
+    ],
+    "login locations": [
+        [
+            -118.278875,
+            34.126884
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                31294,
+                0.0714285714286
+            ],
+            [
+                31294,
+                0.0714285714286
+            ]
+        ]
+    ]
 }

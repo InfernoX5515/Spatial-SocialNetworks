@@ -5,7 +5,28 @@
     "email": "frenchmonica@hotmail.com",
     "birthdate": "1955-01-08",
     "phone": "681.714.4903x2536",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        43,
+        64,
+        44,
+        66,
+        39,
+        65,
+        66,
+        17,
+        68,
+        4,
+        50,
+        66,
+        7,
+        64
+    ],
+    "login locations": [
+        [
+            -121.970584,
+            37.322649
+        ]
+    ],
+    "relationships": []
 }

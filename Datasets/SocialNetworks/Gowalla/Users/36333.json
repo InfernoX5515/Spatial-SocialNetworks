@@ -5,7 +5,16 @@
     "email": "david38@hotmail.com",
     "birthdate": "1944-10-20",
     "phone": "+1-370-051-9330",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        30,
+        38
+    ],
+    "login locations": [
+        [
+            -118.423655,
+            33.972738
+        ]
+    ],
+    "relationships": []
 }

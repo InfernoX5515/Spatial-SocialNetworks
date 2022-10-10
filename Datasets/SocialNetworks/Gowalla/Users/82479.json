@@ -5,7 +5,28 @@
     "email": "aaron07@yahoo.com",
     "birthdate": "1999-11-12",
     "phone": "(483)207-2930",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        33,
+        75,
+        71,
+        13,
+        41,
+        48,
+        46,
+        15,
+        38,
+        41,
+        22,
+        64,
+        13,
+        1
+    ],
+    "login locations": [
+        [
+            -122.160677,
+            37.440085
+        ]
+    ],
+    "relationships": []
 }

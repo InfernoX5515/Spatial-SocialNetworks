@@ -5,7 +5,33 @@
     "email": "shawnrobinson@gmail.com",
     "birthdate": "1964-07-25",
     "phone": "(705)562-8008",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        57,
+        75,
+        15,
+        53,
+        49,
+        46,
+        0,
+        27
+    ],
+    "login locations": [
+        [
+            -122.413731,
+            37.770827
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                126,
+                0.0376712328767
+            ],
+            [
+                476,
+                0.01
+            ]
+        ]
+    ]
 }

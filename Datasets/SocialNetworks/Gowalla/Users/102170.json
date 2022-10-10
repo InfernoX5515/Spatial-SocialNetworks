@@ -5,7 +5,26 @@
     "email": "dale54@yahoo.com",
     "birthdate": "2005-03-18",
     "phone": "429-730-1275",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        63
+    ],
+    "login locations": [
+        [
+            -119.674745,
+            36.675955
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                16443,
+                0.18
+            ],
+            [
+                16443,
+                0.18
+            ]
+        ]
+    ]
 }

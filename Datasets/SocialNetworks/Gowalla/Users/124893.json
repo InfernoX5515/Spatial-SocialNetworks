@@ -5,7 +5,26 @@
     "email": "bmorgan@hotmail.com",
     "birthdate": "1943-09-09",
     "phone": "001-825-262-1229x127",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        38,
+        73,
+        50,
+        42,
+        8,
+        8,
+        25,
+        25,
+        18,
+        33,
+        48,
+        40
+    ],
+    "login locations": [
+        [
+            -122.426709,
+            37.730183
+        ]
+    ],
+    "relationships": []
 }

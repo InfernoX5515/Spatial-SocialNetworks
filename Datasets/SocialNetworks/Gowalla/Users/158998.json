@@ -5,7 +5,25 @@
     "email": "tara91@yahoo.com",
     "birthdate": "2018-07-19",
     "phone": "+1-814-283-8124x85023",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        8,
+        45,
+        9,
+        18,
+        11,
+        55,
+        7,
+        8,
+        71,
+        56,
+        34
+    ],
+    "login locations": [
+        [
+            -122.283788,
+            37.827191
+        ]
+    ],
+    "relationships": []
 }

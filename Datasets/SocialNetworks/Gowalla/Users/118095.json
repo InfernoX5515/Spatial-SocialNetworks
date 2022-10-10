@@ -5,7 +5,18 @@
     "email": "dylan74@gmail.com",
     "birthdate": "1911-12-12",
     "phone": "001-978-531-1040x941",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        22,
+        33,
+        25,
+        52
+    ],
+    "login locations": [
+        [
+            -122.493707,
+            38.521173
+        ]
+    ],
+    "relationships": []
 }

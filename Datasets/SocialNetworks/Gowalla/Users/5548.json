@@ -5,7 +5,34 @@
     "email": "jenniferleon@gmail.com",
     "birthdate": "1959-04-15",
     "phone": "(723)176-2457x7384",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        1,
+        42,
+        22,
+        58,
+        52,
+        23,
+        46,
+        48,
+        31
+    ],
+    "login locations": [
+        [
+            -122.387074,
+            37.786204
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                600,
+                0.0145454545455
+            ],
+            [
+                2170,
+                0.0196078431373
+            ]
+        ]
+    ]
 }

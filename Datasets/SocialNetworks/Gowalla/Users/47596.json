@@ -5,7 +5,27 @@
     "email": "gregoryblack@gmail.com",
     "birthdate": "2014-07-02",
     "phone": "574-711-1070x24510",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        53,
+        23,
+        55,
+        64,
+        52,
+        18,
+        34,
+        50,
+        25,
+        63,
+        21,
+        72,
+        64
+    ],
+    "login locations": [
+        [
+            -122.410448,
+            37.77769
+        ]
+    ],
+    "relationships": []
 }

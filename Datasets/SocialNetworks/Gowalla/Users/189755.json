@@ -5,7 +5,15 @@
     "email": "wday@gmail.com",
     "birthdate": "1920-06-04",
     "phone": "+1-134-781-7592x958",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        64
+    ],
+    "login locations": [
+        [
+            -117.362235,
+            34.026539
+        ]
+    ],
+    "relationships": []
 }

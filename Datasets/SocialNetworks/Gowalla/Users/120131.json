@@ -5,7 +5,17 @@
     "email": "qneal@gmail.com",
     "birthdate": "1987-11-22",
     "phone": "(034)112-8201x241",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        44,
+        69,
+        68
+    ],
+    "login locations": [
+        [
+            -122.416451,
+            37.795423
+        ]
+    ],
+    "relationships": []
 }

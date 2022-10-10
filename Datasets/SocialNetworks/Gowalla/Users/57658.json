@@ -5,7 +5,19 @@
     "email": "smithcharles@gmail.com",
     "birthdate": "1942-09-12",
     "phone": "(441)865-1248",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        23,
+        58,
+        28,
+        73,
+        53
+    ],
+    "login locations": [
+        [
+            -117.155879,
+            32.709653
+        ]
+    ],
+    "relationships": []
 }

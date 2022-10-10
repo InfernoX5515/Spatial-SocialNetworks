@@ -5,7 +5,20 @@
     "email": "brandonwood@gmail.com",
     "birthdate": "1941-09-02",
     "phone": "(846)239-3606x04695",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        17,
+        29,
+        24,
+        52,
+        41,
+        45
+    ],
+    "login locations": [
+        [
+            -118.330938,
+            33.922569
+        ]
+    ],
+    "relationships": []
 }

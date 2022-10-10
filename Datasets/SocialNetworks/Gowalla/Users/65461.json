@@ -5,7 +5,23 @@
     "email": "josephjohnson@gmail.com",
     "birthdate": "1933-11-06",
     "phone": "+1-240-882-1399x219",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        6,
+        33,
+        35,
+        35,
+        28,
+        40,
+        53,
+        71,
+        55
+    ],
+    "login locations": [
+        [
+            -120.803463,
+            35.619948
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "bryan16@yahoo.com",
     "birthdate": "1997-07-20",
     "phone": "+1-378-280-6378x5101",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        45,
+        53
+    ],
+    "login locations": [
+        [
+            -122.126937,
+            37.720036
+        ]
+    ],
+    "relationships": []
 }

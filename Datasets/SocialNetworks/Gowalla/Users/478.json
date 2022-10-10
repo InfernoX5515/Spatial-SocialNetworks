@@ -5,7 +5,36 @@
     "email": "victorgallegos@hotmail.com",
     "birthdate": "2008-06-21",
     "phone": "879.103.7720",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        30,
+        28,
+        44,
+        56,
+        65,
+        54,
+        66,
+        54,
+        26,
+        63,
+        72
+    ],
+    "login locations": [
+        [
+            -122.414156,
+            37.770215
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.160583941606
+            ],
+            [
+                82,
+                0.0982142857143
+            ]
+        ]
+    ]
 }

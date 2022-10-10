@@ -5,7 +5,22 @@
     "email": "rhondasmith@gmail.com",
     "birthdate": "1947-06-16",
     "phone": "4929293439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        58,
+        34,
+        58,
+        18,
+        65,
+        7,
+        3,
+        14
+    ],
+    "login locations": [
+        [
+            -118.345488,
+            34.112649
+        ]
+    ],
+    "relationships": []
 }

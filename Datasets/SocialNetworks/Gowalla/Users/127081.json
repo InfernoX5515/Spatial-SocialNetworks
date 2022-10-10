@@ -5,7 +5,12 @@
     "email": "monique32@hotmail.com",
     "birthdate": "2022-09-08",
     "phone": "001-144-361-1993x7070",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.912904,
+            38.408715
+        ]
+    ],
+    "relationships": []
 }

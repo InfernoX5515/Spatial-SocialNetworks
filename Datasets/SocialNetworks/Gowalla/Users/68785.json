@@ -5,7 +5,27 @@
     "email": "imorris@hotmail.com",
     "birthdate": "1908-04-28",
     "phone": "493.607.9317",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        30,
+        7,
+        38,
+        25,
+        55,
+        51,
+        39,
+        36,
+        60,
+        55,
+        50,
+        53,
+        11
+    ],
+    "login locations": [
+        [
+            -118.353796,
+            34.150522
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,32 @@
     "email": "cheryl67@gmail.com",
     "birthdate": "1913-03-29",
     "phone": "+1-007-478-0509x6051",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        61,
+        74,
+        75,
+        73,
+        55,
+        29,
+        34
+    ],
+    "login locations": [
+        [
+            -117.861337,
+            34.119383
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                40051,
+                0.153846153846
+            ],
+            [
+                40051,
+                0.153846153846
+            ]
+        ]
+    ]
 }

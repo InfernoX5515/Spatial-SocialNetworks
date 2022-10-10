@@ -5,7 +5,26 @@
     "email": "diazsean@hotmail.com",
     "birthdate": "1972-10-01",
     "phone": "810.117.3300x90820",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        11,
+        50,
+        7,
+        1,
+        48,
+        40,
+        67,
+        63,
+        53,
+        28,
+        66,
+        55
+    ],
+    "login locations": [
+        [
+            -122.175588,
+            37.450088
+        ]
+    ],
+    "relationships": []
 }

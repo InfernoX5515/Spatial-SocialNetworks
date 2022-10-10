@@ -5,7 +5,16 @@
     "email": "knapptami@yahoo.com",
     "birthdate": "1953-11-01",
     "phone": "(213)403-5614",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        26,
+        61
+    ],
+    "login locations": [
+        [
+            -117.820837,
+            33.675423
+        ]
+    ],
+    "relationships": []
 }

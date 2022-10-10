@@ -5,7 +5,15 @@
     "email": "tjohnson@gmail.com",
     "birthdate": "1928-02-02",
     "phone": "001-995-007-5450x3689",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        20
+    ],
+    "login locations": [
+        [
+            -117.205171,
+            33.003268
+        ]
+    ],
+    "relationships": []
 }

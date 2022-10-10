@@ -5,7 +5,16 @@
     "email": "gonzalezjoseph@yahoo.com",
     "birthdate": "2015-01-23",
     "phone": "1350710609",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        6,
+        43
+    ],
+    "login locations": [
+        [
+            -122.033243,
+            37.378977
+        ]
+    ],
+    "relationships": []
 }

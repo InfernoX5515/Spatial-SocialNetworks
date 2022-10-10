@@ -5,7 +5,27 @@
     "email": "garnerzachary@hotmail.com",
     "birthdate": "1943-10-12",
     "phone": "(760)725-4092",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        50,
+        53,
+        25,
+        0,
+        32,
+        36,
+        54,
+        15,
+        69,
+        31,
+        38,
+        74,
+        66
+    ],
+    "login locations": [
+        [
+            -118.052874,
+            34.16279
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "jack84@hotmail.com",
     "birthdate": "2010-01-10",
     "phone": "8993167456",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.414211,
+            37.77466
+        ]
+    ],
+    "relationships": []
 }

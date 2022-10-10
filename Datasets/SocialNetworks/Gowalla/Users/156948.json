@@ -5,7 +5,26 @@
     "email": "amyhinton@hotmail.com",
     "birthdate": "1960-09-26",
     "phone": "+1-448-040-1811x3110",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        38,
+        74,
+        7,
+        33,
+        62,
+        9,
+        75,
+        12,
+        71,
+        19,
+        16,
+        66
+    ],
+    "login locations": [
+        [
+            -119.586331,
+            34.401764
+        ]
+    ],
+    "relationships": []
 }

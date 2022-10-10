@@ -5,7 +5,36 @@
     "email": "catherinemann@gmail.com",
     "birthdate": "1954-09-28",
     "phone": "+1-682-691-6819x332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        70,
+        52,
+        44,
+        3,
+        28,
+        6,
+        13,
+        53,
+        66,
+        46,
+        37
+    ],
+    "login locations": [
+        [
+            -122.259145,
+            37.827972
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4362,
+                0.0114942528736
+            ],
+            [
+                4362,
+                0.0114942528736
+            ]
+        ]
+    ]
 }

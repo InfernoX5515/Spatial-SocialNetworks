@@ -5,7 +5,23 @@
     "email": "lesterabigail@yahoo.com",
     "birthdate": "1969-09-07",
     "phone": "(767)508-4914",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        39,
+        43,
+        18,
+        40,
+        48,
+        7,
+        31,
+        75,
+        56
+    ],
+    "login locations": [
+        [
+            -117.204047,
+            34.055456
+        ]
+    ],
+    "relationships": []
 }

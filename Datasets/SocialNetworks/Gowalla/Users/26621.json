@@ -5,7 +5,28 @@
     "email": "jeremiah66@yahoo.com",
     "birthdate": "2018-11-27",
     "phone": "106.679.8716",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        68,
+        60,
+        2,
+        24,
+        70,
+        56,
+        73,
+        16,
+        39,
+        72,
+        5,
+        66,
+        58,
+        60
+    ],
+    "login locations": [
+        [
+            -121.777191,
+            38.664404
+        ]
+    ],
+    "relationships": []
 }

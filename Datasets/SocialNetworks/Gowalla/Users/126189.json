@@ -5,7 +5,26 @@
     "email": "nbarr@hotmail.com",
     "birthdate": "1972-11-02",
     "phone": "001-274-731-8572",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        47,
+        52,
+        74,
+        28,
+        75,
+        52,
+        0,
+        33,
+        48,
+        28,
+        73,
+        33
+    ],
+    "login locations": [
+        [
+            -121.971429,
+            37.520191
+        ]
+    ],
+    "relationships": []
 }

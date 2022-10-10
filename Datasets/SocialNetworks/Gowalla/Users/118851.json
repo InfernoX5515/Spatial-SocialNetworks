@@ -5,7 +5,22 @@
     "email": "diazjohn@hotmail.com",
     "birthdate": "1911-10-04",
     "phone": "001-013-864-3957",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        29,
+        14,
+        16,
+        11,
+        36,
+        7,
+        36,
+        73
+    ],
+    "login locations": [
+        [
+            -118.431799,
+            34.141918
+        ]
+    ],
+    "relationships": []
 }

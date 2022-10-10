@@ -5,7 +5,16 @@
     "email": "stephanie26@yahoo.com",
     "birthdate": "1967-01-24",
     "phone": "+1-562-930-1046x75198",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        20,
+        24
+    ],
+    "login locations": [
+        [
+            -121.968233,
+            37.307608
+        ]
+    ],
+    "relationships": []
 }

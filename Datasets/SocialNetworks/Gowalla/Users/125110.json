@@ -5,7 +5,22 @@
     "email": "amanda48@yahoo.com",
     "birthdate": "2007-09-09",
     "phone": "026-310-3260",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        0,
+        66,
+        32,
+        7,
+        46,
+        17,
+        28,
+        59
+    ],
+    "login locations": [
+        [
+            -118.372667,
+            34.002996
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "jennifer96@yahoo.com",
     "birthdate": "1925-12-13",
     "phone": "113.440.9988x9667",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        43,
+        15,
+        24,
+        50,
+        20,
+        47,
+        66
+    ],
+    "login locations": [
+        [
+            -122.451861,
+            37.698016
+        ]
+    ],
+    "relationships": []
 }

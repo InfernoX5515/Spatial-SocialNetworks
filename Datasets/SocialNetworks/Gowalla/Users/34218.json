@@ -5,7 +5,20 @@
     "email": "nwelch@hotmail.com",
     "birthdate": "1955-07-29",
     "phone": "001-312-572-8271x38408",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        55,
+        3,
+        31,
+        50,
+        29,
+        74
+    ],
+    "login locations": [
+        [
+            -118.211334,
+            34.090883
+        ]
+    ],
+    "relationships": []
 }

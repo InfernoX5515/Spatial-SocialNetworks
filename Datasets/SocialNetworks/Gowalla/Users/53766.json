@@ -5,7 +5,16 @@
     "email": "ashleybrown@hotmail.com",
     "birthdate": "2009-06-25",
     "phone": "050.454.2141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        39,
+        21
+    ],
+    "login locations": [
+        [
+            -122.39409,
+            37.776714
+        ]
+    ],
+    "relationships": []
 }

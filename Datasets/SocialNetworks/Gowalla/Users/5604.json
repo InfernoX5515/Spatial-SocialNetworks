@@ -5,7 +5,24 @@
     "email": "jessica77@gmail.com",
     "birthdate": "1939-10-19",
     "phone": "888-937-1508x183",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        26,
+        26,
+        0,
+        39,
+        36,
+        56,
+        43,
+        74,
+        18,
+        42
+    ],
+    "login locations": [
+        [
+            -122.414941,
+            37.761884
+        ]
+    ],
+    "relationships": []
 }

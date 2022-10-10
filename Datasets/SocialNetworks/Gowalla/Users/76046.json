@@ -5,7 +5,22 @@
     "email": "vbrown@hotmail.com",
     "birthdate": "1917-04-10",
     "phone": "937-086-0061x961",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        26,
+        66,
+        30,
+        73,
+        17,
+        53,
+        73,
+        61
+    ],
+    "login locations": [
+        [
+            -118.384052,
+            33.847591
+        ]
+    ],
+    "relationships": []
 }

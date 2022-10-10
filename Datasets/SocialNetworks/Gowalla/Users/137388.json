@@ -5,7 +5,21 @@
     "email": "jacquelinemckenzie@hotmail.com",
     "birthdate": "1983-09-07",
     "phone": "001-908-285-4115x01697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        43,
+        25,
+        37,
+        58,
+        30,
+        58,
+        55
+    ],
+    "login locations": [
+        [
+            -122.390897,
+            37.800621
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "laura04@yahoo.com",
     "birthdate": "1956-03-30",
     "phone": "(035)141-2446x2427",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        30,
+        47,
+        16,
+        34,
+        59,
+        33,
+        55,
+        55,
+        74,
+        75,
+        62
+    ],
+    "login locations": [
+        [
+            -118.447619,
+            34.002672
+        ]
+    ],
+    "relationships": []
 }

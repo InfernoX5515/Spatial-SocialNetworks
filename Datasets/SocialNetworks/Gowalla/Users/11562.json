@@ -5,7 +5,18 @@
     "email": "grahamtaylor@hotmail.com",
     "birthdate": "1995-02-25",
     "phone": "952-032-4324",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        52,
+        40,
+        28,
+        30
+    ],
+    "login locations": [
+        [
+            -122.309659,
+            37.784201
+        ]
+    ],
+    "relationships": []
 }

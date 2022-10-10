@@ -5,7 +5,19 @@
     "email": "sarahrobinson@hotmail.com",
     "birthdate": "2007-09-14",
     "phone": "581-050-9049",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        75,
+        46,
+        53,
+        24,
+        3
+    ],
+    "login locations": [
+        [
+            -117.047665,
+            33.735434
+        ]
+    ],
+    "relationships": []
 }

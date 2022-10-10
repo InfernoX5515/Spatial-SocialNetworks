@@ -5,7 +5,22 @@
     "email": "cainsandra@hotmail.com",
     "birthdate": "1990-05-30",
     "phone": "(400)952-8234",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        64,
+        49,
+        7,
+        46,
+        0,
+        32,
+        14,
+        51
+    ],
+    "login locations": [
+        [
+            -122.315029,
+            37.809001
+        ]
+    ],
+    "relationships": []
 }

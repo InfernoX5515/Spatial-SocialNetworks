@@ -5,7 +5,32 @@
     "email": "kristin22@hotmail.com",
     "birthdate": "1917-12-24",
     "phone": "+1-520-730-8995x329",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        0,
+        41,
+        66,
+        57,
+        20,
+        43,
+        52
+    ],
+    "login locations": [
+        [
+            -122.413182,
+            37.694281
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                221,
+                0.1
+            ],
+            [
+                221,
+                0.1
+            ]
+        ]
+    ]
 }

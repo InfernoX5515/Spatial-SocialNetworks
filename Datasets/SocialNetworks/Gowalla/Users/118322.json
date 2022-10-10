@@ -5,7 +5,21 @@
     "email": "jon75@yahoo.com",
     "birthdate": "1974-04-21",
     "phone": "(265)111-3373",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        66,
+        66,
+        65,
+        36,
+        34,
+        14,
+        19
+    ],
+    "login locations": [
+        [
+            -122.548275,
+            37.988382
+        ]
+    ],
+    "relationships": []
 }

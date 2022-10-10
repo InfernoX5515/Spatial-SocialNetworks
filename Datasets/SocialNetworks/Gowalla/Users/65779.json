@@ -5,7 +5,23 @@
     "email": "bowmanbarbara@yahoo.com",
     "birthdate": "1992-06-14",
     "phone": "917.602.6608x2432",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        0,
+        28,
+        36,
+        69,
+        64,
+        68,
+        2,
+        64,
+        49
+    ],
+    "login locations": [
+        [
+            -121.448772,
+            38.419794
+        ]
+    ],
+    "relationships": []
 }

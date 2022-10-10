@@ -5,7 +5,20 @@
     "email": "joneselizabeth@yahoo.com",
     "birthdate": "1930-05-03",
     "phone": "560.242.8309",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        53,
+        20,
+        8,
+        38,
+        65,
+        6
+    ],
+    "login locations": [
+        [
+            -118.453487,
+            33.954001
+        ]
+    ],
+    "relationships": []
 }

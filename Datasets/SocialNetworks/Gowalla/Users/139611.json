@@ -5,7 +5,28 @@
     "email": "clopez@yahoo.com",
     "birthdate": "1942-04-23",
     "phone": "289-740-2228",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        56,
+        32,
+        6,
+        17,
+        71,
+        3,
+        27,
+        43,
+        75,
+        58,
+        73,
+        38,
+        32,
+        44
+    ],
+    "login locations": [
+        [
+            -117.09241,
+            32.796862
+        ]
+    ],
+    "relationships": []
 }

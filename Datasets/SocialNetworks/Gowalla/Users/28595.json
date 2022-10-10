@@ -5,7 +5,18 @@
     "email": "dpowell@gmail.com",
     "birthdate": "1935-03-03",
     "phone": "001-510-038-1226x588",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        72,
+        58,
+        69,
+        70
+    ],
+    "login locations": [
+        [
+            -117.15942,
+            32.877846
+        ]
+    ],
+    "relationships": []
 }

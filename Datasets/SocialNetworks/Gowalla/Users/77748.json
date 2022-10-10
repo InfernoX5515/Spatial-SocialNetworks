@@ -5,7 +5,26 @@
     "email": "jeffreycoleman@yahoo.com",
     "birthdate": "1935-05-01",
     "phone": "393.696.7542x17525",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        51,
+        25,
+        71,
+        62,
+        67,
+        39,
+        7,
+        17,
+        65,
+        15,
+        71,
+        16
+    ],
+    "login locations": [
+        [
+            -122.396107,
+            37.776483
+        ]
+    ],
+    "relationships": []
 }

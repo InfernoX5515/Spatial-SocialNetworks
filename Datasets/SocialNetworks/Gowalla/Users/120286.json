@@ -5,7 +5,15 @@
     "email": "brownrobert@gmail.com",
     "birthdate": "1970-07-15",
     "phone": "(178)583-4748x717",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        61
+    ],
+    "login locations": [
+        [
+            -122.383251,
+            37.785559
+        ]
+    ],
+    "relationships": []
 }

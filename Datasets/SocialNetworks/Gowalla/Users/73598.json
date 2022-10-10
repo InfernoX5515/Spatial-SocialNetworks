@@ -5,7 +5,28 @@
     "email": "mary80@hotmail.com",
     "birthdate": "1978-10-03",
     "phone": "5154586361",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        54,
+        24,
+        25,
+        26,
+        2,
+        54,
+        61,
+        21,
+        60,
+        54,
+        3,
+        52,
+        19,
+        65
+    ],
+    "login locations": [
+        [
+            -122.420733,
+            37.818275
+        ]
+    ],
+    "relationships": []
 }

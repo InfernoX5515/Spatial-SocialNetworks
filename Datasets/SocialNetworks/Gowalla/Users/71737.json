@@ -5,7 +5,34 @@
     "email": "steven94@hotmail.com",
     "birthdate": "2020-11-10",
     "phone": "+1-977-517-5328x70186",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        5,
+        11,
+        13,
+        36,
+        41,
+        28,
+        46,
+        23,
+        15
+    ],
+    "login locations": [
+        [
+            -122.446623,
+            37.681525
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11840,
+                0.04
+            ],
+            [
+                11840,
+                0.04
+            ]
+        ]
+    ]
 }

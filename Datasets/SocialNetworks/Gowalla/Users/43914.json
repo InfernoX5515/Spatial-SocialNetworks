@@ -5,7 +5,39 @@
     "email": "gilbertcasey@yahoo.com",
     "birthdate": "2004-02-20",
     "phone": "(338)719-7072x404",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        11,
+        18,
+        65,
+        4,
+        45,
+        45,
+        50,
+        18,
+        49,
+        23,
+        50,
+        27,
+        71,
+        50
+    ],
+    "login locations": [
+        [
+            -117.936141,
+            33.897565
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5091,
+                0.01
+            ],
+            [
+                5091,
+                0.01
+            ]
+        ]
+    ]
 }

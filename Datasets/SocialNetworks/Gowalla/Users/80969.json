@@ -5,7 +5,20 @@
     "email": "reynoldsjennifer@yahoo.com",
     "birthdate": "2014-11-21",
     "phone": "297-957-5320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        13,
+        4,
+        6,
+        6,
+        39,
+        61
+    ],
+    "login locations": [
+        [
+            -122.432269,
+            37.77237
+        ]
+    ],
+    "relationships": []
 }

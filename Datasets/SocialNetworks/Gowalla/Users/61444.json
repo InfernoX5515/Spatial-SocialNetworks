@@ -5,7 +5,26 @@
     "email": "nicolemitchell@hotmail.com",
     "birthdate": "1915-02-01",
     "phone": "208.336.9248x3645",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        67,
+        2,
+        6,
+        34,
+        65,
+        54,
+        21,
+        12,
+        5,
+        54,
+        16,
+        47
+    ],
+    "login locations": [
+        [
+            -122.404985,
+            37.795076
+        ]
+    ],
+    "relationships": []
 }

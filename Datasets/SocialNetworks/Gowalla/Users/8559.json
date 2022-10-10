@@ -5,7 +5,28 @@
     "email": "timothy93@yahoo.com",
     "birthdate": "1948-01-23",
     "phone": "661-211-4762x91267",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        62,
+        5,
+        15,
+        6,
+        23,
+        22,
+        54,
+        16,
+        38,
+        3,
+        2,
+        8,
+        71,
+        0
+    ],
+    "login locations": [
+        [
+            -122.392801,
+            37.790647
+        ]
+    ],
+    "relationships": []
 }

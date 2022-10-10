@@ -5,7 +5,23 @@
     "email": "tquinn@yahoo.com",
     "birthdate": "1962-01-14",
     "phone": "+1-800-341-6537x0562",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.411616,
+            37.835606
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                35835,
+                0.322580645161
+            ],
+            [
+                35835,
+                0.322580645161
+            ]
+        ]
+    ]
 }

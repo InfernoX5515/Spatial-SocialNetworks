@@ -5,7 +5,20 @@
     "email": "regina04@gmail.com",
     "birthdate": "1948-10-09",
     "phone": "755-698-3118",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        10,
+        9,
+        42,
+        21,
+        27,
+        53
+    ],
+    "login locations": [
+        [
+            -122.275783,
+            37.803794
+        ]
+    ],
+    "relationships": []
 }

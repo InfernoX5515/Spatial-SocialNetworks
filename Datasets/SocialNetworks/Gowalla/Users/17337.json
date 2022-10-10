@@ -5,7 +5,22 @@
     "email": "ychavez@yahoo.com",
     "birthdate": "2017-12-21",
     "phone": "(838)291-7849",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        16,
+        44,
+        53,
+        10,
+        73,
+        37,
+        5,
+        43
+    ],
+    "login locations": [
+        [
+            -122.023041,
+            38.291366
+        ]
+    ],
+    "relationships": []
 }

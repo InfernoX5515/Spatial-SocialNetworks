@@ -5,7 +5,27 @@
     "email": "robertpotter@hotmail.com",
     "birthdate": "2015-05-21",
     "phone": "(835)498-0212",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        22,
+        63,
+        36,
+        63,
+        71,
+        73,
+        3,
+        7,
+        3,
+        65,
+        53,
+        22,
+        67
+    ],
+    "login locations": [
+        [
+            -118.5416,
+            34.18856
+        ]
+    ],
+    "relationships": []
 }

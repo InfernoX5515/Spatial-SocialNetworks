@@ -5,7 +5,29 @@
     "email": "karcher@yahoo.com",
     "birthdate": "1946-08-21",
     "phone": "001-040-678-0285",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        62,
+        50,
+        52,
+        29
+    ],
+    "login locations": [
+        [
+            -118.459079,
+            34.015037
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                324,
+                0.01
+            ],
+            [
+                435,
+                0.0299785867238
+            ]
+        ]
+    ]
 }

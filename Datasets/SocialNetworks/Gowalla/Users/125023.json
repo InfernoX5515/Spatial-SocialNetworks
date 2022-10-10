@@ -5,7 +5,26 @@
     "email": "laura75@hotmail.com",
     "birthdate": "1932-03-09",
     "phone": "001-245-776-6048x8234",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        23,
+        56,
+        50,
+        70,
+        52,
+        23,
+        49,
+        66,
+        0,
+        40,
+        57,
+        57
+    ],
+    "login locations": [
+        [
+            -121.025505,
+            37.709073
+        ]
+    ],
+    "relationships": []
 }

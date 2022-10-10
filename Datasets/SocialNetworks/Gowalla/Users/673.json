@@ -5,7 +5,26 @@
     "email": "andreacummings@hotmail.com",
     "birthdate": "2020-03-17",
     "phone": "001-508-735-4136x69147",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        40,
+        36,
+        18,
+        43,
+        21,
+        30,
+        54,
+        59,
+        59,
+        47,
+        68,
+        59
+    ],
+    "login locations": [
+        [
+            -121.928239,
+            37.337448
+        ]
+    ],
+    "relationships": []
 }

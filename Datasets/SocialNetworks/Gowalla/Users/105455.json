@@ -5,7 +5,23 @@
     "email": "merrittbrittany@yahoo.com",
     "birthdate": "1909-09-25",
     "phone": "001-189-009-7650",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.956182,
+            37.747725
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                105457,
+                0.01
+            ],
+            [
+                105459,
+                0.01
+            ]
+        ]
+    ]
 }

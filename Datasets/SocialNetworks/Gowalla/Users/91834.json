@@ -5,7 +5,22 @@
     "email": "yaguilar@yahoo.com",
     "birthdate": "1983-08-27",
     "phone": "001-179-917-6453x21287",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        27,
+        12,
+        47,
+        55,
+        60,
+        9,
+        27,
+        30
+    ],
+    "login locations": [
+        [
+            -122.27636,
+            37.858551
+        ]
+    ],
+    "relationships": []
 }

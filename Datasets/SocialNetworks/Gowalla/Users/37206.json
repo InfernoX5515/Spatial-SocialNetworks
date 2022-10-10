@@ -5,7 +5,23 @@
     "email": "ekennedy@gmail.com",
     "birthdate": "2020-09-26",
     "phone": "+1-568-503-0822x19169",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        14,
+        4,
+        49,
+        28,
+        65,
+        28,
+        36,
+        25,
+        4
+    ],
+    "login locations": [
+        [
+            -117.803531,
+            33.699733
+        ]
+    ],
+    "relationships": []
 }

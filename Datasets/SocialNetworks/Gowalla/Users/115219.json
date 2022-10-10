@@ -5,7 +5,15 @@
     "email": "stanleyandrew@hotmail.com",
     "birthdate": "2015-06-30",
     "phone": "+1-932-193-5848",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        72
+    ],
+    "login locations": [
+        [
+            -118.438361,
+            34.001404
+        ]
+    ],
+    "relationships": []
 }

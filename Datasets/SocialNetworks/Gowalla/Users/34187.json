@@ -5,7 +5,12 @@
     "email": "ncaldwell@hotmail.com",
     "birthdate": "1928-02-23",
     "phone": "055-220-2575x86539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.414299,
+            37.762735
+        ]
+    ],
+    "relationships": []
 }

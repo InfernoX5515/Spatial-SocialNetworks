@@ -5,7 +5,25 @@
     "email": "rileymichael@hotmail.com",
     "birthdate": "1964-07-21",
     "phone": "001-216-044-4321x79000",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        24,
+        54,
+        32,
+        60,
+        9,
+        59,
+        50,
+        4,
+        32,
+        21,
+        55
+    ],
+    "login locations": [
+        [
+            -118.435684,
+            33.988147
+        ]
+    ],
+    "relationships": []
 }

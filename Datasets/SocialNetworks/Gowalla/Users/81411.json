@@ -5,7 +5,20 @@
     "email": "gregory28@yahoo.com",
     "birthdate": "2001-05-21",
     "phone": "311.566.1057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        45,
+        72,
+        20,
+        17,
+        34,
+        57
+    ],
+    "login locations": [
+        [
+            -122.432093,
+            37.799534
+        ]
+    ],
+    "relationships": []
 }

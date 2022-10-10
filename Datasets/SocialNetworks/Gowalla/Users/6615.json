@@ -5,7 +5,20 @@
     "email": "carolnielsen@gmail.com",
     "birthdate": "1951-09-02",
     "phone": "845.714.3501x1910",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        3,
+        5,
+        19,
+        11,
+        40,
+        26
+    ],
+    "login locations": [
+        [
+            -122.399729,
+            37.793699
+        ]
+    ],
+    "relationships": []
 }

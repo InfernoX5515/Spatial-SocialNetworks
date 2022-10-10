@@ -5,7 +5,26 @@
     "email": "xknox@hotmail.com",
     "birthdate": "1946-02-23",
     "phone": "390.526.3447x4402",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        16,
+        32,
+        23,
+        72,
+        7,
+        46,
+        16,
+        47,
+        74,
+        41,
+        41,
+        27
+    ],
+    "login locations": [
+        [
+            -117.081557,
+            32.921715
+        ]
+    ],
+    "relationships": []
 }

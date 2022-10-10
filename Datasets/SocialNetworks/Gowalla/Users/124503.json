@@ -5,7 +5,30 @@
     "email": "juliakent@gmail.com",
     "birthdate": "1982-12-29",
     "phone": "001-423-544-0025x47827",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        52,
+        41,
+        23,
+        50,
+        24
+    ],
+    "login locations": [
+        [
+            -117.173037,
+            32.77291
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                37857,
+                0.01
+            ],
+            [
+                37857,
+                0.01
+            ]
+        ]
+    ]
 }

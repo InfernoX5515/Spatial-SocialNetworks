@@ -5,7 +5,28 @@
     "email": "kthompson@gmail.com",
     "birthdate": "1980-04-15",
     "phone": "163-921-7238",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        49,
+        44,
+        29
+    ],
+    "login locations": [
+        [
+            -117.940144,
+            33.731229
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                31283,
+                0.333333333333
+            ],
+            [
+                39973,
+                0.05
+            ]
+        ]
+    ]
 }

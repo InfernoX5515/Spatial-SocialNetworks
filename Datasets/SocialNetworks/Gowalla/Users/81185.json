@@ -5,7 +5,20 @@
     "email": "tbarnett@hotmail.com",
     "birthdate": "1930-12-01",
     "phone": "310.786.0901",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        37,
+        55,
+        56,
+        11,
+        20,
+        16
+    ],
+    "login locations": [
+        [
+            -122.422361,
+            37.777986
+        ]
+    ],
+    "relationships": []
 }

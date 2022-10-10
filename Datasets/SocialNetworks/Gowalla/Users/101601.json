@@ -5,7 +5,12 @@
     "email": "ann46@hotmail.com",
     "birthdate": "1936-10-15",
     "phone": "366.528.0931x40063",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.271528,
+            33.808714
+        ]
+    ],
+    "relationships": []
 }

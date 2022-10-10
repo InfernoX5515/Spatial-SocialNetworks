@@ -5,7 +5,18 @@
     "email": "jennifergarcia@yahoo.com",
     "birthdate": "2003-12-31",
     "phone": "309-794-6209x921",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        72,
+        67,
+        10,
+        28
+    ],
+    "login locations": [
+        [
+            -118.03969,
+            33.738794
+        ]
+    ],
+    "relationships": []
 }

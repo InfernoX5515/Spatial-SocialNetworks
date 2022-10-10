@@ -5,7 +5,21 @@
     "email": "marythompson@hotmail.com",
     "birthdate": "1999-09-18",
     "phone": "535-582-3744",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        34,
+        32,
+        49,
+        71,
+        30,
+        37,
+        51
+    ],
+    "login locations": [
+        [
+            -117.802859,
+            33.659633
+        ]
+    ],
+    "relationships": []
 }

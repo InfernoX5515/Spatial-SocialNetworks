@@ -5,7 +5,15 @@
     "email": "danny53@gmail.com",
     "birthdate": "1935-03-02",
     "phone": "(171)953-9854x8942",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        27
+    ],
+    "login locations": [
+        [
+            -122.324377,
+            37.587928
+        ]
+    ],
+    "relationships": []
 }

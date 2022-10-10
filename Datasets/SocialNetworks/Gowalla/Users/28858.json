@@ -5,7 +5,31 @@
     "email": "kylefox@hotmail.com",
     "birthdate": "1946-10-04",
     "phone": "708-429-9805",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        8,
+        49,
+        19,
+        36,
+        33,
+        74
+    ],
+    "login locations": [
+        [
+            -122.448815,
+            37.680468
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                446,
+                0.0905882352941
+            ],
+            [
+                28842,
+                0.215827338129
+            ]
+        ]
+    ]
 }

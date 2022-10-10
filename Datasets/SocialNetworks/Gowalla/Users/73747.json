@@ -5,7 +5,17 @@
     "email": "kenneth96@yahoo.com",
     "birthdate": "1999-07-17",
     "phone": "001-812-421-4955x890",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        16,
+        31,
+        38
+    ],
+    "login locations": [
+        [
+            -117.818634,
+            33.695502
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "thomasjennifer@hotmail.com",
     "birthdate": "1919-03-17",
     "phone": "008.921.3708x1323",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        53,
+        22,
+        16,
+        48,
+        31
+    ],
+    "login locations": [
+        [
+            -118.356665,
+            34.071066
+        ]
+    ],
+    "relationships": []
 }

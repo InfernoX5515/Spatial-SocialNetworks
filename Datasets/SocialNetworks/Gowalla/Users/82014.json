@@ -5,7 +5,21 @@
     "email": "donaldhoffman@gmail.com",
     "birthdate": "1931-03-11",
     "phone": "7271557099",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        34,
+        47,
+        69,
+        36,
+        1,
+        68,
+        66
+    ],
+    "login locations": [
+        [
+            -122.381743,
+            37.74491
+        ]
+    ],
+    "relationships": []
 }

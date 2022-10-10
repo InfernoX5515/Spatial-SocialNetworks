@@ -5,7 +5,18 @@
     "email": "dalton67@yahoo.com",
     "birthdate": "1927-12-03",
     "phone": "527-241-3517x9000",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        23,
+        11,
+        30,
+        60
+    ],
+    "login locations": [
+        [
+            -122.340204,
+            37.650213
+        ]
+    ],
+    "relationships": []
 }

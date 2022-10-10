@@ -5,7 +5,12 @@
     "email": "apage@gmail.com",
     "birthdate": "1986-12-07",
     "phone": "636-058-7960",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -119.067269,
+            36.10395
+        ]
+    ],
+    "relationships": []
 }

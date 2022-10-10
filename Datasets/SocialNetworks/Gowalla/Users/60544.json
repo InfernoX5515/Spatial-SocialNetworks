@@ -5,7 +5,16 @@
     "email": "sierrapacheco@gmail.com",
     "birthdate": "1907-06-23",
     "phone": "(688)226-2540x938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        72,
+        65
+    ],
+    "login locations": [
+        [
+            -117.725672,
+            33.856343
+        ]
+    ],
+    "relationships": []
 }

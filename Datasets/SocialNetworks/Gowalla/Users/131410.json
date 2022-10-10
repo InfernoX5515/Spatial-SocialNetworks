@@ -5,7 +5,20 @@
     "email": "brandon19@hotmail.com",
     "birthdate": "2012-11-24",
     "phone": "767.650.0104x95024",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        39,
+        45,
+        43,
+        59,
+        46,
+        75
+    ],
+    "login locations": [
+        [
+            -117.251075,
+            32.797193
+        ]
+    ],
+    "relationships": []
 }

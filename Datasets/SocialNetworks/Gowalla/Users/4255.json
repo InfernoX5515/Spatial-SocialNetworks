@@ -5,7 +5,30 @@
     "email": "whitneyreid@gmail.com",
     "birthdate": "1996-08-11",
     "phone": "000.165.0883x47513",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        30,
+        1,
+        53,
+        31,
+        45
+    ],
+    "login locations": [
+        [
+            -122.430369,
+            37.771718
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4252,
+                0.021164021164
+            ],
+            [
+                4252,
+                0.021164021164
+            ]
+        ]
+    ]
 }

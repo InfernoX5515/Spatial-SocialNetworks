@@ -5,7 +5,15 @@
     "email": "clarkeivan@yahoo.com",
     "birthdate": "2009-03-18",
     "phone": "091-645-3708",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        66
+    ],
+    "login locations": [
+        [
+            -117.202357,
+            32.84103
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "rebeccaphillips@hotmail.com",
     "birthdate": "2007-06-03",
     "phone": "(672)722-8449",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        75,
+        48,
+        19,
+        43,
+        56,
+        36,
+        7,
+        15,
+        32,
+        48
+    ],
+    "login locations": [
+        [
+            -122.400036,
+            37.792817
+        ]
+    ],
+    "relationships": []
 }

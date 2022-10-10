@@ -5,7 +5,35 @@
     "email": "jessicacarter@hotmail.com",
     "birthdate": "2006-09-26",
     "phone": "+1-188-974-0263x5903",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        63,
+        66,
+        55,
+        38,
+        62,
+        10,
+        62,
+        21,
+        13,
+        60
+    ],
+    "login locations": [
+        [
+            -118.271441,
+            33.954239
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                12002,
+                0.04
+            ],
+            [
+                12002,
+                0.04
+            ]
+        ]
+    ]
 }

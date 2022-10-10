@@ -5,7 +5,12 @@
     "email": "michaelsalinas@hotmail.com",
     "birthdate": "1984-07-29",
     "phone": "124.015.9395",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.866798,
+            34.110875
+        ]
+    ],
+    "relationships": []
 }

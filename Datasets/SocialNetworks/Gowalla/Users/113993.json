@@ -5,7 +5,18 @@
     "email": "jjimenez@yahoo.com",
     "birthdate": "1992-03-25",
     "phone": "6198100845",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        59,
+        18,
+        46,
+        74
+    ],
+    "login locations": [
+        [
+            -122.395245,
+            37.776455
+        ]
+    ],
+    "relationships": []
 }

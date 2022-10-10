@@ -5,7 +5,38 @@
     "email": "angelabell@hotmail.com",
     "birthdate": "1922-02-27",
     "phone": "3996952806",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        26,
+        32,
+        5,
+        67,
+        2,
+        19,
+        51,
+        75,
+        30,
+        27,
+        73,
+        10,
+        26
+    ],
+    "login locations": [
+        [
+            -122.412066,
+            37.770461
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11152,
+                0.0354609929078
+            ],
+            [
+                11152,
+                0.0354609929078
+            ]
+        ]
+    ]
 }

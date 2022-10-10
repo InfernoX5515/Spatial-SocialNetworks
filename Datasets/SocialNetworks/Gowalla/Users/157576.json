@@ -5,7 +5,12 @@
     "email": "mullenchristopher@yahoo.com",
     "birthdate": "1994-11-14",
     "phone": "(531)465-2811",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.441261,
+            37.743264
+        ]
+    ],
+    "relationships": []
 }

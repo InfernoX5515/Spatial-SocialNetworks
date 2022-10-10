@@ -5,7 +5,21 @@
     "email": "scottallen@gmail.com",
     "birthdate": "2004-10-08",
     "phone": "001-387-975-3423x81144",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        38,
+        35,
+        56,
+        35,
+        51,
+        30,
+        3
+    ],
+    "login locations": [
+        [
+            -122.427104,
+            37.748706
+        ]
+    ],
+    "relationships": []
 }

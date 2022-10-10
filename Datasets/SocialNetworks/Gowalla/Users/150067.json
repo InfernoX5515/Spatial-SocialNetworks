@@ -5,7 +5,16 @@
     "email": "jamesmontgomery@yahoo.com",
     "birthdate": "2017-03-17",
     "phone": "465-993-2848x2647",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        60,
+        64
+    ],
+    "login locations": [
+        [
+            -122.396727,
+            37.729915
+        ]
+    ],
+    "relationships": []
 }

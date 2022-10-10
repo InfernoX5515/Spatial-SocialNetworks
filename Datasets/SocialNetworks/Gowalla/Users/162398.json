@@ -5,7 +5,23 @@
     "email": "cainkelly@gmail.com",
     "birthdate": "1921-09-10",
     "phone": "(758)271-6561x0628",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        63,
+        56,
+        12,
+        39,
+        35,
+        0,
+        40,
+        38,
+        31
+    ],
+    "login locations": [
+        [
+            -122.393167,
+            37.789896
+        ]
+    ],
+    "relationships": []
 }

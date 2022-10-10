@@ -5,7 +5,23 @@
     "email": "xavierspears@yahoo.com",
     "birthdate": "1985-11-12",
     "phone": "601-007-9154",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        50,
+        44,
+        9,
+        28,
+        14,
+        62,
+        51,
+        18,
+        31
+    ],
+    "login locations": [
+        [
+            -118.278049,
+            34.159021
+        ]
+    ],
+    "relationships": []
 }

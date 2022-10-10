@@ -5,7 +5,14 @@
     "email": "parsonssavannah@gmail.com",
     "birthdate": "1987-12-06",
     "phone": "001-881-902-3180x745",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28
+    ],
+    "login locations": [
+        [
+            -117.189105,
+            32.808028
+        ]
+    ],
+    "relationships": []
 }

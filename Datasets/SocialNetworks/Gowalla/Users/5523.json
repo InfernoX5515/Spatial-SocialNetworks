@@ -5,7 +5,20 @@
     "email": "collinsmarcus@hotmail.com",
     "birthdate": "1923-02-08",
     "phone": "693-358-9790x269",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        19,
+        30,
+        34,
+        31,
+        9,
+        4
+    ],
+    "login locations": [
+        [
+            -118.369425,
+            34.144066
+        ]
+    ],
+    "relationships": []
 }

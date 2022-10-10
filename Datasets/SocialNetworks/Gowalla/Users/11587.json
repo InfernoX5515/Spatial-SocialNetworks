@@ -5,7 +5,33 @@
     "email": "erinyoung@hotmail.com",
     "birthdate": "1919-09-22",
     "phone": "+1-255-986-5956",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        63,
+        7,
+        18,
+        73,
+        12,
+        66,
+        13,
+        51
+    ],
+    "login locations": [
+        [
+            -122.01522,
+            37.383539
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                31230,
+                0.0277777777778
+            ],
+            [
+                31230,
+                0.0277777777778
+            ]
+        ]
+    ]
 }

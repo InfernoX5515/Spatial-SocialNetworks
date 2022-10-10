@@ -5,7 +5,12 @@
     "email": "peter34@hotmail.com",
     "birthdate": "1957-02-04",
     "phone": "(934)220-8830x9070",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.368628,
+            33.197047
+        ]
+    ],
+    "relationships": []
 }

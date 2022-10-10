@@ -5,7 +5,24 @@
     "email": "brianwright@hotmail.com",
     "birthdate": "2017-10-25",
     "phone": "002-587-6689x704",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        38,
+        8,
+        70,
+        35,
+        65,
+        34,
+        73,
+        54,
+        42,
+        29
+    ],
+    "login locations": [
+        [
+            -118.110319,
+            33.926165
+        ]
+    ],
+    "relationships": []
 }

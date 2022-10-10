@@ -5,7 +5,15 @@
     "email": "reynoldskathryn@gmail.com",
     "birthdate": "1911-09-26",
     "phone": "001-352-771-7530x091",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        15
+    ],
+    "login locations": [
+        [
+            -117.226117,
+            34.049305
+        ]
+    ],
+    "relationships": []
 }

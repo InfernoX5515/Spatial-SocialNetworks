@@ -5,7 +5,14 @@
     "email": "rcarson@hotmail.com",
     "birthdate": "1982-01-30",
     "phone": "(825)496-7001x9642",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47
+    ],
+    "login locations": [
+        [
+            -118.321509,
+            33.976713
+        ]
+    ],
+    "relationships": []
 }

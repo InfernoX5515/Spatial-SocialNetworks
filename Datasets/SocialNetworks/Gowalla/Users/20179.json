@@ -5,7 +5,22 @@
     "email": "rodriguezkevin@hotmail.com",
     "birthdate": "1917-07-10",
     "phone": "613-979-3460x86699",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        11,
+        72,
+        70,
+        0,
+        36,
+        34,
+        47,
+        10
+    ],
+    "login locations": [
+        [
+            -122.400359,
+            37.789168
+        ]
+    ],
+    "relationships": []
 }

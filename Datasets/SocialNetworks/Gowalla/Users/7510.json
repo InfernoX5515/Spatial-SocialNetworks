@@ -5,7 +5,17 @@
     "email": "alan10@hotmail.com",
     "birthdate": "1919-02-22",
     "phone": "923-918-2219x21840",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        12,
+        62,
+        27
+    ],
+    "login locations": [
+        [
+            -118.615163,
+            34.398836
+        ]
+    ],
+    "relationships": []
 }

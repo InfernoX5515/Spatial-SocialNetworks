@@ -5,7 +5,18 @@
     "email": "carrie18@yahoo.com",
     "birthdate": "1955-02-01",
     "phone": "001-895-077-5692",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        35,
+        62,
+        60,
+        71
+    ],
+    "login locations": [
+        [
+            -122.412774,
+            37.794399
+        ]
+    ],
+    "relationships": []
 }

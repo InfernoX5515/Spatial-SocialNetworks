@@ -5,7 +5,17 @@
     "email": "rthompson@hotmail.com",
     "birthdate": "1926-07-22",
     "phone": "001-128-408-1720x6371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        40,
+        6,
+        36
+    ],
+    "login locations": [
+        [
+            -119.674095,
+            34.418832
+        ]
+    ],
+    "relationships": []
 }

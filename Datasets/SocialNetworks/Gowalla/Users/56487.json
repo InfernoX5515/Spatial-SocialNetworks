@@ -5,7 +5,18 @@
     "email": "amandaandrews@yahoo.com",
     "birthdate": "1957-07-23",
     "phone": "(942)901-3481",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        68,
+        35,
+        56,
+        49
+    ],
+    "login locations": [
+        [
+            -122.347308,
+            37.622892
+        ]
+    ],
+    "relationships": []
 }

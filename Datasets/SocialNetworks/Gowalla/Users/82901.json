@@ -5,7 +5,15 @@
     "email": "sarahortega@hotmail.com",
     "birthdate": "1928-02-20",
     "phone": "2170425008",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        29
+    ],
+    "login locations": [
+        [
+            -122.409723,
+            37.727527
+        ]
+    ],
+    "relationships": []
 }

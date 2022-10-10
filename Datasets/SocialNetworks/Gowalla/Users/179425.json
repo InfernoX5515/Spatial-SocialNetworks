@@ -5,7 +5,15 @@
     "email": "mtaylor@gmail.com",
     "birthdate": "1923-12-05",
     "phone": "001-727-147-3740x69197",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        66
+    ],
+    "login locations": [
+        [
+            -118.15121,
+            34.122653
+        ]
+    ],
+    "relationships": []
 }

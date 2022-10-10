@@ -5,7 +5,27 @@
     "email": "eileenalvarez@yahoo.com",
     "birthdate": "2015-01-08",
     "phone": "(095)548-1517x35911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        41,
+        60,
+        50,
+        20,
+        58,
+        30,
+        64,
+        73,
+        29,
+        48,
+        62,
+        69,
+        25
+    ],
+    "login locations": [
+        [
+            -117.496168,
+            34.032636
+        ]
+    ],
+    "relationships": []
 }

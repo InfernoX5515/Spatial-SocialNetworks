@@ -5,7 +5,35 @@
     "email": "briananderson@gmail.com",
     "birthdate": "1921-05-21",
     "phone": "631.115.8543x47910",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        66,
+        72,
+        5,
+        57,
+        68,
+        34,
+        71,
+        7,
+        3,
+        10
+    ],
+    "login locations": [
+        [
+            -122.060336,
+            37.76825
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                91295,
+                0.12
+            ],
+            [
+                91295,
+                0.12
+            ]
+        ]
+    ]
 }

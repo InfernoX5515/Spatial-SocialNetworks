@@ -5,7 +5,30 @@
     "email": "dtaylor@gmail.com",
     "birthdate": "1999-10-15",
     "phone": "384.064.8449x9100",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        46,
+        27,
+        74,
+        58,
+        56
+    ],
+    "login locations": [
+        [
+            -122.433123,
+            37.728926
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                96,
+                0.06
+            ],
+            [
+                96,
+                0.06
+            ]
+        ]
+    ]
 }

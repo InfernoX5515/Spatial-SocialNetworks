@@ -5,7 +5,27 @@
     "email": "vvelasquez@yahoo.com",
     "birthdate": "1936-10-06",
     "phone": "603.443.3258",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        15,
+        21,
+        44,
+        30,
+        56,
+        25,
+        19,
+        74,
+        75,
+        73,
+        4,
+        2,
+        9
+    ],
+    "login locations": [
+        [
+            -121.532768,
+            38.641665
+        ]
+    ],
+    "relationships": []
 }

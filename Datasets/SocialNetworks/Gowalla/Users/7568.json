@@ -5,7 +5,21 @@
     "email": "denise59@hotmail.com",
     "birthdate": "1959-05-24",
     "phone": "001-149-087-2274x2089",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        39,
+        50,
+        40,
+        34,
+        73,
+        34,
+        31
+    ],
+    "login locations": [
+        [
+            -122.419039,
+            37.877588
+        ]
+    ],
+    "relationships": []
 }

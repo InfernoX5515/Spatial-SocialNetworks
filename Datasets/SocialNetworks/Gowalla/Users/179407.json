@@ -5,7 +5,20 @@
     "email": "gilbertmatthew@hotmail.com",
     "birthdate": "1923-09-07",
     "phone": "+1-706-617-2682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        41,
+        32,
+        74,
+        34,
+        57,
+        62
+    ],
+    "login locations": [
+        [
+            -117.15945,
+            32.713403
+        ]
+    ],
+    "relationships": []
 }

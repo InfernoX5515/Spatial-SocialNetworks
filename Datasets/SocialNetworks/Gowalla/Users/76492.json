@@ -5,7 +5,22 @@
     "email": "tomsmith@yahoo.com",
     "birthdate": "1970-02-08",
     "phone": "+1-421-581-2387x9946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        14,
+        62,
+        59,
+        35,
+        57,
+        68,
+        36,
+        43
+    ],
+    "login locations": [
+        [
+            -117.90279,
+            34.073059
+        ]
+    ],
+    "relationships": []
 }

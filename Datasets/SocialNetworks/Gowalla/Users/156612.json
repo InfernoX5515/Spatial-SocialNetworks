@@ -5,7 +5,21 @@
     "email": "ljones@hotmail.com",
     "birthdate": "1913-07-26",
     "phone": "(550)569-0767x933",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        71,
+        29,
+        38,
+        8,
+        13,
+        47,
+        7
+    ],
+    "login locations": [
+        [
+            -118.406615,
+            34.055662
+        ]
+    ],
+    "relationships": []
 }

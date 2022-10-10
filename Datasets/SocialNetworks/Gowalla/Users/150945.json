@@ -5,7 +5,14 @@
     "email": "wmacias@yahoo.com",
     "birthdate": "1978-01-02",
     "phone": "936.830.2352x325",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6
+    ],
+    "login locations": [
+        [
+            -117.876288,
+            33.61652
+        ]
+    ],
+    "relationships": []
 }

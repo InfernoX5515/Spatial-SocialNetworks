@@ -5,7 +5,33 @@
     "email": "zwilson@gmail.com",
     "birthdate": "1951-10-26",
     "phone": "(294)104-2665x073",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        65,
+        4,
+        42,
+        36,
+        56,
+        38,
+        1,
+        36
+    ],
+    "login locations": [
+        [
+            -122.376081,
+            37.792058
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                44017,
+                0.181818181818
+            ],
+            [
+                44017,
+                0.181818181818
+            ]
+        ]
+    ]
 }

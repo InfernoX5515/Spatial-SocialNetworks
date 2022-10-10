@@ -5,7 +5,16 @@
     "email": "jacob33@gmail.com",
     "birthdate": "1908-10-02",
     "phone": "862.121.6108x5769",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        10,
+        60
+    ],
+    "login locations": [
+        [
+            -118.146296,
+            33.771949
+        ]
+    ],
+    "relationships": []
 }

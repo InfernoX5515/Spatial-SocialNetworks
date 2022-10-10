@@ -5,7 +5,28 @@
     "email": "williampatterson@gmail.com",
     "birthdate": "1932-08-02",
     "phone": "808.891.6490x5705",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        33,
+        74,
+        39,
+        7,
+        30,
+        72,
+        59,
+        40,
+        1,
+        71,
+        11,
+        11,
+        52,
+        7
+    ],
+    "login locations": [
+        [
+            -118.011007,
+            33.900937
+        ]
+    ],
+    "relationships": []
 }

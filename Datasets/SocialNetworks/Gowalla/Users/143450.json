@@ -5,7 +5,16 @@
     "email": "ehaynes@hotmail.com",
     "birthdate": "1964-11-04",
     "phone": "7130938482",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        57,
+        63
+    ],
+    "login locations": [
+        [
+            -122.428279,
+            37.779051
+        ]
+    ],
+    "relationships": []
 }

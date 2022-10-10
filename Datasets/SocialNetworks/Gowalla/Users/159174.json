@@ -5,7 +5,24 @@
     "email": "jacoblong@gmail.com",
     "birthdate": "1925-12-30",
     "phone": "1183971724",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        56,
+        11,
+        49,
+        25,
+        66,
+        9,
+        30,
+        55,
+        0,
+        56
+    ],
+    "login locations": [
+        [
+            -122.163083,
+            37.444453
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "nhall@hotmail.com",
     "birthdate": "2013-02-09",
     "phone": "+1-954-436-8482x24527",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        18
+    ],
+    "login locations": [
+        [
+            -117.761343,
+            34.086082
+        ]
+    ],
+    "relationships": []
 }

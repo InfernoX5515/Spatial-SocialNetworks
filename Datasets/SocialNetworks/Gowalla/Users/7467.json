@@ -5,7 +5,37 @@
     "email": "khebert@gmail.com",
     "birthdate": "1970-01-20",
     "phone": "(843)824-8944",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        26,
+        44,
+        38,
+        48,
+        27,
+        43,
+        21,
+        15,
+        70,
+        72,
+        19,
+        23
+    ],
+    "login locations": [
+        [
+            -122.153205,
+            37.4329
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1523,
+                0.01
+            ],
+            [
+                3481,
+                0.01
+            ]
+        ]
+    ]
 }

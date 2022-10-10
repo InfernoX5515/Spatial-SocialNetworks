@@ -5,7 +5,26 @@
     "email": "jason53@gmail.com",
     "birthdate": "2005-04-20",
     "phone": "663-676-7327",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        30,
+        10,
+        42,
+        48,
+        51,
+        20,
+        67,
+        54,
+        68,
+        72,
+        30,
+        66
+    ],
+    "login locations": [
+        [
+            -122.412585,
+            37.755328
+        ]
+    ],
+    "relationships": []
 }

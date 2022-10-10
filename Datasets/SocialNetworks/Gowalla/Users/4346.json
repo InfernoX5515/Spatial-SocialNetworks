@@ -5,7 +5,15 @@
     "email": "burnettmorgan@gmail.com",
     "birthdate": "1928-12-19",
     "phone": "263-560-0287x1021",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        61
+    ],
+    "login locations": [
+        [
+            -122.233491,
+            37.845219
+        ]
+    ],
+    "relationships": []
 }

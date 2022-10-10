@@ -5,7 +5,17 @@
     "email": "martinezbrandon@hotmail.com",
     "birthdate": "2021-07-31",
     "phone": "958-654-4460",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        68,
+        41,
+        22
+    ],
+    "login locations": [
+        [
+            -121.412412,
+            38.651331
+        ]
+    ],
+    "relationships": []
 }

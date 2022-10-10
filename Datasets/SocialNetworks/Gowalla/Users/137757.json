@@ -5,7 +5,27 @@
     "email": "gonzaleznancy@yahoo.com",
     "birthdate": "1992-01-14",
     "phone": "456.178.5650",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        62,
+        52,
+        16,
+        37,
+        71,
+        74,
+        62,
+        48,
+        24,
+        75,
+        24,
+        51,
+        50
+    ],
+    "login locations": [
+        [
+            -122.08202,
+            37.380345
+        ]
+    ],
+    "relationships": []
 }

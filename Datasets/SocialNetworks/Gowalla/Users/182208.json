@@ -5,7 +5,28 @@
     "email": "sthompson@yahoo.com",
     "birthdate": "1952-11-11",
     "phone": "699-055-2298x95427",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        52,
+        10,
+        17,
+        72,
+        34,
+        39,
+        59,
+        24,
+        29,
+        9,
+        45,
+        23,
+        1,
+        73
+    ],
+    "login locations": [
+        [
+            -122.080459,
+            38.277615
+        ]
+    ],
+    "relationships": []
 }

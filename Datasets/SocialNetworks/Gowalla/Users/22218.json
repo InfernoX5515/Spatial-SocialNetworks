@@ -5,7 +5,36 @@
     "email": "wendy21@yahoo.com",
     "birthdate": "1992-11-18",
     "phone": "041-227-0647",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        46,
+        34,
+        52,
+        45,
+        61,
+        1,
+        29,
+        24,
+        54,
+        21,
+        47
+    ],
+    "login locations": [
+        [
+            -118.453463,
+            33.973879
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                244,
+                0.0164609053498
+            ],
+            [
+                244,
+                0.0164609053498
+            ]
+        ]
+    ]
 }

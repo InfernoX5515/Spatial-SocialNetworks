@@ -5,7 +5,15 @@
     "email": "rodriguezcassandra@hotmail.com",
     "birthdate": "1959-08-15",
     "phone": "7337975884",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        10
+    ],
+    "login locations": [
+        [
+            -118.201851,
+            34.077043
+        ]
+    ],
+    "relationships": []
 }

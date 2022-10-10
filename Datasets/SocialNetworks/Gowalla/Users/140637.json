@@ -5,7 +5,35 @@
     "email": "taylorlauren@gmail.com",
     "birthdate": "1993-11-18",
     "phone": "270-651-7705x53694",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        49,
+        20,
+        68,
+        36,
+        48,
+        20,
+        37,
+        1,
+        40,
+        69
+    ],
+    "login locations": [
+        [
+            -121.994973,
+            37.947008
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                140636,
+                0.607329842932
+            ],
+            [
+                140636,
+                0.607329842932
+            ]
+        ]
+    ]
 }

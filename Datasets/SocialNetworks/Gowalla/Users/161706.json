@@ -5,7 +5,23 @@
     "email": "angela08@yahoo.com",
     "birthdate": "1930-06-03",
     "phone": "001-664-987-6716",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        73,
+        63,
+        59,
+        40,
+        25,
+        63,
+        0,
+        24,
+        61
+    ],
+    "login locations": [
+        [
+            -121.475704,
+            38.571723
+        ]
+    ],
+    "relationships": []
 }

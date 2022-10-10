@@ -5,7 +5,28 @@
     "email": "sandovaljessica@gmail.com",
     "birthdate": "1996-12-11",
     "phone": "(364)205-5801x984",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        75,
+        23,
+        73,
+        35,
+        0,
+        20,
+        35,
+        68,
+        57,
+        53,
+        75,
+        32,
+        30,
+        18
+    ],
+    "login locations": [
+        [
+            -122.316892,
+            37.583511
+        ]
+    ],
+    "relationships": []
 }

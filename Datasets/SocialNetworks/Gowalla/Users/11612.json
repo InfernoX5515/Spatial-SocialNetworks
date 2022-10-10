@@ -5,7 +5,25 @@
     "email": "annehughes@gmail.com",
     "birthdate": "1952-02-08",
     "phone": "(721)891-9587x353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71
+    ],
+    "login locations": [
+        [
+            -122.142686,
+            37.405708
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                600,
+                0.01
+            ],
+            [
+                5332,
+                0.0227272727273
+            ]
+        ]
+    ]
 }

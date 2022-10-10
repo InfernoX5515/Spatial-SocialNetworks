@@ -5,7 +5,37 @@
     "email": "karenhansen@yahoo.com",
     "birthdate": "1921-06-10",
     "phone": "1805121363",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        74,
+        42,
+        7,
+        72,
+        54,
+        45,
+        70,
+        25,
+        53,
+        36,
+        48,
+        59
+    ],
+    "login locations": [
+        [
+            -122.406757,
+            37.783265
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1120,
+                0.02
+            ],
+            [
+                1120,
+                0.02
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,26 @@
     "email": "wbuchanan@gmail.com",
     "birthdate": "1967-12-22",
     "phone": "001-577-077-8631x609",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        22,
+        36,
+        9,
+        70,
+        52,
+        20,
+        39,
+        60,
+        13,
+        60,
+        65,
+        31
+    ],
+    "login locations": [
+        [
+            -118.168065,
+            33.999696
+        ]
+    ],
+    "relationships": []
 }

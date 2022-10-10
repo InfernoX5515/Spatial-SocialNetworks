@@ -5,7 +5,34 @@
     "email": "david47@hotmail.com",
     "birthdate": "2011-09-05",
     "phone": "001-170-637-2444x10886",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        70,
+        29,
+        37,
+        55,
+        73,
+        42,
+        32,
+        40,
+        61
+    ],
+    "login locations": [
+        [
+            -117.089488,
+            33.071054
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49601,
+                0.02
+            ],
+            [
+                49601,
+                0.02
+            ]
+        ]
+    ]
 }

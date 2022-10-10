@@ -5,7 +5,37 @@
     "email": "vcarter@gmail.com",
     "birthdate": "1974-08-19",
     "phone": "028.627.9530x12907",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        38,
+        74,
+        11,
+        37,
+        4,
+        61,
+        45,
+        70,
+        19,
+        26,
+        19,
+        5
+    ],
+    "login locations": [
+        [
+            -122.543611,
+            38.02092
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4371,
+                0.01
+            ],
+            [
+                4371,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,31 @@
     "email": "jnichols@hotmail.com",
     "birthdate": "1913-12-17",
     "phone": "720-751-2626x16883",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        39,
+        61,
+        21,
+        15,
+        47,
+        64
+    ],
+    "login locations": [
+        [
+            -122.168233,
+            37.668517
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39152,
+                0.235294117647
+            ],
+            [
+                39152,
+                0.235294117647
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,18 @@
     "email": "darrenmorris@yahoo.com",
     "birthdate": "1965-05-05",
     "phone": "(840)672-1141x041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        49,
+        34,
+        3,
+        50
+    ],
+    "login locations": [
+        [
+            -114.587492,
+            35.082781
+        ]
+    ],
+    "relationships": []
 }

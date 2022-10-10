@@ -5,7 +5,27 @@
     "email": "jeffersonsarah@yahoo.com",
     "birthdate": "1939-01-23",
     "phone": "238-916-5623",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        8,
+        67,
+        58,
+        31,
+        69,
+        66,
+        18,
+        38,
+        44,
+        4,
+        66,
+        68,
+        46
+    ],
+    "login locations": [
+        [
+            -117.250109,
+            32.819676
+        ]
+    ],
+    "relationships": []
 }

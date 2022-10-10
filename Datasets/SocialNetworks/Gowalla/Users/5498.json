@@ -5,7 +5,24 @@
     "email": "cgordon@gmail.com",
     "birthdate": "1972-05-04",
     "phone": "907.075.1442x5308",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        20,
+        35,
+        10,
+        26,
+        61,
+        47,
+        19,
+        59,
+        50,
+        40
+    ],
+    "login locations": [
+        [
+            -122.358041,
+            37.782685
+        ]
+    ],
+    "relationships": []
 }

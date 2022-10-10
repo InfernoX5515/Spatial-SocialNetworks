@@ -5,7 +5,27 @@
     "email": "trujillobailey@yahoo.com",
     "birthdate": "1934-08-05",
     "phone": "808-564-9657",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        10,
+        29
+    ],
+    "login locations": [
+        [
+            -118.019632,
+            33.884247
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39047,
+                0.01
+            ],
+            [
+                39047,
+                0.01
+            ]
+        ]
+    ]
 }

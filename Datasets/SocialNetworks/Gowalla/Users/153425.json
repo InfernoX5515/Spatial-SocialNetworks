@@ -5,7 +5,28 @@
     "email": "ikim@gmail.com",
     "birthdate": "1977-05-02",
     "phone": "+1-035-198-0987",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        42,
+        34,
+        69,
+        18,
+        22,
+        75,
+        36,
+        5,
+        39,
+        48,
+        72,
+        6,
+        24,
+        74
+    ],
+    "login locations": [
+        [
+            -118.146012,
+            33.880836
+        ]
+    ],
+    "relationships": []
 }

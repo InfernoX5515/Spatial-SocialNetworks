@@ -5,7 +5,18 @@
     "email": "francisbrandy@yahoo.com",
     "birthdate": "1950-01-23",
     "phone": "(857)570-2365",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        51,
+        66,
+        61,
+        52
+    ],
+    "login locations": [
+        [
+            -117.245372,
+            34.091339
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "carlosmarsh@yahoo.com",
     "birthdate": "1990-09-17",
     "phone": "703-994-2672x782",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.251385,
+            37.881361
+        ]
+    ],
+    "relationships": []
 }

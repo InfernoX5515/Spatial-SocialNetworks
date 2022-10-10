@@ -5,7 +5,21 @@
     "email": "aramirez@gmail.com",
     "birthdate": "1958-06-05",
     "phone": "(761)220-5631x7731",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        29,
+        1,
+        69,
+        23,
+        61,
+        73,
+        73
+    ],
+    "login locations": [
+        [
+            -119.820535,
+            36.774688
+        ]
+    ],
+    "relationships": []
 }

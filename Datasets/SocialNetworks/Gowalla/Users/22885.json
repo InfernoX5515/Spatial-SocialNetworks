@@ -5,7 +5,27 @@
     "email": "ybuck@hotmail.com",
     "birthdate": "1987-11-14",
     "phone": "029.305.3875",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        0,
+        55,
+        47,
+        26,
+        58,
+        9,
+        73,
+        2,
+        2,
+        37,
+        40,
+        51,
+        57
+    ],
+    "login locations": [
+        [
+            -122.403741,
+            37.780684
+        ]
+    ],
+    "relationships": []
 }

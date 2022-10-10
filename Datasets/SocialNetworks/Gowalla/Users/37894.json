@@ -5,7 +5,16 @@
     "email": "whiteconnor@gmail.com",
     "birthdate": "2009-03-07",
     "phone": "+1-752-987-6559x33991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        51,
+        72
+    ],
+    "login locations": [
+        [
+            -122.152783,
+            37.425293
+        ]
+    ],
+    "relationships": []
 }

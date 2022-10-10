@@ -5,7 +5,28 @@
     "email": "brian46@gmail.com",
     "birthdate": "1957-01-28",
     "phone": "551.761.0347",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        21,
+        19,
+        61,
+        63,
+        45,
+        10,
+        28,
+        47,
+        56,
+        8,
+        57,
+        40,
+        30,
+        8
+    ],
+    "login locations": [
+        [
+            -122.418893,
+            37.778773
+        ]
+    ],
+    "relationships": []
 }

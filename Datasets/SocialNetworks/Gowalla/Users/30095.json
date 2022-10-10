@@ -5,7 +5,19 @@
     "email": "frazieralexandria@yahoo.com",
     "birthdate": "1996-10-22",
     "phone": "606-432-6041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        73,
+        44,
+        3,
+        8,
+        3
+    ],
+    "login locations": [
+        [
+            -118.398502,
+            33.93996
+        ]
+    ],
+    "relationships": []
 }

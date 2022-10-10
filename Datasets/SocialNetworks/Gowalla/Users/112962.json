@@ -5,7 +5,21 @@
     "email": "travis95@gmail.com",
     "birthdate": "1967-11-02",
     "phone": "(399)200-1598x30755",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        30,
+        0,
+        54,
+        23,
+        19,
+        31,
+        20
+    ],
+    "login locations": [
+        [
+            -117.684073,
+            34.033331
+        ]
+    ],
+    "relationships": []
 }

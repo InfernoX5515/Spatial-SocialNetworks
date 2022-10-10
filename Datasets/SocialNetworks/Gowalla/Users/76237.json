@@ -5,7 +5,23 @@
     "email": "hortontyler@yahoo.com",
     "birthdate": "1962-01-05",
     "phone": "2767341904",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        11,
+        71,
+        24,
+        21,
+        49,
+        67,
+        48,
+        59,
+        55
+    ],
+    "login locations": [
+        [
+            -118.405759,
+            34.040141
+        ]
+    ],
+    "relationships": []
 }

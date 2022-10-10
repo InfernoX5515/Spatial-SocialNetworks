@@ -5,7 +5,26 @@
     "email": "wnelson@hotmail.com",
     "birthdate": "1975-08-01",
     "phone": "001-676-978-6885",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        41,
+        35,
+        0,
+        67,
+        26,
+        34,
+        28,
+        20,
+        36,
+        29,
+        75,
+        9
+    ],
+    "login locations": [
+        [
+            -118.203864,
+            34.096429
+        ]
+    ],
+    "relationships": []
 }

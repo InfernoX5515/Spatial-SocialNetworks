@@ -5,7 +5,31 @@
     "email": "whiteashley@hotmail.com",
     "birthdate": "1971-01-16",
     "phone": "923.660.5354x6911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        57,
+        52,
+        75,
+        64,
+        66,
+        34
+    ],
+    "login locations": [
+        [
+            -121.947995,
+            37.335121
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                107337,
+                1.0
+            ],
+            [
+                107337,
+                1.0
+            ]
+        ]
+    ]
 }

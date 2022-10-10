@@ -5,7 +5,22 @@
     "email": "phicks@gmail.com",
     "birthdate": "1998-09-19",
     "phone": "609.759.0616x0407",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        51,
+        56,
+        45,
+        63,
+        42,
+        33,
+        23,
+        75
+    ],
+    "login locations": [
+        [
+            -122.40484,
+            37.755934
+        ]
+    ],
+    "relationships": []
 }

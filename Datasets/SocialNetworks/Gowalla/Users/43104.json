@@ -5,7 +5,26 @@
     "email": "kelseyjackson@hotmail.com",
     "birthdate": "1945-06-06",
     "phone": "9105928485",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        26
+    ],
+    "login locations": [
+        [
+            -118.08119,
+            33.845539
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3585,
+                0.01
+            ],
+            [
+                3585,
+                0.01
+            ]
+        ]
+    ]
 }

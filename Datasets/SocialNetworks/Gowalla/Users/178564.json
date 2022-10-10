@@ -5,7 +5,20 @@
     "email": "imata@gmail.com",
     "birthdate": "1973-12-26",
     "phone": "963.754.0705x038",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        50,
+        31,
+        42,
+        19,
+        10,
+        12
+    ],
+    "login locations": [
+        [
+            -118.311571,
+            34.060497
+        ]
+    ],
+    "relationships": []
 }

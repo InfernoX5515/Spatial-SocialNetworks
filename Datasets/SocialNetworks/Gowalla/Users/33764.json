@@ -5,7 +5,29 @@
     "email": "brianbowman@gmail.com",
     "birthdate": "1989-06-25",
     "phone": "(964)625-6233",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        7,
+        51,
+        41,
+        62
+    ],
+    "login locations": [
+        [
+            -117.157553,
+            32.881294
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33635,
+                0.36
+            ],
+            [
+                33635,
+                0.36
+            ]
+        ]
+    ]
 }

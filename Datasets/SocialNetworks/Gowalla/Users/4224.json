@@ -5,7 +5,35 @@
     "email": "veronicahernandez@yahoo.com",
     "birthdate": "2007-06-07",
     "phone": "+1-629-465-5182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        32,
+        50,
+        13,
+        41,
+        45,
+        15,
+        55,
+        16,
+        51,
+        7
+    ],
+    "login locations": [
+        [
+            -122.434049,
+            37.762564
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                586,
+                0.0519480519481
+            ],
+            [
+                4227,
+                0.01
+            ]
+        ]
+    ]
 }

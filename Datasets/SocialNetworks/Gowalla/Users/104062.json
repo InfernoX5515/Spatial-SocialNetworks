@@ -5,7 +5,21 @@
     "email": "rodney75@gmail.com",
     "birthdate": "1918-09-24",
     "phone": "2202750605",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        29,
+        55,
+        22,
+        32,
+        32,
+        18,
+        66
+    ],
+    "login locations": [
+        [
+            -118.363688,
+            34.101119
+        ]
+    ],
+    "relationships": []
 }

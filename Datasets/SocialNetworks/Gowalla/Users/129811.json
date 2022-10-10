@@ -5,7 +5,16 @@
     "email": "herreraronald@hotmail.com",
     "birthdate": "1952-06-26",
     "phone": "(373)737-4650x393",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        34,
+        0
+    ],
+    "login locations": [
+        [
+            -118.409035,
+            33.943396
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "heatherscott@yahoo.com",
     "birthdate": "2010-05-13",
     "phone": "001-506-536-3168x30567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        13,
+        29,
+        21,
+        48,
+        46,
+        74,
+        66
+    ],
+    "login locations": [
+        [
+            -118.290474,
+            34.046326
+        ]
+    ],
+    "relationships": []
 }

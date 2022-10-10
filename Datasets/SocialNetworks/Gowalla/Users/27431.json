@@ -5,7 +5,35 @@
     "email": "alexandracalhoun@yahoo.com",
     "birthdate": "1935-11-17",
     "phone": "430.865.6178x2992",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        22,
+        56,
+        42,
+        43,
+        64,
+        50,
+        55,
+        74,
+        53,
+        26
+    ],
+    "login locations": [
+        [
+            -118.234435,
+            34.088474
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                74499,
+                0.34
+            ],
+            [
+                74499,
+                0.34
+            ]
+        ]
+    ]
 }

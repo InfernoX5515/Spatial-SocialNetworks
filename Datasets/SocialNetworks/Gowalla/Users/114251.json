@@ -5,7 +5,28 @@
     "email": "smalltina@yahoo.com",
     "birthdate": "1997-01-10",
     "phone": "427.806.3859x265",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        38,
+        59,
+        10
+    ],
+    "login locations": [
+        [
+            -118.598767,
+            34.175018
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22735,
+                0.34
+            ],
+            [
+                22735,
+                0.34
+            ]
+        ]
+    ]
 }

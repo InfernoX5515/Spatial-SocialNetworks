@@ -5,7 +5,20 @@
     "email": "christophermalone@gmail.com",
     "birthdate": "1945-03-02",
     "phone": "001-411-334-2301x275",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        64,
+        3,
+        54,
+        37,
+        59,
+        67
+    ],
+    "login locations": [
+        [
+            -118.387436,
+            34.133546
+        ]
+    ],
+    "relationships": []
 }

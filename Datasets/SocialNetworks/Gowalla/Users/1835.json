@@ -5,7 +5,18 @@
     "email": "scott80@gmail.com",
     "birthdate": "1932-06-12",
     "phone": "(638)225-5517x7445",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        54,
+        67,
+        11,
+        19
+    ],
+    "login locations": [
+        [
+            -118.201158,
+            34.124209
+        ]
+    ],
+    "relationships": []
 }

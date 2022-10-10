@@ -5,7 +5,23 @@
     "email": "ashleybarnes@yahoo.com",
     "birthdate": "2018-08-29",
     "phone": "1594417265",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        73,
+        49,
+        39,
+        46,
+        69,
+        62,
+        3,
+        70,
+        48
+    ],
+    "login locations": [
+        [
+            -122.182089,
+            37.722276
+        ]
+    ],
+    "relationships": []
 }

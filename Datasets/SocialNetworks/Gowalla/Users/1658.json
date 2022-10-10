@@ -5,7 +5,39 @@
     "email": "garciatheodore@hotmail.com",
     "birthdate": "2009-04-06",
     "phone": "(084)079-5240",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        64,
+        68,
+        14,
+        32,
+        73,
+        75,
+        61,
+        35,
+        38,
+        54,
+        32,
+        40,
+        51,
+        58
+    ],
+    "login locations": [
+        [
+            -118.870916,
+            34.275747
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                586,
+                0.01
+            ],
+            [
+                586,
+                0.01
+            ]
+        ]
+    ]
 }

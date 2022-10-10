@@ -5,7 +5,26 @@
     "email": "smithjames@hotmail.com",
     "birthdate": "1925-01-20",
     "phone": "(762)855-7283",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        10,
+        26,
+        61,
+        26,
+        55,
+        49,
+        6,
+        10,
+        65,
+        75,
+        23,
+        4
+    ],
+    "login locations": [
+        [
+            -121.93812,
+            39.747871
+        ]
+    ],
+    "relationships": []
 }

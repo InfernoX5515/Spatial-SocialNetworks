@@ -5,7 +5,16 @@
     "email": "rachelgallegos@yahoo.com",
     "birthdate": "1949-04-03",
     "phone": "(044)415-7001x24077",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        13,
+        3
+    ],
+    "login locations": [
+        [
+            -121.734777,
+            37.145646
+        ]
+    ],
+    "relationships": []
 }

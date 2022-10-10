@@ -5,7 +5,39 @@
     "email": "jessicaochoa@gmail.com",
     "birthdate": "1957-02-28",
     "phone": "0261382937",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        21,
+        21,
+        57,
+        66,
+        48,
+        28,
+        31,
+        51,
+        49,
+        10,
+        47,
+        33,
+        18,
+        0
+    ],
+    "login locations": [
+        [
+            -122.416382,
+            37.773821
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                599,
+                0.0220588235294
+            ],
+            [
+                4476,
+                0.017578125
+            ]
+        ]
+    ]
 }

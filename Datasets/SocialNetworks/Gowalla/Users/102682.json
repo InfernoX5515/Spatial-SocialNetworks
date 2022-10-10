@@ -5,7 +5,35 @@
     "email": "zoescott@yahoo.com",
     "birthdate": "2003-08-30",
     "phone": "1651774525",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        3,
+        65,
+        69,
+        74,
+        2,
+        18,
+        61,
+        37,
+        53,
+        33
+    ],
+    "login locations": [
+        [
+            -121.182175,
+            38.659698
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                16721,
+                0.0483870967742
+            ],
+            [
+                16721,
+                0.0483870967742
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,12 @@
     "email": "jonathancolon@yahoo.com",
     "birthdate": "1910-03-07",
     "phone": "+1-408-114-5888x996",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.440134,
+            34.031727
+        ]
+    ],
+    "relationships": []
 }

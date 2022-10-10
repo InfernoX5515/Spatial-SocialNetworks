@@ -5,7 +5,23 @@
     "email": "cpotter@hotmail.com",
     "birthdate": "1979-07-24",
     "phone": "443-373-9328x07019",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        7,
+        11,
+        52,
+        74,
+        70,
+        37,
+        21,
+        17,
+        70
+    ],
+    "login locations": [
+        [
+            -122.082882,
+            37.390621
+        ]
+    ],
+    "relationships": []
 }

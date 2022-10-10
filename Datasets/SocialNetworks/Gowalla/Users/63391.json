@@ -5,7 +5,21 @@
     "email": "mistysantos@gmail.com",
     "birthdate": "1959-11-02",
     "phone": "5774894581",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        11,
+        75,
+        23,
+        16,
+        36,
+        9,
+        70
+    ],
+    "login locations": [
+        [
+            -117.992705,
+            33.761147
+        ]
+    ],
+    "relationships": []
 }

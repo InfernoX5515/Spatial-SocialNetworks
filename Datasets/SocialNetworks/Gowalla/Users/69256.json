@@ -5,7 +5,14 @@
     "email": "biancahernandez@yahoo.com",
     "birthdate": "1948-03-10",
     "phone": "828-544-3251x6878",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16
+    ],
+    "login locations": [
+        [
+            -118.405913,
+            34.069644
+        ]
+    ],
+    "relationships": []
 }

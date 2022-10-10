@@ -5,7 +5,25 @@
     "email": "willie96@hotmail.com",
     "birthdate": "1954-04-02",
     "phone": "738-255-9938x2664",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64
+    ],
+    "login locations": [
+        [
+            -117.259744,
+            33.121896
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8690,
+                0.01
+            ],
+            [
+                10859,
+                0.0464601769912
+            ]
+        ]
+    ]
 }

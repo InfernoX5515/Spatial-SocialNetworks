@@ -5,7 +5,34 @@
     "email": "tpaul@yahoo.com",
     "birthdate": "1980-05-05",
     "phone": "482-727-9658",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        64,
+        54,
+        20,
+        17,
+        68,
+        53,
+        64,
+        61,
+        57
+    ],
+    "login locations": [
+        [
+            -117.130206,
+            32.738163
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                124511,
+                0.333333333333
+            ],
+            [
+                124513,
+                0.01
+            ]
+        ]
+    ]
 }

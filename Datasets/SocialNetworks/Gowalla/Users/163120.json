@@ -5,7 +5,12 @@
     "email": "esmith@yahoo.com",
     "birthdate": "1966-09-03",
     "phone": "442-646-5769",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.2811,
+            37.794069
+        ]
+    ],
+    "relationships": []
 }

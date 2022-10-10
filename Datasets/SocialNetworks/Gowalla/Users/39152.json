@@ -5,7 +5,27 @@
     "email": "wbond@hotmail.com",
     "birthdate": "1924-01-20",
     "phone": "1726679613",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        40,
+        70
+    ],
+    "login locations": [
+        [
+            -121.363259,
+            38.58745
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                658,
+                0.01
+            ],
+            [
+                658,
+                0.0666666666667
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "ahiggins@gmail.com",
     "birthdate": "1953-12-28",
     "phone": "001-405-743-4466",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        13,
+        39,
+        40,
+        8,
+        52,
+        74,
+        71,
+        51,
+        50,
+        12
+    ],
+    "login locations": [
+        [
+            -122.327769,
+            37.876677
+        ]
+    ],
+    "relationships": []
 }

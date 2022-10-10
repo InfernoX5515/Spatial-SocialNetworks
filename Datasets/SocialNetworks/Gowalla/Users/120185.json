@@ -5,7 +5,29 @@
     "email": "michaeljohnson@hotmail.com",
     "birthdate": "1979-01-02",
     "phone": "231.409.9721x06421",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        6,
+        56,
+        56,
+        47
+    ],
+    "login locations": [
+        [
+            -118.33905,
+            34.085556
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                90801,
+                0.18
+            ],
+            [
+                90801,
+                0.18
+            ]
+        ]
+    ]
 }

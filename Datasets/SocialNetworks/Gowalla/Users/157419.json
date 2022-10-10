@@ -5,7 +5,24 @@
     "email": "ichambers@yahoo.com",
     "birthdate": "1986-02-09",
     "phone": "(227)824-5164x581",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        68,
+        31,
+        17,
+        5,
+        64,
+        11,
+        32,
+        37,
+        75,
+        27
+    ],
+    "login locations": [
+        [
+            -122.003992,
+            37.839305
+        ]
+    ],
+    "relationships": []
 }

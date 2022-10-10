@@ -5,7 +5,14 @@
     "email": "peterlane@yahoo.com",
     "birthdate": "1986-05-04",
     "phone": "+1-832-219-1844x557",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68
+    ],
+    "login locations": [
+        [
+            -119.79679,
+            36.768459
+        ]
+    ],
+    "relationships": []
 }

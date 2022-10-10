@@ -5,7 +5,12 @@
     "email": "zchoi@gmail.com",
     "birthdate": "1909-01-30",
     "phone": "(548)628-5173",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.441537,
+            37.779042
+        ]
+    ],
+    "relationships": []
 }

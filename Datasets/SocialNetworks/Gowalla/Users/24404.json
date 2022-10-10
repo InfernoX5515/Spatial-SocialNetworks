@@ -5,7 +5,28 @@
     "email": "mark02@yahoo.com",
     "birthdate": "2004-05-15",
     "phone": "(174)429-6673",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        47,
+        74,
+        25
+    ],
+    "login locations": [
+        [
+            -122.044483,
+            37.306465
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                355,
+                0.01
+            ],
+            [
+                355,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,17 @@
     "email": "allenryan@hotmail.com",
     "birthdate": "1911-12-26",
     "phone": "+1-754-032-5787x7221",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        71,
+        69,
+        46
+    ],
+    "login locations": [
+        [
+            -117.919032,
+            33.713157
+        ]
+    ],
+    "relationships": []
 }

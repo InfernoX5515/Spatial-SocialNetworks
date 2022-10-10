@@ -5,7 +5,25 @@
     "email": "michellebates@gmail.com",
     "birthdate": "2011-04-30",
     "phone": "944.989.6804x39634",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        33,
+        18,
+        58,
+        60,
+        0,
+        35,
+        49,
+        16,
+        18,
+        49,
+        51
+    ],
+    "login locations": [
+        [
+            -118.013152,
+            34.158678
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "smithkristie@yahoo.com",
     "birthdate": "1996-06-06",
     "phone": "699-531-0805",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        28,
+        42,
+        41,
+        4,
+        23,
+        25,
+        33,
+        31,
+        49,
+        51
+    ],
+    "login locations": [
+        [
+            -118.867555,
+            34.197067
+        ]
+    ],
+    "relationships": []
 }

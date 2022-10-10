@@ -5,7 +5,27 @@
     "email": "ashleymendez@gmail.com",
     "birthdate": "1962-08-03",
     "phone": "+1-600-800-0404",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        72,
+        57
+    ],
+    "login locations": [
+        [
+            -122.402261,
+            37.752496
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4259,
+                0.01
+            ],
+            [
+                4259,
+                0.01
+            ]
+        ]
+    ]
 }

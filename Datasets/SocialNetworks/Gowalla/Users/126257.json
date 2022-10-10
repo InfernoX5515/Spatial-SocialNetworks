@@ -5,7 +5,34 @@
     "email": "jtrujillo@hotmail.com",
     "birthdate": "2012-06-09",
     "phone": "0866619221",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        41,
+        75,
+        24,
+        54,
+        49,
+        17,
+        4,
+        66,
+        75
+    ],
+    "login locations": [
+        [
+            -118.944145,
+            34.209136
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33681,
+                0.01
+            ],
+            [
+                33681,
+                0.01
+            ]
+        ]
+    ]
 }

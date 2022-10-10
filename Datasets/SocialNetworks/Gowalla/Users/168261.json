@@ -5,7 +5,28 @@
     "email": "rebeccamoore@gmail.com",
     "birthdate": "2006-05-08",
     "phone": "(202)708-3632x49380",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        32,
+        13,
+        56,
+        19,
+        51,
+        25,
+        6,
+        23,
+        43,
+        27,
+        39,
+        67,
+        42,
+        62
+    ],
+    "login locations": [
+        [
+            -121.297478,
+            38.586684
+        ]
+    ],
+    "relationships": []
 }

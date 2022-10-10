@@ -5,7 +5,25 @@
     "email": "williamrodgers@hotmail.com",
     "birthdate": "2006-01-17",
     "phone": "183-977-2802x117",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        36,
+        65,
+        50,
+        37,
+        7,
+        46,
+        19,
+        15,
+        56,
+        30,
+        50
+    ],
+    "login locations": [
+        [
+            -122.413417,
+            37.774671
+        ]
+    ],
+    "relationships": []
 }

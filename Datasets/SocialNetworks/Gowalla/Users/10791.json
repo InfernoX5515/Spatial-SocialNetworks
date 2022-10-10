@@ -5,7 +5,26 @@
     "email": "reynoldstodd@gmail.com",
     "birthdate": "1917-10-31",
     "phone": "001-663-651-5842x697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        6,
+        56,
+        36,
+        66,
+        6,
+        32,
+        23,
+        55,
+        36,
+        43,
+        59,
+        37
+    ],
+    "login locations": [
+        [
+            -117.842499,
+            33.630814
+        ]
+    ],
+    "relationships": []
 }

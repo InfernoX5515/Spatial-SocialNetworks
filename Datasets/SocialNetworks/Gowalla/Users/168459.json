@@ -5,7 +5,21 @@
     "email": "shelbypatel@gmail.com",
     "birthdate": "1951-11-15",
     "phone": "565-584-0986",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        7,
+        32,
+        55,
+        2,
+        48,
+        40,
+        4
+    ],
+    "login locations": [
+        [
+            -121.46525,
+            38.575482
+        ]
+    ],
+    "relationships": []
 }

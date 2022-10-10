@@ -5,7 +5,17 @@
     "email": "jwoods@gmail.com",
     "birthdate": "2015-04-04",
     "phone": "072-830-8269",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        52,
+        39,
+        5
+    ],
+    "login locations": [
+        [
+            -118.345159,
+            34.077025
+        ]
+    ],
+    "relationships": []
 }

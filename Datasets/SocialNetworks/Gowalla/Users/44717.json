@@ -5,7 +5,19 @@
     "email": "byrdamy@yahoo.com",
     "birthdate": "1928-06-15",
     "phone": "007-660-8157x5372",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        64,
+        1,
+        10,
+        4,
+        58
+    ],
+    "login locations": [
+        [
+            -118.211986,
+            34.09217
+        ]
+    ],
+    "relationships": []
 }

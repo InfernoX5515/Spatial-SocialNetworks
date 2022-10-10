@@ -5,7 +5,17 @@
     "email": "andrew21@hotmail.com",
     "birthdate": "1963-10-13",
     "phone": "(787)395-1826x239",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        15,
+        24,
+        23
+    ],
+    "login locations": [
+        [
+            -117.803855,
+            33.863214
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "michaelschmidt@gmail.com",
     "birthdate": "2018-08-19",
     "phone": "+1-446-752-0186x61607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        66,
+        30,
+        15,
+        37,
+        5,
+        29,
+        16,
+        1,
+        60,
+        50,
+        16,
+        67,
+        1,
+        29
+    ],
+    "login locations": [
+        [
+            -118.058869,
+            33.924685
+        ]
+    ],
+    "relationships": []
 }

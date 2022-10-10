@@ -5,7 +5,37 @@
     "email": "martintiffany@yahoo.com",
     "birthdate": "2010-06-08",
     "phone": "(902)473-4966x75028",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        69,
+        5,
+        70,
+        9,
+        54,
+        26,
+        70,
+        3,
+        53,
+        74,
+        22,
+        63
+    ],
+    "login locations": [
+        [
+            -118.364686,
+            34.075118
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                470,
+                0.01
+            ],
+            [
+                487,
+                0.01
+            ]
+        ]
+    ]
 }

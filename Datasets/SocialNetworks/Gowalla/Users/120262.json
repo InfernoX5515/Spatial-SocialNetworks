@@ -5,7 +5,16 @@
     "email": "jacksonkurt@gmail.com",
     "birthdate": "1995-07-11",
     "phone": "001-703-033-0303x0297",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        12,
+        14
+    ],
+    "login locations": [
+        [
+            -122.024992,
+            37.036251
+        ]
+    ],
+    "relationships": []
 }

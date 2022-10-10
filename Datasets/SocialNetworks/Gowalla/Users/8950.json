@@ -5,7 +5,20 @@
     "email": "patrickwright@gmail.com",
     "birthdate": "1926-12-23",
     "phone": "431.006.3152x681",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        34,
+        38,
+        47,
+        19,
+        27,
+        47
+    ],
+    "login locations": [
+        [
+            -122.403248,
+            37.722602
+        ]
+    ],
+    "relationships": []
 }

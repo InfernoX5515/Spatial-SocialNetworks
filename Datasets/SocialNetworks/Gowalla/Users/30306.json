@@ -5,7 +5,14 @@
     "email": "iharris@hotmail.com",
     "birthdate": "1983-08-19",
     "phone": "+1-705-796-6038x43093",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29
+    ],
+    "login locations": [
+        [
+            -123.048043,
+            38.335335
+        ]
+    ],
+    "relationships": []
 }

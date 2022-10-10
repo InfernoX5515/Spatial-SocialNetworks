@@ -5,7 +5,28 @@
     "email": "nlucas@yahoo.com",
     "birthdate": "1986-04-19",
     "phone": "669-776-4457x33475",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        68,
+        15,
+        58
+    ],
+    "login locations": [
+        [
+            -122.348274,
+            37.865752
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                124545,
+                0.0194805194805
+            ],
+            [
+                126354,
+                0.08
+            ]
+        ]
+    ]
 }

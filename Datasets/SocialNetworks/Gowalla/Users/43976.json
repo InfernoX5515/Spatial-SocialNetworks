@@ -5,7 +5,27 @@
     "email": "rodneyarnold@hotmail.com",
     "birthdate": "1989-07-15",
     "phone": "+1-881-873-7846x601",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        51,
+        64,
+        50,
+        12,
+        58,
+        30,
+        66,
+        31,
+        10,
+        5,
+        35,
+        56,
+        19
+    ],
+    "login locations": [
+        [
+            -121.887664,
+            36.589642
+        ]
+    ],
+    "relationships": []
 }

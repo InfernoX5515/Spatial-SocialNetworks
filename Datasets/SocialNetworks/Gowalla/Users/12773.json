@@ -5,7 +5,37 @@
     "email": "kathleentorres@gmail.com",
     "birthdate": "1982-01-18",
     "phone": "954-420-1656x727",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        59,
+        57,
+        0,
+        58,
+        32,
+        46,
+        71,
+        3,
+        24,
+        69,
+        51,
+        8
+    ],
+    "login locations": [
+        [
+            -122.140131,
+            38.103708
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4264,
+                0.320987654321
+            ],
+            [
+                4264,
+                0.320987654321
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,16 @@
     "email": "shannon42@gmail.com",
     "birthdate": "1940-11-24",
     "phone": "446.297.9560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        64,
+        34
+    ],
+    "login locations": [
+        [
+            -117.284324,
+            33.080669
+        ]
+    ],
+    "relationships": []
 }

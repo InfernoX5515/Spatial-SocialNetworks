@@ -5,7 +5,20 @@
     "email": "gregorywhite@gmail.com",
     "birthdate": "1971-08-13",
     "phone": "077.632.2035",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        59,
+        66,
+        33,
+        67,
+        64,
+        70
+    ],
+    "login locations": [
+        [
+            -122.393698,
+            37.776757
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,35 @@
     "email": "tony91@gmail.com",
     "birthdate": "1995-02-19",
     "phone": "5338604018",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        59,
+        45,
+        23,
+        1,
+        32,
+        33,
+        22,
+        0,
+        43,
+        25
+    ],
+    "login locations": [
+        [
+            -117.737942,
+            33.593863
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5651,
+                0.111111111111
+            ],
+            [
+                5651,
+                0.111111111111
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,30 @@
     "email": "jsimmons@hotmail.com",
     "birthdate": "1970-12-28",
     "phone": "001-921-043-5917x72554",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        31,
+        44,
+        15,
+        2,
+        13
+    ],
+    "login locations": [
+        [
+            -122.306433,
+            37.815875
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6196,
+                0.0155440414508
+            ],
+            [
+                6196,
+                0.0155440414508
+            ]
+        ]
+    ]
 }

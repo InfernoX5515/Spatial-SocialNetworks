@@ -5,7 +5,28 @@
     "email": "fordleonard@hotmail.com",
     "birthdate": "2004-03-07",
     "phone": "272.754.9618x6671",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        50,
+        56,
+        38,
+        62,
+        47,
+        42,
+        39,
+        1,
+        50,
+        38,
+        36,
+        54,
+        40,
+        45
+    ],
+    "login locations": [
+        [
+            -117.959005,
+            33.940342
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "cheryl14@yahoo.com",
     "birthdate": "1970-06-07",
     "phone": "826.567.5007",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49
+    ],
+    "login locations": [
+        [
+            -117.775776,
+            33.546442
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,36 @@
     "email": "williammcdonald@gmail.com",
     "birthdate": "1923-10-12",
     "phone": "(747)803-3272x080",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        15,
+        55,
+        40,
+        41,
+        57,
+        33,
+        62,
+        9,
+        15,
+        68,
+        21
+    ],
+    "login locations": [
+        [
+            -122.118643,
+            37.632942
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                59915,
+                0.01
+            ],
+            [
+                59915,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "ylutz@yahoo.com",
     "birthdate": "1993-03-12",
     "phone": "001-754-421-0297x16237",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        35,
+        7,
+        47,
+        36,
+        46,
+        63,
+        41,
+        59,
+        58,
+        8,
+        38,
+        53,
+        57,
+        55
+    ],
+    "login locations": [
+        [
+            -122.170405,
+            37.424986
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "benjaminpalmer@yahoo.com",
     "birthdate": "1975-06-05",
     "phone": "(921)678-4364x07106",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        55,
+        59,
+        42,
+        1,
+        64,
+        31,
+        69,
+        66,
+        48
+    ],
+    "login locations": [
+        [
+            -122.31786,
+            37.802166
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "lgrant@yahoo.com",
     "birthdate": "1993-07-08",
     "phone": "001-160-988-9231x76952",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        51,
+        14,
+        38,
+        61,
+        43,
+        71,
+        20,
+        22,
+        67
+    ],
+    "login locations": [
+        [
+            -122.112302,
+            37.454016
+        ]
+    ],
+    "relationships": []
 }

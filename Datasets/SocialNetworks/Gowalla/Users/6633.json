@@ -5,7 +5,35 @@
     "email": "cowanadam@hotmail.com",
     "birthdate": "1932-11-24",
     "phone": "(899)723-4168x52849",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        25,
+        70,
+        34,
+        45,
+        50,
+        35,
+        27,
+        40,
+        28,
+        9
+    ],
+    "login locations": [
+        [
+            -122.407317,
+            37.794825
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6601,
+                0.04
+            ],
+            [
+                6601,
+                0.04
+            ]
+        ]
+    ]
 }

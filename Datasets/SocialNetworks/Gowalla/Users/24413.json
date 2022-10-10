@@ -5,7 +5,26 @@
     "email": "mccoyalyssa@gmail.com",
     "birthdate": "2014-04-28",
     "phone": "801-431-8263",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        28,
+        41,
+        13,
+        66,
+        62,
+        26,
+        60,
+        56,
+        32,
+        50,
+        13,
+        51
+    ],
+    "login locations": [
+        [
+            -118.388954,
+            34.088709
+        ]
+    ],
+    "relationships": []
 }

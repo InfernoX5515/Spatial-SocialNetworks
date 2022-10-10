@@ -5,7 +5,16 @@
     "email": "william79@hotmail.com",
     "birthdate": "1975-10-28",
     "phone": "001-814-286-1113x012",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        63,
+        31
+    ],
+    "login locations": [
+        [
+            -117.907062,
+            34.081259
+        ]
+    ],
+    "relationships": []
 }

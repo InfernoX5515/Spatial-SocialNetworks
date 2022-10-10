@@ -5,7 +5,25 @@
     "email": "jdavis@gmail.com",
     "birthdate": "1951-08-15",
     "phone": "(978)828-4361",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        59,
+        51,
+        48,
+        33,
+        2,
+        19,
+        62,
+        63,
+        0,
+        51,
+        48
+    ],
+    "login locations": [
+        [
+            -121.876615,
+            37.686552
+        ]
+    ],
+    "relationships": []
 }

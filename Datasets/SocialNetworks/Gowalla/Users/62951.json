@@ -5,7 +5,25 @@
     "email": "reginalewis@hotmail.com",
     "birthdate": "1930-05-30",
     "phone": "(749)802-1837",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        71,
+        30,
+        51,
+        24,
+        42,
+        53,
+        64,
+        36,
+        72,
+        31,
+        40
+    ],
+    "login locations": [
+        [
+            -118.297215,
+            33.790557
+        ]
+    ],
+    "relationships": []
 }

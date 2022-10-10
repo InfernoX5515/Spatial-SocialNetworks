@@ -5,7 +5,26 @@
     "email": "travis40@gmail.com",
     "birthdate": "1917-12-15",
     "phone": "774.218.6806",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        25,
+        37,
+        14,
+        23,
+        40,
+        29,
+        70,
+        35,
+        47,
+        48,
+        38,
+        26
+    ],
+    "login locations": [
+        [
+            -121.923824,
+            37.283392
+        ]
+    ],
+    "relationships": []
 }

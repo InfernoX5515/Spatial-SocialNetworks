@@ -5,7 +5,14 @@
     "email": "thomasanthony@yahoo.com",
     "birthdate": "2004-11-12",
     "phone": "+1-292-495-4806x95293",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22
+    ],
+    "login locations": [
+        [
+            -118.407032,
+            34.113847
+        ]
+    ],
+    "relationships": []
 }

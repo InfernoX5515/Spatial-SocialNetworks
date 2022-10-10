@@ -5,7 +5,25 @@
     "email": "nelsondiana@yahoo.com",
     "birthdate": "1964-05-15",
     "phone": "(875)181-2260x086",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        26,
+        57,
+        40,
+        46,
+        47,
+        47,
+        46,
+        33,
+        50,
+        55,
+        25
+    ],
+    "login locations": [
+        [
+            -117.921245,
+            33.810876
+        ]
+    ],
+    "relationships": []
 }

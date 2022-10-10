@@ -5,7 +5,29 @@
     "email": "michellehall@hotmail.com",
     "birthdate": "1970-07-18",
     "phone": "(137)675-4971x33880",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        55,
+        57,
+        10,
+        4
+    ],
+    "login locations": [
+        [
+            -122.347939,
+            37.8106
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1466,
+                0.04
+            ],
+            [
+                1558,
+                0.01
+            ]
+        ]
+    ]
 }

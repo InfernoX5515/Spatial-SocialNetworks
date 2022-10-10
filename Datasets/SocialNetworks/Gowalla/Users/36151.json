@@ -5,7 +5,16 @@
     "email": "connerkimberly@gmail.com",
     "birthdate": "1959-11-16",
     "phone": "001-158-025-1561x45775",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        49,
+        39
+    ],
+    "login locations": [
+        [
+            -117.274435,
+            33.085073
+        ]
+    ],
+    "relationships": []
 }

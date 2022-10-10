@@ -5,7 +5,19 @@
     "email": "pduncan@yahoo.com",
     "birthdate": "1948-03-27",
     "phone": "+1-399-131-2722",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        33,
+        59,
+        33,
+        11,
+        49
+    ],
+    "login locations": [
+        [
+            -121.476946,
+            38.57804
+        ]
+    ],
+    "relationships": []
 }

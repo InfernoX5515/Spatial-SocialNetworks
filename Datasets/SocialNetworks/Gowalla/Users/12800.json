@@ -5,7 +5,22 @@
     "email": "brandon01@yahoo.com",
     "birthdate": "1945-03-28",
     "phone": "(123)451-2549x312",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        56,
+        49,
+        71,
+        72,
+        24,
+        10,
+        56,
+        40
+    ],
+    "login locations": [
+        [
+            -120.948541,
+            37.715214
+        ]
+    ],
+    "relationships": []
 }

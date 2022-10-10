@@ -5,7 +5,26 @@
     "email": "thompsonpeter@yahoo.com",
     "birthdate": "1973-08-01",
     "phone": "(151)969-8120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        1,
+        73,
+        57,
+        56,
+        20,
+        65,
+        26,
+        15,
+        48,
+        45,
+        53,
+        59
+    ],
+    "login locations": [
+        [
+            -122.047931,
+            37.353074
+        ]
+    ],
+    "relationships": []
 }

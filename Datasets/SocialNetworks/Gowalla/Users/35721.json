@@ -5,7 +5,37 @@
     "email": "alfred10@gmail.com",
     "birthdate": "1931-12-27",
     "phone": "650-503-1217",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        38,
+        6,
+        69,
+        15,
+        37,
+        49,
+        8,
+        47,
+        60,
+        52,
+        66,
+        29
+    ],
+    "login locations": [
+        [
+            -122.107183,
+            37.420137
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                15287,
+                0.0240963855422
+            ]
+        ]
+    ]
 }

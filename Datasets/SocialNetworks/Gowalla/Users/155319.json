@@ -5,7 +5,17 @@
     "email": "grhodes@hotmail.com",
     "birthdate": "1957-05-04",
     "phone": "9379567808",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        63,
+        63,
+        53
+    ],
+    "login locations": [
+        [
+            -118.123483,
+            33.953448
+        ]
+    ],
+    "relationships": []
 }

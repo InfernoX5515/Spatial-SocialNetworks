@@ -5,7 +5,26 @@
     "email": "courtney21@yahoo.com",
     "birthdate": "1941-01-01",
     "phone": "+1-018-874-4282x98840",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        68,
+        12,
+        51,
+        8,
+        36,
+        19,
+        39,
+        10,
+        14,
+        11,
+        68,
+        52
+    ],
+    "login locations": [
+        [
+            -119.791161,
+            36.84674
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "monica93@gmail.com",
     "birthdate": "1949-06-28",
     "phone": "(426)377-2317",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        15,
+        38
+    ],
+    "login locations": [
+        [
+            -118.03556,
+            33.7891
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                27693,
+                0.12
+            ],
+            [
+                27693,
+                0.12
+            ]
+        ]
+    ]
 }

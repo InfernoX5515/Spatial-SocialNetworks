@@ -5,7 +5,20 @@
     "email": "carla43@gmail.com",
     "birthdate": "1970-12-17",
     "phone": "(395)228-4317",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        27,
+        43,
+        51,
+        69,
+        68,
+        31
+    ],
+    "login locations": [
+        [
+            -118.170671,
+            33.815206
+        ]
+    ],
+    "relationships": []
 }

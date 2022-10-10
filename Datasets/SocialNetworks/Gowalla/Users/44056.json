@@ -5,7 +5,19 @@
     "email": "marshjustin@gmail.com",
     "birthdate": "1941-09-13",
     "phone": "423-249-5753x2360",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        1,
+        29,
+        8,
+        49,
+        0
+    ],
+    "login locations": [
+        [
+            -122.451812,
+            37.769272
+        ]
+    ],
+    "relationships": []
 }

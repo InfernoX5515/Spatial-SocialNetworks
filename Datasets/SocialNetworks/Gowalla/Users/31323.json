@@ -5,7 +5,37 @@
     "email": "trujillodeborah@hotmail.com",
     "birthdate": "1991-06-05",
     "phone": "001-937-076-9177x17472",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        0,
+        67,
+        13,
+        12,
+        74,
+        13,
+        47,
+        14,
+        50,
+        44,
+        33,
+        55
+    ],
+    "login locations": [
+        [
+            -122.398335,
+            37.767977
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                470,
+                0.0115511551155
+            ],
+            [
+                470,
+                0.0115511551155
+            ]
+        ]
+    ]
 }

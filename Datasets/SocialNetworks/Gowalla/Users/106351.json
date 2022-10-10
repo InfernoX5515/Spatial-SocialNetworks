@@ -5,7 +5,19 @@
     "email": "gscott@gmail.com",
     "birthdate": "1918-08-07",
     "phone": "001-908-448-7222x9071",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        32,
+        20,
+        60,
+        16,
+        31
+    ],
+    "login locations": [
+        [
+            -118.156599,
+            33.774501
+        ]
+    ],
+    "relationships": []
 }

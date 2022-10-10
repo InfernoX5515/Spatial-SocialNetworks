@@ -5,7 +5,28 @@
     "email": "stephen07@yahoo.com",
     "birthdate": "1952-12-27",
     "phone": "627.450.7928x37814",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        16,
+        30,
+        55,
+        14,
+        40,
+        53,
+        36,
+        44,
+        3,
+        16,
+        75,
+        6,
+        66,
+        32
+    ],
+    "login locations": [
+        [
+            -118.006316,
+            33.746809
+        ]
+    ],
+    "relationships": []
 }

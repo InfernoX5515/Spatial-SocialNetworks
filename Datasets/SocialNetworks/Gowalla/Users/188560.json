@@ -5,7 +5,15 @@
     "email": "smithshane@gmail.com",
     "birthdate": "2000-04-20",
     "phone": "+1-237-294-2496x5541",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        6
+    ],
+    "login locations": [
+        [
+            -122.390992,
+            37.780389
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,29 @@
     "email": "odavis@hotmail.com",
     "birthdate": "1934-11-21",
     "phone": "+1-275-256-0897",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        63,
+        45,
+        64,
+        34
+    ],
+    "login locations": [
+        [
+            -122.163264,
+            37.429004
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                180720,
+                0.04
+            ],
+            [
+                180720,
+                0.04
+            ]
+        ]
+    ]
 }

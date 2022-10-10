@@ -5,7 +5,20 @@
     "email": "mark48@hotmail.com",
     "birthdate": "1994-10-22",
     "phone": "008.525.3503x372",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        20,
+        44,
+        72,
+        66,
+        17,
+        65
+    ],
+    "login locations": [
+        [
+            -117.164414,
+            32.725955
+        ]
+    ],
+    "relationships": []
 }

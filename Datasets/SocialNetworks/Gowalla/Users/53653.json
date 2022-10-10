@@ -5,7 +5,16 @@
     "email": "zwilliamson@yahoo.com",
     "birthdate": "1909-04-25",
     "phone": "(016)425-8972",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        48,
+        68
+    ],
+    "login locations": [
+        [
+            -118.042172,
+            33.813241
+        ]
+    ],
+    "relationships": []
 }

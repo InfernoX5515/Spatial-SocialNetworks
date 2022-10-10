@@ -5,7 +5,20 @@
     "email": "stacy12@gmail.com",
     "birthdate": "1932-01-02",
     "phone": "001-153-723-1687x1571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        8,
+        22,
+        41,
+        8,
+        21,
+        63
+    ],
+    "login locations": [
+        [
+            -122.112682,
+            37.412634
+        ]
+    ],
+    "relationships": []
 }

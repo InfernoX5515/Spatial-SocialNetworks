@@ -5,7 +5,27 @@
     "email": "smithandrew@yahoo.com",
     "birthdate": "2010-02-08",
     "phone": "001-283-019-6053x812",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        13,
+        27,
+        5,
+        73,
+        36,
+        49,
+        51,
+        71,
+        30,
+        10,
+        2,
+        66,
+        70
+    ],
+    "login locations": [
+        [
+            -122.424723,
+            37.710371
+        ]
+    ],
+    "relationships": []
 }

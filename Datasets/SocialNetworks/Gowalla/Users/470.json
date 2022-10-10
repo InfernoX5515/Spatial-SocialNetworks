@@ -5,7 +5,37 @@
     "email": "christopher28@hotmail.com",
     "birthdate": "1985-04-11",
     "phone": "(353)016-2143x20211",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        44,
+        27,
+        73,
+        37,
+        38,
+        66,
+        16,
+        73,
+        71,
+        44,
+        71,
+        30
+    ],
+    "login locations": [
+        [
+            -122.406791,
+            37.777571
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8,
+                0.0133333333333
+            ],
+            [
+                217,
+                0.151351351351
+            ]
+        ]
+    ]
 }

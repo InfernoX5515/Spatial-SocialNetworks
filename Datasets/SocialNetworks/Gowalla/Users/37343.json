@@ -5,7 +5,28 @@
     "email": "nicholas53@yahoo.com",
     "birthdate": "1983-02-06",
     "phone": "(413)856-6337x41579",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        37,
+        34,
+        5,
+        33,
+        45,
+        43,
+        27,
+        73,
+        32,
+        43,
+        13,
+        63,
+        39,
+        69
+    ],
+    "login locations": [
+        [
+            -119.804048,
+            36.820027
+        ]
+    ],
+    "relationships": []
 }

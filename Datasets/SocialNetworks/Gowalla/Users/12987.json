@@ -5,7 +5,20 @@
     "email": "courtney62@yahoo.com",
     "birthdate": "1910-01-16",
     "phone": "115.852.4567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        40,
+        40,
+        61,
+        2,
+        63,
+        68
+    ],
+    "login locations": [
+        [
+            -117.905379,
+            33.79618
+        ]
+    ],
+    "relationships": []
 }

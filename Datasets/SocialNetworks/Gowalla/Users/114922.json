@@ -5,7 +5,19 @@
     "email": "brettjones@yahoo.com",
     "birthdate": "1958-11-20",
     "phone": "817-336-7774x32951",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        48,
+        21,
+        28,
+        14,
+        64
+    ],
+    "login locations": [
+        [
+            -118.292532,
+            34.042562
+        ]
+    ],
+    "relationships": []
 }

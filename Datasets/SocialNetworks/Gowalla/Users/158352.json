@@ -5,7 +5,28 @@
     "email": "rwhite@hotmail.com",
     "birthdate": "1984-12-03",
     "phone": "+1-330-277-1697x387",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        19,
+        44,
+        32,
+        61,
+        60,
+        45,
+        58,
+        54,
+        61,
+        19,
+        5,
+        23,
+        23,
+        59
+    ],
+    "login locations": [
+        [
+            -122.427894,
+            37.783121
+        ]
+    ],
+    "relationships": []
 }

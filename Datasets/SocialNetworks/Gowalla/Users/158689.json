@@ -5,7 +5,25 @@
     "email": "lford@gmail.com",
     "birthdate": "1918-04-22",
     "phone": "(689)363-3657x5628",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        35,
+        68,
+        40,
+        6,
+        15,
+        73,
+        14,
+        48,
+        62,
+        33,
+        35
+    ],
+    "login locations": [
+        [
+            -119.006826,
+            35.390496
+        ]
+    ],
+    "relationships": []
 }

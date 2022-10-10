@@ -5,7 +5,28 @@
     "email": "juliafox@yahoo.com",
     "birthdate": "2006-11-26",
     "phone": "001-768-643-7291",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        7,
+        62,
+        3,
+        25,
+        67,
+        53,
+        45,
+        53,
+        28,
+        45,
+        33,
+        68,
+        4,
+        68
+    ],
+    "login locations": [
+        [
+            -122.42794,
+            37.772473
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "ypeterson@hotmail.com",
     "birthdate": "1994-11-23",
     "phone": "834-619-6250",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        44,
+        39,
+        61
+    ],
+    "login locations": [
+        [
+            -122.142381,
+            37.436139
+        ]
+    ],
+    "relationships": []
 }

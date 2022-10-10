@@ -5,7 +5,30 @@
     "email": "sgarcia@yahoo.com",
     "birthdate": "1920-05-23",
     "phone": "001-658-469-1701x017",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        31,
+        62,
+        41,
+        34,
+        35
+    ],
+    "login locations": [
+        [
+            -121.468149,
+            38.569655
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8320,
+                0.04
+            ],
+            [
+                8320,
+                0.04
+            ]
+        ]
+    ]
 }

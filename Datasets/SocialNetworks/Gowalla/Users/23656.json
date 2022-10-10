@@ -5,7 +5,24 @@
     "email": "kathy14@hotmail.com",
     "birthdate": "1949-03-17",
     "phone": "7910272778",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        24,
+        38,
+        18,
+        72,
+        65,
+        18,
+        15,
+        69,
+        41,
+        5
+    ],
+    "login locations": [
+        [
+            -118.32412,
+            34.017238
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,33 @@
     "email": "carramy@hotmail.com",
     "birthdate": "1951-08-15",
     "phone": "+1-667-044-0879x93043",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        56,
+        0,
+        58,
+        8,
+        1,
+        37,
+        7,
+        9
+    ],
+    "login locations": [
+        [
+            -117.146221,
+            32.772772
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                19122,
+                0.140625
+            ],
+            [
+                19122,
+                0.140625
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,19 @@
     "email": "kelseyholden@hotmail.com",
     "birthdate": "1994-12-17",
     "phone": "5796017140",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        3,
+        42,
+        71,
+        2,
+        26
+    ],
+    "login locations": [
+        [
+            -119.29187,
+            34.334124
+        ]
+    ],
+    "relationships": []
 }

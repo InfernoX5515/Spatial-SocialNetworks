@@ -5,7 +5,27 @@
     "email": "jenniferpowell@yahoo.com",
     "birthdate": "1909-05-03",
     "phone": "078.337.7752",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        1,
+        57,
+        35,
+        9,
+        55,
+        49,
+        65,
+        37,
+        63,
+        48,
+        4,
+        20,
+        38
+    ],
+    "login locations": [
+        [
+            -118.229451,
+            34.038981
+        ]
+    ],
+    "relationships": []
 }

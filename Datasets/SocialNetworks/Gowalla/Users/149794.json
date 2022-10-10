@@ -5,7 +5,28 @@
     "email": "kevin93@hotmail.com",
     "birthdate": "1959-11-14",
     "phone": "(806)001-2317x6034",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        33,
+        70,
+        68,
+        40,
+        6,
+        38,
+        70,
+        41,
+        67,
+        72,
+        42,
+        0,
+        22,
+        28
+    ],
+    "login locations": [
+        [
+            -117.976582,
+            33.835468
+        ]
+    ],
+    "relationships": []
 }

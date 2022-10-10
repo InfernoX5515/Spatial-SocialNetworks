@@ -5,7 +5,12 @@
     "email": "melindahaley@gmail.com",
     "birthdate": "1983-12-16",
     "phone": "888-946-2036",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.438014,
+            34.149753
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "walkeralison@hotmail.com",
     "birthdate": "1930-07-26",
     "phone": "044.753.6191x63681",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        56
+    ],
+    "login locations": [
+        [
+            -121.955033,
+            38.363691
+        ]
+    ],
+    "relationships": []
 }

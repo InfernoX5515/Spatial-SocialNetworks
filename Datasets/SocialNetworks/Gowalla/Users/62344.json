@@ -5,7 +5,16 @@
     "email": "osanders@hotmail.com",
     "birthdate": "1916-12-09",
     "phone": "(927)133-0455x39166",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        7,
+        10
+    ],
+    "login locations": [
+        [
+            -117.888772,
+            33.786941
+        ]
+    ],
+    "relationships": []
 }

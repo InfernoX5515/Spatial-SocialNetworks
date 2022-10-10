@@ -5,7 +5,18 @@
     "email": "jasonerickson@hotmail.com",
     "birthdate": "1946-08-05",
     "phone": "516.199.2153x39339",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        4,
+        21,
+        61,
+        38
+    ],
+    "login locations": [
+        [
+            -118.171486,
+            33.855995
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,33 @@
     "email": "erinsmall@yahoo.com",
     "birthdate": "2006-08-28",
     "phone": "3232566956",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        3,
+        14,
+        33,
+        67,
+        28,
+        64,
+        7,
+        56
+    ],
+    "login locations": [
+        [
+            -118.42631,
+            34.028646
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                55636,
+                0.0897435897436
+            ],
+            [
+                55636,
+                0.0897435897436
+            ]
+        ]
+    ]
 }

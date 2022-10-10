@@ -5,7 +5,19 @@
     "email": "ptravis@gmail.com",
     "birthdate": "1950-08-09",
     "phone": "+1-694-303-8816x119",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        8,
+        43,
+        33,
+        64,
+        55
+    ],
+    "login locations": [
+        [
+            -122.409467,
+            37.770347
+        ]
+    ],
+    "relationships": []
 }

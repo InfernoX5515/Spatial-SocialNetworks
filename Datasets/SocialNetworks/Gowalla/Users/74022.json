@@ -5,7 +5,19 @@
     "email": "boyersteven@hotmail.com",
     "birthdate": "1983-08-31",
     "phone": "4974544436",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        15,
+        39,
+        53,
+        53,
+        28
+    ],
+    "login locations": [
+        [
+            -121.305796,
+            38.677783
+        ]
+    ],
+    "relationships": []
 }

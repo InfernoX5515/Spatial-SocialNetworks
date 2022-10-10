@@ -5,7 +5,34 @@
     "email": "jessica09@hotmail.com",
     "birthdate": "2000-03-07",
     "phone": "(076)776-2226",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        55,
+        48,
+        56,
+        59,
+        64,
+        22,
+        72,
+        53,
+        75
+    ],
+    "login locations": [
+        [
+            -122.337006,
+            37.663679
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                86,
+                0.01
+            ],
+            [
+                86,
+                0.01
+            ]
+        ]
+    ]
 }

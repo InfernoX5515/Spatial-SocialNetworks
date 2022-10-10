@@ -5,7 +5,14 @@
     "email": "gregoryjackson@yahoo.com",
     "birthdate": "1942-03-20",
     "phone": "250-402-2636",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26
+    ],
+    "login locations": [
+        [
+            -117.161878,
+            33.055573
+        ]
+    ],
+    "relationships": []
 }

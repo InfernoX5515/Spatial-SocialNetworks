@@ -5,7 +5,20 @@
     "email": "kathleenpayne@hotmail.com",
     "birthdate": "1994-03-15",
     "phone": "001-653-851-3614x610",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        64,
+        58,
+        39,
+        23,
+        75,
+        0
+    ],
+    "login locations": [
+        [
+            -118.305562,
+            33.966758
+        ]
+    ],
+    "relationships": []
 }

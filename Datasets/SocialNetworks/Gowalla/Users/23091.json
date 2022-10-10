@@ -5,7 +5,21 @@
     "email": "twebster@hotmail.com",
     "birthdate": "1984-06-28",
     "phone": "4537631559",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        36,
+        55,
+        68,
+        25,
+        38,
+        23,
+        22
+    ],
+    "login locations": [
+        [
+            -117.79953,
+            33.674495
+        ]
+    ],
+    "relationships": []
 }

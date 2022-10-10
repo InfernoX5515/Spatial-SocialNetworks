@@ -5,7 +5,24 @@
     "email": "pamela67@yahoo.com",
     "birthdate": "1936-06-29",
     "phone": "(603)958-8445x337",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        19,
+        22,
+        15,
+        67,
+        16,
+        73,
+        44,
+        26,
+        41,
+        15
+    ],
+    "login locations": [
+        [
+            -122.316377,
+            37.807096
+        ]
+    ],
+    "relationships": []
 }

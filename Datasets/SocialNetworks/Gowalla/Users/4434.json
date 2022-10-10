@@ -5,7 +5,26 @@
     "email": "vgonzales@hotmail.com",
     "birthdate": "1951-03-19",
     "phone": "015-128-2675x0580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        38,
+        39,
+        4,
+        4,
+        50,
+        9,
+        25,
+        28,
+        68,
+        12,
+        10,
+        59
+    ],
+    "login locations": [
+        [
+            -122.049612,
+            37.383786
+        ]
+    ],
+    "relationships": []
 }

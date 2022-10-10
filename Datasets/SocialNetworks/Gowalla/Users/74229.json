@@ -5,7 +5,30 @@
     "email": "diana89@yahoo.com",
     "birthdate": "1916-02-03",
     "phone": "3847171178",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        15,
+        1,
+        25,
+        9,
+        26
+    ],
+    "login locations": [
+        [
+            -121.998558,
+            37.272204
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32430,
+                0.055
+            ],
+            [
+                32430,
+                0.055
+            ]
+        ]
+    ]
 }

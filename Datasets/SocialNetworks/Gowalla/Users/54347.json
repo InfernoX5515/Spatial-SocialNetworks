@@ -5,7 +5,28 @@
     "email": "carolynbarnes@gmail.com",
     "birthdate": "2010-06-24",
     "phone": "785-832-7271",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        56,
+        70,
+        41
+    ],
+    "login locations": [
+        [
+            -117.768061,
+            33.637416
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1621,
+                0.0133333333333
+            ],
+            [
+                54356,
+                0.16
+            ]
+        ]
+    ]
 }

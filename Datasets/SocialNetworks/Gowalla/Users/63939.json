@@ -5,7 +5,21 @@
     "email": "efrost@hotmail.com",
     "birthdate": "1962-04-24",
     "phone": "765.087.4235",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        64,
+        72,
+        63,
+        29,
+        63,
+        9,
+        11
+    ],
+    "login locations": [
+        [
+            -122.284381,
+            37.848222
+        ]
+    ],
+    "relationships": []
 }

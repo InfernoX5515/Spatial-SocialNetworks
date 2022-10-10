@@ -5,7 +5,27 @@
     "email": "westkayla@hotmail.com",
     "birthdate": "1915-04-27",
     "phone": "632.932.9515x665",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        59,
+        65,
+        68,
+        30,
+        46,
+        32,
+        20,
+        73,
+        0,
+        23,
+        15,
+        25,
+        71
+    ],
+    "login locations": [
+        [
+            -119.061292,
+            34.208936
+        ]
+    ],
+    "relationships": []
 }

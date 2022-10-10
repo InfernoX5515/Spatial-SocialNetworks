@@ -5,7 +5,17 @@
     "email": "taylorjohns@yahoo.com",
     "birthdate": "2005-03-19",
     "phone": "861-480-7797",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        2,
+        26,
+        67
+    ],
+    "login locations": [
+        [
+            -118.406543,
+            33.942331
+        ]
+    ],
+    "relationships": []
 }

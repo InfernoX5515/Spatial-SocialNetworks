@@ -5,7 +5,26 @@
     "email": "carlamclaughlin@yahoo.com",
     "birthdate": "1914-10-27",
     "phone": "(810)353-8312x28921",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        35,
+        15,
+        65,
+        32,
+        52,
+        67,
+        47,
+        25,
+        20,
+        17,
+        24,
+        40
+    ],
+    "login locations": [
+        [
+            -118.1522,
+            34.122332
+        ]
+    ],
+    "relationships": []
 }

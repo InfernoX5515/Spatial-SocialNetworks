@@ -5,7 +5,32 @@
     "email": "fsimpson@hotmail.com",
     "birthdate": "1916-09-19",
     "phone": "206-316-5130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        64,
+        2,
+        36,
+        14,
+        1,
+        9,
+        49
+    ],
+    "login locations": [
+        [
+            -117.161164,
+            32.707781
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                15569,
+                0.048
+            ],
+            [
+                17715,
+                0.072
+            ]
+        ]
+    ]
 }

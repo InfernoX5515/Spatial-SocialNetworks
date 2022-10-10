@@ -5,7 +5,22 @@
     "email": "gordonjoseph@hotmail.com",
     "birthdate": "1972-01-18",
     "phone": "001-527-620-2077",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        26,
+        62,
+        42,
+        6,
+        27,
+        42,
+        28,
+        44
+    ],
+    "login locations": [
+        [
+            -122.420602,
+            37.767643
+        ]
+    ],
+    "relationships": []
 }

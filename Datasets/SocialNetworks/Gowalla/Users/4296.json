@@ -5,7 +5,21 @@
     "email": "ghodge@yahoo.com",
     "birthdate": "1915-06-12",
     "phone": "981-113-3412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        74,
+        60,
+        52,
+        49,
+        30,
+        72,
+        29
+    ],
+    "login locations": [
+        [
+            -122.393187,
+            37.78183
+        ]
+    ],
+    "relationships": []
 }

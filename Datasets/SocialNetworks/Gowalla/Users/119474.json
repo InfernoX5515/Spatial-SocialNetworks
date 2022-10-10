@@ -5,7 +5,28 @@
     "email": "robert30@yahoo.com",
     "birthdate": "1982-06-12",
     "phone": "+1-592-772-9326",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        52,
+        42,
+        40,
+        4,
+        5,
+        1,
+        14,
+        39,
+        26,
+        52,
+        8,
+        45,
+        50,
+        26
+    ],
+    "login locations": [
+        [
+            -118.306069,
+            33.835642
+        ]
+    ],
+    "relationships": []
 }

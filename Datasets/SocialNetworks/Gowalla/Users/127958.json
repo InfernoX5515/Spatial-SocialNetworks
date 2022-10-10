@@ -5,7 +5,28 @@
     "email": "tgriffith@yahoo.com",
     "birthdate": "2004-08-28",
     "phone": "405.314.4176x18320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        32,
+        20,
+        6
+    ],
+    "login locations": [
+        [
+            -122.410248,
+            37.780969
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                127957,
+                0.4
+            ],
+            [
+                127957,
+                0.4
+            ]
+        ]
+    ]
 }

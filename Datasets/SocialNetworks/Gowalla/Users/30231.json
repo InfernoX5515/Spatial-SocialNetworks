@@ -5,7 +5,28 @@
     "email": "kevinburns@hotmail.com",
     "birthdate": "1934-09-29",
     "phone": "001-053-494-6481",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        11,
+        27,
+        1,
+        54,
+        72,
+        24,
+        62,
+        67,
+        36,
+        27,
+        35,
+        41,
+        8,
+        59
+    ],
+    "login locations": [
+        [
+            -117.28196,
+            33.101861
+        ]
+    ],
+    "relationships": []
 }

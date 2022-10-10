@@ -5,7 +5,19 @@
     "email": "courtney81@gmail.com",
     "birthdate": "1974-06-27",
     "phone": "687-417-3924x00662",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        49,
+        20,
+        48,
+        14,
+        11
+    ],
+    "login locations": [
+        [
+            -118.281198,
+            34.027556
+        ]
+    ],
+    "relationships": []
 }

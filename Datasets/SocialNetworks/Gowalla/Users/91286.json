@@ -5,7 +5,20 @@
     "email": "danielle30@hotmail.com",
     "birthdate": "1957-10-02",
     "phone": "702.516.1706",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        57,
+        22,
+        27,
+        66,
+        74,
+        29
+    ],
+    "login locations": [
+        [
+            -118.348575,
+            34.08588
+        ]
+    ],
+    "relationships": []
 }

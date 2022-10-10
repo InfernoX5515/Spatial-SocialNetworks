@@ -5,7 +5,16 @@
     "email": "williamorozco@yahoo.com",
     "birthdate": "1981-05-09",
     "phone": "(699)273-1494",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        13,
+        59
+    ],
+    "login locations": [
+        [
+            -118.47649,
+            34.015513
+        ]
+    ],
+    "relationships": []
 }

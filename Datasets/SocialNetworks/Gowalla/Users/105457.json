@@ -5,7 +5,26 @@
     "email": "rwhite@gmail.com",
     "birthdate": "1993-03-23",
     "phone": "553.294.4298",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        0
+    ],
+    "login locations": [
+        [
+            -117.193786,
+            32.862219
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                105455,
+                0.0769230769231
+            ],
+            [
+                105459,
+                0.0578144853875
+            ]
+        ]
+    ]
 }

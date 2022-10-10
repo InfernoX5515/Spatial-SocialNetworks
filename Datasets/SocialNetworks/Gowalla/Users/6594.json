@@ -5,7 +5,14 @@
     "email": "joshua56@hotmail.com",
     "birthdate": "2015-03-29",
     "phone": "(066)431-9210x6344",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69
+    ],
+    "login locations": [
+        [
+            -118.450027,
+            33.99886
+        ]
+    ],
+    "relationships": []
 }

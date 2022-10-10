@@ -5,7 +5,14 @@
     "email": "richardsonthomas@gmail.com",
     "birthdate": "1952-07-16",
     "phone": "+1-482-030-7905x412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1
+    ],
+    "login locations": [
+        [
+            -122.388025,
+            37.790222
+        ]
+    ],
+    "relationships": []
 }

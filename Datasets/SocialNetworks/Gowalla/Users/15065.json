@@ -5,7 +5,33 @@
     "email": "durancarol@gmail.com",
     "birthdate": "1993-06-06",
     "phone": "(587)304-1765x3982",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        38,
+        28,
+        34,
+        41,
+        21,
+        25,
+        71,
+        45
+    ],
+    "login locations": [
+        [
+            -121.990245,
+            37.318968
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                338,
+                0.0135064935065
+            ],
+            [
+                338,
+                0.0135064935065
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,15 @@
     "email": "leetina@gmail.com",
     "birthdate": "1929-05-11",
     "phone": "810-899-2957",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        19
+    ],
+    "login locations": [
+        [
+            -122.396474,
+            37.7869
+        ]
+    ],
+    "relationships": []
 }

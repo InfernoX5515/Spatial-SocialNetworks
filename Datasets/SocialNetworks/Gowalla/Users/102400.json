@@ -5,7 +5,31 @@
     "email": "johnsonjared@hotmail.com",
     "birthdate": "1994-08-12",
     "phone": "066-575-3166",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        69,
+        67,
+        36,
+        40,
+        67,
+        52
+    ],
+    "login locations": [
+        [
+            -117.120774,
+            32.778254
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                44012,
+                0.0533333333333
+            ],
+            [
+                44012,
+                0.0533333333333
+            ]
+        ]
+    ]
 }

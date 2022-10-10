@@ -5,7 +5,12 @@
     "email": "pjohnson@hotmail.com",
     "birthdate": "1949-01-19",
     "phone": "469.105.6308x75702",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.923152,
+            33.79758
+        ]
+    ],
+    "relationships": []
 }

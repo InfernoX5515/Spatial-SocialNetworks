@@ -5,7 +5,33 @@
     "email": "ppotter@hotmail.com",
     "birthdate": "1937-03-22",
     "phone": "001-338-536-2879x09083",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        16,
+        73,
+        28,
+        33,
+        23,
+        8,
+        14,
+        2
+    ],
+    "login locations": [
+        [
+            -122.304788,
+            37.555516
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                116995,
+                0.333333333333
+            ],
+            [
+                116995,
+                0.333333333333
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "lisa91@yahoo.com",
     "birthdate": "1965-02-03",
     "phone": "107.365.4375x1895",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        39,
+        1,
+        32,
+        11,
+        59,
+        39,
+        38,
+        1,
+        18
+    ],
+    "login locations": [
+        [
+            -122.095382,
+            38.156436
+        ]
+    ],
+    "relationships": []
 }

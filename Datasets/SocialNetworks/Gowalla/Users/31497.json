@@ -5,7 +5,26 @@
     "email": "martinjulie@hotmail.com",
     "birthdate": "1990-08-20",
     "phone": "602.077.0356",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        48,
+        44,
+        9,
+        8,
+        31,
+        38,
+        3,
+        61,
+        39,
+        52,
+        12,
+        18
+    ],
+    "login locations": [
+        [
+            -122.406913,
+            37.751229
+        ]
+    ],
+    "relationships": []
 }

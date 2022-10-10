@@ -5,7 +5,24 @@
     "email": "jamesrobinson@yahoo.com",
     "birthdate": "1921-06-19",
     "phone": "+1-893-912-8019x675",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        44,
+        75,
+        4,
+        43,
+        39,
+        6,
+        35,
+        57,
+        55,
+        15
+    ],
+    "login locations": [
+        [
+            -118.140728,
+            34.144608
+        ]
+    ],
+    "relationships": []
 }

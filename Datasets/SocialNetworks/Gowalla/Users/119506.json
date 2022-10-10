@@ -5,7 +5,37 @@
     "email": "sergiolopez@yahoo.com",
     "birthdate": "1917-09-09",
     "phone": "001-256-820-1569x47355",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        13,
+        59,
+        19,
+        61,
+        18,
+        57,
+        37,
+        23,
+        72,
+        2,
+        53,
+        70
+    ],
+    "login locations": [
+        [
+            -118.195221,
+            33.766296
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                119503,
+                0.341176470588
+            ],
+            [
+                119504,
+                0.261904761905
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,14 @@
     "email": "katherineperkins@gmail.com",
     "birthdate": "1907-01-20",
     "phone": "+1-065-782-5021x26644",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67
+    ],
+    "login locations": [
+        [
+            -122.312465,
+            37.83362
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "pamelaholt@hotmail.com",
     "birthdate": "1989-01-25",
     "phone": "(924)463-5440x232",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        1,
+        6
+    ],
+    "login locations": [
+        [
+            -121.914983,
+            37.368924
+        ]
+    ],
+    "relationships": []
 }

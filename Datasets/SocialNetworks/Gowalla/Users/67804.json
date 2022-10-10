@@ -5,7 +5,19 @@
     "email": "randyfarrell@hotmail.com",
     "birthdate": "1955-09-10",
     "phone": "+1-773-911-8471x690",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        14,
+        44,
+        20,
+        68,
+        72
+    ],
+    "login locations": [
+        [
+            -118.365793,
+            33.92958
+        ]
+    ],
+    "relationships": []
 }

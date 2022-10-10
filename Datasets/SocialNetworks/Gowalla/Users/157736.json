@@ -5,7 +5,20 @@
     "email": "morenotonya@gmail.com",
     "birthdate": "2004-08-17",
     "phone": "099.959.8016",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        4,
+        29,
+        3,
+        22,
+        26,
+        11
+    ],
+    "login locations": [
+        [
+            -117.145032,
+            32.747342
+        ]
+    ],
+    "relationships": []
 }

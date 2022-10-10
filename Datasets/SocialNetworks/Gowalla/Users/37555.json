@@ -5,7 +5,18 @@
     "email": "estradaalexis@yahoo.com",
     "birthdate": "1925-06-12",
     "phone": "3015006428",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        18,
+        43,
+        17,
+        3
+    ],
+    "login locations": [
+        [
+            -122.348158,
+            37.582562
+        ]
+    ],
+    "relationships": []
 }

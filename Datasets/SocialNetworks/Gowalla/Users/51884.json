@@ -5,7 +5,18 @@
     "email": "austin08@yahoo.com",
     "birthdate": "1959-10-22",
     "phone": "420.203.5267x227",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        20,
+        46,
+        39,
+        71
+    ],
+    "login locations": [
+        [
+            -122.433498,
+            37.763779
+        ]
+    ],
+    "relationships": []
 }

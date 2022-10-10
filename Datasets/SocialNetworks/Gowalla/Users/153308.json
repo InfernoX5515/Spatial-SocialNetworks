@@ -5,7 +5,35 @@
     "email": "waltonsarah@gmail.com",
     "birthdate": "1985-12-22",
     "phone": "+1-057-152-0581x9679",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        52,
+        8,
+        27,
+        14,
+        59,
+        60,
+        66,
+        16,
+        30,
+        46
+    ],
+    "login locations": [
+        [
+            -122.271569,
+            37.80522
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                153304,
+                0.0141843971631
+            ],
+            [
+                153304,
+                0.0141843971631
+            ]
+        ]
+    ]
 }

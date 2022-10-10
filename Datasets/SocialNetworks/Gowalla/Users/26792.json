@@ -5,7 +5,14 @@
     "email": "vpark@hotmail.com",
     "birthdate": "2021-07-24",
     "phone": "(826)352-3226x006",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42
+    ],
+    "login locations": [
+        [
+            -122.424488,
+            37.790221
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,36 @@
     "email": "torresalexander@yahoo.com",
     "birthdate": "2018-12-31",
     "phone": "(717)633-2855x5562",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        68,
+        74,
+        71,
+        49,
+        37,
+        25,
+        42,
+        73,
+        5,
+        0,
+        2
+    ],
+    "login locations": [
+        [
+            -122.332569,
+            37.855901
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4436,
+                0.01
+            ],
+            [
+                4436,
+                0.01
+            ]
+        ]
+    ]
 }

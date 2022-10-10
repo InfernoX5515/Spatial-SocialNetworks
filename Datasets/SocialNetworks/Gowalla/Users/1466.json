@@ -5,7 +5,34 @@
     "email": "ericmiller@hotmail.com",
     "birthdate": "2018-11-08",
     "phone": "483-463-0323",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        9,
+        53,
+        46,
+        61,
+        23,
+        24,
+        46,
+        43,
+        62
+    ],
+    "login locations": [
+        [
+            -117.868153,
+            33.761993
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4560,
+                0.01
+            ],
+            [
+                26582,
+                0.0457142857143
+            ]
+        ]
+    ]
 }

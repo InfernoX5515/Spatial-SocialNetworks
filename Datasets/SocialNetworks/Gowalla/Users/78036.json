@@ -5,7 +5,22 @@
     "email": "taylormary@yahoo.com",
     "birthdate": "1993-06-20",
     "phone": "+1-453-439-5539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        62,
+        53,
+        38,
+        6,
+        71,
+        20,
+        29,
+        70
+    ],
+    "login locations": [
+        [
+            -122.424002,
+            37.774333
+        ]
+    ],
+    "relationships": []
 }

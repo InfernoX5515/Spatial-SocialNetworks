@@ -5,7 +5,39 @@
     "email": "stephanie41@hotmail.com",
     "birthdate": "1935-06-17",
     "phone": "369.742.2773x41887",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        2,
+        10,
+        22,
+        67,
+        5,
+        34,
+        51,
+        32,
+        4,
+        40,
+        60,
+        45,
+        15,
+        29
+    ],
+    "login locations": [
+        [
+            -121.784914,
+            37.905129
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                28524,
+                0.0103092783505
+            ],
+            [
+                28524,
+                0.0103092783505
+            ]
+        ]
+    ]
 }

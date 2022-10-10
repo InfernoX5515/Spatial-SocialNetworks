@@ -5,7 +5,18 @@
     "email": "anne31@yahoo.com",
     "birthdate": "1930-07-23",
     "phone": "(974)555-8120x8022",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        65,
+        48,
+        7,
+        38
+    ],
+    "login locations": [
+        [
+            -117.823674,
+            33.695974
+        ]
+    ],
+    "relationships": []
 }

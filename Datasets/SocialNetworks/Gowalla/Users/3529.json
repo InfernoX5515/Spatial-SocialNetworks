@@ -5,7 +5,23 @@
     "email": "burchadam@hotmail.com",
     "birthdate": "1970-02-13",
     "phone": "(829)175-3189x13996",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.34257,
+            37.79218
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                235,
+                0.184172661871
+            ],
+            [
+                465,
+                0.625
+            ]
+        ]
+    ]
 }

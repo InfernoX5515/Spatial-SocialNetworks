@@ -5,7 +5,17 @@
     "email": "jzhang@gmail.com",
     "birthdate": "2002-08-19",
     "phone": "531.419.0120x331",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        0,
+        44,
+        2
+    ],
+    "login locations": [
+        [
+            -117.993724,
+            34.070228
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "randycole@gmail.com",
     "birthdate": "1950-08-10",
     "phone": "001-250-562-6153x300",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        18,
+        56,
+        47,
+        16,
+        10,
+        26,
+        35,
+        61,
+        44,
+        70,
+        24,
+        55,
+        68
+    ],
+    "login locations": [
+        [
+            -122.094357,
+            37.368465
+        ]
+    ],
+    "relationships": []
 }

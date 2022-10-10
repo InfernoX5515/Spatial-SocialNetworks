@@ -5,7 +5,27 @@
     "email": "istewart@gmail.com",
     "birthdate": "1974-08-02",
     "phone": "(932)944-5321",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        50,
+        60,
+        52,
+        63,
+        3,
+        50,
+        26,
+        36,
+        21,
+        61,
+        53,
+        65,
+        62
+    ],
+    "login locations": [
+        [
+            -117.190293,
+            32.734474
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "haynesbrian@gmail.com",
     "birthdate": "1917-06-02",
     "phone": "209.196.0104x932",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        52,
+        69,
+        73,
+        66,
+        43,
+        53,
+        36,
+        18,
+        51,
+        51,
+        45,
+        46,
+        50,
+        4
+    ],
+    "login locations": [
+        [
+            -122.391579,
+            37.777274
+        ]
+    ],
+    "relationships": []
 }

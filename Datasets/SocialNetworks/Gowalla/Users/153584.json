@@ -5,7 +5,14 @@
     "email": "trevorcunningham@yahoo.com",
     "birthdate": "1912-06-20",
     "phone": "148.360.5611x153",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38
+    ],
+    "login locations": [
+        [
+            -118.313593,
+            34.049338
+        ]
+    ],
+    "relationships": []
 }

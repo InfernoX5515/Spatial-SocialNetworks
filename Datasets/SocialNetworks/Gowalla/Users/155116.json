@@ -5,7 +5,25 @@
     "email": "jared69@yahoo.com",
     "birthdate": "1973-10-27",
     "phone": "(446)353-0081",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4
+    ],
+    "login locations": [
+        [
+            -121.523386,
+            38.567841
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                155117,
+                0.04
+            ],
+            [
+                155117,
+                0.04
+            ]
+        ]
+    ]
 }

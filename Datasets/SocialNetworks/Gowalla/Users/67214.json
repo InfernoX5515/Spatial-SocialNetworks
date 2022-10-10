@@ -5,7 +5,15 @@
     "email": "strongconnor@yahoo.com",
     "birthdate": "1917-06-20",
     "phone": "(317)887-7740x80604",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        1
+    ],
+    "login locations": [
+        [
+            -117.144099,
+            33.550656
+        ]
+    ],
+    "relationships": []
 }

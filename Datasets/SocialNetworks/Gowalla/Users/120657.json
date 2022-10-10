@@ -5,7 +5,21 @@
     "email": "shannonreese@yahoo.com",
     "birthdate": "1951-01-09",
     "phone": "+1-375-681-6078",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        26,
+        67,
+        51,
+        61,
+        51,
+        27,
+        7
+    ],
+    "login locations": [
+        [
+            -122.41832,
+            37.791134
+        ]
+    ],
+    "relationships": []
 }

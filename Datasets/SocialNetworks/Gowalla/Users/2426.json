@@ -5,7 +5,26 @@
     "email": "michaelalan@yahoo.com",
     "birthdate": "1957-11-28",
     "phone": "0720691128",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        21,
+        29,
+        62,
+        18,
+        26,
+        36,
+        9,
+        38,
+        71,
+        9,
+        66,
+        14
+    ],
+    "login locations": [
+        [
+            -122.100523,
+            37.397774
+        ]
+    ],
+    "relationships": []
 }

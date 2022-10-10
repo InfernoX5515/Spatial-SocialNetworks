@@ -5,7 +5,22 @@
     "email": "carlythompson@hotmail.com",
     "birthdate": "1963-08-18",
     "phone": "(121)601-4646x874",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        28,
+        62,
+        10,
+        52,
+        24,
+        41,
+        14,
+        14
+    ],
+    "login locations": [
+        [
+            -117.166837,
+            32.822294
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "lisasavage@yahoo.com",
     "birthdate": "2012-03-04",
     "phone": "(321)153-1850x110",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.027713,
+            37.359497
+        ]
+    ],
+    "relationships": []
 }

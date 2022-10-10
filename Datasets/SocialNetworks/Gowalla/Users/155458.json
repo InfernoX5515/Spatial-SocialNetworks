@@ -5,7 +5,25 @@
     "email": "fletcherjason@yahoo.com",
     "birthdate": "1911-04-26",
     "phone": "303.406.8675",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        10,
+        34,
+        46,
+        63,
+        19,
+        42,
+        47,
+        63,
+        13,
+        35,
+        41
+    ],
+    "login locations": [
+        [
+            -122.228654,
+            37.758677
+        ]
+    ],
+    "relationships": []
 }

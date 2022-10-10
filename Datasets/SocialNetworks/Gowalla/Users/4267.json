@@ -5,7 +5,27 @@
     "email": "eric58@yahoo.com",
     "birthdate": "1937-07-16",
     "phone": "254-647-5891",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        33,
+        0,
+        1,
+        74,
+        27,
+        18,
+        26,
+        61,
+        35,
+        61,
+        5,
+        68,
+        37
+    ],
+    "login locations": [
+        [
+            -122.025533,
+            37.417891
+        ]
+    ],
+    "relationships": []
 }

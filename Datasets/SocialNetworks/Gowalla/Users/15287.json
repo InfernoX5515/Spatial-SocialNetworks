@@ -5,7 +5,34 @@
     "email": "lindaclark@yahoo.com",
     "birthdate": "2017-01-03",
     "phone": "(652)931-9009x0555",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        23,
+        9,
+        15,
+        55,
+        75,
+        33,
+        31,
+        52,
+        18
+    ],
+    "login locations": [
+        [
+            -122.246595,
+            37.891433
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                35721,
+                0.111111111111
+            ],
+            [
+                35721,
+                0.111111111111
+            ]
+        ]
+    ]
 }

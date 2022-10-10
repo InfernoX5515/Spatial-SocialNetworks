@@ -5,7 +5,21 @@
     "email": "douglas74@yahoo.com",
     "birthdate": "1963-12-27",
     "phone": "870.771.2070x00326",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        25,
+        19,
+        73,
+        34,
+        1,
+        27,
+        44
+    ],
+    "login locations": [
+        [
+            -116.981655,
+            32.642803
+        ]
+    ],
+    "relationships": []
 }

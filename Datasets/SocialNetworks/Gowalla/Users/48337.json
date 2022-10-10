@@ -5,7 +5,15 @@
     "email": "ethanhouse@gmail.com",
     "birthdate": "1913-05-14",
     "phone": "(329)542-0299",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        4
+    ],
+    "login locations": [
+        [
+            -117.077976,
+            32.674213
+        ]
+    ],
+    "relationships": []
 }

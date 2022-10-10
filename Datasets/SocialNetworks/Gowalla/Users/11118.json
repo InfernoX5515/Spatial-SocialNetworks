@@ -5,7 +5,27 @@
     "email": "churchdavid@yahoo.com",
     "birthdate": "2019-09-03",
     "phone": "(278)194-4171",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        39,
+        2,
+        59,
+        69,
+        5,
+        71,
+        68,
+        1,
+        49,
+        41,
+        74,
+        74,
+        2
+    ],
+    "login locations": [
+        [
+            -117.133398,
+            33.543877
+        ]
+    ],
+    "relationships": []
 }

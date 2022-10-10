@@ -5,7 +5,20 @@
     "email": "acabrera@hotmail.com",
     "birthdate": "1976-06-20",
     "phone": "470.437.8906",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        47,
+        71,
+        12,
+        41,
+        17,
+        1
+    ],
+    "login locations": [
+        [
+            -118.164893,
+            33.94772
+        ]
+    ],
+    "relationships": []
 }

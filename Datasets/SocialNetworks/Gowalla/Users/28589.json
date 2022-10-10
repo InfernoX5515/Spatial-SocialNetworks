@@ -5,7 +5,21 @@
     "email": "gina33@hotmail.com",
     "birthdate": "1956-01-11",
     "phone": "961.055.9959",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        12,
+        21,
+        28,
+        54,
+        16,
+        10,
+        58
+    ],
+    "login locations": [
+        [
+            -118.422269,
+            33.910575
+        ]
+    ],
+    "relationships": []
 }

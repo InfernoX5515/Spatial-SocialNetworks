@@ -5,7 +5,28 @@
     "email": "lance80@hotmail.com",
     "birthdate": "1984-07-26",
     "phone": "7141245309",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        34,
+        47,
+        29
+    ],
+    "login locations": [
+        [
+            -118.364781,
+            34.056493
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                223,
+                0.01
+            ],
+            [
+                223,
+                0.01
+            ]
+        ]
+    ]
 }

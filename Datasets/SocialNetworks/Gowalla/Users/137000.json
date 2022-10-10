@@ -5,7 +5,17 @@
     "email": "qreyes@hotmail.com",
     "birthdate": "2018-12-20",
     "phone": "(920)710-0627x793",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        53,
+        23,
+        17
+    ],
+    "login locations": [
+        [
+            -117.657532,
+            34.006782
+        ]
+    ],
+    "relationships": []
 }

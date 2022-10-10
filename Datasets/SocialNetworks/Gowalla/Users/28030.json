@@ -5,7 +5,12 @@
     "email": "maria04@gmail.com",
     "birthdate": "1935-01-31",
     "phone": "076.935.8789",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.252279,
+            38.643394
+        ]
+    ],
+    "relationships": []
 }

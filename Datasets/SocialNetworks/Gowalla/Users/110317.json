@@ -5,7 +5,16 @@
     "email": "wwatson@hotmail.com",
     "birthdate": "2010-05-17",
     "phone": "+1-788-362-4933x5676",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        31,
+        9
+    ],
+    "login locations": [
+        [
+            -117.72604,
+            34.082995
+        ]
+    ],
+    "relationships": []
 }

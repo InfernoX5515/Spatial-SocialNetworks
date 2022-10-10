@@ -5,7 +5,22 @@
     "email": "chutchinson@yahoo.com",
     "birthdate": "1983-10-22",
     "phone": "(469)447-9673x21728",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        53,
+        63,
+        26,
+        13,
+        66,
+        44,
+        20,
+        6
+    ],
+    "login locations": [
+        [
+            -118.174286,
+            34.046091
+        ]
+    ],
+    "relationships": []
 }

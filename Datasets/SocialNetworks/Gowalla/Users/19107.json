@@ -5,7 +5,16 @@
     "email": "brian14@yahoo.com",
     "birthdate": "1933-09-21",
     "phone": "096.135.5096",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        45,
+        26
+    ],
+    "login locations": [
+        [
+            -118.551565,
+            34.445307
+        ]
+    ],
+    "relationships": []
 }

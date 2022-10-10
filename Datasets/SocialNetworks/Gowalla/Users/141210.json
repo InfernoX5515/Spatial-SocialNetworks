@@ -5,7 +5,27 @@
     "email": "heathercardenas@hotmail.com",
     "birthdate": "1996-05-17",
     "phone": "(825)917-0993x060",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        48,
+        68,
+        36,
+        62,
+        11,
+        1,
+        69,
+        66,
+        73,
+        21,
+        21,
+        73,
+        20
+    ],
+    "login locations": [
+        [
+            -122.406394,
+            37.780364
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,37 @@
     "email": "ryanheidi@yahoo.com",
     "birthdate": "1935-07-11",
     "phone": "138.438.8668x51788",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        56,
+        6,
+        28,
+        17,
+        7,
+        33,
+        31,
+        38,
+        65,
+        39,
+        47,
+        13
+    ],
+    "login locations": [
+        [
+            -117.191571,
+            32.774222
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118642,
+                1.0
+            ],
+            [
+                118643,
+                0.25
+            ]
+        ]
+    ]
 }

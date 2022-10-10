@@ -5,7 +5,18 @@
     "email": "elizabethgonzalez@yahoo.com",
     "birthdate": "1972-03-11",
     "phone": "753-126-5221x872",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        61,
+        53,
+        8,
+        48
+    ],
+    "login locations": [
+        [
+            -122.251987,
+            37.780837
+        ]
+    ],
+    "relationships": []
 }

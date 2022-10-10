@@ -5,7 +5,20 @@
     "email": "simonlindsay@hotmail.com",
     "birthdate": "2004-06-23",
     "phone": "(922)049-7679x030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        60,
+        64,
+        58,
+        73,
+        28,
+        39
+    ],
+    "login locations": [
+        [
+            -117.551969,
+            33.855726
+        ]
+    ],
+    "relationships": []
 }

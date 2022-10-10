@@ -5,7 +5,18 @@
     "email": "petersonjason@gmail.com",
     "birthdate": "1980-10-07",
     "phone": "(871)695-5053x9063",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        35,
+        69,
+        52,
+        35
+    ],
+    "login locations": [
+        [
+            -117.723219,
+            33.576194
+        ]
+    ],
+    "relationships": []
 }

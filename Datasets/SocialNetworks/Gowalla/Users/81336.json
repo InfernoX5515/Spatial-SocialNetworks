@@ -5,7 +5,16 @@
     "email": "bsmith@hotmail.com",
     "birthdate": "1920-08-10",
     "phone": "+1-639-597-5619x918",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        19,
+        13
+    ],
+    "login locations": [
+        [
+            -118.46535,
+            34.014366
+        ]
+    ],
+    "relationships": []
 }

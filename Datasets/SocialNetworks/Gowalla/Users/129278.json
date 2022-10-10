@@ -5,7 +5,22 @@
     "email": "evalenzuela@yahoo.com",
     "birthdate": "1991-05-10",
     "phone": "(244)240-6190x8141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        24,
+        54,
+        14,
+        48,
+        35,
+        52,
+        39,
+        10
+    ],
+    "login locations": [
+        [
+            -122.442219,
+            37.760968
+        ]
+    ],
+    "relationships": []
 }

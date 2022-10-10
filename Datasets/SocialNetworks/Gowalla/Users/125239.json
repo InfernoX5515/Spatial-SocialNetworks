@@ -5,7 +5,14 @@
     "email": "alexandra93@hotmail.com",
     "birthdate": "2000-03-01",
     "phone": "(800)710-3368x559",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60
+    ],
+    "login locations": [
+        [
+            -119.316279,
+            36.315125
+        ]
+    ],
+    "relationships": []
 }

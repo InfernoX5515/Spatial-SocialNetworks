@@ -5,7 +5,14 @@
     "email": "zrogers@hotmail.com",
     "birthdate": "2013-06-13",
     "phone": "+1-399-085-4616",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25
+    ],
+    "login locations": [
+        [
+            -118.297885,
+            34.106916
+        ]
+    ],
+    "relationships": []
 }

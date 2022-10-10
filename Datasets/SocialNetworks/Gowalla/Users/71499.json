@@ -5,7 +5,15 @@
     "email": "chrispatterson@yahoo.com",
     "birthdate": "1999-03-30",
     "phone": "+1-239-513-4801x987",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        10
+    ],
+    "login locations": [
+        [
+            -122.419868,
+            37.794686
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "rsmith@yahoo.com",
     "birthdate": "1950-10-24",
     "phone": "+1-555-769-7239",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        69,
+        22,
+        57,
+        41,
+        40,
+        14,
+        23,
+        64,
+        59,
+        24,
+        12
+    ],
+    "login locations": [
+        [
+            -122.398103,
+            37.781983
+        ]
+    ],
+    "relationships": []
 }

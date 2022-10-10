@@ -5,7 +5,25 @@
     "email": "qtaylor@gmail.com",
     "birthdate": "1968-02-03",
     "phone": "001-678-533-1447x340",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        21,
+        28,
+        5,
+        37,
+        18,
+        36,
+        67,
+        75,
+        73,
+        35,
+        41
+    ],
+    "login locations": [
+        [
+            -117.166486,
+            32.777098
+        ]
+    ],
+    "relationships": []
 }

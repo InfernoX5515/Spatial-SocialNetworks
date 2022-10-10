@@ -5,7 +5,25 @@
     "email": "zwhite@yahoo.com",
     "birthdate": "1921-03-16",
     "phone": "(174)428-0465x58141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48
+    ],
+    "login locations": [
+        [
+            -118.068746,
+            34.014414
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                27431,
+                0.34
+            ],
+            [
+                27431,
+                0.34
+            ]
+        ]
+    ]
 }

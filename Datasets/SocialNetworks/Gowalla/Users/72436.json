@@ -5,7 +5,22 @@
     "email": "luceromichael@hotmail.com",
     "birthdate": "1919-12-30",
     "phone": "(214)411-9120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        32,
+        38,
+        74,
+        59,
+        26,
+        63,
+        6,
+        68
+    ],
+    "login locations": [
+        [
+            -118.582652,
+            34.168324
+        ]
+    ],
+    "relationships": []
 }

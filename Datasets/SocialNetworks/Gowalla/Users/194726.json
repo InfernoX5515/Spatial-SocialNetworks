@@ -5,7 +5,38 @@
     "email": "brian24@hotmail.com",
     "birthdate": "1969-05-03",
     "phone": "+1-054-216-6481x7120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        43,
+        43,
+        69,
+        12,
+        22,
+        42,
+        62,
+        24,
+        33,
+        74,
+        65,
+        19,
+        28
+    ],
+    "login locations": [
+        [
+            -121.228904,
+            38.688917
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                194724,
+                0.333333333333
+            ],
+            [
+                194725,
+                0.2
+            ]
+        ]
+    ]
 }

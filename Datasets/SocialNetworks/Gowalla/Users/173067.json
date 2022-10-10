@@ -5,7 +5,17 @@
     "email": "kennedysara@hotmail.com",
     "birthdate": "1962-10-23",
     "phone": "001-712-391-3479x15555",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        37,
+        74,
+        61
+    ],
+    "login locations": [
+        [
+            -119.14078,
+            35.424029
+        ]
+    ],
+    "relationships": []
 }

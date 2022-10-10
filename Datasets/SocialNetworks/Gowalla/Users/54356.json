@@ -5,7 +5,30 @@
     "email": "macklisa@yahoo.com",
     "birthdate": "1928-10-15",
     "phone": "053-520-5737",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        75,
+        63,
+        42,
+        46,
+        17
+    ],
+    "login locations": [
+        [
+            -118.445822,
+            33.986113
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                54347,
+                0.0533333333333
+            ],
+            [
+                54347,
+                0.0533333333333
+            ]
+        ]
+    ]
 }

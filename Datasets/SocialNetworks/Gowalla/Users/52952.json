@@ -5,7 +5,17 @@
     "email": "hevans@hotmail.com",
     "birthdate": "2010-10-14",
     "phone": "001-807-130-4568x404",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        37,
+        63,
+        42
+    ],
+    "login locations": [
+        [
+            -118.400576,
+            33.944911
+        ]
+    ],
+    "relationships": []
 }

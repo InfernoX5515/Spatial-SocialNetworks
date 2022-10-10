@@ -5,7 +5,12 @@
     "email": "clarkkathryn@gmail.com",
     "birthdate": "1908-07-14",
     "phone": "+1-145-748-0762x606",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.00648,
+            37.672082
+        ]
+    ],
+    "relationships": []
 }

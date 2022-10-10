@@ -5,7 +5,15 @@
     "email": "mckenzie02@yahoo.com",
     "birthdate": "2003-04-05",
     "phone": "046-108-7115x817",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        72
+    ],
+    "login locations": [
+        [
+            -118.348305,
+            34.028807
+        ]
+    ],
+    "relationships": []
 }

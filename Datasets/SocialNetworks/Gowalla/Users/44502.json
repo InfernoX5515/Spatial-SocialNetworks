@@ -5,7 +5,36 @@
     "email": "marcus10@hotmail.com",
     "birthdate": "1976-01-29",
     "phone": "(799)185-2695",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        18,
+        35,
+        50,
+        45,
+        34,
+        71,
+        20,
+        33,
+        60,
+        15,
+        61
+    ],
+    "login locations": [
+        [
+            -118.000953,
+            33.83624
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                138100,
+                0.0215827338129
+            ],
+            [
+                138100,
+                0.0215827338129
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "littleashley@yahoo.com",
     "birthdate": "1931-06-27",
     "phone": "974-211-4599",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        32,
+        63,
+        56,
+        4,
+        63,
+        28,
+        46,
+        31,
+        46
+    ],
+    "login locations": [
+        [
+            -117.982493,
+            33.845329
+        ]
+    ],
+    "relationships": []
 }

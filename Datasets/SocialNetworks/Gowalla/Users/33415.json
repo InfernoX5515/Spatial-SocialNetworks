@@ -5,7 +5,15 @@
     "email": "hickmankenneth@gmail.com",
     "birthdate": "1997-07-18",
     "phone": "+1-826-258-2812x0859",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        44
+    ],
+    "login locations": [
+        [
+            -121.922376,
+            37.366618
+        ]
+    ],
+    "relationships": []
 }

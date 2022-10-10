@@ -5,7 +5,37 @@
     "email": "josephgrant@yahoo.com",
     "birthdate": "2011-02-18",
     "phone": "340.912.6871",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        71,
+        20,
+        23,
+        14,
+        14,
+        17,
+        0,
+        62,
+        48,
+        48,
+        4,
+        67
+    ],
+    "login locations": [
+        [
+            -117.651085,
+            33.588998
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                170,
+                0.016
+            ],
+            [
+                10782,
+                0.0172413793103
+            ]
+        ]
+    ]
 }

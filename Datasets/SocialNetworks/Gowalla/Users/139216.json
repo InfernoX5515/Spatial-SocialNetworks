@@ -5,7 +5,38 @@
     "email": "tanner63@hotmail.com",
     "birthdate": "2009-03-03",
     "phone": "(581)960-3704x0754",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        32,
+        15,
+        4,
+        1,
+        51,
+        27,
+        50,
+        51,
+        65,
+        6,
+        0,
+        5,
+        12
+    ],
+    "login locations": [
+        [
+            -118.153857,
+            34.626133
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                45633,
+                0.333333333333
+            ],
+            [
+                45633,
+                0.333333333333
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,26 @@
     "email": "sgonzalez@gmail.com",
     "birthdate": "2002-03-30",
     "phone": "4323825984",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        66
+    ],
+    "login locations": [
+        [
+            -117.387872,
+            33.93962
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                90801,
+                0.02
+            ],
+            [
+                90801,
+                0.02
+            ]
+        ]
+    ]
 }

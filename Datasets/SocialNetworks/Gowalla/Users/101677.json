@@ -5,7 +5,33 @@
     "email": "qharrison@yahoo.com",
     "birthdate": "1980-08-05",
     "phone": "+1-929-611-7812x765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        53,
+        40,
+        28,
+        57,
+        41,
+        41,
+        44,
+        70
+    ],
+    "login locations": [
+        [
+            -117.124934,
+            33.004007
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                101679,
+                1.0
+            ],
+            [
+                101679,
+                1.0
+            ]
+        ]
+    ]
 }

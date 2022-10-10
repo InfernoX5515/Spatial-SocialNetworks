@@ -5,7 +5,15 @@
     "email": "karengriffin@hotmail.com",
     "birthdate": "2000-03-25",
     "phone": "001-139-000-9882x933",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        16
+    ],
+    "login locations": [
+        [
+            -118.111654,
+            33.961531
+        ]
+    ],
+    "relationships": []
 }

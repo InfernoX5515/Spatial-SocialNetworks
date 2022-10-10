@@ -5,7 +5,18 @@
     "email": "david16@yahoo.com",
     "birthdate": "2018-01-08",
     "phone": "+1-798-198-6459x19862",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        16,
+        30,
+        60,
+        68
+    ],
+    "login locations": [
+        [
+            -119.243747,
+            35.772625
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "tina07@yahoo.com",
     "birthdate": "2010-05-08",
     "phone": "2244692242",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.874601,
+            33.736201
+        ]
+    ],
+    "relationships": []
 }

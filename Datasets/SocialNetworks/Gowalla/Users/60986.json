@@ -5,7 +5,26 @@
     "email": "weekssarah@yahoo.com",
     "birthdate": "1995-11-28",
     "phone": "(467)376-3329",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        31
+    ],
+    "login locations": [
+        [
+            -118.438944,
+            34.02379
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                28314,
+                0.0787037037037
+            ],
+            [
+                28314,
+                0.0787037037037
+            ]
+        ]
+    ]
 }

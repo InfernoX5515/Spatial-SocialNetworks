@@ -5,7 +5,16 @@
     "email": "rhondalynch@hotmail.com",
     "birthdate": "1957-01-06",
     "phone": "975.715.4657",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        16,
+        47
+    ],
+    "login locations": [
+        [
+            -117.162287,
+            33.142681
+        ]
+    ],
+    "relationships": []
 }

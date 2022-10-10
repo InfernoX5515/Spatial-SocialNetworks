@@ -5,7 +5,25 @@
     "email": "kathrynburns@gmail.com",
     "birthdate": "1914-11-12",
     "phone": "+1-902-100-9440",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        57,
+        20,
+        65,
+        30,
+        31,
+        2,
+        48,
+        47,
+        66,
+        28,
+        55
+    ],
+    "login locations": [
+        [
+            -122.421363,
+            37.740383
+        ]
+    ],
+    "relationships": []
 }

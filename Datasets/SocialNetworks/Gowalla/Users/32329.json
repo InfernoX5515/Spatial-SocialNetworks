@@ -5,7 +5,28 @@
     "email": "cruzmark@gmail.com",
     "birthdate": "1963-05-05",
     "phone": "+1-769-310-1285x2868",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        62,
+        59,
+        10,
+        53,
+        43,
+        49,
+        2,
+        43,
+        27,
+        63,
+        69,
+        30,
+        49,
+        69
+    ],
+    "login locations": [
+        [
+            -121.898402,
+            37.291253
+        ]
+    ],
+    "relationships": []
 }

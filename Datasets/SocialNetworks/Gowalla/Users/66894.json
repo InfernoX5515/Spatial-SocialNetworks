@@ -5,7 +5,16 @@
     "email": "anitanewman@gmail.com",
     "birthdate": "2004-10-25",
     "phone": "201.114.7659",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        6,
+        38
+    ],
+    "login locations": [
+        [
+            -118.177558,
+            34.073634
+        ]
+    ],
+    "relationships": []
 }

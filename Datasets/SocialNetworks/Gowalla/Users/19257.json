@@ -5,7 +5,24 @@
     "email": "ubeltran@yahoo.com",
     "birthdate": "1988-11-11",
     "phone": "012-293-4657",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        26,
+        73,
+        46,
+        60,
+        75,
+        7,
+        3,
+        74,
+        51,
+        29
+    ],
+    "login locations": [
+        [
+            -117.167899,
+            32.711022
+        ]
+    ],
+    "relationships": []
 }

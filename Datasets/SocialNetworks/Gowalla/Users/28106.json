@@ -5,7 +5,25 @@
     "email": "benjamin53@gmail.com",
     "birthdate": "1998-10-21",
     "phone": "+1-304-031-9325x0056",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        49,
+        31,
+        14,
+        61,
+        24,
+        70,
+        60,
+        4,
+        14,
+        75,
+        28
+    ],
+    "login locations": [
+        [
+            -122.358957,
+            37.596389
+        ]
+    ],
+    "relationships": []
 }

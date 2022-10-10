@@ -5,7 +5,32 @@
     "email": "aburgess@gmail.com",
     "birthdate": "1953-08-10",
     "phone": "078-597-9592",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        0,
+        45,
+        31,
+        21,
+        42,
+        26,
+        40
+    ],
+    "login locations": [
+        [
+            -117.734939,
+            34.022602
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                56061,
+                0.036866359447
+            ],
+            [
+                148348,
+                0.04
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,39 @@
     "email": "pamela42@gmail.com",
     "birthdate": "1916-06-04",
     "phone": "4820619868",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        62,
+        48,
+        9,
+        43,
+        32,
+        21,
+        13,
+        4,
+        35,
+        44,
+        4,
+        51,
+        9,
+        34
+    ],
+    "login locations": [
+        [
+            -118.321414,
+            34.034349
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                16278,
+                0.01
+            ],
+            [
+                16278,
+                0.01
+            ]
+        ]
+    ]
 }

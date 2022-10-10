@@ -5,7 +5,31 @@
     "email": "sean31@hotmail.com",
     "birthdate": "1943-07-12",
     "phone": "367.655.9980x335",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        9,
+        52,
+        1,
+        33,
+        19,
+        62
+    ],
+    "login locations": [
+        [
+            -117.918742,
+            33.811106
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1860,
+                0.381538461538
+            ],
+            [
+                1860,
+                0.381538461538
+            ]
+        ]
+    ]
 }

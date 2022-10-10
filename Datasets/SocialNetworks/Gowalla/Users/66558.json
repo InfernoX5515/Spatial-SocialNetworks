@@ -5,7 +5,36 @@
     "email": "rebecca67@gmail.com",
     "birthdate": "1923-04-29",
     "phone": "(757)426-3662x75087",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        56,
+        22,
+        52,
+        19,
+        10,
+        34,
+        46,
+        49,
+        48,
+        25,
+        74
+    ],
+    "login locations": [
+        [
+            -117.162447,
+            32.720942
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3103,
+                0.0298507462687
+            ],
+            [
+                3103,
+                0.0298507462687
+            ]
+        ]
+    ]
 }

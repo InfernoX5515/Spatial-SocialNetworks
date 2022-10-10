@@ -5,7 +5,27 @@
     "email": "fletchervirginia@gmail.com",
     "birthdate": "1946-08-04",
     "phone": "2914869722",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        58,
+        56,
+        55,
+        62,
+        6,
+        73,
+        40,
+        35,
+        22,
+        6,
+        33,
+        37,
+        3
+    ],
+    "login locations": [
+        [
+            -118.010378,
+            33.727085
+        ]
+    ],
+    "relationships": []
 }

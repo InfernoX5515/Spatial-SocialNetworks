@@ -5,7 +5,14 @@
     "email": "aaron94@yahoo.com",
     "birthdate": "2016-11-13",
     "phone": "001-586-567-9414x20661",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42
+    ],
+    "login locations": [
+        [
+            -122.285642,
+            37.772682
+        ]
+    ],
+    "relationships": []
 }

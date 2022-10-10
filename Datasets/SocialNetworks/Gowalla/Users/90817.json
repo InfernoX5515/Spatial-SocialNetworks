@@ -5,7 +5,27 @@
     "email": "natalie77@yahoo.com",
     "birthdate": "2022-05-31",
     "phone": "(603)159-8508x62419",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        34,
+        47,
+        32,
+        12,
+        43,
+        4,
+        34,
+        32,
+        41,
+        74,
+        3,
+        67,
+        15
+    ],
+    "login locations": [
+        [
+            -121.942664,
+            37.334365
+        ]
+    ],
+    "relationships": []
 }

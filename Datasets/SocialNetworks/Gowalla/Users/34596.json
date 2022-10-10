@@ -5,7 +5,26 @@
     "email": "qosborne@yahoo.com",
     "birthdate": "1931-11-02",
     "phone": "001-542-637-9597x23666",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        35,
+        65,
+        8,
+        1,
+        54,
+        70,
+        11,
+        27,
+        17,
+        11,
+        62,
+        45
+    ],
+    "login locations": [
+        [
+            -122.409228,
+            37.752154
+        ]
+    ],
+    "relationships": []
 }

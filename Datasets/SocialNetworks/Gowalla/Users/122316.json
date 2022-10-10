@@ -5,7 +5,12 @@
     "email": "gsummers@hotmail.com",
     "birthdate": "2004-11-17",
     "phone": "979.497.4222x0396",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.436597,
+            33.983581
+        ]
+    ],
+    "relationships": []
 }

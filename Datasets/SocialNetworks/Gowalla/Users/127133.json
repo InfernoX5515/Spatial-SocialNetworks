@@ -5,7 +5,15 @@
     "email": "philip43@gmail.com",
     "birthdate": "1988-07-26",
     "phone": "108.330.2186",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        36
+    ],
+    "login locations": [
+        [
+            -118.337926,
+            33.96033
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "fowlertimothy@yahoo.com",
     "birthdate": "1927-12-24",
     "phone": "794-724-0029x331",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        26,
+        13,
+        20
+    ],
+    "login locations": [
+        [
+            -118.297256,
+            34.09557
+        ]
+    ],
+    "relationships": []
 }

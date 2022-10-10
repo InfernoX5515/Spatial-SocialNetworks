@@ -5,7 +5,28 @@
     "email": "herreravicki@yahoo.com",
     "birthdate": "1939-08-14",
     "phone": "777-995-3977x72393",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        61,
+        5,
+        59,
+        52,
+        1,
+        20,
+        45,
+        65,
+        69,
+        53,
+        64,
+        30,
+        73,
+        25
+    ],
+    "login locations": [
+        [
+            -117.883936,
+            33.870023
+        ]
+    ],
+    "relationships": []
 }

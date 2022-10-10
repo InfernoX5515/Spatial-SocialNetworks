@@ -5,7 +5,27 @@
     "email": "fschmidt@gmail.com",
     "birthdate": "1975-11-07",
     "phone": "(472)912-7776x7100",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        11,
+        11,
+        60,
+        29,
+        41,
+        48,
+        70,
+        56,
+        50,
+        5,
+        70,
+        5,
+        26
+    ],
+    "login locations": [
+        [
+            -122.409572,
+            37.779488
+        ]
+    ],
+    "relationships": []
 }

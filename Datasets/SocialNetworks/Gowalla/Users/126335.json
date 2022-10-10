@@ -5,7 +5,20 @@
     "email": "jennifer76@yahoo.com",
     "birthdate": "2003-03-06",
     "phone": "024.176.0670x2367",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        58,
+        66,
+        21,
+        64,
+        71,
+        73
+    ],
+    "login locations": [
+        [
+            -122.395044,
+            37.774991
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "williamsjacqueline@gmail.com",
     "birthdate": "1950-11-17",
     "phone": "(524)766-0594x1390",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        13,
+        30,
+        15,
+        23,
+        52,
+        31,
+        25,
+        14,
+        24,
+        3,
+        41,
+        33
+    ],
+    "login locations": [
+        [
+            -122.418875,
+            37.780354
+        ]
+    ],
+    "relationships": []
 }

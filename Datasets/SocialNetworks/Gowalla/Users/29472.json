@@ -5,7 +5,15 @@
     "email": "guerrerokathy@yahoo.com",
     "birthdate": "1950-01-26",
     "phone": "277.959.1876",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        54
+    ],
+    "login locations": [
+        [
+            -117.176446,
+            32.829483
+        ]
+    ],
+    "relationships": []
 }

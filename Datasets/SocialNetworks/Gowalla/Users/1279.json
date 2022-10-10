@@ -5,7 +5,30 @@
     "email": "peter06@hotmail.com",
     "birthdate": "1939-01-01",
     "phone": "6882552572",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        39,
+        74,
+        61,
+        25,
+        35
+    ],
+    "login locations": [
+        [
+            -122.132394,
+            38.084842
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                870,
+                0.0438888888889
+            ],
+            [
+                870,
+                0.0438888888889
+            ]
+        ]
+    ]
 }

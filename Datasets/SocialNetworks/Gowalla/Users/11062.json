@@ -5,7 +5,32 @@
     "email": "rsmith@hotmail.com",
     "birthdate": "1969-08-22",
     "phone": "(599)724-2344x2849",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        38,
+        46,
+        35,
+        0,
+        42,
+        68,
+        17
+    ],
+    "login locations": [
+        [
+            -122.341525,
+            37.790377
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                179,
+                0.01
+            ],
+            [
+                179,
+                0.01
+            ]
+        ]
+    ]
 }

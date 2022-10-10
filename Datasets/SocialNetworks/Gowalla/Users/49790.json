@@ -5,7 +5,14 @@
     "email": "michael12@gmail.com",
     "birthdate": "1916-08-12",
     "phone": "087.630.6519x7803",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26
+    ],
+    "login locations": [
+        [
+            -118.138306,
+            34.079661
+        ]
+    ],
+    "relationships": []
 }

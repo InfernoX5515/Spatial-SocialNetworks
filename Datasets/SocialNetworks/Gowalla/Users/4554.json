@@ -5,7 +5,14 @@
     "email": "fharris@hotmail.com",
     "birthdate": "1921-12-26",
     "phone": "(256)775-2856",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43
+    ],
+    "login locations": [
+        [
+            -118.258973,
+            33.993047
+        ]
+    ],
+    "relationships": []
 }

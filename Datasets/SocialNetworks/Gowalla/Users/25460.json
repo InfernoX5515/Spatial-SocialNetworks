@@ -5,7 +5,21 @@
     "email": "nicholejohnson@hotmail.com",
     "birthdate": "1962-07-27",
     "phone": "483.774.2656x4248",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        36,
+        74,
+        44,
+        35,
+        19,
+        63,
+        42
+    ],
+    "login locations": [
+        [
+            -122.426474,
+            37.77321
+        ]
+    ],
+    "relationships": []
 }

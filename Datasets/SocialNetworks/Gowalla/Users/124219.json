@@ -5,7 +5,25 @@
     "email": "vsanchez@hotmail.com",
     "birthdate": "1949-09-19",
     "phone": "+1-609-026-4412x355",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        22,
+        40,
+        16,
+        34,
+        70,
+        39,
+        57,
+        66,
+        51,
+        61,
+        26
+    ],
+    "login locations": [
+        [
+            -121.788282,
+            37.702903
+        ]
+    ],
+    "relationships": []
 }

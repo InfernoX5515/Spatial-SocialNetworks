@@ -5,7 +5,22 @@
     "email": "gsmith@gmail.com",
     "birthdate": "1945-06-11",
     "phone": "062-455-3256x298",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        18,
+        5,
+        28,
+        7,
+        14,
+        5,
+        38,
+        22
+    ],
+    "login locations": [
+        [
+            -121.97847,
+            37.360602
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "jay20@gmail.com",
     "birthdate": "1998-12-28",
     "phone": "001-930-525-3655x73799",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        11
+    ],
+    "login locations": [
+        [
+            -117.226181,
+            32.95062
+        ]
+    ],
+    "relationships": []
 }

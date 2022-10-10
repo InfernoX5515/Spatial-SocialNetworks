@@ -5,7 +5,26 @@
     "email": "jacksoncarla@gmail.com",
     "birthdate": "1986-11-27",
     "phone": "6397400148",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        33,
+        74,
+        45,
+        34,
+        58,
+        27,
+        64,
+        59,
+        50,
+        33,
+        2,
+        1
+    ],
+    "login locations": [
+        [
+            -118.145031,
+            33.82928
+        ]
+    ],
+    "relationships": []
 }

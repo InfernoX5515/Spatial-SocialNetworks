@@ -5,7 +5,20 @@
     "email": "dustinkeith@gmail.com",
     "birthdate": "1976-04-22",
     "phone": "(610)373-1688x52644",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        68,
+        14,
+        21,
+        72,
+        73,
+        31
+    ],
+    "login locations": [
+        [
+            -122.226355,
+            37.486019
+        ]
+    ],
+    "relationships": []
 }

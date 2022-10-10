@@ -5,7 +5,27 @@
     "email": "katherine45@hotmail.com",
     "birthdate": "1998-01-07",
     "phone": "+1-442-344-3027x03030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        34,
+        25,
+        75,
+        36,
+        60,
+        63,
+        19,
+        45,
+        40,
+        29,
+        32,
+        49,
+        64
+    ],
+    "login locations": [
+        [
+            -122.035767,
+            37.373436
+        ]
+    ],
+    "relationships": []
 }

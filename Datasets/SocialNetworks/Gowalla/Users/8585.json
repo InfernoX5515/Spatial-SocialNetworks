@@ -5,7 +5,28 @@
     "email": "sbentley@yahoo.com",
     "birthdate": "1939-12-24",
     "phone": "001-519-692-8508x626",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        12,
+        60,
+        50,
+        28,
+        74,
+        49,
+        47,
+        2,
+        56,
+        52,
+        64,
+        75,
+        75,
+        5
+    ],
+    "login locations": [
+        [
+            -122.101385,
+            37.678653
+        ]
+    ],
+    "relationships": []
 }

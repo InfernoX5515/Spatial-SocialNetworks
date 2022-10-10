@@ -5,7 +5,22 @@
     "email": "jaredhill@yahoo.com",
     "birthdate": "1923-11-09",
     "phone": "+1-544-109-0662x9695",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        22,
+        21,
+        44,
+        72,
+        15,
+        72,
+        60,
+        30
+    ],
+    "login locations": [
+        [
+            -122.032167,
+            37.351442
+        ]
+    ],
+    "relationships": []
 }

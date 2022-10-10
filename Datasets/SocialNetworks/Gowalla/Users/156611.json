@@ -5,7 +5,18 @@
     "email": "uhahn@hotmail.com",
     "birthdate": "2000-01-06",
     "phone": "001-922-986-9715x71391",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        15,
+        4,
+        34,
+        23
+    ],
+    "login locations": [
+        [
+            -118.378849,
+            34.115208
+        ]
+    ],
+    "relationships": []
 }

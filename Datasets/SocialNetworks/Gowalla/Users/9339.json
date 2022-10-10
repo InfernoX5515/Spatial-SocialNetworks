@@ -5,7 +5,27 @@
     "email": "jessica82@gmail.com",
     "birthdate": "1998-04-23",
     "phone": "402-014-3737",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        72,
+        60
+    ],
+    "login locations": [
+        [
+            -121.984188,
+            37.192831
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4820,
+                0.01
+            ],
+            [
+                6208,
+                0.01
+            ]
+        ]
+    ]
 }

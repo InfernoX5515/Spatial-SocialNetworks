@@ -5,7 +5,30 @@
     "email": "ohoward@yahoo.com",
     "birthdate": "1966-01-18",
     "phone": "632.648.4363x1628",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        20,
+        48,
+        30,
+        69,
+        21
+    ],
+    "login locations": [
+        [
+            -122.389692,
+            37.710784
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                182,
+                0.0434782608696
+            ],
+            [
+                504,
+                0.01
+            ]
+        ]
+    ]
 }

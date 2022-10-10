@@ -5,7 +5,25 @@
     "email": "evansanthony@yahoo.com",
     "birthdate": "1988-03-27",
     "phone": "(996)668-1980x311",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32
+    ],
+    "login locations": [
+        [
+            -122.391273,
+            37.798234
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                87,
+                0.0133333333333
+            ],
+            [
+                600,
+                0.0181818181818
+            ]
+        ]
+    ]
 }

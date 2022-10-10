@@ -5,7 +5,28 @@
     "email": "gfarley@gmail.com",
     "birthdate": "1910-04-01",
     "phone": "841.969.0165x290",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        68,
+        65,
+        35,
+        30,
+        46,
+        47,
+        43,
+        48,
+        9,
+        44,
+        45,
+        51,
+        23,
+        44
+    ],
+    "login locations": [
+        [
+            -122.409141,
+            37.792825
+        ]
+    ],
+    "relationships": []
 }

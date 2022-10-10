@@ -5,7 +5,14 @@
     "email": "phughes@hotmail.com",
     "birthdate": "2009-02-03",
     "phone": "+1-834-432-7281x91144",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47
+    ],
+    "login locations": [
+        [
+            -122.376624,
+            37.767011
+        ]
+    ],
+    "relationships": []
 }

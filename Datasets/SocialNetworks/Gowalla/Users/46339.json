@@ -5,7 +5,27 @@
     "email": "hvaldez@gmail.com",
     "birthdate": "2009-12-11",
     "phone": "(447)562-9877x176",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        13,
+        26,
+        5,
+        8,
+        23,
+        3,
+        72,
+        67,
+        65,
+        40,
+        46,
+        57,
+        24
+    ],
+    "login locations": [
+        [
+            -122.413526,
+            37.6214
+        ]
+    ],
+    "relationships": []
 }

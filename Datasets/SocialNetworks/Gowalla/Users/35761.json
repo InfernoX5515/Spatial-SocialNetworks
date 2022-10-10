@@ -5,7 +5,24 @@
     "email": "ldixon@hotmail.com",
     "birthdate": "2009-01-28",
     "phone": "462.144.4325",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        8,
+        49,
+        42,
+        55,
+        64,
+        1,
+        24,
+        75,
+        33,
+        60
+    ],
+    "login locations": [
+        [
+            -118.22027,
+            34.121818
+        ]
+    ],
+    "relationships": []
 }

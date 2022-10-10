@@ -5,7 +5,22 @@
     "email": "djackson@gmail.com",
     "birthdate": "1938-05-04",
     "phone": "(556)014-0521x9668",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        70,
+        33,
+        73,
+        40,
+        60,
+        2,
+        57,
+        69
+    ],
+    "login locations": [
+        [
+            -118.281683,
+            34.104562
+        ]
+    ],
+    "relationships": []
 }

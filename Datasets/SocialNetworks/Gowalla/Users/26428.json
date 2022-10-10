@@ -5,7 +5,25 @@
     "email": "blakechristina@yahoo.com",
     "birthdate": "1937-01-06",
     "phone": "9707467888",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22
+    ],
+    "login locations": [
+        [
+            -121.961267,
+            37.288235
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118873,
+                0.375
+            ],
+            [
+                118870,
+                0.219512195122
+            ]
+        ]
+    ]
 }

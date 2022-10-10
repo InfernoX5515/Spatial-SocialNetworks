@@ -5,7 +5,26 @@
     "email": "vmiller@hotmail.com",
     "birthdate": "1989-01-06",
     "phone": "740.572.5016",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        39,
+        55,
+        20,
+        60,
+        29,
+        8,
+        31,
+        7,
+        56,
+        72,
+        39,
+        50
+    ],
+    "login locations": [
+        [
+            -124.077409,
+            40.877598
+        ]
+    ],
+    "relationships": []
 }

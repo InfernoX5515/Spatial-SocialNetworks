@@ -5,7 +5,26 @@
     "email": "williamsnicholas@yahoo.com",
     "birthdate": "1915-11-02",
     "phone": "056.565.7626",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        31
+    ],
+    "login locations": [
+        [
+            -118.402489,
+            33.934443
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1828,
+                0.18
+            ],
+            [
+                2352,
+                0.0285714285714
+            ]
+        ]
+    ]
 }

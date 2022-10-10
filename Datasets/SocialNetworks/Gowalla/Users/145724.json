@@ -5,7 +5,15 @@
     "email": "jonesnorman@gmail.com",
     "birthdate": "1916-11-04",
     "phone": "075-642-3714",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        58
+    ],
+    "login locations": [
+        [
+            -118.365035,
+            33.997984
+        ]
+    ],
+    "relationships": []
 }

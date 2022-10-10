@@ -5,7 +5,24 @@
     "email": "xprice@yahoo.com",
     "birthdate": "2019-05-11",
     "phone": "415.631.2510",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        69,
+        5,
+        33,
+        71,
+        45,
+        20,
+        16,
+        69,
+        47,
+        35
+    ],
+    "login locations": [
+        [
+            -121.944365,
+            37.321117
+        ]
+    ],
+    "relationships": []
 }

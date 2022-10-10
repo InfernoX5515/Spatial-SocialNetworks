@@ -5,7 +5,19 @@
     "email": "vmarsh@gmail.com",
     "birthdate": "1921-01-29",
     "phone": "001-579-252-4361x4635",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        24,
+        39,
+        25,
+        2,
+        29
+    ],
+    "login locations": [
+        [
+            -117.843729,
+            33.668604
+        ]
+    ],
+    "relationships": []
 }

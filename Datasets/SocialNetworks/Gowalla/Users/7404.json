@@ -5,7 +5,14 @@
     "email": "arroyodaniel@gmail.com",
     "birthdate": "1945-07-09",
     "phone": "(747)896-3946x42212",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19
+    ],
+    "login locations": [
+        [
+            -122.321595,
+            37.564521
+        ]
+    ],
+    "relationships": []
 }

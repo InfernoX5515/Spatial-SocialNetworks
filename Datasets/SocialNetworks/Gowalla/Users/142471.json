@@ -5,7 +5,36 @@
     "email": "joneschristopher@hotmail.com",
     "birthdate": "1926-07-22",
     "phone": "603-266-3592x67057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        39,
+        24,
+        6,
+        20,
+        39,
+        60,
+        6,
+        15,
+        52,
+        25,
+        19
+    ],
+    "login locations": [
+        [
+            -122.419024,
+            37.747266
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                48886,
+                0.388059701493
+            ],
+            [
+                142472,
+                0.555555555556
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,17 @@
     "email": "jennifermontgomery@hotmail.com",
     "birthdate": "1983-02-18",
     "phone": "+1-404-511-8219x82433",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        29,
+        39,
+        43
+    ],
+    "login locations": [
+        [
+            -117.204823,
+            32.7949
+        ]
+    ],
+    "relationships": []
 }

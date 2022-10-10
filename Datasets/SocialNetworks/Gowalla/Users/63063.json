@@ -5,7 +5,19 @@
     "email": "higginsanna@gmail.com",
     "birthdate": "1943-09-27",
     "phone": "(113)352-0365",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        3,
+        28,
+        58,
+        62,
+        2
+    ],
+    "login locations": [
+        [
+            -121.915873,
+            37.362392
+        ]
+    ],
+    "relationships": []
 }

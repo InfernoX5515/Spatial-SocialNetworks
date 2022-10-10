@@ -5,7 +5,25 @@
     "email": "kevinevans@gmail.com",
     "birthdate": "1939-09-20",
     "phone": "5610295315",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        5,
+        10,
+        71,
+        1,
+        20,
+        11,
+        55,
+        16,
+        1,
+        13,
+        73
+    ],
+    "login locations": [
+        [
+            -121.978883,
+            37.05451
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "donnabrewer@hotmail.com",
     "birthdate": "1907-04-12",
     "phone": "(934)848-8184x71552",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        42,
+        52,
+        62,
+        4,
+        10,
+        67,
+        51,
+        68,
+        64,
+        32,
+        42,
+        50
+    ],
+    "login locations": [
+        [
+            -118.115739,
+            33.804352
+        ]
+    ],
+    "relationships": []
 }

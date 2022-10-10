@@ -5,7 +5,18 @@
     "email": "dlogan@yahoo.com",
     "birthdate": "1960-06-15",
     "phone": "001.932.0918x65817",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        59,
+        65,
+        10,
+        2
+    ],
+    "login locations": [
+        [
+            -119.738564,
+            34.431532
+        ]
+    ],
+    "relationships": []
 }

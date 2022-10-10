@@ -5,7 +5,25 @@
     "email": "nicholasholt@hotmail.com",
     "birthdate": "1921-03-05",
     "phone": "001-988-049-8581x246",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        71,
+        47,
+        3,
+        31,
+        3,
+        67,
+        54,
+        14,
+        73,
+        58,
+        11
+    ],
+    "login locations": [
+        [
+            -121.45822,
+            38.589151
+        ]
+    ],
+    "relationships": []
 }

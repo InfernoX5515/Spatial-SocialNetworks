@@ -5,7 +5,12 @@
     "email": "karen45@hotmail.com",
     "birthdate": "1962-11-05",
     "phone": "719-785-7263",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.126947,
+            32.785298
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "csalas@yahoo.com",
     "birthdate": "1920-09-10",
     "phone": "001-002-130-0019x42967",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        53,
+        5,
+        32,
+        70,
+        62,
+        4,
+        16,
+        69,
+        25,
+        56,
+        41
+    ],
+    "login locations": [
+        [
+            -117.105995,
+            32.745098
+        ]
+    ],
+    "relationships": []
 }

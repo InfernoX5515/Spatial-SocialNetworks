@@ -5,7 +5,15 @@
     "email": "whernandez@hotmail.com",
     "birthdate": "1960-02-15",
     "phone": "6927439971",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        35
+    ],
+    "login locations": [
+        [
+            -118.295701,
+            34.068046
+        ]
+    ],
+    "relationships": []
 }

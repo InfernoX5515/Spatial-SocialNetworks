@@ -5,7 +5,16 @@
     "email": "janet62@yahoo.com",
     "birthdate": "1927-09-04",
     "phone": "204-864-1749x93028",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        2,
+        27
+    ],
+    "login locations": [
+        [
+            -118.772784,
+            34.278581
+        ]
+    ],
+    "relationships": []
 }

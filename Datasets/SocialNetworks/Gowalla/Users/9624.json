@@ -5,7 +5,15 @@
     "email": "osandoval@gmail.com",
     "birthdate": "1988-06-03",
     "phone": "(619)596-1856",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        8
+    ],
+    "login locations": [
+        [
+            -122.301872,
+            37.590581
+        ]
+    ],
+    "relationships": []
 }

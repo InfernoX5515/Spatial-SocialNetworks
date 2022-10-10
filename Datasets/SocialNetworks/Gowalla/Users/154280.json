@@ -5,7 +5,28 @@
     "email": "joneslinda@yahoo.com",
     "birthdate": "1911-12-12",
     "phone": "9410544615",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        20,
+        75,
+        61,
+        73,
+        50,
+        16,
+        59,
+        53,
+        26,
+        61,
+        59,
+        39,
+        41,
+        28
+    ],
+    "login locations": [
+        [
+            -122.327203,
+            37.784729
+        ]
+    ],
+    "relationships": []
 }

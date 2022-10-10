@@ -5,7 +5,23 @@
     "email": "stevenlyons@hotmail.com",
     "birthdate": "1939-05-08",
     "phone": "+1-967-448-5906x9671",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        52,
+        59,
+        65,
+        3,
+        70,
+        4,
+        60,
+        37,
+        62
+    ],
+    "login locations": [
+        [
+            -118.394527,
+            33.926673
+        ]
+    ],
+    "relationships": []
 }

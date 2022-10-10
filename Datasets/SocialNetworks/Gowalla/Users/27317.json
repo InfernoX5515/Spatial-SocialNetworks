@@ -5,7 +5,23 @@
     "email": "soniagrant@gmail.com",
     "birthdate": "1941-04-24",
     "phone": "+1-626-215-8796x48302",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.416352,
+            37.719692
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                48504,
+                0.0171428571429
+            ],
+            [
+                48504,
+                0.0171428571429
+            ]
+        ]
+    ]
 }

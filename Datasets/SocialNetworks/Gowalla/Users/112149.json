@@ -5,7 +5,15 @@
     "email": "garciachristopher@yahoo.com",
     "birthdate": "1999-06-02",
     "phone": "(151)484-1678x4671",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        75
+    ],
+    "login locations": [
+        [
+            -122.392785,
+            37.787263
+        ]
+    ],
+    "relationships": []
 }

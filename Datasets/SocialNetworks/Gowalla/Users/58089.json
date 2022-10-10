@@ -5,7 +5,27 @@
     "email": "nicholsonmichael@yahoo.com",
     "birthdate": "1918-05-30",
     "phone": "086-084-6392",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        66,
+        35,
+        32,
+        16,
+        31,
+        9,
+        49,
+        1,
+        68,
+        68,
+        14,
+        17,
+        11
+    ],
+    "login locations": [
+        [
+            -122.30741,
+            37.655625
+        ]
+    ],
+    "relationships": []
 }

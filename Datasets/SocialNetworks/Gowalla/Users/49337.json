@@ -5,7 +5,36 @@
     "email": "yvonne50@gmail.com",
     "birthdate": "1939-05-25",
     "phone": "+1-595-392-0239x6969",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        10,
+        25,
+        54,
+        54,
+        70,
+        7,
+        66,
+        18,
+        46,
+        12,
+        30
+    ],
+    "login locations": [
+        [
+            -122.42143,
+            37.768166
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                124846,
+                0.0555555555556
+            ],
+            [
+                124846,
+                0.0555555555556
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "stacy86@yahoo.com",
     "birthdate": "2018-07-18",
     "phone": "(836)139-3788x8946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        41,
+        4
+    ],
+    "login locations": [
+        [
+            -122.252051,
+            37.846215
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                151694,
+                0.0510204081633
+            ],
+            [
+                151694,
+                0.0510204081633
+            ]
+        ]
+    ]
 }

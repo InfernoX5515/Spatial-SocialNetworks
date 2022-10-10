@@ -5,7 +5,20 @@
     "email": "abrown@yahoo.com",
     "birthdate": "1949-04-18",
     "phone": "972-598-9221",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        72,
+        38,
+        35,
+        14,
+        1,
+        34
+    ],
+    "login locations": [
+        [
+            -118.19385,
+            34.092956
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "andrea86@gmail.com",
     "birthdate": "1915-10-07",
     "phone": "(429)847-1648x25762",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        4,
+        75,
+        8,
+        22,
+        20,
+        63,
+        3,
+        5
+    ],
+    "login locations": [
+        [
+            -122.475867,
+            37.726659
+        ]
+    ],
+    "relationships": []
 }

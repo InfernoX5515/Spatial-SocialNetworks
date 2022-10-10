@@ -5,7 +5,39 @@
     "email": "duffykatrina@yahoo.com",
     "birthdate": "1945-12-15",
     "phone": "930.932.5910x3186",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        53,
+        1,
+        49,
+        30,
+        25,
+        15,
+        20,
+        50,
+        58,
+        67,
+        18,
+        33,
+        33,
+        50
+    ],
+    "login locations": [
+        [
+            -118.239994,
+            34.097006
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39493,
+                0.0117994100295
+            ],
+            [
+                39493,
+                0.0117994100295
+            ]
+        ]
+    ]
 }

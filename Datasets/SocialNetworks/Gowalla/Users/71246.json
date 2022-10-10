@@ -5,7 +5,39 @@
     "email": "sloanluis@yahoo.com",
     "birthdate": "1991-11-21",
     "phone": "035.670.6359",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        29,
+        44,
+        59,
+        25,
+        13,
+        74,
+        67,
+        30,
+        0,
+        1,
+        53,
+        69,
+        1,
+        15
+    ],
+    "login locations": [
+        [
+            -118.473888,
+            34.045075
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4815,
+                0.0105263157895
+            ],
+            [
+                4815,
+                0.0105263157895
+            ]
+        ]
+    ]
 }

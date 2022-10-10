@@ -5,7 +5,21 @@
     "email": "mguerrero@hotmail.com",
     "birthdate": "1921-12-29",
     "phone": "661-748-1371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        21,
+        63,
+        65,
+        34,
+        44,
+        64,
+        42
+    ],
+    "login locations": [
+        [
+            -122.033868,
+            37.700318
+        ]
+    ],
+    "relationships": []
 }

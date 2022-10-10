@@ -5,7 +5,18 @@
     "email": "eugene72@yahoo.com",
     "birthdate": "1937-09-19",
     "phone": "1335053399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        48,
+        28,
+        32,
+        55
+    ],
+    "login locations": [
+        [
+            -118.407168,
+            33.943538
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "cheryljohnson@gmail.com",
     "birthdate": "1964-12-08",
     "phone": "001-615-616-8745x327",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        39,
+        28,
+        21,
+        22,
+        8,
+        36
+    ],
+    "login locations": [
+        [
+            -117.157177,
+            34.135156
+        ]
+    ],
+    "relationships": []
 }

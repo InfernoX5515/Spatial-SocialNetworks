@@ -5,7 +5,21 @@
     "email": "nicholaschambers@yahoo.com",
     "birthdate": "1953-08-06",
     "phone": "(488)886-2014",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        42,
+        70,
+        5,
+        1,
+        7,
+        64,
+        44
+    ],
+    "login locations": [
+        [
+            -117.824592,
+            33.633495
+        ]
+    ],
+    "relationships": []
 }

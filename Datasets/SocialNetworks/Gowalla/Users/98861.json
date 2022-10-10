@@ -5,7 +5,22 @@
     "email": "olivermartin@yahoo.com",
     "birthdate": "2014-04-11",
     "phone": "+1-072-223-5640x98306",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        65,
+        35,
+        12,
+        60,
+        46,
+        43,
+        18,
+        61
+    ],
+    "login locations": [
+        [
+            -118.341792,
+            33.954685
+        ]
+    ],
+    "relationships": []
 }

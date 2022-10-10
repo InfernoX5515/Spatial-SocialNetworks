@@ -5,7 +5,36 @@
     "email": "stephaniegreen@gmail.com",
     "birthdate": "1953-09-26",
     "phone": "344-025-4567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        66,
+        60,
+        30,
+        31,
+        6,
+        13,
+        63,
+        73,
+        36,
+        55,
+        66
+    ],
+    "login locations": [
+        [
+            -122.125546,
+            37.429564
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4244,
+                0.0769230769231
+            ],
+            [
+                53613,
+                0.25
+            ]
+        ]
+    ]
 }

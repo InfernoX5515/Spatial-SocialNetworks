@@ -5,7 +5,22 @@
     "email": "richard15@hotmail.com",
     "birthdate": "1943-04-22",
     "phone": "(167)084-0160x06820",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        33,
+        41,
+        68,
+        5,
+        15,
+        18,
+        59,
+        64
+    ],
+    "login locations": [
+        [
+            -122.430919,
+            37.78318
+        ]
+    ],
+    "relationships": []
 }

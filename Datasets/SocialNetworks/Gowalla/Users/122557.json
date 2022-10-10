@@ -5,7 +5,14 @@
     "email": "poolebrett@yahoo.com",
     "birthdate": "1981-06-24",
     "phone": "746.617.1511",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2
+    ],
+    "login locations": [
+        [
+            -121.992409,
+            37.323249
+        ]
+    ],
+    "relationships": []
 }

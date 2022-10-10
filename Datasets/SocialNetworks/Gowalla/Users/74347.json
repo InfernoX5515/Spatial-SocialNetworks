@@ -5,7 +5,19 @@
     "email": "mbrown@gmail.com",
     "birthdate": "2004-08-28",
     "phone": "+1-405-135-0533x49110",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        14,
+        24,
+        15,
+        39,
+        73
+    ],
+    "login locations": [
+        [
+            -121.940508,
+            37.709616
+        ]
+    ],
+    "relationships": []
 }

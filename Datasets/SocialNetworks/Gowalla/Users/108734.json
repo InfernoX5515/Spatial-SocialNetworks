@@ -5,7 +5,28 @@
     "email": "ffrost@yahoo.com",
     "birthdate": "1970-05-01",
     "phone": "001-393-829-2266x44682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        6,
+        62,
+        26,
+        6,
+        60,
+        62,
+        6,
+        44,
+        69,
+        70,
+        42,
+        63,
+        67,
+        75
+    ],
+    "login locations": [
+        [
+            -117.152518,
+            32.748855
+        ]
+    ],
+    "relationships": []
 }

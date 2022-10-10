@@ -5,7 +5,25 @@
     "email": "donna86@yahoo.com",
     "birthdate": "1997-04-19",
     "phone": "860.370.6071x11267",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        31,
+        3,
+        24,
+        8,
+        0,
+        48,
+        66,
+        39,
+        12,
+        51,
+        64
+    ],
+    "login locations": [
+        [
+            -122.319553,
+            37.801937
+        ]
+    ],
+    "relationships": []
 }

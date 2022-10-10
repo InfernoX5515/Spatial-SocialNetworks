@@ -5,7 +5,16 @@
     "email": "rmiller@gmail.com",
     "birthdate": "1968-12-09",
     "phone": "8490910833",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        33,
+        75
+    ],
+    "login locations": [
+        [
+            -121.356251,
+            38.672029
+        ]
+    ],
+    "relationships": []
 }

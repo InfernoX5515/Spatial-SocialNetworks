@@ -5,7 +5,19 @@
     "email": "xcurry@gmail.com",
     "birthdate": "2012-04-04",
     "phone": "001-633-601-5886x783",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        18,
+        16,
+        53,
+        29,
+        31
+    ],
+    "login locations": [
+        [
+            -122.222899,
+            37.732916
+        ]
+    ],
+    "relationships": []
 }

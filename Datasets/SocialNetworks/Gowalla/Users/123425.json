@@ -5,7 +5,12 @@
     "email": "wendy57@gmail.com",
     "birthdate": "1935-07-22",
     "phone": "(609)319-3269",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.408251,
+            37.770424
+        ]
+    ],
+    "relationships": []
 }

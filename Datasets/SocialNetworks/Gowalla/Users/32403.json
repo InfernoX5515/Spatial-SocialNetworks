@@ -5,7 +5,27 @@
     "email": "barbaraandrews@gmail.com",
     "birthdate": "1999-05-19",
     "phone": "+1-691-318-6280",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        9,
+        9,
+        0,
+        9,
+        14,
+        31,
+        4,
+        3,
+        47,
+        24,
+        9,
+        68,
+        45
+    ],
+    "login locations": [
+        [
+            -122.395462,
+            37.781425
+        ]
+    ],
+    "relationships": []
 }

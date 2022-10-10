@@ -5,7 +5,26 @@
     "email": "john11@yahoo.com",
     "birthdate": "1925-02-15",
     "phone": "+1-653-601-2429x42315",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        6,
+        64,
+        9,
+        37,
+        1,
+        68,
+        68,
+        10,
+        61,
+        43,
+        73,
+        42
+    ],
+    "login locations": [
+        [
+            -122.403552,
+            37.782277
+        ]
+    ],
+    "relationships": []
 }

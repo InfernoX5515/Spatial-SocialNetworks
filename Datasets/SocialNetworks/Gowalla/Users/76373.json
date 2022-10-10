@@ -5,7 +5,20 @@
     "email": "amanda38@gmail.com",
     "birthdate": "1930-09-05",
     "phone": "484-022-3189",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        0,
+        73,
+        5,
+        13,
+        59,
+        46
+    ],
+    "login locations": [
+        [
+            -122.430064,
+            37.771593
+        ]
+    ],
+    "relationships": []
 }

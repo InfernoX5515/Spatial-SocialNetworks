@@ -5,7 +5,25 @@
     "email": "christopher92@gmail.com",
     "birthdate": "2012-06-03",
     "phone": "001-165-691-1337x49237",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        67,
+        24,
+        61,
+        61,
+        38,
+        25,
+        47,
+        38,
+        63,
+        62,
+        74
+    ],
+    "login locations": [
+        [
+            -121.951268,
+            37.314396
+        ]
+    ],
+    "relationships": []
 }

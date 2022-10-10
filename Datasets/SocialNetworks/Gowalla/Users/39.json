@@ -5,7 +5,14 @@
     "email": "castrostephanie@gmail.com",
     "birthdate": "1994-12-24",
     "phone": "(699)365-4620x267",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18
+    ],
+    "login locations": [
+        [
+            -122.393524,
+            37.744314
+        ]
+    ],
+    "relationships": []
 }

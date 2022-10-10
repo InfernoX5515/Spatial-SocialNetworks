@@ -5,7 +5,19 @@
     "email": "tiffany67@hotmail.com",
     "birthdate": "1982-11-16",
     "phone": "001-353-633-5816",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        22,
+        12,
+        70,
+        27,
+        53
+    ],
+    "login locations": [
+        [
+            -118.003304,
+            33.850435
+        ]
+    ],
+    "relationships": []
 }

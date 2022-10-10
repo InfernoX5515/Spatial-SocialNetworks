@@ -5,7 +5,23 @@
     "email": "harrisdavid@gmail.com",
     "birthdate": "1966-03-22",
     "phone": "(694)506-8937",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        35,
+        65,
+        59,
+        14,
+        56,
+        21,
+        52,
+        6,
+        41
+    ],
+    "login locations": [
+        [
+            -122.410049,
+            37.765872
+        ]
+    ],
+    "relationships": []
 }

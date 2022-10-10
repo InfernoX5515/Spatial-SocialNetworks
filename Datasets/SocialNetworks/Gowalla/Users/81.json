@@ -5,7 +5,23 @@
     "email": "hooverrobert@yahoo.com",
     "birthdate": "1940-02-15",
     "phone": "+1-012-560-6517x6236",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        70,
+        63,
+        8,
+        73,
+        15,
+        38,
+        59,
+        27,
+        27
+    ],
+    "login locations": [
+        [
+            -122.407273,
+            37.760436
+        ]
+    ],
+    "relationships": []
 }

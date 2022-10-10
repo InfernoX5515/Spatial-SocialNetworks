@@ -5,7 +5,25 @@
     "email": "mullinsstephanie@gmail.com",
     "birthdate": "1939-02-16",
     "phone": "(207)798-0144x963",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        56,
+        20,
+        69,
+        14,
+        51,
+        19,
+        44,
+        28,
+        45,
+        15,
+        65
+    ],
+    "login locations": [
+        [
+            -121.928105,
+            37.72811
+        ]
+    ],
+    "relationships": []
 }

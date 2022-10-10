@@ -5,7 +5,15 @@
     "email": "donald28@yahoo.com",
     "birthdate": "1925-06-18",
     "phone": "043.125.8158",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        51
+    ],
+    "login locations": [
+        [
+            -116.52496,
+            33.858748
+        ]
+    ],
+    "relationships": []
 }

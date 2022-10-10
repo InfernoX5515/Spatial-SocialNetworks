@@ -5,7 +5,26 @@
     "email": "bradleyamy@yahoo.com",
     "birthdate": "1930-08-25",
     "phone": "+1-000-045-3891x697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        14,
+        11,
+        58,
+        64,
+        35,
+        39,
+        4,
+        42,
+        62,
+        15,
+        35,
+        57
+    ],
+    "login locations": [
+        [
+            -118.730692,
+            34.2762
+        ]
+    ],
+    "relationships": []
 }

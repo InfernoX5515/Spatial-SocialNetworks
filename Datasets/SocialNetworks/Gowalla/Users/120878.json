@@ -5,7 +5,12 @@
     "email": "william98@yahoo.com",
     "birthdate": "1997-04-17",
     "phone": "182-063-6208x348",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.368134,
+            37.693301
+        ]
+    ],
+    "relationships": []
 }

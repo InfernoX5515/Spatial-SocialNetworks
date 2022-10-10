@@ -5,7 +5,26 @@
     "email": "thomasmichael@hotmail.com",
     "birthdate": "2018-07-18",
     "phone": "001-323-577-6478x5716",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        30,
+        65,
+        16,
+        58,
+        45,
+        20,
+        0,
+        54,
+        26,
+        41,
+        19,
+        45
+    ],
+    "login locations": [
+        [
+            -121.295569,
+            38.74091
+        ]
+    ],
+    "relationships": []
 }

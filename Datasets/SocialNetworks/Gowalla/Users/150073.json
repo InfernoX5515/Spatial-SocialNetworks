@@ -5,7 +5,22 @@
     "email": "dorseykaren@gmail.com",
     "birthdate": "1932-10-29",
     "phone": "808.643.8834",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        73,
+        43,
+        38,
+        20,
+        38,
+        65,
+        30,
+        22
+    ],
+    "login locations": [
+        [
+            -122.34099,
+            37.802194
+        ]
+    ],
+    "relationships": []
 }

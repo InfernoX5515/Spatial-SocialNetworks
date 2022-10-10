@@ -5,7 +5,28 @@
     "email": "fmeyer@yahoo.com",
     "birthdate": "1966-01-02",
     "phone": "479.612.5524x456",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        73,
+        35,
+        41,
+        16,
+        14,
+        57,
+        40,
+        72,
+        13,
+        10,
+        55,
+        40,
+        62,
+        40
+    ],
+    "login locations": [
+        [
+            -117.876751,
+            34.103985
+        ]
+    ],
+    "relationships": []
 }

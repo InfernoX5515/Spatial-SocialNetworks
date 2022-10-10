@@ -5,7 +5,14 @@
     "email": "alexreid@yahoo.com",
     "birthdate": "1999-07-03",
     "phone": "469-091-4092",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51
+    ],
+    "login locations": [
+        [
+            -117.142839,
+            32.716341
+        ]
+    ],
+    "relationships": []
 }

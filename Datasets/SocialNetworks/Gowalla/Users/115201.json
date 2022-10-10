@@ -5,7 +5,14 @@
     "email": "uedwards@hotmail.com",
     "birthdate": "1978-11-17",
     "phone": "(261)902-8520x4075",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68
+    ],
+    "login locations": [
+        [
+            -122.632208,
+            38.218122
+        ]
+    ],
+    "relationships": []
 }

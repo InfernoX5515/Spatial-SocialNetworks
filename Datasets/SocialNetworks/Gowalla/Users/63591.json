@@ -5,7 +5,27 @@
     "email": "michael72@hotmail.com",
     "birthdate": "1947-12-10",
     "phone": "+1-491-356-9980x763",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        71,
+        53,
+        63,
+        18,
+        64,
+        50,
+        75,
+        30,
+        74,
+        10,
+        10,
+        74,
+        65
+    ],
+    "login locations": [
+        [
+            -118.349429,
+            34.057643
+        ]
+    ],
+    "relationships": []
 }

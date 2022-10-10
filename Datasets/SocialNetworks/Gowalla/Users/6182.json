@@ -5,7 +5,27 @@
     "email": "alexandrarogers@yahoo.com",
     "birthdate": "1915-09-14",
     "phone": "143.235.6607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        56,
+        62
+    ],
+    "login locations": [
+        [
+            -122.100394,
+            37.411268
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5628,
+                0.01
+            ],
+            [
+                5628,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "brittany55@hotmail.com",
     "birthdate": "2010-02-09",
     "phone": "190-975-9785x30253",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.38615,
+            37.616356
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4244,
+                0.0192307692308
+            ],
+            [
+                5074,
+                0.0454545454545
+            ]
+        ]
+    ]
 }

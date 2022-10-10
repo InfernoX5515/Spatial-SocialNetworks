@@ -5,7 +5,26 @@
     "email": "ihammond@yahoo.com",
     "birthdate": "1994-12-25",
     "phone": "634-916-7140x70936",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        16,
+        68,
+        74,
+        15,
+        54,
+        23,
+        33,
+        67,
+        0,
+        67,
+        4,
+        4
+    ],
+    "login locations": [
+        [
+            -118.117864,
+            34.12243
+        ]
+    ],
+    "relationships": []
 }

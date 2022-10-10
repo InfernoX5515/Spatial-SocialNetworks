@@ -5,7 +5,15 @@
     "email": "michelle71@yahoo.com",
     "birthdate": "1993-04-20",
     "phone": "2558197850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        45
+    ],
+    "login locations": [
+        [
+            -121.317114,
+            38.715498
+        ]
+    ],
+    "relationships": []
 }

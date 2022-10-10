@@ -5,7 +5,23 @@
     "email": "baileyantonio@yahoo.com",
     "birthdate": "1952-04-27",
     "phone": "839-813-5602",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        66,
+        22,
+        49,
+        46,
+        33,
+        7,
+        35,
+        39,
+        47
+    ],
+    "login locations": [
+        [
+            -122.421438,
+            37.740904
+        ]
+    ],
+    "relationships": []
 }

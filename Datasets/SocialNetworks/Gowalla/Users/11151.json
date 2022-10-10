@@ -5,7 +5,35 @@
     "email": "richard75@hotmail.com",
     "birthdate": "2014-03-20",
     "phone": "456.502.8313x265",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        8,
+        18,
+        64,
+        15,
+        56,
+        9,
+        28,
+        54,
+        49,
+        29
+    ],
+    "login locations": [
+        [
+            -122.334746,
+            37.800547
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4466,
+                0.01
+            ],
+            [
+                4466,
+                0.01
+            ]
+        ]
+    ]
 }

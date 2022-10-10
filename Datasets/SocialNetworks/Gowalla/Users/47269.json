@@ -5,7 +5,18 @@
     "email": "davisjennifer@yahoo.com",
     "birthdate": "1933-09-17",
     "phone": "+1-155-397-1588x1780",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        28,
+        59,
+        46,
+        30
+    ],
+    "login locations": [
+        [
+            -118.434347,
+            34.048506
+        ]
+    ],
+    "relationships": []
 }

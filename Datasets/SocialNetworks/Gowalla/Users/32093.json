@@ -5,7 +5,23 @@
     "email": "idavis@gmail.com",
     "birthdate": "1944-08-28",
     "phone": "204-076-8793",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        69,
+        33,
+        46,
+        47,
+        28,
+        57,
+        61,
+        21,
+        43
+    ],
+    "login locations": [
+        [
+            -122.298622,
+            37.748754
+        ]
+    ],
+    "relationships": []
 }

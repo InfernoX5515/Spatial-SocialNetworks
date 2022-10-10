@@ -5,7 +5,34 @@
     "email": "charlotte86@gmail.com",
     "birthdate": "2011-07-21",
     "phone": "455-054-0044x758",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        35,
+        0,
+        15,
+        59,
+        72,
+        65,
+        11,
+        53,
+        72
+    ],
+    "login locations": [
+        [
+            -117.139096,
+            32.731134
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4259,
+                0.01
+            ],
+            [
+                4259,
+                0.01
+            ]
+        ]
+    ]
 }

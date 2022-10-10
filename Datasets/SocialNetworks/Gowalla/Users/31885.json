@@ -5,7 +5,32 @@
     "email": "nbradford@hotmail.com",
     "birthdate": "1928-09-28",
     "phone": "856.995.8301",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        21,
+        11,
+        25,
+        38,
+        63,
+        56,
+        75
+    ],
+    "login locations": [
+        [
+            -122.397002,
+            37.770283
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                497,
+                0.04
+            ],
+            [
+                497,
+                0.04
+            ]
+        ]
+    ]
 }

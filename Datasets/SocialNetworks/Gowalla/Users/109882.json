@@ -5,7 +5,15 @@
     "email": "nvazquez@yahoo.com",
     "birthdate": "2019-11-14",
     "phone": "001-801-756-5653x8484",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        57
+    ],
+    "login locations": [
+        [
+            -117.189076,
+            33.134782
+        ]
+    ],
+    "relationships": []
 }

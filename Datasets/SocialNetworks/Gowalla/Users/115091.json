@@ -5,7 +5,28 @@
     "email": "cantrelllauren@yahoo.com",
     "birthdate": "1919-07-31",
     "phone": "(592)378-0836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        19,
+        43,
+        34
+    ],
+    "login locations": [
+        [
+            -118.130241,
+            34.161011
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                35754,
+                0.04
+            ],
+            [
+                35754,
+                0.04
+            ]
+        ]
+    ]
 }

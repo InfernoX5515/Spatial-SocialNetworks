@@ -5,7 +5,22 @@
     "email": "christopherjohnson@yahoo.com",
     "birthdate": "2002-03-08",
     "phone": "(100)104-7602",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        2,
+        46,
+        57,
+        12,
+        33,
+        19,
+        47,
+        48
+    ],
+    "login locations": [
+        [
+            -120.875353,
+            37.549261
+        ]
+    ],
+    "relationships": []
 }

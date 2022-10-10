@@ -5,7 +5,31 @@
     "email": "darlene23@yahoo.com",
     "birthdate": "1973-01-31",
     "phone": "1909713785",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        38,
+        8,
+        33,
+        56,
+        16,
+        49
+    ],
+    "login locations": [
+        [
+            -117.638984,
+            34.108552
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                54359,
+                0.06
+            ],
+            [
+                54359,
+                0.06
+            ]
+        ]
+    ]
 }

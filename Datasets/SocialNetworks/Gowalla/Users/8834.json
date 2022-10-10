@@ -5,7 +5,19 @@
     "email": "lucasryan@gmail.com",
     "birthdate": "1976-02-17",
     "phone": "(297)803-3412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        66,
+        13,
+        37,
+        43,
+        27
+    ],
+    "login locations": [
+        [
+            -122.393419,
+            37.73093
+        ]
+    ],
+    "relationships": []
 }

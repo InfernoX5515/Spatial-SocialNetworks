@@ -5,7 +5,16 @@
     "email": "cooperlauren@gmail.com",
     "birthdate": "1936-09-24",
     "phone": "378-139-9170x3559",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        75,
+        24
+    ],
+    "login locations": [
+        [
+            -117.851219,
+            33.703207
+        ]
+    ],
+    "relationships": []
 }

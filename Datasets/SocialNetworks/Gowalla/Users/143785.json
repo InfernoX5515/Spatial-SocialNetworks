@@ -5,7 +5,25 @@
     "email": "melissa36@gmail.com",
     "birthdate": "2008-12-23",
     "phone": "412.793.5273",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        43,
+        71,
+        38,
+        33,
+        72,
+        68,
+        24,
+        9,
+        74,
+        75,
+        20
+    ],
+    "login locations": [
+        [
+            -118.320549,
+            34.101669
+        ]
+    ],
+    "relationships": []
 }

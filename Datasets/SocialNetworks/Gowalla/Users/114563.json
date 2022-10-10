@@ -5,7 +5,32 @@
     "email": "hray@yahoo.com",
     "birthdate": "2016-08-29",
     "phone": "908-359-3727x628",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        74,
+        66,
+        47,
+        62,
+        3,
+        67,
+        14
+    ],
+    "login locations": [
+        [
+            -122.40531,
+            37.791672
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                23023,
+                0.08
+            ],
+            [
+                23023,
+                0.08
+            ]
+        ]
+    ]
 }

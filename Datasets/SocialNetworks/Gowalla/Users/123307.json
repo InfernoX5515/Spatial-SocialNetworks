@@ -5,7 +5,23 @@
     "email": "thomasrhonda@gmail.com",
     "birthdate": "1965-05-01",
     "phone": "296.052.7243x537",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        56,
+        47,
+        75,
+        6,
+        65,
+        14,
+        47,
+        28,
+        50
+    ],
+    "login locations": [
+        [
+            -121.912204,
+            37.37061
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "holdenjeffrey@gmail.com",
     "birthdate": "1944-01-15",
     "phone": "+1-402-487-7705x5519",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        1,
+        2,
+        28,
+        25,
+        46,
+        72,
+        41,
+        70,
+        11,
+        49,
+        54,
+        73
+    ],
+    "login locations": [
+        [
+            -118.068813,
+            33.799135
+        ]
+    ],
+    "relationships": []
 }

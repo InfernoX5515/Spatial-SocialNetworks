@@ -5,7 +5,39 @@
     "email": "omurray@hotmail.com",
     "birthdate": "1924-05-30",
     "phone": "085-555-5558x42857",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        58,
+        68,
+        4,
+        51,
+        70,
+        8,
+        65,
+        72,
+        71,
+        20,
+        63,
+        21,
+        51,
+        67
+    ],
+    "login locations": [
+        [
+            -122.191253,
+            37.433097
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                86,
+                0.01
+            ],
+            [
+                5100,
+                0.01
+            ]
+        ]
+    ]
 }

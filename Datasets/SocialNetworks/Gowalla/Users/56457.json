@@ -5,7 +5,25 @@
     "email": "middletonrussell@hotmail.com",
     "birthdate": "2003-11-02",
     "phone": "001-203-066-7252",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        14,
+        29,
+        28,
+        28,
+        1,
+        35,
+        16,
+        54,
+        62,
+        11,
+        46
+    ],
+    "login locations": [
+        [
+            -117.901778,
+            33.790487
+        ]
+    ],
+    "relationships": []
 }

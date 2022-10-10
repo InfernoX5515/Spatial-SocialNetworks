@@ -5,7 +5,23 @@
     "email": "melissa48@yahoo.com",
     "birthdate": "1933-07-05",
     "phone": "854-849-9613x78651",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        1,
+        32,
+        43,
+        68,
+        64,
+        19,
+        62,
+        52,
+        13
+    ],
+    "login locations": [
+        [
+            -117.977643,
+            33.768752
+        ]
+    ],
+    "relationships": []
 }

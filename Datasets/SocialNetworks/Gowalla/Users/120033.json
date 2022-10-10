@@ -5,7 +5,25 @@
     "email": "milleryolanda@hotmail.com",
     "birthdate": "2020-08-25",
     "phone": "9030308235",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        10,
+        74,
+        4,
+        10,
+        70,
+        43,
+        14,
+        36,
+        46,
+        3,
+        52
+    ],
+    "login locations": [
+        [
+            -122.397216,
+            37.77552
+        ]
+    ],
+    "relationships": []
 }

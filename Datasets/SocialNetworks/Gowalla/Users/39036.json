@@ -5,7 +5,29 @@
     "email": "brenda80@gmail.com",
     "birthdate": "1933-11-23",
     "phone": "842-617-4143x97596",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        16,
+        58,
+        54,
+        12
+    ],
+    "login locations": [
+        [
+            -122.023362,
+            37.707769
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                653,
+                0.0171428571429
+            ],
+            [
+                1346,
+                0.0266666666667
+            ]
+        ]
+    ]
 }

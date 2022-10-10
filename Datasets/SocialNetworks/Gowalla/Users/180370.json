@@ -5,7 +5,26 @@
     "email": "morganclark@gmail.com",
     "birthdate": "1920-04-18",
     "phone": "(076)699-5815x94855",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        68,
+        12,
+        30,
+        44,
+        62,
+        70,
+        60,
+        60,
+        65,
+        47,
+        35,
+        46
+    ],
+    "login locations": [
+        [
+            -117.669691,
+            33.55804
+        ]
+    ],
+    "relationships": []
 }

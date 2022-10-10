@@ -5,7 +5,26 @@
     "email": "jthompson@gmail.com",
     "birthdate": "1963-07-01",
     "phone": "(234)962-5764x02583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        26,
+        35,
+        41,
+        62,
+        13,
+        70,
+        63,
+        40,
+        32,
+        21,
+        33,
+        1
+    ],
+    "login locations": [
+        [
+            -117.09032,
+            34.798958
+        ]
+    ],
+    "relationships": []
 }

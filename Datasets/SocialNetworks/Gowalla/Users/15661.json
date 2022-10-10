@@ -5,7 +5,25 @@
     "email": "thomasbauer@gmail.com",
     "birthdate": "1917-12-26",
     "phone": "764.814.1055x6073",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        65,
+        53,
+        18,
+        18,
+        37,
+        41,
+        43,
+        12,
+        57,
+        70,
+        59
+    ],
+    "login locations": [
+        [
+            -122.078597,
+            37.890881
+        ]
+    ],
+    "relationships": []
 }

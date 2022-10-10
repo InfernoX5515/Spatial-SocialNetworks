@@ -5,7 +5,18 @@
     "email": "david76@hotmail.com",
     "birthdate": "1992-05-27",
     "phone": "+1-619-697-4995x589",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        26,
+        29,
+        35,
+        43
+    ],
+    "login locations": [
+        [
+            -121.902961,
+            37.282965
+        ]
+    ],
+    "relationships": []
 }

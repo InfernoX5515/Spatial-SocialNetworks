@@ -5,7 +5,34 @@
     "email": "usaunders@hotmail.com",
     "birthdate": "2022-02-16",
     "phone": "1788239649",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        72,
+        43,
+        30,
+        49,
+        0,
+        62,
+        21,
+        66,
+        2
+    ],
+    "login locations": [
+        [
+            -122.069461,
+            37.913996
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                600,
+                0.04
+            ],
+            [
+                1900,
+                0.0571428571429
+            ]
+        ]
+    ]
 }

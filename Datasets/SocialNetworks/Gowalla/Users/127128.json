@@ -5,7 +5,18 @@
     "email": "thomascrosby@gmail.com",
     "birthdate": "1983-03-20",
     "phone": "449-497-5589x9440",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        71,
+        64,
+        52,
+        51
+    ],
+    "login locations": [
+        [
+            -122.275549,
+            37.766155
+        ]
+    ],
+    "relationships": []
 }

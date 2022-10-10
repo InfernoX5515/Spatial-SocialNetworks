@@ -5,7 +5,20 @@
     "email": "william90@gmail.com",
     "birthdate": "1927-04-25",
     "phone": "588.518.4577x0978",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        71,
+        21,
+        16,
+        36,
+        37,
+        61
+    ],
+    "login locations": [
+        [
+            -122.02981,
+            37.399276
+        ]
+    ],
+    "relationships": []
 }

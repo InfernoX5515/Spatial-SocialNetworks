@@ -5,7 +5,24 @@
     "email": "boothrobert@gmail.com",
     "birthdate": "1981-10-03",
     "phone": "(770)416-6538x07385",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        1,
+        38,
+        1,
+        60,
+        40,
+        58,
+        45,
+        0,
+        19,
+        4
+    ],
+    "login locations": [
+        [
+            -117.938582,
+            34.069793
+        ]
+    ],
+    "relationships": []
 }

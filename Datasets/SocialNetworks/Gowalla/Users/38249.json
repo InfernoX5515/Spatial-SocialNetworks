@@ -5,7 +5,28 @@
     "email": "aaron00@yahoo.com",
     "birthdate": "2003-06-09",
     "phone": "643-733-9193",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        41,
+        20,
+        69,
+        20,
+        54,
+        0,
+        36,
+        31,
+        67,
+        51,
+        48,
+        32,
+        16,
+        69
+    ],
+    "login locations": [
+        [
+            -117.136641,
+            32.763592
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "whitneydavis@yahoo.com",
     "birthdate": "1941-04-29",
     "phone": "542.542.8736",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        51,
+        50,
+        16,
+        75,
+        36,
+        17,
+        32,
+        51,
+        32,
+        35
+    ],
+    "login locations": [
+        [
+            -118.429009,
+            34.207367
+        ]
+    ],
+    "relationships": []
 }

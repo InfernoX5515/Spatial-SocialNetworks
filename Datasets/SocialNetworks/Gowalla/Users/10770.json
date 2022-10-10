@@ -5,7 +5,28 @@
     "email": "robert26@gmail.com",
     "birthdate": "1941-06-25",
     "phone": "526.040.5656x793",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        72,
+        74,
+        37
+    ],
+    "login locations": [
+        [
+            -122.15266,
+            37.869634
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                170,
+                0.056
+            ],
+            [
+                170,
+                0.056
+            ]
+        ]
+    ]
 }

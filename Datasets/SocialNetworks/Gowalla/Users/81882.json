@@ -5,7 +5,22 @@
     "email": "jamesyvonne@hotmail.com",
     "birthdate": "2003-09-02",
     "phone": "2002221532",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        2,
+        27,
+        25,
+        49,
+        17,
+        21,
+        74,
+        60
+    ],
+    "login locations": [
+        [
+            -122.357214,
+            37.647284
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "ggomez@hotmail.com",
     "birthdate": "1930-08-14",
     "phone": "+1-859-391-4232",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        14,
+        23,
+        26,
+        50,
+        23,
+        69,
+        60,
+        30,
+        41,
+        16,
+        44
+    ],
+    "login locations": [
+        [
+            -118.376171,
+            34.064462
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "sflores@gmail.com",
     "birthdate": "1952-11-16",
     "phone": "(528)735-4267x539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        66,
+        57,
+        26,
+        50,
+        74,
+        30,
+        20,
+        22,
+        11,
+        71,
+        2,
+        39,
+        23
+    ],
+    "login locations": [
+        [
+            -117.941409,
+            33.702397
+        ]
+    ],
+    "relationships": []
 }

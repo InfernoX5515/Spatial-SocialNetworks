@@ -5,7 +5,21 @@
     "email": "jessebaxter@gmail.com",
     "birthdate": "1963-09-27",
     "phone": "001-523-287-3558x850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        75,
+        33,
+        16,
+        51,
+        43,
+        14,
+        2
+    ],
+    "login locations": [
+        [
+            -118.265677,
+            34.00397
+        ]
+    ],
+    "relationships": []
 }

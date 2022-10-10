@@ -5,7 +5,23 @@
     "email": "shannonsharon@gmail.com",
     "birthdate": "1946-08-20",
     "phone": "(032)329-4141x283",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        68,
+        52,
+        75,
+        49,
+        22,
+        15,
+        66,
+        71,
+        58
+    ],
+    "login locations": [
+        [
+            -122.321787,
+            37.563425
+        ]
+    ],
+    "relationships": []
 }

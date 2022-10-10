@@ -5,7 +5,24 @@
     "email": "breanna95@hotmail.com",
     "birthdate": "1952-12-28",
     "phone": "(288)531-6102x559",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        18,
+        50,
+        39,
+        17,
+        5,
+        14,
+        3,
+        27,
+        27,
+        68
+    ],
+    "login locations": [
+        [
+            -116.619598,
+            33.838534
+        ]
+    ],
+    "relationships": []
 }

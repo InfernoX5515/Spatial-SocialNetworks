@@ -5,7 +5,14 @@
     "email": "robert68@yahoo.com",
     "birthdate": "1998-10-05",
     "phone": "(965)382-1404",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29
+    ],
+    "login locations": [
+        [
+            -122.337626,
+            38.26957
+        ]
+    ],
+    "relationships": []
 }

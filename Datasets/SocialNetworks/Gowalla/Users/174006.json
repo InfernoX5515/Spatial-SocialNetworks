@@ -5,7 +5,17 @@
     "email": "williamschristina@yahoo.com",
     "birthdate": "1919-11-21",
     "phone": "+1-525-865-3218x669",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        47,
+        35,
+        71
+    ],
+    "login locations": [
+        [
+            -121.348923,
+            38.45331
+        ]
+    ],
+    "relationships": []
 }

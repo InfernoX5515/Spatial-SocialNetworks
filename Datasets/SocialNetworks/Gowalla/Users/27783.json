@@ -5,7 +5,22 @@
     "email": "carpentermichelle@hotmail.com",
     "birthdate": "2010-02-25",
     "phone": "323-511-2335x038",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        45,
+        31,
+        59,
+        26,
+        11,
+        58,
+        14,
+        30
+    ],
+    "login locations": [
+        [
+            -121.974517,
+            37.280335
+        ]
+    ],
+    "relationships": []
 }

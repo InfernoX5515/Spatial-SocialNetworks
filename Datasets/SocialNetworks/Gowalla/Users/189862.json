@@ -5,7 +5,17 @@
     "email": "johnjones@gmail.com",
     "birthdate": "1927-08-16",
     "phone": "001-293-769-4590x71999",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        62,
+        27,
+        3
+    ],
+    "login locations": [
+        [
+            -117.199125,
+            32.864102
+        ]
+    ],
+    "relationships": []
 }

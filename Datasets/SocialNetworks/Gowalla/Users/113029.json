@@ -5,7 +5,26 @@
     "email": "vwright@gmail.com",
     "birthdate": "2021-01-16",
     "phone": "+1-985-034-0096x725",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        4,
+        19,
+        29,
+        16,
+        64,
+        5,
+        15,
+        47,
+        59,
+        19,
+        57,
+        4
+    ],
+    "login locations": [
+        [
+            -121.298541,
+            38.659368
+        ]
+    ],
+    "relationships": []
 }

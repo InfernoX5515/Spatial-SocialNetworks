@@ -5,7 +5,27 @@
     "email": "plynch@hotmail.com",
     "birthdate": "1919-08-07",
     "phone": "(319)346-2585",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        62,
+        32,
+        54,
+        61,
+        4,
+        42,
+        24,
+        61,
+        3,
+        41,
+        10,
+        63,
+        10
+    ],
+    "login locations": [
+        [
+            -121.308148,
+            38.685868
+        ]
+    ],
+    "relationships": []
 }

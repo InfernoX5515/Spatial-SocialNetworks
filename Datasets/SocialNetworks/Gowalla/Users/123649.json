@@ -5,7 +5,19 @@
     "email": "hodgeswillie@gmail.com",
     "birthdate": "1969-04-11",
     "phone": "001-326-960-8585x468",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        26,
+        50,
+        30,
+        10,
+        18
+    ],
+    "login locations": [
+        [
+            -117.238901,
+            32.776811
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "charris@yahoo.com",
     "birthdate": "1930-01-11",
     "phone": "001-107-184-0313x0921",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        3,
+        28,
+        69,
+        32,
+        17,
+        53,
+        71,
+        43
+    ],
+    "login locations": [
+        [
+            -122.139022,
+            37.419809
+        ]
+    ],
+    "relationships": []
 }

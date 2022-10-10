@@ -5,7 +5,19 @@
     "email": "englishchelsey@gmail.com",
     "birthdate": "1975-12-04",
     "phone": "001-661-065-8835x189",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        55,
+        13,
+        53,
+        52,
+        28
+    ],
+    "login locations": [
+        [
+            -122.217782,
+            38.050155
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "cruzsusan@yahoo.com",
     "birthdate": "1937-10-20",
     "phone": "951.557.3881x26959",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        38,
+        60
+    ],
+    "login locations": [
+        [
+            -122.424339,
+            37.74899
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,36 @@
     "email": "jennifer91@hotmail.com",
     "birthdate": "2017-09-17",
     "phone": "432.841.4327x561",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        75,
+        26,
+        23,
+        70,
+        21,
+        43,
+        9,
+        71,
+        11,
+        26,
+        64
+    ],
+    "login locations": [
+        [
+            -118.17644,
+            34.066707
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                399,
+                0.0188679245283
+            ],
+            [
+                35713,
+                0.0192307692308
+            ]
+        ]
+    ]
 }

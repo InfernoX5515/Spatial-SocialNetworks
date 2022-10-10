@@ -5,7 +5,24 @@
     "email": "olane@hotmail.com",
     "birthdate": "1945-01-18",
     "phone": "(414)235-2490",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        42,
+        56,
+        75,
+        23,
+        36,
+        58,
+        45,
+        70,
+        4,
+        50
+    ],
+    "login locations": [
+        [
+            -117.757113,
+            33.776173
+        ]
+    ],
+    "relationships": []
 }

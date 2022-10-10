@@ -5,7 +5,20 @@
     "email": "tgray@gmail.com",
     "birthdate": "1936-07-05",
     "phone": "917.983.8819",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        2,
+        66,
+        57,
+        28,
+        10,
+        36
+    ],
+    "login locations": [
+        [
+            -117.563555,
+            33.653656
+        ]
+    ],
+    "relationships": []
 }

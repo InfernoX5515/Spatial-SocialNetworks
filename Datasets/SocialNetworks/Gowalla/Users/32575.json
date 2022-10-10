@@ -5,7 +5,14 @@
     "email": "msimpson@yahoo.com",
     "birthdate": "1996-12-09",
     "phone": "717-821-0483",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29
+    ],
+    "login locations": [
+        [
+            -122.401052,
+            37.965847
+        ]
+    ],
+    "relationships": []
 }

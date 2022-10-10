@@ -5,7 +5,18 @@
     "email": "james67@gmail.com",
     "birthdate": "1912-04-25",
     "phone": "2662232545",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        4,
+        43,
+        7,
+        67
+    ],
+    "login locations": [
+        [
+            -122.046386,
+            37.381139
+        ]
+    ],
+    "relationships": []
 }

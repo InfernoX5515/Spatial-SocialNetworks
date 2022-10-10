@@ -5,7 +5,21 @@
     "email": "bradleyandrea@hotmail.com",
     "birthdate": "1917-07-18",
     "phone": "197-465-1945x96421",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        30,
+        42,
+        38,
+        53,
+        22,
+        45,
+        67
+    ],
+    "login locations": [
+        [
+            -122.402396,
+            37.801672
+        ]
+    ],
+    "relationships": []
 }

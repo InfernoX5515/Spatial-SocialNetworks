@@ -5,7 +5,19 @@
     "email": "nicholas00@gmail.com",
     "birthdate": "2019-12-04",
     "phone": "(516)535-9810",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        55,
+        38,
+        59,
+        70,
+        36
+    ],
+    "login locations": [
+        [
+            -117.278593,
+            34.064858
+        ]
+    ],
+    "relationships": []
 }

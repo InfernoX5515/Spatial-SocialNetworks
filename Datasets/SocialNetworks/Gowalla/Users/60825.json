@@ -5,7 +5,15 @@
     "email": "tara34@yahoo.com",
     "birthdate": "1941-02-19",
     "phone": "+1-380-693-7376x1643",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        51
+    ],
+    "login locations": [
+        [
+            -122.362389,
+            37.756592
+        ]
+    ],
+    "relationships": []
 }

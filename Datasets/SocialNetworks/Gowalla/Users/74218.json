@@ -5,7 +5,27 @@
     "email": "josephsalas@gmail.com",
     "birthdate": "1955-04-10",
     "phone": "360.448.9391",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        19,
+        58,
+        72,
+        62,
+        46,
+        35,
+        7,
+        17,
+        40,
+        64,
+        44,
+        40,
+        3
+    ],
+    "login locations": [
+        [
+            -122.405611,
+            37.775877
+        ]
+    ],
+    "relationships": []
 }

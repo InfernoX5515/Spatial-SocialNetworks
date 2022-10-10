@@ -5,7 +5,27 @@
     "email": "vburns@gmail.com",
     "birthdate": "1921-10-02",
     "phone": "132-976-8216x745",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        44,
+        45,
+        63,
+        64,
+        60,
+        7,
+        63,
+        48,
+        56,
+        22,
+        6,
+        73,
+        2
+    ],
+    "login locations": [
+        [
+            -117.392327,
+            33.965927
+        ]
+    ],
+    "relationships": []
 }

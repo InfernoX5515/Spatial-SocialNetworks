@@ -5,7 +5,28 @@
     "email": "gatessarah@hotmail.com",
     "birthdate": "2018-09-02",
     "phone": "717-025-9598",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        11,
+        8,
+        43,
+        13,
+        52,
+        43,
+        31,
+        68,
+        10,
+        24,
+        14,
+        27,
+        36,
+        11
+    ],
+    "login locations": [
+        [
+            -121.350316,
+            38.611021
+        ]
+    ],
+    "relationships": []
 }

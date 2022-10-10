@@ -5,7 +5,21 @@
     "email": "davisjames@gmail.com",
     "birthdate": "1989-08-14",
     "phone": "+1-812-578-3848x83613",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        43,
+        69,
+        17,
+        54,
+        40,
+        28,
+        17
+    ],
+    "login locations": [
+        [
+            -122.161531,
+            37.44382
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "robertschristina@hotmail.com",
     "birthdate": "2005-01-16",
     "phone": "(617)827-7743x480",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        51,
+        48,
+        14,
+        68,
+        56
+    ],
+    "login locations": [
+        [
+            -121.418433,
+            38.387905
+        ]
+    ],
+    "relationships": []
 }

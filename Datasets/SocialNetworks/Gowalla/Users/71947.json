@@ -5,7 +5,25 @@
     "email": "nmatthews@gmail.com",
     "birthdate": "1951-10-30",
     "phone": "073.414.2409x153",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        65,
+        4,
+        63,
+        37,
+        51,
+        27,
+        17,
+        2,
+        54,
+        73,
+        16
+    ],
+    "login locations": [
+        [
+            -122.416776,
+            37.787817
+        ]
+    ],
+    "relationships": []
 }

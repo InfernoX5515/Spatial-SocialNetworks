@@ -5,7 +5,22 @@
     "email": "brandymoses@yahoo.com",
     "birthdate": "2022-04-05",
     "phone": "+1-075-279-3396x183",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        39,
+        54,
+        21,
+        49,
+        0,
+        12,
+        25,
+        36
+    ],
+    "login locations": [
+        [
+            -122.262984,
+            37.815855
+        ]
+    ],
+    "relationships": []
 }

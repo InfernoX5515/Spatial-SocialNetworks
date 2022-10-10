@@ -5,7 +5,28 @@
     "email": "brownjustin@hotmail.com",
     "birthdate": "1981-04-23",
     "phone": "+1-737-453-8391x854",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        28,
+        50,
+        36,
+        42,
+        43,
+        4,
+        43,
+        67,
+        35,
+        16,
+        23,
+        51,
+        74,
+        33
+    ],
+    "login locations": [
+        [
+            -122.416501,
+            37.792819
+        ]
+    ],
+    "relationships": []
 }

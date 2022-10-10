@@ -5,7 +5,14 @@
     "email": "brian94@hotmail.com",
     "birthdate": "1936-02-28",
     "phone": "2064964399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19
+    ],
+    "login locations": [
+        [
+            -122.410995,
+            37.788972
+        ]
+    ],
+    "relationships": []
 }

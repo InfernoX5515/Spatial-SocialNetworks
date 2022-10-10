@@ -5,7 +5,17 @@
     "email": "eware@yahoo.com",
     "birthdate": "2020-06-25",
     "phone": "425.485.1462x7623",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        65,
+        14,
+        21
+    ],
+    "login locations": [
+        [
+            -118.342378,
+            34.096642
+        ]
+    ],
+    "relationships": []
 }

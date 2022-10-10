@@ -5,7 +5,27 @@
     "email": "tarmstrong@gmail.com",
     "birthdate": "1923-11-28",
     "phone": "733-350-4700x3383",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        35,
+        14,
+        53,
+        50,
+        65,
+        1,
+        47,
+        23,
+        50,
+        37,
+        70,
+        29,
+        21
+    ],
+    "login locations": [
+        [
+            -118.507506,
+            34.160521
+        ]
+    ],
+    "relationships": []
 }

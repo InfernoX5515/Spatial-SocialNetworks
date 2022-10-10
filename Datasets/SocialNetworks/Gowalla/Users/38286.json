@@ -5,7 +5,26 @@
     "email": "wvillanueva@gmail.com",
     "birthdate": "2015-09-19",
     "phone": "979.975.2160",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        60,
+        8,
+        73,
+        11,
+        75,
+        16,
+        17,
+        38,
+        27,
+        17,
+        7,
+        44
+    ],
+    "login locations": [
+        [
+            -117.159585,
+            32.707159
+        ]
+    ],
+    "relationships": []
 }

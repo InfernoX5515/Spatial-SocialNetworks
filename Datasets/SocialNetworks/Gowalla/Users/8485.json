@@ -5,7 +5,28 @@
     "email": "lisadougherty@gmail.com",
     "birthdate": "1916-10-17",
     "phone": "001-249-680-5184x463",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        59,
+        42,
+        66,
+        66,
+        21,
+        11,
+        72,
+        16,
+        3,
+        5,
+        21,
+        49,
+        10,
+        49
+    ],
+    "login locations": [
+        [
+            -122.432976,
+            37.760842
+        ]
+    ],
+    "relationships": []
 }

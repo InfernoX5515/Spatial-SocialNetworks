@@ -5,7 +5,17 @@
     "email": "jasmineray@yahoo.com",
     "birthdate": "1915-02-23",
     "phone": "9889924384",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        58,
+        10,
+        66
+    ],
+    "login locations": [
+        [
+            -121.01822,
+            37.670819
+        ]
+    ],
+    "relationships": []
 }

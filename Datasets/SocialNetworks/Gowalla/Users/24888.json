@@ -5,7 +5,34 @@
     "email": "alexandertorres@hotmail.com",
     "birthdate": "1939-07-06",
     "phone": "001-877-327-9733x3797",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        50,
+        28,
+        1,
+        11,
+        52,
+        2,
+        66,
+        43,
+        21
+    ],
+    "login locations": [
+        [
+            -117.220931,
+            32.889439
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4391,
+                0.01
+            ],
+            [
+                4391,
+                0.01
+            ]
+        ]
+    ]
 }

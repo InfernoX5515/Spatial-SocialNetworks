@@ -5,7 +5,24 @@
     "email": "david93@gmail.com",
     "birthdate": "1986-05-09",
     "phone": "001-699-364-2586",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        58,
+        7,
+        49,
+        49,
+        66,
+        49,
+        35,
+        1,
+        50,
+        23
+    ],
+    "login locations": [
+        [
+            -122.323808,
+            37.86147
+        ]
+    ],
+    "relationships": []
 }

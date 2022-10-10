@@ -5,7 +5,34 @@
     "email": "andrew59@yahoo.com",
     "birthdate": "2020-08-06",
     "phone": "001-161-565-8687",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        46,
+        61,
+        48,
+        49,
+        29,
+        59,
+        42,
+        9,
+        9
+    ],
+    "login locations": [
+        [
+            -122.421344,
+            37.772391
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                179,
+                0.01
+            ],
+            [
+                179,
+                0.01
+            ]
+        ]
+    ]
 }

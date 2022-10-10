@@ -5,7 +5,21 @@
     "email": "john09@gmail.com",
     "birthdate": "1908-06-22",
     "phone": "+1-151-915-7238x576",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        26,
+        17,
+        48,
+        23,
+        52,
+        29,
+        0
+    ],
+    "login locations": [
+        [
+            -118.244542,
+            34.063659
+        ]
+    ],
+    "relationships": []
 }

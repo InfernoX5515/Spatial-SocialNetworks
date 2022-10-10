@@ -5,7 +5,16 @@
     "email": "danieljohnston@gmail.com",
     "birthdate": "1994-05-23",
     "phone": "001-200-301-5087x3993",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        71,
+        24
+    ],
+    "login locations": [
+        [
+            -122.059947,
+            37.619042
+        ]
+    ],
+    "relationships": []
 }

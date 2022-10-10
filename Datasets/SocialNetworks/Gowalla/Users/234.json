@@ -5,7 +5,36 @@
     "email": "peckdebra@hotmail.com",
     "birthdate": "1943-05-11",
     "phone": "001-711-545-6043x440",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        39,
+        9,
+        65,
+        32,
+        27,
+        65,
+        53,
+        29,
+        6,
+        45,
+        62
+    ],
+    "login locations": [
+        [
+            -122.393772,
+            37.777554
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                157,
+                0.101818181818
+            ],
+            [
+                157,
+                0.101818181818
+            ]
+        ]
+    ]
 }

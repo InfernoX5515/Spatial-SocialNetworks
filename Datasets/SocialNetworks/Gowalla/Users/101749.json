@@ -5,7 +5,16 @@
     "email": "burtonjonathan@yahoo.com",
     "birthdate": "1990-05-09",
     "phone": "+1-360-061-0107x12835",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        54,
+        21
+    ],
+    "login locations": [
+        [
+            -118.336258,
+            33.823444
+        ]
+    ],
+    "relationships": []
 }

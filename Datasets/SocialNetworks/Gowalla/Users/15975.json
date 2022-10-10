@@ -5,7 +5,28 @@
     "email": "kellyperkins@hotmail.com",
     "birthdate": "2022-01-30",
     "phone": "+1-647-067-6873x183",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        56,
+        73,
+        44,
+        37,
+        27,
+        62,
+        29,
+        35,
+        60,
+        65,
+        4,
+        45,
+        35,
+        66
+    ],
+    "login locations": [
+        [
+            -118.00325,
+            33.801049
+        ]
+    ],
+    "relationships": []
 }

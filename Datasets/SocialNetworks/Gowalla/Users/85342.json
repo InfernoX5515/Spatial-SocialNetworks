@@ -5,7 +5,24 @@
     "email": "tcampbell@gmail.com",
     "birthdate": "1996-05-12",
     "phone": "+1-874-343-0473",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        72,
+        7,
+        43,
+        58,
+        39,
+        21,
+        11,
+        39,
+        16,
+        26
+    ],
+    "login locations": [
+        [
+            -117.139436,
+            32.756429
+        ]
+    ],
+    "relationships": []
 }

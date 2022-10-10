@@ -5,7 +5,21 @@
     "email": "laurahart@hotmail.com",
     "birthdate": "2009-12-01",
     "phone": "(040)172-3889",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        0,
+        73,
+        36,
+        21,
+        59,
+        13,
+        51
+    ],
+    "login locations": [
+        [
+            -119.037742,
+            35.344829
+        ]
+    ],
+    "relationships": []
 }

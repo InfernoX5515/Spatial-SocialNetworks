@@ -5,7 +5,15 @@
     "email": "diazkatherine@hotmail.com",
     "birthdate": "1955-11-25",
     "phone": "(409)149-7001x354",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        70
+    ],
+    "login locations": [
+        [
+            -122.410388,
+            37.782121
+        ]
+    ],
+    "relationships": []
 }

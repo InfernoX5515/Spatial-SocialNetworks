@@ -5,7 +5,14 @@
     "email": "shelby89@gmail.com",
     "birthdate": "1960-07-06",
     "phone": "001-865-787-3608x68874",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36
+    ],
+    "login locations": [
+        [
+            -122.389323,
+            37.716622
+        ]
+    ],
+    "relationships": []
 }

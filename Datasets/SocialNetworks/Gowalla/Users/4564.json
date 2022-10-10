@@ -5,7 +5,19 @@
     "email": "kaylaramirez@gmail.com",
     "birthdate": "1996-02-07",
     "phone": "001-802-740-7069x2218",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        10,
+        74,
+        19,
+        8,
+        15
+    ],
+    "login locations": [
+        [
+            -117.721368,
+            33.621648
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "swise@yahoo.com",
     "birthdate": "1931-07-26",
     "phone": "(050)488-4630x752",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        15,
+        75
+    ],
+    "login locations": [
+        [
+            -122.419379,
+            37.80779
+        ]
+    ],
+    "relationships": []
 }

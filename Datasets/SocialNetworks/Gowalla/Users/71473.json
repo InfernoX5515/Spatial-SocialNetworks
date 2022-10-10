@@ -5,7 +5,19 @@
     "email": "marilynmosley@yahoo.com",
     "birthdate": "1927-07-08",
     "phone": "+1-869-163-0646x006",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        42,
+        46,
+        48,
+        1,
+        21
+    ],
+    "login locations": [
+        [
+            -122.402517,
+            37.755601
+        ]
+    ],
+    "relationships": []
 }

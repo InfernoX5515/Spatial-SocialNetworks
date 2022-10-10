@@ -5,7 +5,24 @@
     "email": "thomasgutierrez@hotmail.com",
     "birthdate": "1967-02-12",
     "phone": "745.574.0329x2578",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        75,
+        36,
+        74,
+        58,
+        2,
+        0,
+        58,
+        17,
+        69,
+        50
+    ],
+    "login locations": [
+        [
+            -122.403133,
+            37.768412
+        ]
+    ],
+    "relationships": []
 }

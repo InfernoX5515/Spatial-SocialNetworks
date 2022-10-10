@@ -5,7 +5,23 @@
     "email": "kaylaporter@hotmail.com",
     "birthdate": "1959-05-22",
     "phone": "001-367-986-4783",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.394526,
+            37.734573
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                593,
+                0.01
+            ]
+        ]
+    ]
 }

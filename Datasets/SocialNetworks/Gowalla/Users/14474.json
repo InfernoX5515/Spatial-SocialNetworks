@@ -5,7 +5,28 @@
     "email": "waynesnyder@hotmail.com",
     "birthdate": "1962-07-09",
     "phone": "643.069.5935x715",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        19,
+        17,
+        0,
+        48,
+        54,
+        14,
+        34,
+        70,
+        6,
+        23,
+        66,
+        5,
+        29,
+        44
+    ],
+    "login locations": [
+        [
+            -122.19601,
+            37.881809
+        ]
+    ],
+    "relationships": []
 }

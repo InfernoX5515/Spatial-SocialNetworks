@@ -5,7 +5,16 @@
     "email": "susanrhodes@yahoo.com",
     "birthdate": "1940-09-11",
     "phone": "7948372210",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        53,
+        64
+    ],
+    "login locations": [
+        [
+            -122.282548,
+            37.550283
+        ]
+    ],
+    "relationships": []
 }

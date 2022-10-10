@@ -5,7 +5,14 @@
     "email": "burnskevin@gmail.com",
     "birthdate": "1926-07-30",
     "phone": "(462)661-0145x751",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10
+    ],
+    "login locations": [
+        [
+            -121.905525,
+            37.35235
+        ]
+    ],
+    "relationships": []
 }

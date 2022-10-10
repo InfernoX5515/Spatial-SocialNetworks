@@ -5,7 +5,25 @@
     "email": "asnyder@yahoo.com",
     "birthdate": "1967-09-24",
     "phone": "(994)135-6570",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        29,
+        24,
+        28,
+        64,
+        72,
+        64,
+        7,
+        32,
+        30,
+        4,
+        34
+    ],
+    "login locations": [
+        [
+            -122.703555,
+            38.384399
+        ]
+    ],
+    "relationships": []
 }

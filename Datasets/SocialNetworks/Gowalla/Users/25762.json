@@ -5,7 +5,32 @@
     "email": "kwood@gmail.com",
     "birthdate": "1940-06-17",
     "phone": "205-801-5205x76343",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        44,
+        24,
+        53,
+        1,
+        45,
+        50,
+        45
+    ],
+    "login locations": [
+        [
+            -117.837996,
+            33.581946
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118243,
+                0.0135135135135
+            ],
+            [
+                118243,
+                0.0135135135135
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "davissarah@yahoo.com",
     "birthdate": "2008-05-29",
     "phone": "001-275-449-0346x71576",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        47,
+        42,
+        64,
+        47,
+        60,
+        7,
+        27,
+        27,
+        25,
+        28,
+        49
+    ],
+    "login locations": [
+        [
+            -122.403858,
+            37.786591
+        ]
+    ],
+    "relationships": []
 }

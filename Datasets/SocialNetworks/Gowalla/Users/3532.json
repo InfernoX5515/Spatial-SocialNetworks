@@ -5,7 +5,29 @@
     "email": "lprince@hotmail.com",
     "birthdate": "1911-01-20",
     "phone": "+1-896-126-1118",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        50,
+        70,
+        47,
+        0
+    ],
+    "login locations": [
+        [
+            -122.353523,
+            37.813033
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3536,
+                0.213675213675
+            ],
+            [
+                3541,
+                0.243346007605
+            ]
+        ]
+    ]
 }

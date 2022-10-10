@@ -5,7 +5,35 @@
     "email": "dustinmoore@gmail.com",
     "birthdate": "1963-10-12",
     "phone": "1814589268",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        69,
+        65,
+        27,
+        44,
+        54,
+        13,
+        33,
+        48,
+        70,
+        57
+    ],
+    "login locations": [
+        [
+            -119.029974,
+            34.209905
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1022,
+                0.024
+            ],
+            [
+                1022,
+                0.024
+            ]
+        ]
+    ]
 }

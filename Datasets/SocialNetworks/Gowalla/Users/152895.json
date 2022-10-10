@@ -5,7 +5,26 @@
     "email": "ryan52@gmail.com",
     "birthdate": "1949-01-12",
     "phone": "376-670-1320x87440",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        6,
+        24,
+        17,
+        30,
+        53,
+        26,
+        6,
+        24,
+        75,
+        14,
+        1,
+        38
+    ],
+    "login locations": [
+        [
+            -121.946508,
+            37.394721
+        ]
+    ],
+    "relationships": []
 }

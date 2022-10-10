@@ -5,7 +5,14 @@
     "email": "mowens@hotmail.com",
     "birthdate": "1971-05-23",
     "phone": "4633540507",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13
+    ],
+    "login locations": [
+        [
+            -121.896535,
+            36.607734
+        ]
+    ],
+    "relationships": []
 }

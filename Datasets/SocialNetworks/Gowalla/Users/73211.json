@@ -5,7 +5,15 @@
     "email": "theresagonzalez@hotmail.com",
     "birthdate": "1927-10-06",
     "phone": "+1-568-201-8026x60966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        4
+    ],
+    "login locations": [
+        [
+            -122.030345,
+            37.779716
+        ]
+    ],
+    "relationships": []
 }

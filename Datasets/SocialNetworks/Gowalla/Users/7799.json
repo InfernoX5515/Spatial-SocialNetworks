@@ -5,7 +5,16 @@
     "email": "holmeslisa@hotmail.com",
     "birthdate": "1959-04-29",
     "phone": "001-784-357-0028x481",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        72,
+        63
+    ],
+    "login locations": [
+        [
+            -122.427298,
+            37.770291
+        ]
+    ],
+    "relationships": []
 }

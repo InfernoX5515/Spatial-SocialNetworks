@@ -5,7 +5,24 @@
     "email": "mosleychad@hotmail.com",
     "birthdate": "1918-07-05",
     "phone": "(140)971-1742",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        6,
+        12,
+        46,
+        22,
+        68,
+        38,
+        33,
+        68,
+        72,
+        10
+    ],
+    "login locations": [
+        [
+            -122.406212,
+            37.790758
+        ]
+    ],
+    "relationships": []
 }

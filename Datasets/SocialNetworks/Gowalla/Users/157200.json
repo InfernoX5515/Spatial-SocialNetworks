@@ -5,7 +5,14 @@
     "email": "ehenderson@gmail.com",
     "birthdate": "2000-06-15",
     "phone": "(872)098-8198x41644",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14
+    ],
+    "login locations": [
+        [
+            -119.091153,
+            35.344046
+        ]
+    ],
+    "relationships": []
 }

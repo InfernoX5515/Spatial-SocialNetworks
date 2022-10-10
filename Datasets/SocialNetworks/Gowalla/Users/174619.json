@@ -5,7 +5,18 @@
     "email": "blackwellashley@yahoo.com",
     "birthdate": "1913-11-16",
     "phone": "(146)386-7019x94027",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        38,
+        21,
+        35,
+        29
+    ],
+    "login locations": [
+        [
+            -119.073856,
+            34.211376
+        ]
+    ],
+    "relationships": []
 }

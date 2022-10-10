@@ -5,7 +5,26 @@
     "email": "bkramer@yahoo.com",
     "birthdate": "1968-03-27",
     "phone": "(610)591-1034",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        47,
+        73,
+        17,
+        60,
+        13,
+        4,
+        75,
+        56,
+        18,
+        3,
+        15,
+        58
+    ],
+    "login locations": [
+        [
+            -117.929161,
+            33.886353
+        ]
+    ],
+    "relationships": []
 }

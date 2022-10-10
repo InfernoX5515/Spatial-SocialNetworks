@@ -5,7 +5,28 @@
     "email": "vaughnrebecca@yahoo.com",
     "birthdate": "2008-09-27",
     "phone": "001-340-615-3720x577",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        36,
+        39,
+        6
+    ],
+    "login locations": [
+        [
+            -122.418751,
+            37.766483
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4530,
+                0.0196078431373
+            ],
+            [
+                4530,
+                0.0196078431373
+            ]
+        ]
+    ]
 }

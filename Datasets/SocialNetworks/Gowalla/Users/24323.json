@@ -5,7 +5,24 @@
     "email": "tpham@hotmail.com",
     "birthdate": "1913-03-12",
     "phone": "+1-899-672-8042x4189",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        56,
+        9,
+        64,
+        22,
+        13,
+        35,
+        65,
+        14,
+        34,
+        43
+    ],
+    "login locations": [
+        [
+            -118.302294,
+            34.090642
+        ]
+    ],
+    "relationships": []
 }

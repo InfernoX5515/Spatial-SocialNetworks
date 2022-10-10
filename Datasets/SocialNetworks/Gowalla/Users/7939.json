@@ -5,7 +5,25 @@
     "email": "taylor38@gmail.com",
     "birthdate": "1938-12-07",
     "phone": "(817)471-0446x2607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63
+    ],
+    "login locations": [
+        [
+            -121.924515,
+            37.294557
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                86,
+                0.0175438596491
+            ],
+            [
+                5099,
+                0.2
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "devinleblanc@hotmail.com",
     "birthdate": "1935-06-01",
     "phone": "(581)330-3678",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        14,
+        14,
+        69,
+        70,
+        75,
+        4,
+        69,
+        7,
+        24,
+        8,
+        46,
+        2,
+        34
+    ],
+    "login locations": [
+        [
+            -122.118117,
+            37.414831
+        ]
+    ],
+    "relationships": []
 }

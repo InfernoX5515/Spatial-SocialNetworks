@@ -5,7 +5,14 @@
     "email": "frenchheather@hotmail.com",
     "birthdate": "1942-01-13",
     "phone": "(033)968-8109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15
+    ],
+    "login locations": [
+        [
+            -117.224843,
+            33.748229
+        ]
+    ],
+    "relationships": []
 }

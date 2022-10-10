@@ -5,7 +5,16 @@
     "email": "bakerjeffrey@yahoo.com",
     "birthdate": "1948-03-08",
     "phone": "+1-064-267-1672x050",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        38,
+        15
+    ],
+    "login locations": [
+        [
+            -121.98271,
+            37.225614
+        ]
+    ],
+    "relationships": []
 }

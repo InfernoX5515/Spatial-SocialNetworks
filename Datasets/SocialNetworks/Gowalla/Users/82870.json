@@ -5,7 +5,17 @@
     "email": "cwilliams@yahoo.com",
     "birthdate": "1997-11-30",
     "phone": "(795)603-1140x49633",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        16,
+        40,
+        67
+    ],
+    "login locations": [
+        [
+            -122.182006,
+            37.453386
+        ]
+    ],
+    "relationships": []
 }

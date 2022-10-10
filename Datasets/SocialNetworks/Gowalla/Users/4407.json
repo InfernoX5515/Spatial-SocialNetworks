@@ -5,7 +5,28 @@
     "email": "qthomas@hotmail.com",
     "birthdate": "1964-11-15",
     "phone": "3882910610",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        36,
+        73,
+        52
+    ],
+    "login locations": [
+        [
+            -122.425991,
+            37.762877
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                413,
+                0.035
+            ],
+            [
+                2292,
+                0.0414201183432
+            ]
+        ]
+    ]
 }

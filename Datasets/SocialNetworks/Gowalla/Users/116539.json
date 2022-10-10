@@ -5,7 +5,27 @@
     "email": "jacksonjoshua@gmail.com",
     "birthdate": "1925-08-31",
     "phone": "590.445.1287x934",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        65,
+        23,
+        52,
+        4,
+        54,
+        12,
+        44,
+        20,
+        17,
+        32,
+        4,
+        21,
+        14
+    ],
+    "login locations": [
+        [
+            -122.409482,
+            37.785409
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,35 @@
     "email": "michaelmathis@hotmail.com",
     "birthdate": "1917-11-15",
     "phone": "779-703-7043x545",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        7,
+        38,
+        59,
+        29,
+        70,
+        54,
+        65,
+        37,
+        32,
+        26
+    ],
+    "login locations": [
+        [
+            -122.392982,
+            37.738014
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                86,
+                0.0398724082935
+            ],
+            [
+                4397,
+                0.0159362549801
+            ]
+        ]
+    ]
 }

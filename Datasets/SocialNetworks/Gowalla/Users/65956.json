@@ -5,7 +5,24 @@
     "email": "dianechristensen@gmail.com",
     "birthdate": "1925-01-21",
     "phone": "+1-346-625-1716x3343",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        46,
+        11,
+        65,
+        74,
+        19,
+        47,
+        41,
+        57,
+        5,
+        66
+    ],
+    "login locations": [
+        [
+            -117.102636,
+            32.655032
+        ]
+    ],
+    "relationships": []
 }

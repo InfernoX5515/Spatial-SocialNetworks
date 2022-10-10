@@ -5,7 +5,18 @@
     "email": "shane35@yahoo.com",
     "birthdate": "1995-04-25",
     "phone": "(775)579-4954x514",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        16,
+        2,
+        37,
+        70
+    ],
+    "login locations": [
+        [
+            -122.305773,
+            37.595879
+        ]
+    ],
+    "relationships": []
 }

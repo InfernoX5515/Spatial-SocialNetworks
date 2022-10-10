@@ -5,7 +5,16 @@
     "email": "owu@yahoo.com",
     "birthdate": "2009-05-23",
     "phone": "546.483.3586",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        55,
+        0
+    ],
+    "login locations": [
+        [
+            -121.300499,
+            38.253044
+        ]
+    ],
+    "relationships": []
 }

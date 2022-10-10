@@ -5,7 +5,18 @@
     "email": "pauljenkins@yahoo.com",
     "birthdate": "1974-07-26",
     "phone": "(755)613-1226x29152",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        18,
+        1,
+        48,
+        35
+    ],
+    "login locations": [
+        [
+            -118.362955,
+            34.061965
+        ]
+    ],
+    "relationships": []
 }

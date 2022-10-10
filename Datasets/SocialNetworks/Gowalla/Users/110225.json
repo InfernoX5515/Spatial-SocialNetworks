@@ -5,7 +5,16 @@
     "email": "jonathanweaver@hotmail.com",
     "birthdate": "1908-10-14",
     "phone": "+1-020-976-0868x154",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        44,
+        33
+    ],
+    "login locations": [
+        [
+            -122.255474,
+            37.801986
+        ]
+    ],
+    "relationships": []
 }

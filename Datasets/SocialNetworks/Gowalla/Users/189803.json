@@ -5,7 +5,15 @@
     "email": "martinezandrew@yahoo.com",
     "birthdate": "1917-03-03",
     "phone": "(306)648-8259x0908",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        22
+    ],
+    "login locations": [
+        [
+            -117.140254,
+            32.871768
+        ]
+    ],
+    "relationships": []
 }

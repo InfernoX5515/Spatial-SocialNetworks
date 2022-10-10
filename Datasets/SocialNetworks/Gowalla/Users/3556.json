@@ -5,7 +5,14 @@
     "email": "kingjoanna@yahoo.com",
     "birthdate": "1945-07-20",
     "phone": "+1-439-921-9500x548",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60
+    ],
+    "login locations": [
+        [
+            -122.301714,
+            37.607957
+        ]
+    ],
+    "relationships": []
 }

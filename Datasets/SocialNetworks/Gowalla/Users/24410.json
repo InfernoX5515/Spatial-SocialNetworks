@@ -5,7 +5,37 @@
     "email": "coreymason@yahoo.com",
     "birthdate": "2020-11-30",
     "phone": "825.998.5833",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        30,
+        31,
+        13,
+        27,
+        73,
+        5,
+        18,
+        46,
+        14,
+        64,
+        58,
+        58
+    ],
+    "login locations": [
+        [
+            -122.270549,
+            37.806807
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                355,
+                0.0109090909091
+            ],
+            [
+                355,
+                0.0109090909091
+            ]
+        ]
+    ]
 }

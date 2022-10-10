@@ -5,7 +5,18 @@
     "email": "jason86@gmail.com",
     "birthdate": "1968-11-10",
     "phone": "+1-059-057-5130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        42,
+        27,
+        73,
+        0
+    ],
+    "login locations": [
+        [
+            -118.16204,
+            33.950298
+        ]
+    ],
+    "relationships": []
 }

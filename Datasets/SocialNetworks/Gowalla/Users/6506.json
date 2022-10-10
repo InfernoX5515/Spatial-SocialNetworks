@@ -5,7 +5,26 @@
     "email": "deborahflores@gmail.com",
     "birthdate": "1942-08-24",
     "phone": "(514)939-0264",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        12
+    ],
+    "login locations": [
+        [
+            -122.396797,
+            37.790881
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.01
+            ],
+            [
+                63,
+                0.01
+            ]
+        ]
+    ]
 }

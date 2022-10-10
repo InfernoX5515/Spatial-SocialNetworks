@@ -5,7 +5,12 @@
     "email": "aadams@hotmail.com",
     "birthdate": "1974-11-01",
     "phone": "652.688.8195x8011",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.913689,
+            37.340874
+        ]
+    ],
+    "relationships": []
 }

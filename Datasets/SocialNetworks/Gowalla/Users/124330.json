@@ -5,7 +5,15 @@
     "email": "annaross@hotmail.com",
     "birthdate": "1952-11-30",
     "phone": "079-331-2005x338",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        3
+    ],
+    "login locations": [
+        [
+            -121.893264,
+            37.334692
+        ]
+    ],
+    "relationships": []
 }

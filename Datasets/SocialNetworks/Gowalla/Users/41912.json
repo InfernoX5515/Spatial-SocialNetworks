@@ -5,7 +5,25 @@
     "email": "choidouglas@gmail.com",
     "birthdate": "2004-09-30",
     "phone": "517-247-0032x71560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        42,
+        65,
+        11,
+        58,
+        11,
+        65,
+        9,
+        34,
+        2,
+        24,
+        39
+    ],
+    "login locations": [
+        [
+            -117.728828,
+            34.022889
+        ]
+    ],
+    "relationships": []
 }

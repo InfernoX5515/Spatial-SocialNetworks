@@ -5,7 +5,12 @@
     "email": "jonestyler@yahoo.com",
     "birthdate": "1916-04-18",
     "phone": "(777)504-2898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.716638,
+            33.486314
+        ]
+    ],
+    "relationships": []
 }

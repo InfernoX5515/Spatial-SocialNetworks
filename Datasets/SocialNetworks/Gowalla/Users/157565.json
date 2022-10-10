@@ -5,7 +5,26 @@
     "email": "nicole35@hotmail.com",
     "birthdate": "1925-01-28",
     "phone": "(269)430-3718",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        59,
+        66,
+        73,
+        44,
+        31,
+        56,
+        57,
+        60,
+        30,
+        61,
+        1,
+        63
+    ],
+    "login locations": [
+        [
+            -122.405966,
+            37.790007
+        ]
+    ],
+    "relationships": []
 }

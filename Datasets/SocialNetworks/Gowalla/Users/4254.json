@@ -5,7 +5,23 @@
     "email": "kherrera@hotmail.com",
     "birthdate": "1964-08-13",
     "phone": "+1-249-192-7787x64536",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.419184,
+            37.769486
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                478,
+                0.0199004975124
+            ],
+            [
+                2415,
+                0.025641025641
+            ]
+        ]
+    ]
 }

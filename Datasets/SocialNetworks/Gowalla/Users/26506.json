@@ -5,7 +5,21 @@
     "email": "jenniferbradford@yahoo.com",
     "birthdate": "1974-12-08",
     "phone": "+1-425-742-9794x8354",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        0,
+        21,
+        8,
+        75,
+        25,
+        68,
+        50
+    ],
+    "login locations": [
+        [
+            -117.89482,
+            33.745212
+        ]
+    ],
+    "relationships": []
 }

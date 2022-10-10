@@ -5,7 +5,18 @@
     "email": "fmartinez@hotmail.com",
     "birthdate": "2015-01-28",
     "phone": "805-136-1170x63910",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        11,
+        36,
+        68,
+        65
+    ],
+    "login locations": [
+        [
+            -118.17388,
+            34.032425
+        ]
+    ],
+    "relationships": []
 }

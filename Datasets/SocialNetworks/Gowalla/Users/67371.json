@@ -5,7 +5,21 @@
     "email": "robinsonkimberly@yahoo.com",
     "birthdate": "1978-03-29",
     "phone": "001-329-041-7584x53746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        58,
+        47,
+        23,
+        41,
+        59,
+        9,
+        7
+    ],
+    "login locations": [
+        [
+            -118.341103,
+            34.084637
+        ]
+    ],
+    "relationships": []
 }

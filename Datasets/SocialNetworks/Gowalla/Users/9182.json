@@ -5,7 +5,26 @@
     "email": "butlerchristopher@yahoo.com",
     "birthdate": "2014-11-20",
     "phone": "318-521-8323x25489",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        35
+    ],
+    "login locations": [
+        [
+            -122.402617,
+            37.753833
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5628,
+                0.01
+            ],
+            [
+                8651,
+                0.210526315789
+            ]
+        ]
+    ]
 }

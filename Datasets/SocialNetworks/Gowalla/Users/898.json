@@ -5,7 +5,28 @@
     "email": "ssalas@gmail.com",
     "birthdate": "1914-01-04",
     "phone": "(005)979-2067x12379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        6,
+        57,
+        30
+    ],
+    "login locations": [
+        [
+            -121.974945,
+            37.287524
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                23982,
+                0.0132625994695
+            ],
+            [
+                23982,
+                0.0132625994695
+            ]
+        ]
+    ]
 }

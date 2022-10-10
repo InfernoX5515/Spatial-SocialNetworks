@@ -5,7 +5,15 @@
     "email": "kayla61@gmail.com",
     "birthdate": "2019-03-03",
     "phone": "860.054.5935x51437",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        75
+    ],
+    "login locations": [
+        [
+            -118.102929,
+            34.053279
+        ]
+    ],
+    "relationships": []
 }

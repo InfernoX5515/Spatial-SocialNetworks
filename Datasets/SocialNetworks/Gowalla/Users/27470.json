@@ -5,7 +5,19 @@
     "email": "mannmark@hotmail.com",
     "birthdate": "1920-04-24",
     "phone": "101-895-4664x190",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        16,
+        2,
+        56,
+        75,
+        17
+    ],
+    "login locations": [
+        [
+            -117.880983,
+            33.704485
+        ]
+    ],
+    "relationships": []
 }

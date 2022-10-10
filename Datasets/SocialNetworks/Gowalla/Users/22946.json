@@ -5,7 +5,39 @@
     "email": "sstephenson@gmail.com",
     "birthdate": "1951-08-18",
     "phone": "373-960-3750",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        22,
+        70,
+        75,
+        39,
+        44,
+        27,
+        67,
+        56,
+        12,
+        29,
+        34,
+        34,
+        56,
+        3
+    ],
+    "login locations": [
+        [
+            -122.2573,
+            37.855668
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.0173913043478
+            ],
+            [
+                355,
+                0.16
+            ]
+        ]
+    ]
 }

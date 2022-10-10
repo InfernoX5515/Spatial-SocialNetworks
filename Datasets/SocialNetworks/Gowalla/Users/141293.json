@@ -5,7 +5,22 @@
     "email": "cookestacy@gmail.com",
     "birthdate": "1952-06-28",
     "phone": "+1-456-758-1540x736",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        59,
+        63,
+        3,
+        9,
+        59,
+        33,
+        40,
+        32
+    ],
+    "login locations": [
+        [
+            -122.402412,
+            37.786037
+        ]
+    ],
+    "relationships": []
 }

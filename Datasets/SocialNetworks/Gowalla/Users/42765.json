@@ -5,7 +5,14 @@
     "email": "katherine40@yahoo.com",
     "birthdate": "1930-10-26",
     "phone": "195-034-2916",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14
+    ],
+    "login locations": [
+        [
+            -118.331186,
+            34.092617
+        ]
+    ],
+    "relationships": []
 }

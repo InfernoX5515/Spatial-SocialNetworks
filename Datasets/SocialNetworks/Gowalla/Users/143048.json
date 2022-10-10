@@ -5,7 +5,22 @@
     "email": "wesley32@gmail.com",
     "birthdate": "1924-07-30",
     "phone": "056.918.0900x28146",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        5,
+        45,
+        17,
+        66,
+        71,
+        66,
+        21,
+        0
+    ],
+    "login locations": [
+        [
+            -117.971067,
+            34.06383
+        ]
+    ],
+    "relationships": []
 }

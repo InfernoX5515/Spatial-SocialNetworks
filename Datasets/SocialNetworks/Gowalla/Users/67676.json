@@ -5,7 +5,28 @@
     "email": "nmorales@yahoo.com",
     "birthdate": "1910-09-01",
     "phone": "274.671.5934x9052",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        69,
+        75,
+        46,
+        55,
+        35,
+        16,
+        31,
+        27,
+        4,
+        58,
+        6,
+        19,
+        45,
+        45
+    ],
+    "login locations": [
+        [
+            -122.416737,
+            37.785314
+        ]
+    ],
+    "relationships": []
 }

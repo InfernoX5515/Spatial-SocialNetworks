@@ -5,7 +5,12 @@
     "email": "christopherfarley@gmail.com",
     "birthdate": "1929-01-09",
     "phone": "3216036743",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.113044,
+            37.403153
+        ]
+    ],
+    "relationships": []
 }

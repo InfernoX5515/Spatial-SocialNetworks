@@ -5,7 +5,18 @@
     "email": "campbellpaul@hotmail.com",
     "birthdate": "2003-11-14",
     "phone": "713-992-9866x30590",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        0,
+        58,
+        0,
+        25
+    ],
+    "login locations": [
+        [
+            -118.211647,
+            33.829475
+        ]
+    ],
+    "relationships": []
 }

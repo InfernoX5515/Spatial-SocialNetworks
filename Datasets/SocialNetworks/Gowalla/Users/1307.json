@@ -5,7 +5,16 @@
     "email": "kbray@yahoo.com",
     "birthdate": "1972-09-29",
     "phone": "(027)758-9058x3880",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        15,
+        33
+    ],
+    "login locations": [
+        [
+            -122.104368,
+            38.016316
+        ]
+    ],
+    "relationships": []
 }

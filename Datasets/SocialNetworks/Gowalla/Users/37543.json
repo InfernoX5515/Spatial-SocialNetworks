@@ -5,7 +5,25 @@
     "email": "sjordan@hotmail.com",
     "birthdate": "2010-10-07",
     "phone": "001-913-894-8713",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        58,
+        52,
+        56,
+        62,
+        10,
+        36,
+        55,
+        65,
+        32,
+        22,
+        58
+    ],
+    "login locations": [
+        [
+            -122.339286,
+            37.6162
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "phillipsjerry@gmail.com",
     "birthdate": "1907-05-20",
     "phone": "920.911.3834x05458",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1
+    ],
+    "login locations": [
+        [
+            -118.382316,
+            33.934912
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                304,
+                0.0193798449612
+            ],
+            [
+                3656,
+                0.0217391304348
+            ]
+        ]
+    ]
 }

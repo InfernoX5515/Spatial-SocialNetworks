@@ -5,7 +5,28 @@
     "email": "harmonjoan@hotmail.com",
     "birthdate": "1984-06-28",
     "phone": "(607)646-4575x27969",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        38,
+        21,
+        20
+    ],
+    "login locations": [
+        [
+            -122.399332,
+            37.766353
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5287,
+                0.0134228187919
+            ],
+            [
+                5287,
+                0.0134228187919
+            ]
+        ]
+    ]
 }

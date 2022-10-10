@@ -5,7 +5,22 @@
     "email": "jerrywhite@hotmail.com",
     "birthdate": "1996-10-24",
     "phone": "+1-824-351-1938x08009",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        66,
+        40,
+        32,
+        39,
+        67,
+        52,
+        5,
+        55
+    ],
+    "login locations": [
+        [
+            -118.001494,
+            33.853388
+        ]
+    ],
+    "relationships": []
 }

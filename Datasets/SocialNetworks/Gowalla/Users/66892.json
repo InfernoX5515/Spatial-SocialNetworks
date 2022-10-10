@@ -5,7 +5,15 @@
     "email": "seanjordan@yahoo.com",
     "birthdate": "1953-12-13",
     "phone": "295-580-6139",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        61
+    ],
+    "login locations": [
+        [
+            -118.322123,
+            34.073512
+        ]
+    ],
+    "relationships": []
 }

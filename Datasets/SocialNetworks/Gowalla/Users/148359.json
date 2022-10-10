@@ -5,7 +5,17 @@
     "email": "hayeskevin@gmail.com",
     "birthdate": "1983-05-08",
     "phone": "901-343-6191",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        75,
+        61,
+        48
+    ],
+    "login locations": [
+        [
+            -121.672402,
+            37.139168
+        ]
+    ],
+    "relationships": []
 }

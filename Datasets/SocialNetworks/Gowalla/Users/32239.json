@@ -5,7 +5,15 @@
     "email": "smithseth@yahoo.com",
     "birthdate": "2017-05-05",
     "phone": "675.411.9029",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        15
+    ],
+    "login locations": [
+        [
+            -118.341232,
+            34.057655
+        ]
+    ],
+    "relationships": []
 }

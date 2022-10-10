@@ -5,7 +5,14 @@
     "email": "kruegerjacqueline@hotmail.com",
     "birthdate": "1985-11-26",
     "phone": "001-543-675-9011",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63
+    ],
+    "login locations": [
+        [
+            -117.763494,
+            33.714394
+        ]
+    ],
+    "relationships": []
 }

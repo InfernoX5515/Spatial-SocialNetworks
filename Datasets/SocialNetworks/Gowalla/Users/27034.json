@@ -5,7 +5,26 @@
     "email": "christopher84@gmail.com",
     "birthdate": "1915-12-10",
     "phone": "406-541-2905",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        18,
+        33,
+        21,
+        18,
+        39,
+        4,
+        65,
+        63,
+        24,
+        43,
+        19,
+        32
+    ],
+    "login locations": [
+        [
+            -122.36767,
+            37.783067
+        ]
+    ],
+    "relationships": []
 }

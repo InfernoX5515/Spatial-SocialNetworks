@@ -5,7 +5,22 @@
     "email": "watsonerica@gmail.com",
     "birthdate": "1933-11-07",
     "phone": "001-223-416-5633x100",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        48,
+        12,
+        54,
+        23,
+        65,
+        75,
+        23,
+        57
+    ],
+    "login locations": [
+        [
+            -122.184692,
+            37.824569
+        ]
+    ],
+    "relationships": []
 }

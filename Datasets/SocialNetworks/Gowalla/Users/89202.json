@@ -5,7 +5,15 @@
     "email": "meredith93@gmail.com",
     "birthdate": "1972-02-03",
     "phone": "001-856-468-8510x5823",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        67
+    ],
+    "login locations": [
+        [
+            -118.408666,
+            34.026342
+        ]
+    ],
+    "relationships": []
 }

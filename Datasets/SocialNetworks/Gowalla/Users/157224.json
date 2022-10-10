@@ -5,7 +5,16 @@
     "email": "zgreen@yahoo.com",
     "birthdate": "2008-09-18",
     "phone": "771.376.3797",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        3,
+        54
+    ],
+    "login locations": [
+        [
+            -122.430023,
+            37.784239
+        ]
+    ],
+    "relationships": []
 }

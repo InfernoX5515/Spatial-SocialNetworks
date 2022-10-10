@@ -5,7 +5,22 @@
     "email": "christopher35@yahoo.com",
     "birthdate": "1957-08-04",
     "phone": "+1-587-284-9925x704",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        71,
+        40,
+        39,
+        39,
+        31,
+        70,
+        32,
+        59
+    ],
+    "login locations": [
+        [
+            -118.044431,
+            33.8513
+        ]
+    ],
+    "relationships": []
 }

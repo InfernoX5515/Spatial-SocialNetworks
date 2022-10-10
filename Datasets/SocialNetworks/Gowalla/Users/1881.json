@@ -5,7 +5,27 @@
     "email": "victoria74@hotmail.com",
     "birthdate": "2006-02-04",
     "phone": "001-411-905-6201x1697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        44,
+        51
+    ],
+    "login locations": [
+        [
+            -118.417631,
+            34.016491
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4757,
+                0.01
+            ],
+            [
+                4757,
+                0.01
+            ]
+        ]
+    ]
 }

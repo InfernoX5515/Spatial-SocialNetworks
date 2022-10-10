@@ -5,7 +5,16 @@
     "email": "hwilliams@yahoo.com",
     "birthdate": "1999-08-28",
     "phone": "(437)513-7279",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        67,
+        35
+    ],
+    "login locations": [
+        [
+            -122.405191,
+            37.767497
+        ]
+    ],
+    "relationships": []
 }

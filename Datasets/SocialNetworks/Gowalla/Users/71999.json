@@ -5,7 +5,17 @@
     "email": "brandy39@hotmail.com",
     "birthdate": "2013-01-04",
     "phone": "(250)792-9806",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        49,
+        17,
+        47
+    ],
+    "login locations": [
+        [
+            -122.405726,
+            37.777522
+        ]
+    ],
+    "relationships": []
 }

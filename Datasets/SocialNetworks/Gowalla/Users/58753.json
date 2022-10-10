@@ -5,7 +5,22 @@
     "email": "donnabrooks@yahoo.com",
     "birthdate": "1966-07-04",
     "phone": "001-494-423-0036x2340",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        28,
+        24,
+        61,
+        2,
+        41,
+        32,
+        55,
+        50
+    ],
+    "login locations": [
+        [
+            -122.663173,
+            38.332297
+        ]
+    ],
+    "relationships": []
 }

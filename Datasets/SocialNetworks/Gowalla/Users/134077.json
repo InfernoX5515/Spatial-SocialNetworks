@@ -5,7 +5,20 @@
     "email": "williamsrichard@gmail.com",
     "birthdate": "2014-10-05",
     "phone": "001-072-321-8050x3231",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        74,
+        74,
+        40,
+        46,
+        42,
+        30
+    ],
+    "login locations": [
+        [
+            -118.228716,
+            34.011253
+        ]
+    ],
+    "relationships": []
 }

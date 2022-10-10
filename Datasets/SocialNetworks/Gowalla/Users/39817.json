@@ -5,7 +5,16 @@
     "email": "barbararodgers@hotmail.com",
     "birthdate": "2009-11-12",
     "phone": "001-408-597-0623",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        47,
+        32
+    ],
+    "login locations": [
+        [
+            -118.263696,
+            34.12823
+        ]
+    ],
+    "relationships": []
 }

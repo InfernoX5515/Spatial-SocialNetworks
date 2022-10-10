@@ -5,7 +5,12 @@
     "email": "kathymurphy@gmail.com",
     "birthdate": "1984-12-22",
     "phone": "(226)577-0200",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.965552,
+            37.34167
+        ]
+    ],
+    "relationships": []
 }

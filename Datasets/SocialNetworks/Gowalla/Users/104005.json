@@ -5,7 +5,20 @@
     "email": "lewisgregory@gmail.com",
     "birthdate": "1931-02-17",
     "phone": "474.568.5174",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        21,
+        13,
+        13,
+        55,
+        18,
+        65
+    ],
+    "login locations": [
+        [
+            -122.075776,
+            37.939456
+        ]
+    ],
+    "relationships": []
 }

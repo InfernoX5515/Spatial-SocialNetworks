@@ -5,7 +5,26 @@
     "email": "robin02@hotmail.com",
     "birthdate": "2000-03-08",
     "phone": "(559)521-5129",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        60
+    ],
+    "login locations": [
+        [
+            -122.404434,
+            37.750982
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                96,
+                0.02
+            ],
+            [
+                96,
+                0.02
+            ]
+        ]
+    ]
 }

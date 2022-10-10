@@ -5,7 +5,23 @@
     "email": "james14@yahoo.com",
     "birthdate": "1941-04-21",
     "phone": "(982)545-9864",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        38,
+        66,
+        35,
+        55,
+        39,
+        18,
+        59,
+        10,
+        58
+    ],
+    "login locations": [
+        [
+            -122.391194,
+            37.779629
+        ]
+    ],
+    "relationships": []
 }

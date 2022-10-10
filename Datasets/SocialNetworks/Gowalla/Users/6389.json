@@ -5,7 +5,28 @@
     "email": "romansteven@yahoo.com",
     "birthdate": "1997-07-03",
     "phone": "(713)033-2792x6159",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        44,
+        2,
+        11
+    ],
+    "login locations": [
+        [
+            -122.164145,
+            37.430528
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.01
+            ],
+            [
+                5073,
+                0.0266666666667
+            ]
+        ]
+    ]
 }

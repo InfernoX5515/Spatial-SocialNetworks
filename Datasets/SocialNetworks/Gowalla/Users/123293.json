@@ -5,7 +5,16 @@
     "email": "zunigajohn@hotmail.com",
     "birthdate": "1936-11-01",
     "phone": "991-684-5462x7700",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        46,
+        42
+    ],
+    "login locations": [
+        [
+            -122.430346,
+            37.805142
+        ]
+    ],
+    "relationships": []
 }

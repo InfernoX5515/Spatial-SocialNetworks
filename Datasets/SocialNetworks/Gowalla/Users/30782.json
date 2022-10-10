@@ -5,7 +5,17 @@
     "email": "qsmith@gmail.com",
     "birthdate": "1937-10-12",
     "phone": "(891)387-7901x0130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        11,
+        35,
+        27
+    ],
+    "login locations": [
+        [
+            -121.873995,
+            37.705786
+        ]
+    ],
+    "relationships": []
 }

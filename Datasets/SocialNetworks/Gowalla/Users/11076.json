@@ -5,7 +5,33 @@
     "email": "bsmith@gmail.com",
     "birthdate": "1974-07-11",
     "phone": "001-484-067-0569x9329",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        24,
+        17,
+        3,
+        49,
+        47,
+        27,
+        20,
+        52
+    ],
+    "login locations": [
+        [
+            -118.007811,
+            33.855245
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                484,
+                0.01
+            ],
+            [
+                3572,
+                0.010752688172
+            ]
+        ]
+    ]
 }

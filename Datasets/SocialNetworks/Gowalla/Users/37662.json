@@ -5,7 +5,16 @@
     "email": "ycox@yahoo.com",
     "birthdate": "1955-05-11",
     "phone": "7517188606",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        8,
+        9
+    ],
+    "login locations": [
+        [
+            -122.407112,
+            37.76784
+        ]
+    ],
+    "relationships": []
 }

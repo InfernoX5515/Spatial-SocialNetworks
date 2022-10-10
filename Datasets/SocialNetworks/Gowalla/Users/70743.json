@@ -5,7 +5,20 @@
     "email": "rspencer@hotmail.com",
     "birthdate": "2011-03-12",
     "phone": "(902)488-1843x9826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        62,
+        50,
+        52,
+        38,
+        38,
+        23
+    ],
+    "login locations": [
+        [
+            -121.979816,
+            37.356199
+        ]
+    ],
+    "relationships": []
 }

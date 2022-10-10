@@ -5,7 +5,19 @@
     "email": "cherylwalker@hotmail.com",
     "birthdate": "1942-02-10",
     "phone": "+1-301-991-2366x132",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        73,
+        31,
+        62,
+        66,
+        60
+    ],
+    "login locations": [
+        [
+            -118.329439,
+            34.034355
+        ]
+    ],
+    "relationships": []
 }

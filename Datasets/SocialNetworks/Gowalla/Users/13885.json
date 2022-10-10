@@ -5,7 +5,14 @@
     "email": "bchavez@gmail.com",
     "birthdate": "1958-09-28",
     "phone": "+1-358-047-1874x466",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20
+    ],
+    "login locations": [
+        [
+            -117.10895,
+            32.994035
+        ]
+    ],
+    "relationships": []
 }

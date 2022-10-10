@@ -5,7 +5,36 @@
     "email": "michelle50@hotmail.com",
     "birthdate": "1909-12-22",
     "phone": "001-122-193-4444x9018",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        18,
+        71,
+        57,
+        49,
+        18,
+        6,
+        61,
+        16,
+        44,
+        38,
+        60
+    ],
+    "login locations": [
+        [
+            -122.407852,
+            37.777995
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1121,
+                0.01
+            ],
+            [
+                1121,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "fnorman@yahoo.com",
     "birthdate": "1973-12-17",
     "phone": "3623674309",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        53,
+        73,
+        15,
+        49,
+        66,
+        7,
+        12,
+        20,
+        48,
+        48,
+        46
+    ],
+    "login locations": [
+        [
+            -116.283923,
+            33.720973
+        ]
+    ],
+    "relationships": []
 }

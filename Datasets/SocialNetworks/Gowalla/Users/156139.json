@@ -5,7 +5,27 @@
     "email": "glenwilliams@gmail.com",
     "birthdate": "2012-12-03",
     "phone": "407-032-7019",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        37,
+        32,
+        45,
+        24,
+        37,
+        6,
+        51,
+        36,
+        18,
+        63,
+        2,
+        38,
+        26
+    ],
+    "login locations": [
+        [
+            -122.472919,
+            37.784681
+        ]
+    ],
+    "relationships": []
 }

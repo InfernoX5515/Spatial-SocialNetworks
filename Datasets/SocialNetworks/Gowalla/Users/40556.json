@@ -5,7 +5,26 @@
     "email": "jennifer18@hotmail.com",
     "birthdate": "1958-03-17",
     "phone": "327.699.5329",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        30,
+        0,
+        31,
+        42,
+        8,
+        10,
+        57,
+        56,
+        14,
+        18,
+        64,
+        29
+    ],
+    "login locations": [
+        [
+            -118.370761,
+            34.052567
+        ]
+    ],
+    "relationships": []
 }

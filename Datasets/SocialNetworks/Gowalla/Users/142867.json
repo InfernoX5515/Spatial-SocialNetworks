@@ -5,7 +5,18 @@
     "email": "christophersmith@yahoo.com",
     "birthdate": "1986-07-22",
     "phone": "(361)041-7636",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        65,
+        32,
+        14,
+        71
+    ],
+    "login locations": [
+        [
+            -119.047729,
+            35.382555
+        ]
+    ],
+    "relationships": []
 }

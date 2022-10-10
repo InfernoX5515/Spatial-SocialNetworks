@@ -5,7 +5,28 @@
     "email": "jacobjarvis@yahoo.com",
     "birthdate": "2014-10-30",
     "phone": "+1-695-825-4848x5200",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        37,
+        17,
+        36
+    ],
+    "login locations": [
+        [
+            -118.248642,
+            34.058241
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2053,
+                0.01
+            ],
+            [
+                2053,
+                0.01
+            ]
+        ]
+    ]
 }

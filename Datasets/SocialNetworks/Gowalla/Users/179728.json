@@ -5,7 +5,30 @@
     "email": "dominiquebuchanan@yahoo.com",
     "birthdate": "1914-04-17",
     "phone": "001-757-447-5211x4145",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        40,
+        42,
+        7,
+        26,
+        62
+    ],
+    "login locations": [
+        [
+            -122.424996,
+            37.789828
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                120182,
+                0.0294117647059
+            ],
+            [
+                120182,
+                0.0294117647059
+            ]
+        ]
+    ]
 }

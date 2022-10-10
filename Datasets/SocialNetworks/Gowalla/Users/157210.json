@@ -5,7 +5,27 @@
     "email": "leslie75@gmail.com",
     "birthdate": "2018-12-17",
     "phone": "145.656.1094x0973",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        32,
+        22,
+        15,
+        31,
+        36,
+        64,
+        12,
+        46,
+        69,
+        75,
+        71,
+        43,
+        17
+    ],
+    "login locations": [
+        [
+            -122.424062,
+            37.776444
+        ]
+    ],
+    "relationships": []
 }

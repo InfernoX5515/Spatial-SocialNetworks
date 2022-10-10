@@ -5,7 +5,18 @@
     "email": "shane11@hotmail.com",
     "birthdate": "1956-09-12",
     "phone": "476-932-9681x72066",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        67,
+        55,
+        23,
+        70
+    ],
+    "login locations": [
+        [
+            -122.393983,
+            37.699108
+        ]
+    ],
+    "relationships": []
 }

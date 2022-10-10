@@ -5,7 +5,26 @@
     "email": "pmora@gmail.com",
     "birthdate": "1924-11-05",
     "phone": "(201)068-2655x516",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        57,
+        15,
+        56,
+        44,
+        5,
+        2,
+        62,
+        60,
+        14,
+        12,
+        50,
+        39
+    ],
+    "login locations": [
+        [
+            -122.42667,
+            37.795518
+        ]
+    ],
+    "relationships": []
 }

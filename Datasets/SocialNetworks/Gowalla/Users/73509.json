@@ -5,7 +5,20 @@
     "email": "heatherdavis@hotmail.com",
     "birthdate": "1969-01-14",
     "phone": "(014)177-9765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        16,
+        70,
+        6,
+        47,
+        57,
+        0
+    ],
+    "login locations": [
+        [
+            -117.264659,
+            32.991077
+        ]
+    ],
+    "relationships": []
 }

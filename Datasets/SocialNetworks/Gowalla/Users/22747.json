@@ -5,7 +5,22 @@
     "email": "qmoon@hotmail.com",
     "birthdate": "1959-12-21",
     "phone": "481.608.8483x4931",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        12,
+        45,
+        37,
+        45,
+        45,
+        53,
+        13,
+        74
+    ],
+    "login locations": [
+        [
+            -119.179876,
+            34.194262
+        ]
+    ],
+    "relationships": []
 }

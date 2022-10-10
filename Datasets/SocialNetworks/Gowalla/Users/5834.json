@@ -5,7 +5,15 @@
     "email": "elittle@hotmail.com",
     "birthdate": "2018-12-21",
     "phone": "001-171-981-5721",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        19
+    ],
+    "login locations": [
+        [
+            -122.180432,
+            37.45206
+        ]
+    ],
+    "relationships": []
 }

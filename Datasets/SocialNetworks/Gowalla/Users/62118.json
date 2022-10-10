@@ -5,7 +5,18 @@
     "email": "prattdavid@hotmail.com",
     "birthdate": "1967-08-26",
     "phone": "+1-111-851-9723",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        25,
+        14,
+        67,
+        51
+    ],
+    "login locations": [
+        [
+            -121.803597,
+            38.671142
+        ]
+    ],
+    "relationships": []
 }

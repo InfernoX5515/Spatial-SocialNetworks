@@ -5,7 +5,28 @@
     "email": "pcruz@hotmail.com",
     "birthdate": "2022-07-29",
     "phone": "483.034.5978x1396",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        66,
+        2,
+        47,
+        13,
+        15,
+        40,
+        19,
+        51,
+        21,
+        45,
+        12,
+        46,
+        64,
+        64
+    ],
+    "login locations": [
+        [
+            -122.167101,
+            37.886158
+        ]
+    ],
+    "relationships": []
 }

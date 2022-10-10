@@ -5,7 +5,16 @@
     "email": "mckenziemichele@yahoo.com",
     "birthdate": "1974-08-03",
     "phone": "426-798-1639x0379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        33,
+        7
+    ],
+    "login locations": [
+        [
+            -122.422308,
+            37.79819
+        ]
+    ],
+    "relationships": []
 }

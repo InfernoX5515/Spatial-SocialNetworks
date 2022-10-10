@@ -5,7 +5,31 @@
     "email": "brodriguez@hotmail.com",
     "birthdate": "1929-08-08",
     "phone": "(582)193-6082x9990",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        48,
+        65,
+        19,
+        55,
+        5,
+        56
+    ],
+    "login locations": [
+        [
+            -117.32478,
+            33.981093
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82,
+                0.0625
+            ],
+            [
+                221,
+                0.1
+            ]
+        ]
+    ]
 }

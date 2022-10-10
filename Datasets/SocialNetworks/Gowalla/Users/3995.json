@@ -5,7 +5,27 @@
     "email": "frystacey@hotmail.com",
     "birthdate": "1994-11-13",
     "phone": "937.766.8328x1821",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        17,
+        70,
+        20,
+        39,
+        38,
+        8,
+        42,
+        53,
+        2,
+        53,
+        41,
+        46,
+        41
+    ],
+    "login locations": [
+        [
+            -118.357386,
+            34.065378
+        ]
+    ],
+    "relationships": []
 }

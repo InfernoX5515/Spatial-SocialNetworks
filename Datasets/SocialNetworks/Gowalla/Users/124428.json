@@ -5,7 +5,28 @@
     "email": "hernandezmiranda@hotmail.com",
     "birthdate": "1995-02-11",
     "phone": "+1-614-213-1141x477",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        74,
+        28,
+        34,
+        50,
+        33,
+        52,
+        21,
+        5,
+        67,
+        48,
+        63,
+        64,
+        29,
+        32
+    ],
+    "login locations": [
+        [
+            -119.698317,
+            34.413564
+        ]
+    ],
+    "relationships": []
 }

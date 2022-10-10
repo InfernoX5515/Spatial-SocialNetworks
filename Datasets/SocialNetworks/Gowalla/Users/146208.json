@@ -5,7 +5,20 @@
     "email": "ybarrera@hotmail.com",
     "birthdate": "1908-06-19",
     "phone": "1157251788",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        21,
+        62,
+        49,
+        38,
+        75,
+        12
+    ],
+    "login locations": [
+        [
+            -117.619451,
+            34.084892
+        ]
+    ],
+    "relationships": []
 }

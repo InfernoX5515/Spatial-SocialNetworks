@@ -5,7 +5,23 @@
     "email": "tanyagaines@gmail.com",
     "birthdate": "1909-02-21",
     "phone": "842-343-0846",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        26,
+        75,
+        19,
+        7,
+        68,
+        42,
+        47,
+        32,
+        8
+    ],
+    "login locations": [
+        [
+            -122.408178,
+            37.806504
+        ]
+    ],
+    "relationships": []
 }

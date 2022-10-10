@@ -5,7 +5,17 @@
     "email": "braunsteven@gmail.com",
     "birthdate": "1912-08-08",
     "phone": "682.519.3543x015",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        13,
+        57,
+        18
+    ],
+    "login locations": [
+        [
+            -118.18016,
+            33.860679
+        ]
+    ],
+    "relationships": []
 }

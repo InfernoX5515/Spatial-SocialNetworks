@@ -5,7 +5,16 @@
     "email": "edwardssara@gmail.com",
     "birthdate": "2008-11-22",
     "phone": "1633290976",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        50,
+        41
+    ],
+    "login locations": [
+        [
+            -121.422224,
+            38.595668
+        ]
+    ],
+    "relationships": []
 }

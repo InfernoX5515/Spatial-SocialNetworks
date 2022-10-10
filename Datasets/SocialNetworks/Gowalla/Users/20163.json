@@ -5,7 +5,17 @@
     "email": "annemcclure@hotmail.com",
     "birthdate": "1960-01-29",
     "phone": "001-950-323-1769x4906",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        64,
+        5,
+        39
+    ],
+    "login locations": [
+        [
+            -122.264203,
+            37.756744
+        ]
+    ],
+    "relationships": []
 }

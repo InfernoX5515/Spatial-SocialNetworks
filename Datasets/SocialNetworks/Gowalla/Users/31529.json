@@ -5,7 +5,27 @@
     "email": "parkerjustin@gmail.com",
     "birthdate": "1930-12-29",
     "phone": "526-470-1773",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        45,
+        45,
+        45,
+        10,
+        68,
+        11,
+        59,
+        1,
+        29,
+        75,
+        22,
+        43,
+        57
+    ],
+    "login locations": [
+        [
+            -118.194766,
+            33.953253
+        ]
+    ],
+    "relationships": []
 }

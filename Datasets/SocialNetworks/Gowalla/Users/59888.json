@@ -5,7 +5,28 @@
     "email": "anthony80@hotmail.com",
     "birthdate": "1985-10-04",
     "phone": "(406)422-4611",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        18,
+        32,
+        15,
+        44,
+        53,
+        30,
+        23,
+        52,
+        54,
+        32,
+        1,
+        26,
+        40,
+        46
+    ],
+    "login locations": [
+        [
+            -117.8888,
+            33.83763
+        ]
+    ],
+    "relationships": []
 }

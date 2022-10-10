@@ -5,7 +5,27 @@
     "email": "woodsjenna@hotmail.com",
     "birthdate": "2018-07-14",
     "phone": "008-160-7156x76013",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        64,
+        61,
+        31,
+        32,
+        23,
+        57,
+        48,
+        64,
+        36,
+        39,
+        17,
+        1,
+        48
+    ],
+    "login locations": [
+        [
+            -121.413999,
+            38.421185
+        ]
+    ],
+    "relationships": []
 }

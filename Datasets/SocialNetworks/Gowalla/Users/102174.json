@@ -5,7 +5,25 @@
     "email": "halegabrielle@hotmail.com",
     "birthdate": "1975-01-16",
     "phone": "(294)547-1751x053",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66
+    ],
+    "login locations": [
+        [
+            -119.609263,
+            36.585916
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                102173,
+                0.109090909091
+            ],
+            [
+                102173,
+                0.109090909091
+            ]
+        ]
+    ]
 }

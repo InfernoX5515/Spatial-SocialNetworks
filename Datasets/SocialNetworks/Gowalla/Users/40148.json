@@ -5,7 +5,25 @@
     "email": "joseph80@hotmail.com",
     "birthdate": "1953-08-13",
     "phone": "6651563570",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        31,
+        31,
+        62,
+        48,
+        2,
+        24,
+        42,
+        2,
+        3,
+        16,
+        13
+    ],
+    "login locations": [
+        [
+            -119.721812,
+            34.418747
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,33 @@
     "email": "rileyjudith@hotmail.com",
     "birthdate": "1915-09-22",
     "phone": "019.682.2176",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        18,
+        48,
+        12,
+        18,
+        20,
+        26,
+        71,
+        3
+    ],
+    "login locations": [
+        [
+            -121.938624,
+            37.224278
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                78408,
+                0.2
+            ],
+            [
+                118874,
+                0.258064516129
+            ]
+        ]
+    ]
 }

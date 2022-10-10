@@ -5,7 +5,23 @@
     "email": "mdickson@hotmail.com",
     "birthdate": "1982-09-16",
     "phone": "997-422-6309x6586",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.720609,
+            38.387432
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                179728,
+                1.0
+            ],
+            [
+                179728,
+                1.0
+            ]
+        ]
+    ]
 }

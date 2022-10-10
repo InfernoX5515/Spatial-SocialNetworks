@@ -5,7 +5,23 @@
     "email": "garciagregory@hotmail.com",
     "birthdate": "1998-04-18",
     "phone": "551-944-1578x5397",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        28,
+        51,
+        7,
+        31,
+        53,
+        55,
+        62,
+        6,
+        73
+    ],
+    "login locations": [
+        [
+            -117.964409,
+            33.773938
+        ]
+    ],
+    "relationships": []
 }

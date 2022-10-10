@@ -5,7 +5,18 @@
     "email": "scottjones@hotmail.com",
     "birthdate": "1991-10-14",
     "phone": "486-940-8087",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        56,
+        51,
+        28,
+        44
+    ],
+    "login locations": [
+        [
+            -119.623352,
+            34.419685
+        ]
+    ],
+    "relationships": []
 }

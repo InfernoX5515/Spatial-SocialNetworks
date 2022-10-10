@@ -5,7 +5,16 @@
     "email": "wschaefer@gmail.com",
     "birthdate": "1991-04-30",
     "phone": "001-084-092-8741x757",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        37,
+        5
+    ],
+    "login locations": [
+        [
+            -122.413153,
+            37.644328
+        ]
+    ],
+    "relationships": []
 }

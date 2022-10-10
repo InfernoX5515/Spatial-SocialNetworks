@@ -5,7 +5,20 @@
     "email": "hjames@gmail.com",
     "birthdate": "1915-05-07",
     "phone": "9481996026",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        26,
+        35,
+        46,
+        0,
+        11,
+        12
+    ],
+    "login locations": [
+        [
+            -122.423351,
+            37.760924
+        ]
+    ],
+    "relationships": []
 }

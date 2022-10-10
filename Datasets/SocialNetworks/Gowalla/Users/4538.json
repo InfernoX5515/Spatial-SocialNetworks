@@ -5,7 +5,38 @@
     "email": "williamfletcher@hotmail.com",
     "birthdate": "1961-12-05",
     "phone": "+1-873-069-8198",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        59,
+        41,
+        32,
+        32,
+        59,
+        69,
+        22,
+        52,
+        33,
+        18,
+        45,
+        6,
+        55
+    ],
+    "login locations": [
+        [
+            -118.214952,
+            34.121116
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4391,
+                0.01
+            ],
+            [
+                4391,
+                0.01
+            ]
+        ]
+    ]
 }

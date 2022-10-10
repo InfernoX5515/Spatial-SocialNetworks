@@ -5,7 +5,18 @@
     "email": "timothy02@gmail.com",
     "birthdate": "1939-01-12",
     "phone": "001-239-478-3583x6475",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        8,
+        23,
+        68,
+        75
+    ],
+    "login locations": [
+        [
+            -118.3294,
+            33.929837
+        ]
+    ],
+    "relationships": []
 }

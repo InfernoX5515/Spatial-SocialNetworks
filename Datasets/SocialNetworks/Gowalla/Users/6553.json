@@ -5,7 +5,22 @@
     "email": "raymondmiller@hotmail.com",
     "birthdate": "1996-01-01",
     "phone": "675-338-7700x2691",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        24,
+        52,
+        44,
+        11,
+        5,
+        65,
+        7,
+        43
+    ],
+    "login locations": [
+        [
+            -121.982805,
+            37.230427
+        ]
+    ],
+    "relationships": []
 }

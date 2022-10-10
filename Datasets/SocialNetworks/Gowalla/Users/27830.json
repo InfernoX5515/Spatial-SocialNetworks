@@ -5,7 +5,28 @@
     "email": "stephenchapman@gmail.com",
     "birthdate": "1999-03-30",
     "phone": "841.948.7987x555",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        46,
+        62,
+        39,
+        13,
+        27,
+        66,
+        61,
+        17,
+        25,
+        54,
+        31,
+        13,
+        24,
+        36
+    ],
+    "login locations": [
+        [
+            -117.714707,
+            33.636501
+        ]
+    ],
+    "relationships": []
 }

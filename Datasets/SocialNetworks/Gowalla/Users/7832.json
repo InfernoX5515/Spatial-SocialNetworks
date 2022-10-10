@@ -5,7 +5,15 @@
     "email": "zgraham@hotmail.com",
     "birthdate": "1975-01-15",
     "phone": "+1-918-180-2449x61804",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        54
+    ],
+    "login locations": [
+        [
+            -122.35825,
+            37.798833
+        ]
+    ],
+    "relationships": []
 }

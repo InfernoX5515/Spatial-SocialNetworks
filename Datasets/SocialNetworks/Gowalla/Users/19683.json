@@ -5,7 +5,18 @@
     "email": "uwagner@yahoo.com",
     "birthdate": "1921-06-26",
     "phone": "+1-782-301-2147x13924",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        18,
+        41,
+        0,
+        57
+    ],
+    "login locations": [
+        [
+            -118.257497,
+            34.158464
+        ]
+    ],
+    "relationships": []
 }

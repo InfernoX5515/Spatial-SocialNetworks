@@ -5,7 +5,25 @@
     "email": "williamsgeorge@hotmail.com",
     "birthdate": "1997-12-17",
     "phone": "847.843.4014",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        12,
+        30,
+        59,
+        26,
+        74,
+        0,
+        42,
+        54,
+        51,
+        42,
+        55
+    ],
+    "login locations": [
+        [
+            -122.374291,
+            37.79004
+        ]
+    ],
+    "relationships": []
 }

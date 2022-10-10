@@ -5,7 +5,26 @@
     "email": "heather29@yahoo.com",
     "birthdate": "1980-06-11",
     "phone": "001-606-059-1949x2433",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        18,
+        39,
+        47,
+        71,
+        41,
+        14,
+        75,
+        13,
+        48,
+        21,
+        57,
+        66
+    ],
+    "login locations": [
+        [
+            -122.316934,
+            37.621033
+        ]
+    ],
+    "relationships": []
 }

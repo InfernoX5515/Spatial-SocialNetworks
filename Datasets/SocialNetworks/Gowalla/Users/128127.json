@@ -5,7 +5,24 @@
     "email": "spencerhall@gmail.com",
     "birthdate": "1974-10-28",
     "phone": "491.460.5512x497",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        4,
+        47,
+        74,
+        13,
+        53,
+        4,
+        60,
+        8,
+        44,
+        65
+    ],
+    "login locations": [
+        [
+            -118.273566,
+            34.0862
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,31 @@
     "email": "nnorton@gmail.com",
     "birthdate": "1914-10-06",
     "phone": "661.955.7830x6295",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        13,
+        4,
+        69,
+        24,
+        66,
+        70
+    ],
+    "login locations": [
+        [
+            -117.119257,
+            32.926285
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                179,
+                0.02
+            ],
+            [
+                221,
+                0.4
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "stevenle@yahoo.com",
     "birthdate": "1942-12-24",
     "phone": "6043579116",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        30,
+        41,
+        40,
+        36,
+        13,
+        52,
+        50,
+        38,
+        25,
+        74,
+        69
+    ],
+    "login locations": [
+        [
+            -117.265766,
+            33.000029
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,31 @@
     "email": "inorris@hotmail.com",
     "birthdate": "2005-06-04",
     "phone": "(066)369-0162x265",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        51,
+        63,
+        30,
+        65,
+        15,
+        61
+    ],
+    "login locations": [
+        [
+            -121.975831,
+            37.402919
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                110563,
+                0.016501650165
+            ],
+            [
+                110563,
+                0.016501650165
+            ]
+        ]
+    ]
 }

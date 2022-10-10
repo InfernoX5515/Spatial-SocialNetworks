@@ -5,7 +5,25 @@
     "email": "jeancarroll@yahoo.com",
     "birthdate": "2018-09-24",
     "phone": "+1-175-760-2885x051",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        54,
+        25,
+        57,
+        19,
+        72,
+        70,
+        38,
+        8,
+        66,
+        72,
+        15
+    ],
+    "login locations": [
+        [
+            -118.010406,
+            33.760877
+        ]
+    ],
+    "relationships": []
 }

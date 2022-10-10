@@ -5,7 +5,28 @@
     "email": "kathy99@yahoo.com",
     "birthdate": "1943-06-08",
     "phone": "(479)899-2751x2291",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        14,
+        60,
+        70
+    ],
+    "login locations": [
+        [
+            -118.206793,
+            33.971887
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                31446,
+                0.0165289256198
+            ],
+            [
+                31446,
+                0.0165289256198
+            ]
+        ]
+    ]
 }

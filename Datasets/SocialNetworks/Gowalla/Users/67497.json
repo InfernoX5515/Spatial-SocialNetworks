@@ -5,7 +5,25 @@
     "email": "drobinson@yahoo.com",
     "birthdate": "1940-05-04",
     "phone": "(607)903-3842x341",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        35,
+        27,
+        1,
+        0,
+        57,
+        62,
+        71,
+        64,
+        33,
+        45,
+        43
+    ],
+    "login locations": [
+        [
+            -122.11064,
+            37.408364
+        ]
+    ],
+    "relationships": []
 }

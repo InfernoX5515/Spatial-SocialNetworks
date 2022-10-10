@@ -5,7 +5,15 @@
     "email": "xcooley@hotmail.com",
     "birthdate": "1990-08-25",
     "phone": "(567)564-4518",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        48
+    ],
+    "login locations": [
+        [
+            -118.49758,
+            34.015936
+        ]
+    ],
+    "relationships": []
 }

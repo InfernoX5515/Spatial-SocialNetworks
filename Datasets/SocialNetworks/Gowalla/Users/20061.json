@@ -5,7 +5,25 @@
     "email": "jordanjoseph@yahoo.com",
     "birthdate": "1985-05-14",
     "phone": "325-662-5093x978",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24
+    ],
+    "login locations": [
+        [
+            -118.321578,
+            34.030351
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                46137,
+                0.224719101124
+            ],
+            [
+                46137,
+                0.224719101124
+            ]
+        ]
+    ]
 }

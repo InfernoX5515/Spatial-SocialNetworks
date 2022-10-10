@@ -5,7 +5,21 @@
     "email": "joshua21@yahoo.com",
     "birthdate": "1978-03-03",
     "phone": "(942)711-4145",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        39,
+        20,
+        20,
+        42,
+        26,
+        59,
+        28
+    ],
+    "login locations": [
+        [
+            -118.565081,
+            34.260726
+        ]
+    ],
+    "relationships": []
 }

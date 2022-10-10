@@ -5,7 +5,39 @@
     "email": "joseph57@hotmail.com",
     "birthdate": "1938-09-02",
     "phone": "2517411198",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        12,
+        64,
+        61,
+        66,
+        73,
+        48,
+        62,
+        7,
+        21,
+        6,
+        59,
+        10,
+        68,
+        20
+    ],
+    "login locations": [
+        [
+            -122.408996,
+            37.787019
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11958,
+                0.01
+            ],
+            [
+                11958,
+                0.01
+            ]
+        ]
+    ]
 }

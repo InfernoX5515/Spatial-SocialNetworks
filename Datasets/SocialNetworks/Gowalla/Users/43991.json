@@ -5,7 +5,35 @@
     "email": "tmahoney@gmail.com",
     "birthdate": "1913-09-22",
     "phone": "212-579-3400x87965",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        63,
+        41,
+        45,
+        38,
+        71,
+        40,
+        14,
+        19,
+        41,
+        0
+    ],
+    "login locations": [
+        [
+            -121.887052,
+            36.746792
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1048,
+                0.04
+            ],
+            [
+                1048,
+                0.04
+            ]
+        ]
+    ]
 }

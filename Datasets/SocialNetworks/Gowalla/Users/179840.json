@@ -5,7 +5,17 @@
     "email": "nicolesims@yahoo.com",
     "birthdate": "2008-05-22",
     "phone": "001-326-212-3140x70174",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        44,
+        12,
+        20
+    ],
+    "login locations": [
+        [
+            -118.342577,
+            34.116279
+        ]
+    ],
+    "relationships": []
 }

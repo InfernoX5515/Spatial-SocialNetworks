@@ -5,7 +5,18 @@
     "email": "ashleyharrell@hotmail.com",
     "birthdate": "2018-07-14",
     "phone": "902-885-7881x39872",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        17,
+        60,
+        55,
+        53
+    ],
+    "login locations": [
+        [
+            -121.849096,
+            36.831452
+        ]
+    ],
+    "relationships": []
 }

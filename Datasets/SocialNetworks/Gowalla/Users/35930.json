@@ -5,7 +5,24 @@
     "email": "yelliott@yahoo.com",
     "birthdate": "1980-12-27",
     "phone": "066-616-3808x127",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        38,
+        66,
+        39,
+        18,
+        22,
+        45,
+        63,
+        62,
+        56,
+        53
+    ],
+    "login locations": [
+        [
+            -122.421795,
+            37.986218
+        ]
+    ],
+    "relationships": []
 }

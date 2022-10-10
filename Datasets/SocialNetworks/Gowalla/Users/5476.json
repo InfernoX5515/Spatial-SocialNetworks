@@ -5,7 +5,14 @@
     "email": "samantha38@gmail.com",
     "birthdate": "1974-05-26",
     "phone": "937-806-0028",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24
+    ],
+    "login locations": [
+        [
+            -118.212344,
+            34.134056
+        ]
+    ],
+    "relationships": []
 }

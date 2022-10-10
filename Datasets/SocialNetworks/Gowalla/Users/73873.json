@@ -5,7 +5,27 @@
     "email": "valerie35@yahoo.com",
     "birthdate": "1989-03-08",
     "phone": "+1-871-311-2193x312",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        71,
+        62
+    ],
+    "login locations": [
+        [
+            -122.576611,
+            38.576815
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5332,
+                0.0909090909091
+            ],
+            [
+                8706,
+                0.32
+            ]
+        ]
+    ]
 }

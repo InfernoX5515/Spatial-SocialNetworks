@@ -5,7 +5,26 @@
     "email": "johnmills@yahoo.com",
     "birthdate": "2022-08-27",
     "phone": "942-471-1302x3268",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        41,
+        5,
+        69,
+        8,
+        66,
+        17,
+        23,
+        44,
+        61,
+        40,
+        72,
+        5
+    ],
+    "login locations": [
+        [
+            -117.198536,
+            32.731729
+        ]
+    ],
+    "relationships": []
 }

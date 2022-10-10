@@ -5,7 +5,14 @@
     "email": "fwarren@yahoo.com",
     "birthdate": "1979-05-15",
     "phone": "(227)207-6273x69316",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41
+    ],
+    "login locations": [
+        [
+            -118.294739,
+            34.081295
+        ]
+    ],
+    "relationships": []
 }

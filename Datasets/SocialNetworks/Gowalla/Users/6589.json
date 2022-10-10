@@ -5,7 +5,32 @@
     "email": "cohenanthony@gmail.com",
     "birthdate": "1936-09-22",
     "phone": "3001254594",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        62,
+        21,
+        18,
+        45,
+        70,
+        18,
+        30
+    ],
+    "login locations": [
+        [
+            -122.068626,
+            37.274928
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                446,
+                0.01
+            ],
+            [
+                5560,
+                0.0189873417722
+            ]
+        ]
+    ]
 }

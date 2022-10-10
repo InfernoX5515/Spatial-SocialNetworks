@@ -5,7 +5,18 @@
     "email": "stevenbarnes@hotmail.com",
     "birthdate": "2008-10-13",
     "phone": "001-590-623-2524x045",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        38,
+        19,
+        18,
+        25
+    ],
+    "login locations": [
+        [
+            -118.358925,
+            34.029662
+        ]
+    ],
+    "relationships": []
 }

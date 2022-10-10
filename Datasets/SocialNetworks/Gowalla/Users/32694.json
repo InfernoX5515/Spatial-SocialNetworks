@@ -5,7 +5,26 @@
     "email": "courtney87@yahoo.com",
     "birthdate": "2003-05-11",
     "phone": "003.144.9570",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        74
+    ],
+    "login locations": [
+        [
+            -122.054419,
+            38.262809
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                18748,
+                0.0350877192982
+            ],
+            [
+                125030,
+                0.111111111111
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,16 @@
     "email": "courtney58@hotmail.com",
     "birthdate": "1971-07-21",
     "phone": "+1-323-077-4064x9733",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        52,
+        32
+    ],
+    "login locations": [
+        [
+            -117.962067,
+            33.83407
+        ]
+    ],
+    "relationships": []
 }

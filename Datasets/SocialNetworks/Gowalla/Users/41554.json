@@ -5,7 +5,23 @@
     "email": "glen92@hotmail.com",
     "birthdate": "1964-05-17",
     "phone": "831.187.8022x31579",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        6,
+        9,
+        72,
+        3,
+        58,
+        51,
+        55,
+        23,
+        59
+    ],
+    "login locations": [
+        [
+            -122.353543,
+            37.749612
+        ]
+    ],
+    "relationships": []
 }

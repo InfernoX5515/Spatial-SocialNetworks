@@ -5,7 +5,23 @@
     "email": "ksims@hotmail.com",
     "birthdate": "1911-11-14",
     "phone": "411.660.7681",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        33,
+        73,
+        2,
+        50,
+        27,
+        32,
+        63,
+        27,
+        9
+    ],
+    "login locations": [
+        [
+            -117.885078,
+            33.699651
+        ]
+    ],
+    "relationships": []
 }

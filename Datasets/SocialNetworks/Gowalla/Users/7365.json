@@ -5,7 +5,27 @@
     "email": "kristopherhobbs@yahoo.com",
     "birthdate": "1999-01-10",
     "phone": "001-729-871-1071x61761",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        13,
+        27,
+        40,
+        29,
+        55,
+        56,
+        58,
+        15,
+        8,
+        17,
+        35,
+        11,
+        7
+    ],
+    "login locations": [
+        [
+            -122.427602,
+            37.757753
+        ]
+    ],
+    "relationships": []
 }

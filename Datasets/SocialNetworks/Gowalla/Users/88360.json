@@ -5,7 +5,16 @@
     "email": "jaclynmcdaniel@gmail.com",
     "birthdate": "1950-10-31",
     "phone": "280.249.6698x6639",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        68,
+        72
+    ],
+    "login locations": [
+        [
+            -122.395139,
+            37.779609
+        ]
+    ],
+    "relationships": []
 }

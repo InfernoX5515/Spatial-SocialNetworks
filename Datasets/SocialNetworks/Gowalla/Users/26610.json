@@ -5,7 +5,12 @@
     "email": "bedwards@yahoo.com",
     "birthdate": "1966-06-12",
     "phone": "+1-627-675-8175",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.880608,
+            33.670116
+        ]
+    ],
+    "relationships": []
 }

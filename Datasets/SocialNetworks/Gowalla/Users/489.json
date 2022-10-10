@@ -5,7 +5,32 @@
     "email": "jeremyhudson@gmail.com",
     "birthdate": "1920-11-07",
     "phone": "001-158-691-2474",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        45,
+        20,
+        31,
+        2,
+        12,
+        0,
+        2
+    ],
+    "login locations": [
+        [
+            -122.41388,
+            37.776732
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                108,
+                0.0450281425891
+            ],
+            [
+                108,
+                0.0450281425891
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "gilmoreamy@hotmail.com",
     "birthdate": "1979-05-13",
     "phone": "001-323-846-4873x5293",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41
+    ],
+    "login locations": [
+        [
+            -121.832019,
+            39.733044
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                119903,
+                0.01
+            ],
+            [
+                119903,
+                0.01
+            ]
+        ]
+    ]
 }

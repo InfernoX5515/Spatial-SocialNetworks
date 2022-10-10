@@ -5,7 +5,16 @@
     "email": "petercastaneda@yahoo.com",
     "birthdate": "1935-05-05",
     "phone": "001-168-526-4151",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        57,
+        11
+    ],
+    "login locations": [
+        [
+            -117.160689,
+            32.737195
+        ]
+    ],
+    "relationships": []
 }

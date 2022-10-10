@@ -5,7 +5,24 @@
     "email": "victoria60@gmail.com",
     "birthdate": "1913-08-19",
     "phone": "+1-311-444-6152x14616",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        58,
+        75,
+        46,
+        75,
+        65,
+        72,
+        51,
+        43,
+        63,
+        65
+    ],
+    "login locations": [
+        [
+            -117.327623,
+            34.021302
+        ]
+    ],
+    "relationships": []
 }

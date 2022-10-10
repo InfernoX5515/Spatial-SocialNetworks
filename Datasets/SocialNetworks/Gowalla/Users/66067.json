@@ -5,7 +5,16 @@
     "email": "normanjermaine@hotmail.com",
     "birthdate": "2013-07-31",
     "phone": "963-957-7689x005",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        31,
+        43
+    ],
+    "login locations": [
+        [
+            -122.325049,
+            37.56189
+        ]
+    ],
+    "relationships": []
 }

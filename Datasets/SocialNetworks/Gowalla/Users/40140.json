@@ -5,7 +5,20 @@
     "email": "patelgina@hotmail.com",
     "birthdate": "1940-12-22",
     "phone": "023-862-7652",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        23,
+        41,
+        26,
+        17,
+        37,
+        23
+    ],
+    "login locations": [
+        [
+            -119.073397,
+            35.349067
+        ]
+    ],
+    "relationships": []
 }

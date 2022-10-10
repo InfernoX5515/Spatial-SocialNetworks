@@ -5,7 +5,33 @@
     "email": "leslie05@yahoo.com",
     "birthdate": "1941-08-14",
     "phone": "4818843209",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        14,
+        3,
+        68,
+        11,
+        37,
+        24,
+        61,
+        2
+    ],
+    "login locations": [
+        [
+            -122.380768,
+            37.724757
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5519,
+                0.0101694915254
+            ],
+            [
+                5583,
+                0.05
+            ]
+        ]
+    ]
 }

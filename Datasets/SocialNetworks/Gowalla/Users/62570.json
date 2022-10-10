@@ -5,7 +5,20 @@
     "email": "gregorykelly@gmail.com",
     "birthdate": "1993-02-02",
     "phone": "(884)985-5868",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        2,
+        51,
+        58,
+        23,
+        30,
+        49
+    ],
+    "login locations": [
+        [
+            -122.266302,
+            37.783554
+        ]
+    ],
+    "relationships": []
 }

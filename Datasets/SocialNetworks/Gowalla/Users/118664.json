@@ -5,7 +5,19 @@
     "email": "john85@gmail.com",
     "birthdate": "1948-08-26",
     "phone": "565-047-8559x776",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        19,
+        72,
+        9,
+        70,
+        72
+    ],
+    "login locations": [
+        [
+            -118.017337,
+            33.895864
+        ]
+    ],
+    "relationships": []
 }

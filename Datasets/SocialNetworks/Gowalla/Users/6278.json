@@ -5,7 +5,19 @@
     "email": "danielscott@gmail.com",
     "birthdate": "1924-03-23",
     "phone": "001-783-933-6895",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        59,
+        49,
+        64,
+        17,
+        47
+    ],
+    "login locations": [
+        [
+            -122.399662,
+            37.77388
+        ]
+    ],
+    "relationships": []
 }

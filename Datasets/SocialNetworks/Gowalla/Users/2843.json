@@ -5,7 +5,18 @@
     "email": "kayla10@hotmail.com",
     "birthdate": "2015-12-04",
     "phone": "001-594-342-8975x216",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        13,
+        0,
+        41,
+        26
+    ],
+    "login locations": [
+        [
+            -121.394302,
+            38.574209
+        ]
+    ],
+    "relationships": []
 }

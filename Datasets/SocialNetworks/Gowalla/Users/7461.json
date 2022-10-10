@@ -5,7 +5,12 @@
     "email": "pphillips@hotmail.com",
     "birthdate": "1972-04-18",
     "phone": "320.183.9762",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.942746,
+            37.352583
+        ]
+    ],
+    "relationships": []
 }

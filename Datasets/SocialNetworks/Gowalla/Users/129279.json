@@ -5,7 +5,22 @@
     "email": "mryan@yahoo.com",
     "birthdate": "2002-10-09",
     "phone": "213-043-7081x93972",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        25,
+        15,
+        36,
+        46,
+        24,
+        60,
+        43,
+        44
+    ],
+    "login locations": [
+        [
+            -120.66205,
+            35.29235
+        ]
+    ],
+    "relationships": []
 }

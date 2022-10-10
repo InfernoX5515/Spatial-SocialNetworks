@@ -5,7 +5,12 @@
     "email": "dspence@gmail.com",
     "birthdate": "2003-01-27",
     "phone": "+1-369-121-5104x828",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.445657,
+            37.703223
+        ]
+    ],
+    "relationships": []
 }

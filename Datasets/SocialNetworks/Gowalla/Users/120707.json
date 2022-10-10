@@ -5,7 +5,20 @@
     "email": "davidhill@hotmail.com",
     "birthdate": "2000-06-04",
     "phone": "4114804088",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        22,
+        35,
+        19,
+        18,
+        56,
+        28
+    ],
+    "login locations": [
+        [
+            -121.901618,
+            37.416603
+        ]
+    ],
+    "relationships": []
 }

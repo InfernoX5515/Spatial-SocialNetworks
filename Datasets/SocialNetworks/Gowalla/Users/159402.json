@@ -5,7 +5,19 @@
     "email": "timothyadams@gmail.com",
     "birthdate": "1935-04-17",
     "phone": "001-416-720-4850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        32,
+        45,
+        61,
+        58,
+        48
+    ],
+    "login locations": [
+        [
+            -117.855443,
+            33.902877
+        ]
+    ],
+    "relationships": []
 }

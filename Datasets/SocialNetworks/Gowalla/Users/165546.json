@@ -5,7 +5,17 @@
     "email": "turnerdaniel@hotmail.com",
     "birthdate": "1979-04-26",
     "phone": "142-724-7041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        71,
+        40,
+        54
+    ],
+    "login locations": [
+        [
+            -118.306559,
+            34.076371
+        ]
+    ],
+    "relationships": []
 }

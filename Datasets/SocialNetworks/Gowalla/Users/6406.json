@@ -5,7 +5,22 @@
     "email": "frederick32@yahoo.com",
     "birthdate": "1988-04-19",
     "phone": "(936)966-7397x5560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        43,
+        56,
+        45,
+        50,
+        51,
+        29,
+        27,
+        21
+    ],
+    "login locations": [
+        [
+            -118.445303,
+            34.035922
+        ]
+    ],
+    "relationships": []
 }

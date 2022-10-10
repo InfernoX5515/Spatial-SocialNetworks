@@ -5,7 +5,30 @@
     "email": "ghunter@yahoo.com",
     "birthdate": "1978-06-06",
     "phone": "638-120-6120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        28,
+        37,
+        15,
+        13,
+        23
+    ],
+    "login locations": [
+        [
+            -118.348865,
+            34.091354
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                34871,
+                0.5
+            ],
+            [
+                5846,
+                0.0192592592593
+            ]
+        ]
+    ]
 }

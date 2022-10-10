@@ -5,7 +5,30 @@
     "email": "fbeck@yahoo.com",
     "birthdate": "1980-02-25",
     "phone": "001-175-562-4758x895",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        16,
+        59,
+        37,
+        21,
+        0
+    ],
+    "login locations": [
+        [
+            -122.125341,
+            37.882555
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                477,
+                0.01
+            ],
+            [
+                4514,
+                0.0111731843575
+            ]
+        ]
+    ]
 }

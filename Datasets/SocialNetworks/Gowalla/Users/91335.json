@@ -5,7 +5,22 @@
     "email": "robertohunter@gmail.com",
     "birthdate": "1923-10-02",
     "phone": "159.814.1968",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        46,
+        7,
+        38,
+        72,
+        55,
+        61,
+        32,
+        49
+    ],
+    "login locations": [
+        [
+            -117.124823,
+            32.713889
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "fullermichael@yahoo.com",
     "birthdate": "1940-10-23",
     "phone": "473.997.7513x216",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.397124,
+            37.773049
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "omar13@gmail.com",
     "birthdate": "1970-02-12",
     "phone": "830.019.2221x5230",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        0,
+        75,
+        47
+    ],
+    "login locations": [
+        [
+            -117.949473,
+            33.729749
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4538,
+                0.0128205128205
+            ],
+            [
+                4538,
+                0.0128205128205
+            ]
+        ]
+    ]
 }

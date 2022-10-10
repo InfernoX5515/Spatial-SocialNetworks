@@ -5,7 +5,26 @@
     "email": "reednicole@hotmail.com",
     "birthdate": "1994-08-24",
     "phone": "001-681-293-4257x5663",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        7,
+        52,
+        33,
+        4,
+        45,
+        38,
+        67,
+        29,
+        20,
+        68,
+        61,
+        19
+    ],
+    "login locations": [
+        [
+            -118.547791,
+            34.21171
+        ]
+    ],
+    "relationships": []
 }

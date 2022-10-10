@@ -5,7 +5,23 @@
     "email": "kmurphy@gmail.com",
     "birthdate": "2021-06-06",
     "phone": "248.682.0406x6327",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        38,
+        73,
+        66,
+        22,
+        11,
+        41,
+        16,
+        45,
+        5
+    ],
+    "login locations": [
+        [
+            -118.337714,
+            33.978268
+        ]
+    ],
+    "relationships": []
 }

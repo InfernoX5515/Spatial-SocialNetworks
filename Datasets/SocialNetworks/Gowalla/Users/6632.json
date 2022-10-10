@@ -5,7 +5,32 @@
     "email": "randy57@gmail.com",
     "birthdate": "1926-07-03",
     "phone": "546.432.6839x355",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        29,
+        46,
+        38,
+        45,
+        53,
+        51,
+        60
+    ],
+    "login locations": [
+        [
+            -122.40841,
+            37.781021
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6611,
+                0.224719101124
+            ],
+            [
+                6611,
+                0.224719101124
+            ]
+        ]
+    ]
 }

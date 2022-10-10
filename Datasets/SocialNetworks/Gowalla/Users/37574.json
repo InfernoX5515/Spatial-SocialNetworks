@@ -5,7 +5,27 @@
     "email": "hernandezjames@yahoo.com",
     "birthdate": "1976-09-17",
     "phone": "(385)524-6230",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        13,
+        6,
+        28,
+        36,
+        45,
+        45,
+        74,
+        22,
+        21,
+        63,
+        22,
+        24,
+        40
+    ],
+    "login locations": [
+        [
+            -122.394973,
+            37.791166
+        ]
+    ],
+    "relationships": []
 }

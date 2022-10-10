@@ -5,7 +5,28 @@
     "email": "joannaallen@gmail.com",
     "birthdate": "1986-09-11",
     "phone": "(024)037-9314x03802",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        58,
+        47,
+        11,
+        62,
+        19,
+        26,
+        43,
+        61,
+        65,
+        58,
+        72,
+        54,
+        10,
+        28
+    ],
+    "login locations": [
+        [
+            -122.383285,
+            37.606553
+        ]
+    ],
+    "relationships": []
 }

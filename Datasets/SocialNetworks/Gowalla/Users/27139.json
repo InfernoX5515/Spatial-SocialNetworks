@@ -5,7 +5,27 @@
     "email": "taylorjoseph@gmail.com",
     "birthdate": "1967-12-12",
     "phone": "(754)912-8312x8705",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        7,
+        34,
+        10,
+        24,
+        75,
+        52,
+        16,
+        4,
+        1,
+        5,
+        20,
+        67,
+        65
+    ],
+    "login locations": [
+        [
+            -122.321242,
+            37.69831
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "elloyd@yahoo.com",
     "birthdate": "1910-05-21",
     "phone": "1399282706",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        19,
+        60,
+        36,
+        38,
+        41,
+        13,
+        5,
+        70,
+        63,
+        38,
+        33,
+        35
+    ],
+    "login locations": [
+        [
+            -121.463259,
+            38.576908
+        ]
+    ],
+    "relationships": []
 }

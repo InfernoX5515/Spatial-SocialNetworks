@@ -5,7 +5,20 @@
     "email": "craigbrent@yahoo.com",
     "birthdate": "1951-02-09",
     "phone": "001-934-489-8711x484",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        7,
+        34,
+        5,
+        55,
+        56,
+        11
+    ],
+    "login locations": [
+        [
+            -122.376662,
+            37.757218
+        ]
+    ],
+    "relationships": []
 }

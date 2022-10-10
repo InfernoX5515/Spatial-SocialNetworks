@@ -5,7 +5,21 @@
     "email": "garciajames@yahoo.com",
     "birthdate": "1960-05-20",
     "phone": "555.090.5420x398",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        50,
+        47,
+        55,
+        36,
+        58,
+        34,
+        33
+    ],
+    "login locations": [
+        [
+            -122.42755,
+            37.77421
+        ]
+    ],
+    "relationships": []
 }

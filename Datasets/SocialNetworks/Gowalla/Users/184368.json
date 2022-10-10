@@ -5,7 +5,18 @@
     "email": "brian39@hotmail.com",
     "birthdate": "2009-02-12",
     "phone": "683-810-0317x751",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        12,
+        47,
+        46,
+        53
+    ],
+    "login locations": [
+        [
+            -118.558145,
+            34.418187
+        ]
+    ],
+    "relationships": []
 }

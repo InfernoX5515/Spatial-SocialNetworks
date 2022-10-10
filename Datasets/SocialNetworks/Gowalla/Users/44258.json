@@ -5,7 +5,25 @@
     "email": "william73@hotmail.com",
     "birthdate": "2012-07-07",
     "phone": "(624)941-6098x716",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23
+    ],
+    "login locations": [
+        [
+            -117.911413,
+            33.843679
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125940,
+                0.27731092437
+            ],
+            [
+                125940,
+                0.27731092437
+            ]
+        ]
+    ]
 }

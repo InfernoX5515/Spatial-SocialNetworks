@@ -5,7 +5,18 @@
     "email": "scottteresa@gmail.com",
     "birthdate": "1952-06-25",
     "phone": "(882)071-8518x891",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        51,
+        50,
+        51,
+        38
+    ],
+    "login locations": [
+        [
+            -122.159262,
+            37.448274
+        ]
+    ],
+    "relationships": []
 }

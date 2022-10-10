@@ -5,7 +5,20 @@
     "email": "smooney@yahoo.com",
     "birthdate": "1950-05-18",
     "phone": "001-033-122-6742",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        19,
+        55,
+        56,
+        75,
+        21,
+        55
+    ],
+    "login locations": [
+        [
+            -118.367324,
+            34.047807
+        ]
+    ],
+    "relationships": []
 }

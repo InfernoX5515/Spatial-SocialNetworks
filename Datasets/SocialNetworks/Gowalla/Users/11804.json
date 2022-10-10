@@ -5,7 +5,27 @@
     "email": "pattycooper@gmail.com",
     "birthdate": "1999-02-01",
     "phone": "001-260-544-1086",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        32,
+        4
+    ],
+    "login locations": [
+        [
+            -122.359271,
+            37.59917
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5456,
+                0.032
+            ],
+            [
+                11965,
+                0.0229885057471
+            ]
+        ]
+    ]
 }

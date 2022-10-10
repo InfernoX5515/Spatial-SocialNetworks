@@ -5,7 +5,20 @@
     "email": "judithperez@hotmail.com",
     "birthdate": "1953-05-31",
     "phone": "001-226-044-8292x498",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        2,
+        1,
+        64,
+        67,
+        45,
+        3
+    ],
+    "login locations": [
+        [
+            -121.928065,
+            37.324451
+        ]
+    ],
+    "relationships": []
 }

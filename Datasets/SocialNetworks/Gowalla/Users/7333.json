@@ -5,7 +5,12 @@
     "email": "emendoza@yahoo.com",
     "birthdate": "1974-06-23",
     "phone": "979-834-8230x227",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.169464,
+            33.834864
+        ]
+    ],
+    "relationships": []
 }

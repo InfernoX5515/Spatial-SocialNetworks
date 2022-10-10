@@ -5,7 +5,12 @@
     "email": "jonesricky@yahoo.com",
     "birthdate": "1919-10-18",
     "phone": "5783035925",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.441521,
+            37.779657
+        ]
+    ],
+    "relationships": []
 }

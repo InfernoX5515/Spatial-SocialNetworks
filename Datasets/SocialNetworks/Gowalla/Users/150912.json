@@ -5,7 +5,19 @@
     "email": "wisemichele@hotmail.com",
     "birthdate": "2009-04-08",
     "phone": "+1-085-072-3848",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        50,
+        31,
+        2,
+        30,
+        17
+    ],
+    "login locations": [
+        [
+            -118.150566,
+            34.019667
+        ]
+    ],
+    "relationships": []
 }

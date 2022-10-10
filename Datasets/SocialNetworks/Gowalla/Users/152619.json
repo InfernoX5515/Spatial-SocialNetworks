@@ -5,7 +5,21 @@
     "email": "debra28@gmail.com",
     "birthdate": "2017-06-26",
     "phone": "001-962-910-6756",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        38,
+        68,
+        48,
+        68,
+        21,
+        16,
+        73
+    ],
+    "login locations": [
+        [
+            -117.157637,
+            32.970579
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "norma76@hotmail.com",
     "birthdate": "1983-09-04",
     "phone": "713-228-8597x04179",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        39,
+        47,
+        74,
+        35,
+        68,
+        8,
+        37,
+        20,
+        25
+    ],
+    "login locations": [
+        [
+            -120.665795,
+            35.290593
+        ]
+    ],
+    "relationships": []
 }

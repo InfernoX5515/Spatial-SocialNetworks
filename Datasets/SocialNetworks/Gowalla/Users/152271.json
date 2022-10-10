@@ -5,7 +5,19 @@
     "email": "ynelson@hotmail.com",
     "birthdate": "1919-09-11",
     "phone": "001-961-277-6064x853",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        36,
+        5,
+        58,
+        75,
+        44
+    ],
+    "login locations": [
+        [
+            -118.083062,
+            34.146032
+        ]
+    ],
+    "relationships": []
 }

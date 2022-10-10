@@ -5,7 +5,30 @@
     "email": "angelafischer@hotmail.com",
     "birthdate": "1913-04-01",
     "phone": "(726)603-9890",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        14,
+        60,
+        60,
+        4,
+        6
+    ],
+    "login locations": [
+        [
+            -122.409712,
+            37.791612
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1121,
+                0.058064516129
+            ],
+            [
+                43812,
+                0.204444444444
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "ztaylor@gmail.com",
     "birthdate": "2017-12-04",
     "phone": "(041)362-9748x4959",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        61,
+        21
+    ],
+    "login locations": [
+        [
+            -118.142155,
+            33.847385
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                42797,
+                0.0343137254902
+            ],
+            [
+                42797,
+                0.0343137254902
+            ]
+        ]
+    ]
 }

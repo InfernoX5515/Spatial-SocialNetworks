@@ -5,7 +5,14 @@
     "email": "leahcook@gmail.com",
     "birthdate": "1992-04-21",
     "phone": "8585710292",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67
+    ],
+    "login locations": [
+        [
+            -122.420039,
+            37.790439
+        ]
+    ],
+    "relationships": []
 }

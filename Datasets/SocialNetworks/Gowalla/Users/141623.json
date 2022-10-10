@@ -5,7 +5,35 @@
     "email": "rneal@hotmail.com",
     "birthdate": "1970-04-07",
     "phone": "(725)037-8526",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        59,
+        25,
+        18,
+        4,
+        67,
+        8,
+        68,
+        54,
+        47,
+        22
+    ],
+    "login locations": [
+        [
+            -117.802762,
+            33.973994
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                48117,
+                0.0211267605634
+            ],
+            [
+                48117,
+                0.0211267605634
+            ]
+        ]
+    ]
 }

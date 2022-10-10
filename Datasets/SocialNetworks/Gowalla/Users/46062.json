@@ -5,7 +5,22 @@
     "email": "epaul@hotmail.com",
     "birthdate": "1968-02-15",
     "phone": "+1-417-078-5936x1766",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        21,
+        68,
+        71,
+        49,
+        5,
+        13,
+        68,
+        74
+    ],
+    "login locations": [
+        [
+            -118.29185,
+            34.056602
+        ]
+    ],
+    "relationships": []
 }

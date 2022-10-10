@@ -5,7 +5,33 @@
     "email": "allen75@yahoo.com",
     "birthdate": "1962-10-11",
     "phone": "1551169922",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        6,
+        27,
+        41,
+        50,
+        49,
+        71,
+        58,
+        70
+    ],
+    "login locations": [
+        [
+            -122.528895,
+            37.941577
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6872,
+                0.345454545455
+            ],
+            [
+                6872,
+                0.345454545455
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,15 @@
     "email": "lauralewis@hotmail.com",
     "birthdate": "1945-10-25",
     "phone": "668.076.4294",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        59
+    ],
+    "login locations": [
+        [
+            -117.191364,
+            33.593278
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "smithcrystal@gmail.com",
     "birthdate": "1932-02-07",
     "phone": "199-935-0705x0449",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        66,
+        27,
+        70,
+        74,
+        51,
+        71,
+        12,
+        64,
+        0,
+        6,
+        68,
+        5
+    ],
+    "login locations": [
+        [
+            -121.894521,
+            37.272518
+        ]
+    ],
+    "relationships": []
 }

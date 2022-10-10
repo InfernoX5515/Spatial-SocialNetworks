@@ -5,7 +5,29 @@
     "email": "allenandrew@hotmail.com",
     "birthdate": "1998-07-05",
     "phone": "8323081796",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        68,
+        36,
+        46,
+        74
+    ],
+    "login locations": [
+        [
+            -119.662721,
+            34.425312
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                103016,
+                0.24
+            ],
+            [
+                103020,
+                0.952380952381
+            ]
+        ]
+    ]
 }

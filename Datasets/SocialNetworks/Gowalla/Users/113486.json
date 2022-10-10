@@ -5,7 +5,22 @@
     "email": "jennifer24@gmail.com",
     "birthdate": "1917-10-09",
     "phone": "001-091-737-3503x2646",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        11,
+        52,
+        73,
+        69,
+        9,
+        69,
+        72,
+        56
+    ],
+    "login locations": [
+        [
+            -118.421437,
+            34.006877
+        ]
+    ],
+    "relationships": []
 }

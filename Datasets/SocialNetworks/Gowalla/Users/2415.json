@@ -5,7 +5,35 @@
     "email": "crawfordtimothy@gmail.com",
     "birthdate": "1979-03-22",
     "phone": "(551)244-9992x37413",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        25,
+        3,
+        7,
+        16,
+        56,
+        9,
+        27,
+        21,
+        60,
+        46
+    ],
+    "login locations": [
+        [
+            -117.919666,
+            33.823776
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                85,
+                0.01
+            ],
+            [
+                158,
+                0.0281690140845
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "stanleysellers@hotmail.com",
     "birthdate": "1977-06-08",
     "phone": "043-048-5309x40107",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        28,
+        49,
+        60,
+        68,
+        48,
+        36,
+        73,
+        0,
+        38,
+        61
+    ],
+    "login locations": [
+        [
+            -121.982478,
+            37.358089
+        ]
+    ],
+    "relationships": []
 }

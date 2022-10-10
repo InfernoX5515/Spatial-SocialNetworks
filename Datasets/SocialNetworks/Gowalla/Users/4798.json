@@ -5,7 +5,25 @@
     "email": "cynthia49@hotmail.com",
     "birthdate": "1949-04-24",
     "phone": "143-993-9699",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        52,
+        71,
+        1,
+        42,
+        58,
+        51,
+        10,
+        24,
+        64,
+        46,
+        61
+    ],
+    "login locations": [
+        [
+            -122.405778,
+            37.783997
+        ]
+    ],
+    "relationships": []
 }

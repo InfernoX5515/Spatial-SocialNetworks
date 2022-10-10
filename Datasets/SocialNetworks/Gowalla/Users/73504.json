@@ -5,7 +5,17 @@
     "email": "agonzalez@yahoo.com",
     "birthdate": "1992-12-18",
     "phone": "105-612-3272",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        61,
+        70,
+        37
+    ],
+    "login locations": [
+        [
+            -121.984416,
+            37.15919
+        ]
+    ],
+    "relationships": []
 }

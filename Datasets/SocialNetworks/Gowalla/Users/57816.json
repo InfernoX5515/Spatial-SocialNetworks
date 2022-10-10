@@ -5,7 +5,23 @@
     "email": "william27@yahoo.com",
     "birthdate": "2010-01-05",
     "phone": "+1-642-894-5376x74922",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        14,
+        67,
+        55,
+        3,
+        36,
+        12,
+        4,
+        35,
+        68
+    ],
+    "login locations": [
+        [
+            -117.152993,
+            32.726607
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "jasonedwards@yahoo.com",
     "birthdate": "1908-08-03",
     "phone": "897-486-5196x13556",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        1,
+        5,
+        48,
+        17,
+        20,
+        19,
+        23,
+        53,
+        73,
+        36,
+        24
+    ],
+    "login locations": [
+        [
+            -122.186051,
+            37.765427
+        ]
+    ],
+    "relationships": []
 }

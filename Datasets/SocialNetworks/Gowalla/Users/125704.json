@@ -5,7 +5,28 @@
     "email": "alan80@yahoo.com",
     "birthdate": "1998-04-08",
     "phone": "(151)820-3460",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        40,
+        16,
+        53
+    ],
+    "login locations": [
+        [
+            -118.365329,
+            34.139729
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33238,
+                0.08125
+            ],
+            [
+                33238,
+                0.08125
+            ]
+        ]
+    ]
 }

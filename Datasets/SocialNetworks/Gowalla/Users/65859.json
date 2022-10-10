@@ -5,7 +5,15 @@
     "email": "hallallison@yahoo.com",
     "birthdate": "2007-06-26",
     "phone": "513-445-1778x471",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        56
+    ],
+    "login locations": [
+        [
+            -120.584421,
+            37.345595
+        ]
+    ],
+    "relationships": []
 }

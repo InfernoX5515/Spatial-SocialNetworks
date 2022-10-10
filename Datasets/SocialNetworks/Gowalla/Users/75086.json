@@ -5,7 +5,16 @@
     "email": "carol25@gmail.com",
     "birthdate": "1950-07-28",
     "phone": "758-847-2996x08606",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        32,
+        32
+    ],
+    "login locations": [
+        [
+            -122.137605,
+            37.420915
+        ]
+    ],
+    "relationships": []
 }

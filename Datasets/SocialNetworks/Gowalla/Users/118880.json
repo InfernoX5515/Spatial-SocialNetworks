@@ -5,7 +5,22 @@
     "email": "yaustin@hotmail.com",
     "birthdate": "2016-03-04",
     "phone": "(997)212-2179",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        23,
+        3,
+        20,
+        37,
+        65,
+        44,
+        45,
+        53
+    ],
+    "login locations": [
+        [
+            -121.90771,
+            37.295697
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "jacobsonedward@gmail.com",
     "birthdate": "2011-07-20",
     "phone": "668.875.1308x5525",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        9,
+        71,
+        12,
+        2,
+        5,
+        45,
+        69,
+        55,
+        64,
+        43,
+        39,
+        18,
+        63,
+        14
+    ],
+    "login locations": [
+        [
+            -121.963674,
+            37.249284
+        ]
+    ],
+    "relationships": []
 }

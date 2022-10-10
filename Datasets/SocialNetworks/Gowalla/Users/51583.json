@@ -5,7 +5,24 @@
     "email": "anthonymoody@gmail.com",
     "birthdate": "1914-10-26",
     "phone": "001-060-679-3535x744",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        58,
+        5,
+        70,
+        43,
+        1,
+        53,
+        38,
+        20,
+        39,
+        66
+    ],
+    "login locations": [
+        [
+            -117.799201,
+            33.886722
+        ]
+    ],
+    "relationships": []
 }

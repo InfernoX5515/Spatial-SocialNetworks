@@ -5,7 +5,20 @@
     "email": "ahancock@gmail.com",
     "birthdate": "1949-09-09",
     "phone": "798.071.5060x6619",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        29,
+        22,
+        54,
+        66,
+        22,
+        57
+    ],
+    "login locations": [
+        [
+            -118.423406,
+            34.031093
+        ]
+    ],
+    "relationships": []
 }

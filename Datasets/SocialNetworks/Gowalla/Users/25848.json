@@ -5,7 +5,27 @@
     "email": "dylanguerra@yahoo.com",
     "birthdate": "1937-10-11",
     "phone": "(202)669-9797x480",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        44,
+        15,
+        74,
+        47,
+        59,
+        16,
+        68,
+        55,
+        21,
+        4,
+        33,
+        18,
+        8
+    ],
+    "login locations": [
+        [
+            -122.419249,
+            37.761496
+        ]
+    ],
+    "relationships": []
 }

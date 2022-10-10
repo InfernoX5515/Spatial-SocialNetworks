@@ -5,7 +5,22 @@
     "email": "sdouglas@hotmail.com",
     "birthdate": "1953-02-26",
     "phone": "808.846.4493",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        6,
+        67,
+        25,
+        37,
+        62,
+        47,
+        13,
+        2
+    ],
+    "login locations": [
+        [
+            -118.19037,
+            33.968265
+        ]
+    ],
+    "relationships": []
 }

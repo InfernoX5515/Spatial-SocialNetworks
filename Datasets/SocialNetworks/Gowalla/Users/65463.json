@@ -5,7 +5,20 @@
     "email": "cordovakurt@yahoo.com",
     "birthdate": "2010-11-01",
     "phone": "(105)374-6876x3458",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        34,
+        39,
+        23,
+        21,
+        35,
+        31
+    ],
+    "login locations": [
+        [
+            -119.722689,
+            34.429532
+        ]
+    ],
+    "relationships": []
 }

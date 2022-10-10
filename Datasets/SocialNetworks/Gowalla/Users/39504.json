@@ -5,7 +5,12 @@
     "email": "steinchris@hotmail.com",
     "birthdate": "1951-05-26",
     "phone": "(429)032-5974",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.312343,
+            34.001355
+        ]
+    ],
+    "relationships": []
 }

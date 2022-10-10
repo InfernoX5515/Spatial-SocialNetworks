@@ -5,7 +5,22 @@
     "email": "andrewkramer@gmail.com",
     "birthdate": "1986-03-19",
     "phone": "(492)450-2177",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        8,
+        4,
+        54,
+        30,
+        45,
+        12,
+        36,
+        48
+    ],
+    "login locations": [
+        [
+            -119.108053,
+            34.237678
+        ]
+    ],
+    "relationships": []
 }

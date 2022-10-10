@@ -5,7 +5,25 @@
     "email": "cervantesraymond@gmail.com",
     "birthdate": "1926-12-12",
     "phone": "(795)731-3574x1142",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        32,
+        67,
+        7,
+        56,
+        64,
+        27,
+        10,
+        73,
+        46,
+        53,
+        57
+    ],
+    "login locations": [
+        [
+            -122.422217,
+            37.780736
+        ]
+    ],
+    "relationships": []
 }

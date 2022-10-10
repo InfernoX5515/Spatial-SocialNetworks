@@ -5,7 +5,17 @@
     "email": "johnny15@yahoo.com",
     "birthdate": "1987-08-01",
     "phone": "411.675.0831",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        14,
+        53,
+        67
+    ],
+    "login locations": [
+        [
+            -117.762498,
+            33.980815
+        ]
+    ],
+    "relationships": []
 }

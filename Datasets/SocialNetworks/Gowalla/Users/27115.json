@@ -5,7 +5,17 @@
     "email": "pmckay@gmail.com",
     "birthdate": "1988-12-12",
     "phone": "293-883-0465x305",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        27,
+        60,
+        5
+    ],
+    "login locations": [
+        [
+            -122.030226,
+            37.320263
+        ]
+    ],
+    "relationships": []
 }

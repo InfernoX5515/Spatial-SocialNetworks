@@ -5,7 +5,14 @@
     "email": "ana92@gmail.com",
     "birthdate": "1929-01-11",
     "phone": "490-163-8443x07256",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -117.845634,
+            33.853419
+        ]
+    ],
+    "relationships": []
 }

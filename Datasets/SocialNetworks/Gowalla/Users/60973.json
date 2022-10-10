@@ -5,7 +5,16 @@
     "email": "kathryn57@gmail.com",
     "birthdate": "1968-01-22",
     "phone": "827.403.3784x72693",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        73,
+        32
+    ],
+    "login locations": [
+        [
+            -117.77086,
+            33.64549
+        ]
+    ],
+    "relationships": []
 }

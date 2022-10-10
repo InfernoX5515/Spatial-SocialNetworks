@@ -5,7 +5,18 @@
     "email": "rivaschristina@hotmail.com",
     "birthdate": "2013-08-07",
     "phone": "001-236-621-8180x4965",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        39,
+        32,
+        24,
+        73
+    ],
+    "login locations": [
+        [
+            -121.523033,
+            38.652372
+        ]
+    ],
+    "relationships": []
 }

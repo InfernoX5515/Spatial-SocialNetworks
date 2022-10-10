@@ -5,7 +5,18 @@
     "email": "samantha99@gmail.com",
     "birthdate": "1987-06-07",
     "phone": "(921)805-0896x34141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        37,
+        45,
+        27,
+        72
+    ],
+    "login locations": [
+        [
+            -118.289797,
+            33.92954
+        ]
+    ],
+    "relationships": []
 }

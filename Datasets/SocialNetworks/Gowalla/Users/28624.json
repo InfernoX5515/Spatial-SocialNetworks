@@ -5,7 +5,17 @@
     "email": "jeffrey93@yahoo.com",
     "birthdate": "1945-01-03",
     "phone": "001-147-565-1144x647",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        3,
+        57,
+        31
+    ],
+    "login locations": [
+        [
+            -118.292063,
+            33.881627
+        ]
+    ],
+    "relationships": []
 }

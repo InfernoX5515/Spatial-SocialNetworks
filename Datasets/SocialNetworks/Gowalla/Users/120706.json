@@ -5,7 +5,27 @@
     "email": "wallen@gmail.com",
     "birthdate": "1952-10-06",
     "phone": "+1-969-913-9882x5193",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        68,
+        64,
+        40,
+        4,
+        63,
+        27,
+        12,
+        26,
+        59,
+        28,
+        4,
+        47,
+        72
+    ],
+    "login locations": [
+        [
+            -121.911848,
+            37.42348
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "tlevy@yahoo.com",
     "birthdate": "1984-05-22",
     "phone": "313-998-1285",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        35,
+        23,
+        69,
+        57,
+        68,
+        15,
+        21,
+        42,
+        41,
+        52,
+        1,
+        64
+    ],
+    "login locations": [
+        [
+            -121.927742,
+            37.279289
+        ]
+    ],
+    "relationships": []
 }

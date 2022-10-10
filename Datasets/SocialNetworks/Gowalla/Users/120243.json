@@ -5,7 +5,21 @@
     "email": "dianeboyd@hotmail.com",
     "birthdate": "1918-03-27",
     "phone": "001-501-997-5875x3628",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        73,
+        2,
+        19,
+        39,
+        24,
+        19,
+        14
+    ],
+    "login locations": [
+        [
+            -117.606527,
+            33.598438
+        ]
+    ],
+    "relationships": []
 }

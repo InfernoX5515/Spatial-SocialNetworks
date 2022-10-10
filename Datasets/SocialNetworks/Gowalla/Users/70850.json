@@ -5,7 +5,26 @@
     "email": "jonessamuel@gmail.com",
     "birthdate": "1985-08-16",
     "phone": "(664)308-3347x33411",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        29,
+        3,
+        68,
+        48,
+        45,
+        29,
+        10,
+        40,
+        58,
+        9,
+        9,
+        63
+    ],
+    "login locations": [
+        [
+            -122.026814,
+            37.417869
+        ]
+    ],
+    "relationships": []
 }

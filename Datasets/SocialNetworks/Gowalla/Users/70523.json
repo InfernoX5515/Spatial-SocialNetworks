@@ -5,7 +5,24 @@
     "email": "iwells@gmail.com",
     "birthdate": "1978-04-01",
     "phone": "452.718.1015x440",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        8,
+        60,
+        2,
+        70,
+        34,
+        14,
+        44,
+        25,
+        43,
+        57
+    ],
+    "login locations": [
+        [
+            -118.388892,
+            34.118043
+        ]
+    ],
+    "relationships": []
 }

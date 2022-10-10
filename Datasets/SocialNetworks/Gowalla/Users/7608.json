@@ -5,7 +5,26 @@
     "email": "antonio15@yahoo.com",
     "birthdate": "1946-12-31",
     "phone": "(879)485-4290",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        48
+    ],
+    "login locations": [
+        [
+            -122.136817,
+            37.426406
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4391,
+                0.01
+            ],
+            [
+                5060,
+                0.01
+            ]
+        ]
+    ]
 }

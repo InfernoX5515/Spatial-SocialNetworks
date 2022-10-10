@@ -5,7 +5,30 @@
     "email": "colemanscott@gmail.com",
     "birthdate": "1987-11-13",
     "phone": "+1-203-668-2570x3849",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        29,
+        10,
+        23,
+        54,
+        4
+    ],
+    "login locations": [
+        [
+            -117.869695,
+            33.922225
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4829,
+                0.01
+            ],
+            [
+                4829,
+                0.01
+            ]
+        ]
+    ]
 }

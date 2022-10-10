@@ -5,7 +5,28 @@
     "email": "gmurphy@hotmail.com",
     "birthdate": "2021-06-16",
     "phone": "001-705-780-7676x772",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        16,
+        57,
+        39,
+        11,
+        1,
+        17,
+        0,
+        3,
+        69,
+        18,
+        26,
+        44,
+        41,
+        20
+    ],
+    "login locations": [
+        [
+            -121.77755,
+            37.258139
+        ]
+    ],
+    "relationships": []
 }

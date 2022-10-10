@@ -5,7 +5,26 @@
     "email": "joanna73@yahoo.com",
     "birthdate": "1988-06-22",
     "phone": "+1-463-787-0459x085",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        18,
+        37,
+        33,
+        26,
+        59,
+        48,
+        43,
+        14,
+        14,
+        57,
+        22,
+        12
+    ],
+    "login locations": [
+        [
+            -122.388774,
+            37.670859
+        ]
+    ],
+    "relationships": []
 }

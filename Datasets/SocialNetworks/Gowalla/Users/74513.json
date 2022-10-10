@@ -5,7 +5,25 @@
     "email": "ywalls@gmail.com",
     "birthdate": "1977-03-10",
     "phone": "005-940-5121",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        69,
+        58,
+        63,
+        14,
+        34,
+        21,
+        45,
+        26,
+        14,
+        24,
+        49
+    ],
+    "login locations": [
+        [
+            -122.212541,
+            37.757229
+        ]
+    ],
+    "relationships": []
 }

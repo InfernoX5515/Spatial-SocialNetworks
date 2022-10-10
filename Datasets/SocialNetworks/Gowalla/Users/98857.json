@@ -5,7 +5,25 @@
     "email": "yortiz@gmail.com",
     "birthdate": "1986-01-19",
     "phone": "838-935-6168x15606",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45
+    ],
+    "login locations": [
+        [
+            -118.408735,
+            33.879173
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                98856,
+                0.02
+            ],
+            [
+                98856,
+                0.02
+            ]
+        ]
+    ]
 }

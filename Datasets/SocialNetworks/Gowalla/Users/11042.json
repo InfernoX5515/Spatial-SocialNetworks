@@ -5,7 +5,21 @@
     "email": "davispamela@gmail.com",
     "birthdate": "2011-03-02",
     "phone": "333.641.8480x706",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        44,
+        39,
+        60,
+        49,
+        9,
+        27,
+        44
+    ],
+    "login locations": [
+        [
+            -118.226772,
+            34.070608
+        ]
+    ],
+    "relationships": []
 }

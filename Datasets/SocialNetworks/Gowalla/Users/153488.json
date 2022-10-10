@@ -5,7 +5,17 @@
     "email": "michaeljohnson@gmail.com",
     "birthdate": "1949-02-22",
     "phone": "001-758-502-2333x473",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        53,
+        58,
+        75
+    ],
+    "login locations": [
+        [
+            -121.925214,
+            37.252469
+        ]
+    ],
+    "relationships": []
 }

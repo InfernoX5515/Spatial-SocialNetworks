@@ -5,7 +5,14 @@
     "email": "emily34@yahoo.com",
     "birthdate": "1971-12-31",
     "phone": "797-020-1828",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57
+    ],
+    "login locations": [
+        [
+            -118.45203,
+            34.049897
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "twilliams@yahoo.com",
     "birthdate": "1906-10-25",
     "phone": "236-921-0720x96504",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        36,
+        75,
+        38,
+        0,
+        10,
+        40,
+        74,
+        55,
+        17,
+        18,
+        24,
+        60
+    ],
+    "login locations": [
+        [
+            -122.423005,
+            37.777999
+        ]
+    ],
+    "relationships": []
 }

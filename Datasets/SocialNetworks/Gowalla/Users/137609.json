@@ -5,7 +5,12 @@
     "email": "solisamber@gmail.com",
     "birthdate": "1950-10-01",
     "phone": "778-442-4304x04070",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.897199,
+            36.599583
+        ]
+    ],
+    "relationships": []
 }

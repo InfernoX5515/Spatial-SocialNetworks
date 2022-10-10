@@ -5,7 +5,19 @@
     "email": "susanhuff@hotmail.com",
     "birthdate": "1947-09-10",
     "phone": "001-946-161-7878",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        0,
+        71,
+        2,
+        55,
+        60
+    ],
+    "login locations": [
+        [
+            -117.868647,
+            33.991811
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "steven87@gmail.com",
     "birthdate": "1968-12-22",
     "phone": "(612)908-9533x06339",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        32,
+        66,
+        33
+    ],
+    "login locations": [
+        [
+            -117.852737,
+            33.816113
+        ]
+    ],
+    "relationships": []
 }

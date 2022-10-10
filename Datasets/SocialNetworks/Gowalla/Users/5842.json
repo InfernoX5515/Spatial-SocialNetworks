@@ -5,7 +5,15 @@
     "email": "lopezedward@hotmail.com",
     "birthdate": "2013-02-05",
     "phone": "528-008-1107x7347",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        66
+    ],
+    "login locations": [
+        [
+            -122.007717,
+            37.367625
+        ]
+    ],
+    "relationships": []
 }

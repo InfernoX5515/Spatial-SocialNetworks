@@ -5,7 +5,17 @@
     "email": "dgould@gmail.com",
     "birthdate": "1961-02-24",
     "phone": "828-939-3730x954",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        8,
+        51,
+        62
+    ],
+    "login locations": [
+        [
+            -122.449493,
+            37.791988
+        ]
+    ],
+    "relationships": []
 }

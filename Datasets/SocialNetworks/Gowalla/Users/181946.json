@@ -5,7 +5,24 @@
     "email": "ywagner@gmail.com",
     "birthdate": "1920-03-20",
     "phone": "(629)650-8482x51255",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        36,
+        53,
+        29,
+        60,
+        67,
+        31,
+        75,
+        51,
+        64,
+        73
+    ],
+    "login locations": [
+        [
+            -118.568421,
+            34.377825
+        ]
+    ],
+    "relationships": []
 }

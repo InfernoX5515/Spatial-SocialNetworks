@@ -5,7 +5,12 @@
     "email": "corey34@gmail.com",
     "birthdate": "1911-03-22",
     "phone": "(981)818-4137x7460",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.08375,
+            37.419809
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "joshuapierce@yahoo.com",
     "birthdate": "2011-03-19",
     "phone": "800.646.8718x9150",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        44,
+        31,
+        32
+    ],
+    "login locations": [
+        [
+            -122.421907,
+            37.777245
+        ]
+    ],
+    "relationships": []
 }

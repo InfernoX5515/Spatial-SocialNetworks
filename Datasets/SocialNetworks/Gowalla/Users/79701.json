@@ -5,7 +5,23 @@
     "email": "leoncraig@yahoo.com",
     "birthdate": "2018-12-31",
     "phone": "(015)021-5804",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        2,
+        65,
+        37,
+        5,
+        54,
+        27,
+        3,
+        15,
+        32
+    ],
+    "login locations": [
+        [
+            -118.144463,
+            33.818364
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "wkim@yahoo.com",
     "birthdate": "1958-05-25",
     "phone": "319.903.7201",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        47
+    ],
+    "login locations": [
+        [
+            -117.189398,
+            32.943642
+        ]
+    ],
+    "relationships": []
 }

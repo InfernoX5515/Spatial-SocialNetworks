@@ -5,7 +5,14 @@
     "email": "jessica30@gmail.com",
     "birthdate": "2017-06-15",
     "phone": "347-025-9192x0832",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72
+    ],
+    "login locations": [
+        [
+            -122.004208,
+            37.708939
+        ]
+    ],
+    "relationships": []
 }

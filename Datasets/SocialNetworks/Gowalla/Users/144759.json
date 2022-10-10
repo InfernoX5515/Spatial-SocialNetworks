@@ -5,7 +5,16 @@
     "email": "woodswalter@yahoo.com",
     "birthdate": "2012-05-16",
     "phone": "+1-774-106-6777x799",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        63,
+        20
+    ],
+    "login locations": [
+        [
+            -122.307443,
+            37.539749
+        ]
+    ],
+    "relationships": []
 }

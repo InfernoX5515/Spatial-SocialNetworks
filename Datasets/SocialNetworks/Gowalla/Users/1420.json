@@ -5,7 +5,14 @@
     "email": "wburns@gmail.com",
     "birthdate": "1973-06-16",
     "phone": "+1-299-708-4966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17
+    ],
+    "login locations": [
+        [
+            -118.204039,
+            33.86164
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,32 @@
     "email": "mary46@yahoo.com",
     "birthdate": "1995-11-23",
     "phone": "(772)963-8024x7927",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        27,
+        37,
+        36,
+        50,
+        24,
+        50,
+        33
+    ],
+    "login locations": [
+        [
+            -118.447199,
+            34.044615
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                276,
+                0.0126582278481
+            ],
+            [
+                114251,
+                0.0425
+            ]
+        ]
+    ]
 }

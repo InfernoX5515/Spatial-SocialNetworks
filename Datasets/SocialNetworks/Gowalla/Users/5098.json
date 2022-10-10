@@ -5,7 +5,38 @@
     "email": "wooderic@hotmail.com",
     "birthdate": "1991-10-02",
     "phone": "557-448-4997x324",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        5,
+        5,
+        68,
+        62,
+        13,
+        60,
+        63,
+        60,
+        25,
+        70,
+        69,
+        40,
+        35
+    ],
+    "login locations": [
+        [
+            -122.353918,
+            37.660038
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4244,
+                0.115384615385
+            ],
+            [
+                5071,
+                0.28125
+            ]
+        ]
+    ]
 }

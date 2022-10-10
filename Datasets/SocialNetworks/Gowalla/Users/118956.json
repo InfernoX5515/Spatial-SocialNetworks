@@ -5,7 +5,26 @@
     "email": "hornkatherine@hotmail.com",
     "birthdate": "1911-08-04",
     "phone": "6306827104",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        38,
+        35,
+        18,
+        13,
+        26,
+        1,
+        47,
+        20,
+        59,
+        55,
+        14,
+        57
+    ],
+    "login locations": [
+        [
+            -118.122587,
+            34.02614
+        ]
+    ],
+    "relationships": []
 }

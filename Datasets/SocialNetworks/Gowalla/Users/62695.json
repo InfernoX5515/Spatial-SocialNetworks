@@ -5,7 +5,23 @@
     "email": "daniel81@gmail.com",
     "birthdate": "1965-03-15",
     "phone": "001-820-959-7040",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        28,
+        42,
+        48,
+        49,
+        60,
+        64,
+        39,
+        9,
+        49
+    ],
+    "login locations": [
+        [
+            -122.348305,
+            37.626079
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "edward49@yahoo.com",
     "birthdate": "1964-05-09",
     "phone": "3631587301",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        29,
+        40,
+        50,
+        65,
+        9,
+        5,
+        53,
+        16,
+        72,
+        74,
+        69
+    ],
+    "login locations": [
+        [
+            -121.478279,
+            38.57881
+        ]
+    ],
+    "relationships": []
 }

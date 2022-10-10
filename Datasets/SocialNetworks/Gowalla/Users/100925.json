@@ -5,7 +5,25 @@
     "email": "ryan18@gmail.com",
     "birthdate": "1996-10-10",
     "phone": "+1-752-437-6905x4108",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        36,
+        63,
+        13,
+        53,
+        64,
+        3,
+        69,
+        29,
+        57,
+        60,
+        27
+    ],
+    "login locations": [
+        [
+            -117.557769,
+            33.887966
+        ]
+    ],
+    "relationships": []
 }

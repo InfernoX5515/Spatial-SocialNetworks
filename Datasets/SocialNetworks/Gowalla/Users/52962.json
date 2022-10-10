@@ -5,7 +5,28 @@
     "email": "gonzaleschristopher@yahoo.com",
     "birthdate": "1940-03-15",
     "phone": "+1-775-000-4245x15981",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        50,
+        37,
+        31,
+        33,
+        64,
+        52,
+        29,
+        27,
+        29,
+        3,
+        60,
+        42,
+        45,
+        58
+    ],
+    "login locations": [
+        [
+            -122.260875,
+            37.755767
+        ]
+    ],
+    "relationships": []
 }

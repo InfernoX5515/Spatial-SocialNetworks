@@ -5,7 +5,27 @@
     "email": "trobinson@yahoo.com",
     "birthdate": "1910-06-13",
     "phone": "+1-831-808-6310",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        33,
+        64,
+        23,
+        43,
+        26,
+        26,
+        0,
+        46,
+        12,
+        34,
+        43,
+        38,
+        35
+    ],
+    "login locations": [
+        [
+            -122.109787,
+            37.409461
+        ]
+    ],
+    "relationships": []
 }

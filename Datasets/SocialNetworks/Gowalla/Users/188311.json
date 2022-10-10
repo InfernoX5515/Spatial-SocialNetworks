@@ -5,7 +5,23 @@
     "email": "carolyntanner@gmail.com",
     "birthdate": "1964-12-31",
     "phone": "218.401.4746x9999",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        72,
+        4,
+        25,
+        7,
+        4,
+        7,
+        64,
+        52,
+        39
+    ],
+    "login locations": [
+        [
+            -117.050818,
+            32.672814
+        ]
+    ],
+    "relationships": []
 }

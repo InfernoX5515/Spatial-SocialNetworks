@@ -5,7 +5,26 @@
     "email": "jamesdorsey@hotmail.com",
     "birthdate": "2009-06-28",
     "phone": "4284560268",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        4,
+        2,
+        36,
+        71,
+        2,
+        52,
+        61,
+        60,
+        44,
+        53,
+        44,
+        5
+    ],
+    "login locations": [
+        [
+            -122.254983,
+            37.520534
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,35 @@
     "email": "hollymckenzie@hotmail.com",
     "birthdate": "1928-07-14",
     "phone": "6548098575",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        48,
+        42,
+        65,
+        35,
+        75,
+        41,
+        62,
+        37,
+        44,
+        9
+    ],
+    "login locations": [
+        [
+            -122.39694,
+            37.770287
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                182,
+                0.0434782608696
+            ],
+            [
+                5339,
+                0.058568329718
+            ]
+        ]
+    ]
 }

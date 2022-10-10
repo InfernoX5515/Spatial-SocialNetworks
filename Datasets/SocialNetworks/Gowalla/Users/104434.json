@@ -5,7 +5,14 @@
     "email": "hdrake@gmail.com",
     "birthdate": "1948-05-31",
     "phone": "908-791-3050x7030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75
+    ],
+    "login locations": [
+        [
+            -118.400175,
+            34.16148
+        ]
+    ],
+    "relationships": []
 }

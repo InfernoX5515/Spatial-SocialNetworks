@@ -5,7 +5,21 @@
     "email": "lflowers@gmail.com",
     "birthdate": "1955-04-12",
     "phone": "6726484632",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        46,
+        59,
+        32,
+        30,
+        38,
+        16,
+        44
+    ],
+    "login locations": [
+        [
+            -117.15177,
+            32.76239
+        ]
+    ],
+    "relationships": []
 }

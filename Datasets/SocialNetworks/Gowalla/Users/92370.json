@@ -5,7 +5,14 @@
     "email": "hroberts@yahoo.com",
     "birthdate": "2006-01-13",
     "phone": "255.300.1178x502",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15
+    ],
+    "login locations": [
+        [
+            -118.569485,
+            34.404549
+        ]
+    ],
+    "relationships": []
 }

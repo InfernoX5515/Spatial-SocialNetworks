@@ -5,7 +5,27 @@
     "email": "benjamin99@yahoo.com",
     "birthdate": "1906-12-16",
     "phone": "(483)696-0519",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        20,
+        14,
+        35,
+        48,
+        68,
+        72,
+        64,
+        70,
+        1,
+        59,
+        33,
+        7,
+        30
+    ],
+    "login locations": [
+        [
+            -118.4115,
+            34.164071
+        ]
+    ],
+    "relationships": []
 }

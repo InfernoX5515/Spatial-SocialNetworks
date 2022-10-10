@@ -5,7 +5,25 @@
     "email": "joshualawrence@yahoo.com",
     "birthdate": "1960-08-01",
     "phone": "413-014-8304x44615",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        47,
+        24,
+        21,
+        11,
+        69,
+        65,
+        50,
+        11,
+        54,
+        69,
+        52
+    ],
+    "login locations": [
+        [
+            -118.336283,
+            34.152026
+        ]
+    ],
+    "relationships": []
 }

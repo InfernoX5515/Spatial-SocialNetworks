@@ -5,7 +5,28 @@
     "email": "uchandler@hotmail.com",
     "birthdate": "1940-06-30",
     "phone": "001-484-680-5347x826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        59,
+        17,
+        24,
+        11,
+        18,
+        56,
+        62,
+        8,
+        55,
+        46,
+        28,
+        63,
+        15,
+        20
+    ],
+    "login locations": [
+        [
+            -120.483471,
+            37.32939
+        ]
+    ],
+    "relationships": []
 }

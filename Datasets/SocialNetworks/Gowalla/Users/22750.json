@@ -5,7 +5,14 @@
     "email": "mday@hotmail.com",
     "birthdate": "1931-06-05",
     "phone": "+1-540-185-6016x646",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68
+    ],
+    "login locations": [
+        [
+            -118.201107,
+            34.095861
+        ]
+    ],
+    "relationships": []
 }

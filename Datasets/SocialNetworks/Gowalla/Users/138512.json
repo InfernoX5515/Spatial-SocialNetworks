@@ -5,7 +5,17 @@
     "email": "lisa14@yahoo.com",
     "birthdate": "1916-08-05",
     "phone": "8291871641",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        49,
+        31,
+        71
+    ],
+    "login locations": [
+        [
+            -122.443767,
+            37.664375
+        ]
+    ],
+    "relationships": []
 }

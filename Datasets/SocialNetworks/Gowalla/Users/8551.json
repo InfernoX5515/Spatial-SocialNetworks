@@ -5,7 +5,25 @@
     "email": "bryan20@yahoo.com",
     "birthdate": "1923-12-10",
     "phone": "(786)872-6342",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        38,
+        42,
+        41,
+        6,
+        5,
+        10,
+        17,
+        25,
+        62,
+        34,
+        26
+    ],
+    "login locations": [
+        [
+            -122.157502,
+            37.442065
+        ]
+    ],
+    "relationships": []
 }

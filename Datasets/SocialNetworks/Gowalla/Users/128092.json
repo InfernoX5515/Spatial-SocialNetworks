@@ -5,7 +5,26 @@
     "email": "bauerhannah@gmail.com",
     "birthdate": "1922-05-10",
     "phone": "+1-306-566-5987x508",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        75,
+        64,
+        53,
+        54,
+        15,
+        73,
+        24,
+        57,
+        43,
+        20,
+        14,
+        63
+    ],
+    "login locations": [
+        [
+            -118.219532,
+            34.107728
+        ]
+    ],
+    "relationships": []
 }

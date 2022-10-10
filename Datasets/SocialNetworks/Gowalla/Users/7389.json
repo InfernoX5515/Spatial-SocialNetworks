@@ -5,7 +5,19 @@
     "email": "cartertravis@gmail.com",
     "birthdate": "1932-02-29",
     "phone": "296-558-1888",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        5,
+        33,
+        17,
+        17,
+        13
+    ],
+    "login locations": [
+        [
+            -122.093636,
+            37.417969
+        ]
+    ],
+    "relationships": []
 }

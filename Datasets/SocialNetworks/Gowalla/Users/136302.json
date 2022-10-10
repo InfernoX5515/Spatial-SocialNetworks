@@ -5,7 +5,21 @@
     "email": "tjones@yahoo.com",
     "birthdate": "1991-05-01",
     "phone": "960.199.5720",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        28,
+        50,
+        19,
+        24,
+        65,
+        52,
+        73
+    ],
+    "login locations": [
+        [
+            -121.969804,
+            37.388296
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,35 @@
     "email": "arojas@gmail.com",
     "birthdate": "1934-10-27",
     "phone": "333-555-9728x18942",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        32,
+        32,
+        34,
+        22,
+        69,
+        68,
+        7,
+        64,
+        37,
+        11
+    ],
+    "login locations": [
+        [
+            -117.162214,
+            32.709106
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11996,
+                0.0114285714286
+            ],
+            [
+                11996,
+                0.0114285714286
+            ]
+        ]
+    ]
 }

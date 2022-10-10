@@ -5,7 +5,21 @@
     "email": "xford@hotmail.com",
     "birthdate": "1987-07-15",
     "phone": "001-675-033-7474x979",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        40,
+        21,
+        21,
+        48,
+        72,
+        13,
+        6
+    ],
+    "login locations": [
+        [
+            -122.151268,
+            37.409411
+        ]
+    ],
+    "relationships": []
 }

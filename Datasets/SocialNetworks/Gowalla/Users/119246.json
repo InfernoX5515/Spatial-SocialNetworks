@@ -5,7 +5,12 @@
     "email": "valenciachristopher@yahoo.com",
     "birthdate": "1975-06-20",
     "phone": "(416)961-7111x926",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.898865,
+            33.918888
+        ]
+    ],
+    "relationships": []
 }

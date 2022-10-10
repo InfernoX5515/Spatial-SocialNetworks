@@ -5,7 +5,21 @@
     "email": "fcarr@yahoo.com",
     "birthdate": "1952-11-09",
     "phone": "089-174-2090",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        34,
+        35,
+        8,
+        40,
+        8,
+        41,
+        46
+    ],
+    "login locations": [
+        [
+            -117.816625,
+            33.735564
+        ]
+    ],
+    "relationships": []
 }

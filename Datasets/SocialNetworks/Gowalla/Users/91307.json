@@ -5,7 +5,19 @@
     "email": "fthomas@gmail.com",
     "birthdate": "1971-10-08",
     "phone": "+1-637-136-1010",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        70,
+        20,
+        22,
+        74,
+        6
+    ],
+    "login locations": [
+        [
+            -122.016373,
+            37.323925
+        ]
+    ],
+    "relationships": []
 }

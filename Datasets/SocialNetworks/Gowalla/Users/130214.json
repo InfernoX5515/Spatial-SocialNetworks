@@ -5,7 +5,25 @@
     "email": "carolynsmith@hotmail.com",
     "birthdate": "2020-03-16",
     "phone": "2887821938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        30,
+        25,
+        61,
+        31,
+        62,
+        53,
+        74,
+        2,
+        62,
+        48,
+        64
+    ],
+    "login locations": [
+        [
+            -117.765438,
+            33.991746
+        ]
+    ],
+    "relationships": []
 }

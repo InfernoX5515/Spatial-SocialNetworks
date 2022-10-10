@@ -5,7 +5,17 @@
     "email": "danielle84@gmail.com",
     "birthdate": "1970-06-21",
     "phone": "039-446-8128x2615",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        73,
+        60,
+        68
+    ],
+    "login locations": [
+        [
+            -122.424193,
+            37.779426
+        ]
+    ],
+    "relationships": []
 }

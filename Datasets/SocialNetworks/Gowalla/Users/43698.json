@@ -5,7 +5,22 @@
     "email": "daniel86@yahoo.com",
     "birthdate": "1957-02-04",
     "phone": "+1-286-241-6451x79881",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        72,
+        40,
+        73,
+        46,
+        60,
+        47,
+        20,
+        60
+    ],
+    "login locations": [
+        [
+            -117.187134,
+            33.662248
+        ]
+    ],
+    "relationships": []
 }

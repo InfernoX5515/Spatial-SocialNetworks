@@ -5,7 +5,16 @@
     "email": "donald71@yahoo.com",
     "birthdate": "1937-04-05",
     "phone": "001-238-914-5105x492",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        37,
+        44
+    ],
+    "login locations": [
+        [
+            -117.24049,
+            34.05476
+        ]
+    ],
+    "relationships": []
 }

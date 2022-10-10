@@ -5,7 +5,28 @@
     "email": "lkrause@yahoo.com",
     "birthdate": "1998-04-28",
     "phone": "257.337.6655x6922",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        48,
+        58,
+        60,
+        58,
+        71,
+        25,
+        54,
+        13,
+        27,
+        64,
+        51,
+        27,
+        14,
+        68
+    ],
+    "login locations": [
+        [
+            -117.972884,
+            33.754316
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "ramirezjoshua@hotmail.com",
     "birthdate": "1986-05-29",
     "phone": "(270)189-0189",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        61
+    ],
+    "login locations": [
+        [
+            -117.117774,
+            32.794896
+        ]
+    ],
+    "relationships": []
 }

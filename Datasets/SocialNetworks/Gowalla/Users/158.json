@@ -5,7 +5,31 @@
     "email": "tylerhowe@hotmail.com",
     "birthdate": "1950-12-25",
     "phone": "001-721-489-3692x957",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        33,
+        67,
+        26,
+        1,
+        43,
+        60
+    ],
+    "login locations": [
+        [
+            -122.081816,
+            37.393549
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.056
+            ],
+            [
+                8195,
+                0.105263157895
+            ]
+        ]
+    ]
 }

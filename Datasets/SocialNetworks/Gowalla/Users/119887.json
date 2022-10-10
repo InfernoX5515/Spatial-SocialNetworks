@@ -5,7 +5,22 @@
     "email": "tonyaanderson@gmail.com",
     "birthdate": "1978-07-15",
     "phone": "+1-945-617-1581x897",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        59,
+        72,
+        28,
+        18,
+        5,
+        70,
+        2,
+        0
+    ],
+    "login locations": [
+        [
+            -118.024515,
+            33.891109
+        ]
+    ],
+    "relationships": []
 }

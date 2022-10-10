@@ -5,7 +5,17 @@
     "email": "sherigordon@hotmail.com",
     "birthdate": "1996-08-11",
     "phone": "7998519878",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        55,
+        29,
+        52
+    ],
+    "login locations": [
+        [
+            -116.543465,
+            33.819762
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "joshuasmith@hotmail.com",
     "birthdate": "1940-11-29",
     "phone": "001-927-258-7475x6838",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        10,
+        16,
+        21,
+        16,
+        37,
+        37,
+        37,
+        2,
+        23
+    ],
+    "login locations": [
+        [
+            -117.998022,
+            33.856557
+        ]
+    ],
+    "relationships": []
 }

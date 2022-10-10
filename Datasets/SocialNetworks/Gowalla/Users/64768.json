@@ -5,7 +5,19 @@
     "email": "erincarter@yahoo.com",
     "birthdate": "1925-11-18",
     "phone": "(876)351-9442",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        49,
+        35,
+        6,
+        29,
+        56
+    ],
+    "login locations": [
+        [
+            -117.099185,
+            32.985096
+        ]
+    ],
+    "relationships": []
 }

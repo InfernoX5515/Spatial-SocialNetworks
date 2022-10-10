@@ -5,7 +5,25 @@
     "email": "heatherwilcox@yahoo.com",
     "birthdate": "2018-09-08",
     "phone": "863.395.1953x0120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7
+    ],
+    "login locations": [
+        [
+            -121.888549,
+            37.251422
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2143,
+                0.08
+            ],
+            [
+                3774,
+                0.01
+            ]
+        ]
+    ]
 }

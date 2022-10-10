@@ -5,7 +5,22 @@
     "email": "donald84@hotmail.com",
     "birthdate": "1925-09-02",
     "phone": "1472706233",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        48,
+        74,
+        2,
+        68,
+        4,
+        49,
+        17,
+        32
+    ],
+    "login locations": [
+        [
+            -122.394419,
+            37.778454
+        ]
+    ],
+    "relationships": []
 }

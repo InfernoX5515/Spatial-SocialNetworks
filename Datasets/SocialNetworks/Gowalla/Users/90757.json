@@ -5,7 +5,12 @@
     "email": "bishopmelissa@yahoo.com",
     "birthdate": "1916-06-16",
     "phone": "6490127240",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -119.862642,
+            34.427267
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,38 @@
     "email": "perkinsmegan@yahoo.com",
     "birthdate": "1915-08-10",
     "phone": "2658983583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        32,
+        0,
+        17,
+        51,
+        6,
+        40,
+        65,
+        74,
+        48,
+        66,
+        49,
+        29,
+        67
+    ],
+    "login locations": [
+        [
+            -118.160042,
+            33.837697
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5093,
+                0.12
+            ],
+            [
+                24653,
+                0.266666666667
+            ]
+        ]
+    ]
 }

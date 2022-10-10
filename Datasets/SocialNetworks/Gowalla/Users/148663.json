@@ -5,7 +5,20 @@
     "email": "smithchris@hotmail.com",
     "birthdate": "2016-09-24",
     "phone": "508.381.0405x67740",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        54,
+        4,
+        54,
+        75,
+        53,
+        19
+    ],
+    "login locations": [
+        [
+            -117.187035,
+            32.875671
+        ]
+    ],
+    "relationships": []
 }

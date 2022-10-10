@@ -5,7 +5,23 @@
     "email": "michaelsims@yahoo.com",
     "birthdate": "2008-05-29",
     "phone": "001-987-526-4920x196",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.412268,
+            37.792846
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                87,
+                0.0177777777778
+            ],
+            [
+                87,
+                0.0177777777778
+            ]
+        ]
+    ]
 }

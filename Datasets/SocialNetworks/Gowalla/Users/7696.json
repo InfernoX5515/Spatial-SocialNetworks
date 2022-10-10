@@ -5,7 +5,33 @@
     "email": "amberbrown@yahoo.com",
     "birthdate": "1954-06-30",
     "phone": "203.426.8385",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        16,
+        63,
+        66,
+        30,
+        55,
+        62,
+        45,
+        72
+    ],
+    "login locations": [
+        [
+            -122.407227,
+            37.808258
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6565,
+                0.0851063829787
+            ],
+            [
+                6565,
+                0.0851063829787
+            ]
+        ]
+    ]
 }

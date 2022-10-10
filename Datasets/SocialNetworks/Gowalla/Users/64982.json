@@ -5,7 +5,27 @@
     "email": "michaelmartin@yahoo.com",
     "birthdate": "2016-02-18",
     "phone": "+1-975-143-5491",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        12,
+        56,
+        1,
+        27,
+        61,
+        71,
+        50,
+        37,
+        38,
+        27,
+        61,
+        17,
+        11
+    ],
+    "login locations": [
+        [
+            -117.849619,
+            34.071378
+        ]
+    ],
+    "relationships": []
 }

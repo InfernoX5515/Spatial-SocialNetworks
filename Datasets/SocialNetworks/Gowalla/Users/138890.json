@@ -5,7 +5,15 @@
     "email": "cmacias@gmail.com",
     "birthdate": "2020-03-29",
     "phone": "(819)081-5535x875",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        38
+    ],
+    "login locations": [
+        [
+            -117.084253,
+            32.763983
+        ]
+    ],
+    "relationships": []
 }

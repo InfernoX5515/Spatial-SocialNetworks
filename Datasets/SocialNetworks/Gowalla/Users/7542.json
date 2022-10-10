@@ -5,7 +5,18 @@
     "email": "patriciarojas@yahoo.com",
     "birthdate": "1908-02-01",
     "phone": "(768)506-2387x389",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        12,
+        68,
+        2,
+        65
+    ],
+    "login locations": [
+        [
+            -122.348953,
+            37.590665
+        ]
+    ],
+    "relationships": []
 }

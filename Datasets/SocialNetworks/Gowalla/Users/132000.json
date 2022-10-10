@@ -5,7 +5,28 @@
     "email": "jacobsadam@hotmail.com",
     "birthdate": "1965-07-01",
     "phone": "(387)571-7213x01957",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        19,
+        51,
+        25,
+        8,
+        52,
+        20,
+        57,
+        40,
+        23,
+        50,
+        6,
+        58,
+        8,
+        35
+    ],
+    "login locations": [
+        [
+            -118.228673,
+            34.095214
+        ]
+    ],
+    "relationships": []
 }

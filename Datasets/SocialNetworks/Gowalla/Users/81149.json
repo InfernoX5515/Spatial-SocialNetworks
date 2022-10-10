@@ -5,7 +5,12 @@
     "email": "lanegeorge@hotmail.com",
     "birthdate": "2017-01-27",
     "phone": "673-060-6216x2799",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.466147,
+            34.012081
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "rharris@gmail.com",
     "birthdate": "1993-03-07",
     "phone": "046.637.0552x08191",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        73,
+        41,
+        51,
+        16,
+        21,
+        3,
+        68,
+        39,
+        47,
+        45,
+        32,
+        20,
+        41,
+        38
+    ],
+    "login locations": [
+        [
+            -118.287017,
+            34.087216
+        ]
+    ],
+    "relationships": []
 }

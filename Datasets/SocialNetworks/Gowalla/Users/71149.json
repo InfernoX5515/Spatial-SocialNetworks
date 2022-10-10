@@ -5,7 +5,12 @@
     "email": "mvilla@yahoo.com",
     "birthdate": "2020-04-08",
     "phone": "798-681-7516x65515",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.292804,
+            37.811055
+        ]
+    ],
+    "relationships": []
 }

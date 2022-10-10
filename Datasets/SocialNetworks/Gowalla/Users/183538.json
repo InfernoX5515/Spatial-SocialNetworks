@@ -5,7 +5,21 @@
     "email": "dustinestes@hotmail.com",
     "birthdate": "1979-08-13",
     "phone": "+1-874-970-2481x9615",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        10,
+        13,
+        8,
+        3,
+        15,
+        73,
+        69
+    ],
+    "login locations": [
+        [
+            -118.008672,
+            33.673513
+        ]
+    ],
+    "relationships": []
 }

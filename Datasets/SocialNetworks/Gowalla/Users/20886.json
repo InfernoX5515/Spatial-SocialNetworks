@@ -5,7 +5,14 @@
     "email": "leonarderin@yahoo.com",
     "birthdate": "1958-04-13",
     "phone": "724.548.3599",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47
+    ],
+    "login locations": [
+        [
+            -118.313185,
+            34.102912
+        ]
+    ],
+    "relationships": []
 }

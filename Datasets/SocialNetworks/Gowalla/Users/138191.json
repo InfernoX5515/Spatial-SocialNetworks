@@ -5,7 +5,17 @@
     "email": "marcussmith@gmail.com",
     "birthdate": "1954-03-08",
     "phone": "(084)414-7105x56539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        4,
+        15,
+        65
+    ],
+    "login locations": [
+        [
+            -118.151919,
+            34.601023
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,38 @@
     "email": "wallaceeric@hotmail.com",
     "birthdate": "1969-12-13",
     "phone": "+1-152-407-6300x088",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        7,
+        47,
+        27,
+        71,
+        74,
+        54,
+        74,
+        52,
+        47,
+        2,
+        61,
+        57,
+        23
+    ],
+    "login locations": [
+        [
+            -118.099135,
+            34.064986
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1702,
+                0.01
+            ],
+            [
+                1702,
+                0.01
+            ]
+        ]
+    ]
 }

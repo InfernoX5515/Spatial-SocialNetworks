@@ -5,7 +5,25 @@
     "email": "william77@gmail.com",
     "birthdate": "1966-08-20",
     "phone": "(187)719-1786x105",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64
+    ],
+    "login locations": [
+        [
+            -118.405903,
+            34.059795
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7467,
+                0.016393442623
+            ],
+            [
+                7467,
+                0.016393442623
+            ]
+        ]
+    ]
 }

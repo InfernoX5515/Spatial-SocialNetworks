@@ -5,7 +5,23 @@
     "email": "bkim@yahoo.com",
     "birthdate": "1995-05-03",
     "phone": "252.258.9667",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        38,
+        56,
+        19,
+        43,
+        75,
+        8,
+        61,
+        46,
+        42
+    ],
+    "login locations": [
+        [
+            -122.382783,
+            37.706953
+        ]
+    ],
+    "relationships": []
 }

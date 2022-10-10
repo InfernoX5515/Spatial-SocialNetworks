@@ -5,7 +5,27 @@
     "email": "tracey60@yahoo.com",
     "birthdate": "1999-06-12",
     "phone": "+1-837-452-0308x155",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        31,
+        43,
+        30,
+        33,
+        55,
+        71,
+        31,
+        75,
+        0,
+        41,
+        24,
+        65,
+        32
+    ],
+    "login locations": [
+        [
+            -122.38852,
+            37.743357
+        ]
+    ],
+    "relationships": []
 }

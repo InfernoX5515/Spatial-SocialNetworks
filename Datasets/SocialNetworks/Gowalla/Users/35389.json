@@ -5,7 +5,15 @@
     "email": "terry50@gmail.com",
     "birthdate": "1952-11-03",
     "phone": "998.592.8901x320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        31
+    ],
+    "login locations": [
+        [
+            -118.265862,
+            34.039687
+        ]
+    ],
+    "relationships": []
 }

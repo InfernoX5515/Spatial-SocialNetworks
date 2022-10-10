@@ -5,7 +5,12 @@
     "email": "aaronhayes@yahoo.com",
     "birthdate": "1924-11-17",
     "phone": "3877850884",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.37045,
+            34.089038
+        ]
+    ],
+    "relationships": []
 }

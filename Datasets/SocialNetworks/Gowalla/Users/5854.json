@@ -5,7 +5,30 @@
     "email": "lcarpenter@hotmail.com",
     "birthdate": "2001-02-12",
     "phone": "001-674-217-3475x1199",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        64,
+        31,
+        0,
+        37,
+        37
+    ],
+    "login locations": [
+        [
+            -117.159456,
+            33.543312
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.014598540146
+            ],
+            [
+                355,
+                0.01
+            ]
+        ]
+    ]
 }

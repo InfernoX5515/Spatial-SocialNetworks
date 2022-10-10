@@ -5,7 +5,16 @@
     "email": "sarafitzpatrick@hotmail.com",
     "birthdate": "1965-02-04",
     "phone": "088-080-9407x96908",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        11,
+        7
+    ],
+    "login locations": [
+        [
+            -117.106511,
+            32.906637
+        ]
+    ],
+    "relationships": []
 }

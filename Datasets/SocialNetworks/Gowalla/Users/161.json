@@ -5,7 +5,29 @@
     "email": "rperez@yahoo.com",
     "birthdate": "1946-10-22",
     "phone": "170-338-5800",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        18,
+        15,
+        13,
+        17
+    ],
+    "login locations": [
+        [
+            -122.395264,
+            37.77538
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4926,
+                0.0355029585799
+            ],
+            [
+                4926,
+                0.0355029585799
+            ]
+        ]
+    ]
 }

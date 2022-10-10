@@ -5,7 +5,20 @@
     "email": "paulmccoy@gmail.com",
     "birthdate": "1935-06-03",
     "phone": "567-491-8295",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        54,
+        18,
+        52,
+        52,
+        8,
+        25
+    ],
+    "login locations": [
+        [
+            -121.988651,
+            37.363502
+        ]
+    ],
+    "relationships": []
 }

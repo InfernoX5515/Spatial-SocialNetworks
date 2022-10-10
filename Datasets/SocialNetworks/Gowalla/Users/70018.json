@@ -5,7 +5,15 @@
     "email": "randygraves@gmail.com",
     "birthdate": "1949-08-22",
     "phone": "+1-034-011-6299x189",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        5
+    ],
+    "login locations": [
+        [
+            -122.39142,
+            37.782488
+        ]
+    ],
+    "relationships": []
 }

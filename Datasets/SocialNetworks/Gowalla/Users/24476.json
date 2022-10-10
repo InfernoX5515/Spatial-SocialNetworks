@@ -5,7 +5,22 @@
     "email": "delacruzandrew@gmail.com",
     "birthdate": "1924-02-25",
     "phone": "752.330.0738x9551",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        52,
+        11,
+        38,
+        66,
+        32,
+        6,
+        35,
+        1
+    ],
+    "login locations": [
+        [
+            -122.152913,
+            37.374874
+        ]
+    ],
+    "relationships": []
 }

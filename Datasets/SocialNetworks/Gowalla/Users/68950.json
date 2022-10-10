@@ -5,7 +5,20 @@
     "email": "victorcochran@gmail.com",
     "birthdate": "1919-04-04",
     "phone": "706-875-2174x35332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        68,
+        34,
+        42,
+        20,
+        53,
+        52
+    ],
+    "login locations": [
+        [
+            -122.334228,
+            38.290953
+        ]
+    ],
+    "relationships": []
 }

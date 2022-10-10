@@ -5,7 +5,14 @@
     "email": "christopher19@hotmail.com",
     "birthdate": "1981-02-05",
     "phone": "001-053-333-6150x15777",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57
+    ],
+    "login locations": [
+        [
+            -118.453744,
+            34.033012
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "davidmonroe@yahoo.com",
     "birthdate": "1952-06-22",
     "phone": "001-458-061-7129x41316",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7
+    ],
+    "login locations": [
+        [
+            -118.139864,
+            33.928602
+        ]
+    ],
+    "relationships": []
 }

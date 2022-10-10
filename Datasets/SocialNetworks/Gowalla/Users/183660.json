@@ -5,7 +5,22 @@
     "email": "smcgee@gmail.com",
     "birthdate": "1984-09-16",
     "phone": "(649)919-6115x7120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        64,
+        57,
+        0,
+        16,
+        42,
+        46,
+        32,
+        29
+    ],
+    "login locations": [
+        [
+            -122.001391,
+            37.195264
+        ]
+    ],
+    "relationships": []
 }

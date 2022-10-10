@@ -5,7 +5,38 @@
     "email": "angela80@hotmail.com",
     "birthdate": "1991-07-18",
     "phone": "941-759-8857x682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        43,
+        38,
+        6,
+        6,
+        30,
+        59,
+        37,
+        69,
+        51,
+        13,
+        18,
+        52,
+        21
+    ],
+    "login locations": [
+        [
+            -121.483297,
+            38.57107
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                48124,
+                0.0392857142857
+            ],
+            [
+                70385,
+                0.02
+            ]
+        ]
+    ]
 }

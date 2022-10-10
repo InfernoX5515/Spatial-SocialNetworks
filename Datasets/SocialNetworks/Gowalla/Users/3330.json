@@ -5,7 +5,28 @@
     "email": "ymorales@yahoo.com",
     "birthdate": "1940-05-02",
     "phone": "(945)048-3640x8250",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        14,
+        72,
+        72,
+        60,
+        26,
+        29,
+        4,
+        31,
+        39,
+        39,
+        67,
+        3,
+        73,
+        73
+    ],
+    "login locations": [
+        [
+            -118.370405,
+            33.988193
+        ]
+    ],
+    "relationships": []
 }

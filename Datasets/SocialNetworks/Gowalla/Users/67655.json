@@ -5,7 +5,26 @@
     "email": "megan05@gmail.com",
     "birthdate": "1952-09-26",
     "phone": "+1-110-471-9184",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        34,
+        33,
+        16,
+        21,
+        7,
+        51,
+        61,
+        33,
+        50,
+        9,
+        33,
+        8
+    ],
+    "login locations": [
+        [
+            -122.411306,
+            37.77799
+        ]
+    ],
+    "relationships": []
 }

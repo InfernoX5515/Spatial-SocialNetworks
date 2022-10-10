@@ -5,7 +5,26 @@
     "email": "robert05@gmail.com",
     "birthdate": "1925-02-26",
     "phone": "+1-095-812-5438x807",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        19
+    ],
+    "login locations": [
+        [
+            -122.007031,
+            37.333413
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82,
+                0.0223214285714
+            ],
+            [
+                477,
+                0.0202360876897
+            ]
+        ]
+    ]
 }

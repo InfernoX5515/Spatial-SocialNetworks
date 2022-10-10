@@ -5,7 +5,26 @@
     "email": "xwalton@yahoo.com",
     "birthdate": "1933-05-14",
     "phone": "+1-660-507-6817x744",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        8,
+        69,
+        75,
+        51,
+        38,
+        30,
+        51,
+        29,
+        2,
+        34,
+        59,
+        17
+    ],
+    "login locations": [
+        [
+            -121.993768,
+            37.376739
+        ]
+    ],
+    "relationships": []
 }

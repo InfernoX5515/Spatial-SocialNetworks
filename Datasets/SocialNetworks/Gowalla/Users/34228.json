@@ -5,7 +5,39 @@
     "email": "shelly40@yahoo.com",
     "birthdate": "1950-06-12",
     "phone": "0473826108",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        71,
+        34,
+        53,
+        26,
+        53,
+        60,
+        11,
+        10,
+        24,
+        32,
+        64,
+        66,
+        27,
+        57
+    ],
+    "login locations": [
+        [
+            -122.408743,
+            37.744857
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5118,
+                0.04
+            ],
+            [
+                5118,
+                0.04
+            ]
+        ]
+    ]
 }

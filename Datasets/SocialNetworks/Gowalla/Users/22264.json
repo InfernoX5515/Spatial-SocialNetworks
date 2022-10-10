@@ -5,7 +5,26 @@
     "email": "drakemaxwell@gmail.com",
     "birthdate": "2013-04-07",
     "phone": "+1-399-385-2062x014",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        39,
+        7,
+        22,
+        7,
+        34,
+        61,
+        54,
+        3,
+        34,
+        11,
+        54,
+        17
+    ],
+    "login locations": [
+        [
+            -117.17693,
+            33.61127
+        ]
+    ],
+    "relationships": []
 }

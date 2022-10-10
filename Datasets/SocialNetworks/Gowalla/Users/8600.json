@@ -5,7 +5,18 @@
     "email": "mmclaughlin@hotmail.com",
     "birthdate": "2012-03-18",
     "phone": "001-229-874-5905",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        65,
+        56,
+        50,
+        40
+    ],
+    "login locations": [
+        [
+            -122.39868,
+            37.763716
+        ]
+    ],
+    "relationships": []
 }

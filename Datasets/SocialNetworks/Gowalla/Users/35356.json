@@ -5,7 +5,27 @@
     "email": "duncanbryan@hotmail.com",
     "birthdate": "1956-10-13",
     "phone": "1085143726",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        65,
+        29,
+        6,
+        48,
+        7,
+        58,
+        26,
+        31,
+        29,
+        26,
+        57,
+        67,
+        64
+    ],
+    "login locations": [
+        [
+            -121.907211,
+            37.273357
+        ]
+    ],
+    "relationships": []
 }

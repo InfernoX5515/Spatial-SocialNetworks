@@ -5,7 +5,23 @@
     "email": "vasqueztammy@gmail.com",
     "birthdate": "1940-08-17",
     "phone": "(661)773-1497",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        48,
+        7,
+        55,
+        23,
+        45,
+        11,
+        7,
+        50,
+        32
+    ],
+    "login locations": [
+        [
+            -118.324435,
+            34.095254
+        ]
+    ],
+    "relationships": []
 }

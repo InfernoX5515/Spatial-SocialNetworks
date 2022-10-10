@@ -5,7 +5,15 @@
     "email": "vross@yahoo.com",
     "birthdate": "2004-01-03",
     "phone": "819-603-1216",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        7
+    ],
+    "login locations": [
+        [
+            -122.288071,
+            37.832912
+        ]
+    ],
+    "relationships": []
 }

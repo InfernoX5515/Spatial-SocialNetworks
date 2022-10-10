@@ -5,7 +5,30 @@
     "email": "jacquelineyoung@hotmail.com",
     "birthdate": "2022-07-11",
     "phone": "194-759-8309",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        26,
+        1,
+        22,
+        13,
+        17
+    ],
+    "login locations": [
+        [
+            -118.317494,
+            34.176363
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                168458,
+                0.25
+            ],
+            [
+                168458,
+                0.25
+            ]
+        ]
+    ]
 }

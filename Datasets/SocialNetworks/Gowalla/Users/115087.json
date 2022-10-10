@@ -5,7 +5,39 @@
     "email": "russelltheresa@gmail.com",
     "birthdate": "1979-11-02",
     "phone": "001-528-453-9926x0380",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        15,
+        14,
+        19,
+        74,
+        60,
+        30,
+        50,
+        11,
+        49,
+        27,
+        44,
+        65,
+        49,
+        14
+    ],
+    "login locations": [
+        [
+            -117.094213,
+            32.745983
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                115088,
+                0.0972222222222
+            ],
+            [
+                115088,
+                0.0972222222222
+            ]
+        ]
+    ]
 }

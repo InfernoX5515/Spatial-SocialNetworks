@@ -5,7 +5,27 @@
     "email": "bdominguez@yahoo.com",
     "birthdate": "1955-05-16",
     "phone": "279-209-4973x229",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        70,
+        48,
+        64,
+        45,
+        66,
+        75,
+        38,
+        72,
+        65,
+        36,
+        50,
+        65,
+        59
+    ],
+    "login locations": [
+        [
+            -122.169091,
+            37.434143
+        ]
+    ],
+    "relationships": []
 }

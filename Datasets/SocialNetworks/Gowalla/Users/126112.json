@@ -5,7 +5,17 @@
     "email": "brentfoster@hotmail.com",
     "birthdate": "2016-07-12",
     "phone": "9637255112",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        24,
+        18,
+        16
+    ],
+    "login locations": [
+        [
+            -121.889802,
+            38.412945
+        ]
+    ],
+    "relationships": []
 }

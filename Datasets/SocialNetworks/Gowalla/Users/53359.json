@@ -5,7 +5,12 @@
     "email": "patty15@hotmail.com",
     "birthdate": "1967-11-23",
     "phone": "+1-802-887-8764x5763",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.414203,
+            37.748158
+        ]
+    ],
+    "relationships": []
 }

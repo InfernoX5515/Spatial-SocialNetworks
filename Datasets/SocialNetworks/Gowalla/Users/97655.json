@@ -5,7 +5,22 @@
     "email": "martha91@yahoo.com",
     "birthdate": "1997-08-14",
     "phone": "738.531.7253",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        71,
+        52,
+        73,
+        67,
+        20,
+        60,
+        29,
+        20
+    ],
+    "login locations": [
+        [
+            -117.19615,
+            32.78391
+        ]
+    ],
+    "relationships": []
 }

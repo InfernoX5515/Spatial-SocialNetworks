@@ -5,7 +5,22 @@
     "email": "pattersonronald@yahoo.com",
     "birthdate": "2013-11-05",
     "phone": "8269606668",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        50,
+        23,
+        63,
+        12,
+        53,
+        56,
+        65,
+        24
+    ],
+    "login locations": [
+        [
+            -122.049439,
+            37.715326
+        ]
+    ],
+    "relationships": []
 }

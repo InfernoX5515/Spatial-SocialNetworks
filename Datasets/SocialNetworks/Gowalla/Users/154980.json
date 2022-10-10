@@ -5,7 +5,18 @@
     "email": "lrios@hotmail.com",
     "birthdate": "1965-12-27",
     "phone": "5459726627",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        11,
+        0,
+        54,
+        70
+    ],
+    "login locations": [
+        [
+            -117.935225,
+            33.830065
+        ]
+    ],
+    "relationships": []
 }

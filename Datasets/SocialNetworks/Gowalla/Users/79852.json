@@ -5,7 +5,20 @@
     "email": "arthuroliver@gmail.com",
     "birthdate": "1924-03-27",
     "phone": "+1-963-919-1655",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        60,
+        14,
+        34,
+        4,
+        0,
+        28
+    ],
+    "login locations": [
+        [
+            -122.146832,
+            37.44226
+        ]
+    ],
+    "relationships": []
 }

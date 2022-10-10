@@ -5,7 +5,15 @@
     "email": "gnguyen@yahoo.com",
     "birthdate": "1957-05-21",
     "phone": "691.996.7615",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        72
+    ],
+    "login locations": [
+        [
+            -117.920874,
+            33.812531
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,31 @@
     "email": "cvelasquez@yahoo.com",
     "birthdate": "2021-01-30",
     "phone": "001-032-692-9959",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        67,
+        67,
+        22,
+        58,
+        63,
+        52
+    ],
+    "login locations": [
+        [
+            -122.401394,
+            37.760223
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.014598540146
+            ],
+            [
+                158,
+                0.0281690140845
+            ]
+        ]
+    ]
 }

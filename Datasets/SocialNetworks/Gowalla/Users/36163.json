@@ -5,7 +5,23 @@
     "email": "clarkdaniel@hotmail.com",
     "birthdate": "1919-06-17",
     "phone": "+1-879-930-4829x31068",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        22,
+        52,
+        21,
+        20,
+        53,
+        54,
+        9,
+        5,
+        31
+    ],
+    "login locations": [
+        [
+            -117.989025,
+            33.786553
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "hicksshannon@hotmail.com",
     "birthdate": "1991-12-08",
     "phone": "125-052-6483x49991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        50,
+        72,
+        32,
+        25
+    ],
+    "login locations": [
+        [
+            -122.404701,
+            37.784917
+        ]
+    ],
+    "relationships": []
 }

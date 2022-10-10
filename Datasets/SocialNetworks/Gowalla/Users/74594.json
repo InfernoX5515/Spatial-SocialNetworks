@@ -5,7 +5,21 @@
     "email": "reynoldscory@yahoo.com",
     "birthdate": "2006-02-05",
     "phone": "309-624-0560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        22,
+        64,
+        2,
+        33,
+        56,
+        55,
+        17
+    ],
+    "login locations": [
+        [
+            -122.420054,
+            37.758904
+        ]
+    ],
+    "relationships": []
 }

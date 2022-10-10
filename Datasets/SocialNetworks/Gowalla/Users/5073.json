@@ -5,7 +5,37 @@
     "email": "eallison@yahoo.com",
     "birthdate": "1998-05-20",
     "phone": "716-543-1142",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        6,
+        45,
+        49,
+        37,
+        38,
+        17,
+        69,
+        48,
+        58,
+        18,
+        29,
+        52
+    ],
+    "login locations": [
+        [
+            -122.174779,
+            37.441653
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                478,
+                0.164179104478
+            ],
+            [
+                4244,
+                0.115384615385
+            ]
+        ]
+    ]
 }

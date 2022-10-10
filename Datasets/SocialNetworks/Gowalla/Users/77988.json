@@ -5,7 +5,16 @@
     "email": "amandadickerson@hotmail.com",
     "birthdate": "1979-04-20",
     "phone": "(932)005-7108x319",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        7,
+        75
+    ],
+    "login locations": [
+        [
+            -118.461764,
+            34.035874
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "timothytaylor@hotmail.com",
     "birthdate": "1966-10-10",
     "phone": "099-356-6547",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        63,
+        24,
+        59
+    ],
+    "login locations": [
+        [
+            -122.015084,
+            37.342229
+        ]
+    ],
+    "relationships": []
 }

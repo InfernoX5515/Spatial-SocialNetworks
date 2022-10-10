@@ -5,7 +5,39 @@
     "email": "tinamiller@gmail.com",
     "birthdate": "1994-06-08",
     "phone": "708-626-5379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        45,
+        7,
+        51,
+        12,
+        3,
+        39,
+        61,
+        5,
+        29,
+        54,
+        19,
+        27,
+        19,
+        23
+    ],
+    "login locations": [
+        [
+            -118.087657,
+            33.790509
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                464,
+                0.047619047619
+            ],
+            [
+                4265,
+                0.045871559633
+            ]
+        ]
+    ]
 }

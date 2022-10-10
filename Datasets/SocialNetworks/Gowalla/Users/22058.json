@@ -5,7 +5,29 @@
     "email": "ricardo54@hotmail.com",
     "birthdate": "1908-09-27",
     "phone": "(943)982-6167",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        35,
+        13,
+        60,
+        55
+    ],
+    "login locations": [
+        [
+            -122.420325,
+            37.780097
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7705,
+                0.0555555555556
+            ],
+            [
+                7705,
+                0.0555555555556
+            ]
+        ]
+    ]
 }

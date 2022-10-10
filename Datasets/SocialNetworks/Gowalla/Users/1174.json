@@ -5,7 +5,28 @@
     "email": "vsutton@yahoo.com",
     "birthdate": "1977-08-25",
     "phone": "+1-074-573-8664x9543",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        24,
+        37,
+        68,
+        36,
+        23,
+        26,
+        53,
+        16,
+        11,
+        18,
+        60,
+        45,
+        1,
+        29
+    ],
+    "login locations": [
+        [
+            -122.289915,
+            37.697111
+        ]
+    ],
+    "relationships": []
 }

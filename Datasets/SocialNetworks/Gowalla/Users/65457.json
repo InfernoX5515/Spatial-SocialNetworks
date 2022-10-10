@@ -5,7 +5,20 @@
     "email": "nataliejones@gmail.com",
     "birthdate": "1948-03-29",
     "phone": "001-729-539-4756x81282",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        10,
+        42,
+        16,
+        55,
+        27,
+        30
+    ],
+    "login locations": [
+        [
+            -121.472268,
+            38.569861
+        ]
+    ],
+    "relationships": []
 }

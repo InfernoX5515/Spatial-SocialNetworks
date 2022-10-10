@@ -5,7 +5,21 @@
     "email": "haguirre@gmail.com",
     "birthdate": "1944-09-19",
     "phone": "848-924-1148x5592",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        61,
+        50,
+        13,
+        10,
+        23,
+        44,
+        3
+    ],
+    "login locations": [
+        [
+            -123.805853,
+            39.434872
+        ]
+    ],
+    "relationships": []
 }

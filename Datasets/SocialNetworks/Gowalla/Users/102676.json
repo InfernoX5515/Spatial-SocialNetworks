@@ -5,7 +5,17 @@
     "email": "stonewanda@gmail.com",
     "birthdate": "1975-04-05",
     "phone": "+1-025-877-9573x0193",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        20,
+        31,
+        64
+    ],
+    "login locations": [
+        [
+            -122.405266,
+            37.788939
+        ]
+    ],
+    "relationships": []
 }

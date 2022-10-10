@@ -5,7 +5,39 @@
     "email": "rachel79@gmail.com",
     "birthdate": "2007-01-11",
     "phone": "868.390.8542",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        63,
+        71,
+        28,
+        5,
+        55,
+        68,
+        16,
+        8,
+        12,
+        75,
+        35,
+        52,
+        13,
+        57
+    ],
+    "login locations": [
+        [
+            -118.331848,
+            33.870925
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10442,
+                0.01
+            ],
+            [
+                10442,
+                0.01
+            ]
+        ]
+    ]
 }

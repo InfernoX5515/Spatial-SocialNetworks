@@ -5,7 +5,36 @@
     "email": "erinsampson@hotmail.com",
     "birthdate": "1970-08-09",
     "phone": "059-889-3799x6485",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        23,
+        55,
+        14,
+        25,
+        47,
+        2,
+        14,
+        2,
+        6,
+        8,
+        60
+    ],
+    "login locations": [
+        [
+            -122.419612,
+            37.792159
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                255,
+                0.0287769784173
+            ],
+            [
+                255,
+                0.0287769784173
+            ]
+        ]
+    ]
 }

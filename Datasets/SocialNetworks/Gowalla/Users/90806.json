@@ -5,7 +5,37 @@
     "email": "larasandra@hotmail.com",
     "birthdate": "1908-10-09",
     "phone": "+1-757-107-1856x21486",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        45,
+        6,
+        26,
+        15,
+        47,
+        53,
+        49,
+        60,
+        5,
+        49,
+        66,
+        6
+    ],
+    "login locations": [
+        [
+            -118.36964,
+            34.022439
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                90809,
+                0.01
+            ],
+            [
+                90809,
+                0.01
+            ]
+        ]
+    ]
 }

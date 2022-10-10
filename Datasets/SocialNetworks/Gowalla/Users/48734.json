@@ -5,7 +5,20 @@
     "email": "jessica69@gmail.com",
     "birthdate": "1935-09-18",
     "phone": "232-320-7556x7470",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        69,
+        49,
+        16,
+        20,
+        31,
+        71
+    ],
+    "login locations": [
+        [
+            -122.41254,
+            37.770203
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "palmerkeith@hotmail.com",
     "birthdate": "2009-10-24",
     "phone": "(232)229-3207",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.322703,
+            34.018931
+        ]
+    ],
+    "relationships": []
 }

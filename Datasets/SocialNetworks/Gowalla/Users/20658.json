@@ -5,7 +5,24 @@
     "email": "randallmontgomery@yahoo.com",
     "birthdate": "1909-08-19",
     "phone": "+1-584-390-9786",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        3,
+        13,
+        73,
+        35,
+        43,
+        30,
+        20,
+        19,
+        4,
+        19
+    ],
+    "login locations": [
+        [
+            -118.218645,
+            33.898934
+        ]
+    ],
+    "relationships": []
 }

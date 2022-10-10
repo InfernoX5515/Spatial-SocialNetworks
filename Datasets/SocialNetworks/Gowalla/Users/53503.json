@@ -5,7 +5,26 @@
     "email": "jessicahernandez@gmail.com",
     "birthdate": "1944-06-12",
     "phone": "(292)071-7675",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        61,
+        7,
+        39,
+        60,
+        71,
+        5,
+        60,
+        57,
+        17,
+        43,
+        72,
+        26
+    ],
+    "login locations": [
+        [
+            -118.416569,
+            34.082177
+        ]
+    ],
+    "relationships": []
 }

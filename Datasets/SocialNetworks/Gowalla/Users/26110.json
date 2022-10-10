@@ -5,7 +5,22 @@
     "email": "maryhunt@hotmail.com",
     "birthdate": "1997-01-02",
     "phone": "+1-613-128-8069x13066",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        23,
+        10,
+        1,
+        17,
+        69,
+        35,
+        50,
+        24
+    ],
+    "login locations": [
+        [
+            -122.403988,
+            37.789517
+        ]
+    ],
+    "relationships": []
 }

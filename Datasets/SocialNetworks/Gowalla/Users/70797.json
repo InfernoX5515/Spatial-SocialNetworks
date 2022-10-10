@@ -5,7 +5,28 @@
     "email": "smithamber@hotmail.com",
     "birthdate": "1956-01-05",
     "phone": "8453427086",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        61,
+        23,
+        30,
+        27,
+        50,
+        0,
+        38,
+        15,
+        63,
+        8,
+        8,
+        14,
+        38,
+        30
+    ],
+    "login locations": [
+        [
+            -122.429826,
+            37.781243
+        ]
+    ],
+    "relationships": []
 }

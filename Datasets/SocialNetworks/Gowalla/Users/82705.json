@@ -5,7 +5,21 @@
     "email": "gordonjacob@gmail.com",
     "birthdate": "1977-05-08",
     "phone": "9810325629",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        61,
+        15,
+        66,
+        18,
+        74,
+        46,
+        41
+    ],
+    "login locations": [
+        [
+            -122.401741,
+            37.789613
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "amycarson@yahoo.com",
     "birthdate": "1948-09-06",
     "phone": "(585)954-7107",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        39,
+        43,
+        5,
+        8,
+        57,
+        45,
+        67,
+        31,
+        47,
+        49
+    ],
+    "login locations": [
+        [
+            -121.702943,
+            38.119876
+        ]
+    ],
+    "relationships": []
 }

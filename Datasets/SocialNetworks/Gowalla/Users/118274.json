@@ -5,7 +5,27 @@
     "email": "allison13@gmail.com",
     "birthdate": "1963-09-11",
     "phone": "005-009-6894",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        25,
+        33,
+        21,
+        19,
+        59,
+        1,
+        47,
+        30,
+        11,
+        2,
+        36,
+        74,
+        55
+    ],
+    "login locations": [
+        [
+            -118.394624,
+            34.033786
+        ]
+    ],
+    "relationships": []
 }

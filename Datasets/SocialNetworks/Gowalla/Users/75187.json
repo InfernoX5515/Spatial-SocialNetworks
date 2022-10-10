@@ -5,7 +5,25 @@
     "email": "rickyjones@gmail.com",
     "birthdate": "1950-08-04",
     "phone": "(883)366-3505x198",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        0,
+        57,
+        25,
+        58,
+        19,
+        62,
+        2,
+        12,
+        19,
+        20,
+        48
+    ],
+    "login locations": [
+        [
+            -122.176237,
+            37.922628
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "tinagonzalez@gmail.com",
     "birthdate": "1940-05-22",
     "phone": "068-443-7583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        30,
+        22
+    ],
+    "login locations": [
+        [
+            -122.433132,
+            37.784201
+        ]
+    ],
+    "relationships": []
 }

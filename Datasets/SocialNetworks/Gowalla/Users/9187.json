@@ -5,7 +5,26 @@
     "email": "aduran@yahoo.com",
     "birthdate": "1922-10-11",
     "phone": "739.408.0153",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        46,
+        10,
+        26,
+        45,
+        0,
+        24,
+        36,
+        54,
+        55,
+        17,
+        30,
+        3
+    ],
+    "login locations": [
+        [
+            -122.131856,
+            37.429663
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,33 @@
     "email": "bergstephanie@gmail.com",
     "birthdate": "1987-02-07",
     "phone": "732-237-2841x418",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        34,
+        43,
+        13,
+        2,
+        2,
+        48,
+        41,
+        1
+    ],
+    "login locations": [
+        [
+            -122.174107,
+            37.455469
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7298,
+                0.0238095238095
+            ],
+            [
+                7298,
+                0.0238095238095
+            ]
+        ]
+    ]
 }

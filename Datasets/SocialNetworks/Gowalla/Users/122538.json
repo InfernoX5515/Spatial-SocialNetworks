@@ -5,7 +5,25 @@
     "email": "john90@hotmail.com",
     "birthdate": "1981-03-30",
     "phone": "109-074-7383x1692",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        7,
+        39,
+        39,
+        58,
+        50,
+        53,
+        47,
+        28,
+        63,
+        29,
+        16
+    ],
+    "login locations": [
+        [
+            -122.145643,
+            37.897714
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "simmonschelsea@yahoo.com",
     "birthdate": "1946-11-19",
     "phone": "+1-303-520-7736x324",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        69
+    ],
+    "login locations": [
+        [
+            -118.223671,
+            34.123584
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                19510,
+                0.0224719101124
+            ],
+            [
+                9202,
+                0.01
+            ]
+        ]
+    ]
 }

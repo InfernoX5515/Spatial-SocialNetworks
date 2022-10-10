@@ -5,7 +5,22 @@
     "email": "cole54@gmail.com",
     "birthdate": "1952-05-21",
     "phone": "(195)027-2409x279",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        36,
+        68,
+        38,
+        0,
+        74,
+        27,
+        72,
+        74
+    ],
+    "login locations": [
+        [
+            -118.464541,
+            34.015959
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "martinbrooke@gmail.com",
     "birthdate": "2017-06-07",
     "phone": "930-501-8791x82356",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        39,
+        61,
+        67,
+        75,
+        70,
+        37,
+        23,
+        8,
+        44,
+        49,
+        66,
+        26
+    ],
+    "login locations": [
+        [
+            -117.158564,
+            32.906238
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "darius59@hotmail.com",
     "birthdate": "1967-09-01",
     "phone": "696.694.0052x92957",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        75,
+        0,
+        42,
+        29
+    ],
+    "login locations": [
+        [
+            -122.290064,
+            37.773941
+        ]
+    ],
+    "relationships": []
 }

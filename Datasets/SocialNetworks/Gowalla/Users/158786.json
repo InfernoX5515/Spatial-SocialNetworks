@@ -5,7 +5,25 @@
     "email": "mgarrison@gmail.com",
     "birthdate": "1999-06-02",
     "phone": "1132381133",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        55,
+        54,
+        5,
+        16,
+        20,
+        19,
+        23,
+        45,
+        21,
+        70,
+        35
+    ],
+    "login locations": [
+        [
+            -121.948873,
+            37.30235
+        ]
+    ],
+    "relationships": []
 }

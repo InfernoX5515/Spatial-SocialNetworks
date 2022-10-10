@@ -5,7 +5,19 @@
     "email": "garciadeborah@hotmail.com",
     "birthdate": "1948-10-16",
     "phone": "1593918697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        51,
+        63,
+        58,
+        29,
+        24
+    ],
+    "login locations": [
+        [
+            -117.801236,
+            33.846069
+        ]
+    ],
+    "relationships": []
 }

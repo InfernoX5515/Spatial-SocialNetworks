@@ -5,7 +5,27 @@
     "email": "travis80@yahoo.com",
     "birthdate": "1944-10-18",
     "phone": "9844797024",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        19,
+        34,
+        25,
+        35,
+        19,
+        72,
+        75,
+        32,
+        66,
+        24,
+        70,
+        17,
+        43
+    ],
+    "login locations": [
+        [
+            -122.164051,
+            37.432759
+        ]
+    ],
+    "relationships": []
 }

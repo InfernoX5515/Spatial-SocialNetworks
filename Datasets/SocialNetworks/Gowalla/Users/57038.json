@@ -5,7 +5,20 @@
     "email": "lgallagher@yahoo.com",
     "birthdate": "2009-07-23",
     "phone": "8433426990",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        42,
+        66,
+        10,
+        35,
+        29,
+        15
+    ],
+    "login locations": [
+        [
+            -118.292061,
+            33.82998
+        ]
+    ],
+    "relationships": []
 }

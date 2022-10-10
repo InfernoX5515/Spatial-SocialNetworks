@@ -5,7 +5,23 @@
     "email": "jacobspamela@yahoo.com",
     "birthdate": "1962-11-08",
     "phone": "9219707004",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        67,
+        68,
+        35,
+        51,
+        10,
+        59,
+        40,
+        16,
+        71
+    ],
+    "login locations": [
+        [
+            -121.890716,
+            37.257545
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "wcollier@gmail.com",
     "birthdate": "1943-07-23",
     "phone": "350-798-6087x8002",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.413054,
+            37.766885
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "fwright@hotmail.com",
     "birthdate": "2016-09-01",
     "phone": "390.585.2746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        45,
+        32,
+        62,
+        20,
+        61
+    ],
+    "login locations": [
+        [
+            -118.344268,
+            34.069203
+        ]
+    ],
+    "relationships": []
 }

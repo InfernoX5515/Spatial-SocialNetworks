@@ -5,7 +5,23 @@
     "email": "donnabrown@yahoo.com",
     "birthdate": "1929-12-18",
     "phone": "462.037.5659",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.72505,
+            33.588804
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                189165,
+                0.125
+            ],
+            [
+                189165,
+                0.125
+            ]
+        ]
+    ]
 }

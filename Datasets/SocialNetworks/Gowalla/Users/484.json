@@ -5,7 +5,28 @@
     "email": "michaelbrown@yahoo.com",
     "birthdate": "2016-07-11",
     "phone": "+1-393-313-4856x4327",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        1,
+        65,
+        12
+    ],
+    "login locations": [
+        [
+            -122.413307,
+            37.735337
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                86,
+                0.0111642743222
+            ],
+            [
+                313,
+                0.0654338549075
+            ]
+        ]
+    ]
 }

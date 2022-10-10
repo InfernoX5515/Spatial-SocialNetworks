@@ -5,7 +5,19 @@
     "email": "ronaldroy@yahoo.com",
     "birthdate": "2018-02-05",
     "phone": "139.319.2598x443",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        37,
+        10,
+        35,
+        36,
+        7
+    ],
+    "login locations": [
+        [
+            -118.041332,
+            34.027654
+        ]
+    ],
+    "relationships": []
 }

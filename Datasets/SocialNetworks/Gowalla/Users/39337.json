@@ -5,7 +5,30 @@
     "email": "sethparker@gmail.com",
     "birthdate": "1933-07-09",
     "phone": "322.269.9452",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        48,
+        38,
+        51,
+        71,
+        17
+    ],
+    "login locations": [
+        [
+            -118.307032,
+            34.038774
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                30588,
+                0.01
+            ],
+            [
+                30588,
+                0.01
+            ]
+        ]
+    ]
 }

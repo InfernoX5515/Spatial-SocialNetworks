@@ -5,7 +5,24 @@
     "email": "vazquezerin@yahoo.com",
     "birthdate": "1937-08-22",
     "phone": "+1-189-538-9064",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        12,
+        60,
+        9,
+        50,
+        63,
+        72,
+        71,
+        26,
+        11,
+        21
+    ],
+    "login locations": [
+        [
+            -122.403559,
+            37.894086
+        ]
+    ],
+    "relationships": []
 }

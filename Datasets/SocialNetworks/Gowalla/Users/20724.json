@@ -5,7 +5,27 @@
     "email": "nberry@hotmail.com",
     "birthdate": "1952-08-27",
     "phone": "2304035705",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        8,
+        32,
+        48,
+        47,
+        68,
+        2,
+        1,
+        45,
+        66,
+        8,
+        15,
+        29,
+        17
+    ],
+    "login locations": [
+        [
+            -122.104592,
+            37.410288
+        ]
+    ],
+    "relationships": []
 }

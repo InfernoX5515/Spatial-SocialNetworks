@@ -5,7 +5,20 @@
     "email": "gdavis@yahoo.com",
     "birthdate": "1970-01-13",
     "phone": "492-238-9532x37503",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        9,
+        61,
+        14,
+        42,
+        12,
+        62
+    ],
+    "login locations": [
+        [
+            -122.391472,
+            37.677831
+        ]
+    ],
+    "relationships": []
 }

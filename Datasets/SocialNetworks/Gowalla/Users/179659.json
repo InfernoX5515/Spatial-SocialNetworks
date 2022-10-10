@@ -5,7 +5,23 @@
     "email": "murphyphilip@yahoo.com",
     "birthdate": "1977-02-09",
     "phone": "(376)583-5779x3584",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        35,
+        14,
+        65,
+        6,
+        55,
+        3,
+        36,
+        48,
+        35
+    ],
+    "login locations": [
+        [
+            -119.115463,
+            36.139255
+        ]
+    ],
+    "relationships": []
 }

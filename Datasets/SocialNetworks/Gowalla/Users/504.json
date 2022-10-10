@@ -5,7 +5,33 @@
     "email": "rjones@hotmail.com",
     "birthdate": "1980-05-05",
     "phone": "(298)755-1770x66949",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        55,
+        41,
+        67,
+        17,
+        13,
+        11,
+        73,
+        19
+    ],
+    "login locations": [
+        [
+            -122.365445,
+            37.649856
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                108,
+                0.0243902439024
+            ],
+            [
+                191,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,15 @@
     "email": "amber68@yahoo.com",
     "birthdate": "1944-05-19",
     "phone": "508-474-0005x5641",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        32
+    ],
+    "login locations": [
+        [
+            -119.208957,
+            34.275226
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "sanderstheresa@yahoo.com",
     "birthdate": "1999-09-16",
     "phone": "001-018-626-7167",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        13,
+        52,
+        32,
+        49,
+        25
+    ],
+    "login locations": [
+        [
+            -122.206668,
+            37.727148
+        ]
+    ],
+    "relationships": []
 }

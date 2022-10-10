@@ -5,7 +5,27 @@
     "email": "kristenwatson@gmail.com",
     "birthdate": "1955-06-06",
     "phone": "903.204.5331",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        7,
+        4,
+        11,
+        36,
+        43,
+        3,
+        75,
+        75,
+        39,
+        63,
+        46,
+        65,
+        60
+    ],
+    "login locations": [
+        [
+            -122.013837,
+            37.363541
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,30 @@
     "email": "adammalone@yahoo.com",
     "birthdate": "2014-06-13",
     "phone": "001-576-879-3473",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        21,
+        8,
+        19,
+        53,
+        69
+    ],
+    "login locations": [
+        [
+            -122.435761,
+            37.7963
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                75277,
+                0.25
+            ],
+            [
+                41803,
+                0.444444444444
+            ]
+        ]
+    ]
 }

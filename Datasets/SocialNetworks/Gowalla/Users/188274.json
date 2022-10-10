@@ -5,7 +5,26 @@
     "email": "kellymartinez@hotmail.com",
     "birthdate": "1981-10-26",
     "phone": "+1-445-938-8820",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        71,
+        20,
+        67,
+        25,
+        46,
+        2,
+        44,
+        29,
+        68,
+        65,
+        58,
+        25
+    ],
+    "login locations": [
+        [
+            -121.492066,
+            38.575649
+        ]
+    ],
+    "relationships": []
 }

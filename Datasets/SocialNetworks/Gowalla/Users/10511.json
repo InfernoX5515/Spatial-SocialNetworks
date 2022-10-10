@@ -5,7 +5,27 @@
     "email": "hicksbobby@hotmail.com",
     "birthdate": "2013-12-13",
     "phone": "169.454.0757x6507",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        71,
+        61,
+        29,
+        75,
+        40,
+        21,
+        59,
+        28,
+        35,
+        74,
+        58,
+        71,
+        42
+    ],
+    "login locations": [
+        [
+            -117.893148,
+            33.906447
+        ]
+    ],
+    "relationships": []
 }

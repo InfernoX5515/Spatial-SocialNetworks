@@ -5,7 +5,32 @@
     "email": "ifields@gmail.com",
     "birthdate": "1907-12-26",
     "phone": "995-629-2381x30540",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        36,
+        58,
+        36,
+        74,
+        74,
+        65,
+        58
+    ],
+    "login locations": [
+        [
+            -122.005379,
+            37.396401
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4228,
+                0.0322580645161
+            ],
+            [
+                4228,
+                0.0322580645161
+            ]
+        ]
+    ]
 }

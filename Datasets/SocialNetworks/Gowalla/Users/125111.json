@@ -5,7 +5,33 @@
     "email": "brandon09@gmail.com",
     "birthdate": "1940-07-01",
     "phone": "001-671-424-2423x10438",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        34,
+        58,
+        55,
+        40,
+        1,
+        68,
+        0,
+        10
+    ],
+    "login locations": [
+        [
+            -118.230045,
+            34.02582
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125112,
+                0.75
+            ],
+            [
+                125112,
+                0.75
+            ]
+        ]
+    ]
 }

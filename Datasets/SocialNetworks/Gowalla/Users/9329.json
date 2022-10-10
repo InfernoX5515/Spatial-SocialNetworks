@@ -5,7 +5,18 @@
     "email": "trankatherine@hotmail.com",
     "birthdate": "1994-05-27",
     "phone": "(882)492-7506",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        68,
+        38,
+        58,
+        46
+    ],
+    "login locations": [
+        [
+            -122.184843,
+            37.451339
+        ]
+    ],
+    "relationships": []
 }

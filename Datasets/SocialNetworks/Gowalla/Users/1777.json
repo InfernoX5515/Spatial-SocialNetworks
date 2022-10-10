@@ -5,7 +5,12 @@
     "email": "amy77@gmail.com",
     "birthdate": "1969-03-21",
     "phone": "073-461-0633",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.355942,
+            34.071372
+        ]
+    ],
+    "relationships": []
 }

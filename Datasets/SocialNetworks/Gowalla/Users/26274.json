@@ -5,7 +5,23 @@
     "email": "robert84@yahoo.com",
     "birthdate": "1966-02-13",
     "phone": "230.135.5420x01388",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        32,
+        46,
+        43,
+        4,
+        23,
+        69,
+        42,
+        1,
+        37
+    ],
+    "login locations": [
+        [
+            -122.412186,
+            37.785657
+        ]
+    ],
+    "relationships": []
 }

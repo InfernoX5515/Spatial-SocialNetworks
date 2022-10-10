@@ -5,7 +5,16 @@
     "email": "ewood@gmail.com",
     "birthdate": "1961-06-25",
     "phone": "429-942-7647",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        21,
+        23
+    ],
+    "login locations": [
+        [
+            -122.425914,
+            37.655985
+        ]
+    ],
+    "relationships": []
 }

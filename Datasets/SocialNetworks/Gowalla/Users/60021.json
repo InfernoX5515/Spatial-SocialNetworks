@@ -5,7 +5,28 @@
     "email": "lisagonzales@hotmail.com",
     "birthdate": "1926-04-02",
     "phone": "+1-974-746-8683x56054",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        44,
+        42,
+        57,
+        5,
+        18,
+        4,
+        70,
+        72,
+        43,
+        21,
+        72,
+        24,
+        25,
+        39
+    ],
+    "login locations": [
+        [
+            -121.342577,
+            38.691926
+        ]
+    ],
+    "relationships": []
 }

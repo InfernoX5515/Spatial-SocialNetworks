@@ -5,7 +5,27 @@
     "email": "vmorrison@gmail.com",
     "birthdate": "1921-08-22",
     "phone": "424-156-8729",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        45,
+        43,
+        51,
+        0,
+        37,
+        33,
+        30,
+        67,
+        15,
+        69,
+        37,
+        40,
+        47
+    ],
+    "login locations": [
+        [
+            -118.342655,
+            34.148887
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "iwalters@gmail.com",
     "birthdate": "2007-01-10",
     "phone": "138.084.0331x4571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        30,
+        44,
+        24
+    ],
+    "login locations": [
+        [
+            -116.545444,
+            33.811821
+        ]
+    ],
+    "relationships": []
 }

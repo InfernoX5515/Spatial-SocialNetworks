@@ -5,7 +5,21 @@
     "email": "jvalenzuela@yahoo.com",
     "birthdate": "1911-10-09",
     "phone": "1656902726",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        9,
+        52,
+        64,
+        4,
+        46,
+        35,
+        65
+    ],
+    "login locations": [
+        [
+            -122.15453,
+            37.440711
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "brownjose@gmail.com",
     "birthdate": "1941-10-12",
     "phone": "+1-866-221-3943x44954",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27
+    ],
+    "login locations": [
+        [
+            -122.40557,
+            37.762842
+        ]
+    ],
+    "relationships": []
 }

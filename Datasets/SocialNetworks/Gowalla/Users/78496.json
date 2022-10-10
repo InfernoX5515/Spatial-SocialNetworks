@@ -5,7 +5,12 @@
     "email": "wjones@hotmail.com",
     "birthdate": "1982-11-02",
     "phone": "4500452067",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.390737,
+            37.772838
+        ]
+    ],
+    "relationships": []
 }

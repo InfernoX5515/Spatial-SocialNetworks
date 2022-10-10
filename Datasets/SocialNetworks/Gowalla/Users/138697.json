@@ -5,7 +5,21 @@
     "email": "qhoward@gmail.com",
     "birthdate": "2013-05-10",
     "phone": "827.378.8850x9004",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        50,
+        0,
+        73,
+        2,
+        12,
+        11,
+        4
+    ],
+    "login locations": [
+        [
+            -117.139394,
+            32.939316
+        ]
+    ],
+    "relationships": []
 }

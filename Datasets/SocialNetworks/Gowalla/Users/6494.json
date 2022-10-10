@@ -5,7 +5,21 @@
     "email": "diazelizabeth@hotmail.com",
     "birthdate": "2014-12-03",
     "phone": "389.699.8185x30763",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        11,
+        26,
+        5,
+        58,
+        13,
+        20,
+        1
+    ],
+    "login locations": [
+        [
+            -122.415355,
+            37.762788
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,39 @@
     "email": "phylliswilson@hotmail.com",
     "birthdate": "1936-08-17",
     "phone": "001-352-864-4524",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        39,
+        28,
+        14,
+        47,
+        15,
+        18,
+        38,
+        22,
+        42,
+        44,
+        63,
+        65,
+        23,
+        37
+    ],
+    "login locations": [
+        [
+            -117.823015,
+            34.046505
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                221,
+                0.3
+            ],
+            [
+                2143,
+                0.04
+            ]
+        ]
+    ]
 }

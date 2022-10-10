@@ -5,7 +5,18 @@
     "email": "andrewsanchez@hotmail.com",
     "birthdate": "1993-02-03",
     "phone": "802-152-7435x876",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        32,
+        54,
+        65,
+        1
+    ],
+    "login locations": [
+        [
+            -122.800639,
+            38.54084
+        ]
+    ],
+    "relationships": []
 }

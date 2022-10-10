@@ -5,7 +5,25 @@
     "email": "margaretlopez@gmail.com",
     "birthdate": "2018-11-26",
     "phone": "605-697-4355",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        70,
+        30,
+        70,
+        20,
+        49,
+        49,
+        3,
+        75,
+        2,
+        54,
+        31
+    ],
+    "login locations": [
+        [
+            -122.426561,
+            37.780091
+        ]
+    ],
+    "relationships": []
 }

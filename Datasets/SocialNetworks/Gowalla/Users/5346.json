@@ -5,7 +5,32 @@
     "email": "joseph94@gmail.com",
     "birthdate": "1932-03-17",
     "phone": "(138)873-9233x628",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        52,
+        41,
+        13,
+        66,
+        68,
+        25,
+        29
+    ],
+    "login locations": [
+        [
+            -122.400723,
+            37.710072
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.0454545454545
+            ],
+            [
+                78,
+                0.0432692307692
+            ]
+        ]
+    ]
 }

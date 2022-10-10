@@ -5,7 +5,26 @@
     "email": "tpayne@yahoo.com",
     "birthdate": "2004-09-17",
     "phone": "624-158-7118",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        36,
+        57,
+        57,
+        34,
+        21,
+        17,
+        64,
+        25,
+        44,
+        9,
+        38,
+        33
+    ],
+    "login locations": [
+        [
+            -121.928217,
+            36.76493
+        ]
+    ],
+    "relationships": []
 }

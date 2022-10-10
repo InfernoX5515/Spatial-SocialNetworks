@@ -5,7 +5,30 @@
     "email": "andrea25@hotmail.com",
     "birthdate": "1957-04-05",
     "phone": "001-391-571-0383x216",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        14,
+        30,
+        2,
+        28,
+        61
+    ],
+    "login locations": [
+        [
+            -120.795919,
+            38.366269
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                70392,
+                0.0296296296296
+            ],
+            [
+                156786,
+                0.0833333333333
+            ]
+        ]
+    ]
 }

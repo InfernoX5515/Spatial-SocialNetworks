@@ -5,7 +5,25 @@
     "email": "hrobinson@yahoo.com",
     "birthdate": "2007-09-01",
     "phone": "851-185-6086",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -117.941341,
+            33.690943
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                71564,
+                0.1
+            ],
+            [
+                71564,
+                0.1
+            ]
+        ]
+    ]
 }

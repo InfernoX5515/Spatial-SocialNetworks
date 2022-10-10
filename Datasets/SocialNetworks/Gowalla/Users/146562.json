@@ -5,7 +5,23 @@
     "email": "susan75@hotmail.com",
     "birthdate": "1908-03-16",
     "phone": "(125)642-8301",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        69,
+        12,
+        62,
+        60,
+        33,
+        7,
+        7,
+        1,
+        75
+    ],
+    "login locations": [
+        [
+            -121.320001,
+            38.606118
+        ]
+    ],
+    "relationships": []
 }

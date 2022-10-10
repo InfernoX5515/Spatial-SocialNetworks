@@ -5,7 +5,22 @@
     "email": "cynthiahunt@yahoo.com",
     "birthdate": "1972-11-12",
     "phone": "001-496-069-2394",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        25,
+        14,
+        27,
+        50,
+        3,
+        9,
+        22,
+        44
+    ],
+    "login locations": [
+        [
+            -121.933251,
+            37.722167
+        ]
+    ],
+    "relationships": []
 }

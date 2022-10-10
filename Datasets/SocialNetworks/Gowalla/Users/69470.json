@@ -5,7 +5,26 @@
     "email": "pjames@gmail.com",
     "birthdate": "1937-03-09",
     "phone": "+1-049-040-8327x1829",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        27,
+        32,
+        54,
+        44,
+        42,
+        73,
+        69,
+        29,
+        72,
+        66,
+        69,
+        35
+    ],
+    "login locations": [
+        [
+            -122.250357,
+            37.830643
+        ]
+    ],
+    "relationships": []
 }

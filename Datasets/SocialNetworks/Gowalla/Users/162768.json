@@ -5,7 +5,17 @@
     "email": "kanderson@yahoo.com",
     "birthdate": "1928-10-28",
     "phone": "410.201.8955x872",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        11,
+        64,
+        40
+    ],
+    "login locations": [
+        [
+            -117.154704,
+            32.760628
+        ]
+    ],
+    "relationships": []
 }

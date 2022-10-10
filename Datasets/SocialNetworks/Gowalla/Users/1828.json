@@ -5,7 +5,31 @@
     "email": "conleylori@hotmail.com",
     "birthdate": "1966-05-26",
     "phone": "745.611.6760",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        74,
+        59,
+        47,
+        4,
+        13,
+        65
+    ],
+    "login locations": [
+        [
+            -118.280921,
+            34.02123
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8705,
+                0.391764705882
+            ],
+            [
+                8690,
+                0.234285714286
+            ]
+        ]
+    ]
 }

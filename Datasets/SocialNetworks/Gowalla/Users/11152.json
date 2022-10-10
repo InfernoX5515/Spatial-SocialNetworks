@@ -5,7 +5,25 @@
     "email": "juanwelch@yahoo.com",
     "birthdate": "2011-12-13",
     "phone": "(942)888-6815",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71
+    ],
+    "login locations": [
+        [
+            -122.084493,
+            37.806596
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5530,
+                0.0170648464164
+            ],
+            [
+                5530,
+                0.0170648464164
+            ]
+        ]
+    ]
 }

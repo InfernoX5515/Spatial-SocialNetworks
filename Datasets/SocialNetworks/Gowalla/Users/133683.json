@@ -5,7 +5,18 @@
     "email": "sandovalamanda@gmail.com",
     "birthdate": "1980-10-26",
     "phone": "001-810-373-1075x9412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        39,
+        29,
+        66,
+        22
+    ],
+    "login locations": [
+        [
+            -118.556534,
+            34.40313
+        ]
+    ],
+    "relationships": []
 }

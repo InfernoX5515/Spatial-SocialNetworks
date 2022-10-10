@@ -5,7 +5,22 @@
     "email": "ystanley@gmail.com",
     "birthdate": "1939-09-20",
     "phone": "361.076.2196",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        39,
+        68,
+        14,
+        59,
+        65,
+        25,
+        39,
+        3
+    ],
+    "login locations": [
+        [
+            -118.103848,
+            34.079545
+        ]
+    ],
+    "relationships": []
 }

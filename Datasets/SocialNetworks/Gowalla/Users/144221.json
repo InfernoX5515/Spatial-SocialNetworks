@@ -5,7 +5,17 @@
     "email": "sarah18@hotmail.com",
     "birthdate": "1994-08-20",
     "phone": "+1-259-195-1234x04015",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        27,
+        32,
+        45
+    ],
+    "login locations": [
+        [
+            -119.008342,
+            35.38122
+        ]
+    ],
+    "relationships": []
 }

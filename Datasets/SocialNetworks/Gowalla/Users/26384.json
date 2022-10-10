@@ -5,7 +5,16 @@
     "email": "bettygutierrez@gmail.com",
     "birthdate": "1957-08-21",
     "phone": "560-333-0493",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        25,
+        51
+    ],
+    "login locations": [
+        [
+            -117.8983,
+            33.812325
+        ]
+    ],
+    "relationships": []
 }

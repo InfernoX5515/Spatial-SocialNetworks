@@ -5,7 +5,12 @@
     "email": "huynhlori@hotmail.com",
     "birthdate": "1989-04-10",
     "phone": "060.026.5980x9218",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.960962,
+            37.301963
+        ]
+    ],
+    "relationships": []
 }

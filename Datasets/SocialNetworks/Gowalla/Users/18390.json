@@ -5,7 +5,37 @@
     "email": "amanda40@hotmail.com",
     "birthdate": "1960-03-12",
     "phone": "259-380-9806x231",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        48,
+        28,
+        53,
+        0,
+        40,
+        20,
+        45,
+        63,
+        15,
+        36,
+        25,
+        13
+    ],
+    "login locations": [
+        [
+            -121.906265,
+            37.263032
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                106734,
+                0.2
+            ],
+            [
+                106734,
+                0.2
+            ]
+        ]
+    ]
 }

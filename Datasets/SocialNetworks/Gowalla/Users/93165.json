@@ -5,7 +5,18 @@
     "email": "kevintaylor@gmail.com",
     "birthdate": "1931-10-08",
     "phone": "784-314-6985",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        58,
+        24,
+        7,
+        44
+    ],
+    "login locations": [
+        [
+            -122.332434,
+            37.864733
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "hinesvanessa@gmail.com",
     "birthdate": "1960-05-02",
     "phone": "001-579-407-0801x2339",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        36,
+        1,
+        19,
+        64,
+        5,
+        18
+    ],
+    "login locations": [
+        [
+            -122.342529,
+            37.810833
+        ]
+    ],
+    "relationships": []
 }

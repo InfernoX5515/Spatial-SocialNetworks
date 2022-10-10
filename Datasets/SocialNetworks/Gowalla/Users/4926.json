@@ -5,7 +5,35 @@
     "email": "chelseawilliams@gmail.com",
     "birthdate": "1914-01-05",
     "phone": "001-955-175-7907",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        21,
+        12,
+        37,
+        4,
+        19,
+        59,
+        59,
+        69,
+        28,
+        50
+    ],
+    "login locations": [
+        [
+            -121.452542,
+            38.604233
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                161,
+                0.0229007633588
+            ],
+            [
+                4371,
+                0.01
+            ]
+        ]
+    ]
 }

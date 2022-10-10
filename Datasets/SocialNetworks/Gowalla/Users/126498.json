@@ -5,7 +5,22 @@
     "email": "xchambers@hotmail.com",
     "birthdate": "1940-08-08",
     "phone": "001-395-082-9546x627",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        57,
+        26,
+        22,
+        20,
+        28,
+        9,
+        23,
+        13
+    ],
+    "login locations": [
+        [
+            -121.945729,
+            37.45267
+        ]
+    ],
+    "relationships": []
 }

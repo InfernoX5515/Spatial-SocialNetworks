@@ -5,7 +5,23 @@
     "email": "cheryl44@yahoo.com",
     "birthdate": "2016-01-02",
     "phone": "001-257-641-6047x7569",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        37,
+        20,
+        14,
+        30,
+        32,
+        43,
+        12,
+        19,
+        23
+    ],
+    "login locations": [
+        [
+            -122.381919,
+            37.794352
+        ]
+    ],
+    "relationships": []
 }

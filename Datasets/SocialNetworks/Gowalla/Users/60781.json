@@ -5,7 +5,23 @@
     "email": "hsmith@yahoo.com",
     "birthdate": "1940-04-28",
     "phone": "001-721-557-4475x6281",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        74,
+        16,
+        15,
+        30,
+        15,
+        74,
+        12,
+        27,
+        26
+    ],
+    "login locations": [
+        [
+            -122.019161,
+            37.358004
+        ]
+    ],
+    "relationships": []
 }

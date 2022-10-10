@@ -5,7 +5,16 @@
     "email": "greyes@hotmail.com",
     "birthdate": "1962-05-20",
     "phone": "733.382.9353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        63,
+        21
+    ],
+    "login locations": [
+        [
+            -122.412578,
+            37.789948
+        ]
+    ],
+    "relationships": []
 }

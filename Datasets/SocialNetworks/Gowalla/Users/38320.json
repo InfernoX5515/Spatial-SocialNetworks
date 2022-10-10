@@ -5,7 +5,28 @@
     "email": "mbridges@yahoo.com",
     "birthdate": "2012-02-11",
     "phone": "887-964-1904x340",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        64,
+        22,
+        68,
+        55,
+        47,
+        59,
+        29,
+        31,
+        72,
+        28,
+        40,
+        70,
+        1,
+        20
+    ],
+    "login locations": [
+        [
+            -117.921463,
+            33.796885
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,31 @@
     "email": "erik31@hotmail.com",
     "birthdate": "2006-06-21",
     "phone": "019-384-2166",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        18,
+        69,
+        27,
+        69,
+        57,
+        37
+    ],
+    "login locations": [
+        [
+            -117.768492,
+            34.039477
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                56061,
+                0.258064516129
+            ],
+            [
+                148347,
+                0.28
+            ]
+        ]
+    ]
 }

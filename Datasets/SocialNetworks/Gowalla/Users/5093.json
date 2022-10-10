@@ -5,7 +5,35 @@
     "email": "haroldwood@gmail.com",
     "birthdate": "1975-03-08",
     "phone": "130.068.7545",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        24,
+        39,
+        17,
+        6,
+        15,
+        67,
+        64,
+        41,
+        65,
+        1
+    ],
+    "login locations": [
+        [
+            -122.059922,
+            37.37984
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.021897810219
+            ],
+            [
+                477,
+                0.0134907251265
+            ]
+        ]
+    ]
 }

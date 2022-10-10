@@ -5,7 +5,26 @@
     "email": "hannah77@yahoo.com",
     "birthdate": "1941-04-22",
     "phone": "001-469-809-8706",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        33,
+        16,
+        16,
+        68,
+        71,
+        73,
+        2,
+        69,
+        27,
+        71,
+        49,
+        75
+    ],
+    "login locations": [
+        [
+            -117.99693,
+            33.86508
+        ]
+    ],
+    "relationships": []
 }

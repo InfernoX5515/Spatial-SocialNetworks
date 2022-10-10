@@ -5,7 +5,23 @@
     "email": "colinryan@hotmail.com",
     "birthdate": "1917-09-12",
     "phone": "+1-124-558-4353x07254",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        47,
+        51,
+        2,
+        34,
+        63,
+        15,
+        59,
+        60,
+        27
+    ],
+    "login locations": [
+        [
+            -118.347894,
+            33.934985
+        ]
+    ],
+    "relationships": []
 }

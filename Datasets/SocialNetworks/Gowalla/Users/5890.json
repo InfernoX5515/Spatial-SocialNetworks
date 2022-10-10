@@ -5,7 +5,27 @@
     "email": "karen36@yahoo.com",
     "birthdate": "1974-08-03",
     "phone": "(160)694-9238x328",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        30,
+        45,
+        28,
+        54,
+        12,
+        40,
+        54,
+        69,
+        49,
+        57,
+        45,
+        16,
+        64
+    ],
+    "login locations": [
+        [
+            -117.925356,
+            33.87009
+        ]
+    ],
+    "relationships": []
 }

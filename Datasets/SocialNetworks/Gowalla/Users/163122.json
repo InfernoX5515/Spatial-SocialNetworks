@@ -5,7 +5,16 @@
     "email": "smcknight@gmail.com",
     "birthdate": "1981-06-11",
     "phone": "8382301124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        47,
+        0
+    ],
+    "login locations": [
+        [
+            -121.372443,
+            38.663388
+        ]
+    ],
+    "relationships": []
 }

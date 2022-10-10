@@ -5,7 +5,20 @@
     "email": "tracyhuynh@hotmail.com",
     "birthdate": "2002-01-20",
     "phone": "001-139-524-0675x410",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        10,
+        68,
+        1,
+        62,
+        6,
+        20
+    ],
+    "login locations": [
+        [
+            -122.029973,
+            37.392359
+        ]
+    ],
+    "relationships": []
 }

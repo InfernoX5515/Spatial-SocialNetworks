@@ -5,7 +5,35 @@
     "email": "emilywilliams@gmail.com",
     "birthdate": "1921-08-06",
     "phone": "796-960-4043x13318",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        22,
+        2,
+        8,
+        18,
+        58,
+        22,
+        16,
+        61,
+        34,
+        13
+    ],
+    "login locations": [
+        [
+            -117.708477,
+            33.83318
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1731,
+                0.06
+            ],
+            [
+                1731,
+                0.06
+            ]
+        ]
+    ]
 }

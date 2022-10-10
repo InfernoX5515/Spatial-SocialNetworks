@@ -5,7 +5,38 @@
     "email": "pkidd@yahoo.com",
     "birthdate": "1965-05-09",
     "phone": "001-632-521-5939",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        18,
+        9,
+        57,
+        61,
+        32,
+        27,
+        22,
+        72,
+        41,
+        70,
+        75,
+        35,
+        57
+    ],
+    "login locations": [
+        [
+            -122.408928,
+            37.791485
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                221,
+                0.2
+            ],
+            [
+                2070,
+                0.15
+            ]
+        ]
+    ]
 }

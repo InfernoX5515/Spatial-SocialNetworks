@@ -5,7 +5,29 @@
     "email": "smithjesse@hotmail.com",
     "birthdate": "1918-10-01",
     "phone": "1476722847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        25,
+        41,
+        16,
+        2
+    ],
+    "login locations": [
+        [
+            -117.230492,
+            32.964697
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5785,
+                0.08
+            ],
+            [
+                5232,
+                0.0255220417633
+            ]
+        ]
+    ]
 }

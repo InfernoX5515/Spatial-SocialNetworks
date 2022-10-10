@@ -5,7 +5,27 @@
     "email": "shawn83@hotmail.com",
     "birthdate": "2010-09-22",
     "phone": "(972)152-9015",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        28,
+        47,
+        68,
+        11,
+        70,
+        73,
+        23,
+        10,
+        8,
+        49,
+        55,
+        34,
+        18
+    ],
+    "login locations": [
+        [
+            -122.399482,
+            37.657805
+        ]
+    ],
+    "relationships": []
 }

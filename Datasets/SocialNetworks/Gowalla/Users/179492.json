@@ -5,7 +5,26 @@
     "email": "scottnelson@yahoo.com",
     "birthdate": "1998-08-23",
     "phone": "531-928-2445",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        6,
+        20,
+        43,
+        42,
+        52,
+        30,
+        13,
+        38,
+        74,
+        75,
+        22,
+        65
+    ],
+    "login locations": [
+        [
+            -121.326452,
+            38.688409
+        ]
+    ],
+    "relationships": []
 }

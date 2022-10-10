@@ -5,7 +5,12 @@
     "email": "patrickcooper@yahoo.com",
     "birthdate": "1996-04-07",
     "phone": "2738024265",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.045644,
+            33.921022
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "mikekirk@gmail.com",
     "birthdate": "1945-11-07",
     "phone": "770-265-1241",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        68,
+        50
+    ],
+    "login locations": [
+        [
+            -118.409329,
+            34.02485
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "hayesdesiree@hotmail.com",
     "birthdate": "1917-10-15",
     "phone": "(962)608-9925",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        27,
+        45,
+        21
+    ],
+    "login locations": [
+        [
+            -118.312671,
+            34.061484
+        ]
+    ],
+    "relationships": []
 }

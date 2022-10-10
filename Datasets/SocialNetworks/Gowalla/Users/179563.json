@@ -5,7 +5,24 @@
     "email": "jonathangibbs@hotmail.com",
     "birthdate": "1936-04-10",
     "phone": "(185)999-1143x72830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        1,
+        69,
+        74,
+        0,
+        52,
+        22,
+        15,
+        35,
+        50,
+        30
+    ],
+    "login locations": [
+        [
+            -114.609621,
+            32.674621
+        ]
+    ],
+    "relationships": []
 }

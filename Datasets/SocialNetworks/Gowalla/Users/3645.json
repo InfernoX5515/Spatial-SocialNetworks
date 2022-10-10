@@ -5,7 +5,15 @@
     "email": "amy32@hotmail.com",
     "birthdate": "1990-11-02",
     "phone": "597-803-3244x54104",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        54
+    ],
+    "login locations": [
+        [
+            -122.420563,
+            37.713075
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "victoria49@gmail.com",
     "birthdate": "1931-08-26",
     "phone": "298.881.8169",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        19,
+        67,
+        61,
+        50,
+        36,
+        40,
+        19,
+        5,
+        56,
+        57,
+        42,
+        26,
+        17,
+        61
+    ],
+    "login locations": [
+        [
+            -117.201961,
+            32.79517
+        ]
+    ],
+    "relationships": []
 }

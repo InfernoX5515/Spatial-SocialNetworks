@@ -5,7 +5,28 @@
     "email": "kenneth67@hotmail.com",
     "birthdate": "1937-05-22",
     "phone": "(307)794-7135",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        9,
+        34,
+        11,
+        21,
+        44,
+        31,
+        26,
+        52,
+        18,
+        32,
+        0,
+        10,
+        39,
+        73
+    ],
+    "login locations": [
+        [
+            -118.447921,
+            33.991032
+        ]
+    ],
+    "relationships": []
 }

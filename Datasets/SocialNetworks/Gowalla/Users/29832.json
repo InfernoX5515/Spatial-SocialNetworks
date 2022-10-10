@@ -5,7 +5,22 @@
     "email": "rperez@gmail.com",
     "birthdate": "1985-10-26",
     "phone": "(073)440-3615x79373",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        15,
+        40,
+        1,
+        71,
+        55,
+        0,
+        56,
+        69
+    ],
+    "login locations": [
+        [
+            -118.265852,
+            34.045215
+        ]
+    ],
+    "relationships": []
 }

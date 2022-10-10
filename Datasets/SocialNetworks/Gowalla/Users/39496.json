@@ -5,7 +5,18 @@
     "email": "jamesjackson@hotmail.com",
     "birthdate": "1924-11-13",
     "phone": "168.182.6796x95718",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        36,
+        58,
+        26,
+        67
+    ],
+    "login locations": [
+        [
+            -118.089158,
+            33.813558
+        ]
+    ],
+    "relationships": []
 }

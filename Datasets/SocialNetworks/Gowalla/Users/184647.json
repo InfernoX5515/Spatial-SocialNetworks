@@ -5,7 +5,12 @@
     "email": "johnsonsabrina@yahoo.com",
     "birthdate": "1951-08-21",
     "phone": "001-321-453-6702x946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.403582,
+            37.754828
+        ]
+    ],
+    "relationships": []
 }

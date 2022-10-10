@@ -5,7 +5,14 @@
     "email": "edwardtaylor@yahoo.com",
     "birthdate": "1909-08-10",
     "phone": "172-793-3480x8041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50
+    ],
+    "login locations": [
+        [
+            -117.372722,
+            34.050452
+        ]
+    ],
+    "relationships": []
 }

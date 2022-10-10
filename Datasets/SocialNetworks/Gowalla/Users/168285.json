@@ -5,7 +5,20 @@
     "email": "abbottbrandon@hotmail.com",
     "birthdate": "1954-09-17",
     "phone": "(449)429-6012x174",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        38,
+        71,
+        18,
+        3,
+        64,
+        12
+    ],
+    "login locations": [
+        [
+            -122.440821,
+            37.743432
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "wneal@gmail.com",
     "birthdate": "1918-10-27",
     "phone": "601-216-0955",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69
+    ],
+    "login locations": [
+        [
+            -121.255,
+            38.116465
+        ]
+    ],
+    "relationships": []
 }

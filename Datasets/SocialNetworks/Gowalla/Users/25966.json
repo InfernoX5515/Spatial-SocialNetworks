@@ -5,7 +5,28 @@
     "email": "masseynathan@gmail.com",
     "birthdate": "1909-03-24",
     "phone": "990-767-6026",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        12,
+        73,
+        19
+    ],
+    "login locations": [
+        [
+            -118.008732,
+            34.045959
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5612,
+                0.0184615384615
+            ],
+            [
+                9205,
+                0.0184615384615
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,12 @@
     "email": "isaac36@hotmail.com",
     "birthdate": "1973-05-28",
     "phone": "001-124-380-4223x3553",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.444274,
+            34.019264
+        ]
+    ],
+    "relationships": []
 }

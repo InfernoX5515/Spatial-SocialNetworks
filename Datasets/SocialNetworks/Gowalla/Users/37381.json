@@ -5,7 +5,36 @@
     "email": "vpatton@gmail.com",
     "birthdate": "2012-05-06",
     "phone": "249-649-0208x19647",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        51,
+        64,
+        15,
+        15,
+        73,
+        36,
+        17,
+        51,
+        46,
+        63,
+        70
+    ],
+    "login locations": [
+        [
+            -118.016969,
+            33.855685
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1904,
+                0.01
+            ],
+            [
+                39338,
+                0.0131578947368
+            ]
+        ]
+    ]
 }

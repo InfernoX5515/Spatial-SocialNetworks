@@ -5,7 +5,27 @@
     "email": "ronnie14@gmail.com",
     "birthdate": "1956-10-30",
     "phone": "776.085.1637",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        65,
+        8,
+        74,
+        20,
+        35,
+        52,
+        29,
+        67,
+        21,
+        14,
+        42,
+        20,
+        28
+    ],
+    "login locations": [
+        [
+            -122.416775,
+            37.78327
+        ]
+    ],
+    "relationships": []
 }

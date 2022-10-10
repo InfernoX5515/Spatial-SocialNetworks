@@ -5,7 +5,25 @@
     "email": "jason42@hotmail.com",
     "birthdate": "2018-01-02",
     "phone": "3157416842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54
+    ],
+    "login locations": [
+        [
+            -121.990962,
+            37.303679
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5223,
+                0.113333333333
+            ],
+            [
+                5223,
+                0.113333333333
+            ]
+        ]
+    ]
 }

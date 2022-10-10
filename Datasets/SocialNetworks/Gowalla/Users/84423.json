@@ -5,7 +5,24 @@
     "email": "alyssameyers@yahoo.com",
     "birthdate": "1979-05-28",
     "phone": "501.069.6850x542",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        75,
+        44,
+        19,
+        61,
+        4,
+        22,
+        11,
+        12,
+        13,
+        63
+    ],
+    "login locations": [
+        [
+            -122.40544,
+            37.765363
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "harrellandrew@hotmail.com",
     "birthdate": "2007-05-05",
     "phone": "(574)244-3205",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        74,
+        44,
+        49,
+        41,
+        8,
+        31,
+        43
+    ],
+    "login locations": [
+        [
+            -122.258234,
+            37.871465
+        ]
+    ],
+    "relationships": []
 }

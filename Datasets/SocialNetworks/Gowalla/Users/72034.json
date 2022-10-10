@@ -5,7 +5,18 @@
     "email": "georgemoreno@hotmail.com",
     "birthdate": "1964-02-20",
     "phone": "077.716.8466",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        69,
+        23,
+        69,
+        7
+    ],
+    "login locations": [
+        [
+            -122.535081,
+            37.965652
+        ]
+    ],
+    "relationships": []
 }

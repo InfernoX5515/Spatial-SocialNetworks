@@ -5,7 +5,27 @@
     "email": "susancrosby@yahoo.com",
     "birthdate": "1962-01-13",
     "phone": "(140)035-1297x872",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        67,
+        38,
+        50,
+        33,
+        73,
+        42,
+        74,
+        6,
+        6,
+        67,
+        54,
+        19,
+        5
+    ],
+    "login locations": [
+        [
+            -119.809816,
+            36.803335
+        ]
+    ],
+    "relationships": []
 }

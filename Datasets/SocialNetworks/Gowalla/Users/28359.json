@@ -5,7 +5,26 @@
     "email": "osbornecristina@hotmail.com",
     "birthdate": "1912-11-04",
     "phone": "(378)951-3373x05682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        31,
+        15,
+        41,
+        15,
+        32,
+        75,
+        14,
+        43,
+        14,
+        71,
+        64,
+        72
+    ],
+    "login locations": [
+        [
+            -120.699081,
+            35.282216
+        ]
+    ],
+    "relationships": []
 }

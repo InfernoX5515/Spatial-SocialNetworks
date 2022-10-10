@@ -5,7 +5,25 @@
     "email": "jacob61@yahoo.com",
     "birthdate": "1922-11-14",
     "phone": "814.802.4165x146",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        44,
+        57,
+        49,
+        75,
+        41,
+        4,
+        15,
+        71,
+        45,
+        62,
+        34
+    ],
+    "login locations": [
+        [
+            -117.132773,
+            32.769149
+        ]
+    ],
+    "relationships": []
 }

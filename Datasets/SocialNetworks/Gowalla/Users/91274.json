@@ -5,7 +5,26 @@
     "email": "obutler@gmail.com",
     "birthdate": "1930-03-26",
     "phone": "(033)039-9443x4039",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        39,
+        31,
+        18,
+        49,
+        42,
+        52,
+        57,
+        20,
+        70,
+        72,
+        44,
+        12
+    ],
+    "login locations": [
+        [
+            -118.144884,
+            34.070528
+        ]
+    ],
+    "relationships": []
 }

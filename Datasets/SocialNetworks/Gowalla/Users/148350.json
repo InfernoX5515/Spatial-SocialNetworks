@@ -5,7 +5,34 @@
     "email": "lguerrero@yahoo.com",
     "birthdate": "1971-01-26",
     "phone": "519-106-8013x326",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        55,
+        6,
+        75,
+        4,
+        21,
+        8,
+        63,
+        15,
+        60
+    ],
+    "login locations": [
+        [
+            -120.990677,
+            37.62964
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                56061,
+                0.01
+            ],
+            [
+                148349,
+                0.0740740740741
+            ]
+        ]
+    ]
 }

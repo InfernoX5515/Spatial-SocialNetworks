@@ -5,7 +5,16 @@
     "email": "carriesmith@hotmail.com",
     "birthdate": "1937-10-18",
     "phone": "+1-749-446-7086x395",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        21,
+        6
+    ],
+    "login locations": [
+        [
+            -122.40154,
+            37.736601
+        ]
+    ],
+    "relationships": []
 }

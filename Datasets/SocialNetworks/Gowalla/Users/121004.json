@@ -5,7 +5,23 @@
     "email": "xcurry@hotmail.com",
     "birthdate": "2000-11-26",
     "phone": "+1-496-338-9238",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        66,
+        8,
+        69,
+        3,
+        29,
+        41,
+        70,
+        19,
+        26
+    ],
+    "login locations": [
+        [
+            -117.15622,
+            32.780533
+        ]
+    ],
+    "relationships": []
 }

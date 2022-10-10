@@ -5,7 +5,18 @@
     "email": "emily33@hotmail.com",
     "birthdate": "2010-04-09",
     "phone": "052-245-7248x240",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        45,
+        63,
+        7,
+        44
+    ],
+    "login locations": [
+        [
+            -122.253447,
+            37.862023
+        ]
+    ],
+    "relationships": []
 }

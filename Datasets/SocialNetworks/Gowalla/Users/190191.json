@@ -5,7 +5,22 @@
     "email": "cbenjamin@gmail.com",
     "birthdate": "2020-02-19",
     "phone": "001-472-746-1920x9748",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        53,
+        7,
+        27,
+        7,
+        35,
+        14,
+        25,
+        56
+    ],
+    "login locations": [
+        [
+            -117.973801,
+            34.000066
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "lawsonamanda@yahoo.com",
     "birthdate": "1909-09-25",
     "phone": "001-084-143-5264x442",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        75,
+        10,
+        19,
+        29,
+        7,
+        25
+    ],
+    "login locations": [
+        [
+            -122.399298,
+            37.783986
+        ]
+    ],
+    "relationships": []
 }

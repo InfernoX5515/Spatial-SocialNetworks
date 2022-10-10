@@ -5,7 +5,19 @@
     "email": "sandracolon@gmail.com",
     "birthdate": "1907-07-08",
     "phone": "367-689-6995x7914",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        9,
+        57,
+        50,
+        61,
+        45
+    ],
+    "login locations": [
+        [
+            -118.439123,
+            34.017169
+        ]
+    ],
+    "relationships": []
 }

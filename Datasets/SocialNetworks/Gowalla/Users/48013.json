@@ -5,7 +5,39 @@
     "email": "kevinmartin@hotmail.com",
     "birthdate": "1965-07-24",
     "phone": "001-733-820-4119x169",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        24,
+        20,
+        46,
+        17,
+        4,
+        25,
+        3,
+        8,
+        52,
+        49,
+        32,
+        26,
+        31,
+        5
+    ],
+    "login locations": [
+        [
+            -122.43577,
+            37.804392
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4514,
+                0.0167597765363
+            ],
+            [
+                4522,
+                0.0186335403727
+            ]
+        ]
+    ]
 }

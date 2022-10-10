@@ -5,7 +5,17 @@
     "email": "paul95@hotmail.com",
     "birthdate": "1920-02-19",
     "phone": "+1-176-563-1992x0445",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        31,
+        63,
+        33
+    ],
+    "login locations": [
+        [
+            -122.388609,
+            37.72966
+        ]
+    ],
+    "relationships": []
 }

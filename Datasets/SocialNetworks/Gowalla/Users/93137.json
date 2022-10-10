@@ -5,7 +5,23 @@
     "email": "colleen36@hotmail.com",
     "birthdate": "2017-05-09",
     "phone": "+1-739-077-5139x191",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        1,
+        1,
+        42,
+        8,
+        70,
+        68,
+        4,
+        11,
+        12
+    ],
+    "login locations": [
+        [
+            -122.150777,
+            37.447345
+        ]
+    ],
+    "relationships": []
 }

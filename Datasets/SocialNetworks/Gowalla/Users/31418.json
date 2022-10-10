@@ -5,7 +5,32 @@
     "email": "brianesparza@hotmail.com",
     "birthdate": "1927-05-01",
     "phone": "937.443.7226x8041",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        0,
+        24,
+        27,
+        43,
+        60,
+        28,
+        59
+    ],
+    "login locations": [
+        [
+            -122.204323,
+            37.88572
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8651,
+                0.0526315789474
+            ],
+            [
+                8651,
+                0.0526315789474
+            ]
+        ]
+    ]
 }

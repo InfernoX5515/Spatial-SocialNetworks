@@ -5,7 +5,27 @@
     "email": "jasonbaker@hotmail.com",
     "birthdate": "1925-12-19",
     "phone": "702.709.9846x986",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        63,
+        44,
+        37,
+        15,
+        71,
+        51,
+        37,
+        21,
+        55,
+        28,
+        34,
+        58,
+        37
+    ],
+    "login locations": [
+        [
+            -119.748359,
+            34.423762
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "aaronguerrero@gmail.com",
     "birthdate": "1906-11-13",
     "phone": "+1-188-342-6950x8128",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        23
+    ],
+    "login locations": [
+        [
+            -122.399804,
+            37.779928
+        ]
+    ],
+    "relationships": []
 }

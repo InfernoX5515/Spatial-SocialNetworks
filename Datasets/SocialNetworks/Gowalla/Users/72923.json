@@ -5,7 +5,15 @@
     "email": "angelahuber@yahoo.com",
     "birthdate": "1939-03-27",
     "phone": "(340)504-3968x75139",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        56
+    ],
+    "login locations": [
+        [
+            -122.405654,
+            37.755644
+        ]
+    ],
+    "relationships": []
 }

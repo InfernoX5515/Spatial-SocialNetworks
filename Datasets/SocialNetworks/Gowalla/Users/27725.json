@@ -5,7 +5,23 @@
     "email": "whitejoseph@hotmail.com",
     "birthdate": "1998-06-15",
     "phone": "(974)945-2101",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        34,
+        67,
+        19,
+        2,
+        21,
+        44,
+        30,
+        23,
+        49
+    ],
+    "login locations": [
+        [
+            -118.299984,
+            34.07669
+        ]
+    ],
+    "relationships": []
 }

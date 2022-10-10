@@ -5,7 +5,28 @@
     "email": "gpowers@yahoo.com",
     "birthdate": "1971-08-13",
     "phone": "350-504-0193",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        7,
+        29,
+        27,
+        50,
+        53,
+        25,
+        40,
+        35,
+        55,
+        19,
+        14,
+        40,
+        8,
+        2
+    ],
+    "login locations": [
+        [
+            -121.480126,
+            38.571931
+        ]
+    ],
+    "relationships": []
 }

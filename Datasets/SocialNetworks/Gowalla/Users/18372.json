@@ -5,7 +5,17 @@
     "email": "paulharris@yahoo.com",
     "birthdate": "1927-04-10",
     "phone": "+1-719-170-9605",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        37,
+        58,
+        60
+    ],
+    "login locations": [
+        [
+            -117.690461,
+            33.657286
+        ]
+    ],
+    "relationships": []
 }

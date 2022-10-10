@@ -5,7 +5,35 @@
     "email": "daniel78@hotmail.com",
     "birthdate": "2022-05-25",
     "phone": "250-493-6863x80558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        6,
+        53,
+        74,
+        43,
+        61,
+        9,
+        27,
+        3,
+        45,
+        38
+    ],
+    "login locations": [
+        [
+            -121.88848,
+            37.988434
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                60986,
+                0.211180124224
+            ],
+            [
+                60986,
+                0.211180124224
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,37 @@
     "email": "kellyshah@yahoo.com",
     "birthdate": "2008-04-30",
     "phone": "001-099-338-7659x2938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        37,
+        64,
+        53,
+        42,
+        49,
+        35,
+        23,
+        33,
+        49,
+        23,
+        60,
+        43
+    ],
+    "login locations": [
+        [
+            -117.114897,
+            32.995509
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39823,
+                0.0802919708029
+            ],
+            [
+                39823,
+                0.0802919708029
+            ]
+        ]
+    ]
 }

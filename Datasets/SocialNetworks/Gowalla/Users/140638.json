@@ -5,7 +5,36 @@
     "email": "ysoto@yahoo.com",
     "birthdate": "2021-11-17",
     "phone": "739.229.5985",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        48,
+        10,
+        28,
+        18,
+        61,
+        46,
+        27,
+        12,
+        66,
+        20,
+        50
+    ],
+    "login locations": [
+        [
+            -121.967991,
+            37.977177
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                140636,
+                0.0890052356021
+            ],
+            [
+                140637,
+                0.0318021201413
+            ]
+        ]
+    ]
 }

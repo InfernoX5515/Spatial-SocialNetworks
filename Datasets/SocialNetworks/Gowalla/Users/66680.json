@@ -5,7 +5,28 @@
     "email": "kevin16@yahoo.com",
     "birthdate": "1997-07-20",
     "phone": "(508)427-8564",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        61,
+        27,
+        63,
+        61,
+        20,
+        72,
+        14,
+        14,
+        43,
+        27,
+        27,
+        49,
+        36,
+        57
+    ],
+    "login locations": [
+        [
+            -117.713102,
+            34.06554
+        ]
+    ],
+    "relationships": []
 }

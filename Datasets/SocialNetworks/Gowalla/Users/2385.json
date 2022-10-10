@@ -5,7 +5,21 @@
     "email": "wrightmandy@hotmail.com",
     "birthdate": "1945-08-31",
     "phone": "+1-684-857-3394x99421",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        33,
+        47,
+        8,
+        65,
+        43,
+        50,
+        26
+    ],
+    "login locations": [
+        [
+            -118.312816,
+            34.05883
+        ]
+    ],
+    "relationships": []
 }

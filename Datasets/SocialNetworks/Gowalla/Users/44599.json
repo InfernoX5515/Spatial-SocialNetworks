@@ -5,7 +5,20 @@
     "email": "candiceperry@yahoo.com",
     "birthdate": "1982-12-03",
     "phone": "7867434831",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        17,
+        43,
+        71,
+        26,
+        53,
+        63
+    ],
+    "login locations": [
+        [
+            -118.145018,
+            34.660006
+        ]
+    ],
+    "relationships": []
 }

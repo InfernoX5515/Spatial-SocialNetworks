@@ -5,7 +5,26 @@
     "email": "allen29@yahoo.com",
     "birthdate": "2004-07-05",
     "phone": "922-716-5463",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        48,
+        59,
+        35,
+        15,
+        11,
+        12,
+        52,
+        27,
+        12,
+        38,
+        39,
+        28
+    ],
+    "login locations": [
+        [
+            -118.14123,
+            34.006301
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "michael83@yahoo.com",
     "birthdate": "1985-12-08",
     "phone": "(918)611-8739x9796",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.2027,
+            34.06734
+        ]
+    ],
+    "relationships": []
 }

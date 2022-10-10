@@ -5,7 +5,28 @@
     "email": "batesjorge@hotmail.com",
     "birthdate": "1964-03-02",
     "phone": "(019)462-2064x8640",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        58,
+        39,
+        38,
+        41,
+        2,
+        57,
+        19,
+        4,
+        24,
+        23,
+        16,
+        2,
+        15,
+        8
+    ],
+    "login locations": [
+        [
+            -119.781073,
+            36.85193
+        ]
+    ],
+    "relationships": []
 }

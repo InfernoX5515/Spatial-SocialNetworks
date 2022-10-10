@@ -5,7 +5,12 @@
     "email": "marcgray@hotmail.com",
     "birthdate": "1930-10-11",
     "phone": "(621)185-3665",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -120.613878,
+            35.165582
+        ]
+    ],
+    "relationships": []
 }

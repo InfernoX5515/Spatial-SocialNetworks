@@ -5,7 +5,37 @@
     "email": "ericreyes@yahoo.com",
     "birthdate": "1964-03-28",
     "phone": "171-085-6508x65592",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        73,
+        10,
+        40,
+        62,
+        17,
+        49,
+        6,
+        23,
+        57,
+        1,
+        35,
+        15
+    ],
+    "login locations": [
+        [
+            -122.15112,
+            37.427345
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                34228,
+                0.04
+            ],
+            [
+                34228,
+                0.04
+            ]
+        ]
+    ]
 }

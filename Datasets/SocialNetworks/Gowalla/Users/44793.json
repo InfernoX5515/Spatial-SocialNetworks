@@ -5,7 +5,23 @@
     "email": "lauraanderson@yahoo.com",
     "birthdate": "1993-09-13",
     "phone": "017-930-5783x10170",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        19,
+        30,
+        18,
+        1,
+        5,
+        6,
+        9,
+        21,
+        20
+    ],
+    "login locations": [
+        [
+            -118.142372,
+            34.634843
+        ]
+    ],
+    "relationships": []
 }

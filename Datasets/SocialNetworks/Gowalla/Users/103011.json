@@ -5,7 +5,12 @@
     "email": "ricephilip@yahoo.com",
     "birthdate": "1906-10-27",
     "phone": "001-772-585-5198",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -119.696264,
+            34.423074
+        ]
+    ],
+    "relationships": []
 }

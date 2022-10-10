@@ -5,7 +5,28 @@
     "email": "smithhannah@hotmail.com",
     "birthdate": "1980-04-12",
     "phone": "+1-889-234-1741",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        60,
+        68,
+        21,
+        36,
+        69,
+        22,
+        2,
+        74,
+        48,
+        71,
+        66,
+        25,
+        27,
+        7
+    ],
+    "login locations": [
+        [
+            -122.400658,
+            37.780389
+        ]
+    ],
+    "relationships": []
 }

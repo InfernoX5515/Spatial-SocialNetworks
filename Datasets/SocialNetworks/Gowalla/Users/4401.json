@@ -5,7 +5,35 @@
     "email": "pacemonica@hotmail.com",
     "birthdate": "1956-01-28",
     "phone": "001-432-769-2433",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        34,
+        22,
+        33,
+        0,
+        41,
+        36,
+        17,
+        20,
+        67,
+        14
+    ],
+    "login locations": [
+        [
+            -122.423743,
+            37.766043
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4118,
+                0.01
+            ],
+            [
+                4118,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "lyonstracey@yahoo.com",
     "birthdate": "1968-03-23",
     "phone": "051.593.5376",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        46,
+        35,
+        43,
+        55,
+        64,
+        38,
+        46,
+        31,
+        58,
+        52,
+        25,
+        74,
+        30,
+        40
+    ],
+    "login locations": [
+        [
+            -118.855691,
+            34.201179
+        ]
+    ],
+    "relationships": []
 }

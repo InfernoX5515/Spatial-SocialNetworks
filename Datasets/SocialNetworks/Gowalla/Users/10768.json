@@ -5,7 +5,25 @@
     "email": "turnertammy@yahoo.com",
     "birthdate": "1995-07-25",
     "phone": "(436)693-3419x75734",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        24,
+        59,
+        34,
+        37,
+        67,
+        47,
+        9,
+        70,
+        27,
+        63,
+        4
+    ],
+    "login locations": [
+        [
+            -122.133508,
+            37.909137
+        ]
+    ],
+    "relationships": []
 }

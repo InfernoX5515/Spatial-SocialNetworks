@@ -5,7 +5,22 @@
     "email": "pclay@gmail.com",
     "birthdate": "2000-04-05",
     "phone": "114-692-5026x948",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        35,
+        29,
+        58,
+        71,
+        40,
+        47,
+        49,
+        27
+    ],
+    "login locations": [
+        [
+            -121.980229,
+            37.302362
+        ]
+    ],
+    "relationships": []
 }

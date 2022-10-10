@@ -5,7 +5,28 @@
     "email": "tiffanyberry@hotmail.com",
     "birthdate": "1954-11-01",
     "phone": "372-977-3626x79042",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        31,
+        65,
+        39,
+        40,
+        69,
+        68,
+        18,
+        45,
+        47,
+        28,
+        22,
+        27,
+        8,
+        7
+    ],
+    "login locations": [
+        [
+            -121.974946,
+            37.15341
+        ]
+    ],
+    "relationships": []
 }

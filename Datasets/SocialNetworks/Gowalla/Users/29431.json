@@ -5,7 +5,23 @@
     "email": "galvandarrell@hotmail.com",
     "birthdate": "1935-09-15",
     "phone": "773.971.5829x1317",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        54,
+        14,
+        14,
+        74,
+        5,
+        12,
+        10,
+        18,
+        71
+    ],
+    "login locations": [
+        [
+            -118.389007,
+            33.87931
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "melissa20@yahoo.com",
     "birthdate": "1921-10-15",
     "phone": "001-754-974-5052x3240",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        1,
+        39
+    ],
+    "login locations": [
+        [
+            -122.466577,
+            37.766846
+        ]
+    ],
+    "relationships": []
 }

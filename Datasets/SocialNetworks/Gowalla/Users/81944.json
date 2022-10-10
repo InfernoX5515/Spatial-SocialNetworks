@@ -5,7 +5,27 @@
     "email": "cantrellmark@hotmail.com",
     "birthdate": "1990-08-04",
     "phone": "(441)624-0052",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        44,
+        71,
+        1,
+        20,
+        30,
+        23,
+        72,
+        44,
+        61,
+        13,
+        71,
+        66,
+        57
+    ],
+    "login locations": [
+        [
+            -122.493066,
+            37.863262
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "phillipsjason@yahoo.com",
     "birthdate": "1994-02-13",
     "phone": "001-379-833-9460x49917",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14
+    ],
+    "login locations": [
+        [
+            -122.408228,
+            37.785973
+        ]
+    ],
+    "relationships": []
 }

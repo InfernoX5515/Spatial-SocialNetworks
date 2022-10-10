@@ -5,7 +5,23 @@
     "email": "kmccoy@hotmail.com",
     "birthdate": "1991-08-28",
     "phone": "(600)673-7751x2453",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        59,
+        32,
+        3,
+        56,
+        29,
+        25,
+        51,
+        3,
+        56
+    ],
+    "login locations": [
+        [
+            -122.339087,
+            37.837248
+        ]
+    ],
+    "relationships": []
 }

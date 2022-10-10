@@ -5,7 +5,15 @@
     "email": "mitchellrobinson@hotmail.com",
     "birthdate": "2021-08-12",
     "phone": "(882)658-2753",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        56
+    ],
+    "login locations": [
+        [
+            -118.335412,
+            33.876475
+        ]
+    ],
+    "relationships": []
 }

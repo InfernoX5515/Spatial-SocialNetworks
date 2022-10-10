@@ -5,7 +5,17 @@
     "email": "ashleyjohnson@gmail.com",
     "birthdate": "1951-11-23",
     "phone": "(704)287-2589x50108",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        19,
+        69,
+        72
+    ],
+    "login locations": [
+        [
+            -122.413484,
+            37.764603
+        ]
+    ],
+    "relationships": []
 }

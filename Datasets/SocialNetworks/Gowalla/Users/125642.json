@@ -5,7 +5,22 @@
     "email": "sampsonkristen@hotmail.com",
     "birthdate": "1919-07-13",
     "phone": "303.692.3993x8140",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        52,
+        30,
+        75,
+        47,
+        6,
+        52,
+        25,
+        16
+    ],
+    "login locations": [
+        [
+            -122.339024,
+            37.722062
+        ]
+    ],
+    "relationships": []
 }

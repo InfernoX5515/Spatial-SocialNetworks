@@ -5,7 +5,18 @@
     "email": "abigailwalton@yahoo.com",
     "birthdate": "2012-12-14",
     "phone": "298.298.2130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        70,
+        0,
+        37,
+        64
+    ],
+    "login locations": [
+        [
+            -122.416993,
+            37.685671
+        ]
+    ],
+    "relationships": []
 }

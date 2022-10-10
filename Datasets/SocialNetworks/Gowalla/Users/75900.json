@@ -5,7 +5,25 @@
     "email": "christopher48@yahoo.com",
     "birthdate": "1965-05-22",
     "phone": "(715)248-9697x63092",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        66,
+        27,
+        23,
+        41,
+        55,
+        56,
+        3,
+        60,
+        49,
+        12,
+        15
+    ],
+    "login locations": [
+        [
+            -118.389878,
+            34.062233
+        ]
+    ],
+    "relationships": []
 }

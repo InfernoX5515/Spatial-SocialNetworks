@@ -5,7 +5,16 @@
     "email": "durhamdebbie@gmail.com",
     "birthdate": "2005-01-09",
     "phone": "246.332.0970",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        49,
+        61
+    ],
+    "login locations": [
+        [
+            -118.402485,
+            34.010769
+        ]
+    ],
+    "relationships": []
 }

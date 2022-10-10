@@ -5,7 +5,26 @@
     "email": "tkelley@gmail.com",
     "birthdate": "1923-06-17",
     "phone": "(495)308-4170",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        14,
+        24,
+        26,
+        64,
+        1,
+        4,
+        27,
+        62,
+        65,
+        48,
+        63,
+        8
+    ],
+    "login locations": [
+        [
+            -122.182753,
+            37.442482
+        ]
+    ],
+    "relationships": []
 }

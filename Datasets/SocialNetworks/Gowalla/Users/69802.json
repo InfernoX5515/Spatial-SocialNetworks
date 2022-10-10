@@ -5,7 +5,20 @@
     "email": "nicole26@yahoo.com",
     "birthdate": "1958-11-11",
     "phone": "(967)667-5357x069",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        31,
+        35,
+        56,
+        36,
+        22,
+        69
+    ],
+    "login locations": [
+        [
+            -123.200018,
+            39.150036
+        ]
+    ],
+    "relationships": []
 }

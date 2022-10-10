@@ -5,7 +5,18 @@
     "email": "mitchell23@yahoo.com",
     "birthdate": "1951-08-12",
     "phone": "806-908-4977x14415",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        42,
+        75,
+        2,
+        25
+    ],
+    "login locations": [
+        [
+            -117.916503,
+            33.75629
+        ]
+    ],
+    "relationships": []
 }

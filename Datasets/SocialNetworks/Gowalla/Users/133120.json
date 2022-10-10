@@ -5,7 +5,25 @@
     "email": "jasonkim@gmail.com",
     "birthdate": "1957-02-07",
     "phone": "(568)020-2218",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        36,
+        40,
+        25,
+        48,
+        32,
+        3,
+        0,
+        3,
+        34,
+        36,
+        21
+    ],
+    "login locations": [
+        [
+            -119.055647,
+            34.225838
+        ]
+    ],
+    "relationships": []
 }

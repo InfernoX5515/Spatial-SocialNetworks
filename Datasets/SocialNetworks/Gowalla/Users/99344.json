@@ -5,7 +5,14 @@
     "email": "tammy48@gmail.com",
     "birthdate": "1954-11-16",
     "phone": "797-152-3604x0650",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46
+    ],
+    "login locations": [
+        [
+            -117.870491,
+            33.912881
+        ]
+    ],
+    "relationships": []
 }

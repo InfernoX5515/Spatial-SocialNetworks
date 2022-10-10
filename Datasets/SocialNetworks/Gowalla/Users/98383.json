@@ -5,7 +5,26 @@
     "email": "tiffanycastro@yahoo.com",
     "birthdate": "1984-10-28",
     "phone": "001-279-221-2202x3738",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        59,
+        29,
+        33,
+        8,
+        42,
+        21,
+        12,
+        42,
+        47,
+        3,
+        38,
+        66
+    ],
+    "login locations": [
+        [
+            -117.847783,
+            34.120861
+        ]
+    ],
+    "relationships": []
 }

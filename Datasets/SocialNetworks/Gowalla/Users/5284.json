@@ -5,7 +5,31 @@
     "email": "probinson@gmail.com",
     "birthdate": "2000-12-09",
     "phone": "(375)069-3830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        50,
+        69,
+        16,
+        71,
+        73,
+        25
+    ],
+    "login locations": [
+        [
+            -122.391492,
+            37.782621
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                182,
+                0.130434782609
+            ],
+            [
+                6537,
+                0.0172413793103
+            ]
+        ]
+    ]
 }

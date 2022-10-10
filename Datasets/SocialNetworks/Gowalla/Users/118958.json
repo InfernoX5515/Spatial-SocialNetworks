@@ -5,7 +5,38 @@
     "email": "candice17@yahoo.com",
     "birthdate": "1964-11-17",
     "phone": "(183)695-5799x4080",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        6,
+        72,
+        48,
+        15,
+        31,
+        0,
+        55,
+        6,
+        13,
+        33,
+        63,
+        25,
+        38
+    ],
+    "login locations": [
+        [
+            -122.307683,
+            37.580668
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                166824,
+                0.125
+            ],
+            [
+                179423,
+                0.607142857143
+            ]
+        ]
+    ]
 }

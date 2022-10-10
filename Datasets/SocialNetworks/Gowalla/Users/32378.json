@@ -5,7 +5,21 @@
     "email": "danielkeller@hotmail.com",
     "birthdate": "1989-05-27",
     "phone": "+1-402-767-0397x36409",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        51,
+        50,
+        23,
+        65,
+        35,
+        41,
+        26
+    ],
+    "login locations": [
+        [
+            -117.188813,
+            32.75022
+        ]
+    ],
+    "relationships": []
 }

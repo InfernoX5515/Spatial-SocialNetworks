@@ -5,7 +5,27 @@
     "email": "jobrien@gmail.com",
     "birthdate": "1907-12-24",
     "phone": "(788)874-1834x35796",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        55,
+        59
+    ],
+    "login locations": [
+        [
+            -122.412919,
+            37.76567
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                331,
+                0.0833333333333
+            ],
+            [
+                446,
+                0.01
+            ]
+        ]
+    ]
 }

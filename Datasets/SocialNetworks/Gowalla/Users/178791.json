@@ -5,7 +5,24 @@
     "email": "rodriguezkim@hotmail.com",
     "birthdate": "2015-04-06",
     "phone": "(508)178-0798",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        4,
+        32,
+        58,
+        35,
+        35,
+        22,
+        17,
+        37,
+        71,
+        0
+    ],
+    "login locations": [
+        [
+            -118.252768,
+            34.039687
+        ]
+    ],
+    "relationships": []
 }

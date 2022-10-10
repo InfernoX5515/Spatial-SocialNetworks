@@ -5,7 +5,34 @@
     "email": "friedmandavid@gmail.com",
     "birthdate": "2005-12-01",
     "phone": "322-041-5836x79332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        48,
+        55,
+        42,
+        15,
+        58,
+        69,
+        11,
+        51,
+        71
+    ],
+    "login locations": [
+        [
+            -122.035186,
+            37.807943
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                73609,
+                0.166666666667
+            ],
+            [
+                6199,
+                0.0307692307692
+            ]
+        ]
+    ]
 }

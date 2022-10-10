@@ -5,7 +5,23 @@
     "email": "valerieward@yahoo.com",
     "birthdate": "2015-01-28",
     "phone": "(438)126-9909",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        0,
+        18,
+        62,
+        32,
+        56,
+        43,
+        50,
+        22,
+        67
+    ],
+    "login locations": [
+        [
+            -122.242034,
+            37.769868
+        ]
+    ],
+    "relationships": []
 }

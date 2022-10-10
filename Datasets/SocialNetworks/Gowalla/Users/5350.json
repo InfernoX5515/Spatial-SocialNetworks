@@ -5,7 +5,12 @@
     "email": "traceyfrazier@hotmail.com",
     "birthdate": "1973-03-25",
     "phone": "001-411-454-1203",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.407025,
+            37.767008
+        ]
+    ],
+    "relationships": []
 }

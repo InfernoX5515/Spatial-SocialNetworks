@@ -5,7 +5,18 @@
     "email": "tracy29@yahoo.com",
     "birthdate": "2015-12-30",
     "phone": "+1-964-644-6476",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        22,
+        22,
+        11,
+        28
+    ],
+    "login locations": [
+        [
+            -122.352979,
+            37.780228
+        ]
+    ],
+    "relationships": []
 }

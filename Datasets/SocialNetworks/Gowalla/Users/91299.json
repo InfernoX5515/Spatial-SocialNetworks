@@ -5,7 +5,15 @@
     "email": "jmorton@gmail.com",
     "birthdate": "1976-11-17",
     "phone": "001-252-598-0880x48893",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        41
+    ],
+    "login locations": [
+        [
+            -122.359943,
+            37.814829
+        ]
+    ],
+    "relationships": []
 }

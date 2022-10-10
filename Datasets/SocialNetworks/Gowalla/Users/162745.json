@@ -5,7 +5,18 @@
     "email": "janicespencer@gmail.com",
     "birthdate": "1981-02-26",
     "phone": "7569287339",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        20,
+        22,
+        31,
+        23
+    ],
+    "login locations": [
+        [
+            -121.377399,
+            38.45215
+        ]
+    ],
+    "relationships": []
 }

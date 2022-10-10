@@ -5,7 +5,23 @@
     "email": "philip98@yahoo.com",
     "birthdate": "1957-05-17",
     "phone": "3773564045",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        1,
+        3,
+        39,
+        52,
+        11,
+        8,
+        9,
+        34,
+        70
+    ],
+    "login locations": [
+        [
+            -122.454576,
+            37.809076
+        ]
+    ],
+    "relationships": []
 }

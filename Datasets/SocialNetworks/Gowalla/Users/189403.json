@@ -5,7 +5,16 @@
     "email": "larsonhelen@yahoo.com",
     "birthdate": "1945-01-31",
     "phone": "572-432-6045",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        57,
+        64
+    ],
+    "login locations": [
+        [
+            -118.164169,
+            34.088528
+        ]
+    ],
+    "relationships": []
 }

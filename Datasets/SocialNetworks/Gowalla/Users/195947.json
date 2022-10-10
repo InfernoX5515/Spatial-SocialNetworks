@@ -5,7 +5,22 @@
     "email": "kjones@hotmail.com",
     "birthdate": "1942-04-06",
     "phone": "484.705.6289x943",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        22,
+        64,
+        29,
+        67,
+        68,
+        14,
+        31,
+        50
+    ],
+    "login locations": [
+        [
+            -122.040786,
+            38.242269
+        ]
+    ],
+    "relationships": []
 }

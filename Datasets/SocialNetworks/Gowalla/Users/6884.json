@@ -5,7 +5,18 @@
     "email": "fdunlap@hotmail.com",
     "birthdate": "1950-03-03",
     "phone": "524-240-5842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        69,
+        45,
+        8,
+        15
+    ],
+    "login locations": [
+        [
+            -122.068819,
+            37.59919
+        ]
+    ],
+    "relationships": []
 }

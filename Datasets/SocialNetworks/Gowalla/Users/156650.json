@@ -5,7 +5,14 @@
     "email": "cmcdonald@yahoo.com",
     "birthdate": "1969-09-23",
     "phone": "+1-968-053-4885",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56
+    ],
+    "login locations": [
+        [
+            -121.991297,
+            37.292492
+        ]
+    ],
+    "relationships": []
 }

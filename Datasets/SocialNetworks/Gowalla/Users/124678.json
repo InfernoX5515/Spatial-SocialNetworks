@@ -5,7 +5,18 @@
     "email": "hansonedward@hotmail.com",
     "birthdate": "1932-07-30",
     "phone": "518.798.6894x6025",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        28,
+        16,
+        29,
+        5
+    ],
+    "login locations": [
+        [
+            -117.22428,
+            32.915024
+        ]
+    ],
+    "relationships": []
 }

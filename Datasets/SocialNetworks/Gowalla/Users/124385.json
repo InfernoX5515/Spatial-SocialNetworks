@@ -5,7 +5,18 @@
     "email": "zanthony@gmail.com",
     "birthdate": "1938-04-16",
     "phone": "229-684-9783",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        13,
+        65,
+        1,
+        30
+    ],
+    "login locations": [
+        [
+            -122.086028,
+            37.636126
+        ]
+    ],
+    "relationships": []
 }

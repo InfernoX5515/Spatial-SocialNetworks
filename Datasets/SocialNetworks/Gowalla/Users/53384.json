@@ -5,7 +5,21 @@
     "email": "mpearson@hotmail.com",
     "birthdate": "1980-11-24",
     "phone": "001-243-013-7317x339",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        16,
+        16,
+        18,
+        15,
+        59,
+        32,
+        68
+    ],
+    "login locations": [
+        [
+            -117.239501,
+            34.446889
+        ]
+    ],
+    "relationships": []
 }

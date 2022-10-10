@@ -5,7 +5,23 @@
     "email": "brianna28@gmail.com",
     "birthdate": "1943-12-11",
     "phone": "(275)246-8227x062",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        18,
+        59,
+        4,
+        70,
+        10,
+        38,
+        45,
+        39,
+        35
+    ],
+    "login locations": [
+        [
+            -117.925993,
+            33.772178
+        ]
+    ],
+    "relationships": []
 }

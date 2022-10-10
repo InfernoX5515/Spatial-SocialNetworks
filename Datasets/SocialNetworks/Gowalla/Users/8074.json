@@ -5,7 +5,26 @@
     "email": "emily67@gmail.com",
     "birthdate": "2004-08-10",
     "phone": "(441)274-4600",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        23,
+        24,
+        47,
+        19,
+        51,
+        26,
+        55,
+        61,
+        10,
+        41,
+        15,
+        59
+    ],
+    "login locations": [
+        [
+            -122.416444,
+            37.781189
+        ]
+    ],
+    "relationships": []
 }

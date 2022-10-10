@@ -5,7 +5,28 @@
     "email": "hectorrussell@yahoo.com",
     "birthdate": "1966-03-31",
     "phone": "316-242-5189x3759",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        37,
+        66,
+        15
+    ],
+    "login locations": [
+        [
+            -122.400122,
+            37.774341
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3539,
+                0.0238095238095
+            ],
+            [
+                3536,
+                0.017094017094
+            ]
+        ]
+    ]
 }

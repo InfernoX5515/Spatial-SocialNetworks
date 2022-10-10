@@ -5,7 +5,23 @@
     "email": "hbean@hotmail.com",
     "birthdate": "1929-09-21",
     "phone": "+1-960-027-3560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        33,
+        12,
+        71,
+        61,
+        45,
+        53,
+        62,
+        68,
+        53
+    ],
+    "login locations": [
+        [
+            -118.332119,
+            34.161553
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "beanbrian@hotmail.com",
     "birthdate": "1999-03-26",
     "phone": "(665)625-9988",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.160366,
+            33.533593
+        ]
+    ],
+    "relationships": []
 }

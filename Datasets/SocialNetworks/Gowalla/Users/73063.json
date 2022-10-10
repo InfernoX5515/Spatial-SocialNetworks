@@ -5,7 +5,14 @@
     "email": "christopher44@yahoo.com",
     "birthdate": "1964-03-22",
     "phone": "+1-649-868-1745x1916",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27
+    ],
+    "login locations": [
+        [
+            -122.395059,
+            37.784462
+        ]
+    ],
+    "relationships": []
 }

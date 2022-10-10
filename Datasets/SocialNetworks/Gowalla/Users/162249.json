@@ -5,7 +5,22 @@
     "email": "thomasgary@yahoo.com",
     "birthdate": "1947-03-23",
     "phone": "110.825.7972x3491",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        31,
+        15,
+        5,
+        27,
+        31,
+        54,
+        38,
+        31
+    ],
+    "login locations": [
+        [
+            -122.391815,
+            37.778163
+        ]
+    ],
+    "relationships": []
 }

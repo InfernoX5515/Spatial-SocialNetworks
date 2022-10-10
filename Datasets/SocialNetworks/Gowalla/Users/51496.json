@@ -5,7 +5,21 @@
     "email": "tyler13@gmail.com",
     "birthdate": "1918-08-22",
     "phone": "956.340.8855",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        30,
+        45,
+        26,
+        72,
+        71,
+        31,
+        66
+    ],
+    "login locations": [
+        [
+            -122.696706,
+            38.360198
+        ]
+    ],
+    "relationships": []
 }

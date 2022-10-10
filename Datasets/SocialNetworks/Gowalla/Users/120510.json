@@ -5,7 +5,15 @@
     "email": "jkim@hotmail.com",
     "birthdate": "1913-10-02",
     "phone": "792-954-6846x638",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        69
+    ],
+    "login locations": [
+        [
+            -121.909573,
+            37.410606
+        ]
+    ],
+    "relationships": []
 }

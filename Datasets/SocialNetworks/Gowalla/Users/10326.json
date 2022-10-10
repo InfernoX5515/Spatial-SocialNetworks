@@ -5,7 +5,36 @@
     "email": "christiankeller@gmail.com",
     "birthdate": "1980-02-03",
     "phone": "476.937.2444x771",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        13,
+        19,
+        50,
+        55,
+        9,
+        13,
+        66,
+        52,
+        53,
+        75,
+        41
+    ],
+    "login locations": [
+        [
+            -122.422221,
+            37.779307
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                158,
+                0.0140845070423
+            ],
+            [
+                5103,
+                0.0666666666667
+            ]
+        ]
+    ]
 }

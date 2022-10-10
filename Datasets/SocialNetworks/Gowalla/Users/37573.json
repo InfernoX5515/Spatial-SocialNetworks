@@ -5,7 +5,18 @@
     "email": "umiller@hotmail.com",
     "birthdate": "1907-05-06",
     "phone": "+1-735-478-9643x378",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        63,
+        48,
+        72,
+        2
+    ],
+    "login locations": [
+        [
+            -117.143687,
+            32.758601
+        ]
+    ],
+    "relationships": []
 }

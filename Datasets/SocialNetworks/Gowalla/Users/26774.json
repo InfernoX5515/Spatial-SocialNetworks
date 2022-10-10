@@ -5,7 +5,23 @@
     "email": "christophergibbs@hotmail.com",
     "birthdate": "1985-10-30",
     "phone": "370.711.4513x350",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        34,
+        15,
+        57,
+        8,
+        57,
+        8,
+        25,
+        17,
+        71
+    ],
+    "login locations": [
+        [
+            -117.924987,
+            33.813461
+        ]
+    ],
+    "relationships": []
 }

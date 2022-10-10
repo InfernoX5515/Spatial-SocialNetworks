@@ -5,7 +5,24 @@
     "email": "jerickson@hotmail.com",
     "birthdate": "1985-02-20",
     "phone": "+1-863-727-0898x067",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        45,
+        0,
+        12,
+        44,
+        42,
+        22,
+        13,
+        6,
+        11,
+        74
+    ],
+    "login locations": [
+        [
+            -122.256554,
+            37.801167
+        ]
+    ],
+    "relationships": []
 }

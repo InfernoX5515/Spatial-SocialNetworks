@@ -5,7 +5,17 @@
     "email": "dawsonshawn@gmail.com",
     "birthdate": "1969-10-16",
     "phone": "+1-572-416-1884",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        63,
+        46,
+        15
+    ],
+    "login locations": [
+        [
+            -122.319639,
+            37.593974
+        ]
+    ],
+    "relationships": []
 }

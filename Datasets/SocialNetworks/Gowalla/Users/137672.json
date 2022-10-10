@@ -5,7 +5,20 @@
     "email": "ghuber@hotmail.com",
     "birthdate": "1927-01-14",
     "phone": "001-024-285-3945",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        44,
+        73,
+        0,
+        50,
+        66,
+        71
+    ],
+    "login locations": [
+        [
+            -122.314157,
+            37.793105
+        ]
+    ],
+    "relationships": []
 }

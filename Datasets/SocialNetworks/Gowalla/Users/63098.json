@@ -5,7 +5,24 @@
     "email": "jamie04@yahoo.com",
     "birthdate": "1937-01-26",
     "phone": "(348)133-9864",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        44,
+        64,
+        15,
+        15,
+        55,
+        34,
+        32,
+        61,
+        45,
+        75
+    ],
+    "login locations": [
+        [
+            -119.723344,
+            36.767993
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "fpineda@yahoo.com",
     "birthdate": "1948-03-06",
     "phone": "867-960-2529",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        0,
+        63,
+        60,
+        61,
+        41,
+        10,
+        32,
+        62,
+        51
+    ],
+    "login locations": [
+        [
+            -117.192408,
+            33.052893
+        ]
+    ],
+    "relationships": []
 }

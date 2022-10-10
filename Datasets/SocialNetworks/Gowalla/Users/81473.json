@@ -5,7 +5,28 @@
     "email": "ustephenson@gmail.com",
     "birthdate": "1996-07-06",
     "phone": "001-486-441-2308x8309",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        30,
+        28,
+        56,
+        1,
+        64,
+        7,
+        34,
+        57,
+        24,
+        72,
+        3,
+        70,
+        57,
+        22
+    ],
+    "login locations": [
+        [
+            -118.37151,
+            34.099595
+        ]
+    ],
+    "relationships": []
 }

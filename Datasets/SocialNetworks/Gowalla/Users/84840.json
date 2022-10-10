@@ -5,7 +5,19 @@
     "email": "khaynes@yahoo.com",
     "birthdate": "1983-01-14",
     "phone": "607.557.2943",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        48,
+        36,
+        30,
+        27,
+        25
+    ],
+    "login locations": [
+        [
+            -118.431756,
+            34.010256
+        ]
+    ],
+    "relationships": []
 }

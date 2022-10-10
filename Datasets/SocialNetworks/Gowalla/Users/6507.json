@@ -5,7 +5,30 @@
     "email": "rachel06@gmail.com",
     "birthdate": "1929-03-08",
     "phone": "407.178.2985x9450",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        75,
+        34,
+        6,
+        55,
+        5
+    ],
+    "login locations": [
+        [
+            -122.422923,
+            37.768962
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.036496350365
+            ],
+            [
+                6537,
+                0.0276923076923
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,38 @@
     "email": "bwilliams@hotmail.com",
     "birthdate": "1918-01-26",
     "phone": "579.092.3908",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        60,
+        66,
+        33,
+        58,
+        0,
+        38,
+        41,
+        13,
+        51,
+        36,
+        56,
+        31,
+        17
+    ],
+    "login locations": [
+        [
+            -122.413454,
+            37.776045
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10468,
+                0.516129032258
+            ],
+            [
+                10459,
+                0.273224043716
+            ]
+        ]
+    ]
 }

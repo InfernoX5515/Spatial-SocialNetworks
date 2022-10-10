@@ -5,7 +5,22 @@
     "email": "padillafrank@hotmail.com",
     "birthdate": "2021-12-25",
     "phone": "4636143230",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        39,
+        60,
+        38,
+        54,
+        34,
+        0,
+        15,
+        15
+    ],
+    "login locations": [
+        [
+            -121.309745,
+            38.075989
+        ]
+    ],
+    "relationships": []
 }

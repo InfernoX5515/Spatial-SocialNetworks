@@ -5,7 +5,18 @@
     "email": "heathercollins@gmail.com",
     "birthdate": "1924-03-02",
     "phone": "307.524.3546",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        37,
+        24,
+        0,
+        58
+    ],
+    "login locations": [
+        [
+            -122.02286,
+            37.347869
+        ]
+    ],
+    "relationships": []
 }

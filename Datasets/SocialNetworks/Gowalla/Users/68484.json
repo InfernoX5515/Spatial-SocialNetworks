@@ -5,7 +5,28 @@
     "email": "denisedalton@gmail.com",
     "birthdate": "1980-01-21",
     "phone": "947.184.3999",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        48,
+        39,
+        49,
+        1,
+        11,
+        67,
+        1,
+        47,
+        70,
+        25,
+        24,
+        17,
+        60,
+        49
+    ],
+    "login locations": [
+        [
+            -122.261378,
+            37.812748
+        ]
+    ],
+    "relationships": []
 }

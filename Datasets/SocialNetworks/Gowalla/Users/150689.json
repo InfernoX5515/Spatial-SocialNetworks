@@ -5,7 +5,20 @@
     "email": "brownaustin@hotmail.com",
     "birthdate": "2016-09-16",
     "phone": "747-537-6765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        54,
+        38,
+        68,
+        21,
+        55,
+        46
+    ],
+    "login locations": [
+        [
+            -118.100578,
+            33.85336
+        ]
+    ],
+    "relationships": []
 }

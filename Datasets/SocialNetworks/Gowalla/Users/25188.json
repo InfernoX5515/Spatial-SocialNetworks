@@ -5,7 +5,15 @@
     "email": "lorihenderson@gmail.com",
     "birthdate": "1930-03-02",
     "phone": "001-454-555-3978",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        30
+    ],
+    "login locations": [
+        [
+            -118.321656,
+            34.097091
+        ]
+    ],
+    "relationships": []
 }

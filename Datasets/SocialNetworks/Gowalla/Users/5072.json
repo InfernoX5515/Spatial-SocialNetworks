@@ -5,7 +5,32 @@
     "email": "kelly85@hotmail.com",
     "birthdate": "2001-10-06",
     "phone": "+1-175-452-2963x6348",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        42,
+        34,
+        75,
+        26,
+        64,
+        69,
+        32
+    ],
+    "login locations": [
+        [
+            -122.405835,
+            37.768502
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                74560,
+                0.049504950495
+            ],
+            [
+                6349,
+                0.0224719101124
+            ]
+        ]
+    ]
 }

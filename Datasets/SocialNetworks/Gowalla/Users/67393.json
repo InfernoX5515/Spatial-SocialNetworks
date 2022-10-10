@@ -5,7 +5,22 @@
     "email": "bhurst@gmail.com",
     "birthdate": "1989-06-24",
     "phone": "290.244.1933x830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        57,
+        28,
+        50,
+        66,
+        7,
+        72,
+        42,
+        24
+    ],
+    "login locations": [
+        [
+            -117.726827,
+            34.074658
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "stephen77@gmail.com",
     "birthdate": "1973-11-11",
     "phone": "(882)887-1376x402",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        9,
+        66,
+        32,
+        19,
+        4,
+        68,
+        33,
+        43
+    ],
+    "login locations": [
+        [
+            -117.924104,
+            33.860102
+        ]
+    ],
+    "relationships": []
 }

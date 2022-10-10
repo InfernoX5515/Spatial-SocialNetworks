@@ -5,7 +5,29 @@
     "email": "michaelbryant@hotmail.com",
     "birthdate": "2016-11-22",
     "phone": "680-623-4441",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        42,
+        33,
+        69,
+        53
+    ],
+    "login locations": [
+        [
+            -121.892971,
+            36.691706
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1048,
+                0.04
+            ],
+            [
+                1048,
+                0.04
+            ]
+        ]
+    ]
 }

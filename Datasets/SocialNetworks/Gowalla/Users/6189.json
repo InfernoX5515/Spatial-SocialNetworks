@@ -5,7 +5,27 @@
     "email": "daviselizabeth@yahoo.com",
     "birthdate": "2002-03-25",
     "phone": "899-742-8297x00814",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        29,
+        25,
+        56,
+        17,
+        10,
+        26,
+        42,
+        19,
+        64,
+        13,
+        8,
+        32,
+        71
+    ],
+    "login locations": [
+        [
+            -122.31526,
+            37.763212
+        ]
+    ],
+    "relationships": []
 }

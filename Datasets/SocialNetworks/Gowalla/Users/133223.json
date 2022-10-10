@@ -5,7 +5,23 @@
     "email": "john62@hotmail.com",
     "birthdate": "1915-07-29",
     "phone": "413-586-8607",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        19,
+        45,
+        40,
+        20,
+        13,
+        11,
+        3,
+        54,
+        52
+    ],
+    "login locations": [
+        [
+            -121.392663,
+            38.570672
+        ]
+    ],
+    "relationships": []
 }

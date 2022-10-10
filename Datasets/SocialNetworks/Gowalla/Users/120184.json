@@ -5,7 +5,17 @@
     "email": "christinarose@yahoo.com",
     "birthdate": "1952-05-14",
     "phone": "088-350-3137",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        25,
+        75,
+        67
+    ],
+    "login locations": [
+        [
+            -118.31738,
+            34.012759
+        ]
+    ],
+    "relationships": []
 }

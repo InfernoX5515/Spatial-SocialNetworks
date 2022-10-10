@@ -5,7 +5,12 @@
     "email": "phillipsjoshua@yahoo.com",
     "birthdate": "1980-11-01",
     "phone": "(831)397-5405x200",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.374562,
+            33.872436
+        ]
+    ],
+    "relationships": []
 }

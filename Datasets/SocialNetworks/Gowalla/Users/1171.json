@@ -5,7 +5,21 @@
     "email": "jamesmills@yahoo.com",
     "birthdate": "1937-04-13",
     "phone": "+1-043-456-2617x42381",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        44,
+        71,
+        47,
+        12,
+        44,
+        71,
+        24
+    ],
+    "login locations": [
+        [
+            -117.650584,
+            34.110848
+        ]
+    ],
+    "relationships": []
 }

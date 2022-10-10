@@ -5,7 +5,16 @@
     "email": "nwalker@hotmail.com",
     "birthdate": "1993-12-10",
     "phone": "(179)768-4428",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        2,
+        60
+    ],
+    "login locations": [
+        [
+            -117.87979,
+            34.094782
+        ]
+    ],
+    "relationships": []
 }

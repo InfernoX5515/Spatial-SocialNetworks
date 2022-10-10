@@ -5,7 +5,15 @@
     "email": "bobby25@hotmail.com",
     "birthdate": "1974-05-29",
     "phone": "282-018-9811x30791",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        63
+    ],
+    "login locations": [
+        [
+            -118.026274,
+            33.805172
+        ]
+    ],
+    "relationships": []
 }

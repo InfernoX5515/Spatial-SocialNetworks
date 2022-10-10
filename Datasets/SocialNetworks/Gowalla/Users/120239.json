@@ -5,7 +5,28 @@
     "email": "larrysmith@hotmail.com",
     "birthdate": "1971-03-05",
     "phone": "(705)491-3457x92784",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        27,
+        54,
+        32,
+        48,
+        58,
+        38,
+        11,
+        38,
+        1,
+        13,
+        9,
+        13,
+        37,
+        44
+    ],
+    "login locations": [
+        [
+            -118.28771,
+            34.082971
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "yvargas@yahoo.com",
     "birthdate": "1919-12-01",
     "phone": "+1-068-699-1052x717",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        1,
+        22,
+        15,
+        35,
+        44,
+        66,
+        41,
+        43
+    ],
+    "login locations": [
+        [
+            -121.985279,
+            37.289006
+        ]
+    ],
+    "relationships": []
 }

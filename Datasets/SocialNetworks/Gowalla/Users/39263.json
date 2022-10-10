@@ -5,7 +5,23 @@
     "email": "russellcastillo@hotmail.com",
     "birthdate": "1938-08-10",
     "phone": "604-229-9437x4132",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.294614,
+            34.118438
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                668,
+                0.02
+            ],
+            [
+                668,
+                0.02
+            ]
+        ]
+    ]
 }

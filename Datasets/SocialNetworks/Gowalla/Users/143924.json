@@ -5,7 +5,19 @@
     "email": "chase74@hotmail.com",
     "birthdate": "1977-11-21",
     "phone": "(699)507-2838x6726",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        57,
+        1,
+        33,
+        42,
+        53
+    ],
+    "login locations": [
+        [
+            -118.060185,
+            34.056889
+        ]
+    ],
+    "relationships": []
 }

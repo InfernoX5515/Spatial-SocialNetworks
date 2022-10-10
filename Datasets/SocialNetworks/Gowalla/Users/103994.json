@@ -5,7 +5,14 @@
     "email": "charlesking@hotmail.com",
     "birthdate": "2008-01-01",
     "phone": "160-027-6400x14275",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52
+    ],
+    "login locations": [
+        [
+            -122.018348,
+            36.962276
+        ]
+    ],
+    "relationships": []
 }

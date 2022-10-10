@@ -5,7 +5,28 @@
     "email": "laurie21@hotmail.com",
     "birthdate": "1910-02-06",
     "phone": "152.297.9844x59011",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        57,
+        48,
+        25,
+        43,
+        69,
+        70,
+        7,
+        1,
+        21,
+        71,
+        35,
+        62,
+        67,
+        4
+    ],
+    "login locations": [
+        [
+            -121.843157,
+            39.737153
+        ]
+    ],
+    "relationships": []
 }

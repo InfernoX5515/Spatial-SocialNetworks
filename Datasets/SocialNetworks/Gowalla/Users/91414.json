@@ -5,7 +5,22 @@
     "email": "lopezchristina@gmail.com",
     "birthdate": "1913-03-22",
     "phone": "222.853.5383x71578",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        69,
+        52,
+        72,
+        52,
+        36,
+        39,
+        61,
+        56
+    ],
+    "login locations": [
+        [
+            -117.679682,
+            33.990283
+        ]
+    ],
+    "relationships": []
 }

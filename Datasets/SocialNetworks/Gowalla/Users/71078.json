@@ -5,7 +5,23 @@
     "email": "julia41@hotmail.com",
     "birthdate": "1967-07-14",
     "phone": "(382)543-3112",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        47,
+        18,
+        8,
+        71,
+        32,
+        61,
+        75,
+        17,
+        51
+    ],
+    "login locations": [
+        [
+            -122.396096,
+            37.78095
+        ]
+    ],
+    "relationships": []
 }

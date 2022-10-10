@@ -5,7 +5,23 @@
     "email": "wallsnicholas@yahoo.com",
     "birthdate": "1929-07-06",
     "phone": "083-060-7020x847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        72,
+        30,
+        53,
+        39,
+        69,
+        45,
+        25,
+        68,
+        21
+    ],
+    "login locations": [
+        [
+            -121.432428,
+            38.612232
+        ]
+    ],
+    "relationships": []
 }

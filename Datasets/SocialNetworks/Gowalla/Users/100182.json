@@ -5,7 +5,14 @@
     "email": "rmorris@gmail.com",
     "birthdate": "1996-08-31",
     "phone": "1686281606",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52
+    ],
+    "login locations": [
+        [
+            -121.777611,
+            37.649066
+        ]
+    ],
+    "relationships": []
 }

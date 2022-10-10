@@ -5,7 +5,25 @@
     "email": "johnbrown@hotmail.com",
     "birthdate": "1962-07-16",
     "phone": "(277)981-2644x4905",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        59,
+        4,
+        45,
+        59,
+        3,
+        2,
+        16,
+        47,
+        14,
+        13,
+        56
+    ],
+    "login locations": [
+        [
+            -117.881623,
+            33.690635
+        ]
+    ],
+    "relationships": []
 }

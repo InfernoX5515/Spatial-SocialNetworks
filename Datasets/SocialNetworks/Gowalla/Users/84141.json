@@ -5,7 +5,27 @@
     "email": "williamstimothy@yahoo.com",
     "birthdate": "1993-01-11",
     "phone": "035-447-8069x8301",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        14,
+        44,
+        23,
+        46,
+        40,
+        24,
+        49,
+        16,
+        52,
+        10,
+        30,
+        19,
+        69
+    ],
+    "login locations": [
+        [
+            -121.171172,
+            38.714088
+        ]
+    ],
+    "relationships": []
 }

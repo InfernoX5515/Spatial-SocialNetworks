@@ -5,7 +5,28 @@
     "email": "david46@yahoo.com",
     "birthdate": "1963-04-04",
     "phone": "4106673969",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        39,
+        52,
+        24,
+        1,
+        62,
+        47,
+        64,
+        44,
+        2,
+        51,
+        39,
+        5,
+        66,
+        7
+    ],
+    "login locations": [
+        [
+            -117.945439,
+            33.670323
+        ]
+    ],
+    "relationships": []
 }

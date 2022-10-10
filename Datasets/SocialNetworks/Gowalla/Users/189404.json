@@ -5,7 +5,21 @@
     "email": "alisonjones@yahoo.com",
     "birthdate": "1911-07-14",
     "phone": "+1-743-885-8753x21044",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        68,
+        61,
+        12,
+        38,
+        61,
+        27,
+        43
+    ],
+    "login locations": [
+        [
+            -118.224763,
+            34.075239
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,39 @@
     "email": "roger29@yahoo.com",
     "birthdate": "2002-04-08",
     "phone": "349.630.9468x374",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        47,
+        56,
+        45,
+        25,
+        47,
+        60,
+        50,
+        46,
+        23,
+        71,
+        50,
+        33,
+        17,
+        48
+    ],
+    "login locations": [
+        [
+            -122.318024,
+            37.580475
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2320,
+                0.01
+            ],
+            [
+                3632,
+                0.01
+            ]
+        ]
+    ]
 }

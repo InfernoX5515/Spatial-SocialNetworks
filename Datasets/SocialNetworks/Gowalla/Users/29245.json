@@ -5,7 +5,26 @@
     "email": "xterry@gmail.com",
     "birthdate": "2017-07-23",
     "phone": "518.650.8380x862",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        10
+    ],
+    "login locations": [
+        [
+            -122.448813,
+            37.77006
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3752,
+                0.0517928286853
+            ],
+            [
+                5877,
+                0.0294117647059
+            ]
+        ]
+    ]
 }

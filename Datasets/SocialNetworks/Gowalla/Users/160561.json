@@ -5,7 +5,16 @@
     "email": "harrisonstacey@yahoo.com",
     "birthdate": "1939-08-25",
     "phone": "116.279.6938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        12,
+        58
+    ],
+    "login locations": [
+        [
+            -117.157235,
+            32.760645
+        ]
+    ],
+    "relationships": []
 }

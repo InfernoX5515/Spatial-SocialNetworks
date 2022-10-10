@@ -5,7 +5,28 @@
     "email": "rosstimothy@yahoo.com",
     "birthdate": "2012-02-03",
     "phone": "574.651.7976",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        66,
+        44,
+        56,
+        28,
+        34,
+        65,
+        11,
+        71,
+        37,
+        12,
+        55,
+        71,
+        30,
+        18
+    ],
+    "login locations": [
+        [
+            -122.404379,
+            37.775422
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "danielhendricks@yahoo.com",
     "birthdate": "1959-07-08",
     "phone": "310-806-3906x362",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59
+    ],
+    "login locations": [
+        [
+            -122.423425,
+            37.792284
+        ]
+    ],
+    "relationships": []
 }

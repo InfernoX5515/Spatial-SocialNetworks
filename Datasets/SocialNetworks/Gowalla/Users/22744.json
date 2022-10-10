@@ -5,7 +5,16 @@
     "email": "jill72@gmail.com",
     "birthdate": "1973-03-14",
     "phone": "001-048-459-1590x6882",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        30,
+        47
+    ],
+    "login locations": [
+        [
+            -118.368341,
+            33.919871
+        ]
+    ],
+    "relationships": []
 }

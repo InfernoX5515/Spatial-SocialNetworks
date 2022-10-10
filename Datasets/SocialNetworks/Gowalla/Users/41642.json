@@ -5,7 +5,20 @@
     "email": "tammy09@yahoo.com",
     "birthdate": "1938-12-12",
     "phone": "2500032595",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        38,
+        30,
+        28,
+        8,
+        71,
+        4
+    ],
+    "login locations": [
+        [
+            -118.4141,
+            34.123227
+        ]
+    ],
+    "relationships": []
 }

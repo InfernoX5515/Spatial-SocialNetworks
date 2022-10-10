@@ -5,7 +5,30 @@
     "email": "smithbrian@yahoo.com",
     "birthdate": "1953-09-12",
     "phone": "030-923-5324",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        37,
+        22,
+        6,
+        73,
+        42
+    ],
+    "login locations": [
+        [
+            -117.920064,
+            33.811863
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                245,
+                0.0677777777778
+            ],
+            [
+                22237,
+                0.1
+            ]
+        ]
+    ]
 }

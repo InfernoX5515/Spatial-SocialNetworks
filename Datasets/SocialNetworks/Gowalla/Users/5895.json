@@ -5,7 +5,26 @@
     "email": "matthew77@gmail.com",
     "birthdate": "1912-11-25",
     "phone": "(635)412-7420x42779",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        49
+    ],
+    "login locations": [
+        [
+            -121.933259,
+            37.274652
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5871,
+                0.142857142857
+            ],
+            [
+                77076,
+                0.5
+            ]
+        ]
+    ]
 }

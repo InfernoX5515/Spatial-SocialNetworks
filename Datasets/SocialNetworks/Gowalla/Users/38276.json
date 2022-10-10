@@ -5,7 +5,27 @@
     "email": "ericewing@hotmail.com",
     "birthdate": "1931-08-26",
     "phone": "662-400-3459",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        60,
+        75,
+        60,
+        2,
+        4,
+        55,
+        12,
+        2,
+        25,
+        31,
+        18,
+        34,
+        27
+    ],
+    "login locations": [
+        [
+            -118.259735,
+            33.812959
+        ]
+    ],
+    "relationships": []
 }

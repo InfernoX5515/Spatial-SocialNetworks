@@ -5,7 +5,21 @@
     "email": "cynthia19@hotmail.com",
     "birthdate": "2021-09-19",
     "phone": "738-862-1471",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        25,
+        38,
+        56,
+        10,
+        34,
+        38,
+        73
+    ],
+    "login locations": [
+        [
+            -122.045101,
+            37.393692
+        ]
+    ],
+    "relationships": []
 }

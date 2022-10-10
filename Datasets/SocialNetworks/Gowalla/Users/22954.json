@@ -5,7 +5,17 @@
     "email": "rileykelly@yahoo.com",
     "birthdate": "2005-07-03",
     "phone": "736.982.1418",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        56,
+        66,
+        10
+    ],
+    "login locations": [
+        [
+            -118.327174,
+            33.849837
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "hartmanchristina@yahoo.com",
     "birthdate": "1948-03-31",
     "phone": "+1-990-343-7427x05498",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        33,
+        49,
+        21,
+        2,
+        36,
+        12
+    ],
+    "login locations": [
+        [
+            -121.982082,
+            37.305899
+        ]
+    ],
+    "relationships": []
 }

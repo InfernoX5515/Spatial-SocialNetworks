@@ -5,7 +5,12 @@
     "email": "lopezjerry@hotmail.com",
     "birthdate": "2000-01-15",
     "phone": "356.463.1690x824",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.118437,
+            37.407488
+        ]
+    ],
+    "relationships": []
 }

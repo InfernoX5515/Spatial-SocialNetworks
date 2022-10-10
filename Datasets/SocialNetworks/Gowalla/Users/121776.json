@@ -5,7 +5,23 @@
     "email": "george47@gmail.com",
     "birthdate": "1986-07-18",
     "phone": "(770)339-8803",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        46,
+        22,
+        59,
+        57,
+        14,
+        48,
+        35,
+        71,
+        73
+    ],
+    "login locations": [
+        [
+            -122.450038,
+            37.765026
+        ]
+    ],
+    "relationships": []
 }

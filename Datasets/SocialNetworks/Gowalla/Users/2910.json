@@ -5,7 +5,20 @@
     "email": "uyoder@yahoo.com",
     "birthdate": "2013-10-26",
     "phone": "(273)243-5099",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        58,
+        52,
+        3,
+        43,
+        28,
+        60
+    ],
+    "login locations": [
+        [
+            -118.226776,
+            34.123206
+        ]
+    ],
+    "relationships": []
 }

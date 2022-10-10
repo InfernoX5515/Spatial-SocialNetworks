@@ -5,7 +5,21 @@
     "email": "kennethlogan@yahoo.com",
     "birthdate": "1969-02-18",
     "phone": "(406)886-9311",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        57,
+        52,
+        15,
+        21,
+        5,
+        48,
+        22
+    ],
+    "login locations": [
+        [
+            -122.06525,
+            37.918858
+        ]
+    ],
+    "relationships": []
 }

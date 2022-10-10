@@ -5,7 +5,28 @@
     "email": "jeffrey17@yahoo.com",
     "birthdate": "1984-01-27",
     "phone": "001-120-702-9407x3685",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        27,
+        31,
+        20,
+        61,
+        44,
+        4,
+        20,
+        6,
+        49,
+        10,
+        16,
+        17,
+        72,
+        51
+    ],
+    "login locations": [
+        [
+            -118.204496,
+            34.133407
+        ]
+    ],
+    "relationships": []
 }

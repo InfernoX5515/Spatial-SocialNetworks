@@ -5,7 +5,26 @@
     "email": "martinezcharles@gmail.com",
     "birthdate": "1934-12-30",
     "phone": "6125618366",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        51,
+        25,
+        40,
+        35,
+        70,
+        0,
+        40,
+        24,
+        10,
+        7,
+        49,
+        25
+    ],
+    "login locations": [
+        [
+            -122.402944,
+            37.779821
+        ]
+    ],
+    "relationships": []
 }

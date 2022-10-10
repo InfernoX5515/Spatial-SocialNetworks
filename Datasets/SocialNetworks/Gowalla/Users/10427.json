@@ -5,7 +5,32 @@
     "email": "kristen01@hotmail.com",
     "birthdate": "1907-03-01",
     "phone": "(380)674-3532x903",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        47,
+        71,
+        17,
+        58,
+        33,
+        36,
+        26
+    ],
+    "login locations": [
+        [
+            -122.061961,
+            37.376744
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.01
+            ],
+            [
+                4820,
+                0.048275862069
+            ]
+        ]
+    ]
 }

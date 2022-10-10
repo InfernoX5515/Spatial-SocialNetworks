@@ -5,7 +5,32 @@
     "email": "vhansen@hotmail.com",
     "birthdate": "1962-12-05",
     "phone": "(770)612-6827",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        31,
+        10,
+        5,
+        54,
+        0,
+        0,
+        24
+    ],
+    "login locations": [
+        [
+            -122.010972,
+            37.328674
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.08
+            ],
+            [
+                244,
+                0.01
+            ]
+        ]
+    ]
 }

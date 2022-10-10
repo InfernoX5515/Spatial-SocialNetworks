@@ -5,7 +5,22 @@
     "email": "davidgarcia@yahoo.com",
     "birthdate": "2020-10-20",
     "phone": "4108319205",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        64,
+        69,
+        56,
+        1,
+        22,
+        63,
+        57,
+        8
+    ],
+    "login locations": [
+        [
+            -122.013913,
+            37.268565
+        ]
+    ],
+    "relationships": []
 }

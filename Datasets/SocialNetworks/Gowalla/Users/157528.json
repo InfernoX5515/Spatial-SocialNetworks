@@ -5,7 +5,22 @@
     "email": "daynicholas@gmail.com",
     "birthdate": "2003-07-28",
     "phone": "(437)406-7710",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        3,
+        5,
+        26,
+        54,
+        20,
+        68,
+        17,
+        3
+    ],
+    "login locations": [
+        [
+            -122.266423,
+            37.824227
+        ]
+    ],
+    "relationships": []
 }

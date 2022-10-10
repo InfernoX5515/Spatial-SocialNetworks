@@ -5,7 +5,25 @@
     "email": "weberlauren@gmail.com",
     "birthdate": "2016-08-30",
     "phone": "0085307753",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34
+    ],
+    "login locations": [
+        [
+            -122.410973,
+            37.762502
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                86,
+                0.0111642743222
+            ],
+            [
+                8582,
+                0.08
+            ]
+        ]
+    ]
 }

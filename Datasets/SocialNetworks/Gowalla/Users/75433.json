@@ -5,7 +5,23 @@
     "email": "nnguyen@yahoo.com",
     "birthdate": "1964-03-09",
     "phone": "001-820-243-6023",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        28,
+        59,
+        17,
+        48,
+        5,
+        37,
+        51,
+        43,
+        18
+    ],
+    "login locations": [
+        [
+            -117.790876,
+            33.638593
+        ]
+    ],
+    "relationships": []
 }

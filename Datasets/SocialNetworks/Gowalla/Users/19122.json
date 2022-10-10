@@ -5,7 +5,36 @@
     "email": "rosalesalejandro@hotmail.com",
     "birthdate": "1922-10-16",
     "phone": "053-982-3813x9914",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        34,
+        27,
+        63,
+        62,
+        57,
+        54,
+        27,
+        32,
+        51,
+        18,
+        61
+    ],
+    "login locations": [
+        [
+            -117.14624,
+            32.775607
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                108182,
+                0.473684210526
+            ],
+            [
+                108182,
+                0.473684210526
+            ]
+        ]
+    ]
 }

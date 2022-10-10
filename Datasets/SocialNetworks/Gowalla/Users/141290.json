@@ -5,7 +5,19 @@
     "email": "jkelly@gmail.com",
     "birthdate": "1987-01-23",
     "phone": "233-057-7171x81942",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        19,
+        11,
+        29,
+        28,
+        45
+    ],
+    "login locations": [
+        [
+            -121.299166,
+            38.606012
+        ]
+    ],
+    "relationships": []
 }

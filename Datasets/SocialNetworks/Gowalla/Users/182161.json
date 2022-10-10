@@ -5,7 +5,15 @@
     "email": "robert62@gmail.com",
     "birthdate": "1908-04-29",
     "phone": "922.266.9694",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        9
+    ],
+    "login locations": [
+        [
+            -122.037009,
+            37.004315
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "ylyons@yahoo.com",
     "birthdate": "1954-04-23",
     "phone": "794.105.1960x2296",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        59,
+        57,
+        25,
+        10,
+        59,
+        60
+    ],
+    "login locations": [
+        [
+            -122.399553,
+            38.027099
+        ]
+    ],
+    "relationships": []
 }

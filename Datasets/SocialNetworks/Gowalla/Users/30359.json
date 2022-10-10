@@ -5,7 +5,27 @@
     "email": "nelsoncatherine@hotmail.com",
     "birthdate": "1946-07-27",
     "phone": "+1-997-730-6129",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        28,
+        44,
+        30,
+        35,
+        32,
+        63,
+        7,
+        69,
+        34,
+        8,
+        36,
+        53,
+        23
+    ],
+    "login locations": [
+        [
+            -121.425857,
+            38.606809
+        ]
+    ],
+    "relationships": []
 }

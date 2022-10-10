@@ -5,7 +5,17 @@
     "email": "mendozalawrence@yahoo.com",
     "birthdate": "1938-02-17",
     "phone": "503.786.2791",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        67,
+        54,
+        14
+    ],
+    "login locations": [
+        [
+            -122.386533,
+            37.734772
+        ]
+    ],
+    "relationships": []
 }

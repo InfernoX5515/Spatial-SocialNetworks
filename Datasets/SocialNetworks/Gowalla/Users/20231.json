@@ -5,7 +5,23 @@
     "email": "yschneider@gmail.com",
     "birthdate": "1941-10-18",
     "phone": "170.564.3034",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        50,
+        29,
+        59,
+        22,
+        69,
+        15,
+        72,
+        68,
+        72
+    ],
+    "login locations": [
+        [
+            -118.045952,
+            33.80832
+        ]
+    ],
+    "relationships": []
 }

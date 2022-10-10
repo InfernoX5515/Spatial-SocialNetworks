@@ -5,7 +5,33 @@
     "email": "cheryl83@gmail.com",
     "birthdate": "1922-01-28",
     "phone": "399-359-7964x0747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        37,
+        14,
+        13,
+        66,
+        1,
+        44,
+        51,
+        71
+    ],
+    "login locations": [
+        [
+            -122.418296,
+            37.776022
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                21,
+                0.04
+            ],
+            [
+                43,
+                0.0606060606061
+            ]
+        ]
+    ]
 }

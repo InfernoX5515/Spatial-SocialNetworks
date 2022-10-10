@@ -5,7 +5,15 @@
     "email": "wbyrd@yahoo.com",
     "birthdate": "2017-11-17",
     "phone": "934-511-1234x33801",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        62
+    ],
+    "login locations": [
+        [
+            -118.302034,
+            34.029636
+        ]
+    ],
+    "relationships": []
 }

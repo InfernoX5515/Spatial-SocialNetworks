@@ -5,7 +5,23 @@
     "email": "lrivera@yahoo.com",
     "birthdate": "1917-11-17",
     "phone": "180.543.8468",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        56,
+        32,
+        40,
+        23,
+        45,
+        65,
+        44,
+        12,
+        75
+    ],
+    "login locations": [
+        [
+            -118.379317,
+            34.110542
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "nnguyen@yahoo.com",
     "birthdate": "2000-12-12",
     "phone": "140-151-3635x1828",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        28,
+        56,
+        20,
+        63,
+        17,
+        60,
+        36,
+        30,
+        15,
+        71
+    ],
+    "login locations": [
+        [
+            -117.229434,
+            32.954151
+        ]
+    ],
+    "relationships": []
 }

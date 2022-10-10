@@ -5,7 +5,25 @@
     "email": "ericsmith@hotmail.com",
     "birthdate": "1915-12-28",
     "phone": "001-012-014-8709x86333",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71
+    ],
+    "login locations": [
+        [
+            -121.994011,
+            37.320621
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                66621,
+                0.64
+            ],
+            [
+                66621,
+                0.64
+            ]
+        ]
+    ]
 }

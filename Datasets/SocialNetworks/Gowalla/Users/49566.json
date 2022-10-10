@@ -5,7 +5,24 @@
     "email": "oroberts@yahoo.com",
     "birthdate": "1931-01-28",
     "phone": "9667575212",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        23,
+        11,
+        75,
+        63,
+        66,
+        19,
+        75,
+        5,
+        16,
+        75
+    ],
+    "login locations": [
+        [
+            -122.085455,
+            37.419776
+        ]
+    ],
+    "relationships": []
 }

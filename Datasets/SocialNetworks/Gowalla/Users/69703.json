@@ -5,7 +5,25 @@
     "email": "grant65@hotmail.com",
     "birthdate": "1931-07-04",
     "phone": "001-259-238-4668x84654",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        22,
+        20,
+        30,
+        65,
+        24,
+        72,
+        69,
+        31,
+        73,
+        71,
+        37
+    ],
+    "login locations": [
+        [
+            -122.154272,
+            37.446253
+        ]
+    ],
+    "relationships": []
 }

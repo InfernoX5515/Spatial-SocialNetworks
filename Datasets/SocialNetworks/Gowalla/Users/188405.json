@@ -5,7 +5,16 @@
     "email": "eking@hotmail.com",
     "birthdate": "2003-08-27",
     "phone": "+1-874-698-6494x188",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        29,
+        17
+    ],
+    "login locations": [
+        [
+            -119.834642,
+            36.804083
+        ]
+    ],
+    "relationships": []
 }

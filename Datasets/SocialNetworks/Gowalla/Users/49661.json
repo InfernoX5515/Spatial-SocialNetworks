@@ -5,7 +5,27 @@
     "email": "rhondabell@gmail.com",
     "birthdate": "1954-12-18",
     "phone": "187.143.5729x7151",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        8,
+        58,
+        63,
+        43,
+        14,
+        5,
+        16,
+        45,
+        26,
+        32,
+        73,
+        73,
+        50
+    ],
+    "login locations": [
+        [
+            -118.452867,
+            34.009223
+        ]
+    ],
+    "relationships": []
 }

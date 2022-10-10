@@ -5,7 +5,21 @@
     "email": "keith49@gmail.com",
     "birthdate": "1944-05-19",
     "phone": "093.018.9055x4950",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        37,
+        37,
+        48,
+        66,
+        33,
+        50,
+        31
+    ],
+    "login locations": [
+        [
+            -118.327216,
+            34.112218
+        ]
+    ],
+    "relationships": []
 }

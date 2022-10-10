@@ -5,7 +5,20 @@
     "email": "barbarastephens@gmail.com",
     "birthdate": "1915-04-26",
     "phone": "(066)455-0228x90750",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        36,
+        35,
+        3,
+        4,
+        36,
+        26
+    ],
+    "login locations": [
+        [
+            -121.77944,
+            37.912118
+        ]
+    ],
+    "relationships": []
 }

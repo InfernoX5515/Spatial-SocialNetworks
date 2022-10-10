@@ -5,7 +5,33 @@
     "email": "thomasjackson@gmail.com",
     "birthdate": "1917-05-24",
     "phone": "(904)678-2615x267",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        67,
+        33,
+        16,
+        7,
+        67,
+        23,
+        71,
+        31
+    ],
+    "login locations": [
+        [
+            -122.25058,
+            37.874579
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3934,
+                0.01261829653
+            ],
+            [
+                3934,
+                0.171014492754
+            ]
+        ]
+    ]
 }

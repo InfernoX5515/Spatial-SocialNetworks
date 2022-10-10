@@ -5,7 +5,21 @@
     "email": "jonathansmith@hotmail.com",
     "birthdate": "1981-10-14",
     "phone": "201-140-9880x69548",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        58,
+        69,
+        24,
+        5,
+        15,
+        60,
+        60
+    ],
+    "login locations": [
+        [
+            -122.408602,
+            37.781449
+        ]
+    ],
+    "relationships": []
 }

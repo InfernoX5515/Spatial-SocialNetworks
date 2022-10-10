@@ -5,7 +5,19 @@
     "email": "mvalencia@gmail.com",
     "birthdate": "1939-02-17",
     "phone": "658.216.9006",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        71,
+        4,
+        54,
+        72,
+        19
+    ],
+    "login locations": [
+        [
+            -117.867866,
+            34.065051
+        ]
+    ],
+    "relationships": []
 }

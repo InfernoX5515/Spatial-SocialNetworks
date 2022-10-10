@@ -5,7 +5,25 @@
     "email": "sparksisaiah@yahoo.com",
     "birthdate": "1940-06-15",
     "phone": "8399764515",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        12,
+        68,
+        46,
+        68,
+        16,
+        60,
+        70,
+        62,
+        7,
+        56,
+        11
+    ],
+    "login locations": [
+        [
+            -117.81912,
+            34.053194
+        ]
+    ],
+    "relationships": []
 }

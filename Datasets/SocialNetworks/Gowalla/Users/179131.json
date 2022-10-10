@@ -5,7 +5,17 @@
     "email": "christopher51@hotmail.com",
     "birthdate": "1921-04-12",
     "phone": "+1-498-372-8937x7161",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        56,
+        15,
+        5
+    ],
+    "login locations": [
+        [
+            -122.402394,
+            37.783994
+        ]
+    ],
+    "relationships": []
 }

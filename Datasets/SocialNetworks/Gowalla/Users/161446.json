@@ -5,7 +5,26 @@
     "email": "jdrake@hotmail.com",
     "birthdate": "1914-08-12",
     "phone": "494-881-6483x915",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        68,
+        43,
+        39,
+        61,
+        61,
+        16,
+        42,
+        41,
+        38,
+        52,
+        27,
+        27
+    ],
+    "login locations": [
+        [
+            -122.380686,
+            37.795202
+        ]
+    ],
+    "relationships": []
 }

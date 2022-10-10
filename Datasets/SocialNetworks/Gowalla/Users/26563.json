@@ -5,7 +5,20 @@
     "email": "rbenton@gmail.com",
     "birthdate": "1939-04-24",
     "phone": "+1-379-915-3238x26254",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        49,
+        1,
+        14,
+        51,
+        16,
+        61
+    ],
+    "login locations": [
+        [
+            -117.979742,
+            33.750164
+        ]
+    ],
+    "relationships": []
 }

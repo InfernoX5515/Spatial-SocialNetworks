@@ -5,7 +5,24 @@
     "email": "brewerclaire@hotmail.com",
     "birthdate": "2016-08-10",
     "phone": "1604308027",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        52,
+        2,
+        29,
+        55,
+        15,
+        14,
+        23,
+        0,
+        42,
+        64
+    ],
+    "login locations": [
+        [
+            -121.824459,
+            39.731749
+        ]
+    ],
+    "relationships": []
 }

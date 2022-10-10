@@ -5,7 +5,21 @@
     "email": "millermorgan@gmail.com",
     "birthdate": "1929-11-13",
     "phone": "418-253-8981",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        10,
+        61,
+        46,
+        23,
+        75,
+        24,
+        38
+    ],
+    "login locations": [
+        [
+            -122.384443,
+            37.792685
+        ]
+    ],
+    "relationships": []
 }

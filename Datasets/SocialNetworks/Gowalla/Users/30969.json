@@ -5,7 +5,20 @@
     "email": "ggilbert@gmail.com",
     "birthdate": "1998-11-29",
     "phone": "+1-050-400-9372",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        13,
+        34,
+        15,
+        8,
+        9,
+        7
+    ],
+    "login locations": [
+        [
+            -122.422377,
+            37.831382
+        ]
+    ],
+    "relationships": []
 }

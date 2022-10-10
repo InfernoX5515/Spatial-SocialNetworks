@@ -5,7 +5,16 @@
     "email": "christopher36@yahoo.com",
     "birthdate": "1974-07-29",
     "phone": "6087513936",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        61,
+        43
+    ],
+    "login locations": [
+        [
+            -121.390631,
+            38.576964
+        ]
+    ],
+    "relationships": []
 }

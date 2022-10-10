@@ -5,7 +5,14 @@
     "email": "cartercarla@yahoo.com",
     "birthdate": "2010-08-02",
     "phone": "(970)059-0542x514",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73
+    ],
+    "login locations": [
+        [
+            -122.399189,
+            37.755286
+        ]
+    ],
+    "relationships": []
 }

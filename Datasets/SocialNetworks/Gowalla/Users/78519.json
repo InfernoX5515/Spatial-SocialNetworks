@@ -5,7 +5,28 @@
     "email": "rebecca74@hotmail.com",
     "birthdate": "1913-06-25",
     "phone": "(689)876-2945",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        38,
+        44,
+        34,
+        32,
+        19,
+        59,
+        66,
+        10,
+        53,
+        32,
+        48,
+        58,
+        55,
+        9
+    ],
+    "login locations": [
+        [
+            -122.408651,
+            37.791986
+        ]
+    ],
+    "relationships": []
 }

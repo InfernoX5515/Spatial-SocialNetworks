@@ -5,7 +5,30 @@
     "email": "benjaminrhodes@hotmail.com",
     "birthdate": "1974-12-22",
     "phone": "907-203-9618x353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        58,
+        63,
+        39,
+        9,
+        34
+    ],
+    "login locations": [
+        [
+            -122.398991,
+            37.773007
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                44250,
+                0.0854700854701
+            ],
+            [
+                179251,
+                0.4
+            ]
+        ]
+    ]
 }

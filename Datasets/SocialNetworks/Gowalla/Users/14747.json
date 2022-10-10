@@ -5,7 +5,34 @@
     "email": "william27@gmail.com",
     "birthdate": "1931-03-31",
     "phone": "+1-100-544-9785",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        10,
+        18,
+        73,
+        5,
+        23,
+        12,
+        34,
+        52,
+        73
+    ],
+    "login locations": [
+        [
+            -117.822525,
+            33.638265
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                16997,
+                0.142857142857
+            ],
+            [
+                16997,
+                0.142857142857
+            ]
+        ]
+    ]
 }

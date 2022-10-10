@@ -5,7 +5,14 @@
     "email": "utaylor@gmail.com",
     "birthdate": "1913-10-27",
     "phone": "0974184869",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75
+    ],
+    "login locations": [
+        [
+            -122.416876,
+            37.750292
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "christopher80@hotmail.com",
     "birthdate": "1947-12-30",
     "phone": "001-081-666-9581x125",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        2,
+        2,
+        54,
+        0,
+        73,
+        60,
+        54,
+        57,
+        52,
+        1,
+        61,
+        71,
+        59
+    ],
+    "login locations": [
+        [
+            -118.603945,
+            34.179543
+        ]
+    ],
+    "relationships": []
 }

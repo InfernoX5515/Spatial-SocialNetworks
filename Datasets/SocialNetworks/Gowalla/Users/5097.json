@@ -5,7 +5,21 @@
     "email": "willisanna@gmail.com",
     "birthdate": "1947-08-13",
     "phone": "+1-604-283-3873x681",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        8,
+        39,
+        64,
+        55,
+        14,
+        22,
+        11
+    ],
+    "login locations": [
+        [
+            -122.119342,
+            37.3834
+        ]
+    ],
+    "relationships": []
 }

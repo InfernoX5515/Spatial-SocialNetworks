@@ -5,7 +5,26 @@
     "email": "eddieguerra@gmail.com",
     "birthdate": "1944-05-24",
     "phone": "663-059-9684",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        31,
+        9,
+        7,
+        21,
+        37,
+        61,
+        22,
+        11,
+        5,
+        39,
+        41,
+        17
+    ],
+    "login locations": [
+        [
+            -121.939614,
+            37.292892
+        ]
+    ],
+    "relationships": []
 }

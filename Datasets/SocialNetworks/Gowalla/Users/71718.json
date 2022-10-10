@@ -5,7 +5,18 @@
     "email": "leon21@gmail.com",
     "birthdate": "1988-07-01",
     "phone": "001-828-307-9827x3987",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        18,
+        49,
+        45,
+        31
+    ],
+    "login locations": [
+        [
+            -122.368662,
+            37.60262
+        ]
+    ],
+    "relationships": []
 }

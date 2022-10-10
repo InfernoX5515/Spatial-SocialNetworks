@@ -5,7 +5,20 @@
     "email": "steven37@gmail.com",
     "birthdate": "1931-01-15",
     "phone": "(680)488-4226",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        24,
+        46,
+        38,
+        9,
+        65,
+        36
+    ],
+    "login locations": [
+        [
+            -122.300829,
+            37.897599
+        ]
+    ],
+    "relationships": []
 }

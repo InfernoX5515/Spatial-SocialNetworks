@@ -5,7 +5,16 @@
     "email": "ibowman@gmail.com",
     "birthdate": "2021-06-25",
     "phone": "030.694.8098",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        57,
+        10
+    ],
+    "login locations": [
+        [
+            -122.417517,
+            37.761748
+        ]
+    ],
+    "relationships": []
 }

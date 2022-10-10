@@ -5,7 +5,18 @@
     "email": "bryan03@gmail.com",
     "birthdate": "1936-07-19",
     "phone": "687-516-3737x501",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        49,
+        70,
+        63,
+        72
+    ],
+    "login locations": [
+        [
+            -121.399338,
+            38.423013
+        ]
+    ],
+    "relationships": []
 }

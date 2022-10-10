@@ -5,7 +5,16 @@
     "email": "rileycheryl@hotmail.com",
     "birthdate": "2007-11-04",
     "phone": "001-214-789-8485",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        49,
+        24
+    ],
+    "login locations": [
+        [
+            -122.165858,
+            37.450091
+        ]
+    ],
+    "relationships": []
 }

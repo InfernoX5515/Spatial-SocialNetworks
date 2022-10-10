@@ -5,7 +5,29 @@
     "email": "chapmanjeffrey@yahoo.com",
     "birthdate": "2001-11-16",
     "phone": "+1-034-906-9002x35680",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        33,
+        16,
+        29,
+        67
+    ],
+    "login locations": [
+        [
+            -122.361816,
+            37.706416
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43489,
+                0.0373831775701
+            ],
+            [
+                1011,
+                0.0411111111111
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "stoutrichard@gmail.com",
     "birthdate": "1955-06-18",
     "phone": "413-069-6674x7406",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        40,
+        22,
+        18,
+        10,
+        27,
+        39,
+        62,
+        49,
+        72,
+        2,
+        42,
+        20,
+        0,
+        4
+    ],
+    "login locations": [
+        [
+            -121.983146,
+            37.351789
+        ]
+    ],
+    "relationships": []
 }

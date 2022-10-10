@@ -5,7 +5,15 @@
     "email": "brandonperez@hotmail.com",
     "birthdate": "1963-04-21",
     "phone": "+1-675-722-7148x85494",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        11
+    ],
+    "login locations": [
+        [
+            -122.418339,
+            37.772421
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "lcooper@yahoo.com",
     "birthdate": "2020-07-18",
     "phone": "(854)130-7901x713",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2
+    ],
+    "login locations": [
+        [
+            -117.924989,
+            33.893138
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5612,
+                0.0246153846154
+            ],
+            [
+                5612,
+                0.0246153846154
+            ]
+        ]
+    ]
 }

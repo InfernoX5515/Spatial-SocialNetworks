@@ -5,7 +5,27 @@
     "email": "tammy30@yahoo.com",
     "birthdate": "1982-09-18",
     "phone": "(573)401-6897x57444",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        67,
+        38,
+        41,
+        61,
+        48,
+        64,
+        36,
+        73,
+        13,
+        34,
+        54,
+        65,
+        16
+    ],
+    "login locations": [
+        [
+            -117.242997,
+            32.775897
+        ]
+    ],
+    "relationships": []
 }

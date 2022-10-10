@@ -5,7 +5,23 @@
     "email": "nicolewalker@yahoo.com",
     "birthdate": "1951-04-14",
     "phone": "029.698.3842x426",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        67,
+        37,
+        13,
+        42,
+        53,
+        51,
+        27,
+        0,
+        7
+    ],
+    "login locations": [
+        [
+            -119.319943,
+            36.304939
+        ]
+    ],
+    "relationships": []
 }

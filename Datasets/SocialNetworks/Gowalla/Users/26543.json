@@ -5,7 +5,25 @@
     "email": "edwardslisa@hotmail.com",
     "birthdate": "2012-08-01",
     "phone": "001-674-294-7633x711",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        63,
+        40,
+        68,
+        65,
+        18,
+        15,
+        69,
+        65,
+        27,
+        60,
+        19
+    ],
+    "login locations": [
+        [
+            -122.447048,
+            37.768127
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "gonzalezhannah@hotmail.com",
     "birthdate": "1953-08-20",
     "phone": "001-138-011-3758x7992",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51
+    ],
+    "login locations": [
+        [
+            -118.360866,
+            33.876268
+        ]
+    ],
+    "relationships": []
 }

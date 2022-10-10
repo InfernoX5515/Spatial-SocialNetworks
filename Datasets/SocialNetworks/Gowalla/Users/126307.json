@@ -5,7 +5,27 @@
     "email": "kenneth18@hotmail.com",
     "birthdate": "1939-09-11",
     "phone": "001-222-288-5689x67489",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        64,
+        14,
+        54,
+        42,
+        42,
+        33,
+        7,
+        73,
+        14,
+        2,
+        35,
+        38,
+        47
+    ],
+    "login locations": [
+        [
+            -118.146586,
+            34.6339
+        ]
+    ],
+    "relationships": []
 }

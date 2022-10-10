@@ -5,7 +5,28 @@
     "email": "kevin37@hotmail.com",
     "birthdate": "2004-07-23",
     "phone": "724-328-0793x778",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        4,
+        30,
+        66,
+        69,
+        74,
+        32,
+        74,
+        17,
+        54,
+        3,
+        72,
+        68,
+        3,
+        12
+    ],
+    "login locations": [
+        [
+            -122.027126,
+            37.37
+        ]
+    ],
+    "relationships": []
 }

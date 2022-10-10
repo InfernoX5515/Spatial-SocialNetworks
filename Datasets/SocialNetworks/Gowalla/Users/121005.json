@@ -5,7 +5,26 @@
     "email": "dnewman@hotmail.com",
     "birthdate": "1982-01-29",
     "phone": "(487)557-9844x815",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        27,
+        0,
+        19,
+        40,
+        67,
+        24,
+        30,
+        8,
+        63,
+        21,
+        8,
+        28
+    ],
+    "login locations": [
+        [
+            -116.704803,
+            32.841618
+        ]
+    ],
+    "relationships": []
 }

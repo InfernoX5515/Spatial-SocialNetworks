@@ -5,7 +5,27 @@
     "email": "paulmichelle@gmail.com",
     "birthdate": "1945-12-10",
     "phone": "001-227-417-6356",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        65,
+        6
+    ],
+    "login locations": [
+        [
+            -118.357859,
+            34.072062
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49838,
+                0.0660377358491
+            ],
+            [
+                49844,
+                0.12
+            ]
+        ]
+    ]
 }

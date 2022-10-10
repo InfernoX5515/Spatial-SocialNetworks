@@ -5,7 +5,15 @@
     "email": "heather11@hotmail.com",
     "birthdate": "1986-03-25",
     "phone": "001-394-824-1917",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        5
+    ],
+    "login locations": [
+        [
+            -117.96709,
+            34.044321
+        ]
+    ],
+    "relationships": []
 }

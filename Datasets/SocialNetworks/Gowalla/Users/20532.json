@@ -5,7 +5,25 @@
     "email": "kellyhuynh@gmail.com",
     "birthdate": "1955-08-22",
     "phone": "001-611-829-5202x9721",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        54,
+        62,
+        23,
+        10,
+        58,
+        29,
+        7,
+        24,
+        23,
+        25,
+        68
+    ],
+    "login locations": [
+        [
+            -122.419886,
+            37.790438
+        ]
+    ],
+    "relationships": []
 }

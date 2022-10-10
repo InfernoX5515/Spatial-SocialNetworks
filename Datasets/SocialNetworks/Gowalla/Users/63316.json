@@ -5,7 +5,26 @@
     "email": "randolphrandy@gmail.com",
     "birthdate": "1950-01-04",
     "phone": "+1-888-309-7106",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        73,
+        47,
+        55,
+        40,
+        47,
+        38,
+        60,
+        29,
+        25,
+        41,
+        70,
+        46
+    ],
+    "login locations": [
+        [
+            -122.308477,
+            37.538268
+        ]
+    ],
+    "relationships": []
 }

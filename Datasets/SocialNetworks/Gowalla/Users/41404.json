@@ -5,7 +5,19 @@
     "email": "sarahlopez@hotmail.com",
     "birthdate": "2018-12-11",
     "phone": "0027834726",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        41,
+        12,
+        17,
+        53,
+        7
+    ],
+    "login locations": [
+        [
+            -122.696609,
+            38.370116
+        ]
+    ],
+    "relationships": []
 }

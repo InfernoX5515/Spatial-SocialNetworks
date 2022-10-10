@@ -5,7 +5,17 @@
     "email": "bsmith@hotmail.com",
     "birthdate": "1998-05-10",
     "phone": "001-905-731-0089x855",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        27,
+        38,
+        74
+    ],
+    "login locations": [
+        [
+            -122.405005,
+            37.775912
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "brandonmedina@yahoo.com",
     "birthdate": "1911-10-07",
     "phone": "464.691.2491x5074",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        59,
+        45,
+        32,
+        45,
+        17,
+        0,
+        14,
+        24,
+        19,
+        8,
+        20
+    ],
+    "login locations": [
+        [
+            -122.407823,
+            37.785843
+        ]
+    ],
+    "relationships": []
 }

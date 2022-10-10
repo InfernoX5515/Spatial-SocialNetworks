@@ -5,7 +5,27 @@
     "email": "robinmitchell@gmail.com",
     "birthdate": "2016-03-21",
     "phone": "4723691543",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        6,
+        17,
+        29,
+        48,
+        74,
+        17,
+        15,
+        50,
+        60,
+        41,
+        57,
+        22,
+        1
+    ],
+    "login locations": [
+        [
+            -121.950825,
+            37.295075
+        ]
+    ],
+    "relationships": []
 }

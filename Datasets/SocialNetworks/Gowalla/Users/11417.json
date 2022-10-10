@@ -5,7 +5,28 @@
     "email": "uaguirre@yahoo.com",
     "birthdate": "1935-08-09",
     "phone": "+1-726-132-2132",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        26,
+        14,
+        70,
+        6,
+        27,
+        13,
+        33,
+        37,
+        64,
+        36,
+        31,
+        66,
+        12,
+        33
+    ],
+    "login locations": [
+        [
+            -122.39716,
+            37.781619
+        ]
+    ],
+    "relationships": []
 }

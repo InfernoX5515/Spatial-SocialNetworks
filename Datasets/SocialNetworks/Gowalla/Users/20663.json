@@ -5,7 +5,24 @@
     "email": "orozcokurt@hotmail.com",
     "birthdate": "2002-03-07",
     "phone": "5757807398",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        17,
+        63,
+        75,
+        47,
+        73,
+        13,
+        23,
+        34,
+        41,
+        23
+    ],
+    "login locations": [
+        [
+            -121.607933,
+            37.035716
+        ]
+    ],
+    "relationships": []
 }

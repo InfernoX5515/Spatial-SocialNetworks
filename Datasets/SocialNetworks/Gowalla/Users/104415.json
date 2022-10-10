@@ -5,7 +5,18 @@
     "email": "westjoseph@yahoo.com",
     "birthdate": "1983-08-12",
     "phone": "919.288.7370",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        18,
+        55,
+        39,
+        49
+    ],
+    "login locations": [
+        [
+            -118.194378,
+            34.087851
+        ]
+    ],
+    "relationships": []
 }

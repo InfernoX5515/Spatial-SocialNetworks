@@ -5,7 +5,14 @@
     "email": "russellwendy@yahoo.com",
     "birthdate": "1978-10-31",
     "phone": "299-380-1069x94487",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16
+    ],
+    "login locations": [
+        [
+            -122.417541,
+            37.783472
+        ]
+    ],
+    "relationships": []
 }

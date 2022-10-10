@@ -5,7 +5,32 @@
     "email": "benjamin37@gmail.com",
     "birthdate": "1924-03-20",
     "phone": "012.331.0069x8346",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        43,
+        46,
+        33,
+        20,
+        14,
+        70,
+        70
+    ],
+    "login locations": [
+        [
+            -122.432703,
+            37.769587
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                21,
+                0.04
+            ],
+            [
+                4748,
+                0.0104166666667
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "burnslynn@yahoo.com",
     "birthdate": "1915-01-14",
     "phone": "482.239.3234",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        42,
+        13,
+        4,
+        45,
+        55,
+        18,
+        64,
+        68,
+        6,
+        60,
+        54
+    ],
+    "login locations": [
+        [
+            -118.252567,
+            34.092581
+        ]
+    ],
+    "relationships": []
 }

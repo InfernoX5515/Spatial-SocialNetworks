@@ -5,7 +5,25 @@
     "email": "lindalynch@yahoo.com",
     "birthdate": "2013-03-29",
     "phone": "036-925-0917x391",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        1,
+        59,
+        18,
+        31,
+        25,
+        72,
+        18,
+        49,
+        32,
+        64,
+        53
+    ],
+    "login locations": [
+        [
+            -122.136753,
+            37.425311
+        ]
+    ],
+    "relationships": []
 }

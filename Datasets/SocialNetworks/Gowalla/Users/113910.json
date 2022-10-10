@@ -5,7 +5,17 @@
     "email": "justinsalinas@yahoo.com",
     "birthdate": "1930-08-23",
     "phone": "008-109-7500x55710",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        57,
+        44,
+        14
+    ],
+    "login locations": [
+        [
+            -121.918725,
+            37.599488
+        ]
+    ],
+    "relationships": []
 }

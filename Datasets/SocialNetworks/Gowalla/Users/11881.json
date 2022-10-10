@@ -5,7 +5,28 @@
     "email": "egarcia@yahoo.com",
     "birthdate": "1917-09-15",
     "phone": "201-574-6449",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        1,
+        37,
+        20
+    ],
+    "login locations": [
+        [
+            -117.135603,
+            32.819015
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                35717,
+                0.0337837837838
+            ],
+            [
+                35717,
+                0.0337837837838
+            ]
+        ]
+    ]
 }

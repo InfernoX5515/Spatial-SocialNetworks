@@ -5,7 +5,19 @@
     "email": "kimmoore@gmail.com",
     "birthdate": "1994-10-27",
     "phone": "435-393-8674",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        10,
+        33,
+        67,
+        43,
+        41
+    ],
+    "login locations": [
+        [
+            -121.845123,
+            37.704202
+        ]
+    ],
+    "relationships": []
 }

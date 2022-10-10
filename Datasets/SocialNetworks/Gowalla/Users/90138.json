@@ -5,7 +5,17 @@
     "email": "jonathan01@gmail.com",
     "birthdate": "1920-04-08",
     "phone": "869-457-7441x55027",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        63,
+        62,
+        33
+    ],
+    "login locations": [
+        [
+            -117.223891,
+            32.784994
+        ]
+    ],
+    "relationships": []
 }

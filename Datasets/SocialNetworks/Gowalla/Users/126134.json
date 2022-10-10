@@ -5,7 +5,17 @@
     "email": "burgesschristopher@yahoo.com",
     "birthdate": "2010-12-22",
     "phone": "001-896-554-4698x48000",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        36,
+        1,
+        63
+    ],
+    "login locations": [
+        [
+            -122.469035,
+            37.666961
+        ]
+    ],
+    "relationships": []
 }

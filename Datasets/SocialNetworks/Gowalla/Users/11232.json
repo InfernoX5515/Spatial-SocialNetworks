@@ -5,7 +5,25 @@
     "email": "abooker@yahoo.com",
     "birthdate": "2012-07-08",
     "phone": "0923873208",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46
+    ],
+    "login locations": [
+        [
+            -118.055965,
+            33.769973
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1586,
+                0.125
+            ],
+            [
+                8683,
+                0.01
+            ]
+        ]
+    ]
 }

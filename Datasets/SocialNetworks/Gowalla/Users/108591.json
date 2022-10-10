@@ -5,7 +5,26 @@
     "email": "barryheather@yahoo.com",
     "birthdate": "1913-07-09",
     "phone": "079.498.5236x96938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        3
+    ],
+    "login locations": [
+        [
+            -119.195231,
+            36.291553
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                108590,
+                0.777777777778
+            ],
+            [
+                108590,
+                0.777777777778
+            ]
+        ]
+    ]
 }

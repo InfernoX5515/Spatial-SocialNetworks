@@ -5,7 +5,17 @@
     "email": "sheriyang@yahoo.com",
     "birthdate": "1946-03-28",
     "phone": "660-118-0098x14954",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        39,
+        5,
+        33
+    ],
+    "login locations": [
+        [
+            -122.097127,
+            37.925241
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "jessica85@gmail.com",
     "birthdate": "1966-08-23",
     "phone": "211-300-6208x4598",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24
+    ],
+    "login locations": [
+        [
+            -118.247761,
+            34.050995
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "burnskaren@yahoo.com",
     "birthdate": "1923-04-29",
     "phone": "+1-802-452-5862x97829",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        52,
+        28,
+        70,
+        42,
+        64,
+        1
+    ],
+    "login locations": [
+        [
+            -118.393374,
+            34.031231
+        ]
+    ],
+    "relationships": []
 }

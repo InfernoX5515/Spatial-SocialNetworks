@@ -5,7 +5,27 @@
     "email": "matthewharmon@yahoo.com",
     "birthdate": "1962-08-13",
     "phone": "001-892-537-8331x4213",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        10,
+        8,
+        52,
+        2,
+        49,
+        30,
+        60,
+        42,
+        10,
+        18,
+        6,
+        45,
+        9
+    ],
+    "login locations": [
+        [
+            -119.275479,
+            35.502245
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "griffinrichard@gmail.com",
     "birthdate": "1922-11-14",
     "phone": "(771)729-7894",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        62,
+        3,
+        9,
+        50,
+        34,
+        9,
+        36,
+        34,
+        58,
+        3,
+        11,
+        43,
+        15,
+        54
+    ],
+    "login locations": [
+        [
+            -122.411894,
+            37.772119
+        ]
+    ],
+    "relationships": []
 }

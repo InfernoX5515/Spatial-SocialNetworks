@@ -5,7 +5,39 @@
     "email": "patrick45@hotmail.com",
     "birthdate": "2017-05-27",
     "phone": "862.976.9069x7756",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        35,
+        22,
+        29,
+        40,
+        27,
+        41,
+        8,
+        64,
+        64,
+        67,
+        8,
+        3,
+        66,
+        4
+    ],
+    "login locations": [
+        [
+            -122.384778,
+            37.778582
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4242,
+                0.0734265734266
+            ],
+            [
+                4242,
+                0.0734265734266
+            ]
+        ]
+    ]
 }

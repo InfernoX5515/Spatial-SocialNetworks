@@ -5,7 +5,29 @@
     "email": "stacyharvey@yahoo.com",
     "birthdate": "1993-12-12",
     "phone": "778.077.7917x8640",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        64,
+        14,
+        62,
+        10
+    ],
+    "login locations": [
+        [
+            -122.531981,
+            37.917618
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10490,
+                0.0540540540541
+            ],
+            [
+                10490,
+                0.0540540540541
+            ]
+        ]
+    ]
 }

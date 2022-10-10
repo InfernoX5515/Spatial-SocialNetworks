@@ -5,7 +5,14 @@
     "email": "beth22@yahoo.com",
     "birthdate": "1979-08-10",
     "phone": "(549)387-6661x07867",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53
+    ],
+    "login locations": [
+        [
+            -118.394193,
+            34.040564
+        ]
+    ],
+    "relationships": []
 }

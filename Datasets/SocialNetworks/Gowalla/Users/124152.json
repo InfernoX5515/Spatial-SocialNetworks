@@ -5,7 +5,22 @@
     "email": "johnsonlaura@gmail.com",
     "birthdate": "2020-07-18",
     "phone": "6363417744",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        29,
+        62,
+        30,
+        50,
+        11,
+        37,
+        31,
+        30
+    ],
+    "login locations": [
+        [
+            -118.454168,
+            34.12347
+        ]
+    ],
+    "relationships": []
 }

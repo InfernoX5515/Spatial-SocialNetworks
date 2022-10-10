@@ -5,7 +5,12 @@
     "email": "hullsamuel@yahoo.com",
     "birthdate": "1923-07-24",
     "phone": "+1-904-083-2901x632",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.194865,
+            33.942181
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "cameron73@yahoo.com",
     "birthdate": "1998-07-22",
     "phone": "001-189-506-1480x92063",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        9,
+        56,
+        16,
+        16,
+        59,
+        51,
+        29,
+        28
+    ],
+    "login locations": [
+        [
+            -122.407129,
+            37.798875
+        ]
+    ],
+    "relationships": []
 }

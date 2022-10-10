@@ -5,7 +5,32 @@
     "email": "stacy14@hotmail.com",
     "birthdate": "1999-12-13",
     "phone": "+1-217-813-6295x66597",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        7,
+        73,
+        35,
+        57,
+        3,
+        74,
+        14
+    ],
+    "login locations": [
+        [
+            -119.774586,
+            36.847794
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                120048,
+                0.05
+            ],
+            [
+                120049,
+                0.078431372549
+            ]
+        ]
+    ]
 }

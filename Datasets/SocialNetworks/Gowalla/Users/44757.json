@@ -5,7 +5,25 @@
     "email": "david14@gmail.com",
     "birthdate": "1991-05-10",
     "phone": "001-565-431-7323x9939",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        52,
+        13,
+        37,
+        14,
+        42,
+        41,
+        29,
+        73,
+        39,
+        6,
+        65
+    ],
+    "login locations": [
+        [
+            -121.987466,
+            37.253316
+        ]
+    ],
+    "relationships": []
 }

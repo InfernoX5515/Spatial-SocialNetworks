@@ -5,7 +5,19 @@
     "email": "fgraham@hotmail.com",
     "birthdate": "2000-11-27",
     "phone": "+1-794-562-5062x71891",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        13,
+        56,
+        25,
+        6,
+        55
+    ],
+    "login locations": [
+        [
+            -117.318061,
+            33.154163
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "eatonrobert@hotmail.com",
     "birthdate": "1981-04-09",
     "phone": "2808184178",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        2,
+        43,
+        57,
+        67,
+        48,
+        43,
+        55,
+        12,
+        63,
+        9,
+        26
+    ],
+    "login locations": [
+        [
+            -117.373854,
+            33.982741
+        ]
+    ],
+    "relationships": []
 }

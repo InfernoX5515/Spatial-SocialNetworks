@@ -5,7 +5,21 @@
     "email": "reynoldsdaryl@gmail.com",
     "birthdate": "1956-07-23",
     "phone": "(770)484-5172x49840",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        48,
+        61,
+        38,
+        58,
+        68,
+        58,
+        56
+    ],
+    "login locations": [
+        [
+            -122.123618,
+            37.265777
+        ]
+    ],
+    "relationships": []
 }

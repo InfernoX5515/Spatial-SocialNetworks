@@ -5,7 +5,14 @@
     "email": "ypineda@hotmail.com",
     "birthdate": "2015-01-06",
     "phone": "001-650-561-1099",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61
+    ],
+    "login locations": [
+        [
+            -121.897035,
+            36.621892
+        ]
+    ],
+    "relationships": []
 }

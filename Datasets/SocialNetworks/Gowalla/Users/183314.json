@@ -5,7 +5,18 @@
     "email": "brandonthomas@hotmail.com",
     "birthdate": "1978-09-29",
     "phone": "021-963-3476x00352",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        51,
+        21,
+        0,
+        10
+    ],
+    "login locations": [
+        [
+            -117.983968,
+            34.003068
+        ]
+    ],
+    "relationships": []
 }

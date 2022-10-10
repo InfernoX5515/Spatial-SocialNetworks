@@ -5,7 +5,22 @@
     "email": "ebrown@hotmail.com",
     "birthdate": "2008-11-02",
     "phone": "019.448.4055",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        36,
+        16,
+        43,
+        29,
+        39,
+        28,
+        58,
+        22
+    ],
+    "login locations": [
+        [
+            -117.998017,
+            33.710727
+        ]
+    ],
+    "relationships": []
 }

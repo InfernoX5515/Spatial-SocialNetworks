@@ -5,7 +5,27 @@
     "email": "kennethvang@hotmail.com",
     "birthdate": "2017-07-14",
     "phone": "724.858.6903",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        27,
+        26,
+        46,
+        7,
+        29,
+        45,
+        47,
+        32,
+        21,
+        59,
+        65,
+        1,
+        2
+    ],
+    "login locations": [
+        [
+            -122.057807,
+            37.376653
+        ]
+    ],
+    "relationships": []
 }

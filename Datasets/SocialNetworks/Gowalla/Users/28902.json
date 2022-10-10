@@ -5,7 +5,27 @@
     "email": "brandy19@gmail.com",
     "birthdate": "1967-04-18",
     "phone": "852.943.2412x03960",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        67,
+        66,
+        25,
+        38,
+        60,
+        33,
+        61,
+        10,
+        61,
+        31,
+        41,
+        44,
+        73
+    ],
+    "login locations": [
+        [
+            -121.891363,
+            36.713266
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "tina03@gmail.com",
     "birthdate": "1996-08-14",
     "phone": "4419248938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        29,
+        27,
+        31,
+        2,
+        4
+    ],
+    "login locations": [
+        [
+            -118.323917,
+            34.045514
+        ]
+    ],
+    "relationships": []
 }

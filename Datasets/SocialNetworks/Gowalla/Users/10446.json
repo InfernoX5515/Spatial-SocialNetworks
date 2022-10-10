@@ -5,7 +5,33 @@
     "email": "emmamoore@yahoo.com",
     "birthdate": "1955-11-22",
     "phone": "(629)937-8423",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        16,
+        51,
+        8,
+        48,
+        31,
+        17,
+        14,
+        69
+    ],
+    "login locations": [
+        [
+            -118.427554,
+            34.070388
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.01
+            ],
+            [
+                159,
+                0.01
+            ]
+        ]
+    ]
 }

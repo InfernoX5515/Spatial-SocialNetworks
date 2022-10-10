@@ -5,7 +5,36 @@
     "email": "andrew34@hotmail.com",
     "birthdate": "1959-07-14",
     "phone": "440-189-9359x59969",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        70,
+        42,
+        32,
+        8,
+        4,
+        27,
+        72,
+        54,
+        73,
+        20,
+        72
+    ],
+    "login locations": [
+        [
+            -117.149403,
+            33.025569
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                487,
+                0.0308771929825
+            ],
+            [
+                487,
+                0.0308771929825
+            ]
+        ]
+    ]
 }

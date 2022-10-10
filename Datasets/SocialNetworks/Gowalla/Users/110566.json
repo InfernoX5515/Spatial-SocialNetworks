@@ -5,7 +5,28 @@
     "email": "rwilliams@gmail.com",
     "birthdate": "1970-01-20",
     "phone": "+1-436-616-0478",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        49,
+        20,
+        0
+    ],
+    "login locations": [
+        [
+            -122.077392,
+            37.713426
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                110563,
+                0.016501650165
+            ],
+            [
+                110563,
+                0.016501650165
+            ]
+        ]
+    ]
 }

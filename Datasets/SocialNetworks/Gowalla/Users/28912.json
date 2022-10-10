@@ -5,7 +5,23 @@
     "email": "torresmadison@gmail.com",
     "birthdate": "1987-07-13",
     "phone": "201-540-5587",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        34,
+        63,
+        3,
+        38,
+        16,
+        3,
+        34,
+        30,
+        14
+    ],
+    "login locations": [
+        [
+            -118.309036,
+            34.048457
+        ]
+    ],
+    "relationships": []
 }

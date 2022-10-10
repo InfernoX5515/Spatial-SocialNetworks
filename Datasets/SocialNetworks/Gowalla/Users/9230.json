@@ -5,7 +5,23 @@
     "email": "betholiver@hotmail.com",
     "birthdate": "1918-12-15",
     "phone": "986.452.8666x9924",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        42,
+        53,
+        26,
+        13,
+        40,
+        27,
+        28,
+        70,
+        62
+    ],
+    "login locations": [
+        [
+            -122.001296,
+            37.35729
+        ]
+    ],
+    "relationships": []
 }

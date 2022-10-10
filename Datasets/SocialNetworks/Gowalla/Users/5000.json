@@ -5,7 +5,21 @@
     "email": "bradley25@gmail.com",
     "birthdate": "1950-07-18",
     "phone": "001-212-651-0061x873",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        52,
+        31,
+        44,
+        35,
+        4,
+        22,
+        40
+    ],
+    "login locations": [
+        [
+            -121.894922,
+            36.950386
+        ]
+    ],
+    "relationships": []
 }

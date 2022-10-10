@@ -5,7 +5,12 @@
     "email": "daniel27@gmail.com",
     "birthdate": "1982-12-28",
     "phone": "191-153-0628x32161",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.401929,
+            37.776672
+        ]
+    ],
+    "relationships": []
 }

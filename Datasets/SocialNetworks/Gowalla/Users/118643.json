@@ -5,7 +5,35 @@
     "email": "gary01@yahoo.com",
     "birthdate": "2020-02-20",
     "phone": "397.646.7370x5385",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        41,
+        11,
+        8,
+        51,
+        56,
+        58,
+        13,
+        71,
+        24,
+        75
+    ],
+    "login locations": [
+        [
+            -117.278583,
+            32.979026
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118645,
+                0.01
+            ],
+            [
+                118645,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,16 @@
     "email": "carla69@hotmail.com",
     "birthdate": "1983-01-17",
     "phone": "+1-588-243-2860x68801",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        2,
+        15
+    ],
+    "login locations": [
+        [
+            -122.048896,
+            37.385525
+        ]
+    ],
+    "relationships": []
 }

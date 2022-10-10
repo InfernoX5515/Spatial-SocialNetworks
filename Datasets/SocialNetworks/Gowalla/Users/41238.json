@@ -5,7 +5,20 @@
     "email": "burnettnina@gmail.com",
     "birthdate": "1935-02-25",
     "phone": "(112)267-4237x41903",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        75,
+        46,
+        62,
+        4,
+        24,
+        65
+    ],
+    "login locations": [
+        [
+            -117.785503,
+            33.839965
+        ]
+    ],
+    "relationships": []
 }

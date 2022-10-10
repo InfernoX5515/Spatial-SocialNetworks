@@ -5,7 +5,18 @@
     "email": "robertbailey@yahoo.com",
     "birthdate": "1930-05-18",
     "phone": "(583)259-5727x3693",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        47,
+        9,
+        32,
+        22
+    ],
+    "login locations": [
+        [
+            -118.460773,
+            34.117815
+        ]
+    ],
+    "relationships": []
 }

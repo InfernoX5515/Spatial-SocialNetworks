@@ -5,7 +5,16 @@
     "email": "michellebarber@hotmail.com",
     "birthdate": "1996-11-01",
     "phone": "202.683.0811x6699",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        33,
+        19
+    ],
+    "login locations": [
+        [
+            -122.414711,
+            37.789171
+        ]
+    ],
+    "relationships": []
 }

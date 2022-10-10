@@ -5,7 +5,25 @@
     "email": "catherine39@hotmail.com",
     "birthdate": "1961-08-25",
     "phone": "+1-024-992-9205x6128",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        59,
+        25,
+        23,
+        48,
+        35,
+        28,
+        38,
+        56,
+        24,
+        27,
+        13
+    ],
+    "login locations": [
+        [
+            -122.360195,
+            37.769698
+        ]
+    ],
+    "relationships": []
 }

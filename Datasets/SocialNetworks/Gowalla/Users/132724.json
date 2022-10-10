@@ -5,7 +5,16 @@
     "email": "johnbrown@yahoo.com",
     "birthdate": "1992-07-19",
     "phone": "523-044-1337x4887",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        32,
+        43
+    ],
+    "login locations": [
+        [
+            -122.412837,
+            37.808451
+        ]
+    ],
+    "relationships": []
 }

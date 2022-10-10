@@ -5,7 +5,28 @@
     "email": "darylperez@yahoo.com",
     "birthdate": "1941-08-23",
     "phone": "(331)597-2306x195",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        5,
+        30,
+        33
+    ],
+    "login locations": [
+        [
+            -122.393248,
+            37.795382
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22880,
+                0.04
+            ],
+            [
+                22880,
+                0.04
+            ]
+        ]
+    ]
 }

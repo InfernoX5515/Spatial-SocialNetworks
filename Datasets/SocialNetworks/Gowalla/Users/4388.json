@@ -5,7 +5,18 @@
     "email": "jennifer61@yahoo.com",
     "birthdate": "1927-09-16",
     "phone": "(269)327-3831",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        59,
+        45,
+        70,
+        37
+    ],
+    "login locations": [
+        [
+            -122.080672,
+            37.393005
+        ]
+    ],
+    "relationships": []
 }

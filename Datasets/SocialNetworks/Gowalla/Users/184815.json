@@ -5,7 +5,20 @@
     "email": "gary55@yahoo.com",
     "birthdate": "1934-05-10",
     "phone": "9876742069",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        0,
+        59,
+        59,
+        14,
+        72,
+        54
+    ],
+    "login locations": [
+        [
+            -117.241834,
+            33.094364
+        ]
+    ],
+    "relationships": []
 }

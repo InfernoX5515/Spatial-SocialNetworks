@@ -5,7 +5,23 @@
     "email": "lpaul@gmail.com",
     "birthdate": "1915-08-16",
     "phone": "869.428.9892",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        31,
+        50,
+        51,
+        9,
+        17,
+        11,
+        59,
+        14,
+        24
+    ],
+    "login locations": [
+        [
+            -122.078387,
+            37.390304
+        ]
+    ],
+    "relationships": []
 }

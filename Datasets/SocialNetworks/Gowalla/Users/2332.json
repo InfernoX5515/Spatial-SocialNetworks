@@ -5,7 +5,23 @@
     "email": "cmiles@yahoo.com",
     "birthdate": "1961-03-06",
     "phone": "(794)933-8546x18685",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        33,
+        41,
+        5,
+        2,
+        39,
+        25,
+        12,
+        74,
+        69
+    ],
+    "login locations": [
+        [
+            -122.179592,
+            37.437892
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "jacksonrebecca@gmail.com",
     "birthdate": "1972-08-17",
     "phone": "(735)791-9824x9747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        47,
+        62,
+        59,
+        18,
+        13,
+        50,
+        47,
+        13,
+        22,
+        21,
+        61,
+        38,
+        49,
+        31
+    ],
+    "login locations": [
+        [
+            -121.984951,
+            36.931612
+        ]
+    ],
+    "relationships": []
 }

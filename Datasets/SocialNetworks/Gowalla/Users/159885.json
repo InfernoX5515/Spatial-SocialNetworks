@@ -5,7 +5,20 @@
     "email": "pittmankenneth@yahoo.com",
     "birthdate": "1960-08-14",
     "phone": "(139)498-0195x30137",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        64,
+        21,
+        0,
+        68,
+        29,
+        68
+    ],
+    "login locations": [
+        [
+            -121.977827,
+            37.352161
+        ]
+    ],
+    "relationships": []
 }

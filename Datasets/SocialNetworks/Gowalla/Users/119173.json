@@ -5,7 +5,38 @@
     "email": "georgecunningham@yahoo.com",
     "birthdate": "1909-09-26",
     "phone": "255.158.0016x60440",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        25,
+        24,
+        42,
+        42,
+        38,
+        10,
+        68,
+        17,
+        0,
+        20,
+        3,
+        31,
+        26
+    ],
+    "login locations": [
+        [
+            -118.099025,
+            34.0799
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                26689,
+                0.0555555555556
+            ],
+            [
+                39814,
+                0.131111111111
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,26 @@
     "email": "sarah12@hotmail.com",
     "birthdate": "1958-02-01",
     "phone": "(883)747-9627x92695",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        60,
+        17,
+        71,
+        54,
+        61,
+        47,
+        21,
+        63,
+        22,
+        67,
+        14,
+        39
+    ],
+    "login locations": [
+        [
+            -122.139606,
+            37.429579
+        ]
+    ],
+    "relationships": []
 }

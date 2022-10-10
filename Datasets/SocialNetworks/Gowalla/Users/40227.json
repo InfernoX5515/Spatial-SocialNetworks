@@ -5,7 +5,26 @@
     "email": "sheilasanders@gmail.com",
     "birthdate": "1961-01-22",
     "phone": "064.649.6615x415",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        58,
+        19,
+        7,
+        64,
+        10,
+        6,
+        16,
+        7,
+        59,
+        58,
+        27,
+        18
+    ],
+    "login locations": [
+        [
+            -121.949659,
+            37.294192
+        ]
+    ],
+    "relationships": []
 }

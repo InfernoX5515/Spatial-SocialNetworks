@@ -5,7 +5,19 @@
     "email": "tfletcher@gmail.com",
     "birthdate": "1915-04-08",
     "phone": "(372)406-9152x394",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        18,
+        5,
+        23,
+        69,
+        2
+    ],
+    "login locations": [
+        [
+            -118.244606,
+            34.085537
+        ]
+    ],
+    "relationships": []
 }

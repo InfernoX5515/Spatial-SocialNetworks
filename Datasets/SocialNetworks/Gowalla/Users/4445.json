@@ -5,7 +5,27 @@
     "email": "michael09@yahoo.com",
     "birthdate": "2017-05-14",
     "phone": "(287)401-5834",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        12,
+        16,
+        21,
+        20,
+        47,
+        67,
+        23,
+        45,
+        6,
+        42,
+        52,
+        69,
+        68
+    ],
+    "login locations": [
+        [
+            -122.160064,
+            37.425969
+        ]
+    ],
+    "relationships": []
 }

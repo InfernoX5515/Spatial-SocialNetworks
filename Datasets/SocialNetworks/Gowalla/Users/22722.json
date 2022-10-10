@@ -5,7 +5,23 @@
     "email": "krice@yahoo.com",
     "birthdate": "1965-06-14",
     "phone": "+1-296-543-2199",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        74,
+        44,
+        37,
+        71,
+        20,
+        37,
+        40,
+        28,
+        36
+    ],
+    "login locations": [
+        [
+            -118.322783,
+            34.081825
+        ]
+    ],
+    "relationships": []
 }

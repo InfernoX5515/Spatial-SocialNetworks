@@ -5,7 +5,17 @@
     "email": "pittsamanda@yahoo.com",
     "birthdate": "2021-10-08",
     "phone": "+1-228-996-5215",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        34,
+        26,
+        30
+    ],
+    "login locations": [
+        [
+            -122.394485,
+            37.731139
+        ]
+    ],
+    "relationships": []
 }

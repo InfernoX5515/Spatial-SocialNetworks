@@ -5,7 +5,21 @@
     "email": "oriley@yahoo.com",
     "birthdate": "1986-01-15",
     "phone": "(167)216-1828x1079",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        6,
+        67,
+        35,
+        63,
+        7,
+        5,
+        25
+    ],
+    "login locations": [
+        [
+            -117.889474,
+            33.766295
+        ]
+    ],
+    "relationships": []
 }

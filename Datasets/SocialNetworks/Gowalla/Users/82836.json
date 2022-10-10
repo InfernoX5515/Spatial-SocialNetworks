@@ -5,7 +5,20 @@
     "email": "lambertdawn@hotmail.com",
     "birthdate": "2015-11-22",
     "phone": "6930146361",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        13,
+        25,
+        53,
+        66,
+        70,
+        3
+    ],
+    "login locations": [
+        [
+            -121.926875,
+            37.332517
+        ]
+    ],
+    "relationships": []
 }

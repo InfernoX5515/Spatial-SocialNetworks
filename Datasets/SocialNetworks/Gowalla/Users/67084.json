@@ -5,7 +5,23 @@
     "email": "nathan85@gmail.com",
     "birthdate": "1912-01-06",
     "phone": "+1-363-300-8732x5518",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        18,
+        66,
+        16,
+        7,
+        11,
+        59,
+        57,
+        32,
+        69
+    ],
+    "login locations": [
+        [
+            -118.16399,
+            34.05916
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,30 @@
     "email": "dillon87@yahoo.com",
     "birthdate": "1907-10-07",
     "phone": "168.846.5078x5340",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        20,
+        18,
+        36,
+        19,
+        60
+    ],
+    "login locations": [
+        [
+            -118.402871,
+            34.125328
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                127958,
+                0.533333333333
+            ],
+            [
+                127958,
+                0.533333333333
+            ]
+        ]
+    ]
 }

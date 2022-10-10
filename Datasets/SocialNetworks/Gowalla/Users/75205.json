@@ -5,7 +5,18 @@
     "email": "hornmaurice@hotmail.com",
     "birthdate": "1920-10-02",
     "phone": "+1-379-299-7383x96724",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        49,
+        32,
+        32,
+        30
+    ],
+    "login locations": [
+        [
+            -122.401106,
+            37.78809
+        ]
+    ],
+    "relationships": []
 }

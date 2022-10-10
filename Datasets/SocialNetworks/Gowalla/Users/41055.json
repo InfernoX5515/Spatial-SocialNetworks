@@ -5,7 +5,14 @@
     "email": "catherine94@hotmail.com",
     "birthdate": "1954-01-02",
     "phone": "394.197.1219x55643",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23
+    ],
+    "login locations": [
+        [
+            -118.385509,
+            34.081653
+        ]
+    ],
+    "relationships": []
 }

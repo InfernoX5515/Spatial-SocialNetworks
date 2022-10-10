@@ -5,7 +5,21 @@
     "email": "eddieterry@yahoo.com",
     "birthdate": "2001-07-31",
     "phone": "115.791.7088x8914",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        37,
+        55,
+        66,
+        42,
+        41,
+        11,
+        39
+    ],
+    "login locations": [
+        [
+            -118.476432,
+            34.027514
+        ]
+    ],
+    "relationships": []
 }

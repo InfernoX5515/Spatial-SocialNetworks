@@ -5,7 +5,23 @@
     "email": "baileysarah@yahoo.com",
     "birthdate": "2009-07-10",
     "phone": "266.292.9445x7065",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        28,
+        5,
+        55,
+        20,
+        57,
+        61,
+        40,
+        11,
+        69
+    ],
+    "login locations": [
+        [
+            -118.09604,
+            33.812289
+        ]
+    ],
+    "relationships": []
 }

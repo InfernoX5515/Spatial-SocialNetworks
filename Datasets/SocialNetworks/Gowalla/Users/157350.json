@@ -5,7 +5,24 @@
     "email": "fwood@hotmail.com",
     "birthdate": "1955-09-16",
     "phone": "123-197-5544x457",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        52,
+        26,
+        73,
+        70,
+        66,
+        52,
+        45,
+        16,
+        3,
+        48
+    ],
+    "login locations": [
+        [
+            -122.423865,
+            37.784558
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "brucelee@hotmail.com",
     "birthdate": "2009-05-08",
     "phone": "066.334.2730x13625",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        59,
+        9,
+        22
+    ],
+    "login locations": [
+        [
+            -122.416429,
+            37.79441
+        ]
+    ],
+    "relationships": []
 }

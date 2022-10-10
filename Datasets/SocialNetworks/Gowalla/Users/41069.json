@@ -5,7 +5,20 @@
     "email": "carterlisa@hotmail.com",
     "birthdate": "1922-07-23",
     "phone": "001-102-123-0485x25027",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        54,
+        55,
+        11,
+        48,
+        67,
+        14
+    ],
+    "login locations": [
+        [
+            -118.171726,
+            34.046302
+        ]
+    ],
+    "relationships": []
 }

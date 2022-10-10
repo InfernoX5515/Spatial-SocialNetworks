@@ -5,7 +5,16 @@
     "email": "katie44@hotmail.com",
     "birthdate": "1961-01-07",
     "phone": "395.811.9970",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        47,
+        35
+    ],
+    "login locations": [
+        [
+            -121.401125,
+            38.619503
+        ]
+    ],
+    "relationships": []
 }

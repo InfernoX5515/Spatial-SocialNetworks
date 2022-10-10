@@ -5,7 +5,18 @@
     "email": "mclaughlinkristen@hotmail.com",
     "birthdate": "2013-10-31",
     "phone": "799-492-4231x197",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        28,
+        63,
+        42,
+        65
+    ],
+    "login locations": [
+        [
+            -122.418686,
+            37.783901
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "wjohns@gmail.com",
     "birthdate": "1925-11-03",
     "phone": "+1-413-781-3293x2808",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        6,
+        4
+    ],
+    "login locations": [
+        [
+            -118.278323,
+            33.964467
+        ]
+    ],
+    "relationships": []
 }

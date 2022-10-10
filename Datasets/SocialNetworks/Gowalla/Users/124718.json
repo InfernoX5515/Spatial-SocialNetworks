@@ -5,7 +5,31 @@
     "email": "william93@gmail.com",
     "birthdate": "1934-06-29",
     "phone": "(716)386-7247x1875",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        9,
+        46,
+        27,
+        48,
+        10,
+        15
+    ],
+    "login locations": [
+        [
+            -122.405789,
+            37.784995
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32437,
+                0.02
+            ],
+            [
+                124716,
+                0.491803278689
+            ]
+        ]
+    ]
 }

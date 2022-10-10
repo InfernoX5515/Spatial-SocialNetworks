@@ -5,7 +5,19 @@
     "email": "reyeskatherine@gmail.com",
     "birthdate": "1949-07-05",
     "phone": "(396)588-8765x699",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        39,
+        41,
+        59,
+        27,
+        53
+    ],
+    "login locations": [
+        [
+            -117.169918,
+            32.728231
+        ]
+    ],
+    "relationships": []
 }

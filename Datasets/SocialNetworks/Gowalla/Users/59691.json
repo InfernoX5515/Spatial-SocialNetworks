@@ -5,7 +5,16 @@
     "email": "garciadaniel@gmail.com",
     "birthdate": "2006-02-05",
     "phone": "4379549708",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        37,
+        21
+    ],
+    "login locations": [
+        [
+            -122.395442,
+            37.797077
+        ]
+    ],
+    "relationships": []
 }

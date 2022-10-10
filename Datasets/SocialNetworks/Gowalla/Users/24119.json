@@ -5,7 +5,26 @@
     "email": "susan78@yahoo.com",
     "birthdate": "1967-09-20",
     "phone": "788-081-5241",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        68,
+        39,
+        13,
+        35,
+        60,
+        63,
+        26,
+        44,
+        49,
+        53,
+        51,
+        69
+    ],
+    "login locations": [
+        [
+            -122.398103,
+            37.761913
+        ]
+    ],
+    "relationships": []
 }

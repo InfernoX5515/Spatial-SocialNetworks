@@ -5,7 +5,26 @@
     "email": "harrisclifford@gmail.com",
     "birthdate": "1960-11-06",
     "phone": "+1-943-159-4520x69693",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        17,
+        51,
+        17,
+        36,
+        43,
+        63,
+        2,
+        30,
+        8,
+        11,
+        48,
+        8
+    ],
+    "login locations": [
+        [
+            -122.413316,
+            37.772471
+        ]
+    ],
+    "relationships": []
 }

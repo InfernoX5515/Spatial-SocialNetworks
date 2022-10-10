@@ -5,7 +5,28 @@
     "email": "wclark@gmail.com",
     "birthdate": "1989-09-28",
     "phone": "167.275.6256",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        55,
+        45,
+        23,
+        28,
+        50,
+        8,
+        6,
+        8,
+        24,
+        60,
+        52,
+        60,
+        0,
+        37
+    ],
+    "login locations": [
+        [
+            -122.4048,
+            37.790233
+        ]
+    ],
+    "relationships": []
 }

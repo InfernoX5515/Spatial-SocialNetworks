@@ -5,7 +5,25 @@
     "email": "michaelreed@yahoo.com",
     "birthdate": "1940-05-26",
     "phone": "001-585-515-3426",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        6,
+        40,
+        59,
+        47,
+        42,
+        74,
+        65,
+        48,
+        40,
+        30,
+        22
+    ],
+    "login locations": [
+        [
+            -121.261353,
+            38.690375
+        ]
+    ],
+    "relationships": []
 }

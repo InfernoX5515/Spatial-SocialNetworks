@@ -5,7 +5,26 @@
     "email": "lindawashington@hotmail.com",
     "birthdate": "1947-09-25",
     "phone": "447.789.1818x128",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        47
+    ],
+    "login locations": [
+        [
+            -122.404711,
+            37.828506
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                201,
+                0.04
+            ],
+            [
+                41403,
+                0.01
+            ]
+        ]
+    ]
 }

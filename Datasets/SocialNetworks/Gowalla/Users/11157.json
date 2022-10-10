@@ -5,7 +5,12 @@
     "email": "randolphmitchell@hotmail.com",
     "birthdate": "1952-04-09",
     "phone": "2586122676",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.223106,
+            32.960516
+        ]
+    ],
+    "relationships": []
 }

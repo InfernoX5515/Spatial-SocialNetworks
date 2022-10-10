@@ -5,7 +5,25 @@
     "email": "tgood@hotmail.com",
     "birthdate": "1934-02-03",
     "phone": "377.588.9720x46561",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74
+    ],
+    "login locations": [
+        [
+            -122.025185,
+            37.331864
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3970,
+                0.0718954248366
+            ],
+            [
+                3970,
+                0.0718954248366
+            ]
+        ]
+    ]
 }

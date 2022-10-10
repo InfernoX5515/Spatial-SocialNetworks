@@ -5,7 +5,39 @@
     "email": "lthompson@yahoo.com",
     "birthdate": "1986-08-08",
     "phone": "089.542.0045x7616",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        8,
+        71,
+        43,
+        36,
+        45,
+        24,
+        15,
+        65,
+        28,
+        51,
+        54,
+        1,
+        56,
+        52
+    ],
+    "login locations": [
+        [
+            -122.429065,
+            37.766826
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.0583941605839
+            ],
+            [
+                268,
+                0.01
+            ]
+        ]
+    ]
 }

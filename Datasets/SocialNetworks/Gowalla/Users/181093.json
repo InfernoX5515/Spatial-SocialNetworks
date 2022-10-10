@@ -5,7 +5,23 @@
     "email": "paulwood@yahoo.com",
     "birthdate": "1916-05-06",
     "phone": "(755)821-7220",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.963175,
+            34.01075
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125824,
+                0.044776119403
+            ],
+            [
+                125824,
+                0.044776119403
+            ]
+        ]
+    ]
 }

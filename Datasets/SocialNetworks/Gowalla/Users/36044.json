@@ -5,7 +5,24 @@
     "email": "heatherrichardson@hotmail.com",
     "birthdate": "2013-01-20",
     "phone": "363-178-6225",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        67,
+        37,
+        16,
+        67,
+        10,
+        24,
+        49,
+        35,
+        1,
+        73
+    ],
+    "login locations": [
+        [
+            -122.38521,
+            37.715308
+        ]
+    ],
+    "relationships": []
 }

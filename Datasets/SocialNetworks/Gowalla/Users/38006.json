@@ -5,7 +5,27 @@
     "email": "fullerroger@yahoo.com",
     "birthdate": "2010-09-05",
     "phone": "001-151-298-6425",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        8,
+        42,
+        19,
+        13,
+        69,
+        18,
+        26,
+        41,
+        57,
+        68,
+        15,
+        51,
+        54
+    ],
+    "login locations": [
+        [
+            -118.479299,
+            34.018154
+        ]
+    ],
+    "relationships": []
 }

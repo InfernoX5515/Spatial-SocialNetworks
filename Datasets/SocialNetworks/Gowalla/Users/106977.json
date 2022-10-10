@@ -5,7 +5,16 @@
     "email": "nicholsjoseph@hotmail.com",
     "birthdate": "1955-01-28",
     "phone": "001-004-894-7282x3278",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        16,
+        14
+    ],
+    "login locations": [
+        [
+            -118.585062,
+            34.167917
+        ]
+    ],
+    "relationships": []
 }

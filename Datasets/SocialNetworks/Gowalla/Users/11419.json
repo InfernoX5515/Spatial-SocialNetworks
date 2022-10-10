@@ -5,7 +5,18 @@
     "email": "brittanyrojas@gmail.com",
     "birthdate": "1968-01-13",
     "phone": "3832652412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        16,
+        55,
+        70,
+        1
+    ],
+    "login locations": [
+        [
+            -122.536867,
+            37.897207
+        ]
+    ],
+    "relationships": []
 }

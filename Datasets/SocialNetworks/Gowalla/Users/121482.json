@@ -5,7 +5,24 @@
     "email": "wendy95@hotmail.com",
     "birthdate": "1930-02-05",
     "phone": "999-558-1300x269",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        32,
+        16,
+        24,
+        37,
+        25,
+        64,
+        53,
+        57,
+        74,
+        48
+    ],
+    "login locations": [
+        [
+            -117.972067,
+            33.847158
+        ]
+    ],
+    "relationships": []
 }

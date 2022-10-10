@@ -5,7 +5,25 @@
     "email": "cfoster@gmail.com",
     "birthdate": "1969-02-16",
     "phone": "001-104-263-0196",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        0,
+        67,
+        38,
+        44,
+        30,
+        4,
+        40,
+        33,
+        62,
+        3,
+        61
+    ],
+    "login locations": [
+        [
+            -118.566006,
+            34.365885
+        ]
+    ],
+    "relationships": []
 }

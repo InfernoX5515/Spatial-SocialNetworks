@@ -5,7 +5,14 @@
     "email": "pwalls@gmail.com",
     "birthdate": "1957-05-08",
     "phone": "001-920-523-0524x78298",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43
+    ],
+    "login locations": [
+        [
+            -118.359015,
+            33.97869
+        ]
+    ],
+    "relationships": []
 }

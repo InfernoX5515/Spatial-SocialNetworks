@@ -5,7 +5,27 @@
     "email": "anthonyfletcher@gmail.com",
     "birthdate": "1913-10-26",
     "phone": "948-162-0177x5551",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        28,
+        17
+    ],
+    "login locations": [
+        [
+            -117.146056,
+            32.745042
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1904,
+                0.01
+            ],
+            [
+                1904,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

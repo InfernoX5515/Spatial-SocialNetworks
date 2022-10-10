@@ -5,7 +5,20 @@
     "email": "xmolina@gmail.com",
     "birthdate": "2006-05-30",
     "phone": "308.691.9519x4530",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        41,
+        68,
+        3,
+        31,
+        38,
+        49
+    ],
+    "login locations": [
+        [
+            -118.823194,
+            34.167736
+        ]
+    ],
+    "relationships": []
 }

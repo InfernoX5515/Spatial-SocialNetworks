@@ -5,7 +5,27 @@
     "email": "fchen@hotmail.com",
     "birthdate": "1979-11-27",
     "phone": "+1-920-162-0752",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        14,
+        6,
+        11,
+        2,
+        38,
+        51,
+        67,
+        58,
+        5,
+        42,
+        41,
+        26,
+        14
+    ],
+    "login locations": [
+        [
+            -121.2839,
+            38.731265
+        ]
+    ],
+    "relationships": []
 }

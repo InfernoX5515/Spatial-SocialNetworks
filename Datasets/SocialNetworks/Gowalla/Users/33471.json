@@ -5,7 +5,25 @@
     "email": "walkerchristina@yahoo.com",
     "birthdate": "1977-04-05",
     "phone": "807.378.0511x4053",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        42,
+        53,
+        27,
+        73,
+        49,
+        11,
+        46,
+        71,
+        73,
+        14,
+        50
+    ],
+    "login locations": [
+        [
+            -118.177267,
+            33.919145
+        ]
+    ],
+    "relationships": []
 }

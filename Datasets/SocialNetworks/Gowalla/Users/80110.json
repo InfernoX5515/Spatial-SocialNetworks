@@ -5,7 +5,35 @@
     "email": "crawforderica@yahoo.com",
     "birthdate": "1995-12-03",
     "phone": "(683)385-7082",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        23,
+        60,
+        5,
+        74,
+        42,
+        1,
+        65,
+        0,
+        38,
+        16
+    ],
+    "login locations": [
+        [
+            -118.374126,
+            34.059441
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32401,
+                0.01
+            ],
+            [
+                32401,
+                0.01
+            ]
+        ]
+    ]
 }

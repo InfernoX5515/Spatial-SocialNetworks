@@ -5,7 +5,26 @@
     "email": "rtownsend@gmail.com",
     "birthdate": "1908-11-30",
     "phone": "+1-529-658-6794x5440",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        65,
+        0,
+        45,
+        30,
+        56,
+        23,
+        38,
+        6,
+        51,
+        48,
+        41,
+        10
+    ],
+    "login locations": [
+        [
+            -121.677583,
+            36.686037
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "garciaandrew@hotmail.com",
     "birthdate": "1995-12-16",
     "phone": "+1-376-546-4526x6777",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        43,
+        30,
+        72,
+        59,
+        66,
+        44,
+        56,
+        64,
+        3,
+        73
+    ],
+    "login locations": [
+        [
+            -117.918451,
+            33.803903
+        ]
+    ],
+    "relationships": []
 }

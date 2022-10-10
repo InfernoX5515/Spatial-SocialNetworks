@@ -5,7 +5,26 @@
     "email": "amandagray@gmail.com",
     "birthdate": "1930-05-29",
     "phone": "259-426-4634",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        12,
+        24,
+        66,
+        72,
+        0,
+        13,
+        49,
+        64,
+        30,
+        53,
+        74,
+        9
+    ],
+    "login locations": [
+        [
+            -122.235794,
+            37.949756
+        ]
+    ],
+    "relationships": []
 }

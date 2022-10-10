@@ -5,7 +5,22 @@
     "email": "michelle10@gmail.com",
     "birthdate": "1915-10-03",
     "phone": "+1-967-675-1182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        36,
+        58,
+        46,
+        54,
+        0,
+        32,
+        3,
+        34
+    ],
+    "login locations": [
+        [
+            -122.347018,
+            40.588896
+        ]
+    ],
+    "relationships": []
 }

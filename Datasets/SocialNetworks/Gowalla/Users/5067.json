@@ -5,7 +5,19 @@
     "email": "david91@hotmail.com",
     "birthdate": "1952-02-06",
     "phone": "563.944.9665x24786",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        39,
+        53,
+        19,
+        56,
+        28
+    ],
+    "login locations": [
+        [
+            -122.339937,
+            37.779126
+        ]
+    ],
+    "relationships": []
 }

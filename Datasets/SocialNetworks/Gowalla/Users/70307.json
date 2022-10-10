@@ -5,7 +5,23 @@
     "email": "kayla95@gmail.com",
     "birthdate": "1957-02-20",
     "phone": "527-172-7720",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        18,
+        65,
+        16,
+        70,
+        6,
+        29,
+        8,
+        25,
+        75
+    ],
+    "login locations": [
+        [
+            -122.327006,
+            37.830004
+        ]
+    ],
+    "relationships": []
 }

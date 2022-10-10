@@ -5,7 +5,23 @@
     "email": "kylie65@hotmail.com",
     "birthdate": "1965-04-20",
     "phone": "+1-536-875-5301x1456",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.400808,
+            37.755244
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2314,
+                0.011673151751
+            ],
+            [
+                6057,
+                0.01
+            ]
+        ]
+    ]
 }

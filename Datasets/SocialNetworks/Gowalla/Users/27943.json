@@ -5,7 +5,15 @@
     "email": "kathleensanchez@yahoo.com",
     "birthdate": "1952-02-21",
     "phone": "776.483.4179",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        19
+    ],
+    "login locations": [
+        [
+            -121.410955,
+            38.647004
+        ]
+    ],
+    "relationships": []
 }

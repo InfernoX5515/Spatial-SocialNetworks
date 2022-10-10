@@ -5,7 +5,14 @@
     "email": "carolyn24@yahoo.com",
     "birthdate": "1909-07-14",
     "phone": "(215)875-6188",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59
+    ],
+    "login locations": [
+        [
+            -122.289761,
+            37.814052
+        ]
+    ],
+    "relationships": []
 }

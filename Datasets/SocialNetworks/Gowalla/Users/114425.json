@@ -5,7 +5,19 @@
     "email": "geraldtorres@hotmail.com",
     "birthdate": "1926-01-21",
     "phone": "996-968-6188x7670",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        24,
+        56,
+        23,
+        23,
+        25
+    ],
+    "login locations": [
+        [
+            -121.94903,
+            37.373273
+        ]
+    ],
+    "relationships": []
 }

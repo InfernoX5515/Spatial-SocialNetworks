@@ -5,7 +5,27 @@
     "email": "allison38@yahoo.com",
     "birthdate": "1980-07-27",
     "phone": "073.998.3373",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        21,
+        17,
+        7,
+        15,
+        55,
+        16,
+        18,
+        35,
+        19,
+        69,
+        41,
+        74,
+        51
+    ],
+    "login locations": [
+        [
+            -122.67816,
+            38.323755
+        ]
+    ],
+    "relationships": []
 }

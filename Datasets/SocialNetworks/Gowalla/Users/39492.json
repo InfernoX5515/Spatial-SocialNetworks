@@ -5,7 +5,19 @@
     "email": "fpena@hotmail.com",
     "birthdate": "1997-09-20",
     "phone": "001-807-681-6971x4936",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        75,
+        16,
+        65,
+        37,
+        56
+    ],
+    "login locations": [
+        [
+            -118.326885,
+            34.064544
+        ]
+    ],
+    "relationships": []
 }

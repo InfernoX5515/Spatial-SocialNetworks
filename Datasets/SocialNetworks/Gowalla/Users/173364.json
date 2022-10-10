@@ -5,7 +5,21 @@
     "email": "xryan@yahoo.com",
     "birthdate": "1996-09-12",
     "phone": "499-030-8081",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        2,
+        4,
+        56,
+        64,
+        71,
+        42,
+        61
+    ],
+    "login locations": [
+        [
+            -121.219163,
+            37.71609
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "johnsondavid@yahoo.com",
     "birthdate": "1944-04-16",
     "phone": "243.870.8087x3195",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        30,
+        71,
+        39,
+        74,
+        17,
+        66,
+        70,
+        39,
+        28,
+        39,
+        47
+    ],
+    "login locations": [
+        [
+            -122.521758,
+            37.967006
+        ]
+    ],
+    "relationships": []
 }

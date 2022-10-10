@@ -5,7 +5,28 @@
     "email": "kimberlythomas@yahoo.com",
     "birthdate": "1991-09-21",
     "phone": "+1-125-499-9285x9159",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        35,
+        30,
+        10
+    ],
+    "login locations": [
+        [
+            -118.016894,
+            33.849374
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                42797,
+                0.117647058824
+            ],
+            [
+                49839,
+                0.441176470588
+            ]
+        ]
+    ]
 }

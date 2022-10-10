@@ -5,7 +5,26 @@
     "email": "charles76@yahoo.com",
     "birthdate": "1956-01-07",
     "phone": "+1-701-994-9056x9598",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        23
+    ],
+    "login locations": [
+        [
+            -122.397613,
+            37.692682
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4680,
+                0.0128755364807
+            ],
+            [
+                10490,
+                0.405405405405
+            ]
+        ]
+    ]
 }

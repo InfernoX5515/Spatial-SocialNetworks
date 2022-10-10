@@ -5,7 +5,25 @@
     "email": "jillbenson@gmail.com",
     "birthdate": "2022-01-20",
     "phone": "(603)855-7907x73643",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        51,
+        72,
+        56,
+        53,
+        57,
+        24,
+        32,
+        15,
+        35,
+        68,
+        10
+    ],
+    "login locations": [
+        [
+            -121.213936,
+            37.790105
+        ]
+    ],
+    "relationships": []
 }

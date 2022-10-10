@@ -5,7 +5,27 @@
     "email": "clarktracy@gmail.com",
     "birthdate": "2011-11-16",
     "phone": "(632)923-0796x8727",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        46,
+        54
+    ],
+    "login locations": [
+        [
+            -118.231472,
+            34.044321
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                40558,
+                0.0266666666667
+            ],
+            [
+                40558,
+                0.0266666666667
+            ]
+        ]
+    ]
 }

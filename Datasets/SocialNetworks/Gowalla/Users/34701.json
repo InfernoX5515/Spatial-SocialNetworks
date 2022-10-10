@@ -5,7 +5,32 @@
     "email": "julie08@gmail.com",
     "birthdate": "1928-08-14",
     "phone": "+1-248-544-6525x979",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        3,
+        31,
+        40,
+        53,
+        52,
+        25,
+        59
+    ],
+    "login locations": [
+        [
+            -122.027691,
+            37.411136
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5073,
+                0.0733333333333
+            ],
+            [
+                5074,
+                0.0681818181818
+            ]
+        ]
+    ]
 }

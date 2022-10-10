@@ -5,7 +5,22 @@
     "email": "rodrigueztammy@gmail.com",
     "birthdate": "1954-04-05",
     "phone": "179.918.1073",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        35,
+        69,
+        53,
+        59,
+        32,
+        72,
+        35,
+        61
+    ],
+    "login locations": [
+        [
+            -116.282564,
+            33.721274
+        ]
+    ],
+    "relationships": []
 }

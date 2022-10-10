@@ -5,7 +5,23 @@
     "email": "nguyeneric@hotmail.com",
     "birthdate": "1999-04-28",
     "phone": "584.366.0031",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        9,
+        32,
+        8,
+        20,
+        43,
+        69,
+        30,
+        19,
+        58
+    ],
+    "login locations": [
+        [
+            -121.45509,
+            38.559404
+        ]
+    ],
+    "relationships": []
 }

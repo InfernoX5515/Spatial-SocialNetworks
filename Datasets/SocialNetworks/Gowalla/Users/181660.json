@@ -5,7 +5,22 @@
     "email": "rojastracy@gmail.com",
     "birthdate": "2006-07-09",
     "phone": "001-655-667-7033x61535",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        68,
+        41,
+        10,
+        33,
+        24,
+        31,
+        8,
+        51
+    ],
+    "login locations": [
+        [
+            -116.540611,
+            33.821547
+        ]
+    ],
+    "relationships": []
 }

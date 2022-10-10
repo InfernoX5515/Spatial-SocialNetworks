@@ -5,7 +5,22 @@
     "email": "dcarter@gmail.com",
     "birthdate": "1948-10-02",
     "phone": "175-708-4560x1325",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        13,
+        30,
+        9,
+        10,
+        19,
+        46,
+        24,
+        4
+    ],
+    "login locations": [
+        [
+            -121.963264,
+            37.35538
+        ]
+    ],
+    "relationships": []
 }

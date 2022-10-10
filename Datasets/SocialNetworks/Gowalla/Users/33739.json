@@ -5,7 +5,21 @@
     "email": "morgan30@gmail.com",
     "birthdate": "1999-11-01",
     "phone": "022.139.6746x9969",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        24,
+        28,
+        30,
+        23,
+        48,
+        15,
+        50
+    ],
+    "login locations": [
+        [
+            -117.179657,
+            32.736282
+        ]
+    ],
+    "relationships": []
 }

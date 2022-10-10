@@ -5,7 +5,18 @@
     "email": "watkinsrobin@hotmail.com",
     "birthdate": "1990-12-20",
     "phone": "(553)851-4334x983",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        2,
+        16,
+        8,
+        60
+    ],
+    "login locations": [
+        [
+            -122.253774,
+            37.468719
+        ]
+    ],
+    "relationships": []
 }

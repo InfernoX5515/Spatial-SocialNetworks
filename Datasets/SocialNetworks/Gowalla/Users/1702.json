@@ -5,7 +5,33 @@
     "email": "erik87@yahoo.com",
     "birthdate": "1997-06-28",
     "phone": "+1-671-982-4108x420",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        44,
+        70,
+        30,
+        75,
+        18,
+        43,
+        64,
+        48
+    ],
+    "login locations": [
+        [
+            -118.440763,
+            33.999938
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11931,
+                0.01
+            ],
+            [
+                11931,
+                0.01
+            ]
+        ]
+    ]
 }

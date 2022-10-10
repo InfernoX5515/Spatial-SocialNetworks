@@ -5,7 +5,20 @@
     "email": "ojenkins@hotmail.com",
     "birthdate": "1979-11-07",
     "phone": "001-488-684-9816x412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        57,
+        9,
+        59,
+        39,
+        59,
+        40
+    ],
+    "login locations": [
+        [
+            -122.27928,
+            38.241209
+        ]
+    ],
+    "relationships": []
 }

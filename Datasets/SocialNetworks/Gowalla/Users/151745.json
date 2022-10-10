@@ -5,7 +5,21 @@
     "email": "elizabeth30@hotmail.com",
     "birthdate": "1936-02-17",
     "phone": "040-761-7357",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        65,
+        34,
+        49,
+        8,
+        66,
+        59,
+        65
+    ],
+    "login locations": [
+        [
+            -118.422488,
+            34.031129
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "kfitzgerald@hotmail.com",
     "birthdate": "1946-06-09",
     "phone": "(705)994-7961x0929",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        6,
+        0,
+        20,
+        35,
+        21,
+        43,
+        41,
+        72,
+        55,
+        71,
+        26,
+        54,
+        41,
+        39
+    ],
+    "login locations": [
+        [
+            -122.87306,
+            38.624853
+        ]
+    ],
+    "relationships": []
 }

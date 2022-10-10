@@ -5,7 +5,25 @@
     "email": "sullivanscott@yahoo.com",
     "birthdate": "2018-01-23",
     "phone": "(094)993-8268x7998",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        11,
+        29,
+        59,
+        41,
+        71,
+        56,
+        19,
+        56,
+        51,
+        39,
+        0
+    ],
+    "login locations": [
+        [
+            -122.083026,
+            37.386931
+        ]
+    ],
+    "relationships": []
 }

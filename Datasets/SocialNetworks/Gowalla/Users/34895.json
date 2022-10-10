@@ -5,7 +5,38 @@
     "email": "smithmelissa@hotmail.com",
     "birthdate": "1920-01-18",
     "phone": "009.725.5348x84778",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        7,
+        22,
+        17,
+        36,
+        49,
+        35,
+        15,
+        39,
+        12,
+        0,
+        8,
+        26,
+        24
+    ],
+    "login locations": [
+        [
+            -117.881345,
+            33.667314
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2830,
+                0.0952380952381
+            ],
+            [
+                2830,
+                0.0952380952381
+            ]
+        ]
+    ]
 }

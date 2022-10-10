@@ -5,7 +5,12 @@
     "email": "charlesolson@hotmail.com",
     "birthdate": "1964-03-12",
     "phone": "7465619977",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.430989,
+            37.696951
+        ]
+    ],
+    "relationships": []
 }

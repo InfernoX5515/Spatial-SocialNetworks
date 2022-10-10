@@ -5,7 +5,16 @@
     "email": "laurie24@gmail.com",
     "birthdate": "1932-02-01",
     "phone": "+1-842-072-5071x6157",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        56,
+        15
+    ],
+    "login locations": [
+        [
+            -118.457614,
+            34.019913
+        ]
+    ],
+    "relationships": []
 }

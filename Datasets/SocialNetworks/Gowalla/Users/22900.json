@@ -5,7 +5,25 @@
     "email": "osalazar@gmail.com",
     "birthdate": "1946-07-17",
     "phone": "4182180514",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        73,
+        5,
+        41,
+        45,
+        37,
+        16,
+        1,
+        0,
+        42,
+        40,
+        40
+    ],
+    "login locations": [
+        [
+            -122.300792,
+            37.83365
+        ]
+    ],
+    "relationships": []
 }

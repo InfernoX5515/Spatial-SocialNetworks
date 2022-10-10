@@ -5,7 +5,30 @@
     "email": "xcook@gmail.com",
     "birthdate": "1909-10-27",
     "phone": "433-745-8137x0235",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        42,
+        47,
+        29,
+        15,
+        30
+    ],
+    "login locations": [
+        [
+            -122.410889,
+            37.756686
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                347,
+                0.0155080213904
+            ],
+            [
+                347,
+                0.0155080213904
+            ]
+        ]
+    ]
 }

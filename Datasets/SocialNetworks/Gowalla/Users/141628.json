@@ -5,7 +5,27 @@
     "email": "racheljohnson@yahoo.com",
     "birthdate": "1934-05-17",
     "phone": "340.523.8850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        25,
+        51
+    ],
+    "login locations": [
+        [
+            -121.474944,
+            38.566695
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                48124,
+                0.0285714285714
+            ],
+            [
+                70385,
+                0.0166666666667
+            ]
+        ]
+    ]
 }

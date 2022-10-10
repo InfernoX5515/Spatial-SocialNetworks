@@ -5,7 +5,31 @@
     "email": "johnsonpatrick@hotmail.com",
     "birthdate": "1982-11-10",
     "phone": "062.364.4496",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        23,
+        14,
+        57,
+        65,
+        23,
+        38
+    ],
+    "login locations": [
+        [
+            -117.997477,
+            33.812597
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                120905,
+                0.2
+            ],
+            [
+                120905,
+                0.2
+            ]
+        ]
+    ]
 }

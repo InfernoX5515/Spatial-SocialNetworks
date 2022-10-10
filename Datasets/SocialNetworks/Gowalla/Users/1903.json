@@ -5,7 +5,26 @@
     "email": "tina19@gmail.com",
     "birthdate": "2006-10-01",
     "phone": "6881486710",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        37,
+        0,
+        48,
+        19,
+        58,
+        12,
+        71,
+        65,
+        22,
+        58,
+        56,
+        26
+    ],
+    "login locations": [
+        [
+            -118.316573,
+            34.065742
+        ]
+    ],
+    "relationships": []
 }

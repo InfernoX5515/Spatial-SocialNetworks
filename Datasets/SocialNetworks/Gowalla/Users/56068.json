@@ -5,7 +5,14 @@
     "email": "blankenshipjohn@hotmail.com",
     "birthdate": "2008-03-24",
     "phone": "964.679.0548x75989",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45
+    ],
+    "login locations": [
+        [
+            -118.344487,
+            34.097014
+        ]
+    ],
+    "relationships": []
 }

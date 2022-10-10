@@ -5,7 +5,24 @@
     "email": "gfrederick@yahoo.com",
     "birthdate": "1962-05-28",
     "phone": "001-317-875-1355x690",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        11,
+        30,
+        37,
+        75,
+        28,
+        17,
+        65,
+        65,
+        54,
+        6
+    ],
+    "login locations": [
+        [
+            -122.402206,
+            37.85903
+        ]
+    ],
+    "relationships": []
 }

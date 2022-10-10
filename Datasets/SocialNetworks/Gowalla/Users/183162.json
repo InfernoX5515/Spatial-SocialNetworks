@@ -5,7 +5,26 @@
     "email": "frankkhan@yahoo.com",
     "birthdate": "1919-05-27",
     "phone": "(963)155-4380",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        0,
+        20,
+        4,
+        61,
+        33,
+        18,
+        24,
+        1,
+        2,
+        53,
+        38,
+        74
+    ],
+    "login locations": [
+        [
+            -118.559514,
+            34.421493
+        ]
+    ],
+    "relationships": []
 }

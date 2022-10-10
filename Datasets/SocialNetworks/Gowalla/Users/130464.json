@@ -5,7 +5,28 @@
     "email": "uclark@gmail.com",
     "birthdate": "2020-02-29",
     "phone": "706-484-0747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        45,
+        33,
+        24,
+        43,
+        38,
+        17,
+        21,
+        10,
+        41,
+        21,
+        73,
+        10,
+        54,
+        15
+    ],
+    "login locations": [
+        [
+            -117.988038,
+            33.947181
+        ]
+    ],
+    "relationships": []
 }

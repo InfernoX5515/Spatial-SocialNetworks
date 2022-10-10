@@ -5,7 +5,12 @@
     "email": "lorireyes@hotmail.com",
     "birthdate": "1914-07-15",
     "phone": "001-120-291-6546x493",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.342715,
+            37.822719
+        ]
+    ],
+    "relationships": []
 }

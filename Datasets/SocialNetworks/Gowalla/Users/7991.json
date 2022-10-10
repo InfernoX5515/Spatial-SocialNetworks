@@ -5,7 +5,17 @@
     "email": "jodijames@yahoo.com",
     "birthdate": "1924-09-09",
     "phone": "001-494-538-0782x5328",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        28,
+        61,
+        66
+    ],
+    "login locations": [
+        [
+            -122.344775,
+            37.809492
+        ]
+    ],
+    "relationships": []
 }

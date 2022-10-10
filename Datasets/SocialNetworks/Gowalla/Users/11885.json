@@ -5,7 +5,24 @@
     "email": "christopher31@gmail.com",
     "birthdate": "1919-12-17",
     "phone": "(130)249-1156x589",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        13,
+        17,
+        1,
+        24,
+        55,
+        53,
+        38,
+        64,
+        8,
+        20
+    ],
+    "login locations": [
+        [
+            -118.320864,
+            34.065252
+        ]
+    ],
+    "relationships": []
 }

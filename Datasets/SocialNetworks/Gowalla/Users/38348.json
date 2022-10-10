@@ -5,7 +5,24 @@
     "email": "annagarcia@gmail.com",
     "birthdate": "1972-02-01",
     "phone": "950-746-0692x0788",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        58,
+        41,
+        75,
+        53,
+        32,
+        65,
+        13,
+        15,
+        56,
+        61
+    ],
+    "login locations": [
+        [
+            -122.040914,
+            37.576731
+        ]
+    ],
+    "relationships": []
 }

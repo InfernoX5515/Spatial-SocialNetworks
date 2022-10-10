@@ -5,7 +5,16 @@
     "email": "dorseymichele@yahoo.com",
     "birthdate": "2015-02-12",
     "phone": "(595)761-6515x993",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        48,
+        9
+    ],
+    "login locations": [
+        [
+            -121.897744,
+            36.639772
+        ]
+    ],
+    "relationships": []
 }

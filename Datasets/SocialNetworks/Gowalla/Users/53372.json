@@ -5,7 +5,12 @@
     "email": "mfuentes@gmail.com",
     "birthdate": "1925-09-24",
     "phone": "+1-235-915-5732x404",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.014637,
+            33.725963
+        ]
+    ],
+    "relationships": []
 }

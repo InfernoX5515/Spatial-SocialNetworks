@@ -5,7 +5,21 @@
     "email": "sloansamantha@gmail.com",
     "birthdate": "1972-01-08",
     "phone": "720-653-9773",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        43,
+        72,
+        24,
+        11,
+        18,
+        36,
+        45
+    ],
+    "login locations": [
+        [
+            -122.582691,
+            37.99764
+        ]
+    ],
+    "relationships": []
 }

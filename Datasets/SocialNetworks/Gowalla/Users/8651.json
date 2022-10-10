@@ -5,7 +5,34 @@
     "email": "calvin78@gmail.com",
     "birthdate": "1945-12-28",
     "phone": "876-890-2648",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        23,
+        33,
+        56,
+        43,
+        58,
+        4,
+        66,
+        13,
+        72
+    ],
+    "login locations": [
+        [
+            -122.170917,
+            37.440868
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.01
+            ],
+            [
+                478,
+                0.01
+            ]
+        ]
+    ]
 }

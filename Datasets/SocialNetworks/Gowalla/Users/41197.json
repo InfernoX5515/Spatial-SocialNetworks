@@ -5,7 +5,15 @@
     "email": "ualvarez@yahoo.com",
     "birthdate": "1971-05-05",
     "phone": "+1-280-503-8257x8272",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        6
+    ],
+    "login locations": [
+        [
+            -118.269013,
+            34.077974
+        ]
+    ],
+    "relationships": []
 }

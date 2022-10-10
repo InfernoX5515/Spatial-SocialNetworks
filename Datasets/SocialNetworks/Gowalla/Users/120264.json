@@ -5,7 +5,15 @@
     "email": "blackjohn@yahoo.com",
     "birthdate": "2005-06-04",
     "phone": "+1-394-040-6790",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        6
+    ],
+    "login locations": [
+        [
+            -122.021061,
+            36.965182
+        ]
+    ],
+    "relationships": []
 }

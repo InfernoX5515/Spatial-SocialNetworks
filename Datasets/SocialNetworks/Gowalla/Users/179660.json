@@ -5,7 +5,24 @@
     "email": "logansherry@hotmail.com",
     "birthdate": "1922-02-23",
     "phone": "(454)724-5713x088",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        11,
+        73,
+        15,
+        43,
+        22,
+        27,
+        35,
+        32,
+        28,
+        57
+    ],
+    "login locations": [
+        [
+            -119.774235,
+            36.807254
+        ]
+    ],
+    "relationships": []
 }

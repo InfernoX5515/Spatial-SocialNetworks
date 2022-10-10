@@ -5,7 +5,16 @@
     "email": "mary42@yahoo.com",
     "birthdate": "2015-09-16",
     "phone": "257.091.1877x7837",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        29,
+        24
+    ],
+    "login locations": [
+        [
+            -118.120661,
+            34.06767
+        ]
+    ],
+    "relationships": []
 }

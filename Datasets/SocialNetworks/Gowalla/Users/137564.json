@@ -5,7 +5,14 @@
     "email": "josephnoble@gmail.com",
     "birthdate": "1929-09-13",
     "phone": "(665)433-2811",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -117.854019,
+            34.169293
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "carlos70@gmail.com",
     "birthdate": "1984-04-02",
     "phone": "425.105.5747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        56,
+        41,
+        70,
+        64,
+        14,
+        4,
+        54,
+        21,
+        40,
+        73,
+        7,
+        3
+    ],
+    "login locations": [
+        [
+            -118.337821,
+            33.988878
+        ]
+    ],
+    "relationships": []
 }

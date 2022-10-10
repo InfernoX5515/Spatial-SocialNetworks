@@ -5,7 +5,18 @@
     "email": "jason23@hotmail.com",
     "birthdate": "1917-02-05",
     "phone": "+1-787-436-7530x3838",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        70,
+        20,
+        67,
+        38
+    ],
+    "login locations": [
+        [
+            -122.399881,
+            37.780518
+        ]
+    ],
+    "relationships": []
 }

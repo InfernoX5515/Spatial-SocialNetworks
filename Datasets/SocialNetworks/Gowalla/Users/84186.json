@@ -5,7 +5,19 @@
     "email": "joel24@gmail.com",
     "birthdate": "1995-12-20",
     "phone": "001-810-071-3981x63850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        8,
+        68,
+        23,
+        33,
+        11
+    ],
+    "login locations": [
+        [
+            -117.167366,
+            32.721361
+        ]
+    ],
+    "relationships": []
 }

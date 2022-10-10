@@ -5,7 +5,23 @@
     "email": "anthony19@gmail.com",
     "birthdate": "1982-11-26",
     "phone": "155-046-4154",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.418941,
+            34.065567
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                30793,
+                0.02
+            ],
+            [
+                34895,
+                0.0222222222222
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,14 @@
     "email": "josephreese@hotmail.com",
     "birthdate": "1940-06-04",
     "phone": "(441)604-7061x61695",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33
+    ],
+    "login locations": [
+        [
+            -118.37726,
+            34.064991
+        ]
+    ],
+    "relationships": []
 }

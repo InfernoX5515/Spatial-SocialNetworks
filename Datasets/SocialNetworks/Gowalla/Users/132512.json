@@ -5,7 +5,28 @@
     "email": "tylerrobert@hotmail.com",
     "birthdate": "2015-10-15",
     "phone": "2010115929",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        54,
+        23,
+        58,
+        6,
+        1,
+        32,
+        59,
+        13,
+        1,
+        18,
+        11,
+        21,
+        19,
+        15
+    ],
+    "login locations": [
+        [
+            -122.031062,
+            37.331384
+        ]
+    ],
+    "relationships": []
 }

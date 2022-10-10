@@ -5,7 +5,12 @@
     "email": "sextonmichael@hotmail.com",
     "birthdate": "1909-10-11",
     "phone": "1994279830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.159394,
+            32.707145
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "gyoung@yahoo.com",
     "birthdate": "1915-06-09",
     "phone": "066-745-0344x863",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        20,
+        18,
+        55,
+        35,
+        16,
+        40,
+        26,
+        13
+    ],
+    "login locations": [
+        [
+            -122.442401,
+            37.794611
+        ]
+    ],
+    "relationships": []
 }

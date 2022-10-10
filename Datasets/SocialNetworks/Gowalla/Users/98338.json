@@ -5,7 +5,12 @@
     "email": "hunterdiana@gmail.com",
     "birthdate": "1985-02-25",
     "phone": "+1-684-684-7851x955",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.044367,
+            33.812761
+        ]
+    ],
+    "relationships": []
 }

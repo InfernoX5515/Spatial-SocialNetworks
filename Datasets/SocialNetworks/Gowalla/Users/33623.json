@@ -5,7 +5,12 @@
     "email": "cruzlaura@hotmail.com",
     "birthdate": "1984-02-04",
     "phone": "(675)453-1320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.346611,
+            37.797651
+        ]
+    ],
+    "relationships": []
 }

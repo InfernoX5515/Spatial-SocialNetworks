@@ -5,7 +5,19 @@
     "email": "andrea22@gmail.com",
     "birthdate": "1966-09-28",
     "phone": "2025298899",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        64,
+        21,
+        69,
+        73,
+        5
+    ],
+    "login locations": [
+        [
+            -117.770919,
+            33.666213
+        ]
+    ],
+    "relationships": []
 }

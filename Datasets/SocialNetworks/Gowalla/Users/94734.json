@@ -5,7 +5,22 @@
     "email": "michaelwilliams@yahoo.com",
     "birthdate": "2011-04-12",
     "phone": "122.703.4052",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        58,
+        70,
+        64,
+        23,
+        28,
+        17,
+        47,
+        37
+    ],
+    "login locations": [
+        [
+            -121.914007,
+            37.318711
+        ]
+    ],
+    "relationships": []
 }

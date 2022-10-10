@@ -5,7 +5,25 @@
     "email": "stephanie85@yahoo.com",
     "birthdate": "1932-10-08",
     "phone": "021-734-4499x011",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        58,
+        17,
+        47,
+        42,
+        71,
+        1,
+        67,
+        59,
+        11,
+        74,
+        73
+    ],
+    "login locations": [
+        [
+            -122.41972,
+            37.764839
+        ]
+    ],
+    "relationships": []
 }

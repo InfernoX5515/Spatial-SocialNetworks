@@ -5,7 +5,22 @@
     "email": "psharp@gmail.com",
     "birthdate": "1912-12-16",
     "phone": "888-862-9295",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        9,
+        28,
+        9,
+        5,
+        3,
+        48,
+        68,
+        42
+    ],
+    "login locations": [
+        [
+            -117.962145,
+            33.865265
+        ]
+    ],
+    "relationships": []
 }

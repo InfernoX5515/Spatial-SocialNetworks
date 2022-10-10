@@ -5,7 +5,28 @@
     "email": "melissa23@hotmail.com",
     "birthdate": "1983-06-22",
     "phone": "(358)697-2340",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        26,
+        21,
+        65,
+        42,
+        41,
+        0,
+        59,
+        46,
+        12,
+        36,
+        35,
+        44,
+        75,
+        12
+    ],
+    "login locations": [
+        [
+            -117.562171,
+            34.074084
+        ]
+    ],
+    "relationships": []
 }

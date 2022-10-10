@@ -5,7 +5,31 @@
     "email": "lyonsjoshua@hotmail.com",
     "birthdate": "2014-08-23",
     "phone": "+1-295-233-1084x0523",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        58,
+        62,
+        31,
+        46,
+        52,
+        7
+    ],
+    "login locations": [
+        [
+            -117.172801,
+            32.751109
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2358,
+                0.01
+            ],
+            [
+                2358,
+                0.01
+            ]
+        ]
+    ]
 }

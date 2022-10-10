@@ -5,7 +5,23 @@
     "email": "janderson@hotmail.com",
     "birthdate": "1986-11-21",
     "phone": "(377)320-1687x1683",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        68,
+        16,
+        74,
+        51,
+        8,
+        31,
+        57,
+        51,
+        7
+    ],
+    "login locations": [
+        [
+            -117.892602,
+            33.781753
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "john17@yahoo.com",
     "birthdate": "1973-05-19",
     "phone": "001-897-113-8257",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        45
+    ],
+    "login locations": [
+        [
+            -122.026759,
+            37.357064
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                31239,
+                0.2
+            ],
+            [
+                31239,
+                0.2
+            ]
+        ]
+    ]
 }

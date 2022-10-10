@@ -5,7 +5,22 @@
     "email": "henryjoseph@gmail.com",
     "birthdate": "1978-12-13",
     "phone": "+1-507-741-2500",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        71,
+        31,
+        68,
+        63,
+        61,
+        13,
+        43,
+        69
+    ],
+    "login locations": [
+        [
+            -121.905283,
+            37.320182
+        ]
+    ],
+    "relationships": []
 }

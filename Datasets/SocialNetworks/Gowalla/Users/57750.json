@@ -5,7 +5,35 @@
     "email": "mark57@yahoo.com",
     "birthdate": "1990-08-03",
     "phone": "+1-307-272-4246x17071",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        20,
+        5,
+        60,
+        55,
+        69,
+        18,
+        27,
+        56,
+        3,
+        69
+    ],
+    "login locations": [
+        [
+            -122.161953,
+            38.114054
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1860,
+                0.0246153846154
+            ],
+            [
+                1860,
+                0.0246153846154
+            ]
+        ]
+    ]
 }

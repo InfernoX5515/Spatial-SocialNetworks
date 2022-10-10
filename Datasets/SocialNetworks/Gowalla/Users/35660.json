@@ -5,7 +5,27 @@
     "email": "ymiller@gmail.com",
     "birthdate": "1963-10-18",
     "phone": "(643)630-4464x913",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        34,
+        3
+    ],
+    "login locations": [
+        [
+            -122.437534,
+            37.763166
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                602,
+                0.01
+            ],
+            [
+                2170,
+                0.0392156862745
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,36 @@
     "email": "creed@yahoo.com",
     "birthdate": "1919-03-20",
     "phone": "(383)581-6182",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        39,
+        15,
+        60,
+        35,
+        24,
+        19,
+        18,
+        55,
+        43,
+        6,
+        37
+    ],
+    "login locations": [
+        [
+            -121.131986,
+            38.671473
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5571,
+                0.01
+            ],
+            [
+                5571,
+                0.01
+            ]
+        ]
+    ]
 }

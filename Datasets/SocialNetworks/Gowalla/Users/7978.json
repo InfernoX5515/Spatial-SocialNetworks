@@ -5,7 +5,19 @@
     "email": "wattskevin@gmail.com",
     "birthdate": "1976-04-17",
     "phone": "5042152320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        62,
+        24,
+        35,
+        21,
+        60
+    ],
+    "login locations": [
+        [
+            -122.420281,
+            37.79041
+        ]
+    ],
+    "relationships": []
 }

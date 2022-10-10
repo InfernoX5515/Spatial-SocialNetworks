@@ -5,7 +5,23 @@
     "email": "gmiller@yahoo.com",
     "birthdate": "1928-11-14",
     "phone": "1844025747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        57,
+        53,
+        29,
+        71,
+        47,
+        50,
+        60,
+        38,
+        75
+    ],
+    "login locations": [
+        [
+            -122.103827,
+            37.419439
+        ]
+    ],
+    "relationships": []
 }

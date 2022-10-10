@@ -5,7 +5,28 @@
     "email": "pamela35@yahoo.com",
     "birthdate": "2005-07-08",
     "phone": "001-813-654-9584x91662",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        29,
+        41,
+        38,
+        8,
+        37,
+        26,
+        19,
+        56,
+        23,
+        20,
+        40,
+        23,
+        64,
+        1
+    ],
+    "login locations": [
+        [
+            -122.415293,
+            37.754607
+        ]
+    ],
+    "relationships": []
 }

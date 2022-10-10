@@ -5,7 +5,31 @@
     "email": "andersonscott@gmail.com",
     "birthdate": "1940-04-30",
     "phone": "0054189987",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        25,
+        58,
+        34,
+        43,
+        1,
+        20
+    ],
+    "login locations": [
+        [
+            -121.97437,
+            37.356093
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4371,
+                0.0169082125604
+            ],
+            [
+                4371,
+                0.0169082125604
+            ]
+        ]
+    ]
 }

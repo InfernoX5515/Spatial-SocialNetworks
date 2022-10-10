@@ -5,7 +5,12 @@
     "email": "tannerhicks@hotmail.com",
     "birthdate": "1923-09-14",
     "phone": "001-881-729-4263x477",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.378329,
+            37.810191
+        ]
+    ],
+    "relationships": []
 }

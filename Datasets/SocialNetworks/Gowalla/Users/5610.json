@@ -5,7 +5,25 @@
     "email": "christopherramirez@gmail.com",
     "birthdate": "1990-10-15",
     "phone": "(981)460-8342",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13
+    ],
+    "login locations": [
+        [
+            -122.411257,
+            37.773735
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.030303030303
+            ],
+            [
+                182,
+                0.304347826087
+            ]
+        ]
+    ]
 }

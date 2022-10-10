@@ -5,7 +5,30 @@
     "email": "nneal@hotmail.com",
     "birthdate": "1987-09-01",
     "phone": "125.480.2791",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        41,
+        14,
+        38,
+        34,
+        18
+    ],
+    "login locations": [
+        [
+            -122.393385,
+            37.74428
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.01
+            ],
+            [
+                159,
+                0.01
+            ]
+        ]
+    ]
 }

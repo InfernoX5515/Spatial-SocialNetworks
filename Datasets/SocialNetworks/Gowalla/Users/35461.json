@@ -5,7 +5,26 @@
     "email": "lisacarter@gmail.com",
     "birthdate": "1922-04-14",
     "phone": "777-756-1375",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        66,
+        72,
+        70,
+        1,
+        51,
+        56,
+        25,
+        22,
+        0,
+        35,
+        44,
+        56
+    ],
+    "login locations": [
+        [
+            -121.938544,
+            37.293632
+        ]
+    ],
+    "relationships": []
 }

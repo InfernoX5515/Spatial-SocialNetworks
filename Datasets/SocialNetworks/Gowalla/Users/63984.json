@@ -5,7 +5,33 @@
     "email": "jasminenelson@hotmail.com",
     "birthdate": "1994-06-17",
     "phone": "349-384-9364",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        59,
+        37,
+        18,
+        70,
+        52,
+        32,
+        71,
+        10
+    ],
+    "login locations": [
+        [
+            -122.408677,
+            37.682109
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                60003,
+                0.01
+            ],
+            [
+                60003,
+                0.01
+            ]
+        ]
+    ]
 }

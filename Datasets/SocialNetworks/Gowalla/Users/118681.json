@@ -5,7 +5,14 @@
     "email": "ycrane@hotmail.com",
     "birthdate": "1964-07-29",
     "phone": "(404)782-2662x27747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57
+    ],
+    "login locations": [
+        [
+            -118.350091,
+            34.151755
+        ]
+    ],
+    "relationships": []
 }

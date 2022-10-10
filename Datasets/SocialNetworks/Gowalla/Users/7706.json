@@ -5,7 +5,23 @@
     "email": "ralph59@hotmail.com",
     "birthdate": "2016-07-11",
     "phone": "442-381-0966x12111",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        35,
+        51,
+        53,
+        25,
+        41,
+        37,
+        45,
+        8,
+        74
+    ],
+    "login locations": [
+        [
+            -122.411503,
+            37.770874
+        ]
+    ],
+    "relationships": []
 }

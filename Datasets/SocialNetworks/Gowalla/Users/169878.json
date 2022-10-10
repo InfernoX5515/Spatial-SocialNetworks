@@ -5,7 +5,28 @@
     "email": "ashleyrowland@hotmail.com",
     "birthdate": "1986-08-23",
     "phone": "613-441-6546",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        57,
+        75,
+        30,
+        58,
+        19,
+        47,
+        28,
+        72,
+        28,
+        75,
+        37,
+        33,
+        39,
+        11
+    ],
+    "login locations": [
+        [
+            -117.167566,
+            32.770402
+        ]
+    ],
+    "relationships": []
 }

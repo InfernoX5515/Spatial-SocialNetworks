@@ -5,7 +5,19 @@
     "email": "cassandra42@yahoo.com",
     "birthdate": "2020-04-15",
     "phone": "583-230-6060",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        67,
+        20,
+        17,
+        64,
+        0
+    ],
+    "login locations": [
+        [
+            -119.755644,
+            36.867001
+        ]
+    ],
+    "relationships": []
 }

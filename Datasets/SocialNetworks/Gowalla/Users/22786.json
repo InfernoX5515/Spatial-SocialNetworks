@@ -5,7 +5,19 @@
     "email": "wwagner@yahoo.com",
     "birthdate": "1966-03-14",
     "phone": "061.956.6229x3575",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        48,
+        75,
+        6,
+        74,
+        50
+    ],
+    "login locations": [
+        [
+            -119.765295,
+            36.832798
+        ]
+    ],
+    "relationships": []
 }

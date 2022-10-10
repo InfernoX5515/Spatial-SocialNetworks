@@ -5,7 +5,23 @@
     "email": "conniehorton@hotmail.com",
     "birthdate": "1991-04-21",
     "phone": "745.836.1022x55663",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        60,
+        0,
+        14,
+        6,
+        69,
+        25,
+        13,
+        54,
+        26
+    ],
+    "login locations": [
+        [
+            -118.134463,
+            33.7819
+        ]
+    ],
+    "relationships": []
 }

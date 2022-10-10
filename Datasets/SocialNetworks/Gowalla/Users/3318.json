@@ -5,7 +5,24 @@
     "email": "aruiz@hotmail.com",
     "birthdate": "1929-03-19",
     "phone": "(541)715-8841x20525",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        59,
+        27,
+        59,
+        13,
+        43,
+        6,
+        48,
+        25,
+        33,
+        50
+    ],
+    "login locations": [
+        [
+            -122.299501,
+            37.619421
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "wlee@gmail.com",
     "birthdate": "1931-06-21",
     "phone": "448-799-2392x4992",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        59,
+        1,
+        33,
+        37,
+        2,
+        55,
+        21,
+        64,
+        49,
+        0,
+        75
+    ],
+    "login locations": [
+        [
+            -122.447435,
+            37.709904
+        ]
+    ],
+    "relationships": []
 }

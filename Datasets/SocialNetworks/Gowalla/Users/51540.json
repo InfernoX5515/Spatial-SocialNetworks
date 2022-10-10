@@ -5,7 +5,27 @@
     "email": "wsutton@hotmail.com",
     "birthdate": "1926-03-04",
     "phone": "001-639-505-2648x02331",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        59,
+        37,
+        29,
+        2,
+        16,
+        46,
+        56,
+        1,
+        60,
+        1,
+        12,
+        44,
+        29
+    ],
+    "login locations": [
+        [
+            -121.751768,
+            39.677038
+        ]
+    ],
+    "relationships": []
 }

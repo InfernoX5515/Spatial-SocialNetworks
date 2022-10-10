@@ -5,7 +5,17 @@
     "email": "yross@yahoo.com",
     "birthdate": "1985-05-21",
     "phone": "0319202552",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        17,
+        62,
+        14
+    ],
+    "login locations": [
+        [
+            -117.836291,
+            33.671267
+        ]
+    ],
+    "relationships": []
 }

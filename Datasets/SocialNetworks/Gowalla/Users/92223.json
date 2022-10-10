@@ -5,7 +5,24 @@
     "email": "christopherdavila@gmail.com",
     "birthdate": "2002-12-05",
     "phone": "916-226-8177",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        42,
+        43,
+        50,
+        19,
+        45,
+        18,
+        52,
+        12,
+        37,
+        66
+    ],
+    "login locations": [
+        [
+            -118.110957,
+            33.98469
+        ]
+    ],
+    "relationships": []
 }

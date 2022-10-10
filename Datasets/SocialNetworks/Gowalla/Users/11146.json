@@ -5,7 +5,36 @@
     "email": "meghanwoods@yahoo.com",
     "birthdate": "1977-05-05",
     "phone": "(027)795-0740",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        32,
+        20,
+        65,
+        52,
+        42,
+        36,
+        64,
+        50,
+        8,
+        34,
+        12
+    ],
+    "login locations": [
+        [
+            -117.15338,
+            33.543779
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11057,
+                0.128421052632
+            ],
+            [
+                11057,
+                0.128421052632
+            ]
+        ]
+    ]
 }

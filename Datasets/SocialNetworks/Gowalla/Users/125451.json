@@ -5,7 +5,35 @@
     "email": "sadams@gmail.com",
     "birthdate": "1942-08-25",
     "phone": "6051463651",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        71,
+        21,
+        70,
+        75,
+        27,
+        37,
+        59,
+        71,
+        67,
+        45
+    ],
+    "login locations": [
+        [
+            -117.800767,
+            34.083957
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125452,
+                0.176470588235
+            ],
+            [
+                125452,
+                0.176470588235
+            ]
+        ]
+    ]
 }

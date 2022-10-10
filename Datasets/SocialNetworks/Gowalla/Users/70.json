@@ -5,7 +5,23 @@
     "email": "leslie58@yahoo.com",
     "birthdate": "1917-09-02",
     "phone": "092.100.8208x75357",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        7,
+        30,
+        22,
+        24,
+        72,
+        72,
+        72,
+        9,
+        40
+    ],
+    "login locations": [
+        [
+            -122.162447,
+            37.4469
+        ]
+    ],
+    "relationships": []
 }

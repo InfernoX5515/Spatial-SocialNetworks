@@ -5,7 +5,20 @@
     "email": "robert84@gmail.com",
     "birthdate": "1995-02-27",
     "phone": "+1-794-639-8750x235",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        75,
+        72,
+        11,
+        74,
+        57,
+        38
+    ],
+    "login locations": [
+        [
+            -118.384356,
+            34.006081
+        ]
+    ],
+    "relationships": []
 }

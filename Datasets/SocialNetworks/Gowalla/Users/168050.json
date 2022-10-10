@@ -5,7 +5,27 @@
     "email": "parkslisa@gmail.com",
     "birthdate": "1967-01-15",
     "phone": "001-693-249-8234x80122",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        33,
+        4,
+        22,
+        13,
+        10,
+        69,
+        34,
+        63,
+        40,
+        48,
+        6,
+        68,
+        34
+    ],
+    "login locations": [
+        [
+            -121.92252,
+            37.256096
+        ]
+    ],
+    "relationships": []
 }

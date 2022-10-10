@@ -5,7 +5,26 @@
     "email": "kholmes@yahoo.com",
     "birthdate": "1987-07-28",
     "phone": "(175)204-0155x989",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        57,
+        74,
+        35,
+        17,
+        7,
+        10,
+        22,
+        70,
+        66,
+        7,
+        23,
+        54
+    ],
+    "login locations": [
+        [
+            -122.403618,
+            37.768032
+        ]
+    ],
+    "relationships": []
 }

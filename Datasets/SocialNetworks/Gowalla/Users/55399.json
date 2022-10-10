@@ -5,7 +5,22 @@
     "email": "ilee@hotmail.com",
     "birthdate": "1954-11-18",
     "phone": "+1-284-574-2548x0628",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        4,
+        39,
+        73,
+        63,
+        17,
+        47,
+        73,
+        50
+    ],
+    "login locations": [
+        [
+            -122.409224,
+            37.70505
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "alyssa09@hotmail.com",
     "birthdate": "1977-07-22",
     "phone": "576.024.9204x242",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        53,
+        52,
+        54
+    ],
+    "login locations": [
+        [
+            -118.010129,
+            33.832146
+        ]
+    ],
+    "relationships": []
 }

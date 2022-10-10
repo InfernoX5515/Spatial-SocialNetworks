@@ -5,7 +5,25 @@
     "email": "cartertimothy@yahoo.com",
     "birthdate": "2019-11-30",
     "phone": "(260)997-9500x3981",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        3,
+        4,
+        11,
+        16,
+        57,
+        59,
+        17,
+        1,
+        61,
+        6,
+        64
+    ],
+    "login locations": [
+        [
+            -122.097579,
+            37.385257
+        ]
+    ],
+    "relationships": []
 }

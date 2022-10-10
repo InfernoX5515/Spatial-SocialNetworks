@@ -5,7 +5,38 @@
     "email": "danielle95@yahoo.com",
     "birthdate": "1992-09-29",
     "phone": "+1-585-569-4485",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        15,
+        38,
+        67,
+        34,
+        17,
+        48,
+        64,
+        58,
+        41,
+        34,
+        46,
+        37,
+        22
+    ],
+    "login locations": [
+        [
+            -117.11266,
+            32.998843
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4618,
+                0.01
+            ],
+            [
+                4618,
+                0.01
+            ]
+        ]
+    ]
 }

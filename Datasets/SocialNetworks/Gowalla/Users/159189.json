@@ -5,7 +5,25 @@
     "email": "jennifermitchell@hotmail.com",
     "birthdate": "1938-05-08",
     "phone": "869.568.8775x07426",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        19,
+        2,
+        15,
+        19,
+        50,
+        14,
+        19,
+        49,
+        46,
+        32,
+        56
+    ],
+    "login locations": [
+        [
+            -122.430346,
+            37.805142
+        ]
+    ],
+    "relationships": []
 }

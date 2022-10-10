@@ -5,7 +5,20 @@
     "email": "sethwood@yahoo.com",
     "birthdate": "2010-01-02",
     "phone": "170.922.8067x958",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        64,
+        0,
+        40,
+        26,
+        12,
+        65
+    ],
+    "login locations": [
+        [
+            -118.052242,
+            34.035381
+        ]
+    ],
+    "relationships": []
 }

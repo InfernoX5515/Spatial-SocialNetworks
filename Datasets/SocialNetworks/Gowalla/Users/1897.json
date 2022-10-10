@@ -5,7 +5,28 @@
     "email": "mariahjackson@hotmail.com",
     "birthdate": "1919-10-24",
     "phone": "004-179-9141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        12,
+        16,
+        47
+    ],
+    "login locations": [
+        [
+            -122.144048,
+            37.691325
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2314,
+                0.01
+            ],
+            [
+                58069,
+                0.0816326530612
+            ]
+        ]
+    ]
 }

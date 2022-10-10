@@ -5,7 +5,28 @@
     "email": "leemichael@gmail.com",
     "birthdate": "1927-12-09",
     "phone": "001-474-546-3244x58525",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        15,
+        44,
+        73,
+        47,
+        19,
+        46,
+        72,
+        29,
+        55,
+        40,
+        14,
+        39,
+        17,
+        51
+    ],
+    "login locations": [
+        [
+            -122.28468,
+            37.772431
+        ]
+    ],
+    "relationships": []
 }

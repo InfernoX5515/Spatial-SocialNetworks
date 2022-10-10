@@ -5,7 +5,20 @@
     "email": "william53@yahoo.com",
     "birthdate": "1993-02-08",
     "phone": "001-463-867-6291x98749",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        72,
+        13,
+        44,
+        60,
+        57,
+        7
+    ],
+    "login locations": [
+        [
+            -117.411448,
+            33.9494
+        ]
+    ],
+    "relationships": []
 }

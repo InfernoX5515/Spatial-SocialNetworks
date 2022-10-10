@@ -5,7 +5,23 @@
     "email": "kparrish@yahoo.com",
     "birthdate": "1925-01-04",
     "phone": "562.907.0164x962",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        74,
+        10,
+        46,
+        53,
+        33,
+        10,
+        5,
+        64,
+        14
+    ],
+    "login locations": [
+        [
+            -118.399912,
+            34.058337
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "faguilar@gmail.com",
     "birthdate": "1965-06-14",
     "phone": "(799)583-9506",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        55,
+        44,
+        57,
+        4,
+        73,
+        60,
+        66,
+        12
+    ],
+    "login locations": [
+        [
+            -122.455557,
+            37.780788
+        ]
+    ],
+    "relationships": []
 }

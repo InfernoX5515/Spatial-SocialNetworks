@@ -5,7 +5,17 @@
     "email": "xlewis@hotmail.com",
     "birthdate": "1951-06-14",
     "phone": "(408)603-5524",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        8,
+        44,
+        43
+    ],
+    "login locations": [
+        [
+            -121.940791,
+            37.28476
+        ]
+    ],
+    "relationships": []
 }

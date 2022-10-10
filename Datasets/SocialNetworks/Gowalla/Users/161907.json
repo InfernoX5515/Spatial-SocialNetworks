@@ -5,7 +5,27 @@
     "email": "mackenzie09@gmail.com",
     "birthdate": "1911-06-15",
     "phone": "001-519-820-6990x2433",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        75,
+        55,
+        16,
+        12,
+        12,
+        73,
+        19,
+        12,
+        35,
+        20,
+        28,
+        70,
+        48
+    ],
+    "login locations": [
+        [
+            -118.134506,
+            34.085194
+        ]
+    ],
+    "relationships": []
 }

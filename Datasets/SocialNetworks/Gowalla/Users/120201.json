@@ -5,7 +5,20 @@
     "email": "ernest44@hotmail.com",
     "birthdate": "1916-06-07",
     "phone": "843.584.0358x83021",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        43,
+        14,
+        36,
+        69,
+        26,
+        24
+    ],
+    "login locations": [
+        [
+            -122.300822,
+            37.563006
+        ]
+    ],
+    "relationships": []
 }

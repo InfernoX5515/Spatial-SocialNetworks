@@ -5,7 +5,26 @@
     "email": "frice@hotmail.com",
     "birthdate": "1974-07-28",
     "phone": "111.218.1473",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        71,
+        17,
+        21,
+        52,
+        48,
+        23,
+        9,
+        71,
+        25,
+        42,
+        25,
+        38
+    ],
+    "login locations": [
+        [
+            -117.165045,
+            32.747053
+        ]
+    ],
+    "relationships": []
 }

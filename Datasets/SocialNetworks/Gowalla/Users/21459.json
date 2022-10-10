@@ -5,7 +5,26 @@
     "email": "veronicabarnes@hotmail.com",
     "birthdate": "1934-03-19",
     "phone": "2799530099",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        34,
+        16,
+        67,
+        8,
+        51,
+        12,
+        73,
+        41,
+        43,
+        54,
+        43,
+        51
+    ],
+    "login locations": [
+        [
+            -118.598316,
+            34.181832
+        ]
+    ],
+    "relationships": []
 }

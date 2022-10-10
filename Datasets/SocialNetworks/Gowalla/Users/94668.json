@@ -5,7 +5,15 @@
     "email": "martinezmichael@gmail.com",
     "birthdate": "1934-06-28",
     "phone": "+1-285-649-2795x353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        27
+    ],
+    "login locations": [
+        [
+            -121.900829,
+            36.993679
+        ]
+    ],
+    "relationships": []
 }

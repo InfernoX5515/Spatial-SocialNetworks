@@ -5,7 +5,22 @@
     "email": "marquezkayla@hotmail.com",
     "birthdate": "1976-09-19",
     "phone": "374.365.6261",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        56,
+        31,
+        29,
+        14,
+        36,
+        70,
+        24,
+        18
+    ],
+    "login locations": [
+        [
+            -120.652369,
+            35.272309
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "rubennelson@hotmail.com",
     "birthdate": "1998-10-09",
     "phone": "450-474-8083x466",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        71,
+        24,
+        52,
+        31,
+        6,
+        6,
+        22,
+        57,
+        22,
+        11
+    ],
+    "login locations": [
+        [
+            -116.409807,
+            33.772279
+        ]
+    ],
+    "relationships": []
 }

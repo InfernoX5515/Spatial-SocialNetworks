@@ -5,7 +5,25 @@
     "email": "leonardlopez@yahoo.com",
     "birthdate": "2014-07-24",
     "phone": "+1-514-691-7059x56167",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7
+    ],
+    "login locations": [
+        [
+            -121.988126,
+            38.356142
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                983,
+                0.0171428571429
+            ],
+            [
+                1011,
+                0.0105555555556
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "morgan55@yahoo.com",
     "birthdate": "2007-12-29",
     "phone": "001-196-376-1258",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        29,
+        52
+    ],
+    "login locations": [
+        [
+            -118.155004,
+            34.13305
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                29278,
+                0.027397260274
+            ],
+            [
+                29278,
+                0.027397260274
+            ]
+        ]
+    ]
 }

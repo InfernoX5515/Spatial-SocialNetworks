@@ -5,7 +5,18 @@
     "email": "mbrown@hotmail.com",
     "birthdate": "1932-05-02",
     "phone": "+1-246-212-6197x279",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        35,
+        61,
+        55,
+        51
+    ],
+    "login locations": [
+        [
+            -118.085659,
+            34.123589
+        ]
+    ],
+    "relationships": []
 }

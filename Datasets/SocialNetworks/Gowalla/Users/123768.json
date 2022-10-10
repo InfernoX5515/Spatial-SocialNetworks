@@ -5,7 +5,25 @@
     "email": "tranrichard@yahoo.com",
     "birthdate": "1949-05-06",
     "phone": "001-161-304-8113x7992",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        35,
+        63,
+        8,
+        35,
+        12,
+        15,
+        17,
+        38,
+        28,
+        32,
+        8
+    ],
+    "login locations": [
+        [
+            -121.922331,
+            37.239104
+        ]
+    ],
+    "relationships": []
 }

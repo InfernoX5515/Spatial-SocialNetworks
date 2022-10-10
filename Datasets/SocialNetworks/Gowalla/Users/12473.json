@@ -5,7 +5,26 @@
     "email": "scastillo@yahoo.com",
     "birthdate": "1994-09-04",
     "phone": "+1-950-906-6752x625",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        53,
+        17,
+        30,
+        54,
+        30,
+        43,
+        21,
+        9,
+        11,
+        55,
+        27,
+        75
+    ],
+    "login locations": [
+        [
+            -122.436849,
+            37.768055
+        ]
+    ],
+    "relationships": []
 }

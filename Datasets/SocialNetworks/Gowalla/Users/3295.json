@@ -5,7 +5,24 @@
     "email": "autumndennis@gmail.com",
     "birthdate": "2016-10-09",
     "phone": "001-011-161-0746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        9,
+        34,
+        10,
+        3,
+        29,
+        69,
+        37,
+        58,
+        36,
+        13
+    ],
+    "login locations": [
+        [
+            -121.900343,
+            37.29576
+        ]
+    ],
+    "relationships": []
 }

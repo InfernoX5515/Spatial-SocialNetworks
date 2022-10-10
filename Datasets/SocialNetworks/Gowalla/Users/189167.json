@@ -5,7 +5,27 @@
     "email": "harold80@hotmail.com",
     "birthdate": "2020-06-26",
     "phone": "(548)336-8738",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        50,
+        9,
+        46,
+        48,
+        56,
+        8,
+        56,
+        19,
+        35,
+        15,
+        15,
+        24,
+        52
+    ],
+    "login locations": [
+        [
+            -117.721331,
+            33.642026
+        ]
+    ],
+    "relationships": []
 }

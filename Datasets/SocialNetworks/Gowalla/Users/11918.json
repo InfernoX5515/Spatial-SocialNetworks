@@ -5,7 +5,18 @@
     "email": "amandamercer@gmail.com",
     "birthdate": "1932-08-01",
     "phone": "+1-521-190-3675",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        49,
+        73,
+        53,
+        45
+    ],
+    "login locations": [
+        [
+            -117.73729,
+            33.630211
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "maurice60@yahoo.com",
     "birthdate": "1987-06-04",
     "phone": "5220643120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        41,
+        17
+    ],
+    "login locations": [
+        [
+            -117.861065,
+            33.901961
+        ]
+    ],
+    "relationships": []
 }

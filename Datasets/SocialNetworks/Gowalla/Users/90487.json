@@ -5,7 +5,28 @@
     "email": "changelizabeth@gmail.com",
     "birthdate": "2022-05-23",
     "phone": "001-731-176-1278x0126",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        55,
+        73,
+        72
+    ],
+    "login locations": [
+        [
+            -117.372691,
+            33.25562
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                166522,
+                0.785714285714
+            ],
+            [
+                166522,
+                0.785714285714
+            ]
+        ]
+    ]
 }

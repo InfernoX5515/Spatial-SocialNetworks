@@ -5,7 +5,16 @@
     "email": "powellshane@gmail.com",
     "birthdate": "1962-06-25",
     "phone": "001-196-378-6610x975",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        43,
+        70
+    ],
+    "login locations": [
+        [
+            -122.05197,
+            37.600327
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,31 @@
     "email": "zwilliams@gmail.com",
     "birthdate": "2010-06-16",
     "phone": "499.020.0641x521",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        9,
+        61,
+        70,
+        43,
+        44,
+        20
+    ],
+    "login locations": [
+        [
+            -123.188236,
+            39.140562
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118966,
+                0.0234741784038
+            ],
+            [
+                118966,
+                0.0234741784038
+            ]
+        ]
+    ]
 }

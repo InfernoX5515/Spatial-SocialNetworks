@@ -5,7 +5,22 @@
     "email": "smithsylvia@hotmail.com",
     "birthdate": "1910-08-23",
     "phone": "687-144-4102x908",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        18,
+        46,
+        55,
+        27,
+        31,
+        35,
+        66,
+        56
+    ],
+    "login locations": [
+        [
+            -117.946088,
+            33.977315
+        ]
+    ],
+    "relationships": []
 }

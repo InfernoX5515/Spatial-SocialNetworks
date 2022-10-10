@@ -5,7 +5,27 @@
     "email": "xcooper@yahoo.com",
     "birthdate": "2005-10-06",
     "phone": "(920)778-0287",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        62,
+        43
+    ],
+    "login locations": [
+        [
+            -119.239483,
+            34.247356
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                2292,
+                0.01
+            ]
+        ]
+    ]
 }

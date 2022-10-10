@@ -5,7 +5,36 @@
     "email": "thomas18@yahoo.com",
     "birthdate": "1990-08-08",
     "phone": "(745)325-0802",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        72,
+        7,
+        58,
+        0,
+        75,
+        48,
+        35,
+        34,
+        10,
+        65,
+        37
+    ],
+    "login locations": [
+        [
+            -122.027876,
+            37.26924
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22963,
+                0.04
+            ],
+            [
+                22963,
+                0.04
+            ]
+        ]
+    ]
 }

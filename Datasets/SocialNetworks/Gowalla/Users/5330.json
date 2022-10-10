@@ -5,7 +5,32 @@
     "email": "tbennett@hotmail.com",
     "birthdate": "1989-06-21",
     "phone": "591-373-6037x635",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        67,
+        22,
+        58,
+        60,
+        23,
+        72,
+        69
+    ],
+    "login locations": [
+        [
+            -118.423752,
+            33.936718
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                600,
+                0.01
+            ],
+            [
+                5287,
+                0.01
+            ]
+        ]
+    ]
 }

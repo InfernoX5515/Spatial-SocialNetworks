@@ -5,7 +5,39 @@
     "email": "christopher07@gmail.com",
     "birthdate": "1960-03-07",
     "phone": "944.171.7467",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        40,
+        46,
+        65,
+        72,
+        27,
+        18,
+        63,
+        14,
+        0,
+        73,
+        69,
+        70,
+        9,
+        24
+    ],
+    "login locations": [
+        [
+            -118.560071,
+            34.380752
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32652,
+                0.2
+            ],
+            [
+                32652,
+                0.2
+            ]
+        ]
+    ]
 }

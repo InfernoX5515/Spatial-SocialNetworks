@@ -5,7 +5,15 @@
     "email": "edwarddavis@gmail.com",
     "birthdate": "1946-04-22",
     "phone": "+1-947-229-9323x377",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        41
+    ],
+    "login locations": [
+        [
+            -118.418965,
+            34.006985
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "zrobbins@hotmail.com",
     "birthdate": "1955-10-06",
     "phone": "+1-438-013-2994",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        66,
+        22
+    ],
+    "login locations": [
+        [
+            -118.304585,
+            34.01911
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "camachojoshua@gmail.com",
     "birthdate": "1956-05-22",
     "phone": "011.295.3914",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        39,
+        26,
+        26,
+        20,
+        32,
+        57,
+        0,
+        48
+    ],
+    "login locations": [
+        [
+            -121.361357,
+            38.551941
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "qneal@hotmail.com",
     "birthdate": "1956-12-06",
     "phone": "069-230-2098x5373",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48
+    ],
+    "login locations": [
+        [
+            -114.614967,
+            32.699635
+        ]
+    ],
+    "relationships": []
 }

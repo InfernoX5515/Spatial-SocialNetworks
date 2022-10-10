@@ -5,7 +5,22 @@
     "email": "foleybrandon@yahoo.com",
     "birthdate": "1960-09-27",
     "phone": "001-110-007-3074",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        5,
+        42,
+        66,
+        1,
+        47,
+        61,
+        48,
+        6
+    ],
+    "login locations": [
+        [
+            -122.443424,
+            37.786601
+        ]
+    ],
+    "relationships": []
 }

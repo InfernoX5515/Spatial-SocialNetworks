@@ -5,7 +5,20 @@
     "email": "morenojohn@gmail.com",
     "birthdate": "1963-05-04",
     "phone": "001-274-904-3716x5605",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        13,
+        72,
+        23,
+        60,
+        11,
+        9
+    ],
+    "login locations": [
+        [
+            -121.97926,
+            37.322693
+        ]
+    ],
+    "relationships": []
 }

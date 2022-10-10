@@ -5,7 +5,26 @@
     "email": "castillowesley@hotmail.com",
     "birthdate": "1998-07-23",
     "phone": "890-542-1980x8511",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        66,
+        74,
+        4,
+        38,
+        6,
+        48,
+        65,
+        23,
+        60,
+        63,
+        14,
+        30
+    ],
+    "login locations": [
+        [
+            -121.419207,
+            38.456638
+        ]
+    ],
+    "relationships": []
 }

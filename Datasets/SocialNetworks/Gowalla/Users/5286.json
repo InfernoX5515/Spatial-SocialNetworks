@@ -5,7 +5,31 @@
     "email": "maryhunter@gmail.com",
     "birthdate": "1984-01-17",
     "phone": "001-497-721-4084x5722",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        28,
+        60,
+        16,
+        24,
+        34,
+        62
+    ],
+    "login locations": [
+        [
+            -122.398531,
+            37.780851
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                182,
+                0.130434782609
+            ],
+            [
+                478,
+                0.0149253731343
+            ]
+        ]
+    ]
 }

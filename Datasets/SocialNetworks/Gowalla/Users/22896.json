@@ -5,7 +5,23 @@
     "email": "julia05@gmail.com",
     "birthdate": "1987-08-11",
     "phone": "328.787.5274x69387",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        35,
+        17,
+        31,
+        10,
+        69,
+        8,
+        51,
+        35,
+        37
+    ],
+    "login locations": [
+        [
+            -122.141627,
+            37.404728
+        ]
+    ],
+    "relationships": []
 }

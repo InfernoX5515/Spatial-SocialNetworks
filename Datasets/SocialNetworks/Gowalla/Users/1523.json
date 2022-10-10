@@ -5,7 +5,37 @@
     "email": "rebeccachavez@gmail.com",
     "birthdate": "1988-03-18",
     "phone": "515.377.3433x8090",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        69,
+        18,
+        5,
+        62,
+        18,
+        36,
+        38,
+        63,
+        33,
+        58,
+        40,
+        64
+    ],
+    "login locations": [
+        [
+            -117.681916,
+            33.650879
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7467,
+                0.016393442623
+            ],
+            [
+                4560,
+                0.01
+            ]
+        ]
+    ]
 }

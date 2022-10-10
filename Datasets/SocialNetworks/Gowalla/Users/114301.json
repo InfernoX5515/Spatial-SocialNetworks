@@ -5,7 +5,24 @@
     "email": "jasminecrawford@hotmail.com",
     "birthdate": "1948-05-04",
     "phone": "933.917.9614x596",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        29,
+        43,
+        15,
+        31,
+        7,
+        22,
+        25,
+        50,
+        45,
+        18
+    ],
+    "login locations": [
+        [
+            -119.726767,
+            36.760733
+        ]
+    ],
+    "relationships": []
 }

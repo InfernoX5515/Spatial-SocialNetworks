@@ -5,7 +5,14 @@
     "email": "joseph23@yahoo.com",
     "birthdate": "1912-10-29",
     "phone": "727-921-0146",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1
+    ],
+    "login locations": [
+        [
+            -119.740113,
+            36.825736
+        ]
+    ],
+    "relationships": []
 }

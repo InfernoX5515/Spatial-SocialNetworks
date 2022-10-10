@@ -5,7 +5,35 @@
     "email": "mfowler@gmail.com",
     "birthdate": "2002-10-15",
     "phone": "540-632-1133",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        7,
+        39,
+        36,
+        35,
+        5,
+        46,
+        6,
+        25,
+        9,
+        27
+    ],
+    "login locations": [
+        [
+            -117.836174,
+            33.735421
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49273,
+                0.126126126126
+            ],
+            [
+                49273,
+                0.126126126126
+            ]
+        ]
+    ]
 }

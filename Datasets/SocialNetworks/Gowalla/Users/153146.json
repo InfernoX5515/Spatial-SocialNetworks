@@ -5,7 +5,16 @@
     "email": "rrasmussen@gmail.com",
     "birthdate": "1996-04-29",
     "phone": "852-951-3838x85685",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        66,
+        72
+    ],
+    "login locations": [
+        [
+            -118.410071,
+            33.884994
+        ]
+    ],
+    "relationships": []
 }

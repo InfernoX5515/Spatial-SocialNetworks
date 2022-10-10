@@ -5,7 +5,22 @@
     "email": "xperry@hotmail.com",
     "birthdate": "1938-02-12",
     "phone": "608.721.4357x741",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        23,
+        15,
+        2,
+        35,
+        51,
+        28,
+        51,
+        70
+    ],
+    "login locations": [
+        [
+            -118.354651,
+            34.069099
+        ]
+    ],
+    "relationships": []
 }

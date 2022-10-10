@@ -5,7 +5,21 @@
     "email": "kayla20@yahoo.com",
     "birthdate": "1915-01-29",
     "phone": "988-742-0044",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        20,
+        48,
+        52,
+        39,
+        13,
+        16,
+        34
+    ],
+    "login locations": [
+        [
+            -117.959354,
+            33.696892
+        ]
+    ],
+    "relationships": []
 }

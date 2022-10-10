@@ -5,7 +5,27 @@
     "email": "iferrell@gmail.com",
     "birthdate": "1924-02-01",
     "phone": "(670)344-9522",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        68,
+        57
+    ],
+    "login locations": [
+        [
+            -117.103318,
+            32.823105
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                593,
+                0.01
+            ],
+            [
+                5785,
+                0.08
+            ]
+        ]
+    ]
 }

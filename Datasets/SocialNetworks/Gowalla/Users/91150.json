@@ -5,7 +5,21 @@
     "email": "jensengary@hotmail.com",
     "birthdate": "1936-08-28",
     "phone": "949.814.3328x02307",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        27,
+        41,
+        23,
+        18,
+        5,
+        8,
+        14
+    ],
+    "login locations": [
+        [
+            -117.749137,
+            33.650959
+        ]
+    ],
+    "relationships": []
 }

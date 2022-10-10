@@ -5,7 +5,15 @@
     "email": "mooreandrew@hotmail.com",
     "birthdate": "1962-10-10",
     "phone": "579-598-6396x31164",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        68
+    ],
+    "login locations": [
+        [
+            -118.401109,
+            34.251427
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "harrismegan@gmail.com",
     "birthdate": "1938-08-25",
     "phone": "181-165-2796",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        53,
+        12,
+        64,
+        6,
+        9,
+        66,
+        37,
+        21,
+        41
+    ],
+    "login locations": [
+        [
+            -118.167863,
+            34.059378
+        ]
+    ],
+    "relationships": []
 }

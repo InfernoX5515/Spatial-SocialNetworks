@@ -5,7 +5,20 @@
     "email": "moransarah@yahoo.com",
     "birthdate": "1950-10-16",
     "phone": "968-896-3546x64563",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        56,
+        58,
+        41,
+        64,
+        73,
+        21
+    ],
+    "login locations": [
+        [
+            -118.126568,
+            33.865905
+        ]
+    ],
+    "relationships": []
 }

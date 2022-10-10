@@ -5,7 +5,27 @@
     "email": "cisnerosdebra@gmail.com",
     "birthdate": "1920-11-23",
     "phone": "+1-558-707-4899",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        32,
+        39,
+        71,
+        16,
+        3,
+        29,
+        61,
+        67,
+        10,
+        65,
+        38,
+        57,
+        58
+    ],
+    "login locations": [
+        [
+            -121.991903,
+            37.0612
+        ]
+    ],
+    "relationships": []
 }

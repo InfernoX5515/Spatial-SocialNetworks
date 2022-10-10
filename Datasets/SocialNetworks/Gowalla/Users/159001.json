@@ -5,7 +5,18 @@
     "email": "michaeljones@yahoo.com",
     "birthdate": "1971-06-17",
     "phone": "+1-807-645-3290",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        12,
+        64,
+        55,
+        46
+    ],
+    "login locations": [
+        [
+            -122.202788,
+            37.471493
+        ]
+    ],
+    "relationships": []
 }

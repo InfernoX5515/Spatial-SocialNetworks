@@ -5,7 +5,14 @@
     "email": "castanedadanielle@gmail.com",
     "birthdate": "1996-04-23",
     "phone": "832-943-9122x9314",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4
+    ],
+    "login locations": [
+        [
+            -122.310937,
+            37.570882
+        ]
+    ],
+    "relationships": []
 }

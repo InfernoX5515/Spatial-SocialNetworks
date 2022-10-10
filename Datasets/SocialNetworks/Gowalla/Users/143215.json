@@ -5,7 +5,20 @@
     "email": "millercaleb@hotmail.com",
     "birthdate": "1964-12-23",
     "phone": "001-624-293-6516",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        34,
+        53,
+        51,
+        64,
+        66,
+        28
+    ],
+    "login locations": [
+        [
+            -118.427601,
+            34.213312
+        ]
+    ],
+    "relationships": []
 }

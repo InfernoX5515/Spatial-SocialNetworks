@@ -5,7 +5,26 @@
     "email": "olsonjohn@yahoo.com",
     "birthdate": "1916-09-10",
     "phone": "001-927-411-1387",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        44,
+        60,
+        72,
+        49,
+        64,
+        2,
+        69,
+        73,
+        26,
+        21,
+        9,
+        21
+    ],
+    "login locations": [
+        [
+            -121.447992,
+            38.608435
+        ]
+    ],
+    "relationships": []
 }

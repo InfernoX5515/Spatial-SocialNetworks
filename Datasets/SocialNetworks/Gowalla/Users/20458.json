@@ -5,7 +5,19 @@
     "email": "osmith@yahoo.com",
     "birthdate": "1960-04-12",
     "phone": "001-523-560-1465x93807",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        35,
+        67,
+        45,
+        52,
+        37
+    ],
+    "login locations": [
+        [
+            -118.312603,
+            34.088823
+        ]
+    ],
+    "relationships": []
 }

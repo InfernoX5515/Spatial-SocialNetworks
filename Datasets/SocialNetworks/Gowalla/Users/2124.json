@@ -5,7 +5,29 @@
     "email": "wbrown@gmail.com",
     "birthdate": "2007-08-30",
     "phone": "001-189-933-4667x766",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        8,
+        13,
+        9,
+        46
+    ],
+    "login locations": [
+        [
+            -118.295017,
+            34.093198
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                60820,
+                0.153846153846
+            ],
+            [
+                60820,
+                0.153846153846
+            ]
+        ]
+    ]
 }

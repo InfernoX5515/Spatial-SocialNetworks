@@ -5,7 +5,27 @@
     "email": "michaelmorse@gmail.com",
     "birthdate": "1922-08-12",
     "phone": "936-644-7473x544",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        9,
+        46
+    ],
+    "login locations": [
+        [
+            -122.407198,
+            37.74099
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                158,
+                0.0704225352113
+            ],
+            [
+                246,
+                0.038961038961
+            ]
+        ]
+    ]
 }

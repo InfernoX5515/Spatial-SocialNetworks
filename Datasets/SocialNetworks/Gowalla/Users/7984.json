@@ -5,7 +5,23 @@
     "email": "ericabrooks@gmail.com",
     "birthdate": "1951-11-05",
     "phone": "+1-254-184-8371x241",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        47,
+        44,
+        24,
+        46,
+        64,
+        51,
+        50,
+        35,
+        75
+    ],
+    "login locations": [
+        [
+            -122.191858,
+            37.432431
+        ]
+    ],
+    "relationships": []
 }

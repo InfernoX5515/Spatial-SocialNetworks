@@ -5,7 +5,31 @@
     "email": "travisbennett@yahoo.com",
     "birthdate": "1938-01-07",
     "phone": "+1-546-480-6626x96156",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        11,
+        39,
+        24,
+        40,
+        11,
+        57
+    ],
+    "login locations": [
+        [
+            -119.738359,
+            36.780622
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                102171,
+                0.05
+            ],
+            [
+                102177,
+                0.285714285714
+            ]
+        ]
+    ]
 }

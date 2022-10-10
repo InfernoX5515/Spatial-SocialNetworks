@@ -5,7 +5,26 @@
     "email": "wilsondeborah@yahoo.com",
     "birthdate": "2004-11-01",
     "phone": "646-844-9679x539",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        52,
+        35,
+        68,
+        24,
+        16,
+        7,
+        9,
+        47,
+        59,
+        30,
+        70,
+        73
+    ],
+    "login locations": [
+        [
+            -118.733369,
+            34.249546
+        ]
+    ],
+    "relationships": []
 }

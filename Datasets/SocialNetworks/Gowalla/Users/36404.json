@@ -5,7 +5,18 @@
     "email": "johnstonjudy@hotmail.com",
     "birthdate": "1957-02-18",
     "phone": "001-572-685-4201x4760",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        48,
+        72,
+        61,
+        28
+    ],
+    "login locations": [
+        [
+            -122.404897,
+            37.781235
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "caldwellashley@hotmail.com",
     "birthdate": "2004-04-30",
     "phone": "+1-016-196-7897x2687",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        26,
+        65,
+        26,
+        62,
+        52,
+        25
+    ],
+    "login locations": [
+        [
+            -117.838051,
+            33.746377
+        ]
+    ],
+    "relationships": []
 }

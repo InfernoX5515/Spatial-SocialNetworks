@@ -5,7 +5,16 @@
     "email": "robertsheppard@hotmail.com",
     "birthdate": "1998-01-21",
     "phone": "035.618.4259x388",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        55,
+        73
+    ],
+    "login locations": [
+        [
+            -117.162064,
+            32.740326
+        ]
+    ],
+    "relationships": []
 }

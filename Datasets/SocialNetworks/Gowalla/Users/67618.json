@@ -5,7 +5,27 @@
     "email": "davidsonchelsea@gmail.com",
     "birthdate": "1962-03-16",
     "phone": "592.635.6205",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        38,
+        65,
+        64,
+        70,
+        11,
+        46,
+        67,
+        31,
+        24,
+        19,
+        15,
+        22,
+        59
+    ],
+    "login locations": [
+        [
+            -122.141654,
+            37.676609
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "cooperelizabeth@hotmail.com",
     "birthdate": "1995-06-16",
     "phone": "(298)338-6078",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19
+    ],
+    "login locations": [
+        [
+            -122.406214,
+            37.791763
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "smithmary@hotmail.com",
     "birthdate": "1946-07-15",
     "phone": "001-561-989-6437",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        70,
+        20,
+        13,
+        2,
+        74,
+        63,
+        19,
+        40,
+        45,
+        24,
+        7,
+        74,
+        62,
+        13
+    ],
+    "login locations": [
+        [
+            -122.229588,
+            37.785155
+        ]
+    ],
+    "relationships": []
 }

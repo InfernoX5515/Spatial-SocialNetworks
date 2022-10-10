@@ -5,7 +5,24 @@
     "email": "ashleyhall@gmail.com",
     "birthdate": "1946-10-29",
     "phone": "(307)215-4924",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        41,
+        60,
+        14,
+        56,
+        68,
+        9,
+        41,
+        48,
+        15,
+        15
+    ],
+    "login locations": [
+        [
+            -119.631715,
+            36.342843
+        ]
+    ],
+    "relationships": []
 }

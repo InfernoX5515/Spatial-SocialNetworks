@@ -5,7 +5,16 @@
     "email": "kwalker@gmail.com",
     "birthdate": "1948-11-03",
     "phone": "198-196-8672",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        8,
+        37
+    ],
+    "login locations": [
+        [
+            -122.201121,
+            37.751338
+        ]
+    ],
+    "relationships": []
 }

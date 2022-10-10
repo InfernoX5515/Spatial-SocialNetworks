@@ -5,7 +5,26 @@
     "email": "tamara21@hotmail.com",
     "birthdate": "1935-04-10",
     "phone": "001-473-449-3370x516",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        51,
+        58,
+        5,
+        63,
+        65,
+        37,
+        59,
+        36,
+        0,
+        49,
+        26,
+        31
+    ],
+    "login locations": [
+        [
+            -117.084524,
+            32.747239
+        ]
+    ],
+    "relationships": []
 }

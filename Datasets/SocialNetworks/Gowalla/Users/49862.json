@@ -5,7 +5,26 @@
     "email": "jjones@yahoo.com",
     "birthdate": "1910-12-28",
     "phone": "2885656132",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        40,
+        20,
+        55,
+        9,
+        42,
+        25,
+        38,
+        3,
+        74,
+        13,
+        14,
+        54
+    ],
+    "login locations": [
+        [
+            -122.404997,
+            37.804733
+        ]
+    ],
+    "relationships": []
 }

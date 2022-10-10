@@ -5,7 +5,20 @@
     "email": "lynn93@hotmail.com",
     "birthdate": "1945-03-30",
     "phone": "5112614819",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        9,
+        53,
+        43,
+        1,
+        28,
+        32
+    ],
+    "login locations": [
+        [
+            -122.431597,
+            37.761519
+        ]
+    ],
+    "relationships": []
 }

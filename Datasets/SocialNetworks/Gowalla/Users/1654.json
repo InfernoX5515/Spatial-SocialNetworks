@@ -5,7 +5,31 @@
     "email": "jasonbridges@gmail.com",
     "birthdate": "1996-01-19",
     "phone": "(894)797-3777",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        65,
+        72,
+        43,
+        2,
+        12,
+        11
+    ],
+    "login locations": [
+        [
+            -118.321288,
+            34.059342
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1101,
+                0.01
+            ],
+            [
+                1101,
+                0.01
+            ]
+        ]
+    ]
 }

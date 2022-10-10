@@ -5,7 +5,14 @@
     "email": "kathleenjohnson@yahoo.com",
     "birthdate": "1996-01-03",
     "phone": "001-821-493-7755",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29
+    ],
+    "login locations": [
+        [
+            -117.865227,
+            33.941825
+        ]
+    ],
+    "relationships": []
 }

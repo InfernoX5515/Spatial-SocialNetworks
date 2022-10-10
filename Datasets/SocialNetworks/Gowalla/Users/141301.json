@@ -5,7 +5,18 @@
     "email": "uwhite@yahoo.com",
     "birthdate": "2004-05-31",
     "phone": "770.821.4822x916",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        54,
+        20,
+        19,
+        6
+    ],
+    "login locations": [
+        [
+            -122.206965,
+            37.470397
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "harriskevin@yahoo.com",
     "birthdate": "1926-07-18",
     "phone": "643-795-7201",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        66,
+        66,
+        57,
+        46
+    ],
+    "login locations": [
+        [
+            -118.089059,
+            34.092571
+        ]
+    ],
+    "relationships": []
 }

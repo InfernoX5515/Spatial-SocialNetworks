@@ -5,7 +5,21 @@
     "email": "madisonjuarez@gmail.com",
     "birthdate": "1954-11-19",
     "phone": "584-809-6153x01558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        7,
+        32,
+        29,
+        62,
+        71,
+        11,
+        12
+    ],
+    "login locations": [
+        [
+            -122.03613,
+            37.38697
+        ]
+    ],
+    "relationships": []
 }

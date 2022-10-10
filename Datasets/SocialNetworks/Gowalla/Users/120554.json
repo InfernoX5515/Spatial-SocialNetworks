@@ -5,7 +5,34 @@
     "email": "kevin77@hotmail.com",
     "birthdate": "1938-01-02",
     "phone": "+1-039-133-4773x484",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        5,
+        36,
+        49,
+        11,
+        43,
+        28,
+        71,
+        6,
+        49
+    ],
+    "login locations": [
+        [
+            -117.743987,
+            33.663839
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                120551,
+                0.260869565217
+            ],
+            [
+                120551,
+                0.260869565217
+            ]
+        ]
+    ]
 }

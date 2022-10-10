@@ -5,7 +5,24 @@
     "email": "christopherwilliams@hotmail.com",
     "birthdate": "1933-07-11",
     "phone": "509-169-1666x7003",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        26,
+        13,
+        35,
+        47,
+        33,
+        56,
+        10,
+        67,
+        37,
+        0
+    ],
+    "login locations": [
+        [
+            -122.256331,
+            37.870563
+        ]
+    ],
+    "relationships": []
 }

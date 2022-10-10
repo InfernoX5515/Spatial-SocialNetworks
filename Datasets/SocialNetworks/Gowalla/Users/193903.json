@@ -5,7 +5,14 @@
     "email": "nchan@yahoo.com",
     "birthdate": "1922-08-04",
     "phone": "(573)851-3899",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67
+    ],
+    "login locations": [
+        [
+            -118.36264,
+            34.075357
+        ]
+    ],
+    "relationships": []
 }

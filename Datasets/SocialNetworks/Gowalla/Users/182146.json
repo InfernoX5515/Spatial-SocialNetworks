@@ -5,7 +5,28 @@
     "email": "oproctor@gmail.com",
     "birthdate": "1927-04-25",
     "phone": "597-736-4387",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        8,
+        26,
+        40,
+        42,
+        75,
+        17,
+        19,
+        8,
+        43,
+        45,
+        59,
+        27,
+        36,
+        3
+    ],
+    "login locations": [
+        [
+            -118.282119,
+            33.963497
+        ]
+    ],
+    "relationships": []
 }

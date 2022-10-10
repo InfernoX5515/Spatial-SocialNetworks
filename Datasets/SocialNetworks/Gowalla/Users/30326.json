@@ -5,7 +5,16 @@
     "email": "manthony@yahoo.com",
     "birthdate": "1965-05-28",
     "phone": "001-189-419-2735",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        22,
+        23
+    ],
+    "login locations": [
+        [
+            -122.387155,
+            37.820893
+        ]
+    ],
+    "relationships": []
 }

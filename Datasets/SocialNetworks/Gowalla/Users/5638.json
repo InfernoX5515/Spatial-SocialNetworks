@@ -5,7 +5,27 @@
     "email": "lolson@gmail.com",
     "birthdate": "2006-08-22",
     "phone": "762.517.5101",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        17,
+        42
+    ],
+    "login locations": [
+        [
+            -122.409505,
+            37.754465
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1785,
+                0.01
+            ],
+            [
+                5291,
+                0.0243902439024
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "jeff18@hotmail.com",
     "birthdate": "1917-05-14",
     "phone": "627.072.9530x8065",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        45,
+        30,
+        26
+    ],
+    "login locations": [
+        [
+            -122.419595,
+            37.791626
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                99,
+                0.01
+            ],
+            [
+                2170,
+                0.0588235294118
+            ]
+        ]
+    ]
 }

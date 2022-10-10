@@ -5,7 +5,21 @@
     "email": "william03@yahoo.com",
     "birthdate": "1962-03-08",
     "phone": "001-626-390-8371x213",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        6,
+        35,
+        25,
+        31,
+        0,
+        51,
+        17
+    ],
+    "login locations": [
+        [
+            -121.909777,
+            37.270665
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "edwardsjulie@hotmail.com",
     "birthdate": "1956-05-31",
     "phone": "+1-737-633-4160x155",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        60,
+        34,
+        10
+    ],
+    "login locations": [
+        [
+            -122.385771,
+            37.752021
+        ]
+    ],
+    "relationships": []
 }

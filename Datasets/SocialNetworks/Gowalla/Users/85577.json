@@ -5,7 +5,27 @@
     "email": "grahamedward@gmail.com",
     "birthdate": "1965-03-08",
     "phone": "604-503-0497x6456",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        10,
+        50,
+        48,
+        51,
+        23,
+        5,
+        62,
+        69,
+        45,
+        25,
+        34,
+        20,
+        26
+    ],
+    "login locations": [
+        [
+            -117.386088,
+            33.95079
+        ]
+    ],
+    "relationships": []
 }

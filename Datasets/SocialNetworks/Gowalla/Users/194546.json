@@ -5,7 +5,23 @@
     "email": "cindygraham@hotmail.com",
     "birthdate": "1920-10-04",
     "phone": "(604)769-2632x466",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        50,
+        28,
+        59,
+        12,
+        47,
+        31,
+        11,
+        6,
+        65
+    ],
+    "login locations": [
+        [
+            -117.907124,
+            33.978294
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "danielsantonio@gmail.com",
     "birthdate": "2000-09-19",
     "phone": "+1-979-254-3771",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        27,
+        66,
+        15,
+        59,
+        25,
+        68,
+        71,
+        43,
+        38
+    ],
+    "login locations": [
+        [
+            -118.15942,
+            33.958139
+        ]
+    ],
+    "relationships": []
 }

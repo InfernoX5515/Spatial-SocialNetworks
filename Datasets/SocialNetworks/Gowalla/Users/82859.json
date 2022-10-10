@@ -5,7 +5,23 @@
     "email": "rhall@hotmail.com",
     "birthdate": "1963-04-01",
     "phone": "+1-490-821-1217x234",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        70,
+        11,
+        10,
+        35,
+        50,
+        26,
+        49,
+        18,
+        71
+    ],
+    "login locations": [
+        [
+            -122.40148,
+            37.787082
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "nelsonkrystal@gmail.com",
     "birthdate": "1962-06-26",
     "phone": "(498)457-3346",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        39
+    ],
+    "login locations": [
+        [
+            -118.550428,
+            34.242315
+        ]
+    ],
+    "relationships": []
 }

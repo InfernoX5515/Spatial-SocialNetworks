@@ -5,7 +5,25 @@
     "email": "greenisabel@hotmail.com",
     "birthdate": "1964-07-27",
     "phone": "014.835.1197x63587",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        20,
+        66,
+        12,
+        16,
+        20,
+        7,
+        74,
+        18,
+        71,
+        56,
+        66
+    ],
+    "login locations": [
+        [
+            -122.419862,
+            37.749842
+        ]
+    ],
+    "relationships": []
 }

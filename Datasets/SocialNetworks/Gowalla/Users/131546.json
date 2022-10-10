@@ -5,7 +5,15 @@
     "email": "bethsims@hotmail.com",
     "birthdate": "1964-06-19",
     "phone": "+1-529-640-0228x571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        3
+    ],
+    "login locations": [
+        [
+            -117.167253,
+            32.71033
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "emoore@hotmail.com",
     "birthdate": "1932-06-06",
     "phone": "733.902.1770x9751",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        18,
+        8,
+        5,
+        7
+    ],
+    "login locations": [
+        [
+            -117.18713,
+            32.768549
+        ]
+    ],
+    "relationships": []
 }

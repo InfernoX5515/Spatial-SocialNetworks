@@ -5,7 +5,28 @@
     "email": "frankbrian@yahoo.com",
     "birthdate": "1941-03-18",
     "phone": "718-840-3593",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        43,
+        51,
+        52,
+        35,
+        5,
+        70,
+        3,
+        13,
+        35,
+        41,
+        1,
+        53,
+        25,
+        54
+    ],
+    "login locations": [
+        [
+            -117.151082,
+            32.734979
+        ]
+    ],
+    "relationships": []
 }

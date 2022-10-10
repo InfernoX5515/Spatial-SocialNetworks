@@ -5,7 +5,26 @@
     "email": "eric32@yahoo.com",
     "birthdate": "1928-01-23",
     "phone": "437.286.5601",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        17,
+        59,
+        58,
+        73,
+        0,
+        18,
+        29,
+        57,
+        32,
+        16,
+        40,
+        5
+    ],
+    "login locations": [
+        [
+            -122.009782,
+            37.358767
+        ]
+    ],
+    "relationships": []
 }

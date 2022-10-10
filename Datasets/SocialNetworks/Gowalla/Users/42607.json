@@ -5,7 +5,19 @@
     "email": "lisaburton@yahoo.com",
     "birthdate": "1943-03-31",
     "phone": "1197266797",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        44,
+        46,
+        8,
+        7,
+        48
+    ],
+    "login locations": [
+        [
+            -118.423002,
+            34.017847
+        ]
+    ],
+    "relationships": []
 }

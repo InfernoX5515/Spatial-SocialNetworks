@@ -5,7 +5,24 @@
     "email": "jason59@yahoo.com",
     "birthdate": "1946-12-19",
     "phone": "(722)845-3661",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        70,
+        61,
+        60,
+        13,
+        28,
+        29,
+        36,
+        14,
+        45,
+        54
+    ],
+    "login locations": [
+        [
+            -121.874952,
+            37.662131
+        ]
+    ],
+    "relationships": []
 }

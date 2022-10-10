@@ -5,7 +5,38 @@
     "email": "nholland@yahoo.com",
     "birthdate": "2000-05-06",
     "phone": "+1-801-296-2018x7219",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        8,
+        51,
+        23,
+        66,
+        55,
+        23,
+        66,
+        22,
+        61,
+        32,
+        9,
+        28,
+        9
+    ],
+    "login locations": [
+        [
+            -118.042797,
+            33.885902
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                143212,
+                0.0571428571429
+            ],
+            [
+                49844,
+                0.0422535211268
+            ]
+        ]
+    ]
 }

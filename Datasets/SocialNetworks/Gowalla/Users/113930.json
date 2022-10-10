@@ -5,7 +5,21 @@
     "email": "jmejia@gmail.com",
     "birthdate": "1997-05-20",
     "phone": "181-890-8969x320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        6,
+        65,
+        3,
+        56,
+        21,
+        3,
+        24
+    ],
+    "login locations": [
+        [
+            -121.920284,
+            37.325077
+        ]
+    ],
+    "relationships": []
 }

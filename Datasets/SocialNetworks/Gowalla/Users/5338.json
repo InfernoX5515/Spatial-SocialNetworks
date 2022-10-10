@@ -5,7 +5,26 @@
     "email": "davidchristopher@gmail.com",
     "birthdate": "2017-04-22",
     "phone": "3231648989",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        17
+    ],
+    "login locations": [
+        [
+            -122.417239,
+            37.785756
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                182,
+                0.0869565217391
+            ],
+            [
+                5287,
+                0.0604026845638
+            ]
+        ]
+    ]
 }

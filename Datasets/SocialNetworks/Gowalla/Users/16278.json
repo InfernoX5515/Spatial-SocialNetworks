@@ -5,7 +5,30 @@
     "email": "william26@yahoo.com",
     "birthdate": "1913-08-15",
     "phone": "(177)405-8649",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        43,
+        36,
+        15,
+        35,
+        0
+    ],
+    "login locations": [
+        [
+            -118.365748,
+            34.068953
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                101805,
+                1.0
+            ],
+            [
+                101805,
+                1.0
+            ]
+        ]
+    ]
 }

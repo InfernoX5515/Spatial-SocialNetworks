@@ -5,7 +5,20 @@
     "email": "crawforddustin@yahoo.com",
     "birthdate": "1986-05-03",
     "phone": "001-701-000-9402x527",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        67,
+        19,
+        28,
+        43,
+        40,
+        27
+    ],
+    "login locations": [
+        [
+            -122.170652,
+            37.797523
+        ]
+    ],
+    "relationships": []
 }

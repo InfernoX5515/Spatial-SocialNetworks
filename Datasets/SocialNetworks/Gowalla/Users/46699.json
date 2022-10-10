@@ -5,7 +5,23 @@
     "email": "padillaalexander@hotmail.com",
     "birthdate": "1936-07-22",
     "phone": "(702)291-8523",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        42,
+        24,
+        46,
+        25,
+        63,
+        33,
+        20,
+        59,
+        47
+    ],
+    "login locations": [
+        [
+            -118.395384,
+            34.008409
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "joshua48@yahoo.com",
     "birthdate": "2005-01-22",
     "phone": "001-195-551-5720x2328",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        3,
+        8,
+        52,
+        37,
+        51,
+        60,
+        10,
+        57
+    ],
+    "login locations": [
+        [
+            -117.967018,
+            33.812044
+        ]
+    ],
+    "relationships": []
 }

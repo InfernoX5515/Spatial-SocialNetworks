@@ -5,7 +5,26 @@
     "email": "reneegreen@yahoo.com",
     "birthdate": "1990-03-27",
     "phone": "7363025620",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        55,
+        66,
+        42,
+        65,
+        51,
+        8,
+        73,
+        71,
+        15,
+        20,
+        1,
+        74
+    ],
+    "login locations": [
+        [
+            -122.140812,
+            37.428789
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "wterrell@yahoo.com",
     "birthdate": "2021-09-27",
     "phone": "(440)929-6350",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        7,
+        60,
+        41,
+        7,
+        31,
+        0,
+        65,
+        72,
+        57,
+        59,
+        68,
+        43,
+        75
+    ],
+    "login locations": [
+        [
+            -121.913901,
+            37.33238
+        ]
+    ],
+    "relationships": []
 }

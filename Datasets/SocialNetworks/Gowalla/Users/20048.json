@@ -5,7 +5,27 @@
     "email": "gthompson@yahoo.com",
     "birthdate": "1984-09-15",
     "phone": "732.208.5477x17867",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        59,
+        14,
+        42,
+        17,
+        36,
+        30,
+        39,
+        27,
+        74,
+        57,
+        53,
+        64,
+        25
+    ],
+    "login locations": [
+        [
+            -118.136171,
+            34.142528
+        ]
+    ],
+    "relationships": []
 }

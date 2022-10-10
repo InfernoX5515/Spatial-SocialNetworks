@@ -5,7 +5,23 @@
     "email": "oscar27@yahoo.com",
     "birthdate": "1988-04-16",
     "phone": "400-421-2797x208",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        45,
+        56,
+        62,
+        20,
+        41,
+        39,
+        55,
+        65,
+        13
+    ],
+    "login locations": [
+        [
+            -118.160349,
+            34.136043
+        ]
+    ],
+    "relationships": []
 }

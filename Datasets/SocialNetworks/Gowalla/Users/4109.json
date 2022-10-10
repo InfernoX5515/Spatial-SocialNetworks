@@ -5,7 +5,20 @@
     "email": "jennifermorgan@yahoo.com",
     "birthdate": "1923-03-01",
     "phone": "208.876.2673x0727",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        18,
+        38,
+        32,
+        64,
+        64,
+        69
+    ],
+    "login locations": [
+        [
+            -118.60354,
+            34.381929
+        ]
+    ],
+    "relationships": []
 }

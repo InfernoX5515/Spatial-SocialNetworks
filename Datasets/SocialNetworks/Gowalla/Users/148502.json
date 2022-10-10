@@ -5,7 +5,20 @@
     "email": "carolinecline@gmail.com",
     "birthdate": "2011-12-11",
     "phone": "335-084-1874x18806",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        58,
+        11,
+        43,
+        21,
+        63,
+        67
+    ],
+    "login locations": [
+        [
+            -121.942619,
+            36.980547
+        ]
+    ],
+    "relationships": []
 }

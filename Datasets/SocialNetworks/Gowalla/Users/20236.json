@@ -5,7 +5,20 @@
     "email": "cassandra76@gmail.com",
     "birthdate": "1958-12-17",
     "phone": "035.290.4693",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        72,
+        42,
+        50,
+        43,
+        27,
+        3
+    ],
+    "login locations": [
+        [
+            -122.216357,
+            38.052475
+        ]
+    ],
+    "relationships": []
 }

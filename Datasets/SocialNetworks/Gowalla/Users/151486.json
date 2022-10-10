@@ -5,7 +5,23 @@
     "email": "whiteanna@gmail.com",
     "birthdate": "2017-07-11",
     "phone": "041.235.1396x727",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        58,
+        30,
+        51,
+        42,
+        33,
+        54,
+        16,
+        16,
+        59
+    ],
+    "login locations": [
+        [
+            -121.254104,
+            38.691455
+        ]
+    ],
+    "relationships": []
 }

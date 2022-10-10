@@ -5,7 +5,16 @@
     "email": "lopezscott@gmail.com",
     "birthdate": "1908-03-04",
     "phone": "449.777.8963",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        57,
+        17
+    ],
+    "login locations": [
+        [
+            -122.413735,
+            37.775695
+        ]
+    ],
+    "relationships": []
 }

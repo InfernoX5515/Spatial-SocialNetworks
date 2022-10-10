@@ -5,7 +5,28 @@
     "email": "ohill@yahoo.com",
     "birthdate": "1971-03-07",
     "phone": "001-162-097-3271x6870",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        44,
+        75,
+        73,
+        47,
+        51,
+        2,
+        51,
+        7,
+        60,
+        6,
+        49,
+        42,
+        71,
+        67
+    ],
+    "login locations": [
+        [
+            -118.385939,
+            34.059075
+        ]
+    ],
+    "relationships": []
 }

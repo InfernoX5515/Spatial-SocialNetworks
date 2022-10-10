@@ -5,7 +5,12 @@
     "email": "waltermiller@hotmail.com",
     "birthdate": "1990-12-08",
     "phone": "001-013-446-9226x37513",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.375846,
+            33.987362
+        ]
+    ],
+    "relationships": []
 }

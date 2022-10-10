@@ -5,7 +5,16 @@
     "email": "vgarcia@gmail.com",
     "birthdate": "1910-01-11",
     "phone": "+1-353-907-2695x4283",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        0,
+        56
+    ],
+    "login locations": [
+        [
+            -122.027067,
+            36.975218
+        ]
+    ],
+    "relationships": []
 }

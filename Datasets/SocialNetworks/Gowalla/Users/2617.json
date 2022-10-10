@@ -5,7 +5,22 @@
     "email": "kjones@gmail.com",
     "birthdate": "2021-09-30",
     "phone": "(829)777-3556x00479",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        6,
+        7,
+        30,
+        10,
+        33,
+        8,
+        34,
+        63
+    ],
+    "login locations": [
+        [
+            -118.33556,
+            34.062218
+        ]
+    ],
+    "relationships": []
 }

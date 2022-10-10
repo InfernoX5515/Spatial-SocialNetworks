@@ -5,7 +5,27 @@
     "email": "hramirez@gmail.com",
     "birthdate": "1977-12-11",
     "phone": "(861)363-8140x57699",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        59,
+        17
+    ],
+    "login locations": [
+        [
+            -122.367978,
+            37.659391
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39638,
+                0.0123456790123
+            ],
+            [
+                39638,
+                0.0123456790123
+            ]
+        ]
+    ]
 }

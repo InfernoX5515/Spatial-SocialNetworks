@@ -5,7 +5,22 @@
     "email": "nturner@hotmail.com",
     "birthdate": "1924-06-13",
     "phone": "(660)236-4262x601",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        55,
+        56,
+        57,
+        62,
+        55,
+        14,
+        66,
+        48
+    ],
+    "login locations": [
+        [
+            -118.334259,
+            33.988787
+        ]
+    ],
+    "relationships": []
 }

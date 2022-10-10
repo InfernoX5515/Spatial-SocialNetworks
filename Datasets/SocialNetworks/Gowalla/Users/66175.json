@@ -5,7 +5,17 @@
     "email": "kenneth93@hotmail.com",
     "birthdate": "1961-09-15",
     "phone": "001-512-966-4322",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        56,
+        0,
+        63
+    ],
+    "login locations": [
+        [
+            -118.452612,
+            34.246218
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "nicholasmayo@hotmail.com",
     "birthdate": "1973-10-10",
     "phone": "(308)202-6785x095",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        56,
+        63,
+        48,
+        9,
+        50,
+        18,
+        48,
+        42,
+        54,
+        11
+    ],
+    "login locations": [
+        [
+            -122.418788,
+            37.762317
+        ]
+    ],
+    "relationships": []
 }

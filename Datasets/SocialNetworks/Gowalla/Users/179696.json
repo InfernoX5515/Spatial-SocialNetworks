@@ -5,7 +5,23 @@
     "email": "zalvarez@hotmail.com",
     "birthdate": "1971-08-30",
     "phone": "699-430-3751x08089",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -119.775367,
+            36.850649
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                120048,
+                0.04
+            ],
+            [
+                120049,
+                0.0392156862745
+            ]
+        ]
+    ]
 }

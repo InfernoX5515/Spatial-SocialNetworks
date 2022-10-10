@@ -5,7 +5,21 @@
     "email": "stephanie55@yahoo.com",
     "birthdate": "1938-12-02",
     "phone": "001-523-458-6510",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        53,
+        63,
+        21,
+        71,
+        4,
+        50,
+        54
+    ],
+    "login locations": [
+        [
+            -118.447571,
+            34.009976
+        ]
+    ],
+    "relationships": []
 }

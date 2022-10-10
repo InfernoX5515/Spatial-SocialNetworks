@@ -5,7 +5,29 @@
     "email": "johnsondeborah@yahoo.com",
     "birthdate": "1912-10-18",
     "phone": "001-941-584-0815x40780",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        22,
+        34,
+        7,
+        34
+    ],
+    "login locations": [
+        [
+            -118.078908,
+            33.750706
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1897,
+                0.18
+            ],
+            [
+                1897,
+                0.18
+            ]
+        ]
+    ]
 }

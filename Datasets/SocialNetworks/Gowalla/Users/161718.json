@@ -5,7 +5,12 @@
     "email": "michelle42@gmail.com",
     "birthdate": "1920-07-23",
     "phone": "(614)876-0167",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.423533,
+            37.779415
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "mackenzie47@hotmail.com",
     "birthdate": "1942-06-08",
     "phone": "(673)042-9146",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41
+    ],
+    "login locations": [
+        [
+            -121.923677,
+            37.331902
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "john58@hotmail.com",
     "birthdate": "1920-10-22",
     "phone": "258.189.7866",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        71,
+        17,
+        52,
+        27,
+        14,
+        31,
+        38,
+        30,
+        29,
+        44,
+        46,
+        64,
+        7,
+        49
+    ],
+    "login locations": [
+        [
+            -122.408085,
+            37.784404
+        ]
+    ],
+    "relationships": []
 }

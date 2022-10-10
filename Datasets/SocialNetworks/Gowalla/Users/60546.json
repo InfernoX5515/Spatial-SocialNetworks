@@ -5,7 +5,28 @@
     "email": "christopherkoch@hotmail.com",
     "birthdate": "1999-06-08",
     "phone": "(958)507-3754",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        69,
+        24,
+        43,
+        56,
+        69,
+        55,
+        26,
+        15,
+        70,
+        43,
+        8,
+        24,
+        56,
+        40
+    ],
+    "login locations": [
+        [
+            -117.429801,
+            33.927008
+        ]
+    ],
+    "relationships": []
 }

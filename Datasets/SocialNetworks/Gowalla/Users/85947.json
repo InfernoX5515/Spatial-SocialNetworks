@@ -5,7 +5,17 @@
     "email": "brandistuart@hotmail.com",
     "birthdate": "1988-04-02",
     "phone": "2349133614",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        37,
+        46,
+        56
+    ],
+    "login locations": [
+        [
+            -117.886104,
+            34.128467
+        ]
+    ],
+    "relationships": []
 }

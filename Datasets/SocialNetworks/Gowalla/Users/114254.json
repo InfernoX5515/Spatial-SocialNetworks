@@ -5,7 +5,25 @@
     "email": "laurenwilliams@yahoo.com",
     "birthdate": "1929-12-11",
     "phone": "861.380.1550x75905",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        22,
+        58,
+        15,
+        48,
+        39,
+        32,
+        22,
+        29,
+        3,
+        41,
+        27
+    ],
+    "login locations": [
+        [
+            -118.465753,
+            34.083335
+        ]
+    ],
+    "relationships": []
 }

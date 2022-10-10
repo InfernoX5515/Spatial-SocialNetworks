@@ -5,7 +5,33 @@
     "email": "gabrielmontgomery@gmail.com",
     "birthdate": "1958-02-02",
     "phone": "001-766-722-4594",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        74,
+        69,
+        67,
+        46,
+        29,
+        59,
+        13,
+        43
+    ],
+    "login locations": [
+        [
+            -122.41308,
+            37.727803
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5089,
+                0.0266666666667
+            ],
+            [
+                5110,
+                0.01
+            ]
+        ]
+    ]
 }

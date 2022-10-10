@@ -5,7 +5,16 @@
     "email": "ywu@hotmail.com",
     "birthdate": "1956-06-28",
     "phone": "001-893-692-9621x6306",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        52,
+        7
+    ],
+    "login locations": [
+        [
+            -118.467072,
+            34.403994
+        ]
+    ],
+    "relationships": []
 }

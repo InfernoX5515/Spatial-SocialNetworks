@@ -5,7 +5,24 @@
     "email": "michellewilson@hotmail.com",
     "birthdate": "1994-08-24",
     "phone": "001-153-615-9550",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        30,
+        72,
+        70,
+        43,
+        53,
+        64,
+        55,
+        30,
+        55,
+        37
+    ],
+    "login locations": [
+        [
+            -118.374777,
+            33.963363
+        ]
+    ],
+    "relationships": []
 }

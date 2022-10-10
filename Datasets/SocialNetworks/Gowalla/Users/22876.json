@@ -5,7 +5,22 @@
     "email": "mirandajackson@gmail.com",
     "birthdate": "2005-05-02",
     "phone": "022-245-2813x196",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        64,
+        50,
+        18,
+        3,
+        67,
+        10,
+        17,
+        49
+    ],
+    "login locations": [
+        [
+            -122.41988,
+            37.781721
+        ]
+    ],
+    "relationships": []
 }

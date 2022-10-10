@@ -5,7 +5,12 @@
     "email": "vbishop@gmail.com",
     "birthdate": "1977-04-22",
     "phone": "+1-179-519-8073",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.953804,
+            37.284534
+        ]
+    ],
+    "relationships": []
 }

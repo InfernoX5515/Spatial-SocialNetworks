@@ -5,7 +5,26 @@
     "email": "christinecurtis@yahoo.com",
     "birthdate": "1916-07-03",
     "phone": "+1-796-245-2650x3469",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        44
+    ],
+    "login locations": [
+        [
+            -122.025122,
+            37.308201
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                114497,
+                0.0909090909091
+            ],
+            [
+                114497,
+                0.0909090909091
+            ]
+        ]
+    ]
 }

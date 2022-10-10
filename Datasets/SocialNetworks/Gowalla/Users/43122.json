@@ -5,7 +5,28 @@
     "email": "peterpatrick@gmail.com",
     "birthdate": "1959-09-23",
     "phone": "221-631-8218",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        66,
+        15,
+        31,
+        4,
+        71,
+        22,
+        36,
+        36,
+        52,
+        45,
+        58,
+        23,
+        31,
+        27
+    ],
+    "login locations": [
+        [
+            -117.892008,
+            33.719454
+        ]
+    ],
+    "relationships": []
 }

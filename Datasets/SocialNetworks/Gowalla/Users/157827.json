@@ -5,7 +5,27 @@
     "email": "welchanne@hotmail.com",
     "birthdate": "1943-07-27",
     "phone": "001-571-358-3333",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        73,
+        1,
+        40,
+        25,
+        26,
+        28,
+        51,
+        75,
+        71,
+        14,
+        66,
+        30,
+        34
+    ],
+    "login locations": [
+        [
+            -122.447015,
+            37.722142
+        ]
+    ],
+    "relationships": []
 }

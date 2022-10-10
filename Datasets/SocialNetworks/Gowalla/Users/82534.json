@@ -5,7 +5,27 @@
     "email": "ian91@hotmail.com",
     "birthdate": "1942-01-27",
     "phone": "001-593-076-1341x3027",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        50,
+        31,
+        2,
+        57,
+        66,
+        24,
+        66,
+        9,
+        23,
+        54,
+        20,
+        44,
+        29
+    ],
+    "login locations": [
+        [
+            -118.055462,
+            33.870276
+        ]
+    ],
+    "relationships": []
 }

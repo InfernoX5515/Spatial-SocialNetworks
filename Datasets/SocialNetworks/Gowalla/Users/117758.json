@@ -5,7 +5,14 @@
     "email": "qcox@hotmail.com",
     "birthdate": "1993-12-20",
     "phone": "+1-244-547-9955x787",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60
+    ],
+    "login locations": [
+        [
+            -118.250643,
+            34.050484
+        ]
+    ],
+    "relationships": []
 }

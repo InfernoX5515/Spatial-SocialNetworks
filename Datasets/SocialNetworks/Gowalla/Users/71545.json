@@ -5,7 +5,28 @@
     "email": "turnerrichard@hotmail.com",
     "birthdate": "1991-02-24",
     "phone": "9010589642",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        23,
+        52,
+        52,
+        6,
+        21,
+        38,
+        8,
+        12,
+        71,
+        14,
+        32,
+        2,
+        11,
+        42
+    ],
+    "login locations": [
+        [
+            -122.406768,
+            37.771978
+        ]
+    ],
+    "relationships": []
 }

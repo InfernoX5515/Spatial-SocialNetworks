@@ -5,7 +5,12 @@
     "email": "tammyscott@hotmail.com",
     "birthdate": "2009-10-17",
     "phone": "001-610-211-4500",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.393461,
+            37.760075
+        ]
+    ],
+    "relationships": []
 }

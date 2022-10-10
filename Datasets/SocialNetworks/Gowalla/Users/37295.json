@@ -5,7 +5,28 @@
     "email": "daychristian@hotmail.com",
     "birthdate": "1952-01-21",
     "phone": "(427)296-7714x54623",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        73,
+        29,
+        60,
+        0,
+        37,
+        31,
+        0,
+        19,
+        44,
+        24,
+        11,
+        72,
+        40,
+        55
+    ],
+    "login locations": [
+        [
+            -122.422254,
+            37.766497
+        ]
+    ],
+    "relationships": []
 }

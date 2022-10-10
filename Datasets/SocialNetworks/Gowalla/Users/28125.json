@@ -5,7 +5,15 @@
     "email": "matascott@yahoo.com",
     "birthdate": "1991-09-22",
     "phone": "001-333-429-5871x62796",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        73
+    ],
+    "login locations": [
+        [
+            -118.214584,
+            34.081942
+        ]
+    ],
+    "relationships": []
 }

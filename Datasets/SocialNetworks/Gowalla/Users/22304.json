@@ -5,7 +5,15 @@
     "email": "amber06@gmail.com",
     "birthdate": "1992-04-10",
     "phone": "+1-673-544-3478x19820",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        55
+    ],
+    "login locations": [
+        [
+            -118.351739,
+            34.033094
+        ]
+    ],
+    "relationships": []
 }

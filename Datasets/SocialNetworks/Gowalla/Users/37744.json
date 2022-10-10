@@ -5,7 +5,17 @@
     "email": "michaelmoss@yahoo.com",
     "birthdate": "2005-10-16",
     "phone": "3350873175",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        7,
+        36,
+        18
+    ],
+    "login locations": [
+        [
+            -117.261997,
+            33.915227
+        ]
+    ],
+    "relationships": []
 }

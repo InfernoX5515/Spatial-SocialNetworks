@@ -5,7 +5,24 @@
     "email": "yvonnebrooks@gmail.com",
     "birthdate": "1971-06-12",
     "phone": "7802814582",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        50,
+        37,
+        24,
+        54,
+        12,
+        24,
+        58,
+        0,
+        13,
+        65
+    ],
+    "login locations": [
+        [
+            -121.434773,
+            38.60945
+        ]
+    ],
+    "relationships": []
 }

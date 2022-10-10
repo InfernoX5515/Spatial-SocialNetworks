@@ -5,7 +5,19 @@
     "email": "paula41@hotmail.com",
     "birthdate": "1923-05-10",
     "phone": "+1-732-200-8945x85501",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        25,
+        15,
+        24,
+        39,
+        13
+    ],
+    "login locations": [
+        [
+            -122.273275,
+            38.167995
+        ]
+    ],
+    "relationships": []
 }

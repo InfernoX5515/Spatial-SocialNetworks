@@ -5,7 +5,25 @@
     "email": "barnettandrea@hotmail.com",
     "birthdate": "1970-04-14",
     "phone": "+1-300-528-0975",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        60,
+        64,
+        39,
+        13,
+        12,
+        42,
+        12,
+        24,
+        40,
+        45,
+        52
+    ],
+    "login locations": [
+        [
+            -121.944257,
+            37.928581
+        ]
+    ],
+    "relationships": []
 }

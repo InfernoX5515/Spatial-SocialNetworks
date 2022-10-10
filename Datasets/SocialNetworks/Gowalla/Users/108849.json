@@ -5,7 +5,22 @@
     "email": "ealvarado@yahoo.com",
     "birthdate": "1955-04-04",
     "phone": "196-188-0339",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        2,
+        59,
+        41,
+        10,
+        9,
+        28,
+        44,
+        65
+    ],
+    "login locations": [
+        [
+            -122.434514,
+            37.728749
+        ]
+    ],
+    "relationships": []
 }

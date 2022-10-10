@@ -5,7 +5,12 @@
     "email": "allison24@yahoo.com",
     "birthdate": "1935-05-14",
     "phone": "4551743604",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.412526,
+            37.778317
+        ]
+    ],
+    "relationships": []
 }

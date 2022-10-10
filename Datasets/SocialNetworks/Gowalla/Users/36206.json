@@ -5,7 +5,28 @@
     "email": "tbailey@yahoo.com",
     "birthdate": "2016-07-08",
     "phone": "+1-540-507-5167x8563",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        19,
+        1,
+        52,
+        5,
+        38,
+        16,
+        26,
+        3,
+        55,
+        62,
+        48,
+        7,
+        70,
+        42
+    ],
+    "login locations": [
+        [
+            -118.312995,
+            34.08017
+        ]
+    ],
+    "relationships": []
 }

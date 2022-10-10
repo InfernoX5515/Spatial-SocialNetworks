@@ -5,7 +5,17 @@
     "email": "leblancryan@yahoo.com",
     "birthdate": "1916-08-09",
     "phone": "+1-425-336-7973x068",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        43,
+        68,
+        36
+    ],
+    "login locations": [
+        [
+            -121.947297,
+            37.26919
+        ]
+    ],
+    "relationships": []
 }

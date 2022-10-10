@@ -5,7 +5,24 @@
     "email": "kennethfreeman@hotmail.com",
     "birthdate": "1958-06-23",
     "phone": "666-417-8851",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        21,
+        41,
+        44,
+        7,
+        35,
+        46,
+        12,
+        30,
+        44,
+        56
+    ],
+    "login locations": [
+        [
+            -122.190966,
+            37.86335
+        ]
+    ],
+    "relationships": []
 }

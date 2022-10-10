@@ -5,7 +5,17 @@
     "email": "webbrobyn@hotmail.com",
     "birthdate": "1915-03-20",
     "phone": "(373)338-5112",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        59,
+        18,
+        0
+    ],
+    "login locations": [
+        [
+            -122.077353,
+            37.634581
+        ]
+    ],
+    "relationships": []
 }

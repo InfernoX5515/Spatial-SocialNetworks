@@ -5,7 +5,16 @@
     "email": "danieldennis@yahoo.com",
     "birthdate": "1967-04-23",
     "phone": "502-696-1807x635",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        54,
+        65
+    ],
+    "login locations": [
+        [
+            -118.243523,
+            34.060551
+        ]
+    ],
+    "relationships": []
 }

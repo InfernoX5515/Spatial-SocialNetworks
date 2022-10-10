@@ -5,7 +5,29 @@
     "email": "smithdawn@gmail.com",
     "birthdate": "1962-07-31",
     "phone": "(632)064-1573x1791",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        35,
+        52,
+        1,
+        67
+    ],
+    "login locations": [
+        [
+            -118.258333,
+            34.036012
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                777,
+                0.104
+            ],
+            [
+                983,
+                0.01
+            ]
+        ]
+    ]
 }

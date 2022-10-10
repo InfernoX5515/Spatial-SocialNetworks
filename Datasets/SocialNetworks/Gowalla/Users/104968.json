@@ -5,7 +5,21 @@
     "email": "pchen@yahoo.com",
     "birthdate": "1945-06-19",
     "phone": "405.212.9226x56362",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        1,
+        5,
+        39,
+        15,
+        16,
+        10,
+        5
+    ],
+    "login locations": [
+        [
+            -118.251581,
+            34.044627
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "choifrank@yahoo.com",
     "birthdate": "1930-04-05",
     "phone": "001-591-252-0056x89710",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        49,
+        58,
+        41,
+        57,
+        20,
+        11
+    ],
+    "login locations": [
+        [
+            -122.030921,
+            37.392905
+        ]
+    ],
+    "relationships": []
 }

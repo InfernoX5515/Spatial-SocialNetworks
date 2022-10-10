@@ -5,7 +5,19 @@
     "email": "howellbeth@yahoo.com",
     "birthdate": "1930-01-01",
     "phone": "(205)336-0567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        4,
+        25,
+        67,
+        61,
+        56
+    ],
+    "login locations": [
+        [
+            -118.044854,
+            33.761347
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "johnsonbrandy@gmail.com",
     "birthdate": "1992-06-10",
     "phone": "+1-216-265-9168x3951",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        6,
+        1,
+        49,
+        38,
+        48,
+        31,
+        39,
+        21,
+        33,
+        18,
+        1,
+        65,
+        31,
+        35
+    ],
+    "login locations": [
+        [
+            -122.117177,
+            37.680076
+        ]
+    ],
+    "relationships": []
 }

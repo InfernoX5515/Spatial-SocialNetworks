@@ -5,7 +5,21 @@
     "email": "lhorn@gmail.com",
     "birthdate": "1955-10-13",
     "phone": "691-245-1977",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        16,
+        14,
+        66,
+        31,
+        17,
+        9,
+        72
+    ],
+    "login locations": [
+        [
+            -118.291001,
+            33.865691
+        ]
+    ],
+    "relationships": []
 }

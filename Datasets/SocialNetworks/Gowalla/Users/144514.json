@@ -5,7 +5,28 @@
     "email": "hannah22@hotmail.com",
     "birthdate": "1994-11-13",
     "phone": "7254100768",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        6,
+        5,
+        48,
+        50,
+        19,
+        34,
+        8,
+        27,
+        48,
+        51,
+        36,
+        31,
+        12,
+        3
+    ],
+    "login locations": [
+        [
+            -122.41205,
+            37.724995
+        ]
+    ],
+    "relationships": []
 }

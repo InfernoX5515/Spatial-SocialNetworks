@@ -5,7 +5,25 @@
     "email": "padillamelissa@yahoo.com",
     "birthdate": "1929-12-08",
     "phone": "021.446.4927x13330",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        4,
+        5,
+        55,
+        38,
+        7,
+        50,
+        43,
+        36,
+        53,
+        50,
+        68
+    ],
+    "login locations": [
+        [
+            -119.22255,
+            36.311007
+        ]
+    ],
+    "relationships": []
 }

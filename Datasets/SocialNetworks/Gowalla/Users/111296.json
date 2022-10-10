@@ -5,7 +5,27 @@
     "email": "mollymanning@yahoo.com",
     "birthdate": "1914-12-05",
     "phone": "001-877-088-1448x4792",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        49,
+        40,
+        10,
+        12,
+        67,
+        61,
+        19,
+        33,
+        30,
+        57,
+        29,
+        51,
+        44
+    ],
+    "login locations": [
+        [
+            -121.469652,
+            38.572743
+        ]
+    ],
+    "relationships": []
 }

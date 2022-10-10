@@ -5,7 +5,25 @@
     "email": "tammywhitney@hotmail.com",
     "birthdate": "2014-04-23",
     "phone": "001-553-743-2539x48461",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        60,
+        59,
+        29,
+        40,
+        64,
+        13,
+        51,
+        27,
+        60,
+        46,
+        53
+    ],
+    "login locations": [
+        [
+            -121.946257,
+            37.314125
+        ]
+    ],
+    "relationships": []
 }

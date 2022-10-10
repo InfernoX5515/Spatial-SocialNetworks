@@ -5,7 +5,14 @@
     "email": "thomasmorris@gmail.com",
     "birthdate": "1998-09-26",
     "phone": "218.997.8835x1750",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30
+    ],
+    "login locations": [
+        [
+            -121.598231,
+            38.683514
+        ]
+    ],
+    "relationships": []
 }

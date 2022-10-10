@@ -5,7 +5,23 @@
     "email": "derricksmith@gmail.com",
     "birthdate": "1954-07-30",
     "phone": "9059837934",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        62,
+        57,
+        44,
+        65,
+        14,
+        27,
+        51,
+        47,
+        60
+    ],
+    "login locations": [
+        [
+            -117.284364,
+            34.09002
+        ]
+    ],
+    "relationships": []
 }

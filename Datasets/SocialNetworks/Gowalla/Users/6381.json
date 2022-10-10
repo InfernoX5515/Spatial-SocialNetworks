@@ -5,7 +5,33 @@
     "email": "josephwilliams@yahoo.com",
     "birthdate": "1995-05-24",
     "phone": "211-570-3231x84970",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        46,
+        21,
+        25,
+        62,
+        51,
+        8,
+        17,
+        72
+    ],
+    "login locations": [
+        [
+            -118.409032,
+            34.072058
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.01
+            ],
+            [
+                93,
+                0.024
+            ]
+        ]
+    ]
 }

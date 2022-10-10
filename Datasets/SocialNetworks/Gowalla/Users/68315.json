@@ -5,7 +5,14 @@
     "email": "lawsongreg@hotmail.com",
     "birthdate": "1960-01-05",
     "phone": "001-082-692-6329x22435",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44
+    ],
+    "login locations": [
+        [
+            -118.13141,
+            34.143098
+        ]
+    ],
+    "relationships": []
 }

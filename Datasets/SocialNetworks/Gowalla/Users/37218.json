@@ -5,7 +5,26 @@
     "email": "pwilliams@gmail.com",
     "birthdate": "1925-06-02",
     "phone": "(393)576-2435",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        55,
+        44,
+        46,
+        51,
+        14,
+        1,
+        22,
+        13,
+        26,
+        30,
+        50,
+        52
+    ],
+    "login locations": [
+        [
+            -118.257537,
+            34.056575
+        ]
+    ],
+    "relationships": []
 }

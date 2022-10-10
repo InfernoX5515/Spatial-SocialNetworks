@@ -5,7 +5,14 @@
     "email": "briggscameron@yahoo.com",
     "birthdate": "1940-05-03",
     "phone": "527.704.7880",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1
+    ],
+    "login locations": [
+        [
+            -119.21076,
+            34.263181
+        ]
+    ],
+    "relationships": []
 }

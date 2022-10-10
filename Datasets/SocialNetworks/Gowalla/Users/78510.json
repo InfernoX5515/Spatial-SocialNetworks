@@ -5,7 +5,15 @@
     "email": "david35@hotmail.com",
     "birthdate": "2016-02-19",
     "phone": "(418)097-4798",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        21
+    ],
+    "login locations": [
+        [
+            -122.147804,
+            37.431674
+        ]
+    ],
+    "relationships": []
 }

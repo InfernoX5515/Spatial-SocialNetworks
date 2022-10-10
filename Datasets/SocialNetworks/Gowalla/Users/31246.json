@@ -5,7 +5,26 @@
     "email": "karenhaas@yahoo.com",
     "birthdate": "1939-04-29",
     "phone": "(598)285-6581x8579",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        42,
+        71,
+        70,
+        24,
+        28,
+        32,
+        58,
+        11,
+        53,
+        64,
+        28,
+        12
+    ],
+    "login locations": [
+        [
+            -122.408565,
+            37.787342
+        ]
+    ],
+    "relationships": []
 }

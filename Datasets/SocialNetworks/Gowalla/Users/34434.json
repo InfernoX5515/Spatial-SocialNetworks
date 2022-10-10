@@ -5,7 +5,23 @@
     "email": "jose45@yahoo.com",
     "birthdate": "1958-11-26",
     "phone": "(099)367-8545x559",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        45,
+        1,
+        29,
+        60,
+        4,
+        59,
+        6,
+        30,
+        5
+    ],
+    "login locations": [
+        [
+            -119.767838,
+            36.832444
+        ]
+    ],
+    "relationships": []
 }

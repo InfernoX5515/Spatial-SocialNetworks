@@ -5,7 +5,20 @@
     "email": "anthonygeorge@hotmail.com",
     "birthdate": "1937-11-15",
     "phone": "(257)915-6202x4853",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        37,
+        56,
+        67,
+        30,
+        71,
+        32
+    ],
+    "login locations": [
+        [
+            -122.450878,
+            37.770467
+        ]
+    ],
+    "relationships": []
 }

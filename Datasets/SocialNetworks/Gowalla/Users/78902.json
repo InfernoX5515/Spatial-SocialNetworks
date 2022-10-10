@@ -5,7 +5,26 @@
     "email": "jeremycooley@yahoo.com",
     "birthdate": "2008-06-20",
     "phone": "+1-320-172-9703x049",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        37,
+        73,
+        59,
+        48,
+        74,
+        23,
+        8,
+        12,
+        46,
+        35,
+        15,
+        26
+    ],
+    "login locations": [
+        [
+            -122.170027,
+            37.671517
+        ]
+    ],
+    "relationships": []
 }

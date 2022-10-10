@@ -5,7 +5,28 @@
     "email": "camposjuan@hotmail.com",
     "birthdate": "1988-04-28",
     "phone": "001-965-693-0896x138",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        22,
+        14,
+        27,
+        23,
+        71,
+        62,
+        39,
+        5,
+        39,
+        19,
+        49,
+        9,
+        9,
+        49
+    ],
+    "login locations": [
+        [
+            -118.268106,
+            34.07591
+        ]
+    ],
+    "relationships": []
 }

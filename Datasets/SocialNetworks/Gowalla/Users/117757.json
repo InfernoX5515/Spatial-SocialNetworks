@@ -5,7 +5,28 @@
     "email": "melanie39@gmail.com",
     "birthdate": "1955-11-11",
     "phone": "(887)154-2051",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        75,
+        9,
+        17,
+        52,
+        31,
+        57,
+        60,
+        70,
+        62,
+        61,
+        63,
+        48,
+        69,
+        73
+    ],
+    "login locations": [
+        [
+            -118.316051,
+            34.132642
+        ]
+    ],
+    "relationships": []
 }

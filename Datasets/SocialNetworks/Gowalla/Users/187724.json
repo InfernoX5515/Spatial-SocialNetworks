@@ -5,7 +5,15 @@
     "email": "fdixon@gmail.com",
     "birthdate": "2012-10-26",
     "phone": "007-001-5053",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        10
+    ],
+    "login locations": [
+        [
+            -117.130399,
+            32.745842
+        ]
+    ],
+    "relationships": []
 }

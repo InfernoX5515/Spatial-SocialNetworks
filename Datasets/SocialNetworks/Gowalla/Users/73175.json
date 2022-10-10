@@ -5,7 +5,28 @@
     "email": "mcdonaldjennifer@hotmail.com",
     "birthdate": "1967-01-26",
     "phone": "096-486-9241x1408",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        68,
+        36,
+        15,
+        40,
+        28,
+        4,
+        54,
+        17,
+        7,
+        64,
+        44,
+        27,
+        36,
+        18
+    ],
+    "login locations": [
+        [
+            -118.455655,
+            33.998714
+        ]
+    ],
+    "relationships": []
 }

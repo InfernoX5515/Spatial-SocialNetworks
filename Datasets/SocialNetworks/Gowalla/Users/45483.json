@@ -5,7 +5,15 @@
     "email": "coleclaire@hotmail.com",
     "birthdate": "1962-09-14",
     "phone": "143-931-6632x2444",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        10
+    ],
+    "login locations": [
+        [
+            -122.173702,
+            37.698668
+        ]
+    ],
+    "relationships": []
 }

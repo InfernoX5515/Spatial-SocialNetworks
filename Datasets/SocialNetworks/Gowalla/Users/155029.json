@@ -5,7 +5,20 @@
     "email": "shawjames@hotmail.com",
     "birthdate": "1932-05-24",
     "phone": "+1-308-127-3218x4199",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        30,
+        69,
+        32,
+        23,
+        70,
+        11
+    ],
+    "login locations": [
+        [
+            -122.406997,
+            37.763795
+        ]
+    ],
+    "relationships": []
 }

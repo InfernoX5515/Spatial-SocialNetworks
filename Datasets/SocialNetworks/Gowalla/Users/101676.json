@@ -5,7 +5,26 @@
     "email": "xlee@yahoo.com",
     "birthdate": "1979-05-06",
     "phone": "+1-867-170-6531",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        44
+    ],
+    "login locations": [
+        [
+            -117.167287,
+            33.16847
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                101678,
+                0.0263157894737
+            ],
+            [
+                101678,
+                0.0263157894737
+            ]
+        ]
+    ]
 }

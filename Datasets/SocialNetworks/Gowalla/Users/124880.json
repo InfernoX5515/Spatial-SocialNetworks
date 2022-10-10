@@ -5,7 +5,23 @@
     "email": "amberherrera@gmail.com",
     "birthdate": "1996-09-16",
     "phone": "(588)870-8515x0142",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        5,
+        23,
+        74,
+        1,
+        43,
+        49,
+        47,
+        44,
+        33
+    ],
+    "login locations": [
+        [
+            -122.424756,
+            37.774378
+        ]
+    ],
+    "relationships": []
 }

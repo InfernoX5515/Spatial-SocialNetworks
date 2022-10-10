@@ -5,7 +5,21 @@
     "email": "steven72@gmail.com",
     "birthdate": "1991-09-30",
     "phone": "(974)078-2240",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        66,
+        27,
+        17,
+        73,
+        49,
+        21,
+        11
+    ],
+    "login locations": [
+        [
+            -122.272884,
+            37.788686
+        ]
+    ],
+    "relationships": []
 }

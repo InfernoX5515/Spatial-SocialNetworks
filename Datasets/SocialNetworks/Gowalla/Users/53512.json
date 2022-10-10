@@ -5,7 +5,17 @@
     "email": "nicole60@hotmail.com",
     "birthdate": "1968-01-25",
     "phone": "001-588-336-3885x5680",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        13,
+        75,
+        24
+    ],
+    "login locations": [
+        [
+            -118.336868,
+            34.14181
+        ]
+    ],
+    "relationships": []
 }

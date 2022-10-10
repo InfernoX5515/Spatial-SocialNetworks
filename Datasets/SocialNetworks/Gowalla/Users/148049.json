@@ -5,7 +5,26 @@
     "email": "howen@gmail.com",
     "birthdate": "1976-02-02",
     "phone": "(858)663-2859x73713",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        5,
+        11,
+        21,
+        66,
+        24,
+        74,
+        48,
+        46,
+        52,
+        8,
+        75,
+        43
+    ],
+    "login locations": [
+        [
+            -118.580381,
+            34.37641
+        ]
+    ],
+    "relationships": []
 }

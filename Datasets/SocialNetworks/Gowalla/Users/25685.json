@@ -5,7 +5,35 @@
     "email": "lorihudson@yahoo.com",
     "birthdate": "2008-02-10",
     "phone": "189.800.2826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        0,
+        73,
+        16,
+        35,
+        60,
+        24,
+        40,
+        60,
+        46,
+        72
+    ],
+    "login locations": [
+        [
+            -117.871121,
+            33.864641
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                487,
+                0.01
+            ],
+            [
+                2070,
+                0.03
+            ]
+        ]
+    ]
 }

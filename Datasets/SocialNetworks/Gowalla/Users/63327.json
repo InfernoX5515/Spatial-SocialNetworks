@@ -5,7 +5,15 @@
     "email": "carlagreen@yahoo.com",
     "birthdate": "2017-03-08",
     "phone": "022-818-4397",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        18
+    ],
+    "login locations": [
+        [
+            -118.359234,
+            34.119814
+        ]
+    ],
+    "relationships": []
 }

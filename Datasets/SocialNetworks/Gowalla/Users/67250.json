@@ -5,7 +5,33 @@
     "email": "irwinapril@yahoo.com",
     "birthdate": "1989-03-27",
     "phone": "731.776.5126x20878",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        41,
+        9,
+        45,
+        38,
+        36,
+        3,
+        47,
+        19
+    ],
+    "login locations": [
+        [
+            -119.057955,
+            35.353031
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                41588,
+                0.04
+            ],
+            [
+                41588,
+                0.04
+            ]
+        ]
+    ]
 }

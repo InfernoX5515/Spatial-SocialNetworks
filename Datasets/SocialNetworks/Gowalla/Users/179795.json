@@ -5,7 +5,17 @@
     "email": "holtjordan@yahoo.com",
     "birthdate": "1912-04-10",
     "phone": "5251015569",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        11,
+        19,
+        24
+    ],
+    "login locations": [
+        [
+            -117.661655,
+            33.631951
+        ]
+    ],
+    "relationships": []
 }

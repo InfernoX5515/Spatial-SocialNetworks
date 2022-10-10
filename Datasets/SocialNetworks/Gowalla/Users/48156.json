@@ -5,7 +5,26 @@
     "email": "bryantwilliam@yahoo.com",
     "birthdate": "1928-12-14",
     "phone": "614-825-4256",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        8,
+        4,
+        61,
+        6,
+        11,
+        10,
+        56,
+        19,
+        0,
+        70,
+        21,
+        6
+    ],
+    "login locations": [
+        [
+            -122.092327,
+            37.4115
+        ]
+    ],
+    "relationships": []
 }

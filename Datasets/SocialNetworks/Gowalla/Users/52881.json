@@ -5,7 +5,17 @@
     "email": "qwilliams@hotmail.com",
     "birthdate": "1954-09-12",
     "phone": "110-345-6179x3255",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        2,
+        29,
+        6
+    ],
+    "login locations": [
+        [
+            -117.216145,
+            32.869671
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "frank59@hotmail.com",
     "birthdate": "1913-01-20",
     "phone": "(917)005-5620x731",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        17,
+        69,
+        25,
+        65,
+        74,
+        75,
+        73,
+        74,
+        52,
+        53,
+        14,
+        31
+    ],
+    "login locations": [
+        [
+            -122.399861,
+            37.760074
+        ]
+    ],
+    "relationships": []
 }

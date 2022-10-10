@@ -5,7 +5,31 @@
     "email": "nelsonmichael@gmail.com",
     "birthdate": "1970-01-11",
     "phone": "+1-456-617-1839x8409",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        40,
+        36,
+        41,
+        52,
+        37,
+        20
+    ],
+    "login locations": [
+        [
+            -122.276175,
+            37.822413
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11062,
+                0.0382513661202
+            ],
+            [
+                11062,
+                0.0382513661202
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "jennifer64@gmail.com",
     "birthdate": "1927-01-29",
     "phone": "001-538-350-8480",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        31,
+        5,
+        0,
+        26,
+        29,
+        53,
+        46,
+        43,
+        6,
+        69
+    ],
+    "login locations": [
+        [
+            -117.883588,
+            33.741335
+        ]
+    ],
+    "relationships": []
 }

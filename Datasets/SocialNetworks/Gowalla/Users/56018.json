@@ -5,7 +5,15 @@
     "email": "lewisphilip@yahoo.com",
     "birthdate": "1979-12-17",
     "phone": "001-102-884-6014",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        7
+    ],
+    "login locations": [
+        [
+            -119.830738,
+            34.429927
+        ]
+    ],
+    "relationships": []
 }

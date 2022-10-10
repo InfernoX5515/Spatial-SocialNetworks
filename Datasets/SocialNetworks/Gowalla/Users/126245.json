@@ -5,7 +5,15 @@
     "email": "lisamartinez@yahoo.com",
     "birthdate": "2018-02-22",
     "phone": "676.814.5507",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        27
+    ],
+    "login locations": [
+        [
+            -118.439789,
+            34.011442
+        ]
+    ],
+    "relationships": []
 }

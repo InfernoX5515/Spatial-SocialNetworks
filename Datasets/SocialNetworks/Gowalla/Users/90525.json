@@ -5,7 +5,16 @@
     "email": "tylerscott@hotmail.com",
     "birthdate": "1909-08-19",
     "phone": "710-337-9400",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        73,
+        26
+    ],
+    "login locations": [
+        [
+            -118.525959,
+            34.264032
+        ]
+    ],
+    "relationships": []
 }

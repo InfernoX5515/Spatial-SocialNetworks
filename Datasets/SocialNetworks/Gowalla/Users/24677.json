@@ -5,7 +5,15 @@
     "email": "youngcarol@hotmail.com",
     "birthdate": "2014-01-19",
     "phone": "8800791622",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        28
+    ],
+    "login locations": [
+        [
+            -122.410529,
+            37.770303
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "zfigueroa@gmail.com",
     "birthdate": "1966-03-04",
     "phone": "643.812.0379x0769",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        21,
+        71,
+        21,
+        41
+    ],
+    "login locations": [
+        [
+            -122.167419,
+            37.473998
+        ]
+    ],
+    "relationships": []
 }

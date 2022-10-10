@@ -5,7 +5,16 @@
     "email": "wilkinsmark@hotmail.com",
     "birthdate": "1946-04-19",
     "phone": "131.134.9666x378",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        30,
+        75
+    ],
+    "login locations": [
+        [
+            -118.080667,
+            34.10108
+        ]
+    ],
+    "relationships": []
 }

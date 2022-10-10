@@ -5,7 +5,28 @@
     "email": "parsonsmarissa@gmail.com",
     "birthdate": "1938-11-13",
     "phone": "327.636.7760",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        25,
+        29,
+        36
+    ],
+    "login locations": [
+        [
+            -118.125833,
+            33.805761
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39338,
+                0.0394736842105
+            ],
+            [
+                49348,
+                0.213793103448
+            ]
+        ]
+    ]
 }

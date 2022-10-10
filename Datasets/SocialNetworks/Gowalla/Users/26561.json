@@ -5,7 +5,16 @@
     "email": "jessicaward@hotmail.com",
     "birthdate": "2017-02-07",
     "phone": "001-251-050-1853x40016",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        7,
+        17
+    ],
+    "login locations": [
+        [
+            -118.812754,
+            34.182146
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "jason90@yahoo.com",
     "birthdate": "1926-06-02",
     "phone": "7768251006",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        32,
+        3,
+        62,
+        8,
+        23,
+        19,
+        40,
+        71,
+        59,
+        3,
+        30
+    ],
+    "login locations": [
+        [
+            -117.259185,
+            32.836914
+        ]
+    ],
+    "relationships": []
 }

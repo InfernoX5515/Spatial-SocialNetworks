@@ -5,7 +5,19 @@
     "email": "ohoffman@yahoo.com",
     "birthdate": "1912-10-28",
     "phone": "001-475-688-4393x102",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        49,
+        51,
+        37,
+        70,
+        52
+    ],
+    "login locations": [
+        [
+            -121.869627,
+            37.216009
+        ]
+    ],
+    "relationships": []
 }

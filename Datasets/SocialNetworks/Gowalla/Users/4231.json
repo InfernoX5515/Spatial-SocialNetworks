@@ -5,7 +5,17 @@
     "email": "dsanders@hotmail.com",
     "birthdate": "1942-05-15",
     "phone": "001-414-221-5111",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        60,
+        73,
+        22
+    ],
+    "login locations": [
+        [
+            -122.311396,
+            37.786864
+        ]
+    ],
+    "relationships": []
 }

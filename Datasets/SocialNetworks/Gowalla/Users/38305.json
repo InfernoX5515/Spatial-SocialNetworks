@@ -5,7 +5,23 @@
     "email": "melissa69@hotmail.com",
     "birthdate": "1969-06-21",
     "phone": "481.619.7388x75071",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        0,
+        41,
+        17,
+        70,
+        46,
+        60,
+        62,
+        60,
+        65
+    ],
+    "login locations": [
+        [
+            -118.191891,
+            34.012366
+        ]
+    ],
+    "relationships": []
 }

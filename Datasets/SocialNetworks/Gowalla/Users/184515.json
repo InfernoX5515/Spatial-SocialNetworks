@@ -5,7 +5,18 @@
     "email": "parkeileen@hotmail.com",
     "birthdate": "1962-09-18",
     "phone": "6601634863",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        7,
+        6,
+        44,
+        73
+    ],
+    "login locations": [
+        [
+            -122.204373,
+            38.024623
+        ]
+    ],
+    "relationships": []
 }

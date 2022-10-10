@@ -5,7 +5,22 @@
     "email": "arnoldtracy@gmail.com",
     "birthdate": "1966-07-26",
     "phone": "001-331-848-5073x871",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        13,
+        30,
+        73,
+        25,
+        17,
+        9,
+        31,
+        75
+    ],
+    "login locations": [
+        [
+            -118.225648,
+            33.880503
+        ]
+    ],
+    "relationships": []
 }

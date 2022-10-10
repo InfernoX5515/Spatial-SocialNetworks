@@ -5,7 +5,16 @@
     "email": "tmullins@hotmail.com",
     "birthdate": "1995-07-13",
     "phone": "500-997-9236x05226",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        21,
+        71
+    ],
+    "login locations": [
+        [
+            -118.196099,
+            34.133224
+        ]
+    ],
+    "relationships": []
 }

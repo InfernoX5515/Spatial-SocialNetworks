@@ -5,7 +5,27 @@
     "email": "romanchris@gmail.com",
     "birthdate": "1978-04-21",
     "phone": "589-541-7078x021",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        17,
+        62,
+        73,
+        48,
+        62,
+        13,
+        17,
+        71,
+        48,
+        33,
+        54,
+        58,
+        16
+    ],
+    "login locations": [
+        [
+            -117.220146,
+            33.0311
+        ]
+    ],
+    "relationships": []
 }

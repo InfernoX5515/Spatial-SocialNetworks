@@ -5,7 +5,17 @@
     "email": "stephen40@hotmail.com",
     "birthdate": "1928-04-03",
     "phone": "746.022.9768",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        44,
+        0,
+        1
+    ],
+    "login locations": [
+        [
+            -122.400267,
+            37.810367
+        ]
+    ],
+    "relationships": []
 }

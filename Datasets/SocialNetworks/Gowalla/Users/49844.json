@@ -5,7 +5,37 @@
     "email": "aguirrewilliam@yahoo.com",
     "birthdate": "1990-09-01",
     "phone": "869.714.0619",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        13,
+        17,
+        58,
+        3,
+        0,
+        63,
+        24,
+        43,
+        15,
+        46,
+        63,
+        41
+    ],
+    "login locations": [
+        [
+            -118.136118,
+            33.861284
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49838,
+                0.125
+            ],
+            [
+                143212,
+                0.0285714285714
+            ]
+        ]
+    ]
 }

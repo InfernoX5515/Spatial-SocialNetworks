@@ -5,7 +5,28 @@
     "email": "suttonjill@yahoo.com",
     "birthdate": "1965-11-01",
     "phone": "(233)271-0729x8223",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        68,
+        3,
+        66,
+        57,
+        29,
+        12,
+        53,
+        43,
+        29,
+        23,
+        43,
+        32,
+        48,
+        50
+    ],
+    "login locations": [
+        [
+            -121.216555,
+            38.745059
+        ]
+    ],
+    "relationships": []
 }

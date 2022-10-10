@@ -5,7 +5,30 @@
     "email": "elizabethgomez@hotmail.com",
     "birthdate": "1989-10-18",
     "phone": "(687)516-3955x3270",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        7,
+        11,
+        75,
+        13,
+        6
+    ],
+    "login locations": [
+        [
+            -119.007138,
+            37.647462
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                44258,
+                0.203076923077
+            ],
+            [
+                44258,
+                0.203076923077
+            ]
+        ]
+    ]
 }

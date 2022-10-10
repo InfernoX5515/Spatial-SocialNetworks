@@ -5,7 +5,31 @@
     "email": "colin94@gmail.com",
     "birthdate": "1986-05-08",
     "phone": "+1-954-329-0375x63746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        6,
+        28,
+        39,
+        27,
+        45,
+        6
+    ],
+    "login locations": [
+        [
+            -122.03402,
+            37.927369
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118444,
+                0.266666666667
+            ],
+            [
+                118444,
+                0.266666666667
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "johnmartinez@yahoo.com",
     "birthdate": "1960-05-21",
     "phone": "001-449-557-8336x82564",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        33,
+        6,
+        28,
+        54,
+        27,
+        72,
+        16,
+        34,
+        36,
+        42,
+        42
+    ],
+    "login locations": [
+        [
+            -122.417076,
+            37.766213
+        ]
+    ],
+    "relationships": []
 }

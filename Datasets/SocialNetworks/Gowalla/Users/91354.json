@@ -5,7 +5,25 @@
     "email": "hallmichael@gmail.com",
     "birthdate": "1978-08-24",
     "phone": "092.537.0641x233",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        12,
+        10,
+        6,
+        50,
+        13,
+        2,
+        50,
+        1,
+        2,
+        34,
+        40
+    ],
+    "login locations": [
+        [
+            -118.050585,
+            33.794874
+        ]
+    ],
+    "relationships": []
 }

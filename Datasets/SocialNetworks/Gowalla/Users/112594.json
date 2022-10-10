@@ -5,7 +5,26 @@
     "email": "madison91@hotmail.com",
     "birthdate": "1997-10-28",
     "phone": "(102)185-3958x3808",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        16,
+        23,
+        40,
+        14,
+        12,
+        19,
+        66,
+        40,
+        33,
+        48,
+        22,
+        15
+    ],
+    "login locations": [
+        [
+            -118.31135,
+            33.892663
+        ]
+    ],
+    "relationships": []
 }

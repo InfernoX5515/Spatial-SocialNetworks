@@ -5,7 +5,17 @@
     "email": "mgross@gmail.com",
     "birthdate": "1925-07-04",
     "phone": "5886965906",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        28,
+        20,
+        51
+    ],
+    "login locations": [
+        [
+            -118.21883,
+            34.155206
+        ]
+    ],
+    "relationships": []
 }

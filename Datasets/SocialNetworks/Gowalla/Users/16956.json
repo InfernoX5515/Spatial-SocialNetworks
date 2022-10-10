@@ -5,7 +5,18 @@
     "email": "paynestephen@hotmail.com",
     "birthdate": "1916-12-24",
     "phone": "+1-434-282-6853x548",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        28,
+        61,
+        51,
+        57
+    ],
+    "login locations": [
+        [
+            -122.399186,
+            37.771164
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "hpineda@hotmail.com",
     "birthdate": "1982-10-27",
     "phone": "(388)693-9363",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        31,
+        39,
+        70,
+        17,
+        45,
+        68
+    ],
+    "login locations": [
+        [
+            -122.313932,
+            37.799175
+        ]
+    ],
+    "relationships": []
 }

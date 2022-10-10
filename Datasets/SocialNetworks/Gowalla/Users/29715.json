@@ -5,7 +5,18 @@
     "email": "anthonydouglas@hotmail.com",
     "birthdate": "2018-02-02",
     "phone": "+1-123-180-0902",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        11,
+        13,
+        29,
+        27
+    ],
+    "login locations": [
+        [
+            -118.385185,
+            34.070019
+        ]
+    ],
+    "relationships": []
 }

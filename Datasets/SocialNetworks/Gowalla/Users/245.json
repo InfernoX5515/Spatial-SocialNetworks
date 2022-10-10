@@ -5,7 +5,39 @@
     "email": "jennifermarshall@yahoo.com",
     "birthdate": "1966-12-26",
     "phone": "(181)927-0936x3222",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        65,
+        49,
+        29,
+        56,
+        5,
+        23,
+        9,
+        46,
+        2,
+        65,
+        34,
+        36,
+        40,
+        45
+    ],
+    "login locations": [
+        [
+            -122.411249,
+            37.773263
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4758,
+                0.29756097561
+            ],
+            [
+                22237,
+                0.18
+            ]
+        ]
+    ]
 }

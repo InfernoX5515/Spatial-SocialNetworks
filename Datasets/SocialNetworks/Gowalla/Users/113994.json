@@ -5,7 +5,25 @@
     "email": "gentrydavid@hotmail.com",
     "birthdate": "2022-02-04",
     "phone": "(426)150-9536",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54
+    ],
+    "login locations": [
+        [
+            -118.053138,
+            33.747332
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39973,
+                0.0583333333333
+            ],
+            [
+                39973,
+                0.0583333333333
+            ]
+        ]
+    ]
 }

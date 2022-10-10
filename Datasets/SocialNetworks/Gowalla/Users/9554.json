@@ -5,7 +5,16 @@
     "email": "baxterjoshua@yahoo.com",
     "birthdate": "1943-08-03",
     "phone": "398.800.2983",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        4,
+        66
+    ],
+    "login locations": [
+        [
+            -117.033195,
+            32.772806
+        ]
+    ],
+    "relationships": []
 }

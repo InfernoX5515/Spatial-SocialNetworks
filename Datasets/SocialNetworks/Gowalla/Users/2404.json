@@ -5,7 +5,14 @@
     "email": "ryanhill@gmail.com",
     "birthdate": "2006-02-11",
     "phone": "+1-801-089-5750x90458",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -118.38853,
+            34.039627
+        ]
+    ],
+    "relationships": []
 }

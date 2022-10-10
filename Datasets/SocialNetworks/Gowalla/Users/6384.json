@@ -5,7 +5,21 @@
     "email": "perezjackson@gmail.com",
     "birthdate": "1975-06-09",
     "phone": "680.888.0309",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        68,
+        0,
+        65,
+        10,
+        68,
+        23,
+        39
+    ],
+    "login locations": [
+        [
+            -121.952657,
+            37.318261
+        ]
+    ],
+    "relationships": []
 }

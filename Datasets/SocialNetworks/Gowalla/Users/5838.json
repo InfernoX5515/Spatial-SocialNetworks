@@ -5,7 +5,35 @@
     "email": "lindawilliams@hotmail.com",
     "birthdate": "1985-09-09",
     "phone": "+1-341-553-0477x815",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        73,
+        35,
+        35,
+        1,
+        17,
+        26,
+        43,
+        30,
+        71,
+        73
+    ],
+    "login locations": [
+        [
+            -122.032952,
+            37.328517
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82,
+                0.0714285714286
+            ],
+            [
+                221,
+                0.1
+            ]
+        ]
+    ]
 }

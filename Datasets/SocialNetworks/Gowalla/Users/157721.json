@@ -5,7 +5,32 @@
     "email": "denisesmith@yahoo.com",
     "birthdate": "1961-08-18",
     "phone": "278.536.5180",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        2,
+        43,
+        10,
+        48,
+        42,
+        4,
+        73
+    ],
+    "login locations": [
+        [
+            -118.159774,
+            34.648808
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                189389,
+                0.285714285714
+            ],
+            [
+                189389,
+                0.285714285714
+            ]
+        ]
+    ]
 }

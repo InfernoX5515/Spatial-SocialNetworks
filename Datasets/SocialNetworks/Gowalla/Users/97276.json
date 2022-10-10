@@ -5,7 +5,22 @@
     "email": "sydney04@hotmail.com",
     "birthdate": "1950-07-12",
     "phone": "472-611-1868x7237",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        62,
+        2,
+        19,
+        2,
+        62,
+        21,
+        54,
+        71
+    ],
+    "login locations": [
+        [
+            -122.402164,
+            37.786003
+        ]
+    ],
+    "relationships": []
 }

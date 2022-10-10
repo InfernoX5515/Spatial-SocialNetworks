@@ -5,7 +5,16 @@
     "email": "benjamin30@hotmail.com",
     "birthdate": "1930-11-05",
     "phone": "173.356.7914x2773",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        59,
+        51
+    ],
+    "login locations": [
+        [
+            -117.779437,
+            33.843208
+        ]
+    ],
+    "relationships": []
 }

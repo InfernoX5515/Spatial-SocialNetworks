@@ -5,7 +5,22 @@
     "email": "williamfarrell@yahoo.com",
     "birthdate": "1942-08-12",
     "phone": "+1-789-361-4381x991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        28,
+        56,
+        73,
+        16,
+        20,
+        67,
+        68,
+        50
+    ],
+    "login locations": [
+        [
+            -119.191992,
+            34.279725
+        ]
+    ],
+    "relationships": []
 }

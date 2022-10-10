@@ -5,7 +5,28 @@
     "email": "jeffpage@yahoo.com",
     "birthdate": "1954-10-05",
     "phone": "+1-029-689-3278x35127",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        18,
+        41,
+        17
+    ],
+    "login locations": [
+        [
+            -122.422325,
+            37.761299
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                65231,
+                0.0421686746988
+            ],
+            [
+                65231,
+                0.0421686746988
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,39 @@
     "email": "vwhite@hotmail.com",
     "birthdate": "1917-02-23",
     "phone": "791.363.8914",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        31,
+        56,
+        74,
+        65,
+        63,
+        8,
+        24,
+        75,
+        18,
+        70,
+        44,
+        27,
+        19,
+        34
+    ],
+    "login locations": [
+        [
+            -118.01399,
+            33.747579
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1654,
+                0.02
+            ],
+            [
+                1654,
+                0.02
+            ]
+        ]
+    ]
 }

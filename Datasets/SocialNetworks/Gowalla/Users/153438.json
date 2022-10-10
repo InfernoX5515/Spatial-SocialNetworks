@@ -5,7 +5,25 @@
     "email": "anitaferguson@hotmail.com",
     "birthdate": "1955-05-11",
     "phone": "+1-177-259-1696x949",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        50,
+        50,
+        14,
+        7,
+        0,
+        60,
+        64,
+        7,
+        71,
+        67,
+        66
+    ],
+    "login locations": [
+        [
+            -118.185399,
+            33.869353
+        ]
+    ],
+    "relationships": []
 }

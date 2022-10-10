@@ -5,7 +5,19 @@
     "email": "terry98@gmail.com",
     "birthdate": "1993-02-15",
     "phone": "155-410-4909",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        15,
+        31,
+        5,
+        41,
+        2
+    ],
+    "login locations": [
+        [
+            -122.403443,
+            37.780723
+        ]
+    ],
+    "relationships": []
 }

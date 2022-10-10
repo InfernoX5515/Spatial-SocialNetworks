@@ -5,7 +5,34 @@
     "email": "tiffany19@gmail.com",
     "birthdate": "2022-08-31",
     "phone": "727.082.2816x2376",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        24,
+        40,
+        50,
+        59,
+        2,
+        49,
+        70,
+        51,
+        73
+    ],
+    "login locations": [
+        [
+            -117.895138,
+            33.735208
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                103845,
+                0.029197080292
+            ],
+            [
+                103845,
+                0.029197080292
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,22 @@
     "email": "frankfranco@gmail.com",
     "birthdate": "1958-11-18",
     "phone": "6883377295",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        12,
+        35,
+        8,
+        58,
+        74,
+        39,
+        44,
+        70
+    ],
+    "login locations": [
+        [
+            -122.080162,
+            37.382647
+        ]
+    ],
+    "relationships": []
 }

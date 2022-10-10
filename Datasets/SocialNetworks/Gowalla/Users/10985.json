@@ -5,7 +5,23 @@
     "email": "ruth04@gmail.com",
     "birthdate": "1930-09-05",
     "phone": "(627)708-4274",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        50,
+        49,
+        68,
+        20,
+        47,
+        12,
+        3,
+        61,
+        30
+    ],
+    "login locations": [
+        [
+            -117.873066,
+            33.72476
+        ]
+    ],
+    "relationships": []
 }

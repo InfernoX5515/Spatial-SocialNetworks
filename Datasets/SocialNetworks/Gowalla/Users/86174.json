@@ -5,7 +5,26 @@
     "email": "karenturner@yahoo.com",
     "birthdate": "1974-03-03",
     "phone": "672.671.7689x23660",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        25,
+        33,
+        27,
+        51,
+        17,
+        17,
+        73,
+        75,
+        30,
+        55,
+        49,
+        42
+    ],
+    "login locations": [
+        [
+            -122.426083,
+            37.776759
+        ]
+    ],
+    "relationships": []
 }

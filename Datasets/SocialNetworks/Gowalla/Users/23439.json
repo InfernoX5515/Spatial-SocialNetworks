@@ -5,7 +5,18 @@
     "email": "amylevy@yahoo.com",
     "birthdate": "1996-12-08",
     "phone": "451-422-2886x4130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        11,
+        19,
+        73,
+        57
+    ],
+    "login locations": [
+        [
+            -118.2099,
+            34.151046
+        ]
+    ],
+    "relationships": []
 }

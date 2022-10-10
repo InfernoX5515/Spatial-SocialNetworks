@@ -5,7 +5,38 @@
     "email": "burkewilliam@hotmail.com",
     "birthdate": "2018-01-28",
     "phone": "019-018-4329x51714",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        69,
+        72,
+        13,
+        26,
+        75,
+        14,
+        15,
+        54,
+        7,
+        63,
+        62,
+        12,
+        37
+    ],
+    "login locations": [
+        [
+            -122.132749,
+            37.422877
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                487,
+                0.01
+            ],
+            [
+                4252,
+                0.026455026455
+            ]
+        ]
+    ]
 }

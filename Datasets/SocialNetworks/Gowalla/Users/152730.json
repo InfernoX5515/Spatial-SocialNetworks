@@ -5,7 +5,14 @@
     "email": "douglas90@hotmail.com",
     "birthdate": "2006-01-12",
     "phone": "446-453-6402",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50
+    ],
+    "login locations": [
+        [
+            -117.225594,
+            34.065806
+        ]
+    ],
+    "relationships": []
 }

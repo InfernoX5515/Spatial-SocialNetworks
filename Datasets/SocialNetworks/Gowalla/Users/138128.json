@@ -5,7 +5,21 @@
     "email": "carriejohnson@gmail.com",
     "birthdate": "1965-08-15",
     "phone": "404-600-5023x17560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        34,
+        32,
+        1,
+        64,
+        47,
+        47,
+        37
+    ],
+    "login locations": [
+        [
+            -118.424456,
+            34.064577
+        ]
+    ],
+    "relationships": []
 }

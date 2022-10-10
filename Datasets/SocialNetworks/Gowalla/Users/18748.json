@@ -5,7 +5,35 @@
     "email": "yallison@gmail.com",
     "birthdate": "1978-08-23",
     "phone": "519.170.5587x7948",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        63,
+        60,
+        25,
+        16,
+        4,
+        16,
+        9,
+        66,
+        68,
+        36
+    ],
+    "login locations": [
+        [
+            -121.454346,
+            38.598158
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32694,
+                0.08
+            ],
+            [
+                32694,
+                0.08
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,14 @@
     "email": "thomasayala@yahoo.com",
     "birthdate": "1971-09-29",
     "phone": "334-852-6432x104",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38
+    ],
+    "login locations": [
+        [
+            -121.95895,
+            37.404628
+        ]
+    ],
+    "relationships": []
 }

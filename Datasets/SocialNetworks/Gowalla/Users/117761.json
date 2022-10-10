@@ -5,7 +5,23 @@
     "email": "jesusbarnes@yahoo.com",
     "birthdate": "2007-05-31",
     "phone": "+1-662-134-7866x23357",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        47,
+        2,
+        50,
+        15,
+        68,
+        59,
+        10,
+        61,
+        52
+    ],
+    "login locations": [
+        [
+            -118.34731,
+            34.107987
+        ]
+    ],
+    "relationships": []
 }

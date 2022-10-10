@@ -5,7 +5,15 @@
     "email": "cindy58@yahoo.com",
     "birthdate": "1993-11-14",
     "phone": "+1-440-703-8225x312",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        42
+    ],
+    "login locations": [
+        [
+            -122.4085,
+            37.784443
+        ]
+    ],
+    "relationships": []
 }

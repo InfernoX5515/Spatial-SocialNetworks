@@ -5,7 +5,23 @@
     "email": "carolyn35@yahoo.com",
     "birthdate": "1980-05-30",
     "phone": "+1-654-924-6383x8117",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        52,
+        45,
+        21,
+        47,
+        50,
+        9,
+        55,
+        9,
+        44
+    ],
+    "login locations": [
+        [
+            -118.307929,
+            34.133511
+        ]
+    ],
+    "relationships": []
 }

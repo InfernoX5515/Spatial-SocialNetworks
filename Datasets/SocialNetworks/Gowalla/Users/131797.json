@@ -5,7 +5,28 @@
     "email": "emilycook@hotmail.com",
     "birthdate": "1999-10-27",
     "phone": "663.561.5792",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        10,
+        17,
+        15,
+        71,
+        45,
+        59,
+        64,
+        22,
+        57,
+        25,
+        41,
+        11,
+        68,
+        73
+    ],
+    "login locations": [
+        [
+            -118.21968,
+            33.890981
+        ]
+    ],
+    "relationships": []
 }

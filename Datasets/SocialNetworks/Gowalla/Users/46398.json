@@ -5,7 +5,24 @@
     "email": "grace70@hotmail.com",
     "birthdate": "1931-10-25",
     "phone": "+1-114-629-4210x4419",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        53,
+        61,
+        45,
+        48,
+        9,
+        67,
+        25,
+        64,
+        19,
+        36
+    ],
+    "login locations": [
+        [
+            -121.867488,
+            37.702958
+        ]
+    ],
+    "relationships": []
 }

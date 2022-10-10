@@ -5,7 +5,15 @@
     "email": "grosschristopher@gmail.com",
     "birthdate": "1918-11-28",
     "phone": "+1-603-053-7535x1621",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        7
+    ],
+    "login locations": [
+        [
+            -122.068138,
+            37.252239
+        ]
+    ],
+    "relationships": []
 }

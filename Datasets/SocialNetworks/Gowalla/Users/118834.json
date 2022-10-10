@@ -5,7 +5,21 @@
     "email": "proth@yahoo.com",
     "birthdate": "1963-05-06",
     "phone": "001-637-507-9827x09581",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        15,
+        8,
+        36,
+        27,
+        22,
+        61,
+        53
+    ],
+    "login locations": [
+        [
+            -118.017905,
+            33.995983
+        ]
+    ],
+    "relationships": []
 }

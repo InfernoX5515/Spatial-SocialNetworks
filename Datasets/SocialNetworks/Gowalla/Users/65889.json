@@ -5,7 +5,20 @@
     "email": "cynthia16@gmail.com",
     "birthdate": "1989-05-26",
     "phone": "(779)422-0518x389",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        69,
+        39,
+        44,
+        0,
+        68,
+        53
+    ],
+    "login locations": [
+        [
+            -121.908596,
+            37.346482
+        ]
+    ],
+    "relationships": []
 }

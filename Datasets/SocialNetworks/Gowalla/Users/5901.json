@@ -5,7 +5,28 @@
     "email": "williamrussell@yahoo.com",
     "birthdate": "1936-03-25",
     "phone": "+1-780-818-6195x95697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        14,
+        0,
+        73,
+        7,
+        66,
+        67,
+        73,
+        57,
+        8,
+        27,
+        31,
+        31,
+        59,
+        36
+    ],
+    "login locations": [
+        [
+            -121.943777,
+            37.700749
+        ]
+    ],
+    "relationships": []
 }

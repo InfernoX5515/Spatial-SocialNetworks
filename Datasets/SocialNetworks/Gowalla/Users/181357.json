@@ -5,7 +5,27 @@
     "email": "mprice@gmail.com",
     "birthdate": "1907-07-10",
     "phone": "079.195.6057x49558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        47,
+        23,
+        53,
+        12,
+        36,
+        52,
+        75,
+        5,
+        58,
+        33,
+        63,
+        40,
+        23
+    ],
+    "login locations": [
+        [
+            -118.146678,
+            34.152723
+        ]
+    ],
+    "relationships": []
 }

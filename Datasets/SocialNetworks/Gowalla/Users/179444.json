@@ -5,7 +5,30 @@
     "email": "debraburton@gmail.com",
     "birthdate": "1941-01-17",
     "phone": "646-336-3779",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        44,
+        70,
+        55,
+        26,
+        47
+    ],
+    "login locations": [
+        [
+            -118.135366,
+            33.854004
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                119041,
+                0.05
+            ],
+            [
+                119041,
+                0.05
+            ]
+        ]
+    ]
 }

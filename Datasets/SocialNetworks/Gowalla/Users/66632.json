@@ -5,7 +5,12 @@
     "email": "parkerstephen@gmail.com",
     "birthdate": "2002-04-28",
     "phone": "001-170-966-2752",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.407624,
+            37.782618
+        ]
+    ],
+    "relationships": []
 }

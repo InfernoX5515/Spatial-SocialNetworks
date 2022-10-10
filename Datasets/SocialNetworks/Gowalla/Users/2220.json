@@ -5,7 +5,19 @@
     "email": "kimnicholas@hotmail.com",
     "birthdate": "2018-09-20",
     "phone": "861.163.0793",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        43,
+        10,
+        30,
+        38,
+        21
+    ],
+    "login locations": [
+        [
+            -122.230174,
+            37.840572
+        ]
+    ],
+    "relationships": []
 }

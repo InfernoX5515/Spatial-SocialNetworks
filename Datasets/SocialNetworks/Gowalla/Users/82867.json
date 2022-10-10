@@ -5,7 +5,22 @@
     "email": "sarah66@yahoo.com",
     "birthdate": "1979-02-23",
     "phone": "960.777.7715",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        48,
+        15,
+        16,
+        69,
+        35,
+        52,
+        32,
+        20
+    ],
+    "login locations": [
+        [
+            -122.169205,
+            37.448484
+        ]
+    ],
+    "relationships": []
 }

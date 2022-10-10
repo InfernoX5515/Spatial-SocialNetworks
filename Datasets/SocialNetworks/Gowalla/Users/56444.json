@@ -5,7 +5,26 @@
     "email": "uschaefer@hotmail.com",
     "birthdate": "1979-11-30",
     "phone": "438.534.7453",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        13,
+        73,
+        41,
+        31,
+        11,
+        47,
+        61,
+        15,
+        7,
+        75,
+        43,
+        41
+    ],
+    "login locations": [
+        [
+            -117.700056,
+            33.655444
+        ]
+    ],
+    "relationships": []
 }

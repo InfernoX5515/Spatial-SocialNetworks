@@ -5,7 +5,28 @@
     "email": "myersedgar@hotmail.com",
     "birthdate": "1994-01-03",
     "phone": "001-056-836-8223x13714",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        7,
+        44,
+        67,
+        43,
+        9,
+        72,
+        55,
+        29,
+        11,
+        70,
+        46,
+        35,
+        62,
+        14
+    ],
+    "login locations": [
+        [
+            -117.369964,
+            33.967821
+        ]
+    ],
+    "relationships": []
 }

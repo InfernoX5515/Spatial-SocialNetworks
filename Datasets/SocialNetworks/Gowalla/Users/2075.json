@@ -5,7 +5,20 @@
     "email": "bakerclaudia@gmail.com",
     "birthdate": "1957-08-11",
     "phone": "001-066-990-6986x851",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        27,
+        8,
+        8,
+        35,
+        45,
+        74
+    ],
+    "login locations": [
+        [
+            -118.375047,
+            33.958583
+        ]
+    ],
+    "relationships": []
 }

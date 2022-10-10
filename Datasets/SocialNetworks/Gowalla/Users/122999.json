@@ -5,7 +5,16 @@
     "email": "chall@yahoo.com",
     "birthdate": "2000-03-18",
     "phone": "+1-923-045-9990x59963",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        18,
+        15
+    ],
+    "login locations": [
+        [
+            -118.231806,
+            33.860331
+        ]
+    ],
+    "relationships": []
 }

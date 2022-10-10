@@ -5,7 +5,25 @@
     "email": "andrewrodriguez@yahoo.com",
     "birthdate": "1983-02-26",
     "phone": "+1-412-792-3479x994",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        11,
+        24,
+        25,
+        38,
+        39,
+        0,
+        19,
+        69,
+        71,
+        41,
+        74
+    ],
+    "login locations": [
+        [
+            -118.325298,
+            34.156538
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "pfoster@gmail.com",
     "birthdate": "2011-07-26",
     "phone": "107.168.6133",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        66
+    ],
+    "login locations": [
+        [
+            -122.413734,
+            37.762296
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5091,
+                0.085
+            ],
+            [
+                5091,
+                0.085
+            ]
+        ]
+    ]
 }

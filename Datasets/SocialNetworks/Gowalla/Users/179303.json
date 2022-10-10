@@ -5,7 +5,16 @@
     "email": "brian73@hotmail.com",
     "birthdate": "1933-07-30",
     "phone": "(592)931-4571x091",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        74,
+        67
+    ],
+    "login locations": [
+        [
+            -122.275388,
+            37.773915
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "stephanie89@gmail.com",
     "birthdate": "1938-01-06",
     "phone": "5876130390",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        30,
+        61,
+        34,
+        72,
+        62,
+        28
+    ],
+    "login locations": [
+        [
+            -117.863371,
+            33.663259
+        ]
+    ],
+    "relationships": []
 }

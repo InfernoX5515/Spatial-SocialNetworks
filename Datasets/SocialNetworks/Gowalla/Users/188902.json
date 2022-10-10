@@ -5,7 +5,18 @@
     "email": "alexander65@gmail.com",
     "birthdate": "1993-04-26",
     "phone": "001-141-593-7147",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        61,
+        21,
+        25,
+        38
+    ],
+    "login locations": [
+        [
+            -122.396659,
+            37.802421
+        ]
+    ],
+    "relationships": []
 }

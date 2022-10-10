@@ -5,7 +5,30 @@
     "email": "gwest@yahoo.com",
     "birthdate": "1956-11-08",
     "phone": "(748)105-4207x66599",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        71,
+        4,
+        39,
+        55,
+        27
+    ],
+    "login locations": [
+        [
+            -122.384205,
+            37.772375
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                84868,
+                0.333333333333
+            ],
+            [
+                84868,
+                0.333333333333
+            ]
+        ]
+    ]
 }

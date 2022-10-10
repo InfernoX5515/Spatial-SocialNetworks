@@ -5,7 +5,26 @@
     "email": "smithjeffrey@gmail.com",
     "birthdate": "1984-02-26",
     "phone": "026.408.4673",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        42,
+        21,
+        8,
+        72,
+        27,
+        8,
+        36,
+        17,
+        5,
+        32,
+        50,
+        55
+    ],
+    "login locations": [
+        [
+            -122.004718,
+            37.38484
+        ]
+    ],
+    "relationships": []
 }

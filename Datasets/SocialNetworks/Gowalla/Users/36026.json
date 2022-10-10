@@ -5,7 +5,21 @@
     "email": "stacy12@yahoo.com",
     "birthdate": "1999-11-05",
     "phone": "(984)327-2353x07074",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        35,
+        5,
+        32,
+        15,
+        9,
+        6,
+        69
+    ],
+    "login locations": [
+        [
+            -118.423472,
+            34.039704
+        ]
+    ],
+    "relationships": []
 }

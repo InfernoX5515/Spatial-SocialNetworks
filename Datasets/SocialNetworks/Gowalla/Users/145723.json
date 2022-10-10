@@ -5,7 +5,23 @@
     "email": "hhunter@hotmail.com",
     "birthdate": "1991-03-13",
     "phone": "(574)616-3250",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        26,
+        9,
+        14,
+        57,
+        2,
+        34,
+        46,
+        22,
+        32
+    ],
+    "login locations": [
+        [
+            -118.441106,
+            34.155309
+        ]
+    ],
+    "relationships": []
 }

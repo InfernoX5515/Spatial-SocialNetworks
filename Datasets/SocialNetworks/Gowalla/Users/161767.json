@@ -5,7 +5,22 @@
     "email": "jennyanderson@hotmail.com",
     "birthdate": "2009-05-02",
     "phone": "589-188-1428",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        22,
+        6,
+        11,
+        48,
+        63,
+        0,
+        2,
+        4
+    ],
+    "login locations": [
+        [
+            -119.843327,
+            34.413926
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "marshalltravis@hotmail.com",
     "birthdate": "1997-11-17",
     "phone": "(368)480-8950",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        49,
+        48,
+        13,
+        71,
+        64,
+        71,
+        1,
+        44,
+        40
+    ],
+    "login locations": [
+        [
+            -118.212225,
+            34.165382
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "wrightamy@yahoo.com",
     "birthdate": "1944-02-06",
     "phone": "608-893-5256x18115",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        50
+    ],
+    "login locations": [
+        [
+            -122.032479,
+            37.707277
+        ]
+    ],
+    "relationships": []
 }

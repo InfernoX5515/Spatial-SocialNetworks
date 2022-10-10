@@ -5,7 +5,27 @@
     "email": "hvelazquez@gmail.com",
     "birthdate": "1998-05-19",
     "phone": "9623810881",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        42,
+        15,
+        0,
+        33,
+        60,
+        24,
+        8,
+        28,
+        9,
+        22,
+        5,
+        28,
+        5
+    ],
+    "login locations": [
+        [
+            -122.018921,
+            37.36669
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "katrina72@yahoo.com",
     "birthdate": "2018-11-22",
     "phone": "+1-519-296-4094x0717",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        27,
+        47,
+        60,
+        45,
+        48,
+        33,
+        36,
+        16,
+        52,
+        15
+    ],
+    "login locations": [
+        [
+            -117.209992,
+            34.050428
+        ]
+    ],
+    "relationships": []
 }

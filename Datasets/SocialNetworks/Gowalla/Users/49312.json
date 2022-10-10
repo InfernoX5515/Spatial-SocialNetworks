@@ -5,7 +5,14 @@
     "email": "gonzalesdanielle@yahoo.com",
     "birthdate": "1960-07-12",
     "phone": "(908)275-7233",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38
+    ],
+    "login locations": [
+        [
+            -118.350751,
+            34.076775
+        ]
+    ],
+    "relationships": []
 }

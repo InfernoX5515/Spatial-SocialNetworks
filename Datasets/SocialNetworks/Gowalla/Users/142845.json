@@ -5,7 +5,32 @@
     "email": "ijames@gmail.com",
     "birthdate": "2008-10-03",
     "phone": "001-011-561-8151x03748",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        58,
+        48,
+        0,
+        67,
+        21,
+        26,
+        28
+    ],
+    "login locations": [
+        [
+            -121.940396,
+            37.374022
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49274,
+                0.25
+            ],
+            [
+                63465,
+                0.030303030303
+            ]
+        ]
+    ]
 }

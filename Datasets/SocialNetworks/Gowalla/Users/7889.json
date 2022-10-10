@@ -5,7 +5,12 @@
     "email": "valeriepeterson@yahoo.com",
     "birthdate": "1967-11-13",
     "phone": "(628)246-3677",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.408442,
+            37.713021
+        ]
+    ],
+    "relationships": []
 }

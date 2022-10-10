@@ -5,7 +5,39 @@
     "email": "theresabrown@hotmail.com",
     "birthdate": "1922-09-17",
     "phone": "9223550033",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        66,
+        14,
+        49,
+        38,
+        26,
+        21,
+        46,
+        16,
+        72,
+        30,
+        36,
+        25,
+        59,
+        48
+    ],
+    "login locations": [
+        [
+            -122.422489,
+            37.744884
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43755,
+                0.0212765957447
+            ],
+            [
+                43755,
+                0.0212765957447
+            ]
+        ]
+    ]
 }

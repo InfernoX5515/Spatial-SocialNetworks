@@ -5,7 +5,15 @@
     "email": "denisewhite@gmail.com",
     "birthdate": "1984-01-03",
     "phone": "(956)823-4714",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        65
+    ],
+    "login locations": [
+        [
+            -117.758998,
+            33.894966
+        ]
+    ],
+    "relationships": []
 }

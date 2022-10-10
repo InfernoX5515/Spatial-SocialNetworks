@@ -5,7 +5,28 @@
     "email": "usmall@gmail.com",
     "birthdate": "1947-03-16",
     "phone": "350.750.5497x613",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        28,
+        47,
+        34,
+        3,
+        69,
+        7,
+        43,
+        45,
+        67,
+        15,
+        24,
+        58,
+        22,
+        71
+    ],
+    "login locations": [
+        [
+            -122.429966,
+            37.821987
+        ]
+    ],
+    "relationships": []
 }

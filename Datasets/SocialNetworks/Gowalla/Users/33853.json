@@ -5,7 +5,28 @@
     "email": "taylorwarren@hotmail.com",
     "birthdate": "1968-07-07",
     "phone": "790.812.9546x51948",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        5,
+        39,
+        33,
+        61,
+        5,
+        9,
+        12,
+        11,
+        1,
+        45,
+        58,
+        20,
+        23,
+        19
+    ],
+    "login locations": [
+        [
+            -122.42434,
+            37.770034
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "bpowell@hotmail.com",
     "birthdate": "2018-01-12",
     "phone": "759-795-0935",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        1,
+        8,
+        12
+    ],
+    "login locations": [
+        [
+            -117.989044,
+            33.847741
+        ]
+    ],
+    "relationships": []
 }

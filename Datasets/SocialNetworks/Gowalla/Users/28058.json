@@ -5,7 +5,15 @@
     "email": "brandiroberts@yahoo.com",
     "birthdate": "1946-05-14",
     "phone": "680.506.0197",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        24
+    ],
+    "login locations": [
+        [
+            -118.406472,
+            33.99607
+        ]
+    ],
+    "relationships": []
 }

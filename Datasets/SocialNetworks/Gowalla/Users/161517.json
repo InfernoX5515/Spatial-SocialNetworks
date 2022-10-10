@@ -5,7 +5,18 @@
     "email": "zjones@hotmail.com",
     "birthdate": "1958-05-25",
     "phone": "+1-298-210-7272x299",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        17,
+        16,
+        29,
+        45
+    ],
+    "login locations": [
+        [
+            -122.154046,
+            37.631524
+        ]
+    ],
+    "relationships": []
 }

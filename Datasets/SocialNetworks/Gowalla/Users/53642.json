@@ -5,7 +5,24 @@
     "email": "downsbrian@hotmail.com",
     "birthdate": "1975-11-13",
     "phone": "+1-920-484-9108x6650",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        13,
+        8,
+        59,
+        33,
+        0,
+        72,
+        21,
+        22,
+        8,
+        38
+    ],
+    "login locations": [
+        [
+            -122.021705,
+            37.352837
+        ]
+    ],
+    "relationships": []
 }

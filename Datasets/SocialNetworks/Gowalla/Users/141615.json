@@ -5,7 +5,26 @@
     "email": "karen26@yahoo.com",
     "birthdate": "1922-11-29",
     "phone": "(916)375-3521x524",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        36,
+        63,
+        0,
+        17,
+        26,
+        4,
+        38,
+        26,
+        46,
+        27,
+        73,
+        74
+    ],
+    "login locations": [
+        [
+            -118.246692,
+            33.789943
+        ]
+    ],
+    "relationships": []
 }

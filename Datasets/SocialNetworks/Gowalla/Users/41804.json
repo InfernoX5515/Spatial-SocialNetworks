@@ -5,7 +5,15 @@
     "email": "edward94@gmail.com",
     "birthdate": "1937-06-07",
     "phone": "+1-174-605-3642",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        59
+    ],
+    "login locations": [
+        [
+            -118.382873,
+            34.014292
+        ]
+    ],
+    "relationships": []
 }

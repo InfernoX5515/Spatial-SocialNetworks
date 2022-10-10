@@ -5,7 +5,14 @@
     "email": "henryjacqueline@gmail.com",
     "birthdate": "1957-03-04",
     "phone": "865-072-6120x3889",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0
+    ],
+    "login locations": [
+        [
+            -117.156782,
+            32.75427
+        ]
+    ],
+    "relationships": []
 }

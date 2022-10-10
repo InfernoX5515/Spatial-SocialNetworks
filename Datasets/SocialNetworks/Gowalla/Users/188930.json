@@ -5,7 +5,15 @@
     "email": "sweeneyadam@hotmail.com",
     "birthdate": "1947-11-11",
     "phone": "987.971.0402x5083",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        34
+    ],
+    "login locations": [
+        [
+            -118.766609,
+            34.281657
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "hsingh@yahoo.com",
     "birthdate": "1990-10-29",
     "phone": "+1-382-658-3907x143",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        10,
+        61,
+        65,
+        15,
+        73,
+        67,
+        63,
+        49,
+        8
+    ],
+    "login locations": [
+        [
+            -122.327843,
+            37.633087
+        ]
+    ],
+    "relationships": []
 }

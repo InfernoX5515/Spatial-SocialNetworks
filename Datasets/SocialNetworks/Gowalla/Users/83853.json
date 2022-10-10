@@ -5,7 +5,28 @@
     "email": "ronald16@gmail.com",
     "birthdate": "1965-04-09",
     "phone": "353-905-1055",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        19,
+        10,
+        37,
+        27,
+        28,
+        26,
+        5,
+        45,
+        27,
+        39,
+        60,
+        34,
+        31,
+        71
+    ],
+    "login locations": [
+        [
+            -116.289435,
+            33.70868
+        ]
+    ],
+    "relationships": []
 }

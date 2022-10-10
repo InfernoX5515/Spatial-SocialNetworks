@@ -5,7 +5,19 @@
     "email": "hbaker@yahoo.com",
     "birthdate": "1915-02-15",
     "phone": "+1-883-802-6773x59498",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        41,
+        71,
+        47,
+        4,
+        72
+    ],
+    "login locations": [
+        [
+            -122.389982,
+            37.752568
+        ]
+    ],
+    "relationships": []
 }

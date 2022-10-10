@@ -5,7 +5,26 @@
     "email": "jacksonbrandon@yahoo.com",
     "birthdate": "2008-02-20",
     "phone": "(195)417-1465x383",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        19,
+        71,
+        46,
+        60,
+        23,
+        67,
+        39,
+        14,
+        64,
+        38,
+        0,
+        60
+    ],
+    "login locations": [
+        [
+            -121.010143,
+            37.704175
+        ]
+    ],
+    "relationships": []
 }

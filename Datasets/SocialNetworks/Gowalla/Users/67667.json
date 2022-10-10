@@ -5,7 +5,28 @@
     "email": "marywolf@hotmail.com",
     "birthdate": "2014-02-03",
     "phone": "334-753-1072",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        23,
+        15,
+        75,
+        73,
+        69,
+        44,
+        27,
+        75,
+        11,
+        30,
+        19,
+        15,
+        34,
+        44
+    ],
+    "login locations": [
+        [
+            -122.412346,
+            37.774924
+        ]
+    ],
+    "relationships": []
 }

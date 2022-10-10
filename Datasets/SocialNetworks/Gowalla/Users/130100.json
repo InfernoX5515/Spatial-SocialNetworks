@@ -5,7 +5,15 @@
     "email": "pamela04@hotmail.com",
     "birthdate": "2006-12-04",
     "phone": "531-956-4966",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        72
+    ],
+    "login locations": [
+        [
+            -119.780305,
+            36.805647
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "lilisa@yahoo.com",
     "birthdate": "1997-04-09",
     "phone": "787-624-5011x090",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        64,
+        23
+    ],
+    "login locations": [
+        [
+            -122.425578,
+            37.786329
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                26863,
+                0.133333333333
+            ],
+            [
+                26863,
+                0.133333333333
+            ]
+        ]
+    ]
 }

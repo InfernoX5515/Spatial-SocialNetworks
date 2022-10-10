@@ -5,7 +5,37 @@
     "email": "wmclean@yahoo.com",
     "birthdate": "2022-08-28",
     "phone": "942-625-9684x595",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        2,
+        61,
+        55,
+        17,
+        29,
+        8,
+        71,
+        68,
+        2,
+        43,
+        19,
+        51
+    ],
+    "login locations": [
+        [
+            -122.356935,
+            37.812702
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                394,
+                0.0231213872832
+            ],
+            [
+                586,
+                0.10101010101
+            ]
+        ]
+    ]
 }

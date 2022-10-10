@@ -5,7 +5,15 @@
     "email": "danadelgado@gmail.com",
     "birthdate": "1943-12-01",
     "phone": "275-183-9527",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        22
+    ],
+    "login locations": [
+        [
+            -118.00701,
+            34.092681
+        ]
+    ],
+    "relationships": []
 }

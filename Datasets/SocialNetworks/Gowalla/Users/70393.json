@@ -5,7 +5,26 @@
     "email": "floreslinda@yahoo.com",
     "birthdate": "1919-02-16",
     "phone": "735.739.2671x73695",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        22,
+        64,
+        49,
+        29,
+        28,
+        11,
+        65,
+        29,
+        22,
+        71,
+        75,
+        57
+    ],
+    "login locations": [
+        [
+            -122.254762,
+            37.786378
+        ]
+    ],
+    "relationships": []
 }

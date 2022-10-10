@@ -5,7 +5,21 @@
     "email": "anthony71@hotmail.com",
     "birthdate": "1927-04-20",
     "phone": "001-259-154-2938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        16,
+        48,
+        50,
+        54,
+        6,
+        47,
+        18
+    ],
+    "login locations": [
+        [
+            -118.375602,
+            34.079952
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "chawkins@yahoo.com",
     "birthdate": "1939-01-08",
     "phone": "001-713-946-1738",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        24
+    ],
+    "login locations": [
+        [
+            -121.907674,
+            37.704839
+        ]
+    ],
+    "relationships": []
 }

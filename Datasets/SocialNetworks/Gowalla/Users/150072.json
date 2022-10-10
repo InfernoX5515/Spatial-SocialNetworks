@@ -5,7 +5,16 @@
     "email": "bryanhawkins@yahoo.com",
     "birthdate": "1961-11-14",
     "phone": "217.025.8113",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        54,
+        47
+    ],
+    "login locations": [
+        [
+            -122.421478,
+            37.750281
+        ]
+    ],
+    "relationships": []
 }

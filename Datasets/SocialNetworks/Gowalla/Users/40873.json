@@ -5,7 +5,14 @@
     "email": "johnlee@yahoo.com",
     "birthdate": "1981-07-22",
     "phone": "(579)796-6478",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45
+    ],
+    "login locations": [
+        [
+            -117.9922,
+            34.030328
+        ]
+    ],
+    "relationships": []
 }

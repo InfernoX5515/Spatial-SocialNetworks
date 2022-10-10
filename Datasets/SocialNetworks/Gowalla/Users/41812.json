@@ -5,7 +5,27 @@
     "email": "timothymorgan@yahoo.com",
     "birthdate": "1909-01-16",
     "phone": "6436428368",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        67,
+        38,
+        40,
+        42,
+        31,
+        42,
+        54,
+        62,
+        21,
+        54,
+        56,
+        61,
+        8
+    ],
+    "login locations": [
+        [
+            -118.39056,
+            34.023843
+        ]
+    ],
+    "relationships": []
 }

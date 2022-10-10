@@ -5,7 +5,18 @@
     "email": "mwilson@yahoo.com",
     "birthdate": "1985-03-06",
     "phone": "+1-067-417-7590x6368",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        35,
+        68,
+        3,
+        72
+    ],
+    "login locations": [
+        [
+            -122.141332,
+            37.905674
+        ]
+    ],
+    "relationships": []
 }

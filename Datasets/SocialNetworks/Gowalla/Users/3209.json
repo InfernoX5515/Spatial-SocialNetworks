@@ -5,7 +5,14 @@
     "email": "annaburke@gmail.com",
     "birthdate": "1998-12-29",
     "phone": "417.693.1744x5437",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36
+    ],
+    "login locations": [
+        [
+            -120.87454,
+            37.06377
+        ]
+    ],
+    "relationships": []
 }

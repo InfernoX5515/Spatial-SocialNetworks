@@ -5,7 +5,28 @@
     "email": "perickson@hotmail.com",
     "birthdate": "1920-11-26",
     "phone": "001-045-560-9508x56432",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        29,
+        24,
+        25,
+        23,
+        22,
+        38,
+        36,
+        47,
+        39,
+        75,
+        25,
+        75,
+        18,
+        63
+    ],
+    "login locations": [
+        [
+            -118.123453,
+            34.055505
+        ]
+    ],
+    "relationships": []
 }

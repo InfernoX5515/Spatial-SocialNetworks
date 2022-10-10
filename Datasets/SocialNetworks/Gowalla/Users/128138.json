@@ -5,7 +5,17 @@
     "email": "kkane@hotmail.com",
     "birthdate": "2017-03-01",
     "phone": "511-731-2388",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        12,
+        1,
+        41
+    ],
+    "login locations": [
+        [
+            -118.271028,
+            34.098969
+        ]
+    ],
+    "relationships": []
 }

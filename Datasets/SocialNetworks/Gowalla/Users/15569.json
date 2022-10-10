@@ -5,7 +5,26 @@
     "email": "ryan92@yahoo.com",
     "birthdate": "1923-11-12",
     "phone": "(344)565-8939x29265",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        61
+    ],
+    "login locations": [
+        [
+            -117.744093,
+            34.047299
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8665,
+                0.0526315789474
+            ],
+            [
+                32546,
+                0.04
+            ]
+        ]
+    ]
 }

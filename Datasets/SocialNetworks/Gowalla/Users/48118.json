@@ -5,7 +5,36 @@
     "email": "mary85@hotmail.com",
     "birthdate": "2022-01-11",
     "phone": "(569)493-7253x42122",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        10,
+        56,
+        24,
+        51,
+        25,
+        15,
+        0,
+        2,
+        65,
+        70,
+        56
+    ],
+    "login locations": [
+        [
+            -117.855227,
+            33.974234
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1904,
+                0.024
+            ],
+            [
+                2126,
+                0.0685714285714
+            ]
+        ]
+    ]
 }

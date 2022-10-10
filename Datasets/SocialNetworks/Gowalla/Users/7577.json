@@ -5,7 +5,22 @@
     "email": "maldonadovanessa@gmail.com",
     "birthdate": "1960-11-26",
     "phone": "502.475.8007x009",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        1,
+        19,
+        8,
+        29,
+        28,
+        40,
+        7,
+        24
+    ],
+    "login locations": [
+        [
+            -121.977487,
+            37.374828
+        ]
+    ],
+    "relationships": []
 }

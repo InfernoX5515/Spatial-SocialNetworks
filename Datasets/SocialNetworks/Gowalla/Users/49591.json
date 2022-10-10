@@ -5,7 +5,17 @@
     "email": "gilbertsteve@gmail.com",
     "birthdate": "1925-04-29",
     "phone": "240.894.7522",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        11,
+        7,
+        3
+    ],
+    "login locations": [
+        [
+            -117.837902,
+            34.03889
+        ]
+    ],
+    "relationships": []
 }

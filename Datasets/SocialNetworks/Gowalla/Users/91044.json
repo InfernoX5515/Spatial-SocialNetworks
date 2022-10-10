@@ -5,7 +5,27 @@
     "email": "riostasha@yahoo.com",
     "birthdate": "1909-10-03",
     "phone": "852.694.8317x880",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        66,
+        33,
+        4,
+        59,
+        70,
+        48,
+        8,
+        18,
+        38,
+        21,
+        28,
+        31,
+        53
+    ],
+    "login locations": [
+        [
+            -118.462801,
+            34.012829
+        ]
+    ],
+    "relationships": []
 }

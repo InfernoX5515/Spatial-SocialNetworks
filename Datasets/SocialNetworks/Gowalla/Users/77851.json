@@ -5,7 +5,28 @@
     "email": "davisyvonne@gmail.com",
     "birthdate": "1943-12-11",
     "phone": "808-712-2224",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        5,
+        17,
+        3,
+        61,
+        2,
+        17,
+        27,
+        18,
+        34,
+        36,
+        13,
+        67,
+        44,
+        64
+    ],
+    "login locations": [
+        [
+            -117.234732,
+            33.128865
+        ]
+    ],
+    "relationships": []
 }

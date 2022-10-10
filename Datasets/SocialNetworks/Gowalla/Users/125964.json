@@ -5,7 +5,16 @@
     "email": "gabriel22@yahoo.com",
     "birthdate": "1946-05-17",
     "phone": "+1-749-138-5816x20016",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        27,
+        53
+    ],
+    "login locations": [
+        [
+            -122.434006,
+            37.798878
+        ]
+    ],
+    "relationships": []
 }

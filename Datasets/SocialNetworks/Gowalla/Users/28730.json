@@ -5,7 +5,29 @@
     "email": "ghernandez@gmail.com",
     "birthdate": "1931-05-03",
     "phone": "001-689-640-8537x496",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        72,
+        38,
+        7,
+        42
+    ],
+    "login locations": [
+        [
+            -118.476364,
+            34.062899
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                121179,
+                0.333333333333
+            ],
+            [
+                121179,
+                0.333333333333
+            ]
+        ]
+    ]
 }

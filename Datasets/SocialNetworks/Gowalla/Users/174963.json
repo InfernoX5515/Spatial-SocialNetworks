@@ -5,7 +5,23 @@
     "email": "davidlewis@hotmail.com",
     "birthdate": "1956-01-01",
     "phone": "987-426-0993x11605",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        35,
+        8,
+        62,
+        20,
+        11,
+        55,
+        35,
+        56,
+        75
+    ],
+    "login locations": [
+        [
+            -121.482903,
+            38.569913
+        ]
+    ],
+    "relationships": []
 }

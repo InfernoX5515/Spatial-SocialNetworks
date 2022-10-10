@@ -5,7 +5,25 @@
     "email": "kelly00@yahoo.com",
     "birthdate": "1951-03-17",
     "phone": "(290)890-1470",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        53,
+        9,
+        54,
+        34,
+        12,
+        23,
+        40,
+        54,
+        23,
+        15,
+        34
+    ],
+    "login locations": [
+        [
+            -121.978103,
+            37.814005
+        ]
+    ],
+    "relationships": []
 }

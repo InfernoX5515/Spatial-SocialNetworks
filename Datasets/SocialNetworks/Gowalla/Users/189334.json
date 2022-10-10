@@ -5,7 +5,25 @@
     "email": "emily20@hotmail.com",
     "birthdate": "1906-12-26",
     "phone": "(703)586-1225",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        13,
+        37,
+        23,
+        66,
+        51,
+        2,
+        0,
+        62,
+        54,
+        21,
+        11
+    ],
+    "login locations": [
+        [
+            -118.466126,
+            33.99064
+        ]
+    ],
+    "relationships": []
 }

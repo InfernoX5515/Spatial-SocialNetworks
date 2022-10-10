@@ -5,7 +5,33 @@
     "email": "tkrause@gmail.com",
     "birthdate": "1985-11-24",
     "phone": "214-086-6342x207",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        40,
+        62,
+        58,
+        32,
+        27,
+        11,
+        14,
+        55
+    ],
+    "login locations": [
+        [
+            -118.368081,
+            34.017774
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53513,
+                0.09
+            ],
+            [
+                53514,
+                0.0909090909091
+            ]
+        ]
+    ]
 }

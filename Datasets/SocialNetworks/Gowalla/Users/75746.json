@@ -5,7 +5,28 @@
     "email": "mendozabrittany@hotmail.com",
     "birthdate": "1924-07-18",
     "phone": "+1-634-092-5980x2571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        52,
+        31,
+        23,
+        20,
+        14,
+        31,
+        41,
+        65,
+        49,
+        44,
+        58,
+        2,
+        31,
+        9
+    ],
+    "login locations": [
+        [
+            -118.428082,
+            34.038469
+        ]
+    ],
+    "relationships": []
 }

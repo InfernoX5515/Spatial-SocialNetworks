@@ -5,7 +5,28 @@
     "email": "brownphilip@yahoo.com",
     "birthdate": "1923-06-10",
     "phone": "+1-955-630-0301x4066",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        15,
+        1,
+        8
+    ],
+    "login locations": [
+        [
+            -122.115313,
+            37.409822
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                108,
+                0.01
+            ],
+            [
+                108,
+                0.01
+            ]
+        ]
+    ]
 }

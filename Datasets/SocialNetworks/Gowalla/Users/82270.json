@@ -5,7 +5,37 @@
     "email": "mooredean@hotmail.com",
     "birthdate": "1996-05-10",
     "phone": "001-426-033-9558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        17,
+        16,
+        54,
+        41,
+        28,
+        67,
+        68,
+        20,
+        13,
+        10,
+        74,
+        18
+    ],
+    "login locations": [
+        [
+            -121.947759,
+            37.355638
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7690,
+                0.0140845070423
+            ],
+            [
+                10991,
+                0.036231884058
+            ]
+        ]
+    ]
 }

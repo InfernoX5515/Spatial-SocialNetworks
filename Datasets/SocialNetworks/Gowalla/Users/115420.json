@@ -5,7 +5,25 @@
     "email": "janet42@hotmail.com",
     "birthdate": "1993-08-04",
     "phone": "001-127-778-4309x20412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        53,
+        43,
+        57,
+        16,
+        51,
+        52,
+        49,
+        16,
+        1,
+        49,
+        67
+    ],
+    "login locations": [
+        [
+            -121.936432,
+            36.718611
+        ]
+    ],
+    "relationships": []
 }

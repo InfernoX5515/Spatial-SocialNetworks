@@ -5,7 +5,30 @@
     "email": "berrystacey@hotmail.com",
     "birthdate": "2011-12-02",
     "phone": "362.542.2771x0353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        5,
+        36,
+        63,
+        27,
+        33
+    ],
+    "login locations": [
+        [
+            -121.029246,
+            38.744616
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                114458,
+                0.0204081632653
+            ],
+            [
+                114458,
+                0.0204081632653
+            ]
+        ]
+    ]
 }

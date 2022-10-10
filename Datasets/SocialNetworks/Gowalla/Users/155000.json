@@ -5,7 +5,20 @@
     "email": "kmcdonald@yahoo.com",
     "birthdate": "1971-12-16",
     "phone": "(808)899-0785x969",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        11,
+        18,
+        62,
+        60,
+        5,
+        43
+    ],
+    "login locations": [
+        [
+            -117.164755,
+            32.727536
+        ]
+    ],
+    "relationships": []
 }

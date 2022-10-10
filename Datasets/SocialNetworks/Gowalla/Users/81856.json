@@ -5,7 +5,14 @@
     "email": "edwardortega@yahoo.com",
     "birthdate": "1931-06-22",
     "phone": "(534)064-2970x5087",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34
+    ],
+    "login locations": [
+        [
+            -122.42253,
+            37.809304
+        ]
+    ],
+    "relationships": []
 }

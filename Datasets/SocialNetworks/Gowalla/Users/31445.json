@@ -5,7 +5,20 @@
     "email": "ballardjohnathan@gmail.com",
     "birthdate": "1910-08-22",
     "phone": "001-372-185-4399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        31,
+        0,
+        16,
+        54,
+        2,
+        61
+    ],
+    "login locations": [
+        [
+            -122.418074,
+            37.763362
+        ]
+    ],
+    "relationships": []
 }

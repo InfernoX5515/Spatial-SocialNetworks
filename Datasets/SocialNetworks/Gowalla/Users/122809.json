@@ -5,7 +5,25 @@
     "email": "greenmichelle@yahoo.com",
     "birthdate": "2015-11-17",
     "phone": "(921)532-3853x822",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        30,
+        37,
+        24,
+        34,
+        74,
+        23,
+        61,
+        38,
+        18,
+        74,
+        19
+    ],
+    "login locations": [
+        [
+            -122.347463,
+            37.822605
+        ]
+    ],
+    "relationships": []
 }

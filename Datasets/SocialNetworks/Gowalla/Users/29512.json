@@ -5,7 +5,26 @@
     "email": "nmcpherson@hotmail.com",
     "birthdate": "1953-06-09",
     "phone": "(296)979-4665",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        69,
+        54,
+        46,
+        44,
+        40,
+        74,
+        64,
+        21,
+        73,
+        3,
+        27,
+        1
+    ],
+    "login locations": [
+        [
+            -120.938187,
+            37.585266
+        ]
+    ],
+    "relationships": []
 }

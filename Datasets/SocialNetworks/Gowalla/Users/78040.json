@@ -5,7 +5,18 @@
     "email": "elizabeth75@gmail.com",
     "birthdate": "1984-12-26",
     "phone": "(122)432-3105",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        14,
+        15,
+        8,
+        62
+    ],
+    "login locations": [
+        [
+            -117.376683,
+            33.206132
+        ]
+    ],
+    "relationships": []
 }

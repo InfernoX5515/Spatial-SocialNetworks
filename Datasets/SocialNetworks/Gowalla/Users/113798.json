@@ -5,7 +5,18 @@
     "email": "patrick02@hotmail.com",
     "birthdate": "1968-05-09",
     "phone": "001-107-027-6547x970",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        45,
+        10,
+        0,
+        70
+    ],
+    "login locations": [
+        [
+            -122.005651,
+            37.349296
+        ]
+    ],
+    "relationships": []
 }

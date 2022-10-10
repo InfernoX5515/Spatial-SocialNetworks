@@ -5,7 +5,16 @@
     "email": "halldebra@yahoo.com",
     "birthdate": "1941-01-05",
     "phone": "974.155.8251x53276",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        29,
+        68
+    ],
+    "login locations": [
+        [
+            -118.026267,
+            34.102337
+        ]
+    ],
+    "relationships": []
 }

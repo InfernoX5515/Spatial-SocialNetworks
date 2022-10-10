@@ -5,7 +5,26 @@
     "email": "susanrobertson@yahoo.com",
     "birthdate": "1953-06-01",
     "phone": "(096)756-6439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        72,
+        51,
+        74,
+        34,
+        70,
+        73,
+        59,
+        41,
+        69,
+        66,
+        31,
+        49
+    ],
+    "login locations": [
+        [
+            -118.449058,
+            34.016806
+        ]
+    ],
+    "relationships": []
 }

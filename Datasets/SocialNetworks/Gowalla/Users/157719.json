@@ -5,7 +5,15 @@
     "email": "ymorales@hotmail.com",
     "birthdate": "1974-07-31",
     "phone": "001-480-105-7025x8017",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        4
+    ],
+    "login locations": [
+        [
+            -118.11785,
+            34.669518
+        ]
+    ],
+    "relationships": []
 }

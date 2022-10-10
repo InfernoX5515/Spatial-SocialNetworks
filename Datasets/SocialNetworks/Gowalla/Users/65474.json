@@ -5,7 +5,23 @@
     "email": "jasongonzalez@hotmail.com",
     "birthdate": "1983-08-24",
     "phone": "(091)431-1230",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        31,
+        72,
+        6,
+        58,
+        0,
+        43,
+        29,
+        56,
+        69
+    ],
+    "login locations": [
+        [
+            -117.32699,
+            34.016153
+        ]
+    ],
+    "relationships": []
 }

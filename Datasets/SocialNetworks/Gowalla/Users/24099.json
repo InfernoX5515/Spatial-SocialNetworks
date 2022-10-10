@@ -5,7 +5,25 @@
     "email": "qward@yahoo.com",
     "birthdate": "1933-06-17",
     "phone": "3871886472",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45
+    ],
+    "login locations": [
+        [
+            -118.588506,
+            34.193449
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5342,
+                0.147540983607
+            ],
+            [
+                7511,
+                0.24
+            ]
+        ]
+    ]
 }

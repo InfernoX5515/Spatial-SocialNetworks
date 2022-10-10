@@ -5,7 +5,25 @@
     "email": "owilliams@hotmail.com",
     "birthdate": "2011-12-05",
     "phone": "844.069.1944x49238",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        73,
+        20,
+        20,
+        20,
+        40,
+        13,
+        23,
+        50,
+        74,
+        32,
+        0
+    ],
+    "login locations": [
+        [
+            -122.404958,
+            37.784893
+        ]
+    ],
+    "relationships": []
 }

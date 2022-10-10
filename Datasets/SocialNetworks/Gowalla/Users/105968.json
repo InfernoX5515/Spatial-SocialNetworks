@@ -5,7 +5,15 @@
     "email": "valeriescott@yahoo.com",
     "birthdate": "1983-08-24",
     "phone": "001-446-533-4285",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        11
+    ],
+    "login locations": [
+        [
+            -118.385626,
+            33.822572
+        ]
+    ],
+    "relationships": []
 }

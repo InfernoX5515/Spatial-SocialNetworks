@@ -5,7 +5,14 @@
     "email": "justin99@yahoo.com",
     "birthdate": "1950-04-12",
     "phone": "(254)852-8173x01998",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33
+    ],
+    "login locations": [
+        [
+            -122.392034,
+            37.785963
+        ]
+    ],
+    "relationships": []
 }

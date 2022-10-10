@@ -5,7 +5,14 @@
     "email": "nlewis@gmail.com",
     "birthdate": "1942-10-25",
     "phone": "001-750-802-5483",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36
+    ],
+    "login locations": [
+        [
+            -118.316873,
+            34.092571
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "jacktate@gmail.com",
     "birthdate": "1929-11-10",
     "phone": "+1-426-864-9440x204",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        13,
+        68,
+        18,
+        22,
+        75,
+        18,
+        68,
+        36,
+        27,
+        6,
+        55,
+        19,
+        27,
+        38
+    ],
+    "login locations": [
+        [
+            -122.379372,
+            37.86363
+        ]
+    ],
+    "relationships": []
 }

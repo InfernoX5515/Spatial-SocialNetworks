@@ -5,7 +5,26 @@
     "email": "woodsrebecca@gmail.com",
     "birthdate": "2006-04-01",
     "phone": "554.503.0114",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        4,
+        8,
+        75,
+        68,
+        16,
+        70,
+        59,
+        62,
+        15,
+        25,
+        70,
+        71
+    ],
+    "login locations": [
+        [
+            -121.899649,
+            37.334381
+        ]
+    ],
+    "relationships": []
 }

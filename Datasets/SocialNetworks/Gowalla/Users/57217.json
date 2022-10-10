@@ -5,7 +5,24 @@
     "email": "ginaknight@gmail.com",
     "birthdate": "1992-01-24",
     "phone": "922.789.7905x39825",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        71,
+        35,
+        10,
+        51,
+        2,
+        39,
+        35,
+        24,
+        51,
+        17
+    ],
+    "login locations": [
+        [
+            -122.087315,
+            37.410897
+        ]
+    ],
+    "relationships": []
 }

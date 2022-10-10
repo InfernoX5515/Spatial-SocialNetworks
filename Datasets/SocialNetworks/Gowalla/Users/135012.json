@@ -5,7 +5,23 @@
     "email": "christensendavid@gmail.com",
     "birthdate": "1962-08-17",
     "phone": "335.448.2116",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        29,
+        3,
+        41,
+        49,
+        58,
+        73,
+        24,
+        71,
+        5
+    ],
+    "login locations": [
+        [
+            -117.165513,
+            32.709456
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "melanieball@hotmail.com",
     "birthdate": "1936-12-25",
     "phone": "236-071-6610x10112",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        15,
+        42,
+        39,
+        65,
+        46,
+        32,
+        65,
+        72,
+        36,
+        1
+    ],
+    "login locations": [
+        [
+            -122.120957,
+            37.416701
+        ]
+    ],
+    "relationships": []
 }

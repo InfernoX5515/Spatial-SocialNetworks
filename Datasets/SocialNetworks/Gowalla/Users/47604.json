@@ -5,7 +5,26 @@
     "email": "scottshepard@yahoo.com",
     "birthdate": "1907-12-21",
     "phone": "9011301654",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        70,
+        1,
+        2,
+        16,
+        48,
+        68,
+        26,
+        46,
+        23,
+        46,
+        51,
+        43
+    ],
+    "login locations": [
+        [
+            -122.088088,
+            37.599087
+        ]
+    ],
+    "relationships": []
 }

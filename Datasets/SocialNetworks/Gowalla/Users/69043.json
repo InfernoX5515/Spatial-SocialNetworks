@@ -5,7 +5,14 @@
     "email": "vjames@hotmail.com",
     "birthdate": "1973-03-03",
     "phone": "+1-618-959-7473x7497",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21
+    ],
+    "login locations": [
+        [
+            -120.995295,
+            37.68892
+        ]
+    ],
+    "relationships": []
 }

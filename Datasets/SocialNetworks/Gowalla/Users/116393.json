@@ -5,7 +5,24 @@
     "email": "tina49@yahoo.com",
     "birthdate": "1924-09-25",
     "phone": "001-911-596-3279x1598",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        44,
+        31,
+        23,
+        37,
+        6,
+        40,
+        5,
+        48,
+        11,
+        54
+    ],
+    "login locations": [
+        [
+            -117.217559,
+            32.830238
+        ]
+    ],
+    "relationships": []
 }

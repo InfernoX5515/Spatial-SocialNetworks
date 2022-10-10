@@ -5,7 +5,37 @@
     "email": "hhill@gmail.com",
     "birthdate": "1990-11-27",
     "phone": "582-220-0425",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        39,
+        46,
+        16,
+        75,
+        16,
+        44,
+        24,
+        14,
+        67,
+        58,
+        14,
+        27
+    ],
+    "login locations": [
+        [
+            -118.309798,
+            34.039904
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                90803,
+                0.01
+            ],
+            [
+                90803,
+                0.01
+            ]
+        ]
+    ]
 }

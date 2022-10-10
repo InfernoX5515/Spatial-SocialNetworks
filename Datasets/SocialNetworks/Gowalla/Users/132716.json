@@ -5,7 +5,23 @@
     "email": "smithanthony@hotmail.com",
     "birthdate": "1966-11-29",
     "phone": "453-296-3810x588",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        44,
+        60,
+        4,
+        41,
+        71,
+        35,
+        75,
+        37,
+        21
+    ],
+    "login locations": [
+        [
+            -117.971905,
+            33.733473
+        ]
+    ],
+    "relationships": []
 }

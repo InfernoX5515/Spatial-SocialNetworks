@@ -5,7 +5,17 @@
     "email": "matthewduncan@hotmail.com",
     "birthdate": "2006-12-11",
     "phone": "(703)683-0704",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        43,
+        21,
+        44
+    ],
+    "login locations": [
+        [
+            -117.153381,
+            32.806789
+        ]
+    ],
+    "relationships": []
 }

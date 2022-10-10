@@ -5,7 +5,26 @@
     "email": "jenna13@gmail.com",
     "birthdate": "1944-06-04",
     "phone": "(480)278-2093x52058",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        35
+    ],
+    "login locations": [
+        [
+            -121.932476,
+            37.323148
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                18390,
+                0.0208333333333
+            ],
+            [
+                18390,
+                0.0208333333333
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,26 @@
     "email": "rhernandez@gmail.com",
     "birthdate": "1919-11-24",
     "phone": "676.609.1834x2720",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        57,
+        5,
+        42,
+        31,
+        35,
+        65,
+        39,
+        47,
+        61,
+        74,
+        42,
+        48
+    ],
+    "login locations": [
+        [
+            -119.189249,
+            34.247993
+        ]
+    ],
+    "relationships": []
 }

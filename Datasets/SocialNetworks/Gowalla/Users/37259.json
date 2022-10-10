@@ -5,7 +5,12 @@
     "email": "thompsonlynn@yahoo.com",
     "birthdate": "2019-03-17",
     "phone": "2793652497",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.558586,
+            38.607118
+        ]
+    ],
+    "relationships": []
 }

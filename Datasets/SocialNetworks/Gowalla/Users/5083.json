@@ -5,7 +5,26 @@
     "email": "joshuamaldonado@yahoo.com",
     "birthdate": "1940-02-24",
     "phone": "(384)514-2262x2741",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        5,
+        66,
+        49,
+        3,
+        13,
+        53,
+        10,
+        7,
+        63,
+        38,
+        26,
+        20
+    ],
+    "login locations": [
+        [
+            -122.147457,
+            37.420574
+        ]
+    ],
+    "relationships": []
 }

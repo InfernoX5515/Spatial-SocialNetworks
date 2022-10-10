@@ -5,7 +5,29 @@
     "email": "keith77@yahoo.com",
     "birthdate": "1944-01-04",
     "phone": "320-503-7691",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        55,
+        68,
+        26,
+        13
+    ],
+    "login locations": [
+        [
+            -122.4029,
+            37.775658
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4235,
+                0.0730897009967
+            ],
+            [
+                4265,
+                0.0642201834862
+            ]
+        ]
+    ]
 }

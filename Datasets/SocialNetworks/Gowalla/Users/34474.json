@@ -5,7 +5,17 @@
     "email": "troy91@gmail.com",
     "birthdate": "2013-06-04",
     "phone": "(062)004-9198x8255",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        35,
+        53,
+        53
+    ],
+    "login locations": [
+        [
+            -122.08805,
+            37.422356
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "karenaguilar@hotmail.com",
     "birthdate": "1980-01-17",
     "phone": "+1-610-339-6642",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        28,
+        18
+    ],
+    "login locations": [
+        [
+            -122.403984,
+            37.719392
+        ]
+    ],
+    "relationships": []
 }

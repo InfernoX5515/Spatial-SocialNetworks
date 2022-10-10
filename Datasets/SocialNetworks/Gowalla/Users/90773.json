@@ -5,7 +5,24 @@
     "email": "hartashley@hotmail.com",
     "birthdate": "2008-05-23",
     "phone": "(519)527-8345x544",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        31,
+        9,
+        72,
+        37,
+        44,
+        49,
+        73,
+        25,
+        53,
+        2
+    ],
+    "login locations": [
+        [
+            -122.377389,
+            37.852125
+        ]
+    ],
+    "relationships": []
 }

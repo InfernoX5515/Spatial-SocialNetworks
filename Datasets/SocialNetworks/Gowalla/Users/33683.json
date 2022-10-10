@@ -5,7 +5,25 @@
     "email": "jessica91@yahoo.com",
     "birthdate": "1945-03-12",
     "phone": "993.639.2714x9568",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        67,
+        13,
+        43,
+        43,
+        39,
+        19,
+        36,
+        50,
+        12,
+        2,
+        61
+    ],
+    "login locations": [
+        [
+            -118.130168,
+            33.791635
+        ]
+    ],
+    "relationships": []
 }

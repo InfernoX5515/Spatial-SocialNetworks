@@ -5,7 +5,23 @@
     "email": "loganphillips@hotmail.com",
     "birthdate": "1969-12-20",
     "phone": "974-214-6826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        29,
+        61,
+        72,
+        24,
+        54,
+        44,
+        47,
+        39,
+        73
+    ],
+    "login locations": [
+        [
+            -118.411561,
+            34.17831
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "jeffrey86@gmail.com",
     "birthdate": "1968-01-11",
     "phone": "776-772-0402",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        63,
+        23,
+        36,
+        62,
+        62,
+        49
+    ],
+    "login locations": [
+        [
+            -118.017346,
+            33.721857
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "hardykevin@hotmail.com",
     "birthdate": "1949-10-09",
     "phone": "001-966-525-8746x463",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        27,
+        28,
+        24,
+        52,
+        67,
+        0,
+        5,
+        71,
+        52
+    ],
+    "login locations": [
+        [
+            -121.96315,
+            37.314033
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "jose94@hotmail.com",
     "birthdate": "1964-09-28",
     "phone": "+1-818-561-5633x9193",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.037909,
+            33.910855
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                141229,
+                0.272727272727
+            ],
+            [
+                141229,
+                0.272727272727
+            ]
+        ]
+    ]
 }

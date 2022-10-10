@@ -5,7 +5,12 @@
     "email": "john53@hotmail.com",
     "birthdate": "1967-08-01",
     "phone": "5216669927",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.273442,
+            34.026161
+        ]
+    ],
+    "relationships": []
 }

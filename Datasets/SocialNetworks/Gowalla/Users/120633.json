@@ -5,7 +5,15 @@
     "email": "kimberlygonzalez@gmail.com",
     "birthdate": "1944-10-07",
     "phone": "+1-764-393-5045x6496",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        58
+    ],
+    "login locations": [
+        [
+            -116.933514,
+            32.891436
+        ]
+    ],
+    "relationships": []
 }

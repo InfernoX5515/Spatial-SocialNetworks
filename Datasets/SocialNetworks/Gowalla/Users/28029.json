@@ -5,7 +5,26 @@
     "email": "adam36@gmail.com",
     "birthdate": "1948-08-02",
     "phone": "071.420.9608",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        69,
+        56,
+        66,
+        58,
+        17,
+        71,
+        19,
+        9,
+        20,
+        33,
+        63,
+        16
+    ],
+    "login locations": [
+        [
+            -122.259271,
+            37.772107
+        ]
+    ],
+    "relationships": []
 }

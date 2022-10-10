@@ -5,7 +5,23 @@
     "email": "sharon75@hotmail.com",
     "birthdate": "1927-06-10",
     "phone": "076-081-3496x7416",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        30,
+        55,
+        72,
+        32,
+        9,
+        22,
+        30,
+        67,
+        35
+    ],
+    "login locations": [
+        [
+            -118.137645,
+            34.01694
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "victoria21@hotmail.com",
     "birthdate": "1972-01-21",
     "phone": "001-536-873-3405x281",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        43
+    ],
+    "login locations": [
+        [
+            -118.497276,
+            34.019723
+        ]
+    ],
+    "relationships": []
 }

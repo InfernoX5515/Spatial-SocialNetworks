@@ -5,7 +5,21 @@
     "email": "kimberlywade@gmail.com",
     "birthdate": "1943-06-10",
     "phone": "(545)544-9811",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        62,
+        59,
+        51,
+        50,
+        52,
+        6,
+        9
+    ],
+    "login locations": [
+        [
+            -117.832213,
+            33.752815
+        ]
+    ],
+    "relationships": []
 }

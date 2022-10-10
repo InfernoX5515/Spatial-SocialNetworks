@@ -5,7 +5,25 @@
     "email": "abishop@hotmail.com",
     "birthdate": "1914-04-21",
     "phone": "660-494-6702x2226",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        43,
+        75,
+        70,
+        55,
+        16,
+        4,
+        55,
+        10,
+        6,
+        44,
+        67
+    ],
+    "login locations": [
+        [
+            -118.134997,
+            33.904418
+        ]
+    ],
+    "relationships": []
 }

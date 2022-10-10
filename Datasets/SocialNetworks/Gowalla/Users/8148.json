@@ -5,7 +5,32 @@
     "email": "bwarren@yahoo.com",
     "birthdate": "1952-06-06",
     "phone": "(224)064-3936x807",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        6,
+        10,
+        73,
+        43,
+        49,
+        63,
+        30
+    ],
+    "login locations": [
+        [
+            -122.421316,
+            37.784038
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                92,
+                0.01
+            ],
+            [
+                92,
+                0.01
+            ]
+        ]
+    ]
 }

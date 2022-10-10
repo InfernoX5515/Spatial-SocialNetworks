@@ -5,7 +5,26 @@
     "email": "allensarah@yahoo.com",
     "birthdate": "1995-01-24",
     "phone": "5543013507",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        5,
+        33,
+        23,
+        51,
+        4,
+        19,
+        25,
+        6,
+        25,
+        71,
+        52,
+        11
+    ],
+    "login locations": [
+        [
+            -121.731462,
+            38.556713
+        ]
+    ],
+    "relationships": []
 }

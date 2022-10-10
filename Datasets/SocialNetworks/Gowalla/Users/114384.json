@@ -5,7 +5,25 @@
     "email": "brittanymorales@gmail.com",
     "birthdate": "2002-06-02",
     "phone": "408-073-5298",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        18,
+        54,
+        64,
+        39,
+        59,
+        42,
+        62,
+        67,
+        2,
+        74,
+        46
+    ],
+    "login locations": [
+        [
+            -118.603727,
+            34.184885
+        ]
+    ],
+    "relationships": []
 }

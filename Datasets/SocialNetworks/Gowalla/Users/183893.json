@@ -5,7 +5,28 @@
     "email": "emily10@gmail.com",
     "birthdate": "1931-10-29",
     "phone": "988-922-0084x17771",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        52,
+        10,
+        13,
+        2,
+        40,
+        8,
+        1,
+        55,
+        0,
+        28,
+        70,
+        39,
+        31,
+        44
+    ],
+    "login locations": [
+        [
+            -118.064752,
+            33.848128
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "justin44@gmail.com",
     "birthdate": "1939-04-28",
     "phone": "(148)049-0424x0198",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        67,
+        14,
+        38,
+        7,
+        18,
+        47,
+        2,
+        52,
+        53,
+        47,
+        0,
+        50,
+        44,
+        9
+    ],
+    "login locations": [
+        [
+            -122.061158,
+            37.32754
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,37 @@
     "email": "stacyobrien@gmail.com",
     "birthdate": "1992-06-07",
     "phone": "001-786-108-8274",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        8,
+        67,
+        66,
+        54,
+        17,
+        65,
+        55,
+        75,
+        65,
+        14,
+        42,
+        2
+    ],
+    "login locations": [
+        [
+            -121.933256,
+            37.255421
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5895,
+                0.01
+            ],
+            [
+                5895,
+                0.01
+            ]
+        ]
+    ]
 }

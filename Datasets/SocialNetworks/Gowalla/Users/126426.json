@@ -5,7 +5,23 @@
     "email": "jessicajensen@yahoo.com",
     "birthdate": "1907-04-15",
     "phone": "284-929-5895x6189",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        62,
+        52,
+        17,
+        52,
+        32,
+        25,
+        67,
+        12,
+        48
+    ],
+    "login locations": [
+        [
+            -117.124449,
+            32.662954
+        ]
+    ],
+    "relationships": []
 }

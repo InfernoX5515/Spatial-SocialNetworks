@@ -5,7 +5,17 @@
     "email": "schmidtsteven@yahoo.com",
     "birthdate": "1952-10-06",
     "phone": "+1-033-179-0815x3610",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        22,
+        21,
+        20
+    ],
+    "login locations": [
+        [
+            -117.242214,
+            33.139966
+        ]
+    ],
+    "relationships": []
 }

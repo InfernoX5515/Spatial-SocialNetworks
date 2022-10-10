@@ -5,7 +5,22 @@
     "email": "jenna13@gmail.com",
     "birthdate": "1986-05-15",
     "phone": "145.590.3278x624",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        23,
+        13,
+        18,
+        58,
+        35,
+        25,
+        41,
+        20
+    ],
+    "login locations": [
+        [
+            -121.36278,
+            38.618265
+        ]
+    ],
+    "relationships": []
 }

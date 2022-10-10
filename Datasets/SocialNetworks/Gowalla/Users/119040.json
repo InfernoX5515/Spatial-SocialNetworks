@@ -5,7 +5,24 @@
     "email": "hfrederick@hotmail.com",
     "birthdate": "1917-04-08",
     "phone": "(137)718-9300x7032",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        64,
+        31,
+        26,
+        55,
+        19,
+        51,
+        70,
+        42,
+        19,
+        34
+    ],
+    "login locations": [
+        [
+            -117.337119,
+            33.989111
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "martinezeric@yahoo.com",
     "birthdate": "2006-03-08",
     "phone": "891-323-9986x081",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        11
+    ],
+    "login locations": [
+        [
+            -118.341607,
+            34.059847
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "katherinehensley@gmail.com",
     "birthdate": "1955-04-18",
     "phone": "(739)089-8969",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        56,
+        34,
+        8,
+        17,
+        36,
+        6,
+        34
+    ],
+    "login locations": [
+        [
+            -121.938201,
+            37.07815
+        ]
+    ],
+    "relationships": []
 }

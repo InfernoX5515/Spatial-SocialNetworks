@@ -5,7 +5,19 @@
     "email": "lisagomez@yahoo.com",
     "birthdate": "1960-05-02",
     "phone": "(984)605-6371x4379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        13,
+        27,
+        48,
+        12,
+        41
+    ],
+    "login locations": [
+        [
+            -117.846728,
+            33.701949
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "ahill@hotmail.com",
     "birthdate": "1911-04-15",
     "phone": "+1-062-119-7531",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        8,
+        50,
+        75,
+        44,
+        43
+    ],
+    "login locations": [
+        [
+            -122.084903,
+            37.421275
+        ]
+    ],
+    "relationships": []
 }

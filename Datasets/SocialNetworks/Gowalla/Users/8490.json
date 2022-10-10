@@ -5,7 +5,33 @@
     "email": "brandonfisher@hotmail.com",
     "birthdate": "1983-05-19",
     "phone": "(831)471-7186x12866",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        60,
+        2,
+        21,
+        65,
+        21,
+        47,
+        4,
+        48
+    ],
+    "login locations": [
+        [
+            -117.929145,
+            33.731938
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4340,
+                1.0
+            ],
+            [
+                8474,
+                0.107843137255
+            ]
+        ]
+    ]
 }

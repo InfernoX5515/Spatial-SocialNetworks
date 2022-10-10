@@ -5,7 +5,35 @@
     "email": "cynthia03@hotmail.com",
     "birthdate": "2015-07-15",
     "phone": "079.456.5306x8925",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        58,
+        9,
+        75,
+        46,
+        54,
+        50,
+        22,
+        15,
+        35,
+        61
+    ],
+    "login locations": [
+        [
+            -118.412277,
+            34.007654
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2244,
+                0.04
+            ],
+            [
+                2244,
+                0.04
+            ]
+        ]
+    ]
 }

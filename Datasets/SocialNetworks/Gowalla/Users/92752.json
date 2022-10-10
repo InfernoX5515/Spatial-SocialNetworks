@@ -5,7 +5,15 @@
     "email": "marybrown@hotmail.com",
     "birthdate": "1969-02-25",
     "phone": "611.491.9301",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        20
+    ],
+    "login locations": [
+        [
+            -122.393344,
+            37.741878
+        ]
+    ],
+    "relationships": []
 }

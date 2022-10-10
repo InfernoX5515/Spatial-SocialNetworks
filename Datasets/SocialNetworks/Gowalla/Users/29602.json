@@ -5,7 +5,22 @@
     "email": "ohall@yahoo.com",
     "birthdate": "2020-04-23",
     "phone": "201-863-1363x370",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        63,
+        36,
+        3,
+        71,
+        46,
+        48,
+        65,
+        10
+    ],
+    "login locations": [
+        [
+            -122.028635,
+            37.413167
+        ]
+    ],
+    "relationships": []
 }

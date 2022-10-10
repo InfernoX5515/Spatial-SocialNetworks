@@ -5,7 +5,14 @@
     "email": "campbelllucas@yahoo.com",
     "birthdate": "2004-10-04",
     "phone": "968-130-5351x701",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3
+    ],
+    "login locations": [
+        [
+            -122.00387,
+            37.871597
+        ]
+    ],
+    "relationships": []
 }

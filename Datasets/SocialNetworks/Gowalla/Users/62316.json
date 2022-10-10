@@ -5,7 +5,20 @@
     "email": "juliepalmer@gmail.com",
     "birthdate": "1953-01-01",
     "phone": "278-782-1060x34920",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        33,
+        16,
+        74,
+        8,
+        71,
+        31
+    ],
+    "login locations": [
+        [
+            -121.687177,
+            36.831671
+        ]
+    ],
+    "relationships": []
 }

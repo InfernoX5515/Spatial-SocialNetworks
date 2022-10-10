@@ -5,7 +5,27 @@
     "email": "ruthburnett@yahoo.com",
     "birthdate": "1971-10-10",
     "phone": "(938)151-0104x25416",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        2,
+        43,
+        27,
+        0,
+        52,
+        18,
+        61,
+        50,
+        49,
+        8,
+        67,
+        21,
+        12
+    ],
+    "login locations": [
+        [
+            -122.288021,
+            37.755014
+        ]
+    ],
+    "relationships": []
 }

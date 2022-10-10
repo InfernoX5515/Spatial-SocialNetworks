@@ -5,7 +5,25 @@
     "email": "serranojack@yahoo.com",
     "birthdate": "1938-04-04",
     "phone": "(865)474-4699",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        36,
+        21,
+        59,
+        56,
+        44,
+        44,
+        41,
+        25,
+        25,
+        65,
+        1
+    ],
+    "login locations": [
+        [
+            -118.323908,
+            34.065045
+        ]
+    ],
+    "relationships": []
 }

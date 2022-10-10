@@ -5,7 +5,22 @@
     "email": "angelcarr@hotmail.com",
     "birthdate": "1968-03-14",
     "phone": "610-612-0060",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        5,
+        32,
+        64,
+        43,
+        30,
+        42,
+        66,
+        2
+    ],
+    "login locations": [
+        [
+            -122.10048,
+            37.392666
+        ]
+    ],
+    "relationships": []
 }

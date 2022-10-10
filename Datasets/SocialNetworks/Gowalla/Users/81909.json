@@ -5,7 +5,25 @@
     "email": "johnwilliams@hotmail.com",
     "birthdate": "1962-02-24",
     "phone": "+1-501-620-5818x870",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        7,
+        6,
+        43,
+        51,
+        20,
+        69,
+        30,
+        55,
+        66,
+        6,
+        33
+    ],
+    "login locations": [
+        [
+            -122.362676,
+            37.591662
+        ]
+    ],
+    "relationships": []
 }

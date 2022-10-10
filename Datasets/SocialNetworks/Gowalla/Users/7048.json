@@ -5,7 +5,21 @@
     "email": "davidmiles@gmail.com",
     "birthdate": "2007-08-16",
     "phone": "619-882-2094",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        58,
+        11,
+        49,
+        18,
+        8,
+        64,
+        60
+    ],
+    "login locations": [
+        [
+            -118.015748,
+            34.067861
+        ]
+    ],
+    "relationships": []
 }

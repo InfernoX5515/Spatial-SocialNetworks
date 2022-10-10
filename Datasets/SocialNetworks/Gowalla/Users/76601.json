@@ -5,7 +5,15 @@
     "email": "greed@yahoo.com",
     "birthdate": "1921-10-10",
     "phone": "+1-601-418-6837",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        16
+    ],
+    "login locations": [
+        [
+            -122.400125,
+            37.782558
+        ]
+    ],
+    "relationships": []
 }

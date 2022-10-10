@@ -5,7 +5,17 @@
     "email": "jesse36@gmail.com",
     "birthdate": "1917-09-21",
     "phone": "2599574688",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        71,
+        20,
+        42
+    ],
+    "login locations": [
+        [
+            -121.453194,
+            38.579566
+        ]
+    ],
+    "relationships": []
 }

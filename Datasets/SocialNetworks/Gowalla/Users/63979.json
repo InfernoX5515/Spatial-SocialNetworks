@@ -5,7 +5,19 @@
     "email": "theresa28@gmail.com",
     "birthdate": "1909-11-12",
     "phone": "5577264979",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        68,
+        21,
+        29,
+        49,
+        21
+    ],
+    "login locations": [
+        [
+            -117.154951,
+            32.721536
+        ]
+    ],
+    "relationships": []
 }

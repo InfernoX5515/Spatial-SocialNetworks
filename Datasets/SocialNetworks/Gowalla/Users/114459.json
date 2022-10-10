@@ -5,7 +5,23 @@
     "email": "karenmiller@hotmail.com",
     "birthdate": "2002-09-13",
     "phone": "+1-305-962-4306x9998",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.896765,
+            37.67658
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                114457,
+                0.253731343284
+            ],
+            [
+                114457,
+                0.253731343284
+            ]
+        ]
+    ]
 }

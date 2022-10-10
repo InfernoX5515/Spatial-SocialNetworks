@@ -5,7 +5,20 @@
     "email": "xsantos@hotmail.com",
     "birthdate": "1920-03-04",
     "phone": "488.438.8130x44788",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        32,
+        14,
+        12,
+        1,
+        72,
+        70
+    ],
+    "login locations": [
+        [
+            -118.370485,
+            34.106254
+        ]
+    ],
+    "relationships": []
 }

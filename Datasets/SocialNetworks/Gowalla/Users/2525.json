@@ -5,7 +5,25 @@
     "email": "wardkendra@gmail.com",
     "birthdate": "1962-08-16",
     "phone": "+1-599-589-8252x439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        21,
+        45,
+        27,
+        14,
+        40,
+        72,
+        45,
+        15,
+        45,
+        35,
+        51
+    ],
+    "login locations": [
+        [
+            -122.418686,
+            37.812515
+        ]
+    ],
+    "relationships": []
 }

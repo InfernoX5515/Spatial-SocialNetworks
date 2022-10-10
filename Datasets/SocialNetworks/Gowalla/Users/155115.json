@@ -5,7 +5,22 @@
     "email": "ehouston@hotmail.com",
     "birthdate": "1970-12-22",
     "phone": "+1-358-351-2657x42953",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        67,
+        3,
+        66,
+        46,
+        7,
+        53,
+        1,
+        29
+    ],
+    "login locations": [
+        [
+            -121.113122,
+            38.665167
+        ]
+    ],
+    "relationships": []
 }

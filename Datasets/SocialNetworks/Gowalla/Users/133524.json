@@ -5,7 +5,20 @@
     "email": "michaelbradshaw@hotmail.com",
     "birthdate": "1950-07-01",
     "phone": "+1-007-765-3027",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        57,
+        52,
+        26,
+        62,
+        32,
+        54
+    ],
+    "login locations": [
+        [
+            -117.920201,
+            33.856532
+        ]
+    ],
+    "relationships": []
 }

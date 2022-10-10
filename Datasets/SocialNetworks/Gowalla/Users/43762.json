@@ -5,7 +5,23 @@
     "email": "james73@yahoo.com",
     "birthdate": "2001-11-11",
     "phone": "841.882.6684x230",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        48,
+        8,
+        63,
+        8,
+        43,
+        34,
+        17,
+        49,
+        14
+    ],
+    "login locations": [
+        [
+            -122.113253,
+            37.413626
+        ]
+    ],
+    "relationships": []
 }

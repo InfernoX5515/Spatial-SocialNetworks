@@ -5,7 +5,22 @@
     "email": "christopher13@gmail.com",
     "birthdate": "1971-06-11",
     "phone": "001-835-643-1881x785",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        27,
+        34,
+        56,
+        38,
+        25,
+        18,
+        51,
+        33
+    ],
+    "login locations": [
+        [
+            -122.324627,
+            37.677388
+        ]
+    ],
+    "relationships": []
 }

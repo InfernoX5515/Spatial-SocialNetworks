@@ -5,7 +5,17 @@
     "email": "stephenabbott@yahoo.com",
     "birthdate": "1945-01-13",
     "phone": "933.978.5669x7339",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        62,
+        4,
+        37
+    ],
+    "login locations": [
+        [
+            -117.297388,
+            34.464705
+        ]
+    ],
+    "relationships": []
 }

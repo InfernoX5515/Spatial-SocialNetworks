@@ -5,7 +5,17 @@
     "email": "nharrison@yahoo.com",
     "birthdate": "1917-06-08",
     "phone": "8127492019",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        3,
+        9,
+        65
+    ],
+    "login locations": [
+        [
+            -118.443376,
+            34.026576
+        ]
+    ],
+    "relationships": []
 }

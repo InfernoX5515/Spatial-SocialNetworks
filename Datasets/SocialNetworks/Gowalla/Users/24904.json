@@ -5,7 +5,12 @@
     "email": "bblair@yahoo.com",
     "birthdate": "1951-06-04",
     "phone": "269-424-1084",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.411297,
+            37.78002
+        ]
+    ],
+    "relationships": []
 }

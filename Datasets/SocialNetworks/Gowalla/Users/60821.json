@@ -5,7 +5,33 @@
     "email": "boydlauren@yahoo.com",
     "birthdate": "2019-04-21",
     "phone": "652-062-9737",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        32,
+        41,
+        24,
+        66,
+        28,
+        15,
+        6,
+        43
+    ],
+    "login locations": [
+        [
+            -116.631309,
+            33.921874
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2126,
+                0.0285714285714
+            ],
+            [
+                2126,
+                0.0285714285714
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,22 @@
     "email": "thomascharles@yahoo.com",
     "birthdate": "1973-06-02",
     "phone": "(205)890-2872",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        1,
+        58,
+        52,
+        27,
+        18,
+        75,
+        20,
+        8
+    ],
+    "login locations": [
+        [
+            -122.282957,
+            37.566351
+        ]
+    ],
+    "relationships": []
 }

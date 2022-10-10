@@ -5,7 +5,24 @@
     "email": "pshort@gmail.com",
     "birthdate": "1919-02-10",
     "phone": "(647)838-9937x371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        2,
+        29,
+        40,
+        38,
+        20,
+        41,
+        38,
+        24,
+        51,
+        22
+    ],
+    "login locations": [
+        [
+            -118.001658,
+            34.012843
+        ]
+    ],
+    "relationships": []
 }

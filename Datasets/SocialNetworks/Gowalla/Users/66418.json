@@ -5,7 +5,16 @@
     "email": "johnsonandrea@hotmail.com",
     "birthdate": "1973-12-15",
     "phone": "+1-365-850-4494",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        63,
+        35
+    ],
+    "login locations": [
+        [
+            -120.685757,
+            35.288519
+        ]
+    ],
+    "relationships": []
 }

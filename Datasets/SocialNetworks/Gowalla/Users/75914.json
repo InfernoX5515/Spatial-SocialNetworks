@@ -5,7 +5,21 @@
     "email": "jessica67@gmail.com",
     "birthdate": "2010-10-14",
     "phone": "(673)260-8651x6282",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        47,
+        75,
+        63,
+        15,
+        7,
+        53,
+        62
+    ],
+    "login locations": [
+        [
+            -122.328321,
+            37.80815
+        ]
+    ],
+    "relationships": []
 }

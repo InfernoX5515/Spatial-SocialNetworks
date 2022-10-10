@@ -5,7 +5,16 @@
     "email": "smithnicole@yahoo.com",
     "birthdate": "1964-09-05",
     "phone": "606.313.5502x1990",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        19,
+        56
+    ],
+    "login locations": [
+        [
+            -118.099132,
+            34.1492
+        ]
+    ],
+    "relationships": []
 }

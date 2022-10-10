@@ -5,7 +5,27 @@
     "email": "juliaschneider@yahoo.com",
     "birthdate": "1930-04-19",
     "phone": "580.108.1866x9147",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        28,
+        65
+    ],
+    "login locations": [
+        [
+            -122.13366,
+            37.372446
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                87,
+                0.0133333333333
+            ],
+            [
+                313,
+                0.027027027027
+            ]
+        ]
+    ]
 }

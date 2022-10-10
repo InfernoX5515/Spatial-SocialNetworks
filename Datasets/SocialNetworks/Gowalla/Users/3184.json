@@ -5,7 +5,31 @@
     "email": "jacobbanks@gmail.com",
     "birthdate": "1978-03-09",
     "phone": "(797)039-2748",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        59,
+        18,
+        3,
+        36,
+        14,
+        11
+    ],
+    "login locations": [
+        [
+            -116.253807,
+            33.721248
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2339,
+                0.01
+            ],
+            [
+                2339,
+                0.01
+            ]
+        ]
+    ]
 }

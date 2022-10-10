@@ -5,7 +5,27 @@
     "email": "nancy11@hotmail.com",
     "birthdate": "1987-05-03",
     "phone": "(027)222-2870x396",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        26,
+        43,
+        51,
+        2,
+        37,
+        8,
+        2,
+        9,
+        40,
+        52,
+        31,
+        66,
+        49
+    ],
+    "login locations": [
+        [
+            -121.164154,
+            38.828713
+        ]
+    ],
+    "relationships": []
 }

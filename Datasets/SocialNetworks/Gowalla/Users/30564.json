@@ -5,7 +5,26 @@
     "email": "ccallahan@yahoo.com",
     "birthdate": "1942-10-19",
     "phone": "001-414-732-2086x141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        16,
+        65,
+        6,
+        39,
+        62,
+        15,
+        75,
+        61,
+        55,
+        47,
+        62,
+        49
+    ],
+    "login locations": [
+        [
+            -121.888397,
+            37.330422
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "michaelriddle@gmail.com",
     "birthdate": "1958-06-13",
     "phone": "809-930-7127x959",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        7,
+        33,
+        70,
+        12,
+        40,
+        61,
+        24,
+        48
+    ],
+    "login locations": [
+        [
+            -118.473258,
+            34.030247
+        ]
+    ],
+    "relationships": []
 }

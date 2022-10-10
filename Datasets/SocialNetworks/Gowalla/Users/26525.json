@@ -5,7 +5,22 @@
     "email": "rhubbard@hotmail.com",
     "birthdate": "1945-03-20",
     "phone": "(784)751-3325",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        61,
+        42,
+        45,
+        12,
+        28,
+        15,
+        19,
+        51
+    ],
+    "login locations": [
+        [
+            -122.040266,
+            36.9731
+        ]
+    ],
+    "relationships": []
 }

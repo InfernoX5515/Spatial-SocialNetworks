@@ -5,7 +5,27 @@
     "email": "ortizjames@gmail.com",
     "birthdate": "1909-08-01",
     "phone": "001-039-088-5907x668",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        21,
+        52,
+        12,
+        56,
+        15,
+        49,
+        7,
+        68,
+        53,
+        68,
+        7,
+        40,
+        44
+    ],
+    "login locations": [
+        [
+            -122.140324,
+            38.282426
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,34 @@
     "email": "allison34@hotmail.com",
     "birthdate": "1955-09-24",
     "phone": "845.800.4623",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        63,
+        34,
+        36,
+        42,
+        18,
+        69,
+        0,
+        73,
+        44
+    ],
+    "login locations": [
+        [
+            -118.334837,
+            34.028102
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                34070,
+                0.151685393258
+            ],
+            [
+                5936,
+                0.0344827586207
+            ]
+        ]
+    ]
 }

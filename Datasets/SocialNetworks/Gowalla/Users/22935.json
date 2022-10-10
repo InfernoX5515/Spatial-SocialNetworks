@@ -5,7 +5,20 @@
     "email": "ogarrett@hotmail.com",
     "birthdate": "1935-10-01",
     "phone": "306-055-2947",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        71,
+        56,
+        46,
+        5,
+        24,
+        21
+    ],
+    "login locations": [
+        [
+            -122.090711,
+            37.614061
+        ]
+    ],
+    "relationships": []
 }

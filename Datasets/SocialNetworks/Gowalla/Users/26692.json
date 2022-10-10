@@ -5,7 +5,28 @@
     "email": "waterssergio@yahoo.com",
     "birthdate": "2005-06-25",
     "phone": "001-210-103-5086",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        16,
+        8,
+        14,
+        57,
+        19,
+        44,
+        11,
+        28,
+        48,
+        17,
+        32,
+        43,
+        64,
+        32
+    ],
+    "login locations": [
+        [
+            -117.164206,
+            32.739053
+        ]
+    ],
+    "relationships": []
 }

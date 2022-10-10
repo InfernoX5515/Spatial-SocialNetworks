@@ -5,7 +5,25 @@
     "email": "alyssa45@gmail.com",
     "birthdate": "2022-03-09",
     "phone": "152-383-2577x39520",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        19,
+        18,
+        51,
+        33,
+        44,
+        56,
+        65,
+        47,
+        36,
+        74,
+        30
+    ],
+    "login locations": [
+        [
+            -118.336804,
+            34.083485
+        ]
+    ],
+    "relationships": []
 }

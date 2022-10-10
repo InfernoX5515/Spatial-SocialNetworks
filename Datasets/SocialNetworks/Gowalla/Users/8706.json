@@ -5,7 +5,33 @@
     "email": "shudson@gmail.com",
     "birthdate": "1910-11-22",
     "phone": "+1-891-949-5445",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        40,
+        0,
+        53,
+        32,
+        61,
+        62,
+        42,
+        43
+    ],
+    "login locations": [
+        [
+            -122.17655,
+            37.757456
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5332,
+                0.0454545454545
+            ],
+            [
+                55077,
+                0.0555555555556
+            ]
+        ]
+    ]
 }

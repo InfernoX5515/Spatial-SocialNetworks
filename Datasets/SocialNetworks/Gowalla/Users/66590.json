@@ -5,7 +5,21 @@
     "email": "melissayoung@gmail.com",
     "birthdate": "1990-12-08",
     "phone": "001-629-382-9047x58296",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        55,
+        39,
+        52,
+        29,
+        55,
+        29,
+        67
+    ],
+    "login locations": [
+        [
+            -118.267246,
+            34.063846
+        ]
+    ],
+    "relationships": []
 }

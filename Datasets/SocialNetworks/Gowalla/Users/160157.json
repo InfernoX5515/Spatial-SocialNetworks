@@ -5,7 +5,27 @@
     "email": "reneegriffin@yahoo.com",
     "birthdate": "1951-09-27",
     "phone": "626.370.7385x814",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        66,
+        15,
+        9,
+        6,
+        70,
+        7,
+        53,
+        43,
+        54,
+        75,
+        10,
+        71,
+        10
+    ],
+    "login locations": [
+        [
+            -118.308772,
+            34.191465
+        ]
+    ],
+    "relationships": []
 }

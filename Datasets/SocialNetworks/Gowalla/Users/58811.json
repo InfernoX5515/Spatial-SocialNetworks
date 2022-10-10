@@ -5,7 +5,20 @@
     "email": "wmorales@yahoo.com",
     "birthdate": "1992-06-06",
     "phone": "362.001.2180",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        50,
+        14,
+        4,
+        11,
+        26,
+        59
+    ],
+    "login locations": [
+        [
+            -121.954266,
+            37.093272
+        ]
+    ],
+    "relationships": []
 }

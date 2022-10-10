@@ -5,7 +5,17 @@
     "email": "kbrewer@hotmail.com",
     "birthdate": "1956-01-25",
     "phone": "001-695-842-4476x467",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        34,
+        11,
+        8
+    ],
+    "login locations": [
+        [
+            -118.381757,
+            34.065301
+        ]
+    ],
+    "relationships": []
 }

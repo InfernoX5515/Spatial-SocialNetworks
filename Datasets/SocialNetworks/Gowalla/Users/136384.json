@@ -5,7 +5,23 @@
     "email": "glennramirez@hotmail.com",
     "birthdate": "1945-12-30",
     "phone": "(625)493-7797",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        13,
+        41,
+        16,
+        59,
+        48,
+        68,
+        22,
+        8,
+        33
+    ],
+    "login locations": [
+        [
+            -122.285147,
+            37.536975
+        ]
+    ],
+    "relationships": []
 }

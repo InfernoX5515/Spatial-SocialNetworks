@@ -5,7 +5,30 @@
     "email": "stephen81@hotmail.com",
     "birthdate": "1996-04-10",
     "phone": "121-404-9822",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        34,
+        3,
+        16,
+        9,
+        72
+    ],
+    "login locations": [
+        [
+            -122.275598,
+            37.831319
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                477,
+                0.0337268128162
+            ],
+            [
+                4259,
+                0.0230769230769
+            ]
+        ]
+    ]
 }

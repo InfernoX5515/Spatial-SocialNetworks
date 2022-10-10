@@ -5,7 +5,39 @@
     "email": "robertponce@hotmail.com",
     "birthdate": "1940-08-31",
     "phone": "(708)426-2220x01571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        41,
+        26,
+        28,
+        3,
+        7,
+        19,
+        12,
+        64,
+        24,
+        36,
+        42,
+        5,
+        20,
+        66
+    ],
+    "login locations": [
+        [
+            -116.600244,
+            33.860218
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                359,
+                0.01
+            ],
+            [
+                359,
+                0.01
+            ]
+        ]
+    ]
 }

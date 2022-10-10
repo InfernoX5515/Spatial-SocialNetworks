@@ -5,7 +5,24 @@
     "email": "hhancock@gmail.com",
     "birthdate": "1952-04-26",
     "phone": "+1-417-137-4011x2169",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        67,
+        31,
+        66,
+        62,
+        33,
+        25,
+        63,
+        39,
+        52,
+        72
+    ],
+    "login locations": [
+        [
+            -122.32267,
+            37.765845
+        ]
+    ],
+    "relationships": []
 }

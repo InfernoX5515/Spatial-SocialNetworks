@@ -5,7 +5,28 @@
     "email": "harrisallison@gmail.com",
     "birthdate": "1959-01-02",
     "phone": "(750)734-5893x2515",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        13,
+        19,
+        29,
+        33,
+        6,
+        37,
+        10,
+        16,
+        56,
+        28,
+        7,
+        21,
+        47,
+        41
+    ],
+    "login locations": [
+        [
+            -117.159228,
+            32.71721
+        ]
+    ],
+    "relationships": []
 }

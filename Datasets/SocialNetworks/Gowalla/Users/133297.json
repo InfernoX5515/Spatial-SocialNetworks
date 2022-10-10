@@ -5,7 +5,18 @@
     "email": "lewisjoshua@gmail.com",
     "birthdate": "1984-03-31",
     "phone": "+1-706-739-5432",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        14,
+        53,
+        51,
+        49
+    ],
+    "login locations": [
+        [
+            -122.213415,
+            37.476841
+        ]
+    ],
+    "relationships": []
 }

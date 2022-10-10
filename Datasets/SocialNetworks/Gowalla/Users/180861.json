@@ -5,7 +5,23 @@
     "email": "anthony44@gmail.com",
     "birthdate": "1930-03-24",
     "phone": "549-980-7956",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        67,
+        62,
+        32,
+        7,
+        56,
+        59,
+        13,
+        12,
+        15
+    ],
+    "login locations": [
+        [
+            -122.466402,
+            37.7622
+        ]
+    ],
+    "relationships": []
 }

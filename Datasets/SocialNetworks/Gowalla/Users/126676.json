@@ -5,7 +5,17 @@
     "email": "samantha71@hotmail.com",
     "birthdate": "1937-09-24",
     "phone": "0393332939",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        1,
+        39,
+        67
+    ],
+    "login locations": [
+        [
+            -121.344678,
+            38.759052
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "lynn66@hotmail.com",
     "birthdate": "1975-05-06",
     "phone": "000-620-7092",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        30,
+        7,
+        2,
+        68,
+        39,
+        10,
+        6,
+        5,
+        2,
+        26
+    ],
+    "login locations": [
+        [
+            -118.455084,
+            34.023313
+        ]
+    ],
+    "relationships": []
 }

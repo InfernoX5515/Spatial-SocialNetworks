@@ -5,7 +5,19 @@
     "email": "sherrycharles@gmail.com",
     "birthdate": "1912-11-01",
     "phone": "001-413-227-4169x6799",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        56,
+        72,
+        9,
+        45,
+        0
+    ],
+    "login locations": [
+        [
+            -117.174602,
+            34.045177
+        ]
+    ],
+    "relationships": []
 }

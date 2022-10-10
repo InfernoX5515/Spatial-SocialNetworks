@@ -5,7 +5,28 @@
     "email": "tonya82@gmail.com",
     "birthdate": "1909-05-09",
     "phone": "137-012-9188x4081",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        0,
+        62,
+        19,
+        6,
+        16,
+        26,
+        14,
+        40,
+        9,
+        57,
+        9,
+        16,
+        20,
+        2
+    ],
+    "login locations": [
+        [
+            -117.273736,
+            33.055408
+        ]
+    ],
+    "relationships": []
 }

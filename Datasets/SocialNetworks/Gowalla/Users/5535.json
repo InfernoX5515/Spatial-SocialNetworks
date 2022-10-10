@@ -5,7 +5,37 @@
     "email": "brandon14@hotmail.com",
     "birthdate": "2020-12-15",
     "phone": "+1-890-476-2721",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        3,
+        36,
+        65,
+        73,
+        16,
+        42,
+        32,
+        8,
+        7,
+        17,
+        73,
+        61
+    ],
+    "login locations": [
+        [
+            -122.417422,
+            37.758329
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4820,
+                0.01
+            ],
+            [
+                4820,
+                0.01
+            ]
+        ]
+    ]
 }

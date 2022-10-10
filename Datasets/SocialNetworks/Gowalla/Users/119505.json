@@ -5,7 +5,23 @@
     "email": "ccook@hotmail.com",
     "birthdate": "1922-08-01",
     "phone": "001-911-351-8392x219",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.217138,
+            34.039693
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                119503,
+                0.0235294117647
+            ],
+            [
+                119504,
+                0.01
+            ]
+        ]
+    ]
 }

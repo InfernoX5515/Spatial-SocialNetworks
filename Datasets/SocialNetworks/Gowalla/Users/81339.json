@@ -5,7 +5,27 @@
     "email": "tracylarson@yahoo.com",
     "birthdate": "1916-08-24",
     "phone": "421.341.2798x890",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        27,
+        62,
+        5,
+        5,
+        58,
+        47,
+        67,
+        45,
+        28,
+        47,
+        10,
+        3,
+        51
+    ],
+    "login locations": [
+        [
+            -118.322441,
+            34.08242
+        ]
+    ],
+    "relationships": []
 }

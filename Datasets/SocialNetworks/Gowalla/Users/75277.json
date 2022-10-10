@@ -5,7 +5,23 @@
     "email": "mwalker@yahoo.com",
     "birthdate": "1936-06-30",
     "phone": "065.411.9072",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.109684,
+            37.416096
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5392,
+                0.0307692307692
+            ],
+            [
+                5392,
+                0.0307692307692
+            ]
+        ]
+    ]
 }

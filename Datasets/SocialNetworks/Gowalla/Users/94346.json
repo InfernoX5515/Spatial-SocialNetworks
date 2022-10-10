@@ -5,7 +5,17 @@
     "email": "cwilkins@yahoo.com",
     "birthdate": "2004-03-30",
     "phone": "374.411.0492",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        41,
+        71,
+        2
+    ],
+    "login locations": [
+        [
+            -122.054868,
+            37.389394
+        ]
+    ],
+    "relationships": []
 }

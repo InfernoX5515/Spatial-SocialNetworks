@@ -5,7 +5,21 @@
     "email": "gregory60@yahoo.com",
     "birthdate": "1966-10-18",
     "phone": "+1-938-062-8168",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        30,
+        1,
+        61,
+        61,
+        26,
+        58,
+        62
+    ],
+    "login locations": [
+        [
+            -122.019719,
+            37.364117
+        ]
+    ],
+    "relationships": []
 }

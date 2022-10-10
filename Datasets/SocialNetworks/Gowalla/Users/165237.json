@@ -5,7 +5,25 @@
     "email": "vleblanc@yahoo.com",
     "birthdate": "2015-12-07",
     "phone": "+1-657-232-0967x06442",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        40,
+        47,
+        11,
+        24,
+        1,
+        23,
+        65,
+        14,
+        33,
+        34,
+        3
+    ],
+    "login locations": [
+        [
+            -121.932356,
+            37.695063
+        ]
+    ],
+    "relationships": []
 }

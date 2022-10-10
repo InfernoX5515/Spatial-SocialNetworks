@@ -5,7 +5,25 @@
     "email": "kenneth78@gmail.com",
     "birthdate": "1935-04-16",
     "phone": "+1-178-741-3960x640",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        20,
+        54,
+        70,
+        27,
+        65,
+        37,
+        55,
+        58,
+        31,
+        65,
+        39
+    ],
+    "login locations": [
+        [
+            -122.404445,
+            37.796344
+        ]
+    ],
+    "relationships": []
 }

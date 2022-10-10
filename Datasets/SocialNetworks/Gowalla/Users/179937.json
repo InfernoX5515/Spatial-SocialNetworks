@@ -5,7 +5,16 @@
     "email": "monicajohnson@gmail.com",
     "birthdate": "1909-11-27",
     "phone": "7332373719",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        19,
+        37
+    ],
+    "login locations": [
+        [
+            -118.507676,
+            34.160534
+        ]
+    ],
+    "relationships": []
 }

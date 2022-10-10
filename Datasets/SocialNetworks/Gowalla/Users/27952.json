@@ -5,7 +5,16 @@
     "email": "alan82@hotmail.com",
     "birthdate": "2011-03-08",
     "phone": "548-656-1154",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        37,
+        65
+    ],
+    "login locations": [
+        [
+            -117.011749,
+            32.794217
+        ]
+    ],
+    "relationships": []
 }

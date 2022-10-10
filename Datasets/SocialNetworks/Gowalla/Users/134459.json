@@ -5,7 +5,19 @@
     "email": "ramirezalison@yahoo.com",
     "birthdate": "1942-07-07",
     "phone": "001-697-720-7132x9296",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        61,
+        30,
+        60,
+        8,
+        18
+    ],
+    "login locations": [
+        [
+            -122.366681,
+            37.695567
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "bortega@yahoo.com",
     "birthdate": "1937-09-06",
     "phone": "811.066.9359x902",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        56,
+        72,
+        4,
+        1,
+        3,
+        75,
+        35,
+        8,
+        66,
+        9,
+        23,
+        59,
+        10
+    ],
+    "login locations": [
+        [
+            -117.220956,
+            33.109092
+        ]
+    ],
+    "relationships": []
 }

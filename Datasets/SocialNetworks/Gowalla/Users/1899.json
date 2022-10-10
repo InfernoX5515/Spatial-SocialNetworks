@@ -5,7 +5,31 @@
     "email": "kenneth34@gmail.com",
     "birthdate": "2009-12-09",
     "phone": "054.489.5830x44248",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        34,
+        56,
+        51,
+        33,
+        33,
+        58
+    ],
+    "login locations": [
+        [
+            -122.402999,
+            37.785172
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5479,
+                0.0909090909091
+            ],
+            [
+                5479,
+                0.0909090909091
+            ]
+        ]
+    ]
 }

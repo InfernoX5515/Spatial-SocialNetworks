@@ -5,7 +5,28 @@
     "email": "tammy66@gmail.com",
     "birthdate": "1987-04-06",
     "phone": "(135)224-8708x783",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        64,
+        52,
+        21,
+        68,
+        11,
+        46,
+        43,
+        6,
+        54,
+        14,
+        49,
+        5,
+        45,
+        53
+    ],
+    "login locations": [
+        [
+            -117.164123,
+            33.534798
+        ]
+    ],
+    "relationships": []
 }

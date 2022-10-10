@@ -5,7 +5,14 @@
     "email": "ievans@yahoo.com",
     "birthdate": "2014-12-22",
     "phone": "001-975-135-0211x887",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15
+    ],
+    "login locations": [
+        [
+            -117.178412,
+            32.689399
+        ]
+    ],
+    "relationships": []
 }

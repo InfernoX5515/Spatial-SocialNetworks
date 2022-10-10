@@ -5,7 +5,19 @@
     "email": "benjaminbutler@gmail.com",
     "birthdate": "1947-11-14",
     "phone": "001-867-347-6277x423",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        38,
+        68,
+        50,
+        66,
+        67
+    ],
+    "login locations": [
+        [
+            -118.194086,
+            34.115874
+        ]
+    ],
+    "relationships": []
 }

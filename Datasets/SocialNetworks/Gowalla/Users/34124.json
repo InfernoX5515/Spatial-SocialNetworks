@@ -5,7 +5,27 @@
     "email": "thomashenry@gmail.com",
     "birthdate": "1967-07-21",
     "phone": "802-750-5667x97667",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        13,
+        43,
+        67,
+        55,
+        41,
+        51,
+        22,
+        29,
+        6,
+        36,
+        65,
+        31,
+        69
+    ],
+    "login locations": [
+        [
+            -122.022587,
+            37.397382
+        ]
+    ],
+    "relationships": []
 }

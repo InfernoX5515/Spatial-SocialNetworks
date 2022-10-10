@@ -5,7 +5,27 @@
     "email": "dustindawson@hotmail.com",
     "birthdate": "1941-04-03",
     "phone": "788.094.9376",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        62,
+        4,
+        42,
+        48,
+        32,
+        35,
+        37,
+        25,
+        33,
+        13,
+        55,
+        57,
+        62
+    ],
+    "login locations": [
+        [
+            -122.185934,
+            37.457823
+        ]
+    ],
+    "relationships": []
 }

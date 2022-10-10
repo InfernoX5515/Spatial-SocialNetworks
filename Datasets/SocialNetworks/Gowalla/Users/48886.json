@@ -5,7 +5,27 @@
     "email": "espencer@hotmail.com",
     "birthdate": "1952-10-31",
     "phone": "077.599.5764x66912",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        26,
+        69
+    ],
+    "login locations": [
+        [
+            -122.042034,
+            38.249328
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                142471,
+                0.142857142857
+            ],
+            [
+                142472,
+                0.333333333333
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "lisa23@hotmail.com",
     "birthdate": "1913-07-01",
     "phone": "670.970.0777x088",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        51,
+        47,
+        4,
+        9,
+        56,
+        36,
+        25,
+        23,
+        14,
+        26,
+        4,
+        0,
+        72
+    ],
+    "login locations": [
+        [
+            -122.166547,
+            37.430979
+        ]
+    ],
+    "relationships": []
 }

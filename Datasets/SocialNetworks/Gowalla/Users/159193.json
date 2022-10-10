@@ -5,7 +5,22 @@
     "email": "cynthiajohnston@gmail.com",
     "birthdate": "1934-01-03",
     "phone": "(636)979-1904x5563",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        49,
+        14,
+        71,
+        72,
+        17,
+        38,
+        31,
+        51
+    ],
+    "login locations": [
+        [
+            -118.46389,
+            34.020228
+        ]
+    ],
+    "relationships": []
 }

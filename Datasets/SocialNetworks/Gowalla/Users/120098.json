@@ -5,7 +5,12 @@
     "email": "brownregina@yahoo.com",
     "birthdate": "1973-12-23",
     "phone": "770-913-7278",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.174738,
+            38.061468
+        ]
+    ],
+    "relationships": []
 }

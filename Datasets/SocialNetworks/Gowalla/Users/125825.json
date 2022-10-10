@@ -5,7 +5,14 @@
     "email": "andersondouglas@gmail.com",
     "birthdate": "1928-09-23",
     "phone": "7773187977",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74
+    ],
+    "login locations": [
+        [
+            -119.027159,
+            34.201969
+        ]
+    ],
+    "relationships": []
 }

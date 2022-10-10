@@ -5,7 +5,23 @@
     "email": "sara84@hotmail.com",
     "birthdate": "1912-05-03",
     "phone": "957-928-5827",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        10,
+        30,
+        21,
+        30,
+        15,
+        64,
+        10,
+        54,
+        44
+    ],
+    "login locations": [
+        [
+            -122.328378,
+            37.761698
+        ]
+    ],
+    "relationships": []
 }

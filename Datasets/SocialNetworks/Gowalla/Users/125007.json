@@ -5,7 +5,16 @@
     "email": "ritterjennifer@yahoo.com",
     "birthdate": "1955-04-23",
     "phone": "673.601.0659",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        0,
+        15
+    ],
+    "login locations": [
+        [
+            -118.370165,
+            34.082103
+        ]
+    ],
+    "relationships": []
 }

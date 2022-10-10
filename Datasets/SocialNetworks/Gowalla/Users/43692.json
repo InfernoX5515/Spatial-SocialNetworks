@@ -5,7 +5,28 @@
     "email": "juan23@hotmail.com",
     "birthdate": "1954-02-22",
     "phone": "001-374-687-7130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        23,
+        65,
+        49,
+        53,
+        9,
+        32,
+        31,
+        31,
+        63,
+        65,
+        69,
+        0,
+        18,
+        16
+    ],
+    "login locations": [
+        [
+            -117.171542,
+            33.565475
+        ]
+    ],
+    "relationships": []
 }

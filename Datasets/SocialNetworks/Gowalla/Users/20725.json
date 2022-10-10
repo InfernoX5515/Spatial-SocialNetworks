@@ -5,7 +5,25 @@
     "email": "taylorgary@hotmail.com",
     "birthdate": "2021-12-23",
     "phone": "(702)837-9992",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39
+    ],
+    "login locations": [
+        [
+            -118.243731,
+            34.046929
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7690,
+                0.056338028169
+            ],
+            [
+                7690,
+                0.056338028169
+            ]
+        ]
+    ]
 }

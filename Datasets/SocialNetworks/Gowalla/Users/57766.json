@@ -5,7 +5,23 @@
     "email": "patricia15@hotmail.com",
     "birthdate": "1970-09-12",
     "phone": "(659)672-4031",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.309545,
+            33.083976
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6320,
+                0.01
+            ],
+            [
+                6320,
+                0.01
+            ]
+        ]
+    ]
 }

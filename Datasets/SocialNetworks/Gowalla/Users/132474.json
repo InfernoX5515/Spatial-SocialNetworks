@@ -5,7 +5,14 @@
     "email": "oosborne@gmail.com",
     "birthdate": "1923-09-28",
     "phone": "+1-330-365-2512x2552",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57
+    ],
+    "login locations": [
+        [
+            -117.900245,
+            33.661163
+        ]
+    ],
+    "relationships": []
 }

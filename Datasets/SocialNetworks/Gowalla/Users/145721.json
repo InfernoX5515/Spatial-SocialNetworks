@@ -5,7 +5,23 @@
     "email": "youngdalton@gmail.com",
     "birthdate": "2012-01-13",
     "phone": "1993947842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        68,
+        45,
+        17,
+        8,
+        13,
+        38,
+        9,
+        2,
+        38
+    ],
+    "login locations": [
+        [
+            -118.302252,
+            34.101807
+        ]
+    ],
+    "relationships": []
 }

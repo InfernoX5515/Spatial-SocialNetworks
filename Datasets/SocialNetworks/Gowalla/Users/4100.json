@@ -5,7 +5,12 @@
     "email": "petergarcia@gmail.com",
     "birthdate": "1909-11-17",
     "phone": "246.647.3175",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.416051,
+            37.768232
+        ]
+    ],
+    "relationships": []
 }

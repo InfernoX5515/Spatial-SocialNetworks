@@ -5,7 +5,12 @@
     "email": "jonathan65@yahoo.com",
     "birthdate": "1934-10-21",
     "phone": "001-300-813-1325",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.415831,
+            37.775664
+        ]
+    ],
+    "relationships": []
 }

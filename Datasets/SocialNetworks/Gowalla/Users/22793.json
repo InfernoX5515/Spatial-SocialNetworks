@@ -5,7 +5,12 @@
     "email": "jefferyharrison@hotmail.com",
     "birthdate": "1964-12-12",
     "phone": "001-794-317-3310",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.408142,
+            37.785553
+        ]
+    ],
+    "relationships": []
 }

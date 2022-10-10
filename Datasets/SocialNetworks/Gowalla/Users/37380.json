@@ -5,7 +5,21 @@
     "email": "alison78@yahoo.com",
     "birthdate": "2017-10-16",
     "phone": "(662)351-1454",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        5,
+        64,
+        44,
+        34,
+        4,
+        31,
+        44
+    ],
+    "login locations": [
+        [
+            -118.34999,
+            34.078961
+        ]
+    ],
+    "relationships": []
 }

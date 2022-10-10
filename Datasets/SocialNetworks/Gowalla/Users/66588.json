@@ -5,7 +5,12 @@
     "email": "fuentesjames@gmail.com",
     "birthdate": "1912-07-16",
     "phone": "821.480.6871",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.403586,
+            37.78852
+        ]
+    ],
+    "relationships": []
 }

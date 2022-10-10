@@ -5,7 +5,26 @@
     "email": "andrewpatton@yahoo.com",
     "birthdate": "1951-06-12",
     "phone": "457.086.5616x5586",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        49,
+        70,
+        66,
+        75,
+        62,
+        25,
+        49,
+        15,
+        70,
+        34,
+        67,
+        42
+    ],
+    "login locations": [
+        [
+            -122.019027,
+            37.354558
+        ]
+    ],
+    "relationships": []
 }

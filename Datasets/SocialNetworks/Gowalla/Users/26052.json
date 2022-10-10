@@ -5,7 +5,18 @@
     "email": "janet24@gmail.com",
     "birthdate": "2018-08-12",
     "phone": "406.847.0215x41471",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        15,
+        61,
+        9,
+        71
+    ],
+    "login locations": [
+        [
+            -118.247901,
+            34.129101
+        ]
+    ],
+    "relationships": []
 }

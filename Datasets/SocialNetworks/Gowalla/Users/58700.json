@@ -5,7 +5,23 @@
     "email": "russell61@hotmail.com",
     "birthdate": "1932-07-12",
     "phone": "(370)420-3893x1762",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        50,
+        21,
+        27,
+        47,
+        63,
+        44,
+        67,
+        26,
+        10
+    ],
+    "login locations": [
+        [
+            -118.471065,
+            34.006089
+        ]
+    ],
+    "relationships": []
 }

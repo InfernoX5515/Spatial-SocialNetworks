@@ -5,7 +5,38 @@
     "email": "bonniejones@yahoo.com",
     "birthdate": "1955-03-31",
     "phone": "613.622.0035",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        22,
+        60,
+        59,
+        36,
+        31,
+        27,
+        13,
+        48,
+        21,
+        40,
+        28,
+        74,
+        71
+    ],
+    "login locations": [
+        [
+            -121.296201,
+            38.616046
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                153304,
+                0.0141843971631
+            ],
+            [
+                153304,
+                0.0141843971631
+            ]
+        ]
+    ]
 }

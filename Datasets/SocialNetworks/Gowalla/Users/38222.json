@@ -5,7 +5,16 @@
     "email": "lsaunders@yahoo.com",
     "birthdate": "1940-03-24",
     "phone": "571.551.2875x7124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        33,
+        46
+    ],
+    "login locations": [
+        [
+            -121.440567,
+            38.404958
+        ]
+    ],
+    "relationships": []
 }

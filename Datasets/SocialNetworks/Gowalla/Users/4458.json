@@ -5,7 +5,17 @@
     "email": "garyrichard@hotmail.com",
     "birthdate": "2022-01-03",
     "phone": "+1-832-629-3503x184",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        22,
+        35,
+        1
+    ],
+    "login locations": [
+        [
+            -122.398192,
+            37.742252
+        ]
+    ],
+    "relationships": []
 }

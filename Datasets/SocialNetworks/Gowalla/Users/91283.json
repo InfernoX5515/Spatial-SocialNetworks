@@ -5,7 +5,25 @@
     "email": "stephanieedwards@yahoo.com",
     "birthdate": "1992-05-04",
     "phone": "(915)488-7084x5880",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        64,
+        19,
+        14,
+        11,
+        55,
+        44,
+        42,
+        63,
+        31,
+        1,
+        45
+    ],
+    "login locations": [
+        [
+            -118.316826,
+            34.052625
+        ]
+    ],
+    "relationships": []
 }

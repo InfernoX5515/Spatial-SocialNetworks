@@ -5,7 +5,17 @@
     "email": "wilsonlarry@hotmail.com",
     "birthdate": "2008-07-27",
     "phone": "(227)351-4997x615",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        32,
+        37,
+        2
+    ],
+    "login locations": [
+        [
+            -122.423126,
+            37.767564
+        ]
+    ],
+    "relationships": []
 }

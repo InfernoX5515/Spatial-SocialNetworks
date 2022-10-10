@@ -5,7 +5,18 @@
     "email": "vargasjared@gmail.com",
     "birthdate": "1979-10-11",
     "phone": "958-443-1822x7428",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        48,
+        3,
+        75,
+        69
+    ],
+    "login locations": [
+        [
+            -122.36346,
+            37.667804
+        ]
+    ],
+    "relationships": []
 }

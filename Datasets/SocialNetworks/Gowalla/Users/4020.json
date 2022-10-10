@@ -5,7 +5,14 @@
     "email": "nicolewatts@gmail.com",
     "birthdate": "1999-06-18",
     "phone": "001-667-287-0039x535",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25
+    ],
+    "login locations": [
+        [
+            -122.413296,
+            37.777237
+        ]
+    ],
+    "relationships": []
 }

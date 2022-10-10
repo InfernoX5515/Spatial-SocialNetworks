@@ -5,7 +5,16 @@
     "email": "jharper@yahoo.com",
     "birthdate": "1920-10-28",
     "phone": "8453625167",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        25,
+        46
+    ],
+    "login locations": [
+        [
+            -118.290146,
+            34.099778
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "johnsondiane@gmail.com",
     "birthdate": "1939-12-08",
     "phone": "+1-864-552-5477x5796",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        75,
+        45,
+        68,
+        14
+    ],
+    "login locations": [
+        [
+            -121.89469,
+            37.319047
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "annettebeck@hotmail.com",
     "birthdate": "1910-10-15",
     "phone": "281.226.5383x4757",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        2,
+        1,
+        58,
+        60,
+        57,
+        37,
+        23,
+        39,
+        15
+    ],
+    "login locations": [
+        [
+            -122.556793,
+            37.963546
+        ]
+    ],
+    "relationships": []
 }

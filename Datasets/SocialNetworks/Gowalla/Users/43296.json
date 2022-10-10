@@ -5,7 +5,14 @@
     "email": "michael13@yahoo.com",
     "birthdate": "2020-05-15",
     "phone": "+1-466-098-7224x55540",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51
+    ],
+    "login locations": [
+        [
+            -120.57337,
+            37.348401
+        ]
+    ],
+    "relationships": []
 }

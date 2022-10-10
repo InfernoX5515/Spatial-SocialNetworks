@@ -5,7 +5,21 @@
     "email": "pgarcia@gmail.com",
     "birthdate": "1951-09-01",
     "phone": "624-495-5541x7284",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        41,
+        32,
+        44,
+        71,
+        16,
+        31,
+        74
+    ],
+    "login locations": [
+        [
+            -119.856468,
+            34.430939
+        ]
+    ],
+    "relationships": []
 }

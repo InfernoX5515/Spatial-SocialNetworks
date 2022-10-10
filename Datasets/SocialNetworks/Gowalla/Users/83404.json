@@ -5,7 +5,16 @@
     "email": "teresagarcia@hotmail.com",
     "birthdate": "1987-07-16",
     "phone": "201-761-0766",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        57,
+        56
+    ],
+    "login locations": [
+        [
+            -122.235681,
+            37.700707
+        ]
+    ],
+    "relationships": []
 }

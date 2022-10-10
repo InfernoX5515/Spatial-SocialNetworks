@@ -5,7 +5,28 @@
     "email": "warrendanielle@hotmail.com",
     "birthdate": "1996-08-28",
     "phone": "122.391.8173x50347",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        31,
+        14,
+        27
+    ],
+    "login locations": [
+        [
+            -117.865449,
+            33.887473
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22423,
+                0.2
+            ],
+            [
+                78795,
+                0.25
+            ]
+        ]
+    ]
 }

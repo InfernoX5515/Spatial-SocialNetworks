@@ -5,7 +5,23 @@
     "email": "mwatson@gmail.com",
     "birthdate": "1965-05-03",
     "phone": "001-483-100-7889x0387",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        57,
+        68,
+        16,
+        6,
+        51,
+        47,
+        53,
+        41,
+        23
+    ],
+    "login locations": [
+        [
+            -121.989188,
+            37.132019
+        ]
+    ],
+    "relationships": []
 }

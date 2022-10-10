@@ -5,7 +5,25 @@
     "email": "eric40@hotmail.com",
     "birthdate": "2002-06-02",
     "phone": "191.496.9561x1763",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        42,
+        56,
+        10,
+        45,
+        2,
+        75,
+        52,
+        27,
+        69,
+        1,
+        64
+    ],
+    "login locations": [
+        [
+            -121.390948,
+            38.586277
+        ]
+    ],
+    "relationships": []
 }

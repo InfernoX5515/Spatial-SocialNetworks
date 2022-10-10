@@ -5,7 +5,16 @@
     "email": "roger55@yahoo.com",
     "birthdate": "1940-12-05",
     "phone": "978-173-9351x11398",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        71,
+        15
+    ],
+    "login locations": [
+        [
+            -122.279985,
+            37.768826
+        ]
+    ],
+    "relationships": []
 }

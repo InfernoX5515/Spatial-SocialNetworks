@@ -5,7 +5,26 @@
     "email": "hadams@hotmail.com",
     "birthdate": "2006-04-25",
     "phone": "001-677-951-4604x214",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        34,
+        47,
+        41,
+        50,
+        41,
+        71,
+        50,
+        75,
+        59,
+        45,
+        35,
+        23
+    ],
+    "login locations": [
+        [
+            -117.142961,
+            32.762582
+        ]
+    ],
+    "relationships": []
 }

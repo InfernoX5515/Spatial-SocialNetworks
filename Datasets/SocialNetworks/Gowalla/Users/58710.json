@@ -5,7 +5,20 @@
     "email": "jasonjohnson@gmail.com",
     "birthdate": "1917-06-08",
     "phone": "001-908-310-5407",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        1,
+        73,
+        73,
+        29,
+        16,
+        9
+    ],
+    "login locations": [
+        [
+            -122.454352,
+            37.783852
+        ]
+    ],
+    "relationships": []
 }

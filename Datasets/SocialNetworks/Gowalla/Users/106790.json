@@ -5,7 +5,16 @@
     "email": "teresa05@yahoo.com",
     "birthdate": "1951-05-22",
     "phone": "2716564465",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        19,
+        14
+    ],
+    "login locations": [
+        [
+            -121.275618,
+            38.694269
+        ]
+    ],
+    "relationships": []
 }

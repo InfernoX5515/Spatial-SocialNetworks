@@ -5,7 +5,12 @@
     "email": "cheyennegallagher@yahoo.com",
     "birthdate": "1977-12-19",
     "phone": "(214)788-3668",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.826696,
+            33.684077
+        ]
+    ],
+    "relationships": []
 }

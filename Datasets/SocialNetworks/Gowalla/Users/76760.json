@@ -5,7 +5,22 @@
     "email": "mathewcampos@gmail.com",
     "birthdate": "1950-08-01",
     "phone": "001-478-310-1616x549",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        8,
+        23,
+        0,
+        35,
+        35,
+        26,
+        47,
+        42
+    ],
+    "login locations": [
+        [
+            -122.010353,
+            37.361793
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,33 @@
     "email": "lmoses@yahoo.com",
     "birthdate": "1949-04-27",
     "phone": "+1-566-571-6306",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        18,
+        70,
+        39,
+        51,
+        12,
+        38,
+        74,
+        75
+    ],
+    "login locations": [
+        [
+            -122.409319,
+            37.761078
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5091,
+                0.025
+            ],
+            [
+                5091,
+                0.025
+            ]
+        ]
+    ]
 }

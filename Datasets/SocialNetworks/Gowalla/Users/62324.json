@@ -5,7 +5,23 @@
     "email": "taradelgado@yahoo.com",
     "birthdate": "2014-08-12",
     "phone": "(732)287-8636x224",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        55,
+        46,
+        33,
+        56,
+        75,
+        7,
+        56,
+        3,
+        69
+    ],
+    "login locations": [
+        [
+            -121.444285,
+            38.583136
+        ]
+    ],
+    "relationships": []
 }

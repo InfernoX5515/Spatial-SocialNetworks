@@ -5,7 +5,12 @@
     "email": "nathanduke@hotmail.com",
     "birthdate": "1966-09-27",
     "phone": "461-165-1110x315",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.238407,
+            34.066388
+        ]
+    ],
+    "relationships": []
 }

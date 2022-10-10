@@ -5,7 +5,27 @@
     "email": "judithcontreras@yahoo.com",
     "birthdate": "1985-02-15",
     "phone": "289-429-3005x106",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        20,
+        27,
+        52,
+        22,
+        53,
+        23,
+        27,
+        12,
+        31,
+        4,
+        19,
+        43,
+        23
+    ],
+    "login locations": [
+        [
+            -121.411049,
+            38.641032
+        ]
+    ],
+    "relationships": []
 }

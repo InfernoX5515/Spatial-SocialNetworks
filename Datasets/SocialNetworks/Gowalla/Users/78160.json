@@ -5,7 +5,28 @@
     "email": "gdurham@yahoo.com",
     "birthdate": "1962-06-17",
     "phone": "+1-697-490-1944x3010",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        16,
+        19,
+        73,
+        31,
+        46,
+        0,
+        33,
+        4,
+        20,
+        32,
+        68,
+        57,
+        55,
+        46
+    ],
+    "login locations": [
+        [
+            -122.009063,
+            37.342295
+        ]
+    ],
+    "relationships": []
 }

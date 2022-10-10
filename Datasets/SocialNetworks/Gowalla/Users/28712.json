@@ -5,7 +5,26 @@
     "email": "carolinethompson@gmail.com",
     "birthdate": "2016-10-01",
     "phone": "(930)535-0585x0421",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        24
+    ],
+    "login locations": [
+        [
+            -122.372888,
+            40.59289
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7547,
+                0.08
+            ],
+            [
+                121148,
+                0.0769230769231
+            ]
+        ]
+    ]
 }

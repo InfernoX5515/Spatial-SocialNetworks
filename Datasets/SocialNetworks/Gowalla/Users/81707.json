@@ -5,7 +5,21 @@
     "email": "john18@yahoo.com",
     "birthdate": "1984-11-21",
     "phone": "109.332.5436",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        26,
+        68,
+        5,
+        32,
+        50,
+        48,
+        10
+    ],
+    "login locations": [
+        [
+            -122.054982,
+            37.38731
+        ]
+    ],
+    "relationships": []
 }

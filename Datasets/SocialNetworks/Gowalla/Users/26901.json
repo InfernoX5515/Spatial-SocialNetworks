@@ -5,7 +5,33 @@
     "email": "sarafloyd@gmail.com",
     "birthdate": "2005-12-27",
     "phone": "540.713.3358",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        12,
+        51,
+        13,
+        43,
+        64,
+        19,
+        12,
+        9
+    ],
+    "login locations": [
+        [
+            -122.18165,
+            37.747678
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6213,
+                0.013698630137
+            ],
+            [
+                6213,
+                0.013698630137
+            ]
+        ]
+    ]
 }

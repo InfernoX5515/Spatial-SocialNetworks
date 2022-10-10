@@ -5,7 +5,25 @@
     "email": "brownsheila@gmail.com",
     "birthdate": "1909-10-19",
     "phone": "4919648300",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        1,
+        32,
+        33,
+        48,
+        28,
+        9,
+        38,
+        40,
+        60,
+        2,
+        29
+    ],
+    "login locations": [
+        [
+            -121.786323,
+            37.263595
+        ]
+    ],
+    "relationships": []
 }

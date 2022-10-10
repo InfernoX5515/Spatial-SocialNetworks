@@ -5,7 +5,33 @@
     "email": "allison33@yahoo.com",
     "birthdate": "1991-09-05",
     "phone": "(319)976-2368x948",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        4,
+        9,
+        31,
+        6,
+        43,
+        70,
+        12,
+        13
+    ],
+    "login locations": [
+        [
+            -122.406988,
+            37.757204
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                23132,
+                0.0740740740741
+            ],
+            [
+                24156,
+                0.051724137931
+            ]
+        ]
+    ]
 }

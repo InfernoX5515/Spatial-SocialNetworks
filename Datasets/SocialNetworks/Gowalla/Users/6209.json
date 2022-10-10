@@ -5,7 +5,16 @@
     "email": "miranda71@yahoo.com",
     "birthdate": "1929-05-22",
     "phone": "533.122.9513x8498",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        64,
+        39
+    ],
+    "login locations": [
+        [
+            -122.287951,
+            37.871001
+        ]
+    ],
+    "relationships": []
 }

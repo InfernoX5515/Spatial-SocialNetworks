@@ -5,7 +5,24 @@
     "email": "larry66@hotmail.com",
     "birthdate": "1973-11-08",
     "phone": "332-382-3774x510",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        41,
+        47,
+        60,
+        50,
+        47,
+        3,
+        41,
+        44,
+        57,
+        24
+    ],
+    "login locations": [
+        [
+            -118.356183,
+            34.048612
+        ]
+    ],
+    "relationships": []
 }

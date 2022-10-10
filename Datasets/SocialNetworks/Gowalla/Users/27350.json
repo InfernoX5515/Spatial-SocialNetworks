@@ -5,7 +5,15 @@
     "email": "vbrown@hotmail.com",
     "birthdate": "1908-10-02",
     "phone": "+1-280-829-5298x8425",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        22
+    ],
+    "login locations": [
+        [
+            -118.216083,
+            34.175945
+        ]
+    ],
+    "relationships": []
 }

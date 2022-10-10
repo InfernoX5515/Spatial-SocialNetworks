@@ -5,7 +5,27 @@
     "email": "dmiller@yahoo.com",
     "birthdate": "1965-07-03",
     "phone": "+1-789-122-6492",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        71,
+        28,
+        59,
+        68,
+        18,
+        58,
+        56,
+        4,
+        36,
+        20,
+        12,
+        35,
+        28
+    ],
+    "login locations": [
+        [
+            -118.412017,
+            34.035208
+        ]
+    ],
+    "relationships": []
 }

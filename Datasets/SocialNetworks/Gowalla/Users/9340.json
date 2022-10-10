@@ -5,7 +5,28 @@
     "email": "iphillips@gmail.com",
     "birthdate": "1967-12-22",
     "phone": "340.969.6517",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        70,
+        58,
+        2,
+        10,
+        53,
+        17,
+        9,
+        14,
+        34,
+        15,
+        23,
+        33,
+        15,
+        40
+    ],
+    "login locations": [
+        [
+            -122.385236,
+            37.775677
+        ]
+    ],
+    "relationships": []
 }

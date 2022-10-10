@@ -5,7 +5,14 @@
     "email": "reneerobertson@hotmail.com",
     "birthdate": "1937-06-24",
     "phone": "(571)439-3789",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65
+    ],
+    "login locations": [
+        [
+            -122.262987,
+            37.839358
+        ]
+    ],
+    "relationships": []
 }

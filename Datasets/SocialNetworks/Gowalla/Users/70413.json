@@ -5,7 +5,17 @@
     "email": "candacerowe@gmail.com",
     "birthdate": "1928-04-11",
     "phone": "(290)361-5413x75682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        0,
+        25,
+        31
+    ],
+    "login locations": [
+        [
+            -121.439454,
+            38.583101
+        ]
+    ],
+    "relationships": []
 }

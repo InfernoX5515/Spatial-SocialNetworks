@@ -5,7 +5,25 @@
     "email": "hturner@yahoo.com",
     "birthdate": "1960-12-05",
     "phone": "001-346-550-4691x1007",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        7,
+        3,
+        13,
+        11,
+        47,
+        68,
+        33,
+        16,
+        9,
+        8,
+        19
+    ],
+    "login locations": [
+        [
+            -121.33504,
+            37.999686
+        ]
+    ],
+    "relationships": []
 }

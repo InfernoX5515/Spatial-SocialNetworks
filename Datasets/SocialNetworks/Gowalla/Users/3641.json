@@ -5,7 +5,33 @@
     "email": "amymartinez@gmail.com",
     "birthdate": "1963-11-26",
     "phone": "329.381.7434",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        47,
+        69,
+        62,
+        45,
+        39,
+        14,
+        75,
+        50
+    ],
+    "login locations": [
+        [
+            -118.072521,
+            34.077446
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                484,
+                0.01
+            ],
+            [
+                1120,
+                0.02
+            ]
+        ]
+    ]
 }

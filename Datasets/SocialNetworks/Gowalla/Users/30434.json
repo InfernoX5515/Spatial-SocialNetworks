@@ -5,7 +5,19 @@
     "email": "ortiztracy@gmail.com",
     "birthdate": "2000-10-02",
     "phone": "(127)636-9318x41933",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        1,
+        58,
+        66,
+        52,
+        47
+    ],
+    "login locations": [
+        [
+            -117.827339,
+            33.689405
+        ]
+    ],
+    "relationships": []
 }

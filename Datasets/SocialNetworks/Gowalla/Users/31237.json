@@ -5,7 +5,16 @@
     "email": "carlosbrown@yahoo.com",
     "birthdate": "1914-10-20",
     "phone": "+1-760-367-3324x617",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        17,
+        60
+    ],
+    "login locations": [
+        [
+            -122.399725,
+            37.782087
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "michaelanelson@yahoo.com",
     "birthdate": "1924-02-26",
     "phone": "001-091-765-6886x702",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        27,
+        54,
+        6,
+        0,
+        30,
+        44,
+        26,
+        63,
+        52,
+        1,
+        25,
+        48
+    ],
+    "login locations": [
+        [
+            -122.000782,
+            37.391469
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "sarah15@yahoo.com",
     "birthdate": "1909-02-25",
     "phone": "903-264-1729x101",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        47,
+        13
+    ],
+    "login locations": [
+        [
+            -122.075829,
+            37.404576
+        ]
+    ],
+    "relationships": []
 }

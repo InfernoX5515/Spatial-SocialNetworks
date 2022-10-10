@@ -5,7 +5,12 @@
     "email": "bryanadams@gmail.com",
     "birthdate": "1927-11-17",
     "phone": "(793)377-2071x524",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -119.72648,
+            36.732628
+        ]
+    ],
+    "relationships": []
 }

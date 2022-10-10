@@ -5,7 +5,14 @@
     "email": "kathleenlewis@yahoo.com",
     "birthdate": "1935-09-07",
     "phone": "001-727-154-7750x81118",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37
+    ],
+    "login locations": [
+        [
+            -122.418379,
+            37.783186
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "fbartlett@gmail.com",
     "birthdate": "2022-04-17",
     "phone": "001-641-513-6521x2824",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        19,
+        24,
+        64,
+        72,
+        4,
+        70
+    ],
+    "login locations": [
+        [
+            -121.933612,
+            37.287944
+        ]
+    ],
+    "relationships": []
 }

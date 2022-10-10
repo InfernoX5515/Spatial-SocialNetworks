@@ -5,7 +5,16 @@
     "email": "vanessasmith@hotmail.com",
     "birthdate": "1933-12-05",
     "phone": "(713)782-6243x945",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        27,
+        45
+    ],
+    "login locations": [
+        [
+            -122.296295,
+            37.955421
+        ]
+    ],
+    "relationships": []
 }

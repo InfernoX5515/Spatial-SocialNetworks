@@ -5,7 +5,32 @@
     "email": "suzanne60@hotmail.com",
     "birthdate": "1928-11-06",
     "phone": "347-354-7465x169",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        45,
+        16,
+        1,
+        35,
+        69,
+        20,
+        34
+    ],
+    "login locations": [
+        [
+            -116.280202,
+            33.712365
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2778,
+                0.0223880597015
+            ],
+            [
+                2778,
+                0.0223880597015
+            ]
+        ]
+    ]
 }

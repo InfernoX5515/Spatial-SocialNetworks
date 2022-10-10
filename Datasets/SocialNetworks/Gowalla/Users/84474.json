@@ -5,7 +5,15 @@
     "email": "hawkinsjacqueline@yahoo.com",
     "birthdate": "1983-03-18",
     "phone": "+1-486-457-9502x6319",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        47
+    ],
+    "login locations": [
+        [
+            -122.435524,
+            37.778849
+        ]
+    ],
+    "relationships": []
 }

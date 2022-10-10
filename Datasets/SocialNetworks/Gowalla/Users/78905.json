@@ -5,7 +5,20 @@
     "email": "bturner@yahoo.com",
     "birthdate": "1927-07-29",
     "phone": "001-104-085-9381x098",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        10,
+        38,
+        30,
+        53,
+        75,
+        18
+    ],
+    "login locations": [
+        [
+            -122.404557,
+            37.738333
+        ]
+    ],
+    "relationships": []
 }

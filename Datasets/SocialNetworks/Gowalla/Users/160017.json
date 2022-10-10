@@ -5,7 +5,26 @@
     "email": "mcdonalderic@hotmail.com",
     "birthdate": "1912-11-01",
     "phone": "0065174338",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        23,
+        14,
+        37,
+        16,
+        72,
+        56,
+        60,
+        37,
+        66,
+        1,
+        30,
+        18
+    ],
+    "login locations": [
+        [
+            -118.109409,
+            33.966708
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "oavery@gmail.com",
     "birthdate": "1991-05-30",
     "phone": "+1-116-212-3002x0699",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57
+    ],
+    "login locations": [
+        [
+            -122.222592,
+            38.076674
+        ]
+    ],
+    "relationships": []
 }

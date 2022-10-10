@@ -5,7 +5,14 @@
     "email": "tammy60@yahoo.com",
     "birthdate": "1919-06-15",
     "phone": "+1-138-592-5272x36183",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16
+    ],
+    "login locations": [
+        [
+            -119.818056,
+            36.839343
+        ]
+    ],
+    "relationships": []
 }

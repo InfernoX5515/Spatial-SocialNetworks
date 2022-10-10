@@ -5,7 +5,27 @@
     "email": "rrichards@hotmail.com",
     "birthdate": "1943-05-05",
     "phone": "(216)353-9524",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        71,
+        27,
+        1,
+        20,
+        23,
+        1,
+        8,
+        46,
+        25,
+        10,
+        69,
+        26,
+        50
+    ],
+    "login locations": [
+        [
+            -121.284903,
+            38.725688
+        ]
+    ],
+    "relationships": []
 }

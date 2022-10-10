@@ -5,7 +5,12 @@
     "email": "waltonkathleen@hotmail.com",
     "birthdate": "1947-03-16",
     "phone": "1777437845",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.986837,
+            37.305867
+        ]
+    ],
+    "relationships": []
 }

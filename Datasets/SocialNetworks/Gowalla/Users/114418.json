@@ -5,7 +5,36 @@
     "email": "amanda72@yahoo.com",
     "birthdate": "1992-05-25",
     "phone": "+1-536-718-2277x077",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        48,
+        14,
+        4,
+        33,
+        51,
+        24,
+        32,
+        72,
+        36,
+        69,
+        24
+    ],
+    "login locations": [
+        [
+            -122.45496,
+            37.769108
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                22893,
+                0.16
+            ],
+            [
+                22893,
+                0.16
+            ]
+        ]
+    ]
 }

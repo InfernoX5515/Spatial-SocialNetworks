@@ -5,7 +5,30 @@
     "email": "bmoreno@yahoo.com",
     "birthdate": "1954-09-23",
     "phone": "896.717.5926x33502",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        11,
+        47,
+        36,
+        22,
+        11
+    ],
+    "login locations": [
+        [
+            -122.062208,
+            37.37065
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                114459,
+                0.68
+            ],
+            [
+                114459,
+                0.68
+            ]
+        ]
+    ]
 }

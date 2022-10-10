@@ -5,7 +5,14 @@
     "email": "meganhughes@yahoo.com",
     "birthdate": "1960-01-31",
     "phone": "+1-015-177-8909x3592",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73
+    ],
+    "login locations": [
+        [
+            -118.396081,
+            34.063459
+        ]
+    ],
+    "relationships": []
 }

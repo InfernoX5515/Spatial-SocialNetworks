@@ -5,7 +5,12 @@
     "email": "fisherjulie@hotmail.com",
     "birthdate": "1977-11-18",
     "phone": "+1-828-329-6706x154",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.168606,
+            38.675208
+        ]
+    ],
+    "relationships": []
 }

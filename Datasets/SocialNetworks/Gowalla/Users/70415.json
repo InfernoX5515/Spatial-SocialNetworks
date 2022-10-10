@@ -5,7 +5,24 @@
     "email": "hrose@hotmail.com",
     "birthdate": "1971-07-09",
     "phone": "9971363689",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        11,
+        62,
+        57,
+        60,
+        10,
+        64,
+        51,
+        40,
+        21,
+        72
+    ],
+    "login locations": [
+        [
+            -122.261475,
+            37.634199
+        ]
+    ],
+    "relationships": []
 }

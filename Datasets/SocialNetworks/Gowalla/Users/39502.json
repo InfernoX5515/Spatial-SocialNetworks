@@ -5,7 +5,25 @@
     "email": "gcrawford@yahoo.com",
     "birthdate": "2020-11-20",
     "phone": "001-341-330-4637",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        33,
+        31,
+        20,
+        0,
+        47,
+        6,
+        58,
+        72,
+        31,
+        9,
+        33
+    ],
+    "login locations": [
+        [
+            -117.155053,
+            32.734469
+        ]
+    ],
+    "relationships": []
 }

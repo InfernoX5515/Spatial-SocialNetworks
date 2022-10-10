@@ -5,7 +5,17 @@
     "email": "patrickhuffman@yahoo.com",
     "birthdate": "1939-05-18",
     "phone": "748-778-2324x8999",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        38,
+        63,
+        45
+    ],
+    "login locations": [
+        [
+            -122.026147,
+            37.413923
+        ]
+    ],
+    "relationships": []
 }

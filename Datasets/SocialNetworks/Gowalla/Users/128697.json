@@ -5,7 +5,14 @@
     "email": "kellydixon@gmail.com",
     "birthdate": "1983-02-19",
     "phone": "592.861.5269",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41
+    ],
+    "login locations": [
+        [
+            -122.410316,
+            37.801928
+        ]
+    ],
+    "relationships": []
 }

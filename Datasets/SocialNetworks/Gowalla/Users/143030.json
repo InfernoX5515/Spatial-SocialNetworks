@@ -5,7 +5,15 @@
     "email": "fpeters@gmail.com",
     "birthdate": "1977-12-18",
     "phone": "662.334.6249x85333",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        4
+    ],
+    "login locations": [
+        [
+            -121.951235,
+            37.278465
+        ]
+    ],
+    "relationships": []
 }

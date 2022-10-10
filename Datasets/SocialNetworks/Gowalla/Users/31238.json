@@ -5,7 +5,27 @@
     "email": "tranmichael@yahoo.com",
     "birthdate": "2013-04-02",
     "phone": "781.063.4225",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        65,
+        53,
+        41,
+        49,
+        71,
+        44,
+        38,
+        65,
+        42,
+        55,
+        36,
+        5,
+        31
+    ],
+    "login locations": [
+        [
+            -122.408178,
+            37.731361
+        ]
+    ],
+    "relationships": []
 }

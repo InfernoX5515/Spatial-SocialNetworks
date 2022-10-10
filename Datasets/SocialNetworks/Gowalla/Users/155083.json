@@ -5,7 +5,23 @@
     "email": "mercadojeffery@gmail.com",
     "birthdate": "1923-06-21",
     "phone": "+1-027-725-0897x29664",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        40,
+        5,
+        51,
+        48,
+        74,
+        40,
+        34,
+        2,
+        6
+    ],
+    "login locations": [
+        [
+            -122.113853,
+            37.417193
+        ]
+    ],
+    "relationships": []
 }

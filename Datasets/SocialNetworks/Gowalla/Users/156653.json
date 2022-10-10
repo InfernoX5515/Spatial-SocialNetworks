@@ -5,7 +5,28 @@
     "email": "robertsstacie@yahoo.com",
     "birthdate": "1932-01-01",
     "phone": "(864)032-0033",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        60,
+        36,
+        43,
+        56,
+        49,
+        66,
+        4,
+        57,
+        48,
+        42,
+        12,
+        31,
+        12,
+        18
+    ],
+    "login locations": [
+        [
+            -121.973136,
+            37.26919
+        ]
+    ],
+    "relationships": []
 }

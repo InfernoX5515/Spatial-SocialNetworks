@@ -5,7 +5,18 @@
     "email": "garciacarol@yahoo.com",
     "birthdate": "1999-03-11",
     "phone": "(603)339-9697x4193",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        61,
+        26,
+        66,
+        28
+    ],
+    "login locations": [
+        [
+            -122.440489,
+            37.780237
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "hannah61@gmail.com",
     "birthdate": "1972-09-20",
     "phone": "+1-932-306-9048x04848",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        68,
+        15,
+        49,
+        43,
+        9,
+        68,
+        21,
+        23,
+        60,
+        58,
+        58
+    ],
+    "login locations": [
+        [
+            -122.03999,
+            37.351038
+        ]
+    ],
+    "relationships": []
 }

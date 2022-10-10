@@ -5,7 +5,24 @@
     "email": "kevinkeller@hotmail.com",
     "birthdate": "1909-09-18",
     "phone": "+1-128-201-2909x948",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        29,
+        50,
+        60,
+        50,
+        24,
+        17,
+        53,
+        21,
+        19,
+        66
+    ],
+    "login locations": [
+        [
+            -118.253229,
+            34.065487
+        ]
+    ],
+    "relationships": []
 }

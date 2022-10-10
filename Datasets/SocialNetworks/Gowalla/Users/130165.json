@@ -5,7 +5,23 @@
     "email": "xsanchez@hotmail.com",
     "birthdate": "1989-09-07",
     "phone": "001-706-811-7544",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.34415,
+            38.652557
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                182176,
+                0.1
+            ],
+            [
+                182176,
+                0.1
+            ]
+        ]
+    ]
 }

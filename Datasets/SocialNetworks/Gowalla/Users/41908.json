@@ -5,7 +5,27 @@
     "email": "edwardmoses@yahoo.com",
     "birthdate": "1968-12-26",
     "phone": "705-154-2235",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        1,
+        22,
+        36,
+        42,
+        36,
+        70,
+        11,
+        35,
+        31,
+        73,
+        42,
+        51,
+        62
+    ],
+    "login locations": [
+        [
+            -122.419833,
+            37.798499
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "jacksondevin@yahoo.com",
     "birthdate": "1963-12-29",
     "phone": "+1-652-157-5091x948",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        68,
+        41,
+        19,
+        52,
+        3,
+        63
+    ],
+    "login locations": [
+        [
+            -122.378982,
+            37.671572
+        ]
+    ],
+    "relationships": []
 }

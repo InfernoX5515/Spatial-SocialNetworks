@@ -5,7 +5,25 @@
     "email": "jrodriguez@yahoo.com",
     "birthdate": "1921-01-10",
     "phone": "920-020-4255x2568",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66
+    ],
+    "login locations": [
+        [
+            -117.858848,
+            33.790684
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1756,
+                0.0138248847926
+            ],
+            [
+                1904,
+                0.01
+            ]
+        ]
+    ]
 }

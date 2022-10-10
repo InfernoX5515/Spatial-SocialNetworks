@@ -5,7 +5,25 @@
     "email": "marcusritter@hotmail.com",
     "birthdate": "1982-02-21",
     "phone": "869-276-4172",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        36,
+        43,
+        65,
+        6,
+        65,
+        20,
+        62,
+        60,
+        65,
+        17,
+        0
+    ],
+    "login locations": [
+        [
+            -118.642394,
+            34.15696
+        ]
+    ],
+    "relationships": []
 }

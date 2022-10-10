@@ -5,7 +5,23 @@
     "email": "gjohnson@yahoo.com",
     "birthdate": "1931-01-09",
     "phone": "194-992-1510x623",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        34,
+        40,
+        52,
+        2,
+        44,
+        17,
+        56,
+        9,
+        34
+    ],
+    "login locations": [
+        [
+            -122.129484,
+            37.429044
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "andrew29@hotmail.com",
     "birthdate": "1986-11-14",
     "phone": "245-477-7729",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        5,
+        27,
+        12
+    ],
+    "login locations": [
+        [
+            -122.31326,
+            37.765691
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2097,
+                0.08
+            ],
+            [
+                2097,
+                0.08
+            ]
+        ]
+    ]
 }

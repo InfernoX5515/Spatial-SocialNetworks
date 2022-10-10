@@ -5,7 +5,23 @@
     "email": "ochoalori@yahoo.com",
     "birthdate": "1994-07-18",
     "phone": "940-119-1490x772",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.107055,
+            37.573786
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                179470,
+                0.2
+            ],
+            [
+                179470,
+                0.2
+            ]
+        ]
+    ]
 }

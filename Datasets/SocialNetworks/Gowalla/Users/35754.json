@@ -5,7 +5,27 @@
     "email": "franklin66@hotmail.com",
     "birthdate": "1948-10-13",
     "phone": "001-412-680-4940x9409",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        73,
+        2
+    ],
+    "login locations": [
+        [
+            -118.112983,
+            33.991561
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6320,
+                0.01
+            ],
+            [
+                22883,
+                0.0357142857143
+            ]
+        ]
+    ]
 }

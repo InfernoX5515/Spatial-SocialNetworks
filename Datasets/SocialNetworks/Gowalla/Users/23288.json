@@ -5,7 +5,12 @@
     "email": "jrodriguez@yahoo.com",
     "birthdate": "1952-01-25",
     "phone": "387-173-9599",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.382695,
+            37.773616
+        ]
+    ],
+    "relationships": []
 }

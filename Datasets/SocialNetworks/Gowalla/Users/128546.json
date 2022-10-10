@@ -5,7 +5,16 @@
     "email": "rturner@gmail.com",
     "birthdate": "1981-01-04",
     "phone": "5017198944",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        0,
+        55
+    ],
+    "login locations": [
+        [
+            -118.150397,
+            34.145271
+        ]
+    ],
+    "relationships": []
 }

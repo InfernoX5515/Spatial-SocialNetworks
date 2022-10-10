@@ -5,7 +5,14 @@
     "email": "hulldavid@gmail.com",
     "birthdate": "1974-07-23",
     "phone": "+1-715-561-7933x81619",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65
+    ],
+    "login locations": [
+        [
+            -122.639008,
+            38.23774
+        ]
+    ],
+    "relationships": []
 }

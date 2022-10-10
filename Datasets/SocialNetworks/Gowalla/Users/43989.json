@@ -5,7 +5,20 @@
     "email": "mirandacarolyn@hotmail.com",
     "birthdate": "1931-12-19",
     "phone": "188.832.6900x176",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        72,
+        27,
+        65,
+        16,
+        54,
+        28
+    ],
+    "login locations": [
+        [
+            -121.880946,
+            36.585177
+        ]
+    ],
+    "relationships": []
 }

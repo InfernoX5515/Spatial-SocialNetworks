@@ -5,7 +5,24 @@
     "email": "tbennett@gmail.com",
     "birthdate": "1942-01-11",
     "phone": "325-767-5528x04341",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        16,
+        3,
+        69,
+        74,
+        57,
+        47,
+        58,
+        1,
+        58,
+        26
+    ],
+    "login locations": [
+        [
+            -117.352434,
+            33.936202
+        ]
+    ],
+    "relationships": []
 }

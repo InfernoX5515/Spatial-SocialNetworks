@@ -5,7 +5,26 @@
     "email": "mendozajustin@yahoo.com",
     "birthdate": "1955-10-20",
     "phone": "854-198-5031",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        58,
+        20,
+        19,
+        74,
+        2,
+        18,
+        10,
+        21,
+        66,
+        54,
+        0,
+        50
+    ],
+    "login locations": [
+        [
+            -122.044994,
+            37.377351
+        ]
+    ],
+    "relationships": []
 }

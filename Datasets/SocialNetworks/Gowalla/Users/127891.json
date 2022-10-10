@@ -5,7 +5,14 @@
     "email": "michaelquinn@gmail.com",
     "birthdate": "1961-11-06",
     "phone": "(722)087-2876x4187",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65
+    ],
+    "login locations": [
+        [
+            -122.201577,
+            37.796851
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "kristin81@yahoo.com",
     "birthdate": "1972-03-04",
     "phone": "001-861-243-5223x61435",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        55,
+        47,
+        28,
+        3,
+        16,
+        56,
+        49,
+        12,
+        68,
+        55,
+        65,
+        58,
+        24,
+        22
+    ],
+    "login locations": [
+        [
+            -119.439708,
+            36.583021
+        ]
+    ],
+    "relationships": []
 }

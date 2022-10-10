@@ -5,7 +5,34 @@
     "email": "chris03@yahoo.com",
     "birthdate": "1992-05-15",
     "phone": "355-970-0859x53642",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        61,
+        69,
+        52,
+        22,
+        69,
+        40,
+        31,
+        61,
+        43
+    ],
+    "login locations": [
+        [
+            -118.220965,
+            33.896111
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                24410,
+                0.08
+            ],
+            [
+                90801,
+                0.14
+            ]
+        ]
+    ]
 }

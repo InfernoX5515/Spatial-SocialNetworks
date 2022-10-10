@@ -5,7 +5,27 @@
     "email": "kaylajones@yahoo.com",
     "birthdate": "1976-12-17",
     "phone": "+1-763-931-1660x6046",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        48,
+        6
+    ],
+    "login locations": [
+        [
+            -122.41219,
+            37.763171
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4820,
+                0.0137931034483
+            ],
+            [
+                5628,
+                0.0385542168675
+            ]
+        ]
+    ]
 }

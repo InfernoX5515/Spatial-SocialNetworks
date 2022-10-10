@@ -5,7 +5,14 @@
     "email": "dmoore@hotmail.com",
     "birthdate": "1937-04-18",
     "phone": "528-664-6274x28872",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53
+    ],
+    "login locations": [
+        [
+            -121.982418,
+            37.378535
+        ]
+    ],
+    "relationships": []
 }

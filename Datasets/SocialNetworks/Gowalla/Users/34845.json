@@ -5,7 +5,21 @@
     "email": "johnsonpaul@gmail.com",
     "birthdate": "1947-09-20",
     "phone": "738.902.9605x020",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        32,
+        21,
+        51,
+        64,
+        67,
+        75,
+        45
+    ],
+    "login locations": [
+        [
+            -118.328429,
+            34.084214
+        ]
+    ],
+    "relationships": []
 }

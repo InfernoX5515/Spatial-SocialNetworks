@@ -5,7 +5,18 @@
     "email": "garciarandy@yahoo.com",
     "birthdate": "1990-08-15",
     "phone": "1827347815",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        54,
+        53,
+        40,
+        28
+    ],
+    "login locations": [
+        [
+            -118.411632,
+            34.056718
+        ]
+    ],
+    "relationships": []
 }

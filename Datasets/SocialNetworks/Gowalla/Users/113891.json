@@ -5,7 +5,32 @@
     "email": "brian44@gmail.com",
     "birthdate": "1978-10-24",
     "phone": "364-535-2616",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        11,
+        10,
+        49,
+        2,
+        25,
+        29,
+        48
+    ],
+    "login locations": [
+        [
+            -122.400099,
+            37.79729
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                70857,
+                0.333333333333
+            ],
+            [
+                113890,
+                0.0434782608696
+            ]
+        ]
+    ]
 }

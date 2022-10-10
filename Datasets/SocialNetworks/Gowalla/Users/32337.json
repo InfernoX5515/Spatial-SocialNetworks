@@ -5,7 +5,28 @@
     "email": "ugibson@yahoo.com",
     "birthdate": "1994-10-17",
     "phone": "2657075501",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        41,
+        39,
+        22,
+        30,
+        70,
+        4,
+        48,
+        34,
+        0,
+        6,
+        12,
+        59,
+        21,
+        33
+    ],
+    "login locations": [
+        [
+            -117.892566,
+            34.003572
+        ]
+    ],
+    "relationships": []
 }

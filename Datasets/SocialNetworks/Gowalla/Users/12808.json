@@ -5,7 +5,19 @@
     "email": "xosborn@yahoo.com",
     "birthdate": "1972-09-27",
     "phone": "(727)363-1258x29396",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        12,
+        33,
+        72,
+        41,
+        16
+    ],
+    "login locations": [
+        [
+            -122.425113,
+            37.779814
+        ]
+    ],
+    "relationships": []
 }

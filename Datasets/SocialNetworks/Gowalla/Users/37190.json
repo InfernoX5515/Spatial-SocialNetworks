@@ -5,7 +5,24 @@
     "email": "durancristian@gmail.com",
     "birthdate": "1944-06-13",
     "phone": "(068)721-8295",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        69,
+        38,
+        35,
+        45,
+        54,
+        25,
+        19,
+        60,
+        33,
+        20
+    ],
+    "login locations": [
+        [
+            -121.777233,
+            37.680084
+        ]
+    ],
+    "relationships": []
 }

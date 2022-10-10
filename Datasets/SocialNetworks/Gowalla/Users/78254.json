@@ -5,7 +5,25 @@
     "email": "onealdavid@gmail.com",
     "birthdate": "1959-05-27",
     "phone": "+1-291-426-2488x323",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        70,
+        70,
+        62,
+        30,
+        23,
+        10,
+        33,
+        10,
+        52,
+        60,
+        68
+    ],
+    "login locations": [
+        [
+            -118.304904,
+            34.103097
+        ]
+    ],
+    "relationships": []
 }

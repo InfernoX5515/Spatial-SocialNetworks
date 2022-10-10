@@ -5,7 +5,30 @@
     "email": "connermark@gmail.com",
     "birthdate": "1910-07-20",
     "phone": "040.513.6935",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        39,
+        9,
+        46,
+        40,
+        62
+    ],
+    "login locations": [
+        [
+            -119.314878,
+            36.308243
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4514,
+                0.01
+            ],
+            [
+                7758,
+                0.010989010989
+            ]
+        ]
+    ]
 }

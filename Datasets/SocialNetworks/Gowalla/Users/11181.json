@@ -5,7 +5,14 @@
     "email": "melendezmelinda@hotmail.com",
     "birthdate": "1923-02-28",
     "phone": "(511)679-4062x2498",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48
+    ],
+    "login locations": [
+        [
+            -118.202306,
+            34.095812
+        ]
+    ],
+    "relationships": []
 }

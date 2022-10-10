@@ -5,7 +5,24 @@
     "email": "yreese@gmail.com",
     "birthdate": "2009-07-06",
     "phone": "953-085-0079x9209",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        17,
+        25,
+        13,
+        67,
+        33,
+        56,
+        18,
+        74,
+        24,
+        26
+    ],
+    "login locations": [
+        [
+            -118.339675,
+            34.167227
+        ]
+    ],
+    "relationships": []
 }

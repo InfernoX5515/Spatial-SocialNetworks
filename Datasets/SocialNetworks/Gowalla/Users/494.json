@@ -5,7 +5,36 @@
     "email": "whorne@hotmail.com",
     "birthdate": "1933-12-18",
     "phone": "(181)004-4994x95674",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        27,
+        24,
+        59,
+        23,
+        48,
+        23,
+        4,
+        58,
+        3,
+        70,
+        29
+    ],
+    "login locations": [
+        [
+            -122.410968,
+            37.769
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                484,
+                0.01
+            ],
+            [
+                484,
+                0.01
+            ]
+        ]
+    ]
 }

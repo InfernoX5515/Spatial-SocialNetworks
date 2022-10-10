@@ -5,7 +5,22 @@
     "email": "smithcrystal@hotmail.com",
     "birthdate": "1923-06-03",
     "phone": "(999)195-4575x286",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        32,
+        9,
+        68,
+        17,
+        3,
+        11,
+        67,
+        2
+    ],
+    "login locations": [
+        [
+            -121.565787,
+            38.614724
+        ]
+    ],
+    "relationships": []
 }

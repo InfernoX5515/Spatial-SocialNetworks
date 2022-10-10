@@ -5,7 +5,23 @@
     "email": "grayjacqueline@gmail.com",
     "birthdate": "1969-11-29",
     "phone": "(034)029-4160x4250",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        37,
+        71,
+        73,
+        10,
+        48,
+        31,
+        35,
+        51,
+        71
+    ],
+    "login locations": [
+        [
+            -121.746182,
+            38.543871
+        ]
+    ],
+    "relationships": []
 }

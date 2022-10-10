@@ -5,7 +5,30 @@
     "email": "anna39@yahoo.com",
     "birthdate": "1914-09-04",
     "phone": "573.461.0369",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        28,
+        57,
+        23,
+        13,
+        39
+    ],
+    "login locations": [
+        [
+            -118.80072,
+            34.270364
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                105940,
+                0.166666666667
+            ],
+            [
+                105940,
+                0.166666666667
+            ]
+        ]
+    ]
 }

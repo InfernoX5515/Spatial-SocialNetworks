@@ -5,7 +5,20 @@
     "email": "fitzpatricklaura@yahoo.com",
     "birthdate": "2009-09-20",
     "phone": "(401)464-0140",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        69,
+        14,
+        70,
+        73,
+        14,
+        74
+    ],
+    "login locations": [
+        [
+            -122.39922,
+            37.690962
+        ]
+    ],
+    "relationships": []
 }

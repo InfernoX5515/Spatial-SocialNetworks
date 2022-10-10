@@ -5,7 +5,18 @@
     "email": "jason08@gmail.com",
     "birthdate": "1966-08-25",
     "phone": "001-043-402-9008x058",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        20,
+        10,
+        55,
+        0
+    ],
+    "login locations": [
+        [
+            -118.231522,
+            33.956226
+        ]
+    ],
+    "relationships": []
 }

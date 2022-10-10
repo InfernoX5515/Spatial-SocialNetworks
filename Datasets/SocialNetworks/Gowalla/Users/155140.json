@@ -5,7 +5,19 @@
     "email": "danielle31@yahoo.com",
     "birthdate": "1915-03-01",
     "phone": "(055)294-9579x9525",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        0,
+        35,
+        25,
+        40,
+        43
+    ],
+    "login locations": [
+        [
+            -118.231144,
+            34.083154
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "ledwards@gmail.com",
     "birthdate": "2008-06-15",
     "phone": "571.060.6026x32881",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        60,
+        25,
+        70
+    ],
+    "login locations": [
+        [
+            -122.421089,
+            37.753201
+        ]
+    ],
+    "relationships": []
 }

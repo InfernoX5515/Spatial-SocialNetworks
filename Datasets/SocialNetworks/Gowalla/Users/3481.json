@@ -5,7 +5,32 @@
     "email": "wchristensen@hotmail.com",
     "birthdate": "1934-10-22",
     "phone": "272-261-4864",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        28,
+        29,
+        4,
+        57,
+        49,
+        46,
+        49
+    ],
+    "login locations": [
+        [
+            -117.833663,
+            33.637256
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7467,
+                0.016393442623
+            ],
+            [
+                7467,
+                0.016393442623
+            ]
+        ]
+    ]
 }

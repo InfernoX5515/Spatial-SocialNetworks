@@ -5,7 +5,24 @@
     "email": "sarahmathews@gmail.com",
     "birthdate": "1920-06-18",
     "phone": "+1-554-294-5937x186",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        66,
+        29,
+        65,
+        45,
+        18,
+        27,
+        75,
+        44,
+        0,
+        60
+    ],
+    "login locations": [
+        [
+            -117.162592,
+            32.757242
+        ]
+    ],
+    "relationships": []
 }

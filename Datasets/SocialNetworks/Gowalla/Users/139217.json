@@ -5,7 +5,29 @@
     "email": "robinmay@yahoo.com",
     "birthdate": "1921-04-28",
     "phone": "6303026015",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        5,
+        53,
+        75,
+        69
+    ],
+    "login locations": [
+        [
+            -118.146627,
+            34.641515
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                184841,
+                0.352941176471
+            ],
+            [
+                152724,
+                0.0679611650485
+            ]
+        ]
+    ]
 }

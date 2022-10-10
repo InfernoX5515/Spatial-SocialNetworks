@@ -5,7 +5,17 @@
     "email": "eric09@yahoo.com",
     "birthdate": "1916-07-20",
     "phone": "(531)562-9682x037",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        47,
+        35,
+        11
+    ],
+    "login locations": [
+        [
+            -117.230614,
+            32.894578
+        ]
+    ],
+    "relationships": []
 }

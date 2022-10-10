@@ -5,7 +5,20 @@
     "email": "christopher61@hotmail.com",
     "birthdate": "1956-12-28",
     "phone": "+1-968-436-4857x067",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        75,
+        2,
+        30,
+        0,
+        12,
+        65
+    ],
+    "login locations": [
+        [
+            -118.323742,
+            34.096473
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "brian20@gmail.com",
     "birthdate": "1916-11-26",
     "phone": "281-117-9805x12697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        45,
+        28,
+        28
+    ],
+    "login locations": [
+        [
+            -122.411074,
+            37.789329
+        ]
+    ],
+    "relationships": []
 }

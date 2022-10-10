@@ -5,7 +5,12 @@
     "email": "christopher97@yahoo.com",
     "birthdate": "1932-01-10",
     "phone": "001-453-726-7151",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.360905,
+            33.991421
+        ]
+    ],
+    "relationships": []
 }

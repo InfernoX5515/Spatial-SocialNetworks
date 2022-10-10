@@ -5,7 +5,23 @@
     "email": "salazarbrittany@yahoo.com",
     "birthdate": "1995-05-11",
     "phone": "688-155-1260",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.923478,
+            33.808937
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38298,
+                1.0
+            ],
+            [
+                38298,
+                1.0
+            ]
+        ]
+    ]
 }

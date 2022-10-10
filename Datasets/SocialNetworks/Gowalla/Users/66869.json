@@ -5,7 +5,19 @@
     "email": "chicks@hotmail.com",
     "birthdate": "1975-12-29",
     "phone": "+1-913-175-8044x43535",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        20,
+        1,
+        35,
+        48,
+        35
+    ],
+    "login locations": [
+        [
+            -121.885785,
+            37.948401
+        ]
+    ],
+    "relationships": []
 }

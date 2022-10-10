@@ -5,7 +5,34 @@
     "email": "petersonashley@gmail.com",
     "birthdate": "1945-08-06",
     "phone": "173.151.5195x3978",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        54,
+        16,
+        13,
+        48,
+        72,
+        20,
+        72,
+        45,
+        73
+    ],
+    "login locations": [
+        [
+            -118.158712,
+            33.903737
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                119042,
+                0.0384615384615
+            ],
+            [
+                119043,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "ythompson@yahoo.com",
     "birthdate": "1932-11-19",
     "phone": "701-792-8570",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        54,
+        66,
+        6,
+        3,
+        16,
+        14,
+        27,
+        49,
+        13,
+        6,
+        15,
+        38,
+        60
+    ],
+    "login locations": [
+        [
+            -118.388701,
+            34.101294
+        ]
+    ],
+    "relationships": []
 }

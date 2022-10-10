@@ -5,7 +5,23 @@
     "email": "carrie89@yahoo.com",
     "birthdate": "2008-03-18",
     "phone": "+1-108-909-1896x767",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        62,
+        30,
+        17,
+        46,
+        15,
+        54,
+        4,
+        29,
+        67
+    ],
+    "login locations": [
+        [
+            -122.07742,
+            37.377629
+        ]
+    ],
+    "relationships": []
 }

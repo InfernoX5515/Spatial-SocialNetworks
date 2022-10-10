@@ -5,7 +5,27 @@
     "email": "georgeturner@gmail.com",
     "birthdate": "1990-03-05",
     "phone": "802.789.9440",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        20,
+        25,
+        12,
+        36,
+        63,
+        18,
+        26,
+        75,
+        59,
+        4,
+        30,
+        65,
+        63
+    ],
+    "login locations": [
+        [
+            -122.164367,
+            37.43605
+        ]
+    ],
+    "relationships": []
 }

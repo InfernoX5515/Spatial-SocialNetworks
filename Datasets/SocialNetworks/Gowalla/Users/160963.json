@@ -5,7 +5,27 @@
     "email": "judithvasquez@gmail.com",
     "birthdate": "1984-08-10",
     "phone": "(369)553-2105x9470",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        24,
+        63,
+        21,
+        39,
+        20,
+        58,
+        48,
+        43,
+        2,
+        57,
+        72,
+        25,
+        13
+    ],
+    "login locations": [
+        [
+            -122.410655,
+            37.792253
+        ]
+    ],
+    "relationships": []
 }

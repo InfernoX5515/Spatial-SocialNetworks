@@ -5,7 +5,23 @@
     "email": "gomezkathleen@yahoo.com",
     "birthdate": "1972-04-13",
     "phone": "(800)427-3105",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        30,
+        62,
+        68,
+        10,
+        64,
+        10,
+        68,
+        47,
+        61
+    ],
+    "login locations": [
+        [
+            -118.357916,
+            34.127874
+        ]
+    ],
+    "relationships": []
 }

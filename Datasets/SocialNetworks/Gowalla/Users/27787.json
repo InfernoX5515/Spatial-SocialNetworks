@@ -5,7 +5,20 @@
     "email": "paulsutton@hotmail.com",
     "birthdate": "1942-02-03",
     "phone": "(820)428-3444",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        16,
+        48,
+        69,
+        75,
+        52,
+        17
+    ],
+    "login locations": [
+        [
+            -122.870316,
+            38.61067
+        ]
+    ],
+    "relationships": []
 }

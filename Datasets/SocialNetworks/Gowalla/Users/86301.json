@@ -5,7 +5,17 @@
     "email": "kari99@hotmail.com",
     "birthdate": "1939-05-02",
     "phone": "001-603-291-6257",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        40,
+        13,
+        68
+    ],
+    "login locations": [
+        [
+            -122.709456,
+            38.451057
+        ]
+    ],
+    "relationships": []
 }

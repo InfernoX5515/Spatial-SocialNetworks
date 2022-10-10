@@ -5,7 +5,39 @@
     "email": "mrichards@hotmail.com",
     "birthdate": "1932-12-07",
     "phone": "001-693-599-7370x22877",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        28,
+        34,
+        49,
+        33,
+        2,
+        1,
+        51,
+        34,
+        16,
+        50,
+        15,
+        45,
+        37,
+        30
+    ],
+    "login locations": [
+        [
+            -122.414622,
+            37.824533
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                78,
+                0.105769230769
+            ],
+            [
+                3585,
+                0.0291262135922
+            ]
+        ]
+    ]
 }

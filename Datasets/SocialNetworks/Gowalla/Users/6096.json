@@ -5,7 +5,30 @@
     "email": "tiffany45@yahoo.com",
     "birthdate": "1950-04-03",
     "phone": "(133)165-3343",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        58,
+        20,
+        3,
+        71,
+        12
+    ],
+    "login locations": [
+        [
+            -122.398452,
+            37.771922
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                76,
+                0.191666666667
+            ],
+            [
+                108,
+                0.01
+            ]
+        ]
+    ]
 }

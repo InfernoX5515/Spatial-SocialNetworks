@@ -5,7 +5,18 @@
     "email": "john14@gmail.com",
     "birthdate": "1956-03-24",
     "phone": "001-182-363-7894x2730",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        19,
+        23,
+        63,
+        3
+    ],
+    "login locations": [
+        [
+            -121.842432,
+            36.620863
+        ]
+    ],
+    "relationships": []
 }

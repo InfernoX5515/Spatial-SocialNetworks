@@ -5,7 +5,22 @@
     "email": "xbaker@gmail.com",
     "birthdate": "1910-11-02",
     "phone": "(086)919-7418",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        28,
+        72,
+        13,
+        14,
+        23,
+        19,
+        42,
+        52
+    ],
+    "login locations": [
+        [
+            -122.407462,
+            37.715506
+        ]
+    ],
+    "relationships": []
 }

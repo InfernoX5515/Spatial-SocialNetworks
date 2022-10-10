@@ -5,7 +5,18 @@
     "email": "rodneyrubio@gmail.com",
     "birthdate": "1932-09-30",
     "phone": "(008)654-7458x13117",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        61,
+        61,
+        48,
+        37
+    ],
+    "login locations": [
+        [
+            -117.892818,
+            33.77951
+        ]
+    ],
+    "relationships": []
 }

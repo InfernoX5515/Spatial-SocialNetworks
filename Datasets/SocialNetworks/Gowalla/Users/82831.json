@@ -5,7 +5,36 @@
     "email": "medinatara@yahoo.com",
     "birthdate": "2017-03-29",
     "phone": "246-703-5989",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        9,
+        47,
+        16,
+        29,
+        67,
+        32,
+        69,
+        63,
+        57,
+        51,
+        16
+    ],
+    "login locations": [
+        [
+            -117.146132,
+            32.763068
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82832,
+                0.117647058824
+            ],
+            [
+                82832,
+                0.117647058824
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,21 @@
     "email": "sanchezjustin@gmail.com",
     "birthdate": "1954-12-09",
     "phone": "(505)336-0888x5158",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        25,
+        53,
+        47,
+        28,
+        41,
+        5,
+        43
+    ],
+    "login locations": [
+        [
+            -122.337762,
+            37.672661
+        ]
+    ],
+    "relationships": []
 }

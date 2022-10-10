@@ -5,7 +5,29 @@
     "email": "kristina12@gmail.com",
     "birthdate": "1959-06-02",
     "phone": "+1-234-504-5225x8859",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        72,
+        42,
+        14,
+        21
+    ],
+    "login locations": [
+        [
+            -118.356274,
+            34.073039
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                376,
+                0.041095890411
+            ],
+            [
+                1921,
+                0.0266666666667
+            ]
+        ]
+    ]
 }

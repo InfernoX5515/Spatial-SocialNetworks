@@ -5,7 +5,14 @@
     "email": "robinsondaniel@gmail.com",
     "birthdate": "1919-01-05",
     "phone": "7132508844",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27
+    ],
+    "login locations": [
+        [
+            -122.160298,
+            37.764854
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "michael39@yahoo.com",
     "birthdate": "1939-06-19",
     "phone": "(991)445-5883x5549",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        60,
+        39,
+        41,
+        53,
+        58,
+        25,
+        72,
+        7,
+        9,
+        10,
+        51
+    ],
+    "login locations": [
+        [
+            -117.861274,
+            33.679113
+        ]
+    ],
+    "relationships": []
 }

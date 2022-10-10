@@ -5,7 +5,16 @@
     "email": "mccallray@yahoo.com",
     "birthdate": "1966-05-23",
     "phone": "670-602-4387",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        6,
+        54
+    ],
+    "login locations": [
+        [
+            -118.407222,
+            34.019151
+        ]
+    ],
+    "relationships": []
 }

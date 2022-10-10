@@ -5,7 +5,32 @@
     "email": "wangjames@gmail.com",
     "birthdate": "2022-02-01",
     "phone": "001-020-020-0001x936",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        18,
+        26,
+        73,
+        41,
+        36,
+        50,
+        38
+    ],
+    "login locations": [
+        [
+            -122.40129,
+            37.786612
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33324,
+                0.08
+            ],
+            [
+                33324,
+                0.08
+            ]
+        ]
+    ]
 }

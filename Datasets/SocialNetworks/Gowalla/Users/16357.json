@@ -5,7 +5,26 @@
     "email": "monicaedwards@yahoo.com",
     "birthdate": "1981-09-28",
     "phone": "(367)782-6997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        59
+    ],
+    "login locations": [
+        [
+            -117.845291,
+            34.044816
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                221,
+                0.1
+            ],
+            [
+                484,
+                0.0204678362573
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,38 @@
     "email": "joseph27@yahoo.com",
     "birthdate": "1984-12-20",
     "phone": "086.902.4034x244",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        19,
+        23,
+        62,
+        23,
+        60,
+        2,
+        44,
+        17,
+        70,
+        68,
+        37,
+        35,
+        14
+    ],
+    "login locations": [
+        [
+            -118.270342,
+            34.013338
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1904,
+                0.01
+            ],
+            [
+                1904,
+                0.01
+            ]
+        ]
+    ]
 }

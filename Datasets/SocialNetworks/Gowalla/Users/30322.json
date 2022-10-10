@@ -5,7 +5,20 @@
     "email": "sevans@hotmail.com",
     "birthdate": "1966-11-03",
     "phone": "595-362-4128x2548",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        67,
+        11,
+        57,
+        71,
+        23,
+        73
+    ],
+    "login locations": [
+        [
+            -121.926002,
+            37.69048
+        ]
+    ],
+    "relationships": []
 }

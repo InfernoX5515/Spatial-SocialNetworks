@@ -5,7 +5,22 @@
     "email": "kharper@hotmail.com",
     "birthdate": "1959-02-19",
     "phone": "(888)781-2723x0585",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        8,
+        14,
+        57,
+        32,
+        57,
+        44,
+        40,
+        6
+    ],
+    "login locations": [
+        [
+            -117.905542,
+            33.70565
+        ]
+    ],
+    "relationships": []
 }

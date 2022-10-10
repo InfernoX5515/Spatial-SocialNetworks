@@ -5,7 +5,20 @@
     "email": "timothy10@hotmail.com",
     "birthdate": "1922-08-07",
     "phone": "(328)993-5341x79345",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        39,
+        14,
+        26,
+        6,
+        62,
+        38
+    ],
+    "login locations": [
+        [
+            -122.395492,
+            37.795006
+        ]
+    ],
+    "relationships": []
 }

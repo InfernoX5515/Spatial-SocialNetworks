@@ -5,7 +5,16 @@
     "email": "henrymatthew@gmail.com",
     "birthdate": "1935-08-05",
     "phone": "389-944-1335",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        19,
+        10
+    ],
+    "login locations": [
+        [
+            -118.464664,
+            34.165406
+        ]
+    ],
+    "relationships": []
 }

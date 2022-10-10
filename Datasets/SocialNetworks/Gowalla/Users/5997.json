@@ -5,7 +5,31 @@
     "email": "kthompson@yahoo.com",
     "birthdate": "1976-05-03",
     "phone": "904.888.9694x358",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        17,
+        68,
+        15,
+        53,
+        39,
+        28
+    ],
+    "login locations": [
+        [
+            -118.341852,
+            34.089351
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1703,
+                0.01
+            ],
+            [
+                2364,
+                0.01
+            ]
+        ]
+    ]
 }

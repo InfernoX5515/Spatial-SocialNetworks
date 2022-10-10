@@ -5,7 +5,26 @@
     "email": "lewisandrew@yahoo.com",
     "birthdate": "1981-06-19",
     "phone": "+1-142-861-1128x250",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        27,
+        23,
+        36,
+        66,
+        8,
+        69,
+        17,
+        67,
+        30,
+        37,
+        40,
+        64
+    ],
+    "login locations": [
+        [
+            -122.365127,
+            37.733608
+        ]
+    ],
+    "relationships": []
 }

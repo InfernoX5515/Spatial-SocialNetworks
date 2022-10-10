@@ -5,7 +5,32 @@
     "email": "johnny88@yahoo.com",
     "birthdate": "1908-09-05",
     "phone": "001-297-154-7880x12096",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        47,
+        10,
+        59,
+        18,
+        43,
+        31,
+        38
+    ],
+    "login locations": [
+        [
+            -117.285966,
+            33.027416
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4621,
+                0.0641361256545
+            ],
+            [
+                4621,
+                0.0641361256545
+            ]
+        ]
+    ]
 }

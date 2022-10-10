@@ -5,7 +5,17 @@
     "email": "bullocktravis@hotmail.com",
     "birthdate": "1977-08-02",
     "phone": "001-562-909-3020x34804",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        65,
+        49,
+        74
+    ],
+    "login locations": [
+        [
+            -118.399083,
+            34.065217
+        ]
+    ],
+    "relationships": []
 }

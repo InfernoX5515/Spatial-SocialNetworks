@@ -5,7 +5,27 @@
     "email": "katie82@hotmail.com",
     "birthdate": "1909-11-26",
     "phone": "688-099-4039",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        42,
+        59
+    ],
+    "login locations": [
+        [
+            -122.251106,
+            37.782293
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7865,
+                0.0412371134021
+            ],
+            [
+                126213,
+                0.03125
+            ]
+        ]
+    ]
 }

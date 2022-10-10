@@ -5,7 +5,24 @@
     "email": "ryan78@yahoo.com",
     "birthdate": "1961-07-02",
     "phone": "2793479137",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        49,
+        13,
+        29,
+        55,
+        48,
+        48,
+        0,
+        43,
+        9,
+        25
+    ],
+    "login locations": [
+        [
+            -122.444885,
+            37.709974
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "gjohnson@hotmail.com",
     "birthdate": "1949-12-16",
     "phone": "693-319-7771x6973",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        68,
+        74,
+        39,
+        18,
+        9,
+        4,
+        69
+    ],
+    "login locations": [
+        [
+            -122.408903,
+            37.774801
+        ]
+    ],
+    "relationships": []
 }

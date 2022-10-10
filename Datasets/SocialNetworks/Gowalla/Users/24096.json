@@ -5,7 +5,19 @@
     "email": "walkercharles@yahoo.com",
     "birthdate": "2022-05-16",
     "phone": "+1-339-277-6714x557",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        7,
+        3,
+        63,
+        52,
+        22
+    ],
+    "login locations": [
+        [
+            -122.227485,
+            37.607773
+        ]
+    ],
+    "relationships": []
 }

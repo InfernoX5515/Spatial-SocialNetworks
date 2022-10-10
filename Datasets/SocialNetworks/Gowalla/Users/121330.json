@@ -5,7 +5,23 @@
     "email": "smithcory@yahoo.com",
     "birthdate": "1930-07-29",
     "phone": "566-139-9712",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        63,
+        9,
+        19,
+        22,
+        75,
+        49,
+        74,
+        39,
+        1
+    ],
+    "login locations": [
+        [
+            -121.912839,
+            36.56411
+        ]
+    ],
+    "relationships": []
 }

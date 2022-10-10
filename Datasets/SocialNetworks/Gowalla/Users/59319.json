@@ -5,7 +5,28 @@
     "email": "marie75@gmail.com",
     "birthdate": "1974-01-09",
     "phone": "(540)287-5670x46611",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        23,
+        72,
+        66,
+        28,
+        58,
+        17,
+        21,
+        36,
+        54,
+        52,
+        64,
+        7,
+        53,
+        18
+    ],
+    "login locations": [
+        [
+            -118.003675,
+            34.013806
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "jneal@hotmail.com",
     "birthdate": "1976-01-31",
     "phone": "675.432.2320x02517",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        9
+    ],
+    "login locations": [
+        [
+            -118.271783,
+            34.063977
+        ]
+    ],
+    "relationships": []
 }

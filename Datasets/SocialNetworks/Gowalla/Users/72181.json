@@ -5,7 +5,26 @@
     "email": "crossbrandon@yahoo.com",
     "birthdate": "2003-05-03",
     "phone": "001-077-613-0859x372",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        12,
+        15,
+        46,
+        20,
+        46,
+        47,
+        34,
+        53,
+        42,
+        12,
+        17,
+        22
+    ],
+    "login locations": [
+        [
+            -118.045402,
+            33.904865
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "dan94@yahoo.com",
     "birthdate": "1955-01-25",
     "phone": "(520)652-3133x0033",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.995447,
+            33.875043
+        ]
+    ],
+    "relationships": []
 }

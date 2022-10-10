@@ -5,7 +5,19 @@
     "email": "brownelizabeth@gmail.com",
     "birthdate": "2015-03-15",
     "phone": "429-172-4910",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        22,
+        39,
+        26,
+        17,
+        30
+    ],
+    "login locations": [
+        [
+            -122.553971,
+            37.976121
+        ]
+    ],
+    "relationships": []
 }

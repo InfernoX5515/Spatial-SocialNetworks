@@ -5,7 +5,20 @@
     "email": "johnsoncameron@hotmail.com",
     "birthdate": "1942-05-06",
     "phone": "042.287.3335",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        12,
+        39,
+        72,
+        45,
+        2,
+        27
+    ],
+    "login locations": [
+        [
+            -122.121192,
+            37.42566
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "gravesrobert@gmail.com",
     "birthdate": "1941-07-11",
     "phone": "+1-399-265-2427",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        27,
+        19,
+        46,
+        7,
+        14
+    ],
+    "login locations": [
+        [
+            -122.418586,
+            37.72775
+        ]
+    ],
+    "relationships": []
 }

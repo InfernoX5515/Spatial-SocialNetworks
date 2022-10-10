@@ -5,7 +5,26 @@
     "email": "nholland@hotmail.com",
     "birthdate": "1909-05-14",
     "phone": "001-402-082-7214x16933",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        24,
+        31,
+        6,
+        39,
+        50,
+        44,
+        34,
+        8,
+        20,
+        54,
+        5,
+        58
+    ],
+    "login locations": [
+        [
+            -122.059013,
+            37.706319
+        ]
+    ],
+    "relationships": []
 }

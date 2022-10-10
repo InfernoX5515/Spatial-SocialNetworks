@@ -5,7 +5,20 @@
     "email": "garciasara@gmail.com",
     "birthdate": "1971-06-10",
     "phone": "379.577.3074",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        59,
+        33,
+        39,
+        64,
+        30,
+        73
+    ],
+    "login locations": [
+        [
+            -117.855647,
+            33.678072
+        ]
+    ],
+    "relationships": []
 }

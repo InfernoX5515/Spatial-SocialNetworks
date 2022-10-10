@@ -5,7 +5,35 @@
     "email": "linda06@hotmail.com",
     "birthdate": "1914-03-01",
     "phone": "131-572-6227",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        57,
+        64,
+        73,
+        21,
+        58,
+        25,
+        75,
+        22,
+        75,
+        27
+    ],
+    "login locations": [
+        [
+            -117.130759,
+            32.878166
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                696,
+                0.0125301204819
+            ],
+            [
+                6293,
+                0.0909090909091
+            ]
+        ]
+    ]
 }

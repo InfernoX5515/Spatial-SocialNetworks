@@ -5,7 +5,23 @@
     "email": "colemandaniel@gmail.com",
     "birthdate": "1997-07-14",
     "phone": "(593)288-0938x7713",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        38,
+        29,
+        69,
+        33,
+        50,
+        10,
+        40,
+        71,
+        4
+    ],
+    "login locations": [
+        [
+            -117.162728,
+            32.714212
+        ]
+    ],
+    "relationships": []
 }

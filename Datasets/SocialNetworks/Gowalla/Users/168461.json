@@ -5,7 +5,21 @@
     "email": "brittanybeasley@yahoo.com",
     "birthdate": "1967-12-12",
     "phone": "286.989.4190",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        75,
+        36,
+        37,
+        48,
+        14,
+        37,
+        32
+    ],
+    "login locations": [
+        [
+            -118.261702,
+            34.133644
+        ]
+    ],
+    "relationships": []
 }

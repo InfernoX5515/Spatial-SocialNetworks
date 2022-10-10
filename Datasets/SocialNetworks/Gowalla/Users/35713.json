@@ -5,7 +5,29 @@
     "email": "ebrown@gmail.com",
     "birthdate": "1991-01-16",
     "phone": "429-444-6879x777",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        31,
+        37,
+        55,
+        18
+    ],
+    "login locations": [
+        [
+            -122.207544,
+            37.423597
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                25301,
+                0.01
+            ],
+            [
+                44012,
+                0.01
+            ]
+        ]
+    ]
 }

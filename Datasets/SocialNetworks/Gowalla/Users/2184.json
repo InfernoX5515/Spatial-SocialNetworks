@@ -5,7 +5,20 @@
     "email": "darryl40@hotmail.com",
     "birthdate": "1969-11-05",
     "phone": "001-233-403-9956x35974",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        44,
+        46,
+        27,
+        54,
+        37,
+        62
+    ],
+    "login locations": [
+        [
+            -117.929981,
+            33.716837
+        ]
+    ],
+    "relationships": []
 }

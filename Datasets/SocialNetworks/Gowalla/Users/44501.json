@@ -5,7 +5,21 @@
     "email": "frazierandrea@yahoo.com",
     "birthdate": "1910-07-27",
     "phone": "(977)972-8241",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        44,
+        11,
+        1,
+        15,
+        10,
+        5,
+        63
+    ],
+    "login locations": [
+        [
+            -118.354526,
+            34.187508
+        ]
+    ],
+    "relationships": []
 }

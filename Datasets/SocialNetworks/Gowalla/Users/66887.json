@@ -5,7 +5,25 @@
     "email": "garciatiffany@hotmail.com",
     "birthdate": "2019-03-27",
     "phone": "001-701-784-8390x4750",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        74,
+        58,
+        34,
+        67,
+        23,
+        44,
+        47,
+        26,
+        6,
+        72,
+        19
+    ],
+    "login locations": [
+        [
+            -121.439877,
+            38.589338
+        ]
+    ],
+    "relationships": []
 }

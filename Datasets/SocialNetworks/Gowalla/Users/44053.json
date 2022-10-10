@@ -5,7 +5,24 @@
     "email": "johnsonmelanie@yahoo.com",
     "birthdate": "1945-12-29",
     "phone": "(227)263-4392x96933",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        12,
+        17,
+        56,
+        60,
+        23,
+        15,
+        69,
+        21,
+        38,
+        67
+    ],
+    "login locations": [
+        [
+            -122.386807,
+            37.672489
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "ruth93@hotmail.com",
     "birthdate": "1939-06-15",
     "phone": "923-825-9112x0771",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        27,
+        33,
+        14,
+        34,
+        50,
+        12,
+        62,
+        41,
+        71,
+        68,
+        69,
+        74,
+        14
+    ],
+    "login locations": [
+        [
+            -118.34157,
+            34.121888
+        ]
+    ],
+    "relationships": []
 }

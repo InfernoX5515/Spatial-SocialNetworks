@@ -5,7 +5,22 @@
     "email": "kcombs@yahoo.com",
     "birthdate": "1972-03-03",
     "phone": "626.161.8460",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        52,
+        23,
+        59,
+        59,
+        53,
+        58,
+        61,
+        55
+    ],
+    "login locations": [
+        [
+            -117.121206,
+            32.745153
+        ]
+    ],
+    "relationships": []
 }

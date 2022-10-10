@@ -5,7 +5,18 @@
     "email": "biancavasquez@hotmail.com",
     "birthdate": "1946-08-25",
     "phone": "(640)108-3501x17412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        33,
+        75,
+        69,
+        59
+    ],
+    "login locations": [
+        [
+            -122.422856,
+            37.797764
+        ]
+    ],
+    "relationships": []
 }

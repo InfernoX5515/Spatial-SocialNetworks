@@ -5,7 +5,25 @@
     "email": "sandranichols@gmail.com",
     "birthdate": "1930-11-02",
     "phone": "690.341.3609",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        51,
+        33,
+        0,
+        25,
+        25,
+        45,
+        35,
+        15,
+        43,
+        69,
+        45
+    ],
+    "login locations": [
+        [
+            -122.400249,
+            37.776148
+        ]
+    ],
+    "relationships": []
 }

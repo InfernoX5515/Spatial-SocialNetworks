@@ -5,7 +5,17 @@
     "email": "zbennett@hotmail.com",
     "birthdate": "1912-11-20",
     "phone": "015-069-5114x346",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        12,
+        55,
+        16
+    ],
+    "login locations": [
+        [
+            -122.095583,
+            37.630248
+        ]
+    ],
+    "relationships": []
 }

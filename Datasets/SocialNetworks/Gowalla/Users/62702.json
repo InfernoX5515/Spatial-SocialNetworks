@@ -5,7 +5,39 @@
     "email": "hgriffin@hotmail.com",
     "birthdate": "1935-03-30",
     "phone": "001-327-416-8772x291",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        32,
+        41,
+        75,
+        23,
+        62,
+        17,
+        75,
+        40,
+        54,
+        41,
+        48,
+        45,
+        0,
+        72
+    ],
+    "login locations": [
+        [
+            -122.424356,
+            37.76842
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                24095,
+                0.213333333333
+            ],
+            [
+                24095,
+                0.213333333333
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "markjoseph@gmail.com",
     "birthdate": "1963-08-20",
     "phone": "552.806.2609x5162",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        16,
+        16,
+        2,
+        74,
+        27,
+        6,
+        3,
+        21,
+        64
+    ],
+    "login locations": [
+        [
+            -122.298438,
+            37.599266
+        ]
+    ],
+    "relationships": []
 }

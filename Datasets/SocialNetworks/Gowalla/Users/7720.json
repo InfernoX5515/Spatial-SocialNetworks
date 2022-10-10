@@ -5,7 +5,24 @@
     "email": "glenn92@gmail.com",
     "birthdate": "2002-01-26",
     "phone": "+1-188-969-5965x6861",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        69,
+        55,
+        61,
+        25,
+        34,
+        44,
+        55,
+        23,
+        12,
+        30
+    ],
+    "login locations": [
+        [
+            -122.151334,
+            37.432842
+        ]
+    ],
+    "relationships": []
 }

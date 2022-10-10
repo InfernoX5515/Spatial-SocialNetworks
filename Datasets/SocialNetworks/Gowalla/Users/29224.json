@@ -5,7 +5,24 @@
     "email": "kennethdelgado@gmail.com",
     "birthdate": "1928-09-01",
     "phone": "369.389.4457",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        65,
+        20,
+        20,
+        14,
+        21,
+        36,
+        8,
+        58,
+        18,
+        23
+    ],
+    "login locations": [
+        [
+            -117.677487,
+            33.486245
+        ]
+    ],
+    "relationships": []
 }

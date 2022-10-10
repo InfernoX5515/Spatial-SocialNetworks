@@ -5,7 +5,34 @@
     "email": "candicehancock@yahoo.com",
     "birthdate": "2012-08-26",
     "phone": "9951779332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        40,
+        12,
+        74,
+        54,
+        55,
+        42,
+        65,
+        2,
+        33
+    ],
+    "login locations": [
+        [
+            -122.403065,
+            37.760605
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                313,
+                0.01
+            ],
+            [
+                313,
+                0.01
+            ]
+        ]
+    ]
 }

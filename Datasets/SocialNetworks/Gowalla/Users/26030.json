@@ -5,7 +5,35 @@
     "email": "vmoore@yahoo.com",
     "birthdate": "1997-03-01",
     "phone": "+1-438-532-2119x22532",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        50,
+        24,
+        28,
+        66,
+        27,
+        14,
+        21,
+        68,
+        71,
+        7
+    ],
+    "login locations": [
+        [
+            -122.065108,
+            37.379182
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                600,
+                0.01
+            ],
+            [
+                600,
+                0.01
+            ]
+        ]
+    ]
 }

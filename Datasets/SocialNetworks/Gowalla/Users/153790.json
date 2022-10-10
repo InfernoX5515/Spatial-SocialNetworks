@@ -5,7 +5,38 @@
     "email": "janethernandez@gmail.com",
     "birthdate": "1960-01-18",
     "phone": "(101)972-3093x534",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        53,
+        43,
+        57,
+        6,
+        44,
+        38,
+        20,
+        75,
+        47,
+        3,
+        68,
+        18,
+        2
+    ],
+    "login locations": [
+        [
+            -122.314094,
+            37.800979
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                153789,
+                0.25
+            ],
+            [
+                153789,
+                0.25
+            ]
+        ]
+    ]
 }

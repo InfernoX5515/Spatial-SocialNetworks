@@ -5,7 +5,20 @@
     "email": "laura19@yahoo.com",
     "birthdate": "1920-01-05",
     "phone": "+1-901-283-4271x3894",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        20,
+        2,
+        1,
+        52,
+        8,
+        5
+    ],
+    "login locations": [
+        [
+            -122.458412,
+            37.74824
+        ]
+    ],
+    "relationships": []
 }

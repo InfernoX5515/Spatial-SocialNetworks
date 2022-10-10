@@ -5,7 +5,14 @@
     "email": "samuelward@gmail.com",
     "birthdate": "1945-02-16",
     "phone": "8563707211",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16
+    ],
+    "login locations": [
+        [
+            -118.365923,
+            34.059624
+        ]
+    ],
+    "relationships": []
 }

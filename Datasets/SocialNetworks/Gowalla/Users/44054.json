@@ -5,7 +5,37 @@
     "email": "bradleycarson@yahoo.com",
     "birthdate": "1965-08-14",
     "phone": "550-537-6366",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        66,
+        73,
+        52,
+        66,
+        15,
+        25,
+        50,
+        12,
+        10,
+        10,
+        57,
+        64
+    ],
+    "login locations": [
+        [
+            -121.933711,
+            37.338749
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5628,
+                0.01
+            ],
+            [
+                10765,
+                0.01
+            ]
+        ]
+    ]
 }

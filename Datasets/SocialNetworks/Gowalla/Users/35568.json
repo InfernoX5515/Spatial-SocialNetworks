@@ -5,7 +5,14 @@
     "email": "qroberson@hotmail.com",
     "birthdate": "1972-08-08",
     "phone": "403-491-0474",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29
+    ],
+    "login locations": [
+        [
+            -122.303889,
+            37.794806
+        ]
+    ],
+    "relationships": []
 }

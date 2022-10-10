@@ -5,7 +5,32 @@
     "email": "kelly25@yahoo.com",
     "birthdate": "1927-02-20",
     "phone": "+1-211-952-2873x898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        61,
+        64,
+        53,
+        45,
+        48,
+        38,
+        27
+    ],
+    "login locations": [
+        [
+            -118.341266,
+            33.876048
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5392,
+                0.246153846154
+            ],
+            [
+                5392,
+                0.246153846154
+            ]
+        ]
+    ]
 }

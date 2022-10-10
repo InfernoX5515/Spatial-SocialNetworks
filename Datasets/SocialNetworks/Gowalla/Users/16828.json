@@ -5,7 +5,26 @@
     "email": "qalexander@hotmail.com",
     "birthdate": "1946-08-28",
     "phone": "+1-257-757-3278x20260",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        39,
+        55,
+        34,
+        42,
+        23,
+        29,
+        54,
+        24,
+        72,
+        56,
+        0,
+        52
+    ],
+    "login locations": [
+        [
+            -117.956868,
+            33.751158
+        ]
+    ],
+    "relationships": []
 }

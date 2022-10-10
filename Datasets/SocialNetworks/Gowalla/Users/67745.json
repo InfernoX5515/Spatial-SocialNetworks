@@ -5,7 +5,24 @@
     "email": "higginspatrick@gmail.com",
     "birthdate": "1939-02-06",
     "phone": "167-285-6792x4657",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        29,
+        37,
+        6,
+        66,
+        21,
+        66,
+        20,
+        4,
+        62,
+        27
+    ],
+    "login locations": [
+        [
+            -122.447536,
+            37.757739
+        ]
+    ],
+    "relationships": []
 }

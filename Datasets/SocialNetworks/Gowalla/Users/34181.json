@@ -5,7 +5,18 @@
     "email": "melissaclay@gmail.com",
     "birthdate": "1952-11-02",
     "phone": "020-597-3611x84580",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        1,
+        18,
+        41,
+        15
+    ],
+    "login locations": [
+        [
+            -117.075944,
+            32.909533
+        ]
+    ],
+    "relationships": []
 }

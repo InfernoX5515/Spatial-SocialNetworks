@@ -5,7 +5,15 @@
     "email": "rosemichael@gmail.com",
     "birthdate": "1960-10-13",
     "phone": "1780930009",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        43
+    ],
+    "login locations": [
+        [
+            -122.418958,
+            37.766565
+        ]
+    ],
+    "relationships": []
 }

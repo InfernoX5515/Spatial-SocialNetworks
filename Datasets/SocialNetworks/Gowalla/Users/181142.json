@@ -5,7 +5,27 @@
     "email": "jonathandiaz@gmail.com",
     "birthdate": "1941-12-09",
     "phone": "001-697-761-5868x5951",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        4,
+        7,
+        56,
+        24,
+        8,
+        10,
+        6,
+        61,
+        12,
+        2,
+        4,
+        71,
+        25
+    ],
+    "login locations": [
+        [
+            -117.32595,
+            33.116274
+        ]
+    ],
+    "relationships": []
 }

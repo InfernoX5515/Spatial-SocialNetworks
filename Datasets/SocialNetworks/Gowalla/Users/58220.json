@@ -5,7 +5,15 @@
     "email": "hallen@hotmail.com",
     "birthdate": "2017-02-08",
     "phone": "001-525-246-5300x88173",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        12
+    ],
+    "login locations": [
+        [
+            -118.359323,
+            34.067698
+        ]
+    ],
+    "relationships": []
 }

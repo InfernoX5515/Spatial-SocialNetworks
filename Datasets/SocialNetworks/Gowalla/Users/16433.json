@@ -5,7 +5,26 @@
     "email": "combskristin@hotmail.com",
     "birthdate": "1963-01-23",
     "phone": "(584)274-7918",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        17,
+        43,
+        38,
+        67,
+        68,
+        17,
+        59,
+        20,
+        55,
+        8,
+        18,
+        40
+    ],
+    "login locations": [
+        [
+            -121.911895,
+            37.307873
+        ]
+    ],
+    "relationships": []
 }

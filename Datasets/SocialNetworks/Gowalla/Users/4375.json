@@ -5,7 +5,28 @@
     "email": "carrie69@yahoo.com",
     "birthdate": "1998-04-01",
     "phone": "569-445-2790",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        21,
+        73,
+        42,
+        1,
+        13,
+        55,
+        26,
+        18,
+        31,
+        59,
+        64,
+        34,
+        37,
+        44
+    ],
+    "login locations": [
+        [
+            -122.416612,
+            37.763978
+        ]
+    ],
+    "relationships": []
 }

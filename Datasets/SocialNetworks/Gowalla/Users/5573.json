@@ -5,7 +5,16 @@
     "email": "kylejohnson@hotmail.com",
     "birthdate": "1970-04-21",
     "phone": "(347)600-5337x905",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        63,
+        56
+    ],
+    "login locations": [
+        [
+            -122.159586,
+            37.440625
+        ]
+    ],
+    "relationships": []
 }

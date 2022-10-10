@@ -5,7 +5,26 @@
     "email": "fnelson@hotmail.com",
     "birthdate": "1973-06-01",
     "phone": "6547996468",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        47,
+        60,
+        36,
+        0,
+        69,
+        39,
+        56,
+        28,
+        3,
+        61,
+        40,
+        5
+    ],
+    "login locations": [
+        [
+            -120.135626,
+            39.283394
+        ]
+    ],
+    "relationships": []
 }

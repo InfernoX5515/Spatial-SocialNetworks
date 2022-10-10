@@ -5,7 +5,34 @@
     "email": "brandon35@hotmail.com",
     "birthdate": "1933-09-15",
     "phone": "(925)954-8843x0599",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        61,
+        11,
+        52,
+        48,
+        60,
+        46,
+        47,
+        57,
+        27
+    ],
+    "login locations": [
+        [
+            -122.397941,
+            37.789811
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4514,
+                0.01
+            ],
+            [
+                4514,
+                0.01
+            ]
+        ]
+    ]
 }

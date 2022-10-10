@@ -5,7 +5,20 @@
     "email": "eadams@gmail.com",
     "birthdate": "1923-12-23",
     "phone": "(590)066-5331",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        7,
+        28,
+        49,
+        44,
+        55,
+        29
+    ],
+    "login locations": [
+        [
+            -122.212172,
+            37.421231
+        ]
+    ],
+    "relationships": []
 }

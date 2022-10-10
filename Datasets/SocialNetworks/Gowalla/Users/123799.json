@@ -5,7 +5,36 @@
     "email": "xho@gmail.com",
     "birthdate": "1968-08-20",
     "phone": "155-218-1955x372",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        47,
+        16,
+        27,
+        0,
+        64,
+        4,
+        74,
+        27,
+        61,
+        50,
+        68
+    ],
+    "login locations": [
+        [
+            -122.437762,
+            37.766115
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                31492,
+                0.0114285714286
+            ],
+            [
+                31492,
+                0.0114285714286
+            ]
+        ]
+    ]
 }

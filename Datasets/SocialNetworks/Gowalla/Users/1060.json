@@ -5,7 +5,12 @@
     "email": "sarah50@gmail.com",
     "birthdate": "1933-07-05",
     "phone": "001-534-333-4746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.295092,
+            37.70945
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "crystal05@yahoo.com",
     "birthdate": "1929-10-17",
     "phone": "580.224.6293",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        3,
+        58,
+        49,
+        46,
+        71,
+        49,
+        9,
+        0,
+        28,
+        24,
+        45,
+        60,
+        25
+    ],
+    "login locations": [
+        [
+            -118.443566,
+            33.971342
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "fieldsrebecca@hotmail.com",
     "birthdate": "1955-01-05",
     "phone": "774-208-5812x9525",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        26,
+        57,
+        71,
+        61,
+        74,
+        48,
+        71,
+        75,
+        4,
+        23,
+        53,
+        60,
+        45,
+        28
+    ],
+    "login locations": [
+        [
+            -122.320767,
+            37.795274
+        ]
+    ],
+    "relationships": []
 }

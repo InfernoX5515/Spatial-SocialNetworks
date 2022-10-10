@@ -5,7 +5,27 @@
     "email": "daniel65@yahoo.com",
     "birthdate": "2011-04-09",
     "phone": "277.535.8558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        27,
+        36,
+        12,
+        38,
+        37,
+        60,
+        57,
+        6,
+        29,
+        53,
+        44,
+        14,
+        65
+    ],
+    "login locations": [
+        [
+            -121.971521,
+            37.383536
+        ]
+    ],
+    "relationships": []
 }

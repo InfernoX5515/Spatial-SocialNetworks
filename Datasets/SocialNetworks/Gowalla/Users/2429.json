@@ -5,7 +5,30 @@
     "email": "stuartrobert@yahoo.com",
     "birthdate": "1928-11-17",
     "phone": "001-176-498-4059x566",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        8,
+        50,
+        6,
+        30,
+        31
+    ],
+    "login locations": [
+        [
+            -122.401168,
+            37.775456
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                12836,
+                0.0525490196078
+            ],
+            [
+                21705,
+                0.130434782609
+            ]
+        ]
+    ]
 }

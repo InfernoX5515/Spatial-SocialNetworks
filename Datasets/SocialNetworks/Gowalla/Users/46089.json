@@ -5,7 +5,19 @@
     "email": "hubbardphillip@hotmail.com",
     "birthdate": "2009-07-25",
     "phone": "+1-877-330-1350x24662",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        24,
+        17,
+        22,
+        71,
+        44
+    ],
+    "login locations": [
+        [
+            -117.204506,
+            32.874567
+        ]
+    ],
+    "relationships": []
 }

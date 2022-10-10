@@ -5,7 +5,27 @@
     "email": "robertsonmonica@hotmail.com",
     "birthdate": "1961-03-18",
     "phone": "8949417477",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        17,
+        69,
+        53,
+        69,
+        45,
+        7,
+        65,
+        18,
+        27,
+        59,
+        10,
+        38,
+        66
+    ],
+    "login locations": [
+        [
+            -122.341585,
+            37.758315
+        ]
+    ],
+    "relationships": []
 }

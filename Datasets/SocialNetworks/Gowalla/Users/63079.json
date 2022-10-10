@@ -5,7 +5,15 @@
     "email": "qmurray@yahoo.com",
     "birthdate": "1910-11-04",
     "phone": "2292312777",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        64
+    ],
+    "login locations": [
+        [
+            -118.468962,
+            34.016582
+        ]
+    ],
+    "relationships": []
 }

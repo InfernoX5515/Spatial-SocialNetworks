@@ -5,7 +5,28 @@
     "email": "dunndiane@hotmail.com",
     "birthdate": "1932-03-18",
     "phone": "866-094-1903x87139",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        9,
+        50,
+        34,
+        71,
+        25,
+        32,
+        22,
+        29,
+        15,
+        48,
+        58,
+        33,
+        70,
+        25
+    ],
+    "login locations": [
+        [
+            -121.779226,
+            36.765003
+        ]
+    ],
+    "relationships": []
 }

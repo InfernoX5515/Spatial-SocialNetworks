@@ -5,7 +5,21 @@
     "email": "angelasimmons@yahoo.com",
     "birthdate": "2013-09-21",
     "phone": "789.646.5837x44173",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        18,
+        59,
+        63,
+        57,
+        33,
+        11,
+        65
+    ],
+    "login locations": [
+        [
+            -122.315014,
+            37.824128
+        ]
+    ],
+    "relationships": []
 }

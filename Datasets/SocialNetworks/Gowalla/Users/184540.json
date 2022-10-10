@@ -5,7 +5,14 @@
     "email": "vfrench@yahoo.com",
     "birthdate": "1958-11-09",
     "phone": "+1-768-826-4574x32963",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45
+    ],
+    "login locations": [
+        [
+            -117.677817,
+            34.056906
+        ]
+    ],
+    "relationships": []
 }

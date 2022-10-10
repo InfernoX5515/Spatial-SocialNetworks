@@ -5,7 +5,24 @@
     "email": "michael19@gmail.com",
     "birthdate": "1978-02-02",
     "phone": "+1-248-047-0624",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        42,
+        11,
+        75,
+        31,
+        11,
+        73,
+        47,
+        6,
+        28,
+        47
+    ],
+    "login locations": [
+        [
+            -118.327938,
+            33.870278
+        ]
+    ],
+    "relationships": []
 }

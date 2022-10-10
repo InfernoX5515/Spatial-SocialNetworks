@@ -5,7 +5,18 @@
     "email": "scottroy@hotmail.com",
     "birthdate": "1919-02-04",
     "phone": "(819)880-1190x42395",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        7,
+        25,
+        56,
+        2
+    ],
+    "login locations": [
+        [
+            -122.37752,
+            37.722105
+        ]
+    ],
+    "relationships": []
 }

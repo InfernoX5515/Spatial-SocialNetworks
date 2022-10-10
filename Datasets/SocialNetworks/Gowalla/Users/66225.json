@@ -5,7 +5,18 @@
     "email": "esparzamichelle@hotmail.com",
     "birthdate": "1970-10-05",
     "phone": "+1-033-947-0179",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        10,
+        39,
+        59,
+        70
+    ],
+    "login locations": [
+        [
+            -117.953829,
+            33.692427
+        ]
+    ],
+    "relationships": []
 }

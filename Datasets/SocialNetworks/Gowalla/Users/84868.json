@@ -5,7 +5,33 @@
     "email": "christopherbennett@hotmail.com",
     "birthdate": "1989-09-11",
     "phone": "703-356-0483x252",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        73,
+        50,
+        23,
+        69,
+        47,
+        38,
+        0,
+        58
+    ],
+    "login locations": [
+        [
+            -117.880528,
+            33.765817
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8859,
+                0.0242424242424
+            ],
+            [
+                8859,
+                0.0242424242424
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "flynnelaine@yahoo.com",
     "birthdate": "1983-05-13",
     "phone": "559-607-7518x287",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        51,
+        59,
+        6,
+        12,
+        49,
+        13,
+        61,
+        40,
+        41,
+        53,
+        33,
+        27,
+        26,
+        66
+    ],
+    "login locations": [
+        [
+            -122.389851,
+            37.759386
+        ]
+    ],
+    "relationships": []
 }

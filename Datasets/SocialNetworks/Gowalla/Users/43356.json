@@ -5,7 +5,22 @@
     "email": "emoreno@hotmail.com",
     "birthdate": "1933-02-03",
     "phone": "943.181.7287",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        53,
+        42,
+        66,
+        52,
+        37,
+        42,
+        13,
+        74
+    ],
+    "login locations": [
+        [
+            -122.244712,
+            37.7713
+        ]
+    ],
+    "relationships": []
 }

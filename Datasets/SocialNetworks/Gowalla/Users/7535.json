@@ -5,7 +5,28 @@
     "email": "patty12@gmail.com",
     "birthdate": "1922-04-30",
     "phone": "(254)819-9843",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        39,
+        56,
+        54,
+        0,
+        25,
+        8,
+        42,
+        49,
+        35,
+        47,
+        38,
+        10,
+        69,
+        21
+    ],
+    "login locations": [
+        [
+            -122.161046,
+            37.443255
+        ]
+    ],
+    "relationships": []
 }

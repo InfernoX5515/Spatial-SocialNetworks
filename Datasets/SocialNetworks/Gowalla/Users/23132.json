@@ -5,7 +5,29 @@
     "email": "annasmith@hotmail.com",
     "birthdate": "1907-10-18",
     "phone": "(754)642-7713x93880",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        73,
+        73,
+        33,
+        25
+    ],
+    "login locations": [
+        [
+            -122.401219,
+            37.771217
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4399,
+                0.01
+            ],
+            [
+                4399,
+                0.08
+            ]
+        ]
+    ]
 }

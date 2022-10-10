@@ -5,7 +5,35 @@
     "email": "nfranklin@gmail.com",
     "birthdate": "1912-05-02",
     "phone": "+1-296-943-3680x3371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        75,
+        38,
+        56,
+        58,
+        59,
+        14,
+        71,
+        5,
+        33,
+        44
+    ],
+    "login locations": [
+        [
+            -118.536421,
+            34.206015
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1685,
+                0.01
+            ],
+            [
+                1685,
+                0.01
+            ]
+        ]
+    ]
 }

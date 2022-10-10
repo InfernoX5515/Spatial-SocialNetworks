@@ -5,7 +5,24 @@
     "email": "beckerkurt@hotmail.com",
     "birthdate": "1914-05-03",
     "phone": "593-231-6259x226",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        46,
+        27,
+        42,
+        46,
+        11,
+        68,
+        20,
+        59,
+        8,
+        17
+    ],
+    "login locations": [
+        [
+            -122.07864,
+            37.395952
+        ]
+    ],
+    "relationships": []
 }

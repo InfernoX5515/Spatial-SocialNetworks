@@ -5,7 +5,35 @@
     "email": "nancysmith@yahoo.com",
     "birthdate": "1942-09-16",
     "phone": "496-698-4534",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        35,
+        38,
+        43,
+        14,
+        50,
+        19,
+        34,
+        49,
+        48,
+        49
+    ],
+    "login locations": [
+        [
+            -116.546751,
+            33.832618
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                359,
+                0.079797979798
+            ],
+            [
+                359,
+                0.079797979798
+            ]
+        ]
+    ]
 }

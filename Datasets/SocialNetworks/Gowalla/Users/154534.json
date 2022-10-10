@@ -5,7 +5,28 @@
     "email": "aaron14@gmail.com",
     "birthdate": "1959-11-11",
     "phone": "546-824-0426",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        12,
+        43,
+        1
+    ],
+    "login locations": [
+        [
+            -116.322586,
+            33.753138
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                188799,
+                0.0512820512821
+            ],
+            [
+                188799,
+                0.0512820512821
+            ]
+        ]
+    ]
 }

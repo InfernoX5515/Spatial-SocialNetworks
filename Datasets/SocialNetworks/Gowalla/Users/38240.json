@@ -5,7 +5,24 @@
     "email": "williamsphilip@hotmail.com",
     "birthdate": "1946-10-13",
     "phone": "001-940-994-6601",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        64,
+        52,
+        6,
+        46,
+        63,
+        10,
+        7,
+        45,
+        18,
+        60
+    ],
+    "login locations": [
+        [
+            -118.425552,
+            34.167392
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "robinchavez@gmail.com",
     "birthdate": "2020-05-03",
     "phone": "752.566.3195x25877",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        43,
+        70,
+        32,
+        33,
+        39,
+        11,
+        16,
+        57,
+        39,
+        2,
+        12,
+        47,
+        36,
+        33
+    ],
+    "login locations": [
+        [
+            -121.965901,
+            37.266736
+        ]
+    ],
+    "relationships": []
 }

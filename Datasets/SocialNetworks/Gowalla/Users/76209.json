@@ -5,7 +5,23 @@
     "email": "robertmarsh@gmail.com",
     "birthdate": "1917-04-26",
     "phone": "799-164-1563x22588",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        30,
+        7,
+        6,
+        4,
+        0,
+        49,
+        37,
+        28,
+        33
+    ],
+    "login locations": [
+        [
+            -118.384722,
+            33.975366
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "ujordan@yahoo.com",
     "birthdate": "1907-04-18",
     "phone": "001-819-822-9396x1783",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        57,
+        45,
+        58,
+        18,
+        8,
+        52,
+        25,
+        46
+    ],
+    "login locations": [
+        [
+            -117.206207,
+            32.788781
+        ]
+    ],
+    "relationships": []
 }

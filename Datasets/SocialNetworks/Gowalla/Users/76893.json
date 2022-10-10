@@ -5,7 +5,22 @@
     "email": "michaelharris@yahoo.com",
     "birthdate": "1948-02-02",
     "phone": "(082)486-5633x87404",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        52,
+        43,
+        36,
+        35,
+        32,
+        38,
+        7,
+        56
+    ],
+    "login locations": [
+        [
+            -118.317265,
+            33.912265
+        ]
+    ],
+    "relationships": []
 }

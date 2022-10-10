@@ -5,7 +5,14 @@
     "email": "jon97@hotmail.com",
     "birthdate": "1923-05-16",
     "phone": "001-542-415-2448x07671",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46
+    ],
+    "login locations": [
+        [
+            -119.796053,
+            36.802208
+        ]
+    ],
+    "relationships": []
 }

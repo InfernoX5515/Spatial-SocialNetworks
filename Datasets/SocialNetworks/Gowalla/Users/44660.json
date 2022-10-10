@@ -5,7 +5,25 @@
     "email": "darlene00@yahoo.com",
     "birthdate": "1971-02-24",
     "phone": "427-879-5515",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        56,
+        75,
+        34,
+        15,
+        49,
+        43,
+        48,
+        24,
+        20,
+        27,
+        30
+    ],
+    "login locations": [
+        [
+            -118.94363,
+            34.239584
+        ]
+    ],
+    "relationships": []
 }

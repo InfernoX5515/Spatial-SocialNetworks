@@ -5,7 +5,21 @@
     "email": "brenda82@hotmail.com",
     "birthdate": "2019-12-27",
     "phone": "001-579-690-9750x151",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        55,
+        61,
+        68,
+        22,
+        37,
+        27,
+        1
+    ],
+    "login locations": [
+        [
+            -117.659159,
+            33.631259
+        ]
+    ],
+    "relationships": []
 }

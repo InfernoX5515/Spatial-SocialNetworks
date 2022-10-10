@@ -5,7 +5,25 @@
     "email": "kdunn@hotmail.com",
     "birthdate": "1999-06-23",
     "phone": "451-612-1225",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25
+    ],
+    "login locations": [
+        [
+            -119.196972,
+            34.229529
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4227,
+                0.01
+            ],
+            [
+                4227,
+                0.01
+            ]
+        ]
+    ]
 }

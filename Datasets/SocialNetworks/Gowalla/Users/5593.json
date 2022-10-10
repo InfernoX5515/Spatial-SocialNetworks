@@ -5,7 +5,22 @@
     "email": "nancy98@hotmail.com",
     "birthdate": "2006-10-26",
     "phone": "(243)916-6906x54970",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        5,
+        55,
+        46,
+        4,
+        26,
+        28,
+        40,
+        8
+    ],
+    "login locations": [
+        [
+            -118.451647,
+            34.039878
+        ]
+    ],
+    "relationships": []
 }

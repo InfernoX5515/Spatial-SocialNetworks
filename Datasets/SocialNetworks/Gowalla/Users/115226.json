@@ -5,7 +5,16 @@
     "email": "eallen@gmail.com",
     "birthdate": "1922-07-31",
     "phone": "903-391-9455",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        1,
+        55
+    ],
+    "login locations": [
+        [
+            -118.337896,
+            34.073776
+        ]
+    ],
+    "relationships": []
 }

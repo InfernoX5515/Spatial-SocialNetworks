@@ -5,7 +5,15 @@
     "email": "wrightsamantha@yahoo.com",
     "birthdate": "1940-02-21",
     "phone": "7604705550",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        72
+    ],
+    "login locations": [
+        [
+            -122.041982,
+            37.281753
+        ]
+    ],
+    "relationships": []
 }

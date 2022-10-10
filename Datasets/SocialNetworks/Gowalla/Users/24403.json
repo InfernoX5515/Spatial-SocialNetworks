@@ -5,7 +5,23 @@
     "email": "hmoore@gmail.com",
     "birthdate": "1949-08-13",
     "phone": "378-190-2093",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        36,
+        58,
+        35,
+        8,
+        3,
+        22,
+        58,
+        63,
+        16
+    ],
+    "login locations": [
+        [
+            -122.391986,
+            37.796025
+        ]
+    ],
+    "relationships": []
 }

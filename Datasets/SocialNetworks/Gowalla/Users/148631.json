@@ -5,7 +5,32 @@
     "email": "christinahines@hotmail.com",
     "birthdate": "1966-09-10",
     "phone": "+1-241-187-3601x405",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        67,
+        15,
+        51,
+        0,
+        28,
+        18,
+        48
+    ],
+    "login locations": [
+        [
+            -117.627673,
+            34.103708
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                56456,
+                0.015
+            ],
+            [
+                56456,
+                0.015
+            ]
+        ]
+    ]
 }

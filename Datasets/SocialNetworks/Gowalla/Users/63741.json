@@ -5,7 +5,23 @@
     "email": "hansensandra@hotmail.com",
     "birthdate": "1959-04-19",
     "phone": "001-933-738-7623x972",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        14,
+        31,
+        12,
+        26,
+        59,
+        52,
+        33,
+        62,
+        7
+    ],
+    "login locations": [
+        [
+            -117.15613,
+            32.733658
+        ]
+    ],
+    "relationships": []
 }

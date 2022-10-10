@@ -5,7 +5,18 @@
     "email": "oclark@gmail.com",
     "birthdate": "1933-08-15",
     "phone": "2720935870",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        33,
+        50,
+        36,
+        42
+    ],
+    "login locations": [
+        [
+            -122.372217,
+            37.746263
+        ]
+    ],
+    "relationships": []
 }

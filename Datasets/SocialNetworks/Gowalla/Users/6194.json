@@ -5,7 +5,35 @@
     "email": "oharris@yahoo.com",
     "birthdate": "2010-07-20",
     "phone": "+1-224-286-9297",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        54,
+        50,
+        16,
+        27,
+        61,
+        38,
+        2,
+        69,
+        63,
+        63
+    ],
+    "login locations": [
+        [
+            -122.180079,
+            37.45004
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                77994,
+                0.0454545454545
+            ],
+            [
+                77994,
+                0.0454545454545
+            ]
+        ]
+    ]
 }

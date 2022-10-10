@@ -5,7 +5,24 @@
     "email": "crossmelissa@yahoo.com",
     "birthdate": "2007-03-02",
     "phone": "673-358-0557x16130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        28,
+        59,
+        37,
+        39,
+        46,
+        73,
+        28,
+        25,
+        64,
+        26
+    ],
+    "login locations": [
+        [
+            -118.366487,
+            34.010034
+        ]
+    ],
+    "relationships": []
 }

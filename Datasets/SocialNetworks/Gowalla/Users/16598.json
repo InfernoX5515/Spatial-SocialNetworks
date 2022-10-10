@@ -5,7 +5,14 @@
     "email": "lindsey15@gmail.com",
     "birthdate": "1920-02-19",
     "phone": "302.272.5787x5775",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10
+    ],
+    "login locations": [
+        [
+            -118.186465,
+            34.138423
+        ]
+    ],
+    "relationships": []
 }

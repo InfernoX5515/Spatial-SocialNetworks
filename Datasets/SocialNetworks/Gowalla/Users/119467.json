@@ -5,7 +5,23 @@
     "email": "rebecca99@hotmail.com",
     "birthdate": "1967-08-19",
     "phone": "910-491-8932",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        49,
+        12,
+        4,
+        74,
+        50,
+        12,
+        60,
+        39,
+        25
+    ],
+    "login locations": [
+        [
+            -122.395725,
+            37.655834
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "phillipskimberly@hotmail.com",
     "birthdate": "1925-01-13",
     "phone": "(907)974-5082x37609",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        49,
+        51,
+        43,
+        72,
+        72,
+        65,
+        47,
+        46,
+        20,
+        44,
+        6,
+        6,
+        50
+    ],
+    "login locations": [
+        [
+            -117.733154,
+            34.033561
+        ]
+    ],
+    "relationships": []
 }

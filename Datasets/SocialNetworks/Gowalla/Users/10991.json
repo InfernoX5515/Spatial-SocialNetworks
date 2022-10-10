@@ -5,7 +5,25 @@
     "email": "loritrujillo@yahoo.com",
     "birthdate": "1978-08-29",
     "phone": "001-219-335-7263",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6
+    ],
+    "login locations": [
+        [
+            -118.040965,
+            33.83073
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                177,
+                0.0184615384615
+            ],
+            [
+                10990,
+                0.196428571429
+            ]
+        ]
+    ]
 }

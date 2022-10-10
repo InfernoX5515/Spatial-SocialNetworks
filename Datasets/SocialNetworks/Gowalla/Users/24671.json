@@ -5,7 +5,14 @@
     "email": "suzanne97@yahoo.com",
     "birthdate": "1969-10-03",
     "phone": "001-450-481-0479x8839",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68
+    ],
+    "login locations": [
+        [
+            -118.473667,
+            33.998291
+        ]
+    ],
+    "relationships": []
 }

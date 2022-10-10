@@ -5,7 +5,26 @@
     "email": "snguyen@gmail.com",
     "birthdate": "2011-08-16",
     "phone": "+1-488-651-0634",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        71,
+        14,
+        54,
+        31,
+        50,
+        74,
+        52,
+        44,
+        4,
+        51,
+        16,
+        31
+    ],
+    "login locations": [
+        [
+            -117.249292,
+            32.743013
+        ]
+    ],
+    "relationships": []
 }

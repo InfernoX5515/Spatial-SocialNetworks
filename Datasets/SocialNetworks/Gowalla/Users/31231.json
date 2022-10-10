@@ -5,7 +5,20 @@
     "email": "danielherrera@hotmail.com",
     "birthdate": "1937-03-18",
     "phone": "001-405-256-6049",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        55,
+        61,
+        68,
+        43,
+        1,
+        41
+    ],
+    "login locations": [
+        [
+            -122.409419,
+            37.744075
+        ]
+    ],
+    "relationships": []
 }

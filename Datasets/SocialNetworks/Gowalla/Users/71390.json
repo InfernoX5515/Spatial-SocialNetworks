@@ -5,7 +5,19 @@
     "email": "jeromeweaver@hotmail.com",
     "birthdate": "1930-06-16",
     "phone": "6562412136",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        11,
+        64,
+        19,
+        35,
+        36
+    ],
+    "login locations": [
+        [
+            -117.643362,
+            34.06757
+        ]
+    ],
+    "relationships": []
 }

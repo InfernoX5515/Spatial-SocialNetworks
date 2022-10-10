@@ -5,7 +5,12 @@
     "email": "bpierce@gmail.com",
     "birthdate": "1975-04-05",
     "phone": "5648134303",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.454291,
+            37.720972
+        ]
+    ],
+    "relationships": []
 }

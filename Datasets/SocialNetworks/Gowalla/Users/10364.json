@@ -5,7 +5,25 @@
     "email": "meganingram@yahoo.com",
     "birthdate": "1943-05-31",
     "phone": "972-658-6512x18686",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35
+    ],
+    "login locations": [
+        [
+            -122.402751,
+            37.76609
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.01
+            ],
+            [
+                159,
+                0.01
+            ]
+        ]
+    ]
 }

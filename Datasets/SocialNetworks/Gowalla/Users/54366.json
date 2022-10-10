@@ -5,7 +5,21 @@
     "email": "bryanttina@yahoo.com",
     "birthdate": "1909-08-31",
     "phone": "4259802122",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        5,
+        2,
+        74,
+        74,
+        57,
+        49,
+        26
+    ],
+    "login locations": [
+        [
+            -118.30793,
+            33.980543
+        ]
+    ],
+    "relationships": []
 }

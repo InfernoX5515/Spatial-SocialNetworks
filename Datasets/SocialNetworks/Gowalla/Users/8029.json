@@ -5,7 +5,22 @@
     "email": "valeriejones@gmail.com",
     "birthdate": "1996-06-14",
     "phone": "001-408-917-0308x65049",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        67,
+        56,
+        7,
+        54,
+        54,
+        17,
+        9,
+        31
+    ],
+    "login locations": [
+        [
+            -121.921622,
+            37.331707
+        ]
+    ],
+    "relationships": []
 }

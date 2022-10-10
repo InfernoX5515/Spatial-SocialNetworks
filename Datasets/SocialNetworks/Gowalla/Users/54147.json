@@ -5,7 +5,21 @@
     "email": "andreawashington@gmail.com",
     "birthdate": "1936-07-09",
     "phone": "296.352.6523",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        11,
+        1,
+        53,
+        11,
+        35,
+        70,
+        53
+    ],
+    "login locations": [
+        [
+            -117.134462,
+            32.909687
+        ]
+    ],
+    "relationships": []
 }

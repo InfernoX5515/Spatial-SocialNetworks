@@ -5,7 +5,28 @@
     "email": "kelly74@hotmail.com",
     "birthdate": "1956-01-01",
     "phone": "251-015-1109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        33,
+        59,
+        67,
+        52,
+        51,
+        30,
+        41,
+        66,
+        54,
+        54,
+        12,
+        5,
+        42,
+        26
+    ],
+    "login locations": [
+        [
+            -122.740576,
+            38.86354
+        ]
+    ],
+    "relationships": []
 }

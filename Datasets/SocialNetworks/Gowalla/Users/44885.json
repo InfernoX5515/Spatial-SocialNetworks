@@ -5,7 +5,27 @@
     "email": "james11@yahoo.com",
     "birthdate": "1999-07-24",
     "phone": "(574)272-3919x43957",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        14,
+        7,
+        49,
+        32,
+        71,
+        1,
+        46,
+        39,
+        57,
+        23,
+        60,
+        4,
+        66
+    ],
+    "login locations": [
+        [
+            -117.191675,
+            32.782809
+        ]
+    ],
+    "relationships": []
 }

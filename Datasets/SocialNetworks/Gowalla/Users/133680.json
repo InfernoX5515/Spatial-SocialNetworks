@@ -5,7 +5,26 @@
     "email": "garciamichael@hotmail.com",
     "birthdate": "1928-11-19",
     "phone": "001-874-932-7485x7877",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        56,
+        50,
+        32,
+        60,
+        38,
+        37,
+        15,
+        56,
+        6,
+        56,
+        5,
+        62
+    ],
+    "login locations": [
+        [
+            -118.242651,
+            34.083339
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "sarahmejia@hotmail.com",
     "birthdate": "2015-11-06",
     "phone": "1865103237",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        43,
+        6,
+        8,
+        57,
+        52,
+        6,
+        67,
+        44,
+        57,
+        3,
+        3,
+        40,
+        1
+    ],
+    "login locations": [
+        [
+            -121.832515,
+            37.283797
+        ]
+    ],
+    "relationships": []
 }

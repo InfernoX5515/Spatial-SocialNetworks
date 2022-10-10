@@ -5,7 +5,26 @@
     "email": "fvazquez@hotmail.com",
     "birthdate": "1997-04-03",
     "phone": "955-107-2862x799",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        5,
+        56,
+        50,
+        11,
+        47,
+        42,
+        48,
+        30,
+        16,
+        43,
+        65,
+        29
+    ],
+    "login locations": [
+        [
+            -122.415691,
+            37.76974
+        ]
+    ],
+    "relationships": []
 }

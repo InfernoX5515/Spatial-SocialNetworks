@@ -5,7 +5,34 @@
     "email": "jasoncombs@hotmail.com",
     "birthdate": "1915-01-24",
     "phone": "603-453-4500x45209",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        28,
+        66,
+        42,
+        51,
+        0,
+        5,
+        20,
+        9,
+        42
+    ],
+    "login locations": [
+        [
+            -121.163585,
+            38.68523
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                70392,
+                0.0296296296296
+            ],
+            [
+                156785,
+                0.0769230769231
+            ]
+        ]
+    ]
 }

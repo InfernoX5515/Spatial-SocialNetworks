@@ -5,7 +5,26 @@
     "email": "jeffersonshannon@yahoo.com",
     "birthdate": "2013-01-12",
     "phone": "001-622-554-9099x197",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        43,
+        65,
+        33,
+        6,
+        28,
+        17,
+        49,
+        17,
+        39,
+        55,
+        28,
+        70
+    ],
+    "login locations": [
+        [
+            -122.083281,
+            37.946938
+        ]
+    ],
+    "relationships": []
 }

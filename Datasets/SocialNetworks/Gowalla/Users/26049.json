@@ -5,7 +5,22 @@
     "email": "robinsonjames@hotmail.com",
     "birthdate": "1962-12-14",
     "phone": "+1-919-915-3836x27649",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        26,
+        51,
+        34,
+        1,
+        0,
+        61,
+        70,
+        15
+    ],
+    "login locations": [
+        [
+            -121.398864,
+            38.641468
+        ]
+    ],
+    "relationships": []
 }

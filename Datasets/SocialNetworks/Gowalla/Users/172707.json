@@ -5,7 +5,16 @@
     "email": "nlee@hotmail.com",
     "birthdate": "1996-11-02",
     "phone": "139.919.0861x59123",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        38,
+        66
+    ],
+    "login locations": [
+        [
+            -117.107396,
+            32.768961
+        ]
+    ],
+    "relationships": []
 }

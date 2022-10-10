@@ -5,7 +5,29 @@
     "email": "davidmonroe@gmail.com",
     "birthdate": "1943-08-03",
     "phone": "(873)704-3426x0459",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        22,
+        35,
+        28,
+        30
+    ],
+    "login locations": [
+        [
+            -121.980311,
+            37.32404
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                427,
+                0.0177777777778
+            ],
+            [
+                8555,
+                0.0363636363636
+            ]
+        ]
+    ]
 }

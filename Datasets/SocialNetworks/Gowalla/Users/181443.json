@@ -5,7 +5,17 @@
     "email": "dereklee@gmail.com",
     "birthdate": "1919-03-28",
     "phone": "633-810-1558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        64,
+        29,
+        19
+    ],
+    "login locations": [
+        [
+            -117.670299,
+            35.626953
+        ]
+    ],
+    "relationships": []
 }

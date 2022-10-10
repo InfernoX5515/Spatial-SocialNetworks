@@ -5,7 +5,22 @@
     "email": "jcooper@hotmail.com",
     "birthdate": "1919-11-29",
     "phone": "+1-578-800-9952x8789",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        25,
+        47,
+        75,
+        31,
+        10,
+        60,
+        56,
+        75
+    ],
+    "login locations": [
+        [
+            -119.09148,
+            35.394727
+        ]
+    ],
+    "relationships": []
 }

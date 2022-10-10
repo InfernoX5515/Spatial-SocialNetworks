@@ -5,7 +5,28 @@
     "email": "john78@hotmail.com",
     "birthdate": "2022-02-14",
     "phone": "+1-461-961-7788x952",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        47,
+        65,
+        30,
+        54,
+        18,
+        34,
+        5,
+        20,
+        37,
+        12,
+        11,
+        27,
+        44,
+        18
+    ],
+    "login locations": [
+        [
+            -122.459092,
+            37.80179
+        ]
+    ],
+    "relationships": []
 }

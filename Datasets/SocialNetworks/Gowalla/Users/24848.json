@@ -5,7 +5,38 @@
     "email": "heidigraham@yahoo.com",
     "birthdate": "1919-04-21",
     "phone": "+1-406-977-7371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        44,
+        70,
+        5,
+        4,
+        66,
+        28,
+        51,
+        5,
+        45,
+        2,
+        9,
+        16,
+        2
+    ],
+    "login locations": [
+        [
+            -122.386762,
+            37.595857
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                18952,
+                0.01
+            ],
+            [
+                18952,
+                0.01
+            ]
+        ]
+    ]
 }

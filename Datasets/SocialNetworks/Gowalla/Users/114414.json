@@ -5,7 +5,18 @@
     "email": "elizabeth56@hotmail.com",
     "birthdate": "1974-05-30",
     "phone": "(446)591-3893x110",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        34,
+        74,
+        10,
+        45
+    ],
+    "login locations": [
+        [
+            -118.283046,
+            33.857361
+        ]
+    ],
+    "relationships": []
 }

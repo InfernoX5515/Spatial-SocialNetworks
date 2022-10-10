@@ -5,7 +5,28 @@
     "email": "tracy13@hotmail.com",
     "birthdate": "1959-02-19",
     "phone": "001-690-612-8775x0146",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        1,
+        64,
+        9,
+        16,
+        17,
+        24,
+        13,
+        60,
+        2,
+        33,
+        14,
+        21,
+        69,
+        26
+    ],
+    "login locations": [
+        [
+            -122.407539,
+            37.776962
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "christopher95@gmail.com",
     "birthdate": "1918-10-28",
     "phone": "605.317.5683x5637",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        32,
+        30,
+        63,
+        23,
+        73,
+        9,
+        72,
+        18,
+        40,
+        30,
+        37,
+        51
+    ],
+    "login locations": [
+        [
+            -122.383608,
+            37.785508
+        ]
+    ],
+    "relationships": []
 }

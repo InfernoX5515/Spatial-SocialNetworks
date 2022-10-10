@@ -5,7 +5,25 @@
     "email": "hernandezholly@yahoo.com",
     "birthdate": "1909-07-14",
     "phone": "361.226.0526",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67
+    ],
+    "login locations": [
+        [
+            -118.459366,
+            34.15543
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39068,
+                0.0697674418605
+            ],
+            [
+                41070,
+                0.01
+            ]
+        ]
+    ]
 }

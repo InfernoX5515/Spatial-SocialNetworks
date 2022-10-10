@@ -5,7 +5,26 @@
     "email": "qmerritt@gmail.com",
     "birthdate": "1943-09-05",
     "phone": "279-256-3326",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        29,
+        9,
+        0,
+        18,
+        23,
+        17,
+        16,
+        35,
+        22,
+        54,
+        71,
+        68
+    ],
+    "login locations": [
+        [
+            -122.338507,
+            37.57798
+        ]
+    ],
+    "relationships": []
 }

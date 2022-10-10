@@ -5,7 +5,23 @@
     "email": "adamchristensen@gmail.com",
     "birthdate": "1908-02-14",
     "phone": "216-611-8610",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        73,
+        61,
+        12,
+        47,
+        69,
+        52,
+        59,
+        8,
+        16
+    ],
+    "login locations": [
+        [
+            -118.383793,
+            34.081082
+        ]
+    ],
+    "relationships": []
 }

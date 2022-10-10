@@ -5,7 +5,16 @@
     "email": "carterlance@hotmail.com",
     "birthdate": "2022-03-02",
     "phone": "001-954-035-8033x82413",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        70,
+        23
+    ],
+    "login locations": [
+        [
+            -122.018326,
+            37.715731
+        ]
+    ],
+    "relationships": []
 }

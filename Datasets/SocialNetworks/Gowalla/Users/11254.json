@@ -5,7 +5,27 @@
     "email": "karenbruce@yahoo.com",
     "birthdate": "2019-07-26",
     "phone": "001-281-134-8605x674",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        43,
+        53,
+        39,
+        51,
+        45,
+        59,
+        60,
+        18,
+        60,
+        61,
+        58,
+        27,
+        0
+    ],
+    "login locations": [
+        [
+            -117.955375,
+            34.012852
+        ]
+    ],
+    "relationships": []
 }

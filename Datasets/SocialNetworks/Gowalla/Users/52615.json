@@ -5,7 +5,17 @@
     "email": "mary93@hotmail.com",
     "birthdate": "1962-07-22",
     "phone": "+1-021-328-7397x108",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        21,
+        30,
+        36
+    ],
+    "login locations": [
+        [
+            -118.431641,
+            34.021938
+        ]
+    ],
+    "relationships": []
 }

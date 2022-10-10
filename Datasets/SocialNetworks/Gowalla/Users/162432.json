@@ -5,7 +5,35 @@
     "email": "nathan42@hotmail.com",
     "birthdate": "1948-01-16",
     "phone": "+1-810-270-5698",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        14,
+        37,
+        44,
+        16,
+        54,
+        22,
+        13,
+        25,
+        43,
+        18
+    ],
+    "login locations": [
+        [
+            -121.625837,
+            38.674093
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                106786,
+                0.031654676259
+            ],
+            [
+                106787,
+                0.166666666667
+            ]
+        ]
+    ]
 }

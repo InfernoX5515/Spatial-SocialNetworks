@@ -5,7 +5,28 @@
     "email": "juliecooper@yahoo.com",
     "birthdate": "1953-10-09",
     "phone": "001-034-679-0286x2758",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        2,
+        65,
+        30,
+        68,
+        44,
+        39,
+        38,
+        0,
+        1,
+        63,
+        75,
+        26,
+        13,
+        56
+    ],
+    "login locations": [
+        [
+            -122.043726,
+            37.365826
+        ]
+    ],
+    "relationships": []
 }

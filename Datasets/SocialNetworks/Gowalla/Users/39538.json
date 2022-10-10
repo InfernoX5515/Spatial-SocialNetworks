@@ -5,7 +5,28 @@
     "email": "coliver@yahoo.com",
     "birthdate": "1907-12-11",
     "phone": "(069)977-1271x654",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        15,
+        36,
+        65
+    ],
+    "login locations": [
+        [
+            -118.382831,
+            34.0126
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                47760,
+                0.117647058824
+            ],
+            [
+                47760,
+                0.117647058824
+            ]
+        ]
+    ]
 }

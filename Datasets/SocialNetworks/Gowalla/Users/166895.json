@@ -5,7 +5,28 @@
     "email": "andrew84@gmail.com",
     "birthdate": "1995-11-21",
     "phone": "4693607004",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        13,
+        28,
+        18,
+        20,
+        39,
+        54,
+        73,
+        68,
+        17,
+        6,
+        68,
+        70,
+        0,
+        5
+    ],
+    "login locations": [
+        [
+            -118.325976,
+            34.094948
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "stephanie76@hotmail.com",
     "birthdate": "1955-09-21",
     "phone": "840-931-5518",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        12,
+        58
+    ],
+    "login locations": [
+        [
+            -122.119427,
+            37.418305
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.014598540146
+            ],
+            [
+                6536,
+                0.0483870967742
+            ]
+        ]
+    ]
 }

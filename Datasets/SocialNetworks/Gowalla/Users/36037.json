@@ -5,7 +5,17 @@
     "email": "hobbskelly@hotmail.com",
     "birthdate": "1977-11-24",
     "phone": "(360)751-9101",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        72,
+        73,
+        35
+    ],
+    "login locations": [
+        [
+            -118.428744,
+            34.061091
+        ]
+    ],
+    "relationships": []
 }

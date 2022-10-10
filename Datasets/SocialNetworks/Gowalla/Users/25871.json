@@ -5,7 +5,17 @@
     "email": "crystalharris@hotmail.com",
     "birthdate": "1998-06-20",
     "phone": "189.939.3233x5530",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        26,
+        56,
+        22
+    ],
+    "login locations": [
+        [
+            -122.601662,
+            38.14255
+        ]
+    ],
+    "relationships": []
 }

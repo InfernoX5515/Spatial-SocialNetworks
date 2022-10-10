@@ -5,7 +5,35 @@
     "email": "larsonjames@gmail.com",
     "birthdate": "2021-03-02",
     "phone": "790-813-1398x991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        13,
+        37,
+        49,
+        12,
+        50,
+        8,
+        20,
+        53,
+        16,
+        17
+    ],
+    "login locations": [
+        [
+            -122.303718,
+            37.92226
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6183,
+                0.01
+            ],
+            [
+                6183,
+                0.01
+            ]
+        ]
+    ]
 }

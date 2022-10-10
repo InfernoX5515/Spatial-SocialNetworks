@@ -5,7 +5,25 @@
     "email": "joseph72@yahoo.com",
     "birthdate": "1926-05-18",
     "phone": "792.377.7410",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        11,
+        12,
+        62,
+        67,
+        46,
+        8,
+        43,
+        20,
+        16,
+        52,
+        39
+    ],
+    "login locations": [
+        [
+            -118.338461,
+            34.081878
+        ]
+    ],
+    "relationships": []
 }

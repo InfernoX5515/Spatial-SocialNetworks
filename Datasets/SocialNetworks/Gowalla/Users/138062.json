@@ -5,7 +5,12 @@
     "email": "abigail62@hotmail.com",
     "birthdate": "1934-12-06",
     "phone": "001-960-390-2760x39244",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.402612,
+            37.737791
+        ]
+    ],
+    "relationships": []
 }

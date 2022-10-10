@@ -5,7 +5,20 @@
     "email": "jesus74@gmail.com",
     "birthdate": "2014-02-24",
     "phone": "+1-659-091-8101x5289",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        25,
+        3,
+        65,
+        0,
+        36,
+        43
+    ],
+    "login locations": [
+        [
+            -122.380065,
+            37.757125
+        ]
+    ],
+    "relationships": []
 }

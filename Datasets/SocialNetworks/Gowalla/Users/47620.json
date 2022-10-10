@@ -5,7 +5,18 @@
     "email": "thomasrobbins@gmail.com",
     "birthdate": "1910-07-25",
     "phone": "103-356-9683",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        63,
+        70,
+        62,
+        66
+    ],
+    "login locations": [
+        [
+            -118.272529,
+            33.962462
+        ]
+    ],
+    "relationships": []
 }

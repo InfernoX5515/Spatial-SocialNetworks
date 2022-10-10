@@ -5,7 +5,26 @@
     "email": "ashleymorrison@yahoo.com",
     "birthdate": "1935-08-12",
     "phone": "9870365190",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        70,
+        23,
+        64,
+        0,
+        72,
+        53,
+        38,
+        67,
+        4,
+        67,
+        36,
+        26
+    ],
+    "login locations": [
+        [
+            -122.140788,
+            37.701361
+        ]
+    ],
+    "relationships": []
 }

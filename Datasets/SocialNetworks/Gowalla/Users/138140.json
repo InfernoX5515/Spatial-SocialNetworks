@@ -5,7 +5,26 @@
     "email": "yhunter@gmail.com",
     "birthdate": "1935-03-31",
     "phone": "3301090137",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        41,
+        64,
+        19,
+        57,
+        48,
+        16,
+        40,
+        19,
+        49,
+        22,
+        8,
+        26
+    ],
+    "login locations": [
+        [
+            -122.399834,
+            37.773501
+        ]
+    ],
+    "relationships": []
 }

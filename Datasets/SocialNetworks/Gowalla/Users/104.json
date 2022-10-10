@@ -5,7 +5,27 @@
     "email": "donaldowens@gmail.com",
     "birthdate": "2010-01-24",
     "phone": "932.063.4120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        32,
+        71,
+        2,
+        36,
+        29,
+        69,
+        41,
+        43,
+        57,
+        31,
+        55,
+        21,
+        51
+    ],
+    "login locations": [
+        [
+            -122.359929,
+            37.805048
+        ]
+    ],
+    "relationships": []
 }

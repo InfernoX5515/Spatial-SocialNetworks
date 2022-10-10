@@ -5,7 +5,37 @@
     "email": "staffordjason@yahoo.com",
     "birthdate": "1947-10-05",
     "phone": "010-319-1253x60690",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        52,
+        51,
+        26,
+        27,
+        5,
+        47,
+        42,
+        62,
+        74,
+        70,
+        72,
+        23
+    ],
+    "login locations": [
+        [
+            -117.079852,
+            32.832223
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2281,
+                0.01
+            ],
+            [
+                2281,
+                0.01
+            ]
+        ]
+    ]
 }

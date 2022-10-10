@@ -5,7 +5,16 @@
     "email": "stephanie93@yahoo.com",
     "birthdate": "1909-04-18",
     "phone": "001-896-486-5864x22399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        9,
+        57
+    ],
+    "login locations": [
+        [
+            -118.251502,
+            33.809245
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,35 @@
     "email": "cummingsjoshua@yahoo.com",
     "birthdate": "2007-02-03",
     "phone": "+1-095-888-5785x244",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        3,
+        13,
+        41,
+        52,
+        13,
+        13,
+        59,
+        38,
+        4,
+        35
+    ],
+    "login locations": [
+        [
+            -122.38642,
+            37.780939
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                427,
+                0.01
+            ],
+            [
+                4480,
+                0.0204081632653
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,18 @@
     "email": "maryhammond@yahoo.com",
     "birthdate": "1971-04-21",
     "phone": "8877505876",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        43,
+        34,
+        36,
+        11
+    ],
+    "login locations": [
+        [
+            -122.406036,
+            37.784012
+        ]
+    ],
+    "relationships": []
 }

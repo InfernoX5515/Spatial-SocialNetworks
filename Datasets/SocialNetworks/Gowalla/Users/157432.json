@@ -5,7 +5,15 @@
     "email": "webbjeffrey@yahoo.com",
     "birthdate": "1955-12-07",
     "phone": "567-460-3240x4754",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        65
+    ],
+    "login locations": [
+        [
+            -122.366861,
+            37.650019
+        ]
+    ],
+    "relationships": []
 }

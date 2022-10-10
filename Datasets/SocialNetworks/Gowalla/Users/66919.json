@@ -5,7 +5,25 @@
     "email": "mendezjennifer@gmail.com",
     "birthdate": "1962-02-04",
     "phone": "844.427.5592",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        59,
+        21,
+        73,
+        17,
+        61,
+        47,
+        49,
+        25,
+        70,
+        30,
+        63
+    ],
+    "login locations": [
+        [
+            -121.463991,
+            38.576543
+        ]
+    ],
+    "relationships": []
 }

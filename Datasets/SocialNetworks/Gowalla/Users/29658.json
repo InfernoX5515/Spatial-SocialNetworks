@@ -5,7 +5,27 @@
     "email": "stacymiller@gmail.com",
     "birthdate": "1919-03-06",
     "phone": "842.924.7500",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        20,
+        48,
+        51,
+        1,
+        51,
+        37,
+        62,
+        17,
+        51,
+        8,
+        9,
+        20,
+        8
+    ],
+    "login locations": [
+        [
+            -122.454388,
+            37.827029
+        ]
+    ],
+    "relationships": []
 }

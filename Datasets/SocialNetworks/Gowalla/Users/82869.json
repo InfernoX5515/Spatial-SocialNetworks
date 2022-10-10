@@ -5,7 +5,27 @@
     "email": "cherylrose@gmail.com",
     "birthdate": "1976-05-15",
     "phone": "354.450.3929",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        65,
+        16,
+        16,
+        47,
+        7,
+        1,
+        71,
+        28,
+        8,
+        1,
+        63,
+        36,
+        0
+    ],
+    "login locations": [
+        [
+            -122.138131,
+            37.422376
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,35 @@
     "email": "vcruz@hotmail.com",
     "birthdate": "1996-04-21",
     "phone": "9642017420",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        68,
+        67,
+        29,
+        1,
+        6,
+        63,
+        63,
+        5,
+        65,
+        65
+    ],
+    "login locations": [
+        [
+            -122.417395,
+            37.763744
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.024
+            ],
+            [
+                355,
+                0.01
+            ]
+        ]
+    ]
 }

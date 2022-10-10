@@ -5,7 +5,27 @@
     "email": "daniellewu@yahoo.com",
     "birthdate": "1997-08-20",
     "phone": "001-837-380-8275",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        42,
+        42
+    ],
+    "login locations": [
+        [
+            -122.293867,
+            38.2962
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159269,
+                0.2
+            ],
+            [
+                159269,
+                0.2
+            ]
+        ]
+    ]
 }

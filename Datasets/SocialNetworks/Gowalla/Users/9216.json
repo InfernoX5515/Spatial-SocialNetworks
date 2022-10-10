@@ -5,7 +5,23 @@
     "email": "farleymark@hotmail.com",
     "birthdate": "1964-11-29",
     "phone": "228-310-2128x4179",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.327445,
+            34.083501
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.01
+            ],
+            [
+                30822,
+                0.26
+            ]
+        ]
+    ]
 }

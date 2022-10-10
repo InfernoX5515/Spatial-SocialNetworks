@@ -5,7 +5,20 @@
     "email": "hburns@gmail.com",
     "birthdate": "1955-09-17",
     "phone": "+1-726-258-8534x39311",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        28,
+        42,
+        0,
+        14,
+        63,
+        9
+    ],
+    "login locations": [
+        [
+            -122.236672,
+            37.781691
+        ]
+    ],
+    "relationships": []
 }

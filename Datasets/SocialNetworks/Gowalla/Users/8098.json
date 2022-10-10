@@ -5,7 +5,35 @@
     "email": "veronica95@gmail.com",
     "birthdate": "1939-01-02",
     "phone": "+1-415-184-4623x66517",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        62,
+        65,
+        17,
+        60,
+        46,
+        58,
+        44,
+        60,
+        40,
+        3
+    ],
+    "login locations": [
+        [
+            -117.899721,
+            33.681813
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2613,
+                0.0176600441501
+            ],
+            [
+                2613,
+                0.0176600441501
+            ]
+        ]
+    ]
 }

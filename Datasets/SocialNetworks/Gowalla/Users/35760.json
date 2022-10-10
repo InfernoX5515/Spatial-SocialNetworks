@@ -5,7 +5,19 @@
     "email": "harrisxavier@hotmail.com",
     "birthdate": "1990-12-02",
     "phone": "513.737.5495x26682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        7,
+        52,
+        19,
+        11,
+        58
+    ],
+    "login locations": [
+        [
+            -122.421698,
+            37.7709
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "megansanchez@hotmail.com",
     "birthdate": "1920-12-25",
     "phone": "001-207-779-3012x8564",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        46,
+        0,
+        67,
+        66,
+        53,
+        1,
+        33,
+        18,
+        49
+    ],
+    "login locations": [
+        [
+            -117.932366,
+            33.83301
+        ]
+    ],
+    "relationships": []
 }

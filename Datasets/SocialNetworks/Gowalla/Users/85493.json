@@ -5,7 +5,25 @@
     "email": "fhartman@yahoo.com",
     "birthdate": "1971-12-25",
     "phone": "620-082-0561x0303",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        32,
+        52,
+        64,
+        40,
+        30,
+        68,
+        70,
+        7,
+        6,
+        15,
+        19
+    ],
+    "login locations": [
+        [
+            -122.389716,
+            37.759374
+        ]
+    ],
+    "relationships": []
 }

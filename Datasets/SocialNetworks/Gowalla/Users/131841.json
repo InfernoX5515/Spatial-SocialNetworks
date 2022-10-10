@@ -5,7 +5,17 @@
     "email": "michaelrobbins@yahoo.com",
     "birthdate": "1966-06-11",
     "phone": "001-392-343-6528x575",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        31,
+        35,
+        44
+    ],
+    "login locations": [
+        [
+            -117.92624,
+            34.069487
+        ]
+    ],
+    "relationships": []
 }

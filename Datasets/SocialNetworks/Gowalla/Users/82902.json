@@ -5,7 +5,27 @@
     "email": "mary60@hotmail.com",
     "birthdate": "1908-10-30",
     "phone": "540-840-7341x642",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        7,
+        43
+    ],
+    "login locations": [
+        [
+            -122.417511,
+            37.764278
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                162234,
+                0.545454545455
+            ],
+            [
+                162234,
+                0.545454545455
+            ]
+        ]
+    ]
 }

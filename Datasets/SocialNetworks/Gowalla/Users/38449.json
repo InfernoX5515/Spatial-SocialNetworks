@@ -5,7 +5,24 @@
     "email": "whitefrank@gmail.com",
     "birthdate": "1976-04-28",
     "phone": "+1-967-135-8461x06570",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        37,
+        41,
+        65,
+        46,
+        31,
+        20,
+        56,
+        24,
+        12,
+        65
+    ],
+    "login locations": [
+        [
+            -117.375189,
+            33.950813
+        ]
+    ],
+    "relationships": []
 }

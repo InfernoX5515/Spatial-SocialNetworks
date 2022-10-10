@@ -5,7 +5,20 @@
     "email": "awilliams@hotmail.com",
     "birthdate": "1932-03-31",
     "phone": "500-663-3517x34132",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        31,
+        52,
+        28,
+        17,
+        37,
+        51
+    ],
+    "login locations": [
+        [
+            -118.297905,
+            34.091322
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "cherylgarrett@gmail.com",
     "birthdate": "1963-09-22",
     "phone": "001-243-122-1151",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        23,
+        45,
+        43
+    ],
+    "login locations": [
+        [
+            -118.399125,
+            34.067178
+        ]
+    ],
+    "relationships": []
 }

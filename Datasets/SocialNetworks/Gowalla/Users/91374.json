@@ -5,7 +5,27 @@
     "email": "browndaniel@gmail.com",
     "birthdate": "1966-07-29",
     "phone": "912-063-8542",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        26,
+        24
+    ],
+    "login locations": [
+        [
+            -122.163527,
+            37.44155
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                121967,
+                0.363636363636
+            ],
+            [
+                121967,
+                0.363636363636
+            ]
+        ]
+    ]
 }

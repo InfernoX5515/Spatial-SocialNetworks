@@ -5,7 +5,25 @@
     "email": "kenneth10@hotmail.com",
     "birthdate": "1946-01-07",
     "phone": "038-313-6440x6870",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        69,
+        48,
+        61,
+        59,
+        20,
+        12,
+        1,
+        13,
+        50,
+        54,
+        56
+    ],
+    "login locations": [
+        [
+            -122.377282,
+            37.825182
+        ]
+    ],
+    "relationships": []
 }

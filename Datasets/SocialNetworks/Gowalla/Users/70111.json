@@ -5,7 +5,18 @@
     "email": "ecantu@hotmail.com",
     "birthdate": "2001-01-09",
     "phone": "(628)621-8391",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        29,
+        62,
+        57,
+        51
+    ],
+    "login locations": [
+        [
+            -122.415235,
+            37.752463
+        ]
+    ],
+    "relationships": []
 }

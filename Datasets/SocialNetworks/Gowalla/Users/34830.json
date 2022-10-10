@@ -5,7 +5,29 @@
     "email": "bradfordjon@gmail.com",
     "birthdate": "1941-11-29",
     "phone": "001-823-440-3831",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        33,
+        57,
+        13,
+        51
+    ],
+    "login locations": [
+        [
+            -118.371047,
+            34.040725
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                44529,
+                0.035
+            ],
+            [
+                44529,
+                0.035
+            ]
+        ]
+    ]
 }

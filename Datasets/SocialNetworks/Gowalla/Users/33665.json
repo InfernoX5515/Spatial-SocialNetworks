@@ -5,7 +5,17 @@
     "email": "anthonyhouston@hotmail.com",
     "birthdate": "1954-05-07",
     "phone": "660.096.7036x029",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        50,
+        62,
+        11
+    ],
+    "login locations": [
+        [
+            -117.325081,
+            33.939272
+        ]
+    ],
+    "relationships": []
 }

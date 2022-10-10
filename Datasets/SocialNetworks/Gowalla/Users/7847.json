@@ -5,7 +5,15 @@
     "email": "kingandrew@gmail.com",
     "birthdate": "1938-03-24",
     "phone": "+1-032-068-8025x40637",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        73
+    ],
+    "login locations": [
+        [
+            -122.324356,
+            37.85117
+        ]
+    ],
+    "relationships": []
 }

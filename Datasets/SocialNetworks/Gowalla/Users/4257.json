@@ -5,7 +5,26 @@
     "email": "terrytiffany@gmail.com",
     "birthdate": "1907-03-17",
     "phone": "721-231-6911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        68
+    ],
+    "login locations": [
+        [
+            -118.013227,
+            33.790949
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                159,
+                0.0912280701754
+            ],
+            [
+                70818,
+                0.2
+            ]
+        ]
+    ]
 }

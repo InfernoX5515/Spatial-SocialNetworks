@@ -5,7 +5,15 @@
     "email": "bradleywoods@yahoo.com",
     "birthdate": "2016-01-04",
     "phone": "0789323758",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        55
+    ],
+    "login locations": [
+        [
+            -122.018039,
+            37.400308
+        ]
+    ],
+    "relationships": []
 }

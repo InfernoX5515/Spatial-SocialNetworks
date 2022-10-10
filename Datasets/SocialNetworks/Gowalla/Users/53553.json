@@ -5,7 +5,26 @@
     "email": "ramirezcarlos@hotmail.com",
     "birthdate": "2013-08-06",
     "phone": "3307111429",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        32,
+        8,
+        71,
+        66,
+        41,
+        71,
+        3,
+        15,
+        42,
+        32,
+        53,
+        68
+    ],
+    "login locations": [
+        [
+            -122.030361,
+            37.930759
+        ]
+    ],
+    "relationships": []
 }

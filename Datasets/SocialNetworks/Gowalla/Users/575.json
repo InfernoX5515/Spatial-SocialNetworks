@@ -5,7 +5,38 @@
     "email": "phyllisgreen@yahoo.com",
     "birthdate": "1977-09-09",
     "phone": "001-039-145-1894x0310",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        71,
+        4,
+        21,
+        57,
+        4,
+        52,
+        10,
+        29,
+        48,
+        51,
+        8,
+        33,
+        74
+    ],
+    "login locations": [
+        [
+            -122.458791,
+            37.840893
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                355,
+                0.0254545454545
+            ],
+            [
+                435,
+                0.0920770877944
+            ]
+        ]
+    ]
 }

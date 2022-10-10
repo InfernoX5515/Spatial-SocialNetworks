@@ -5,7 +5,12 @@
     "email": "robin59@yahoo.com",
     "birthdate": "2005-04-19",
     "phone": "245.083.9266",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.511194,
+            38.643039
+        ]
+    ],
+    "relationships": []
 }

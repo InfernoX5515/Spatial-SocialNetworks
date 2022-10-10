@@ -5,7 +5,26 @@
     "email": "anthonylawson@yahoo.com",
     "birthdate": "1917-04-27",
     "phone": "001-626-855-0600x321",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        46,
+        20,
+        47,
+        72,
+        53,
+        55,
+        11,
+        42,
+        67,
+        73,
+        39,
+        22
+    ],
+    "login locations": [
+        [
+            -118.491408,
+            34.006704
+        ]
+    ],
+    "relationships": []
 }

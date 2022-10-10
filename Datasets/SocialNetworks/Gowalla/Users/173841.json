@@ -5,7 +5,12 @@
     "email": "qferguson@yahoo.com",
     "birthdate": "1924-02-08",
     "phone": "(593)875-5979x6938",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.390103,
+            33.973363
+        ]
+    ],
+    "relationships": []
 }

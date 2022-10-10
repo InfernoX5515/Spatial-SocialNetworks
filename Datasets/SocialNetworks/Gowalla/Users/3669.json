@@ -5,7 +5,28 @@
     "email": "awilson@hotmail.com",
     "birthdate": "1970-09-18",
     "phone": "+1-672-572-9721x5788",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        9,
+        7,
+        54
+    ],
+    "login locations": [
+        [
+            -122.414299,
+            37.780589
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                459,
+                0.01
+            ],
+            [
+                459,
+                0.01
+            ]
+        ]
+    ]
 }

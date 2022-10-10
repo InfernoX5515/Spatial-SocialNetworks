@@ -5,7 +5,19 @@
     "email": "travisryan@yahoo.com",
     "birthdate": "1985-12-04",
     "phone": "400.897.3014",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        42,
+        44,
+        26,
+        23,
+        35
+    ],
+    "login locations": [
+        [
+            -117.893847,
+            34.134338
+        ]
+    ],
+    "relationships": []
 }

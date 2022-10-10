@@ -5,7 +5,27 @@
     "email": "brooke76@gmail.com",
     "birthdate": "1910-09-04",
     "phone": "(274)129-3134x4412",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        45,
+        3,
+        3,
+        68,
+        64,
+        14,
+        26,
+        19,
+        36,
+        61,
+        14,
+        68,
+        44
+    ],
+    "login locations": [
+        [
+            -122.344231,
+            38.28483
+        ]
+    ],
+    "relationships": []
 }

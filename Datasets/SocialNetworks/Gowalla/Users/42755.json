@@ -5,7 +5,18 @@
     "email": "craigterrell@yahoo.com",
     "birthdate": "2021-03-14",
     "phone": "709.652.5046",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        18,
+        46,
+        50,
+        55
+    ],
+    "login locations": [
+        [
+            -122.402182,
+            37.630396
+        ]
+    ],
+    "relationships": []
 }

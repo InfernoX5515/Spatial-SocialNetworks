@@ -5,7 +5,14 @@
     "email": "christopher65@yahoo.com",
     "birthdate": "1932-08-20",
     "phone": "662.293.1326x76082",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17
+    ],
+    "login locations": [
+        [
+            -122.08805,
+            37.422356
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,33 @@
     "email": "richard73@yahoo.com",
     "birthdate": "1982-07-27",
     "phone": "268-935-7147x384",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        43,
+        13,
+        62,
+        8,
+        40,
+        27,
+        1,
+        29
+    ],
+    "login locations": [
+        [
+            -122.87191,
+            38.611669
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                86,
+                0.01
+            ],
+            [
+                7944,
+                0.333333333333
+            ]
+        ]
+    ]
 }

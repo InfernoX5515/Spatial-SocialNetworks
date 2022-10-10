@@ -5,7 +5,18 @@
     "email": "chrisdaniels@yahoo.com",
     "birthdate": "1917-01-23",
     "phone": "583.766.1075x4379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        33,
+        71,
+        7,
+        69
+    ],
+    "login locations": [
+        [
+            -122.33785,
+            37.835765
+        ]
+    ],
+    "relationships": []
 }

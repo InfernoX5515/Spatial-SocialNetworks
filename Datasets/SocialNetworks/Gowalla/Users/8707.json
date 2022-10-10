@@ -5,7 +5,38 @@
     "email": "nicholasmarshall@gmail.com",
     "birthdate": "1975-10-08",
     "phone": "893-944-5121",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        47,
+        51,
+        32,
+        30,
+        38,
+        55,
+        49,
+        57,
+        63,
+        38,
+        16,
+        38,
+        40
+    ],
+    "login locations": [
+        [
+            -122.405692,
+            37.738035
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                653,
+                0.0457142857143
+            ],
+            [
+                653,
+                0.0457142857143
+            ]
+        ]
+    ]
 }

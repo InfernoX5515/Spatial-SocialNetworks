@@ -5,7 +5,27 @@
     "email": "hernandezkevin@hotmail.com",
     "birthdate": "1946-05-22",
     "phone": "267.236.9202x48327",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        54,
+        11,
+        24,
+        21,
+        72,
+        17,
+        17,
+        24,
+        8,
+        33,
+        41,
+        45,
+        66
+    ],
+    "login locations": [
+        [
+            -121.921229,
+            37.313963
+        ]
+    ],
+    "relationships": []
 }

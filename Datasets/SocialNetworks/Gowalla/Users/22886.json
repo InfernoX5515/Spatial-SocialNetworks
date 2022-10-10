@@ -5,7 +5,31 @@
     "email": "johnathan44@gmail.com",
     "birthdate": "1962-05-19",
     "phone": "424.159.2960",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        18,
+        66,
+        16,
+        56,
+        28,
+        32
+    ],
+    "login locations": [
+        [
+            -122.366733,
+            37.762425
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                285,
+                0.01
+            ],
+            [
+                285,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,26 @@
     "email": "bobbytanner@gmail.com",
     "birthdate": "1950-01-15",
     "phone": "747.851.0850x738",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        33
+    ],
+    "login locations": [
+        [
+            -122.166551,
+            37.445254
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.032
+            ],
+            [
+                5074,
+                0.113636363636
+            ]
+        ]
+    ]
 }

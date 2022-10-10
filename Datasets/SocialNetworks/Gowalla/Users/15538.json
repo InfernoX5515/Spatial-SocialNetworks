@@ -5,7 +5,26 @@
     "email": "loganperry@yahoo.com",
     "birthdate": "1933-12-29",
     "phone": "001-754-395-3209x805",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        63,
+        59,
+        72,
+        24,
+        5,
+        51,
+        56,
+        71,
+        4,
+        63,
+        13,
+        1
+    ],
+    "login locations": [
+        [
+            -117.345812,
+            33.957394
+        ]
+    ],
+    "relationships": []
 }

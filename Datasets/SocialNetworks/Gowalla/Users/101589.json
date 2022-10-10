@@ -5,7 +5,19 @@
     "email": "ncook@gmail.com",
     "birthdate": "1967-11-16",
     "phone": "453-653-6397",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        37,
+        47,
+        22,
+        14,
+        68
+    ],
+    "login locations": [
+        [
+            -122.29934,
+            37.591732
+        ]
+    ],
+    "relationships": []
 }

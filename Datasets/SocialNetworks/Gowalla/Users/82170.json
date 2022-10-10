@@ -5,7 +5,14 @@
     "email": "rhoffman@yahoo.com",
     "birthdate": "1979-05-02",
     "phone": "+1-047-216-5384x58675",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67
+    ],
+    "login locations": [
+        [
+            -121.996432,
+            37.069725
+        ]
+    ],
+    "relationships": []
 }

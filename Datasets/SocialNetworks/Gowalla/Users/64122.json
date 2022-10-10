@@ -5,7 +5,24 @@
     "email": "kimberly90@yahoo.com",
     "birthdate": "1931-10-28",
     "phone": "(281)350-6576x544",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        8,
+        8,
+        56,
+        55,
+        13,
+        49,
+        74,
+        50,
+        40,
+        32
+    ],
+    "login locations": [
+        [
+            -122.412332,
+            37.744921
+        ]
+    ],
+    "relationships": []
 }

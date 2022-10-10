@@ -5,7 +5,12 @@
     "email": "cassandravega@gmail.com",
     "birthdate": "1981-11-22",
     "phone": "001-347-104-2128x65692",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.316366,
+            34.082795
+        ]
+    ],
+    "relationships": []
 }

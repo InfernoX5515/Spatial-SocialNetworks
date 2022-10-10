@@ -5,7 +5,25 @@
     "email": "michael18@yahoo.com",
     "birthdate": "2011-01-20",
     "phone": "276.524.3833x327",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        24,
+        0,
+        1,
+        75,
+        24,
+        15,
+        70,
+        16,
+        30,
+        27,
+        57
+    ],
+    "login locations": [
+        [
+            -121.999032,
+            37.401945
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "thomasgibson@yahoo.com",
     "birthdate": "1927-11-10",
     "phone": "(093)340-6533x269",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        63,
+        49,
+        33,
+        26,
+        59,
+        52,
+        42,
+        47
+    ],
+    "login locations": [
+        [
+            -122.244663,
+            37.811169
+        ]
+    ],
+    "relationships": []
 }

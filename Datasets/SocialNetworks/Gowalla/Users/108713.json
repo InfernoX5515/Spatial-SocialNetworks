@@ -5,7 +5,14 @@
     "email": "matthewsimpson@yahoo.com",
     "birthdate": "1929-06-17",
     "phone": "001-939-369-8033x422",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57
+    ],
+    "login locations": [
+        [
+            -117.972546,
+            33.79439
+        ]
+    ],
+    "relationships": []
 }

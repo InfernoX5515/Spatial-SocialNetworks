@@ -5,7 +5,26 @@
     "email": "josephabigail@hotmail.com",
     "birthdate": "1956-11-10",
     "phone": "363.812.7444",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        58,
+        52,
+        28,
+        3,
+        34,
+        13,
+        11,
+        26,
+        73,
+        26,
+        3,
+        38
+    ],
+    "login locations": [
+        [
+            -118.368655,
+            34.03119
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "tonymoody@yahoo.com",
     "birthdate": "2006-11-29",
     "phone": "730-219-6747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        23,
+        34,
+        27
+    ],
+    "login locations": [
+        [
+            -117.840397,
+            33.738627
+        ]
+    ],
+    "relationships": []
 }

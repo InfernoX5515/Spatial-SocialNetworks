@@ -5,7 +5,22 @@
     "email": "travissnyder@gmail.com",
     "birthdate": "1972-10-07",
     "phone": "+1-256-201-4118x27264",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        23,
+        35,
+        65,
+        39,
+        68,
+        22,
+        29,
+        57
+    ],
+    "login locations": [
+        [
+            -122.012926,
+            37.406848
+        ]
+    ],
+    "relationships": []
 }

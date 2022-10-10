@@ -5,7 +5,23 @@
     "email": "whitebrittney@yahoo.com",
     "birthdate": "1931-05-08",
     "phone": "(768)953-0647x65341",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        49,
+        66,
+        0,
+        43,
+        4,
+        55,
+        69,
+        35,
+        52
+    ],
+    "login locations": [
+        [
+            -121.407565,
+            38.617666
+        ]
+    ],
+    "relationships": []
 }

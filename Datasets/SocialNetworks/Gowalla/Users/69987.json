@@ -5,7 +5,34 @@
     "email": "stephanie98@hotmail.com",
     "birthdate": "1983-04-23",
     "phone": "(060)055-3308x64877",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        31,
+        24,
+        19,
+        0,
+        46,
+        2,
+        75,
+        5,
+        9
+    ],
+    "login locations": [
+        [
+            -118.350709,
+            34.112059
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8428,
+                0.260869565217
+            ],
+            [
+                156609,
+                0.04
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,32 @@
     "email": "davidmiller@yahoo.com",
     "birthdate": "1995-04-24",
     "phone": "441.314.4121",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        8,
+        49,
+        48,
+        65,
+        49,
+        26,
+        64
+    ],
+    "login locations": [
+        [
+            -118.282263,
+            34.134757
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                7072,
+                0.04
+            ],
+            [
+                7072,
+                0.04
+            ]
+        ]
+    ]
 }

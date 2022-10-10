@@ -5,7 +5,25 @@
     "email": "ashleyhardin@yahoo.com",
     "birthdate": "1964-06-27",
     "phone": "705.840.3631x800",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5
+    ],
+    "login locations": [
+        [
+            -122.345842,
+            37.807236
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3529,
+                0.0161812297735
+            ],
+            [
+                3533,
+                0.454545454545
+            ]
+        ]
+    ]
 }

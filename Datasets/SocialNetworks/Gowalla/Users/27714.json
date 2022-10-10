@@ -5,7 +5,36 @@
     "email": "caitlin31@hotmail.com",
     "birthdate": "1919-12-24",
     "phone": "001-449-017-6495x37670",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        9,
+        51,
+        73,
+        7,
+        69,
+        16,
+        73,
+        35,
+        61,
+        61,
+        9
+    ],
+    "login locations": [
+        [
+            -122.404102,
+            37.777801
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5439,
+                0.01
+            ],
+            [
+                5439,
+                0.01
+            ]
+        ]
+    ]
 }

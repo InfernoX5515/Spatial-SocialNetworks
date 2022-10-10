@@ -5,7 +5,33 @@
     "email": "walkermary@gmail.com",
     "birthdate": "1963-06-17",
     "phone": "405-769-5136x6018",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        26,
+        15,
+        52,
+        19,
+        69,
+        37,
+        52,
+        64
+    ],
+    "login locations": [
+        [
+            -122.407303,
+            37.78147
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.030303030303
+            ],
+            [
+                600,
+                0.0109090909091
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,17 @@
     "email": "ucoleman@gmail.com",
     "birthdate": "1960-05-27",
     "phone": "977-286-2752",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        73,
+        52,
+        5
+    ],
+    "login locations": [
+        [
+            -117.955028,
+            33.810167
+        ]
+    ],
+    "relationships": []
 }

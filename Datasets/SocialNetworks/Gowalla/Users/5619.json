@@ -5,7 +5,31 @@
     "email": "zgomez@yahoo.com",
     "birthdate": "1961-09-16",
     "phone": "736-588-6720",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        2,
+        14,
+        9,
+        48,
+        50,
+        19
+    ],
+    "login locations": [
+        [
+            -122.422996,
+            37.793199
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4820,
+                0.01
+            ],
+            [
+                5558,
+                0.0243902439024
+            ]
+        ]
+    ]
 }

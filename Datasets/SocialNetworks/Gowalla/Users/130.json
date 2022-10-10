@@ -5,7 +5,28 @@
     "email": "parkermichael@hotmail.com",
     "birthdate": "1962-01-28",
     "phone": "117-207-2312",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        74,
+        72,
+        7,
+        53,
+        37,
+        65,
+        60,
+        30,
+        67,
+        1,
+        9,
+        17,
+        7,
+        22
+    ],
+    "login locations": [
+        [
+            -122.416111,
+            37.764254
+        ]
+    ],
+    "relationships": []
 }

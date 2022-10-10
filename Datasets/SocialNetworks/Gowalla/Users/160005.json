@@ -5,7 +5,26 @@
     "email": "andreasolis@hotmail.com",
     "birthdate": "2019-03-20",
     "phone": "(516)738-0351x291",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        9,
+        2,
+        42,
+        5,
+        14,
+        36,
+        32,
+        68,
+        63,
+        31,
+        69,
+        52
+    ],
+    "login locations": [
+        [
+            -122.407592,
+            37.758025
+        ]
+    ],
+    "relationships": []
 }

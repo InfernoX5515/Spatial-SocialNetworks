@@ -5,7 +5,31 @@
     "email": "gmorrison@gmail.com",
     "birthdate": "1998-05-20",
     "phone": "071-624-0657x9372",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        68,
+        64,
+        36,
+        4,
+        28,
+        41
+    ],
+    "login locations": [
+        [
+            -118.720172,
+            34.190594
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125826,
+                0.1
+            ],
+            [
+                181093,
+                0.12
+            ]
+        ]
+    ]
 }

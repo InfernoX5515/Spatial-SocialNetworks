@@ -5,7 +5,30 @@
     "email": "emoore@gmail.com",
     "birthdate": "1917-05-23",
     "phone": "(273)542-2977",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        29,
+        58,
+        16,
+        11,
+        51
+    ],
+    "login locations": [
+        [
+            -122.402985,
+            37.78638
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                235,
+                0.010071942446
+            ],
+            [
+                465,
+                0.625
+            ]
+        ]
+    ]
 }

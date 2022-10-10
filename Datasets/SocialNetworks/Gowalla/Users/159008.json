@@ -5,7 +5,26 @@
     "email": "washingtondouglas@gmail.com",
     "birthdate": "1941-10-15",
     "phone": "+1-225-057-1885",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        15,
+        17,
+        7,
+        65,
+        12,
+        27,
+        8,
+        7,
+        21,
+        14,
+        69,
+        37
+    ],
+    "login locations": [
+        [
+            -118.454056,
+            34.010213
+        ]
+    ],
+    "relationships": []
 }

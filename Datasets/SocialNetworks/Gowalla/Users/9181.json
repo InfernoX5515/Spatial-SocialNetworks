@@ -5,7 +5,16 @@
     "email": "wongcameron@gmail.com",
     "birthdate": "1968-07-26",
     "phone": "826.655.9049x00691",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        40,
+        23
+    ],
+    "login locations": [
+        [
+            -122.405028,
+            37.781636
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "mindy38@hotmail.com",
     "birthdate": "1976-12-11",
     "phone": "612-926-0876",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        4
+    ],
+    "login locations": [
+        [
+            -117.174697,
+            32.752115
+        ]
+    ],
+    "relationships": []
 }

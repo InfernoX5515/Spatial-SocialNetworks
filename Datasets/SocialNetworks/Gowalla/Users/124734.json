@@ -5,7 +5,28 @@
     "email": "whenderson@yahoo.com",
     "birthdate": "1967-12-27",
     "phone": "(586)193-1447",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        0,
+        27,
+        4,
+        50,
+        26,
+        2,
+        0,
+        60,
+        60,
+        55,
+        32,
+        42,
+        58,
+        53
+    ],
+    "login locations": [
+        [
+            -118.267448,
+            34.044322
+        ]
+    ],
+    "relationships": []
 }

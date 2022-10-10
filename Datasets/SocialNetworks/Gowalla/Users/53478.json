@@ -5,7 +5,16 @@
     "email": "woodmelissa@gmail.com",
     "birthdate": "2015-12-12",
     "phone": "(937)113-7866x27377",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        30,
+        35
+    ],
+    "login locations": [
+        [
+            -118.330605,
+            34.078231
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "pamelajackson@yahoo.com",
     "birthdate": "1927-05-05",
     "phone": "782.888.7643",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.063988,
+            37.551842
+        ]
+    ],
+    "relationships": []
 }

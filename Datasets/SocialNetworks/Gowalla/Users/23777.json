@@ -5,7 +5,14 @@
     "email": "brendanmartinez@yahoo.com",
     "birthdate": "1941-06-07",
     "phone": "+1-564-163-4891x3927",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4
+    ],
+    "login locations": [
+        [
+            -118.325833,
+            34.091134
+        ]
+    ],
+    "relationships": []
 }

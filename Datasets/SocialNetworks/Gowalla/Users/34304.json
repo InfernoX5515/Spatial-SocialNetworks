@@ -5,7 +5,12 @@
     "email": "adixon@hotmail.com",
     "birthdate": "1912-11-23",
     "phone": "498-854-5261x2897",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.087519,
+            37.405228
+        ]
+    ],
+    "relationships": []
 }

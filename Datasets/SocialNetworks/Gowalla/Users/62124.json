@@ -5,7 +5,27 @@
     "email": "andersoncalvin@gmail.com",
     "birthdate": "1962-07-20",
     "phone": "559.132.2623x45388",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        62,
+        63,
+        26,
+        63,
+        19,
+        75,
+        46,
+        41,
+        48,
+        23,
+        24,
+        73,
+        4
+    ],
+    "login locations": [
+        [
+            -122.032548,
+            37.838038
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "bzavala@yahoo.com",
     "birthdate": "1976-07-26",
     "phone": "+1-437-493-4900",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        5,
+        46,
+        59,
+        38,
+        58,
+        22
+    ],
+    "login locations": [
+        [
+            -122.389785,
+            37.761279
+        ]
+    ],
+    "relationships": []
 }

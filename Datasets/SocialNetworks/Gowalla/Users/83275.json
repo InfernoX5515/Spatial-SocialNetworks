@@ -5,7 +5,22 @@
     "email": "vkim@yahoo.com",
     "birthdate": "1919-04-01",
     "phone": "251-091-9890x55989",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        7,
+        13,
+        22,
+        14,
+        35,
+        17,
+        11,
+        42
+    ],
+    "login locations": [
+        [
+            -122.103682,
+            37.396837
+        ]
+    ],
+    "relationships": []
 }

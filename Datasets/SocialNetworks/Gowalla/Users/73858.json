@@ -5,7 +5,19 @@
     "email": "dflores@gmail.com",
     "birthdate": "1922-10-08",
     "phone": "(394)316-5457x1278",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        13,
+        19,
+        36,
+        4,
+        50
+    ],
+    "login locations": [
+        [
+            -122.319975,
+            37.815094
+        ]
+    ],
+    "relationships": []
 }

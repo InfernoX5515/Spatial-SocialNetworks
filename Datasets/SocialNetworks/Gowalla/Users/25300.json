@@ -5,7 +5,27 @@
     "email": "daughertymichael@hotmail.com",
     "birthdate": "1937-01-19",
     "phone": "713-814-7783x2898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        50,
+        40,
+        57,
+        1,
+        62,
+        57,
+        21,
+        0,
+        39,
+        12,
+        43,
+        53,
+        41
+    ],
+    "login locations": [
+        [
+            -118.394587,
+            33.987468
+        ]
+    ],
+    "relationships": []
 }

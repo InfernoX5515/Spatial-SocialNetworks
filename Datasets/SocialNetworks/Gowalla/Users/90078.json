@@ -5,7 +5,17 @@
     "email": "randy62@hotmail.com",
     "birthdate": "1916-09-14",
     "phone": "+1-023-188-3261x799",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        5,
+        65,
+        43
+    ],
+    "login locations": [
+        [
+            -117.160268,
+            32.832911
+        ]
+    ],
+    "relationships": []
 }

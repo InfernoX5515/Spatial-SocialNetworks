@@ -5,7 +5,26 @@
     "email": "yayers@gmail.com",
     "birthdate": "1914-07-30",
     "phone": "+1-369-637-0488",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        52,
+        18,
+        30,
+        10,
+        37,
+        59,
+        37,
+        1,
+        35,
+        27,
+        47,
+        50
+    ],
+    "login locations": [
+        [
+            -118.113584,
+            34.038463
+        ]
+    ],
+    "relationships": []
 }

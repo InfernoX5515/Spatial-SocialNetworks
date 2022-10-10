@@ -5,7 +5,21 @@
     "email": "fleminglaura@gmail.com",
     "birthdate": "1924-03-09",
     "phone": "575-456-7306x6845",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        54,
+        14,
+        28,
+        32,
+        36,
+        22,
+        66
+    ],
+    "login locations": [
+        [
+            -117.147198,
+            32.743218
+        ]
+    ],
+    "relationships": []
 }

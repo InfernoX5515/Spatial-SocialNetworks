@@ -5,7 +5,27 @@
     "email": "fpatel@gmail.com",
     "birthdate": "1942-05-07",
     "phone": "+1-524-095-0320x673",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        43,
+        53,
+        16,
+        52,
+        38,
+        65,
+        50,
+        43,
+        60,
+        64,
+        23,
+        57,
+        15
+    ],
+    "login locations": [
+        [
+            -117.880301,
+            33.825195
+        ]
+    ],
+    "relationships": []
 }

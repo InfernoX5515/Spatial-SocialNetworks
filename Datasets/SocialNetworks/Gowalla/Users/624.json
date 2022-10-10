@@ -5,7 +5,39 @@
     "email": "ericmcconnell@gmail.com",
     "birthdate": "1924-06-05",
     "phone": "001-817-827-8786x331",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        42,
+        12,
+        31,
+        55,
+        65,
+        2,
+        7,
+        30,
+        66,
+        63,
+        60,
+        19,
+        59,
+        8
+    ],
+    "login locations": [
+        [
+            -121.436721,
+            38.573741
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                221,
+                0.1
+            ],
+            [
+                2182,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "josesolomon@hotmail.com",
     "birthdate": "1908-04-06",
     "phone": "369.598.7874x824",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        47,
+        54,
+        20,
+        3,
+        51,
+        40,
+        30,
+        8,
+        19,
+        9
+    ],
+    "login locations": [
+        [
+            -122.405579,
+            37.766936
+        ]
+    ],
+    "relationships": []
 }

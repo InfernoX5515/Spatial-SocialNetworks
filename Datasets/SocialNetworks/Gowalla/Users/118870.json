@@ -5,7 +5,30 @@
     "email": "floresandrew@yahoo.com",
     "birthdate": "1982-09-09",
     "phone": "(309)900-6082x9939",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        27,
+        42,
+        21,
+        26,
+        53
+    ],
+    "login locations": [
+        [
+            -118.285177,
+            34.013975
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                26428,
+                0.0789473684211
+            ],
+            [
+                118873,
+                0.25
+            ]
+        ]
+    ]
 }

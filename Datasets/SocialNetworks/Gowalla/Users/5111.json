@@ -5,7 +5,15 @@
     "email": "tammy72@hotmail.com",
     "birthdate": "1934-12-24",
     "phone": "3014131660",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        62
+    ],
+    "login locations": [
+        [
+            -122.091874,
+            37.378823
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "elizabethrodriguez@gmail.com",
     "birthdate": "1907-10-30",
     "phone": "001-933-434-2698x58893",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        14,
+        17,
+        44,
+        60,
+        27,
+        59,
+        54,
+        64,
+        61,
+        46,
+        18,
+        67
+    ],
+    "login locations": [
+        [
+            -120.989374,
+            37.672087
+        ]
+    ],
+    "relationships": []
 }

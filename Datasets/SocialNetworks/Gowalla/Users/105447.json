@@ -5,7 +5,23 @@
     "email": "christopherstewart@yahoo.com",
     "birthdate": "1965-01-23",
     "phone": "001-336-463-6588",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        27,
+        60,
+        43,
+        57,
+        74,
+        67,
+        40,
+        9,
+        59
+    ],
+    "login locations": [
+        [
+            -118.000172,
+            33.945485
+        ]
+    ],
+    "relationships": []
 }

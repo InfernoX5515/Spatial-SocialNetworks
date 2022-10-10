@@ -5,7 +5,29 @@
     "email": "vsimmons@hotmail.com",
     "birthdate": "1985-10-06",
     "phone": "666-738-1635x83374",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        72,
+        46,
+        0,
+        11
+    ],
+    "login locations": [
+        [
+            -122.405388,
+            37.776865
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53,
+                0.01
+            ],
+            [
+                53,
+                0.01
+            ]
+        ]
+    ]
 }

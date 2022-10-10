@@ -5,7 +5,25 @@
     "email": "robinsonnicholas@gmail.com",
     "birthdate": "1926-12-11",
     "phone": "(866)763-1668x6725",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        42,
+        3,
+        40,
+        65,
+        31,
+        3,
+        43,
+        52,
+        45,
+        19,
+        20
+    ],
+    "login locations": [
+        [
+            -121.417576,
+            38.613618
+        ]
+    ],
+    "relationships": []
 }

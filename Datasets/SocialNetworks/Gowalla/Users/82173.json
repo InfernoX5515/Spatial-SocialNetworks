@@ -5,7 +5,29 @@
     "email": "hoffmanleslie@gmail.com",
     "birthdate": "1961-04-16",
     "phone": "826-699-3497x9490",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        50,
+        19,
+        62,
+        4
+    ],
+    "login locations": [
+        [
+            -122.390946,
+            37.615787
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                82171,
+                0.56
+            ],
+            [
+                82172,
+                0.833333333333
+            ]
+        ]
+    ]
 }

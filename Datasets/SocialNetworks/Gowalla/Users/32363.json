@@ -5,7 +5,16 @@
     "email": "alexis70@gmail.com",
     "birthdate": "1973-08-23",
     "phone": "0352320454",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        10,
+        3
+    ],
+    "login locations": [
+        [
+            -121.196331,
+            38.939159
+        ]
+    ],
+    "relationships": []
 }

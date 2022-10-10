@@ -5,7 +5,26 @@
     "email": "lflores@yahoo.com",
     "birthdate": "2010-10-21",
     "phone": "941-381-9836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        17
+    ],
+    "login locations": [
+        [
+            -122.422457,
+            37.76689
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                599,
+                0.0147058823529
+            ],
+            [
+                3543,
+                0.01
+            ]
+        ]
+    ]
 }

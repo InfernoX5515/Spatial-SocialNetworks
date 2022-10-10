@@ -5,7 +5,12 @@
     "email": "taylor09@hotmail.com",
     "birthdate": "1947-11-08",
     "phone": "696-036-4032x403",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.714705,
+            33.587046
+        ]
+    ],
+    "relationships": []
 }

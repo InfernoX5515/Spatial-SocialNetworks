@@ -5,7 +5,15 @@
     "email": "fwoods@hotmail.com",
     "birthdate": "1981-04-14",
     "phone": "+1-771-835-3132",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        15
+    ],
+    "login locations": [
+        [
+            -117.155207,
+            32.761716
+        ]
+    ],
+    "relationships": []
 }

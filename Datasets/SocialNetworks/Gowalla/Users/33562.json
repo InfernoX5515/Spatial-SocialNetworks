@@ -5,7 +5,21 @@
     "email": "rhodeswilliam@gmail.com",
     "birthdate": "1972-05-14",
     "phone": "+1-949-112-0782x93153",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        72,
+        11,
+        1,
+        70,
+        45,
+        4,
+        38
+    ],
+    "login locations": [
+        [
+            -118.399826,
+            33.929788
+        ]
+    ],
+    "relationships": []
 }

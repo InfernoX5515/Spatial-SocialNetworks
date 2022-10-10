@@ -5,7 +5,17 @@
     "email": "maxwellhancock@hotmail.com",
     "birthdate": "1907-07-29",
     "phone": "118.163.5186x8349",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        21,
+        57,
+        24
+    ],
+    "login locations": [
+        [
+            -118.474176,
+            34.025731
+        ]
+    ],
+    "relationships": []
 }

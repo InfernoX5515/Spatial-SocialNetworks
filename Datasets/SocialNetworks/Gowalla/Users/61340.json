@@ -5,7 +5,17 @@
     "email": "angel31@hotmail.com",
     "birthdate": "2008-11-18",
     "phone": "001-831-711-6328",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        14,
+        15,
+        38
+    ],
+    "login locations": [
+        [
+            -117.862747,
+            33.679427
+        ]
+    ],
+    "relationships": []
 }

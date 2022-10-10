@@ -5,7 +5,26 @@
     "email": "johntapia@hotmail.com",
     "birthdate": "1916-06-21",
     "phone": "166-963-4920x4764",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        5,
+        72,
+        19,
+        34,
+        49,
+        49,
+        20,
+        70,
+        20,
+        14,
+        12,
+        14
+    ],
+    "login locations": [
+        [
+            -117.566639,
+            34.074129
+        ]
+    ],
+    "relationships": []
 }

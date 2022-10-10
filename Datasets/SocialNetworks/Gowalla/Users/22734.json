@@ -5,7 +5,18 @@
     "email": "nathancurtis@gmail.com",
     "birthdate": "1963-11-09",
     "phone": "840-156-5408x380",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        7,
+        47,
+        8,
+        65
+    ],
+    "login locations": [
+        [
+            -118.438264,
+            34.096203
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "courtneywilson@yahoo.com",
     "birthdate": "2018-12-31",
     "phone": "558-059-3662",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        50,
+        46,
+        47
+    ],
+    "login locations": [
+        [
+            -117.999409,
+            33.825735
+        ]
+    ],
+    "relationships": []
 }

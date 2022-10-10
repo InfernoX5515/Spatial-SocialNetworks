@@ -5,7 +5,21 @@
     "email": "brentsoto@yahoo.com",
     "birthdate": "2012-06-01",
     "phone": "+1-035-231-6632x965",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        37,
+        53,
+        63,
+        10,
+        38,
+        33,
+        25
+    ],
+    "login locations": [
+        [
+            -122.406117,
+            37.756731
+        ]
+    ],
+    "relationships": []
 }

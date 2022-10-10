@@ -5,7 +5,19 @@
     "email": "shawnmartin@hotmail.com",
     "birthdate": "1992-07-09",
     "phone": "606-855-5646x46488",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        10,
+        67,
+        60,
+        39,
+        41
+    ],
+    "login locations": [
+        [
+            -118.339804,
+            33.916419
+        ]
+    ],
+    "relationships": []
 }

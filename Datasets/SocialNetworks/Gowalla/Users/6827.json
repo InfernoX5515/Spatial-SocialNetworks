@@ -5,7 +5,27 @@
     "email": "qmiller@hotmail.com",
     "birthdate": "1932-07-16",
     "phone": "(315)193-8807",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        68,
+        59
+    ],
+    "login locations": [
+        [
+            -122.432583,
+            37.795945
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2097,
+                0.04
+            ],
+            [
+                2097,
+                0.04
+            ]
+        ]
+    ]
 }

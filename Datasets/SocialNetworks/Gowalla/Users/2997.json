@@ -5,7 +5,22 @@
     "email": "jill66@hotmail.com",
     "birthdate": "1921-12-20",
     "phone": "+1-925-218-9273x63255",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        2,
+        39,
+        52,
+        55,
+        69,
+        64,
+        66,
+        15
+    ],
+    "login locations": [
+        [
+            -122.407032,
+            37.775465
+        ]
+    ],
+    "relationships": []
 }

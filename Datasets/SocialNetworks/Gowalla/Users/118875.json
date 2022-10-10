@@ -5,7 +5,23 @@
     "email": "oandrews@yahoo.com",
     "birthdate": "1972-07-20",
     "phone": "001-262-378-2602x6658",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.974049,
+            37.283893
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                78408,
+                0.08
+            ],
+            [
+                118874,
+                0.225806451613
+            ]
+        ]
+    ]
 }

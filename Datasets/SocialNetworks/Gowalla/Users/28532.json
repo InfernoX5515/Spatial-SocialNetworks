@@ -5,7 +5,22 @@
     "email": "hartchristopher@gmail.com",
     "birthdate": "2011-07-08",
     "phone": "(299)812-7557",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        15,
+        75,
+        65,
+        31,
+        13,
+        46,
+        57,
+        2
+    ],
+    "login locations": [
+        [
+            -122.366711,
+            37.618734
+        ]
+    ],
+    "relationships": []
 }

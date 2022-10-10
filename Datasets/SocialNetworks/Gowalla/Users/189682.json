@@ -5,7 +5,16 @@
     "email": "paul39@gmail.com",
     "birthdate": "1998-05-07",
     "phone": "(052)872-8228",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        14,
+        12
+    ],
+    "login locations": [
+        [
+            -122.405943,
+            37.764445
+        ]
+    ],
+    "relationships": []
 }

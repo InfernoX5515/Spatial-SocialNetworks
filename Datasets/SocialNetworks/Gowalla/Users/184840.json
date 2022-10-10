@@ -5,7 +5,27 @@
     "email": "walkerashley@gmail.com",
     "birthdate": "2012-06-01",
     "phone": "7665371356",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        60,
+        59,
+        13,
+        2,
+        17,
+        7,
+        45,
+        23,
+        30,
+        6,
+        1,
+        12,
+        53
+    ],
+    "login locations": [
+        [
+            -118.133876,
+            34.632738
+        ]
+    ],
+    "relationships": []
 }

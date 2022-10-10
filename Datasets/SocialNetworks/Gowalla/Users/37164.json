@@ -5,7 +5,12 @@
     "email": "adamjimenez@yahoo.com",
     "birthdate": "1983-04-27",
     "phone": "(300)205-5092",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.078427,
+            37.404648
+        ]
+    ],
+    "relationships": []
 }

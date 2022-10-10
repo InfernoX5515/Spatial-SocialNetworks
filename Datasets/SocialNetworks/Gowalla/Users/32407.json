@@ -5,7 +5,25 @@
     "email": "castillotyler@gmail.com",
     "birthdate": "1922-10-05",
     "phone": "0567149640",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        32,
+        73,
+        62,
+        47,
+        43,
+        71,
+        22,
+        6,
+        42,
+        54,
+        27
+    ],
+    "login locations": [
+        [
+            -122.533343,
+            37.965478
+        ]
+    ],
+    "relationships": []
 }

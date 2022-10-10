@@ -5,7 +5,28 @@
     "email": "walkeramanda@yahoo.com",
     "birthdate": "1917-06-13",
     "phone": "7033255509",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        37,
+        8,
+        1
+    ],
+    "login locations": [
+        [
+            -120.66138,
+            35.280175
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6183,
+                0.01
+            ],
+            [
+                22413,
+                0.11
+            ]
+        ]
+    ]
 }

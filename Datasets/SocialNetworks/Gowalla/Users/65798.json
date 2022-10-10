@@ -5,7 +5,25 @@
     "email": "alvaradoscott@yahoo.com",
     "birthdate": "1922-09-07",
     "phone": "(141)819-9640",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        16,
+        29,
+        70,
+        33,
+        44,
+        34,
+        39,
+        53,
+        55,
+        62,
+        66
+    ],
+    "login locations": [
+        [
+            -122.405519,
+            37.783294
+        ]
+    ],
+    "relationships": []
 }

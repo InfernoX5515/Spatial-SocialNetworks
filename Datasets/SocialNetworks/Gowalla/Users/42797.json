@@ -5,7 +5,28 @@
     "email": "terry44@gmail.com",
     "birthdate": "2020-01-23",
     "phone": "001-870-203-6890x325",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        31,
+        13,
+        36
+    ],
+    "login locations": [
+        [
+            -117.910038,
+            33.863825
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4915,
+                0.01
+            ],
+            [
+                4915,
+                0.01
+            ]
+        ]
+    ]
 }

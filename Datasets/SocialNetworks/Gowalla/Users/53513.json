@@ -5,7 +5,29 @@
     "email": "hursttina@hotmail.com",
     "birthdate": "2006-06-20",
     "phone": "001-402-871-3745",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        7,
+        17,
+        22,
+        11
+    ],
+    "login locations": [
+        [
+            -118.253757,
+            34.073568
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53509,
+                0.0989010989011
+            ],
+            [
+                53509,
+                0.0989010989011
+            ]
+        ]
+    ]
 }

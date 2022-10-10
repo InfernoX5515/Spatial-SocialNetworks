@@ -5,7 +5,22 @@
     "email": "rbonilla@hotmail.com",
     "birthdate": "2001-11-11",
     "phone": "001-238-321-5161x6614",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        69,
+        0,
+        41,
+        47,
+        12,
+        2,
+        0,
+        19
+    ],
+    "login locations": [
+        [
+            -122.419726,
+            37.780841
+        ]
+    ],
+    "relationships": []
 }

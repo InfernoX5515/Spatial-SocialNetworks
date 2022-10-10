@@ -5,7 +5,16 @@
     "email": "olee@yahoo.com",
     "birthdate": "1928-08-04",
     "phone": "798-787-3299x06281",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        21,
+        8
+    ],
+    "login locations": [
+        [
+            -118.295903,
+            34.064787
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "obradley@gmail.com",
     "birthdate": "1918-08-04",
     "phone": "001-949-470-2800x8776",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        52,
+        42,
+        34,
+        8,
+        22,
+        63,
+        73
+    ],
+    "login locations": [
+        [
+            -118.419059,
+            34.031504
+        ]
+    ],
+    "relationships": []
 }

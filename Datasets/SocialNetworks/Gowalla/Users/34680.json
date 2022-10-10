@@ -5,7 +5,16 @@
     "email": "qpeterson@gmail.com",
     "birthdate": "1970-04-20",
     "phone": "+1-258-629-0499x5911",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        54,
+        34
+    ],
+    "login locations": [
+        [
+            -118.096071,
+            33.97018
+        ]
+    ],
+    "relationships": []
 }

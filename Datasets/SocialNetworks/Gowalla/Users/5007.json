@@ -5,7 +5,30 @@
     "email": "brownbenjamin@yahoo.com",
     "birthdate": "2010-03-12",
     "phone": "476.098.2926",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        74,
+        66,
+        7,
+        24,
+        47
+    ],
+    "login locations": [
+        [
+            -121.966811,
+            37.726215
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3470,
+                0.01
+            ],
+            [
+                3585,
+                0.0242718446602
+            ]
+        ]
+    ]
 }

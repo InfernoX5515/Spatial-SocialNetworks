@@ -5,7 +5,24 @@
     "email": "gregory54@gmail.com",
     "birthdate": "1987-02-07",
     "phone": "819.096.8070x191",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        0,
+        8,
+        65,
+        55,
+        25,
+        61,
+        71,
+        22,
+        7,
+        56
+    ],
+    "login locations": [
+        [
+            -122.267591,
+            37.436281
+        ]
+    ],
+    "relationships": []
 }

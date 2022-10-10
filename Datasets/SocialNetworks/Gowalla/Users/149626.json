@@ -5,7 +5,28 @@
     "email": "foxdakota@gmail.com",
     "birthdate": "1945-11-06",
     "phone": "932.034.3564x3252",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        62,
+        64,
+        22,
+        8,
+        29,
+        74,
+        37,
+        69,
+        28,
+        38,
+        33,
+        37,
+        33,
+        45
+    ],
+    "login locations": [
+        [
+            -118.299591,
+            33.959308
+        ]
+    ],
+    "relationships": []
 }

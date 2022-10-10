@@ -5,7 +5,12 @@
     "email": "nicole83@yahoo.com",
     "birthdate": "1965-08-25",
     "phone": "513-231-0332",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.364037,
+            34.071112
+        ]
+    ],
+    "relationships": []
 }

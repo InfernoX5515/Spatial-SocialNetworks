@@ -5,7 +5,15 @@
     "email": "erin72@hotmail.com",
     "birthdate": "2018-03-20",
     "phone": "001-063-708-4475",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        32
+    ],
+    "login locations": [
+        [
+            -117.943289,
+            33.735135
+        ]
+    ],
+    "relationships": []
 }

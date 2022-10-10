@@ -5,7 +5,17 @@
     "email": "nbenitez@yahoo.com",
     "birthdate": "1933-09-10",
     "phone": "828.760.4498x4227",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        75,
+        10,
+        38
+    ],
+    "login locations": [
+        [
+            -121.916557,
+            37.284218
+        ]
+    ],
+    "relationships": []
 }

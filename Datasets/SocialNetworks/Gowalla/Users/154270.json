@@ -5,7 +5,27 @@
     "email": "uriley@gmail.com",
     "birthdate": "1993-12-17",
     "phone": "538.713.9176x4567",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        45,
+        6,
+        45,
+        27,
+        18,
+        31,
+        57,
+        36,
+        35,
+        12,
+        9,
+        17,
+        4
+    ],
+    "login locations": [
+        [
+            -116.295011,
+            33.720567
+        ]
+    ],
+    "relationships": []
 }

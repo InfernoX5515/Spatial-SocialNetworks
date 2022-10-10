@@ -5,7 +5,16 @@
     "email": "nancymiller@hotmail.com",
     "birthdate": "1918-08-01",
     "phone": "108.139.8037",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        74,
+        4
+    ],
+    "login locations": [
+        [
+            -118.286639,
+            34.007265
+        ]
+    ],
+    "relationships": []
 }

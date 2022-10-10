@@ -5,7 +5,28 @@
     "email": "angelaanderson@yahoo.com",
     "birthdate": "1986-03-04",
     "phone": "698.416.3878x692",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        0,
+        3,
+        7
+    ],
+    "login locations": [
+        [
+            -122.373008,
+            37.816206
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1280,
+                0.02
+            ],
+            [
+                1280,
+                0.02
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,15 @@
     "email": "heathermathis@yahoo.com",
     "birthdate": "1986-04-11",
     "phone": "700.809.0664",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        40
+    ],
+    "login locations": [
+        [
+            -122.39956,
+            37.78999
+        ]
+    ],
+    "relationships": []
 }

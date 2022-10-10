@@ -5,7 +5,35 @@
     "email": "trankatie@gmail.com",
     "birthdate": "1934-08-29",
     "phone": "436-842-3783",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        59,
+        28,
+        39,
+        34,
+        55,
+        31,
+        69,
+        59,
+        75,
+        32
+    ],
+    "login locations": [
+        [
+            -122.048321,
+            37.355882
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33225,
+                0.08
+            ],
+            [
+                33225,
+                0.08
+            ]
+        ]
+    ]
 }

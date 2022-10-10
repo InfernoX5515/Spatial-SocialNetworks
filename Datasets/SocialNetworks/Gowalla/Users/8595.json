@@ -5,7 +5,25 @@
     "email": "denise68@hotmail.com",
     "birthdate": "1993-01-05",
     "phone": "1522521247",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        19,
+        20,
+        53,
+        1,
+        41,
+        75,
+        24,
+        41,
+        59,
+        37,
+        5
+    ],
+    "login locations": [
+        [
+            -122.138402,
+            37.422985
+        ]
+    ],
+    "relationships": []
 }

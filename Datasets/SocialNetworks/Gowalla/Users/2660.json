@@ -5,7 +5,28 @@
     "email": "floresbrian@gmail.com",
     "birthdate": "1935-11-05",
     "phone": "484.421.3821",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        73,
+        23,
+        74
+    ],
+    "login locations": [
+        [
+            -118.154603,
+            34.116691
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4371,
+                0.01
+            ],
+            [
+                4371,
+                0.01
+            ]
+        ]
+    ]
 }

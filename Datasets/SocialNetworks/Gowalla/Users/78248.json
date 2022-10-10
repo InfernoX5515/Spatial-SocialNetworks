@@ -5,7 +5,23 @@
     "email": "kaitlin40@gmail.com",
     "birthdate": "1930-02-17",
     "phone": "049.000.6786x2583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        36,
+        61,
+        8,
+        39,
+        41,
+        15,
+        36,
+        69,
+        38
+    ],
+    "login locations": [
+        [
+            -119.199025,
+            34.250004
+        ]
+    ],
+    "relationships": []
 }

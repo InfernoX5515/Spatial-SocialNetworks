@@ -5,7 +5,25 @@
     "email": "powelldonna@hotmail.com",
     "birthdate": "1942-02-10",
     "phone": "267.501.2844x77739",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        27,
+        74,
+        53,
+        7,
+        71,
+        19,
+        1,
+        55,
+        67,
+        3,
+        25
+    ],
+    "login locations": [
+        [
+            -122.427894,
+            37.821112
+        ]
+    ],
+    "relationships": []
 }

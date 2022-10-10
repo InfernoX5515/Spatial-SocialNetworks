@@ -5,7 +5,18 @@
     "email": "dianemiles@gmail.com",
     "birthdate": "1948-10-12",
     "phone": "001-979-758-9347x562",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        28,
+        55,
+        22,
+        69
+    ],
+    "login locations": [
+        [
+            -122.081097,
+            37.390217
+        ]
+    ],
+    "relationships": []
 }

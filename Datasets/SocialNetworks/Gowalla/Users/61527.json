@@ -5,7 +5,28 @@
     "email": "lopezjacob@gmail.com",
     "birthdate": "1980-08-19",
     "phone": "+1-391-613-4472x16717",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        26,
+        48,
+        31,
+        3,
+        13,
+        18,
+        15,
+        71,
+        65,
+        38,
+        40,
+        30,
+        31,
+        2
+    ],
+    "login locations": [
+        [
+            -121.518755,
+            38.627255
+        ]
+    ],
+    "relationships": []
 }

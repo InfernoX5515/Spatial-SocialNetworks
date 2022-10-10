@@ -5,7 +5,37 @@
     "email": "nwebb@hotmail.com",
     "birthdate": "1975-07-05",
     "phone": "(045)313-0190x04066",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        2,
+        34,
+        37,
+        24,
+        34,
+        12,
+        24,
+        55,
+        57,
+        69,
+        56,
+        54
+    ],
+    "login locations": [
+        [
+            -122.042038,
+            37.332793
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5896,
+                0.01
+            ],
+            [
+                5896,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "vargastimothy@gmail.com",
     "birthdate": "1969-08-22",
     "phone": "+1-623-053-3159x25319",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        60,
+        53,
+        20,
+        18,
+        28,
+        18,
+        20,
+        16,
+        31,
+        40,
+        35,
+        68,
+        44,
+        14
+    ],
+    "login locations": [
+        [
+            -121.97684,
+            37.404498
+        ]
+    ],
+    "relationships": []
 }

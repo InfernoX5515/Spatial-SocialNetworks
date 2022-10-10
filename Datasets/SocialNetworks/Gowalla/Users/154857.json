@@ -5,7 +5,24 @@
     "email": "kbarnes@yahoo.com",
     "birthdate": "1975-04-18",
     "phone": "+1-015-235-0833x6190",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        10,
+        3,
+        74,
+        14,
+        19,
+        46,
+        20,
+        50,
+        31,
+        6
+    ],
+    "login locations": [
+        [
+            -117.709091,
+            34.076192
+        ]
+    ],
+    "relationships": []
 }

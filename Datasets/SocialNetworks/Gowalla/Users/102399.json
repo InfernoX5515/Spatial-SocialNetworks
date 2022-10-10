@@ -5,7 +5,27 @@
     "email": "castromike@hotmail.com",
     "birthdate": "2001-09-19",
     "phone": "941-608-4284x1511",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        6,
+        58,
+        0,
+        30,
+        38,
+        7,
+        53,
+        56,
+        53,
+        70,
+        65,
+        3,
+        40
+    ],
+    "login locations": [
+        [
+            -118.157714,
+            33.896279
+        ]
+    ],
+    "relationships": []
 }

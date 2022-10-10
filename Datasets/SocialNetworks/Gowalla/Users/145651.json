@@ -5,7 +5,12 @@
     "email": "yphillips@yahoo.com",
     "birthdate": "1959-05-29",
     "phone": "001-356-424-7186",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.919533,
+            33.811006
+        ]
+    ],
+    "relationships": []
 }

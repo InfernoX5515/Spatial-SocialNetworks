@@ -5,7 +5,39 @@
     "email": "jessica41@hotmail.com",
     "birthdate": "1999-12-25",
     "phone": "129.118.3946x36904",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        52,
+        25,
+        6,
+        10,
+        20,
+        66,
+        12,
+        55,
+        33,
+        46,
+        17,
+        26,
+        45,
+        68
+    ],
+    "login locations": [
+        [
+            -118.305139,
+            34.113447
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2755,
+                0.01
+            ],
+            [
+                2755,
+                0.01
+            ]
+        ]
+    ]
 }

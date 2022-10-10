@@ -5,7 +5,37 @@
     "email": "chelseacarlson@hotmail.com",
     "birthdate": "1909-06-19",
     "phone": "026.440.3664x1309",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        47,
+        75,
+        38,
+        66,
+        29,
+        10,
+        26,
+        73,
+        2,
+        64,
+        66,
+        65
+    ],
+    "login locations": [
+        [
+            -122.409181,
+            37.784956
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                73850,
+                1.0
+            ],
+            [
+                73850,
+                1.0
+            ]
+        ]
+    ]
 }

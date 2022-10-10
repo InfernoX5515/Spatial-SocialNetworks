@@ -5,7 +5,16 @@
     "email": "dwilliams@hotmail.com",
     "birthdate": "1980-11-24",
     "phone": "647.868.7400",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        20,
+        34
+    ],
+    "login locations": [
+        [
+            -117.065165,
+            32.717949
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "hammondbonnie@yahoo.com",
     "birthdate": "1963-05-19",
     "phone": "079.417.8689x61113",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        16,
+        25,
+        75,
+        13,
+        58
+    ],
+    "login locations": [
+        [
+            -118.362308,
+            34.006743
+        ]
+    ],
+    "relationships": []
 }

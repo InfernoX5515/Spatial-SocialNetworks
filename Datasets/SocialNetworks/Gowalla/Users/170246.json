@@ -5,7 +5,21 @@
     "email": "thomassergio@hotmail.com",
     "birthdate": "1997-05-30",
     "phone": "414-919-5371",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        21,
+        42,
+        40,
+        39,
+        24,
+        5,
+        16
+    ],
+    "login locations": [
+        [
+            -122.078068,
+            37.785369
+        ]
+    ],
+    "relationships": []
 }

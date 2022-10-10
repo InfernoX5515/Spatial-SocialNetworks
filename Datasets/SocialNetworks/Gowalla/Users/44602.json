@@ -5,7 +5,18 @@
     "email": "jonathanmiller@yahoo.com",
     "birthdate": "1945-05-05",
     "phone": "192.106.9941x96582",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        27,
+        63,
+        9,
+        69
+    ],
+    "login locations": [
+        [
+            -122.666677,
+            38.295715
+        ]
+    ],
+    "relationships": []
 }

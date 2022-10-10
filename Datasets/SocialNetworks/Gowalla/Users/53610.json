@@ -5,7 +5,26 @@
     "email": "belljessica@gmail.com",
     "birthdate": "1924-08-23",
     "phone": "238-251-8847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        23,
+        22,
+        60,
+        34,
+        18,
+        3,
+        74,
+        18,
+        14,
+        3,
+        20,
+        37
+    ],
+    "login locations": [
+        [
+            -122.396686,
+            37.775142
+        ]
+    ],
+    "relationships": []
 }

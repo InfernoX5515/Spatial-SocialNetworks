@@ -5,7 +5,23 @@
     "email": "williamsjames@yahoo.com",
     "birthdate": "2004-04-13",
     "phone": "218.560.6802x380",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.315014,
+            34.05739
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                60322,
+                0.01
+            ],
+            [
+                60322,
+                0.01
+            ]
+        ]
+    ]
 }

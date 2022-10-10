@@ -5,7 +5,17 @@
     "email": "angelaflores@gmail.com",
     "birthdate": "1963-09-22",
     "phone": "+1-006-557-7653",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        69,
+        75,
+        50
+    ],
+    "login locations": [
+        [
+            -117.217737,
+            32.831672
+        ]
+    ],
+    "relationships": []
 }

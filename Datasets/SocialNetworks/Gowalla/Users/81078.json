@@ -5,7 +5,12 @@
     "email": "mwood@hotmail.com",
     "birthdate": "1941-03-03",
     "phone": "405.939.7307",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.397941,
+            37.790456
+        ]
+    ],
+    "relationships": []
 }

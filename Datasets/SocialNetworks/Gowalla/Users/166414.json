@@ -5,7 +5,26 @@
     "email": "hoffmankatie@yahoo.com",
     "birthdate": "1929-07-30",
     "phone": "7354930729",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        26,
+        67,
+        59,
+        66,
+        68,
+        24,
+        33,
+        10,
+        67,
+        49,
+        16,
+        3
+    ],
+    "login locations": [
+        [
+            -122.536354,
+            37.969868
+        ]
+    ],
+    "relationships": []
 }

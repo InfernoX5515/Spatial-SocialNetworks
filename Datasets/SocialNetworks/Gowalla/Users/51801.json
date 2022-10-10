@@ -5,7 +5,22 @@
     "email": "katherine81@gmail.com",
     "birthdate": "1992-10-07",
     "phone": "(143)362-6848",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        4,
+        26,
+        26,
+        21,
+        3,
+        15,
+        19,
+        57
+    ],
+    "login locations": [
+        [
+            -121.930715,
+            37.292909
+        ]
+    ],
+    "relationships": []
 }

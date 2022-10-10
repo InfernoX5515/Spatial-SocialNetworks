@@ -5,7 +5,27 @@
     "email": "dale87@gmail.com",
     "birthdate": "1945-03-27",
     "phone": "+1-992-367-5726",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        41,
+        42
+    ],
+    "login locations": [
+        [
+            -122.123116,
+            37.925036
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                170,
+                0.04
+            ],
+            [
+                10793,
+                0.0744680851064
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "micheal55@yahoo.com",
     "birthdate": "1951-09-22",
     "phone": "1852120538",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        4,
+        27,
+        1,
+        0,
+        8,
+        19,
+        58,
+        46,
+        22,
+        53,
+        2
+    ],
+    "login locations": [
+        [
+            -122.400166,
+            37.795478
+        ]
+    ],
+    "relationships": []
 }

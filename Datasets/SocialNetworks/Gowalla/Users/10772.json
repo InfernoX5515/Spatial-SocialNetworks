@@ -5,7 +5,27 @@
     "email": "stephen42@hotmail.com",
     "birthdate": "1959-10-29",
     "phone": "+1-238-428-3043x133",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        53,
+        56,
+        24,
+        56,
+        54,
+        51,
+        73,
+        17,
+        5,
+        11,
+        60,
+        0,
+        21
+    ],
+    "login locations": [
+        [
+            -118.424894,
+            34.015559
+        ]
+    ],
+    "relationships": []
 }

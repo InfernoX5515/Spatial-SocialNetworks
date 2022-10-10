@@ -5,7 +5,26 @@
     "email": "kimberly47@yahoo.com",
     "birthdate": "1950-08-27",
     "phone": "261-805-3011x346",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        55,
+        30,
+        44,
+        65,
+        34,
+        3,
+        3,
+        53,
+        58,
+        11,
+        6,
+        8
+    ],
+    "login locations": [
+        [
+            -122.437947,
+            37.775638
+        ]
+    ],
+    "relationships": []
 }

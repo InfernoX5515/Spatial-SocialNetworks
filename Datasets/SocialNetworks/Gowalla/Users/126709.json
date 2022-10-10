@@ -5,7 +5,21 @@
     "email": "cochrankatie@yahoo.com",
     "birthdate": "1936-11-19",
     "phone": "+1-664-359-3149",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        56,
+        57,
+        46,
+        48,
+        68,
+        24,
+        59
+    ],
+    "login locations": [
+        [
+            -122.04728,
+            37.323917
+        ]
+    ],
+    "relationships": []
 }

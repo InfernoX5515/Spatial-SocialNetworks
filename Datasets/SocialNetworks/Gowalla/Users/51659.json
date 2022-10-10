@@ -5,7 +5,26 @@
     "email": "millerdana@gmail.com",
     "birthdate": "1952-01-07",
     "phone": "003-268-9283x70462",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        15,
+        7,
+        14,
+        22,
+        15,
+        15,
+        18,
+        57,
+        39,
+        1,
+        6,
+        4
+    ],
+    "login locations": [
+        [
+            -122.334309,
+            38.159246
+        ]
+    ],
+    "relationships": []
 }

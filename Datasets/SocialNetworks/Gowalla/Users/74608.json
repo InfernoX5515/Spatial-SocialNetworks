@@ -5,7 +5,21 @@
     "email": "wrightjanice@yahoo.com",
     "birthdate": "1968-03-22",
     "phone": "649.790.3440x587",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        12,
+        30,
+        73,
+        44,
+        41,
+        45,
+        15
+    ],
+    "login locations": [
+        [
+            -122.3486,
+            37.671401
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "debra87@gmail.com",
     "birthdate": "1952-04-22",
     "phone": "226-864-2586x031",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        12,
+        75
+    ],
+    "login locations": [
+        [
+            -118.321591,
+            34.054686
+        ]
+    ],
+    "relationships": []
 }

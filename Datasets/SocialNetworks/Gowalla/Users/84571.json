@@ -5,7 +5,25 @@
     "email": "othomas@gmail.com",
     "birthdate": "2000-05-24",
     "phone": "612.728.5537x0515",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61
+    ],
+    "login locations": [
+        [
+            -122.102009,
+            37.859702
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8679,
+                0.0342857142857
+            ],
+            [
+                8679,
+                0.0342857142857
+            ]
+        ]
+    ]
 }

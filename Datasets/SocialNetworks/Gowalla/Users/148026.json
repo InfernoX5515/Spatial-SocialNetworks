@@ -5,7 +5,27 @@
     "email": "nelliott@yahoo.com",
     "birthdate": "1942-09-28",
     "phone": "(743)690-9678",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        9,
+        2,
+        25,
+        4,
+        41,
+        50,
+        17,
+        12,
+        54,
+        63,
+        57,
+        58,
+        37
+    ],
+    "login locations": [
+        [
+            -122.159741,
+            37.604908
+        ]
+    ],
+    "relationships": []
 }

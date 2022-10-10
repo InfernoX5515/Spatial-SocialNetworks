@@ -5,7 +5,23 @@
     "email": "campbellantonio@yahoo.com",
     "birthdate": "1963-11-28",
     "phone": "001-046-698-5443x66595",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        61,
+        21,
+        73,
+        44,
+        38,
+        7,
+        37,
+        49,
+        72
+    ],
+    "login locations": [
+        [
+            -118.14493,
+            34.605985
+        ]
+    ],
+    "relationships": []
 }

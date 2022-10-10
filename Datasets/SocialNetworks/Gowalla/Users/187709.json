@@ -5,7 +5,12 @@
     "email": "coreygarcia@hotmail.com",
     "birthdate": "1911-03-03",
     "phone": "+1-946-308-2073x7177",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.01845,
+            33.976692
+        ]
+    ],
+    "relationships": []
 }

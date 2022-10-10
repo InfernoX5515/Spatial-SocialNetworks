@@ -5,7 +5,26 @@
     "email": "hwhitehead@gmail.com",
     "birthdate": "1974-06-10",
     "phone": "(421)764-9437",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        47,
+        52,
+        63,
+        12,
+        20,
+        49,
+        7,
+        49,
+        59,
+        48,
+        67,
+        69
+    ],
+    "login locations": [
+        [
+            -119.268717,
+            34.266876
+        ]
+    ],
+    "relationships": []
 }

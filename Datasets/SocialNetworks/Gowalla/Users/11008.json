@@ -5,7 +5,26 @@
     "email": "suzanne95@yahoo.com",
     "birthdate": "2004-12-25",
     "phone": "(224)206-4790",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        17
+    ],
+    "login locations": [
+        [
+            -117.270531,
+            33.070659
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5456,
+                0.016
+            ],
+            [
+                5456,
+                0.016
+            ]
+        ]
+    ]
 }

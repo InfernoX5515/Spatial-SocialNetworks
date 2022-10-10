@@ -5,7 +5,25 @@
     "email": "phill@hotmail.com",
     "birthdate": "1928-01-08",
     "phone": "777-289-4470x766",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        23,
+        3,
+        75,
+        18,
+        32,
+        26,
+        72,
+        12,
+        23,
+        31,
+        69
+    ],
+    "login locations": [
+        [
+            -122.341035,
+            37.586468
+        ]
+    ],
+    "relationships": []
 }

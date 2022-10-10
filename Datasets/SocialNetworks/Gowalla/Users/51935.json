@@ -5,7 +5,16 @@
     "email": "jackie30@hotmail.com",
     "birthdate": "1934-03-17",
     "phone": "319.021.4211x93973",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        2,
+        4
+    ],
+    "login locations": [
+        [
+            -122.07869,
+            37.3958
+        ]
+    ],
+    "relationships": []
 }

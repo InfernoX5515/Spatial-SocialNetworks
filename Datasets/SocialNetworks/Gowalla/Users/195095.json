@@ -5,7 +5,25 @@
     "email": "alexanderdeborah@hotmail.com",
     "birthdate": "1931-05-31",
     "phone": "+1-628-569-6528",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        55,
+        72,
+        43,
+        26,
+        19,
+        63,
+        20,
+        41,
+        38,
+        75,
+        66
+    ],
+    "login locations": [
+        [
+            -122.276416,
+            37.68733
+        ]
+    ],
+    "relationships": []
 }

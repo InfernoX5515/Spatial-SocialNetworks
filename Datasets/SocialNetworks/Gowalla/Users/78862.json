@@ -5,7 +5,22 @@
     "email": "xlong@yahoo.com",
     "birthdate": "2018-02-05",
     "phone": "+1-265-803-3152x2021",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        65,
+        32,
+        39,
+        38,
+        34,
+        21,
+        52,
+        56
+    ],
+    "login locations": [
+        [
+            -122.261741,
+            37.871277
+        ]
+    ],
+    "relationships": []
 }

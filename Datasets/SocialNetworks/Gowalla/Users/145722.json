@@ -5,7 +5,18 @@
     "email": "emeyer@yahoo.com",
     "birthdate": "1927-11-07",
     "phone": "493-476-6629x5191",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        19,
+        72,
+        69,
+        72
+    ],
+    "login locations": [
+        [
+            -118.21967,
+            34.065358
+        ]
+    ],
+    "relationships": []
 }

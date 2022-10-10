@@ -5,7 +5,28 @@
     "email": "robersonwanda@hotmail.com",
     "birthdate": "1975-08-09",
     "phone": "539.776.6428x0957",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        36,
+        10,
+        29,
+        9,
+        46,
+        11,
+        72,
+        63,
+        64,
+        38,
+        46,
+        74,
+        45,
+        72
+    ],
+    "login locations": [
+        [
+            -117.165348,
+            32.787663
+        ]
+    ],
+    "relationships": []
 }

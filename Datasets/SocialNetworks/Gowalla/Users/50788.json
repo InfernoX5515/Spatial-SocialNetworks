@@ -5,7 +5,15 @@
     "email": "olivermary@yahoo.com",
     "birthdate": "2012-10-28",
     "phone": "106-443-7580x018",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        40
+    ],
+    "login locations": [
+        [
+            -122.102735,
+            37.421587
+        ]
+    ],
+    "relationships": []
 }

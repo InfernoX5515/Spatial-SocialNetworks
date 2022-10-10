@@ -5,7 +5,21 @@
     "email": "jason75@hotmail.com",
     "birthdate": "1937-02-12",
     "phone": "535-696-8947x6650",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        32,
+        27,
+        19,
+        56,
+        73,
+        30,
+        60
+    ],
+    "login locations": [
+        [
+            -117.208758,
+            32.890106
+        ]
+    ],
+    "relationships": []
 }

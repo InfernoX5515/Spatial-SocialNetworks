@@ -5,7 +5,17 @@
     "email": "ahenry@gmail.com",
     "birthdate": "2010-08-18",
     "phone": "001-604-484-4823x9448",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        61,
+        19,
+        64
+    ],
+    "login locations": [
+        [
+            -121.43265,
+            38.588121
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "barrerakathleen@gmail.com",
     "birthdate": "1964-04-08",
     "phone": "(964)596-8537",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        21,
+        42,
+        63,
+        31,
+        19,
+        7
+    ],
+    "login locations": [
+        [
+            -117.157991,
+            32.720649
+        ]
+    ],
+    "relationships": []
 }

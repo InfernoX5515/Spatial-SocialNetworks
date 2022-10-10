@@ -5,7 +5,31 @@
     "email": "brandonmckenzie@yahoo.com",
     "birthdate": "1951-01-25",
     "phone": "230-004-6452",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        4,
+        1,
+        48,
+        27,
+        62,
+        34
+    ],
+    "login locations": [
+        [
+            -122.163905,
+            37.844193
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                91300,
+                0.130434782609
+            ],
+            [
+                91300,
+                0.130434782609
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "jason12@gmail.com",
     "birthdate": "1986-06-08",
     "phone": "+1-794-314-8065x8760",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.426293,
+            37.776689
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125704,
+                0.8125
+            ],
+            [
+                125704,
+                0.8125
+            ]
+        ]
+    ]
 }

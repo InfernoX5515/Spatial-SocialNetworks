@@ -5,7 +5,27 @@
     "email": "lucaschristopher@yahoo.com",
     "birthdate": "1919-11-06",
     "phone": "+1-409-542-8809x03701",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        48,
+        10,
+        12,
+        67,
+        57,
+        36,
+        8,
+        42,
+        28,
+        70,
+        50,
+        33,
+        64
+    ],
+    "login locations": [
+        [
+            -117.158997,
+            32.714439
+        ]
+    ],
+    "relationships": []
 }

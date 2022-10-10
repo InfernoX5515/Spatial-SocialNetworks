@@ -5,7 +5,38 @@
     "email": "rbarnes@gmail.com",
     "birthdate": "1975-09-27",
     "phone": "001-186-741-7627x0918",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        17,
+        18,
+        35,
+        62,
+        60,
+        43,
+        20,
+        39,
+        1,
+        2,
+        66,
+        55,
+        33
+    ],
+    "login locations": [
+        [
+            -122.42342,
+            37.782948
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                126,
+                0.0684931506849
+            ],
+            [
+                126,
+                0.0684931506849
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,14 @@
     "email": "danielburns@gmail.com",
     "birthdate": "1954-12-03",
     "phone": "001-045-910-4443",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14
+    ],
+    "login locations": [
+        [
+            -122.410794,
+            37.780876
+        ]
+    ],
+    "relationships": []
 }

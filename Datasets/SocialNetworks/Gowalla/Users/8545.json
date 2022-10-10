@@ -5,7 +5,16 @@
     "email": "samanthaevans@hotmail.com",
     "birthdate": "1980-02-18",
     "phone": "396-894-8834x654",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        45,
+        30
+    ],
+    "login locations": [
+        [
+            -122.284375,
+            37.830097
+        ]
+    ],
+    "relationships": []
 }

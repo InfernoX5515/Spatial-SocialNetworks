@@ -5,7 +5,25 @@
     "email": "zjones@gmail.com",
     "birthdate": "1980-09-14",
     "phone": "+1-211-001-6740",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        57,
+        56,
+        54,
+        8,
+        4,
+        32,
+        45,
+        58,
+        18,
+        50,
+        31
+    ],
+    "login locations": [
+        [
+            -116.298115,
+            33.728138
+        ]
+    ],
+    "relationships": []
 }

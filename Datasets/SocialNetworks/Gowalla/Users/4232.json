@@ -5,7 +5,26 @@
     "email": "daniel73@gmail.com",
     "birthdate": "2009-08-31",
     "phone": "001-103-013-9846x00227",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        16
+    ],
+    "login locations": [
+        [
+            -122.063387,
+            37.395252
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5838,
+                0.0325203252033
+            ],
+            [
+                4247,
+                0.833333333333
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "michaeljackson@yahoo.com",
     "birthdate": "1951-02-11",
     "phone": "(754)683-8424",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        47,
+        14,
+        2,
+        26,
+        22,
+        64,
+        58,
+        14,
+        75,
+        34,
+        45
+    ],
+    "login locations": [
+        [
+            -117.990184,
+            33.865768
+        ]
+    ],
+    "relationships": []
 }

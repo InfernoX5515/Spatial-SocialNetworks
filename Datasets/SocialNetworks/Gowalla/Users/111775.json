@@ -5,7 +5,26 @@
     "email": "danielleturner@hotmail.com",
     "birthdate": "1913-04-08",
     "phone": "001-715-385-7246x644",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        63,
+        60,
+        60,
+        62,
+        51,
+        0,
+        40,
+        16,
+        61,
+        66,
+        39,
+        7
+    ],
+    "login locations": [
+        [
+            -121.363569,
+            38.686601
+        ]
+    ],
+    "relationships": []
 }

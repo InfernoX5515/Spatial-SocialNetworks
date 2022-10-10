@@ -5,7 +5,19 @@
     "email": "james55@yahoo.com",
     "birthdate": "1977-07-12",
     "phone": "0594460978",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        21,
+        44,
+        67,
+        6,
+        57
+    ],
+    "login locations": [
+        [
+            -122.73463,
+            38.437659
+        ]
+    ],
+    "relationships": []
 }

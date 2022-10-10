@@ -5,7 +5,32 @@
     "email": "mary84@gmail.com",
     "birthdate": "1962-05-09",
     "phone": "698-549-6067",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        67,
+        15,
+        33,
+        22,
+        12,
+        62,
+        43
+    ],
+    "login locations": [
+        [
+            -118.167583,
+            34.03069
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53767,
+                0.136363636364
+            ],
+            [
+                53767,
+                0.136363636364
+            ]
+        ]
+    ]
 }

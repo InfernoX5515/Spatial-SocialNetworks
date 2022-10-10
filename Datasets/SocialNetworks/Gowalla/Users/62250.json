@@ -5,7 +5,20 @@
     "email": "fsimpson@yahoo.com",
     "birthdate": "2001-11-29",
     "phone": "889.017.7034",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        9,
+        23,
+        23,
+        48,
+        72,
+        24
+    ],
+    "login locations": [
+        [
+            -117.717535,
+            33.586773
+        ]
+    ],
+    "relationships": []
 }

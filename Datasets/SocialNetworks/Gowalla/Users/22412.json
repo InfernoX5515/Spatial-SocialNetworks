@@ -5,7 +5,38 @@
     "email": "lewisvickie@yahoo.com",
     "birthdate": "2020-05-28",
     "phone": "310.500.6778x1780",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        50,
+        55,
+        41,
+        12,
+        5,
+        45,
+        39,
+        31,
+        11,
+        1,
+        73,
+        9,
+        52
+    ],
+    "login locations": [
+        [
+            -122.422127,
+            37.806003
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                254,
+                0.0208333333333
+            ],
+            [
+                8338,
+                0.01
+            ]
+        ]
+    ]
 }

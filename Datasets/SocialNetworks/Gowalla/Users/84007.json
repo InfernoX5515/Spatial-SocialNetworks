@@ -5,7 +5,25 @@
     "email": "broberts@yahoo.com",
     "birthdate": "1927-06-05",
     "phone": "001-878-181-1546",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        45,
+        42,
+        29,
+        25,
+        32,
+        48,
+        44,
+        56,
+        23,
+        27,
+        12
+    ],
+    "login locations": [
+        [
+            -121.985188,
+            37.401253
+        ]
+    ],
+    "relationships": []
 }

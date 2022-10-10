@@ -5,7 +5,15 @@
     "email": "garyhoffman@gmail.com",
     "birthdate": "1916-02-21",
     "phone": "075.167.0775x741",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        22
+    ],
+    "login locations": [
+        [
+            -118.40391,
+            33.930197
+        ]
+    ],
+    "relationships": []
 }

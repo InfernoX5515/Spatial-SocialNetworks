@@ -5,7 +5,18 @@
     "email": "noah29@gmail.com",
     "birthdate": "1955-12-20",
     "phone": "428-390-5854x413",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        31,
+        10,
+        59,
+        18
+    ],
+    "login locations": [
+        [
+            -122.156633,
+            37.406131
+        ]
+    ],
+    "relationships": []
 }

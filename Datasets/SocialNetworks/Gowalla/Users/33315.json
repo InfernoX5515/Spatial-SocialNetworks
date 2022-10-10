@@ -5,7 +5,14 @@
     "email": "roberthill@hotmail.com",
     "birthdate": "1908-09-19",
     "phone": "(035)498-2927",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14
+    ],
+    "login locations": [
+        [
+            -118.369893,
+            34.135139
+        ]
+    ],
+    "relationships": []
 }

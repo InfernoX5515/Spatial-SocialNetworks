@@ -5,7 +5,14 @@
     "email": "josejohnson@yahoo.com",
     "birthdate": "1941-03-10",
     "phone": "+1-850-500-4935x543",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28
+    ],
+    "login locations": [
+        [
+            -122.187234,
+            37.443461
+        ]
+    ],
+    "relationships": []
 }

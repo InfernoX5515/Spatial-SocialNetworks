@@ -5,7 +5,24 @@
     "email": "vicki59@hotmail.com",
     "birthdate": "1907-02-27",
     "phone": "001-354-912-0581",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        42,
+        17,
+        50,
+        12,
+        60,
+        1,
+        65,
+        23,
+        20,
+        50
+    ],
+    "login locations": [
+        [
+            -122.002921,
+            37.283519
+        ]
+    ],
+    "relationships": []
 }

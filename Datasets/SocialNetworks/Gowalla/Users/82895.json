@@ -5,7 +5,19 @@
     "email": "vlopez@hotmail.com",
     "birthdate": "1930-09-16",
     "phone": "(495)244-9686x2353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        18,
+        72,
+        55,
+        49,
+        50
+    ],
+    "login locations": [
+        [
+            -122.410264,
+            37.76262
+        ]
+    ],
+    "relationships": []
 }

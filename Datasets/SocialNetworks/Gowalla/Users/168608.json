@@ -5,7 +5,28 @@
     "email": "lindseyandrew@hotmail.com",
     "birthdate": "1952-05-22",
     "phone": "001-179-409-3598",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        71,
+        18,
+        3,
+        15,
+        3,
+        27,
+        49,
+        18,
+        66,
+        42,
+        67,
+        14,
+        28,
+        72
+    ],
+    "login locations": [
+        [
+            -117.100289,
+            32.637262
+        ]
+    ],
+    "relationships": []
 }

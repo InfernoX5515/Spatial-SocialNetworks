@@ -5,7 +5,27 @@
     "email": "rosejeremy@yahoo.com",
     "birthdate": "1940-10-01",
     "phone": "+1-426-763-6250x0370",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        22,
+        42,
+        28,
+        59,
+        50,
+        40,
+        13,
+        53,
+        29,
+        3,
+        30,
+        20,
+        28
+    ],
+    "login locations": [
+        [
+            -122.125398,
+            37.426342
+        ]
+    ],
+    "relationships": []
 }

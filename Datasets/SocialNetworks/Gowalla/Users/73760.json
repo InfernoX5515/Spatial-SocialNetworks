@@ -5,7 +5,21 @@
     "email": "woodmary@gmail.com",
     "birthdate": "1930-08-08",
     "phone": "+1-644-011-8295",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        71,
+        7,
+        13,
+        14,
+        62,
+        32,
+        60
+    ],
+    "login locations": [
+        [
+            -122.352106,
+            37.872929
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "wflores@hotmail.com",
     "birthdate": "1934-09-15",
     "phone": "(179)782-6489",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        0,
+        28,
+        31,
+        5,
+        19,
+        18
+    ],
+    "login locations": [
+        [
+            -120.429114,
+            37.363131
+        ]
+    ],
+    "relationships": []
 }

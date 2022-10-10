@@ -5,7 +5,25 @@
     "email": "joanne44@yahoo.com",
     "birthdate": "2002-09-14",
     "phone": "(292)877-6258x5503",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        42,
+        56,
+        55,
+        11,
+        61,
+        45,
+        25,
+        69,
+        19,
+        21,
+        37
+    ],
+    "login locations": [
+        [
+            -118.32956,
+            34.10558
+        ]
+    ],
+    "relationships": []
 }

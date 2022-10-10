@@ -5,7 +5,20 @@
     "email": "herrerabobby@yahoo.com",
     "birthdate": "1938-12-03",
     "phone": "001-438-917-8114x9040",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        58,
+        17,
+        7,
+        54,
+        51,
+        27
+    ],
+    "login locations": [
+        [
+            -119.135061,
+            36.132869
+        ]
+    ],
+    "relationships": []
 }

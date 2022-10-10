@@ -5,7 +5,17 @@
     "email": "rwilliams@hotmail.com",
     "birthdate": "1908-05-05",
     "phone": "894.544.1401",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        49,
+        34,
+        61
+    ],
+    "login locations": [
+        [
+            -117.762544,
+            33.656668
+        ]
+    ],
+    "relationships": []
 }

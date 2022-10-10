@@ -5,7 +5,23 @@
     "email": "ann15@yahoo.com",
     "birthdate": "1912-08-16",
     "phone": "001-930-858-5924x483",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.205272,
+            33.09249
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                100281,
+                0.0104166666667
+            ],
+            [
+                100281,
+                0.0104166666667
+            ]
+        ]
+    ]
 }

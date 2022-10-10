@@ -5,7 +5,23 @@
     "email": "paul13@gmail.com",
     "birthdate": "1980-05-06",
     "phone": "+1-830-148-7531",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        52,
+        45,
+        24,
+        37,
+        60,
+        8,
+        8,
+        52,
+        60
+    ],
+    "login locations": [
+        [
+            -118.407168,
+            33.943538
+        ]
+    ],
+    "relationships": []
 }

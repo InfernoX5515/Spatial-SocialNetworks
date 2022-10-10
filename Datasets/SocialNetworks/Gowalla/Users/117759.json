@@ -5,7 +5,24 @@
     "email": "mlane@yahoo.com",
     "birthdate": "1915-09-30",
     "phone": "876.178.1439x46842",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        58,
+        39,
+        48,
+        50,
+        17,
+        5,
+        32,
+        11,
+        7,
+        58
+    ],
+    "login locations": [
+        [
+            -118.260917,
+            34.107098
+        ]
+    ],
+    "relationships": []
 }

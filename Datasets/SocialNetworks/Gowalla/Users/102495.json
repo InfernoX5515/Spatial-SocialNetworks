@@ -5,7 +5,31 @@
     "email": "hayleyellis@hotmail.com",
     "birthdate": "1928-03-24",
     "phone": "320-880-5298x1626",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        39,
+        2,
+        9,
+        41,
+        61,
+        11
+    ],
+    "login locations": [
+        [
+            -118.385012,
+            33.959466
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                16621,
+                0.0492957746479
+            ],
+            [
+                16621,
+                0.0492957746479
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,14 @@
     "email": "bullockbryan@yahoo.com",
     "birthdate": "1936-01-02",
     "phone": "043.109.3559",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53
+    ],
+    "login locations": [
+        [
+            -121.834871,
+            39.739635
+        ]
+    ],
+    "relationships": []
 }

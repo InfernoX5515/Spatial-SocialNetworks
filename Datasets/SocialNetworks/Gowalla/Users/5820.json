@@ -5,7 +5,38 @@
     "email": "aaronramsey@hotmail.com",
     "birthdate": "1994-03-21",
     "phone": "001-980-647-6273x8061",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        23,
+        36,
+        46,
+        26,
+        69,
+        42,
+        17,
+        73,
+        34,
+        68,
+        67,
+        67,
+        30
+    ],
+    "login locations": [
+        [
+            -122.485715,
+            37.859244
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.106060606061
+            ],
+            [
+                696,
+                0.0101204819277
+            ]
+        ]
+    ]
 }

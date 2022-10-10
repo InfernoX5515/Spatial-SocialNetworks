@@ -5,7 +5,28 @@
     "email": "todd90@gmail.com",
     "birthdate": "2017-08-13",
     "phone": "291-408-1127x413",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        57,
+        61,
+        23,
+        35,
+        11,
+        34,
+        15,
+        24,
+        72,
+        43,
+        28,
+        75,
+        25,
+        50
+    ],
+    "login locations": [
+        [
+            -122.04611,
+            37.353275
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "allenmichael@gmail.com",
     "birthdate": "2020-05-21",
     "phone": "001-802-227-6239x87765",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        35,
+        10,
+        50,
+        13,
+        53,
+        45,
+        41,
+        23,
+        48
+    ],
+    "login locations": [
+        [
+            -121.472078,
+            38.579754
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "jasminepena@yahoo.com",
     "birthdate": "1942-09-11",
     "phone": "015.743.4674x056",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        74
+    ],
+    "login locations": [
+        [
+            -118.29199,
+            34.034911
+        ]
+    ],
+    "relationships": []
 }

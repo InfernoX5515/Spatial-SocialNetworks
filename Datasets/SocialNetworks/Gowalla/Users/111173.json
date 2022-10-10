@@ -5,7 +5,23 @@
     "email": "dwright@hotmail.com",
     "birthdate": "1969-08-16",
     "phone": "+1-151-410-1397x57698",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        14,
+        24,
+        35,
+        15,
+        9,
+        61,
+        75,
+        43,
+        65
+    ],
+    "login locations": [
+        [
+            -121.596341,
+            37.042756
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "carolboyd@hotmail.com",
     "birthdate": "1971-12-30",
     "phone": "603-053-9341x26461",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        39
+    ],
+    "login locations": [
+        [
+            -118.369589,
+            34.072506
+        ]
+    ],
+    "relationships": []
 }

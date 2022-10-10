@@ -5,7 +5,27 @@
     "email": "pottschristina@yahoo.com",
     "birthdate": "1930-03-16",
     "phone": "(847)584-7902x279",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        11,
+        63,
+        5,
+        41,
+        14,
+        26,
+        47,
+        48,
+        17,
+        58,
+        16,
+        13,
+        64
+    ],
+    "login locations": [
+        [
+            -122.403829,
+            37.785309
+        ]
+    ],
+    "relationships": []
 }

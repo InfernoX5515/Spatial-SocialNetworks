@@ -5,7 +5,27 @@
     "email": "twilliams@gmail.com",
     "birthdate": "1988-09-12",
     "phone": "505.761.1345x588",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        3,
+        61,
+        49,
+        73,
+        50,
+        22,
+        34,
+        14,
+        46,
+        33,
+        14,
+        13,
+        61
+    ],
+    "login locations": [
+        [
+            -122.067258,
+            37.414241
+        ]
+    ],
+    "relationships": []
 }

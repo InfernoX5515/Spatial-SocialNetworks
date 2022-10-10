@@ -5,7 +5,15 @@
     "email": "jlewis@yahoo.com",
     "birthdate": "1915-01-02",
     "phone": "(086)761-0341x53189",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        33
+    ],
+    "login locations": [
+        [
+            -122.283589,
+            37.798006
+        ]
+    ],
+    "relationships": []
 }

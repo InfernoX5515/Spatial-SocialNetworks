@@ -5,7 +5,12 @@
     "email": "tmyers@hotmail.com",
     "birthdate": "1977-03-05",
     "phone": "(834)504-4114",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.152017,
+            32.742048
+        ]
+    ],
+    "relationships": []
 }

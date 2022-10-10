@@ -5,7 +5,14 @@
     "email": "jbrown@gmail.com",
     "birthdate": "1959-09-13",
     "phone": "001-216-278-8434x095",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6
+    ],
+    "login locations": [
+        [
+            -117.920653,
+            33.810099
+        ]
+    ],
+    "relationships": []
 }

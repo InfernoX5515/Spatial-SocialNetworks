@@ -5,7 +5,22 @@
     "email": "timothy78@yahoo.com",
     "birthdate": "1908-12-05",
     "phone": "001-347-877-8947x1780",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        53,
+        6,
+        10,
+        37,
+        56,
+        49,
+        18,
+        26
+    ],
+    "login locations": [
+        [
+            -122.080995,
+            37.413926
+        ]
+    ],
+    "relationships": []
 }

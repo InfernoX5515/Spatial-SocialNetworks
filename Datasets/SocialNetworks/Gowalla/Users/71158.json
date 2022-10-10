@@ -5,7 +5,14 @@
     "email": "chadturner@hotmail.com",
     "birthdate": "1923-03-20",
     "phone": "(251)887-9214x5767",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50
+    ],
+    "login locations": [
+        [
+            -121.946141,
+            37.705301
+        ]
+    ],
+    "relationships": []
 }

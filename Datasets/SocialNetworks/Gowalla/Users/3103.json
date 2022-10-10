@@ -5,7 +5,33 @@
     "email": "leslie76@gmail.com",
     "birthdate": "2013-01-08",
     "phone": "249.239.9749x445",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        14,
+        49,
+        23,
+        34,
+        32,
+        4,
+        27,
+        62
+    ],
+    "login locations": [
+        [
+            -118.601541,
+            34.183118
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3006,
+                0.0243055555556
+            ],
+            [
+                66558,
+                0.0666666666667
+            ]
+        ]
+    ]
 }

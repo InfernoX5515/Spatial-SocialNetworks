@@ -5,7 +5,20 @@
     "email": "warias@hotmail.com",
     "birthdate": "1971-07-20",
     "phone": "(607)172-3148",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        52,
+        11,
+        31,
+        34,
+        9,
+        44
+    ],
+    "login locations": [
+        [
+            -117.99123,
+            33.844932
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "nathan64@yahoo.com",
     "birthdate": "1923-07-15",
     "phone": "037-894-3068x61196",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.897573,
+            33.940556
+        ]
+    ],
+    "relationships": []
 }

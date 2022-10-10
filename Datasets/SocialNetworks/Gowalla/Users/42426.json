@@ -5,7 +5,23 @@
     "email": "cheryl46@yahoo.com",
     "birthdate": "2002-07-21",
     "phone": "(729)121-5288",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        47,
+        4,
+        25,
+        69,
+        65,
+        8,
+        43,
+        13,
+        64
+    ],
+    "login locations": [
+        [
+            -121.977997,
+            37.335448
+        ]
+    ],
+    "relationships": []
 }

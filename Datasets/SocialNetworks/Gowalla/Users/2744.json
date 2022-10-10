@@ -5,7 +5,25 @@
     "email": "stevecarroll@hotmail.com",
     "birthdate": "1920-06-06",
     "phone": "(333)725-6212x8516",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43
+    ],
+    "login locations": [
+        [
+            -117.755828,
+            33.603769
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2742,
+                0.0453400503778
+            ],
+            [
+                2742,
+                0.0453400503778
+            ]
+        ]
+    ]
 }

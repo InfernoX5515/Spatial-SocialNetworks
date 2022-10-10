@@ -5,7 +5,25 @@
     "email": "woodlaura@gmail.com",
     "birthdate": "1999-06-04",
     "phone": "(747)835-5838x0205",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        72,
+        72,
+        32,
+        22,
+        66,
+        4,
+        42,
+        37,
+        37,
+        7,
+        48
+    ],
+    "login locations": [
+        [
+            -120.999622,
+            37.672354
+        ]
+    ],
+    "relationships": []
 }

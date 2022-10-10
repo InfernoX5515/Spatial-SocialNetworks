@@ -5,7 +5,27 @@
     "email": "jacob80@gmail.com",
     "birthdate": "1962-12-18",
     "phone": "+1-665-601-6105x10277",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        41,
+        44,
+        11,
+        30,
+        52,
+        41,
+        66,
+        14,
+        30,
+        69,
+        15,
+        6,
+        62
+    ],
+    "login locations": [
+        [
+            -118.080494,
+            33.783974
+        ]
+    ],
+    "relationships": []
 }

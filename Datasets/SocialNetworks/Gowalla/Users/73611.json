@@ -5,7 +5,21 @@
     "email": "sorr@gmail.com",
     "birthdate": "1943-11-30",
     "phone": "(010)107-8914x64738",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        28,
+        45,
+        24,
+        28,
+        40,
+        34,
+        22
+    ],
+    "login locations": [
+        [
+            -122.295057,
+            37.860429
+        ]
+    ],
+    "relationships": []
 }

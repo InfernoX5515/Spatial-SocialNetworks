@@ -5,7 +5,28 @@
     "email": "rwilson@hotmail.com",
     "birthdate": "1937-02-08",
     "phone": "(034)766-9139x0301",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        68,
+        65,
+        36,
+        70,
+        74,
+        72,
+        35,
+        6,
+        30,
+        71,
+        61,
+        28,
+        66,
+        14
+    ],
+    "login locations": [
+        [
+            -117.911155,
+            34.009213
+        ]
+    ],
+    "relationships": []
 }

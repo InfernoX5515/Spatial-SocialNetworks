@@ -5,7 +5,22 @@
     "email": "gabrielaaguilar@hotmail.com",
     "birthdate": "1956-09-18",
     "phone": "(695)004-1908x334",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        55,
+        10,
+        64,
+        1,
+        17,
+        26,
+        62,
+        73
+    ],
+    "login locations": [
+        [
+            -121.901186,
+            37.332716
+        ]
+    ],
+    "relationships": []
 }

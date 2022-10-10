@@ -5,7 +5,28 @@
     "email": "brucevalerie@yahoo.com",
     "birthdate": "1955-10-09",
     "phone": "(649)818-6929x929",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        54,
+        8,
+        65,
+        29,
+        38,
+        36,
+        12,
+        62,
+        41,
+        23,
+        65,
+        53,
+        58,
+        48
+    ],
+    "login locations": [
+        [
+            -121.930691,
+            37.406628
+        ]
+    ],
+    "relationships": []
 }

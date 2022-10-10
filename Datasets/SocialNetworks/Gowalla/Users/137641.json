@@ -5,7 +5,26 @@
     "email": "jennifer66@hotmail.com",
     "birthdate": "1996-06-04",
     "phone": "673-447-5114x558",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        73
+    ],
+    "login locations": [
+        [
+            -117.953858,
+            33.670817
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                44012,
+                0.0133333333333
+            ],
+            [
+                44012,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

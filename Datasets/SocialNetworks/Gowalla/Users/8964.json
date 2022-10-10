@@ -5,7 +5,36 @@
     "email": "vanessawillis@gmail.com",
     "birthdate": "2015-02-07",
     "phone": "(582)792-6471",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        15,
+        37,
+        59,
+        13,
+        60,
+        3,
+        72,
+        5,
+        31,
+        25,
+        7
+    ],
+    "login locations": [
+        [
+            -122.014328,
+            37.351902
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                504,
+                0.117962466488
+            ],
+            [
+                504,
+                0.117962466488
+            ]
+        ]
+    ]
 }

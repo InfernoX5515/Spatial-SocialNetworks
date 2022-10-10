@@ -5,7 +5,23 @@
     "email": "sheagerald@hotmail.com",
     "birthdate": "1944-01-01",
     "phone": "588.922.9776",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        45,
+        65,
+        59,
+        5,
+        24,
+        42,
+        61,
+        6,
+        50
+    ],
+    "login locations": [
+        [
+            -118.157022,
+            34.07623
+        ]
+    ],
+    "relationships": []
 }

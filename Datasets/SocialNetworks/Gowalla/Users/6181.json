@@ -5,7 +5,24 @@
     "email": "hicksbarry@hotmail.com",
     "birthdate": "2021-08-03",
     "phone": "658-711-1559x1763",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        30,
+        39,
+        58,
+        12,
+        53,
+        4,
+        26,
+        68,
+        10,
+        6
+    ],
+    "login locations": [
+        [
+            -122.526976,
+            37.957733
+        ]
+    ],
+    "relationships": []
 }

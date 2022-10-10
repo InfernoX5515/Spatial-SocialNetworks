@@ -5,7 +5,22 @@
     "email": "fcollins@yahoo.com",
     "birthdate": "1988-11-27",
     "phone": "371.481.8225x54162",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        60,
+        14,
+        8,
+        15,
+        74,
+        50,
+        73,
+        14
+    ],
+    "login locations": [
+        [
+            -118.08675,
+            33.921291
+        ]
+    ],
+    "relationships": []
 }

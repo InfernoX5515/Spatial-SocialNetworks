@@ -5,7 +5,14 @@
     "email": "jimmy77@yahoo.com",
     "birthdate": "1918-03-20",
     "phone": "001-224-346-6142x7353",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53
+    ],
+    "login locations": [
+        [
+            -122.283356,
+            37.854494
+        ]
+    ],
+    "relationships": []
 }

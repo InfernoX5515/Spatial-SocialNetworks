@@ -5,7 +5,32 @@
     "email": "ypalmer@gmail.com",
     "birthdate": "1969-05-03",
     "phone": "001-930-667-1097x3664",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        18,
+        11,
+        67,
+        20,
+        10,
+        58,
+        53
+    ],
+    "login locations": [
+        [
+            -121.952916,
+            37.885759
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                156785,
+                0.307692307692
+            ],
+            [
+                156786,
+                0.333333333333
+            ]
+        ]
+    ]
 }

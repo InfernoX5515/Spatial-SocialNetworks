@@ -5,7 +5,15 @@
     "email": "zvelasquez@gmail.com",
     "birthdate": "1929-03-10",
     "phone": "+1-930-242-5482x379",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        72
+    ],
+    "login locations": [
+        [
+            -118.324629,
+            34.176581
+        ]
+    ],
+    "relationships": []
 }

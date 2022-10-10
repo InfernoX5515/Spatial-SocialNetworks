@@ -5,7 +5,16 @@
     "email": "quinnjanet@gmail.com",
     "birthdate": "1933-04-09",
     "phone": "1250220625",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        70,
+        29
+    ],
+    "login locations": [
+        [
+            -118.06563,
+            33.865508
+        ]
+    ],
+    "relationships": []
 }

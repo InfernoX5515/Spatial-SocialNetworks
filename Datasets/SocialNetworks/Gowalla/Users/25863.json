@@ -5,7 +5,23 @@
     "email": "sherry39@hotmail.com",
     "birthdate": "1909-09-14",
     "phone": "363-696-8432x65797",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        14,
+        11,
+        70,
+        39,
+        75,
+        36,
+        37,
+        56,
+        51
+    ],
+    "login locations": [
+        [
+            -121.782747,
+            37.243697
+        ]
+    ],
+    "relationships": []
 }

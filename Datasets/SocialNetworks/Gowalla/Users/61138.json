@@ -5,7 +5,14 @@
     "email": "jessicakirby@gmail.com",
     "birthdate": "1957-09-18",
     "phone": "(829)865-9381x021",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49
+    ],
+    "login locations": [
+        [
+            -122.394935,
+            37.699797
+        ]
+    ],
+    "relationships": []
 }

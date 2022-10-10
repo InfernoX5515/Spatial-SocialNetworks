@@ -5,7 +5,33 @@
     "email": "christie23@gmail.com",
     "birthdate": "1985-11-16",
     "phone": "+1-772-103-4622",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        56,
+        4,
+        24,
+        35,
+        11,
+        35,
+        59,
+        74
+    ],
+    "login locations": [
+        [
+            -121.972014,
+            37.348195
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49347,
+                0.01
+            ],
+            [
+                124716,
+                0.016393442623
+            ]
+        ]
+    ]
 }

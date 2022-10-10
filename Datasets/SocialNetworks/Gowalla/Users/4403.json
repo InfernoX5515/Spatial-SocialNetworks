@@ -5,7 +5,31 @@
     "email": "zross@hotmail.com",
     "birthdate": "1974-12-01",
     "phone": "950-499-2488",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        23,
+        9,
+        23,
+        24,
+        58,
+        7
+    ],
+    "login locations": [
+        [
+            -122.139931,
+            37.417773
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2170,
+                0.0588235294118
+            ],
+            [
+                4371,
+                0.0217391304348
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "danielanderson@hotmail.com",
     "birthdate": "1956-03-19",
     "phone": "(815)976-0456",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        47,
+        15,
+        12,
+        49,
+        43,
+        25,
+        13,
+        41,
+        47,
+        1
+    ],
+    "login locations": [
+        [
+            -118.390614,
+            34.009504
+        ]
+    ],
+    "relationships": []
 }

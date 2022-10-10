@@ -5,7 +5,12 @@
     "email": "carolbrown@gmail.com",
     "birthdate": "1980-08-16",
     "phone": "+1-346-098-6672x19759",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.011139,
+            33.916832
+        ]
+    ],
+    "relationships": []
 }

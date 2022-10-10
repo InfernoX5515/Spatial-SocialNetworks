@@ -5,7 +5,28 @@
     "email": "chrisklein@gmail.com",
     "birthdate": "1917-11-05",
     "phone": "8868440803",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        33,
+        34,
+        21
+    ],
+    "login locations": [
+        [
+            -121.993133,
+            37.354161
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4235,
+                0.01
+            ],
+            [
+                4235,
+                0.01
+            ]
+        ]
+    ]
 }

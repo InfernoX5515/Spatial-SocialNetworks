@@ -5,7 +5,12 @@
     "email": "turnerjohn@gmail.com",
     "birthdate": "1919-01-24",
     "phone": "+1-965-508-6828x88543",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.815027,
+            36.682133
+        ]
+    ],
+    "relationships": []
 }

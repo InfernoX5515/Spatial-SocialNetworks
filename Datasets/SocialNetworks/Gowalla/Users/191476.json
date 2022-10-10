@@ -5,7 +5,22 @@
     "email": "julie42@yahoo.com",
     "birthdate": "1995-06-13",
     "phone": "217.109.8155",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        63,
+        9,
+        31,
+        16,
+        19,
+        42,
+        12,
+        71
+    ],
+    "login locations": [
+        [
+            -122.143665,
+            37.662482
+        ]
+    ],
+    "relationships": []
 }

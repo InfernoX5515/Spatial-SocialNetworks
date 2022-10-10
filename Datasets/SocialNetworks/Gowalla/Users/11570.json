@@ -5,7 +5,36 @@
     "email": "dennis46@yahoo.com",
     "birthdate": "1987-07-21",
     "phone": "(990)244-0149x746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        5,
+        9,
+        8,
+        39,
+        25,
+        3,
+        36,
+        69,
+        61,
+        74,
+        20
+    ],
+    "login locations": [
+        [
+            -118.31988,
+            33.970805
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5539,
+                0.0526315789474
+            ],
+            [
+                5539,
+                0.0526315789474
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,36 @@
     "email": "ejohnson@gmail.com",
     "birthdate": "1952-10-03",
     "phone": "253-186-1932",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        54,
+        11,
+        44,
+        8,
+        21,
+        27,
+        22,
+        30,
+        37,
+        64,
+        38
+    ],
+    "login locations": [
+        [
+            -121.989988,
+            37.339275
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                74628,
+                0.27868852459
+            ],
+            [
+                43914,
+                0.0714285714286
+            ]
+        ]
+    ]
 }

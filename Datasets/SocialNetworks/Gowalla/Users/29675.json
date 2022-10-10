@@ -5,7 +5,12 @@
     "email": "michaelyoder@yahoo.com",
     "birthdate": "1947-02-10",
     "phone": "128-973-9759",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.347306,
+            37.721363
+        ]
+    ],
+    "relationships": []
 }

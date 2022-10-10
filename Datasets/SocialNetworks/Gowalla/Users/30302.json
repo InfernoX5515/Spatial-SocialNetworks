@@ -5,7 +5,22 @@
     "email": "toddcampbell@yahoo.com",
     "birthdate": "1940-01-04",
     "phone": "+1-396-789-7511x543",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        27,
+        45,
+        57,
+        4,
+        48,
+        68,
+        71,
+        60
+    ],
+    "login locations": [
+        [
+            -117.86416,
+            33.842215
+        ]
+    ],
+    "relationships": []
 }

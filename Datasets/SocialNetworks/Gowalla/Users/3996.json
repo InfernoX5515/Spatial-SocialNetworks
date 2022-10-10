@@ -5,7 +5,27 @@
     "email": "tylercalderon@gmail.com",
     "birthdate": "1909-06-05",
     "phone": "001-580-401-7560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        37,
+        6
+    ],
+    "login locations": [
+        [
+            -122.37549,
+            37.775306
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                59388,
+                0.04
+            ],
+            [
+                59388,
+                0.04
+            ]
+        ]
+    ]
 }

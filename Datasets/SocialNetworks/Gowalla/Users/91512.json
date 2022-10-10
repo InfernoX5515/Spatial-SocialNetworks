@@ -5,7 +5,28 @@
     "email": "bhernandez@gmail.com",
     "birthdate": "1999-05-10",
     "phone": "001-469-835-4427x88405",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        35,
+        31,
+        13,
+        52,
+        62,
+        26,
+        68,
+        42,
+        38,
+        0,
+        39,
+        74,
+        43,
+        73
+    ],
+    "login locations": [
+        [
+            -118.442947,
+            34.068431
+        ]
+    ],
+    "relationships": []
 }

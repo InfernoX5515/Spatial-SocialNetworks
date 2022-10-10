@@ -5,7 +5,19 @@
     "email": "celliott@hotmail.com",
     "birthdate": "1972-01-18",
     "phone": "+1-256-855-4496x75448",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        70,
+        31,
+        52,
+        33,
+        9
+    ],
+    "login locations": [
+        [
+            -118.282367,
+            33.864532
+        ]
+    ],
+    "relationships": []
 }

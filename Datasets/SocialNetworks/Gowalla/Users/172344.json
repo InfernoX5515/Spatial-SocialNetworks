@@ -5,7 +5,16 @@
     "email": "frankkendra@yahoo.com",
     "birthdate": "1942-11-29",
     "phone": "093-704-9103x4851",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        58,
+        40
+    ],
+    "login locations": [
+        [
+            -118.335037,
+            33.967697
+        ]
+    ],
+    "relationships": []
 }

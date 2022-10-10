@@ -5,7 +5,20 @@
     "email": "gibsonadam@hotmail.com",
     "birthdate": "1938-07-22",
     "phone": "699.512.0342",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        70,
+        42,
+        66,
+        19,
+        75,
+        6
+    ],
+    "login locations": [
+        [
+            -117.143402,
+            34.044417
+        ]
+    ],
+    "relationships": []
 }

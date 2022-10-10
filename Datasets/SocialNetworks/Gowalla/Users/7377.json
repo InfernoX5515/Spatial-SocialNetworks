@@ -5,7 +5,21 @@
     "email": "leonthomas@hotmail.com",
     "birthdate": "1923-01-20",
     "phone": "714-506-1905x583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        8,
+        48,
+        63,
+        14,
+        54,
+        63,
+        14
+    ],
+    "login locations": [
+        [
+            -122.176723,
+            37.414856
+        ]
+    ],
+    "relationships": []
 }

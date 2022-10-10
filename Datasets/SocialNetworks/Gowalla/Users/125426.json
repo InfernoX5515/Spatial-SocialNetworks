@@ -5,7 +5,12 @@
     "email": "atkinsondale@yahoo.com",
     "birthdate": "2006-02-16",
     "phone": "130.244.7228x07407",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.417812,
+            37.787539
+        ]
+    ],
+    "relationships": []
 }

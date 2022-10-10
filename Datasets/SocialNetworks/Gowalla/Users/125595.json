@@ -5,7 +5,16 @@
     "email": "shieldsalicia@hotmail.com",
     "birthdate": "1985-04-05",
     "phone": "(227)833-0910x2638",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        0,
+        68
+    ],
+    "login locations": [
+        [
+            -122.31353,
+            37.570699
+        ]
+    ],
+    "relationships": []
 }

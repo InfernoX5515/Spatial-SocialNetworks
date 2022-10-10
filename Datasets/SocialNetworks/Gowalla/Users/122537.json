@@ -5,7 +5,27 @@
     "email": "amiller@gmail.com",
     "birthdate": "1925-02-02",
     "phone": "+1-490-599-4932x858",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        33,
+        72
+    ],
+    "login locations": [
+        [
+            -122.540293,
+            37.954341
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                30158,
+                0.01
+            ],
+            [
+                30158,
+                0.01
+            ]
+        ]
+    ]
 }

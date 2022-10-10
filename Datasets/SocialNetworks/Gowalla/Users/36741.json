@@ -5,7 +5,16 @@
     "email": "emccoy@gmail.com",
     "birthdate": "1989-01-04",
     "phone": "(810)609-1021",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        67,
+        19
+    ],
+    "login locations": [
+        [
+            -118.21082,
+            33.851647
+        ]
+    ],
+    "relationships": []
 }

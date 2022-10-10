@@ -5,7 +5,35 @@
     "email": "angelamendoza@yahoo.com",
     "birthdate": "1958-08-04",
     "phone": "+1-390-719-5094",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        4,
+        50,
+        70,
+        65,
+        40,
+        24,
+        18,
+        58,
+        27,
+        3
+    ],
+    "login locations": [
+        [
+            -117.070533,
+            32.759669
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11654,
+                0.111111111111
+            ],
+            [
+                11654,
+                0.111111111111
+            ]
+        ]
+    ]
 }

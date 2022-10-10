@@ -5,7 +5,18 @@
     "email": "laurie92@hotmail.com",
     "birthdate": "2020-08-14",
     "phone": "001-275-451-4035x97739",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        55,
+        71,
+        65,
+        55
+    ],
+    "login locations": [
+        [
+            -122.421894,
+            37.782008
+        ]
+    ],
+    "relationships": []
 }

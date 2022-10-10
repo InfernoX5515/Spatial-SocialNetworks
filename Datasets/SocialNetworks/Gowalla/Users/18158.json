@@ -5,7 +5,27 @@
     "email": "kscott@yahoo.com",
     "birthdate": "1918-11-18",
     "phone": "698.510.1792x8973",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        40,
+        36,
+        4,
+        71,
+        55,
+        47,
+        24,
+        16,
+        38,
+        5,
+        28,
+        27,
+        70
+    ],
+    "login locations": [
+        [
+            -119.74246,
+            36.791074
+        ]
+    ],
+    "relationships": []
 }

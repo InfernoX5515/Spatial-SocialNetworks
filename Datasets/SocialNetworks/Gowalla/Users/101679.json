@@ -5,7 +5,39 @@
     "email": "summersjames@gmail.com",
     "birthdate": "1992-04-27",
     "phone": "338-197-4806",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        55,
+        2,
+        53,
+        66,
+        69,
+        73,
+        6,
+        49,
+        15,
+        7,
+        17,
+        11,
+        3,
+        54
+    ],
+    "login locations": [
+        [
+            -117.235524,
+            33.131215
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                101677,
+                0.0454545454545
+            ],
+            [
+                101677,
+                0.0454545454545
+            ]
+        ]
+    ]
 }

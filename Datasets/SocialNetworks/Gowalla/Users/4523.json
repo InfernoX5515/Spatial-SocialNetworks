@@ -5,7 +5,21 @@
     "email": "ycooper@gmail.com",
     "birthdate": "2022-01-05",
     "phone": "386-987-9902x9946",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        37,
+        49,
+        10,
+        62,
+        8,
+        36,
+        47
+    ],
+    "login locations": [
+        [
+            -122.408778,
+            37.752382
+        ]
+    ],
+    "relationships": []
 }

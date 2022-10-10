@@ -5,7 +5,18 @@
     "email": "brownryan@yahoo.com",
     "birthdate": "1962-04-11",
     "phone": "001-693-741-1542",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        4,
+        54,
+        6,
+        52
+    ],
+    "login locations": [
+        [
+            -122.424403,
+            37.771845
+        ]
+    ],
+    "relationships": []
 }

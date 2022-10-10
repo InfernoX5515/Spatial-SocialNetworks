@@ -5,7 +5,20 @@
     "email": "jenningskelly@hotmail.com",
     "birthdate": "1936-07-28",
     "phone": "(378)605-9850",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        41,
+        23,
+        68,
+        2,
+        59,
+        56
+    ],
+    "login locations": [
+        [
+            -118.29223,
+            33.979778
+        ]
+    ],
+    "relationships": []
 }

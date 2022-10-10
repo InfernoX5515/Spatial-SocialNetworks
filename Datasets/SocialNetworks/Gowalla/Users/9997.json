@@ -5,7 +5,30 @@
     "email": "christine57@hotmail.com",
     "birthdate": "1951-10-22",
     "phone": "2647181259",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        60,
+        8,
+        51,
+        25,
+        24
+    ],
+    "login locations": [
+        [
+            -118.259788,
+            34.097642
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                70706,
+                0.04
+            ],
+            [
+                70706,
+                0.04
+            ]
+        ]
+    ]
 }

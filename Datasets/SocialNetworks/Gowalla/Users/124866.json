@@ -5,7 +5,14 @@
     "email": "sfrost@hotmail.com",
     "birthdate": "2011-04-20",
     "phone": "212-712-9973x14002",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69
+    ],
+    "login locations": [
+        [
+            -118.322129,
+            34.105954
+        ]
+    ],
+    "relationships": []
 }

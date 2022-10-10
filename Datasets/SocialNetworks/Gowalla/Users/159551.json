@@ -5,7 +5,26 @@
     "email": "spencerthomas@gmail.com",
     "birthdate": "1928-12-07",
     "phone": "777-582-8582x6071",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        66,
+        14,
+        39,
+        30,
+        56,
+        48,
+        11,
+        24,
+        16,
+        36,
+        45,
+        22
+    ],
+    "login locations": [
+        [
+            -122.425459,
+            37.765625
+        ]
+    ],
+    "relationships": []
 }

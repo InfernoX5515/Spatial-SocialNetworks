@@ -5,7 +5,21 @@
     "email": "dawnmartin@yahoo.com",
     "birthdate": "1960-12-15",
     "phone": "(221)236-2786x41680",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        35,
+        68,
+        9,
+        10,
+        37,
+        23,
+        69
+    ],
+    "login locations": [
+        [
+            -121.887161,
+            36.683619
+        ]
+    ],
+    "relationships": []
 }

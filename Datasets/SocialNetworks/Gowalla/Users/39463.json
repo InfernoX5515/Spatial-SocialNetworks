@@ -5,7 +5,34 @@
     "email": "david52@yahoo.com",
     "birthdate": "2007-11-15",
     "phone": "001-730-835-5334",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        19,
+        55,
+        4,
+        50,
+        2,
+        43,
+        71,
+        71,
+        26
+    ],
+    "login locations": [
+        [
+            -117.094247,
+            34.019573
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1624,
+                0.012987012987
+            ],
+            [
+                1624,
+                0.012987012987
+            ]
+        ]
+    ]
 }

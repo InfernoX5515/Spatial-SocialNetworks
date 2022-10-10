@@ -5,7 +5,21 @@
     "email": "dana07@gmail.com",
     "birthdate": "2012-04-13",
     "phone": "001-200-012-6355x56918",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        13,
+        47,
+        16,
+        70,
+        2,
+        37,
+        43
+    ],
+    "login locations": [
+        [
+            -122.251932,
+            37.764145
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "uwise@gmail.com",
     "birthdate": "1948-08-16",
     "phone": "001-717-187-9649x32701",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        25,
+        39,
+        26
+    ],
+    "login locations": [
+        [
+            -122.433073,
+            37.79964
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                338,
+                0.01
+            ],
+            [
+                338,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,15 @@
     "email": "elizabethanderson@hotmail.com",
     "birthdate": "1977-11-28",
     "phone": "094.162.5801x8697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        72
+    ],
+    "login locations": [
+        [
+            -121.772184,
+            37.228707
+        ]
+    ],
+    "relationships": []
 }

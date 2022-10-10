@@ -5,7 +5,21 @@
     "email": "anthonycarrillo@yahoo.com",
     "birthdate": "2011-06-17",
     "phone": "(380)257-7142",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        6,
+        56,
+        34,
+        27,
+        66,
+        0,
+        35
+    ],
+    "login locations": [
+        [
+            -117.11604,
+            32.751616
+        ]
+    ],
+    "relationships": []
 }

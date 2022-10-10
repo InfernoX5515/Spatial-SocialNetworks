@@ -5,7 +5,24 @@
     "email": "campbellbrian@gmail.com",
     "birthdate": "1918-09-15",
     "phone": "1378021956",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        24,
+        15,
+        51,
+        33,
+        38,
+        70,
+        59,
+        32,
+        70,
+        72
+    ],
+    "login locations": [
+        [
+            -117.828347,
+            33.681893
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,38 @@
     "email": "silvaloretta@hotmail.com",
     "birthdate": "1928-12-12",
     "phone": "478.437.6884",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        58,
+        39,
+        8,
+        0,
+        46,
+        48,
+        7,
+        70,
+        71,
+        41,
+        23,
+        36,
+        25
+    ],
+    "login locations": [
+        [
+            -118.373201,
+            34.092553
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1599,
+                0.024
+            ],
+            [
+                1599,
+                0.024
+            ]
+        ]
+    ]
 }

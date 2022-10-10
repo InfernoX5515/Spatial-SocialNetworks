@@ -5,7 +5,17 @@
     "email": "gregorymurphy@hotmail.com",
     "birthdate": "1972-03-26",
     "phone": "(390)920-7782",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        18,
+        9,
+        45
+    ],
+    "login locations": [
+        [
+            -122.417257,
+            37.789234
+        ]
+    ],
+    "relationships": []
 }

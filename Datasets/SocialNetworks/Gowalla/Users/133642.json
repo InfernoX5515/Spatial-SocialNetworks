@@ -5,7 +5,26 @@
     "email": "brent69@hotmail.com",
     "birthdate": "1957-04-24",
     "phone": "+1-903-577-8386",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        2
+    ],
+    "login locations": [
+        [
+            -118.293271,
+            34.087533
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                40558,
+                0.173333333333
+            ],
+            [
+                40558,
+                0.173333333333
+            ]
+        ]
+    ]
 }

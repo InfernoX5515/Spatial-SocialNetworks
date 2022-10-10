@@ -5,7 +5,24 @@
     "email": "robert38@hotmail.com",
     "birthdate": "1974-05-08",
     "phone": "713.431.2593x1377",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        75,
+        70,
+        53,
+        12,
+        21,
+        36,
+        59,
+        54,
+        69,
+        68
+    ],
+    "login locations": [
+        [
+            -118.23757,
+            33.968534
+        ]
+    ],
+    "relationships": []
 }

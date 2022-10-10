@@ -5,7 +5,21 @@
     "email": "meyerspamela@yahoo.com",
     "birthdate": "2013-12-01",
     "phone": "927-800-0346x5940",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        73,
+        3,
+        70,
+        72,
+        57,
+        23,
+        66
+    ],
+    "login locations": [
+        [
+            -119.777277,
+            36.824542
+        ]
+    ],
+    "relationships": []
 }

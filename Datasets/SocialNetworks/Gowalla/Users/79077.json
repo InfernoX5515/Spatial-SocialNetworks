@@ -5,7 +5,22 @@
     "email": "vswanson@gmail.com",
     "birthdate": "1921-04-11",
     "phone": "(999)224-3899x715",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        0,
+        29,
+        21,
+        0,
+        18,
+        8,
+        9,
+        29
+    ],
+    "login locations": [
+        [
+            -122.401875,
+            37.787676
+        ]
+    ],
+    "relationships": []
 }

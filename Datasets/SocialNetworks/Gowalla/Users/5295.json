@@ -5,7 +5,29 @@
     "email": "simpsonheather@hotmail.com",
     "birthdate": "1966-02-07",
     "phone": "(466)607-9236x4697",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        61,
+        60,
+        28,
+        66
+    ],
+    "login locations": [
+        [
+            -122.390899,
+            37.620945
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                157,
+                0.0109090909091
+            ],
+            [
+                4371,
+                0.01
+            ]
+        ]
+    ]
 }

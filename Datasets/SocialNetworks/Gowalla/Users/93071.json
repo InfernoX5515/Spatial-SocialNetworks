@@ -5,7 +5,24 @@
     "email": "uschultz@yahoo.com",
     "birthdate": "1974-06-16",
     "phone": "(799)538-6054x546",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        14,
+        60,
+        34,
+        46,
+        22,
+        13,
+        24,
+        39,
+        47,
+        13
+    ],
+    "login locations": [
+        [
+            -120.669664,
+            35.190515
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "sbrown@yahoo.com",
     "birthdate": "1949-05-30",
     "phone": "476-162-2497x943",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        6,
+        63,
+        2,
+        50
+    ],
+    "login locations": [
+        [
+            -118.307425,
+            34.100647
+        ]
+    ],
+    "relationships": []
 }

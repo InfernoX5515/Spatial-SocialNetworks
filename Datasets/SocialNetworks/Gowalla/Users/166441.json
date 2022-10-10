@@ -5,7 +5,18 @@
     "email": "idavis@gmail.com",
     "birthdate": "1913-02-14",
     "phone": "512-848-5642x399",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        43,
+        31,
+        63,
+        17
+    ],
+    "login locations": [
+        [
+            -117.209159,
+            32.778332
+        ]
+    ],
+    "relationships": []
 }

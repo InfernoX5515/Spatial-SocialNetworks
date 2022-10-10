@@ -5,7 +5,22 @@
     "email": "troywright@yahoo.com",
     "birthdate": "1974-01-06",
     "phone": "(165)242-9483x50751",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        68,
+        5,
+        26,
+        71,
+        5,
+        47,
+        70,
+        5
+    ],
+    "login locations": [
+        [
+            -117.139318,
+            32.774856
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,28 @@
     "email": "dawnperkins@gmail.com",
     "birthdate": "1913-03-15",
     "phone": "802.473.7960x7188",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        63,
+        22,
+        47,
+        35,
+        36,
+        37,
+        51,
+        22,
+        9,
+        24,
+        61,
+        58,
+        26,
+        32
+    ],
+    "login locations": [
+        [
+            -122.407815,
+            37.784057
+        ]
+    ],
+    "relationships": []
 }

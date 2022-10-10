@@ -5,7 +5,17 @@
     "email": "paige27@gmail.com",
     "birthdate": "2021-07-23",
     "phone": "(622)116-9312",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        74,
+        29,
+        74
+    ],
+    "login locations": [
+        [
+            -122.43566,
+            37.777911
+        ]
+    ],
+    "relationships": []
 }

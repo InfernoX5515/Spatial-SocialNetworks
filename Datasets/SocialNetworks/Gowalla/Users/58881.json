@@ -5,7 +5,17 @@
     "email": "tiffany47@gmail.com",
     "birthdate": "1937-03-07",
     "phone": "168-792-9071x27551",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        12,
+        62,
+        42
+    ],
+    "login locations": [
+        [
+            -122.40531,
+            37.770874
+        ]
+    ],
+    "relationships": []
 }

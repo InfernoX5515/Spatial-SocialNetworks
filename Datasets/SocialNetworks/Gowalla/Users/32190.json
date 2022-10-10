@@ -5,7 +5,17 @@
     "email": "edward03@gmail.com",
     "birthdate": "1951-04-08",
     "phone": "313.063.5245x4272",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        51,
+        60,
+        73
+    ],
+    "login locations": [
+        [
+            -117.931023,
+            33.720724
+        ]
+    ],
+    "relationships": []
 }

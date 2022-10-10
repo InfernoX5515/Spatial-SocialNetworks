@@ -5,7 +5,27 @@
     "email": "wrichardson@yahoo.com",
     "birthdate": "1931-03-17",
     "phone": "012.210.7594x16240",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        72,
+        0,
+        59,
+        65,
+        34,
+        19,
+        58,
+        2,
+        26,
+        35,
+        21,
+        50,
+        7
+    ],
+    "login locations": [
+        [
+            -118.126876,
+            33.873727
+        ]
+    ],
+    "relationships": []
 }

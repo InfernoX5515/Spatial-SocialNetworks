@@ -5,7 +5,23 @@
     "email": "pkrueger@gmail.com",
     "birthdate": "1944-11-05",
     "phone": "001-342-693-9449",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        33,
+        37,
+        33,
+        38,
+        55,
+        74,
+        51,
+        0,
+        43
+    ],
+    "login locations": [
+        [
+            -122.274527,
+            37.793935
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "ocopeland@yahoo.com",
     "birthdate": "1960-06-03",
     "phone": "+1-835-947-4498x9042",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        53,
+        24,
+        15,
+        63,
+        16,
+        63,
+        26,
+        63,
+        62,
+        9,
+        69
+    ],
+    "login locations": [
+        [
+            -117.163298,
+            32.810172
+        ]
+    ],
+    "relationships": []
 }

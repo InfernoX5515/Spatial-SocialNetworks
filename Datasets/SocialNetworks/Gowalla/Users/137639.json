@@ -5,7 +5,29 @@
     "email": "acevedocrystal@yahoo.com",
     "birthdate": "2022-01-14",
     "phone": "946-209-9952x860",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        57,
+        19,
+        60,
+        29
+    ],
+    "login locations": [
+        [
+            -117.956979,
+            33.896544
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                44011,
+                1.0
+            ],
+            [
+                44011,
+                1.0
+            ]
+        ]
+    ]
 }

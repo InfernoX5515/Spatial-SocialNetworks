@@ -5,7 +5,22 @@
     "email": "hcontreras@hotmail.com",
     "birthdate": "1978-07-24",
     "phone": "894.428.5027",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        32,
+        9,
+        3,
+        49,
+        59,
+        57,
+        67,
+        46
+    ],
+    "login locations": [
+        [
+            -118.126679,
+            34.682461
+        ]
+    ],
+    "relationships": []
 }

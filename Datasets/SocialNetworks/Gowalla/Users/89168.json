@@ -5,7 +5,18 @@
     "email": "wrightlauren@hotmail.com",
     "birthdate": "1980-02-19",
     "phone": "071-328-1647",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        13,
+        63,
+        0,
+        44
+    ],
+    "login locations": [
+        [
+            -118.801858,
+            34.262273
+        ]
+    ],
+    "relationships": []
 }

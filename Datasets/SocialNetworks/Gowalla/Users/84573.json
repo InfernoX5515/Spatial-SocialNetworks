@@ -5,7 +5,22 @@
     "email": "vhamilton@gmail.com",
     "birthdate": "1998-09-26",
     "phone": "(524)527-4594",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        23,
+        62,
+        27,
+        56,
+        37,
+        35,
+        71,
+        8
+    ],
+    "login locations": [
+        [
+            -122.312323,
+            37.812425
+        ]
+    ],
+    "relationships": []
 }

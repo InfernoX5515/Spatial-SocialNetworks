@@ -5,7 +5,14 @@
     "email": "ffields@yahoo.com",
     "birthdate": "1914-11-04",
     "phone": "915-229-0348x0136",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43
+    ],
+    "login locations": [
+        [
+            -118.165313,
+            34.093907
+        ]
+    ],
+    "relationships": []
 }

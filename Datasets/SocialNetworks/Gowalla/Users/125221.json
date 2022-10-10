@@ -5,7 +5,17 @@
     "email": "richard45@gmail.com",
     "birthdate": "1936-01-21",
     "phone": "+1-146-980-2518x1688",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        20,
+        2,
+        60
+    ],
+    "login locations": [
+        [
+            -117.980406,
+            33.718138
+        ]
+    ],
+    "relationships": []
 }

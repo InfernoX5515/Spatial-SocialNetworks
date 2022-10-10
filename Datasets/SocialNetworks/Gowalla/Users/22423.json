@@ -5,7 +5,35 @@
     "email": "jonathan73@hotmail.com",
     "birthdate": "1911-04-07",
     "phone": "+1-711-749-8645",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        60,
+        29,
+        59,
+        9,
+        22,
+        46,
+        22,
+        74,
+        20,
+        12
+    ],
+    "login locations": [
+        [
+            -122.422357,
+            37.764706
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                255,
+                0.0215827338129
+            ],
+            [
+                8597,
+                0.125
+            ]
+        ]
+    ]
 }

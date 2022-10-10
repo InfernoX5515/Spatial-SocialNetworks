@@ -5,7 +5,15 @@
     "email": "fjohnson@gmail.com",
     "birthdate": "1930-08-23",
     "phone": "7875697104",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        21
+    ],
+    "login locations": [
+        [
+            -122.411353,
+            37.77842
+        ]
+    ],
+    "relationships": []
 }

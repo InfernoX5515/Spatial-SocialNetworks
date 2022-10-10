@@ -5,7 +5,28 @@
     "email": "woodsjeffrey@gmail.com",
     "birthdate": "2004-01-18",
     "phone": "(038)801-3396x1721",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        24,
+        61,
+        3
+    ],
+    "login locations": [
+        [
+            -118.739225,
+            34.160463
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1623,
+                0.096
+            ],
+            [
+                1623,
+                0.096
+            ]
+        ]
+    ]
 }

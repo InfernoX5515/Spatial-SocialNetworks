@@ -5,7 +5,23 @@
     "email": "tiffany35@yahoo.com",
     "birthdate": "1975-01-10",
     "phone": "614.602.1901",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.425099,
+            37.775431
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                478,
+                0.0348258706468
+            ],
+            [
+                70788,
+                0.037037037037
+            ]
+        ]
+    ]
 }

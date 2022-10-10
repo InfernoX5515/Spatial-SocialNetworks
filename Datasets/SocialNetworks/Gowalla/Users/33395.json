@@ -5,7 +5,21 @@
     "email": "kimpowers@hotmail.com",
     "birthdate": "2001-11-09",
     "phone": "185.904.4155x9788",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        21,
+        75,
+        0,
+        73,
+        13,
+        38,
+        11
+    ],
+    "login locations": [
+        [
+            -122.409679,
+            37.796797
+        ]
+    ],
+    "relationships": []
 }

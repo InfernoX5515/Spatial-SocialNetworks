@@ -5,7 +5,17 @@
     "email": "dianehuffman@yahoo.com",
     "birthdate": "1959-08-18",
     "phone": "(904)596-0911x72991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        32,
+        39,
+        70
+    ],
+    "login locations": [
+        [
+            -122.421494,
+            37.661344
+        ]
+    ],
+    "relationships": []
 }

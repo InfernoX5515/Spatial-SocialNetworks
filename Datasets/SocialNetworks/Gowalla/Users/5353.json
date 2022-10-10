@@ -5,7 +5,26 @@
     "email": "nicoleroy@yahoo.com",
     "birthdate": "1938-07-09",
     "phone": "877-032-2250x212",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        58
+    ],
+    "login locations": [
+        [
+            -122.401752,
+            37.803913
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1785,
+                0.01
+            ],
+            [
+                4391,
+                0.01
+            ]
+        ]
+    ]
 }

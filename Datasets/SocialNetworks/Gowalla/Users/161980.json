@@ -5,7 +5,27 @@
     "email": "tyler80@yahoo.com",
     "birthdate": "1940-10-20",
     "phone": "1381874855",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        48,
+        57,
+        32,
+        69,
+        1,
+        36,
+        58,
+        67,
+        40,
+        32,
+        9,
+        9,
+        5
+    ],
+    "login locations": [
+        [
+            -118.455719,
+            34.01429
+        ]
+    ],
+    "relationships": []
 }

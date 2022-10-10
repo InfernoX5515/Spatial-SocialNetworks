@@ -5,7 +5,12 @@
     "email": "newtonkim@gmail.com",
     "birthdate": "1966-12-03",
     "phone": "(198)108-4582",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.15461,
+            37.691903
+        ]
+    ],
+    "relationships": []
 }

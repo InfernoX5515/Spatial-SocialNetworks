@@ -5,7 +5,20 @@
     "email": "gjames@yahoo.com",
     "birthdate": "1977-05-11",
     "phone": "780.240.8429",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        73,
+        26,
+        70,
+        43,
+        2,
+        24
+    ],
+    "login locations": [
+        [
+            -122.366934,
+            37.800933
+        ]
+    ],
+    "relationships": []
 }

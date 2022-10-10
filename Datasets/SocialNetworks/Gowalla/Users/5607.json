@@ -5,7 +5,21 @@
     "email": "igoodwin@hotmail.com",
     "birthdate": "1979-01-13",
     "phone": "001-648-102-4134",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        2,
+        29,
+        75,
+        9,
+        30,
+        13,
+        58
+    ],
+    "login locations": [
+        [
+            -122.424817,
+            37.773785
+        ]
+    ],
+    "relationships": []
 }

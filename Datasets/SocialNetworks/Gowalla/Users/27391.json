@@ -5,7 +5,26 @@
     "email": "wswanson@yahoo.com",
     "birthdate": "1921-08-28",
     "phone": "004.523.5818x0774",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        61,
+        35,
+        10,
+        36,
+        53,
+        46,
+        36,
+        47,
+        18,
+        8,
+        20,
+        64
+    ],
+    "login locations": [
+        [
+            -122.390918,
+            37.795725
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,27 @@
     "email": "johnjohnson@gmail.com",
     "birthdate": "1954-08-12",
     "phone": "5404365931",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        22,
+        15,
+        52,
+        0,
+        20,
+        10,
+        61,
+        22,
+        47,
+        37,
+        44,
+        54,
+        38
+    ],
+    "login locations": [
+        [
+            -122.421564,
+            37.741386
+        ]
+    ],
+    "relationships": []
 }

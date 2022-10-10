@@ -5,7 +5,17 @@
     "email": "wandabowers@gmail.com",
     "birthdate": "1910-12-29",
     "phone": "(597)304-5507x794",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        34,
+        75,
+        39
+    ],
+    "login locations": [
+        [
+            -117.839658,
+            33.72977
+        ]
+    ],
+    "relationships": []
 }

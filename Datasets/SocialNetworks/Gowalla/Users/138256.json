@@ -5,7 +5,25 @@
     "email": "josemartin@yahoo.com",
     "birthdate": "1973-12-07",
     "phone": "(942)855-3394x471",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        49,
+        28,
+        1,
+        67,
+        7,
+        66,
+        27,
+        45,
+        11,
+        19,
+        50
+    ],
+    "login locations": [
+        [
+            -117.256888,
+            33.001222
+        ]
+    ],
+    "relationships": []
 }

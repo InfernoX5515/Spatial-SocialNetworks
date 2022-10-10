@@ -5,7 +5,21 @@
     "email": "richardsonconnor@gmail.com",
     "birthdate": "1983-04-13",
     "phone": "(032)489-7221x7450",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        39,
+        50,
+        5,
+        35,
+        52,
+        34,
+        64
+    ],
+    "login locations": [
+        [
+            -116.414351,
+            33.788409
+        ]
+    ],
+    "relationships": []
 }

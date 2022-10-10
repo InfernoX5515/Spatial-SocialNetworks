@@ -5,7 +5,27 @@
     "email": "julianstevens@yahoo.com",
     "birthdate": "1934-02-23",
     "phone": "(448)427-9503x40923",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        43,
+        54,
+        42,
+        9,
+        12,
+        29,
+        68,
+        74,
+        21,
+        10,
+        25,
+        58,
+        23
+    ],
+    "login locations": [
+        [
+            -121.866942,
+            37.313224
+        ]
+    ],
+    "relationships": []
 }

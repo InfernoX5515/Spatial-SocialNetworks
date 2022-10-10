@@ -5,7 +5,22 @@
     "email": "vanessalopez@yahoo.com",
     "birthdate": "1941-08-11",
     "phone": "885-019-1266",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        53,
+        22,
+        61,
+        71,
+        6,
+        2,
+        74,
+        11
+    ],
+    "login locations": [
+        [
+            -118.490108,
+            34.015367
+        ]
+    ],
+    "relationships": []
 }

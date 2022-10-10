@@ -5,7 +5,28 @@
     "email": "williamsrussell@gmail.com",
     "birthdate": "1922-03-04",
     "phone": "+1-658-668-5574x258",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        60,
+        44,
+        10,
+        28,
+        28,
+        39,
+        36,
+        16,
+        50,
+        0,
+        30,
+        8,
+        14,
+        34
+    ],
+    "login locations": [
+        [
+            -122.424096,
+            37.765361
+        ]
+    ],
+    "relationships": []
 }

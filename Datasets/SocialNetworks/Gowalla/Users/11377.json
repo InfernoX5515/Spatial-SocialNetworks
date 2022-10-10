@@ -5,7 +5,32 @@
     "email": "reyeskenneth@yahoo.com",
     "birthdate": "1983-10-17",
     "phone": "+1-391-249-9363x3877",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        33,
+        26,
+        75,
+        0,
+        0,
+        74,
+        16
+    ],
+    "login locations": [
+        [
+            -121.902944,
+            37.089209
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4257,
+                0.0144578313253
+            ],
+            [
+                5610,
+                0.125
+            ]
+        ]
+    ]
 }

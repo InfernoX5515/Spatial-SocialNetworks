@@ -5,7 +5,30 @@
     "email": "nielsenchelsea@hotmail.com",
     "birthdate": "1990-04-01",
     "phone": "112-932-1982x0606",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        61,
+        29,
+        66,
+        14,
+        13
+    ],
+    "login locations": [
+        [
+            -122.395775,
+            37.807898
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6185,
+                0.01
+            ],
+            [
+                77911,
+                0.08
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "colleenkemp@yahoo.com",
     "birthdate": "1974-11-14",
     "phone": "948-098-4136x8398",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        18,
+        14,
+        68,
+        52,
+        68,
+        62,
+        41,
+        39,
+        61,
+        24,
+        60
+    ],
+    "login locations": [
+        [
+            -117.101032,
+            32.794272
+        ]
+    ],
+    "relationships": []
 }

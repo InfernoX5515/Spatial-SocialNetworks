@@ -5,7 +5,34 @@
     "email": "wendybentley@gmail.com",
     "birthdate": "1976-12-27",
     "phone": "001-560-375-1589",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        41,
+        22,
+        69,
+        61,
+        32,
+        39,
+        58,
+        45,
+        43
+    ],
+    "login locations": [
+        [
+            -118.320841,
+            34.071963
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39962,
+                0.0222222222222
+            ],
+            [
+                39962,
+                0.0222222222222
+            ]
+        ]
+    ]
 }

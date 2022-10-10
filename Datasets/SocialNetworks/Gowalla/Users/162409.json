@@ -5,7 +5,22 @@
     "email": "mary64@yahoo.com",
     "birthdate": "2017-05-14",
     "phone": "804-606-9848x062",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        15,
+        72,
+        18,
+        28,
+        10,
+        47,
+        69,
+        42
+    ],
+    "login locations": [
+        [
+            -118.376704,
+            34.052975
+        ]
+    ],
+    "relationships": []
 }

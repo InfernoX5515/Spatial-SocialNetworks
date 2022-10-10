@@ -5,7 +5,36 @@
     "email": "scott01@yahoo.com",
     "birthdate": "1907-06-01",
     "phone": "001-231-578-6197x6645",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        17,
+        60,
+        43,
+        25,
+        45,
+        67,
+        27,
+        68,
+        40,
+        35,
+        29
+    ],
+    "login locations": [
+        [
+            -122.363459,
+            37.392194
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                696,
+                0.0130120481928
+            ],
+            [
+                696,
+                0.0130120481928
+            ]
+        ]
+    ]
 }

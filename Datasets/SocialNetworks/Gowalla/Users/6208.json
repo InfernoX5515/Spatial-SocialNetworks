@@ -5,7 +5,31 @@
     "email": "thomascollier@yahoo.com",
     "birthdate": "1998-03-12",
     "phone": "001-483-205-2054x034",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        49,
+        39,
+        12,
+        58,
+        3,
+        66
+    ],
+    "login locations": [
+        [
+            -122.18709,
+            37.430992
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6179,
+                0.24
+            ],
+            [
+                9341,
+                0.0407239819005
+            ]
+        ]
+    ]
 }

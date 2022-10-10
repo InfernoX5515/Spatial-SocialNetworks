@@ -5,7 +5,27 @@
     "email": "robert24@hotmail.com",
     "birthdate": "1984-07-20",
     "phone": "426.515.8175x683",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        8,
+        61
+    ],
+    "login locations": [
+        [
+            -122.398005,
+            37.786254
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4371,
+                0.01
+            ],
+            [
+                4371,
+                0.01
+            ]
+        ]
+    ]
 }

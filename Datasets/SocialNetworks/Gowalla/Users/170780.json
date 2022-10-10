@@ -5,7 +5,25 @@
     "email": "manderson@yahoo.com",
     "birthdate": "1942-06-14",
     "phone": "368.718.2901x56300",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        3,
+        51,
+        75,
+        67,
+        53,
+        3,
+        39,
+        0,
+        10,
+        68,
+        21
+    ],
+    "login locations": [
+        [
+            -117.282561,
+            33.039284
+        ]
+    ],
+    "relationships": []
 }

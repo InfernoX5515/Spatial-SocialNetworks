@@ -5,7 +5,28 @@
     "email": "warnerscott@yahoo.com",
     "birthdate": "1989-05-20",
     "phone": "299.138.3685x611",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        75,
+        7,
+        8,
+        49,
+        42,
+        59,
+        34,
+        71,
+        29,
+        3,
+        55,
+        20,
+        25,
+        40
+    ],
+    "login locations": [
+        [
+            -118.39159,
+            34.112904
+        ]
+    ],
+    "relationships": []
 }

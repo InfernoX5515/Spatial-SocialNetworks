@@ -5,7 +5,20 @@
     "email": "terri76@gmail.com",
     "birthdate": "1917-07-11",
     "phone": "6927751148",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        39,
+        55,
+        10,
+        71,
+        1,
+        37
+    ],
+    "login locations": [
+        [
+            -118.420739,
+            34.039149
+        ]
+    ],
+    "relationships": []
 }

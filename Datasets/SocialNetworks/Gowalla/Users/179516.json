@@ -5,7 +5,14 @@
     "email": "joshuaoconnell@hotmail.com",
     "birthdate": "1935-03-01",
     "phone": "876.542.0235x64709",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26
+    ],
+    "login locations": [
+        [
+            -118.065984,
+            33.798064
+        ]
+    ],
+    "relationships": []
 }

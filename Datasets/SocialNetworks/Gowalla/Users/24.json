@@ -5,7 +5,38 @@
     "email": "kimberly06@gmail.com",
     "birthdate": "1913-10-08",
     "phone": "001-466-052-6474x02502",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        18,
+        48,
+        68,
+        74,
+        9,
+        46,
+        6,
+        62,
+        34,
+        3,
+        5,
+        55,
+        62
+    ],
+    "login locations": [
+        [
+            -122.015281,
+            37.330928
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5047,
+                0.020202020202
+            ],
+            [
+                5047,
+                0.020202020202
+            ]
+        ]
+    ]
 }

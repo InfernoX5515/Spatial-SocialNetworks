@@ -5,7 +5,31 @@
     "email": "hallrobin@yahoo.com",
     "birthdate": "1920-01-20",
     "phone": "(152)748-8143x3592",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        13,
+        47,
+        22,
+        35,
+        13,
+        36
+    ],
+    "login locations": [
+        [
+            -122.397515,
+            37.724181
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                3541,
+                0.01
+            ],
+            [
+                3541,
+                0.01
+            ]
+        ]
+    ]
 }

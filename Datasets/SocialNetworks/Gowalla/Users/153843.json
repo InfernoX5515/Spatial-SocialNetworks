@@ -5,7 +5,20 @@
     "email": "kevin22@gmail.com",
     "birthdate": "2003-12-22",
     "phone": "643-082-2869x40983",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        43,
+        63,
+        65,
+        17,
+        74,
+        30
+    ],
+    "login locations": [
+        [
+            -119.788401,
+            36.786934
+        ]
+    ],
+    "relationships": []
 }

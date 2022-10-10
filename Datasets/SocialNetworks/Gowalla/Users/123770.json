@@ -5,7 +5,28 @@
     "email": "rfrost@yahoo.com",
     "birthdate": "1991-03-15",
     "phone": "246-003-4327",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        73,
+        48,
+        20,
+        34,
+        56,
+        13,
+        16,
+        8,
+        70,
+        33,
+        66,
+        10,
+        12,
+        33
+    ],
+    "login locations": [
+        [
+            -122.062773,
+            37.415503
+        ]
+    ],
+    "relationships": []
 }

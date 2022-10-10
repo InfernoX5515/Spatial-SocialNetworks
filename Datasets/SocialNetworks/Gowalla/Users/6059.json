@@ -5,7 +5,36 @@
     "email": "imiller@gmail.com",
     "birthdate": "1984-06-19",
     "phone": "001-554-769-8373",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        15,
+        71,
+        58,
+        68,
+        1,
+        13,
+        51,
+        59,
+        0,
+        50,
+        47
+    ],
+    "login locations": [
+        [
+            -121.94021,
+            37.276271
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6065,
+                0.0227272727273
+            ],
+            [
+                25557,
+                0.08
+            ]
+        ]
+    ]
 }

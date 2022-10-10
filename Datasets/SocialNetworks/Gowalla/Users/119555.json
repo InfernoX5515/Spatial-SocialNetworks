@@ -5,7 +5,22 @@
     "email": "randallcowan@gmail.com",
     "birthdate": "2004-10-27",
     "phone": "275.666.0546x8307",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        52,
+        33,
+        57,
+        61,
+        25,
+        22,
+        74,
+        19
+    ],
+    "login locations": [
+        [
+            -117.171625,
+            32.90676
+        ]
+    ],
+    "relationships": []
 }

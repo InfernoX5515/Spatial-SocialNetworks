@@ -5,7 +5,28 @@
     "email": "sweeneytammy@yahoo.com",
     "birthdate": "1946-07-25",
     "phone": "+1-451-491-0244x419",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        28,
+        6,
+        46,
+        9,
+        37,
+        73,
+        44,
+        63,
+        75,
+        52,
+        47,
+        16,
+        59,
+        14
+    ],
+    "login locations": [
+        [
+            -122.166727,
+            37.801923
+        ]
+    ],
+    "relationships": []
 }

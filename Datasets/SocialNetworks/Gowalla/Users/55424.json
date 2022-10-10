@@ -5,7 +5,32 @@
     "email": "taylorkaren@hotmail.com",
     "birthdate": "1915-01-09",
     "phone": "598-060-0930",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        49,
+        0,
+        58,
+        59,
+        65,
+        20,
+        38
+    ],
+    "login locations": [
+        [
+            -118.112885,
+            34.098929
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                48825,
+                0.0105263157895
+            ],
+            [
+                59329,
+                0.0555555555556
+            ]
+        ]
+    ]
 }

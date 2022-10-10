@@ -5,7 +5,23 @@
     "email": "rgarza@yahoo.com",
     "birthdate": "1971-12-18",
     "phone": "249.493.7880",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        33,
+        18,
+        52,
+        68,
+        61,
+        56,
+        72,
+        51,
+        31
+    ],
+    "login locations": [
+        [
+            -122.35791,
+            37.689901
+        ]
+    ],
+    "relationships": []
 }

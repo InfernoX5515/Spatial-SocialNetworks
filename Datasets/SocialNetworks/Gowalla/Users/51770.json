@@ -5,7 +5,19 @@
     "email": "rhancock@hotmail.com",
     "birthdate": "1908-05-29",
     "phone": "546.002.9645x407",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        56,
+        69,
+        64,
+        37,
+        47
+    ],
+    "login locations": [
+        [
+            -122.447294,
+            37.732219
+        ]
+    ],
+    "relationships": []
 }

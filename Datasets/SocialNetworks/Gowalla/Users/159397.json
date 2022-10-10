@@ -5,7 +5,22 @@
     "email": "vasquezmichael@yahoo.com",
     "birthdate": "1962-07-17",
     "phone": "+1-195-320-8232x877",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        13,
+        71,
+        15,
+        41,
+        34,
+        2,
+        17,
+        42
+    ],
+    "login locations": [
+        [
+            -117.112973,
+            33.514916
+        ]
+    ],
+    "relationships": []
 }

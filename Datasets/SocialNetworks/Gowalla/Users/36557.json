@@ -5,7 +5,16 @@
     "email": "nross@hotmail.com",
     "birthdate": "1930-01-09",
     "phone": "468-175-2888",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        23,
+        50
+    ],
+    "login locations": [
+        [
+            -118.390955,
+            34.049961
+        ]
+    ],
+    "relationships": []
 }

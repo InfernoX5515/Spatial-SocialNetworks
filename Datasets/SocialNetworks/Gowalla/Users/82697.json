@@ -5,7 +5,14 @@
     "email": "walkerbilly@hotmail.com",
     "birthdate": "1980-05-01",
     "phone": "6057058912",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40
+    ],
+    "login locations": [
+        [
+            -118.287885,
+            34.014036
+        ]
+    ],
+    "relationships": []
 }

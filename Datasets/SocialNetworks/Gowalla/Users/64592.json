@@ -5,7 +5,16 @@
     "email": "emilymoyer@yahoo.com",
     "birthdate": "1990-02-26",
     "phone": "412-168-9008",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        31,
+        8
+    ],
+    "login locations": [
+        [
+            -122.422156,
+            37.777036
+        ]
+    ],
+    "relationships": []
 }

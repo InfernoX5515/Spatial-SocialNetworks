@@ -5,7 +5,27 @@
     "email": "jillian03@yahoo.com",
     "birthdate": "1953-07-29",
     "phone": "+1-375-001-8348x06629",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        27,
+        10,
+        22,
+        72,
+        54,
+        70,
+        6,
+        19,
+        48,
+        7,
+        7,
+        26,
+        61
+    ],
+    "login locations": [
+        [
+            -118.11945,
+            33.801171
+        ]
+    ],
+    "relationships": []
 }

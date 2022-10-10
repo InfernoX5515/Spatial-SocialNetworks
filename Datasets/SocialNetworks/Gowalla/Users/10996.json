@@ -5,7 +5,35 @@
     "email": "dayjerry@yahoo.com",
     "birthdate": "1968-03-04",
     "phone": "687-759-8404",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        20,
+        74,
+        10,
+        41,
+        39,
+        42,
+        21,
+        39,
+        49,
+        73,
+        75
+    ],
+    "login locations": [
+        [
+            -117.171408,
+            32.741949
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                177,
+                0.01
+            ],
+            [
+                177,
+                0.01
+            ]
+        ]
+    ]
 }

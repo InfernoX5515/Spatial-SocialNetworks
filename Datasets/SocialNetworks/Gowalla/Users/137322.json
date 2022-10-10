@@ -5,7 +5,23 @@
     "email": "richard37@yahoo.com",
     "birthdate": "2015-03-04",
     "phone": "(229)487-6154x403",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        0,
+        3,
+        30,
+        42,
+        60,
+        66,
+        54,
+        75,
+        29
+    ],
+    "login locations": [
+        [
+            -117.92153,
+            33.95826
+        ]
+    ],
+    "relationships": []
 }

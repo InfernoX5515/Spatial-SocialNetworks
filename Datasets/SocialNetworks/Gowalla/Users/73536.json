@@ -5,7 +5,23 @@
     "email": "robert31@yahoo.com",
     "birthdate": "1982-10-28",
     "phone": "620-875-9826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        52,
+        20,
+        61,
+        19,
+        67,
+        22,
+        34,
+        48,
+        13
+    ],
+    "login locations": [
+        [
+            -122.577933,
+            38.058412
+        ]
+    ],
+    "relationships": []
 }

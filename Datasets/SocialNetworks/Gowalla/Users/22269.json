@@ -5,7 +5,25 @@
     "email": "schapman@gmail.com",
     "birthdate": "1959-04-04",
     "phone": "+1-763-950-1136x010",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        17,
+        28,
+        11,
+        28,
+        68,
+        67,
+        69,
+        20,
+        61,
+        22,
+        10
+    ],
+    "login locations": [
+        [
+            -117.150619,
+            33.533398
+        ]
+    ],
+    "relationships": []
 }

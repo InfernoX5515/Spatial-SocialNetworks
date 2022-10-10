@@ -5,7 +5,17 @@
     "email": "goodwinbrian@yahoo.com",
     "birthdate": "1998-08-30",
     "phone": "+1-629-775-6987x5929",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        24,
+        15,
+        50
+    ],
+    "login locations": [
+        [
+            -117.143346,
+            34.037025
+        ]
+    ],
+    "relationships": []
 }

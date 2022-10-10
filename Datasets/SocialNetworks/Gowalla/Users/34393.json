@@ -5,7 +5,17 @@
     "email": "kingsarah@hotmail.com",
     "birthdate": "1919-11-10",
     "phone": "001-493-885-9815x409",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        15,
+        21,
+        41
+    ],
+    "login locations": [
+        [
+            -121.979213,
+            37.373832
+        ]
+    ],
+    "relationships": []
 }

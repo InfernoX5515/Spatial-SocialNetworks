@@ -5,7 +5,12 @@
     "email": "qsoto@gmail.com",
     "birthdate": "1933-06-18",
     "phone": "(005)518-0459",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.164525,
+            32.872042
+        ]
+    ],
+    "relationships": []
 }

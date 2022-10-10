@@ -5,7 +5,18 @@
     "email": "alejandramitchell@yahoo.com",
     "birthdate": "1931-03-23",
     "phone": "525.856.7581x30695",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        43,
+        26,
+        40,
+        23
+    ],
+    "login locations": [
+        [
+            -122.39017,
+            37.653771
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "jklein@yahoo.com",
     "birthdate": "1989-01-17",
     "phone": "001-316-340-6673x32026",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        64,
+        5
+    ],
+    "login locations": [
+        [
+            -117.724861,
+            33.577713
+        ]
+    ],
+    "relationships": []
 }

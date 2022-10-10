@@ -5,7 +5,22 @@
     "email": "hernandezjoshua@yahoo.com",
     "birthdate": "1920-08-23",
     "phone": "+1-860-402-8374x899",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        35,
+        28,
+        25,
+        38,
+        21,
+        75,
+        19,
+        63
+    ],
+    "login locations": [
+        [
+            -121.975075,
+            37.331938
+        ]
+    ],
+    "relationships": []
 }

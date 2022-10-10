@@ -5,7 +5,22 @@
     "email": "tfernandez@yahoo.com",
     "birthdate": "1927-03-30",
     "phone": "001-984-234-5525x937",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        40,
+        0,
+        49,
+        47,
+        11,
+        33,
+        25,
+        0,
+        53
+    ],
+    "login locations": [
+        [
+            -118.369902,
+            34.017927
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "ryanhinton@yahoo.com",
     "birthdate": "1915-03-10",
     "phone": "(470)192-7493x418",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        23,
+        63,
+        23,
+        47,
+        20,
+        21,
+        48,
+        56,
+        10,
+        38,
+        18
+    ],
+    "login locations": [
+        [
+            -118.626141,
+            34.228791
+        ]
+    ],
+    "relationships": []
 }

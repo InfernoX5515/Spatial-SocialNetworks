@@ -5,7 +5,16 @@
     "email": "brandy37@yahoo.com",
     "birthdate": "1975-04-29",
     "phone": "692.677.5666x5992",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        16,
+        23
+    ],
+    "login locations": [
+        [
+            -118.17262,
+            34.139702
+        ]
+    ],
+    "relationships": []
 }

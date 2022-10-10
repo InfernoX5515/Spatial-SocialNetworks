@@ -5,7 +5,12 @@
     "email": "patrick91@yahoo.com",
     "birthdate": "1944-12-25",
     "phone": "744.998.1018x8485",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.355524,
+            38.04096
+        ]
+    ],
+    "relationships": []
 }

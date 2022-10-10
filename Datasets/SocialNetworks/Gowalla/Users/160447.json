@@ -5,7 +5,12 @@
     "email": "jessica56@yahoo.com",
     "birthdate": "1957-08-18",
     "phone": "(957)056-6984x261",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.321796,
+            33.12562
+        ]
+    ],
+    "relationships": []
 }

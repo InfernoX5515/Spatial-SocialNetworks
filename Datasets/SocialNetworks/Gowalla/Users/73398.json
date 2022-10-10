@@ -5,7 +5,16 @@
     "email": "anelson@gmail.com",
     "birthdate": "1943-09-01",
     "phone": "+1-306-637-7108x42910",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        45,
+        69
+    ],
+    "login locations": [
+        [
+            -122.415691,
+            37.775846
+        ]
+    ],
+    "relationships": []
 }

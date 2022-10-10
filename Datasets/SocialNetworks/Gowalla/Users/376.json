@@ -5,7 +5,35 @@
     "email": "thompsonmatthew@gmail.com",
     "birthdate": "1962-05-09",
     "phone": "6864485392",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        3,
+        72,
+        13,
+        55,
+        69,
+        32,
+        37,
+        71,
+        8,
+        4
+    ],
+    "login locations": [
+        [
+            -122.402768,
+            37.764378
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                53,
+                0.146198830409
+            ],
+            [
+                221,
+                0.4
+            ]
+        ]
+    ]
 }

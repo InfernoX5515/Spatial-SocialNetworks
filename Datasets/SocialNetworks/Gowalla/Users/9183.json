@@ -5,7 +5,35 @@
     "email": "jonesalexis@hotmail.com",
     "birthdate": "1992-03-18",
     "phone": "(594)168-0988x465",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        42,
+        55,
+        14,
+        27,
+        40,
+        29,
+        38,
+        5,
+        62,
+        53
+    ],
+    "login locations": [
+        [
+            -122.184546,
+            37.405533
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2068,
+                0.01
+            ],
+            [
+                4530,
+                0.01
+            ]
+        ]
+    ]
 }

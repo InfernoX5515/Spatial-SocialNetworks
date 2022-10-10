@@ -5,7 +5,23 @@
     "email": "cochrandale@yahoo.com",
     "birthdate": "1967-01-26",
     "phone": "1714641757",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        70,
+        29,
+        9,
+        14,
+        25,
+        4,
+        74,
+        13,
+        72
+    ],
+    "login locations": [
+        [
+            -118.017079,
+            33.775647
+        ]
+    ],
+    "relationships": []
 }

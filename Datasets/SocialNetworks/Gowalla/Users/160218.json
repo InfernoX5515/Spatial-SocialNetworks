@@ -5,7 +5,22 @@
     "email": "kathrynclark@hotmail.com",
     "birthdate": "1964-08-21",
     "phone": "+1-969-483-6172x836",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        55,
+        48,
+        28,
+        30,
+        53,
+        23,
+        47,
+        37
+    ],
+    "login locations": [
+        [
+            -121.887883,
+            37.295997
+        ]
+    ],
+    "relationships": []
 }

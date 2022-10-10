@@ -5,7 +5,16 @@
     "email": "dcook@hotmail.com",
     "birthdate": "1946-02-22",
     "phone": "(013)237-2931x80261",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        52,
+        64
+    ],
+    "login locations": [
+        [
+            -118.430178,
+            34.020027
+        ]
+    ],
+    "relationships": []
 }

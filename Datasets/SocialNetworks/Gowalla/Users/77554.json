@@ -5,7 +5,20 @@
     "email": "laurendavis@hotmail.com",
     "birthdate": "1965-01-28",
     "phone": "(379)416-3928x242",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        26,
+        54,
+        32,
+        24,
+        69,
+        67
+    ],
+    "login locations": [
+        [
+            -117.18155,
+            32.835799
+        ]
+    ],
+    "relationships": []
 }

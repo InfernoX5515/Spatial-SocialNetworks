@@ -5,7 +5,26 @@
     "email": "lfitzpatrick@hotmail.com",
     "birthdate": "1991-08-13",
     "phone": "(552)987-9222",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        52,
+        57,
+        32,
+        37,
+        58,
+        2,
+        10,
+        16,
+        42,
+        71,
+        58,
+        14
+    ],
+    "login locations": [
+        [
+            -118.015612,
+            33.950121
+        ]
+    ],
+    "relationships": []
 }

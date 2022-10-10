@@ -5,7 +5,17 @@
     "email": "tcunningham@gmail.com",
     "birthdate": "1941-11-10",
     "phone": "5345058827",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        72,
+        38,
+        39
+    ],
+    "login locations": [
+        [
+            -116.310783,
+            33.719021
+        ]
+    ],
+    "relationships": []
 }

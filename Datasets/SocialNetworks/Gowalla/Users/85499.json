@@ -5,7 +5,24 @@
     "email": "kfox@hotmail.com",
     "birthdate": "1946-07-21",
     "phone": "(871)308-9480",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        54,
+        62,
+        57,
+        47,
+        51,
+        69,
+        66,
+        49,
+        43,
+        59
+    ],
+    "login locations": [
+        [
+            -121.465416,
+            38.578114
+        ]
+    ],
+    "relationships": []
 }

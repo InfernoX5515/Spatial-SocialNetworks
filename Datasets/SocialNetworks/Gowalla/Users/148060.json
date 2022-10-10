@@ -5,7 +5,24 @@
     "email": "msimmons@gmail.com",
     "birthdate": "1981-08-22",
     "phone": "719.557.9765x671",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        9,
+        26,
+        38,
+        16,
+        37,
+        7,
+        5,
+        39,
+        4,
+        36
+    ],
+    "login locations": [
+        [
+            -122.175497,
+            37.451634
+        ]
+    ],
+    "relationships": []
 }

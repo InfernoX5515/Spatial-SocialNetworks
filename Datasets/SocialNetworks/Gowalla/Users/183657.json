@@ -5,7 +5,19 @@
     "email": "renee45@hotmail.com",
     "birthdate": "1968-02-04",
     "phone": "(751)143-3831x25787",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        29,
+        66,
+        69,
+        35,
+        35
+    ],
+    "login locations": [
+        [
+            -121.952775,
+            37.409939
+        ]
+    ],
+    "relationships": []
 }

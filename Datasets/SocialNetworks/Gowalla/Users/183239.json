@@ -5,7 +5,17 @@
     "email": "kingzoe@yahoo.com",
     "birthdate": "1957-07-22",
     "phone": "+1-422-897-3774",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        25,
+        23,
+        43
+    ],
+    "login locations": [
+        [
+            -122.401726,
+            37.625126
+        ]
+    ],
+    "relationships": []
 }

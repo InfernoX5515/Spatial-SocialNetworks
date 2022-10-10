@@ -5,7 +5,27 @@
     "email": "glennhernandez@yahoo.com",
     "birthdate": "1965-08-18",
     "phone": "001-902-326-0723x447",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        29,
+        38,
+        68,
+        26,
+        67,
+        9,
+        34,
+        48,
+        55,
+        66,
+        52,
+        36,
+        60
+    ],
+    "login locations": [
+        [
+            -122.288621,
+            37.766263
+        ]
+    ],
+    "relationships": []
 }

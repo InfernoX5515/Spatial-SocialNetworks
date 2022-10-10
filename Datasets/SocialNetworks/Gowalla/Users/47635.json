@@ -5,7 +5,22 @@
     "email": "vmedina@yahoo.com",
     "birthdate": "2005-09-11",
     "phone": "248.840.2372x7811",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        52,
+        57,
+        60,
+        2,
+        64,
+        53,
+        59,
+        10
+    ],
+    "login locations": [
+        [
+            -122.358631,
+            37.819199
+        ]
+    ],
+    "relationships": []
 }

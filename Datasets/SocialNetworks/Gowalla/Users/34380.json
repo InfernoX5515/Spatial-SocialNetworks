@@ -5,7 +5,23 @@
     "email": "bmartin@hotmail.com",
     "birthdate": "1939-06-19",
     "phone": "770-130-2649",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.932701,
+            33.930946
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                33197,
+                0.1
+            ],
+            [
+                33197,
+                0.1
+            ]
+        ]
+    ]
 }

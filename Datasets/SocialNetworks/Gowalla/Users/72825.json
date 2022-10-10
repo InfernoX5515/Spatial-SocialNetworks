@@ -5,7 +5,30 @@
     "email": "isanchez@hotmail.com",
     "birthdate": "1988-09-13",
     "phone": "8334626071",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        73,
+        30,
+        6,
+        24,
+        19
+    ],
+    "login locations": [
+        [
+            -122.451936,
+            37.770819
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4618,
+                0.01
+            ],
+            [
+                4618,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,15 @@
     "email": "qadams@hotmail.com",
     "birthdate": "1908-08-17",
     "phone": "+1-733-199-6799x787",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        46
+    ],
+    "login locations": [
+        [
+            -122.031086,
+            37.328583
+        ]
+    ],
+    "relationships": []
 }

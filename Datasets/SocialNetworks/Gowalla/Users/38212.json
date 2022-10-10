@@ -5,7 +5,36 @@
     "email": "hugheschristina@yahoo.com",
     "birthdate": "2017-02-09",
     "phone": "368-524-3261",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        47,
+        9,
+        43,
+        39,
+        48,
+        49,
+        48,
+        40,
+        75,
+        7,
+        26
+    ],
+    "login locations": [
+        [
+            -119.260022,
+            34.270411
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                624,
+                0.0106951871658
+            ],
+            [
+                624,
+                0.0106951871658
+            ]
+        ]
+    ]
 }

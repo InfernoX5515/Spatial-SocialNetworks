@@ -5,7 +5,24 @@
     "email": "perkinsraymond@hotmail.com",
     "birthdate": "1982-06-21",
     "phone": "239-598-9572",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        16,
+        17,
+        75,
+        29,
+        7,
+        39,
+        37,
+        6,
+        45,
+        31
+    ],
+    "login locations": [
+        [
+            -122.410691,
+            37.781874
+        ]
+    ],
+    "relationships": []
 }

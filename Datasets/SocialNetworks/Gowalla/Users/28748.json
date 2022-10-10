@@ -5,7 +5,16 @@
     "email": "valdezamanda@yahoo.com",
     "birthdate": "2009-05-26",
     "phone": "869-620-5358",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        71,
+        69
+    ],
+    "login locations": [
+        [
+            -117.250854,
+            32.963531
+        ]
+    ],
+    "relationships": []
 }

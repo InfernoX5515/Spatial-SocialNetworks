@@ -5,7 +5,26 @@
     "email": "laurathomas@yahoo.com",
     "birthdate": "1938-11-01",
     "phone": "502-838-4877x7407",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        56,
+        24,
+        24,
+        44,
+        25,
+        11,
+        70,
+        4,
+        55,
+        26,
+        65,
+        59
+    ],
+    "login locations": [
+        [
+            -117.661035,
+            33.656963
+        ]
+    ],
+    "relationships": []
 }

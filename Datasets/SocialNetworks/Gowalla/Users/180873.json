@@ -5,7 +5,14 @@
     "email": "brianna84@hotmail.com",
     "birthdate": "2000-03-12",
     "phone": "001-359-973-5040x42130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44
+    ],
+    "login locations": [
+        [
+            -118.195273,
+            34.107001
+        ]
+    ],
+    "relationships": []
 }

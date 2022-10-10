@@ -5,7 +5,19 @@
     "email": "roberto06@gmail.com",
     "birthdate": "2005-03-05",
     "phone": "+1-815-977-8708x075",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        41,
+        13,
+        8,
+        73,
+        60
+    ],
+    "login locations": [
+        [
+            -122.113889,
+            37.643992
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "callahanautumn@yahoo.com",
     "birthdate": "1944-06-20",
     "phone": "(584)061-1227x2672",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        21
+    ],
+    "login locations": [
+        [
+            -118.106584,
+            34.013231
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                124988,
+                0.125
+            ],
+            [
+                124988,
+                0.125
+            ]
+        ]
+    ]
 }

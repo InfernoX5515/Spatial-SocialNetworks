@@ -5,7 +5,18 @@
     "email": "anita13@yahoo.com",
     "birthdate": "1958-08-01",
     "phone": "+1-813-500-8067",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        13,
+        48,
+        63,
+        67
+    ],
+    "login locations": [
+        [
+            -122.500344,
+            37.785046
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "harrysmith@gmail.com",
     "birthdate": "1994-01-19",
     "phone": "+1-617-141-7004",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.409192,
+            34.299334
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "christopherdaugherty@gmail.com",
     "birthdate": "1983-06-05",
     "phone": "(636)439-7887x323",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        67,
+        25,
+        57,
+        57,
+        63
+    ],
+    "login locations": [
+        [
+            -121.88961,
+            37.337194
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "rjohnson@yahoo.com",
     "birthdate": "2020-11-24",
     "phone": "756-065-7723x2271",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        55,
+        43,
+        20,
+        48,
+        53,
+        24,
+        21
+    ],
+    "login locations": [
+        [
+            -118.314585,
+            34.060662
+        ]
+    ],
+    "relationships": []
 }

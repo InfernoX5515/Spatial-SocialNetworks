@@ -5,7 +5,22 @@
     "email": "lcraig@yahoo.com",
     "birthdate": "1923-06-04",
     "phone": "074-753-8137x155",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        61,
+        71,
+        18,
+        17,
+        4,
+        52,
+        8,
+        27
+    ],
+    "login locations": [
+        [
+            -122.425468,
+            37.768042
+        ]
+    ],
+    "relationships": []
 }

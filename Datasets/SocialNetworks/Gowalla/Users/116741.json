@@ -5,7 +5,26 @@
     "email": "keithgriffin@yahoo.com",
     "birthdate": "2001-11-08",
     "phone": "001-786-735-8774x5919",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        4,
+        5,
+        16,
+        46,
+        44,
+        16,
+        68,
+        11,
+        14,
+        37,
+        71,
+        32
+    ],
+    "login locations": [
+        [
+            -122.269324,
+            37.878249
+        ]
+    ],
+    "relationships": []
 }

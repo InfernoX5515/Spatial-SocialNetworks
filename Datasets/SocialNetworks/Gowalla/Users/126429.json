@@ -5,7 +5,18 @@
     "email": "zrhodes@gmail.com",
     "birthdate": "1984-08-21",
     "phone": "3484815344",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        35,
+        32,
+        41,
+        34
+    ],
+    "login locations": [
+        [
+            -118.356668,
+            34.09034
+        ]
+    ],
+    "relationships": []
 }

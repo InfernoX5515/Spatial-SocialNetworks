@@ -5,7 +5,26 @@
     "email": "john28@gmail.com",
     "birthdate": "2010-12-06",
     "phone": "001-985-584-8930",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        69,
+        13,
+        69,
+        58,
+        12,
+        15,
+        8,
+        12,
+        54,
+        33,
+        17,
+        24
+    ],
+    "login locations": [
+        [
+            -118.131473,
+            33.825194
+        ]
+    ],
+    "relationships": []
 }

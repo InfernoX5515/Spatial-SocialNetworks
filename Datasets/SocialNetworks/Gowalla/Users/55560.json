@@ -5,7 +5,20 @@
     "email": "josephstone@hotmail.com",
     "birthdate": "1940-04-30",
     "phone": "298-799-0535x86861",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        70,
+        40,
+        59,
+        46,
+        58,
+        50
+    ],
+    "login locations": [
+        [
+            -118.484594,
+            34.006296
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,30 @@
     "email": "bnelson@gmail.com",
     "birthdate": "1947-04-30",
     "phone": "001-539-853-8282x58814",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        40,
+        48,
+        75,
+        56,
+        44
+    ],
+    "login locations": [
+        [
+            -122.407533,
+            37.787954
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5232,
+                0.0993788819876
+            ],
+            [
+                5232,
+                0.0993788819876
+            ]
+        ]
+    ]
 }

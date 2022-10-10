@@ -5,7 +5,20 @@
     "email": "stevenstewart@yahoo.com",
     "birthdate": "2012-03-14",
     "phone": "594-315-1415x940",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        36,
+        32,
+        38,
+        69,
+        59,
+        22
+    ],
+    "login locations": [
+        [
+            -122.004869,
+            37.320045
+        ]
+    ],
+    "relationships": []
 }

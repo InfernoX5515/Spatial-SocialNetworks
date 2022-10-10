@@ -5,7 +5,23 @@
     "email": "curtis70@gmail.com",
     "birthdate": "2018-03-01",
     "phone": "735.409.8903x5904",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        29,
+        31,
+        62,
+        8,
+        33,
+        31,
+        1,
+        40,
+        25
+    ],
+    "login locations": [
+        [
+            -118.194606,
+            34.139124
+        ]
+    ],
+    "relationships": []
 }

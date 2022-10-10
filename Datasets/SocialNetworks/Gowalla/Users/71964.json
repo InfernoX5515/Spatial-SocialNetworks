@@ -5,7 +5,14 @@
     "email": "anataylor@yahoo.com",
     "birthdate": "1953-05-08",
     "phone": "612-704-2673",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17
+    ],
+    "login locations": [
+        [
+            -122.432102,
+            37.800095
+        ]
+    ],
+    "relationships": []
 }

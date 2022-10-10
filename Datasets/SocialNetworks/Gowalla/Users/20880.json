@@ -5,7 +5,17 @@
     "email": "sara82@hotmail.com",
     "birthdate": "1913-07-21",
     "phone": "(221)005-3898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        8,
+        75,
+        25
+    ],
+    "login locations": [
+        [
+            -122.328101,
+            37.613495
+        ]
+    ],
+    "relationships": []
 }

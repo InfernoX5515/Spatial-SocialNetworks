@@ -5,7 +5,14 @@
     "email": "gonzalesjames@hotmail.com",
     "birthdate": "1954-04-05",
     "phone": "747-137-0193x0337",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27
+    ],
+    "login locations": [
+        [
+            -122.383681,
+            37.766964
+        ]
+    ],
+    "relationships": []
 }

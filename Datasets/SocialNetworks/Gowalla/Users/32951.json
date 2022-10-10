@@ -5,7 +5,14 @@
     "email": "kimwang@hotmail.com",
     "birthdate": "1992-12-07",
     "phone": "(177)605-8983",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2
+    ],
+    "login locations": [
+        [
+            -122.330509,
+            37.580511
+        ]
+    ],
+    "relationships": []
 }

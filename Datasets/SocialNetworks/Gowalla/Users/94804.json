@@ -5,7 +5,25 @@
     "email": "aaron46@gmail.com",
     "birthdate": "1998-10-02",
     "phone": "275-927-9431x601",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        26,
+        12,
+        17,
+        23,
+        68,
+        11,
+        67,
+        27,
+        26,
+        5,
+        20
+    ],
+    "login locations": [
+        [
+            -118.121859,
+            34.098133
+        ]
+    ],
+    "relationships": []
 }

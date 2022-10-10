@@ -5,7 +5,26 @@
     "email": "yesparza@hotmail.com",
     "birthdate": "2015-03-11",
     "phone": "001-683-508-2621x7967",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        24,
+        34,
+        0,
+        36,
+        72,
+        16,
+        12,
+        51,
+        52,
+        67,
+        50,
+        3
+    ],
+    "login locations": [
+        [
+            -122.118382,
+            37.349618
+        ]
+    ],
+    "relationships": []
 }

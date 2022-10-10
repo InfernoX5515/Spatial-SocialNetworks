@@ -5,7 +5,14 @@
     "email": "parsonsjennifer@hotmail.com",
     "birthdate": "1974-09-07",
     "phone": "592-367-3646x81643",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12
+    ],
+    "login locations": [
+        [
+            -117.139026,
+            32.704089
+        ]
+    ],
+    "relationships": []
 }

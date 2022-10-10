@@ -5,7 +5,28 @@
     "email": "andreapage@yahoo.com",
     "birthdate": "2020-05-07",
     "phone": "273.740.6415x8288",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        25,
+        18,
+        38,
+        50,
+        2,
+        26,
+        2,
+        65,
+        18,
+        67,
+        27,
+        60,
+        35,
+        34
+    ],
+    "login locations": [
+        [
+            -121.977587,
+            37.313696
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "valeriegarcia@hotmail.com",
     "birthdate": "1980-07-04",
     "phone": "134.941.0700x594",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        29,
+        30,
+        9,
+        56,
+        57,
+        15,
+        70,
+        39,
+        51,
+        42,
+        31,
+        18
+    ],
+    "login locations": [
+        [
+            -118.096936,
+            34.084154
+        ]
+    ],
+    "relationships": []
 }

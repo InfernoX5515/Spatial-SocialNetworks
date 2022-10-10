@@ -5,7 +5,18 @@
     "email": "zmoran@yahoo.com",
     "birthdate": "1932-10-09",
     "phone": "001-280-735-7297x4075",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        48,
+        65,
+        48,
+        40
+    ],
+    "login locations": [
+        [
+            -118.277016,
+            34.061532
+        ]
+    ],
+    "relationships": []
 }

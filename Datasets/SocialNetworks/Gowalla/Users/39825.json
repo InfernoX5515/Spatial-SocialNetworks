@@ -5,7 +5,32 @@
     "email": "lweaver@gmail.com",
     "birthdate": "1989-10-18",
     "phone": "(886)866-7799x141",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67,
+        22,
+        60,
+        29,
+        51,
+        69,
+        18,
+        5
+    ],
+    "login locations": [
+        [
+            -117.903191,
+            33.715835
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39814,
+                0.0355555555556
+            ],
+            [
+                119173,
+                0.0170031880978
+            ]
+        ]
+    ]
 }

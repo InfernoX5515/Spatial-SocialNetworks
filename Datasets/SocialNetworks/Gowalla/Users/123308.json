@@ -5,7 +5,37 @@
     "email": "simpsonjustin@yahoo.com",
     "birthdate": "1998-09-13",
     "phone": "0840812488",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        5,
+        19,
+        43,
+        0,
+        26,
+        53,
+        70,
+        41,
+        44,
+        9,
+        30,
+        54
+    ],
+    "login locations": [
+        [
+            -122.419254,
+            37.638953
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49274,
+                0.25
+            ],
+            [
+                63465,
+                0.01
+            ]
+        ]
+    ]
 }

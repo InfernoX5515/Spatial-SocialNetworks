@@ -5,7 +5,25 @@
     "email": "justin60@yahoo.com",
     "birthdate": "1922-11-23",
     "phone": "001-213-290-7858x2124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        57,
+        75,
+        9,
+        46,
+        20,
+        67,
+        13,
+        4,
+        46,
+        70,
+        25
+    ],
+    "login locations": [
+        [
+            -122.429249,
+            37.750487
+        ]
+    ],
+    "relationships": []
 }

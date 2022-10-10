@@ -5,7 +5,18 @@
     "email": "millersean@yahoo.com",
     "birthdate": "1932-04-05",
     "phone": "(562)864-4756",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        67,
+        19,
+        71,
+        21
+    ],
+    "login locations": [
+        [
+            -117.12886,
+            32.746263
+        ]
+    ],
+    "relationships": []
 }

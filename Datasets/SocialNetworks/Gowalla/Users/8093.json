@@ -5,7 +5,29 @@
     "email": "anthony01@yahoo.com",
     "birthdate": "1988-03-30",
     "phone": "+1-259-605-6367x8997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        54,
+        17,
+        50,
+        0
+    ],
+    "login locations": [
+        [
+            -122.399635,
+            37.775487
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                126,
+                0.0188356164384
+            ],
+            [
+                3470,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,24 @@
     "email": "jamesromero@hotmail.com",
     "birthdate": "1964-08-17",
     "phone": "(592)001-7862x947",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        20,
+        62,
+        40,
+        22,
+        18,
+        37,
+        19,
+        12,
+        10,
+        46
+    ],
+    "login locations": [
+        [
+            -122.437152,
+            37.782074
+        ]
+    ],
+    "relationships": []
 }

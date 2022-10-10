@@ -5,7 +5,18 @@
     "email": "alexisclark@gmail.com",
     "birthdate": "1954-04-16",
     "phone": "+1-309-613-8868x0990",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        50,
+        52,
+        27,
+        17
+    ],
+    "login locations": [
+        [
+            -122.298422,
+            37.561078
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,24 @@
     "email": "kyleedwards@yahoo.com",
     "birthdate": "1932-08-25",
     "phone": "541-863-8800",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        69,
+        10,
+        67,
+        65,
+        68,
+        56,
+        0,
+        25,
+        60,
+        73
+    ],
+    "login locations": [
+        [
+            -122.3204,
+            37.83785
+        ]
+    ],
+    "relationships": []
 }

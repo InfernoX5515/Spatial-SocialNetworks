@@ -5,7 +5,14 @@
     "email": "pamela47@yahoo.com",
     "birthdate": "1988-07-25",
     "phone": "001-914-582-8224x497",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44
+    ],
+    "login locations": [
+        [
+            -122.427396,
+            37.788846
+        ]
+    ],
+    "relationships": []
 }

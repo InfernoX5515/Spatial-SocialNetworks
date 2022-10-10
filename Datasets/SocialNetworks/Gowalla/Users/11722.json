@@ -5,7 +5,28 @@
     "email": "laura19@gmail.com",
     "birthdate": "1982-05-12",
     "phone": "(081)924-0677x563",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        45,
+        40,
+        69,
+        4,
+        47,
+        44,
+        47,
+        55,
+        58,
+        60,
+        55,
+        74,
+        29,
+        23
+    ],
+    "login locations": [
+        [
+            -121.467114,
+            38.578146
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "btodd@hotmail.com",
     "birthdate": "1918-04-26",
     "phone": "591-204-9207",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.999055,
+            36.969622
+        ]
+    ],
+    "relationships": []
 }

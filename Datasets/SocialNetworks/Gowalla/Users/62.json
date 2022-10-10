@@ -5,7 +5,28 @@
     "email": "natalie87@hotmail.com",
     "birthdate": "1955-08-15",
     "phone": "983-878-0651x6712",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        0,
+        12,
+        22,
+        1,
+        62,
+        0,
+        9,
+        41,
+        47,
+        68,
+        26,
+        68,
+        69,
+        31
+    ],
+    "login locations": [
+        [
+            -122.408803,
+            37.755092
+        ]
+    ],
+    "relationships": []
 }

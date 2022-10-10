@@ -5,7 +5,20 @@
     "email": "gallen@yahoo.com",
     "birthdate": "1943-09-05",
     "phone": "916.839.9255x563",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        50,
+        24,
+        74,
+        55,
+        49,
+        19
+    ],
+    "login locations": [
+        [
+            -122.151349,
+            37.682328
+        ]
+    ],
+    "relationships": []
 }

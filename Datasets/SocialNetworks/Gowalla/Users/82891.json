@@ -5,7 +5,15 @@
     "email": "wrightsean@gmail.com",
     "birthdate": "1998-07-27",
     "phone": "707.680.4583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        62
+    ],
+    "login locations": [
+        [
+            -122.165548,
+            37.441958
+        ]
+    ],
+    "relationships": []
 }

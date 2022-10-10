@@ -5,7 +5,26 @@
     "email": "ybrown@gmail.com",
     "birthdate": "1948-09-13",
     "phone": "+1-019-590-6674x828",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        42,
+        50,
+        1,
+        20,
+        27,
+        2,
+        25,
+        44,
+        32,
+        46,
+        42,
+        37
+    ],
+    "login locations": [
+        [
+            -121.986183,
+            37.339112
+        ]
+    ],
+    "relationships": []
 }

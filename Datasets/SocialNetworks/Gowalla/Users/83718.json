@@ -5,7 +5,32 @@
     "email": "matthewhall@hotmail.com",
     "birthdate": "1997-08-04",
     "phone": "995-608-0473",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        27,
+        62,
+        38,
+        55,
+        24,
+        7,
+        68
+    ],
+    "login locations": [
+        [
+            -122.391408,
+            37.76626
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8316,
+                0.128205128205
+            ],
+            [
+                8319,
+                0.047619047619
+            ]
+        ]
+    ]
 }

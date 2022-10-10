@@ -5,7 +5,14 @@
     "email": "jerry87@gmail.com",
     "birthdate": "1957-08-23",
     "phone": "442-728-0007",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38
+    ],
+    "login locations": [
+        [
+            -118.328316,
+            34.013198
+        ]
+    ],
+    "relationships": []
 }

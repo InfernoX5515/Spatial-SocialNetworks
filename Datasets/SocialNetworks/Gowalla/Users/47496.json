@@ -5,7 +5,24 @@
     "email": "huffjack@gmail.com",
     "birthdate": "1930-08-11",
     "phone": "550-342-4412x05055",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        62,
+        42,
+        61,
+        70,
+        4,
+        8,
+        32,
+        5,
+        4,
+        21
+    ],
+    "login locations": [
+        [
+            -121.371154,
+            38.679057
+        ]
+    ],
+    "relationships": []
 }

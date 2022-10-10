@@ -5,7 +5,14 @@
     "email": "pagestephanie@hotmail.com",
     "birthdate": "1987-10-01",
     "phone": "290.499.1129x00317",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75
+    ],
+    "login locations": [
+        [
+            -122.420369,
+            37.779385
+        ]
+    ],
+    "relationships": []
 }

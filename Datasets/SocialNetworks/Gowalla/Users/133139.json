@@ -5,7 +5,17 @@
     "email": "gutierrezjason@hotmail.com",
     "birthdate": "1942-02-24",
     "phone": "001-175-4489x410",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        50,
+        48,
+        66
+    ],
+    "login locations": [
+        [
+            -122.349843,
+            37.647749
+        ]
+    ],
+    "relationships": []
 }

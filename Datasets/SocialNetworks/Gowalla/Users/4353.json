@@ -5,7 +5,39 @@
     "email": "cwilliams@yahoo.com",
     "birthdate": "1931-09-12",
     "phone": "460-229-2457",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        12,
+        9,
+        22,
+        71,
+        24,
+        61,
+        11,
+        57,
+        36,
+        53,
+        55,
+        52,
+        34,
+        43
+    ],
+    "login locations": [
+        [
+            -122.422462,
+            37.766308
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                355,
+                0.0181818181818
+            ],
+            [
+                600,
+                0.0290909090909
+            ]
+        ]
+    ]
 }

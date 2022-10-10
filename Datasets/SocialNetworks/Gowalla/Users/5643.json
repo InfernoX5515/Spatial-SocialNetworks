@@ -5,7 +5,27 @@
     "email": "amberpeters@yahoo.com",
     "birthdate": "1987-01-28",
     "phone": "(735)497-5644x89691",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        4,
+        71
+    ],
+    "login locations": [
+        [
+            -122.425049,
+            37.766937
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                56489,
+                0.0290909090909
+            ],
+            [
+                22883,
+                0.0714285714286
+            ]
+        ]
+    ]
 }

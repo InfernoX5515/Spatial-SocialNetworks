@@ -5,7 +5,31 @@
     "email": "mcfarlanddaniel@yahoo.com",
     "birthdate": "1924-11-12",
     "phone": "332.596.0298",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        60,
+        12,
+        54,
+        13,
+        14,
+        15
+    ],
+    "login locations": [
+        [
+            -122.393188,
+            37.768094
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11702,
+                0.08
+            ],
+            [
+                11702,
+                0.0714285714286
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,39 @@
     "email": "shall@yahoo.com",
     "birthdate": "2017-08-11",
     "phone": "(167)459-2575x04631",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        20,
+        75,
+        46,
+        38,
+        5,
+        37,
+        18,
+        52,
+        53,
+        42,
+        52,
+        29,
+        64,
+        64
+    ],
+    "login locations": [
+        [
+            -122.400651,
+            37.789416
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                634,
+                0.01
+            ],
+            [
+                634,
+                0.01
+            ]
+        ]
+    ]
 }

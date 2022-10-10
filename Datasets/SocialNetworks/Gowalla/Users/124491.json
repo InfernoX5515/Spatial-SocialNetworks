@@ -5,7 +5,25 @@
     "email": "nicholas06@hotmail.com",
     "birthdate": "1953-09-25",
     "phone": "6612452070",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        48,
+        12,
+        11,
+        15,
+        62,
+        5,
+        36,
+        19,
+        5,
+        47,
+        12
+    ],
+    "login locations": [
+        [
+            -122.050241,
+            37.548728
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,20 @@
     "email": "daniellewis@gmail.com",
     "birthdate": "1917-01-15",
     "phone": "788-812-4784",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        53,
+        22,
+        39,
+        15,
+        2,
+        55
+    ],
+    "login locations": [
+        [
+            -117.890863,
+            33.684455
+        ]
+    ],
+    "relationships": []
 }

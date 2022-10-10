@@ -5,7 +5,22 @@
     "email": "gregoryclark@yahoo.com",
     "birthdate": "1983-02-01",
     "phone": "758.161.5807",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        55,
+        69,
+        7,
+        62,
+        3,
+        75,
+        47,
+        68
+    ],
+    "login locations": [
+        [
+            -117.078934,
+            33.023379
+        ]
+    ],
+    "relationships": []
 }

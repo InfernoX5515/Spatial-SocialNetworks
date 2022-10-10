@@ -5,7 +5,17 @@
     "email": "rosseric@yahoo.com",
     "birthdate": "2010-12-24",
     "phone": "308-717-9662x598",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        56,
+        11,
+        64
+    ],
+    "login locations": [
+        [
+            -117.830132,
+            33.699762
+        ]
+    ],
+    "relationships": []
 }

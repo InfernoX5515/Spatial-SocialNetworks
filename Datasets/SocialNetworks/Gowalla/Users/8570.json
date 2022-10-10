@@ -5,7 +5,27 @@
     "email": "ericchavez@yahoo.com",
     "birthdate": "1908-08-29",
     "phone": "789-579-0602x20187",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        29,
+        2,
+        27,
+        31,
+        33,
+        16,
+        39,
+        31,
+        6,
+        10,
+        9,
+        5,
+        37
+    ],
+    "login locations": [
+        [
+            -122.282679,
+            37.560412
+        ]
+    ],
+    "relationships": []
 }

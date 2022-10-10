@@ -5,7 +5,35 @@
     "email": "sandra94@gmail.com",
     "birthdate": "1971-08-22",
     "phone": "(883)855-1187x4703",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        33,
+        56,
+        59,
+        47,
+        46,
+        56,
+        72,
+        41,
+        12,
+        32
+    ],
+    "login locations": [
+        [
+            -117.109184,
+            32.712216
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                39503,
+                0.0860215053763
+            ],
+            [
+                132017,
+                0.1
+            ]
+        ]
+    ]
 }

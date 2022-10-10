@@ -5,7 +5,35 @@
     "email": "johnsonmichael@gmail.com",
     "birthdate": "1943-09-15",
     "phone": "001-956-813-0332x6015",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        52,
+        60,
+        38,
+        51,
+        65,
+        14,
+        0,
+        70,
+        36,
+        8
+    ],
+    "login locations": [
+        [
+            -117.886219,
+            33.731597
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4639,
+                0.0175438596491
+            ],
+            [
+                593,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,21 @@
     "email": "wandaherrera@gmail.com",
     "birthdate": "1962-09-19",
     "phone": "(127)407-7566",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        44,
+        32,
+        60,
+        14,
+        61,
+        67,
+        18
+    ],
+    "login locations": [
+        [
+            -118.168527,
+            34.101158
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "hallnathan@gmail.com",
     "birthdate": "1969-04-13",
     "phone": "001-925-079-2952x746",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62
+    ],
+    "login locations": [
+        [
+            -122.190032,
+            37.422422
+        ]
+    ],
+    "relationships": []
 }

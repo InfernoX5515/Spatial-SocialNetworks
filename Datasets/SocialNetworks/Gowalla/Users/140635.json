@@ -5,7 +5,25 @@
     "email": "maciassamuel@hotmail.com",
     "birthdate": "1949-03-16",
     "phone": "(235)860-3566x2411",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        30,
+        3,
+        56,
+        47,
+        31,
+        58,
+        38,
+        38,
+        35,
+        74,
+        2
+    ],
+    "login locations": [
+        [
+            -122.099178,
+            37.971598
+        ]
+    ],
+    "relationships": []
 }

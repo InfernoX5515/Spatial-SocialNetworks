@@ -5,7 +5,27 @@
     "email": "francisco10@hotmail.com",
     "birthdate": "2008-05-19",
     "phone": "+1-060-456-5118x81315",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        75,
+        59,
+        66,
+        70,
+        68,
+        16,
+        13,
+        5,
+        67,
+        44,
+        33,
+        29,
+        43
+    ],
+    "login locations": [
+        [
+            -122.370525,
+            37.784885
+        ]
+    ],
+    "relationships": []
 }

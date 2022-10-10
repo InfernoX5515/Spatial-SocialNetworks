@@ -5,7 +5,26 @@
     "email": "wesley84@gmail.com",
     "birthdate": "1974-01-25",
     "phone": "288-498-7137",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        67,
+        45,
+        57,
+        7,
+        67,
+        35,
+        16,
+        33,
+        74,
+        69,
+        22,
+        19
+    ],
+    "login locations": [
+        [
+            -122.138929,
+            37.700017
+        ]
+    ],
+    "relationships": []
 }

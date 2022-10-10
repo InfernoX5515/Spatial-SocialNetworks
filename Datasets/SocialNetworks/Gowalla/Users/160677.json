@@ -5,7 +5,28 @@
     "email": "katrina21@yahoo.com",
     "birthdate": "1934-02-07",
     "phone": "013-776-0986x84171",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        36,
+        62,
+        54,
+        35,
+        31,
+        37,
+        36,
+        30,
+        1,
+        1,
+        7,
+        68,
+        19,
+        28
+    ],
+    "login locations": [
+        [
+            -122.213645,
+            37.475169
+        ]
+    ],
+    "relationships": []
 }

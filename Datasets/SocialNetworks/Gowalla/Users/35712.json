@@ -5,7 +5,15 @@
     "email": "bergerkimberly@gmail.com",
     "birthdate": "1926-08-01",
     "phone": "151-561-2704x4688",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        68
+    ],
+    "login locations": [
+        [
+            -118.337693,
+            34.091089
+        ]
+    ],
+    "relationships": []
 }

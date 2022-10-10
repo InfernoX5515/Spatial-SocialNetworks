@@ -5,7 +5,37 @@
     "email": "william24@hotmail.com",
     "birthdate": "1930-06-11",
     "phone": "001-342-437-1471x823",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        29,
+        36,
+        26,
+        36,
+        7,
+        52,
+        73,
+        51,
+        13,
+        18,
+        62,
+        5
+    ],
+    "login locations": [
+        [
+            -119.768623,
+            36.789879
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118445,
+                0.0363636363636
+            ],
+            [
+                118445,
+                0.0363636363636
+            ]
+        ]
+    ]
 }

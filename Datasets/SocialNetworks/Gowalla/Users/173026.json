@@ -5,7 +5,27 @@
     "email": "kathrynwilcox@yahoo.com",
     "birthdate": "1909-07-10",
     "phone": "001-683-076-9468x962",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        52,
+        12,
+        18,
+        22,
+        47,
+        37,
+        25,
+        67,
+        20,
+        33,
+        12,
+        59,
+        21
+    ],
+    "login locations": [
+        [
+            -122.187961,
+            38.089161
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,12 @@
     "email": "lindatravis@yahoo.com",
     "birthdate": "1972-11-24",
     "phone": "001-820-106-3555",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.270605,
+            34.040329
+        ]
+    ],
+    "relationships": []
 }

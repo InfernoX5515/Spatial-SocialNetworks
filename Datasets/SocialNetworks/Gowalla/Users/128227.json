@@ -5,7 +5,14 @@
     "email": "santoshannah@yahoo.com",
     "birthdate": "1981-07-27",
     "phone": "+1-322-906-9798x5271",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11
+    ],
+    "login locations": [
+        [
+            -118.451382,
+            34.033822
+        ]
+    ],
+    "relationships": []
 }

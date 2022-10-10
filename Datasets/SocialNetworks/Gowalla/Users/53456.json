@@ -5,7 +5,25 @@
     "email": "saguirre@gmail.com",
     "birthdate": "1965-03-29",
     "phone": "704.551.4364",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48
+    ],
+    "login locations": [
+        [
+            -122.393,
+            37.782413
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8302,
+                0.130434782609
+            ],
+            [
+                8302,
+                0.130434782609
+            ]
+        ]
+    ]
 }

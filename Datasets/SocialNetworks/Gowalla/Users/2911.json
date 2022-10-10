@@ -5,7 +5,33 @@
     "email": "meredithlang@hotmail.com",
     "birthdate": "1975-12-05",
     "phone": "001-302-236-1783x34039",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        60,
+        69,
+        63,
+        56,
+        51,
+        62,
+        74,
+        7
+    ],
+    "login locations": [
+        [
+            -117.94593,
+            33.712632
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2170,
+                0.0196078431373
+            ],
+            [
+                4371,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,28 @@
     "email": "pamela40@gmail.com",
     "birthdate": "1963-02-11",
     "phone": "(410)681-6398x1137",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        36,
+        4,
+        16,
+        71,
+        44,
+        8,
+        75,
+        23,
+        72,
+        46,
+        62,
+        70,
+        51,
+        35
+    ],
+    "login locations": [
+        [
+            -117.703659,
+            35.624
+        ]
+    ],
+    "relationships": []
 }

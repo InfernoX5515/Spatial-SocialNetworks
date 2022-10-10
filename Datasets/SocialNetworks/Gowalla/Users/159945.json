@@ -5,7 +5,15 @@
     "email": "jamielittle@yahoo.com",
     "birthdate": "2000-06-02",
     "phone": "5908258384",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        59
+    ],
+    "login locations": [
+        [
+            -117.262536,
+            33.159502
+        ]
+    ],
+    "relationships": []
 }

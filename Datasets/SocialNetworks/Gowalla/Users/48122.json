@@ -5,7 +5,20 @@
     "email": "laneandrea@gmail.com",
     "birthdate": "1994-07-06",
     "phone": "532-161-7906x8321",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        34,
+        9,
+        70,
+        15,
+        60,
+        6
+    ],
+    "login locations": [
+        [
+            -117.833066,
+            34.003807
+        ]
+    ],
+    "relationships": []
 }

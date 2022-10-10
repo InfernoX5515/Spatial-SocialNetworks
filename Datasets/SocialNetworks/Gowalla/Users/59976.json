@@ -5,7 +5,17 @@
     "email": "peter23@yahoo.com",
     "birthdate": "1951-05-28",
     "phone": "(721)541-9520x933",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        66,
+        14,
+        47
+    ],
+    "login locations": [
+        [
+            -122.212208,
+            37.850283
+        ]
+    ],
+    "relationships": []
 }

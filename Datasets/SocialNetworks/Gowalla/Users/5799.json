@@ -5,7 +5,38 @@
     "email": "lewissarah@gmail.com",
     "birthdate": "1910-11-13",
     "phone": "(438)281-6666x664",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        58,
+        28,
+        6,
+        45,
+        26,
+        50,
+        30,
+        5,
+        52,
+        41,
+        8,
+        38,
+        53
+    ],
+    "login locations": [
+        [
+            -119.749773,
+            34.425147
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.0757575757576
+            ],
+            [
+                96,
+                0.08
+            ]
+        ]
+    ]
 }

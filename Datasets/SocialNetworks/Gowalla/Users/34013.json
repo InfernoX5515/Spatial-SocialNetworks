@@ -5,7 +5,22 @@
     "email": "vrobinson@hotmail.com",
     "birthdate": "1957-01-13",
     "phone": "044-750-1696x3419",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        3,
+        6,
+        71,
+        21,
+        68,
+        36,
+        11,
+        72
+    ],
+    "login locations": [
+        [
+            -118.317355,
+            34.093133
+        ]
+    ],
+    "relationships": []
 }

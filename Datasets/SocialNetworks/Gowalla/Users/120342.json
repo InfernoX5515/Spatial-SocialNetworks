@@ -5,7 +5,21 @@
     "email": "riveraalexandra@yahoo.com",
     "birthdate": "1985-04-15",
     "phone": "(566)225-0485x339",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        73,
+        71,
+        39,
+        71,
+        41,
+        64,
+        14
+    ],
+    "login locations": [
+        [
+            -122.090521,
+            37.394503
+        ]
+    ],
+    "relationships": []
 }

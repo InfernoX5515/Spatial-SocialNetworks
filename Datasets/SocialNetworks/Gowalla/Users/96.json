@@ -5,7 +5,27 @@
     "email": "russellhawkins@gmail.com",
     "birthdate": "1989-03-15",
     "phone": "001-943-874-1411",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        45,
+        40
+    ],
+    "login locations": [
+        [
+            -122.416664,
+            37.761966
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                63,
+                0.014598540146
+            ],
+            [
+                8246,
+                0.0214285714286
+            ]
+        ]
+    ]
 }

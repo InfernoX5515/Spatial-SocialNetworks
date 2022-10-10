@@ -5,7 +5,17 @@
     "email": "shawstephanie@hotmail.com",
     "birthdate": "1996-04-02",
     "phone": "452-215-7816x7682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        10,
+        1,
+        40
+    ],
+    "login locations": [
+        [
+            -118.454989,
+            33.997662
+        ]
+    ],
+    "relationships": []
 }

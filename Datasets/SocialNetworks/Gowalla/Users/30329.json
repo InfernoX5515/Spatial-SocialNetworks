@@ -5,7 +5,18 @@
     "email": "deborahshaw@hotmail.com",
     "birthdate": "2008-08-03",
     "phone": "+1-574-918-2109",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        75,
+        71,
+        52,
+        53
+    ],
+    "login locations": [
+        [
+            -118.355484,
+            33.886063
+        ]
+    ],
+    "relationships": []
 }

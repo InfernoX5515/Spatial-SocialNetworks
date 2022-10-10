@@ -5,7 +5,21 @@
     "email": "uscott@yahoo.com",
     "birthdate": "1966-06-13",
     "phone": "(719)354-4092x1802",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        42,
+        27,
+        24,
+        12,
+        4,
+        71,
+        47
+    ],
+    "login locations": [
+        [
+            -118.029091,
+            33.905121
+        ]
+    ],
+    "relationships": []
 }

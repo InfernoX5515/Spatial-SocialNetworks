@@ -5,7 +5,20 @@
     "email": "lesliemejia@hotmail.com",
     "birthdate": "1974-11-07",
     "phone": "177-300-2729x67387",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        1,
+        13,
+        6,
+        1,
+        32,
+        58,
+        7
+    ],
+    "login locations": [
+        [
+            -121.976366,
+            37.704659
+        ]
+    ],
+    "relationships": []
 }

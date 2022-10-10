@@ -5,7 +5,39 @@
     "email": "ymelendez@hotmail.com",
     "birthdate": "1910-04-15",
     "phone": "(617)248-9555",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        48,
+        15,
+        36,
+        70,
+        16,
+        8,
+        18,
+        53,
+        72,
+        72,
+        54,
+        62,
+        62,
+        53
+    ],
+    "login locations": [
+        [
+            -121.993214,
+            37.305623
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                25774,
+                0.0869565217391
+            ],
+            [
+                34318,
+                0.0178571428571
+            ]
+        ]
+    ]
 }

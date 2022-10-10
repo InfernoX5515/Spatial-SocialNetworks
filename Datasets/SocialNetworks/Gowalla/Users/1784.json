@@ -5,7 +5,34 @@
     "email": "kathleen03@hotmail.com",
     "birthdate": "1921-06-06",
     "phone": "5635516747",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        9,
+        15,
+        39,
+        7,
+        42,
+        53,
+        30,
+        27,
+        36
+    ],
+    "login locations": [
+        [
+            -122.143369,
+            38.120269
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4908,
+                0.01
+            ],
+            [
+                4903,
+                0.01
+            ]
+        ]
+    ]
 }

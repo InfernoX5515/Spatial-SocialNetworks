@@ -5,7 +5,12 @@
     "email": "yperez@yahoo.com",
     "birthdate": "2010-12-23",
     "phone": "+1-251-007-6497x82937",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.976593,
+            33.722493
+        ]
+    ],
+    "relationships": []
 }

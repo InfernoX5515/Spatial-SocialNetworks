@@ -5,7 +5,19 @@
     "email": "qgomez@yahoo.com",
     "birthdate": "1975-10-09",
     "phone": "002-842-5901",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        57,
+        55,
+        14,
+        2,
+        43
+    ],
+    "login locations": [
+        [
+            -117.173298,
+            32.711853
+        ]
+    ],
+    "relationships": []
 }

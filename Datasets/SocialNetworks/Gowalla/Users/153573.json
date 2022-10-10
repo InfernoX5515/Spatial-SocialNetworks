@@ -5,7 +5,17 @@
     "email": "tbaker@hotmail.com",
     "birthdate": "1911-02-12",
     "phone": "001-319-723-7630x8826",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        61,
+        13,
+        25
+    ],
+    "login locations": [
+        [
+            -122.421536,
+            37.760235
+        ]
+    ],
+    "relationships": []
 }

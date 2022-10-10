@@ -5,7 +5,16 @@
     "email": "byrdelizabeth@gmail.com",
     "birthdate": "1999-01-24",
     "phone": "(707)666-3625x0098",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        42,
+        39
+    ],
+    "login locations": [
+        [
+            -117.829464,
+            33.626868
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "wallacebrent@gmail.com",
     "birthdate": "1916-07-01",
     "phone": "(951)224-6945",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        7
+    ],
+    "login locations": [
+        [
+            -121.475543,
+            38.572786
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "rjohnson@hotmail.com",
     "birthdate": "1922-08-08",
     "phone": "369-252-1679x51683",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        13,
+        23,
+        21,
+        22,
+        40,
+        45,
+        26,
+        29
+    ],
+    "login locations": [
+        [
+            -118.328562,
+            34.069367
+        ]
+    ],
+    "relationships": []
 }

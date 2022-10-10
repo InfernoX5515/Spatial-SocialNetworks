@@ -5,7 +5,35 @@
     "email": "shieldsphyllis@gmail.com",
     "birthdate": "2019-04-02",
     "phone": "514-878-4290x55814",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        7,
+        56,
+        18,
+        41,
+        61,
+        71,
+        53,
+        22,
+        14,
+        49
+    ],
+    "login locations": [
+        [
+            -122.410454,
+            37.767571
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5074,
+                0.0227272727273
+            ],
+            [
+                5074,
+                0.0227272727273
+            ]
+        ]
+    ]
 }

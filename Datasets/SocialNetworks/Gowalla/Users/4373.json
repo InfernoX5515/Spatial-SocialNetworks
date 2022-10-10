@@ -5,7 +5,27 @@
     "email": "pittsdavid@gmail.com",
     "birthdate": "1997-01-02",
     "phone": "001-346-846-5421x684",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        4,
+        41,
+        43,
+        45,
+        72,
+        42,
+        57,
+        70,
+        8,
+        67,
+        21,
+        74,
+        6
+    ],
+    "login locations": [
+        [
+            -122.421256,
+            37.794371
+        ]
+    ],
+    "relationships": []
 }

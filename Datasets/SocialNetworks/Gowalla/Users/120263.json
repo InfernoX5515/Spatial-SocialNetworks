@@ -5,7 +5,36 @@
     "email": "kirbyhenry@yahoo.com",
     "birthdate": "1925-09-11",
     "phone": "062.171.0296x86878",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        34,
+        60,
+        19,
+        4,
+        55,
+        42,
+        15,
+        71,
+        50,
+        48,
+        60
+    ],
+    "login locations": [
+        [
+            -122.01959,
+            36.975546
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                120260,
+                0.109375
+            ],
+            [
+                120260,
+                0.109375
+            ]
+        ]
+    ]
 }

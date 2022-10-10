@@ -5,7 +5,18 @@
     "email": "davidferguson@yahoo.com",
     "birthdate": "1927-12-26",
     "phone": "(071)400-2154x8585",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        56,
+        57,
+        59,
+        36
+    ],
+    "login locations": [
+        [
+            -122.39593,
+            37.790052
+        ]
+    ],
+    "relationships": []
 }

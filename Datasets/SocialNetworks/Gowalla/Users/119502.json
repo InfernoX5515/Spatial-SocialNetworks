@@ -5,7 +5,12 @@
     "email": "rmclaughlin@yahoo.com",
     "birthdate": "1931-08-24",
     "phone": "(349)753-6430x270",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.17688,
+            34.045916
+        ]
+    ],
+    "relationships": []
 }

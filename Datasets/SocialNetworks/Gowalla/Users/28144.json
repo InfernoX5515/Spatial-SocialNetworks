@@ -5,7 +5,16 @@
     "email": "alexanderjenna@hotmail.com",
     "birthdate": "1916-04-26",
     "phone": "+1-773-064-2827x406",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        7,
+        65
+    ],
+    "login locations": [
+        [
+            -121.885619,
+            37.30256
+        ]
+    ],
+    "relationships": []
 }

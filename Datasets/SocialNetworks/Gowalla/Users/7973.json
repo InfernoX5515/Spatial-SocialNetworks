@@ -5,7 +5,23 @@
     "email": "beverlyfarrell@hotmail.com",
     "birthdate": "1997-03-28",
     "phone": "618-274-9733x2014",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        49,
+        60,
+        33,
+        62,
+        34,
+        11,
+        32,
+        35,
+        6,
+        36
+    ],
+    "login locations": [
+        [
+            -122.19835,
+            37.423444
+        ]
+    ],
+    "relationships": []
 }

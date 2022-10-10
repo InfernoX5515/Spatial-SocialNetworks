@@ -5,7 +5,17 @@
     "email": "ereyes@hotmail.com",
     "birthdate": "2009-07-09",
     "phone": "(009)441-2782",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        49,
+        3,
+        47
+    ],
+    "login locations": [
+        [
+            -122.33849,
+            37.76788
+        ]
+    ],
+    "relationships": []
 }

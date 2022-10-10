@@ -5,7 +5,27 @@
     "email": "christopher40@yahoo.com",
     "birthdate": "1966-07-31",
     "phone": "001-889-876-9035x03636",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        44,
+        19
+    ],
+    "login locations": [
+        [
+            -118.261085,
+            33.86434
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                459,
+                0.0107913669065
+            ],
+            [
+                1658,
+                0.0266666666667
+            ]
+        ]
+    ]
 }

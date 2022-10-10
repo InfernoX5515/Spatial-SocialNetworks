@@ -5,7 +5,15 @@
     "email": "thomasjared@gmail.com",
     "birthdate": "1954-01-18",
     "phone": "+1-734-895-1486x755",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        2
+    ],
+    "login locations": [
+        [
+            -118.394864,
+            34.070442
+        ]
+    ],
+    "relationships": []
 }

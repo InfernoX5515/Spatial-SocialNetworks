@@ -5,7 +5,14 @@
     "email": "craigheather@gmail.com",
     "birthdate": "1990-05-27",
     "phone": "(928)566-4163",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58
+    ],
+    "login locations": [
+        [
+            -117.24998,
+            32.937571
+        ]
+    ],
+    "relationships": []
 }

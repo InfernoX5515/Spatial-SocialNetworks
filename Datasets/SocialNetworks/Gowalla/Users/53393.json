@@ -5,7 +5,17 @@
     "email": "martinherrera@gmail.com",
     "birthdate": "1983-09-23",
     "phone": "245-848-6901",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        26,
+        1,
+        55
+    ],
+    "login locations": [
+        [
+            -118.330345,
+            34.019817
+        ]
+    ],
+    "relationships": []
 }

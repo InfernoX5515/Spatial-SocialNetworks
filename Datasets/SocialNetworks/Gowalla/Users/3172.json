@@ -5,7 +5,34 @@
     "email": "lisafoley@gmail.com",
     "birthdate": "1911-08-09",
     "phone": "001-001-037-7455",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        71,
+        0,
+        13,
+        66,
+        19,
+        72,
+        11,
+        2,
+        51,
+        10
+    ],
+    "login locations": [
+        [
+            -122.417737,
+            37.769311
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                484,
+                0.0102339181287
+            ],
+            [
+                5217,
+                0.144
+            ]
+        ]
+    ]
 }

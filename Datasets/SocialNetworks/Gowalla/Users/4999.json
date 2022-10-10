@@ -5,7 +5,16 @@
     "email": "amy88@hotmail.com",
     "birthdate": "2008-06-17",
     "phone": "+1-901-916-1740x78117",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        19,
+        14
+    ],
+    "login locations": [
+        [
+            -122.443944,
+            37.785874
+        ]
+    ],
+    "relationships": []
 }

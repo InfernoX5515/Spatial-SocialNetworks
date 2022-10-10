@@ -5,7 +5,24 @@
     "email": "charleswalter@gmail.com",
     "birthdate": "2002-04-18",
     "phone": "001-224-665-3035x72991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        45,
+        47,
+        55,
+        53,
+        6,
+        22,
+        29,
+        69,
+        9,
+        13
+    ],
+    "login locations": [
+        [
+            -117.886642,
+            33.845087
+        ]
+    ],
+    "relationships": []
 }

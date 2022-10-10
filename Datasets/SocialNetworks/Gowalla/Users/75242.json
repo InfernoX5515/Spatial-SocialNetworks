@@ -5,7 +5,32 @@
     "email": "skinnerstephanie@hotmail.com",
     "birthdate": "1967-07-28",
     "phone": "001-948-056-3526x4614",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        34,
+        45,
+        43,
+        9,
+        69,
+        12,
+        58
+    ],
+    "login locations": [
+        [
+            -122.392716,
+            37.773886
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5312,
+                0.05
+            ],
+            [
+                31492,
+                0.01
+            ]
+        ]
+    ]
 }

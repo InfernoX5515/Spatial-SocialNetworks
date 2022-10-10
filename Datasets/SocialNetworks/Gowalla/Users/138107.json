@@ -5,7 +5,23 @@
     "email": "miranda60@hotmail.com",
     "birthdate": "1952-04-11",
     "phone": "(480)395-4766x1152",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.587492,
+            34.102247
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                44505,
+                0.27027027027
+            ],
+            [
+                48108,
+                0.164473684211
+            ]
+        ]
+    ]
 }

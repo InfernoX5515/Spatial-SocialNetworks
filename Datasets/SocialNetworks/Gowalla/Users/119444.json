@@ -5,7 +5,20 @@
     "email": "elizabethryan@gmail.com",
     "birthdate": "2014-06-21",
     "phone": "(256)713-5057",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        37,
+        61,
+        26,
+        2,
+        50,
+        59
+    ],
+    "login locations": [
+        [
+            -119.787114,
+            36.799524
+        ]
+    ],
+    "relationships": []
 }

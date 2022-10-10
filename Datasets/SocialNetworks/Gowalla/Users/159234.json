@@ -5,7 +5,17 @@
     "email": "thompsonharold@gmail.com",
     "birthdate": "1939-06-27",
     "phone": "999-987-1940x59560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        69,
+        13,
+        3
+    ],
+    "login locations": [
+        [
+            -118.060378,
+            34.133685
+        ]
+    ],
+    "relationships": []
 }

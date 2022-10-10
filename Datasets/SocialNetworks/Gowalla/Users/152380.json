@@ -5,7 +5,22 @@
     "email": "dmurray@yahoo.com",
     "birthdate": "1916-06-26",
     "phone": "856.598.2822x21014",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        55,
+        9,
+        35,
+        24,
+        25,
+        24,
+        38,
+        60
+    ],
+    "login locations": [
+        [
+            -121.337769,
+            38.693741
+        ]
+    ],
+    "relationships": []
 }

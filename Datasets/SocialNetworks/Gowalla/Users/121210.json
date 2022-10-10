@@ -5,7 +5,23 @@
     "email": "monique01@yahoo.com",
     "birthdate": "1962-12-26",
     "phone": "995.465.3948x137",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        12,
+        73,
+        43,
+        46,
+        16,
+        16,
+        17,
+        63,
+        6
+    ],
+    "login locations": [
+        [
+            -117.870239,
+            33.690322
+        ]
+    ],
+    "relationships": []
 }

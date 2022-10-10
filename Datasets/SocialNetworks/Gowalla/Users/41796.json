@@ -5,7 +5,26 @@
     "email": "gonzalezjason@yahoo.com",
     "birthdate": "1917-04-04",
     "phone": "001-945-248-4857",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        66,
+        18,
+        34,
+        7,
+        10,
+        65,
+        65,
+        1,
+        28,
+        32,
+        25,
+        44
+    ],
+    "login locations": [
+        [
+            -118.344892,
+            34.01702
+        ]
+    ],
+    "relationships": []
 }

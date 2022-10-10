@@ -5,7 +5,31 @@
     "email": "david94@hotmail.com",
     "birthdate": "1946-11-30",
     "phone": "4724614523",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        63,
+        1,
+        43,
+        45,
+        72,
+        55
+    ],
+    "login locations": [
+        [
+            -118.325363,
+            34.066758
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6366,
+                0.028901734104
+            ],
+            [
+                6366,
+                0.028901734104
+            ]
+        ]
+    ]
 }

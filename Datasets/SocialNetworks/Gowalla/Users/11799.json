@@ -5,7 +5,26 @@
     "email": "hbrown@hotmail.com",
     "birthdate": "1988-12-31",
     "phone": "001-501-608-1987x7261",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        9
+    ],
+    "login locations": [
+        [
+            -122.404713,
+            37.785738
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                191,
+                0.0290791599354
+            ],
+            [
+                191,
+                0.0290791599354
+            ]
+        ]
+    ]
 }

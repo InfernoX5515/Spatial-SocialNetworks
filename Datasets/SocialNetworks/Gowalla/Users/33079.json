@@ -5,7 +5,16 @@
     "email": "martinnicole@hotmail.com",
     "birthdate": "1943-10-15",
     "phone": "001-217-162-2863x3266",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        3,
+        60
+    ],
+    "login locations": [
+        [
+            -117.829734,
+            33.707852
+        ]
+    ],
+    "relationships": []
 }

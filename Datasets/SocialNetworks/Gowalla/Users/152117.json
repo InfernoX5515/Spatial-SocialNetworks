@@ -5,7 +5,20 @@
     "email": "elizabeth72@gmail.com",
     "birthdate": "1969-06-22",
     "phone": "529-514-2288",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        31,
+        25,
+        44,
+        54,
+        46,
+        36
+    ],
+    "login locations": [
+        [
+            -118.138579,
+            34.592283
+        ]
+    ],
+    "relationships": []
 }

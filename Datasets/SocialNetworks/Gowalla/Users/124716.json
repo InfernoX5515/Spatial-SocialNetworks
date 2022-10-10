@@ -5,7 +5,23 @@
     "email": "jessica73@yahoo.com",
     "birthdate": "2010-06-23",
     "phone": "8182114262",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.314108,
+            38.671615
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                32437,
+                0.02
+            ],
+            [
+                32437,
+                0.02
+            ]
+        ]
+    ]
 }

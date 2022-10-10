@@ -5,7 +5,12 @@
     "email": "charlesharris@yahoo.com",
     "birthdate": "1957-11-13",
     "phone": "+1-647-216-1910x055",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.411111,
+            34.030522
+        ]
+    ],
+    "relationships": []
 }

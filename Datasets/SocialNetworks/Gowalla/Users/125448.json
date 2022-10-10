@@ -5,7 +5,26 @@
     "email": "zhunt@gmail.com",
     "birthdate": "1940-11-28",
     "phone": "001-528-730-0483",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        32,
+        55,
+        0,
+        20,
+        36,
+        51,
+        64,
+        46,
+        66,
+        16,
+        41,
+        40
+    ],
+    "login locations": [
+        [
+            -118.36728,
+            34.047956
+        ]
+    ],
+    "relationships": []
 }

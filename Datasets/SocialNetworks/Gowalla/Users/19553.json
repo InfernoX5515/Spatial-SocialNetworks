@@ -5,7 +5,26 @@
     "email": "tina08@hotmail.com",
     "birthdate": "1982-04-27",
     "phone": "+1-977-382-2048x34103",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        6,
+        54,
+        23,
+        13,
+        36,
+        4,
+        63,
+        0,
+        57,
+        18,
+        30,
+        6
+    ],
+    "login locations": [
+        [
+            -117.922349,
+            33.811917
+        ]
+    ],
+    "relationships": []
 }

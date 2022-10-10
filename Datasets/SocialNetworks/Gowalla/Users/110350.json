@@ -5,7 +5,25 @@
     "email": "lowefred@gmail.com",
     "birthdate": "1981-02-20",
     "phone": "172.744.1016",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        67,
+        2,
+        16,
+        16,
+        70,
+        7,
+        36,
+        44,
+        3,
+        1,
+        52
+    ],
+    "login locations": [
+        [
+            -117.869687,
+            33.754324
+        ]
+    ],
+    "relationships": []
 }

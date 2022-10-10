@@ -5,7 +5,14 @@
     "email": "rosejonathan@yahoo.com",
     "birthdate": "1997-09-12",
     "phone": "171.045.9856x12064",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43
+    ],
+    "login locations": [
+        [
+            -117.682513,
+            33.622919
+        ]
+    ],
+    "relationships": []
 }

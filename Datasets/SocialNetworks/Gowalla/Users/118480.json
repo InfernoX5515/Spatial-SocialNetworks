@@ -5,7 +5,23 @@
     "email": "michael23@hotmail.com",
     "birthdate": "1938-05-29",
     "phone": "093-201-5218x64210",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        55,
+        2,
+        16,
+        66,
+        45,
+        40,
+        15,
+        19,
+        21
+    ],
+    "login locations": [
+        [
+            -117.896639,
+            33.781284
+        ]
+    ],
+    "relationships": []
 }

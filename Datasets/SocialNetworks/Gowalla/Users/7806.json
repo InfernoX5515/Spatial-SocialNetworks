@@ -5,7 +5,23 @@
     "email": "shernandez@yahoo.com",
     "birthdate": "1945-11-16",
     "phone": "+1-250-576-6367",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        4,
+        10,
+        17,
+        36,
+        61,
+        47,
+        1,
+        60,
+        21
+    ],
+    "login locations": [
+        [
+            -122.410658,
+            37.779776
+        ]
+    ],
+    "relationships": []
 }

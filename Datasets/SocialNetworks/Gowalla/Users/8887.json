@@ -5,7 +5,23 @@
     "email": "perrysandra@hotmail.com",
     "birthdate": "1936-09-07",
     "phone": "001-143-306-9334x4862",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        55,
+        36,
+        38,
+        0,
+        39,
+        74,
+        3,
+        62,
+        40
+    ],
+    "login locations": [
+        [
+            -121.962879,
+            37.339842
+        ]
+    ],
+    "relationships": []
 }

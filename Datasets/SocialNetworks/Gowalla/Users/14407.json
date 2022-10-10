@@ -5,7 +5,37 @@
     "email": "banksronald@yahoo.com",
     "birthdate": "1971-11-12",
     "phone": "001-905-080-7679x1785",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        1,
+        60,
+        14,
+        22,
+        33,
+        33,
+        4,
+        60,
+        69,
+        48,
+        12,
+        33
+    ],
+    "login locations": [
+        [
+            -117.142802,
+            32.749148
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                97474,
+                0.48
+            ],
+            [
+                97474,
+                0.48
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "robert89@hotmail.com",
     "birthdate": "1954-04-13",
     "phone": "(154)939-0516x8808",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        0,
+        49,
+        12,
+        30,
+        40,
+        28,
+        43,
+        26,
+        75
+    ],
+    "login locations": [
+        [
+            -121.921232,
+            37.378629
+        ]
+    ],
+    "relationships": []
 }

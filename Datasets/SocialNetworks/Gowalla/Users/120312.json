@@ -5,7 +5,27 @@
     "email": "benjamin34@yahoo.com",
     "birthdate": "1927-03-09",
     "phone": "+1-361-297-9959x13650",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        20,
+        11,
+        55,
+        23,
+        22,
+        33,
+        70,
+        17,
+        75,
+        0,
+        32,
+        51,
+        23
+    ],
+    "login locations": [
+        [
+            -116.544798,
+            33.830776
+        ]
+    ],
+    "relationships": []
 }

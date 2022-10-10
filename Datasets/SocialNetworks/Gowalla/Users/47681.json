@@ -5,7 +5,20 @@
     "email": "wtanner@yahoo.com",
     "birthdate": "2017-01-19",
     "phone": "591.152.8855",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        69,
+        57,
+        58,
+        54,
+        31,
+        69
+    ],
+    "login locations": [
+        [
+            -117.725581,
+            33.583588
+        ]
+    ],
+    "relationships": []
 }

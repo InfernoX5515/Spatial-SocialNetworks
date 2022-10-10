@@ -5,7 +5,22 @@
     "email": "michaela46@hotmail.com",
     "birthdate": "1996-04-24",
     "phone": "001-674-276-7561x355",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        16,
+        52,
+        38,
+        27,
+        55,
+        57,
+        26,
+        42,
+        42
+    ],
+    "login locations": [
+        [
+            -122.411427,
+            37.786894
+        ]
+    ],
+    "relationships": []
 }

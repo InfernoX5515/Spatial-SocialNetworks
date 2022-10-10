@@ -5,7 +5,18 @@
     "email": "cathy25@yahoo.com",
     "birthdate": "1990-09-24",
     "phone": "(379)275-1013",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        35,
+        36,
+        65,
+        62,
+        69
+    ],
+    "login locations": [
+        [
+            -118.90958,
+            34.223938
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "vboyd@yahoo.com",
     "birthdate": "1924-03-30",
     "phone": "(544)458-4720",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        71,
+        2,
+        37,
+        33
+    ],
+    "login locations": [
+        [
+            -121.990556,
+            37.3622
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "terrimiller@gmail.com",
     "birthdate": "1931-06-09",
     "phone": "(719)444-6996",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        59,
+        62,
+        63,
+        51,
+        64,
+        68,
+        6
+    ],
+    "login locations": [
+        [
+            -117.706186,
+            33.65087
+        ]
+    ],
+    "relationships": []
 }

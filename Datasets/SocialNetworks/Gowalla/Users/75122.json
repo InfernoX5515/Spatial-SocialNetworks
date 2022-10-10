@@ -5,7 +5,28 @@
     "email": "yhamilton@yahoo.com",
     "birthdate": "1907-06-29",
     "phone": "8823467898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        55,
+        74,
+        43,
+        11,
+        31,
+        12,
+        65,
+        6,
+        4,
+        7,
+        64,
+        44,
+        19,
+        3
+    ],
+    "login locations": [
+        [
+            -121.910199,
+            37.276806
+        ]
+    ],
+    "relationships": []
 }

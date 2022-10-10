@@ -5,7 +5,23 @@
     "email": "jodi32@yahoo.com",
     "birthdate": "2008-02-15",
     "phone": "119.191.0296x71752",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        25,
+        70,
+        3,
+        32,
+        63,
+        11,
+        66,
+        26,
+        4,
+        56
+    ],
+    "login locations": [
+        [
+            -119.757513,
+            36.811642
+        ]
+    ],
+    "relationships": []
 }

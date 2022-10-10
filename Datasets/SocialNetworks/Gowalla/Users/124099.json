@@ -5,7 +5,28 @@
     "email": "hodgeronald@yahoo.com",
     "birthdate": "1946-03-10",
     "phone": "+1-181-901-3169x50672",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        35,
+        40,
+        26
+    ],
+    "login locations": [
+        [
+            -122.015881,
+            37.835231
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                31777,
+                0.0133333333333
+            ],
+            [
+                31777,
+                0.0133333333333
+            ]
+        ]
+    ]
 }

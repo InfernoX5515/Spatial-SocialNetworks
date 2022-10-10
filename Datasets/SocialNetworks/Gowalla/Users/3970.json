@@ -5,7 +5,37 @@
     "email": "kimberly24@gmail.com",
     "birthdate": "1969-08-06",
     "phone": "011-198-3280x346",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        41,
+        51,
+        50,
+        49,
+        58,
+        48,
+        66,
+        59,
+        66,
+        35,
+        48,
+        26
+    ],
+    "login locations": [
+        [
+            -122.384744,
+            37.799662
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8430,
+                0.1
+            ],
+            [
+                4118,
+                0.0131578947368
+            ]
+        ]
+    ]
 }

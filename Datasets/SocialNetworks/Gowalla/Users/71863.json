@@ -5,7 +5,12 @@
     "email": "peter78@yahoo.com",
     "birthdate": "1978-10-25",
     "phone": "2970500160",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.120171,
+            33.773752
+        ]
+    ],
+    "relationships": []
 }

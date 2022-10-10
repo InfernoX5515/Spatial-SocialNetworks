@@ -5,7 +5,15 @@
     "email": "ggonzales@gmail.com",
     "birthdate": "1928-11-18",
     "phone": "281-799-1443x18778",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        30
+    ],
+    "login locations": [
+        [
+            -122.408641,
+            37.792381
+        ]
+    ],
+    "relationships": []
 }

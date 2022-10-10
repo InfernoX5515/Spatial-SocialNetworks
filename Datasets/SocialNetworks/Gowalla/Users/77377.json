@@ -5,7 +5,15 @@
     "email": "larry36@gmail.com",
     "birthdate": "1999-08-14",
     "phone": "+1-429-583-2589x44533",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        72
+    ],
+    "login locations": [
+        [
+            -118.340492,
+            34.094772
+        ]
+    ],
+    "relationships": []
 }

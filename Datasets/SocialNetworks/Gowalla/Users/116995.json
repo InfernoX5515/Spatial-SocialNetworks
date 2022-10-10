@@ -5,7 +5,34 @@
     "email": "ryan28@gmail.com",
     "birthdate": "1975-01-24",
     "phone": "967.631.0084",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        65,
+        62,
+        29,
+        70,
+        9,
+        15,
+        50,
+        13,
+        17
+    ],
+    "login locations": [
+        [
+            -121.285798,
+            38.669731
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                68804,
+                0.02
+            ],
+            [
+                68804,
+                0.02
+            ]
+        ]
+    ]
 }

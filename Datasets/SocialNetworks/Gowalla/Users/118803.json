@@ -5,7 +5,15 @@
     "email": "walkeramber@yahoo.com",
     "birthdate": "1933-10-22",
     "phone": "967.874.0308",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        33,
+        59
+    ],
+    "login locations": [
+        [
+            -117.144859,
+            32.790703
+        ]
+    ],
+    "relationships": []
 }

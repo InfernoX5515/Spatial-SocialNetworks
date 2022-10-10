@@ -5,7 +5,18 @@
     "email": "ryan42@hotmail.com",
     "birthdate": "1933-06-25",
     "phone": "005.679.7988",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        50,
+        42,
+        4,
+        26
+    ],
+    "login locations": [
+        [
+            -122.419556,
+            37.775446
+        ]
+    ],
+    "relationships": []
 }

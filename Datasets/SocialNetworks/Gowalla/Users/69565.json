@@ -5,7 +5,25 @@
     "email": "vmeyers@yahoo.com",
     "birthdate": "1961-10-18",
     "phone": "+1-266-615-5209x71433",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        71,
+        67,
+        73,
+        71,
+        7,
+        14,
+        26,
+        26,
+        74,
+        75,
+        59
+    ],
+    "login locations": [
+        [
+            -121.888658,
+            37.330866
+        ]
+    ],
+    "relationships": []
 }

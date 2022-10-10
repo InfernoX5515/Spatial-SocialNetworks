@@ -5,7 +5,33 @@
     "email": "vvazquez@yahoo.com",
     "birthdate": "1991-07-01",
     "phone": "804.028.9956x40432",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        45,
+        4,
+        68,
+        63,
+        43,
+        21,
+        16,
+        3
+    ],
+    "login locations": [
+        [
+            -119.023366,
+            34.213268
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                125824,
+                0.0746268656716
+            ],
+            [
+                125827,
+                0.387096774194
+            ]
+        ]
+    ]
 }

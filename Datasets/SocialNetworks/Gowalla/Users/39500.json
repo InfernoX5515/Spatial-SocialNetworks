@@ -5,7 +5,25 @@
     "email": "wjenkins@hotmail.com",
     "birthdate": "1989-11-16",
     "phone": "1934905274",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        72,
+        55,
+        35,
+        26,
+        13,
+        54,
+        72,
+        23,
+        34,
+        45,
+        5
+    ],
+    "login locations": [
+        [
+            -118.360087,
+            34.074676
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "tevans@hotmail.com",
     "birthdate": "2009-05-27",
     "phone": "001-797-586-8342x1687",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        57,
+        21
+    ],
+    "login locations": [
+        [
+            -122.300186,
+            37.598515
+        ]
+    ],
+    "relationships": []
 }

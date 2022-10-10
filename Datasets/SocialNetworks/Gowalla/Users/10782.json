@@ -5,7 +5,28 @@
     "email": "rojaselizabeth@yahoo.com",
     "birthdate": "1925-10-13",
     "phone": "+1-992-134-9688x650",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        2,
+        37,
+        57
+    ],
+    "login locations": [
+        [
+            -117.883109,
+            33.882992
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10783,
+                0.0625
+            ],
+            [
+                10783,
+                0.0625
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,21 @@
     "email": "michael85@gmail.com",
     "birthdate": "1927-03-15",
     "phone": "950.246.0583",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        36,
+        20,
+        58,
+        1,
+        32,
+        5,
+        2,
+        8
+    ],
+    "login locations": [
+        [
+            -122.413775,
+            37.774528
+        ]
+    ],
+    "relationships": []
 }

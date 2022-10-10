@@ -5,7 +5,22 @@
     "email": "joseph26@gmail.com",
     "birthdate": "2009-03-13",
     "phone": "(356)783-0510x674",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        11,
+        44,
+        50,
+        21,
+        45,
+        57,
+        44,
+        15
+    ],
+    "login locations": [
+        [
+            -118.388518,
+            34.120205
+        ]
+    ],
+    "relationships": []
 }

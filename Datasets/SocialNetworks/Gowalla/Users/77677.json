@@ -5,7 +5,15 @@
     "email": "farrellscott@hotmail.com",
     "birthdate": "1943-11-30",
     "phone": "(334)305-6393x2520",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        54
+    ],
+    "login locations": [
+        [
+            -122.564558,
+            37.971261
+        ]
+    ],
+    "relationships": []
 }

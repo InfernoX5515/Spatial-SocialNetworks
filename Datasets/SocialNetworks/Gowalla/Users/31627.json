@@ -5,7 +5,24 @@
     "email": "wwallace@hotmail.com",
     "birthdate": "2010-05-19",
     "phone": "001-065-884-8618x6608",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        49,
+        55,
+        28,
+        61,
+        32,
+        68,
+        55,
+        44,
+        72,
+        13
+    ],
+    "login locations": [
+        [
+            -116.372985,
+            33.756326
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,23 @@
     "email": "brownwilliam@gmail.com",
     "birthdate": "1947-06-26",
     "phone": "+1-915-975-8412x423",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        66,
+        29,
+        10,
+        54,
+        61,
+        12,
+        24,
+        43,
+        0,
+        9
+    ],
+    "login locations": [
+        [
+            -121.933357,
+            37.30946
+        ]
+    ],
+    "relationships": []
 }

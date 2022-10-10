@@ -5,7 +5,18 @@
     "email": "marshdonald@yahoo.com",
     "birthdate": "1939-02-16",
     "phone": "001-394-163-3897",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        15,
+        41,
+        15,
+        46
+    ],
+    "login locations": [
+        [
+            -122.42063,
+            37.786191
+        ]
+    ],
+    "relationships": []
 }

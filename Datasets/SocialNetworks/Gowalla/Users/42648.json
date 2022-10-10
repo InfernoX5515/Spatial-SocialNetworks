@@ -5,7 +5,24 @@
     "email": "cody86@hotmail.com",
     "birthdate": "1919-05-09",
     "phone": "397-003-4415x8058",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        24,
+        19,
+        44,
+        9,
+        32,
+        47,
+        56,
+        32,
+        43,
+        71,
+        1
+    ],
+    "login locations": [
+        [
+            -118.346173,
+            34.117659
+        ]
+    ],
+    "relationships": []
 }

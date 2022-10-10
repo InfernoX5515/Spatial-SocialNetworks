@@ -5,7 +5,15 @@
     "email": "sarahlynn@yahoo.com",
     "birthdate": "1967-07-16",
     "phone": "+1-700-517-0816x80503",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        72,
+        16
+    ],
+    "login locations": [
+        [
+            -118.039407,
+            33.858718
+        ]
+    ],
+    "relationships": []
 }

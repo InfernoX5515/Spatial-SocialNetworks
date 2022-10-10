@@ -5,7 +5,37 @@
     "email": "webbchristy@gmail.com",
     "birthdate": "1973-10-18",
     "phone": "190.823.6948x2728",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        30,
+        12,
+        50,
+        17,
+        46,
+        56,
+        34,
+        62,
+        74,
+        56,
+        40,
+        62
+    ],
+    "login locations": [
+        [
+            -117.216672,
+            32.86398
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                105459,
+                0.01
+            ],
+            [
+                105459,
+                0.01
+            ]
+        ]
+    ]
 }

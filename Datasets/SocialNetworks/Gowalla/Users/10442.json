@@ -5,7 +5,34 @@
     "email": "mboyd@gmail.com",
     "birthdate": "1907-09-08",
     "phone": "(437)442-9473x6566",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        59,
+        58,
+        58,
+        29,
+        68,
+        18,
+        65,
+        45,
+        19,
+        11
+    ],
+    "login locations": [
+        [
+            -118.200422,
+            34.021939
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                10371,
+                0.01
+            ],
+            [
+                10371,
+                0.01
+            ]
+        ]
+    ]
 }

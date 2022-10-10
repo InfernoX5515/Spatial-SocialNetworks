@@ -5,7 +5,12 @@
     "email": "lesterjohn@hotmail.com",
     "birthdate": "1988-04-13",
     "phone": "(748)037-3937x3600",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.172903,
+            37.44755
+        ]
+    ],
+    "relationships": []
 }

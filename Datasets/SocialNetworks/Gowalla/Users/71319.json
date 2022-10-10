@@ -5,7 +5,26 @@
     "email": "margaret41@yahoo.com",
     "birthdate": "1929-10-21",
     "phone": "+1-315-662-1546x7320",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        29
+    ],
+    "login locations": [
+        [
+            -122.439889,
+            37.769743
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4436,
+                0.01
+            ],
+            [
+                4436,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,14 @@
     "email": "hmosley@hotmail.com",
     "birthdate": "1913-04-24",
     "phone": "568.520.8819x91120",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2
+    ],
+    "login locations": [
+        [
+            -122.395217,
+            37.773915
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,26 @@
     "email": "patrickmason@gmail.com",
     "birthdate": "1966-09-28",
     "phone": "+1-621-434-5493x016",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        43
+    ],
+    "login locations": [
+        [
+            -118.171472,
+            33.81035
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6551,
+                0.04
+            ],
+            [
+                6551,
+                0.04
+            ]
+        ]
+    ]
 }

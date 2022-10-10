@@ -5,7 +5,12 @@
     "email": "ddunn@yahoo.com",
     "birthdate": "1981-10-24",
     "phone": "001-996-025-0686",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.639479,
+            34.157572
+        ]
+    ],
+    "relationships": []
 }

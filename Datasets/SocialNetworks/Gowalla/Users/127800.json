@@ -5,7 +5,24 @@
     "email": "hsmith@gmail.com",
     "birthdate": "1922-09-03",
     "phone": "001-503-368-8420",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        42,
+        23,
+        39,
+        11,
+        10,
+        10,
+        36,
+        53,
+        61,
+        9
+    ],
+    "login locations": [
+        [
+            -122.437622,
+            37.771958
+        ]
+    ],
+    "relationships": []
 }

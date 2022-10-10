@@ -5,7 +5,17 @@
     "email": "kperkins@hotmail.com",
     "birthdate": "1964-10-13",
     "phone": "+1-725-842-0231x84608",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        65,
+        54,
+        38
+    ],
+    "login locations": [
+        [
+            -122.456423,
+            37.780314
+        ]
+    ],
+    "relationships": []
 }

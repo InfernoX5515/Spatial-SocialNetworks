@@ -5,7 +5,20 @@
     "email": "alisonjoseph@hotmail.com",
     "birthdate": "1970-10-12",
     "phone": "001-495-881-4014",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        74,
+        19,
+        59,
+        16,
+        74,
+        16,
+        42
+    ],
+    "login locations": [
+        [
+            -121.436045,
+            38.602703
+        ]
+    ],
+    "relationships": []
 }

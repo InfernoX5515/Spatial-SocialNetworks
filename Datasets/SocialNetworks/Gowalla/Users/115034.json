@@ -5,7 +5,31 @@
     "email": "andersonchristine@yahoo.com",
     "birthdate": "1969-05-14",
     "phone": "904-226-1085",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        19,
+        43,
+        12,
+        66,
+        69,
+        35
+    ],
+    "login locations": [
+        [
+            -117.858145,
+            33.680981
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                23415,
+                0.02
+            ],
+            [
+                23415,
+                0.02
+            ]
+        ]
+    ]
 }

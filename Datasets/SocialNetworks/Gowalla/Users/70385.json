@@ -5,7 +5,30 @@
     "email": "abutler@hotmail.com",
     "birthdate": "1944-06-30",
     "phone": "001-303-303-0030",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        57,
+        9,
+        34,
+        75,
+        0
+    ],
+    "login locations": [
+        [
+            -121.23346,
+            38.643805
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                38220,
+                0.0484848484848
+            ],
+            [
+                38224,
+                0.0595238095238
+            ]
+        ]
+    ]
 }

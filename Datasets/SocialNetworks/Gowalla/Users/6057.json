@@ -5,7 +5,25 @@
     "email": "biancanguyen@yahoo.com",
     "birthdate": "1922-03-06",
     "phone": "001-689-168-4974x0306",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        67
+    ],
+    "login locations": [
+        [
+            -122.062312,
+            37.686141
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                268,
+                0.01
+            ],
+            [
+                487,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,21 @@
     "email": "xwood@yahoo.com",
     "birthdate": "1928-11-26",
     "phone": "128.037.8522",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        40,
+        55,
+        13,
+        11,
+        33,
+        38,
+        21
+    ],
+    "login locations": [
+        [
+            -122.032541,
+            37.914125
+        ]
+    ],
+    "relationships": []
 }

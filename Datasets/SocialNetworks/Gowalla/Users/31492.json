@@ -5,7 +5,30 @@
     "email": "stephanie48@gmail.com",
     "birthdate": "1915-01-05",
     "phone": "(424)873-0251",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        7,
+        45,
+        7,
+        64,
+        58
+    ],
+    "login locations": [
+        [
+            -122.398896,
+            37.773623
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                478,
+                0.0248756218905
+            ],
+            [
+                5312,
+                0.15
+            ]
+        ]
+    ]
 }

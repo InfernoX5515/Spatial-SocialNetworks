@@ -5,7 +5,21 @@
     "email": "sarah76@hotmail.com",
     "birthdate": "1997-07-07",
     "phone": "001-547-275-2512x75975",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        24,
+        29,
+        40,
+        21,
+        5,
+        26,
+        55
+    ],
+    "login locations": [
+        [
+            -122.419471,
+            37.789279
+        ]
+    ],
+    "relationships": []
 }

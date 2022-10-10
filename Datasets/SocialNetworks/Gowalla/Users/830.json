@@ -5,7 +5,31 @@
     "email": "erika99@hotmail.com",
     "birthdate": "1937-10-18",
     "phone": "(187)469-7898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        63,
+        75,
+        27,
+        20,
+        28,
+        3
+    ],
+    "login locations": [
+        [
+            -122.390885,
+            37.778023
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                41222,
+                0.102857142857
+            ],
+            [
+                41222,
+                0.102857142857
+            ]
+        ]
+    ]
 }

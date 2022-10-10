@@ -5,7 +5,23 @@
     "email": "carolynlewis@yahoo.com",
     "birthdate": "1928-09-07",
     "phone": "001-831-367-8030x9395",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.016922,
+            37.269799
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5635,
+                0.01
+            ],
+            [
+                5635,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,25 @@
     "email": "suttonwilliam@yahoo.com",
     "birthdate": "2014-05-12",
     "phone": "(012)553-9581",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        31,
+        29,
+        31,
+        9,
+        33,
+        18,
+        2,
+        11,
+        11,
+        36,
+        10
+    ],
+    "login locations": [
+        [
+            -122.029285,
+            37.096101
+        ]
+    ],
+    "relationships": []
 }

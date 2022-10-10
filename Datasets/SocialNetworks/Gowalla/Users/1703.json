@@ -5,7 +5,38 @@
     "email": "christopher88@hotmail.com",
     "birthdate": "1967-11-15",
     "phone": "001-315-558-7372x5288",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        73,
+        48,
+        45,
+        20,
+        34,
+        55,
+        67,
+        65,
+        15,
+        68,
+        56,
+        70,
+        49,
+        37
+    ],
+    "login locations": [
+        [
+            -122.133043,
+            37.329164
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                34836,
+                0.5
+            ],
+            [
+                5332,
+                0.0681818181818
+            ]
+        ]
+    ]
 }

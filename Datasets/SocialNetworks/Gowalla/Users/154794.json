@@ -5,7 +5,22 @@
     "email": "wrightpatricia@gmail.com",
     "birthdate": "1990-03-12",
     "phone": "242.001.9447",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        29,
+        46,
+        45,
+        52,
+        50,
+        61,
+        20,
+        68
+    ],
+    "login locations": [
+        [
+            -122.311327,
+            37.712985
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,22 @@
     "email": "barbara98@gmail.com",
     "birthdate": "1959-12-21",
     "phone": "(427)266-1358",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        33,
+        48,
+        68,
+        66,
+        2,
+        27,
+        39,
+        10
+    ],
+    "login locations": [
+        [
+            -122.08936,
+            37.388701
+        ]
+    ],
+    "relationships": []
 }

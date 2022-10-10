@@ -5,7 +5,26 @@
     "email": "henry87@gmail.com",
     "birthdate": "1951-04-02",
     "phone": "013.777.2254x05725",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        72,
+        14,
+        58,
+        6,
+        54,
+        11,
+        51,
+        2,
+        0,
+        10,
+        49,
+        7
+    ],
+    "login locations": [
+        [
+            -121.525444,
+            38.665377
+        ]
+    ],
+    "relationships": []
 }

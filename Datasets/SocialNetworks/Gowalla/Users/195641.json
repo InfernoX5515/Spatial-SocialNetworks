@@ -5,7 +5,23 @@
     "email": "jamiemendez@yahoo.com",
     "birthdate": "2001-06-07",
     "phone": "818-728-6429x82016",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        37,
+        17,
+        56,
+        1,
+        9,
+        58,
+        54,
+        8,
+        27
+    ],
+    "login locations": [
+        [
+            -122.043287,
+            37.327034
+        ]
+    ],
+    "relationships": []
 }

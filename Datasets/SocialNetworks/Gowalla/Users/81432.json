@@ -5,7 +5,25 @@
     "email": "hillandrew@yahoo.com",
     "birthdate": "1998-04-04",
     "phone": "374.280.7695",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        7,
+        5,
+        48,
+        64,
+        24,
+        3,
+        54,
+        10,
+        53,
+        7,
+        9
+    ],
+    "login locations": [
+        [
+            -122.414216,
+            37.737138
+        ]
+    ],
+    "relationships": []
 }

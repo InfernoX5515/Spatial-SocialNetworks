@@ -5,7 +5,14 @@
     "email": "miranda07@hotmail.com",
     "birthdate": "2015-10-24",
     "phone": "615-243-6802x3537",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54
+    ],
+    "login locations": [
+        [
+            -121.365985,
+            37.855583
+        ]
+    ],
+    "relationships": []
 }

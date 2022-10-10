@@ -5,7 +5,32 @@
     "email": "thomas66@hotmail.com",
     "birthdate": "1931-10-16",
     "phone": "+1-946-751-6253x124",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        25,
+        27,
+        55,
+        4,
+        51,
+        7,
+        66
+    ],
+    "login locations": [
+        [
+            -117.131214,
+            32.740247
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11007,
+                0.158844765343
+            ],
+            [
+                11007,
+                0.158844765343
+            ]
+        ]
+    ]
 }

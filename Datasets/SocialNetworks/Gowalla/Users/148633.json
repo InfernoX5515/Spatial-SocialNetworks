@@ -5,7 +5,27 @@
     "email": "erikabridges@hotmail.com",
     "birthdate": "2011-09-05",
     "phone": "(379)432-5151",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        23,
+        23,
+        55,
+        63,
+        46,
+        74,
+        63,
+        24,
+        36,
+        42,
+        45,
+        70,
+        12
+    ],
+    "login locations": [
+        [
+            -118.012206,
+            33.686372
+        ]
+    ],
+    "relationships": []
 }

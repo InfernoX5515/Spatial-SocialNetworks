@@ -5,7 +5,15 @@
     "email": "mark62@hotmail.com",
     "birthdate": "1930-04-24",
     "phone": "+1-505-293-4680x74922",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        5,
+        29
+    ],
+    "login locations": [
+        [
+            -117.958793,
+            33.836441
+        ]
+    ],
+    "relationships": []
 }

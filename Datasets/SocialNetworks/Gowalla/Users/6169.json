@@ -5,7 +5,18 @@
     "email": "mooreerika@yahoo.com",
     "birthdate": "1979-03-14",
     "phone": "416-019-8264x330",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        5,
+        26,
+        2,
+        58
+    ],
+    "login locations": [
+        [
+            -122.413275,
+            37.760859
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,32 @@
     "email": "diazsarah@gmail.com",
     "birthdate": "2018-08-20",
     "phone": "131-028-2286x128",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        21,
+        61,
+        53,
+        57,
+        0,
+        35,
+        16,
+        18
+    ],
+    "login locations": [
+        [
+            -122.427708,
+            37.648857
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                11352,
+                0.01
+            ],
+            [
+                115088,
+                0.01
+            ]
+        ]
+    ]
 }

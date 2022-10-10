@@ -5,7 +5,33 @@
     "email": "hbell@hotmail.com",
     "birthdate": "1947-12-16",
     "phone": "025-824-7356x43436",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        42,
+        3,
+        4,
+        8,
+        37,
+        53,
+        12,
+        69,
+        65
+    ],
+    "login locations": [
+        [
+            -122.424444,
+            37.774236
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                182,
+                0.0434782608696
+            ],
+            [
+                4399,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "jeffreywilliams@hotmail.com",
     "birthdate": "2021-03-28",
     "phone": "735.500.2017",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        32,
+        10,
+        35,
+        49,
+        18,
+        71,
+        62,
+        52,
+        58
+    ],
+    "login locations": [
+        [
+            -118.371934,
+            34.043355
+        ]
+    ],
+    "relationships": []
 }

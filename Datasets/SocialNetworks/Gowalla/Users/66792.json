@@ -5,7 +5,26 @@
     "email": "debbiejohnson@yahoo.com",
     "birthdate": "1962-01-04",
     "phone": "256-181-5300",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        6,
+        52,
+        32,
+        62,
+        3,
+        0,
+        72,
+        19,
+        54,
+        71,
+        55,
+        37,
+        61
+    ],
+    "login locations": [
+        [
+            -117.919652,
+            33.812915
+        ]
+    ],
+    "relationships": []
 }

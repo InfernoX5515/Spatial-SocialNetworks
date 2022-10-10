@@ -5,7 +5,14 @@
     "email": "mgonzalez@gmail.com",
     "birthdate": "1955-01-18",
     "phone": "001-088-547-4435x58991",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26
+    ],
+    "login locations": [
+        [
+            -118.147256,
+            34.041207
+        ]
+    ],
+    "relationships": []
 }

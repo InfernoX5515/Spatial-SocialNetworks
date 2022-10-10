@@ -5,7 +5,28 @@
     "email": "kristiebailey@hotmail.com",
     "birthdate": "2017-05-22",
     "phone": "267.353.8964",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        14,
+        40,
+        8,
+        49
+    ],
+    "login locations": [
+        [
+            -118.330793,
+            33.893758
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                49348,
+                0.01
+            ],
+            [
+                142886,
+                0.6
+            ]
+        ]
+    ]
 }

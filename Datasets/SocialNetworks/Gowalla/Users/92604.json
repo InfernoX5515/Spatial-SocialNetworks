@@ -5,7 +5,23 @@
     "email": "donna31@yahoo.com",
     "birthdate": "1990-12-22",
     "phone": "(656)339-2425x4708",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        52,
+        51,
+        2,
+        74,
+        20,
+        30,
+        32,
+        68,
+        72
+    ],
+    "login locations": [
+        [
+            -117.122805,
+            32.823872
+        ]
+    ],
+    "relationships": []
 }

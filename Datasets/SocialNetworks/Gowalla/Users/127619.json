@@ -5,7 +5,21 @@
     "email": "olin@hotmail.com",
     "birthdate": "1967-03-09",
     "phone": "092-080-2372x8068",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        39,
+        67,
+        56,
+        61,
+        9,
+        67,
+        50,
+        74
+    ],
+    "login locations": [
+        [
+            -119.212803,
+            34.170022
+        ]
+    ],
+    "relationships": []
 }

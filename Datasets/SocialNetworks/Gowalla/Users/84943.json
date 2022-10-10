@@ -5,7 +5,24 @@
     "email": "sierra06@yahoo.com",
     "birthdate": "1993-03-11",
     "phone": "+1-533-486-9270x410",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        7,
+        40,
+        18,
+        19,
+        68,
+        72,
+        57,
+        13,
+        20,
+        10
+    ],
+    "login locations": [
+        [
+            -122.000759,
+            37.740134
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "brandy76@hotmail.com",
     "birthdate": "1991-07-18",
     "phone": "001-039-554-9544x84351",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69
+    ],
+    "login locations": [
+        [
+            -117.740038,
+            33.562844
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "gsmith@hotmail.com",
     "birthdate": "2020-02-27",
     "phone": "012-968-9713x54798",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        7
+    ],
+    "login locations": [
+        [
+            -117.821936,
+            33.9339
+        ]
+    ],
+    "relationships": []
 }

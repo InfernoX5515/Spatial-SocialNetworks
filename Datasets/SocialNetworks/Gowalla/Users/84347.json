@@ -5,7 +5,23 @@
     "email": "tammymartin@gmail.com",
     "birthdate": "1909-12-21",
     "phone": "547.568.4508x07845",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -116.320259,
+            34.140939
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                8592,
+                0.01
+            ],
+            [
+                8592,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,22 @@
     "email": "qadams@hotmail.com",
     "birthdate": "1941-03-09",
     "phone": "(145)501-7376",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        70,
+        3,
+        39,
+        11,
+        72,
+        75,
+        73,
+        67,
+        50
+    ],
+    "login locations": [
+        [
+            -121.959239,
+            37.355376
+        ]
+    ],
+    "relationships": []
 }

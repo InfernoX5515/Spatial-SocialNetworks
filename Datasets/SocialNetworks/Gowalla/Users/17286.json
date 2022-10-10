@@ -5,7 +5,27 @@
     "email": "chernandez@hotmail.com",
     "birthdate": "1914-08-08",
     "phone": "+1-711-482-0871x2099",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        10,
+        67,
+        1,
+        29,
+        50,
+        19,
+        54,
+        61,
+        55,
+        74,
+        47,
+        1,
+        31
+    ],
+    "login locations": [
+        [
+            -121.955502,
+            37.095605
+        ]
+    ],
+    "relationships": []
 }

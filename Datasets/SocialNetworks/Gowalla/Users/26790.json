@@ -5,7 +5,20 @@
     "email": "kylecarey@yahoo.com",
     "birthdate": "1910-02-19",
     "phone": "+1-631-752-3501x1996",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        52,
+        34,
+        65,
+        68,
+        30,
+        7
+    ],
+    "login locations": [
+        [
+            -118.341724,
+            34.092289
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,25 @@
     "email": "jmarquez@hotmail.com",
     "birthdate": "1922-11-24",
     "phone": "001-418-454-2298x22897",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        20,
+        7,
+        13,
+        20,
+        58,
+        12,
+        70,
+        58,
+        47,
+        1,
+        58
+    ],
+    "login locations": [
+        [
+            -121.896826,
+            37.288407
+        ]
+    ],
+    "relationships": []
 }

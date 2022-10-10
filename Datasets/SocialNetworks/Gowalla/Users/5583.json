@@ -5,7 +5,35 @@
     "email": "lorigeorge@yahoo.com",
     "birthdate": "1990-09-16",
     "phone": "328-024-7519",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        64,
+        15,
+        5,
+        65,
+        64,
+        12,
+        50,
+        49,
+        46,
+        4
+    ],
+    "login locations": [
+        [
+            -122.424273,
+            37.757396
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43,
+                0.0151515151515
+            ],
+            [
+                5321,
+                0.0263157894737
+            ]
+        ]
+    ]
 }

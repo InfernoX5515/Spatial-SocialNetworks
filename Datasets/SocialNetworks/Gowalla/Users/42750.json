@@ -5,7 +5,25 @@
     "email": "nathanrodriguez@yahoo.com",
     "birthdate": "1927-10-31",
     "phone": "066.019.4872x1778",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        11,
+        21,
+        34,
+        73,
+        38,
+        42,
+        21,
+        74,
+        43,
+        51,
+        64,
+        71
+    ],
+    "login locations": [
+        [
+            -122.041169,
+            37.283779
+        ]
+    ],
+    "relationships": []
 }

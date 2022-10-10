@@ -5,7 +5,29 @@
     "email": "james62@yahoo.com",
     "birthdate": "1968-05-24",
     "phone": "+1-947-993-1897x00605",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        33,
+        11,
+        72,
+        53
+    ],
+    "login locations": [
+        [
+            -122.153652,
+            37.426643
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4421,
+                0.0202429149798
+            ],
+            [
+                5353,
+                0.0873015873016
+            ]
+        ]
+    ]
 }

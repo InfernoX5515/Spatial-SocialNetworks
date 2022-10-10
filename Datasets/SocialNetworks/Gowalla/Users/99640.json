@@ -5,7 +5,15 @@
     "email": "sandrafrederick@gmail.com",
     "birthdate": "1966-05-15",
     "phone": "+1-727-585-1926",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        9
+    ],
+    "login locations": [
+        [
+            -117.150048,
+            32.764411
+        ]
+    ],
+    "relationships": []
 }

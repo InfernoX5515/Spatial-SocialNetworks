@@ -5,7 +5,21 @@
     "email": "johnsonchristina@hotmail.com",
     "birthdate": "1961-10-29",
     "phone": "427-600-8172x256",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        30,
+        30,
+        46,
+        75,
+        74,
+        33,
+        75
+    ],
+    "login locations": [
+        [
+            -122.387734,
+            37.780755
+        ]
+    ],
+    "relationships": []
 }

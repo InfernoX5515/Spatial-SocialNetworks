@@ -5,7 +5,17 @@
     "email": "ryan67@yahoo.com",
     "birthdate": "1994-08-10",
     "phone": "(023)888-7739x2175",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        4,
+        31,
+        42
+    ],
+    "login locations": [
+        [
+            -122.054384,
+            37.320516
+        ]
+    ],
+    "relationships": []
 }

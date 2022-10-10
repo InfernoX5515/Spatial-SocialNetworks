@@ -5,7 +5,20 @@
     "email": "wilsoncaitlin@gmail.com",
     "birthdate": "1910-04-04",
     "phone": "977.556.5850x986",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        72,
+        7,
+        72,
+        41,
+        55,
+        58
+    ],
+    "login locations": [
+        [
+            -121.548969,
+            38.636542
+        ]
+    ],
+    "relationships": []
 }

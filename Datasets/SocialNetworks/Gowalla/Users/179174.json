@@ -5,7 +5,28 @@
     "email": "lwelch@gmail.com",
     "birthdate": "2006-06-07",
     "phone": "042-824-5916x3841",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        7,
+        11,
+        4,
+        19,
+        23,
+        30,
+        48,
+        57,
+        43,
+        75,
+        52,
+        47,
+        40,
+        17
+    ],
+    "login locations": [
+        [
+            -121.93845,
+            37.366915
+        ]
+    ],
+    "relationships": []
 }

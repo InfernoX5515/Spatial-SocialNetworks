@@ -5,7 +5,31 @@
     "email": "justin22@yahoo.com",
     "birthdate": "1950-07-23",
     "phone": "001-569-519-3140x4293",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        38,
+        62,
+        31,
+        65,
+        3,
+        57,
+        59
+    ],
+    "login locations": [
+        [
+            -118.108554,
+            34.010205
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                118958,
+                0.0474860335196
+            ],
+            [
+                118958,
+                0.0474860335196
+            ]
+        ]
+    ]
 }

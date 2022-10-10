@@ -5,7 +5,14 @@
     "email": "kimnichole@hotmail.com",
     "birthdate": "2001-07-09",
     "phone": "886-741-4728x626",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62
+    ],
+    "login locations": [
+        [
+            -122.40544,
+            37.771104
+        ]
+    ],
+    "relationships": []
 }

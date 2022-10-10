@@ -5,7 +5,20 @@
     "email": "kennethbrowning@yahoo.com",
     "birthdate": "1907-11-13",
     "phone": "858-237-9972x4545",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        11,
+        44,
+        74,
+        17,
+        42,
+        54
+    ],
+    "login locations": [
+        [
+            -120.99071,
+            37.669713
+        ]
+    ],
+    "relationships": []
 }

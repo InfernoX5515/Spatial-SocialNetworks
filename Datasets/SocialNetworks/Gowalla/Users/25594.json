@@ -5,7 +5,17 @@
     "email": "ryannorman@yahoo.com",
     "birthdate": "1909-09-27",
     "phone": "+1-664-025-9640x976",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        58,
+        59,
+        72
+    ],
+    "login locations": [
+        [
+            -118.35896,
+            34.078278
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "patricia69@yahoo.com",
     "birthdate": "1999-04-29",
     "phone": "001-962-507-0201x1505",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        34,
+        17
+    ],
+    "login locations": [
+        [
+            -122.413772,
+            37.786253
+        ]
+    ],
+    "relationships": []
 }

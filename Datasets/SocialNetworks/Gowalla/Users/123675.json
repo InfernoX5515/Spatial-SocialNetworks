@@ -5,7 +5,28 @@
     "email": "holtbrendan@gmail.com",
     "birthdate": "1997-11-05",
     "phone": "055-984-5202x57830",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        44,
+        51,
+        35,
+        75,
+        55,
+        16,
+        64,
+        19,
+        72,
+        43,
+        18,
+        12,
+        1,
+        10,
+        21
+    ],
+    "login locations": [
+        [
+            -120.998821,
+            37.649178
+        ]
+    ],
+    "relationships": []
 }

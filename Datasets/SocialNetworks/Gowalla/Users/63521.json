@@ -5,7 +5,27 @@
     "email": "matthewware@hotmail.com",
     "birthdate": "1941-05-03",
     "phone": "221.986.7560",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        44,
+        19,
+        14,
+        52,
+        73,
+        23,
+        41,
+        16,
+        13,
+        3,
+        61,
+        49,
+        44
+    ],
+    "login locations": [
+        [
+            -118.430109,
+            34.023913
+        ]
+    ],
+    "relationships": []
 }

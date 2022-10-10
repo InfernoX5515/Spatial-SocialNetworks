@@ -5,7 +5,25 @@
     "email": "otaylor@hotmail.com",
     "birthdate": "2004-10-01",
     "phone": "159.053.3057x8723",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        70,
+        42,
+        59,
+        39,
+        58,
+        35,
+        62,
+        49,
+        58,
+        39,
+        10
+    ],
+    "login locations": [
+        [
+            -118.299369,
+            34.065458
+        ]
+    ],
+    "relationships": []
 }

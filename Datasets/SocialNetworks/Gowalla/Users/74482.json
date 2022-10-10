@@ -5,7 +5,18 @@
     "email": "scottheather@hotmail.com",
     "birthdate": "1962-02-11",
     "phone": "0182767940",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        36,
+        29,
+        60,
+        15
+    ],
+    "login locations": [
+        [
+            -118.359304,
+            34.000395
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "sarah59@yahoo.com",
     "birthdate": "1985-12-17",
     "phone": "(745)122-9943x59226",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        12,
+        68,
+        20
+    ],
+    "login locations": [
+        [
+            -122.065007,
+            37.975512
+        ]
+    ],
+    "relationships": []
 }

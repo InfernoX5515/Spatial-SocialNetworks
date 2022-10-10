@@ -5,7 +5,27 @@
     "email": "brenda22@yahoo.com",
     "birthdate": "1920-01-23",
     "phone": "+1-442-770-1413x0922",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        15,
+        13,
+        11,
+        73,
+        70,
+        73,
+        50,
+        62,
+        19,
+        39,
+        19,
+        8,
+        34,
+        20
+    ],
+    "login locations": [
+        [
+            -118.336086,
+            34.169369
+        ]
+    ],
+    "relationships": []
 }

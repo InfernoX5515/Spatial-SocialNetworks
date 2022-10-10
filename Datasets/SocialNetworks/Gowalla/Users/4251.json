@@ -5,7 +5,25 @@
     "email": "bruceanthony@hotmail.com",
     "birthdate": "1939-12-30",
     "phone": "133-592-5716x341",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9
+    ],
+    "login locations": [
+        [
+            -122.4127,
+            37.775767
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4232,
+                0.0366598778004
+            ],
+            [
+                4247,
+                0.666666666667
+            ]
+        ]
+    ]
 }

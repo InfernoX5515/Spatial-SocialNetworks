@@ -5,7 +5,38 @@
     "email": "petersenmelissa@gmail.com",
     "birthdate": "1986-02-10",
     "phone": "316.432.5419",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        27,
+        63,
+        46,
+        57,
+        16,
+        3,
+        31,
+        65,
+        49,
+        60,
+        70,
+        30,
+        52
+    ],
+    "login locations": [
+        [
+            -122.276695,
+            37.944084
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1280,
+                0.02
+            ],
+            [
+                1280,
+                0.02
+            ]
+        ]
+    ]
 }

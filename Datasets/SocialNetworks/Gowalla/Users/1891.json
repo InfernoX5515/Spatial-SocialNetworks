@@ -5,7 +5,25 @@
     "email": "douglas73@hotmail.com",
     "birthdate": "1964-01-28",
     "phone": "(660)455-8394x518",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        58,
+        71,
+        71,
+        21,
+        29,
+        67,
+        38,
+        55,
+        22,
+        22,
+        44
+    ],
+    "login locations": [
+        [
+            -122.001106,
+            37.332089
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "bdiaz@yahoo.com",
     "birthdate": "2005-08-22",
     "phone": "505-706-3040",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        41,
+        71,
+        11,
+        71
+    ],
+    "login locations": [
+        [
+            -122.015847,
+            37.855936
+        ]
+    ],
+    "relationships": []
 }

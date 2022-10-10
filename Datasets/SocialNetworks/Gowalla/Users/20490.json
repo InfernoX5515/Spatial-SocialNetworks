@@ -5,7 +5,12 @@
     "email": "fergusonwanda@yahoo.com",
     "birthdate": "1918-07-30",
     "phone": "463.639.4504",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.24298,
+            33.04843
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,38 @@
     "email": "gwaller@hotmail.com",
     "birthdate": "1941-07-18",
     "phone": "859-088-3912",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41,
+        47,
+        71,
+        64,
+        68,
+        7,
+        20,
+        11,
+        21,
+        25,
+        6,
+        45,
+        71,
+        14
+    ],
+    "login locations": [
+        [
+            -122.085819,
+            37.42109
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6600,
+                0.030303030303
+            ],
+            [
+                6600,
+                0.030303030303
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,33 @@
     "email": "hansenjoseph@gmail.com",
     "birthdate": "2016-02-09",
     "phone": "001-563-330-8947x700",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        42,
+        35,
+        65,
+        65,
+        4,
+        6,
+        59,
+        6
+    ],
+    "login locations": [
+        [
+            -118.348236,
+            33.816123
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                90801,
+                0.02
+            ],
+            [
+                90802,
+                0.08
+            ]
+        ]
+    ]
 }

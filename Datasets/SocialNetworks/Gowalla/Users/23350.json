@@ -5,7 +5,15 @@
     "email": "riveratina@gmail.com",
     "birthdate": "2003-03-21",
     "phone": "765-994-7392x6715",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        47
+    ],
+    "login locations": [
+        [
+            -117.835906,
+            33.765885
+        ]
+    ],
+    "relationships": []
 }

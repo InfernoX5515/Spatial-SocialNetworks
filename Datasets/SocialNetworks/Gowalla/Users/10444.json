@@ -5,7 +5,29 @@
     "email": "bushrachel@yahoo.com",
     "birthdate": "1998-11-14",
     "phone": "563.063.7055",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        55,
+        21,
+        49,
+        13,
+        44
+    ],
+    "login locations": [
+        [
+            -122.047471,
+            37.360043
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                1297,
+                0.04
+            ],
+            [
+                1297,
+                0.04
+            ]
+        ]
+    ]
 }

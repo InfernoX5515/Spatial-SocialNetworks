@@ -5,7 +5,34 @@
     "email": "crose@hotmail.com",
     "birthdate": "2020-11-09",
     "phone": "001-164-254-2701x3902",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        43,
+        43,
+        63,
+        33,
+        28,
+        44,
+        28,
+        6,
+        64
+    ],
+    "login locations": [
+        [
+            -119.013496,
+            35.378097
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                100414,
+                0.144927536232
+            ],
+            [
+                100415,
+                0.0979020979021
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,39 @@
     "email": "lloydrebecca@hotmail.com",
     "birthdate": "1919-01-19",
     "phone": "(384)073-5998x6165",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        31,
+        46,
+        30,
+        31,
+        36,
+        4,
+        65,
+        72,
+        46,
+        69,
+        7,
+        69,
+        10,
+        69,
+        72
+    ],
+    "login locations": [
+        [
+            -122.381093,
+            37.7409
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                5073,
+                0.01
+            ],
+            [
+                5098,
+                0.01
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,15 @@
     "email": "bbecker@hotmail.com",
     "birthdate": "1983-11-28",
     "phone": "985.010.6751x168",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        55
+    ],
+    "login locations": [
+        [
+            -118.201739,
+            33.925707
+        ]
+    ],
+    "relationships": []
 }

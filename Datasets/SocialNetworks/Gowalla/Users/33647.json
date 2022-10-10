@@ -5,7 +5,21 @@
     "email": "hmontgomery@hotmail.com",
     "birthdate": "1975-05-26",
     "phone": "(395)877-1048x384",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        46,
+        43,
+        48,
+        38,
+        7,
+        15,
+        9
+    ],
+    "login locations": [
+        [
+            -122.408358,
+            37.774796
+        ]
+    ],
+    "relationships": []
 }

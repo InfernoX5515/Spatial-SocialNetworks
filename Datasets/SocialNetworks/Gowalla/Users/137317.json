@@ -5,7 +5,29 @@
     "email": "ubrown@yahoo.com",
     "birthdate": "1957-05-02",
     "phone": "509.615.0273",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        30,
+        59,
+        17,
+        41,
+        33
+    ],
+    "login locations": [
+        [
+            -117.224402,
+            34.084121
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                43690,
+                0.06
+            ],
+            [
+                43690,
+                0.06
+            ]
+        ]
+    ]
 }

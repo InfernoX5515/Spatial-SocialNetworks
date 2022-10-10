@@ -5,7 +5,22 @@
     "email": "alexandria45@yahoo.com",
     "birthdate": "1958-08-20",
     "phone": "765.024.1963x31614",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        19,
+        60,
+        12,
+        55,
+        51,
+        50,
+        26,
+        64,
+        51
+    ],
+    "login locations": [
+        [
+            -117.189846,
+            32.746961
+        ]
+    ],
+    "relationships": []
 }

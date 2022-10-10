@@ -5,7 +5,23 @@
     "email": "teresa88@gmail.com",
     "birthdate": "1965-07-03",
     "phone": "+1-510-813-2666x902",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        13,
+        49,
+        44,
+        43,
+        47,
+        64,
+        20,
+        27,
+        73
+    ],
+    "login locations": [
+        [
+            -118.219761,
+            33.783425
+        ]
+    ],
+    "relationships": []
 }

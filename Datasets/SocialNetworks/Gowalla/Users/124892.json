@@ -5,7 +5,20 @@
     "email": "mmay@hotmail.com",
     "birthdate": "1953-01-20",
     "phone": "534.294.2725x1130",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        62,
+        30,
+        51,
+        29,
+        71,
+        56,
+        0
+    ],
+    "login locations": [
+        [
+            -122.314838,
+            37.549857
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,21 @@
     "email": "lopezjessica@hotmail.com",
     "birthdate": "1981-05-19",
     "phone": "001-918-469-4040x3134",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        63,
+        64,
+        27,
+        51,
+        72,
+        44,
+        73,
+        37
+    ],
+    "login locations": [
+        [
+            -118.039045,
+            33.854782
+        ]
+    ],
+    "relationships": []
 }

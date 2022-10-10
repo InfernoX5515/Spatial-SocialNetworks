@@ -5,7 +5,17 @@
     "email": "rebecca07@hotmail.com",
     "birthdate": "2009-11-16",
     "phone": "(070)762-7974",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        50,
+        19,
+        69,
+        56
+    ],
+    "login locations": [
+        [
+            -122.133989,
+            37.561394
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,19 @@
     "email": "markpotter@yahoo.com",
     "birthdate": "1973-01-12",
     "phone": "(748)821-9828",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61,
+        33,
+        5,
+        12,
+        50,
+        27
+    ],
+    "login locations": [
+        [
+            -118.15644,
+            33.808369
+        ]
+    ],
+    "relationships": []
 }

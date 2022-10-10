@@ -5,7 +5,20 @@
     "email": "steve81@yahoo.com",
     "birthdate": "1957-07-01",
     "phone": "(569)927-8657x32510",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        5,
+        68,
+        3,
+        68,
+        46,
+        33
+    ],
+    "login locations": [
+        [
+            -118.134287,
+            33.893487
+        ]
+    ],
+    "relationships": []
 }

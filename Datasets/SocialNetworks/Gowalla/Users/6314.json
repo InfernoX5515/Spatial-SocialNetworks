@@ -5,7 +5,28 @@
     "email": "ycoleman@hotmail.com",
     "birthdate": "1918-03-03",
     "phone": "+1-225-738-4188x4127",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        31,
+        32,
+        30
+    ],
+    "login locations": [
+        [
+            -118.317342,
+            34.03138
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                6199,
+                0.01
+            ],
+            [
+                6534,
+                0.12
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,37 @@
     "email": "rwilliams@gmail.com",
     "birthdate": "1928-01-12",
     "phone": "442-839-2231",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        5,
+        11,
+        50,
+        53,
+        33,
+        35,
+        66,
+        22,
+        2,
+        18,
+        25,
+        63
+    ],
+    "login locations": [
+        [
+            -122.441,
+            37.772513
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                234,
+                0.0586666666667
+            ],
+            [
+                234,
+                0.0586666666667
+            ]
+        ]
+    ]
 }

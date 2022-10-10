@@ -5,7 +5,21 @@
     "email": "michaelhill@gmail.com",
     "birthdate": "1940-12-30",
     "phone": "+1-278-736-5508x1668",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        4,
+        8,
+        51,
+        74,
+        56,
+        27,
+        10
+    ],
+    "login locations": [
+        [
+            -122.387121,
+            37.758675
+        ]
+    ],
+    "relationships": []
 }

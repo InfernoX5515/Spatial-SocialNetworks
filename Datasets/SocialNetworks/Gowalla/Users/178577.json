@@ -5,7 +5,23 @@
     "email": "dunlapjose@gmail.com",
     "birthdate": "1989-04-09",
     "phone": "120.321.3050",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        55,
+        19,
+        75,
+        56,
+        74,
+        53,
+        11,
+        16,
+        53
+    ],
+    "login locations": [
+        [
+            -122.433124,
+            37.77498
+        ]
+    ],
+    "relationships": []
 }

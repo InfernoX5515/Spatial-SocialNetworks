@@ -5,7 +5,27 @@
     "email": "jarroyo@yahoo.com",
     "birthdate": "2003-04-06",
     "phone": "(498)403-6436x335",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        7,
+        24,
+        56,
+        13,
+        68,
+        21,
+        41,
+        49,
+        0,
+        60,
+        0,
+        3,
+        65
+    ],
+    "login locations": [
+        [
+            -122.052983,
+            37.972429
+        ]
+    ],
+    "relationships": []
 }

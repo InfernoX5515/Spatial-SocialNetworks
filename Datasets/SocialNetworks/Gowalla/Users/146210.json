@@ -5,7 +5,28 @@
     "email": "ogray@hotmail.com",
     "birthdate": "1944-10-05",
     "phone": "443.081.9539x475",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        16,
+        32,
+        26,
+        25,
+        11,
+        53,
+        13,
+        75,
+        54,
+        43,
+        35,
+        62,
+        37,
+        68
+    ],
+    "login locations": [
+        [
+            -118.346538,
+            34.004019
+        ]
+    ],
+    "relationships": []
 }

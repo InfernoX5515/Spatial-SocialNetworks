@@ -5,7 +5,39 @@
     "email": "daniel43@gmail.com",
     "birthdate": "1995-01-02",
     "phone": "093-067-3014x847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        31,
+        58,
+        31,
+        67,
+        56,
+        25,
+        35,
+        25,
+        54,
+        32,
+        68,
+        52,
+        50,
+        8
+    ],
+    "login locations": [
+        [
+            -119.79501,
+            36.798326
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                119443,
+                0.25
+            ],
+            [
+                119443,
+                0.25
+            ]
+        ]
+    ]
 }

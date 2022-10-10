@@ -5,7 +5,22 @@
     "email": "tammypalmer@gmail.com",
     "birthdate": "1952-04-18",
     "phone": "+1-141-081-2948x5250",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        54,
+        10,
+        26,
+        74,
+        72,
+        60,
+        26,
+        34
+    ],
+    "login locations": [
+        [
+            -118.38502,
+            34.039968
+        ]
+    ],
+    "relationships": []
 }

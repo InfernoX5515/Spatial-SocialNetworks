@@ -5,7 +5,15 @@
     "email": "jeffery05@gmail.com",
     "birthdate": "1950-08-14",
     "phone": "(502)386-8965x9997",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53,
+        3
+    ],
+    "login locations": [
+        [
+            -119.745538,
+            36.824435
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "philip60@gmail.com",
     "birthdate": "1939-07-17",
     "phone": "919-981-8539x96959",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54
+    ],
+    "login locations": [
+        [
+            -122.164626,
+            37.430448
+        ]
+    ],
+    "relationships": []
 }

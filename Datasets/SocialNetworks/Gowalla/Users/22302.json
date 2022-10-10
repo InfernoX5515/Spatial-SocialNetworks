@@ -5,7 +5,26 @@
     "email": "hicksjessica@gmail.com",
     "birthdate": "1941-10-10",
     "phone": "(294)110-3894x3413",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        52,
+        58,
+        43,
+        9,
+        38,
+        2,
+        63,
+        39,
+        14,
+        3,
+        33,
+        18,
+        59
+    ],
+    "login locations": [
+        [
+            -122.422487,
+            37.753104
+        ]
+    ],
+    "relationships": []
 }

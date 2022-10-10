@@ -5,7 +5,18 @@
     "email": "shannonmiller@gmail.com",
     "birthdate": "1953-12-06",
     "phone": "+1-558-098-7828x5348",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        21,
+        8,
+        46,
+        63
+    ],
+    "login locations": [
+        [
+            -118.120005,
+            33.858722
+        ]
+    ],
+    "relationships": []
 }

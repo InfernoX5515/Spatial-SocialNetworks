@@ -5,7 +5,12 @@
     "email": "awalton@hotmail.com",
     "birthdate": "1927-06-11",
     "phone": "191.654.3275x914",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -116.370575,
+            33.751445
+        ]
+    ],
+    "relationships": []
 }

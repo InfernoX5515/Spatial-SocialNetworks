@@ -5,7 +5,15 @@
     "email": "brandyproctor@gmail.com",
     "birthdate": "1940-12-21",
     "phone": "(035)589-3221x0821",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        68,
+        45
+    ],
+    "login locations": [
+        [
+            -122.25388,
+            37.842058
+        ]
+    ],
+    "relationships": []
 }

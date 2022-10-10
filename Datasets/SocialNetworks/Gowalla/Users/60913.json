@@ -5,7 +5,26 @@
     "email": "ywhite@yahoo.com",
     "birthdate": "2002-07-21",
     "phone": "+1-573-742-1439x20125",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        32,
+        19,
+        37,
+        48,
+        17,
+        41,
+        74,
+        58,
+        46,
+        27,
+        2,
+        13
+    ],
+    "login locations": [
+        [
+            -122.395414,
+            37.783523
+        ]
+    ],
+    "relationships": []
 }

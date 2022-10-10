@@ -5,7 +5,15 @@
     "email": "elizabeth31@yahoo.com",
     "birthdate": "2005-11-05",
     "phone": "528-120-3274",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        26,
+        64
+    ],
+    "login locations": [
+        [
+            -122.282169,
+            37.784488
+        ]
+    ],
+    "relationships": []
 }

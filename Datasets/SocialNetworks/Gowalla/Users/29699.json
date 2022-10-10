@@ -5,7 +5,25 @@
     "email": "jacobpugh@hotmail.com",
     "birthdate": "1925-08-14",
     "phone": "6807101489",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        75,
+        69,
+        0,
+        63,
+        17,
+        11,
+        19,
+        37,
+        35,
+        51,
+        63
+    ],
+    "login locations": [
+        [
+            -118.492885,
+            34.030327
+        ]
+    ],
+    "relationships": []
 }

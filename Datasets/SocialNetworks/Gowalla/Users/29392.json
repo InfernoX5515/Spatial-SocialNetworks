@@ -5,7 +5,17 @@
     "email": "vrichardson@yahoo.com",
     "birthdate": "2015-03-15",
     "phone": "3196010283",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        41,
+        42,
+        4
+    ],
+    "login locations": [
+        [
+            -117.146253,
+            32.871715
+        ]
+    ],
+    "relationships": []
 }

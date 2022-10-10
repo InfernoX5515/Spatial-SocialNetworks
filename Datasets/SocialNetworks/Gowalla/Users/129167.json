@@ -5,7 +5,28 @@
     "email": "jessica30@hotmail.com",
     "birthdate": "1951-09-04",
     "phone": "+1-381-650-8382x639",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        67,
+        52,
+        26,
+        71,
+        32,
+        47,
+        0,
+        20,
+        59,
+        23,
+        71,
+        75,
+        42,
+        58
+    ],
+    "login locations": [
+        [
+            -122.417764,
+            37.784192
+        ]
+    ],
+    "relationships": []
 }

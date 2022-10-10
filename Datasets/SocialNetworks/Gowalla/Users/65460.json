@@ -5,7 +5,26 @@
     "email": "lewisaaron@gmail.com",
     "birthdate": "2012-07-30",
     "phone": "(862)577-0776x3368",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        73
+    ],
+    "login locations": [
+        [
+            -117.178203,
+            32.71576
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                2746,
+                0.0150214592275
+            ],
+            [
+                2746,
+                0.0150214592275
+            ]
+        ]
+    ]
 }

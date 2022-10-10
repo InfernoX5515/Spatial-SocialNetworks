@@ -5,7 +5,15 @@
     "email": "jose51@hotmail.com",
     "birthdate": "2007-10-26",
     "phone": "950.413.5848x98471",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        57,
+        64
+    ],
+    "login locations": [
+        [
+            -117.807471,
+            33.598878
+        ]
+    ],
+    "relationships": []
 }

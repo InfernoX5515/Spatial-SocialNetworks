@@ -5,7 +5,23 @@
     "email": "btucker@hotmail.com",
     "birthdate": "1915-01-20",
     "phone": "875.892.1168x23503",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        23,
+        24,
+        25,
+        21,
+        62,
+        0,
+        12,
+        71,
+        26
+    ],
+    "login locations": [
+        [
+            -118.245568,
+            34.018568
+        ]
+    ],
+    "relationships": []
 }

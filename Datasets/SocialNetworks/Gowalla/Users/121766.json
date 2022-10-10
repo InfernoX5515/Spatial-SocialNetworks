@@ -5,7 +5,23 @@
     "email": "harriseric@hotmail.com",
     "birthdate": "1971-06-23",
     "phone": "+1-213-885-6955x22364",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        69,
+        68,
+        41,
+        17,
+        42,
+        47,
+        51,
+        68,
+        29,
+        41
+    ],
+    "login locations": [
+        [
+            -117.128053,
+            32.739201
+        ]
+    ],
+    "relationships": []
 }

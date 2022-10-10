@@ -5,7 +5,14 @@
     "email": "eevans@yahoo.com",
     "birthdate": "1971-05-17",
     "phone": "+1-704-169-7991x75574",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        53
+    ],
+    "login locations": [
+        [
+            -122.328335,
+            37.59451
+        ]
+    ],
+    "relationships": []
 }

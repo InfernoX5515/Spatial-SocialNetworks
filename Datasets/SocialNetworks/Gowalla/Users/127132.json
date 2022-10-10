@@ -5,7 +5,27 @@
     "email": "elizabethstephens@yahoo.com",
     "birthdate": "2019-07-26",
     "phone": "106.789.3444x2084",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        43,
+        21,
+        0,
+        17,
+        36,
+        27,
+        10,
+        75,
+        62,
+        46,
+        22,
+        62,
+        20
+    ],
+    "login locations": [
+        [
+            -122.139553,
+            38.111996
+        ]
+    ],
+    "relationships": []
 }

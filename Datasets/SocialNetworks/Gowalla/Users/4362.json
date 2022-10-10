@@ -5,7 +5,29 @@
     "email": "dawn59@gmail.com",
     "birthdate": "1990-05-14",
     "phone": "531.872.7311",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        55,
+        62,
+        57,
+        53
+    ],
+    "login locations": [
+        [
+            -122.393606,
+            37.747589
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                93,
+                0.048
+            ],
+            [
+                158,
+                0.0704225352113
+            ]
+        ]
+    ]
 }

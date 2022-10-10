@@ -5,7 +5,17 @@
     "email": "seanfisher@yahoo.com",
     "birthdate": "1936-01-04",
     "phone": "992-288-3201x6347",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        64,
+        22,
+        32
+    ],
+    "login locations": [
+        [
+            -122.308792,
+            38.175791
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "ericksonbrian@gmail.com",
     "birthdate": "1985-07-14",
     "phone": "501.410.2681",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        17,
+        47,
+        26,
+        43
+    ],
+    "login locations": [
+        [
+            -122.060501,
+            37.409545
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,14 @@
     "email": "mroberts@hotmail.com",
     "birthdate": "1933-11-01",
     "phone": "5534322829",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13
+    ],
+    "login locations": [
+        [
+            -118.357909,
+            34.167556
+        ]
+    ],
+    "relationships": []
 }

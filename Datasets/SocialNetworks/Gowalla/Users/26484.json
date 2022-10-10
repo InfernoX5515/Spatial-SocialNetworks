@@ -5,7 +5,14 @@
     "email": "crobinson@gmail.com",
     "birthdate": "2009-04-15",
     "phone": "+1-609-502-0178",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0
+    ],
+    "login locations": [
+        [
+            -117.998169,
+            34.115246
+        ]
+    ],
+    "relationships": []
 }

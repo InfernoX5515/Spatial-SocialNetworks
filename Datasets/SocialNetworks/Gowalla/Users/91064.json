@@ -5,7 +5,14 @@
     "email": "uelliott@yahoo.com",
     "birthdate": "1970-01-28",
     "phone": "001-290-436-6026",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        61
+    ],
+    "login locations": [
+        [
+            -122.395009,
+            37.78487
+        ]
+    ],
+    "relationships": []
 }

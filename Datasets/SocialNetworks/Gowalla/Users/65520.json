@@ -5,7 +5,12 @@
     "email": "sullivanbrenda@hotmail.com",
     "birthdate": "1921-07-08",
     "phone": "+1-830-327-5925x011",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.163503,
+            37.803123
+        ]
+    ],
+    "relationships": []
 }

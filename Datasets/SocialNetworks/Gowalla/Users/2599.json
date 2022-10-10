@@ -5,7 +5,21 @@
     "email": "hnavarro@gmail.com",
     "birthdate": "1906-12-24",
     "phone": "5735405673",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        41,
+        14,
+        28,
+        64,
+        68,
+        18,
+        38
+    ],
+    "login locations": [
+        [
+            -118.236171,
+            34.010309
+        ]
+    ],
+    "relationships": []
 }

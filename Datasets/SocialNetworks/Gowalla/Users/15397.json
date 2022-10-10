@@ -5,7 +5,24 @@
     "email": "jessica94@hotmail.com",
     "birthdate": "1954-02-16",
     "phone": "+1-994-191-1169x6265",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        23,
+        40,
+        51,
+        25,
+        31,
+        11,
+        3,
+        52,
+        4,
+        12,
+        72
+    ],
+    "login locations": [
+        [
+            -118.014496,
+            33.903338
+        ]
+    ],
+    "relationships": []
 }

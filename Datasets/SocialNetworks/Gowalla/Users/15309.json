@@ -5,7 +5,20 @@
     "email": "george63@gmail.com",
     "birthdate": "1979-08-01",
     "phone": "113-911-1462x922",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        43,
+        70,
+        23,
+        57,
+        26,
+        11,
+        44
+    ],
+    "login locations": [
+        [
+            -121.964861,
+            37.281753
+        ]
+    ],
+    "relationships": []
 }

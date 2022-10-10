@@ -5,7 +5,28 @@
     "email": "greensteven@yahoo.com",
     "birthdate": "1943-05-27",
     "phone": "001-269-039-5541x2685",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        27,
+        73,
+        63,
+        6,
+        17,
+        68,
+        50,
+        19,
+        47,
+        28,
+        30,
+        30,
+        4,
+        25,
+        61
+    ],
+    "login locations": [
+        [
+            -122.409516,
+            37.74064
+        ]
+    ],
+    "relationships": []
 }

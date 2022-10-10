@@ -5,7 +5,27 @@
     "email": "ronniemcgee@yahoo.com",
     "birthdate": "1935-01-08",
     "phone": "001-305-311-7961x648",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        10,
+        27,
+        25,
+        30,
+        36,
+        74,
+        18,
+        33,
+        69,
+        68,
+        12,
+        73,
+        16,
+        46
+    ],
+    "login locations": [
+        [
+            -122.119708,
+            37.419456
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,18 @@
     "email": "lvalentine@hotmail.com",
     "birthdate": "2012-07-10",
     "phone": "3651131496",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        54,
+        25,
+        56,
+        21,
+        15
+    ],
+    "login locations": [
+        [
+            -121.961732,
+            37.240383
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,16 @@
     "email": "erikadavis@yahoo.com",
     "birthdate": "1977-01-30",
     "phone": "001-877-433-3018",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        22,
+        38,
+        18
+    ],
+    "login locations": [
+        [
+            -117.995538,
+            33.687
+        ]
+    ],
+    "relationships": []
 }

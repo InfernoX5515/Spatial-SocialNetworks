@@ -5,7 +5,26 @@
     "email": "ruizdanielle@hotmail.com",
     "birthdate": "1965-11-11",
     "phone": "(811)033-7173",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        24,
+        2,
+        48,
+        39,
+        44,
+        46,
+        71,
+        65,
+        18,
+        42,
+        17,
+        13
+    ],
+    "login locations": [
+        [
+            -118.290432,
+            34.135167
+        ]
+    ],
+    "relationships": []
 }

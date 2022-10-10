@@ -5,7 +5,26 @@
     "email": "wneal@hotmail.com",
     "birthdate": "1953-01-08",
     "phone": "352.612.9385x28533",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        28,
+        17,
+        3,
+        47,
+        32,
+        45,
+        53,
+        64,
+        4,
+        45,
+        75,
+        9,
+        63
+    ],
+    "login locations": [
+        [
+            -121.782249,
+            36.719419
+        ]
+    ],
+    "relationships": []
 }

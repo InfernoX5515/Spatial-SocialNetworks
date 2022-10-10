@@ -5,7 +5,12 @@
     "email": "rojasnicole@yahoo.com",
     "birthdate": "1922-05-28",
     "phone": "785.289.8819",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -122.402168,
+            37.757334
+        ]
+    ],
+    "relationships": []
 }

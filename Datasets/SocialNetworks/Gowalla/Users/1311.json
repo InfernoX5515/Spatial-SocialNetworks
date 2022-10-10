@@ -5,7 +5,25 @@
     "email": "bassrandy@gmail.com",
     "birthdate": "1996-12-06",
     "phone": "106-351-0939",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        5,
+        17,
+        49,
+        62,
+        31,
+        66,
+        58,
+        53,
+        51,
+        28,
+        15
+    ],
+    "login locations": [
+        [
+            -117.745067,
+            33.681965
+        ]
+    ],
+    "relationships": []
 }

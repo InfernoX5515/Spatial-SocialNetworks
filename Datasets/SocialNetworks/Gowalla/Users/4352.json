@@ -5,7 +5,27 @@
     "email": "peggybanks@gmail.com",
     "birthdate": "1989-06-13",
     "phone": "+1-195-348-2456",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        7,
+        35,
+        59
+    ],
+    "login locations": [
+        [
+            -122.400914,
+            37.768906
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                831,
+                0.01
+            ],
+            [
+                831,
+                0.01
+            ]
+        ]
+    ]
 }

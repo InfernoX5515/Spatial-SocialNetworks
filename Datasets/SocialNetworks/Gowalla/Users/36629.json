@@ -5,7 +5,27 @@
     "email": "leslie53@hotmail.com",
     "birthdate": "1926-10-11",
     "phone": "224.333.9280",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        29,
+        3,
+        54,
+        44,
+        1,
+        33,
+        43,
+        64,
+        46,
+        70,
+        51,
+        57,
+        56,
+        49
+    ],
+    "login locations": [
+        [
+            -118.277749,
+            34.060676
+        ]
+    ],
+    "relationships": []
 }

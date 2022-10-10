@@ -5,7 +5,32 @@
     "email": "shannonmartinez@hotmail.com",
     "birthdate": "1998-09-06",
     "phone": "986.066.7920x3744",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        26,
+        33,
+        20,
+        56,
+        26,
+        53,
+        47
+    ],
+    "login locations": [
+        [
+            -122.404159,
+            37.777636
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                594,
+                0.148148148148
+            ],
+            [
+                600,
+                0.0581818181818
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,27 @@
     "email": "debra35@gmail.com",
     "birthdate": "1962-09-10",
     "phone": "5001950071",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        37,
+        32,
+        27,
+        33,
+        1,
+        74,
+        54,
+        58,
+        59,
+        8,
+        66,
+        34,
+        47,
+        63
+    ],
+    "login locations": [
+        [
+            -117.974583,
+            33.715456
+        ]
+    ],
+    "relationships": []
 }

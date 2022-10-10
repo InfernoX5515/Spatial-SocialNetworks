@@ -5,7 +5,15 @@
     "email": "ashleysmith@yahoo.com",
     "birthdate": "1928-09-22",
     "phone": "(748)472-5454",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        43
+    ],
+    "login locations": [
+        [
+            -122.371577,
+            37.799948
+        ]
+    ],
+    "relationships": []
 }

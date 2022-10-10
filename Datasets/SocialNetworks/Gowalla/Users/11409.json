@@ -5,7 +5,20 @@
     "email": "fjones@yahoo.com",
     "birthdate": "2003-07-03",
     "phone": "127.936.7397x932",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        60,
+        54,
+        37,
+        59,
+        7,
+        6,
+        37
+    ],
+    "login locations": [
+        [
+            -122.41648,
+            37.772093
+        ]
+    ],
+    "relationships": []
 }

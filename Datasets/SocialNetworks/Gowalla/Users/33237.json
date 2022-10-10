@@ -5,7 +5,20 @@
     "email": "yochoa@gmail.com",
     "birthdate": "2001-09-11",
     "phone": "+1-263-486-8055",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        8,
+        32,
+        44,
+        53,
+        40,
+        11,
+        49
+    ],
+    "login locations": [
+        [
+            -118.876613,
+            34.238911
+        ]
+    ],
+    "relationships": []
 }

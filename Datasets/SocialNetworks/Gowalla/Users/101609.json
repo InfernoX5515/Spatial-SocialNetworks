@@ -5,7 +5,24 @@
     "email": "bryan82@gmail.com",
     "birthdate": "1970-08-26",
     "phone": "4918241284",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        75,
+        56,
+        11,
+        2,
+        38,
+        29,
+        59,
+        10,
+        10,
+        70,
+        18
+    ],
+    "login locations": [
+        [
+            -118.068614,
+            34.081949
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,15 @@
     "email": "tylermora@hotmail.com",
     "birthdate": "1973-05-16",
     "phone": "(187)733-3792",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        18,
+        66
+    ],
+    "login locations": [
+        [
+            -118.281437,
+            34.049207
+        ]
+    ],
+    "relationships": []
 }

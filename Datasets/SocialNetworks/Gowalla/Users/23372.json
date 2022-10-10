@@ -5,7 +5,24 @@
     "email": "jramirez@gmail.com",
     "birthdate": "1978-10-12",
     "phone": "(169)925-8822x72217",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        61,
+        55,
+        9,
+        28,
+        63,
+        49,
+        59,
+        55,
+        51,
+        45
+    ],
+    "login locations": [
+        [
+            -121.294729,
+            38.631705
+        ]
+    ],
+    "relationships": []
 }

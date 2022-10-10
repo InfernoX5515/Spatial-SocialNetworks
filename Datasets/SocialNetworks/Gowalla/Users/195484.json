@@ -5,7 +5,26 @@
     "email": "rossthomas@gmail.com",
     "birthdate": "1933-02-01",
     "phone": "145-824-5620x847",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        46,
+        75,
+        66,
+        48,
+        15,
+        41,
+        51,
+        35,
+        3,
+        75,
+        46,
+        22,
+        30
+    ],
+    "login locations": [
+        [
+            -119.086953,
+            35.344171
+        ]
+    ],
+    "relationships": []
 }

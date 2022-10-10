@@ -5,7 +5,24 @@
     "email": "martinmatthew@hotmail.com",
     "birthdate": "1930-12-18",
     "phone": "001-113-546-7443x877",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        47,
+        36,
+        69,
+        50,
+        2,
+        67,
+        40,
+        62,
+        52,
+        59
+    ],
+    "login locations": [
+        [
+            -122.418505,
+            37.750623
+        ]
+    ],
+    "relationships": []
 }

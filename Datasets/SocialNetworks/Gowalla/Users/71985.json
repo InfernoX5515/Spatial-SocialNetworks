@@ -5,7 +5,12 @@
     "email": "jennifersellers@hotmail.com",
     "birthdate": "1939-05-23",
     "phone": "001-842-429-3430x953",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -118.336576,
+            34.154281
+        ]
+    ],
+    "relationships": []
 }

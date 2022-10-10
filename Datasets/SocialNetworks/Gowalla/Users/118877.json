@@ -5,7 +5,12 @@
     "email": "christian97@hotmail.com",
     "birthdate": "1917-09-03",
     "phone": "569-620-7373x13200",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -121.924605,
+            37.320667
+        ]
+    ],
+    "relationships": []
 }

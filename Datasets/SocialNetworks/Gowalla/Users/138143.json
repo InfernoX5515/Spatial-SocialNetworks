@@ -5,7 +5,17 @@
     "email": "melissaterrell@yahoo.com",
     "birthdate": "2019-12-31",
     "phone": "001-586-241-5898",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        2,
+        73,
+        37,
+        24
+    ],
+    "login locations": [
+        [
+            -122.399416,
+            37.780201
+        ]
+    ],
+    "relationships": []
 }

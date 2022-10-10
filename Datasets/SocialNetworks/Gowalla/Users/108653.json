@@ -5,7 +5,20 @@
     "email": "mhenderson@gmail.com",
     "birthdate": "1950-02-13",
     "phone": "001-069-610-6142",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        0,
+        60,
+        65,
+        72,
+        72,
+        17,
+        35
+    ],
+    "login locations": [
+        [
+            -117.741101,
+            33.698181
+        ]
+    ],
+    "relationships": []
 }

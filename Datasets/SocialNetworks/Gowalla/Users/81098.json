@@ -5,7 +5,25 @@
     "email": "michelle28@yahoo.com",
     "birthdate": "1930-05-07",
     "phone": "503-063-9008x007",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        53,
+        57,
+        42,
+        51,
+        20,
+        16,
+        68,
+        60,
+        56,
+        55,
+        60
+    ],
+    "login locations": [
+        [
+            -118.840577,
+            34.195122
+        ]
+    ],
+    "relationships": []
 }

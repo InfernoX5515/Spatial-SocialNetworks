@@ -5,7 +5,37 @@
     "email": "mchristian@yahoo.com",
     "birthdate": "2004-02-08",
     "phone": "261-747-5538x665",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        45,
+        10,
+        52,
+        44,
+        73,
+        7,
+        32,
+        44,
+        56,
+        46,
+        73,
+        10,
+        14
+    ],
+    "login locations": [
+        [
+            -122.392484,
+            37.7928
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                70292,
+                0.0266666666667
+            ],
+            [
+                70292,
+                0.0266666666667
+            ]
+        ]
+    ]
 }

@@ -5,7 +5,23 @@
     "email": "nicole04@yahoo.com",
     "birthdate": "1975-03-06",
     "phone": "001-251-648-7271x27571",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        9,
+        51,
+        10,
+        17,
+        50,
+        69,
+        72,
+        14,
+        74,
+        72
+    ],
+    "login locations": [
+        [
+            -122.399913,
+            37.753242
+        ]
+    ],
+    "relationships": []
 }

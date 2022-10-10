@@ -5,7 +5,16 @@
     "email": "rebecca03@gmail.com",
     "birthdate": "1970-07-23",
     "phone": "626-688-7010",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        2,
+        46
+    ],
+    "login locations": [
+        [
+            -117.949271,
+            33.843816
+        ]
+    ],
+    "relationships": []
 }

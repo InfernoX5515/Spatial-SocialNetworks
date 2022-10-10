@@ -5,7 +5,16 @@
     "email": "kwheeler@yahoo.com",
     "birthdate": "2009-11-27",
     "phone": "(987)966-6902",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        3,
+        19,
+        62
+    ],
+    "login locations": [
+        [
+            -117.085791,
+            33.549832
+        ]
+    ],
+    "relationships": []
 }

@@ -5,7 +5,17 @@
     "email": "tiffany33@hotmail.com",
     "birthdate": "2003-02-17",
     "phone": "360.258.9300",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        58,
+        39,
+        67,
+        52
+    ],
+    "login locations": [
+        [
+            -122.387896,
+            37.643145
+        ]
+    ],
+    "relationships": []
 }

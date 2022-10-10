@@ -5,7 +5,15 @@
     "email": "longkatelyn@gmail.com",
     "birthdate": "1939-03-18",
     "phone": "+1-062-811-6524",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        67
+    ],
+    "login locations": [
+        [
+            -122.076054,
+            37.388415
+        ]
+    ],
+    "relationships": []
 }

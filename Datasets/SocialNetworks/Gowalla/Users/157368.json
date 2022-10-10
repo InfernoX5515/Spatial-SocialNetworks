@@ -5,7 +5,14 @@
     "email": "maureencox@gmail.com",
     "birthdate": "1997-02-13",
     "phone": "758.926.8533x784",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        41
+    ],
+    "login locations": [
+        [
+            -121.921064,
+            37.298862
+        ]
+    ],
+    "relationships": []
 }

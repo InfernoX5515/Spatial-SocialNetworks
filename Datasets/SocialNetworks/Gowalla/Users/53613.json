@@ -5,7 +5,39 @@
     "email": "diamond40@yahoo.com",
     "birthdate": "1969-08-20",
     "phone": "4508955395",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        13,
+        18,
+        63,
+        4,
+        66,
+        16,
+        36,
+        52,
+        10,
+        50,
+        40,
+        59,
+        35,
+        19,
+        57
+    ],
+    "login locations": [
+        [
+            -122.418316,
+            37.794033
+        ]
+    ],
+    "relationships": [
+        [
+            [
+                4244,
+                0.0192307692308
+            ],
+            [
+                5071,
+                0.03125
+            ]
+        ]
+    ]
 }

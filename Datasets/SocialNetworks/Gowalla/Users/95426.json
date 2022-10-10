@@ -5,7 +5,16 @@
     "email": "noah97@hotmail.com",
     "birthdate": "1919-04-25",
     "phone": "+1-403-715-6072x44670",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        51,
+        33,
+        30
+    ],
+    "login locations": [
+        [
+            -118.136083,
+            33.935602
+        ]
+    ],
+    "relationships": []
 }

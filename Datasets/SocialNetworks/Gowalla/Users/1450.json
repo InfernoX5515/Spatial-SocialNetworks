@@ -5,7 +5,28 @@
     "email": "phillipsjoel@yahoo.com",
     "birthdate": "1984-08-22",
     "phone": "(001)658-1523x2971",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        36,
+        28,
+        14,
+        46,
+        16,
+        65,
+        63,
+        19,
+        16,
+        72,
+        18,
+        13,
+        31,
+        61
+    ],
+    "login locations": [
+        [
+            -122.377029,
+            38.153972
+        ]
+    ],
+    "relationships": []
 }

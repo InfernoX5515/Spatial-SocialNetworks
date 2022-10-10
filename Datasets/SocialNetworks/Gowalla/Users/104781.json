@@ -5,7 +5,16 @@
     "email": "angela36@hotmail.com",
     "birthdate": "1916-09-16",
     "phone": "210.564.7269",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        56,
+        25,
+        29
+    ],
+    "login locations": [
+        [
+            -121.32383,
+            38.618417
+        ]
+    ],
+    "relationships": []
 }

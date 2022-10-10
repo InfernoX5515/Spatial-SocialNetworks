@@ -5,7 +5,15 @@
     "email": "qharris@yahoo.com",
     "birthdate": "1944-07-24",
     "phone": "567.522.1942",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        32,
+        32
+    ],
+    "login locations": [
+        [
+            -122.394348,
+            37.703618
+        ]
+    ],
+    "relationships": []
 }

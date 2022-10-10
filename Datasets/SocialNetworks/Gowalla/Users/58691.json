@@ -5,7 +5,17 @@
     "email": "panderson@yahoo.com",
     "birthdate": "1951-04-24",
     "phone": "+1-787-345-3477x5682",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        65,
+        9,
+        16,
+        0
+    ],
+    "login locations": [
+        [
+            -122.261804,
+            37.824682
+        ]
+    ],
+    "relationships": []
 }

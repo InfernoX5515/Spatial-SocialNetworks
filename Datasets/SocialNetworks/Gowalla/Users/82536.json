@@ -5,7 +5,18 @@
     "email": "kperry@yahoo.com",
     "birthdate": "1917-09-03",
     "phone": "+1-749-431-7023x976",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        12,
+        26,
+        44,
+        15,
+        18
+    ],
+    "login locations": [
+        [
+            -119.026641,
+            35.365758
+        ]
+    ],
+    "relationships": []
 }

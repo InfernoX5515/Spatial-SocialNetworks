@@ -5,7 +5,12 @@
     "email": "gordonmatthew@hotmail.com",
     "birthdate": "1947-12-14",
     "phone": "(949)412-7951",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [],
+    "login locations": [
+        [
+            -117.749851,
+            34.080278
+        ]
+    ],
+    "relationships": []
 }

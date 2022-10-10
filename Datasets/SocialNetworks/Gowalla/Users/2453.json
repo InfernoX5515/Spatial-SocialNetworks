@@ -5,7 +5,16 @@
     "email": "joshuabarnett@hotmail.com",
     "birthdate": "1914-12-21",
     "phone": "+1-684-188-9509x2591",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        64,
+        60,
+        48
+    ],
+    "login locations": [
+        [
+            -118.1932,
+            33.763355
+        ]
+    ],
+    "relationships": []
 }

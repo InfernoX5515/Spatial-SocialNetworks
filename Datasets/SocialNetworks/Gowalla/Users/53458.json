@@ -5,7 +5,27 @@
     "email": "hmartin@gmail.com",
     "birthdate": "1975-01-01",
     "phone": "(055)981-5638x439",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        48,
+        34,
+        61,
+        36,
+        55,
+        11,
+        10,
+        9,
+        49,
+        43,
+        55,
+        35,
+        54,
+        17
+    ],
+    "login locations": [
+        [
+            -122.404625,
+            37.763847
+        ]
+    ],
+    "relationships": []
 }

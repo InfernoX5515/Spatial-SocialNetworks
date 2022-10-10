@@ -5,7 +5,22 @@
     "email": "stevendougherty@yahoo.com",
     "birthdate": "1968-12-22",
     "phone": "001-822-431-3473x678",
-    "keywords": {},
-    "login locations": {},
-    "relationships": {}
+    "keywords": [
+        4,
+        70,
+        46,
+        45,
+        25,
+        34,
+        18,
+        31,
+        6
+    ],
+    "login locations": [
+        [
+            -117.810012,
+            34.113589
+        ]
+    ],
+    "relationships": []
 }
