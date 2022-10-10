@@ -1,7 +1,9 @@
 import csv
 import datetime
+import fnmatch
 import json
 import math
+import multiprocessing
 import os.path
 import threading
 from os.path import exists
@@ -36,11 +38,11 @@ class SNUser:
         if keywords is None:
             self.keywords = []
         else:
-            self.keywords = loginLocs
+            self.keywords = keywords
         if relations is None:
-            self.relations = []
+            self.relations = {}
         else:
-            self.relations = loginLocs
+            self.relations = relations
 
     def addLoginLoc(self, lat, lon):
         if (lat, lon) not in self.loginLocs:
@@ -56,12 +58,12 @@ class SNUser:
     def removeKeyword(self, keywordID):
         self.keywords.remove(keywordID)
 
-    def addRelation(self, userID):
+    def addRelation(self, userID, weight):
         if userID not in self.relations:
-            self.relations += userID
+            self.relations[userID] = weight
 
     def removeRelation(self, userID):
-        self.relations.remove(userID)
+        del self.relations[userID]
 
 
 class SocialNetwork:
@@ -109,12 +111,13 @@ class SocialNetwork:
         self.keywordDict = keywords
 
     def loadUsers(self):
+        self.users = {}
         userDir = f"{self.dir}/Users"
 
         if os.path.exists(userDir):
             files = os.listdir(userDir)
 
-            threadCount = 10
+            threadCount = 6
             threads = []
             total = len(files)
             start = 0
@@ -123,10 +126,10 @@ class SocialNetwork:
             for x in range(1, threadCount + 1):
                 if x == threadCount + 1:
                     end = total
-                print(start)
-                print(end)
+
                 threads += [threading.Thread(target=lambda s=start, e=end: self.loadUserFiles(files[s:e]))]
-                start = end * x
+                start = end
+                end = math.floor(total / threadCount) * (x + 1)
 
             for thread in threads:
                 thread.start()
@@ -136,10 +139,8 @@ class SocialNetwork:
 
         else:
             os.mkdir(userDir)
-            self.users = {}
 
     def loadUserFiles(self, files):
-        #print("Thread spawned")
         userDir = f"{self.dir}/Users"
 
         for file in files:
@@ -153,36 +154,20 @@ class SocialNetwork:
                                                   username=data['username'], name=data['name'], email=data['email'],
                                                   birthdate=data['birthdate'], phone=data['phone'])
 
+    def getUserByIndex(self, index):
+        return self.users[list(self.users.keys())[index]]
 
-        '''
-        # Read in user attributes from the given path
-        # "USER ID" {
-        #   "username": value,
-        #   "name": value,
-        #   "email": value,
-        #   "birthdate": value,
-        #   "phone": value
-        # }
-        def loadUser(self, path=None):
-            if path is not None and exists(path):
-                dict = {}
-                with open(path, 'r') as csvfile:
-                    reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                    next(reader)
-                    for row in reader:
-                        user_id = row[0]
-                        user_dict = {}
-                        user_dict["username"] = row[1]
-                        user_dict["name"] = row[2]
-                        user_dict["email"] = row[3]
-                        user_dict["birthdate"] = row[4]
-                        user_dict["phone"] = row[5]
-                        dict[user_id] = user_dict
-                self.__userData = dict
-            else:
-                self.__userData = None
-            '''
+    def getUserById(self, id):
+        matching = fnmatch.filter(list(self.users.keys()), f"~{id}~*")
 
+        if len(matching) != 1:
+            for user in matching:
+                if self.users[user].id == id:
+                    return self.users[user]
+            # If there is no match, error
+            raise Exception("There were more than one possible match for getUserId() but no matches!")
+
+        return self.users[matching[0]]
 
 '''class SocialNetwork:
     def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, userDataFile=None, **kwargs):
@@ -190,15 +175,15 @@ class SocialNetwork:
         self.networkX = nx.MultiGraph()
         self.__rel = {}
         self.__loc = {}
-        self.__userData = {}
-        ~~self.__keywordMap = {}
-        ~~self.__keywordMapReverse = {}
-        ~~self.__keywords = {}
+        ~self.__userData = {}
+        ~self.__keywordMap = {}
+        ~self.__keywordMapReverse = {}
+        ~self.__keywords = {}
         self.__flattenedRelData = [[], []]
         self.__flattenedLocData = [[], []]
         self.__chunkedLocData = []
-        threads = [threading.Thread(target=lambda: self.loadRel(path=relFile)),
-                   threading.Thread(target=lambda: self.loadLoc(path=locFile)),
+        ~threads = [~threading.Thread(target=lambda: self.loadRel(path=relFile)),
+                   ~threading.Thread(target=lambda: self.loadLoc(path=locFile)),
                    ~~threading.Thread(target=lambda: self.loadUser(path=userDataFile)),
                    ~~threading.Thread(target=lambda: self.loadKey(kPath=keyFile, mPath=keyMapFile))]
 
@@ -220,27 +205,26 @@ class SocialNetwork:
     #   "birthdate": value,
     #   "phone": value
     # }
-    def loadUser(self, path=None):
-        if path is not None and exists(path):
-            dict = {}
-            with open(path, 'r') as csvfile:
-                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                next(reader)
-                for row in reader:
-                    user_id = row[0]
-                    user_dict = {}
-                    user_dict["username"] = row[1]
-                    user_dict["name"] = row[2]
-                    user_dict["email"] = row[3]
-                    user_dict["birthdate"] = row[4]
-                    user_dict["phone"] = row[5]
-                    dict[user_id] = user_dict
-            self.__userData = dict
-        else:
-            self.__userData = None
+    ~def loadUser(self, path=None):
+        ~if path is not None and exists(path):
+            ~dict = {}
+            ~with open(path, 'r') as csvfile:
+                ~reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                ~next(reader)
+                ~for row in reader:
+                    ~user_id = row[0]
+                    ~user_dict = {}
+                    ~user_dict["username"] = row[1]
+                    ~user_dict["name"] = row[2]
+                    ~user_dict["email"] = row[3]
+                    ~user_dict["birthdate"] = row[4]
+                    ~user_dict["phone"] = row[5]
+                    ~dict[user_id] = user_dict
+            ~self.__userData = dict
+        ~else:
+            ~self.__userData = None
 
     def getUserAttributes(self, user_id):
-
         return self.__userData[user_id]
 
     # Reads rel file from path. This is super awful, but it's the fastest way to do things. This is what it returns:
@@ -252,20 +236,20 @@ class SocialNetwork:
     #    ]
     # }
     # noinspection PyShadowingBuiltins
-    def loadRel(self, path=None):
-        if path is not None and exists(path):
-            dict = {}
-            with open(path, 'r') as csvfile:
-                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                next(reader)
-                for row in reader:
-                    user_id = row[0]
-                    rel_user_id = row[1]
-                    weight = row[2]
-                    if user_id in dict:
-                        dict[user_id] = dict[user_id] + [[rel_user_id, weight]]
-                    else:
-                        dict[user_id] = [[rel_user_id, weight]]
+    ~def loadRel(self, path=None):
+        ~if path is not None and exists(path):
+            ~dict = {}
+            ~with open(path, 'r') as csvfile:
+                ~reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                ~next(reader)
+                ~for row in reader:
+                    ~user_id = row[0]
+                    ~rel_user_id = row[1]
+                    ~weight = row[2]
+                    ~if user_id in dict:
+                        ~dict[user_id] = dict[user_id] + [[rel_user_id, weight]]
+                    ~else:
+                        ~dict[user_id] = [[rel_user_id, weight]]
                     self.networkX.add_edge(float(user_id), float(rel_user_id), weight=1)
             self.__rel = dict
         else:
