@@ -169,6 +169,30 @@ class SocialNetwork:
 
         return self.users[matching[0]]
 
+    def getUserIndexStr(self, id):
+        matching = fnmatch.filter(list(self.users.keys()), f"~{id}~*")
+
+        if len(matching) != 1:
+            for user in matching:
+                if self.users[user].id == id:
+                    return self.users[user]
+            # If there is no match, error
+            raise Exception("There were more than one possible match for getUserId() but no matches!")
+
+        return matching[0]
+
+    def getUserByLoc(self, lat, lon):
+        lat = str(lat).replace('-', '-\\')
+        lon = str(lon).replace('-', '-\\')
+        print(f"~ll:[*[{str(lat)}, {str(lon)}]*]~kw:")
+        matching = fnmatch.filter(list(self.users.keys()), f"~ll:[*[{lat}, {lon}]*]~kw:")
+        '''users = []
+
+        for match in matching:
+            users += self.users[match]
+
+        return users'''
+
 '''class SocialNetwork:
     def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, userDataFile=None, **kwargs):
         ~~self.__name = name

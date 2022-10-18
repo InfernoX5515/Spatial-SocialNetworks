@@ -3,7 +3,7 @@ import json
 
 
 def first():
-    with open("Datasets/SocialNetworks/Gowalla_old/gowalla_user.csv", 'r') as csvfile:
+    with open("../Datasets/SocialNetworks/Gowalla_old/gowalla_user.csv", 'r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
         next(reader)
         for row in reader:
@@ -18,22 +18,22 @@ def first():
             user_dict["keywords"] = []
             user_dict["login locations"] = []
             user_dict["relationships"] = []
-            with open(f"Datasets/SocialNetworks/Gowalla/Users/{user_id}.json", "w") as f:
+            with open(f"../Datasets/SocialNetworks/Gowalla/Users/{user_id}.json", "w") as f:
                 json.dump(user_dict, f, indent=4)
 
 
 def loc():
     data = []
-    with open("Datasets/SocialNetworks/Gowalla_old/gowalla_loc.csv", 'r') as csvfile:
+    with open("../Datasets/SocialNetworks/Gowalla_old/gowalla_loc.csv", 'r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
         next(reader)
         for row in reader:
             user_id = int(float(row[0]))
             lat_pos = float(row[1])
             lon_pos = float(row[2])
-            with open(f"Datasets/SocialNetworks/Gowalla/Users/{user_id}.json", "r") as f:
+            with open(f"../Datasets/SocialNetworks/Gowalla/Users/{user_id}.json", "r") as f:
                 data = json.load(f)
-            with open(f"Datasets/SocialNetworks/Gowalla/Users/{user_id}.json", "w") as f:
+            with open(f"../Datasets/SocialNetworks/Gowalla/Users/{user_id}.json", "w") as f:
                 if (lat_pos, lon_pos) not in data["login locations"]:
                     data["login locations"] += [[lat_pos, lon_pos]]
                     json.dump(data, f, indent=4)
@@ -42,7 +42,7 @@ def loc():
 def key():
     data = []
     user_keyword_dict = {}
-    with open("Datasets/SocialNetworks/Gowalla_old/gowalla_key.csv", 'r') as kfile:
+    with open("../Datasets/SocialNetworks/Gowalla_old/gowalla_key.csv", 'r') as kfile:
         reader = csv.reader(kfile, delimiter=',', quotechar='|')
         next(reader)
         for row in reader:
@@ -53,17 +53,17 @@ def key():
             else:
                 user_keyword_dict[user_id] = [keyword_id]
         for item in user_keyword_dict:
-            with open(f"Datasets/SocialNetworks/Gowalla/Users/{item}.json", "r") as f:
+            with open(f"../Datasets/SocialNetworks/Gowalla/Users/{item}.json", "r") as f:
                 data = json.load(f)
                 data["keywords"] = user_keyword_dict[item]
                 f.close()
-            with open(f"Datasets/SocialNetworks/Gowalla/Users/{item}.json", "w") as f:
+            with open(f"../Datasets/SocialNetworks/Gowalla/Users/{item}.json", "w") as f:
                 json.dump(data, f, indent=4)
 
 
 def rel():
     data = []
-    with open("Datasets/SocialNetworks/Gowalla_old/gowalla_rel.csv", 'r') as csvfile:
+    with open("../Datasets/SocialNetworks/Gowalla_old/gowalla_rel.csv", 'r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
         next(reader)
         user_rel_weight_dict = {}
@@ -71,20 +71,19 @@ def rel():
             user_id = int(float(row[0]))
             rel_user_id = int(float(row[1]))
             weight = float(row[2])
-            if user_id in user_rel_weight_dict.keys():
-                user_rel_weight_dict[user_id].append([rel_user_id, weight])
+            if user_id in user_rel_weight_dict:
+                user_rel_weight_dict[user_id][rel_user_id] = weight
             else:
-                user_rel_weight_dict[user_id] = [[rel_user_id, weight]]
+                user_rel_weight_dict[user_id] = {rel_user_id: weight}
 
         for item in user_rel_weight_dict:
-            with open(f"Datasets/SocialNetworks/Gowalla/Users/{item}.json", "r") as f:
+            with open(f"../Datasets/SocialNetworks/Gowalla/Users/{item}.json", "r") as f:
                 try:
                     data = json.load(f)
-                    data["relationships"] = [[user_rel_weight_dict[item][0], user_rel_weight_dict[item][1]]]
-                    # data["relationships"] = ["Adsf"]
+                    data["relationships"] = user_rel_weight_dict[item]
                 except Exception as e:
                     print(e)
-            with open(f"Datasets/SocialNetworks/Gowalla/Users/{item}.json", "w") as f:
+            with open(f"../Datasets/SocialNetworks/Gowalla/Users/{item}.json", "w") as f:
                 json.dump(data, f, indent=4)
 
 
