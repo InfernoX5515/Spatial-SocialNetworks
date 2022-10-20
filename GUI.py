@@ -337,6 +337,7 @@ class Gui(QtWidgets.QMainWindow):
             self.__clusterInput()
             self.__queryInput()
             self.updateSummaryGraph()
+
         # Switch view to main
         else:
             # Setup default view
@@ -361,7 +362,7 @@ class Gui(QtWidgets.QMainWindow):
         # Note: For some reason, the alpha value is from 0-255 not 0-100
         self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                   symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
-        self.plotQueryUser()
+
         # Create Interactive Graph HTML File Using pyvis
         network = nx.Graph()
         for i in range(0, len(centers)):
@@ -386,7 +387,7 @@ class Gui(QtWidgets.QMainWindow):
         self.socialNetWidget.reload()
         # If a road network is selected, display info
         if self.selectedRoadNetwork is not None:
-            self.selectedRoadNetwork.visualize(self.roadGraphWidget)
+            self.selectedRoadNetwork.visualize(self.roadGraphWidget)   
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
             centers, sizes, relations, popSize = self.getSummaryClusters(self.clusterInput.textBox.text())
