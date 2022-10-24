@@ -243,6 +243,9 @@ class Gui(QtWidgets.QMainWindow):
         # Put actions in group and on menu
         addRNMenu.addActions(rActions.values())
 
+        menu.addMenu("Query")
+        menu.addChild("kd-truss", "Query",tooltip="View kd-truss menu", action=self.__queryInput)
+
     def clearView(self):
         self.win.removeItem(self.roadGraphWidget)
         if self.socialGraphWidget:
@@ -340,7 +343,7 @@ class Gui(QtWidgets.QMainWindow):
             self.view.setLayout(self.sumLayout)
             self.setCentralWidget(self.view)
             self.__clusterInput()
-            self.__queryInput()
+            # self.__queryInput()
             self.updateSummaryGraph()
         # Switch view to main
         else:
@@ -353,7 +356,7 @@ class Gui(QtWidgets.QMainWindow):
             self.summarySelected = False
             self.clusterInput.close()
             self.clearView()
-            self.queryInput.close()
+            #self.queryInput.close()
             self.createPlots()
             # Re-visualize selected networks
             if self.selectedRoadNetwork is not None:
@@ -453,8 +456,8 @@ class Gui(QtWidgets.QMainWindow):
         self.socialNetWidget.reload()
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
-            kd, keys, hops, dists = self.getKDTrust(self.queryInput.kTextBox.text(), self.queryInput.dTextBox.text(),
-                                 self.queryInput.eTextBox.text())
+            kd, keys, hops, dists = self.getKDTrust(self.__windows[6].kTextBox.text(), self.__windows[6].dTextBox.text(),
+                                 self.__windows[6].eTextBox.text())
             self.visualizeKdData(kd, keys, hops, dists)
             with open('nx.html', 'r') as f:
                 html = f.read()
@@ -724,14 +727,22 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[5].close()
 
     def __queryInput(self):
+        # Window Setup
+        self.__windows[6] = QtWidgets.QWidget()
+        self.__windows[6].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[6].setWindowTitle('Query: kd-truss')
+        self.__windows[6].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        layout = QtWidgets.QGridLayout()
+        self.__windows[6].buttons = []
         # Set up input toolbar
+<<<<<<< Updated upstream
         self.queryInput = QtWidgets.QToolBar("queryInput")
         self.queryInput.setIconSize(QtCore.QSize(24, 24))
         self.addToolBar(self.queryInput)
         # Create label
-        kLabel = QtWidgets.QLabel(text="  k: ")
-        dLabel = QtWidgets.QLabel(text="  d: ")
-        eLabel = QtWidgets.QLabel(text="  η: ")
+        kLabel = QtWidgets.QLabel(text="community's structural cohesiveness(k): ")
+        dLabel = QtWidgets.QLabel(text="maximum number of hops(d): ")
+        eLabel = QtWidgets.QLabel(text="minimum degree of similarity(η): ")
         # Create button
         button = QtWidgets.QPushButton("Get Query")
         button.clicked.connect(lambda: self.updateKdSummaryGraph())
@@ -762,6 +773,50 @@ class Gui(QtWidgets.QMainWindow):
         self.queryInput.addWidget(eLabel)
         self.queryInput.addWidget(self.queryInput.eTextBox)
         self.queryInput.addWidget(button)
+=======
+        # self.queryInput = QtWidgets.QToolBar("queryInput")
+        # self.queryInput.setIconSize(QtCore.QSize(24, 24))
+        # self.addToolBar(self.queryInput)
+        if self.queryUser is not None and self.summarySelected:
+            # Create label
+            kLabel = QtWidgets.QLabel(text="  community's structural cohesiveness(k): ")
+            dLabel = QtWidgets.QLabel(text="  maximum number of hops(d): ")
+            eLabel = QtWidgets.QLabel(text="  minimum degree of similarity(η): ")
+            # Create button
+            button = QtWidgets.QPushButton("Get Query")
+            button.clicked.connect(lambda: self.updateKdSummaryGraph())
+            button.clicked.connect(lambda: self.__windows[6].close())
+            # Create k text box
+            self.__windows[6].kTextBox = QtWidgets.QSpinBox()
+            self.__windows[6].kTextBox.setRange(3, 9999)
+            self.__windows[6].kTextBox.setValue(5)
+            self.__windows[6].kTextBox.setToolTip("k is used to control the community's structural cohesiveness. Larger k means higher structural cohesiveness")
+            # Create d text box
+            self.__windows[6].dTextBox = QtWidgets.QLineEdit()
+            self.__windows[6].dTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
+            self.__windows[6].dTextBox.setText("1")
+            self.__windows[6].dTextBox.returnPressed.connect(button.click)
+            self.__windows[6].dTextBox.setToolTip("d controls the maximum number of hops between users")
+            # Create e text box
+            self.__windows[6].eTextBox = QtWidgets.QLineEdit()
+            self.__windows[6].eTextBox.setValidator(QtGui.QIntValidator(0, 9999))
+            self.__windows[6].eTextBox.setText("0")
+            self.__windows[6].eTextBox.returnPressed.connect(button.click)
+            self.__windows[6].eTextBox.setToolTip("η controls the minimum degree of similarity between users")
+            # Add widgets to window
+            layout.addWidget(kLabel)
+            layout.addWidget(self.__windows[6].kTextBox)
+            layout.addWidget(dLabel)
+            layout.addWidget(self.__windows[6].dTextBox)
+            layout.addWidget(eLabel)
+            layout.addWidget(self.__windows[6].eTextBox)
+            layout.addWidget(button)
+
+            # Show QWidget
+            self.__windows[6].setLayout(layout)
+            self.__windows[6].show()
+            self.__windows[6].move(self.geometry().center() - self.__windows[6].rect().center())
+>>>>>>> Stashed changes
 
     # Display for loading networks
     def viewFiles(self):
