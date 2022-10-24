@@ -5,6 +5,7 @@ import json
 import math
 import multiprocessing
 import os.path
+import re
 import threading
 from os.path import exists
 import networkx as nx
@@ -184,8 +185,13 @@ class SocialNetwork:
     def getUserByLoc(self, lat, lon):
         lat = str(lat).replace('-', '-\\')
         lon = str(lon).replace('-', '-\\')
-        print(f"~ll:[*[{str(lat)}, {str(lon)}]*]~kw:")
-        matching = fnmatch.filter(list(self.users.keys()), f"~ll:[*[{lat}, {lon}]*]~kw:")
+        #list(self.users.keys())
+        #f"*~ll:[*[{lat}, {lon}]*]~kw:*"
+        #'~127128~ll:[[-122.275549, 37.766155]]~kw:[44, 71, 64, 52, 51]'
+        matching2 = fnmatch.filter(list(self.users.keys()), f"*~ll:[[]*[[]{lat}, {lon}[]]*[]]~kw:*")
+        print(matching2)
+        print(len(matching2))
+
         '''users = []
 
         for match in matching:
