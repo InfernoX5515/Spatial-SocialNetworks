@@ -84,12 +84,14 @@ class Gui(QtWidgets.QMainWindow):
         self.queryUserPlots = []
         # Store data for interactive network
         self.interactiveNetwork = nx.Graph()
-        # Store all network info in dict format {"NetworkName: {"Data": "Value", ...}, ..."}
+        # Store all road network info in dict format {"NetworkName: {"Data": "Value", ...}, ..."}
+        # Store all social network info in dict format {"NetworkName: "rootdir", ..."}
         self.__roadNetworks = self.config.settings["Road Networks"]
+        # TODO: Get rid of this var
         self.__socialNetworks = self.config.settings["Social Networks"]
         # Store network objects
         self.__roadNetworkObjs = self.createNetworkInstances(self.__roadNetworks, RoadNetwork)
-        self.__socialNetworkObjs = self.createNetworkInstances(self.__socialNetworks, SocialNetwork)
+        self.__socialNetworkObjs = self.config.getSocialNetworks()
         # Set up layout
         self.layout = QtWidgets.QHBoxLayout(self)
         self.sumLayout = QtWidgets.QHBoxLayout(self)

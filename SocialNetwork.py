@@ -71,9 +71,9 @@ class SNUser:
 
 
 class SocialNetwork:
-    def __init__(self, name, dir=None):
+    def __init__(self, name, Path=None):
         self.name = name
-        self.dir = dir
+        self.dir = Path
         if not os.path.exists(self.dir):
             os.mkdir(self.dir)
 

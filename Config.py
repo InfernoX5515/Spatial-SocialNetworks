@@ -12,6 +12,7 @@ from os.path import exists
 #       locations
 #
 # =====================================================================================================================
+from SocialNetwork import SocialNetwork
 
 
 class Config:
@@ -46,3 +47,17 @@ class Config:
     # Returns the loaded settings
     def getSetting(self, setting):
         return self.settings[setting]
+
+    def getSocialNetworks(self):
+        instances = {}
+        # Loops through all networks
+        for network in self.settings["Social Networks"]:
+            kwargs = {}
+            # Loops through all data in each network
+            for dataKey in self.settings["Social Networks"][network]:
+                dataValue = self.settings["Social Networks"][network][dataKey]
+                # If the value is set, use it to create the instance
+                if dataValue != f"[{dataKey}]":
+                    kwargs[dataKey] = dataValue
+            instances[network] = SocialNetwork(network, **kwargs)
+        return instances
