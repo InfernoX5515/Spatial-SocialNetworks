@@ -419,4 +419,13 @@ class SocialNetwork:
             clusterStart.pop(0)
         ref = list(Counter(kmeans.labels_).values())
         sizes = self.sizeSort(ref)
-        return centers, sizes, relations, popSize
+        ids = list(self.clusterItems.keys())
+
+        return ids, centers, sizes, relations, popSize
+
+    # Return the cluster id for a given user
+    def getUserCluster(self, user):
+        for x in self.clusterItems:
+            if user in self.clusterItems[x]:
+                return x
+        return -1
