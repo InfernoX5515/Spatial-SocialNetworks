@@ -183,21 +183,18 @@ class SocialNetwork:
         return matching[0]
 
     def getUserByLoc(self, lat, lon):
-        lat = str(lat).replace('-', '-\\')
-        lon = str(lon).replace('-', '-\\')
-        #list(self.users.keys())
-        #f"*~ll:[*[{lat}, {lon}]*]~kw:*"
-        #'~127128~ll:[[-122.275549, 37.766155]]~kw:[44, 71, 64, 52, 51]'
-        matching2 = fnmatch.filter(list(self.users.keys()), f"*~ll:[[]*[[]{lat}, {lon}[]]*[]]~kw:*")
-        print(matching2)
-        print(len(matching2))
+        matching = fnmatch.filter(list(self.users.keys()), f"*~ll:[[]*[[]{lat}, {lon}[]]*[]]~kw:*")
 
-        '''users = []
-
+        users = []
         for match in matching:
-            users += self.users[match]
+            users += [self.users[match]]
 
-        return users'''
+        return users
+
+    def getAllLocs(self):
+        indexes = '\n'.join(list(self.users.keys()))
+        coords = re.findall(r"(?<=~ll:\[)(.*)(?=]~kw:)", indexes)
+        return coords
 
 '''class SocialNetwork:
     def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, userDataFile=None, **kwargs):
