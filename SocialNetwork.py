@@ -5,8 +5,11 @@ import json
 import math
 import multiprocessing
 import os.path
+import pickle
 import re
+import stat
 import threading
+import time
 from os.path import exists
 import networkx as nx
 
@@ -114,29 +117,49 @@ class SocialNetwork:
     def loadUsers(self):
         self.users = {}
         userDir = f"{self.dir}/Users"
+        # self.users will be stored in a pickle (object) to load. This is faster than recomputing everything every time.
+        picklePath = f"{self.dir}/Users.pickle"
+        recreatePickle = True
 
         if os.path.exists(userDir):
-            files = os.listdir(userDir)
 
-            threadCount = 6
-            threads = []
-            total = len(files)
-            start = 0
-            end = math.floor(total / threadCount)
+            # Index to store objects so that they are not recreated every time unnecessarily
+            if os.path.exists(picklePath):
+                usersLastModified = time.ctime(os.stat(userDir)[stat.ST_MTIME])
+                indexLastModified = time.ctime(os.stat(picklePath)[stat.ST_MTIME])
 
-            for x in range(1, threadCount + 1):
-                if x == threadCount + 1:
-                    end = total
+                if usersLastModified < indexLastModified:
+                    recreatePickle = False
 
-                threads += [threading.Thread(target=lambda s=start, e=end: self.loadUserFiles(files[s:e]))]
-                start = end
-                end = math.floor(total / threadCount) * (x + 1)
+            if recreatePickle:
+                files = os.listdir(userDir)
 
-            for thread in threads:
-                thread.start()
+                threadCount = 6
+                threads = []
+                total = len(files)
+                start = 0
+                end = math.floor(total / threadCount)
 
-            for thread in threads:
-                thread.join()
+                for x in range(1, threadCount + 1):
+                    if x == threadCount + 1:
+                        end = total
+
+                    threads += [threading.Thread(target=lambda s=start, e=end: self.loadUserFiles(files[s:e]))]
+                    start = end
+                    end = math.floor(total / threadCount) * (x + 1)
+
+                for thread in threads:
+                    thread.start()
+
+                for thread in threads:
+                    thread.join()
+
+                with open(picklePath, 'wb') as f:
+                    pickle.dump(self.users, f, pickle.HIGHEST_PROTOCOL)
+
+            else:
+                with open(picklePath, 'rb') as f:
+                    self.users = pickle.load(f)
 
         else:
             os.mkdir(userDir)
