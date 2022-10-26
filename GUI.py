@@ -91,12 +91,14 @@ class Gui(QtWidgets.QMainWindow):
         self.__roadNetworkObjs = self.createNetworkInstances(self.__roadNetworks, RoadNetwork)
         self.__socialNetworkObjs = self.createNetworkInstances(self.__socialNetworks, SocialNetwork)
         # Set up layout
-        self.layout = QtWidgets.QHBoxLayout(self)
-        self.sumLayout = QtWidgets.QHBoxLayout(self)
+        self.layout = QtWidgets.QGridLayout(self)
+        self.layout.setSpacing(0)
+        self.sumLayout = QtWidgets.QGridLayout(self)
+        self.sumLayout.setSpacing(0)
         self.view = QtWidgets.QWidget()
         # Initializes menus
         self.__menuBar()
-        self.__navToolbar()
+        #self.__navToolbar()
         self.__queryUserButton()
         self.__mainWindow()
 
@@ -104,7 +106,7 @@ class Gui(QtWidgets.QMainWindow):
     def createPlots(self, suffix=""):
         self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
         self.socialGraphWidget = self.win.addPlot(row=0, col=0, title=f"Social Network {suffix}")
-        self.linkGraphAxis()
+        #self.linkGraphAxis()
 
     def createSumPlot(self, suffix=None):
         self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
@@ -122,7 +124,8 @@ class Gui(QtWidgets.QMainWindow):
             html = f.read()
             self.socialNetWidget.setHtml(html)
         # Define default layout
-        self.layout.addWidget(self.win)
+        self.layout.addWidget(self.win, 0, 0, 1, 2)
+        self.__navToolbar()
         self.view.setLayout(self.layout)
         self.setCentralWidget(self.view)
         # Create and set up graph widget
@@ -174,11 +177,48 @@ class Gui(QtWidgets.QMainWindow):
         yScale = (abs(yRanges[1] - yRanges[0]) * .25) / 2
         self.roadGraphWidget.setYRange(yRanges[0] - yScale, yRanges[1] - yScale, padding=0)
 
+
+
+    def zoomOutToolSocial(self):
+        xRanges = self.socialGraphWidget.getAxis('bottom').range
+        yRanges = self.socialGraphWidget.getAxis('left').range
+        xScale, yScale = self.getZoomScale(xRanges, yRanges)
+        self.socialGraphWidget.setXRange(xRanges[0] - xScale, xRanges[1] + xScale)
+        self.socialGraphWidget.setYRange(yRanges[0] - yScale, yRanges[1] + yScale)
+
+    def zoomInToolSocial(self):
+        xRanges = self.socialGraphWidget.getAxis('bottom').range
+        yRanges = self.socialGraphWidget.getAxis('left').range
+        xScale, yScale = self.getZoomScale(xRanges, yRanges)
+        self.socialGraphWidget.setXRange(xRanges[0] + xScale, xRanges[1] - xScale)
+        self.socialGraphWidget.setYRange(yRanges[0] + yScale, yRanges[1] - yScale)
+
+    def jogLeftToolSocial(self):
+        xRanges = self.socialGraphWidget.getAxis('bottom').range
+        xScale = (abs(xRanges[1] - xRanges[0]) * .25) / 2
+        self.socialGraphWidget.setXRange(xRanges[0] - xScale, xRanges[1] - xScale, padding=0)
+
+    def jogRightToolSocial(self):
+        xRanges = self.socialGraphWidget.getAxis('bottom').range
+        xScale = (abs(xRanges[1] - xRanges[0]) * .25) / 2
+        self.socialGraphWidget.setXRange(xRanges[0] + xScale, xRanges[1] + xScale, padding=0)
+
+    def jogUpToolSocial(self):
+        yRanges = self.socialGraphWidget.getAxis('left').range
+        yScale = (abs(yRanges[1] - yRanges[0]) * .25) / 2
+        self.socialGraphWidget.setYRange(yRanges[0] + yScale, yRanges[1] + yScale, padding=0)
+
+    def jogDownToolSocial(self):
+        yRanges = self.socialGraphWidget.getAxis('left').range
+        yScale = (abs(yRanges[1] - yRanges[0]) * .25) / 2
+        self.socialGraphWidget.setYRange(yRanges[0] - yScale, yRanges[1] - yScale, padding=0)
+
     # Creates the navigation toolbar
     def __navToolbar(self):
+        # Create toolbar for road graph
         toolbar = QtWidgets.QToolBar("Navigation Toolbar")
         toolbar.setIconSize(QtCore.QSize(24, 24))
-        self.addToolBar(toolbar)
+        #self.addToolBar(QtCore.Qt.BottomToolBarArea, toolbar)
         # Zoom in
         zoom_in = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-plus-solid.svg'), "Zoom In", self)
         zoom_in.triggered.connect(self.zoomInTool)
@@ -203,7 +243,42 @@ class Gui(QtWidgets.QMainWindow):
         jogDown = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-down-solid.svg'), "Jog Down", self)
         jogDown.triggered.connect(self.jogDownTool)
         toolbar.addAction(jogDown)
-
+        if self.summarySelected:
+            self.sumLayout.addWidget(toolbar, 1, 1)
+        else:
+            # Add the toolbar to the road graph
+            self.layout.addWidget(toolbar, 1, 1)
+            # Create a second toolbar for the social graph
+            socialToolbar = QtWidgets.QToolBar("Navigation Toolbar")
+            socialToolbar.setIconSize(QtCore.QSize(24, 24))
+            #self.addToolBar(QtCore.Qt.BottomToolBarArea, toolbar)
+            # Zoom in
+            zoom_in_social = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-plus-solid.svg'), "Zoom In", self)
+            zoom_in_social.triggered.connect(self.zoomInToolSocial)
+            socialToolbar.addAction(zoom_in_social)
+            # Zoom out
+            zoom_out_social = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-minus-solid.svg'), "Zoom Out", self)
+            zoom_out_social.triggered.connect(self.zoomOutToolSocial)
+            socialToolbar.addAction(zoom_out_social)
+            # Jog left
+            jogLeft_social = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-left-solid.svg'), "Jog Left", self)
+            jogLeft_social.triggered.connect(self.jogLeftToolSocial)
+            socialToolbar.addAction(jogLeft_social)
+            # Jog right
+            jogRight_social = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-right-solid.svg'), "Jog Right", self)
+            jogRight_social.triggered.connect(self.jogRightToolSocial)
+            socialToolbar.addAction(jogRight_social)
+            # Jog up
+            jogUp_social = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-up-solid.svg'), "Jog Up", self)
+            jogUp_social.triggered.connect(self.jogUpToolSocial)
+            socialToolbar.addAction(jogUp_social)
+            # Jog down
+            jogDown_social = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-down-solid.svg'), "Jog Down", self)
+            jogDown_social.triggered.connect(self.jogDownToolSocial)
+            socialToolbar.addAction(jogDown_social)
+            self.layout.addWidget(socialToolbar, 1, 0)
+        
+        
     def __menuBar(self):
         menu = MenuBar(self.menuBar())
 
@@ -332,9 +407,14 @@ class Gui(QtWidgets.QMainWindow):
                 self.socialNetWidget.setHtml(html)
             # Setup summary view
             self.view = QtWidgets.QWidget()
-            self.sumLayout = QtWidgets.QHBoxLayout()
-            self.sumLayout.addWidget(self.socialNetWidget, 50)
-            self.sumLayout.addWidget(self.win, 50)
+            self.sumLayout = QtWidgets.QGridLayout()
+            
+            self.sumLayout.setSpacing(0)
+            self.sumLayout.addWidget(self.socialNetWidget, 0, 0, 2,1)
+            self.sumLayout.addWidget(self.win, 0, 1)
+            self.sumLayout.setColumnStretch(0, 1)
+            self.sumLayout.setColumnStretch(1, 1)
+            self.__navToolbar()
             self.view.setLayout(self.sumLayout)
             self.setCentralWidget(self.view)
             self.__clusterInput()
@@ -343,13 +423,16 @@ class Gui(QtWidgets.QMainWindow):
 
         # Switch view to main
         else:
+            self.summarySelected = False
             # Setup default view
             self.view = QtWidgets.QWidget()
-            self.layout = QtWidgets.QHBoxLayout()
-            self.layout.addWidget(self.win)
+            self.layout = QtWidgets.QGridLayout()
+            self.layout.setSpacing(0)
+            self.layout.addWidget(self.win, 0, 0, 1, 2)
+            # Add graph toolbars
+            self.__navToolbar()
             self.view.setLayout(self.layout)
             self.setCentralWidget(self.view)
-            self.summarySelected = False
             self.clusterInput.close()
             self.clearView()
             #self.queryInput.close()
@@ -933,7 +1016,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
             if self.selectedSocialNetwork is not None:
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
-            self.linkGraphAxis()
+            #self.linkGraphAxis()
         else:
             self.clearView()
             self.createPlots()
@@ -942,7 +1025,7 @@ class Gui(QtWidgets.QMainWindow):
             self.selectedRoadNetwork.visualize(None, self.roadGraphWidget)
             if self.selectedSocialNetwork is not None:
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
-            self.linkGraphAxis()
+            #self.linkGraphAxis()
 
     def chooseFile(self, obj, T, network, sub):
         self.__windows[2] = QtWidgets.QFileDialog()
@@ -1001,7 +1084,7 @@ class Gui(QtWidgets.QMainWindow):
             if self.selectedSocialNetwork is not None:
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
             self.plotQueryUser()
-            self.linkGraphAxis()
+            #self.linkGraphAxis()
         # If the summary is selected
         else:
             self.clearView()
@@ -1037,7 +1120,7 @@ class Gui(QtWidgets.QMainWindow):
             if network is not None:
                 self.__socialNetworkObjs[network].visualize(self.socialGraphWidget, self.roadGraphWidget)
                 self.selectedSocialNetwork = self.__socialNetworkObjs[network]
-            self.linkGraphAxis()
+            #self.linkGraphAxis()
         # If summary view
         else:
             # Removes both graphs to clear them then re-adds them
