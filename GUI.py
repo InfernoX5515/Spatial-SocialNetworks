@@ -361,15 +361,21 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
             self.plotQueryUser()
 
-    def visualizeSummaryData(self, centers, sizes, relations, popSize):
+    def visualizeSummaryData(self, ids, centers, sizes, relations, popSize):
         # Note: For some reason, the alpha value is from 0-255 not 0-100
         self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                   symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
 
         # Create Interactive Graph HTML File Using pyvis
+        queryCluster = -1
+        if self.queryUser is not None:
+            queryCluster = self.selectedSocialNetwork.getUserCluster(self.queryUser[0])
         network = nx.Graph()
         for i in range(0, len(centers)):
-            network.add_node(str(centers[i][0]) + str(centers[i][1]), physics=False, label=popSize[i])
+            if ids[i] == queryCluster:
+                network.add_node(str(centers[i][0]) + str(centers[i][1]), physics=False, label=popSize[i], color='green',shape='star')
+            else:
+                network.add_node(str(centers[i][0]) + str(centers[i][1]), physics=False, label=popSize[i])
         for i in range(1, len(relations[0])):
             network.add_edge(str(relations[0][i]) + str(relations[1][i]),
                              str(relations[0][i - 1]) + str(relations[1][i - 1]))
@@ -393,8 +399,8 @@ class Gui(QtWidgets.QMainWindow):
             self.selectedRoadNetwork.visualize(self.roadGraphWidget)   
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
-            centers, sizes, relations, popSize = self.getSummaryClusters(self.clusterInput.textBox.text())
-            self.visualizeSummaryData(centers, sizes, relations, popSize)
+            ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+            self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
             with open('nx.html', 'r') as f:
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
@@ -436,8 +442,8 @@ class Gui(QtWidgets.QMainWindow):
             self.createSumPlot()
             if self.selectedRoadNetwork:
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
-            centers, sizes, relations, popSize = self.getSummaryClusters(self.clusterInput.textBox.text())
-            self.visualizeSummaryData(centers, sizes, relations, popSize)
+            ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+            self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
             self.setQueryUser(qu)
             self.plotQueryUser()
             for user in users:
@@ -470,57 +476,6 @@ class Gui(QtWidgets.QMainWindow):
             # Narrow down with degree of similarity distance (longest compute time)
             common, dists = self.usersWithinDistance(common, d=float(distance))
             return common, keys, hops, dists
-
-    # Generate clusters from the social network
-    def getSummaryClusters(self, n):
-        n = int(n)
-        if n < 1:
-            n = 10
-        # n_clusters is th number of nodes to plot
-        kmeans = KMeans(n_clusters=int(n))
-        chunkedData = self.selectedSocialNetwork.getChunkedLocData()
-        kmeans.fit(chunkedData)
-        # Scales the nodes according to population
-        centers = kmeans.cluster_centers_
-        # Get items in clusters and put it into dictionary {'clusterid': [userid, userid...], ...}
-        clusterItems = {}
-        for i in range(0, len(chunkedData)):
-            label = kmeans.labels_[i]
-            userid = self.selectedSocialNetwork.getIDByLoc(chunkedData[i][0], chunkedData[i][1])
-            if label in clusterItems:
-                clusterItems[label].append(userid)
-            else:
-                clusterItems[label] = [userid]
-        clusterStart = list(clusterItems.keys())
-        popSize = []
-        for x in clusterItems:
-            if isinstance(clusterItems[x], list):
-                popSize.append(len(clusterItems[x]))
-
-        relations = [[], []]
-        while len(clusterStart) != 1:
-            start = clusterStart[0]
-            for item in clusterStart:
-                if clusterStart[0] is not item:
-                    relations[0] += [centers[start][0], centers[item][0]]
-                    relations[1] += [centers[start][1], centers[item][1]]
-                    # for user in clusterItems[start]:
-                    #    for user2 in clusterItems[start]:
-                    #        print(f"    {user}")
-            clusterStart.pop(0)
-        ref = list(Counter(kmeans.labels_).values())
-        sizes = self.sizeSort(ref)
-        return centers, sizes, relations, popSize
-
-    # Returns size for cluster icons so that clusters that contain fewer nodes are smaller
-    @staticmethod
-    def sizeSort(refs):
-        sizes = []
-        refsSorted = refs.copy()
-        refsSorted.sort()
-        for x in refs:
-            sizes += [((refsSorted.index(x) + 1) * (75 / len(refsSorted)))]
-        return sizes
 
     def __queryUserButton(self):
         # Set up input toolbar
@@ -1058,8 +1013,8 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
             # Draw social network
             if self.selectedSocialNetwork is not None:
-                centers, sizes, relations, popSize = self.getSummaryClusters(self.clusterInput.textBox.text())
-                self.visualizeSummaryData(centers, sizes, relations, popSize)
+                ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+                self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
             self.plotQueryUser()
             #self.linkGraphAxis()
 
@@ -1096,8 +1051,8 @@ class Gui(QtWidgets.QMainWindow):
             # Draw cross-hairs on graph
             if network is not None:
                 self.selectedSocialNetwork = self.__socialNetworkObjs[network]
-                centers, sizes, relations, popSize = self.getSummaryClusters(self.clusterInput.textBox.text())
-                self.visualizeSummaryData(centers, sizes, relations, popSize)
+                ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+                self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
 
     # Creates network instances based on text data dictionary of {"NetworkName": {"Data":"Value", ...}
     # If the value is not set, square brackets denote that it is not set, written as "[Value]"

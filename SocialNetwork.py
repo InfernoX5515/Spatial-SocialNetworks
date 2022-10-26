@@ -3,6 +3,8 @@ import math
 import threading
 from os.path import exists
 import networkx as nx
+from sklearn.cluster import KMeans
+from collections import Counter
 
 # =====================================================================================================================
 #
@@ -23,6 +25,7 @@ class SocialNetwork:
         self.__rel = {}
         self.__loc = {}
         self.__userData = {}
+        self.clusterItems = {}
         self.__keywordMap = {}
         self.__keywordMapReverse = {}
         self.__keywords = {}
@@ -368,3 +371,61 @@ class SocialNetwork:
         if rnInst is not None:
             rnInst.plot(self.__flattenedLocData[0], self.__flattenedLocData[1], pen=None, symbol='o', symbolSize=2,
                         symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
+
+    # Returns size for cluster icons so that clusters that contain fewer nodes are smaller
+    @staticmethod
+    def sizeSort(refs):
+        sizes = []
+        refsSorted = refs.copy()
+        refsSorted.sort()
+        for x in refs:
+            sizes += [((refsSorted.index(x) + 1) * (75 / len(refsSorted)))]
+        return sizes
+
+    def getSummaryClusters(self, n):
+        n = int(n)
+        if n < 1:
+            n = 10
+        # n_clusters is th number of nodes to plot
+        kmeans = KMeans(n_clusters=int(n))
+        chunkedData = self.getChunkedLocData()
+        kmeans.fit(chunkedData)
+        # Scales the nodes according to population
+        centers = kmeans.cluster_centers_
+        # Get items in clusters and put it into dictionary {'clusterid': [userid, userid...], ...}
+        self.clusterItems = {}
+        for i in range(0, len(chunkedData)):
+            label = kmeans.labels_[i]
+            userid = self.getIDByLoc(chunkedData[i][0], chunkedData[i][1])
+            if label in self.clusterItems:
+                self.clusterItems[label].append(userid)
+            else:
+                self.clusterItems[label] = [userid]
+        clusterStart = list(self.clusterItems.keys())
+        popSize = []
+        for x in self.clusterItems:
+            if isinstance(self.clusterItems[x], list):
+                popSize.append(len(self.clusterItems[x]))
+        relations = [[], []]
+        while len(clusterStart) != 1:
+            start = clusterStart[0]
+            for item in clusterStart:
+                if clusterStart[0] is not item:
+                    relations[0] += [centers[start][0], centers[item][0]]
+                    relations[1] += [centers[start][1], centers[item][1]]
+                    # for user in clusterItems[start]:
+                    #    for user2 in clusterItems[start]:
+                    #        print(f"    {user}")
+            clusterStart.pop(0)
+        ref = list(Counter(kmeans.labels_).values())
+        sizes = self.sizeSort(ref)
+        ids = list(self.clusterItems.keys())
+
+        return ids, centers, sizes, relations, popSize
+
+    # Return the cluster id for a given user
+    def getUserCluster(self, user):
+        for x in self.clusterItems:
+            if user in self.clusterItems[x]:
+                return x
+        return -1
