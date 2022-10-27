@@ -797,7 +797,7 @@ class Gui(QtWidgets.QMainWindow):
         #self.queryInput = QtWidgets.QToolBar("queryInput")
         #self.queryInput.setIconSize(QtCore.QSize(24, 24))
         #self.addToolBar(self.queryInput)
-        if self.queryUser is not None and self.summarySelected:
+        if self.queryUser is not None and self.summarySelected and self.selectedRoadNetwork is not None and self.selectedSocialNetwork is not None:
             # Create label
             kLabel = QtWidgets.QLabel(text="community's structural cohesiveness(k): ")
             dLabel = QtWidgets.QLabel(text="maximum number of hops(d): ")
@@ -832,11 +832,29 @@ class Gui(QtWidgets.QMainWindow):
             layout.addWidget(eLabel)
             layout.addWidget(self.__windows[6].eTextBox)
             layout.addWidget(button)
+        else:
+            if self.selectedSocialNetwork is None:
+                noSocialLabel = QtWidgets.QLabel(text="No Social Network is selected.")
+                # Add widgets to window
+                layout.addWidget(noSocialLabel)
+            if self.selectedRoadNetwork is None:
+                noRoadLabel = QtWidgets.QLabel(text="No Road Network is selected.")
+                # Add widgets to window
+                layout.addWidget(noRoadLabel)
+            if self.queryUser is None:
+                noUserLabel = QtWidgets.QLabel(text="No Query User is selected.")
+                # Add widgets to window
+                layout.addWidget(noUserLabel)
+            if not self.summarySelected:
+                noSummaryLabel = QtWidgets.QLabel(text="Summary View is not selected.")
+                # Add widgets to window
+                layout.addWidget(noSummaryLabel)
 
-            # Show QWidget
-            self.__windows[6].setLayout(layout)
-            self.__windows[6].show()
-            self.__windows[6].move(self.geometry().center() - self.__windows[6].rect().center())
+
+        # Show QWidget
+        self.__windows[6].setLayout(layout)
+        self.__windows[6].show()
+        self.__windows[6].move(self.geometry().center() - self.__windows[6].rect().center())
 
     # Display for loading networks
     def viewFiles(self):
