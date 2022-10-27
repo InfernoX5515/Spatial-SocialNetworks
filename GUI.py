@@ -364,16 +364,14 @@ class Gui(QtWidgets.QMainWindow):
                                 D[neighbor] = new_cost
             print(D)'''
 
-    def usersWithinHops(self, users, h=0):
+    def usersWithinHops(self, users, h=3):
         withinHops = []
         hopsDetails = {}
         for user in users:
             hops = self.selectedSocialNetwork.numberOfHops(self.queryUser[0], user)
-            if h == 0:
-                withinHops.append(user)
-                hopsDetails[user] = hops
-            else:
-                if hops <= h and hops != -1:
+            if hops != -1:
+                print(f"{user} Hops: {hops}")
+                if hops <= h:
                     withinHops.append(user)
                     hopsDetails[user] = hops
         return withinHops, hopsDetails
@@ -490,6 +488,7 @@ class Gui(QtWidgets.QMainWindow):
         self.plotQueryUser()
 
     def visualizeKdData(self, users, keys, hops, dists):
+        print(len(users))
         if self.queryUser is not None:
             # Create Interactive Graph HTML File Using pyvis
             network = nx.Graph()
@@ -504,22 +503,26 @@ class Gui(QtWidgets.QMainWindow):
             # Add common users
             common = self.selectedSocialNetwork.userLoc(self.queryUser[0])
             commonLoc = self.selectedRoadNetwork.findNearest(common)
-            for user in users:
+            usersTemp = users
+            usersTemp.remove(self.queryUser[0])
+            i = 0
+            while usersTemp:
+                user = usersTemp[i]
                 query = self.selectedSocialNetwork.userLoc(user)
-                d = dists[user]
                 h = hops[user]
-                if h == -1:
-                    h = 1
-                k = keys[user]
-                temp = '<p>Number of hops: ' + str(h) + '</p><p>Distance: ' + str(d) + '</p><p>Common Keywords:</p><ol>'
-                for key in k:
-                    temp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
-                temp += '</ol>'
-                if user != self.queryUser[0]:
-                    network.add_node(user, physics=False, label=str(int(float(user))), color='blue', title=temp)
-                rels = self.selectedSocialNetwork.commonRelations(user, users)
-                for rel in rels:
-                    network.add_edge(rel, user, color='blue')
+                if h == i + 1:
+                    #d = dists[user]
+                    d = -1
+                    k = keys[user]
+                    label = '<p>Number of hops: ' + str(h) + '</p><p>Distance: ' + str(d) + '</p><p>Common Keywords:</p><ol>'
+                    for key in k:
+                        label += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
+                    label += '</ol>'
+                    network.add_node(user, physics=False, label=str(int(float(user))), color='blue', title=label)
+                    rels = self.selectedSocialNetwork.commonRelations(user, usersTemp)
+                    for rel in rels:
+                        network.add_edge(rel, user, color='blue')
+                i += 1
             qu = self.queryUser[0]
             self.clearView()
             self.createSumPlot()
@@ -542,8 +545,8 @@ class Gui(QtWidgets.QMainWindow):
         self.socialNetWidget.reload()
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
-            kd, keys, hops, dists = self.getKDTrust(self.__windows[6].kTextBox.text(), self.__windows[6].dTextBox.text(),
-                                 self.__windows[6].eTextBox.text())
+            kd, keys, hops, dists = self.getKDTrust(self.queryInput.eTextBox.text(), self.queryInput.dTextBox.text(),
+                                                    self.queryInput.kTextBox.text())
             self.visualizeKdData(kd, keys, hops, dists)
             with open('nx.html', 'r') as f:
                 html = f.read()
@@ -551,14 +554,21 @@ class Gui(QtWidgets.QMainWindow):
 
     #Generate kdtrust from input
     def getKDTrust(self, keywords, distance, hops):
+        print(f"KD Keywords: {keywords}")
+        print(f"KD distance: {distance}")
+        print(f"KD hops: {hops}")
         if self.queryUser is not None:
             # Users with common keywords
             common, keys = self.usersCommonKeyword(k=float(keywords))
+            print(f"Users Common Keywords: {common}")
             # Narrow query down to users within hops
             common, hops = self.usersWithinHops(common, h=float(hops))
+            print(f"Users Within Hops: {common}")
             # Narrow down with degree of similarity distance (longest compute time)
-            common, dists = self.usersWithinDistance(common, d=float(distance))
-            return common, keys, hops, dists
+            #common, dists = self.usersWithinDistance(common, d=float(distance))
+            print(f"Users Within Distance: {len(common)}")
+            return common, keys, hops, []
+            #return common, keys, hops, dists
 
     def __queryUserButton(self):
         # Set up input toolbar
