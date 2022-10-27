@@ -91,12 +91,14 @@ class Gui(QtWidgets.QMainWindow):
         self.__roadNetworkObjs = self.createNetworkInstances(self.__roadNetworks, RoadNetwork)
         self.__socialNetworkObjs = self.createNetworkInstances(self.__socialNetworks, SocialNetwork)
         # Set up layout
-        self.layout = QtWidgets.QHBoxLayout(self)
-        self.sumLayout = QtWidgets.QHBoxLayout(self)
+        self.layout = QtWidgets.QGridLayout(self)
+        self.layout.setSpacing(0)
+        self.sumLayout = QtWidgets.QGridLayout(self)
+        self.sumLayout.setSpacing(0)
         self.view = QtWidgets.QWidget()
         # Initializes menus
         self.__menuBar()
-        self.__navToolbar()
+        #self.__navToolbar()
         self.__queryUserButton()
         self.__mainWindow()
 
@@ -104,7 +106,7 @@ class Gui(QtWidgets.QMainWindow):
     def createPlots(self, suffix=""):
         self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
         self.socialGraphWidget = self.win.addPlot(row=0, col=0, title=f"Social Network {suffix}")
-        self.linkGraphAxis()
+        #self.linkGraphAxis()
 
     def createSumPlot(self, suffix=None):
         self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
@@ -122,7 +124,8 @@ class Gui(QtWidgets.QMainWindow):
             html = f.read()
             self.socialNetWidget.setHtml(html)
         # Define default layout
-        self.layout.addWidget(self.win)
+        self.layout.addWidget(self.win, 0, 0, 1, 2)
+        self.__navToolbar()
         self.view.setLayout(self.layout)
         self.setCentralWidget(self.view)
         # Create and set up graph widget
@@ -174,11 +177,48 @@ class Gui(QtWidgets.QMainWindow):
         yScale = (abs(yRanges[1] - yRanges[0]) * .25) / 2
         self.roadGraphWidget.setYRange(yRanges[0] - yScale, yRanges[1] - yScale, padding=0)
 
+
+
+    def zoomOutToolSocial(self):
+        xRanges = self.socialGraphWidget.getAxis('bottom').range
+        yRanges = self.socialGraphWidget.getAxis('left').range
+        xScale, yScale = self.getZoomScale(xRanges, yRanges)
+        self.socialGraphWidget.setXRange(xRanges[0] - xScale, xRanges[1] + xScale)
+        self.socialGraphWidget.setYRange(yRanges[0] - yScale, yRanges[1] + yScale)
+
+    def zoomInToolSocial(self):
+        xRanges = self.socialGraphWidget.getAxis('bottom').range
+        yRanges = self.socialGraphWidget.getAxis('left').range
+        xScale, yScale = self.getZoomScale(xRanges, yRanges)
+        self.socialGraphWidget.setXRange(xRanges[0] + xScale, xRanges[1] - xScale)
+        self.socialGraphWidget.setYRange(yRanges[0] + yScale, yRanges[1] - yScale)
+
+    def jogLeftToolSocial(self):
+        xRanges = self.socialGraphWidget.getAxis('bottom').range
+        xScale = (abs(xRanges[1] - xRanges[0]) * .25) / 2
+        self.socialGraphWidget.setXRange(xRanges[0] - xScale, xRanges[1] - xScale, padding=0)
+
+    def jogRightToolSocial(self):
+        xRanges = self.socialGraphWidget.getAxis('bottom').range
+        xScale = (abs(xRanges[1] - xRanges[0]) * .25) / 2
+        self.socialGraphWidget.setXRange(xRanges[0] + xScale, xRanges[1] + xScale, padding=0)
+
+    def jogUpToolSocial(self):
+        yRanges = self.socialGraphWidget.getAxis('left').range
+        yScale = (abs(yRanges[1] - yRanges[0]) * .25) / 2
+        self.socialGraphWidget.setYRange(yRanges[0] + yScale, yRanges[1] + yScale, padding=0)
+
+    def jogDownToolSocial(self):
+        yRanges = self.socialGraphWidget.getAxis('left').range
+        yScale = (abs(yRanges[1] - yRanges[0]) * .25) / 2
+        self.socialGraphWidget.setYRange(yRanges[0] - yScale, yRanges[1] - yScale, padding=0)
+
     # Creates the navigation toolbar
     def __navToolbar(self):
+        # Create toolbar for road graph
         toolbar = QtWidgets.QToolBar("Navigation Toolbar")
         toolbar.setIconSize(QtCore.QSize(24, 24))
-        self.addToolBar(toolbar)
+        #self.addToolBar(QtCore.Qt.BottomToolBarArea, toolbar)
         # Zoom in
         zoom_in = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-plus-solid.svg'), "Zoom In", self)
         zoom_in.triggered.connect(self.zoomInTool)
@@ -203,7 +243,42 @@ class Gui(QtWidgets.QMainWindow):
         jogDown = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-down-solid.svg'), "Jog Down", self)
         jogDown.triggered.connect(self.jogDownTool)
         toolbar.addAction(jogDown)
-
+        if self.summarySelected:
+            self.sumLayout.addWidget(toolbar, 1, 1)
+        else:
+            # Add the toolbar to the road graph
+            self.layout.addWidget(toolbar, 1, 1)
+            # Create a second toolbar for the social graph
+            socialToolbar = QtWidgets.QToolBar("Navigation Toolbar")
+            socialToolbar.setIconSize(QtCore.QSize(24, 24))
+            #self.addToolBar(QtCore.Qt.BottomToolBarArea, toolbar)
+            # Zoom in
+            zoom_in_social = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-plus-solid.svg'), "Zoom In", self)
+            zoom_in_social.triggered.connect(self.zoomInToolSocial)
+            socialToolbar.addAction(zoom_in_social)
+            # Zoom out
+            zoom_out_social = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-minus-solid.svg'), "Zoom Out", self)
+            zoom_out_social.triggered.connect(self.zoomOutToolSocial)
+            socialToolbar.addAction(zoom_out_social)
+            # Jog left
+            jogLeft_social = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-left-solid.svg'), "Jog Left", self)
+            jogLeft_social.triggered.connect(self.jogLeftToolSocial)
+            socialToolbar.addAction(jogLeft_social)
+            # Jog right
+            jogRight_social = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-right-solid.svg'), "Jog Right", self)
+            jogRight_social.triggered.connect(self.jogRightToolSocial)
+            socialToolbar.addAction(jogRight_social)
+            # Jog up
+            jogUp_social = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-up-solid.svg'), "Jog Up", self)
+            jogUp_social.triggered.connect(self.jogUpToolSocial)
+            socialToolbar.addAction(jogUp_social)
+            # Jog down
+            jogDown_social = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-down-solid.svg'), "Jog Down", self)
+            jogDown_social.triggered.connect(self.jogDownToolSocial)
+            socialToolbar.addAction(jogDown_social)
+            self.layout.addWidget(socialToolbar, 1, 0)
+        
+        
     def __menuBar(self):
         menu = MenuBar(self.menuBar())
 
@@ -237,6 +312,9 @@ class Gui(QtWidgets.QMainWindow):
             menu.addChild(x, "Road Networks", group="RoadNetworkGroup",
                           tooltip=f"Switch to view road network {x}",
                           action=lambda j, a=x: self.displayRoadNetwork(a))
+
+        menu.addMenu("Query")
+        menu.addChild("kd-truss", "Query", tooltip="kd-truss menu", action=self.__queryInput)
 
     def clearView(self):
         self.win.removeItem(self.roadGraphWidget)
@@ -327,27 +405,35 @@ class Gui(QtWidgets.QMainWindow):
                 self.socialNetWidget.setHtml(html)
             # Setup summary view
             self.view = QtWidgets.QWidget()
-            self.sumLayout = QtWidgets.QHBoxLayout()
-            self.sumLayout.addWidget(self.socialNetWidget, 50)
-            self.sumLayout.addWidget(self.win, 50)
+            self.sumLayout = QtWidgets.QGridLayout()
+            
+            self.sumLayout.setSpacing(0)
+            self.sumLayout.addWidget(self.socialNetWidget, 0, 0, 2,1)
+            self.sumLayout.addWidget(self.win, 0, 1)
+            self.sumLayout.setColumnStretch(0, 1)
+            self.sumLayout.setColumnStretch(1, 1)
+            self.__navToolbar()
             self.view.setLayout(self.sumLayout)
             self.setCentralWidget(self.view)
             self.__clusterInput()
-            self.__queryInput()
+            #self.__queryInput()
             self.updateSummaryGraph()
 
         # Switch view to main
         else:
+            self.summarySelected = False
             # Setup default view
             self.view = QtWidgets.QWidget()
-            self.layout = QtWidgets.QHBoxLayout()
-            self.layout.addWidget(self.win)
+            self.layout = QtWidgets.QGridLayout()
+            self.layout.setSpacing(0)
+            self.layout.addWidget(self.win, 0, 0, 1, 2)
+            # Add graph toolbars
+            self.__navToolbar()
             self.view.setLayout(self.layout)
             self.setCentralWidget(self.view)
-            self.summarySelected = False
             self.clusterInput.close()
             self.clearView()
-            self.queryInput.close()
+            #self.queryInput.close()
             self.createPlots()
             # Re-visualize selected networks
             if self.selectedRoadNetwork is not None:
@@ -356,15 +442,21 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
             self.plotQueryUser()
 
-    def visualizeSummaryData(self, centers, sizes, relations, popSize):
+    def visualizeSummaryData(self, ids, centers, sizes, relations, popSize):
         # Note: For some reason, the alpha value is from 0-255 not 0-100
         self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                   symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
 
         # Create Interactive Graph HTML File Using pyvis
+        queryCluster = -1
+        if self.queryUser is not None:
+            queryCluster = self.selectedSocialNetwork.getUserCluster(self.queryUser[0])
         network = nx.Graph()
         for i in range(0, len(centers)):
-            network.add_node(str(centers[i][0]) + str(centers[i][1]), physics=False, label=popSize[i])
+            if ids[i] == queryCluster:
+                network.add_node(str(centers[i][0]) + str(centers[i][1]), physics=False, label=popSize[i], color='green',shape='star')
+            else:
+                network.add_node(str(centers[i][0]) + str(centers[i][1]), physics=False, label=popSize[i])
         for i in range(1, len(relations[0])):
             network.add_edge(str(relations[0][i]) + str(relations[1][i]),
                              str(relations[0][i - 1]) + str(relations[1][i - 1]))
@@ -388,8 +480,8 @@ class Gui(QtWidgets.QMainWindow):
             self.selectedRoadNetwork.visualize(self.roadGraphWidget)   
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
-            centers, sizes, relations, popSize = self.getSummaryClusters(self.clusterInput.textBox.text())
-            self.visualizeSummaryData(centers, sizes, relations, popSize)
+            ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+            self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
             with open('nx.html', 'r') as f:
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
@@ -436,8 +528,8 @@ class Gui(QtWidgets.QMainWindow):
             self.createSumPlot()
             if self.selectedRoadNetwork:
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
-            centers, sizes, relations, popSize = self.getSummaryClusters(self.clusterInput.textBox.text())
-            self.visualizeSummaryData(centers, sizes, relations, popSize)
+            ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+            self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
             self.setQueryUser(qu)
             self.plotQueryUser()
             for user in users:
@@ -477,57 +569,6 @@ class Gui(QtWidgets.QMainWindow):
             print(f"Users Within Distance: {len(common)}")
             return common, keys, hops, []
             #return common, keys, hops, dists
-
-    # Generate clusters from the social network
-    def getSummaryClusters(self, n):
-        n = int(n)
-        if n < 1:
-            n = 10
-        # n_clusters is th number of nodes to plot
-        kmeans = KMeans(n_clusters=int(n))
-        chunkedData = self.selectedSocialNetwork.getChunkedLocData()
-        kmeans.fit(chunkedData)
-        # Scales the nodes according to population
-        centers = kmeans.cluster_centers_
-        # Get items in clusters and put it into dictionary {'clusterid': [userid, userid...], ...}
-        clusterItems = {}
-        for i in range(0, len(chunkedData)):
-            label = kmeans.labels_[i]
-            userid = self.selectedSocialNetwork.getIDByLoc(chunkedData[i][0], chunkedData[i][1])
-            if label in clusterItems:
-                clusterItems[label].append(userid)
-            else:
-                clusterItems[label] = [userid]
-        clusterStart = list(clusterItems.keys())
-        popSize = []
-        for x in clusterItems:
-            if isinstance(clusterItems[x], list):
-                popSize.append(len(clusterItems[x]))
-
-        relations = [[], []]
-        while len(clusterStart) != 1:
-            start = clusterStart[0]
-            for item in clusterStart:
-                if clusterStart[0] is not item:
-                    relations[0] += [centers[start][0], centers[item][0]]
-                    relations[1] += [centers[start][1], centers[item][1]]
-                    # for user in clusterItems[start]:
-                    #    for user2 in clusterItems[start]:
-                    #        print(f"    {user}")
-            clusterStart.pop(0)
-        ref = list(Counter(kmeans.labels_).values())
-        sizes = self.sizeSort(ref)
-        return centers, sizes, relations, popSize
-
-    # Returns size for cluster icons so that clusters that contain fewer nodes are smaller
-    @staticmethod
-    def sizeSort(refs):
-        sizes = []
-        refsSorted = refs.copy()
-        refsSorted.sort()
-        for x in refs:
-            sizes += [((refsSorted.index(x) + 1) * (75 / len(refsSorted)))]
-        return sizes
 
     def __queryUserButton(self):
         # Set up input toolbar
@@ -748,6 +789,7 @@ class Gui(QtWidgets.QMainWindow):
         self.clusterInput.textBox.setText("10")
         self.clusterInput.textBox.returnPressed.connect(button.click)
         #self.keywordInput.textBox = QtWidgets.QLineEdit()
+        #self.keywordInput.textBox = QtWidgets.QLineEdit()
         #self.keywordInput.textBox.setValidator(QtGui.QIntValidator(0, 9999))
         #self.keywordInput.textBox.setText("0")
         #self.keywordInput.textBox.returnPressed.connect(button.click)
@@ -793,42 +835,56 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[5].close()
 
     def __queryInput(self):
+        # Window setup
+        self.__windows[6] = QtWidgets.QWidget()
+        self.__windows[6].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[6].setWindowTitle('Query: kd-truss')
+        self.__windows[6].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        layout = QtWidgets.QGridLayout()
         # Set up input toolbar
-        self.queryInput = QtWidgets.QToolBar("queryInput")
-        self.queryInput.setIconSize(QtCore.QSize(24, 24))
-        self.addToolBar(self.queryInput)
-        # Create label
-        kLabel = QtWidgets.QLabel(text="  k: ")
-        dLabel = QtWidgets.QLabel(text="  d: ")
-        eLabel = QtWidgets.QLabel(text="  η: ")
-        # Create button
-        button = QtWidgets.QPushButton("Get Query")
-        button.clicked.connect(lambda: self.updateKdSummaryGraph())
-        # Create k text box
-        self.queryInput.kTextBox = QtWidgets.QSpinBox()
-        self.queryInput.kTextBox.setRange(3, 9999)
-        self.queryInput.kTextBox.setValue(5)
-        self.queryInput.kTextBox.setToolTip("k is used to control the community's structural cohesiveness. Larger k "
-                                            "means higher structural cohesiveness")
-        # Create d text box
-        self.queryInput.dTextBox = QtWidgets.QLineEdit()
-        self.queryInput.dTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
-        self.queryInput.dTextBox.setText("1")
-        self.queryInput.dTextBox.returnPressed.connect(button.click)
-        self.queryInput.dTextBox.setToolTip("d controls the maximum number of hops between users")
-        # Create e text box
-        self.queryInput.eTextBox = QtWidgets.QSpinBox()
-        self.queryInput.eTextBox.setRange(1, 9999)
-        self.queryInput.eTextBox.setValue(1)
-        self.queryInput.eTextBox.setToolTip("η controls the minimum degree of similarity between users")
-        # Add widgets to window
-        self.queryInput.addWidget(kLabel)
-        self.queryInput.addWidget(self.queryInput.kTextBox)
-        self.queryInput.addWidget(dLabel)
-        self.queryInput.addWidget(self.queryInput.dTextBox)
-        self.queryInput.addWidget(eLabel)
-        self.queryInput.addWidget(self.queryInput.eTextBox)
-        self.queryInput.addWidget(button)
+        #self.queryInput = QtWidgets.QToolBar("queryInput")
+        #self.queryInput.setIconSize(QtCore.QSize(24, 24))
+        #self.addToolBar(self.queryInput)
+        if self.queryUser is not None and self.summarySelected:
+            # Create label
+            kLabel = QtWidgets.QLabel(text="community's structural cohesiveness(k): ")
+            dLabel = QtWidgets.QLabel(text="maximum number of hops(d): ")
+            eLabel = QtWidgets.QLabel(text="minimum degree of similarity(η): ")
+            # Create button
+            button = QtWidgets.QPushButton("Get Query")
+            button.clicked.connect(lambda: self.updateKdSummaryGraph())
+            button.clicked.connect(lambda: self.__windows[6].close())
+            # Create k text box
+            self.__windows[6].kTextBox = QtWidgets.QSpinBox()
+            self.__windows[6].kTextBox.setRange(3, 9999)
+            self.__windows[6].kTextBox.setValue(5)
+            self.__windows[6].kTextBox.setToolTip(
+                "k is used to control the community's structural cohesiveness. Larger k means higher structural cohesiveness")
+            # Create d text box
+            self.__windows[6].dTextBox = QtWidgets.QLineEdit()
+            self.__windows[6].dTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
+            self.__windows[6].dTextBox.setText("1")
+            self.__windows[6].dTextBox.returnPressed.connect(button.click)
+            self.__windows[6].dTextBox.setToolTip("d controls the maximum number of hops between users")
+            # Create e text box
+            self.__windows[6].eTextBox = QtWidgets.QLineEdit()
+            self.__windows[6].eTextBox.setValidator(QtGui.QIntValidator(0, 9999))
+            self.__windows[6].eTextBox.setText("0")
+            self.__windows[6].eTextBox.returnPressed.connect(button.click)
+            self.__windows[6].eTextBox.setToolTip("η controls the minimum degree of similarity between users")
+            # Add widgets to window
+            layout.addWidget(kLabel)
+            layout.addWidget(self.__windows[6].kTextBox)
+            layout.addWidget(dLabel)
+            layout.addWidget(self.__windows[6].dTextBox)
+            layout.addWidget(eLabel)
+            layout.addWidget(self.__windows[6].eTextBox)
+            layout.addWidget(button)
+
+            # Show QWidget
+            self.__windows[6].setLayout(layout)
+            self.__windows[6].show()
+            self.__windows[6].move(self.geometry().center() - self.__windows[6].rect().center())
 
     # Display for loading networks
     def viewFiles(self):
@@ -970,7 +1026,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
             if self.selectedSocialNetwork is not None:
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
-            self.linkGraphAxis()
+            #self.linkGraphAxis()
         else:
             self.clearView()
             self.createPlots()
@@ -979,7 +1035,7 @@ class Gui(QtWidgets.QMainWindow):
             self.selectedRoadNetwork.visualize(None, self.roadGraphWidget)
             if self.selectedSocialNetwork is not None:
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
-            self.linkGraphAxis()
+            #self.linkGraphAxis()
 
     def chooseFile(self, obj, T, network, sub):
         self.__windows[2] = QtWidgets.QFileDialog()
@@ -1038,7 +1094,7 @@ class Gui(QtWidgets.QMainWindow):
             if self.selectedSocialNetwork is not None:
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
             self.plotQueryUser()
-            self.linkGraphAxis()
+            #self.linkGraphAxis()
         # If the summary is selected
         else:
             self.clearView()
@@ -1050,8 +1106,8 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
             # Draw social network
             if self.selectedSocialNetwork is not None:
-                centers, sizes, relations, popSize = self.getSummaryClusters(self.clusterInput.textBox.text())
-                self.visualizeSummaryData(centers, sizes, relations, popSize)
+                ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+                self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
             self.plotQueryUser()
             #self.linkGraphAxis()
 
@@ -1074,7 +1130,7 @@ class Gui(QtWidgets.QMainWindow):
             if network is not None:
                 self.__socialNetworkObjs[network].visualize(self.socialGraphWidget, self.roadGraphWidget)
                 self.selectedSocialNetwork = self.__socialNetworkObjs[network]
-            self.linkGraphAxis()
+            #self.linkGraphAxis()
         # If summary view
         else:
             # Removes both graphs to clear them then re-adds them
@@ -1088,8 +1144,8 @@ class Gui(QtWidgets.QMainWindow):
             # Draw cross-hairs on graph
             if network is not None:
                 self.selectedSocialNetwork = self.__socialNetworkObjs[network]
-                centers, sizes, relations, popSize = self.getSummaryClusters(self.clusterInput.textBox.text())
-                self.visualizeSummaryData(centers, sizes, relations, popSize)
+                ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+                self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
 
     # Creates network instances based on text data dictionary of {"NetworkName": {"Data":"Value", ...}
     # If the value is not set, square brackets denote that it is not set, written as "[Value]"
