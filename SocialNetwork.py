@@ -351,7 +351,6 @@ class SocialNetwork:
         hops = 0
         try:
             hops = nx.dijkstra_path_length(self.networkX, float(start), float(end))
-            print(list(nx.find_cycle(self.networkX, source=[float(start), float(end)], orientation='ignore')))
         except (nx.NetworkXNoPath, nx.NodeNotFound) as e:
             hops = -1
         #return self.networkX.number_of_edges(float(start), float(end))

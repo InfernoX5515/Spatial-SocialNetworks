@@ -836,10 +836,10 @@ class Gui(QtWidgets.QMainWindow):
 
     def __queryInput(self):
         # Window setup
-        self.__windows[6] = QtWidgets.QWidget()
-        self.__windows[6].setWindowModality(QtCore.Qt.ApplicationModal)
-        self.__windows[6].setWindowTitle('Query: kd-truss')
-        self.__windows[6].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        self.queryInput = QtWidgets.QWidget()
+        self.queryInput.setWindowModality(QtCore.Qt.ApplicationModal)
+        self.queryInput.setWindowTitle('Query: kd-truss')
+        self.queryInput.resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
         layout = QtWidgets.QGridLayout()
         # Set up input toolbar
         #self.queryInput = QtWidgets.QToolBar("queryInput")
@@ -853,38 +853,38 @@ class Gui(QtWidgets.QMainWindow):
             # Create button
             button = QtWidgets.QPushButton("Get Query")
             button.clicked.connect(lambda: self.updateKdSummaryGraph())
-            button.clicked.connect(lambda: self.__windows[6].close())
+            button.clicked.connect(lambda: self.queryInput.close())
             # Create k text box
-            self.__windows[6].kTextBox = QtWidgets.QSpinBox()
-            self.__windows[6].kTextBox.setRange(3, 9999)
-            self.__windows[6].kTextBox.setValue(5)
-            self.__windows[6].kTextBox.setToolTip(
+            self.queryInput.kTextBox = QtWidgets.QSpinBox()
+            self.queryInput.kTextBox.setRange(3, 9999)
+            self.queryInput.kTextBox.setValue(5)
+            self.queryInput.kTextBox.setToolTip(
                 "k is used to control the community's structural cohesiveness. Larger k means higher structural cohesiveness")
             # Create d text box
-            self.__windows[6].dTextBox = QtWidgets.QLineEdit()
-            self.__windows[6].dTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
-            self.__windows[6].dTextBox.setText("1")
-            self.__windows[6].dTextBox.returnPressed.connect(button.click)
-            self.__windows[6].dTextBox.setToolTip("d controls the maximum number of hops between users")
+            self.queryInput.dTextBox = QtWidgets.QLineEdit()
+            self.queryInput.dTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
+            self.queryInput.dTextBox.setText("1")
+            self.queryInput.dTextBox.returnPressed.connect(button.click)
+            self.queryInput.dTextBox.setToolTip("d controls the maximum number of hops between users")
             # Create e text box
-            self.__windows[6].eTextBox = QtWidgets.QLineEdit()
-            self.__windows[6].eTextBox.setValidator(QtGui.QIntValidator(0, 9999))
-            self.__windows[6].eTextBox.setText("0")
-            self.__windows[6].eTextBox.returnPressed.connect(button.click)
-            self.__windows[6].eTextBox.setToolTip("η controls the minimum degree of similarity between users")
+            self.queryInput.eTextBox = QtWidgets.QLineEdit()
+            self.queryInput.eTextBox.setValidator(QtGui.QIntValidator(0, 9999))
+            self.queryInput.eTextBox.setText("0")
+            self.queryInput.eTextBox.returnPressed.connect(button.click)
+            self.queryInput.eTextBox.setToolTip("η controls the minimum degree of similarity between users")
             # Add widgets to window
             layout.addWidget(kLabel)
-            layout.addWidget(self.__windows[6].kTextBox)
+            layout.addWidget(self.queryInput.kTextBox)
             layout.addWidget(dLabel)
-            layout.addWidget(self.__windows[6].dTextBox)
+            layout.addWidget(self.queryInput.dTextBox)
             layout.addWidget(eLabel)
-            layout.addWidget(self.__windows[6].eTextBox)
+            layout.addWidget(self.queryInput.eTextBox)
             layout.addWidget(button)
 
             # Show QWidget
-            self.__windows[6].setLayout(layout)
-            self.__windows[6].show()
-            self.__windows[6].move(self.geometry().center() - self.__windows[6].rect().center())
+            self.queryInput.setLayout(layout)
+            self.queryInput.show()
+            self.queryInput.move(self.geometry().center() - self.queryInput.rect().center())
 
     # Display for loading networks
     def viewFiles(self):
