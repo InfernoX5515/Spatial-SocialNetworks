@@ -366,14 +366,13 @@ class Gui(QtWidgets.QMainWindow):
 
     def usersWithinHops(self, users, h=3):
         withinHops = []
-        hopsDetails = {}
+        hopsDetails = []
         for user in users:
             hops = self.selectedSocialNetwork.numberOfHops(self.queryUser[0], user)
             if hops != -1:
-                print(f"{user} Hops: {hops}")
-                if hops <= h:
+                if hops <= h + 1:
                     withinHops.append(user)
-                    hopsDetails[user] = hops
+                    hopsDetails += [hops]
         return withinHops, hopsDetails
 
     # Returns users within d distance
@@ -488,26 +487,50 @@ class Gui(QtWidgets.QMainWindow):
         self.plotQueryUser()
 
     def visualizeKdData(self, users, keys, hops, dists):
-        print(len(users))
         if self.queryUser is not None:
             # Create Interactive Graph HTML File Using pyvis
             network = nx.Graph()
+
             titleTemp = '<p>Keywords:</p><ol>'
             # Add query user
-            queryKeys = self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
-            for key in queryKeys:
+            quKWs = self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
+            for key in quKWs:
                 titleTemp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
             titleTemp += '</ol>'
-            network.add_node(self.queryUser[0], physics=False, label=str('Query: ') + str(int(float(self.queryUser[0]))),
-                             color='green', size=15, shape='star', title=titleTemp)
+
+            network.add_node(self.queryUser[0], color='green', size=15, shape='star', title=titleTemp,
+                             label=str('Query: ') + str(int(float(self.queryUser[0]))))
+
             # Add common users
-            common = self.selectedSocialNetwork.userLoc(self.queryUser[0])
-            commonLoc = self.selectedRoadNetwork.findNearest(common)
+            #common = self.selectedSocialNetwork.userLoc(self.queryUser[0])
+            #commonLoc = self.selectedRoadNetwork.findNearest(common)
+
             usersTemp = users
-            usersTemp.remove(self.queryUser[0])
-            i = 0
-            while usersTemp:
-                user = usersTemp[i]
+            if self.queryUser[0] in usersTemp:
+                usersTemp.remove(self.queryUser[0])
+
+            hops, usersTemp = zip(*sorted(zip(hops, usersTemp)))
+            for i in range(0, len(hops)):
+                d = -1
+                k = keys[usersTemp[i]]
+
+                label = '<p>Number of hops: ' + str(hops[i]) + '</p><p>Distance: ' + str(d) + \
+                        '</p><p>Common Keywords:</p><ol>'
+                for key in k:
+                    label += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
+                label += '</ol>'
+
+                if hops[i] == 1:
+                    network.add_node(usersTemp[i], label=str(int(float(usersTemp[i]))), color='blue', title=label)
+                    network.add_edge(usersTemp[i], self.queryUser[0], color='blue')
+                else:
+                    rels = self.selectedSocialNetwork.commonRelations(usersTemp[i], usersTemp)
+                    if len(rels) >= 1:
+                        network.add_node(usersTemp[i], label=str(int(float(usersTemp[i]))), color='blue', title=label)
+                        for rel in rels:
+                            network.add_edge(rel, usersTemp[i], color='blue')
+            '''while len(usersTemp) > 0:
+                user = usersTemp[0]
                 query = self.selectedSocialNetwork.userLoc(user)
                 h = hops[user]
                 if h == i + 1:
@@ -522,22 +545,24 @@ class Gui(QtWidgets.QMainWindow):
                     rels = self.selectedSocialNetwork.commonRelations(user, usersTemp)
                     for rel in rels:
                         network.add_edge(rel, user, color='blue')
-                i += 1
+                usersTemp.pop(0)'''
             qu = self.queryUser[0]
             self.clearView()
             self.createSumPlot()
+
             if self.selectedRoadNetwork:
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
             ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
             self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
             self.setQueryUser(qu)
             self.plotQueryUser()
-            for user in users:
-                temp = self.selectedSocialNetwork.userLoc(user)
-                self.roadGraphWidget.plot([float(temp[0][0])], [float(temp[0][1])], pen=None, symbol='o', symbolSize=10,
-                                          symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
-                network.add_edge(self.queryUser[0], user, color='red')
+            #for user in users:
+                #temp = self.selectedSocialNetwork.userLoc(user)
+                #self.roadGraphWidget.plot([float(temp[0][0])], [float(temp[0][1])], pen=None, symbol='o', symbolSize=10,
+                #                          symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
+                #network.add_edge(self.queryUser[0], user, color='red')
             nt = Network('100%', '100%')
+            nt.toggle_physics(False)
             nt.from_nx(network)
             nt.save_graph('nx.html')
     
@@ -565,10 +590,9 @@ class Gui(QtWidgets.QMainWindow):
             common, hops = self.usersWithinHops(common, h=float(hops))
             print(f"Users Within Hops: {common}")
             # Narrow down with degree of similarity distance (longest compute time)
-            #common, dists = self.usersWithinDistance(common, d=float(distance))
+            common, dists = self.usersWithinDistance(common, d=float(distance))
             print(f"Users Within Distance: {len(common)}")
-            return common, keys, hops, []
-            #return common, keys, hops, dists
+            return common, keys, hops, dists
 
     def __queryUserButton(self):
         # Set up input toolbar
@@ -847,9 +871,9 @@ class Gui(QtWidgets.QMainWindow):
         #self.addToolBar(self.queryInput)
         if self.queryUser is not None and self.summarySelected:
             # Create label
-            kLabel = QtWidgets.QLabel(text="community's structural cohesiveness(k): ")
-            dLabel = QtWidgets.QLabel(text="maximum number of hops(d): ")
-            eLabel = QtWidgets.QLabel(text="minimum degree of similarity(η): ")
+            kLabel = QtWidgets.QLabel(text="community's structural cohesiveness (k): ")
+            dLabel = QtWidgets.QLabel(text="maximum number of hops (d): ")
+            eLabel = QtWidgets.QLabel(text="minimum degree of similarity (η): ")
             # Create button
             button = QtWidgets.QPushButton("Get Query")
             button.clicked.connect(lambda: self.updateKdSummaryGraph())
@@ -857,7 +881,7 @@ class Gui(QtWidgets.QMainWindow):
             # Create k text box
             self.queryInput.kTextBox = QtWidgets.QSpinBox()
             self.queryInput.kTextBox.setRange(3, 9999)
-            self.queryInput.kTextBox.setValue(5)
+            self.queryInput.kTextBox.setValue(3)
             self.queryInput.kTextBox.setToolTip(
                 "k is used to control the community's structural cohesiveness. Larger k means higher structural cohesiveness")
             # Create d text box
@@ -869,7 +893,7 @@ class Gui(QtWidgets.QMainWindow):
             # Create e text box
             self.queryInput.eTextBox = QtWidgets.QLineEdit()
             self.queryInput.eTextBox.setValidator(QtGui.QIntValidator(0, 9999))
-            self.queryInput.eTextBox.setText("0")
+            self.queryInput.eTextBox.setText("1")
             self.queryInput.eTextBox.returnPressed.connect(button.click)
             self.queryInput.eTextBox.setToolTip("η controls the minimum degree of similarity between users")
             # Add widgets to window

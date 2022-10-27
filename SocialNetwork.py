@@ -359,7 +359,7 @@ class SocialNetwork:
     def commonRelations(self, target, users):
         result = []
         for user in users:
-            if self.networkX.has_edge(user,target):
+            if self.networkX.has_edge(float(user), float(target)):
                 result.append(user)
         return result
 
