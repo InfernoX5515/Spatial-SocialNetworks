@@ -488,6 +488,7 @@ class Gui(QtWidgets.QMainWindow):
 
     def visualizeKdData(self, users, keys, hops, dists):
         if self.queryUser is not None:
+            print(f"Here: {users}")
             # Create Interactive Graph HTML File Using pyvis
             network = nx.Graph()
 
@@ -525,10 +526,19 @@ class Gui(QtWidgets.QMainWindow):
                     network.add_edge(usersTemp[i], self.queryUser[0], color='blue')
                 else:
                     rels = self.selectedSocialNetwork.commonRelations(usersTemp[i], usersTemp)
-                    if len(rels) >= 1:
-                        network.add_node(usersTemp[i], label=str(int(float(usersTemp[i]))), color='blue', title=label)
-                        for rel in rels:
-                            network.add_edge(rel, usersTemp[i], color='blue')
+                    network.add_node(usersTemp[i], label=str(int(float(usersTemp[i]))), color='blue', title=label)
+                    for rel in rels:
+                        network.add_edge(rel, usersTemp[i], color='blue')
+            rem = []
+            for n in network.nodes:
+                try:
+                    nx.dijkstra_path_length(network, n, self.queryUser[0])
+                except nx.NetworkXNoPath:
+                    print(n)
+                    rem += [n]
+
+            for x in rem:
+                network.remove_node(x)
             '''while len(usersTemp) > 0:
                 user = usersTemp[0]
                 query = self.selectedSocialNetwork.userLoc(user)
@@ -579,19 +589,13 @@ class Gui(QtWidgets.QMainWindow):
 
     #Generate kdtrust from input
     def getKDTrust(self, keywords, distance, hops):
-        print(f"KD Keywords: {keywords}")
-        print(f"KD distance: {distance}")
-        print(f"KD hops: {hops}")
         if self.queryUser is not None:
             # Users with common keywords
             common, keys = self.usersCommonKeyword(k=float(keywords))
-            print(f"Users Common Keywords: {common}")
             # Narrow query down to users within hops
             common, hops = self.usersWithinHops(common, h=float(hops))
-            print(f"Users Within Hops: {common}")
             # Narrow down with degree of similarity distance (longest compute time)
             common, dists = self.usersWithinDistance(common, d=float(distance))
-            print(f"Users Within Distance: {len(common)}")
             return common, keys, hops, dists
 
     def __queryUserButton(self):
@@ -989,7 +993,7 @@ class Gui(QtWidgets.QMainWindow):
     # Creates a new Road network
     def newNetwork(self, type):
         if type != "road" and type != "social":
-            print("ERROR: newNetwork() must have type road or social")
+            raise Exception("ERROR: newNetwork() must have type road or social")
             exit(0)
         title = ""
         network = None
