@@ -1,61 +1,17 @@
 from collections import Counter
 from os.path import exists
-from anytree import Node, RenderTree, find_by_attr
 from Config import Config
 from PyQt5 import QtGui, QtCore
 import pyqtgraph as pg
 import PyQt5.QtWidgets as QtWidgets
 from PyQt5.QtWebEngineWidgets import QWebEngineView
-
-from GUIWindows import buildNetworkWindow
+from BuildNetworks import buildNetworkWindow
+from MenuBar import MenuBar
 from RoadNetwork import RoadNetwork
-from SocialNetwork import SocialNetwork
 from sklearn.cluster import KMeans
 from pyvis.network import Network
 import networkx as nx
 import time
-
-
-# Menu bar class for more simple management
-class MenuBar:
-    def __init__(self, menuBar):
-        self.menu = menuBar
-        self.menuTree = Node('root')
-        self.__menuGroups = {}
-
-    def addMenu(self, name):
-        menu = self.menu.addMenu(name)
-        Node(name, obj=menu, parent=self.menuTree)
-
-    def addChild(self, name, parent, shortcut=None, tooltip=None, action=None, group=None, checked=False):
-        child = QtWidgets.QAction(name, self.menu)
-
-        if shortcut is not None:
-            child.setShortcut(shortcut)
-        if tooltip is not None:
-            child.setStatusTip(tooltip)
-        if action is not None:
-            child.triggered.connect(action)
-        if group is not None:
-            if group not in self.__menuGroups:
-                raise Exception(f"Group '{group}' does not exist.")
-            self.__menuGroups[group].addAction(child)
-            child.setCheckable(True)
-            child.setChecked(checked)
-
-        parentNode = find_by_attr(self.menuTree, parent)
-        if parentNode is None:
-            raise Exception(f"Menu item '{parent}' was not found.")
-        parentNode.obj.addAction(child)
-        Node(name, obj=child, parent=parentNode)
-
-    def createGroup(self, name, appRoot):
-        if name in self.__menuGroups:
-            raise Exception(f"Group '{name}' already exists.")
-        self.__menuGroups[name] = QtWidgets.QActionGroup(appRoot)
-
-    def printTree(self):
-        print(RenderTree(self.menuTree))
 
 
 class Gui(QtWidgets.QMainWindow):
@@ -213,7 +169,7 @@ class Gui(QtWidgets.QMainWindow):
         menu.addMenu("File")
         menu.addChild("Files", "File", shortcut="Ctrl+f", tooltip="View files", action=lambda: self.openWindow(
             buildNetworkWindow(self, int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3),
-                               self.__roadNetworks, self.config.settings["Social Networks"], self.config)))
+                               self.__roadNetworks, self.config.settings["Social Networks"], self.config, self.reloadMenu)))
 
         menu.addMenu("View")
         menu.createGroup("ViewGroup", self)
@@ -242,6 +198,12 @@ class Gui(QtWidgets.QMainWindow):
             menu.addChild(x, "Road Networks", group="RoadNetworkGroup",
                           tooltip=f"Switch to view road network {x}",
                           action=lambda j, a=x: self.displayRoadNetwork(a))
+
+        self.menu = menu
+
+    def reloadMenu(self):
+        self.menuBar().clear()
+        self.__menuBar()
 
     def clearView(self):
         self.win.removeItem(self.roadGraphWidget)

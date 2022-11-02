@@ -9,7 +9,10 @@ from anytree import Node, RenderTree, find_by_attr
 tree = Node('root')
 
 
-def buildNetworkWindow(root, winW, winH, roadNetworks, socialNetworks, config):
+def buildNetworkWindow(root, winW, winH, roadNetworks, socialNetworks, config, reloadMenuFunc):
+    global tree
+    tree = Node('root')
+
     Node("Road Networks", obj=QtWidgets.QTreeWidgetItem(["Road Networks"]), parent=tree)
     Node("Social Networks", obj=QtWidgets.QTreeWidgetItem(["Social Networks"]), parent=tree)
 
@@ -32,13 +35,13 @@ def buildNetworkWindow(root, winW, winH, roadNetworks, socialNetworks, config):
     win.addTopLevelItem(find_by_attr(tree, "Road Networks").obj)
 
     newRNButton = QtWidgets.QPushButton("Create a new Road Network")
-    newRNButton.clicked.connect(lambda: newNetwork(root, win, "road", roadNetworks, config))
+    newRNButton.clicked.connect(lambda: newNetwork(root, win, "road", roadNetworks, config, reloadMenuFunc))
     win.setItemWidget(find_by_attr(tree, "Road Networks").obj, 1, newRNButton)
 
     win.addTopLevelItem(find_by_attr(tree, "Social Networks").obj)
 
     newSNButton = QtWidgets.QPushButton("Create a new Social Network")
-    newSNButton.clicked.connect(lambda: newNetwork(root, win, "social", socialNetworks, config))
+    newSNButton.clicked.connect(lambda: newNetwork(root, win, "social", socialNetworks, config, reloadMenuFunc))
     win.setItemWidget(find_by_attr(tree, "Social Networks").obj, 1, newSNButton)
 
     for network in roadNetworks:
@@ -58,16 +61,16 @@ def buildNetworkWindow(root, winW, winH, roadNetworks, socialNetworks, config):
                 iNameArr = iName.split("/")
                 iName = iNameArr[len(iNameArr) - 1]
 
-            child = Node(f"{iName}", obj=QtWidgets.QTreeWidgetItem([iName]), parent=parent)
+            child = Node(f"{item}", obj=QtWidgets.QTreeWidgetItem([iName]), parent=parent)
             parent.obj.addChild(child.obj)
             cFile[i] = QtWidgets.QPushButton(f"Choose {item} File")
-            cFile[i].clicked.connect(lambda j, _item=item: chooseFile("road", _item, config, roadNetworks, network))
+            cFile[i].clicked.connect(lambda j, _item=item: chooseFile("road", _item, config, reloadMenuFunc, roadNetworks,
+                                                                      network))
             win.setItemWidget(child.obj, 1, cFile[i])
 
     for network in socialNetworks:
         parent = find_by_attr(tree, "Social Networks")
-        child = Node(f"{network}", obj=QtWidgets.QTreeWidgetItem([network]),
-                     parent=parent)
+        child = Node(f"{network}", obj=QtWidgets.QTreeWidgetItem([network]), parent=parent)
         parent.obj.addChild(child.obj)
 
         parent = child
@@ -80,20 +83,20 @@ def buildNetworkWindow(root, winW, winH, roadNetworks, socialNetworks, config):
             iName = socialNetworks[network][item]
             if iName != f"[{iName}]":
                 iNameArr = iName.split("/")
-                iName = f"{iNameArr[len(iNameArr) - 2]}/"
+                iName = f"{iNameArr[len(iNameArr) - 1]}/"
 
-            child = Node(f"{iName}", obj=QtWidgets.QTreeWidgetItem([iName]),
+            child = Node(f"{item}", obj=QtWidgets.QTreeWidgetItem([iName]),
                          parent=parent)
             parent.obj.addChild(child.obj)
             cFile[i] = QtWidgets.QPushButton("Choose Directory")
-            cFile[i].clicked.connect(lambda j, _item=item: chooseFile("social", _item, config, socialNetworks, network))
+            cFile[i].clicked.connect(lambda j, _item=item: chooseFile("social", _item, config, reloadMenuFunc, socialNetworks,
+                                                                      network))
             win.setItemWidget(child.obj, 1, cFile[i])
     return win
 
 
-# TODO: Fix issue where networks aren't loaded after they are created -- program requires restart
 # Creates a new network
-def newNetwork(root, winParent, type, existing, config):
+def newNetwork(root, winParent, type, existing, config, reloadMenuFunc):
     if type != "road" and type != "social":
         raise Exception("ERROR: newNetwork() must have type 'road' or 'social'")
     title = ""
@@ -136,16 +139,19 @@ def newNetwork(root, winParent, type, existing, config):
         for i in existing[text]:
             child = Node(f"{i}", obj=QtWidgets.QTreeWidgetItem([i]), parent=parent)
             parent.obj.addChild(child.obj)
-            chooseFileButton = QtWidgets.QPushButton("Choose File")
-            chooseFileButton.clicked.connect(lambda j, _i=i: chooseFile(type, _i, config, existing, text))
+            if type == "road":
+                chooseFileButton = QtWidgets.QPushButton(f"Choose {i} File")
+            elif type == "social":
+                chooseFileButton = QtWidgets.QPushButton(f"Choose Directory")
+            else:
+                raise Exception("ERROR: newNetwork() must have type 'road' or 'social'")
+            chooseFileButton.clicked.connect(lambda j, _i=i: chooseFile(type, f"{_i}", config, reloadMenuFunc, existing, text))
             winParent.setItemWidget(child.obj, 1, chooseFileButton)
         # Update config
         config.update(f"{title}s", existing)
 
 
-def chooseFile(type, selectType, config, networks, network):
-    print(type)
-    print(selectType)
+def chooseFile(type, selectType, config, reloadMenuFunc, networks, network):
     win = QtWidgets.QFileDialog()
 
     if type == "road":
@@ -160,16 +166,21 @@ def chooseFile(type, selectType, config, networks, network):
 
         if type == "road":
             config.update("Road Networks", networks)
+
             # Update item
             fileNameArr = path.split("/")
             fileName = fileNameArr[len(fileNameArr) - 1]
-            print(RenderTree(tree))
-            print(f"/root/Road Networks/{network}/{selectType}")
-            find_by_attr(tree, f"/root/Road Networks/{network}/{selectType}").obj.setText(0, fileName)
+            rnNode = find_by_attr(tree, 'Road Networks')
+            find_by_attr(find_by_attr(rnNode, f"{network}"), f"{selectType}").obj.setText(0, fileName)
         elif type == "social":
             config.update("Social Networks", networks)
+
+            # Update item
+            fileNameArr = path.split("/")
+            fileName = fileNameArr[len(fileNameArr) - 1]
+            snNode = find_by_attr(tree, 'Social Networks')
+            find_by_attr(find_by_attr(snNode, f"{network}"), f"{selectType}").obj.setText(0, f"{fileName}/")
         else:
             raise Exception("ERROR: chooseFile() must have type 'road' or 'social'")
-        #self.__fileTreeObjects[obj].setText(0, fileName)
-    #self.menuBar().clear()
-    #self.__menuBar()
+    reloadMenuFunc()
+
