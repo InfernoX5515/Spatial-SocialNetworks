@@ -61,3 +61,28 @@ class Config:
                     kwargs[dataKey] = dataValue
             instances[network] = SocialNetwork(network, **kwargs)
         return instances
+
+    def getNewSocialNetwork(self, network):
+        kwargs = {}
+        # Loops through all networks
+        for dataKey in self.settings["Social Networks"][network]:
+            dataValue = self.settings["Social Networks"][network][dataKey]
+            # If the value is set, use it to create the instance
+            if dataValue != f"[{dataKey}]":
+                kwargs[dataKey] = dataValue
+        instance = SocialNetwork(network, **kwargs)
+        return instance
+
+    def isComplete(self, type, network):
+        if type == "road":
+            type = "Road Networks"
+        elif type == "social":
+            type = "Social Networks"
+        else:
+            raise Exception("ERROR: isComplete() must have type 'road' or 'social'")
+        for dataKey in self.settings[type][network]:
+            dataValue = self.settings[type][network][dataKey]
+            # If the value is set, use it to create the instance
+            if dataValue == f"[{dataKey}]":
+                return False
+        return True

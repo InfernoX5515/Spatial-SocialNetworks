@@ -1,17 +1,13 @@
 import csv
-import datetime
 import fnmatch
 import json
 import math
-import multiprocessing
 import os.path
 import pickle
 import re
 import stat
 import threading
 import time
-from os.path import exists
-import networkx as nx
 
 # =====================================================================================================================
 #
@@ -25,7 +21,7 @@ import networkx as nx
 # =====================================================================================================================
 
 
-# Stores social network user information
+# Stores social network user's information
 class SNUser:
     def __init__(self, id, loginLocs=None, keywords=None, relations=None, username=None, name=None, email=None,
                  birthdate=None, phone=None):
@@ -35,6 +31,8 @@ class SNUser:
         self.email = email
         self.birthdate = birthdate
         self.phone = phone
+
+        # If a value is not set, initialize empty
         if loginLocs is None:
             self.loginLocs = []
         else:
@@ -48,24 +46,30 @@ class SNUser:
         else:
             self.relations = relations
 
+    # Adds a login location to the user
     def addLoginLoc(self, lat, lon):
         if (lat, lon) not in self.loginLocs:
             self.loginLocs += (lat, lon)
 
+    # Remove a login location from a user
     def removeLoginLoc(self, lat, lon):
         self.loginLocs.remove((lat, lon))
 
+    # Add a keyword to a user
     def addKeyword(self, keywordID):
         if keywordID not in self.keywords:
             self.keywords += keywordID
 
+    # Remove a keyword from the user
     def removeKeyword(self, keywordID):
         self.keywords.remove(keywordID)
 
+    # Add a relationship to the user
     def addRelation(self, userID, weight):
         if userID not in self.relations:
             self.relations[userID] = weight
 
+    # Remove a relationship from the user
     def removeRelation(self, userID):
         del self.relations[userID]
 
@@ -114,6 +118,7 @@ class SocialNetwork:
 
         self.keywordDict = keywords
 
+    # Spawns threads for reading user files and creates/reads a pickle if created
     def loadUsers(self):
         self.users = {}
         userDir = f"{self.dir}/Users"
@@ -164,6 +169,7 @@ class SocialNetwork:
         else:
             os.mkdir(userDir)
 
+    # Actually reads the data from user files. Spawned in threads by loadUsers()
     def loadUserFiles(self, files):
         userDir = f"{self.dir}/Users"
 
@@ -178,9 +184,11 @@ class SocialNetwork:
                                                   username=data['username'], name=data['name'], email=data['email'],
                                                   birthdate=data['birthdate'], phone=data['phone'])
 
+    # Returns a user when given an index, i.e. the 0th user loaded
     def getUserByIndex(self, index):
         return self.users[list(self.users.keys())[index]]
 
+    # Returns a user when given the user id
     def getUserById(self, id):
         matching = fnmatch.filter(list(self.users.keys()), f"~{id}~*")
 
@@ -193,6 +201,7 @@ class SocialNetwork:
 
         return self.users[matching[0]]
 
+    # Returns the user's index string in the dictionary. This value is used to quickly search for users
     def getUserIndexStr(self, id):
         matching = fnmatch.filter(list(self.users.keys()), f"~{id}~*")
 
@@ -205,6 +214,7 @@ class SocialNetwork:
 
         return matching[0]
 
+    # Returns user(s) at a given location
     def getUserByLoc(self, lat, lon):
         matching = fnmatch.filter(list(self.users.keys()), f"*~ll:[[]*[[]{lat}, {lon}[]]*[]]~kw:*")
 
@@ -214,10 +224,12 @@ class SocialNetwork:
 
         return users
 
+    # Returns a list of all user's locations
     def getAllLocs(self):
         indexes = '\n'.join(list(self.users.keys()))
         coords = re.findall(r"(?<=~ll:\[)(.*)(?=]~kw:)", indexes)
         return coords
+
 
 '''class SocialNetwork:
     def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, userDataFile=None, **kwargs):

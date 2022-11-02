@@ -196,15 +196,31 @@ class Gui(QtWidgets.QMainWindow):
         menu.addChild("None", "Road Networks", group="RoadNetworkGroup", tooltip="Display no road network",
                       action=lambda j: self.displayRoadNetwork(None), checked=True)
         for x in rNetworks:
-            menu.addChild(x, "Road Networks", group="RoadNetworkGroup",
-                          tooltip=f"Switch to view road network {x}",
+            menu.addChild(x, "Road Networks", group="RoadNetworkGroup", tooltip=f"Switch to view road network {x}",
                           action=lambda j, a=x: self.displayRoadNetwork(a))
 
         self.menu = menu
 
     def reloadMenu(self):
         self.menuBar().clear()
+        oldRN = list(self.__roadNetworkObjs.keys())
+        oldSN = self.__socialNetworks
+
         self.__menuBar()
+
+        self.__roadNetworks = self.config.settings["Road Networks"]
+        self.__socialNetworks = self.config.settings["Social Networks"]
+
+        reloadRN = False
+        for network in self.__roadNetworks:
+            if network not in oldRN and self.config.isComplete("road", network):
+                reloadRN = True
+        if reloadRN:
+            self.__roadNetworkObjs = self.createNetworkInstances(self.__roadNetworks, RoadNetwork)
+
+        for network in self.__socialNetworks:
+            if network not in oldSN:
+                self.__socialNetworkObjs[network] = self.config.getNewSocialNetwork(network)
 
     def clearView(self):
         self.win.removeItem(self.roadGraphWidget)
@@ -824,8 +840,9 @@ class Gui(QtWidgets.QMainWindow):
     def getCompleteNetworks(self):
         networks = {"Social Networks": [],
                     "Road Networks": []}
-        keys = self.__roadNetworks.keys()
+
         # Road networks
+        keys = self.__roadNetworks.keys()
         for i in keys:
             passed = True
             for j in self.__roadNetworks[i]:
@@ -833,6 +850,7 @@ class Gui(QtWidgets.QMainWindow):
                     passed = False
             if passed:
                 networks["Road Networks"].append(i)
+
         # Social networks
         keys = self.__socialNetworks.keys()
         for k in keys:
