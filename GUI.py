@@ -168,8 +168,9 @@ class Gui(QtWidgets.QMainWindow):
 
         menu.addMenu("File")
         menu.addChild("Files", "File", shortcut="Ctrl+f", tooltip="View files", action=lambda: self.openWindow(
-            buildNetworkWindow(self, int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3),
-                               self.__roadNetworks, self.config.settings["Social Networks"], self.config, self.reloadMenu)))
+            buildNetworkWindow(self, int(self.frameGeometry().width() / 2), int(self.frameGeometry().height() / 2),
+                               self.__roadNetworks, self.config.settings["Social Networks"], self.config,
+                               self.reloadMenu)))
 
         menu.addMenu("View")
         menu.createGroup("ViewGroup", self)
