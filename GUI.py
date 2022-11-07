@@ -6,6 +6,7 @@ import pyqtgraph as pg
 import PyQt5.QtWidgets as QtWidgets
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 from BuildNetworks import buildNetworkWindow
+from MainDisplay import createMainGraphs, createQueryToolbar
 from MenuBar import MenuBar
 from RoadNetwork import RoadNetwork
 from sklearn.cluster import KMeans
@@ -17,78 +18,94 @@ import time
 class Gui(QtWidgets.QMainWindow):
     def __init__(self):
         super(Gui, self).__init__()
+
         # Creates config
         self.config = Config()
+
         # Plot options
         pg.setConfigOptions(antialias=True)
         pg.setConfigOption('background', 'white')
+
         # A dictionary of windows, each window has it's on id
+        # TODO: Look into
         self.__windows = {}
+        # TODO: Look into
         # Stores file hierarchy data
         self.__fileTreeObjects = {}
+        # TODO: Look into
         # Stores widget instances
         self.roadGraphWidget = None
         self.socialGraphWidget = None
         self.socialNetWidget = QWebEngineView()
         self.summarySelected = False
         self.hidePOIsSelected = False
+        # TODO: Look into
         # Stores selected network instances
         self.selectedRoadNetwork = None
         self.selectedSocialNetwork = None
+        # TODO: Look into
         # Query user information
         self.queryUser = None
         self.queryKeyword = None
         self.queryUserPlots = []
+        # TODO: Look into
         # Store data for interactive network
         self.interactiveNetwork = nx.Graph()
         # Store all road network info in dict format {"NetworkName: {"Data": "Value", ...}, ..."}
         # Store all social network info in dict format {"NetworkName: "rootdir", ..."}
-        self.__roadNetworks = self.config.settings["Road Networks"]
-        # TODO: Get rid of this var
-        self.__socialNetworks = self.config.settings["Social Networks"]
+        #self.__roadNetworks = self.config.settings["Road Networks"]
+        #self.__socialNetworks = self.config.settings["Social Networks"]
         # Store network objects
-        self.__roadNetworkObjs = self.createNetworkInstances(self.__roadNetworks, RoadNetwork)
-        self.__socialNetworkObjs = self.config.getSocialNetworks()
-        # Set up layout
-        self.layout = QtWidgets.QHBoxLayout(self)
-        self.sumLayout = QtWidgets.QHBoxLayout(self)
-        self.view = QtWidgets.QWidget()
+        self.roadNetworks = self.config.getNetworks("road")
+        self.socialNetworks = self.config.getNetworks("social")
+        #self.__roadNetworkObjs = self.config.getNetworks("road")
+        #self.__socialNetworkObjs = self.config.getNetworks("social")
         # Initializes menus
         self.__menuBar()
+
+        # TODO: Look into
         self.__navToolbar()
-        self.__queryUserButton()
-        self.__mainWindow()
 
-    # Creates the plot widgets. suffix is used when a summary graph is created, for example
-    def createPlots(self, suffix=""):
-        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
-        self.socialGraphWidget = self.win.addPlot(row=0, col=0, title=f"Social Network {suffix}")
-        self.linkGraphAxis()
+        self.graphs = {}
+        self.toolbars = createQueryToolbar(self)
 
-    def createSumPlot(self, suffix=None):
-        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
+        # Set up window & layout
+        #self.sumLayout = QtWidgets.QHBoxLayout(self)
+        self.window = QtWidgets.QWidget()
+        self.__windowSetup()
 
-    # Displays main window
-    def __mainWindow(self):
-        # Set up window
+    # Set up main window
+    def __windowSetup(self):
         screensize = self.screen().availableSize().width(), self.screen().availableSize().height()
         self.setGeometry(int((screensize[0] / 2) - 500), int((screensize[1] / 2) - 300), 1000, 600)
+
         self.setWindowTitle("Spatial-Social Networks")
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
-        self.win = pg.GraphicsLayoutWidget()
-        self.sum = pg.GraphicsLayoutWidget()
-        with open('nx.html', 'r') as f:
-            html = f.read()
-            self.socialNetWidget.setHtml(html)
+
+        self.window.layoutWidget = QtWidgets.QHBoxLayout(self)
+        self.window.layoutWidget.layout = pg.GraphicsLayoutWidget()
+        # self.sum = pg.GraphicsLayoutWidget()
+
+        # with open('nx.html', 'r') as f:
+        #    html = f.read()
+        #    self.socialNetWidget.setHtml(html)
         # Define default layout
-        self.layout.addWidget(self.win)
-        self.view.setLayout(self.layout)
-        self.setCentralWidget(self.view)
+
+        self.window.layoutWidget.addWidget(self.window.layoutWidget.layout)
+        self.window.setLayout(self.window.layoutWidget)
+        self.setCentralWidget(self.window)
+
         # Create and set up graph widget
-        self.createPlots()
+        self.graphs = createMainGraphs(self.window.layoutWidget.layout)
+
         # Show window
         self.show()
 
+    # TODO: Look into
+    def createSumPlot(self, suffix=None):
+        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
+
+    # TODO: Look into
     @staticmethod
     def getZoomScale(xRanges, yRanges):
         # Percent to zoom
@@ -99,6 +116,7 @@ class Gui(QtWidgets.QMainWindow):
         yScale = (yLen * percent) / 2
         return xScale, yScale
 
+    # TODO: Look into
     def zoomOutTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
         yRanges = self.roadGraphWidget.getAxis('left').range
@@ -106,6 +124,7 @@ class Gui(QtWidgets.QMainWindow):
         self.roadGraphWidget.setXRange(xRanges[0] - xScale, xRanges[1] + xScale)
         self.roadGraphWidget.setYRange(yRanges[0] - yScale, yRanges[1] + yScale)
 
+    # TODO: Look into
     def zoomInTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
         yRanges = self.roadGraphWidget.getAxis('left').range
@@ -113,26 +132,31 @@ class Gui(QtWidgets.QMainWindow):
         self.roadGraphWidget.setXRange(xRanges[0] + xScale, xRanges[1] - xScale)
         self.roadGraphWidget.setYRange(yRanges[0] + yScale, yRanges[1] - yScale)
 
+    # TODO: Look into
     def jogLeftTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
         xScale = (abs(xRanges[1] - xRanges[0]) * .25) / 2
         self.roadGraphWidget.setXRange(xRanges[0] - xScale, xRanges[1] - xScale, padding=0)
 
+    # TODO: Look into
     def jogRightTool(self):
         xRanges = self.roadGraphWidget.getAxis('bottom').range
         xScale = (abs(xRanges[1] - xRanges[0]) * .25) / 2
         self.roadGraphWidget.setXRange(xRanges[0] + xScale, xRanges[1] + xScale, padding=0)
 
+    # TODO: Look into
     def jogUpTool(self):
         yRanges = self.roadGraphWidget.getAxis('left').range
         yScale = (abs(yRanges[1] - yRanges[0]) * .25) / 2
         self.roadGraphWidget.setYRange(yRanges[0] + yScale, yRanges[1] + yScale, padding=0)
 
+    # TODO: Look into
     def jogDownTool(self):
         yRanges = self.roadGraphWidget.getAxis('left').range
         yScale = (abs(yRanges[1] - yRanges[0]) * .25) / 2
         self.roadGraphWidget.setYRange(yRanges[0] - yScale, yRanges[1] - yScale, padding=0)
 
+    # TODO: Look into
     # Creates the navigation toolbar
     def __navToolbar(self):
         toolbar = QtWidgets.QToolBar("Navigation Toolbar")
@@ -163,14 +187,13 @@ class Gui(QtWidgets.QMainWindow):
         jogDown.triggered.connect(self.jogDownTool)
         toolbar.addAction(jogDown)
 
+    # TODO: Look into
     def __menuBar(self):
         menu = MenuBar(self.menuBar())
 
         menu.addMenu("File")
         menu.addChild("Files", "File", shortcut="Ctrl+f", tooltip="View files", action=lambda: self.openWindow(
-            buildNetworkWindow(self, int(self.frameGeometry().width() / 2), int(self.frameGeometry().height() / 2),
-                               self.__roadNetworks, self.config.settings["Social Networks"], self.config,
-                               self.reloadMenu)))
+            buildNetworkWindow(self)))
 
         menu.addMenu("View")
         menu.createGroup("ViewGroup", self)
@@ -178,7 +201,7 @@ class Gui(QtWidgets.QMainWindow):
         menu.addChild("Full View", "View", group="ViewGroup", tooltip="View full graphs", action=self.viewSummary,
                       checked=True)
 
-        networks = self.getCompleteNetworks()
+        networks = self.config.getCompleteNetworks()
         sNetworks = networks["Social Networks"]
         rNetworks = networks["Road Networks"]
 
@@ -201,36 +224,39 @@ class Gui(QtWidgets.QMainWindow):
 
         self.menu = menu
 
+    # TODO: Look into
     def reloadMenu(self):
         self.menuBar().clear()
-        oldRN = list(self.__roadNetworkObjs.keys())
-        oldSN = self.__socialNetworks
+        oldRN = self.roadNetworks
+        oldSN = self.socialNetworks
 
         self.__menuBar()
 
-        self.__roadNetworks = self.config.settings["Road Networks"]
-        self.__socialNetworks = self.config.settings["Social Networks"]
+        roadNetworks = self.config.settings["Road Networks"]
+        socialNetworks = self.config.settings["Social Networks"]
 
         reloadRN = False
-        for network in self.__roadNetworks:
+        for network in self.roadNetworks:
             if network not in oldRN and self.config.isComplete("road", network):
                 reloadRN = True
         if reloadRN:
-            self.__roadNetworkObjs = self.createNetworkInstances(self.__roadNetworks, RoadNetwork)
+            self.roadNetworks = self.createNetworkInstances(self.roadNetworks, RoadNetwork)
 
-        for network in self.__socialNetworks:
+        for network in self.socialNetworks:
             if network not in oldSN:
                 self.__socialNetworkObjs[network] = self.config.getNewSocialNetwork(network)
 
+    # TODO: Look into
     def clearView(self):
-        self.win.removeItem(self.roadGraphWidget)
+        self.window.layoutWidget.layout.removeItem(self.roadGraphWidget)
         if self.socialGraphWidget:
-            self.win.removeItem(self.socialGraphWidget)
+            self.window.layoutWidget.layout.removeItem(self.socialGraphWidget)
         if self.queryUserPlots:
             self.queryUserPlots = []
         self.roadGraphWidget = None
         self.socialGraphWidget = None
 
+    # TODO: Look into
     # Returns users with at least k keywords in common (default to 1)
     def usersCommonKeyword(self, k=1):
         commonUsers = []
@@ -246,6 +272,7 @@ class Gui(QtWidgets.QMainWindow):
                         commonUsers.append(user)
         return commonUsers, commonDetails
 
+    # TODO: Look into
     def dijkstra(self, queryUser):
         '''if self.selectedRoadNetwork is not None:
             visited = []
@@ -270,6 +297,7 @@ class Gui(QtWidgets.QMainWindow):
                                 D[neighbor] = new_cost
             print(D)'''
 
+    # TODO: Look into
     def usersWithinHops(self, users, h=0):
         withinHops = []
         hopsDetails = {}
@@ -284,6 +312,7 @@ class Gui(QtWidgets.QMainWindow):
                     hopsDetails[user] = hops
         return withinHops, hopsDetails
 
+    # TODO: Look into
     # Returns users within d distance
     def usersWithinDistance(self, users, d=2):
         withinDistance = []
@@ -299,6 +328,7 @@ class Gui(QtWidgets.QMainWindow):
                 distDetails[user] = dist
         return withinDistance, distDetails
 
+    # TODO: Look into
     # Handles summary view
     def viewSummary(self):
         # Switch view to summary
@@ -312,23 +342,23 @@ class Gui(QtWidgets.QMainWindow):
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
             # Setup summary view
-            self.view = QtWidgets.QWidget()
+            self.window = QtWidgets.QWidget()
             self.sumLayout = QtWidgets.QHBoxLayout()
             self.sumLayout.addWidget(self.socialNetWidget, 50)
-            self.sumLayout.addWidget(self.win, 50)
-            self.view.setLayout(self.sumLayout)
-            self.setCentralWidget(self.view)
+            self.sumLayout.addWidget(self.window.layoutWidget.layout, 50)
+            self.window.setLayout(self.sumLayout)
+            self.setCentralWidget(self.window)
             self.__clusterInput()
             self.__queryInput()
             self.updateSummaryGraph()
         # Switch view to main
         else:
             # Setup default view
-            self.view = QtWidgets.QWidget()
-            self.layout = QtWidgets.QHBoxLayout()
-            self.layout.addWidget(self.win)
-            self.view.setLayout(self.layout)
-            self.setCentralWidget(self.view)
+            self.window = QtWidgets.QWidget()
+            self.window.layoutWidget = QtWidgets.QHBoxLayout()
+            self.window.layoutWidget.addWidget(self.window.layoutWidget.layout)
+            self.window.setLayout(self.window.layoutWidget)
+            self.setCentralWidget(self.window)
             self.summarySelected = False
             self.clusterInput.close()
             self.clearView()
@@ -341,6 +371,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
             self.plotQueryUser()
 
+    # TODO: Look into
     def visualizeSummaryData(self, centers, sizes, relations, popSize):
         # Note: For some reason, the alpha value is from 0-255 not 0-100
         self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
@@ -362,6 +393,7 @@ class Gui(QtWidgets.QMainWindow):
         #self.socialGraphWidget.plot(relations[0], relations[1], connect='pairs', pen=(50, 50, 200, 100),
         #                            brush=(50, 50, 200, 100))
 
+    # TODO: Look into
     def updateSummaryGraph(self):
         # Clears last view
         if self.summarySelected:
@@ -380,6 +412,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.socialNetWidget.setHtml(html)
         self.plotQueryUser()
 
+    # TODO: Look into
     def visualizeKdData(self, users, keys, hops, dists):
         if self.queryUser is not None:
             # Create Interactive Graph HTML File Using pyvis
@@ -428,7 +461,8 @@ class Gui(QtWidgets.QMainWindow):
             nt = Network('100%', '100%')
             nt.from_nx(network)
             nt.save_graph('nx.html')
-    
+
+    # TODO: Look into
     def updateKdSummaryGraph(self):
         self.socialNetWidget.reload()
         # If social network is selected, display clusters
@@ -440,6 +474,7 @@ class Gui(QtWidgets.QMainWindow):
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
 
+    # TODO: Look into
     #Generate kdtrust from input
     def getKDTrust(self, keywords, distance, hops):
         if self.queryUser is not None:
@@ -451,6 +486,7 @@ class Gui(QtWidgets.QMainWindow):
             common, dists = self.usersWithinDistance(common, d=float(distance))
             return common, keys, hops, dists
 
+    # TODO: Look into
     # Generate clusters from the social network
     def getSummaryClusters(self, n):
         n = int(n)
@@ -492,6 +528,7 @@ class Gui(QtWidgets.QMainWindow):
         sizes = self.sizeSort(ref)
         return centers, sizes, relations, popSize
 
+    # TODO: Look into
     # Returns size for cluster icons so that clusters that contain fewer nodes are smaller
     @staticmethod
     def sizeSort(refs):
@@ -502,18 +539,22 @@ class Gui(QtWidgets.QMainWindow):
             sizes += [((refsSorted.index(x) + 1) * (75 / len(refsSorted)))]
         return sizes
 
-    def __queryUserButton(self):
+    # TODO: Look into
+    def __addQueryToolbar(self):
         # Set up input toolbar
-        self.queryUserToolbar = QtWidgets.QToolBar("queryUser")
+        self.queryUserToolbar = QtWidgets.QToolBar("queryToolbar")
         self.addToolBar(self.queryUserToolbar)
+
         # Create button
-        button = QtWidgets.QPushButton("Select Query User")
-        button.clicked.connect(lambda: self.chooseKeywordsMenu())
-        button2 = QtWidgets.QPushButton("Select Query Keyword")
-        button2.clicked.connect(lambda: self.chooseQueryKeywordMenu())
+        queryUserButton = QtWidgets.QPushButton("Select Query User")
+        queryUserButton.clicked.connect(lambda: self.chooseKeywordsMenu())
+        queryKeywordButton = QtWidgets.QPushButton("Select Query Keyword")
+        queryKeywordButton.clicked.connect(lambda: self.chooseQueryKeywordMenu())
+
         # Create label
-        label = QtWidgets.QLabel("  Query User: ")
-        label2 = QtWidgets.QLabel("  Query Keyword: ")
+        queryUserLabel = QtWidgets.QLabel("  Query User: ")
+        queryKeywordLabel = QtWidgets.QLabel("  Query Keyword: ")
+
         if self.queryUser is not None:
             self.queryUserToolbar.userLabel = QtWidgets.QLabel(self.queryUser[0].split(".0")[0])
         else:
@@ -523,14 +564,15 @@ class Gui(QtWidgets.QMainWindow):
         else:
             self.queryUserToolbar.keywordLabel = QtWidgets.QLabel("None")
         # Add widgets to window
-        self.queryUserToolbar.addWidget(button)
-        self.queryUserToolbar.addWidget(label)
+        self.queryUserToolbar.addWidget(queryUserButton)
+        self.queryUserToolbar.addWidget(queryUserLabel)
         self.queryUserToolbar.addWidget(self.queryUserToolbar.userLabel)
         self.queryUserToolbar.addWidget(QtWidgets.QLabel("          "))
-        self.queryUserToolbar.addWidget(button2)
-        self.queryUserToolbar.addWidget(label2)
+        self.queryUserToolbar.addWidget(queryKeywordButton)
+        self.queryUserToolbar.addWidget(queryKeywordLabel)
         self.queryUserToolbar.addWidget(self.queryUserToolbar.keywordLabel)
 
+    # TODO: Look into
     def chooseKeywordsMenu(self):
         # Window setup
         self.__windows[3] = QtWidgets.QWidget()
@@ -564,6 +606,7 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[3].show()
         self.__windows[3].move(self.geometry().center() - self.__windows[3].rect().center())
 
+    # TODO: Look into
     def chooseQueryKeywordMenu(self):
         # Window setup
         self.__windows[5] = QtWidgets.QWidget()
@@ -595,6 +638,7 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[5].show()
         self.__windows[5].move(self.geometry().center() - self.__windows[5].rect().center())
 
+    # TODO: Look into
     def __showUserInfo(self, listWidget, name, username, birthdate, email, phone, keywordList):
         keywordList.clear()
         name.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text() + ".0")["name"])
@@ -605,6 +649,7 @@ class Gui(QtWidgets.QMainWindow):
         for id in self.selectedSocialNetwork.getUserKeywords(listWidget.currentItem().text()+ ".0"):
             keywordList.addItem(self.selectedSocialNetwork.getKeywordByID(id))
 
+    # TODO: Look into
     def showUsersWithKeywords(self):
         checkboxes = self.__windows[3].checkboxes
         self.__windows[3].close()
@@ -692,6 +737,7 @@ class Gui(QtWidgets.QMainWindow):
             self.__windows[4].show()
             self.__windows[4].move(self.geometry().center() - self.__windows[4].rect().center())
 
+    # TODO: Look into
     # Creates the cluster toolbar for input
     def __clusterInput(self):
         # Set up input toolbar
@@ -731,6 +777,7 @@ class Gui(QtWidgets.QMainWindow):
         #self.clusterInput.addWidget(self.distanceInput.textBox)
         self.clusterInput.addWidget(button)
 
+    # TODO: Look into
     # Returns query user in form [id, [[lat, lon], [lat, lon]]]
     def setQueryUser(self, user):
         if self.queryUser is not None:
@@ -743,6 +790,7 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[4].close()
         self.dijkstra(self.queryUser)
 
+    # TODO: Look into
     def plotQueryUser(self):
         if self.queryUser is not None:
             if not self.queryUserPlots:
@@ -754,11 +802,13 @@ class Gui(QtWidgets.QMainWindow):
                                                                      symbol='star', symbolSize=30, symbolPen=color,
                                                                      symbolBrush=color))
 
+    # TODO: Look into
     def setQueryKeyword(self, keyword):
         self.queryKeyword = keyword
         self.queryUserToolbar.keywordLabel.setText(self.selectedSocialNetwork.getKeywordByID(keyword))
         self.__windows[5].close()
 
+    # TODO: Look into
     def __queryInput(self):
         # Set up input toolbar
         self.queryInput = QtWidgets.QToolBar("queryInput")
@@ -798,6 +848,7 @@ class Gui(QtWidgets.QMainWindow):
         self.queryInput.addWidget(self.queryInput.eTextBox)
         self.queryInput.addWidget(button)
 
+    # TODO: Look into
     # TODO: Implement for summary graph
     def hidePOIs(self, checked):
         if checked:
@@ -818,6 +869,7 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
             self.linkGraphAxis()
 
+    # TODO: Look into
     def chooseFile(self, obj, T, network, sub):
         '''self.__windows[2] = QtWidgets.QFileDialog()
         pathArr = self.__windows[2].getOpenFileNames(None, f'Select {sub}', getenv('HOME'), "csv(*.csv)")[0]
@@ -836,32 +888,7 @@ class Gui(QtWidgets.QMainWindow):
         self.menuBar().clear()
         self.__menuBar()'''
 
-    # Return road networks that have all files and those files exist
-    def getCompleteNetworks(self):
-        networks = {"Social Networks": [],
-                    "Road Networks": []}
-
-        # Road networks
-        keys = self.__roadNetworks.keys()
-        for i in keys:
-            passed = True
-            for j in self.__roadNetworks[i]:
-                if passed and (self.__roadNetworks[i][j] == f"[{j}]" or not exists(self.__roadNetworks[i][j])):
-                    passed = False
-            if passed:
-                networks["Road Networks"].append(i)
-
-        # Social networks
-        keys = self.__socialNetworks.keys()
-        for k in keys:
-            passed = True
-            for l in self.__socialNetworks[k]:
-                if passed and (self.__socialNetworks[k][l] == f"[{l}]" or not exists(self.__socialNetworks[k][l])):
-                    passed = False
-            if passed:
-                networks["Social Networks"].append(k)
-        return networks
-
+    # TODO: Look into
     def displayRoadNetwork(self, network):
         # If the summary is not selected
         if not self.summarySelected:
@@ -894,6 +921,7 @@ class Gui(QtWidgets.QMainWindow):
             self.plotQueryUser()
             #self.linkGraphAxis()
 
+    # TODO: Look into
     def displaySocialNetwork(self, network):
         self.queryUser = None
         [a.clear() for a in self.queryUserPlots]
@@ -930,6 +958,7 @@ class Gui(QtWidgets.QMainWindow):
                 centers, sizes, relations, popSize = self.getSummaryClusters(self.clusterInput.textBox.text())
                 self.visualizeSummaryData(centers, sizes, relations, popSize)
 
+    # TODO: Look into
     # Creates network instances based on text data dictionary of {"NetworkName": {"Data":"Value", ...}
     # If the value is not set, square brackets denote that it is not set, written as "[Value]"
     @staticmethod
@@ -947,14 +976,17 @@ class Gui(QtWidgets.QMainWindow):
             instances[network] = type(network, **kwargs)
         return instances
 
+    # TODO: Look into
     # Links X and Y axis on main social network and road network graphs
     def linkGraphAxis(self):
         self.socialGraphWidget.setXLink(self.roadGraphWidget)
         self.socialGraphWidget.setYLink(self.roadGraphWidget)
 
+    # TODO: Look into
     def closeEvent(self, a0: QtGui.QCloseEvent) -> None:
         print("Closed")
         exit(0)
 
+    # TODO: Look into
     def openWindow(self, winFunc):
         self.__windows[0] = winFunc

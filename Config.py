@@ -12,6 +12,7 @@ from os.path import exists
 #       locations
 #
 # =====================================================================================================================
+from RoadNetwork import RoadNetwork
 from SocialNetwork import SocialNetwork
 
 
@@ -48,30 +49,30 @@ class Config:
     def getSetting(self, setting):
         return self.settings[setting]
 
-    def getSocialNetworks(self):
+    # Returns the network objects
+    def getNetworks(self, type):
+        if type == "road":
+            title = "Road Networks"
+        elif type == "social":
+            title = "Social Networks"
+        else:
+            raise Exception("ERROR: getNetworks() must have type 'road' or 'social'")
+
         instances = {}
         # Loops through all networks
-        for network in self.settings["Social Networks"]:
+        for network in self.settings[title]:
             kwargs = {}
             # Loops through all data in each network
-            for dataKey in self.settings["Social Networks"][network]:
-                dataValue = self.settings["Social Networks"][network][dataKey]
+            for dataKey in self.settings[title][network]:
+                dataValue = self.settings[title][network][dataKey]
                 # If the value is set, use it to create the instance
                 if dataValue != f"[{dataKey}]":
                     kwargs[dataKey] = dataValue
-            instances[network] = SocialNetwork(network, **kwargs)
+            if type == "road":
+                instances[network] = RoadNetwork(network, **kwargs)
+            elif type == "social":
+                instances[network] = SocialNetwork(network, **kwargs)
         return instances
-
-    def getNewSocialNetwork(self, network):
-        kwargs = {}
-        # Loops through all networks
-        for dataKey in self.settings["Social Networks"][network]:
-            dataValue = self.settings["Social Networks"][network][dataKey]
-            # If the value is set, use it to create the instance
-            if dataValue != f"[{dataKey}]":
-                kwargs[dataKey] = dataValue
-        instance = SocialNetwork(network, **kwargs)
-        return instance
 
     def isComplete(self, type, network):
         if type == "road":
@@ -86,3 +87,21 @@ class Config:
             if dataValue == f"[{dataKey}]":
                 return False
         return True
+
+    # Return networks that have all files and those files exist
+    def getCompleteNetworks(self):
+        networks = {"Social Networks": [],
+                    "Road Networks": []}
+
+        # Road networks
+        keys = self.getNetworks("road").keys()
+        for i in keys:
+            if self.isComplete("road", i):
+                networks["Road Networks"].append(i)
+
+        # Social networks
+        keys = self.getNetworks("social").keys()
+        for k in keys:
+            if self.isComplete("social", k):
+                networks["Social Networks"].append(k)
+        return networks
