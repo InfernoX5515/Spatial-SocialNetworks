@@ -2,6 +2,7 @@
 from PyQt5 import QtWidgets
 
 
+# Creates graphs for main layout
 def createMainGraphs(layout):
     graphs = {"Main Road Network": layout.addPlot(row=0, col=1, title=f"Road Network"),
               "Main Social Network": layout.addPlot(row=0, col=0, title=f"Social Network")}

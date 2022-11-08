@@ -1,10 +1,8 @@
 from os import getenv
-
-from PyQt5 import QtGui, QtCore
+from PyQt5 import QtCore
 import pyqtgraph as pg
 import PyQt5.QtWidgets as QtWidgets
-from anytree import Node, RenderTree, find_by_attr
-
+from anytree import Node, find_by_attr
 
 tree = Node('root')
 
@@ -179,5 +177,6 @@ def chooseFile(root, type, selectType, networks, network):
             find_by_attr(find_by_attr(snNode, f"{network}"), f"{selectType}").obj.setText(0, f"{fileName}/")
         else:
             raise Exception("ERROR: chooseFile() must have type 'road' or 'social'")
-    root.reloadMenu()
+    from MenuBar import reloadMenu
+    reloadMenu(root)
 
