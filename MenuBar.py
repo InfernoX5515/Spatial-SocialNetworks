@@ -1,5 +1,8 @@
 from anytree import Node, RenderTree, find_by_attr
 import PyQt5.QtWidgets as QtWidgets
+
+from DisplayNetworks import displayRoadNetwork
+from MainDisplay import viewMain
 from RoadNetwork import RoadNetwork
 
 
@@ -63,7 +66,7 @@ def showMenuBar(root):
 
     menu.addMenu("View")
     menu.createGroup("ViewGroup", root)
-    menu.addChild("Full View", "View", group="ViewGroup", tooltip="View full graphs", action=lambda: viewSummary(root),
+    menu.addChild("Full View", "View", group="ViewGroup", tooltip="View full graphs", action=lambda: viewMain(root),
                   checked=True)
     menu.addChild("Summary View", "View", group="ViewGroup", tooltip="View summary graphs",
                   action=lambda: viewSummary(root))
@@ -77,8 +80,7 @@ def showMenuBar(root):
     menu.addChild("None", "Social Networks", group="SocialNetworkGroup", tooltip="Display no social network",
                   action=lambda j: root.displaySocialNetwork(None), checked=True)
     for x in sNetworks:
-        menu.addChild(x, "Social Networks", group="SocialNetworkGroup",
-                      tooltip=f"Switch to view social network {x}",
+        menu.addChild(x, "Social Networks", group="SocialNetworkGroup", tooltip=f"Switch to view social network {x}",
                       action=lambda j, a=x: root.displaySocialNetwork(a))
 
     menu.addMenu("Road Networks")
@@ -87,7 +89,7 @@ def showMenuBar(root):
                   action=lambda j: root.displayRoadNetwork(None), checked=True)
     for x in rNetworks:
         menu.addChild(x, "Road Networks", group="RoadNetworkGroup", tooltip=f"Switch to view road network {x}",
-                      action=lambda j, a=x: root.displayRoadNetwork(a))
+                      action=lambda j, a=x: displayRoadNetwork(root, a, a))
 
     root.menu = menu
 
@@ -99,16 +101,10 @@ def reloadMenu(root):
 
     showMenuBar(root)
 
-    roadNetworks = root.config.settings["Road Networks"]
-    socialNetworks = root.config.settings["Social Networks"]
-
-    reloadRN = False
     for network in root.roadNetworks:
-        if network not in oldRN and root.config.isComplete("road", network):
-            reloadRN = True
-    if reloadRN:
-        root.roadNetworks = root.createNetworkInstances(root.roadNetworks, RoadNetwork)
+        if network not in oldRN:
+            root.roadNetwork[network] = root.config.getNewRoadNetwork(network)
 
     for network in root.socialNetworks:
         if network not in oldSN:
-            root.__socialNetworkObjs[network] = root.config.getNewSocialNetwork(network)
+            root.socialNetwork[network] = root.config.getNewSocialNetwork(network)

@@ -88,22 +88,23 @@ class RoadNetwork:
     def __init__(self, name, Path=None):
         self.name = name
         self.dir = Path
-        if not os.path.exists(self.dir):
-            os.mkdir(self.dir)
-
         self.POIkeywordDict = None
         self.POIs = None
         self.vertices = None
 
-        threads = [threading.Thread(target=self.loadPOIKeywords),
-                   threading.Thread(target=self.loadPOICategories),
-                   threading.Thread(target=self.loadVertices),
-                   threading.Thread(target=self.loadPOIs)]
+        if self.dir is not None:
+            if not os.path.exists(self.dir):
+                os.mkdir(self.dir)
+            else:
+                threads = [threading.Thread(target=self.loadPOIKeywords),
+                           threading.Thread(target=self.loadPOICategories),
+                           threading.Thread(target=self.loadVertices),
+                           threading.Thread(target=self.loadPOIs)]
 
-        for thread in threads:
-            thread.start()
-        for thread in threads:
-            thread.join()
+                for thread in threads:
+                    thread.start()
+                for thread in threads:
+                    thread.join()
 
     # Reads POI keyword files for given road network
     def loadPOIKeywords(self):
@@ -218,7 +219,7 @@ class RoadNetwork:
                 data = json.load(f)
 
                 if data['id'] not in self.vertices:
-                    indexKey = f"~{data['id']}~l:{data['location']}~kw:{data['edges']}"
+                    indexKey = f"~{data['id']}~l:{data['location']}~e:{data['edges']}"
                     self.vertices[indexKey] = RNVertex(data['id'], loc=data['location'], edges=data['edges'])
 
     # Spawns threads for reading poi files and creates/reads a pickle if created
@@ -350,6 +351,30 @@ class RoadNetwork:
         indexes = '\n'.join(list(self.POIs.keys()))
         coords = re.findall(r"(?<=~l:\[)(.*)(?=]~kw:)", indexes)
         return coords
+
+    def getEdges(self):
+        print(list(self.vertices.keys()))
+        #indexes = '\n'.join(list(self.users.keys()))
+        #coords = re.findall(r"(?<=~ll:\[)(.*)(?=]~kw:)", indexes)
+
+    # Visualize the data
+    # lat: [[startlat, endlat], [startlat,endlat]]
+    def visualize(self, showEdges=True, POIInst=False):
+        self.getEdges()
+        #print(self.vertices)
+        # Display edges
+        #if showEdges:
+            #self.edgeInst = graph.plot(self.__flattenedData[0], self.__flattenedData[1], connect='pairs',
+            #                              pen='black')
+        '''if POIInst is not None:
+            random.seed()
+            for category in self.__flattenedPOIs:
+                r = random.randrange(0, 256)
+                g = random.randrange(0, 256)
+                b = random.randrange(0, 256)
+                self.POIInst = POIInst.plot(self.__flattenedPOIs[category][0], self.__flattenedPOIs[category][1],
+                                            pen=None, symbol='x', symbolSize=2, symbolPen=(r, g, b, 20),
+                                            symbolBrush=(r, g, b, 50))'''
 
 '''
 class RoadNetwork:

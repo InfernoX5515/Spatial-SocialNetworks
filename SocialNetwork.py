@@ -78,19 +78,20 @@ class SocialNetwork:
     def __init__(self, name, Path=None):
         self.name = name
         self.dir = Path
-        if not os.path.exists(self.dir):
-            os.mkdir(self.dir)
-
         self.keywordDict = None
         self.users = None
 
-        threads = [threading.Thread(target=self.loadKeywords),
-                   threading.Thread(target=self.loadUsers)]
+        if self.dir is not None:
+            if not os.path.exists(self.dir):
+                os.mkdir(self.dir)
+            else:
+                threads = [threading.Thread(target=self.loadKeywords),
+                           threading.Thread(target=self.loadUsers)]
 
-        for thread in threads:
-            thread.start()
-        for thread in threads:
-            thread.join()
+                for thread in threads:
+                    thread.start()
+                for thread in threads:
+                    thread.join()
 
     # Reads keyword files for given social network
     def loadKeywords(self):

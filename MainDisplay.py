@@ -9,6 +9,29 @@ def createMainGraphs(layout):
     return graphs
 
 
+# Switch view to main
+def viewMain(root):
+    if "Main Road Network" not in root.graphs:
+
+        # Clear the window view
+        root.clearView()
+
+        # Setup summary view
+        root.setupLayout()
+
+        # Add the road network graph
+        root.graphs = createMainGraphs(root.window.layoutWidget.layout)
+
+        #root.queryInput.close()
+        #root.createPlots()
+        # Re-visualize selected networks
+        #if root.selectedRoadNetwork is not None:
+        #    root.selectedRoadNetwork.visualize(root.roadGraphWidget)
+        #if root.selectedSocialNetwork is not None:
+        #    root.selectedSocialNetwork.visualize(root.socialGraphWidget, root.roadGraphWidget)
+        #    root.plotQueryUser()
+
+
 def createQueryToolbar(root):
     # Set up input toolbar
     queryUserToolbar = QtWidgets.QToolBar("queryToolbar")
@@ -40,3 +63,11 @@ def createQueryToolbar(root):
     queryUserToolbar.addWidget(queryKeywordButton)
     queryUserToolbar.addWidget(queryKeywordLabel)
     queryUserToolbar.addWidget(queryUserToolbar.keywordLabel)
+
+    toolbars = root.toolbars
+    if toolbars is None:
+        toolbars = {"Query User Toolbar": queryUserToolbar}
+    else:
+        toolbars["Query User Toolbar"] = queryUserToolbar
+
+    return toolbars

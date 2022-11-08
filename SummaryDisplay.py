@@ -1,5 +1,6 @@
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 import PyQt5.QtWidgets as QtWidgets
+from PyQt5 import QtGui, QtCore
 
 
 # Creates graphs for summary layout
@@ -10,51 +11,58 @@ def createSummaryGraphs(layout):
 
 # Handles summary view
 def viewSummary(root):
-    # Switch view to summary
-    #if not root.summarySelected:
-    #root.summarySelected = True
-
-    # Clear the window view
-    root.clearView()
-
-    # Setup summary view
-    #root.window = QtWidgets.QWidget()
-    #root.sumLayout = QtWidgets.QHBoxLayout()
-    root.setupLayout()
-
-    # Add interactive NetworkX social network graph
-    socialNXWidget = QWebEngineView()
-    with open('nx.html', 'r') as f:
-        html = f.read()
-        socialNXWidget.setHtml(html)
-
-    root.window.layoutWidget.insertWidget(0, socialNXWidget)
-
-    # Add the road network graph
-    root.graphs = createSummaryGraphs(root.window.layoutWidget.layout)
-
-    #root.sumLayout.addWidget(root.window.layoutWidget.layout, 50)
-    #root.window.setLayout(root.sumLayout)
-    #root.setCentralWidget(root.window)
-    #root.__clusterInput()
-    #root.__queryInput()
-    #root.updateSummaryGraph()
-    # Switch view to main
-    '''else:
-        # Setup default view
-        root.window = QtWidgets.QWidget()
-        root.window.layoutWidget = QtWidgets.QHBoxLayout()
-        root.window.layoutWidget.addWidget(root.window.layoutWidget.layout)
-        root.window.setLayout(root.window.layoutWidget)
-        root.setCentralWidget(root.window)
-        root.summarySelected = False
-        root.clusterInput.close()
+    # Switch view to summary if not already
+    if "Summary Road Network" not in root.graphs:
+        # Clear the window view
         root.clearView()
-        root.queryInput.close()
-        root.createPlots()
-        # Re-visualize selected networks
-        if root.selectedRoadNetwork is not None:
-            root.selectedRoadNetwork.visualize(root.roadGraphWidget)
-        if root.selectedSocialNetwork is not None:
-            root.selectedSocialNetwork.visualize(root.socialGraphWidget, root.roadGraphWidget)
-            root.plotQueryUser()'''
+
+        # Setup summary view
+        root.setupLayout()
+
+        # Add interactive NetworkX social network graph
+        socialNXWidget = QWebEngineView()
+        with open('nx.html', 'r') as f:
+            html = f.read()
+            socialNXWidget.setHtml(html)
+
+        root.window.layoutWidget.insertWidget(0, socialNXWidget)
+
+        # Add the road network graph
+        root.graphs = createSummaryGraphs(root.window.layoutWidget.layout)
+
+        clusterToolbar(root)
+        #root.__queryInput()
+        #root.updateSummaryGraph()
+
+
+# Creates the cluster toolbar for inputs
+def clusterToolbar(root):
+    # Set up input toolbar
+    clusterToolbar = QtWidgets.QToolBar("clusterInput")
+    root.addToolBar(clusterToolbar)
+
+    clusterToolbar.setIconSize(QtCore.QSize(24, 24))
+
+    # Create label
+    nClustersLabel = QtWidgets.QLabel(text="n-clusters: ")
+
+    # Create button
+    submitButton = QtWidgets.QPushButton("Ok")
+    #submitButton.clicked.connect(lambda: self.updateSummaryGraph())
+
+    # Create text box
+    clusterToolbar.textBox = QtWidgets.QLineEdit()
+    clusterToolbar.textBox.setValidator(QtGui.QIntValidator(0, 9999))
+    clusterToolbar.textBox.setText("10")
+    clusterToolbar.textBox.returnPressed.connect(submitButton.click)
+
+    # Add widgets to window
+    clusterToolbar.addWidget(nClustersLabel)
+    clusterToolbar.addWidget(clusterToolbar.textBox)
+    clusterToolbar.addWidget(submitButton)
+
+    toolbars = root.toolbars
+    if toolbars is None:
+        toolbars = {"Cluster Toolbar": clusterToolbar}
+    else:
+        toolbars["Cluster Toolbar"] = clusterToolbar
