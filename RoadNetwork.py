@@ -353,9 +353,15 @@ class RoadNetwork:
         return coords
 
     def getEdges(self):
-        print(list(self.vertices.keys()))
-        #indexes = '\n'.join(list(self.users.keys()))
-        #coords = re.findall(r"(?<=~ll:\[)(.*)(?=]~kw:)", indexes)
+        indexes = '\n'.join(list(self.vertices.keys()))
+        coords = re.findall(r"(?<=~l:\[)(.*)(?=, (.*)(?=]~e:))", indexes)
+
+        startLats = [float(row[0]) for row in coords]
+        startLons = [float(row[1]) for row in coords]
+
+        endVertices = re.findall(r"(?<=~e:\[)()(?=]')", indexes)
+
+        print(endVertices)
 
     # Visualize the data
     # lat: [[startlat, endlat], [startlat,endlat]]
