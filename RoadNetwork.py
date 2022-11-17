@@ -282,7 +282,7 @@ class RoadNetwork:
                 data = json.load(f)
 
                 if data['id'] not in self.vertices:
-                    indexKey = f"~{data['id']}~c:{data['category']}~l:{data['location']}~kw:{data['keywords']}"
+                    indexKey = f"~{data['id']}~c:{data['category']}~l:{data['location']}~e:{data['keywords']}"
                     self.POIs[indexKey] = RNPOI(data['id'], category=data['category'], loc=data['location'],
                                                 keywords=data['keywords'])
 
@@ -301,7 +301,7 @@ class RoadNetwork:
             # If there is no match, error
             raise Exception("There were more than one possible match for getVertexById() but no matches!")
 
-        return matching[0]
+        return self.vertices[matching[0]]
 
     # Returns vertex(s) at a given location
     def getVertexByLoc(self, lat, lon):
@@ -353,15 +353,15 @@ class RoadNetwork:
         return coords
 
     def getEdges(self):
-        indexes = '\n'.join(list(self.vertices.keys()))
-        coords = re.findall(r"(?<=~l:\[)(.*)(?=, (.*)(?=]~e:))", indexes)
-
-        startLats = [float(row[0]) for row in coords]
-        startLons = [float(row[1]) for row in coords]
-
-        endVertices = re.findall(r"(?<=~e:\[)()(?=]')", indexes)
-
-        print(endVertices)
+        lats = []
+        lons = []
+        for vert in self.vertices:
+            start = self.vertices[vert].loc
+            for e in self.vertices[vert].edges:
+                end = self.getVertexById(e).loc
+                lats += [[start[0], end[0]]]
+                lons += [[start[1], end[1]]]
+        print(lats)
 
     # Visualize the data
     # lat: [[startlat, endlat], [startlat,endlat]]
