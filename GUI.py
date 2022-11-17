@@ -213,6 +213,24 @@ class Gui(QtWidgets.QMainWindow):
         yScale = (abs(yRanges[1] - yRanges[0]) * .25) / 2
         self.socialGraphWidget.setYRange(yRanges[0] - yScale, yRanges[1] - yScale, padding=0)
 
+    def zoomInToolInteractive(self):
+        self.socialNetWidget.page().runJavaScript(r"network.moveTo({scale: network.getScale()+0.2});")
+
+    def zoomOutToolInteractive(self):
+        self.socialNetWidget.page().runJavaScript(r"network.moveTo({scale: network.getScale()-0.2});")
+
+    def jogUpToolInteractive(self):
+        self.socialNetWidget.page().runJavaScript(r"var t = network.getViewPosition(); network.moveTo({position: {x:t['x'], y:t['y']-20}});")
+
+    def jogDownToolInteractive(self):
+        self.socialNetWidget.page().runJavaScript(r"var t = network.getViewPosition(); network.moveTo({position: {x:t['x'], y:t['y']+20}});")
+
+    def jogRightToolInteractive(self):
+        self.socialNetWidget.page().runJavaScript(r"var t = network.getViewPosition(); network.moveTo({position: {x:t['x']+20, y:t['y']}});")
+
+    def jogLeftToolInteractive(self):
+        self.socialNetWidget.page().runJavaScript(r"var t = network.getViewPosition(); network.moveTo({position: {x:t['x']-20, y:t['y']}});")
+
     # Creates the navigation toolbar
     def __navToolbar(self):
         # Create toolbar for road graph
@@ -245,6 +263,36 @@ class Gui(QtWidgets.QMainWindow):
         toolbar.addAction(jogDown)
         if self.summarySelected:
             self.sumLayout.addWidget(toolbar, 1, 1)
+            # Create a second toolbar for the social graph
+            socialToolbar = QtWidgets.QToolBar("Navigation Toolbar")
+            socialToolbar.setIconSize(QtCore.QSize(24, 24))
+            #self.addToolBar(QtCore.Qt.BottomToolBarArea, toolbar)
+            # Zoom in
+            zoom_in_social = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-plus-solid.svg'), "Zoom In", self)
+            zoom_in_social.triggered.connect(self.zoomInToolInteractive)
+            socialToolbar.addAction(zoom_in_social)
+            # Zoom out
+            zoom_out_social = QtWidgets.QAction(QtGui.QIcon('Assets/magnifying-glass-minus-solid.svg'), "Zoom Out", self)
+            zoom_out_social.triggered.connect(self.zoomOutToolInteractive)
+            socialToolbar.addAction(zoom_out_social)
+            # Jog left
+            jogLeft_social = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-left-solid.svg'), "Jog Left", self)
+            jogLeft_social.triggered.connect(self.jogLeftToolInteractive)
+            socialToolbar.addAction(jogLeft_social)
+            # Jog right
+            jogRight_social = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-right-solid.svg'), "Jog Right", self)
+            jogRight_social.triggered.connect(self.jogRightToolInteractive)
+            socialToolbar.addAction(jogRight_social)
+            # Jog up
+            jogUp_social = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-up-solid.svg'), "Jog Up", self)
+            jogUp_social.triggered.connect(self.jogUpToolInteractive)
+            socialToolbar.addAction(jogUp_social)
+            # Jog down
+            jogDown_social = QtWidgets.QAction(QtGui.QIcon('Assets/arrow-down-solid.svg'), "Jog Down", self)
+            jogDown_social.triggered.connect(self.jogDownToolInteractive)
+            socialToolbar.addAction(jogDown_social)
+
+            self.sumLayout.addWidget(socialToolbar, 1, 0)
         else:
             # Add the toolbar to the road graph
             self.layout.addWidget(toolbar, 1, 1)
