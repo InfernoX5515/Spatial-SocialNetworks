@@ -14,47 +14,7 @@ from pyvis.network import Network
 import networkx as nx
 import time
 
-
-# Menu bar class for more simple management
-class MenuBar:
-    def __init__(self, menuBar):
-        self.menu = menuBar
-        self.menuTree = Node('root')
-        self.__menuGroups = {}
-
-    def addMenu(self, name):
-        menu = self.menu.addMenu(name)
-        Node(name, obj=menu, parent=self.menuTree)
-
-    def addChild(self, name, parent, shortcut=None, tooltip=None, action=None, group=None, checked=False):
-        child = QtWidgets.QAction(name, self.menu)
-
-        if shortcut is not None:
-            child.setShortcut(shortcut)
-        if tooltip is not None:
-            child.setStatusTip(tooltip)
-        if action is not None:
-            child.triggered.connect(action)
-        if group is not None:
-            if group not in self.__menuGroups:
-                raise Exception(f"Group '{group}' does not exist.")
-            self.__menuGroups[group].addAction(child)
-            child.setCheckable(True)
-            child.setChecked(checked)
-
-        parentNode = find_by_attr(self.menuTree, parent)
-        if parentNode is None:
-            raise Exception(f"Menu item '{parent}' was not found.")
-        parentNode.obj.addAction(child)
-        Node(name, obj=child, parent=parentNode)
-
-    def createGroup(self, name, appRoot):
-        if name in self.__menuGroups:
-            raise Exception(f"Group '{name}' already exists.")
-        self.__menuGroups[name] = QtWidgets.QActionGroup(appRoot)
-
-    def printTree(self):
-        print(RenderTree(self.menuTree))
+from WindowMenuBar import buildMenuBar
 
 
 class Gui(QtWidgets.QMainWindow):
@@ -97,7 +57,7 @@ class Gui(QtWidgets.QMainWindow):
         self.sumLayout.setSpacing(0)
         self.view = QtWidgets.QWidget()
         # Initializes menus
-        self.__menuBar()
+        buildMenuBar(self)
         #self.__navToolbar()
         self.__queryUserButton()
         self.__mainWindow()
@@ -325,44 +285,6 @@ class Gui(QtWidgets.QMainWindow):
             jogDown_social.triggered.connect(self.jogDownToolSocial)
             socialToolbar.addAction(jogDown_social)
             self.layout.addWidget(socialToolbar, 1, 0)
-        
-        
-    def __menuBar(self):
-        menu = MenuBar(self.menuBar())
-
-        menu.addMenu("File")
-        menu.addChild("Files", "File", shortcut="Ctrl+f", tooltip="View files", action=self.viewFiles)
-
-        menu.addMenu("View")
-        menu.createGroup("ViewGroup", self)
-        menu.addChild("Summary View", "View", group="ViewGroup", tooltip="View summary graphs", action=self.viewSummary)
-        menu.addChild("Full View", "View", group="ViewGroup", tooltip="View full graphs", action=self.viewSummary,
-                      checked=True)
-
-        networks = self.getCompleteNetworks()
-        sNetworks = networks["Social Networks"]
-        rNetworks = networks["Road Networks"]
-
-        menu.addMenu("Social Networks")
-        menu.createGroup("SocialNetworkGroup", self)
-        menu.addChild("None", "Social Networks", group="SocialNetworkGroup", tooltip="Display no social network",
-                      action=lambda j: self.displaySocialNetwork(None), checked=True)
-        for x in sNetworks:
-            menu.addChild(x, "Social Networks", group="SocialNetworkGroup",
-                          tooltip=f"Switch to view social network {x}",
-                          action=lambda j, a=x: self.displaySocialNetwork(a))
-
-        menu.addMenu("Road Networks")
-        menu.createGroup("RoadNetworkGroup", self)
-        menu.addChild("None", "Road Networks", group="RoadNetworkGroup", tooltip="Display no road network",
-                      action=lambda j: self.displayRoadNetwork(None), checked=True)
-        for x in rNetworks:
-            menu.addChild(x, "Road Networks", group="RoadNetworkGroup",
-                          tooltip=f"Switch to view road network {x}",
-                          action=lambda j, a=x: self.displayRoadNetwork(a))
-
-        menu.addMenu("Query")
-        menu.addChild("kd-truss", "Query", tooltip="kd-truss menu", action=self.__queryInput)
 
     def clearView(self):
         self.win.removeItem(self.roadGraphWidget)
@@ -1109,7 +1031,7 @@ class Gui(QtWidgets.QMainWindow):
             fileName = fileNameArr[len(fileNameArr) - 1]
             self.__fileTreeObjects[obj].setText(0, fileName)
         self.menuBar().clear()
-        self.__menuBar()
+        buildMenuBar(self)
 
     # Return road networks that have all files and those files exist
     def getCompleteNetworks(self):
