@@ -79,6 +79,7 @@ class Gui(QtWidgets.QMainWindow):
         self.__navToolbar()
         self.__queryUserButton()
         self.__mainWindow()
+        self.__ViewStats()
 
     # Creates the plot widgets. suffix is used when a summary graph is created, for example
     def createPlots(self, suffix=""):
@@ -207,7 +208,7 @@ class Gui(QtWidgets.QMainWindow):
         # Add menu for stats
         addStatsMenu = mainMenu.addMenu("Statistics")
         StatsAction = QtWidgets.QAction("View", self)
-        StatsAction.triggered.connect(self.ViewStats)
+        StatsAction.triggered.connect(self.ShowStatsWindow)
         addStatsMenu.addAction(StatsAction)
         # Hide POIs button
         # hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True, checked=True)
@@ -419,7 +420,7 @@ class Gui(QtWidgets.QMainWindow):
     def visualizeKdData(self, users, keys, hops, dists):
         # Start counting time for query
         self.Qstart = time.time()
-        
+
         if self.queryUser is not None:
             # Create Interactive Graph HTML File Using pyvis
             network = nx.Graph()
@@ -549,7 +550,7 @@ class Gui(QtWidgets.QMainWindow):
 
     def __UpdateQueryTime(self):
         self.ResponseTime = (self.Qend - self.Qstart) * 1000
-        print("Query Time" + str(self.ResponseTime))
+        self.__ViewStats()
 
 
 
@@ -1136,18 +1137,22 @@ class Gui(QtWidgets.QMainWindow):
         self.socialGraphWidget.setXLink(self.roadGraphWidget)
         self.socialGraphWidget.setYLink(self.roadGraphWidget)
     
-    def ViewStats(self):
+    def __ViewStats(self):
         self.__windows[6] = QtWidgets.QWidget()
         self.__windows[6].setWindowModality(QtCore.Qt.ApplicationModal)
         self.__windows[6].setWindowTitle('Statistics')
         self.__windows[6].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
         
         StatsLayout = QtWidgets.QVBoxLayout(self)
-        QueryTimeLabel = QtWidgets.QLabel("Query Response Time:")
+        QueryTimeLabel = QtWidgets.QLabel("Query Response Time: " + str("{0:.3f}".format(self.ResponseTime)) + " ms")
         StatsLayout.addWidget(QueryTimeLabel)
+        StatsLayout.addStretch()
+        
         self.__windows[6].setLayout(StatsLayout)
     
 
+    
+    def ShowStatsWindow(self):
         self.__windows[6].show()
 
 
