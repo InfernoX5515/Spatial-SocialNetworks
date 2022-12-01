@@ -1,4 +1,4 @@
-from collections import Counter
+from collections import Counter, UserList
 from os.path import exists
 from os import getenv
 from queue import PriorityQueue
@@ -32,52 +32,23 @@ import time
 #
 # =====================================================================================================================
 
-# Used to manage windows in GUI
-class WindowManager:
-    def __init__(self):
-        self.__IDs = {}
-        self.__windows = {}
 
-    # Manage a new window
-    def newWindow(self, name, type):
-        id = self.__genWindowID()
-        self.__IDs[id] = name
-        self.__windows[name] = type
-        return self.__windows[name]
-
-    def getWindow(self, name):
-        return self.__windows[name]
-
-    def closeWindow(self, name):
-        self.__windows[name].close()
-        self.__windows[name] = None
-
-    def __getIDs(self):
-        return list(self.__IDs.keys())
-
-    # Returns a window ID that has not been used
-    def __genWindowID(self):
-        # If empty start at id 0
-        if not self.__IDs:
-            return 0
-        else:
-            ids = self.__getIDs()
-            ids.sort()
-            return ids[len(ids) + 1]
-
-
-# GUI Object
 class Gui(QtWidgets.QMainWindow):
     def __init__(self):
         super(Gui, self).__init__()
-        # Config and window manager
-        self.__config = Config()
-        self.__winMan = WindowManager()
+        # Creates config
+        self.config = Config()
         # Plot options
         pg.setConfigOptions(antialias=True)
         pg.setConfigOption('background', 'white')
+        # A dictionary of windows, each window has it's on id
+        self.__windows = {}
         # Stores file hierarchy data
         self.__fileTreeObjects = {}
+        # Stores timestamps for query time caluclation
+        self.Qstart = 0
+        self.Qend = 0
+        self.ResponseTime = 0
         # Stores widget instances
         self.roadGraphWidget = None
         self.socialGraphWidget = None
@@ -94,8 +65,8 @@ class Gui(QtWidgets.QMainWindow):
         # Store data for interactive network
         self.interactiveNetwork = nx.Graph()
         # Store all network info in dict format {"NetworkName: {"Data": "Value", ...}, ..."}
-        self.__roadNetworks = self.__config.settings["Road Networks"]
-        self.__socialNetworks = self.__config.settings["Social Networks"]
+        self.__roadNetworks = self.config.settings["Road Networks"]
+        self.__socialNetworks = self.config.settings["Social Networks"]
         # Store network objects
         self.__roadNetworkObjs = self.createNetworkInstances(self.__roadNetworks, RoadNetwork)
         self.__socialNetworkObjs = self.createNetworkInstances(self.__socialNetworks, SocialNetwork)
@@ -107,12 +78,19 @@ class Gui(QtWidgets.QMainWindow):
         self.__menuBar()
         self.__navToolbar()
         self.__queryUserButton()
-        self.__dispMainWindow()
+        self.__mainWindow()
 
-    # =======[ Windows ]=======
+    # Creates the plot widgets. suffix is used when a summary graph is created, for example
+    def createPlots(self, suffix=""):
+        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
+        self.socialGraphWidget = self.win.addPlot(row=0, col=0, title=f"Social Network {suffix}")
+        self.linkGraphAxis()
+
+    def createSumPlot(self, suffix=None):
+        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
 
     # Displays main window
-    def __dispMainWindow(self):
+    def __mainWindow(self):
         # Set up window
         screensize = self.screen().availableSize().width(), self.screen().availableSize().height()
         self.setGeometry(int((screensize[0] / 2) - 500), int((screensize[1] / 2) - 300), 1000, 600)
@@ -131,49 +109,6 @@ class Gui(QtWidgets.QMainWindow):
         self.createPlots()
         # Show window
         self.show()
-
-    # Open window to choose keywords for the query user
-    def __dispQUChooseKeysMenu(self):
-        # Window setup
-        window = self.__winMan.newWindow("KeywordsMenu", QtWidgets.QWidget())
-        window.setWindowModality(QtCore.Qt.ApplicationModal)
-        window.setWindowTitle('Choose Keywords')
-        window.resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
-        layout = QtWidgets.QGridLayout()
-        window.checkboxes = []
-        # Checkboxes
-        row = 0
-        column = 0
-        if self.selectedSocialNetwork is not None:
-            for keyword in self.selectedSocialNetwork.getKeywords():
-                widget = QtWidgets.QCheckBox(keyword)
-                window.checkboxes.append(widget)
-                layout.addWidget(widget, row, column)
-                column += 1
-                if column == 10:
-                    column = 0
-                    row += 1
-            button = QtWidgets.QPushButton("Ok")
-            button.clicked.connect(lambda: self.showUsersWithKeywords())
-            layout.addWidget(button, row + 2, 8)
-        else:
-            button = QtWidgets.QPushButton("Cancel")
-            button.clicked.connect(lambda: window.close())
-            layout.addWidget(QtWidgets.QLabel("No Social Network Selected"), 0, 0)
-            layout.addWidget(button, 1, 0)
-        # Show QWidget
-        window.setLayout(layout)
-        window.show()
-        window.move(self.geometry().center() - window.rect().center())
-
-    # Creates the plot widgets. suffix is used when a summary graph is created, for example
-    def createPlots(self, suffix=""):
-        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
-        self.socialGraphWidget = self.win.addPlot(row=0, col=0, title=f"Social Network {suffix}")
-        self.linkGraphAxis()
-
-    def createSumPlot(self, suffix=None):
-        self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
 
     @staticmethod
     def getZoomScale(xRanges, yRanges):
@@ -269,6 +204,11 @@ class Gui(QtWidgets.QMainWindow):
         viewSummaryAction.setStatusTip("View summary graphs")
         viewSummaryAction.triggered.connect(self.viewSummary)
         addViewMenu.addAction(viewSummaryAction)
+        # Add menu for stats
+        addStatsMenu = mainMenu.addMenu("Statistics")
+        StatsAction = QtWidgets.QAction("View", self)
+        StatsAction.triggered.connect(self.ViewStats)
+        addStatsMenu.addAction(StatsAction)
         # Hide POIs button
         # hidePOIs = QtWidgets.QAction("Hide POIs", self, checkable=True, checked=True)
         # hidePOIs.setStatusTip("Hide POIs on the graph")
@@ -453,6 +393,8 @@ class Gui(QtWidgets.QMainWindow):
         #                            brush=(50, 50, 200, 100))
 
     def updateSummaryGraph(self):
+        self.Qstart = time.time()
+
         # Clears last view
         if self.summarySelected:
             self.clearView()
@@ -470,7 +412,14 @@ class Gui(QtWidgets.QMainWindow):
                 self.socialNetWidget.setHtml(html)
         self.plotQueryUser()
 
+        self.Qend = time.time()
+
+        self.__UpdateQueryTime()
+
     def visualizeKdData(self, users, keys, hops, dists):
+        # Start counting time for query
+        self.Qstart = time.time()
+        
         if self.queryUser is not None:
             # Create Interactive Graph HTML File Using pyvis
             network = nx.Graph()
@@ -481,7 +430,7 @@ class Gui(QtWidgets.QMainWindow):
                 titleTemp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
             titleTemp += '</ol>'
             network.add_node(self.queryUser[0], physics=False, label=str('Query: ') + str(int(float(self.queryUser[0]))),
-                             color='red', title=titleTemp)
+                             color='green', size=15, shape='star', title=titleTemp)
             # Add common users
             common = self.selectedSocialNetwork.userLoc(self.queryUser[0])
             commonLoc = self.selectedRoadNetwork.findNearest(common)
@@ -496,7 +445,8 @@ class Gui(QtWidgets.QMainWindow):
                 for key in k:
                     temp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
                 temp += '</ol>'
-                network.add_node(user, physics=False, label=str(int(float(user))), color='blue', title=temp)
+                if user != self.queryUser[0]:
+                    network.add_node(user, physics=False, label=str(int(float(user))), color='blue', title=temp)
                 rels = self.selectedSocialNetwork.commonRelations(user, users)
                 for rel in rels:
                     network.add_edge(rel, user, color='blue')
@@ -517,6 +467,11 @@ class Gui(QtWidgets.QMainWindow):
             nt = Network('100%', '100%')
             nt.from_nx(network)
             nt.save_graph('nx.html')
+        
+        # Stop counting time for query
+        self.Qend = time.time()
+        self.__UpdateQueryTime()
+
     
     def updateKdSummaryGraph(self):
         self.socialNetWidget.reload()
@@ -591,13 +546,24 @@ class Gui(QtWidgets.QMainWindow):
             sizes += [((refsSorted.index(x) + 1) * (75 / len(refsSorted)))]
         return sizes
 
+
+    def __UpdateQueryTime(self):
+        self.ResponseTime = (self.Qend - self.Qstart) * 1000
+        print("Query Time" + str(self.ResponseTime))
+
+
+
+        
+
+        
+
     def __queryUserButton(self):
         # Set up input toolbar
         self.queryUserToolbar = QtWidgets.QToolBar("queryUser")
         self.addToolBar(self.queryUserToolbar)
         # Create button
         button = QtWidgets.QPushButton("Select Query User")
-        button.clicked.connect(lambda: self.__dispQUChooseKeysMenu())
+        button.clicked.connect(lambda: self.chooseKeywordsMenu())
         button2 = QtWidgets.QPushButton("Select Query Keyword")
         button2.clicked.connect(lambda: self.chooseQueryKeywordMenu())
         # Create label
@@ -619,6 +585,39 @@ class Gui(QtWidgets.QMainWindow):
         self.queryUserToolbar.addWidget(button2)
         self.queryUserToolbar.addWidget(label2)
         self.queryUserToolbar.addWidget(self.queryUserToolbar.keywordLabel)
+
+    def chooseKeywordsMenu(self):
+        # Window setup
+        self.__windows[3] = QtWidgets.QWidget()
+        self.__windows[3].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[3].setWindowTitle('Choose Keywords')
+        self.__windows[3].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        layout = QtWidgets.QGridLayout()
+        self.__windows[3].checkboxes = []
+        # Checkboxes
+        row = 0
+        column = 0
+        if self.selectedSocialNetwork is not None:
+            for keyword in self.selectedSocialNetwork.getKeywords():
+                widget = QtWidgets.QCheckBox(keyword)
+                self.__windows[3].checkboxes.append(widget)
+                layout.addWidget(widget, row, column)
+                column += 1
+                if column == 10:
+                    column = 0
+                    row += 1
+            button = QtWidgets.QPushButton("Ok")
+            button.clicked.connect(lambda: self.showUsersWithKeywords())
+            layout.addWidget(button, row + 2, 8)
+        else:
+            button = QtWidgets.QPushButton("Cancel")
+            button.clicked.connect(lambda: self.__windows[3].close())
+            layout.addWidget(QtWidgets.QLabel("No Social Network Selected"), 0, 0)
+            layout.addWidget(button, 1, 0)
+        # Show QWidget
+        self.__windows[3].setLayout(layout)
+        self.__windows[3].show()
+        self.__windows[3].move(self.geometry().center() - self.__windows[3].rect().center())
 
     def chooseQueryKeywordMenu(self):
         # Window setup
@@ -651,9 +650,19 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[5].show()
         self.__windows[5].move(self.geometry().center() - self.__windows[5].rect().center())
 
+    def __showUserInfo(self, listWidget, name, username, birthdate, email, phone, keywordList):
+        keywordList.clear()
+        name.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text() + ".0")["name"])
+        username.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["username"])
+        birthdate.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["birthdate"])
+        email.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["email"])
+        phone.setText(self.selectedSocialNetwork.getUserAttributes(listWidget.currentItem().text()+ ".0")["phone"])
+        for id in self.selectedSocialNetwork.getUserKeywords(listWidget.currentItem().text()+ ".0"):
+            keywordList.addItem(self.selectedSocialNetwork.getKeywordByID(id))
+
     def showUsersWithKeywords(self):
-        checkboxes = self.__winMan.getWindow("KeywordsMenu").checkboxes
-        self.__winMan.closeWindow("KeywordsMenu")
+        checkboxes = self.__windows[3].checkboxes
+        self.__windows[3].close()
         self.__windows[4] = QtWidgets.QWidget()
         self.__windows[4].setWindowModality(QtCore.Qt.ApplicationModal)
         self.__windows[4].setWindowTitle('Choose a Query User')
@@ -676,18 +685,64 @@ class Gui(QtWidgets.QMainWindow):
             users = self.selectedSocialNetwork.getUsersWithKeywords(keywords)
             row = 0
             column = 0
+            headingFont=QtGui.QFont()
+            headingFont.setBold(True)
+            headingFont.setPointSize(16)
+            listWidget = QtWidgets.QListWidget()
+            keywordList = QtWidgets.QListWidget()
+            userHeading = QtWidgets.QLabel("Users")
+            userHeading.setFont(headingFont)
+            userHeading.setAlignment(QtCore.Qt.AlignCenter)
+            detailHeading = QtWidgets.QLabel("User Details")
+            detailHeading.setFont(headingFont)
+            detailHeading.setAlignment(QtCore.Qt.AlignCenter)
+            keywordHeading = QtWidgets.QLabel("User Keywords")
+            keywordHeading.setFont(headingFont)
+            keywordHeading.setAlignment(QtCore.Qt.AlignCenter)
+            nameLabel = QtWidgets.QLabel("Name: ")
+            name = QtWidgets.QLabel("John Smith")
+            usernameLabel = QtWidgets.QLabel("Username: ")
+            username = QtWidgets.QLabel("jsmity")
+            birthdateLabel = QtWidgets.QLabel("Birthdate: ")
+            birthdate = QtWidgets.QLabel("1/2/1990")
+            emailLabel = QtWidgets.QLabel("Email: ")
+            email = QtWidgets.QLabel("email@example.com")
+            phoneLabel = QtWidgets.QLabel("Phone: ")
+            phone = QtWidgets.QLabel("123-456-7890")
+            setQueryUsr = QtWidgets.QPushButton("Set as Query User")
+            setQueryUsr.clicked.connect(lambda: self.setQueryUser(listWidget.currentItem().text() + ".0"))
             for user in users:
-                widget = QtWidgets.QPushButton(user.split(".0")[0])
-                keywordsStr = []
-                for id in self.selectedSocialNetwork.getUserKeywords(user):
-                    keywordsStr.append(self.selectedSocialNetwork.getKeywordByID(id))
-                widget.setToolTip(f"Keywords: \n{chr(10).join(keywordsStr)}")
-                widget.clicked.connect(lambda junk, u=user: self.setQueryUser(u))
-                layout.addWidget(widget, row, column)
-                column += 1
-                if column == 9:
-                    column = 0
-                    row += 1
+                listWidget.addItem(user.split(".0")[0])
+                #widget = QtWidgets.QPushButton(user.split(".0")[0])
+                #keywordsStr = []
+                #for id in self.selectedSocialNetwork.getUserKeywords(user):
+                #    keywordsStr.append(self.selectedSocialNetwork.getKeywordByID(id))
+                #widget.setToolTip(f"Keywords: \n{chr(10).join(keywordsStr)}")
+                #widget.clicked.connect(lambda junk, u=user: self.setQueryUser(u))
+                #layout.addWidget(widget, row, column)
+                #column += 1
+                #if column == 9:
+                #    column = 0
+                #    row += 1
+            #listWidget.itemClicked.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList))
+
+            listWidget.itemSelectionChanged.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList))
+            layout.addWidget(userHeading, 0, 0)
+            layout.addWidget(detailHeading, 0, 1, 1, 2)
+            layout.addWidget(listWidget, 1, 0, 7, 1)
+            layout.addWidget(nameLabel, 1, 1)
+            layout.addWidget(name, 1, 2)
+            layout.addWidget(usernameLabel, 2, 1)
+            layout.addWidget(username, 2, 2)
+            layout.addWidget(birthdateLabel, 3, 1)
+            layout.addWidget(birthdate, 3, 2)
+            layout.addWidget(emailLabel, 4, 1)
+            layout.addWidget(email, 4, 2)
+            layout.addWidget(phoneLabel, 5, 1)
+            layout.addWidget(phone, 5, 2)
+            layout.addWidget(keywordHeading, 6, 1, 1, 2)
+            layout.addWidget(keywordList, 7, 1, 1, 2)
+            layout.addWidget(setQueryUsr, 8, 0, 1, 3)
             scroll.setWidget(scrollContent)
             self.__windows[4].show()
             self.__windows[4].move(self.geometry().center() - self.__windows[4].rect().center())
@@ -748,10 +803,7 @@ class Gui(QtWidgets.QMainWindow):
             if not self.queryUserPlots:
                 [a.clear() for a in self.queryUserPlots]
             self.queryUserPlots = []
-            if self.summarySelected:
-                color = (0, 255, 0)
-            else:
-                color = (255, 0, 0)
+            color = 'green'
             for loc in self.queryUser[1]:
                 self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
                                                                      symbol='star', symbolSize=30, symbolPen=color,
@@ -775,10 +827,9 @@ class Gui(QtWidgets.QMainWindow):
         button = QtWidgets.QPushButton("Get Query")
         button.clicked.connect(lambda: self.updateKdSummaryGraph())
         # Create k text box
-        self.queryInput.kTextBox = QtWidgets.QLineEdit()
-        self.queryInput.kTextBox.setValidator(QtGui.QIntValidator(0, 9999))
-        self.queryInput.kTextBox.setText("5")
-        self.queryInput.kTextBox.returnPressed.connect(button.click)
+        self.queryInput.kTextBox = QtWidgets.QSpinBox()
+        self.queryInput.kTextBox.setRange(3, 9999)
+        self.queryInput.kTextBox.setValue(5)
         self.queryInput.kTextBox.setToolTip("k is used to control the community's structural cohesiveness. Larger k "
                                             "means higher structural cohesiveness")
         # Create d text box
@@ -912,7 +963,8 @@ class Gui(QtWidgets.QMainWindow):
                     "locFile": "[locFile]",
                     "relFile": "[relFile]",
                     "keyFile": "[keyFile]",
-                    "keyMapFile": "[keyMapFile]"
+                    "keyMapFile": "[keyMapFile]",
+                    "userDataFile": "[userDataFile]"
                 }
             # Adds new road network to tree
             keys = list(network.keys())
@@ -930,7 +982,7 @@ class Gui(QtWidgets.QMainWindow):
                     f"{a}.{c}.{b}", f"{d}", e, f"{list(network[e].keys())[b - 1]}"))
                 self.__windows[0].setItemWidget(self.__fileTreeObjects[f"{num}.{currItem}.{i}"], 1, addN)
             # Update config
-            self.__config.update(f"{title}s", network)
+            self.config.update(f"{title}s", network)
 
     # TODO: Implement for summary graph
     def hidePOIs(self, checked):
@@ -959,10 +1011,10 @@ class Gui(QtWidgets.QMainWindow):
             path = pathArr[0]
             if T == "Road Network":
                 self.__roadNetworks[network][sub] = path
-                self.__config.update("Road Networks", self.__roadNetworks)
+                self.config.update("Road Networks", self.__roadNetworks)
             elif T == "Social Network":
                 self.__socialNetworks[network][sub] = path
-                self.__config.update("Social Networks", self.__socialNetworks)
+                self.config.update("Social Networks", self.__socialNetworks)
             # Update item
             fileNameArr = path.split("/")
             fileName = fileNameArr[len(fileNameArr) - 1]
@@ -1083,6 +1135,22 @@ class Gui(QtWidgets.QMainWindow):
     def linkGraphAxis(self):
         self.socialGraphWidget.setXLink(self.roadGraphWidget)
         self.socialGraphWidget.setYLink(self.roadGraphWidget)
+    
+    def ViewStats(self):
+        self.__windows[6] = QtWidgets.QWidget()
+        self.__windows[6].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[6].setWindowTitle('Statistics')
+        self.__windows[6].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        
+        StatsLayout = QtWidgets.QVBoxLayout(self)
+        QueryTimeLabel = QtWidgets.QLabel("Query Response Time:")
+        StatsLayout.addWidget(QueryTimeLabel)
+        self.__windows[6].setLayout(StatsLayout)
+    
+
+        self.__windows[6].show()
+
+
 
     def closeEvent(self, a0: QtGui.QCloseEvent) -> None:
         print("Closed")
