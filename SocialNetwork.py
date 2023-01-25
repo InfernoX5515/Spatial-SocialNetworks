@@ -429,3 +429,6 @@ class SocialNetwork:
             if user in self.clusterItems[x]:
                 return x
         return -1
+    
+    def getClusterUsers(self, cluster):
+        return self.clusterItems[cluster]
