@@ -4,6 +4,7 @@ from os import getenv
 from anytree import Node, RenderTree, find_by_attr
 from Config import Config
 from PyQt5 import QtGui, QtCore
+from scipy import spatial
 import pyqtgraph as pg
 import PyQt5.QtWidgets as QtWidgets
 from PyQt5.QtWebEngineWidgets import QWebEngineView
@@ -101,12 +102,25 @@ class Gui(QtWidgets.QMainWindow):
         #self.__navToolbar()
         self.__queryUserButton()
         self.__mainWindow()
+        # Array for plot points
+        self.centers = []
+        self.ids = []
 
     # Creates the plot widgets. suffix is used when a summary graph is created, for example
     def createPlots(self, suffix=""):
         self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
+        self.roadGraphWidget.scene().sigMouseClicked.connect(self.roadGraphClick)
         self.socialGraphWidget = self.win.addPlot(row=0, col=0, title=f"Social Network {suffix}")
         #self.linkGraphAxis()
+
+    def roadGraphClick(self, event):
+        vb = self.roadGraphWidget.vb
+        cords = event.scenePos()
+        if self.roadGraphWidget.sceneBoundingRect().contains(cords):
+            point = vb.mapSceneToView(cords)
+            tree = spatial.KDTree(self.centers)
+            closest_point = tree.query([[point.x(), point.y()]])[1][0]
+            self.showClusterUsers(self.selectedSocialNetwork.getClusterUsers(self.ids[closest_point]))
 
     def createSumPlot(self, suffix=None):
         self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
@@ -116,7 +130,7 @@ class Gui(QtWidgets.QMainWindow):
         # Set up window
         screensize = self.screen().availableSize().width(), self.screen().availableSize().height()
         self.setGeometry(int((screensize[0] / 2) - 500), int((screensize[1] / 2) - 300), 1000, 600)
-        self.setWindowTitle("Spatial-Social Networks")
+        self.setWindowTitle("Spatial-Social Networks") 
         self.setWindowIcon(QtGui.QIcon('Assets/favicon.ico'))
         self.win = pg.GraphicsLayoutWidget()
         self.sum = pg.GraphicsLayoutWidget()
@@ -493,6 +507,7 @@ class Gui(QtWidgets.QMainWindow):
             self.plotQueryUser()
 
     def visualizeSummaryData(self, ids, centers, sizes, relations, popSize):
+     
         # Note: For some reason, the alpha value is from 0-255 not 0-100
         self.roadGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=sizes,
                                   symbolPen=(255, 0, 0), symbolBrush=(255, 0, 0, 125))
@@ -530,8 +545,8 @@ class Gui(QtWidgets.QMainWindow):
             self.selectedRoadNetwork.visualize(self.roadGraphWidget)   
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
-            ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
-            self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
+            self.ids, self.centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+            self.visualizeSummaryData(self.ids, self.centers, sizes, relations, popSize)
             with open('nx.html', 'r') as f:
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
@@ -573,8 +588,8 @@ class Gui(QtWidgets.QMainWindow):
             self.createSumPlot()
             if self.selectedRoadNetwork:
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
-            ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
-            self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
+            self.ids, self.centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+            self.visualizeSummaryData(self.ids, self.centers, sizes, relations, popSize)
             self.setQueryUser(qu)
             self.plotQueryUser()
             for user in users:
@@ -804,6 +819,99 @@ class Gui(QtWidgets.QMainWindow):
             self.__windows[4].show()
             self.__windows[4].move(self.geometry().center() - self.__windows[4].rect().center())
 
+    def showClusterUsers(self, users):
+        self.__windows[7] = QtWidgets.QWidget()
+        self.__windows[7].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[7].setWindowTitle('Cluster Users')
+        self.__windows[7].resize(int(self.frameGeometry().width()), int(self.frameGeometry().height()))
+
+        mainLayout = QtWidgets.QVBoxLayout(self)
+        scroll = QtWidgets.QScrollArea(self)
+        self.__windows[7].setLayout(mainLayout)
+        mainLayout.addWidget(scroll)
+        scroll.setWidgetResizable(True)
+        scrollContent = QtWidgets.QWidget(scroll)
+        layout = QtWidgets.QGridLayout()
+        layout.setColumnStretch(2, 2)
+        scrollContent.setLayout(layout)
+
+        headingFont=QtGui.QFont()
+        headingFont.setBold(True)
+        headingFont.setPointSize(18)
+        BoldLabel=QtGui.QFont()
+        BoldLabel.setBold(True)
+        listWidget = QtWidgets.QListWidget()
+        keywordList = QtWidgets.QLabel()
+        userHeading = QtWidgets.QLabel("Users:")
+        userHeading.setFixedHeight(20)
+        userHeading.setFont(headingFont)
+        detailHeading = QtWidgets.QLabel("User Details:")
+        detailHeading.setFixedHeight(20)
+        detailHeading.setFont(headingFont)
+        keywordHeading = QtWidgets.QLabel("User Keywords:")
+        keywordHeading.setFont(headingFont)
+        keywordHeading.setFixedHeight(20)
+        nameLabel = QtWidgets.QLabel("Name: ")
+        nameLabel.setFont(BoldLabel)
+        nameLabel.setFixedHeight(16)
+        name = QtWidgets.QLabel()
+        usernameLabel = QtWidgets.QLabel("Username: ")
+        usernameLabel.setFixedHeight(16)
+        usernameLabel.setFont(BoldLabel)
+        username = QtWidgets.QLabel()
+        birthdateLabel = QtWidgets.QLabel("Birthdate: ")
+        birthdateLabel.setFont(BoldLabel)
+        birthdateLabel.setFixedHeight(16)
+        birthdate = QtWidgets.QLabel()
+        emailLabel = QtWidgets.QLabel("Email: ")
+        emailLabel.setFont(BoldLabel)
+        emailLabel.setFixedHeight(16)
+        email = QtWidgets.QLabel()
+        phoneLabel = QtWidgets.QLabel("Phone: ")
+        phoneLabel.setFont(BoldLabel)
+        phoneLabel.setFixedHeight(16)
+        phone = QtWidgets.QLabel()
+        setQueryUsr = QtWidgets.QPushButton("Set as Query User")
+        closeWindow = QtWidgets.QPushButton("Close")
+        setQueryUsr.clicked.connect(lambda: self.setQueryUser(userList[listWidget.currentRow()], window=7))
+        closeWindow.clicked.connect(lambda: self.__windows[7].close())
+        userList = []
+        for user in users:
+            userList.append(user)
+            listWidget.addItem(self.selectedSocialNetwork.getUserAttributes(user)["name"] + " (" + user.split(".0")[0] + ")")
+            
+
+        listWidget.itemSelectionChanged.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList, userList))
+        layout.addWidget(userHeading, 0, 0)
+        layout.addWidget(detailHeading, 0, 1, 1, 2)
+        layout.addWidget(listWidget, 1, 0, 7, 1)
+        layout.addWidget(nameLabel, 1, 1)
+        layout.addWidget(name, 1, 2)
+        layout.addWidget(usernameLabel, 2, 1)
+        layout.addWidget(username, 2, 2)
+        layout.addWidget(birthdateLabel, 3, 1)
+        layout.addWidget(birthdate, 3, 2)
+        layout.addWidget(emailLabel, 4, 1)
+        layout.addWidget(email, 4, 2)
+        layout.addWidget(phoneLabel, 5, 1)
+        layout.addWidget(phone, 5, 2)
+        layout.addWidget(keywordHeading, 6, 1, 1, 2)
+        layout.addWidget(keywordList, 7, 1, 1, 2)
+        keywordList.setAlignment(QtCore.Qt.AlignTop)
+        layout.addWidget(setQueryUsr, 8, 0, 1, 3)
+        layout.addWidget(closeWindow, 9, 0, 1, 3)
+        scroll.setWidget(scrollContent)
+
+
+
+
+
+
+
+        self.__windows[7].show()
+        self.__windows[7].move(self.geometry().center() - self.__windows[7].rect().center())
+
+
     # Creates the cluster toolbar for input
     def __clusterInput(self):
         # Set up input toolbar
@@ -845,7 +953,7 @@ class Gui(QtWidgets.QMainWindow):
         self.clusterInput.addWidget(button)
 
     # Returns query user in form [id, [[lat, lon], [lat, lon]]]
-    def setQueryUser(self, user):
+    def setQueryUser(self, user, window=4):
         if self.queryUser is not None:
             [a.clear() for a in self.queryUserPlots]
             self.queryUserPlots = []
@@ -853,7 +961,7 @@ class Gui(QtWidgets.QMainWindow):
         self.plotQueryUser()
         self.queryUserToolbar.userLabel.setText(user.split(".0")[0])
         self.usersCommonKeyword()
-        self.__windows[4].close()
+        self.__windows[window].close()
         self.dijkstra(self.queryUser)
 
     def plotQueryUser(self):
@@ -1162,8 +1270,8 @@ class Gui(QtWidgets.QMainWindow):
                 self.selectedRoadNetwork.visualize(self.roadGraphWidget)
             # Draw social network
             if self.selectedSocialNetwork is not None:
-                ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
-                self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
+                self.ids, self.centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+                self.visualizeSummaryData(self.ids, self.centers, sizes, relations, popSize)
             self.plotQueryUser()
             #self.linkGraphAxis()
 
@@ -1200,8 +1308,8 @@ class Gui(QtWidgets.QMainWindow):
             # Draw cross-hairs on graph
             if network is not None:
                 self.selectedSocialNetwork = self.__socialNetworkObjs[network]
-                ids, centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
-                self.visualizeSummaryData(ids, centers, sizes, relations, popSize)
+                self.ids, self.centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+                self.visualizeSummaryData(self.ids, self.centers, sizes, relations, popSize)
 
     # Creates network instances based on text data dictionary of {"NetworkName": {"Data":"Value", ...}
     # If the value is not set, square brackets denote that it is not set, written as "[Value]"
