@@ -971,9 +971,27 @@ class Gui(QtWidgets.QMainWindow):
             self.queryUserPlots = []
             color = 'green'
             for loc in self.queryUser[1]:
+                if self.summarySelected:
+                    self.clearView()
+                    self.plottingUserRefresh()
                 self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
                                                                      symbol='star', symbolSize=30, symbolPen=color,
                                                                      symbolBrush=color))
+
+    def plottingUserRefresh(self):
+        self.createSumPlot("Summary")
+        self.socialNetWidget.reload()
+        if self.selectedRoadNetwork is not None:
+            self.selectedRoadNetwork.visualize(self.roadGraphWidget)
+            # If social network is selected, display clusters
+        if self.selectedSocialNetwork is not None:
+           self.ids, self.centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(
+                self.clusterInput.textBox.text())
+           self.visualizeSummaryData(self.ids, self.centers, sizes, relations, popSize)
+           with open('nx.html', 'r') as f:
+                html = f.read()
+                self.socialNetWidget.setHtml(html)
+
 
     def setQueryKeyword(self, keyword):
         self.queryKeyword = keyword
