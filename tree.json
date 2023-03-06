@@ -1,0 +1,1558 @@
+{
+    "user": "5352.0",
+    "distance": 0,
+    "keyword_score": 1.0,
+    "rel_score": 1.0,
+    "deg_sim": 1.0,
+    "satisfy": false,
+    "children": [
+        {
+            "user": "63.0",
+            "distance": 1,
+            "keyword_score": 0.0,
+            "rel_score": 0.1590909090909091,
+            "deg_sim": 0.07954545454545454,
+            "satisfy": true,
+            "children": [
+                {
+                    "user": "594.0",
+                    "distance": 2,
+                    "keyword_score": 0.058823529411764705,
+                    "rel_score": 0.17391304347826086,
+                    "deg_sim": 0.11636828644501279,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "268.0",
+                            "distance": 3,
+                            "keyword_score": 0.2,
+                            "rel_score": 0.08888888888888889,
+                            "deg_sim": 0.14444444444444446,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "478.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.1,
+                            "deg_sim": 0.05,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5048.0",
+                            "distance": 3,
+                            "keyword_score": 0.17647058823529413,
+                            "rel_score": 0.10714285714285714,
+                            "deg_sim": 0.14180672268907563,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5074.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.08695652173913043,
+                            "deg_sim": 0.043478260869565216,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "600.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.14545454545454545,
+                            "deg_sim": 0.07272727272727272,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "7526.0",
+                            "distance": 3,
+                            "keyword_score": 0.2857142857142857,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.14285714285714285,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "93.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.07894736842105263,
+                    "deg_sim": 0.039473684210526314,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "4362.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.037037037037037035,
+                            "deg_sim": 0.018518518518518517,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "8195.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5099.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.06666666666666667,
+                            "deg_sim": 0.03333333333333333,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "8196.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5103.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.05128205128205128,
+                            "deg_sim": 0.02564102564102564,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "285.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.022727272727272728,
+                            "deg_sim": 0.011363636363636364,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "158.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.05714285714285714,
+                            "deg_sim": 0.02857142857142857,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6401.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0625,
+                            "deg_sim": 0.03125,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "464.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6381.0",
+                            "distance": 3,
+                            "keyword_score": 0.25,
+                            "rel_score": 0.08333333333333333,
+                            "deg_sim": 0.16666666666666666,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6356.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.02127659574468085,
+                            "deg_sim": 0.010638297872340425,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6357.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.03125,
+                            "deg_sim": 0.015625,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5085.0",
+                            "distance": 3,
+                            "keyword_score": 0.16666666666666666,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.08333333333333333,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5087.0",
+                            "distance": 3,
+                            "keyword_score": 0.16666666666666666,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.08333333333333333,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5102.0",
+                            "distance": 3,
+                            "keyword_score": 0.1,
+                            "rel_score": 0.027777777777777776,
+                            "deg_sim": 0.06388888888888888,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6385.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.029411764705882353,
+                            "deg_sim": 0.014705882352941176,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6389.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6399.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "96.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.08333333333333333,
+                    "deg_sim": 0.041666666666666664,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "8246.0",
+                            "distance": 3,
+                            "keyword_score": 0.09090909090909091,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.045454545454545456,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "4227.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5799.0",
+                            "distance": 3,
+                            "keyword_score": 0.17647058823529413,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.08823529411764706,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5311.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "5325.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.17391304347826086,
+                    "deg_sim": 0.08695652173913043,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "246.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.07692307692307693,
+                            "deg_sim": 0.038461538461538464,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "831.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.12121212121212122,
+                            "deg_sim": 0.06060606060606061,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5287.0",
+                            "distance": 3,
+                            "keyword_score": 0.1875,
+                            "rel_score": 0.03333333333333333,
+                            "deg_sim": 0.11041666666666666,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5329.0",
+                            "distance": 3,
+                            "keyword_score": 0.15384615384615385,
+                            "rel_score": 0.07407407407407407,
+                            "deg_sim": 0.11396011396011396,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "5339.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.07142857142857142,
+                    "deg_sim": 0.03571428571428571,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "85.0",
+                            "distance": 3,
+                            "keyword_score": 0.1,
+                            "rel_score": 0.03571428571428571,
+                            "deg_sim": 0.06785714285714287,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "4481.0",
+                            "distance": 3,
+                            "keyword_score": 0.08333333333333333,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.041666666666666664,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6533.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.09523809523809523,
+                            "deg_sim": 0.047619047619047616,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "11424.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "24656.0",
+                            "distance": 3,
+                            "keyword_score": 0.09090909090909091,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.045454545454545456,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5343.0",
+                            "distance": 3,
+                            "keyword_score": 0.058823529411764705,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.029411764705882353,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5610.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "5854.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.09090909090909091,
+                    "deg_sim": 0.045454545454545456,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "355.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.043478260869565216,
+                            "deg_sim": 0.021739130434782608,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "4371.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.08771929824561403,
+                            "deg_sim": 0.043859649122807015,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "2324.0",
+                    "distance": 2,
+                    "keyword_score": 0.14285714285714285,
+                    "rel_score": 0.041666666666666664,
+                    "deg_sim": 0.09226190476190475,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "276.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.1,
+                            "deg_sim": 0.05,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "1623.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "1736.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "304.0",
+                    "distance": 2,
+                    "keyword_score": 0.11764705882352941,
+                    "rel_score": 0.08,
+                    "deg_sim": 0.0988235294117647,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "126.0",
+                            "distance": 3,
+                            "keyword_score": 0.18181818181818182,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.09090909090909091,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5217.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5785.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.04,
+                            "deg_sim": 0.02,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "2320.0",
+                            "distance": 3,
+                            "keyword_score": 0.15384615384615385,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.07692307692307693,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "4009.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "331.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.07142857142857142,
+                    "deg_sim": 0.03571428571428571,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "3752.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5342.0",
+                            "distance": 3,
+                            "keyword_score": 0.1875,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.09375,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5346.0",
+                            "distance": 3,
+                            "keyword_score": 0.07692307692307693,
+                            "rel_score": 0.05263157894736842,
+                            "deg_sim": 0.06477732793522267,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "24079.0",
+                            "distance": 3,
+                            "keyword_score": 0.1111111111111111,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.05555555555555555,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "4530.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.034482758620689655,
+                            "deg_sim": 0.017241379310344827,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5492.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "24107.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "6506.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.05,
+                    "deg_sim": 0.025,
+                    "satisfy": true,
+                    "children": []
+                },
+                {
+                    "user": "6507.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.047619047619047616,
+                    "deg_sim": 0.023809523809523808,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "6537.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.043478260869565216,
+                            "deg_sim": 0.021739130434782608,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "6508.0",
+                    "distance": 2,
+                    "keyword_score": 0.13333333333333333,
+                    "rel_score": 0.047619047619047616,
+                    "deg_sim": 0.09047619047619047,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "6509.0",
+                            "distance": 3,
+                            "keyword_score": 0.11764705882352941,
+                            "rel_score": 0.047619047619047616,
+                            "deg_sim": 0.08263305322128851,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "6532.0",
+                    "distance": 2,
+                    "keyword_score": 0.08333333333333333,
+                    "rel_score": 0.047619047619047616,
+                    "deg_sim": 0.06547619047619047,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "10427.0",
+                            "distance": 3,
+                            "keyword_score": 0.07692307692307693,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.038461538461538464,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "6536.0",
+                    "distance": 2,
+                    "keyword_score": 0.09090909090909091,
+                    "rel_score": 0.043478260869565216,
+                    "deg_sim": 0.06719367588932806,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "2607.0",
+                            "distance": 3,
+                            "keyword_score": 0.125,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0625,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6551.0",
+                            "distance": 3,
+                            "keyword_score": 0.125,
+                            "rel_score": 0.045454545454545456,
+                            "deg_sim": 0.08522727272727273,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "26092.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "6547.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.047619047619047616,
+                    "deg_sim": 0.023809523809523808,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "5312.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.037037037037037035,
+                            "deg_sim": 0.018518518518518517,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "6555.0",
+                    "distance": 2,
+                    "keyword_score": 0.058823529411764705,
+                    "rel_score": 0.08333333333333333,
+                    "deg_sim": 0.07107843137254902,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "2358.0",
+                            "distance": 3,
+                            "keyword_score": 0.058823529411764705,
+                            "rel_score": 0.037037037037037035,
+                            "deg_sim": 0.04793028322440087,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "52273.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "33089.0",
+                            "distance": 3,
+                            "keyword_score": 0.0625,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.03125,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "5563.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.13043478260869565,
+                    "deg_sim": 0.06521739130434782,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "31491.0",
+                            "distance": 3,
+                            "keyword_score": 0.05263157894736842,
+                            "rel_score": 0.05,
+                            "deg_sim": 0.05131578947368421,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "5581.0",
+                    "distance": 2,
+                    "keyword_score": 0.05,
+                    "rel_score": 0.034482758620689655,
+                    "deg_sim": 0.04224137931034483,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "43.0",
+                            "distance": 3,
+                            "keyword_score": 0.125,
+                            "rel_score": 0.05263157894736842,
+                            "deg_sim": 0.08881578947368421,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "586.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.03225806451612903,
+                            "deg_sim": 0.016129032258064516,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "4391.0",
+                            "distance": 3,
+                            "keyword_score": 0.05263157894736842,
+                            "rel_score": 0.10344827586206896,
+                            "deg_sim": 0.07803992740471868,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "4480.0",
+                            "distance": 3,
+                            "keyword_score": 0.07692307692307693,
+                            "rel_score": 0.23076923076923078,
+                            "deg_sim": 0.15384615384615385,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5284.0",
+                            "distance": 3,
+                            "keyword_score": 0.08333333333333333,
+                            "rel_score": 0.038461538461538464,
+                            "deg_sim": 0.060897435897435896,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5286.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.07692307692307693,
+                            "deg_sim": 0.038461538461538464,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "7294.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.045454545454545456,
+                            "deg_sim": 0.022727272727272728,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "5093.0",
+                    "distance": 2,
+                    "keyword_score": 0.0625,
+                    "rel_score": 0.09523809523809523,
+                    "deg_sim": 0.07886904761904762,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "477.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.03125,
+                            "deg_sim": 0.015625,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "4244.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.02857142857142857,
+                            "deg_sim": 0.014285714285714285,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "4354.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.16,
+                            "deg_sim": 0.08,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5051.0",
+                            "distance": 3,
+                            "keyword_score": 0.1,
+                            "rel_score": 0.037037037037037035,
+                            "deg_sim": 0.06851851851851852,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5073.0",
+                            "distance": 3,
+                            "keyword_score": 0.1875,
+                            "rel_score": 0.02564102564102564,
+                            "deg_sim": 0.10657051282051282,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5084.0",
+                            "distance": 3,
+                            "keyword_score": 0.05,
+                            "rel_score": 0.03333333333333333,
+                            "deg_sim": 0.04166666666666667,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5089.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.05263157894736842,
+                            "deg_sim": 0.02631578947368421,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "35848.0",
+                            "distance": 3,
+                            "keyword_score": 0.05263157894736842,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.02631578947368421,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6386.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6387.0",
+                            "distance": 3,
+                            "keyword_score": 0.06666666666666667,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.03333333333333333,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6398.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.030303030303030304,
+                            "deg_sim": 0.015151515151515152,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "53613.0",
+                            "distance": 3,
+                            "keyword_score": 0.05,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.025,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5098.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5101.0",
+                            "distance": 3,
+                            "keyword_score": 0.2,
+                            "rel_score": 0.09090909090909091,
+                            "deg_sim": 0.14545454545454545,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5110.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.05172413793103448,
+                            "deg_sim": 0.02586206896551724,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "5114.0",
+                    "distance": 2,
+                    "keyword_score": 0.2,
+                    "rel_score": 0.08333333333333333,
+                    "deg_sim": 0.14166666666666666,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "6402.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.038461538461538464,
+                            "deg_sim": 0.019230769230769232,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "7959.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.13043478260869565,
+                            "deg_sim": 0.06521739130434782,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "87.0",
+            "distance": 1,
+            "keyword_score": 0.0,
+            "rel_score": 0.1111111111111111,
+            "deg_sim": 0.05555555555555555,
+            "satisfy": true,
+            "children": [
+                {
+                    "user": "7298.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.09090909090909091,
+                    "deg_sim": 0.045454545454545456,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "9220.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "7305.0",
+                            "distance": 3,
+                            "keyword_score": 0.1,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.05,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "7956.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.05,
+                    "deg_sim": 0.025,
+                    "satisfy": true,
+                    "children": []
+                },
+                {
+                    "user": "4397.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.15384615384615385,
+                    "deg_sim": 0.07692307692307693,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "427.0",
+                            "distance": 3,
+                            "keyword_score": 0.1111111111111111,
+                            "rel_score": 0.06060606060606061,
+                            "deg_sim": 0.08585858585858586,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "4386.0",
+                            "distance": 3,
+                            "keyword_score": 0.0625,
+                            "rel_score": 0.047619047619047616,
+                            "deg_sim": 0.05505952380952381,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "5323.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.1,
+                    "deg_sim": 0.05,
+                    "satisfy": true,
+                    "children": []
+                },
+                {
+                    "user": "7996.0",
+                    "distance": 2,
+                    "keyword_score": 0.11764705882352941,
+                    "rel_score": 0.05,
+                    "deg_sim": 0.08382352941176471,
+                    "satisfy": true,
+                    "children": []
+                },
+                {
+                    "user": "4459.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.125,
+                    "deg_sim": 0.0625,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "313.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "1454.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.027777777777777776,
+                            "deg_sim": 0.013888888888888888,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "1785.0",
+                            "distance": 3,
+                            "keyword_score": 0.058823529411764705,
+                            "rel_score": 0.03333333333333333,
+                            "deg_sim": 0.04607843137254902,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "2170.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.07142857142857142,
+                            "deg_sim": 0.03571428571428571,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "4383.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5568.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "4399.0",
+            "distance": 1,
+            "keyword_score": 0.0,
+            "rel_score": 0.0,
+            "deg_sim": 0.0,
+            "satisfy": true,
+            "children": [
+                {
+                    "user": "23132.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.05,
+                    "deg_sim": 0.025,
+                    "satisfy": true,
+                    "children": []
+                },
+                {
+                    "user": "24156.0",
+                    "distance": 2,
+                    "keyword_score": 0.06666666666666667,
+                    "rel_score": 0.047619047619047616,
+                    "deg_sim": 0.05714285714285714,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "22365.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.047619047619047616,
+                            "deg_sim": 0.023809523809523808,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "11423.0",
+                    "distance": 2,
+                    "keyword_score": 0.15384615384615385,
+                    "rel_score": 0.043478260869565216,
+                    "deg_sim": 0.09866220735785954,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "182.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "22386.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.05,
+                    "deg_sim": 0.025,
+                    "satisfy": true,
+                    "children": []
+                },
+                {
+                    "user": "5528.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.047619047619047616,
+                    "deg_sim": 0.023809523809523808,
+                    "satisfy": true,
+                    "children": []
+                },
+                {
+                    "user": "9202.0",
+                    "distance": 2,
+                    "keyword_score": 0.17647058823529413,
+                    "rel_score": 0.045454545454545456,
+                    "deg_sim": 0.11096256684491979,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "1409.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "40160.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "5567.0",
+            "distance": 1,
+            "keyword_score": 0.0,
+            "rel_score": 0.10344827586206896,
+            "deg_sim": 0.05172413793103448,
+            "satisfy": true,
+            "children": [
+                {
+                    "user": "459.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.03571428571428571,
+                    "deg_sim": 0.017857142857142856,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "446.0",
+                            "distance": 3,
+                            "keyword_score": 0.09090909090909091,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.045454545454545456,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "29480.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6722.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "22764.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "2292.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.03225806451612903,
+                            "deg_sim": 0.016129032258064516,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "3669.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "487.0",
+                            "distance": 3,
+                            "keyword_score": 0.1,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.05,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "4257.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.041666666666666664,
+                    "deg_sim": 0.020833333333333332,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "159.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.027777777777777776,
+                            "deg_sim": 0.013888888888888888,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "70818.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "11377.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "5060.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "5548.0",
+                    "distance": 2,
+                    "keyword_score": 0.14285714285714285,
+                    "rel_score": 0.18181818181818182,
+                    "deg_sim": 0.16233766233766234,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "5332.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.02702702702702703,
+                            "deg_sim": 0.013513513513513514,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "6767.0",
+                    "distance": 2,
+                    "keyword_score": 0.05555555555555555,
+                    "rel_score": 0.041666666666666664,
+                    "deg_sim": 0.048611111111111105,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "470.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "593.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.01639344262295082,
+                            "deg_sim": 0.00819672131147541,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "666.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        },
+                        {
+                            "user": "6924.0",
+                            "distance": 3,
+                            "keyword_score": 0.0,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.0,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "26778.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.05,
+                    "deg_sim": 0.025,
+                    "satisfy": true,
+                    "children": []
+                },
+                {
+                    "user": "7372.0",
+                    "distance": 2,
+                    "keyword_score": 0.1,
+                    "rel_score": 0.08333333333333333,
+                    "deg_sim": 0.09166666666666667,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "2280.0",
+                            "distance": 3,
+                            "keyword_score": 0.08333333333333333,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.041666666666666664,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "user": "30588.0",
+                    "distance": 2,
+                    "keyword_score": 0.0,
+                    "rel_score": 0.047619047619047616,
+                    "deg_sim": 0.023809523809523808,
+                    "satisfy": true,
+                    "children": [
+                        {
+                            "user": "39337.0",
+                            "distance": 3,
+                            "keyword_score": 0.1,
+                            "rel_score": 0.0,
+                            "deg_sim": 0.05,
+                            "satisfy": true,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "5479.0",
+            "distance": 1,
+            "keyword_score": 0.0,
+            "rel_score": 0.0,
+            "deg_sim": 0.0,
+            "satisfy": true,
+            "children": [
+                {
+                    "user": "1899.0",
+                    "distance": 2,
+                    "keyword_score": 0.2,
+                    "rel_score": 0.05,
+                    "deg_sim": 0.125,
+                    "satisfy": true,
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
