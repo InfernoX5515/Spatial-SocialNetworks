@@ -15,7 +15,7 @@ def main():
     dirname = os.path.dirname(__file__)
 
     query_user = "5352.0"
-    number_of_hops = 3
+    number_of_hops = 2
 
     graph = pg.plot(title="Road Network")
 
@@ -32,7 +32,7 @@ def main():
     for r in query_rels_raw:
         query_rels.append(r[0])
     pre_tree = gen_tree(query_user, query_keywords, query_rels, 0.5, 0.5, socialNetwork, number_of_hops)
-    tree = prune_tree(pre_tree, 0.2)
+    tree = prune_tree(pre_tree, 0.01)
 
 
     result_users, pass_users = tree_users(tree)
