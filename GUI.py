@@ -14,6 +14,7 @@ from sklearn.cluster import KMeans
 from pyvis.network import Network
 import networkx as nx
 import time
+from local.KDTrust import KDTrust
 
 
 # Menu bar class for more simple management
@@ -552,8 +553,27 @@ class Gui(QtWidgets.QMainWindow):
                 self.socialNetWidget.setHtml(html)
         self.plotQueryUser()
 
-    def visualizeKdData(self, users, keys, hops, dists):
+
+    def interactiveKdVisualNodes(self, tree, graph=nx.Graph()):
+        tempTitle = '<p>Number of hops: ' + str(tree["hops"]) + '</p><p>Distance: ' + str(tree["distance"]) + '</p><p>Common Keywords:</p><ol>'
+        for key in tree["keywords"]:
+            tempTitle += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
+        tempTitle += '</ol>'
+        if tree["satisfy"] == True:
+            graph.add_node(tree["user"], physics=False, label=str(tree["user"]), color='blue', size=15, title=tempTitle)
+        else:
+            graph.add_node(tree["user"], physics=False, label=str(tree["user"]), color='grey', size=15, title=tempTitle)
+        for c in list(tree["children"]):
+            self.interactiveKdVisualNodes(tree["children"][c], graph)
+        return graph
+
+    #def visualizeKdData(self, users, keys, hops, dists):
+    def visualizeKdData(self, kdTree):
         if self.queryUser is not None:
+            """ 
+
+            Interactive code has been moved to the KDTrust class
+
             # Create Interactive Graph HTML File Using pyvis
             network = nx.Graph()
             titleTemp = '<p>Keywords:</p><ol>'
@@ -583,6 +603,41 @@ class Gui(QtWidgets.QMainWindow):
                 rels = self.selectedSocialNetwork.commonRelations(user, users)
                 for rel in rels:
                     network.add_edge(rel, user, color='blue')
+            """
+
+
+
+
+            graph = self.interactiveKdVisualNodes(kdTree, graph=nx.Graph())
+            titleTemp = '<p>Keywords:</p><ol>'
+            # Add query user
+            queryKeys = self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
+            for key in queryKeys:
+                titleTemp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
+            titleTemp += '</ol>'
+            graph.add_node(self.queryUser[0], physics=False, label=str('Query: ') + str(int(float(self.queryUser[0]))),
+                                color='green', size=15, shape='star', title=titleTemp)
+
+
+            result_users, pass_users = self.treeUsers(kdTree, [], [])
+            all_users = set(result_users) | set(pass_users)
+            for u in all_users:
+                rels = self.selectedSocialNetwork.getUserRel(u)
+                rel_users = []
+                for r in rels:
+                    rel_users.append(r[0])
+                relations = set(rel_users) & set(all_users)
+                for r in relations:
+                    graph.add_edge(u, r, color='black')
+            nt = Network('100%', '100%')
+            nt.from_nx(graph)
+            nt.save_graph('kd-trust.html')
+
+
+
+
+
+
             qu = self.queryUser[0]
             self.clearView()
             self.createSumPlot()
@@ -591,37 +646,111 @@ class Gui(QtWidgets.QMainWindow):
             self.ids, self.centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
             self.visualizeSummaryData(self.ids, self.centers, sizes, relations, popSize)
             self.setQueryUser(qu)
-            self.plotQueryUser()
-            for user in users:
+            
+
+            for user in result_users:
                 temp = self.selectedSocialNetwork.userLoc(user)
                 self.roadGraphWidget.plot([float(temp[0][0])], [float(temp[0][1])], pen=None, symbol='o', symbolSize=10,
                                           symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
-                network.add_edge(self.queryUser[0], user, color='red')
-            nt = Network('100%', '100%')
-            nt.from_nx(network)
-            nt.save_graph('nx.html')
+                #network.add_edge(self.queryUser[0], user, color='red')
+            self.plotQueryUser()
+            #nt = Network('100%', '100%')
+            #nt.from_nx(network)
+            #nt.save_graph('nx.html')
     
     def updateKdSummaryGraph(self):
         self.socialNetWidget.reload()
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
-            kd, keys, hops, dists = self.getKDTrust(self.__windows[6].kTextBox.text(), self.__windows[6].dTextBox.text(),
+            #kd, keys, hops, dists = self.getKDTrust(self.__windows[6].kTextBox.text(), self.__windows[6].dTextBox.text(),
+            #                     self.__windows[6].eTextBox.text())
+            #self.visualizeKdData(kd, keys, hops, dists)
+            kdTree = self.getKDTrust(self.__windows[6].kTextBox.text(), self.__windows[6].dTextBox.text(),
                                  self.__windows[6].eTextBox.text())
-            self.visualizeKdData(kd, keys, hops, dists)
-            with open('nx.html', 'r') as f:
+            self.visualizeKdData(kdTree)
+            with open('kd-trust.html', 'r') as f:
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
+
+
+    def pruneTree(self, tree):
+        for c in list(tree['children']):
+            self.pruneTree(tree['children'][c])
+            if (tree['children'][c]['satisfy'] == False) and (len(tree['children'][c]['children']) == 0):
+                tree['children'].pop(c)
+        return tree
+    
+    def treeUsers(self, tree, result_user=[], pass_user=[]):
+        for c in list(tree['children']):
+            self.treeUsers(tree['children'][c], result_user=result_user, pass_user=pass_user)
+        if (tree['satisfy'] == False):
+            pass_user.append(tree['user'])
+        if tree['satisfy'] == True:
+            result_user.append(tree['user'])  
+        return result_user, pass_user
+
+
+    def kdTree(self, queryKeywords, user, keywords, distance, hops, hopDepth=0, currentDist=0,  parents=[]):
+        # Do not repeat nodes
+        parents.append(user)
+        userKeywords = self.selectedSocialNetwork.getUserKeywords(user)
+        commonKeywords = list(set(userKeywords) & set(queryKeywords))
+
+        satisfy = False
+        if len(commonKeywords) >= keywords and currentDist <= distance:
+            satisfy = True
+
+        result = {
+            'user': user,
+            'distance': currentDist,
+            'keywords': commonKeywords,
+            'hops': hopDepth,
+            'satisfy': satisfy,
+            'children': {}
+        }
+
+        relations = self.selectedSocialNetwork.getUserRel(user)
+        
+        # Do not continue after the max number of hops
+        if hopDepth >= hops:
+            return result
+
+        # Repeat for each relation of a child
+        for r in relations:
+            if r[0] not in parents:
+                result['children'][r[0]] = self.kdTree(queryKeywords, r[0], keywords, distance, hops, hopDepth=hopDepth + 1, currentDist=currentDist + float(r[1]),  parents=parents)
+        return result
 
     #Generate kdtrust from input
     def getKDTrust(self, keywords, distance, hops):
         if self.queryUser is not None:
+ 
+            #kd = KDTrust(self.selectedRoadNetwork, self.selectedSocialNetwork, self.queryUser[0], float(keywords), float(distance), float(hops))
+            queryKeywords = self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
+            kdTree = self.kdTree(queryKeywords, self.queryUser[0], float(keywords), float(distance), float(hops), 0, 0, [])
+            kdTree = self.pruneTree(kdTree)
+            """
             # Users with common keywords
             common, keys = self.usersCommonKeyword(k=float(keywords))
             # Narrow query down to users within hops
             common, hops = self.usersWithinHops(common, h=float(hops))
             # Narrow down with degree of similarity distance (longest compute time)
             common, dists = self.usersWithinDistance(common, d=float(distance))
-            return common, keys, hops, dists
+
+            neighbors = []
+            for user in common:
+                path = self.selectedSocialNetwork.shortestPath(self.queryUser[0], user)
+                print(path)
+                neighbors = list(set(neighbors) | set(path))
+            print(neighbors)
+            
+            common = []
+            keys = []
+            hops = []
+            dists = []
+            users = kd.getUsers()
+            """
+            return kdTree
 
     def __queryUserButton(self):
         # Set up input toolbar
@@ -1020,20 +1149,20 @@ class Gui(QtWidgets.QMainWindow):
             button.clicked.connect(lambda: self.__windows[6].close())
             # Create k text box
             self.__windows[6].kTextBox = QtWidgets.QSpinBox()
-            self.__windows[6].kTextBox.setRange(3, 9999)
-            self.__windows[6].kTextBox.setValue(5)
+            self.__windows[6].kTextBox.setRange(1, 9999)
+            self.__windows[6].kTextBox.setValue(3)
             self.__windows[6].kTextBox.setToolTip(
                 "k is used to control the community's structural cohesiveness. Larger k means higher structural cohesiveness")
             # Create d text box
             self.__windows[6].dTextBox = QtWidgets.QLineEdit()
             self.__windows[6].dTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
-            self.__windows[6].dTextBox.setText("1")
+            self.__windows[6].dTextBox.setText("5")
             self.__windows[6].dTextBox.returnPressed.connect(button.click)
             self.__windows[6].dTextBox.setToolTip("d controls the maximum number of hops between users")
             # Create e text box
             self.__windows[6].eTextBox = QtWidgets.QLineEdit()
-            self.__windows[6].eTextBox.setValidator(QtGui.QIntValidator(0, 9999))
-            self.__windows[6].eTextBox.setText("0")
+            self.__windows[6].eTextBox.setValidator(QtGui.QIntValidator(1, 9999))
+            self.__windows[6].eTextBox.setText("1")
             self.__windows[6].eTextBox.returnPressed.connect(button.click)
             self.__windows[6].eTextBox.setToolTip("η controls the minimum degree of similarity between users")
             # Add widgets to window

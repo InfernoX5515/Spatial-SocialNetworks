@@ -341,6 +341,15 @@ class SocialNetwork:
         else:
             return []
 
+    def getUserRel(self, user):
+        res = []
+        try:
+            res = self.__rel[user]
+        except KeyError:
+            res = []
+        return res
+
+
     def getUsers(self):
         return list(self.__loc.keys())
 
@@ -355,6 +364,14 @@ class SocialNetwork:
             hops = -1
         #return self.networkX.number_of_edges(float(start), float(end))
         return hops
+
+    def shortestPath(self, start, end):
+        path = []
+        try: 
+            path = nx.dijkstra_path(self.networkX, float(start), float(end))
+        except (nx.NetworkXNoPath, nx.NodeNotFound) as e:
+            path = []
+        return path
 
     def commonRelations(self, target, users):
         result = []
