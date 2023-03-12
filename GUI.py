@@ -722,11 +722,18 @@ class Gui(QtWidgets.QMainWindow):
         return result
 
     #Generate kdtrust from input
-    def getKDTrust(self, keywords, distance, hops):
+    def getKDTrust(self, keywords, hops, distance):
         if self.queryUser is not None:
  
             #kd = KDTrust(self.selectedRoadNetwork, self.selectedSocialNetwork, self.queryUser[0], float(keywords), float(distance), float(hops))
             queryKeywords = self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
+
+
+            if float(distance) == 0.0:
+                distance = 9999.0
+
+            print(distance)
+
             kdTree = self.kdTree(queryKeywords, self.queryUser[0], float(keywords), float(distance), float(hops), 0, 0, [])
             kdTree = self.pruneTree(kdTree)
             """
@@ -1161,8 +1168,8 @@ class Gui(QtWidgets.QMainWindow):
             self.__windows[6].dTextBox.setToolTip("d controls the maximum number of hops between users")
             # Create e text box
             self.__windows[6].eTextBox = QtWidgets.QLineEdit()
-            self.__windows[6].eTextBox.setValidator(QtGui.QIntValidator(1, 9999))
-            self.__windows[6].eTextBox.setText("1")
+            self.__windows[6].eTextBox.setValidator(QtGui.QIntValidator(0, 9999))
+            self.__windows[6].eTextBox.setText("0")
             self.__windows[6].eTextBox.returnPressed.connect(button.click)
             self.__windows[6].eTextBox.setToolTip("η controls the minimum degree of similarity between users")
             # Add widgets to window
