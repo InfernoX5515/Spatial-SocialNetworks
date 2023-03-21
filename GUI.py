@@ -48,7 +48,11 @@ class Gui(QtWidgets.QMainWindow):
         # Stores timestamps for query time caluclation
         self.Qstart = 0
         self.Qend = 0
-        self.ResponseTime = 0
+        self.SummaryResponseTime = 0
+        # Stores timestamps for query time caluclation
+        self.CTstart = 0
+        self.CTend = 0
+        self.ClusterResponseTime = 0
         # Stores widget instances
         self.roadGraphWidget = None
         self.socialGraphWidget = None
@@ -419,7 +423,7 @@ class Gui(QtWidgets.QMainWindow):
 
     def visualizeKdData(self, users, keys, hops, dists):
         # Start counting time for query
-        self.Qstart = time.time()
+        self.CTstart = time.time()
 
         if self.queryUser is not None:
             # Create Interactive Graph HTML File Using pyvis
@@ -470,11 +474,14 @@ class Gui(QtWidgets.QMainWindow):
             nt.save_graph('nx.html')
         
         # Stop counting time for query
-        self.Qend = time.time()
+        self.CTend = time.time()
         self.__UpdateQueryTime()
 
     
     def updateKdSummaryGraph(self):
+
+        self.Qstart = time.time();
+
         self.socialNetWidget.reload()
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
@@ -484,6 +491,9 @@ class Gui(QtWidgets.QMainWindow):
             with open('nx.html', 'r') as f:
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
+
+        self.Qend = time.time();
+        self.__UpdateQueryTime();   
 
     #Generate kdtrust from input
     def getKDTrust(self, keywords, distance, hops):
@@ -549,7 +559,8 @@ class Gui(QtWidgets.QMainWindow):
 
 
     def __UpdateQueryTime(self):
-        self.ResponseTime = (self.Qend - self.Qstart) * 1000
+        self.SummaryResponseTime = (self.Qend - self.Qstart) * 1000
+        self.ClusterResponseTime = (self.CTend - self.CTstart) * 1000
         self.__ViewStats()
 
 
@@ -1144,8 +1155,10 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[6].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
         
         StatsLayout = QtWidgets.QVBoxLayout(self)
-        QueryTimeLabel = QtWidgets.QLabel("Query Response Time: " + str("{0:.3f}".format(self.ResponseTime)) + " ms")
-        StatsLayout.addWidget(QueryTimeLabel)
+        SummaryTimeLabel = QtWidgets.QLabel("Summary Response Time: " + str("{0:.3f}".format(self.SummaryResponseTime)) + " ms")
+        StatsLayout.addWidget(SummaryTimeLabel)
+        ClusterTimeLabel = QtWidgets.QLabel("Cluster Response Time: " + str("{0:.3f}".format(self.ClusterResponseTime)) + " ms")
+        StatsLayout.addWidget(ClusterTimeLabel)
         StatsLayout.addStretch()
         
         self.__windows[6].setLayout(StatsLayout)
