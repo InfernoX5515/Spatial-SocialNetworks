@@ -71,6 +71,14 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows = {}
         # Stores file hierarchy data
         self.__fileTreeObjects = {}
+        # Stores timestamps for query time caluclation
+        self.Qstart = 0
+        self.Qend = 0
+        self.SummaryResponseTime = 0
+        # Stores timestamps for query time caluclation
+        self.CTstart = 0
+        self.CTend = 0
+        self.ClusterResponseTime = 0
         # Stores widget instances
         self.roadGraphWidget = None
         self.socialGraphWidget = None
@@ -103,6 +111,7 @@ class Gui(QtWidgets.QMainWindow):
         #self.__navToolbar()
         self.__queryUserButton()
         self.__mainWindow()
+        self.__ViewStats()
         # Array for plot points
         self.centers = []
         self.ids = []
@@ -375,6 +384,11 @@ class Gui(QtWidgets.QMainWindow):
             menu.addChild(x, "Road Networks", group="RoadNetworkGroup",
                           tooltip=f"Switch to view road network {x}",
                           action=lambda j, a=x: self.displayRoadNetwork(a))
+            
+        # Add menu for stats
+        menu.addMenu("Statistics")
+        menu.addChild("View", "Statistics", tooltip="View statistics", action=self.ShowStatsWindow)
+
 
         menu.addMenu("Query")
         menu.addChild("kd-truss", "Query", tooltip="kd-truss menu", action=self.__queryInput)
@@ -537,6 +551,7 @@ class Gui(QtWidgets.QMainWindow):
         #                            brush=(50, 50, 200, 100))
 
     def updateSummaryGraph(self):
+        self.Qstart = time.time()
         # Clears last view
         if self.summarySelected:
             self.clearView()
@@ -553,6 +568,8 @@ class Gui(QtWidgets.QMainWindow):
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
         self.plotQueryUser()
+        self.Qend = time.time()
+        self.__UpdateQueryTime()
 
 
     def interactiveKdVisualNodes(self, tree, graph=nx.Graph()):
@@ -671,6 +688,7 @@ class Gui(QtWidgets.QMainWindow):
             #nt = Network('100%', '100%')
             #nt.from_nx(network)
             #nt.save_graph('nx.html')
+
     
     def updateKdSummaryGraph(self):
         self.socialNetWidget.reload()
@@ -679,9 +697,13 @@ class Gui(QtWidgets.QMainWindow):
             #kd, keys, hops, dists = self.getKDTrust(self.__windows[6].kTextBox.text(), self.__windows[6].dTextBox.text(),
             #                     self.__windows[6].eTextBox.text())
             #self.visualizeKdData(kd, keys, hops, dists)
+            self.CTstart = time.time()
             kdTree = self.getKDTrust(self.__windows[6].kTextBox.text(), self.__windows[6].dTextBox.text(),
                                  self.__windows[6].eTextBox.text())
             self.visualizeKdData(kdTree)
+            # Stop counting time for query
+            self.CTend = time.time()
+            self.__UpdateQueryTime()
             with open('kd-trust.html', 'r') as f:
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
@@ -766,9 +788,13 @@ class Gui(QtWidgets.QMainWindow):
             queryRels = []
             for r in queryRelsRaw:
                 queryRels.append(r[0])
+            self.CTstart = time.time()
             community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(self.__windows[6].kTextBox.text()), float(self.__windows[6].rTextBox.text()), float(self.__windows[6].dTextBox.text()), float(self.__windows[6].eTextBox.text()),[], 0, 0)
             community = self.pruneTree(community)
             self.visualizeCommunityData(community)
+            # Stop counting time for query
+            self.CTend = time.time()
+            self.__UpdateQueryTime()
             with open('community-query.html', 'r') as f:
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
@@ -909,6 +935,12 @@ class Gui(QtWidgets.QMainWindow):
             users = kd.getUsers()
             """
             return kdTree
+        
+
+    def __UpdateQueryTime(self):
+        self.SummaryResponseTime = (self.Qend - self.Qstart) * 1000
+        self.ClusterResponseTime = (self.CTend - self.CTstart) * 1000
+        self.__ViewStats()
 
     def __queryUserButton(self):
         # Set up input toolbar
@@ -1799,6 +1831,29 @@ class Gui(QtWidgets.QMainWindow):
     def linkGraphAxis(self):
         self.socialGraphWidget.setXLink(self.roadGraphWidget)
         self.socialGraphWidget.setYLink(self.roadGraphWidget)
+
+
+    def __ViewStats(self):
+        self.__windows[8] = QtWidgets.QWidget()
+        self.__windows[8].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[8].setWindowTitle('Statistics')
+        self.__windows[8].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        
+        StatsLayout = QtWidgets.QVBoxLayout(self)
+        SummaryTimeLabel = QtWidgets.QLabel("Summary Response Time: " + str("{0:.3f}".format(self.SummaryResponseTime)) + " ms")
+        StatsLayout.addWidget(SummaryTimeLabel)
+        ClusterTimeLabel = QtWidgets.QLabel("Query Response Time: " + str("{0:.3f}".format(self.ClusterResponseTime)) + " ms")
+        StatsLayout.addWidget(ClusterTimeLabel)
+        StatsLayout.addStretch()
+        
+        self.__windows[8].setLayout(StatsLayout)
+    
+
+    
+    def ShowStatsWindow(self):
+        self.__windows[8].show()
+
+
 
     def closeEvent(self, a0: QtGui.QCloseEvent) -> None:
         print("Closed")
