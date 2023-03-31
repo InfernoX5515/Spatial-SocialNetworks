@@ -106,6 +106,9 @@ class SocialNetwork:
         else:
             self.__rel = None
 
+    def getUserRel(self, user):
+        return self.__rel[user]
+
     # Reads loc file from path.
     # dict = {
     #    "user_id":
