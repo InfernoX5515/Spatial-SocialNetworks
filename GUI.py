@@ -378,6 +378,7 @@ class Gui(QtWidgets.QMainWindow):
 
         menu.addMenu("Query")
         menu.addChild("kd-truss", "Query", tooltip="kd-truss menu", action=self.__queryInput)
+        menu.addChild("Community Search", "Query", tooltip="community search menu", action=self.chooseCommunityKeywordsMenu)
 
     def clearView(self):
         self.win.removeItem(self.roadGraphWidget)
@@ -566,6 +567,19 @@ class Gui(QtWidgets.QMainWindow):
         for c in list(tree["children"]):
             self.interactiveKdVisualNodes(tree["children"][c], graph)
         return graph
+    
+    def interactiveCommunityVisualNodes(self, tree, graph=nx.Graph()):
+        tempTitle = '<p>Number of hops: ' + str(tree["hops"]) + '</p><p>Distance: ' + str(tree["distance"]) + '</p><p>Degree of Similarity:</p>' + str(tree["deg_sim"]) + '<p>Common Keywords:</p><ol>'
+        for key in tree["keywords"]:
+            tempTitle += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
+        tempTitle += '</ol>'
+        if tree["satisfy"] == True:
+            graph.add_node(tree["user"], physics=False, label=str(tree["user"]), color='blue', size=15, title=tempTitle)
+        else:
+            graph.add_node(tree["user"], physics=False, label=str(tree["user"]), color='grey', size=15, title=tempTitle)
+        for c in list(tree["children"]):
+            self.interactiveCommunityVisualNodes(tree["children"][c], graph)
+        return graph
 
     #def visualizeKdData(self, users, keys, hops, dists):
     def visualizeKdData(self, kdTree):
@@ -650,7 +664,7 @@ class Gui(QtWidgets.QMainWindow):
 
             for user in result_users:
                 temp = self.selectedSocialNetwork.userLoc(user)
-                self.roadGraphWidget.plot([float(temp[0][0])], [float(temp[0][1])], pen=None, symbol='o', symbolSize=10,
+                self.roadGraphWidget.plot([float(temp[0][0])], [float(temp[0][1])], pen=None, symbol='o', symbolSize=20,
                                           symbolPen=(50, 50, 200, 25), symbolBrush=(50, 50, 200, 175))
                 #network.add_edge(self.queryUser[0], user, color='red')
             self.plotQueryUser()
@@ -673,6 +687,93 @@ class Gui(QtWidgets.QMainWindow):
                 self.socialNetWidget.setHtml(html)
 
 
+    def visualizeCommunityData(self, kdTree):
+        if self.queryUser is not None:
+
+            graph = self.interactiveCommunityVisualNodes(kdTree, graph=nx.Graph())
+            titleTemp = '<p>Keywords:</p><ol>'
+            # Add query user
+            queryKeys = self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
+            for key in queryKeys:
+                titleTemp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
+            titleTemp += '</ol>'
+            graph.add_node(self.queryUser[0], physics=False, label=str('Query: ') + str(int(float(self.queryUser[0]))),
+                                color='green', size=15, shape='star', title=titleTemp)
+
+
+            result_users, pass_users = self.treeUsers(kdTree, [], [])
+            all_users = set(result_users) | set(pass_users)
+            for u in all_users:
+                rels = self.selectedSocialNetwork.getUserRel(u)
+                rel_users = []
+                for r in rels:
+                    rel_users.append(r[0])
+                relations = set(rel_users) & set(all_users)
+                for r in relations:
+                    graph.add_edge(u, r, color='black')
+            nt = Network('100%', '100%')
+            nt.from_nx(graph)
+            nt.save_graph('community-query.html')
+
+            qu = self.queryUser[0]
+            #self.clearView()
+            
+            self.win.removeItem(self.roadGraphWidget)
+            self.roadGraphWidget = None
+            self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Community Query")
+            self.roadGraphWidget.clear()
+
+            if self.selectedRoadNetwork:
+                self.selectedRoadNetwork.visualize(self.roadGraphWidget)
+            #self.ids, self.centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+            #self.visualizeSummaryData(self.ids, self.centers, sizes, relations, popSize)
+
+            
+            x = []
+            y = []
+            for user in result_users:
+                user_location = self.selectedSocialNetwork.userLoc(user)
+                x.append(float(user_location[0][0]))
+                y.append(float(user_location[0][1]))
+            self.roadGraphWidget.plot(x, y, pen=None, symbol='o', symbolSize=10,
+                                          symbolPen=(50, 50, 200, 100), symbolBrush=(50, 50, 200, 175))
+            #self.setQueryUser(qu)
+                #network.add_edge(self.queryUser[0], user, color='red')
+            #self.plotQueryUser()
+            if self.queryUser is not None:
+                if not self.queryUserPlots:
+                    [a.clear() for a in self.queryUserPlots]
+                self.queryUserPlots = []
+                color = 'green'
+                for loc in self.queryUser[1]:
+                    self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
+                                                                        symbol='star', symbolSize=30, symbolPen=color,
+                                                                        symbolBrush=color))
+
+
+    def updateCommunitySummaryGraph(self):
+        self.socialNetWidget.reload()
+        # If social network is selected, display clusters
+        if self.selectedSocialNetwork is not None:
+            
+            checkboxes = self.__windows[3].checkboxes
+            queryKeywords = []
+            for checkbox in checkboxes:
+                if checkbox.isChecked():
+                    queryKeywords.append(self.selectedSocialNetwork.getIDByKeyword(checkbox.text()))
+            queryKeywords += self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
+            queryRelsRaw = self.selectedSocialNetwork.getUserRel(self.queryUser[0])
+            queryRels = []
+            for r in queryRelsRaw:
+                queryRels.append(r[0])
+            community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(self.__windows[6].kTextBox.text()), float(self.__windows[6].rTextBox.text()), float(self.__windows[6].dTextBox.text()), float(self.__windows[6].eTextBox.text()),[], 0, 0)
+            community = self.pruneTree(community)
+            self.visualizeCommunityData(community)
+            with open('community-query.html', 'r') as f:
+                html = f.read()
+                self.socialNetWidget.setHtml(html)
+
+
     def pruneTree(self, tree):
         for c in list(tree['children']):
             self.pruneTree(tree['children'][c])
@@ -688,6 +789,56 @@ class Gui(QtWidgets.QMainWindow):
         if tree['satisfy'] == True:
             result_user.append(tree['user'])  
         return result_user, pass_user
+
+
+    def communityTree(self, user, query_keywords, query_rels, g, h ,hops, degSim, parents=[], distance=0, i=0):
+        # Do not repeat nodes
+        parents.append(user)
+
+        rels = self.selectedSocialNetwork.getUserRel(user)
+        rel_users = []
+        for r in rels:
+            rel_users.append(r[0])
+        if len(set(query_rels) | set(rel_users)) == 0:
+            rel_score = 0
+        else:
+            rel_score = len(set(query_rels) & set(rel_users)) / len(set(query_rels) | set(rel_users))
+
+        user_keywords = self.selectedSocialNetwork.getUserKeywords(user)
+        keyword_intersect = list(set(user_keywords) & set(query_keywords))
+        keyword_union = list(set(user_keywords) | set(query_keywords))
+
+        if len(keyword_union) == 0:
+            keyword_score = 0
+        else:
+            keyword_score = len(keyword_intersect) / len(keyword_union)
+        
+        deg_sim = (g * keyword_score) + (h * rel_score)
+
+        deg_sim_satisfy = deg_sim >= degSim
+
+        result = {
+            'user': user,
+            'distance': distance,
+            'hops': i,
+            'keywords': keyword_union,
+            'keyword_score': keyword_score,
+            'rel_score': rel_score,
+            'deg_sim': deg_sim,
+            'satisfy': deg_sim_satisfy,
+            'children': {} 
+        }
+
+        # Once max number of hops has been reached return tree
+        if i >= hops:
+            return result
+        
+
+        # Repeat for each relation of a child
+        for r in rel_users:
+            if r not in parents:
+                result['children'][r] = self.communityTree(r, query_keywords, query_rels, g, h, hops, degSim, parents=parents, distance=distance + 1, i=i+1)
+        return result
 
 
     def kdTree(self, queryKeywords, user, keywords, distance, hops, hopDepth=0, currentDist=0,  parents=[]):
@@ -820,6 +971,74 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[3].setLayout(layout)
         self.__windows[3].show()
         self.__windows[3].move(self.geometry().center() - self.__windows[3].rect().center())
+
+    def chooseCommunityKeywordsMenu(self):
+        # Window setup
+        self.__windows[3] = QtWidgets.QWidget()
+        self.__windows[3].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[3].setWindowTitle('Choose Keywords')
+        self.__windows[3].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        layout = QtWidgets.QGridLayout()
+        if self.queryUser is not None and self.summarySelected and self.selectedRoadNetwork is not None and self.selectedSocialNetwork is not None:
+            self.__windows[3].checkboxes = []
+            # Checkboxes
+            row = 0
+            column = 0
+            if self.selectedSocialNetwork is not None:
+                for keyword in self.selectedSocialNetwork.getKeywords():
+                    widget = QtWidgets.QCheckBox(keyword)
+                    widget.checkState = True
+                    self.__windows[3].checkboxes.append(widget)
+                    layout.addWidget(widget, row, column)
+                    column += 1
+                    if column == 10:
+                        column = 0
+                        row += 1
+                button = QtWidgets.QPushButton("Ok")
+                button.clicked.connect(lambda: self.__communityInput())
+                allButton = QtWidgets.QPushButton("Select All")
+                allButton.clicked.connect(lambda: self.chooseCommunityKeywordsMenuSelectAll())
+                noneButton = QtWidgets.QPushButton("Select None")
+                noneButton.clicked.connect(lambda: self.chooseCommunityKeywordsMenuDeselectAll())
+                layout.addWidget(allButton, row + 2, 7)
+                layout.addWidget(noneButton, row + 2, 8)
+                layout.addWidget(button, row + 3, 8)
+            else:
+                button = QtWidgets.QPushButton("Cancel")
+                button.clicked.connect(lambda: self.__windows[3].close())
+                layout.addWidget(QtWidgets.QLabel("No Social Network Selected"), 0, 0)
+                layout.addWidget(button, 1, 0)
+        else:
+            if self.selectedSocialNetwork is None:
+                noSocialLabel = QtWidgets.QLabel(text="No Social Network is selected.")
+                # Add widgets to window
+                layout.addWidget(noSocialLabel)
+            if self.selectedRoadNetwork is None:
+                noRoadLabel = QtWidgets.QLabel(text="No Road Network is selected.")
+                # Add widgets to window
+                layout.addWidget(noRoadLabel)
+            if self.queryUser is None:
+                noUserLabel = QtWidgets.QLabel(text="No Query User is selected.")
+                # Add widgets to window
+                layout.addWidget(noUserLabel)
+            if not self.summarySelected:
+                noSummaryLabel = QtWidgets.QLabel(text="Summary View is not selected.")
+                # Add widgets to window
+                layout.addWidget(noSummaryLabel)
+        # Show QWidget
+        self.__windows[3].setLayout(layout)
+        self.__windows[3].show()
+        self.__windows[3].move(self.geometry().center() - self.__windows[3].rect().center())
+
+
+    def chooseCommunityKeywordsMenuSelectAll(self):
+        for checkbox in self.__windows[3].checkboxes:
+            checkbox.setCheckState(QtCore.Qt.Checked)
+    
+    def chooseCommunityKeywordsMenuDeselectAll(self):
+        for checkbox in self.__windows[3].checkboxes:
+            checkbox.setCheckState(QtCore.Qt.Unchecked)
+
 
     def chooseQueryKeywordMenu(self):
         # Window setup
@@ -1203,6 +1422,100 @@ class Gui(QtWidgets.QMainWindow):
         self.__windows[6].setLayout(layout)
         self.__windows[6].show()
         self.__windows[6].move(self.geometry().center() - self.__windows[6].rect().center())
+
+
+
+    def __communityInput(self):
+        checkboxes = self.__windows[3].checkboxes
+        self.__windows[3].close()
+        # Window setup
+        self.__windows[6] = QtWidgets.QWidget()
+        self.__windows[6].setWindowModality(QtCore.Qt.ApplicationModal)
+        self.__windows[6].setWindowTitle('Query: Community Search')
+        self.__windows[6].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
+        layout = QtWidgets.QGridLayout()
+        # Set up input toolbar
+        #self.queryInput = QtWidgets.QToolBar("queryInput")
+        #self.queryInput.setIconSize(QtCore.QSize(24, 24))
+        #self.addToolBar(self.queryInput)
+        if self.queryUser is not None and self.summarySelected and self.selectedRoadNetwork is not None and self.selectedSocialNetwork is not None:
+            # Create label
+            dLabel = QtWidgets.QLabel(text="maximum number of hops(d: ")
+            eLabel = QtWidgets.QLabel(text="minimum similarity threshold (η): ")
+            keyWeightLabel = QtWidgets.QLabel(text="weight of keywords (g): ")
+            relWeightLabel = QtWidgets.QLabel(text="weight of relationships (h): ")
+            poiWeightLabel = QtWidgets.QLabel(text="weight of POIs (m): ")
+            # Create button
+            button = QtWidgets.QPushButton("Get Query")
+            button.clicked.connect(lambda: self.updateCommunitySummaryGraph())
+            button.clicked.connect(lambda: self.__windows[6].close())
+            # Create d text box
+            self.__windows[6].dTextBox = QtWidgets.QLineEdit()
+            self.__windows[6].dTextBox.setValidator(QtGui.QIntValidator(0, 9999))
+            self.__windows[6].dTextBox.setText("5")
+            self.__windows[6].dTextBox.returnPressed.connect(button.click)
+            self.__windows[6].dTextBox.setToolTip("d controls the maximum number of hops between users")
+            # Create e text box
+            self.__windows[6].eTextBox = QtWidgets.QLineEdit()
+            self.__windows[6].eTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
+            self.__windows[6].eTextBox.setText("0")
+            self.__windows[6].eTextBox.returnPressed.connect(button.click)
+            self.__windows[6].eTextBox.setToolTip("η controls the minimum similarity threshold between users")
+            # Create k text box
+            self.__windows[6].kTextBox = QtWidgets.QLineEdit()
+            self.__windows[6].kTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
+            self.__windows[6].kTextBox.setText("0.4")
+            self.__windows[6].kTextBox.returnPressed.connect(button.click)
+            self.__windows[6].kTextBox.setToolTip("g controls the weight for keyword for degree of similarity")
+            # Create r text box
+            self.__windows[6].rTextBox = QtWidgets.QLineEdit()
+            self.__windows[6].rTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
+            self.__windows[6].rTextBox.setText("0.4")
+            self.__windows[6].rTextBox.returnPressed.connect(button.click)
+            self.__windows[6].rTextBox.setToolTip("h controls the weight for relationships for degree of similarity")
+            # Create p text box
+            self.__windows[6].pTextBox = QtWidgets.QLineEdit()
+            self.__windows[6].pTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
+            self.__windows[6].pTextBox.setText("0.2")
+            self.__windows[6].pTextBox.returnPressed.connect(button.click)
+            self.__windows[6].pTextBox.setToolTip("m controls the weight for POIs for degree of similarity")
+            # Add widgets to window
+            layout.addWidget(dLabel)
+            layout.addWidget(self.__windows[6].dTextBox)
+            layout.addWidget(eLabel)
+            layout.addWidget(self.__windows[6].eTextBox)
+            layout.addWidget(keyWeightLabel)
+            layout.addWidget(self.__windows[6].kTextBox)
+            layout.addWidget(relWeightLabel)
+            layout.addWidget(self.__windows[6].rTextBox)
+            layout.addWidget(poiWeightLabel)
+            layout.addWidget(self.__windows[6].pTextBox)
+            layout.addWidget(button)
+        else:
+            if self.selectedSocialNetwork is None:
+                noSocialLabel = QtWidgets.QLabel(text="No Social Network is selected.")
+                # Add widgets to window
+                layout.addWidget(noSocialLabel)
+            if self.selectedRoadNetwork is None:
+                noRoadLabel = QtWidgets.QLabel(text="No Road Network is selected.")
+                # Add widgets to window
+                layout.addWidget(noRoadLabel)
+            if self.queryUser is None:
+                noUserLabel = QtWidgets.QLabel(text="No Query User is selected.")
+                # Add widgets to window
+                layout.addWidget(noUserLabel)
+            if not self.summarySelected:
+                noSummaryLabel = QtWidgets.QLabel(text="Summary View is not selected.")
+                # Add widgets to window
+                layout.addWidget(noSummaryLabel)
+
+
+        # Show QWidget
+        self.__windows[6].setLayout(layout)
+        self.__windows[6].show()
+        self.__windows[6].move(self.geometry().center() - self.__windows[6].rect().center())
+
+
 
     # Display for loading networks
     def viewFiles(self):
