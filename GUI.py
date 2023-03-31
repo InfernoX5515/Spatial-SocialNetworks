@@ -14,7 +14,7 @@ from sklearn.cluster import KMeans
 from pyvis.network import Network
 import networkx as nx
 import time
-from local.KDTrust import KDTrust
+
 
 
 # Menu bar class for more simple management
