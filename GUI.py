@@ -789,7 +789,7 @@ class Gui(QtWidgets.QMainWindow):
             for r in queryRelsRaw:
                 queryRels.append(r[0])
             self.CTstart = time.time()
-            community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(self.__windows[6].kTextBox.text()), float(self.__windows[6].rTextBox.text()), float(self.__windows[6].dTextBox.text()), float(self.__windows[6].eTextBox.text()),[], 0, 0)
+            community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(self.__windows[6].kcTextBox.text()), float(self.__windows[6].kTextBox.text()), float(self.__windows[6].rTextBox.text()), float(self.__windows[6].dTextBox.text()), float(self.__windows[6].eTextBox.text()),[], 0, 0)
             community = self.pruneTree(community)
             self.visualizeCommunityData(community)
             # Stop counting time for query
@@ -817,7 +817,7 @@ class Gui(QtWidgets.QMainWindow):
         return result_user, pass_user
 
 
-    def communityTree(self, user, query_keywords, query_rels, g, h ,hops, degSim, parents=[], distance=0, i=0):
+    def communityTree(self, user, query_keywords, query_rels, community_cohesiveness, g, h ,hops, degSim, parents=[], distance=0, i=0):
         # Do not repeat nodes
         parents.append(user)
 
@@ -842,6 +842,8 @@ class Gui(QtWidgets.QMainWindow):
         deg_sim = (g * keyword_score) + (h * rel_score)
 
         deg_sim_satisfy = deg_sim >= degSim
+        if len(keyword_intersect) < community_cohesiveness:
+            deg_sim_satisfy = False
 
         result = {
             'user': user,
@@ -863,7 +865,7 @@ class Gui(QtWidgets.QMainWindow):
         # Repeat for each relation of a child
         for r in rel_users:
             if r not in parents:
-                result['children'][r] = self.communityTree(r, query_keywords, query_rels, g, h, hops, degSim, parents=parents, distance=distance + 1, i=i+1)
+                result['children'][r] = self.communityTree(r, query_keywords, query_rels, community_cohesiveness, g, h, hops, degSim, parents=parents, distance=distance + 1, i=i+1)
         return result
 
 
@@ -1472,7 +1474,8 @@ class Gui(QtWidgets.QMainWindow):
         #self.addToolBar(self.queryInput)
         if self.queryUser is not None and self.summarySelected and self.selectedRoadNetwork is not None and self.selectedSocialNetwork is not None:
             # Create label
-            dLabel = QtWidgets.QLabel(text="maximum number of hops(d: ")
+            kcLabel = QtWidgets.QLabel(text="community's structural cohesiveness(k): ")
+            dLabel = QtWidgets.QLabel(text="maximum number of hops(d): ")
             eLabel = QtWidgets.QLabel(text="minimum similarity threshold (η): ")
             keyWeightLabel = QtWidgets.QLabel(text="weight of keywords (g): ")
             relWeightLabel = QtWidgets.QLabel(text="weight of relationships (h): ")
@@ -1481,6 +1484,12 @@ class Gui(QtWidgets.QMainWindow):
             button = QtWidgets.QPushButton("Get Query")
             button.clicked.connect(lambda: self.updateCommunitySummaryGraph())
             button.clicked.connect(lambda: self.__windows[6].close())
+            # Create k text box
+            self.__windows[6].kcTextBox = QtWidgets.QSpinBox()
+            self.__windows[6].kcTextBox.setRange(1, 9999)
+            self.__windows[6].kcTextBox.setValue(3)
+            self.__windows[6].kcTextBox.setToolTip(
+                "k is used to control the community's structural cohesiveness. Larger k means higher structural cohesiveness")
             # Create d text box
             self.__windows[6].dTextBox = QtWidgets.QLineEdit()
             self.__windows[6].dTextBox.setValidator(QtGui.QIntValidator(0, 9999))
@@ -1512,6 +1521,8 @@ class Gui(QtWidgets.QMainWindow):
             self.__windows[6].pTextBox.returnPressed.connect(button.click)
             self.__windows[6].pTextBox.setToolTip("m controls the weight for POIs for degree of similarity")
             # Add widgets to window
+            layout.addWidget(kcLabel)
+            layout.addWidget(self.__windows[6].kcTextBox)
             layout.addWidget(dLabel)
             layout.addWidget(self.__windows[6].dTextBox)
             layout.addWidget(eLabel)
