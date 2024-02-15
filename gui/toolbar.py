@@ -1,7 +1,228 @@
 from PyQt5 import QtWidgets, QtCore, QtGui
-# from GUI import Gui as g
 
-#class Mixin:
+class QueryToolbar:
+
+    def __init__(self, gui, keywordWindow, userWindow):
+        self.gui = gui
+        self.keywordWindow = keywordWindow
+        self.userWindow = userWindow
+        self.userLabel = QtWidgets.QLabel("None")
+        self.keywordLabel = QtWidgets.QLabel("None")
+        
+    def queryUserButton(self):
+        # Set up input toolbar
+        self.queryUserToolbar = QtWidgets.QToolBar("queryUser")
+        self.gui.addToolBar(self.queryUserToolbar)
+        # Create button
+        button = QtWidgets.QPushButton("Select Query User")
+        button.clicked.connect(lambda: self.chooseKeywordsMenu())
+        button2 = QtWidgets.QPushButton("Select Query Keyword")
+        button2.clicked.connect(lambda: self.chooseQueryKeywordMenu())
+        # Create label
+        label = QtWidgets.QLabel("  Query User: ")
+        label2 = QtWidgets.QLabel("  Query Keyword: ")
+        if self.gui.queryUser is not None:
+            self.userLabel = QtWidgets.QLabel(self.gui.queryUser[0].split(".0")[0])
+        else:
+            self.userLabel = QtWidgets.QLabel("None")
+        if self.gui.queryKeyword is not None:
+            self.keywordLabel = QtWidgets.QLabel(self.gui.queryKeyword)
+        else:
+            self.keywordLabel = QtWidgets.QLabel("None")
+        # Add widgets to window
+        self.queryUserToolbar.addWidget(button)
+        self.queryUserToolbar.addWidget(label)
+        self.queryUserToolbar.addWidget(self.userLabel)
+        self.queryUserToolbar.addWidget(QtWidgets.QLabel("          "))
+        self.queryUserToolbar.addWidget(button2)
+        self.queryUserToolbar.addWidget(label2)
+        self.queryUserToolbar.addWidget(self.keywordLabel)
+    
+    def chooseQueryKeywordMenu(self):
+        # Window setup
+        self.keywordWindow = QtWidgets.QWidget()
+        self.keywordWindow.setWindowModality(QtCore.Qt.ApplicationModal)
+        self.keywordWindow.setWindowTitle('Choose Query Keyword')
+        self.keywordWindow.resize(int(self.gui.frameGeometry().width() / 3), int(self.gui.frameGeometry().height() / 3))
+        layout = QtWidgets.QGridLayout()
+        self.keywordWindow.buttons = []
+        # Buttons
+        row = 0
+        column = 0
+        if self.gui.queryUser is not None:
+            for keyword in self.gui.selectedSocialNetwork.getUserKeywords(self.gui.queryUser[0]):
+                widget = QtWidgets.QPushButton(self.gui.selectedSocialNetwork.getKeywordByID(keyword))
+                widget.clicked.connect(lambda junk, k=keyword: self.setQueryKeyword(k))
+                self.keywordWindow.buttons.append(widget)
+                layout.addWidget(widget, row, column)
+                column += 1
+                if column == 20:
+                    column = 0
+                    row += 1
+        else:
+            button = QtWidgets.QPushButton("Cancel")
+            button.clicked.connect(lambda: self.keywordWindow.close())
+            layout.addWidget(QtWidgets.QLabel("No Query User Selected"), 0, 0)
+            layout.addWidget(button, 1, 0)
+        # Show QWidget
+        self.keywordWindow.setLayout(layout)
+        self.keywordWindow.show()
+        self.keywordWindow.move(self.gui.geometry().center() - self.keywordWindow.rect().center())
+    
+    def setQueryKeyword(self, keyword):
+        self.gui.queryKeyword = keyword
+        self.keywordLabel.setText(self.gui.selectedSocialNetwork.getKeywordByID(keyword))
+        self.keywordWindow.close()
+
+    def chooseKeywordsMenu(self):
+        # Window setup
+        self.keywordWindow = QtWidgets.QWidget()
+        self.keywordWindow.setWindowModality(QtCore.Qt.ApplicationModal)
+        self.keywordWindow.setWindowTitle('Choose Keywords')
+        self.keywordWindow.resize(int(self.gui.frameGeometry().width() / 3), int(self.gui.frameGeometry().height() / 3))
+        layout = QtWidgets.QGridLayout()
+        self.keywordWindow.checkboxes = []
+        # Checkboxes
+        row = 0
+        column = 0
+        if self.gui.selectedSocialNetwork is not None:
+            for keyword in self.gui.selectedSocialNetwork.getKeywords():
+                widget = QtWidgets.QCheckBox(keyword)
+                self.keywordWindow.checkboxes.append(widget)
+                layout.addWidget(widget, row, column)
+                column += 1
+                if column == 10:
+                    column = 0
+                    row += 1
+            button = QtWidgets.QPushButton("Ok")
+            button.clicked.connect(lambda: self.showUsersWithKeywords())
+            layout.addWidget(button, row + 2, 8)
+        else:
+            button = QtWidgets.QPushButton("Cancel")
+            button.clicked.connect(lambda: self.keywordWindow.close())
+            layout.addWidget(QtWidgets.QLabel("No Social Network Selected"), 0, 0)
+            layout.addWidget(button, 1, 0)
+        # Show QWidget
+        self.keywordWindow.setLayout(layout)
+        self.keywordWindow.show()
+        self.keywordWindow.move(self.gui.geometry().center() - self.keywordWindow.rect().center())
+
+    def __showUserInfo(self, listWidget, name, username, birthdate, email, phone, keywordList, userList):
+        name.setText(self.gui.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["name"])
+        username.setText(self.gui.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["username"])
+        birthdate.setText(self.gui.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["birthdate"])
+        email.setText(self.gui.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["email"])
+        phone.setText(self.gui.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["phone"])
+        keywordString = ""
+        for id in self.gui.selectedSocialNetwork.getUserKeywords(userList[listWidget.currentRow()]):
+            keywordString += self.gui.selectedSocialNetwork.getKeywordByID(id) + "\n"
+        keywordList.setText(keywordString)
+
+    def showUsersWithKeywords(self):
+        checkboxes = self.keywordWindow.checkboxes
+        self.keywordWindow.close()
+        self.userWindow = QtWidgets.QWidget()
+        self.userWindow.setWindowModality(QtCore.Qt.ApplicationModal)
+        self.userWindow.setWindowTitle('Choose a Query User')
+        self.userWindow.resize(int(self.gui.frameGeometry().width()), int(self.gui.frameGeometry().height()))
+        mainLayout = QtWidgets.QVBoxLayout(self.gui)
+        scroll = QtWidgets.QScrollArea(self.gui)
+        self.userWindow.setLayout(mainLayout)
+        mainLayout.addWidget(scroll)
+        scroll.setWidgetResizable(True)
+        scrollContent = QtWidgets.QWidget(scroll)
+        layout = QtWidgets.QGridLayout()
+        layout.setColumnStretch(2, 2)
+        scrollContent.setLayout(layout)
+        keywords = []
+        for checkbox in checkboxes:
+            if checkbox.isChecked():
+                keywords.append(self.gui.selectedSocialNetwork.getIDByKeyword(checkbox.text()))
+        if len(keywords) == 0:
+            self.userWindow.close()
+        else:
+            users = self.gui.selectedSocialNetwork.getUsersWithKeywords(keywords)
+            row = 0
+            column = 0
+            headingFont=QtGui.QFont()
+            headingFont.setBold(True)
+            headingFont.setPointSize(18)
+            BoldLabel=QtGui.QFont()
+            BoldLabel.setBold(True)
+            listWidget = QtWidgets.QListWidget()
+            keywordList = QtWidgets.QLabel()
+            userHeading = QtWidgets.QLabel("Users:")
+            userHeading.setFixedHeight(20)
+            userHeading.setFont(headingFont)
+            detailHeading = QtWidgets.QLabel("User Details:")
+            detailHeading.setFixedHeight(20)
+            detailHeading.setFont(headingFont)
+            keywordHeading = QtWidgets.QLabel("User Keywords:")
+            keywordHeading.setFont(headingFont)
+            keywordHeading.setFixedHeight(20)
+            nameLabel = QtWidgets.QLabel("Name: ")
+            nameLabel.setFont(BoldLabel)
+            nameLabel.setFixedHeight(16)
+            name = QtWidgets.QLabel()
+            usernameLabel = QtWidgets.QLabel("Username: ")
+            usernameLabel.setFixedHeight(16)
+            usernameLabel.setFont(BoldLabel)
+            username = QtWidgets.QLabel()
+            birthdateLabel = QtWidgets.QLabel("Birthdate: ")
+            birthdateLabel.setFont(BoldLabel)
+            birthdateLabel.setFixedHeight(16)
+            birthdate = QtWidgets.QLabel()
+            emailLabel = QtWidgets.QLabel("Email: ")
+            emailLabel.setFont(BoldLabel)
+            emailLabel.setFixedHeight(16)
+            email = QtWidgets.QLabel()
+            phoneLabel = QtWidgets.QLabel("Phone: ")
+            phoneLabel.setFont(BoldLabel)
+            phoneLabel.setFixedHeight(16)
+            phone = QtWidgets.QLabel()
+            setQueryUsr = QtWidgets.QPushButton("Set as Query User")
+            setQueryUsr.clicked.connect(lambda: self.setQueryUser(userList[listWidget.currentRow()]))
+            userList = []
+            for user in users:
+                userList.append(user)
+                listWidget.addItem(self.gui.selectedSocialNetwork.getUserAttributes(user)["name"] + " (" + user.split(".0")[0] + ")")
+                
+
+            listWidget.itemSelectionChanged.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList, userList))
+            layout.addWidget(userHeading, 0, 0)
+            layout.addWidget(detailHeading, 0, 1, 1, 2)
+            layout.addWidget(listWidget, 1, 0, 7, 1)
+            layout.addWidget(nameLabel, 1, 1)
+            layout.addWidget(name, 1, 2)
+            layout.addWidget(usernameLabel, 2, 1)
+            layout.addWidget(username, 2, 2)
+            layout.addWidget(birthdateLabel, 3, 1)
+            layout.addWidget(birthdate, 3, 2)
+            layout.addWidget(emailLabel, 4, 1)
+            layout.addWidget(email, 4, 2)
+            layout.addWidget(phoneLabel, 5, 1)
+            layout.addWidget(phone, 5, 2)
+            layout.addWidget(keywordHeading, 6, 1, 1, 2)
+            layout.addWidget(keywordList, 7, 1, 1, 2)
+            keywordList.setAlignment(QtCore.Qt.AlignTop)
+            layout.addWidget(setQueryUsr, 8, 0, 1, 3)
+            scroll.setWidget(scrollContent)
+            self.userWindow.show()
+            self.userWindow.move(self.gui.geometry().center() - self.userWindow.rect().center())
+        
+    def setQueryUser(self, user, window=4):
+        if self.gui.queryUser is not None:
+            [a.clear() for a in self.gui.queryUserPlots]
+            self.gui.queryUserPlots = []
+        self.gui.queryUser = self.gui.selectedSocialNetwork.getUser(user)
+        self.gui.plotQueryUser()
+        self.userLabel.setText(user.split(".0")[0])
+        # self.gui.usersCommonKeyword()
+        self.userWindow.close()
+        self.gui.dijkstra(self.gui.queryUser)
+
+
+
 class Toolbar:
 
     # _instance = None

@@ -15,8 +15,10 @@ from pyvis.network import Network
 import networkx as nx
 import time
 from gui.menubar import MenuBar
+from gui.queryInput import QueryInput
+from gui.user import UserUI
 #from gui.toolbar import Mixin as ToolbarMixin
-from gui.toolbar import Toolbar
+from gui.toolbar import Toolbar, QueryToolbar
 from gui.tree import Mixin as TreeMixin
 
 class Gui(QtWidgets.QMainWindow, TreeMixin):
@@ -78,7 +80,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         # Initializes menus
         self.__menuBar()
         #self.navToolbar()
-        self.__queryUserButton()
+        #self.__queryUserButton()
         self.__mainWindow()
         self.__ViewStats()
         # Array for plot points
@@ -86,6 +88,13 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         self.ids = []
 
         self.toolbar = Toolbar(self)
+        self.__windows[3] = QtWidgets.QWidget()
+        self.__windows[4] = QtWidgets.QWidget()
+        self.__windows[6] = QtWidgets.QWidget()
+        self.__windows[7] = QtWidgets.QWidget()
+        self.queryInput = QueryInput(self, self.__windows[3], self.__windows[6])
+        self.queryUserToolbar = QueryToolbar(self, self.__windows[3], self.__windows[4])
+        self.queryUserToolbar.queryUserButton()
         self.toolbar.navToolbar()
 
     # Creates the plot widgets. suffix is used when a summary graph is created, for example
@@ -102,7 +111,8 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             point = vb.mapSceneToView(cords)
             tree = spatial.KDTree(self.centers)
             closest_point = tree.query([[point.x(), point.y()]])[1][0]
-            self.showClusterUsers(self.selectedSocialNetwork.getClusterUsers(self.ids[closest_point]))
+            ui = UserUI(self, self.__windows[7])
+            ui.showClusterUsers(self.selectedSocialNetwork.getClusterUsers(self.ids[closest_point]))
 
     def createSumPlot(self, suffix=None):
         self.roadGraphWidget = self.win.addPlot(row=0, col=1, title=f"Road Network {suffix}")
@@ -130,6 +140,15 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         self.show()
     
         
+    def __keywordCommunity(self):
+        self.queryInput.community()
+
+    def __keywordTimeCommunity(self):
+        self.queryInput.communityTime()
+
+    def __queryInput(self):
+        self.queryInput.kdQuery()
+
     def __menuBar(self):
         menu = MenuBar(self.menuBar())
 
@@ -171,7 +190,8 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
 
         menu.addMenu("Query")
         menu.addChild("kd-truss", "Query", tooltip="kd-truss menu", action=self.__queryInput)
-        menu.addChild("Community Search", "Query", tooltip="community search menu", action=self.chooseCommunityKeywordsMenu)
+        menu.addChild("Community Search", "Query", tooltip="community search menu", action=self.__keywordCommunity)
+        menu.addChild("Community Search w/ Time", "Query", tooltip="community search w/ time menu", action=self.__keywordTimeCommunity)
 
     def clearView(self):
         self.win.removeItem(self.roadGraphWidget)
@@ -181,21 +201,6 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             self.queryUserPlots = []
         self.roadGraphWidget = None
         self.socialGraphWidget = None
-
-    # Returns users with at least k keywords in common (default to 1)
-    def usersCommonKeyword(self, k=1):
-        commonUsers = []
-        commonDetails = {}
-        if self.queryUser is not None:
-            users = self.selectedSocialNetwork.getUsers()
-            for user in users:
-                if user is not self.queryUser[0]:
-                    common = list(set(self.selectedSocialNetwork.getUserKeywords(user)).intersection(
-                        self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])))
-                    if len(common) > (k-1):
-                        commonDetails[user] = common
-                        commonUsers.append(user)
-        return commonUsers, commonDetails
 
     def dijkstra(self, queryUser):
         '''if self.selectedRoadNetwork is not None:
@@ -220,35 +225,6 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
                                 pq.put((new_cost, neighbor))
                                 D[neighbor] = new_cost
             print(D)'''
-
-    def usersWithinHops(self, users, h=0):
-        withinHops = []
-        hopsDetails = {}
-        for user in users:
-            hops = self.selectedSocialNetwork.numberOfHops(self.queryUser[0], user)
-            if h == 0:
-                withinHops.append(user)
-                hopsDetails[user] = hops
-            else:
-                if hops <= h and hops != -1:
-                    withinHops.append(user)
-                    hopsDetails[user] = hops
-        return withinHops, hopsDetails
-
-    # Returns users within d distance
-    def usersWithinDistance(self, users, d=2):
-        withinDistance = []
-        distDetails = {}
-        common = self.selectedSocialNetwork.userLoc(self.queryUser[0])
-        commonLoc = self.selectedRoadNetwork.findNearest(common)
-        for user in users:
-            query = self.selectedSocialNetwork.userLoc(user)
-            queryLoc = self.selectedRoadNetwork.findNearest(query)
-            dist = self.selectedRoadNetwork.realUserDistance(queryLoc, commonLoc)
-            if dist <= d:
-                withinDistance.append(user)
-                distDetails[user] = dist
-        return withinDistance, distDetails
 
     # Handles summary view
     def viewSummary(self):
@@ -472,8 +448,8 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             #                     self.__windows[6].eTextBox.text())
             #self.visualizeKdData(kd, keys, hops, dists)
             self.CTstart = time.time()
-            kdTree = self.getKDTrust(self.__windows[6].kTextBox.text(), self.__windows[6].dTextBox.text(),
-                                 self.__windows[6].eTextBox.text())
+            res = self.queryInput.getKdResponse()
+            kdTree = self.getKDTrust(res[0], res[1], res[2])
             self.visualizeKdData(kdTree)
             # Stop counting time for query
             self.CTend = time.time()
@@ -551,19 +527,16 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         self.socialNetWidget.reload()
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
-            
-            checkboxes = self.__windows[3].checkboxes
-            queryKeywords = []
-            for checkbox in checkboxes:
-                if checkbox.isChecked():
-                    queryKeywords.append(self.selectedSocialNetwork.getIDByKeyword(checkbox.text()))
+            queryKeywords = self.queryInput.getCommunityKeywords()
             queryKeywords += self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
             queryRelsRaw = self.selectedSocialNetwork.getUserRel(self.queryUser[0])
             queryRels = []
             for r in queryRelsRaw:
                 queryRels.append(r[0])
             self.CTstart = time.time()
-            community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(self.__windows[6].kcTextBox.text()), float(self.__windows[6].kTextBox.text()), float(self.__windows[6].rTextBox.text()), float(self.__windows[6].dTextBox.text()), float(self.__windows[6].eTextBox.text()),[], 0, 0)
+            #community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(self.__windows[6].kcTextBox.text()), float(self.__windows[6].kTextBox.text()), float(self.__windows[6].rTextBox.text()), float(self.__windows[6].dTextBox.text()), float(self.__windows[6].eTextBox.text()),[], 0, 0)
+            res = self.queryInput.getCommunityResponse()
+            community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(res[0]), float(res[3]), float(res[4]), float(res[1]), float(res[2]), [], 0, 0)
             community = self.pruneTree(community)
             self.visualizeCommunityData(community)
             # Stop counting time for query
@@ -617,362 +590,6 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         self.ClusterResponseTime = (self.CTend - self.CTstart) * 1000
         self.__ViewStats()
 
-    def __queryUserButton(self):
-        # Set up input toolbar
-        self.queryUserToolbar = QtWidgets.QToolBar("queryUser")
-        self.addToolBar(self.queryUserToolbar)
-        # Create button
-        button = QtWidgets.QPushButton("Select Query User")
-        button.clicked.connect(lambda: self.chooseKeywordsMenu())
-        button2 = QtWidgets.QPushButton("Select Query Keyword")
-        button2.clicked.connect(lambda: self.chooseQueryKeywordMenu())
-        # Create label
-        label = QtWidgets.QLabel("  Query User: ")
-        label2 = QtWidgets.QLabel("  Query Keyword: ")
-        if self.queryUser is not None:
-            self.queryUserToolbar.userLabel = QtWidgets.QLabel(self.queryUser[0].split(".0")[0])
-        else:
-            self.queryUserToolbar.userLabel = QtWidgets.QLabel("None")
-        if self.queryKeyword is not None:
-            self.queryUserToolbar.keywordLabel = QtWidgets.QLabel(self.queryKeyword)
-        else:
-            self.queryUserToolbar.keywordLabel = QtWidgets.QLabel("None")
-        # Add widgets to window
-        self.queryUserToolbar.addWidget(button)
-        self.queryUserToolbar.addWidget(label)
-        self.queryUserToolbar.addWidget(self.queryUserToolbar.userLabel)
-        self.queryUserToolbar.addWidget(QtWidgets.QLabel("          "))
-        self.queryUserToolbar.addWidget(button2)
-        self.queryUserToolbar.addWidget(label2)
-        self.queryUserToolbar.addWidget(self.queryUserToolbar.keywordLabel)
-
-    def chooseKeywordsMenu(self):
-        # Window setup
-        self.__windows[3] = QtWidgets.QWidget()
-        self.__windows[3].setWindowModality(QtCore.Qt.ApplicationModal)
-        self.__windows[3].setWindowTitle('Choose Keywords')
-        self.__windows[3].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
-        layout = QtWidgets.QGridLayout()
-        self.__windows[3].checkboxes = []
-        # Checkboxes
-        row = 0
-        column = 0
-        if self.selectedSocialNetwork is not None:
-            for keyword in self.selectedSocialNetwork.getKeywords():
-                widget = QtWidgets.QCheckBox(keyword)
-                self.__windows[3].checkboxes.append(widget)
-                layout.addWidget(widget, row, column)
-                column += 1
-                if column == 10:
-                    column = 0
-                    row += 1
-            button = QtWidgets.QPushButton("Ok")
-            button.clicked.connect(lambda: self.showUsersWithKeywords())
-            layout.addWidget(button, row + 2, 8)
-        else:
-            button = QtWidgets.QPushButton("Cancel")
-            button.clicked.connect(lambda: self.__windows[3].close())
-            layout.addWidget(QtWidgets.QLabel("No Social Network Selected"), 0, 0)
-            layout.addWidget(button, 1, 0)
-        # Show QWidget
-        self.__windows[3].setLayout(layout)
-        self.__windows[3].show()
-        self.__windows[3].move(self.geometry().center() - self.__windows[3].rect().center())
-
-    def chooseCommunityKeywordsMenu(self):
-        # Window setup
-        self.__windows[3] = QtWidgets.QWidget()
-        self.__windows[3].setWindowModality(QtCore.Qt.ApplicationModal)
-        self.__windows[3].setWindowTitle('Choose Keywords')
-        self.__windows[3].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
-        layout = QtWidgets.QGridLayout()
-        if self.queryUser is not None and self.summarySelected and self.selectedRoadNetwork is not None and self.selectedSocialNetwork is not None:
-            self.__windows[3].checkboxes = []
-            # Checkboxes
-            row = 0
-            column = 0
-            if self.selectedSocialNetwork is not None:
-                for keyword in self.selectedSocialNetwork.getKeywords():
-                    widget = QtWidgets.QCheckBox(keyword)
-                    widget.checkState = True
-                    self.__windows[3].checkboxes.append(widget)
-                    layout.addWidget(widget, row, column)
-                    column += 1
-                    if column == 10:
-                        column = 0
-                        row += 1
-                button = QtWidgets.QPushButton("Ok")
-                button.clicked.connect(lambda: self.__communityInput())
-                allButton = QtWidgets.QPushButton("Select All")
-                allButton.clicked.connect(lambda: self.chooseCommunityKeywordsMenuSelectAll())
-                noneButton = QtWidgets.QPushButton("Select None")
-                noneButton.clicked.connect(lambda: self.chooseCommunityKeywordsMenuDeselectAll())
-                layout.addWidget(allButton, row + 2, 7)
-                layout.addWidget(noneButton, row + 2, 8)
-                layout.addWidget(button, row + 3, 8)
-            else:
-                button = QtWidgets.QPushButton("Cancel")
-                button.clicked.connect(lambda: self.__windows[3].close())
-                layout.addWidget(QtWidgets.QLabel("No Social Network Selected"), 0, 0)
-                layout.addWidget(button, 1, 0)
-        else:
-            if self.selectedSocialNetwork is None:
-                noSocialLabel = QtWidgets.QLabel(text="No Social Network is selected.")
-                # Add widgets to window
-                layout.addWidget(noSocialLabel)
-            if self.selectedRoadNetwork is None:
-                noRoadLabel = QtWidgets.QLabel(text="No Road Network is selected.")
-                # Add widgets to window
-                layout.addWidget(noRoadLabel)
-            if self.queryUser is None:
-                noUserLabel = QtWidgets.QLabel(text="No Query User is selected.")
-                # Add widgets to window
-                layout.addWidget(noUserLabel)
-            if not self.summarySelected:
-                noSummaryLabel = QtWidgets.QLabel(text="Summary View is not selected.")
-                # Add widgets to window
-                layout.addWidget(noSummaryLabel)
-        # Show QWidget
-        self.__windows[3].setLayout(layout)
-        self.__windows[3].show()
-        self.__windows[3].move(self.geometry().center() - self.__windows[3].rect().center())
-
-
-    def chooseCommunityKeywordsMenuSelectAll(self):
-        for checkbox in self.__windows[3].checkboxes:
-            checkbox.setCheckState(QtCore.Qt.Checked)
-    
-    def chooseCommunityKeywordsMenuDeselectAll(self):
-        for checkbox in self.__windows[3].checkboxes:
-            checkbox.setCheckState(QtCore.Qt.Unchecked)
-
-
-    def chooseQueryKeywordMenu(self):
-        # Window setup
-        self.__windows[5] = QtWidgets.QWidget()
-        self.__windows[5].setWindowModality(QtCore.Qt.ApplicationModal)
-        self.__windows[5].setWindowTitle('Choose Query Keyword')
-        self.__windows[5].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
-        layout = QtWidgets.QGridLayout()
-        self.__windows[5].buttons = []
-        # Buttons
-        row = 0
-        column = 0
-        if self.queryUser is not None:
-            for keyword in self.selectedSocialNetwork.getUserKeywords(self.queryUser[0]):
-                widget = QtWidgets.QPushButton(self.selectedSocialNetwork.getKeywordByID(keyword))
-                widget.clicked.connect(lambda junk, k=keyword: self.setQueryKeyword(k))
-                self.__windows[5].buttons.append(widget)
-                layout.addWidget(widget, row, column)
-                column += 1
-                if column == 20:
-                    column = 0
-                    row += 1
-        else:
-            button = QtWidgets.QPushButton("Cancel")
-            button.clicked.connect(lambda: self.__windows[5].close())
-            layout.addWidget(QtWidgets.QLabel("No Query User Selected"), 0, 0)
-            layout.addWidget(button, 1, 0)
-        # Show QWidget
-        self.__windows[5].setLayout(layout)
-        self.__windows[5].show()
-        self.__windows[5].move(self.geometry().center() - self.__windows[5].rect().center())
-
-    def __showUserInfo(self, listWidget, name, username, birthdate, email, phone, keywordList, userList):
-        name.setText(self.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["name"])
-        username.setText(self.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["username"])
-        birthdate.setText(self.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["birthdate"])
-        email.setText(self.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["email"])
-        phone.setText(self.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["phone"])
-        keywordString = ""
-        for id in self.selectedSocialNetwork.getUserKeywords(userList[listWidget.currentRow()]):
-            keywordString += self.selectedSocialNetwork.getKeywordByID(id) + "\n"
-        keywordList.setText(keywordString)
-
-    def showUsersWithKeywords(self):
-        checkboxes = self.__windows[3].checkboxes
-        self.__windows[3].close()
-        self.__windows[4] = QtWidgets.QWidget()
-        self.__windows[4].setWindowModality(QtCore.Qt.ApplicationModal)
-        self.__windows[4].setWindowTitle('Choose a Query User')
-        self.__windows[4].resize(int(self.frameGeometry().width()), int(self.frameGeometry().height()))
-        mainLayout = QtWidgets.QVBoxLayout(self)
-        scroll = QtWidgets.QScrollArea(self)
-        self.__windows[4].setLayout(mainLayout)
-        mainLayout.addWidget(scroll)
-        scroll.setWidgetResizable(True)
-        scrollContent = QtWidgets.QWidget(scroll)
-        layout = QtWidgets.QGridLayout()
-        layout.setColumnStretch(2, 2)
-        scrollContent.setLayout(layout)
-        keywords = []
-        for checkbox in checkboxes:
-            if checkbox.isChecked():
-                keywords.append(self.selectedSocialNetwork.getIDByKeyword(checkbox.text()))
-        if len(keywords) == 0:
-            self.__windows[4].close()
-        else:
-            users = self.selectedSocialNetwork.getUsersWithKeywords(keywords)
-            row = 0
-            column = 0
-            headingFont=QtGui.QFont()
-            headingFont.setBold(True)
-            headingFont.setPointSize(18)
-            BoldLabel=QtGui.QFont()
-            BoldLabel.setBold(True)
-            listWidget = QtWidgets.QListWidget()
-            keywordList = QtWidgets.QLabel()
-            userHeading = QtWidgets.QLabel("Users:")
-            userHeading.setFixedHeight(20)
-            userHeading.setFont(headingFont)
-            detailHeading = QtWidgets.QLabel("User Details:")
-            detailHeading.setFixedHeight(20)
-            detailHeading.setFont(headingFont)
-            keywordHeading = QtWidgets.QLabel("User Keywords:")
-            keywordHeading.setFont(headingFont)
-            keywordHeading.setFixedHeight(20)
-            nameLabel = QtWidgets.QLabel("Name: ")
-            nameLabel.setFont(BoldLabel)
-            nameLabel.setFixedHeight(16)
-            name = QtWidgets.QLabel()
-            usernameLabel = QtWidgets.QLabel("Username: ")
-            usernameLabel.setFixedHeight(16)
-            usernameLabel.setFont(BoldLabel)
-            username = QtWidgets.QLabel()
-            birthdateLabel = QtWidgets.QLabel("Birthdate: ")
-            birthdateLabel.setFont(BoldLabel)
-            birthdateLabel.setFixedHeight(16)
-            birthdate = QtWidgets.QLabel()
-            emailLabel = QtWidgets.QLabel("Email: ")
-            emailLabel.setFont(BoldLabel)
-            emailLabel.setFixedHeight(16)
-            email = QtWidgets.QLabel()
-            phoneLabel = QtWidgets.QLabel("Phone: ")
-            phoneLabel.setFont(BoldLabel)
-            phoneLabel.setFixedHeight(16)
-            phone = QtWidgets.QLabel()
-            setQueryUsr = QtWidgets.QPushButton("Set as Query User")
-            setQueryUsr.clicked.connect(lambda: self.setQueryUser(userList[listWidget.currentRow()]))
-            userList = []
-            for user in users:
-                userList.append(user)
-                listWidget.addItem(self.selectedSocialNetwork.getUserAttributes(user)["name"] + " (" + user.split(".0")[0] + ")")
-                
-
-            listWidget.itemSelectionChanged.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList, userList))
-            layout.addWidget(userHeading, 0, 0)
-            layout.addWidget(detailHeading, 0, 1, 1, 2)
-            layout.addWidget(listWidget, 1, 0, 7, 1)
-            layout.addWidget(nameLabel, 1, 1)
-            layout.addWidget(name, 1, 2)
-            layout.addWidget(usernameLabel, 2, 1)
-            layout.addWidget(username, 2, 2)
-            layout.addWidget(birthdateLabel, 3, 1)
-            layout.addWidget(birthdate, 3, 2)
-            layout.addWidget(emailLabel, 4, 1)
-            layout.addWidget(email, 4, 2)
-            layout.addWidget(phoneLabel, 5, 1)
-            layout.addWidget(phone, 5, 2)
-            layout.addWidget(keywordHeading, 6, 1, 1, 2)
-            layout.addWidget(keywordList, 7, 1, 1, 2)
-            keywordList.setAlignment(QtCore.Qt.AlignTop)
-            layout.addWidget(setQueryUsr, 8, 0, 1, 3)
-            scroll.setWidget(scrollContent)
-            self.__windows[4].show()
-            self.__windows[4].move(self.geometry().center() - self.__windows[4].rect().center())
-
-    def showClusterUsers(self, users):
-        self.__windows[7] = QtWidgets.QWidget()
-        self.__windows[7].setWindowModality(QtCore.Qt.ApplicationModal)
-        self.__windows[7].setWindowTitle('Cluster Users')
-        self.__windows[7].resize(int(self.frameGeometry().width()), int(self.frameGeometry().height()))
-
-        mainLayout = QtWidgets.QVBoxLayout(self)
-        scroll = QtWidgets.QScrollArea(self)
-        self.__windows[7].setLayout(mainLayout)
-        mainLayout.addWidget(scroll)
-        scroll.setWidgetResizable(True)
-        scrollContent = QtWidgets.QWidget(scroll)
-        layout = QtWidgets.QGridLayout()
-        layout.setColumnStretch(2, 2)
-        scrollContent.setLayout(layout)
-
-        headingFont=QtGui.QFont()
-        headingFont.setBold(True)
-        headingFont.setPointSize(18)
-        BoldLabel=QtGui.QFont()
-        BoldLabel.setBold(True)
-        listWidget = QtWidgets.QListWidget()
-        keywordList = QtWidgets.QLabel()
-        userHeading = QtWidgets.QLabel("Users:")
-        userHeading.setFixedHeight(20)
-        userHeading.setFont(headingFont)
-        detailHeading = QtWidgets.QLabel("User Details:")
-        detailHeading.setFixedHeight(20)
-        detailHeading.setFont(headingFont)
-        keywordHeading = QtWidgets.QLabel("User Keywords:")
-        keywordHeading.setFont(headingFont)
-        keywordHeading.setFixedHeight(20)
-        nameLabel = QtWidgets.QLabel("Name: ")
-        nameLabel.setFont(BoldLabel)
-        nameLabel.setFixedHeight(16)
-        name = QtWidgets.QLabel()
-        usernameLabel = QtWidgets.QLabel("Username: ")
-        usernameLabel.setFixedHeight(16)
-        usernameLabel.setFont(BoldLabel)
-        username = QtWidgets.QLabel()
-        birthdateLabel = QtWidgets.QLabel("Birthdate: ")
-        birthdateLabel.setFont(BoldLabel)
-        birthdateLabel.setFixedHeight(16)
-        birthdate = QtWidgets.QLabel()
-        emailLabel = QtWidgets.QLabel("Email: ")
-        emailLabel.setFont(BoldLabel)
-        emailLabel.setFixedHeight(16)
-        email = QtWidgets.QLabel()
-        phoneLabel = QtWidgets.QLabel("Phone: ")
-        phoneLabel.setFont(BoldLabel)
-        phoneLabel.setFixedHeight(16)
-        phone = QtWidgets.QLabel()
-        setQueryUsr = QtWidgets.QPushButton("Set as Query User")
-        closeWindow = QtWidgets.QPushButton("Close")
-        setQueryUsr.clicked.connect(lambda: self.setQueryUser(userList[listWidget.currentRow()], window=7))
-        closeWindow.clicked.connect(lambda: self.__windows[7].close())
-        userList = []
-        for user in users:
-            userList.append(user)
-            listWidget.addItem(self.selectedSocialNetwork.getUserAttributes(user)["name"] + " (" + user.split(".0")[0] + ")")
-            
-
-        listWidget.itemSelectionChanged.connect(lambda: self.__showUserInfo(listWidget, name, username, birthdate, email, phone, keywordList, userList))
-        layout.addWidget(userHeading, 0, 0)
-        layout.addWidget(detailHeading, 0, 1, 1, 2)
-        layout.addWidget(listWidget, 1, 0, 7, 1)
-        layout.addWidget(nameLabel, 1, 1)
-        layout.addWidget(name, 1, 2)
-        layout.addWidget(usernameLabel, 2, 1)
-        layout.addWidget(username, 2, 2)
-        layout.addWidget(birthdateLabel, 3, 1)
-        layout.addWidget(birthdate, 3, 2)
-        layout.addWidget(emailLabel, 4, 1)
-        layout.addWidget(email, 4, 2)
-        layout.addWidget(phoneLabel, 5, 1)
-        layout.addWidget(phone, 5, 2)
-        layout.addWidget(keywordHeading, 6, 1, 1, 2)
-        layout.addWidget(keywordList, 7, 1, 1, 2)
-        keywordList.setAlignment(QtCore.Qt.AlignTop)
-        layout.addWidget(setQueryUsr, 8, 0, 1, 3)
-        layout.addWidget(closeWindow, 9, 0, 1, 3)
-        scroll.setWidget(scrollContent)
-
-
-
-
-
-
-
-        self.__windows[7].show()
-        self.__windows[7].move(self.geometry().center() - self.__windows[7].rect().center())
-
     # Returns query user in form [id, [[lat, lon], [lat, lon]]]
     def setQueryUser(self, user, window=4):
         if self.queryUser is not None:
@@ -981,7 +598,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         self.queryUser = self.selectedSocialNetwork.getUser(user)
         self.plotQueryUser()
         self.queryUserToolbar.userLabel.setText(user.split(".0")[0])
-        self.usersCommonKeyword()
+        #self.usersCommonKeyword()
         self.__windows[window].close()
         self.dijkstra(self.queryUser)
 
@@ -1018,179 +635,6 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         self.queryKeyword = keyword
         self.queryUserToolbar.keywordLabel.setText(self.selectedSocialNetwork.getKeywordByID(keyword))
         self.__windows[5].close()
-
-    def __queryInput(self):
-        # Window setup
-        self.__windows[6] = QtWidgets.QWidget()
-        self.__windows[6].setWindowModality(QtCore.Qt.ApplicationModal)
-        self.__windows[6].setWindowTitle('Query: kd-truss')
-        self.__windows[6].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
-        layout = QtWidgets.QGridLayout()
-        # Set up input toolbar
-        #self.queryInput = QtWidgets.QToolBar("queryInput")
-        #self.queryInput.setIconSize(QtCore.QSize(24, 24))
-        #self.addToolBar(self.queryInput)
-        if self.queryUser is not None and self.summarySelected and self.selectedRoadNetwork is not None and self.selectedSocialNetwork is not None:
-            # Create label
-            kLabel = QtWidgets.QLabel(text="community's structural cohesiveness(k): ")
-            dLabel = QtWidgets.QLabel(text="maximum number of hops(d): ")
-            eLabel = QtWidgets.QLabel(text="minimum degree of similarity(η): ")
-            # Create button
-            button = QtWidgets.QPushButton("Get Query")
-            button.clicked.connect(lambda: self.updateKdSummaryGraph())
-            button.clicked.connect(lambda: self.__windows[6].close())
-            # Create k text box
-            self.__windows[6].kTextBox = QtWidgets.QSpinBox()
-            self.__windows[6].kTextBox.setRange(1, 9999)
-            self.__windows[6].kTextBox.setValue(3)
-            self.__windows[6].kTextBox.setToolTip(
-                "k is used to control the community's structural cohesiveness. Larger k means higher structural cohesiveness")
-            # Create d text box
-            self.__windows[6].dTextBox = QtWidgets.QLineEdit()
-            self.__windows[6].dTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
-            self.__windows[6].dTextBox.setText("5")
-            self.__windows[6].dTextBox.returnPressed.connect(button.click)
-            self.__windows[6].dTextBox.setToolTip("d controls the maximum number of hops between users")
-            # Create e text box
-            self.__windows[6].eTextBox = QtWidgets.QLineEdit()
-            self.__windows[6].eTextBox.setValidator(QtGui.QIntValidator(0, 9999))
-            self.__windows[6].eTextBox.setText("0")
-            self.__windows[6].eTextBox.returnPressed.connect(button.click)
-            self.__windows[6].eTextBox.setToolTip("η controls the minimum degree of similarity between users")
-            # Add widgets to window
-            layout.addWidget(kLabel)
-            layout.addWidget(self.__windows[6].kTextBox)
-            layout.addWidget(dLabel)
-            layout.addWidget(self.__windows[6].dTextBox)
-            layout.addWidget(eLabel)
-            layout.addWidget(self.__windows[6].eTextBox)
-            layout.addWidget(button)
-        else:
-            if self.selectedSocialNetwork is None:
-                noSocialLabel = QtWidgets.QLabel(text="No Social Network is selected.")
-                # Add widgets to window
-                layout.addWidget(noSocialLabel)
-            if self.selectedRoadNetwork is None:
-                noRoadLabel = QtWidgets.QLabel(text="No Road Network is selected.")
-                # Add widgets to window
-                layout.addWidget(noRoadLabel)
-            if self.queryUser is None:
-                noUserLabel = QtWidgets.QLabel(text="No Query User is selected.")
-                # Add widgets to window
-                layout.addWidget(noUserLabel)
-            if not self.summarySelected:
-                noSummaryLabel = QtWidgets.QLabel(text="Summary View is not selected.")
-                # Add widgets to window
-                layout.addWidget(noSummaryLabel)
-
-
-        # Show QWidget
-        self.__windows[6].setLayout(layout)
-        self.__windows[6].show()
-        self.__windows[6].move(self.geometry().center() - self.__windows[6].rect().center())
-
-
-
-    def __communityInput(self):
-        checkboxes = self.__windows[3].checkboxes
-        self.__windows[3].close()
-        # Window setup
-        self.__windows[6] = QtWidgets.QWidget()
-        self.__windows[6].setWindowModality(QtCore.Qt.ApplicationModal)
-        self.__windows[6].setWindowTitle('Query: Community Search')
-        self.__windows[6].resize(int(self.frameGeometry().width() / 3), int(self.frameGeometry().height() / 3))
-        layout = QtWidgets.QGridLayout()
-        # Set up input toolbar
-        #self.queryInput = QtWidgets.QToolBar("queryInput")
-        #self.queryInput.setIconSize(QtCore.QSize(24, 24))
-        #self.addToolBar(self.queryInput)
-        if self.queryUser is not None and self.summarySelected and self.selectedRoadNetwork is not None and self.selectedSocialNetwork is not None:
-            # Create label
-            kcLabel = QtWidgets.QLabel(text="community's structural cohesiveness(k): ")
-            dLabel = QtWidgets.QLabel(text="maximum number of hops(d): ")
-            eLabel = QtWidgets.QLabel(text="minimum similarity threshold (η): ")
-            keyWeightLabel = QtWidgets.QLabel(text="weight of keywords (g): ")
-            relWeightLabel = QtWidgets.QLabel(text="weight of relationships (h): ")
-            poiWeightLabel = QtWidgets.QLabel(text="weight of POIs (m): ")
-            # Create button
-            button = QtWidgets.QPushButton("Get Query")
-            button.clicked.connect(lambda: self.updateCommunitySummaryGraph())
-            button.clicked.connect(lambda: self.__windows[6].close())
-            # Create k text box
-            self.__windows[6].kcTextBox = QtWidgets.QSpinBox()
-            self.__windows[6].kcTextBox.setRange(1, 9999)
-            self.__windows[6].kcTextBox.setValue(3)
-            self.__windows[6].kcTextBox.setToolTip(
-                "k is used to control the community's structural cohesiveness. Larger k means higher structural cohesiveness")
-            # Create d text box
-            self.__windows[6].dTextBox = QtWidgets.QLineEdit()
-            self.__windows[6].dTextBox.setValidator(QtGui.QIntValidator(0, 9999))
-            self.__windows[6].dTextBox.setText("5")
-            self.__windows[6].dTextBox.returnPressed.connect(button.click)
-            self.__windows[6].dTextBox.setToolTip("d controls the maximum number of hops between users")
-            # Create e text box
-            self.__windows[6].eTextBox = QtWidgets.QLineEdit()
-            self.__windows[6].eTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
-            self.__windows[6].eTextBox.setText("0")
-            self.__windows[6].eTextBox.returnPressed.connect(button.click)
-            self.__windows[6].eTextBox.setToolTip("η controls the minimum similarity threshold between users")
-            # Create k text box
-            self.__windows[6].kTextBox = QtWidgets.QLineEdit()
-            self.__windows[6].kTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
-            self.__windows[6].kTextBox.setText("0.4")
-            self.__windows[6].kTextBox.returnPressed.connect(button.click)
-            self.__windows[6].kTextBox.setToolTip("g controls the weight for keyword for degree of similarity")
-            # Create r text box
-            self.__windows[6].rTextBox = QtWidgets.QLineEdit()
-            self.__windows[6].rTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
-            self.__windows[6].rTextBox.setText("0.4")
-            self.__windows[6].rTextBox.returnPressed.connect(button.click)
-            self.__windows[6].rTextBox.setToolTip("h controls the weight for relationships for degree of similarity")
-            # Create p text box
-            self.__windows[6].pTextBox = QtWidgets.QLineEdit()
-            self.__windows[6].pTextBox.setValidator(QtGui.QDoubleValidator(0.0, 9999.0, 4))
-            self.__windows[6].pTextBox.setText("0.2")
-            self.__windows[6].pTextBox.returnPressed.connect(button.click)
-            self.__windows[6].pTextBox.setToolTip("m controls the weight for POIs for degree of similarity")
-            # Add widgets to window
-            layout.addWidget(kcLabel)
-            layout.addWidget(self.__windows[6].kcTextBox)
-            layout.addWidget(dLabel)
-            layout.addWidget(self.__windows[6].dTextBox)
-            layout.addWidget(eLabel)
-            layout.addWidget(self.__windows[6].eTextBox)
-            layout.addWidget(keyWeightLabel)
-            layout.addWidget(self.__windows[6].kTextBox)
-            layout.addWidget(relWeightLabel)
-            layout.addWidget(self.__windows[6].rTextBox)
-            layout.addWidget(poiWeightLabel)
-            layout.addWidget(self.__windows[6].pTextBox)
-            layout.addWidget(button)
-        else:
-            if self.selectedSocialNetwork is None:
-                noSocialLabel = QtWidgets.QLabel(text="No Social Network is selected.")
-                # Add widgets to window
-                layout.addWidget(noSocialLabel)
-            if self.selectedRoadNetwork is None:
-                noRoadLabel = QtWidgets.QLabel(text="No Road Network is selected.")
-                # Add widgets to window
-                layout.addWidget(noRoadLabel)
-            if self.queryUser is None:
-                noUserLabel = QtWidgets.QLabel(text="No Query User is selected.")
-                # Add widgets to window
-                layout.addWidget(noUserLabel)
-            if not self.summarySelected:
-                noSummaryLabel = QtWidgets.QLabel(text="Summary View is not selected.")
-                # Add widgets to window
-                layout.addWidget(noSummaryLabel)
-
-
-        # Show QWidget
-        self.__windows[6].setLayout(layout)
-        self.__windows[6].show()
-        self.__windows[6].move(self.geometry().center() - self.__windows[6].rect().center())
-
-
 
     # Display for loading networks
     def viewFiles(self):
@@ -1421,9 +865,9 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         self.queryUser = None
         [a.clear() for a in self.queryUserPlots]
         self.queryUserPlots = []
-        self.queryUserToolbar.userLabel.setText("None")
+        #self.queryUserToolbar.userLabel.setText("None")
         self.queryKeyword = None
-        self.queryUserToolbar.keywordLabel.setText("None")
+        #self.queryUserToolbar.keywordLabel.setText("None")
         # If main view
         if not self.summarySelected:
             self.clearView()
