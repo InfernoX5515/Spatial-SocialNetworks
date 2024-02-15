@@ -452,3 +452,46 @@ class SocialNetwork:
     
     def getClusterUsers(self, cluster):
         return self.clusterItems[cluster]
+    
+    def usersCommonKeyword(self, queryUser, k=1):
+        commonUsers = []
+        commonDetails = {}
+        if queryUser is not None:
+            users = self.getUsers()
+            for user in users:
+                if user is not queryUser:
+                    common = list(set(self.getUserKeywords(user)).intersection(
+                        self.getUserKeywords(queryUser)))
+                    if len(common) > (k-1):
+                        commonDetails[user] = common
+                        commonUsers.append(user)
+        return commonUsers, commonDetails
+    
+    def usersWithinHops(self, queryUser, users, h=0):
+        withinHops = []
+        hopsDetails = {}
+        for user in users:
+            hops = self.numberOfHops(queryUser, user)
+            if h == 0:
+                withinHops.append(user)
+                hopsDetails[user] = hops
+            else:
+                if hops <= h and hops != -1:
+                    withinHops.append(user)
+                    hopsDetails[user] = hops
+        return withinHops, hopsDetails
+
+    # Returns users within d distance
+    def usersWithinDistance(self, road, query, users, d=2):
+        withinDistance = []
+        distDetails = {}
+        common = self.userLoc(query)
+        commonLoc = road.findNearest(common)
+        for user in users:
+            query = self.userLoc(user)
+            queryLoc = road.findNearest(query)
+            dist = road.realUserDistance(queryLoc, commonLoc)
+            if dist <= d:
+                withinDistance.append(user)
+                distDetails[user] = dist
+        return withinDistance, distDetails
