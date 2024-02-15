@@ -1,0 +1,13 @@
+/Test.py
+/config.json
+/.idea/
+.idea/workspace.xml
+/__pycache__/
+gui/__pycache__/
+/keywordDataset.py
+/.vscode/
+/local/
+/nx.html
+nx.html
+*.html
+.DS_Store
