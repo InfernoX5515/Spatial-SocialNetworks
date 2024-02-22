@@ -29,6 +29,7 @@ class SocialNetwork:
         self.__keywordMap = {}
         self.__keywordMapReverse = {}
         self.__keywords = {}
+        self.__keywordTime = {}
         self.__flattenedRelData = [[], []]
         self.__flattenedLocData = [[], []]
         self.__chunkedLocData = []
@@ -153,6 +154,7 @@ class SocialNetwork:
             keywords = {}
             keywordsReverse = {}
             userKeywords = {}
+            userKeywordsTime = {}
             # Gets key map
             with open(mPath, 'r') as csvfile:
                 reader = csv.reader(csvfile, delimiter=',', quotechar='|')
@@ -174,15 +176,19 @@ class SocialNetwork:
                     keyword_id = row[1]
                     if user_id in list(userKeywords.keys()):
                         userKeywords[user_id].append(keyword_id)
+                        userKeywordsTime[user_id].append([row[2], row[3]])
                     else:
                         userKeywords[user_id] = [keyword_id]
+                        userKeywordsTime[user_id] = [[row[2], row[3]]]
             self.__keywordMap = keywords
             self.__keywordMapReverse = keywordsReverse
             self.__keywords = userKeywords
+            self.__keywordTime = userKeywordsTime
         else:
             self.__keywordMap = None
             self.__keywordMapReverse = None
             self.__keywords = None
+            self.__keywordTime = None
 
     # Parses the rel data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data.
@@ -495,3 +501,8 @@ class SocialNetwork:
                 withinDistance.append(user)
                 distDetails[user] = dist
         return withinDistance, distDetails
+    
+    def userKeywordTime(self, user, keyword):
+        keywords = self.getUserKeywords(user)
+        i = keywords.index(str(keyword))
+        return self.__keywordTime[user][i]
