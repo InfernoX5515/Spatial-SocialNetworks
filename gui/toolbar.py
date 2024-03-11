@@ -115,7 +115,7 @@ class QueryToolbar:
         phone.setText(self.gui.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["phone"])
         keywordString = ""
         for id in self.gui.selectedSocialNetwork.getUserKeywords(userList[listWidget.currentRow()]):
-            keywordString += self.gui.selectedSocialNetwork.getKeywordByID(id) + "\n"
+            keywordString += self.gui.selectedSocialNetwork.getKeywordByID(id) + ": (" + self.gui.selectedSocialNetwork.userKeywordTime(userList[listWidget.currentRow()], id)[0] + " - " + self.gui.selectedSocialNetwork.userKeywordTime(userList[listWidget.currentRow()], id)[1] + ")\n"
         keywordList.setText(keywordString)
 
     def showUsersWithKeywords(self):

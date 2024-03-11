@@ -19,7 +19,7 @@ from collections import Counter
 
 
 class SocialNetwork:
-    def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, userDataFile=None, **kwargs):
+    def __init__(self, name, relFile=None, locFile=None, keyFile=None, keyMapFile=None, userDataFile=None, poiFile=None, **kwargs):
         self.__name = name
         self.networkX = nx.MultiGraph()
         self.__rel = {}
@@ -29,13 +29,16 @@ class SocialNetwork:
         self.__keywordMap = {}
         self.__keywordMapReverse = {}
         self.__keywords = {}
+        self.__keywordTime = {}
+        self.__userPoiTime = {}
         self.__flattenedRelData = [[], []]
         self.__flattenedLocData = [[], []]
         self.__chunkedLocData = []
         threads = [threading.Thread(target=lambda: self.loadRel(path=relFile)),
                    threading.Thread(target=lambda: self.loadLoc(path=locFile)),
                    threading.Thread(target=lambda: self.loadUser(path=userDataFile)),
-                   threading.Thread(target=lambda: self.loadKey(kPath=keyFile, mPath=keyMapFile))]
+                   threading.Thread(target=lambda: self.loadKey(kPath=keyFile, mPath=keyMapFile)),
+                   threading.Thread(target=lambda: self.loadPoi(path=poiFile))]
 
         for thread in threads:
             thread.start()
@@ -153,6 +156,7 @@ class SocialNetwork:
             keywords = {}
             keywordsReverse = {}
             userKeywords = {}
+            userKeywordsTime = {}
             # Gets key map
             with open(mPath, 'r') as csvfile:
                 reader = csv.reader(csvfile, delimiter=',', quotechar='|')
@@ -174,15 +178,40 @@ class SocialNetwork:
                     keyword_id = row[1]
                     if user_id in list(userKeywords.keys()):
                         userKeywords[user_id].append(keyword_id)
+                        userKeywordsTime[user_id].append([row[2], row[3]])
                     else:
                         userKeywords[user_id] = [keyword_id]
+                        userKeywordsTime[user_id] = [[row[2], row[3]]]
             self.__keywordMap = keywords
             self.__keywordMapReverse = keywordsReverse
             self.__keywords = userKeywords
+            self.__keywordTime = userKeywordsTime
         else:
             self.__keywordMap = None
             self.__keywordMapReverse = None
             self.__keywords = None
+            self.__keywordTime = None
+
+    def loadPoi(self, path=None):
+        if path is not None and exists(path):
+            dict = {}
+            with open(path, 'r') as csvfile:
+                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                next(reader)
+                for row in reader:
+                    user = str(row[0])  # Convert user to string
+                    poi = str(row[1])  # Convert poi to string
+                    time = row[2]
+                    if user in dict:
+                        if poi in dict[user]:
+                            dict[user][poi].append(time)
+                        else:
+                            dict[user][poi] = [time]
+                    else:
+                        dict[user] = {poi: [time]}  # Create new dictionary entry
+            self.__userPoiTime = dict
+        else:
+            self.__userPoiTime = None
 
     # Parses the rel data into instantly plottable lists. For example, lat is [startLat, endLat, None, startLat...]
     # This also chunks the data for faster processing and dedicates x number of threads to storing that data.
@@ -344,6 +373,12 @@ class SocialNetwork:
         else:
             return []
 
+    def getUserPoi(self, userID):
+        return self.__userPoiTime[userID].keys()
+    
+    def getUserPoiTime(self, userID, poi):
+        return self.__userPoiTime[userID][poi]
+
     def getUserRel(self, user):
         res = []
         try:
@@ -467,6 +502,34 @@ class SocialNetwork:
                         commonUsers.append(user)
         return commonUsers, commonDetails
     
+    def usersCommonPoi(self, queryUser, k=1):
+        commonUsers = []
+        commonDetails = {}
+        if queryUser is not None:
+            users = self.getUsers()
+            for user in users:
+                if user is not queryUser:
+                    common = list(set(self.getUserPoi(user)).intersection(
+                        self.getUserPoi(queryUser)))
+                    if len(common) > (k-1):
+                        commonDetails[user] = common
+                        commonUsers.append(user)
+        return commonUsers, commonDetails
+
+    def usersCommonPoiTime(self, queryUser, poi, start, end, k=1):
+        commonUsers = []
+        commonDetails = {}
+        if queryUser is not None:
+            users = self.getUsers()
+            for user in users:
+                if user is not queryUser:
+                    common = list(set(self.getUserPoiTime(user, poi)).intersection(
+                        self.getUserPoiTime(queryUser, poi)))
+                    if len(common) > (k-1):
+                        commonDetails[user] = common
+                        commonUsers.append(user)
+        return commonUsers, commonDetails
+    
     def usersWithinHops(self, queryUser, users, h=0):
         withinHops = []
         hopsDetails = {}
@@ -495,3 +558,8 @@ class SocialNetwork:
                 withinDistance.append(user)
                 distDetails[user] = dist
         return withinDistance, distDetails
+    
+    def userKeywordTime(self, user, keyword):
+        keywords = self.getUserKeywords(user)
+        i = keywords.index(str(keyword))
+        return self.__keywordTime[user][i]
