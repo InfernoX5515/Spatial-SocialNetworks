@@ -66,7 +66,67 @@ class Mixin:
             if r not in parents:
                 result['children'][r] = self.communityTree(r, query_keywords, query_rels, community_cohesiveness, g, h, hops, degSim, parents=parents, distance=distance + 1, i=i+1)
         return result
+    
+    def communityTimeTree(self, user, query_keywords, query_rels, query_pois, start, end, community_cohesiveness, g, h, j, hops, degSim, parents=[], distance=0, i=0):
+        # Do not repeat nodes
+        parents.append(user)
 
+        rels = self.selectedSocialNetwork.getUserRel(user)
+        rel_users = []
+        for r in rels:
+            rel_users.append(r[0])
+        if len(set(query_rels) | set(rel_users)) == 0:
+            rel_score = 0
+        else:
+            rel_score = len(set(query_rels) & set(rel_users)) / len(set(query_rels) | set(rel_users))
+
+        user_keywords = self.selectedSocialNetwork.getUserKeywords(user)
+        keyword_intersect = list(set(user_keywords) & set(query_keywords))
+        keyword_union = list(set(user_keywords) | set(query_keywords))
+
+        if len(keyword_union) == 0:
+            keyword_score = 0
+        else:
+            keyword_score = len(keyword_intersect) / len(keyword_union)
+
+        user_pois = self.selectedSocialNetwork.getUserPoiInTime(user, start, end)
+        poi_intersect = list(set(user_pois) & set(query_pois))
+        poi_union = list(set(user_pois) | set(query_pois))
+
+        if len(poi_union) == 0:
+            poi_score = 0
+        else:
+            poi_score = len(poi_intersect) / len(poi_union)
+
+        
+        deg_sim = (g * keyword_score) + (h * rel_score) + (j * poi_score)
+
+        deg_sim_satisfy = deg_sim >= degSim
+        if len(keyword_intersect) < community_cohesiveness:
+            deg_sim_satisfy = False
+
+        result = {
+            'user': user,
+            'distance': distance,
+            'hops': i,
+            'keywords': keyword_union,
+            'keyword_score': keyword_score,
+            'rel_score': rel_score,
+            'deg_sim': deg_sim,
+            'satisfy': deg_sim_satisfy,
+            'children': {} 
+        }
+
+        # Once max number of hops has been reached return tree
+        if i >= hops:
+            return result
+        
+
+        # Repeat for each relation of a child
+        for r in rel_users:
+            if r not in parents:
+                result['children'][r] = self.communityTimeTree(r, query_keywords, query_rels, query_pois, start, end, community_cohesiveness, g, h, j, hops, degSim, parents=parents, distance=distance + 1, i=i+1)
+        return result
 
     def kdTree(self, queryKeywords, user, keywords, distance, hops, hopDepth=0, currentDist=0,  parents=[]):
         # Do not repeat nodes

@@ -1,4 +1,6 @@
 from PyQt5 import QtWidgets, QtCore, QtGui
+from superqt import QRangeSlider
+from qtpy.QtCore import Qt
 
 class QueryToolbar:
 
@@ -221,7 +223,32 @@ class QueryToolbar:
         self.userWindow.close()
         self.gui.dijkstra(self.gui.queryUser)
 
+class Timeline:
+    
+    def __init__(self, gui):
+        self.gui = gui
+        self.toolbar = QtWidgets.QToolBar("Timeline Toolbar")
+        self.timelineDateSlider = QRangeSlider(Qt.Orientation.Horizontal)
+        self.timelineDateSlider.setRange(1, 365)
+        self.toolbar.addWidget(self.timelineDateSlider)
+        self.timelineDateSlider.valueChanged.connect(self.gui.updateTimeline)
+        self.visible = False
 
+    def show(self):
+        if(self.visible):
+            return
+        self.gui.addToolBar(QtCore.Qt.BottomToolBarArea, self.toolbar)
+
+    def hide(self):
+        if(not self.visible):
+            return
+        self.gui.removeToolBar(self.toolbar)
+
+    def getDates(self):
+        return self.timelineDateSlider.value()
+    
+    def setDates(self, start, end):
+        self.timelineDateSlider.setValue((start, end))
 
 class Toolbar:
 
@@ -429,6 +456,7 @@ class Toolbar:
             jogDown_social.triggered.connect(self.jogDownToolSocial)
             socialToolbar.addAction(jogDown_social)
             self.gui.layout.addWidget(socialToolbar, 1, 0)
+
     
     # Creates the cluster toolbar for input
     def clusterInput(self):

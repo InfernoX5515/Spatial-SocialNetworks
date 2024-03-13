@@ -18,8 +18,9 @@ from gui.menubar import MenuBar
 from gui.queryInput import QueryInput
 from gui.user import UserUI
 #from gui.toolbar import Mixin as ToolbarMixin
-from gui.toolbar import Toolbar, QueryToolbar
+from gui.toolbar import Toolbar, QueryToolbar, Timeline
 from gui.tree import Mixin as TreeMixin
+import datetime
 
 class Gui(QtWidgets.QMainWindow, TreeMixin):
 
@@ -96,6 +97,9 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         self.queryUserToolbar = QueryToolbar(self, self.__windows[3], self.__windows[4])
         self.queryUserToolbar.queryUserButton()
         self.toolbar.navToolbar()
+        self.timeline = Timeline(self)
+        self.timeline.show()
+        self.timeline.setDates(120, 240)
 
     # Creates the plot widgets. suffix is used when a summary graph is created, for example
     def createPlots(self, suffix=""):
@@ -537,6 +541,95 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             #community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(self.__windows[6].kcTextBox.text()), float(self.__windows[6].kTextBox.text()), float(self.__windows[6].rTextBox.text()), float(self.__windows[6].dTextBox.text()), float(self.__windows[6].eTextBox.text()),[], 0, 0)
             res = self.queryInput.getCommunityResponse()
             community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(res[0]), float(res[3]), float(res[4]), float(res[1]), float(res[2]), [], 0, 0)
+            community = self.pruneTree(community)
+            self.visualizeCommunityData(community)
+            # Stop counting time for query
+            self.CTend = time.time()
+            self.__UpdateQueryTime()
+            with open('community-query.html', 'r') as f:
+                html = f.read()
+                self.socialNetWidget.setHtml(html)
+
+    def updateTimeline(self):
+        values = self.timeline.getDates()
+        # convert from int to dates
+        start = str(datetime.date(2020, 1, 1) + datetime.timedelta(days=values[0]))
+        end = str(datetime.date(2020, 1, 1) + datetime.timedelta(days=values[1]))
+
+        self.socialNetWidget.reload()
+        # If social network is selected, display clusters
+        if self.selectedSocialNetwork is not None:
+            queryKeywords = self.queryInput.getCommunityKeywords()
+            queryKeywords += self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
+            queryRelsRaw = self.selectedSocialNetwork.getUserRel(self.queryUser[0])
+            res = self.queryInput.getCommunityTimeResponse()
+            queryPois = self.selectedSocialNetwork.getUserPoiInTime(self.queryUser[0], start, end)
+            queryRels = []
+            for r in queryRelsRaw:
+                queryRels.append(r[0])
+            self.CTstart = time.time()
+            #community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(self.__windows[6].kcTextBox.text()), float(self.__windows[6].kTextBox.text()), float(self.__windows[6].rTextBox.text()), float(self.__windows[6].dTextBox.text()), float(self.__windows[6].eTextBox.text()),[], 0, 0)
+            
+#def communityTimeTree(self, user, query_keywords, query_rels, query_pois, start, end, community_cohesiveness, g, h, j, hops, degSim, parents=[], distance=0, i=0):
+            community = self.communityTimeTree(
+                self.queryUser[0], 
+                queryKeywords, 
+                queryRels, 
+                queryPois, 
+                start,
+                end,
+                float(res[0]), 
+                float(res[3]), 
+                float(res[4]),
+                float(res[5]), 
+                float(res[1]), 
+                float(res[2]), 
+                [], 
+                0,
+                0)
+            community = self.pruneTree(community)
+            self.visualizeCommunityData(community)
+            # Stop counting time for query
+            self.CTend = time.time()
+            self.__UpdateQueryTime()
+            with open('community-query.html', 'r') as f:
+                html = f.read()
+                self.socialNetWidget.setHtml(html)
+
+        
+    
+    def updateCommunityTimeSummaryGraph(self):
+        self.socialNetWidget.reload()
+        # If social network is selected, display clusters
+        if self.selectedSocialNetwork is not None:
+            queryKeywords = self.queryInput.getCommunityKeywords()
+            queryKeywords += self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
+            queryRelsRaw = self.selectedSocialNetwork.getUserRel(self.queryUser[0])
+            res = self.queryInput.getCommunityTimeResponse()
+            queryPois = self.selectedSocialNetwork.getUserPoiInTime(self.queryUser[0], res[6], res[7])
+            queryRels = []
+            for r in queryRelsRaw:
+                queryRels.append(r[0])
+            self.CTstart = time.time()
+            #community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(self.__windows[6].kcTextBox.text()), float(self.__windows[6].kTextBox.text()), float(self.__windows[6].rTextBox.text()), float(self.__windows[6].dTextBox.text()), float(self.__windows[6].eTextBox.text()),[], 0, 0)
+            
+#def communityTimeTree(self, user, query_keywords, query_rels, query_pois, start, end, community_cohesiveness, g, h, j, hops, degSim, parents=[], distance=0, i=0):
+            community = self.communityTimeTree(
+                self.queryUser[0], 
+                queryKeywords, 
+                queryRels, 
+                queryPois, 
+                res[6],
+                res[7],
+                float(res[0]), 
+                float(res[3]), 
+                float(res[4]),
+                float(res[5]), 
+                float(res[1]), 
+                float(res[2]), 
+                [], 
+                0,
+                0)
             community = self.pruneTree(community)
             self.visualizeCommunityData(community)
             # Stop counting time for query

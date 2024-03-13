@@ -5,6 +5,7 @@ from os.path import exists
 import networkx as nx
 from sklearn.cluster import KMeans
 from collections import Counter
+from dateutil.parser import parse as dateparse
 
 # =====================================================================================================================
 #
@@ -375,6 +376,14 @@ class SocialNetwork:
 
     def getUserPoi(self, userID):
         return self.__userPoiTime[userID].keys()
+    
+    def getUserPoiInTime(self, userID, start, end):
+        pois = []
+        for poi in self.__userPoiTime[userID]:
+            for time in self.__userPoiTime[userID][poi]:
+                if dateparse(time) >= dateparse(start) and dateparse(time) <= dateparse(end):
+                    pois.append(poi)
+        return pois
     
     def getUserPoiTime(self, userID, poi):
         return self.__userPoiTime[userID][poi]
