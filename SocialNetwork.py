@@ -385,8 +385,20 @@ class SocialNetwork:
                     pois.append(poi)
         return pois
     
+    def getUserKeywordsInTime(self, userID, start, end):
+        keywordsTemp = self.getUserKeywords(userID)
+        keywords = []
+        for keyword in keywordsTemp:
+            for time in self.__keywordTime[userID][self.__keywords[userID].index(keyword)]:
+                if dateparse(time[0]) >= dateparse(start) or dateparse(time[1]) <= dateparse(end):
+                    keywords.append(keyword)
+        return keywords
+    
     def getUserPoiTime(self, userID, poi):
         return self.__userPoiTime[userID][poi]
+    
+    def getUserKeywordsTime(self, userID, keyword):
+        return self.__keywordTime[userID][self.__keywords[userID].index(keyword)]
 
     def getUserRel(self, user):
         res = []

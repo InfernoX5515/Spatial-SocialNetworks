@@ -1,6 +1,7 @@
 from PyQt5 import QtWidgets, QtCore, QtGui
 from superqt import QRangeSlider
 from qtpy.QtCore import Qt
+from PyQt5.QtWidgets import QSlider
 
 class QueryToolbar:
 
@@ -228,27 +229,42 @@ class Timeline:
     def __init__(self, gui):
         self.gui = gui
         self.toolbar = QtWidgets.QToolBar("Timeline Toolbar")
-        self.timelineDateSlider = QRangeSlider(Qt.Orientation.Horizontal)
-        self.timelineDateSlider.setRange(1, 365)
+        self.play = QtWidgets.QPushButton("Play")
+        self.play.clicked.connect(self.gui.playTimeline)
+        self.toolbar.addWidget(self.play)
+        self.timelineDateSlider = QSlider(Qt.Horizontal)
+        self.timelineDateSlider.setRange(0, 10)
+        self.timelineDateSlider.setTickInterval(1)
+        self.timelineDateSlider.setTickPosition(QSlider.TicksBelow)
         self.toolbar.addWidget(self.timelineDateSlider)
-        self.timelineDateSlider.valueChanged.connect(self.gui.updateTimeline)
         self.visible = False
+        self.submit = QtWidgets.QPushButton("Refresh")
+        self.submit.clicked.connect(self.gui.updateTimeline)
+        self.toolbar.addWidget(self.submit)
 
     def show(self):
         if(self.visible):
             return
         self.gui.addToolBar(QtCore.Qt.BottomToolBarArea, self.toolbar)
+        self.toolbar.setVisible(True)
 
     def hide(self):
         if(not self.visible):
             return
         self.gui.removeToolBar(self.toolbar)
+        self.toolbar.setVisible(False)
 
-    def getDates(self):
+    def getFrame(self):
         return self.timelineDateSlider.value()
     
-    def setDates(self, start, end):
-        self.timelineDateSlider.setValue((start, end))
+    def setFrame(self, start):
+        self.timelineDateSlider.setValue(start)
+    
+    def changeButton(self):
+        if self.play.text() == "Play":
+            self.play.setText("Pause")
+        else:
+            self.play.setText("Play")
 
 class Toolbar:
 

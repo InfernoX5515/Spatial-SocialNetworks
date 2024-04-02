@@ -80,7 +80,7 @@ class Mixin:
         else:
             rel_score = len(set(query_rels) & set(rel_users)) / len(set(query_rels) | set(rel_users))
 
-        user_keywords = self.selectedSocialNetwork.getUserKeywords(user)
+        user_keywords = self.selectedSocialNetwork.getUserKeywordsInTime(user, start, end)
         keyword_intersect = list(set(user_keywords) & set(query_keywords))
         keyword_union = list(set(user_keywords) | set(query_keywords))
 
