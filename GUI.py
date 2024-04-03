@@ -1,6 +1,7 @@
 from collections import Counter
 from os.path import exists
 from os import getenv
+import random
 import threading
 from anytree import Node, RenderTree, find_by_attr
 from Config import Config
@@ -106,6 +107,8 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         self.timeline.hide()
         self.__queryFrames = []
         self.playAnimation = False
+
+        self.communityUserPos = {}
 
 
     # Creates the plot widgets. suffix is used when a summary graph is created, for example
@@ -312,6 +315,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
                              str(relations[0][i - 1]) + str(relations[1][i - 1]))
         nt = Network()
         nt.from_nx(network)
+        nt.set_options('{"layout": {"randomSeed":5}}')
         nt.save_graph('nx.html')
         # LEGACY SOCIAL NETWORK GRAPH
         #self.socialGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=20,
@@ -359,10 +363,11 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         for key in tree["keywords"]:
             tempTitle += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
         tempTitle += '</ol>'
+        user_pos = self.communityUserPos[tree["user"]]
         if tree["satisfy"] == True:
-            graph.add_node(tree["user"], physics=False, label=str(tree["user"]), color='blue', size=15, title=tempTitle)
+            graph.add_node(tree["user"], x=user_pos["x"], y=user_pos["y"], physics=False, label=str(tree["user"]), color='blue', size=15, title=tempTitle)
         else:
-            graph.add_node(tree["user"], physics=False, label=str(tree["user"]), color='grey', size=15, title=tempTitle)
+            graph.add_node(tree["user"], x=user_pos["x"], y=user_pos["y"], physics=False, label=str(tree["user"]), color='grey', size=15, title=tempTitle)
         for c in list(tree["children"]):
             self.interactiveCommunityVisualNodes(tree["children"][c], graph)
         return graph
@@ -431,6 +436,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
                     graph.add_edge(u, r, color='black')
             nt = Network()
             nt.from_nx(graph)
+            nt.set_options('{"layout": {"randomSeed":2}}')
             nt.save_graph('kd-trust.html')
 
             qu = self.queryUser[0]
@@ -484,7 +490,8 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             for key in queryKeys:
                 titleTemp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
             titleTemp += '</ol>'
-            graph.add_node(self.queryUser[0], physics=False, label=str('Query: ') + str(int(float(self.queryUser[0]))),
+            query_pos = self.communityUserPos[self.queryUser[0]]
+            graph.add_node(self.queryUser[0], x=query_pos["x"], y=query_pos["y"], physics=False, label=str('Query: ') + str(int(float(self.queryUser[0]))),
                                 color='green', size=15, shape='star', title=titleTemp)
 
 
@@ -500,6 +507,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
                     graph.add_edge(u, r, color='black')
             nt = Network()
             nt.from_nx(graph)
+            nt.set_options('{"layout": {"randomSeed":2}}')
             nt.save_graph('community-query.html')
 
             qu = self.queryUser[0]
@@ -554,6 +562,13 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             res = self.queryInput.getCommunityResponse()
             community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(res[0]), float(res[3]), float(res[4]), float(res[1]), float(res[2]), [], 0, 0)
             community = self.pruneTree(community)
+            temp_users = self.treeUsers()
+            users = list(set(temp_users[0]) | set(temp_users[1]))
+            for user in users:
+                self.communityUserPos[user] = {
+                    "x": random.randint(0, 350),
+                    "y": random.randint(0, 350)
+                }
             self.visualizeCommunityData(community)
             # Stop counting time for query
             self.CTend = time.time()
@@ -621,6 +636,8 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             res = self.queryInput.getCommunityTimeResponse()
             dates = self.get_evenly_spaced_dates(datetime.datetime.strptime(res[6], "%Y-%m-%d"), datetime.datetime.strptime(res[7], "%Y-%m-%d"), 10)
             print(dates)
+
+            users = []
             
             for i in range(0, len(dates)+1):
                 if i == 0:
@@ -649,6 +666,9 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
                         0,
                         0)
                     self.__queryFrames.append(self.pruneTree(community))
+                    frame_users = self.treeUsers(community)
+                    temp_users = list(set(frame_users[0]) | set(frame_users[1]))
+                    users = list(set(users) | set(temp_users))
                 else:
                     date = str(dates[i-1])
                     queryKeywords = self.queryInput.getCommunityKeywords()
@@ -676,11 +696,15 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
                         0,
                         0)
                     self.__queryFrames.append(self.pruneTree(community))
+                    frame_users = self.treeUsers(community)
+                    temp_users = list(set(frame_users[0]) | set(frame_users[1]))
+                    users = list(set(users) | set(temp_users))
+            for user in users:
+                self.communityUserPos[user] = {
+                    "x": random.randint(0, 500),
+                    "y": random.randint(0, 500)
+                }
             self.visualizeCommunityData(self.__queryFrames[0])
-            # Save queryFrames to a JSON file
-            for i in range(0, len(self.__queryFrames)):
-                with open(f'queryFrame{i}.json', 'w') as f:
-                    json.dump(self.__queryFrames[i], f)
             # Stop counting time for query
             self.CTend = time.time()
             self.__UpdateQueryTime()
