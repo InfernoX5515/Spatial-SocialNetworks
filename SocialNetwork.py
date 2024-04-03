@@ -182,7 +182,7 @@ class SocialNetwork:
                         userKeywordsTime[user_id].append([row[2], row[3]])
                     else:
                         userKeywords[user_id] = [keyword_id]
-                        userKeywordsTime[user_id] = [[row[2], row[3]]]
+                        userKeywordsTime[user_id] = ([row[2], row[3]])
             self.__keywordMap = keywords
             self.__keywordMapReverse = keywordsReverse
             self.__keywords = userKeywords
@@ -383,15 +383,15 @@ class SocialNetwork:
             for time in self.__userPoiTime[userID][poi]:
                 if dateparse(time) >= dateparse(start) and dateparse(time) <= dateparse(end):
                     pois.append(poi)
+                    continue
         return pois
     
     def getUserKeywordsInTime(self, userID, start, end):
         keywordsTemp = self.getUserKeywords(userID)
         keywords = []
         for keyword in keywordsTemp:
-            for time in self.__keywordTime[userID][self.__keywords[userID].index(keyword)]:
-                if dateparse(time[0]) >= dateparse(start) or dateparse(time[1]) <= dateparse(end):
-                    keywords.append(keyword)
+            if dateparse(self.__keywordTime[userID][self.__keywords[userID].index(keyword)][0]) >= dateparse(start) and dateparse(self.__keywordTime[userID][self.__keywords[userID].index(keyword)][0]) <= dateparse(end):
+                keywords.append(keyword)
         return keywords
     
     def getUserPoiTime(self, userID, poi):

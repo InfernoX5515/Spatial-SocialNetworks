@@ -24,6 +24,7 @@ from gui.toolbar import Toolbar, QueryToolbar, Timeline
 from gui.tree import Mixin as TreeMixin
 import datetime
 import time
+import json
 
 
 class Gui(QtWidgets.QMainWindow, TreeMixin):
@@ -676,6 +677,10 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
                         0)
                     self.__queryFrames.append(self.pruneTree(community))
             self.visualizeCommunityData(self.__queryFrames[0])
+            # Save queryFrames to a JSON file
+            for i in range(0, len(self.__queryFrames)):
+                with open(f'queryFrame{i}.json', 'w') as f:
+                    json.dump(self.__queryFrames[i], f)
             # Stop counting time for query
             self.CTend = time.time()
             self.__UpdateQueryTime()

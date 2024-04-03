@@ -110,6 +110,7 @@ class Mixin:
             'distance': distance,
             'hops': i,
             'keywords': keyword_union,
+            'pois': poi_union,
             'keyword_score': keyword_score,
             'rel_score': rel_score,
             'deg_sim': deg_sim,
