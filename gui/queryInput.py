@@ -23,6 +23,16 @@ class QueryInput:
     def getCommunityResponse(self):
         return self.queryWindow.kcTextBox.value(), self.queryWindow.dTextBox.text(), self.queryWindow.eTextBox.text(), self.queryWindow.kTextBox.text(), self.queryWindow.rTextBox.text(), self.queryWindow.pTextBox.text()
 
+    def getCommunityTimeResponse(self):
+        return (self.queryWindow.kcTextBox.value(), 
+                self.queryWindow.dTextBox.text(), 
+                self.queryWindow.eTextBox.text(), 
+                self.queryWindow.kTextBox.text(), 
+                self.queryWindow.rTextBox.text(), 
+                self.queryWindow.pTextBox.text(), 
+                self.queryWindow.tSTextBox.date().toString("yyyy-MM-dd"), 
+                self.queryWindow.tETextBox.date().toString("yyyy-MM-dd"))
+
     def getKdResponse(self):
         return self.queryWindow.kTextBox.value(), self.queryWindow.dTextBox.text(), self.queryWindow.eTextBox.text()
     
@@ -287,7 +297,7 @@ class QueryInput:
             poiWeightLabel = QtWidgets.QLabel(text="weight of POIs (m): ")
             # Create button
             button = QtWidgets.QPushButton("Get Query")
-            button.clicked.connect(lambda: self.gui.updateCommunitySummaryGraph())
+            button.clicked.connect(lambda: self.gui.updateCommunityTimeSummaryGraph())
             button.clicked.connect(lambda: self.queryWindow.close())
             # Create k text box
             self.queryWindow.kcTextBox = QtWidgets.QSpinBox()

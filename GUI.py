@@ -1,9 +1,12 @@
 from collections import Counter
 from os.path import exists
 from os import getenv
+import random
+import threading
 from anytree import Node, RenderTree, find_by_attr
 from Config import Config
 from PyQt5 import QtGui, QtCore
+from PyQt5.QtCore import QTimer
 from scipy import spatial
 import pyqtgraph as pg
 import PyQt5.QtWidgets as QtWidgets
@@ -18,8 +21,12 @@ from gui.menubar import MenuBar
 from gui.queryInput import QueryInput
 from gui.user import UserUI
 #from gui.toolbar import Mixin as ToolbarMixin
-from gui.toolbar import Toolbar, QueryToolbar
+from gui.toolbar import Toolbar, QueryToolbar, Timeline
 from gui.tree import Mixin as TreeMixin
+import datetime
+import time
+import json
+
 
 class Gui(QtWidgets.QMainWindow, TreeMixin):
 
@@ -96,6 +103,13 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         self.queryUserToolbar = QueryToolbar(self, self.__windows[3], self.__windows[4])
         self.queryUserToolbar.queryUserButton()
         self.toolbar.navToolbar()
+        self.timeline = Timeline(self)
+        self.timeline.hide()
+        self.__queryFrames = []
+        self.playAnimation = False
+
+        self.communityUserPos = {}
+
 
     # Creates the plot widgets. suffix is used when a summary graph is created, for example
     def createPlots(self, suffix=""):
@@ -201,6 +215,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             self.queryUserPlots = []
         self.roadGraphWidget = None
         self.socialGraphWidget = None
+        self.timeline.hide()
 
     def dijkstra(self, queryUser):
         '''if self.selectedRoadNetwork is not None:
@@ -253,6 +268,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             self.toolbar.clusterInput()
             #self.__queryInput()
             self.updateSummaryGraph()
+            self.timeline.hide()
 
         # Switch view to main
         else:
@@ -276,6 +292,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             if self.selectedSocialNetwork is not None:
                 self.selectedSocialNetwork.visualize(self.socialGraphWidget, self.roadGraphWidget)
             self.plotQueryUser()
+            self.timeline.hide()
 
     def visualizeSummaryData(self, ids, centers, sizes, relations, popSize):
      
@@ -298,6 +315,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
                              str(relations[0][i - 1]) + str(relations[1][i - 1]))
         nt = Network()
         nt.from_nx(network)
+        nt.set_options('{"layout": {"randomSeed":5}}')
         nt.save_graph('nx.html')
         # LEGACY SOCIAL NETWORK GRAPH
         #self.socialGraphWidget.plot(centers[:, 0], centers[:, 1], pen=None, symbol='o', symbolSize=20,
@@ -345,10 +363,11 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         for key in tree["keywords"]:
             tempTitle += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
         tempTitle += '</ol>'
+        user_pos = self.communityUserPos[tree["user"]]
         if tree["satisfy"] == True:
-            graph.add_node(tree["user"], physics=False, label=str(tree["user"]), color='blue', size=15, title=tempTitle)
+            graph.add_node(tree["user"], x=user_pos["x"], y=user_pos["y"], physics=False, label=str(tree["user"]), color='blue', size=15, title=tempTitle)
         else:
-            graph.add_node(tree["user"], physics=False, label=str(tree["user"]), color='grey', size=15, title=tempTitle)
+            graph.add_node(tree["user"], x=user_pos["x"], y=user_pos["y"], physics=False, label=str(tree["user"]), color='grey', size=15, title=tempTitle)
         for c in list(tree["children"]):
             self.interactiveCommunityVisualNodes(tree["children"][c], graph)
         return graph
@@ -417,6 +436,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
                     graph.add_edge(u, r, color='black')
             nt = Network()
             nt.from_nx(graph)
+            nt.set_options('{"layout": {"randomSeed":2}}')
             nt.save_graph('kd-trust.html')
 
             qu = self.queryUser[0]
@@ -441,6 +461,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
 
     
     def updateKdSummaryGraph(self):
+        self.timeline.hide()
         self.socialNetWidget.reload()
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
@@ -469,7 +490,8 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             for key in queryKeys:
                 titleTemp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
             titleTemp += '</ol>'
-            graph.add_node(self.queryUser[0], physics=False, label=str('Query: ') + str(int(float(self.queryUser[0]))),
+            query_pos = self.communityUserPos[self.queryUser[0]]
+            graph.add_node(self.queryUser[0], x=query_pos["x"], y=query_pos["y"], physics=False, label=str('Query: ') + str(int(float(self.queryUser[0]))),
                                 color='green', size=15, shape='star', title=titleTemp)
 
 
@@ -485,6 +507,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
                     graph.add_edge(u, r, color='black')
             nt = Network()
             nt.from_nx(graph)
+            nt.set_options('{"layout": {"randomSeed":2}}')
             nt.save_graph('community-query.html')
 
             qu = self.queryUser[0]
@@ -524,6 +547,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
 
 
     def updateCommunitySummaryGraph(self):
+        self.timeline.hide()
         self.socialNetWidget.reload()
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
@@ -538,7 +562,149 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             res = self.queryInput.getCommunityResponse()
             community = self.communityTree(self.queryUser[0], queryKeywords, queryRels, float(res[0]), float(res[3]), float(res[4]), float(res[1]), float(res[2]), [], 0, 0)
             community = self.pruneTree(community)
+            temp_users = self.treeUsers()
+            users = list(set(temp_users[0]) | set(temp_users[1]))
+            for user in users:
+                self.communityUserPos[user] = {
+                    "x": random.randint(0, 350),
+                    "y": random.randint(0, 350)
+                }
             self.visualizeCommunityData(community)
+            # Stop counting time for query
+            self.CTend = time.time()
+            self.__UpdateQueryTime()
+            with open('community-query.html', 'r') as f:
+                html = f.read()
+                self.socialNetWidget.setHtml(html)
+
+
+    
+    def timelineThread(self):
+        # self.socialNetWidget.reload()
+        if not self.playAnimation:
+            return
+        # frame = self.timeline.getFrame()+1
+        for frame in range(self.timeline.getFrame()+1, 11):
+            if self.playAnimation:
+                self.timeline.setFrame(frame)
+                QTimer.singleShot(0, self.updateTimeline)  # Start the timer in the main thread
+                time.sleep(5)
+            else:
+                break
+        self.timeline.play.setText("Play")
+
+
+
+    def playTimeline(self):
+        self.playAnimation = not self.playAnimation
+        if self.playAnimation:
+            self.timeline_thread = threading.Thread(target=self.timelineThread)
+            self.timeline_thread.start()
+        self.timeline.play.setText("Pause" if self.playAnimation else "Play")
+        
+
+    def updateTimeline(self):
+        # values = self.timeline.getDates()
+        # # convert from int to dates
+        # start = str(datetime.date(2020, 1, 1) + datetime.timedelta(days=values[0]))
+        # end = str(datetime.date(2020, 1, 1) + datetime.timedelta(days=values[1]))
+
+        #self.socialNetWidget.reload()
+        # If social network is selected, display clusters
+        if self.selectedSocialNetwork is not None:
+            frame = self.timeline.getFrame()
+            self.visualizeCommunityData(self.__queryFrames[frame])
+            
+            with open('community-query.html', 'r') as f:
+                html = f.read()
+                self.socialNetWidget.setHtml(html)
+
+    def get_evenly_spaced_dates(self, start_date, end_date, num_dates):
+        delta = (end_date - start_date) / (num_dates - 1)
+        dates = [start_date + i * delta for i in range(num_dates)]
+        return dates
+        
+    
+    def updateCommunityTimeSummaryGraph(self):
+        self.timeline.show()
+        self.socialNetWidget.reload()
+        # If social network is selected, display clusters
+        if self.selectedSocialNetwork is not None:
+            
+            self.CTstart = time.time()
+
+            res = self.queryInput.getCommunityTimeResponse()
+            dates = self.get_evenly_spaced_dates(datetime.datetime.strptime(res[6], "%Y-%m-%d"), datetime.datetime.strptime(res[7], "%Y-%m-%d"), 10)
+            print(dates)
+
+            users = []
+            
+            for i in range(0, len(dates)+1):
+                if i == 0:
+                    queryKeywords = self.queryInput.getCommunityKeywords()
+                    
+                    queryKeywords += self.selectedSocialNetwork.getUserKeywordsInTime(self.queryUser[0], res[6], res[7])
+                    queryRelsRaw = self.selectedSocialNetwork.getUserRel(self.queryUser[0])
+                    queryPois = self.selectedSocialNetwork.getUserPoiInTime(self.queryUser[0], res[6], res[7])
+                    queryRels = []
+                    for r in queryRelsRaw:
+                        queryRels.append(r[0])
+                    community = self.communityTimeTree(
+                        self.queryUser[0], 
+                        queryKeywords, 
+                        queryRels, 
+                        queryPois, 
+                        res[6],
+                        res[7],
+                        float(res[0]), 
+                        float(res[3]), 
+                        float(res[4]),
+                        float(res[5]), 
+                        float(res[1]), 
+                        float(res[2]), 
+                        [], 
+                        0,
+                        0)
+                    self.__queryFrames.append(self.pruneTree(community))
+                    frame_users = self.treeUsers(community)
+                    temp_users = list(set(frame_users[0]) | set(frame_users[1]))
+                    users = list(set(users) | set(temp_users))
+                else:
+                    date = str(dates[i-1])
+                    queryKeywords = self.queryInput.getCommunityKeywords()
+                    res = self.queryInput.getCommunityTimeResponse()
+                    queryKeywords += self.selectedSocialNetwork.getUserKeywordsInTime(self.queryUser[0], res[6], date)
+                    queryRelsRaw = self.selectedSocialNetwork.getUserRel(self.queryUser[0])
+                    queryPois = self.selectedSocialNetwork.getUserPoiInTime(self.queryUser[0], res[6], date)
+                    queryRels = []
+                    for r in queryRelsRaw:
+                        queryRels.append(r[0])
+                    community = self.communityTimeTree(
+                        self.queryUser[0], 
+                        queryKeywords, 
+                        queryRels, 
+                        queryPois, 
+                        res[6],
+                        date,
+                        float(res[0]), 
+                        float(res[3]), 
+                        float(res[4]),
+                        float(res[5]), 
+                        float(res[1]), 
+                        float(res[2]), 
+                        [], 
+                        0,
+                        0)
+                    self.__queryFrames.append(self.pruneTree(community))
+                    frame_users = self.treeUsers(community)
+                    temp_users = list(set(frame_users[0]) | set(frame_users[1]))
+                    users = list(set(users) | set(temp_users))
+            for user in users:
+                self.communityUserPos[user] = {
+                    "x": random.randint(0, 500),
+                    "y": random.randint(0, 500)
+                }
+            self.visualizeCommunityData(self.__queryFrames[0])
             # Stop counting time for query
             self.CTend = time.time()
             self.__UpdateQueryTime()
