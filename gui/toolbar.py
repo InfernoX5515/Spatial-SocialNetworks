@@ -118,7 +118,7 @@ class QueryToolbar:
         phone.setText(self.gui.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["phone"])
         keywordString = ""
         for id in self.gui.selectedSocialNetwork.getUserKeywords(userList[listWidget.currentRow()]):
-            keywordString += self.gui.selectedSocialNetwork.getKeywordByID(id) + ": (" + self.gui.selectedSocialNetwork.userKeywordTime(userList[listWidget.currentRow()], id)[0] + " - " + self.gui.selectedSocialNetwork.userKeywordTime(userList[listWidget.currentRow()], id)[1] + ")\n"
+            keywordString += self.gui.selectedSocialNetwork.getKeywordByID(id) + "\n"
         keywordList.setText(keywordString)
 
     def showUsersWithKeywords(self):
@@ -236,11 +236,16 @@ class Timeline:
         self.timelineDateSlider.setRange(0, 10)
         self.timelineDateSlider.setTickInterval(1)
         self.timelineDateSlider.setTickPosition(QSlider.TicksBelow)
+        self.timelineDateSlider.valueChanged.connect(self.gui.updateTimeline)
         self.toolbar.addWidget(self.timelineDateSlider)
         self.visible = False
-        self.submit = QtWidgets.QPushButton("Refresh")
-        self.submit.clicked.connect(self.gui.updateTimeline)
-        self.toolbar.addWidget(self.submit)
+        # self.submit = QtWidgets.QPushButton("Refresh")
+        # self.submit.clicked.connect(self.gui.updateTimeline)
+        # self.toolbar.addWidget(self.submit)
+        self.startDate = QtWidgets.QLabel("None")
+        self.endDate = QtWidgets.QLabel("None")
+        self.toolbar.addWidget(self.startDate)
+        self.toolbar.addWidget(self.endDate)
 
     def show(self):
         if(self.visible):
@@ -265,6 +270,10 @@ class Timeline:
             self.play.setText("Pause")
         else:
             self.play.setText("Play")
+
+    def setDates(self, start, end):
+        self.startDate.setText(start)
+        self.endDate.setText(end)
 
 class Toolbar:
 

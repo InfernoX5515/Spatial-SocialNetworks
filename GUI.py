@@ -109,6 +109,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         self.playAnimation = False
 
         self.communityUserPos = {}
+        self.previousUsers = []
 
 
     # Creates the plot widgets. suffix is used when a summary graph is created, for example
@@ -371,6 +372,25 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         for c in list(tree["children"]):
             self.interactiveCommunityVisualNodes(tree["children"][c], graph)
         return graph
+    
+    def interactiveTimeVisualNodes(self, tree, previousUsers, graph=nx.Graph()):
+        tempTitle = '<p>Number of hops: ' + str(tree["hops"]) + '</p><p>Distance: ' + str(tree["distance"]) + '</p><p>Degree of Similarity:</p>' + str(tree["deg_sim"]) + '<p>Common Keywords:</p><ol>'
+        for key in tree["keywords"]:
+            tempTitle += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
+        tempTitle += '</ol>'
+        user_pos = self.communityUserPos[tree["user"]]
+        if tree["satisfy"] == True:
+            print(str(tree["user"]))
+            if str(tree["user"]) in previousUsers:
+                graph.add_node(tree["user"], x=user_pos["x"], y=user_pos["y"], physics=False, label=str(tree["user"]), color='#008cff', size=15, title=tempTitle)
+            else:
+                graph.add_node(tree["user"], x=user_pos["x"], y=user_pos["y"], physics=False, label=str(tree["user"]), color='blue', size=15, title=tempTitle)
+        else:
+            graph.add_node(tree["user"], x=user_pos["x"], y=user_pos["y"], physics=False, label=str(tree["user"]), color='grey', size=15, title=tempTitle)
+        for c in list(tree["children"]):
+            self.interactiveTimeVisualNodes(tree["children"][c], previousUsers, graph)
+        return graph
+
 
     #def visualizeKdData(self, users, keys, hops, dists):
     def visualizeKdData(self, kdTree):
@@ -478,6 +498,76 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             with open('kd-trust.html', 'r') as f:
                 html = f.read()
                 self.socialNetWidget.setHtml(html)
+
+    def visualizeCommunityTimeData(self, kdTree):
+        if self.queryUser is not None:
+            if self.timeline.getFrame() == 0 or self.previousUsers == 1:
+                self.previousUsers = []
+            else:
+                self.previousUsers, previousPass = self.treeUsers(self.__queryFrames[self.timeline.getFrame() - 1], [], [])
+            graph = self.interactiveTimeVisualNodes(kdTree, self.previousUsers, graph=nx.Graph())
+            titleTemp = '<p>Keywords:</p><ol>'
+            # Add query user
+            queryKeys = self.selectedSocialNetwork.getUserKeywords(self.queryUser[0])
+            for key in queryKeys:
+                titleTemp += '<li>' + str(self.selectedSocialNetwork.getKeywordByID(key)) + '</li>'
+            titleTemp += '</ol>'
+            query_pos = self.communityUserPos[self.queryUser[0]]
+            graph.add_node(self.queryUser[0], x=query_pos["x"], y=query_pos["y"], physics=False, label=str('Query: ') + str(int(float(self.queryUser[0]))),
+                                color='green', size=15, shape='star', title=titleTemp)
+
+
+            result_users, pass_users = self.treeUsers(kdTree, [], [])
+            all_users = set(result_users) | set(pass_users)
+            for u in all_users:
+                rels = self.selectedSocialNetwork.getUserRel(u)
+                rel_users = []
+                for r in rels:
+                    rel_users.append(r[0])
+                relations = set(rel_users) & set(all_users)
+                for r in relations:
+                    graph.add_edge(u, r, color='black')
+            nt = Network()
+            nt.from_nx(graph)
+            nt.set_options('{"layout": {"randomSeed":2}}')
+            nt.save_graph('community-query.html')
+
+            qu = self.queryUser[0]
+            #self.clearView()
+            
+            self.win.removeItem(self.roadGraphWidget)
+            self.roadGraphWidget = None
+            self.roadGraphWidget = self.win.addPlot(row=0, col=1, title="Community Query")
+            self.roadGraphWidget.clear()
+
+            if self.selectedRoadNetwork:
+                self.selectedRoadNetwork.visualize(self.roadGraphWidget)
+            #self.ids, self.centers, sizes, relations, popSize = self.selectedSocialNetwork.getSummaryClusters(self.clusterInput.textBox.text())
+            #self.visualizeSummaryData(self.ids, self.centers, sizes, relations, popSize)
+
+            
+            x = []
+            y = []
+            for user in result_users:
+                user_location = self.selectedSocialNetwork.userLoc(user)
+                x.append(float(user_location[0][0]))
+                y.append(float(user_location[0][1]))
+            self.roadGraphWidget.plot(x, y, pen=None, symbol='o', symbolSize=10,
+                                          symbolPen=(50, 50, 200, 100), symbolBrush=(50, 50, 200, 175))
+            #self.setQueryUser(qu)
+                #network.add_edge(self.queryUser[0], user, color='red')
+            #self.plotQueryUser()
+            if self.queryUser is not None:
+                if not self.queryUserPlots:
+                    [a.clear() for a in self.queryUserPlots]
+                self.queryUserPlots = []
+                color = 'green'
+                for loc in self.queryUser[1]:
+                    self.queryUserPlots.append(self.roadGraphWidget.plot([float(loc[0])], [float(loc[1])], pen=None,
+                                                                        symbol='star', symbolSize=30, symbolPen=color,
+                                                                        symbolBrush=color))
+
+
 
 
     def visualizeCommunityData(self, kdTree):
@@ -588,7 +678,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             if self.playAnimation:
                 self.timeline.setFrame(frame)
                 QTimer.singleShot(0, self.updateTimeline)  # Start the timer in the main thread
-                time.sleep(5)
+                time.sleep(2)
             else:
                 break
         self.timeline.play.setText("Play")
@@ -613,7 +703,11 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
         # If social network is selected, display clusters
         if self.selectedSocialNetwork is not None:
             frame = self.timeline.getFrame()
-            self.visualizeCommunityData(self.__queryFrames[frame])
+            if frame == 0:
+                self.timeline.setDates("Start :" + str(self.query_dates[0].strftime('%m/%d/%Y')), "End :" + str(self.query_dates[10].strftime('%m/%d/%Y')))
+            else:
+                self.timeline.setDates("Start :" + str(self.query_dates[0].strftime('%m/%d/%Y')), "End :" + str(self.query_dates[frame].strftime('%m/%d/%Y')))
+            self.visualizeCommunityTimeData(self.__queryFrames[frame])
             
             with open('community-query.html', 'r') as f:
                 html = f.read()
@@ -634,12 +728,11 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
             self.CTstart = time.time()
 
             res = self.queryInput.getCommunityTimeResponse()
-            dates = self.get_evenly_spaced_dates(datetime.datetime.strptime(res[6], "%Y-%m-%d"), datetime.datetime.strptime(res[7], "%Y-%m-%d"), 10)
-            print(dates)
+            self.query_dates = self.get_evenly_spaced_dates(datetime.datetime.strptime(res[6], "%Y-%m-%d"), datetime.datetime.strptime(res[7], "%Y-%m-%d"), 11)
 
             users = []
             
-            for i in range(0, len(dates)+1):
+            for i in range(0, len(self.query_dates)):
                 if i == 0:
                     queryKeywords = self.queryInput.getCommunityKeywords()
                     
@@ -670,7 +763,7 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
                     temp_users = list(set(frame_users[0]) | set(frame_users[1]))
                     users = list(set(users) | set(temp_users))
                 else:
-                    date = str(dates[i-1])
+                    date = str(self.query_dates[i-1])
                     queryKeywords = self.queryInput.getCommunityKeywords()
                     res = self.queryInput.getCommunityTimeResponse()
                     queryKeywords += self.selectedSocialNetwork.getUserKeywordsInTime(self.queryUser[0], res[6], date)
@@ -704,13 +797,14 @@ class Gui(QtWidgets.QMainWindow, TreeMixin):
                     "x": random.randint(0, 500),
                     "y": random.randint(0, 500)
                 }
-            self.visualizeCommunityData(self.__queryFrames[0])
+            # self.visualizeCommunityData(self.__queryFrames[0])
             # Stop counting time for query
             self.CTend = time.time()
             self.__UpdateQueryTime()
-            with open('community-query.html', 'r') as f:
-                html = f.read()
-                self.socialNetWidget.setHtml(html)
+            # with open('community-query.html', 'r') as f:
+            #     html = f.read()
+            #     self.socialNetWidget.setHtml(html)
+            self.updateTimeline()
 
     #Generate kdtrust from input
     def getKDTrust(self, keywords, hops, distance):
