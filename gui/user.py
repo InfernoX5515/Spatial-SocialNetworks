@@ -15,7 +15,7 @@ class UserUI:
         phone.setText(self.selectedSocialNetwork.getUserAttributes(userList[listWidget.currentRow()])["phone"])
         keywordString = ""
         for id in self.selectedSocialNetwork.getUserKeywords(userList[listWidget.currentRow()]):
-            keywordString += self.selectedSocialNetwork.getKeywordByID(id) + ": (" + self.gui.selectedSocialNetwork.userKeywordTime(userList[listWidget.currentRow()], id)[0] + " - " + self.gui.selectedSocialNetwork.userKeywordTime(userList[listWidget.currentRow()], id)[1] + ")\n"
+            keywordString += self.selectedSocialNetwork.getKeywordByID(id) + "\n"
         keywordList.setText(keywordString)
 
     def showClusterUsers(self, users):
