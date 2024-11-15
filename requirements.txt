@@ -9,3 +9,4 @@ numpy~=1.21.5
 scipy~=1.7.3
 anytree~=2.8.0
 superqt~=0.6.2
+six~=1.16.0
